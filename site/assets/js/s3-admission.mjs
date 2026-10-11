@@ -12,6 +12,12 @@ export function isExamQuestionReuseEligible(row){
 }
 
 export function hasAcceptedScienceAnswer(row){
+  if(row?.answer_evidence_status==="SCIENCE_REASONED_GPT6_REVIEWED"
+    && row.model_science_answer_review_completed===true
+    && row.science_answer_source==="GPT6_S3_P08_REASONED_REVIEW"
+    && ["TRUE","FALSE"].includes(row.answer_normalized)
+    && typeof row.science_review_reason==="string"&&row.science_review_reason.trim()
+    && typeof row.science_review_qualification==="string"&&row.science_review_qualification.trim())return true;
   return row?.answer_evidence_status==="SCIENCE_REASONED_OPERATOR_ACCEPTED"
     && row.operator_answer_accepted===true
     && row.science_answer_source==="S3_P03_SCIENCE_REVIEW"

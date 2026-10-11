@@ -10,3 +10,13 @@ test("exact legacy and canonical KP ids maintain lineage",()=>{const u=resolveUn
 test("no public copyrighted statements or evidences in selector projection",()=>{for(const kp of db.units.flatMap(u=>u.knowledge_points)){assert.deepEqual(Object.keys(kp).sort(),["canonical_kp_id","kp_id","title"]);}});
 test("fail closed for a missing unit, corrupted count, and duplicate ids",()=>{const x=structuredClone(db);x.units[0].knowledge_points.pop();assert.throws(()=>validateAuthority(x));const y=structuredClone(db);y.units[1].knowledge_points[0].canonical_kp_id=y.units[0].knowledge_points[0].canonical_kp_id;assert.throws(()=>validateAuthority(y));});
 test("assessment scope remains U01/U02 and U03/U04",()=>{assert.deepEqual(db.assessment_scope,{MIDTERM:["U01","U02"],FINAL:["U03","U04"]})});
+
+test("frozen exact source titles and ID lineage match all four uploaded authority JSONs",()=>{
+  const checks=new Map([["3-1","2e67d173"],["3-2","29c25fc9"],["4-1","562c167c"],["4-2","7cf2bbf5"]]);
+  for(const [scope,expected] of checks){
+    const [grade,semester]=scope.split("-").map(Number);
+    const text=db.units.filter(u=>u.grade===grade&&u.semester===semester).flatMap(u=>u.knowledge_points.map(k=>k.canonical_kp_id+"|"+k.kp_id+"|"+k.title+"\n")).join("");
+    let h=2166136261;for(let i=0;i<text.length;i++){h^=text.charCodeAt(i);h=Math.imul(h,16777619)>>>0;}
+    assert.equal(h.toString(16).padStart(8,"0"),expected,scope+" original ZIP parity");
+  }
+});

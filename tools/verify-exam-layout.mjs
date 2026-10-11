@@ -42,6 +42,18 @@ try {
       assert.equal(await page.locator("#kp option").count(),nums[i],scope+" U"+(i+1)+" KP selector");
     }
   }
+  await page.selectOption("#grade","4");
+  await page.selectOption("#semester","S1");
+  await page.selectOption("#mode","cross_unit");
+  assert.equal(await page.locator("#cross-kps input").count(),23,"cross-unit KP options should be 11+12");
+  assert.equal(await page.locator("#cross-kps input:checked").count(),23,"cross-unit KP default selection");
+  await page.evaluate(()=>{
+    const options=[...document.querySelectorAll("#cross-kps input")];
+    for(const el of options) if(el.value.startsWith("sci_g04s1_01_")) el.checked=false;
+  });
+  await page.locator("#generate").click();
+  assert.equal(await page.locator("#status").getAttribute("data-error"),"true","cross-unit must retain at least one KP per selected unit");
+  await page.selectOption("#mode","single_unit");
   await page.selectOption("#grade","3");
   await page.selectOption("#semester","S1");
   await page.selectOption("#unit","3-S1-U01");

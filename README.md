@@ -31,3 +31,10 @@ CI 通過與 Pages workflow success 是部署必要證據；瀏覽器互動、A4
 目前 GitHub 是較精簡的 S1 部署版，**尚未逐檔上傳先前本機 ZIP 的全部模組與 16 項測試**，不能宣稱其和本機 ZIP 完全相同。目前 GitHub 的 CI 只測試已提交的測試集合。
 
 後續應先完成完整程式碼 parity 與真實瀏覽器回歸測試，再進入 S2 正式 KP Authority Adapter。
+
+
+## S2：正式自然科 KP 選擇器
+
+已接入 113 康軒三上、三下、四上、四下，共 **16 單元、187 KP**。年級／學期／單元／KP 由正式 V2 Authority 的公開 metadata 投影載入；原始教材敘述及來源證據不公開。
+
+**這不代表已匯入真實考古題。** 目前所有示範題維持 DEMO_ONLY，正式題庫與 GPT-6 逐題認證屬於 S3。詳細資料與驗收界線請參閱 [S2 紀錄](docs/S2_187KP_AUTHORITY_INTEGRATION.md)。

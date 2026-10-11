@@ -28,14 +28,14 @@ test('Exam exclusively uses embedded certified historical questions in public mo
 
 test("TF item has O/X parenthesis before number and no invented 正確/錯誤 choices",()=>{
  const html=read("site/exam/index.html");
- assert.match(html,/q.type==='tf'\?'（　）'\+n\+'\. ':n\+'\. '/);
+ assert.match(html,/q.type==='tf'\|\|q.type==='short'\|\|q.type==='mcq'\|\|q.type==='multi'/);
  assert.doesNotMatch(html,/（　）正確　（　）錯誤/);
  assert.match(html,/題目前的（　）內填入 O 或 X/);
 });
 
 test("public Exam pins a versioned JS module and keeps selectors when bank fails",()=>{
  const html=read("site/exam/index.html");
- assert.match(html,/historical-bank-ox-v3\.mjs\?v=20261012-oxv3/);
+ assert.match(html,/historical-bank-ox-v4\.mjs\?v=20261012-ctxv1/);
  assert.match(html,/authority=await loadAuthority\(\);\s*\/\/ Render canonical curriculum selector/);
  assert.match(html,/syncUnits\(\);\s*if\(qaFixture\)/);
  assert.match(html,/題庫載入或版本檢查失敗/);

@@ -1,0 +1,76 @@
+{
+  "schema_version": "SCIENCE_EXAM_S3_P02_PUBLIC_STATUS_V1",
+  "phase": "S3_P02_ANSWER_KP_AND_CONTEXT_REVIEW",
+  "source_count": 4,
+  "candidate_count": 40,
+  "model_answer_proposed": 40,
+  "answer_ambiguity_cases": 7,
+  "first_pass_exact_kp_proposals": 36,
+  "exact_kp_proposed": 34,
+  "kp_unresolved": 6,
+  "kp_reassignment_proposed": 4,
+  "context_image_regions": 21,
+  "atomic_context_groups": 20,
+  "source_pdf_sha256_verified": 4,
+  "teacher_answer_key_authenticated": 0,
+  "reviewed_answers": 0,
+  "verified_answers": 0,
+  "public_certified": 0,
+  "public_reuse_rights_verified": 0,
+  "public_question_payloads": [],
+  "source_scope": [
+    {
+      "source_id": "G03-S1-MID",
+      "year": 113,
+      "grade": 3,
+      "semester": "S1",
+      "exam": "MIDTERM",
+      "scoped_units": [
+        "U01",
+        "U02"
+      ],
+      "pilot_candidates": 10
+    },
+    {
+      "source_id": "G03-S1-FINAL",
+      "year": 113,
+      "grade": 3,
+      "semester": "S1",
+      "exam": "FINAL",
+      "scoped_units": [
+        "U03",
+        "U04"
+      ],
+      "pilot_candidates": 10
+    },
+    {
+      "source_id": "G04-S1-MID",
+      "year": 113,
+      "grade": 4,
+      "semester": "S1",
+      "exam": "MIDTERM",
+      "scoped_units": [
+        "U01",
+        "U02"
+      ],
+      "pilot_candidates": 10
+    },
+    {
+      "source_id": "G04-S1-FINAL",
+      "year": 113,
+      "grade": 4,
+      "semester": "S1",
+      "exam": "FINAL",
+      "scoped_units": [
+        "U03",
+        "U04"
+      ],
+      "pilot_candidates": 10
+    }
+  ],
+  "answer_policy": "MODEL_PROPOSALS_ONLY_NO_TEACHER_KEY_AUTHENTICATED",
+  "rights_status": "NOT_VERIFIED",
+  "notes": "21 cropped source regions, 20 atomic context groups and 40 model answer proposals are private and NOT committed to this repository. Status contains metadata only; no copyrighted question text or source images.",
+  "demo_only_bank_separate": true,
+  "frozen_authority": "187_KP_V2"
+}

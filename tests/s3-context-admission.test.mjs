@@ -1,0 +1,13 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import {readFileSync} from "node:fs";
+import {validateAtomicContext,contextPublicAdmission} from "../site/assets/js/s3-context-admission.mjs";
+const data=JSON.parse(readFileSync("site/data/question-bank/s3-p02-status.json","utf8"));
+const hash="a".repeat(64),asset="b".repeat(64);
+const a={source_id:"PRIVATE_SOURCE_1",source_page_pdf_1_based:2,source_pdf_sha256:hash,asset_sha256:asset,part:"PART_A",bbox_pdf_pt:[2,4,110,160],asset_review_verified:true};
+const b={...a,part:"PART_B",bbox_pdf_pt:[200,4,360,170]};
+const good={context_group_id:"TEST_GROUP",question_ids:["Q1","Q2"],regions:[a,b],source_visual_review_verified:true,dependencies_complete:true,answer_review_verified:true,kp_review_verified:true,public_reuse_rights_verified:true,admission_status:"CERTIFIED_PUBLIC"};
+test("S3 P02 public metadata has zero historical questions",()=>{assert.equal(data.source_count,4);assert.equal(data.candidate_count,40);assert.equal(data.model_answer_proposed,40);assert.equal(data.answer_ambiguity_cases,7);assert.equal(data.exact_kp_proposed,34);assert.equal(data.kp_unresolved,6);assert.equal(data.kp_reassignment_proposed,4);assert.equal(data.context_image_regions,21);assert.equal(data.atomic_context_groups,20);assert.equal(data.teacher_answer_key_authenticated,0);assert.equal(data.verified_answers,0);assert.equal(data.public_certified,0);assert.equal(data.public_reuse_rights_verified,0);assert.deepEqual(data.public_question_payloads,[]);assert.ok(!JSON.stringify(data).includes("raw_question_text"));});
+test("split-column reading context uses same source and distinct parts",()=>{assert.equal(validateAtomicContext(good),good);assert.equal(contextPublicAdmission(good).allowed,true);assert.throws(()=>validateAtomicContext({...good,regions:[a,{...b,source_id:"DIFFERENT"}]}));assert.throws(()=>validateAtomicContext({...good,regions:[a,{...b,part:"PART_A"}]}));});
+test("cross-column context refuses public admission without review and rights",()=>{const x={...good,public_reuse_rights_verified:false,answer_review_verified:false};const r=contextPublicAdmission(x);assert.equal(r.allowed,false);assert.ok(r.reasons.includes("CONTEXT_REUSE_RIGHTS_MISSING"));assert.ok(r.reasons.includes("CONTEXT_ANSWER_REVIEW_PENDING"));});
+test("unreviewed missing context assets remain quarantined",()=>{const x={...good,regions:[{...a,asset_review_verified:false}],dependencies_complete:false,admission_status:"QUARANTINED"};const r=contextPublicAdmission(x);assert.equal(r.allowed,false);assert.ok(r.reasons.includes("CONTEXT_REGION_REVIEW_PENDING"));});

@@ -31,3 +31,13 @@ test("Article 9 never waives unresolved KP or missing figure safeguards",()=>{
  assert.equal(certificationGate({...base,kp_review_verified:false},authority).allowed,false);
  assert.throws(()=>certificationGate({...base,image_dependency:"SOURCE_FIGURE",assets_complete:false}),/dependent image required/);
 });
+
+test("science answer accepted by operator with documented limitations can replace missing teacher key",()=>{
+ const x={...fixture,answer_evidence_status:"SCIENCE_REASONED_OPERATOR_ACCEPTED",operator_answer_accepted:true,
+ science_answer_source:"S3_P03_SCIENCE_REVIEW",science_review_reason:"Independent science evidence",science_review_qualification:"Under normal classroom conditions",answer_normalized:"TRUE",
+ mapping_status:"KP_NEAREST_OPERATOR_ACCEPTED",operator_kp_accepted:true,nearest_relation_reason:"Related, non-exact educational concept"};
+ assert.equal(certificationGate(x,authority).allowed,true);
+ assert.equal(certificationGate({...x,operator_answer_accepted:false},authority).allowed,false);
+ assert.equal(certificationGate({...x,science_review_qualification:""},authority).allowed,false);
+ assert.equal(certificationGate({...x,operator_kp_accepted:false},authority).allowed,false);
+});

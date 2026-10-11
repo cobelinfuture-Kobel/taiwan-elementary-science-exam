@@ -10,6 +10,23 @@ export function isExamQuestionReuseEligible(row){
     && row.public_material_scope==="EXAM_QUESTION_TEXT_ONLY"
     && row.original_teacher_answer_text_excluded===true;
 }
+
+export function hasAcceptedScienceAnswer(row){
+  return row?.answer_evidence_status==="SCIENCE_REASONED_OPERATOR_ACCEPTED"
+    && row.operator_answer_accepted===true
+    && row.science_answer_source==="S3_P03_SCIENCE_REVIEW"
+    && ["TRUE","FALSE"].includes(row.answer_normalized)
+    && typeof row.science_review_reason==="string"&&row.science_review_reason.trim().length>0
+    && typeof row.science_review_qualification==="string"&&row.science_review_qualification.trim().length>0;
+}
+export function hasAcceptedKPMapping(row){
+  if(["KP_CERTIFIED","KP_EXACT_SCIENCE_REVIEWED"].includes(row?.mapping_status))return true;
+  if(row?.mapping_status==="KP_NEAREST_OPERATOR_ACCEPTED")
+    return row.operator_kp_accepted===true&&typeof row.nearest_relation_reason==="string"&&row.nearest_relation_reason.trim().length>0;
+  if(row?.mapping_status==="KP_RELATED_SCIENCE_REVIEWED")
+    return typeof row.science_review_qualification==="string"&&row.science_review_qualification.trim().length>0;
+  return false;
+}
 export const S3_POLICY_VERSION="SCIENCE_S3_QUESTION_ADMISSION_V1";
 export const EVIDENCE_STATES=Object.freeze({
   NO_KEY:"ANSWER_KEY_NOT_PRESENT",
@@ -34,10 +51,10 @@ export function validateCandidateShape(row){
 export function certificationGate(candidate, authority){
   validateCandidateShape(candidate);
   const reasons=[];
-  if(candidate.answer_evidence_status!==EVIDENCE_STATES.VERIFIED||candidate.answer_review_verified!==true||candidate.answer_normalized==null)
+  if(!(candidate.answer_evidence_status===EVIDENCE_STATES.VERIFIED||hasAcceptedScienceAnswer(candidate))||candidate.answer_review_verified!==true||candidate.answer_normalized==null)
     reasons.push("ANSWER_UNVERIFIED");
   if(candidate.source_visual_review_verified!==true)reasons.push("SOURCE_VISUAL_REVIEW_PENDING");
-  if(candidate.kp_review_verified!==true||candidate.mapping_status!=="KP_CERTIFIED")reasons.push("KP_REVIEW_PENDING");
+  if(candidate.kp_review_verified!==true||!hasAcceptedKPMapping(candidate))reasons.push("KP_REVIEW_PENDING");
   if(candidate.dependency_review_verified!==true||candidate.assets_complete!==true)reasons.push("DEPENDENCIES_INCOMPLETE");
   if(!isExamQuestionReuseEligible(candidate))reasons.push("REUSE_RIGHTS_NOT_VERIFIED");
   if(candidate.primary_canonical_kp_id==null||!authority?.units?.some(u=>u.knowledge_points?.some(k=>k.canonical_kp_id===candidate.primary_canonical_kp_id)))reasons.push("AUTHORITY_KP_NOT_FOUND");

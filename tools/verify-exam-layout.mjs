@@ -190,6 +190,8 @@ try {
       && !geom.horizontalClip && !geom.verticalClip,"group overflow: "+kp+" "+JSON.stringify(geom));
   }
   console.log("S3_P08_NINE_GROUP_VISUAL_PASS");
+  await live.selectOption("#grade","3");
+  await live.selectOption("#semester","S1");
   await live.selectOption("#unit","3-S1-U01");
   await live.selectOption("#mode","single_unit");
   await live.fill("#count","1");

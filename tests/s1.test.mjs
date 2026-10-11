@@ -1,2 +1,14 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';const read=p=>fs.readFileSync(p,'utf8');const fixture=JSON.parse(read('site/data/layout-demo.json'));test('fixture is demo only',()=>assert.equal(fixture.admission,'DEMO_ONLY'));test('no duplicate ids',()=>assert.equal(new Set(fixture.blocks.map(x=>x.id)).size,fixture.blocks.length));test('site entrypoints',()=>{assert.match(read('site/index.html'),/exam\//);assert.match(read('site/exam/index.html'),/DEMO_ONLY/)});test('reading group has passage and children',()=>{const g=fixture.blocks.find(x=>x.type==='group');assert.ok(g.passage);assert.ok(g.items.length>=2)});test('print and answer surface',()=>{const html=read('site/exam/index.html');assert.match(html,/@page/);assert.match(html,/answer-key/);assert.match(html,/window.print/)});
 test('demo figures preserve intrinsic aspect ratio in preview and print',()=>{const html=read('site/exam/index.html');assert.doesNotMatch(html,/\.diagram\{width:100%/);assert.match(html,/\.group img,\.group svg\.diagram,\.question img,\.question svg\.diagram\{/);assert.match(html,/width:auto;height:auto;max-width:100%;max-height:38mm;object-fit:contain/);assert.match(html,/fig\.setAttribute\('width','420'\)/);assert.match(html,/fig\.setAttribute\('height','110'\)/);assert.match(html,/fig\.setAttribute\('preserveAspectRatio','xMidYMid meet'\)/);});
+
+test('reading groups occupy a single A4 column and remain atomic',()=>{
+  const html=read('site/exam/index.html');
+  assert.match(html,/const newPage=\(\)=>\{const p=paper\(false\);layout\(p,'two'\)/);
+  assert.match(html,/const el=b.type==='group'\?group\(b,start\):question\(b,num\+1\)/);
+  assert.doesNotMatch(html,/const wide=b.type==='group'/);
+  assert.match(html,/grid-template-columns:repeat\(2,minmax\(0,1fr\)\)/);
+  assert.match(html,/\.group\{[^}]*break-inside:avoid[^}]*max-width:100%/);
+  assert.match(html,/scrollWidth>x.clientWidth\+2/);
+  assert.match(html,/target\.removeChild\(el\);if\(col\+1<current\.targets\.length\)col\+\+/);
+  assert.match(html,/if\(!mounted\)throw Error\('題目內容過高，拒絕裁切'\)/);
+});

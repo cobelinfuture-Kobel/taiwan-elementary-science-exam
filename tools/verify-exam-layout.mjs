@@ -145,7 +145,7 @@ try {
   statusPage.on("pageerror",err=>errors.push(String(err)));
   await statusPage.goto("http://127.0.0.1:" + server.address().port + "/review/",{waitUntil:"networkidle"});
   await statusPage.waitForFunction(()=>document.querySelector("#candidates")?.textContent==="40",{timeout:15000});
-  assert.deepEqual(await Promise.all(["sources","candidates","mapped","unresolved","answers","admitted","proposals","ambiguous","regions","groups"].map(id=>statusPage.locator("#"+id).textContent())),["4","40","34","6","0","0","40","7","21","20"]);
+  assert.deepEqual(await Promise.all(["sources","candidates","mapped","unresolved","answers","admitted","proposals","ambiguous","regions","groups"].map(id=>statusPage.locator("#"+id).textContent())),["4","40","34","6","0","7","40","7","21","20"]);
   assert.equal(await statusPage.locator("#table tr").count(),4,"all four source scopes must be visible");
   assert.deepEqual(errors,[],"no browser JS errors on S3 metadata dashboard");
   await statusPage.screenshot({path:output+"/s3-status-dashboard.png",fullPage:true});
@@ -158,7 +158,7 @@ try {
   await p03Page.screenshot({path:output+"/s3-p03-review-dashboard.png",fullPage:true});
   await p03Page.close();
   await statusPage.close();
-  console.log("S3_P02_PUBLIC_DASHBOARD_PASS: 4 sources, 40 proposals, 21 context regions, 20 groups, 0 admitted");
+  console.log("S3_P05_PUBLIC_DASHBOARD_PASS: 40 original candidates, 7 built in");
   console.log("BROWSER_LAYOUT_PASS=" + JSON.stringify({ screen, print }, null, 2));
 } finally {
   if (browser) await browser.close();

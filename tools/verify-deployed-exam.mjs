@@ -28,7 +28,7 @@ try {
   assert.deepEqual(errors,[],"No JavaScript runtime errors");
   assert.ok(assetUrls.some(x=>x.includes("historical-bank-ox-v3.mjs")),"Actual browser must load v2 JS module");
   assert.ok(assetUrls.some(x=>x.includes("approved-historical-ox-v3.json")),"Actual browser must load v2 JSON");
-  const asset=await page.request.get(base+"/data/question-bank/approved-historical-ox-v2.json");
+  const asset=await page.request.get(base+"/data/question-bank/approved-historical-ox-v3.json");
   assert.equal(asset.status(),200,"Live JSON directly accessible");
   assert.equal((await asset.json()).asset_revision,rev,"Live JSON revision");
   const screen=await page.screenshot({path:"artifacts/deployed-browser/ox-question-visible.png",fullPage:true});

@@ -120,6 +120,14 @@ try {
   assert.equal(await statusPage.locator("#table tr").count(),4,"all four source scopes must be visible");
   assert.deepEqual(errors,[],"no browser JS errors on S3 metadata dashboard");
   await statusPage.screenshot({path:output+"/s3-status-dashboard.png",fullPage:true});
+  const p03Page=await browser.newPage({viewport:{width:1200,height:850}});
+  const p03Errors=[];p03Page.on("pageerror",e=>p03Errors.push(String(e)));
+  await p03Page.goto("http://127.0.0.1:"+server.address().port+"/review/p03/",{waitUntil:"networkidle"});
+  await p03Page.waitForFunction(()=>document.querySelector("#a")?.textContent==="7");
+  assert.deepEqual(await Promise.all(["a","s","c","k","m","p"].map(id=>p03Page.locator("#"+id).textContent())),["7","3","4","6","0","0"]);
+  assert.deepEqual(p03Errors,[]);
+  await p03Page.screenshot({path:output+"/s3-p03-review-dashboard.png",fullPage:true});
+  await p03Page.close();
   await statusPage.close();
   console.log("S3_P02_PUBLIC_DASHBOARD_PASS: 4 sources, 40 proposals, 21 context regions, 20 groups, 0 admitted");
   console.log("BROWSER_LAYOUT_PASS=" + JSON.stringify({ screen, print }, null, 2));

@@ -12,3 +12,22 @@ test("unverified answer never enters a certified public pool",()=>{const x={...f
 test("unresolved exact-KP mapping cannot claim admitted status",()=>{const x={...fixture,mapping_status:"KP_UNRESOLVED",primary_canonical_kp_id:null};assert.equal(certificationGate(x,authority).allowed,false);});
 test("dependently illustrated questions must retain their figures",()=>{const x={...fixture,image_dependency:"SOURCE_FIGURE",assets_complete:false};assert.throws(()=>certificationGate(x,authority),/dependent image required/);});
 test("only fully certified and authorized synthetic question can pass",()=>{assert.equal(certificationGate(fixture,authority).allowed,true);assert.equal(assertNoUncertifiedQuestions([fixture],authority).length,1);});
+
+test("Taiwan Article 9 path permits only verified lawfully held exam question text",()=>{
+ const source={...fixture,license_status:"REGULATED_EXAM_QUESTION_ART9",
+    regulated_exam_identity_verified:true,third_party_content_clearance:"NO_THIRD_PARTY_COPY",
+    public_material_scope:"EXAM_QUESTION_TEXT_ONLY",original_teacher_answer_text_excluded:true};
+ assert.equal(certificationGate(source,authority).allowed,true);
+ assert.equal(certificationGate({...source,regulated_exam_identity_verified:false},authority).allowed,false);
+ assert.equal(certificationGate({...source,third_party_content_clearance:"UNCHECKED"},authority).allowed,false);
+ assert.equal(certificationGate({...source,public_material_scope:"WHOLE_EXAM_SCAN"},authority).allowed,false);
+ assert.equal(certificationGate({...source,original_teacher_answer_text_excluded:false},authority).allowed,false);
+ assert.equal(certificationGate({...source,answer_review_verified:false},authority).allowed,false);
+});
+test("Article 9 never waives unresolved KP or missing figure safeguards",()=>{
+ const base={...fixture,license_status:"REGULATED_EXAM_QUESTION_ART9",
+    regulated_exam_identity_verified:true,third_party_content_clearance:"NO_THIRD_PARTY_COPY",
+    public_material_scope:"EXAM_QUESTION_TEXT_ONLY",original_teacher_answer_text_excluded:true};
+ assert.equal(certificationGate({...base,kp_review_verified:false},authority).allowed,false);
+ assert.throws(()=>certificationGate({...base,image_dependency:"SOURCE_FIGURE",assets_complete:false}),/dependent image required/);
+});

@@ -1,3 +1,15 @@
+export const RIGHTS_POLICY_VERSION="SCIENCE_EXAM_S3_P03_TAIWAN_ART9_V1";
+// Article 9 covers qualifying lawfully held exam questions, not copied third-party
+// readings, illustrations, teacher explanations, or unrelated proprietary assets.
+// These fields must be affirmed for the *particular* question; never infer from filename.
+export function isExamQuestionReuseEligible(row){
+  if(row?.license_status==="PUBLIC_REUSE_AUTHORIZED")return true;
+  return row?.license_status==="REGULATED_EXAM_QUESTION_ART9"
+    && row.regulated_exam_identity_verified===true
+    && row.third_party_content_clearance==="NO_THIRD_PARTY_COPY"
+    && row.public_material_scope==="EXAM_QUESTION_TEXT_ONLY"
+    && row.original_teacher_answer_text_excluded===true;
+}
 export const S3_POLICY_VERSION="SCIENCE_S3_QUESTION_ADMISSION_V1";
 export const EVIDENCE_STATES=Object.freeze({
   NO_KEY:"ANSWER_KEY_NOT_PRESENT",
@@ -27,7 +39,7 @@ export function certificationGate(candidate, authority){
   if(candidate.source_visual_review_verified!==true)reasons.push("SOURCE_VISUAL_REVIEW_PENDING");
   if(candidate.kp_review_verified!==true||candidate.mapping_status!=="KP_CERTIFIED")reasons.push("KP_REVIEW_PENDING");
   if(candidate.dependency_review_verified!==true||candidate.assets_complete!==true)reasons.push("DEPENDENCIES_INCOMPLETE");
-  if(candidate.license_status!=="PUBLIC_REUSE_AUTHORIZED")reasons.push("REUSE_RIGHTS_NOT_VERIFIED");
+  if(!isExamQuestionReuseEligible(candidate))reasons.push("REUSE_RIGHTS_NOT_VERIFIED");
   if(candidate.primary_canonical_kp_id==null||!authority?.units?.some(u=>u.knowledge_points?.some(k=>k.canonical_kp_id===candidate.primary_canonical_kp_id)))reasons.push("AUTHORITY_KP_NOT_FOUND");
   if(candidate.admission_status!=="CERTIFIED_PUBLIC")reasons.push("NOT_CERTIFIED_FOR_PUBLIC");
   return {allowed:reasons.length===0,reasons};

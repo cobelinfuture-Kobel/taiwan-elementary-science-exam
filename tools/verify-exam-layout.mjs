@@ -158,6 +158,38 @@ try {
   assert.equal(await live.locator(".group-context .question").count(),12);
   assert.ok((await live.locator(".paper[data-answer='true']").first().innerText()).includes("③"),"group answers must be retained");
   await live.screenshot({path:output+"/s3-p08-first-approved-context.png",fullPage:true});
+  const groupCases=[
+    ["3","3-S1-U02","sci_g03s1_02_09",12],
+    ["3","3-S1-U02","sci_g03s1_02_06",8],
+    ["3","3-S1-U04","sci_g03s1_04_08",3],
+    ["4","4-S1-U02","sci_g04s1_02_11",4],
+    ["4","4-S1-U01","sci_g04s1_01_02",4],
+    ["4","4-S1-U02","sci_g04s1_02_03",7],
+    ["4","4-S1-U01","sci_g04s1_01_09",5],
+    ["4","4-S1-U04","sci_g04s1_04_05",1],
+    ["4","4-S1-U03","sci_g04s1_03_07",2]
+  ];
+  for(const [grade,unit,kp,slots] of groupCases){
+    await live.selectOption("#grade",grade);
+    await live.selectOption("#semester","S1");
+    await live.selectOption("#unit",unit);
+    await live.selectOption("#mode","single_kp");
+    await live.selectOption("#kp",kp);
+    await live.fill("#count",String(slots));
+    await live.locator("#generate").click();
+    const status=await live.locator("#status").textContent();
+    assert.equal(await live.locator("#status").getAttribute("data-error"),"false","full source context failed: "+kp+" "+status);
+    assert.equal(await live.locator(".paper:not([data-answer='true']) .group-context").count(),1,"atomic source group count: "+kp);
+    assert.equal(await live.locator(".paper:not([data-answer='true']) .group-context .question").count(),slots,"atomic answer slots: "+kp);
+    const geom=await live.locator(".paper:not([data-answer='true']) .group-context").evaluate(el=>{
+      const p=el.closest(".col"),a=el.getBoundingClientRect(),b=p.getBoundingClientRect();
+      return {left:a.left,right:a.right,top:a.top,bottom:a.bottom,columnLeft:b.left,columnRight:b.right,columnBottom:b.bottom,
+       horizontalClip:el.scrollWidth>el.clientWidth+2,verticalClip:el.scrollHeight>el.clientHeight+2};
+    });
+    assert.ok(geom.left>=geom.columnLeft-2 && geom.right<=geom.columnRight+2 && geom.bottom<=geom.columnBottom+2
+      && !geom.horizontalClip && !geom.verticalClip,"group overflow: "+kp+" "+JSON.stringify(geom));
+  }
+  console.log("S3_P08_NINE_GROUP_VISUAL_PASS");
   await live.selectOption("#unit","3-S1-U01");
   await live.selectOption("#mode","single_unit");
   await live.fill("#count","1");

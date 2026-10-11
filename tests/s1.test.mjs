@@ -40,3 +40,12 @@ test("public Exam pins a versioned JS module and keeps selectors when bank fails
  assert.match(html,/syncUnits\(\);\s*if\(qaFixture\)/);
  assert.match(html,/題庫載入或版本檢查失敗/);
 });
+
+test("historical context group renderer preserves all subquestions in a single column",()=>{
+ const html=read("site/exam/index.html");
+ assert.match(html,/function sourceContextGroup\(b,start\)/);
+ assert.match(html,/b\.items\.forEach\(\(item,i\)=>a\.append\(question\(item,start\+i\)\)\)/);
+ assert.match(html,/group-context/);
+ assert.match(html,/answers\.push\(\{number:\+\+ix,answer:sub\.answer,explanation:sub\.answer_explanation/);
+ assert.match(html,/break-inside:avoid/);
+});

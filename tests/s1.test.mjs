@@ -32,3 +32,11 @@ test("TF item has O/X parenthesis before number and no invented 正確/錯誤 ch
  assert.doesNotMatch(html,/（　）正確　（　）錯誤/);
  assert.match(html,/題目前的（　）內填入 O 或 X/);
 });
+
+test("public Exam pins a versioned JS module and keeps selectors when bank fails",()=>{
+ const html=read("site/exam/index.html");
+ assert.match(html,/historical-bank-ox-v2\.mjs\?v=20261012-oxv2/);
+ assert.match(html,/authority=await loadAuthority\(\);\s*\/\/ Render canonical curriculum selector/);
+ assert.match(html,/syncUnits\(\);\s*if\(qaFixture\)/);
+ assert.match(html,/題庫載入或版本檢查失敗/);
+});

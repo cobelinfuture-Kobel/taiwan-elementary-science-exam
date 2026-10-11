@@ -1,8 +1,8 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {readFileSync} from "node:fs";
-import {validateAndConvertEmbeddedBank} from "../site/assets/js/historical-bank.mjs";
-const db=JSON.parse(readFileSync("site/data/question-bank/approved-historical-v1.json","utf8"));
+import {validateAndConvertEmbeddedBank} from "../site/assets/js/historical-bank-ox-v2.mjs";
+const db=JSON.parse(readFileSync("site/data/question-bank/approved-historical-ox-v2.json","utf8"));
 const authority=JSON.parse(readFileSync("site/data/authority/science-g03-g04-selector-v2.json","utf8"));
 test("approved seven historical school items are built in and have canonical IDs",()=>{
  const bank=validateAndConvertEmbeddedBank(db,authority);
@@ -39,4 +39,10 @@ test("OX exam format is the canonical answer encoding, not Chinese true/false",(
  assert.deepEqual(new Set(bank.blocks.map(x=>x.answer)),new Set(["O","X"]));
  const invalid=structuredClone(db);invalid.blocks[0].answer="正確";
  assert.throws(()=>validateAndConvertEmbeddedBank(invalid,authority),/答案不完整/);
+});
+
+test("a deployed historical dataset must match its module revision",()=>{
+  assert.equal(db.asset_revision,"SCIENCE_S3_P06_OX_V2");
+  const older=structuredClone(db);delete older.asset_revision;
+  assert.throws(()=>validateAndConvertEmbeddedBank(older,authority),/版本不相容/);
 });

@@ -50,7 +50,7 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 </main>
 <script type="module">
 import { loadAuthority, unitsFor, resolveUnit } from "../assets/js/authority-adapter.mjs";
-import { loadEmbeddedHistoricalBank } from "../assets/js/historical-bank.mjs";
+import { loadEmbeddedHistoricalBank } from "../assets/js/historical-bank-ox-v2.mjs?v=20261012-oxv2";
 const $=id=>document.getElementById(id),ui={grade:$('grade'),sem:$('semester'),unit:$('unit'),mode:$('mode'),kp:$('kp'),kpWrap:$('kp-wrap'),kpSummary:$('kp-summary'),crossWrap:$('cross-wrap'),cross:$('cross'),crossKPs:$('cross-kps'),count:$('count'),order:$('order'),seed:$('seed'),sheet:$('sheet'),status:$('status'),print:$('print'),meta:$('meta')};
 const qaFixture=(location.hostname==="127.0.0.1"||location.hostname==="localhost")&&new URLSearchParams(location.search).has("qa");
 let authority=null,bank=null;
@@ -132,6 +132,8 @@ pages.forEach((p,i)=>p.num.textContent='第 '+(i+1)+'／'+pages.length+' 頁');u
 async function init(){
  try{
   authority=await loadAuthority();
+  // Render canonical curriculum selector even if historical-bank initialization fails.
+  syncUnits();
   if(qaFixture){
    const r=await fetch('../data/layout-demo.json',{cache:"no-cache"});
    if(!r.ok)throw Error('QA 測試資料載入失敗');
@@ -139,10 +141,10 @@ async function init(){
    if(bank.admission!=="DEMO_ONLY")throw Error('QA 測試版本不符');
   }else{
    bank=await loadEmbeddedHistoricalBank(authority);
-   document.querySelector("#bank-info").textContent="已內建 "+bank.blocks.length+" 道正式核准考古題；選年級、單元、KP 後直接產生考卷。";
+   document.querySelector("#bank-info").textContent="已載入 O/X V2 版內建考古題 "+bank.blocks.length+" 道；選年級、單元、KP 後直接產生考卷。";
   }
   syncUnits();generate();
- }catch(e){ui.status.textContent=e.message;ui.status.dataset.error='true';$('generate').disabled=true;ui.kpSummary.textContent='內建考古題或 KP Authority 驗證失敗，已停止組卷。';}
+ }catch(e){ui.status.textContent='題庫載入或版本檢查失敗：'+e.message+'。請重新整理網頁；若持續發生，請回報此訊息。';ui.status.dataset.error='true';$('generate').disabled=true;ui.print.disabled=true;ui.sheet.replaceChildren();if(!authority)ui.kpSummary.textContent='正式 KP Authority 尚未載入；已禁止組卷。';else ui.kpSummary.textContent='187 KP 選單已載入，但核准題庫版本不一致，暫停組卷。';}
 }
 [ui.grade,ui.sem].forEach(e=>e.addEventListener('change',syncUnits));ui.unit.addEventListener('change',syncMode);ui.mode.addEventListener('change',syncMode);
 ui.cross.addEventListener('change',()=>{renderCrossKPs();invalidate();});

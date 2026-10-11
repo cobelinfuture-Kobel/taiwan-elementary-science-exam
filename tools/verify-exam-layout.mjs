@@ -117,9 +117,11 @@ try {
   const live=await browser.newPage({viewport:{width:1420,height:940}});
   const liveErrors=[];live.on("pageerror",e=>liveErrors.push(String(e)));
   await live.goto("http://127.0.0.1:"+server.address().port+"/exam/",{waitUntil:"networkidle"});
-  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已內建 7"),{timeout:15000});
+  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入 O/X V2 版內建考古題 7"),{timeout:15000});
   assert.equal(await live.locator("#source-select").count(),0,"no source selector");
   assert.equal(await live.locator("#local-import").count(),0,"no local JSON upload control");
+  assert.equal(await live.locator("#unit option").count(),4,"curriculum units must be present");
+  assert.ok(await live.locator("#kp option").count()>0,"KP selection must be populated");
   assert.equal(await live.locator(".paper:not([data-answer='true']) .question").count(),1,"one approved question at default setting");
   const firstQuestion=await live.locator(".paper:not([data-answer='true']) .question").first().innerText();
   assert.match(firstQuestion,/^（　）1\. /,"O/X response box must precede question number");

@@ -1,0 +1,92 @@
+{
+  "schema_version": "SCIENCE_G03_G04_KP_SOURCE_PREFLIGHT_V1",
+  "status": "SOURCE_FILES_NOT_YET_VERIFIED",
+  "source_policy": "EXACT_ORIGINAL_AUTHORITY_ONLY; NEVER_RECONSTRUCT_FROM_DEMO_FIXTURES",
+  "academic_year_authority": "113",
+  "grade_scope": [
+    3,
+    4
+  ],
+  "semesters": [
+    "S1",
+    "S2"
+  ],
+  "assessment_scope": {
+    "MIDTERM": [
+      "U01",
+      "U02"
+    ],
+    "FINAL": [
+      "U03",
+      "U04"
+    ]
+  },
+  "targets": [
+    {
+      "grade": 3,
+      "semester": "S1",
+      "file": "science_g03_s1_kanghsuan_kp_authority_v1.json",
+      "unit_kp_expected": [
+        14,
+        12,
+        11,
+        10
+      ],
+      "kp_total_expected": 47
+    },
+    {
+      "grade": 3,
+      "semester": "S2",
+      "file": "science_g03_s2_kanghsuan_kp_authority_v1.json",
+      "unit_kp_expected": [
+        12,
+        12,
+        12,
+        13
+      ],
+      "kp_total_expected": 49
+    },
+    {
+      "grade": 4,
+      "semester": "S1",
+      "file": "science_g04_s1_kanghsuan_kp_authority_v1.json",
+      "unit_kp_expected": [
+        11,
+        12,
+        10,
+        12
+      ],
+      "kp_total_expected": 45
+    },
+    {
+      "grade": 4,
+      "semester": "S2",
+      "file": "science_g04_s2_kanghsuan_kp_authority_v1.json",
+      "unit_kp_expected": [
+        12,
+        11,
+        12,
+        11
+      ],
+      "kp_total_expected": 46
+    }
+  ],
+  "public_export_policy": "Publish minimal KP titles/IDs and curriculum routing only after source readback and authorization; exclude original copyrighted teacher/source pages and original full copyrighted text.",
+  "pending_checks": [
+    "original file bytes/readback",
+    "JSON parse",
+    "unit distribution",
+    "KP ID uniqueness",
+    "canonical ID mapping",
+    "MIDTERM U01/U02 and FINAL U03/U04",
+    "copyright/privacy clearance",
+    "selector no-fallback behavior"
+  ],
+  "prohibited_actions": [
+    "invent missing KP",
+    "use DEMO_ONLY questions as canonical authority",
+    "import historical-exam question bank in S2",
+    "publish raw teacher copyrighted source scans",
+    "modify math-generator repository"
+  ]
+}

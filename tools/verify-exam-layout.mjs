@@ -112,6 +112,7 @@ try {
   validate(print, "print");
   await page.pdf({ path: output + "/exam-two-column-a4.pdf", format: "A4", preferCSSPageSize: true, printBackground: true });
   // Browser-only exam import: synthetic fixture, never commit real source text here.
+  await page.emulateMedia({media:"screen"});
   await page.selectOption("#source-select","LOCAL_APPROVED");
   await page.selectOption("#grade","4");
   await page.selectOption("#semester","S1");

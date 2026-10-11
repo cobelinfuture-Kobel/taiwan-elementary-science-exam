@@ -39,9 +39,9 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 <h2>出題範圍</h2><div class="pair"><label>年級<select id="grade"><option value="3">三年級</option><option value="4" selected>四年級</option></select></label><label>學期<select id="semester"><option value="S1">上學期</option><option value="S2">下學期</option></select></label></div>
 <label>單元<select id="unit"></select></label>
 <label>組卷模式<select id="mode"><option value="single_unit">單一單元</option><option value="single_kp">單一 KP</option><option value="same_unit">同單元多 KP</option><option value="cross_unit">跨單元</option><option value="midterm">期中 U01＋U02</option><option value="final">期末 U03＋U04</option></select></label>
-<div id="kp-wrap" hidden><label>示範 KP（非正式完整清單）<select id="kp"></select></label></div>
+<div id="kp-wrap"><label>正式 KP 知識點（選單依已驗證的 187 KP Authority）<select id="kp"></select></label><p class="minor" id="kp-summary"></p></div>
 <div id="cross-wrap" hidden><label>選取同年級同學期單元（至少 2 個）</label><div class="checks checkbox-list" id="cross"></div></div>
-<p class="minor">未載入正式 KP Authority；閱讀共用題組不拆分，且題數不足時拒絕組卷。</p>
+<p class="minor">正式 KP 選單已接入四學期 Authority。出題目前仍為 DEMO_ONLY；無可用示範題時不會偽造考古題。</p>
 <h2>題目設定</h2><div class="pair"><label>小題數<input id="count" type="number" min="1" max="120" value="4"></label><label>排序<select id="order"><option value="shuffle">混合排序</option><option value="group">依題型分組</option></select></label></div>
 <label>產生種子<input id="seed" value="science-s1-demo"></label>
 <label class="checks"><input id="answer-key" type="checkbox" checked> 附答案頁</label>
@@ -49,23 +49,48 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 </section><section class="preview"><h2>考券預覽</h2><p class="minor" id="meta">尚未產生</p><div id="sheet"></div></section></div>
 </main>
 <script type="module">
-const $=id=>document.getElementById(id),ui={grade:$('grade'),sem:$('semester'),unit:$('unit'),mode:$('mode'),kp:$('kp'),kpWrap:$('kp-wrap'),crossWrap:$('cross-wrap'),cross:$('cross'),count:$('count'),order:$('order'),seed:$('seed'),sheet:$('sheet'),status:$('status'),print:$('print'),meta:$('meta')};
-const titles={
-'4-S1':['地表的靜與動','水生生物與環境','有趣的聲光現象','好玩的電路'],
-'4-S2':['白天和夜晚的天空','水的移動','昆蟲大解密','自然資源與利用'],
-'3-S1':['單元名稱待正式 Authority','磁力相關示範單元（待 Authority）','單元名稱待正式 Authority','單元名稱待正式 Authority'],
-'3-S2':['單元名稱待正式 Authority','單元名稱待正式 Authority','單元名稱待正式 Authority','單元名稱待正式 Authority']};
-const unitId=i=>ui.grade.value+'-'+ui.sem.value+'-U'+String(i).padStart(2,'0');
-let bank=null;
-function syncUnits(){const old=ui.unit.value;ui.unit.replaceChildren();(titles[ui.grade.value+'-'+ui.sem.value]||[]).forEach((t,i)=>ui.unit.add(new Option('U'+String(i+1).padStart(2,'0')+' '+t,unitId(i+1))));ui.unit.value=[...ui.unit.options].some(o=>o.value===old)?old:(ui.grade.value==='4'&&ui.sem.value==='S1'?unitId(2):unitId(1));syncMode();}
-function syncMode(){const m=ui.mode.value;ui.kpWrap.hidden=!['single_kp','same_unit'].includes(m);ui.crossWrap.hidden=m!=='cross_unit';const kps=[...new Set(bank.blocks.filter(b=>b.unit===ui.unit.value).map(b=>b.kp))];ui.kp.replaceChildren();kps.forEach(k=>ui.kp.add(new Option(k,k)));ui.kp.multiple=m==='same_unit';ui.kp.size=m==='same_unit'?Math.min(5,Math.max(2,kps.length)):1;if(m==='same_unit')for(const o of ui.kp.options)o.selected=true;
-ui.cross.replaceChildren();(titles[ui.grade.value+'-'+ui.sem.value]||[]).forEach((t,i)=>{const lab=document.createElement('label'),c=document.createElement('input');c.type='checkbox';c.value=unitId(i+1);c.checked=i<2;lab.append(c,document.createTextNode('U'+(i+1)+' '+t));ui.cross.append(lab)});
-invalidate();}
+import { loadAuthority, unitsFor, resolveUnit } from "../assets/js/authority-adapter.mjs";
+const $=id=>document.getElementById(id),ui={grade:$('grade'),sem:$('semester'),unit:$('unit'),mode:$('mode'),kp:$('kp'),kpWrap:$('kp-wrap'),kpSummary:$('kp-summary'),crossWrap:$('cross-wrap'),cross:$('cross'),count:$('count'),order:$('order'),seed:$('seed'),sheet:$('sheet'),status:$('status'),print:$('print'),meta:$('meta')};
+let authority=null,bank=null;
+const unitKey = u => u.grade + "-S" + u.semester + "-" + u.unit_id;
+function syncUnits(){
+  if (!authority) throw Error("正式 KP Authority 未載入，不可使用替代單元");
+  const old=ui.unit.value;
+  const units=unitsFor(authority,Number(ui.grade.value),Number(ui.sem.value.slice(1)));
+  ui.unit.replaceChildren();
+  for (const unit of units) ui.unit.add(new Option(unit.unit_id + " " + unit.unit_title,unitKey(unit)));
+  ui.unit.value=units.some(u=>unitKey(u)===old)?old:(ui.grade.value==="4"&&ui.sem.value==="S1"?"4-S1-U02":unitKey(units[0]));
+  syncMode();
+}
+function syncMode(){
+  if (!authority) throw Error("KP Authority 缺失");
+  const m=ui.mode.value;
+  const current=resolveUnit(authority,ui.unit.value);
+  if(!current) throw Error("選擇的單元不在正式 Authority");
+  const kps=current.knowledge_points;
+  ui.kpWrap.hidden=false;
+  ui.kp.disabled=!["single_kp","same_unit"].includes(m);
+  ui.kp.multiple=m==="same_unit";
+  ui.kp.size=m==="same_unit"?Math.min(9,kps.length):m==="single_unit"?Math.min(8,kps.length):1;
+  ui.kp.replaceChildren();
+  for(const kp of kps)ui.kp.add(new Option(kp.canonical_kp_id + "｜" + kp.title,kp.canonical_kp_id));
+  if(m==="same_unit")for(const o of ui.kp.options)o.selected=true;
+  ui.kpSummary.textContent=current.unit_id + "｜" + current.unit_title + "｜正式 KP " + kps.length + " 筆；原始 ID 與 canonical ID 均已核對。未有正式認證考古題。";
+  ui.crossWrap.hidden=m!=="cross_unit";
+  ui.cross.replaceChildren();
+  unitsFor(authority,Number(ui.grade.value),Number(ui.sem.value.slice(1))).forEach((unit,i)=>{
+    const lab=document.createElement("label"),c=document.createElement("input");
+    c.type="checkbox";c.value=unitKey(unit);c.checked=i<2;
+    lab.append(c,document.createTextNode(unit.unit_id+" "+unit.unit_title+"（"+unit.knowledge_points.length+" KP）"));
+    ui.cross.append(lab);
+  });
+  invalidate();
+}
 function invalidate(){ui.print.disabled=true;ui.meta.textContent='請重新產生考卷';}
 function seeded(blocks,seed){let h=2166136261;for(const ch of seed){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)}let x=h>>>0||1;const a=[...blocks];for(let i=a.length-1;i>0;i--){x^=x<<13;x^=x>>>17;x^=x<<5;const j=(x>>>0)%(i+1);[a[i],a[j]]=[a[j],a[i]]}return a;}
 const size=b=>b.type==='group'?b.items.length:1;
 function subset(blocks,n){const sums=new Map([[0,[]]]);for(const b of blocks){for(const [v,old] of [...sums].sort((a,z)=>z[0]-a[0])){const next=v+size(b);if(next<=n&&!sums.has(next))sums.set(next,[...old,b]);}}return sums.get(n)||null;}
-function selectedPool(){const mode=ui.mode.value,uid=ui.unit.value,pre=ui.grade.value+'-'+ui.sem.value+'-',selected=[...ui.cross.querySelectorAll('input:checked')].map(x=>x.value);if(mode==='cross_unit'&&selected.length<2)throw Error('跨單元至少需選兩個單元');const kps=new Set([...ui.kp.selectedOptions].map(x=>x.value));return bank.blocks.filter(b=>{if(!b.unit.startsWith(pre))return false;if(mode==='midterm')return /U0[12]$/.test(b.unit);if(mode==='final')return /U0[34]$/.test(b.unit);if(mode==='cross_unit')return selected.includes(b.unit);if(b.unit!==uid)return false;if(mode==='single_unit')return true;return kps.has(b.kp);});}
+function selectedPool(){const mode=ui.mode.value,uid=ui.unit.value,pre=ui.grade.value+'-'+ui.sem.value+'-',selected=[...ui.cross.querySelectorAll('input:checked')].map(x=>x.value);if(mode==='cross_unit'&&selected.length<2)throw Error('跨單元至少需選兩個單元');const kps=new Set([...ui.kp.selectedOptions].map(x=>x.value));return bank.blocks.filter(b=>{if(!b.unit.startsWith(pre))return false;if(mode==='midterm')return /U0[12]$/.test(b.unit);if(mode==='final')return /U0[34]$/.test(b.unit);if(mode==='cross_unit')return selected.includes(b.unit);if(b.unit!==uid)return false;if(mode==='single_unit')return true;return kps.has(b.canonical_kp_id);});}
 function node(tag,cls,txt){const x=document.createElement(tag);if(cls)x.className=cls;if(txt!==undefined)x.textContent=txt;return x;}
 function child(parent,tag,cls,txt){const x=node(tag,cls,txt);parent.append(x);return x;}
 function paper(answer){const p=node('section','paper');p.dataset.answer=answer?'true':'false';const head=child(p,'header');child(head,'h3','',($('school').value||'○○國民小學')+'　'+$('year').value+' 學年度');child(head,'div','', '自然科 '+$('exam-name').value+(answer?'｜教師答案':''));child(head,'div','student','年級：_____　班級：_____　座號：_____　姓名：______________');child(head,'div','watermark','DEMO_ONLY｜版面示範，非正式考古題');const body=child(p,'div','body'),foot=child(p,'footer');child(foot,'span','', 'Science Exam S1');const num=child(foot,'span');ui.sheet.append(p);return {p,body,num,mode:'',targets:[]};}
@@ -82,7 +107,7 @@ let answers=[];let ix=0;for(const b of chosen){if(b.type==='group')for(const sub
 if($('answer-key').checked){let a=paper(true);layout(a,'two');pages.push(a);let ci=0;for(const entry of answers){const x=node('div','answer',entry.number+'. '+entry.answer);let ok=false;for(let tr=0;tr<3&&!ok;tr++){a.targets[ci].append(x);if(!overflow(a.targets[ci]))ok=true;else{x.remove();if(ci===0)ci=1;else{a=paper(true);layout(a,'two');pages.push(a);ci=0;}}}if(!ok)throw Error('答案頁無法排版');}}
 pages.forEach((p,i)=>p.num.textContent='第 '+(i+1)+'／'+pages.length+' 頁');ui.meta.textContent='示範題 '+num+' 小題｜A4 '+pages.length+' 頁｜DEMO_ONLY';ui.status.textContent='示範考卷完成，可預覽與列印；未引用正式考古題。';ui.print.disabled=false;
 }catch(e){ui.sheet.replaceChildren();ui.status.dataset.error='true';ui.status.textContent=e.message;ui.meta.textContent='尚未產生';}}
-async function init(){try{const r=await fetch('../data/layout-demo.json');if(!r.ok)throw Error('讀取示範題失敗');bank=await r.json();if(bank.admission!=='DEMO_ONLY')throw Error('S1 題庫 Admission 不符');syncUnits();generate();}catch(e){ui.status.textContent=e.message;ui.status.dataset.error='true';$('generate').disabled=true;}}
+async function init(){try{const [a,r]=await Promise.all([loadAuthority(),fetch('../data/layout-demo.json')]);if(!r.ok)throw Error('讀取示範題失敗');authority=a;bank=await r.json();if(bank.admission!=='DEMO_ONLY')throw Error('DEMO_ONLY 題庫 Admission 不符');for(const b of bank.blocks){const u=resolveUnit(authority,b.unit);const kp=u?.knowledge_points.find(x=>x.canonical_kp_id===b.canonical_kp_id);if(!kp||kp.title!==b.kp)throw Error('DEMO_ONLY 題目 KP 未對齊正式 Authority：'+b.id);}syncUnits();generate();}catch(e){ui.status.textContent=e.message;ui.status.dataset.error='true';$('generate').disabled=true;ui.kpSummary.textContent='正式 KP Authority 載入失敗，不提供未核證的替代資料。';}}
 [ui.grade,ui.sem].forEach(e=>e.addEventListener('change',syncUnits));ui.unit.addEventListener('change',syncMode);ui.mode.addEventListener('change',syncMode);
 for(const x of [ui.kp,ui.cross,ui.count,ui.order,ui.seed,$('school'),$('year'),$('exam-name'),$('answer-key')])x.addEventListener('change',invalidate);
 $('generate').addEventListener('click',generate);ui.print.addEventListener('click',()=>window.print());init();

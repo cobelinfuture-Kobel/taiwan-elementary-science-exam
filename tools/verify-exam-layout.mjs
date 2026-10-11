@@ -29,6 +29,33 @@ try {
   const page = await browser.newPage({ viewport: { width: 1500, height: 980 }, deviceScaleFactor: 1 });
   await page.goto("http://127.0.0.1:" + server.address().port + "/exam/", { waitUntil: "networkidle" });
   await page.waitForSelector(".paper:not([data-answer='true']) .group svg.diagram", { timeout: 15000 });
+  const expectedCount = {"3-S1":[14,12,11,10],"3-S2":[12,12,12,13],"4-S1":[11,12,10,12],"4-S2":[12,11,12,11]};
+  for(const [scope,nums] of Object.entries(expectedCount)){
+    const [g,s]=scope.split("-");
+    await page.selectOption("#grade",g);
+    await page.selectOption("#semester",s);
+    const titleCount=await page.locator("#unit option").count();
+    assert.equal(titleCount,4,scope+" unit count");
+    await page.selectOption("#mode","single_kp");
+    for(let i=0;i<4;i++){
+      await page.selectOption("#unit",g+"-"+s+"-U"+String(i+1).padStart(2,"0"));
+      assert.equal(await page.locator("#kp option").count(),nums[i],scope+" U"+(i+1)+" KP selector");
+    }
+  }
+  await page.selectOption("#grade","3");
+  await page.selectOption("#semester","S1");
+  await page.selectOption("#unit","3-S1-U01");
+  assert.equal(await page.locator("#unit option").first().textContent(),"U01 多采多姿的植物");
+  await page.selectOption("#mode","single_unit");
+  await page.locator("#generate").click();
+  assert.equal(await page.locator("#status").getAttribute("data-error"),"true","missing approved questions must fail closed");
+  assert.equal(await page.locator("#print").isDisabled(),true,"no print for missing questions");
+  await page.selectOption("#grade","4");
+  await page.selectOption("#semester","S1");
+  await page.selectOption("#unit","4-S1-U02");
+  await page.selectOption("#mode","single_unit");
+  await page.locator("#generate").click();
+  await page.waitForSelector(".paper:not([data-answer='true']) .group svg.diagram", { timeout: 10000 });
   const geometry = async () => page.evaluate(() => {
     const g = document.querySelector(".paper:not([data-answer='true']) .group");
     const image = g.querySelector("svg.diagram");

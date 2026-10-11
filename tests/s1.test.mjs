@@ -12,3 +12,6 @@ test('reading groups occupy a single A4 column and remain atomic',()=>{
   assert.match(html,/target\.removeChild\(el\);if\(col\+1<current\.targets\.length\)col\+\+/);
   assert.match(html,/if\(!mounted\)throw Error\('題目內容過高，拒絕裁切'\)/);
 });
+
+test('Exam uses the canonical Authority adapter and does not read KP labels from demo fixture as selector source',()=>{const html=read('site/exam/index.html');assert.match(html,/import \{ loadAuthority, unitsFor, resolveUnit \} from/);assert.doesNotMatch(html,/const titles=\{/);assert.doesNotMatch(html,/bank\.blocks\.filter\(b=>b\.unit===ui\.unit\.value\)/);assert.match(html,/kps\.has\(b\.canonical_kp_id\)/);});
+test('DEMO_ONLY fixture uses exact canonical KP lineage',()=>{const refs={q1:'sci_g04s1_02_03',q2:'sci_g04s1_02_08',q3:'sci_g04s1_02_03',q4:'sci_g04s1_01_08',q5:'sci_g03s1_02_05'};for(const row of fixture.blocks)assert.equal(row.canonical_kp_id,refs[row.id]);});

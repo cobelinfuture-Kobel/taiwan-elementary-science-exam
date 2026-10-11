@@ -1,0 +1,66 @@
+{
+  "schema_version": "SCIENCE_EXAM_S3_SOURCE_CENSUS_V1",
+  "source_count": 4,
+  "candidate_count": 40,
+  "exact_kp_proposed": 36,
+  "kp_unresolved": 4,
+  "unrendered_answer_hints": 10,
+  "answer_key_not_present": 30,
+  "verified_answers": 0,
+  "public_certified": 0,
+  "source_scope": [
+    {
+      "source_id": "G03-S1-MID",
+      "year": 113,
+      "grade": 3,
+      "semester": "S1",
+      "exam": "MIDTERM",
+      "scoped_units": [
+        "U01",
+        "U02"
+      ],
+      "pilot_candidates": 10
+    },
+    {
+      "source_id": "G03-S1-FINAL",
+      "year": 113,
+      "grade": 3,
+      "semester": "S1",
+      "exam": "FINAL",
+      "scoped_units": [
+        "U03",
+        "U04"
+      ],
+      "pilot_candidates": 10
+    },
+    {
+      "source_id": "G04-S1-MID",
+      "year": 113,
+      "grade": 4,
+      "semester": "S1",
+      "exam": "MIDTERM",
+      "scoped_units": [
+        "U01",
+        "U02"
+      ],
+      "pilot_candidates": 10
+    },
+    {
+      "source_id": "G04-S1-FINAL",
+      "year": 113,
+      "grade": 4,
+      "semester": "S1",
+      "exam": "FINAL",
+      "scoped_units": [
+        "U03",
+        "U04"
+      ],
+      "pilot_candidates": 10
+    }
+  ],
+  "public_question_payloads": [],
+  "rights_status": "NO_SOURCE_REUSE_LICENSE_ESTABLISHED",
+  "source_handling": "PRIVATE_LOCAL_CANDIDATE_REGISTRY_NOT_COMMITTED",
+  "import_status": "QUARANTINE",
+  "frozen_kp_authority": "187_KP_V2"
+}

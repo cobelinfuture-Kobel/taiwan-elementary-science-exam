@@ -111,6 +111,17 @@ try {
   const print = await geometry();
   validate(print, "print");
   await page.pdf({ path: output + "/exam-two-column-a4.pdf", format: "A4", preferCSSPageSize: true, printBackground: true });
+  const statusPage=await browser.newPage({viewport:{width:1280,height:900}});
+  const errors=[];
+  statusPage.on("pageerror",err=>errors.push(String(err)));
+  await statusPage.goto("http://127.0.0.1:" + server.address().port + "/review/",{waitUntil:"networkidle"});
+  await statusPage.waitForFunction(()=>document.querySelector("#candidates")?.textContent==="40",{timeout:15000});
+  assert.deepEqual(await Promise.all(["sources","candidates","mapped","unresolved","answers","admitted"].map(id=>statusPage.locator("#"+id).textContent())),["4","40","36","4","0","0"]);
+  assert.equal(await statusPage.locator("#table tr").count(),4,"all four source scopes must be visible");
+  assert.deepEqual(errors,[],"no browser JS errors on S3 metadata dashboard");
+  await statusPage.screenshot({path:output+"/s3-status-dashboard.png",fullPage:true});
+  await statusPage.close();
+  console.log("S3_PUBLIC_METADATA_DASHBOARD_PASS: 4 sources, 40 candidates, 0 admitted");
   console.log("BROWSER_LAYOUT_PASS=" + JSON.stringify({ screen, print }, null, 2));
 } finally {
   if (browser) await browser.close();

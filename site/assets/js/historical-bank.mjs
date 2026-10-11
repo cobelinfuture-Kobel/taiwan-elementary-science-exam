@@ -2,9 +2,9 @@ import {certificationGate} from "./s3-admission.mjs";
 import {resolveUnit} from "./authority-adapter.mjs";
 export const EMBEDDED_BANK_SCHEMA="SCIENCE_S3_P04_7_SOURCE_TEXT_ONLY";
 export const EMBEDDED_BANK_PATH="../data/question-bank/approved-historical-v1.json";
-const normalizedAnswers={"正確":"TRUE","錯誤":"FALSE"};
+const normalizedAnswers={"O":"TRUE","X":"FALSE"};
 function normalize(row,authority){
- if(!row||row.type!=="tf"||!["正確","錯誤"].includes(row.answer)||!row.stem?.trim())
+ if(!row||row.type!=="tf"||!["O","X"].includes(row.answer)||!row.stem?.trim())
   throw Error("歷屆題目題型／答案不完整");
  const unit=resolveUnit(authority,row.unit);
  const kp=unit?.knowledge_points.find(k=>k.canonical_kp_id===row.canonical_kp_id);
@@ -38,7 +38,7 @@ function normalize(row,authority){
 }
 export function validateAndConvertEmbeddedBank(payload,authority){
  if(payload?.schema_version!==EMBEDDED_BANK_SCHEMA||payload.public_site_integrated!==true
- ||payload.question_bank_status!=="SCIENCE_REASONED_OPERATOR_ACCEPTED_NOT_TEACHER_KEY"
+ ||payload.answer_marker_contract!=="OX_ORIGINAL_EXAM_LAYOUT_V1"||payload.question_bank_status!=="SCIENCE_REASONED_OPERATOR_ACCEPTED_NOT_TEACHER_KEY"
  ||!Array.isArray(payload.blocks))throw Error("內建考古題庫版本不相容");
  const ids=new Set();
  const blocks=payload.blocks.map(row=>{

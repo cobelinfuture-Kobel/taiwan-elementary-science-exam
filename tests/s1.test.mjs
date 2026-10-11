@@ -25,3 +25,10 @@ test('Exam exclusively uses embedded certified historical questions in public mo
  assert.match(html,/const qaFixture=/);
  assert.match(html,/qaFixture\?'DEMO_ONLY/);
 });
+
+test("TF item has O/X parenthesis before number and no invented 正確/錯誤 choices",()=>{
+ const html=read("site/exam/index.html");
+ assert.match(html,/q.type==='tf'\?'（　）'\+n\+'\. ':n\+'\. '/);
+ assert.doesNotMatch(html,/（　）正確　（　）錯誤/);
+ assert.match(html,/題目前的（　）內填入 O 或 X/);
+});

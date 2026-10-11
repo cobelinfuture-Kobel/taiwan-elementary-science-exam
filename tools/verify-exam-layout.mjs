@@ -121,9 +121,17 @@ try {
   assert.equal(await live.locator("#source-select").count(),0,"no source selector");
   assert.equal(await live.locator("#local-import").count(),0,"no local JSON upload control");
   assert.equal(await live.locator(".paper:not([data-answer='true']) .question").count(),1,"one approved question at default setting");
+  const firstQuestion=await live.locator(".paper:not([data-answer='true']) .question").first().innerText();
+  assert.match(firstQuestion,/^（　）1\. /,"O/X response box must precede question number");
+  assert.doesNotMatch(firstQuestion,/（　）正確|（　）錯誤/);
+  assert.ok((await live.locator(".paper:not([data-answer='true'])").first().innerText()).includes("填入 O 或 X"),"instruction must specify O/X");
+
   assert.ok((await live.locator(".paper").first().innerText()).includes("歷屆學校考古題"));
   assert.equal(await live.locator(".paper[data-answer='true']").count(),1);
   assert.ok((await live.locator(".paper[data-answer='true']").innerText()).includes("判斷前提"));
+  const answersText=await live.locator(".paper[data-answer='true']").innerText();
+  assert.match(answersText,/\b1\. [OX]\b/,"answer page should display literal O or X");
+
   await live.selectOption("#grade","3");
   await live.selectOption("#semester","S1");
   await live.selectOption("#unit","3-S1-U04");

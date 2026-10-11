@@ -8,8 +8,8 @@ test("approved seven historical school items are built in and have canonical IDs
  const bank=validateAndConvertEmbeddedBank(db,authority);
  assert.equal(bank.admission,"EMBEDDED_CERTIFIED_HISTORICAL");
  assert.equal(bank.blocks.length,7);
- assert.equal(bank.blocks.filter(x=>x.answer==="正確").length,5);
- assert.equal(bank.blocks.filter(x=>x.answer==="錯誤").length,2);
+ assert.equal(bank.blocks.filter(x=>x.answer==="O").length,5);
+ assert.equal(bank.blocks.filter(x=>x.answer==="X").length,2);
  assert.equal(new Set(bank.blocks.map(x=>x.id)).size,7);
  assert.equal(bank.blocks.filter(x=>x.kp_mapping_quality==="KP_NEAREST_OPERATOR_ACCEPTED").length,2);
  assert.equal(bank.blocks.filter(x=>x.answer_assumption).length,7);
@@ -30,4 +30,13 @@ test("embedded bank blocks duplicate IDs, missing reasons and unapproved quantit
  assert.throws(()=>validateAndConvertEmbeddedBank(b,authority),/認證未通過/);
  const c=structuredClone(db);c.blocks.pop();
  assert.throws(()=>validateAndConvertEmbeddedBank(c,authority),/核准題數/);
+});
+
+test("OX exam format is the canonical answer encoding, not Chinese true/false",()=>{
+ assert.equal(db.answer_marker_contract,"OX_ORIGINAL_EXAM_LAYOUT_V1");
+ assert.ok(db.blocks.every(x=>["O","X"].includes(x.answer)));
+ const bank=validateAndConvertEmbeddedBank(db,authority);
+ assert.deepEqual(new Set(bank.blocks.map(x=>x.answer)),new Set(["O","X"]));
+ const invalid=structuredClone(db);invalid.blocks[0].answer="正確";
+ assert.throws(()=>validateAndConvertEmbeddedBank(invalid,authority),/答案不完整/);
 });

@@ -1,0 +1,1112 @@
+{
+  "schema_version": "SCIENCE_G03_G04_PUBLIC_SELECTOR_V2",
+  "publisher": "康軒",
+  "authority_year": 113,
+  "projection_purpose": "selector_only",
+  "question_bank_status": "DEMO_ONLY_NOT_CERTIFIED",
+  "assessment_scope": {
+    "MIDTERM": [
+      "U01",
+      "U02"
+    ],
+    "FINAL": [
+      "U03",
+      "U04"
+    ]
+  },
+  "sources": [
+    {
+      "grade": 3,
+      "semester": 1,
+      "filename": "science_g03_s1_kanghsuan_kp_authority_v2.json",
+      "sha256": "258a1b1f3ba78a419d41a75de60d88806a6fbba738d66c4c2b43663acb449fe8"
+    },
+    {
+      "grade": 3,
+      "semester": 2,
+      "filename": "science_g03_s2_kanghsuan_kp_authority_v1.json",
+      "sha256": "bba745c03edf23999129184a63ef8be4eb8df9e94bc1524180af64bb41652500"
+    },
+    {
+      "grade": 4,
+      "semester": 1,
+      "filename": "science_g04_s1_kanghsuan_kp_authority_v1.json",
+      "sha256": "ac2122b09caa56afec373303c8a6169b57353bff06794831b508c3a3f5b5e4d5"
+    },
+    {
+      "grade": 4,
+      "semester": 2,
+      "filename": "science_g04_s2_kanghsuan_kp_authority_v1.json",
+      "sha256": "93f7bcc65bbf4fa18e5f6516cf3f3cd31a51b327ab1ce276b15685971d094f46"
+    }
+  ],
+  "units": [
+    {
+      "grade": 3,
+      "semester": 1,
+      "unit_id": "U01",
+      "unit_title": "多采多姿的植物",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g03s1_u01_kp01",
+          "canonical_kp_id": "sci_g03s1_01_01",
+          "title": "生物與非生物"
+        },
+        {
+          "kp_id": "kx_g03s1_u01_kp02",
+          "canonical_kp_id": "sci_g03s1_01_02",
+          "title": "動物與植物"
+        },
+        {
+          "kp_id": "kx_g03s1_u01_kp03",
+          "canonical_kp_id": "sci_g03s1_01_03",
+          "title": "植物身體構造"
+        },
+        {
+          "kp_id": "kx_g03s1_u01_kp04",
+          "canonical_kp_id": "sci_g03s1_01_04",
+          "title": "葉的外形特徵"
+        },
+        {
+          "kp_id": "kx_g03s1_u01_kp05",
+          "canonical_kp_id": "sci_g03s1_01_05",
+          "title": "葉序"
+        },
+        {
+          "kp_id": "kx_g03s1_u01_kp06",
+          "canonical_kp_id": "sci_g03s1_01_06",
+          "title": "葉與獲取陽光"
+        },
+        {
+          "kp_id": "kx_g03s1_u01_kp07",
+          "canonical_kp_id": "sci_g03s1_01_07",
+          "title": "莖的類型"
+        },
+        {
+          "kp_id": "kx_g03s1_u01_kp08",
+          "canonical_kp_id": "sci_g03s1_01_08",
+          "title": "根的類型"
+        },
+        {
+          "kp_id": "kx_g03s1_u01_kp09",
+          "canonical_kp_id": "sci_g03s1_01_09",
+          "title": "根吸收水分"
+        },
+        {
+          "kp_id": "kx_g03s1_u01_kp10",
+          "canonical_kp_id": "sci_g03s1_01_10",
+          "title": "花的基本構造"
+        },
+        {
+          "kp_id": "kx_g03s1_u01_kp11",
+          "canonical_kp_id": "sci_g03s1_01_11",
+          "title": "花與傳粉"
+        },
+        {
+          "kp_id": "kx_g03s1_u01_kp12",
+          "canonical_kp_id": "sci_g03s1_01_12",
+          "title": "開花結果與種子"
+        },
+        {
+          "kp_id": "kx_g03s1_u01_kp13",
+          "canonical_kp_id": "sci_g03s1_01_13",
+          "title": "果實與種子的功能"
+        },
+        {
+          "kp_id": "kx_g03s1_u01_kp14",
+          "canonical_kp_id": "sci_g03s1_01_14",
+          "title": "植物與生活"
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "semester": 1,
+      "unit_id": "U02",
+      "unit_title": "生活中的力",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g03s1_u02_kp01",
+          "canonical_kp_id": "sci_g03s1_02_01",
+          "title": "受力與形狀改變"
+        },
+        {
+          "kp_id": "kx_g03s1_u02_kp02",
+          "canonical_kp_id": "sci_g03s1_02_02",
+          "title": "受力與運動狀態"
+        },
+        {
+          "kp_id": "kx_g03s1_u02_kp03",
+          "canonical_kp_id": "sci_g03s1_02_03",
+          "title": "力的三要素"
+        },
+        {
+          "kp_id": "kx_g03s1_u02_kp04",
+          "canonical_kp_id": "sci_g03s1_02_04",
+          "title": "施力條件與結果"
+        },
+        {
+          "kp_id": "kx_g03s1_u02_kp05",
+          "canonical_kp_id": "sci_g03s1_02_05",
+          "title": "磁鐵吸引磁性物質"
+        },
+        {
+          "kp_id": "kx_g03s1_u02_kp06",
+          "canonical_kp_id": "sci_g03s1_02_06",
+          "title": "磁極與磁力強弱"
+        },
+        {
+          "kp_id": "kx_g03s1_u02_kp07",
+          "canonical_kp_id": "sci_g03s1_02_07",
+          "title": "同極相斥異極相吸"
+        },
+        {
+          "kp_id": "kx_g03s1_u02_kp08",
+          "canonical_kp_id": "sci_g03s1_02_08",
+          "title": "磁力隔物與生活應用"
+        },
+        {
+          "kp_id": "kx_g03s1_u02_kp09",
+          "canonical_kp_id": "sci_g03s1_02_09",
+          "title": "彈力、風力、浮力"
+        },
+        {
+          "kp_id": "kx_g03s1_u02_kp10",
+          "canonical_kp_id": "sci_g03s1_02_10",
+          "title": "浮力與浮沉"
+        },
+        {
+          "kp_id": "kx_g03s1_u02_kp11",
+          "canonical_kp_id": "sci_g03s1_02_11",
+          "title": "形狀影響浮沉"
+        },
+        {
+          "kp_id": "kx_g03s1_u02_kp12",
+          "canonical_kp_id": "sci_g03s1_02_12",
+          "title": "水傳送動力"
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "semester": 1,
+      "unit_id": "U03",
+      "unit_title": "奇妙的空氣",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g03s1_u03_kp01",
+          "canonical_kp_id": "sci_g03s1_03_01",
+          "title": "空氣無所不在"
+        },
+        {
+          "kp_id": "kx_g03s1_u03_kp02",
+          "canonical_kp_id": "sci_g03s1_03_02",
+          "title": "空氣占有空間"
+        },
+        {
+          "kp_id": "kx_g03s1_u03_kp03",
+          "canonical_kp_id": "sci_g03s1_03_03",
+          "title": "空氣沒有固定形狀"
+        },
+        {
+          "kp_id": "kx_g03s1_u03_kp04",
+          "canonical_kp_id": "sci_g03s1_03_04",
+          "title": "空氣特性的生活應用"
+        },
+        {
+          "kp_id": "kx_g03s1_u03_kp05",
+          "canonical_kp_id": "sci_g03s1_03_05",
+          "title": "空氣流動形成風"
+        },
+        {
+          "kp_id": "kx_g03s1_u03_kp06",
+          "canonical_kp_id": "sci_g03s1_03_06",
+          "title": "風的強弱"
+        },
+        {
+          "kp_id": "kx_g03s1_u03_kp07",
+          "canonical_kp_id": "sci_g03s1_03_07",
+          "title": "空氣可以被壓縮"
+        },
+        {
+          "kp_id": "kx_g03s1_u03_kp08",
+          "canonical_kp_id": "sci_g03s1_03_08",
+          "title": "空氣傳送力量"
+        },
+        {
+          "kp_id": "kx_g03s1_u03_kp09",
+          "canonical_kp_id": "sci_g03s1_03_09",
+          "title": "空氣對生物與生活的重要性"
+        },
+        {
+          "kp_id": "kx_g03s1_u03_kp10",
+          "canonical_kp_id": "sci_g03s1_03_10",
+          "title": "空氣汙染來源"
+        },
+        {
+          "kp_id": "kx_g03s1_u03_kp11",
+          "canonical_kp_id": "sci_g03s1_03_11",
+          "title": "空氣品質與維護"
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "semester": 1,
+      "unit_id": "U04",
+      "unit_title": "廚房裡的科學",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g03s1_u04_kp01",
+          "canonical_kp_id": "sci_g03s1_04_01",
+          "title": "以感官辨識材料"
+        },
+        {
+          "kp_id": "kx_g03s1_u04_kp02",
+          "canonical_kp_id": "sci_g03s1_04_02",
+          "title": "溶解與不易溶解"
+        },
+        {
+          "kp_id": "kx_g03s1_u04_kp03",
+          "canonical_kp_id": "sci_g03s1_04_03",
+          "title": "溶解不是消失"
+        },
+        {
+          "kp_id": "kx_g03s1_u04_kp04",
+          "canonical_kp_id": "sci_g03s1_04_04",
+          "title": "利用溶解特性辨識與分離"
+        },
+        {
+          "kp_id": "kx_g03s1_u04_kp05",
+          "canonical_kp_id": "sci_g03s1_04_05",
+          "title": "溶解量有限"
+        },
+        {
+          "kp_id": "kx_g03s1_u04_kp06",
+          "canonical_kp_id": "sci_g03s1_04_06",
+          "title": "水溫影響溶解量"
+        },
+        {
+          "kp_id": "kx_g03s1_u04_kp07",
+          "canonical_kp_id": "sci_g03s1_04_07",
+          "title": "酸性中性鹼性"
+        },
+        {
+          "kp_id": "kx_g03s1_u04_kp08",
+          "canonical_kp_id": "sci_g03s1_04_08",
+          "title": "紫色高麗菜汁酸鹼指示"
+        },
+        {
+          "kp_id": "kx_g03s1_u04_kp09",
+          "canonical_kp_id": "sci_g03s1_04_09",
+          "title": "其他植物汁液指示酸鹼"
+        },
+        {
+          "kp_id": "kx_g03s1_u04_kp10",
+          "canonical_kp_id": "sci_g03s1_04_10",
+          "title": "綜合材料辨識"
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "semester": 2,
+      "unit_id": "U01",
+      "unit_title": "田園樂",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g03s2_u01_kp01",
+          "canonical_kp_id": "sci_g03s2_01_01",
+          "title": "蔬菜的主要食用部位"
+        },
+        {
+          "kp_id": "kx_g03s2_u01_kp02",
+          "canonical_kp_id": "sci_g03s2_01_02",
+          "title": "選擇適合種植的蔬菜"
+        },
+        {
+          "kp_id": "kx_g03s2_u01_kp03",
+          "canonical_kp_id": "sci_g03s2_01_03",
+          "title": "蔬菜生長所需環境"
+        },
+        {
+          "kp_id": "kx_g03s2_u01_kp04",
+          "canonical_kp_id": "sci_g03s2_01_04",
+          "title": "種菜器材與排水"
+        },
+        {
+          "kp_id": "kx_g03s2_u01_kp05",
+          "canonical_kp_id": "sci_g03s2_01_05",
+          "title": "種子特徵與安全觀察"
+        },
+        {
+          "kp_id": "kx_g03s2_u01_kp06",
+          "canonical_kp_id": "sci_g03s2_01_06",
+          "title": "播種方法"
+        },
+        {
+          "kp_id": "kx_g03s2_u01_kp07",
+          "canonical_kp_id": "sci_g03s2_01_07",
+          "title": "發芽與幼苗觀察"
+        },
+        {
+          "kp_id": "kx_g03s2_u01_kp08",
+          "canonical_kp_id": "sci_g03s2_01_08",
+          "title": "水分與正確澆水"
+        },
+        {
+          "kp_id": "kx_g03s2_u01_kp09",
+          "canonical_kp_id": "sci_g03s2_01_09",
+          "title": "陽光影響蔬菜生長"
+        },
+        {
+          "kp_id": "kx_g03s2_u01_kp10",
+          "canonical_kp_id": "sci_g03s2_01_10",
+          "title": "蔬菜生長問題與處理"
+        },
+        {
+          "kp_id": "kx_g03s2_u01_kp11",
+          "canonical_kp_id": "sci_g03s2_01_11",
+          "title": "蔬菜採收"
+        },
+        {
+          "kp_id": "kx_g03s2_u01_kp12",
+          "canonical_kp_id": "sci_g03s2_01_12",
+          "title": "蔬菜的一生與繁衍"
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "semester": 2,
+      "unit_id": "U02",
+      "unit_title": "溫度變化對物質的影響",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g03s2_u02_kp01",
+          "canonical_kp_id": "sci_g03s2_02_01",
+          "title": "外在因素造成物質變化"
+        },
+        {
+          "kp_id": "kx_g03s2_u02_kp02",
+          "canonical_kp_id": "sci_g03s2_02_02",
+          "title": "產生熱與溫度升高"
+        },
+        {
+          "kp_id": "kx_g03s2_u02_kp03",
+          "canonical_kp_id": "sci_g03s2_02_03",
+          "title": "融化與融化快慢"
+        },
+        {
+          "kp_id": "kx_g03s2_u02_kp04",
+          "canonical_kp_id": "sci_g03s2_02_04",
+          "title": "蒸發與蒸發快慢"
+        },
+        {
+          "kp_id": "kx_g03s2_u02_kp05",
+          "canonical_kp_id": "sci_g03s2_02_05",
+          "title": "凝固"
+        },
+        {
+          "kp_id": "kx_g03s2_u02_kp06",
+          "canonical_kp_id": "sci_g03s2_02_06",
+          "title": "溫度計的正確使用"
+        },
+        {
+          "kp_id": "kx_g03s2_u02_kp07",
+          "canonical_kp_id": "sci_g03s2_02_07",
+          "title": "凝結"
+        },
+        {
+          "kp_id": "kx_g03s2_u02_kp08",
+          "canonical_kp_id": "sci_g03s2_02_08",
+          "title": "水蒸氣與白煙小水珠"
+        },
+        {
+          "kp_id": "kx_g03s2_u02_kp09",
+          "canonical_kp_id": "sci_g03s2_02_09",
+          "title": "水的三態與相變"
+        },
+        {
+          "kp_id": "kx_g03s2_u02_kp10",
+          "canonical_kp_id": "sci_g03s2_02_10",
+          "title": "冰與水的共同性質"
+        },
+        {
+          "kp_id": "kx_g03s2_u02_kp11",
+          "canonical_kp_id": "sci_g03s2_02_11",
+          "title": "可恢復的溫度變化"
+        },
+        {
+          "kp_id": "kx_g03s2_u02_kp12",
+          "canonical_kp_id": "sci_g03s2_02_12",
+          "title": "不可恢復的溫度變化"
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "semester": 2,
+      "unit_id": "U03",
+      "unit_title": "我是動物解說員",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g03s2_u03_kp01",
+          "canonical_kp_id": "sci_g03s2_03_01",
+          "title": "動物外形與基本身體構造"
+        },
+        {
+          "kp_id": "kx_g03s2_u03_kp02",
+          "canonical_kp_id": "sci_g03s2_03_02",
+          "title": "常見動物類別與特徵"
+        },
+        {
+          "kp_id": "kx_g03s2_u03_kp03",
+          "canonical_kp_id": "sci_g03s2_03_03",
+          "title": "動物構造與功能"
+        },
+        {
+          "kp_id": "kx_g03s2_u03_kp04",
+          "canonical_kp_id": "sci_g03s2_03_04",
+          "title": "構造與棲地適應"
+        },
+        {
+          "kp_id": "kx_g03s2_u03_kp05",
+          "canonical_kp_id": "sci_g03s2_03_05",
+          "title": "動物攝取食物維持生存與生長"
+        },
+        {
+          "kp_id": "kx_g03s2_u03_kp06",
+          "canonical_kp_id": "sci_g03s2_03_06",
+          "title": "眼睛對光線的反應"
+        },
+        {
+          "kp_id": "kx_g03s2_u03_kp07",
+          "canonical_kp_id": "sci_g03s2_03_07",
+          "title": "皮膚與身體對溫度刺激的反應"
+        },
+        {
+          "kp_id": "kx_g03s2_u03_kp08",
+          "canonical_kp_id": "sci_g03s2_03_08",
+          "title": "環境變化影響動物生存"
+        },
+        {
+          "kp_id": "kx_g03s2_u03_kp09",
+          "canonical_kp_id": "sci_g03s2_03_09",
+          "title": "保護色與擬態式隱蔽"
+        },
+        {
+          "kp_id": "kx_g03s2_u03_kp10",
+          "canonical_kp_id": "sci_g03s2_03_10",
+          "title": "警戒色與毒性"
+        },
+        {
+          "kp_id": "kx_g03s2_u03_kp11",
+          "canonical_kp_id": "sci_g03s2_03_11",
+          "title": "愛護動物行為"
+        },
+        {
+          "kp_id": "kx_g03s2_u03_kp12",
+          "canonical_kp_id": "sci_g03s2_03_12",
+          "title": "野生動物保育與動物保護"
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "semester": 2,
+      "unit_id": "U04",
+      "unit_title": "天氣變變變",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g03s2_u04_kp01",
+          "canonical_kp_id": "sci_g03s2_04_01",
+          "title": "天氣狀況的觀察"
+        },
+        {
+          "kp_id": "kx_g03s2_u04_kp02",
+          "canonical_kp_id": "sci_g03s2_04_02",
+          "title": "天氣對生活與環境的影響"
+        },
+        {
+          "kp_id": "kx_g03s2_u04_kp03",
+          "canonical_kp_id": "sci_g03s2_04_03",
+          "title": "氣溫計的使用"
+        },
+        {
+          "kp_id": "kx_g03s2_u04_kp04",
+          "canonical_kp_id": "sci_g03s2_04_04",
+          "title": "一天中的氣溫變化"
+        },
+        {
+          "kp_id": "kx_g03s2_u04_kp05",
+          "canonical_kp_id": "sci_g03s2_04_05",
+          "title": "雲量與天氣狀況"
+        },
+        {
+          "kp_id": "kx_g03s2_u04_kp06",
+          "canonical_kp_id": "sci_g03s2_04_06",
+          "title": "雨量觀測容器"
+        },
+        {
+          "kp_id": "kx_g03s2_u04_kp07",
+          "canonical_kp_id": "sci_g03s2_04_07",
+          "title": "雨量單位、讀值與觀測地點"
+        },
+        {
+          "kp_id": "kx_g03s2_u04_kp08",
+          "canonical_kp_id": "sci_g03s2_04_08",
+          "title": "風向"
+        },
+        {
+          "kp_id": "kx_g03s2_u04_kp09",
+          "canonical_kp_id": "sci_g03s2_04_09",
+          "title": "風力"
+        },
+        {
+          "kp_id": "kx_g03s2_u04_kp10",
+          "canonical_kp_id": "sci_g03s2_04_10",
+          "title": "指北針與風向風力計操作記錄"
+        },
+        {
+          "kp_id": "kx_g03s2_u04_kp11",
+          "canonical_kp_id": "sci_g03s2_04_11",
+          "title": "取得氣象資訊的管道"
+        },
+        {
+          "kp_id": "kx_g03s2_u04_kp12",
+          "canonical_kp_id": "sci_g03s2_04_12",
+          "title": "天氣預報類型與資訊解讀"
+        },
+        {
+          "kp_id": "kx_g03s2_u04_kp13",
+          "canonical_kp_id": "sci_g03s2_04_13",
+          "title": "四季天氣與生活變化"
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "semester": 1,
+      "unit_id": "U01",
+      "unit_title": "地表的靜與動",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g04s1_u01_kp01",
+          "canonical_kp_id": "sci_g04s1_01_01",
+          "title": "地表環境中的生物與非生物"
+        },
+        {
+          "kp_id": "kx_g04s1_u01_kp02",
+          "canonical_kp_id": "sci_g04s1_01_02",
+          "title": "生物與適合的生存環境"
+        },
+        {
+          "kp_id": "kx_g04s1_u01_kp03",
+          "canonical_kp_id": "sci_g04s1_01_03",
+          "title": "岩石、沙與土壤的顆粒大小"
+        },
+        {
+          "kp_id": "kx_g04s1_u01_kp04",
+          "canonical_kp_id": "sci_g04s1_01_04",
+          "title": "岩石、沙與土壤的生活用途"
+        },
+        {
+          "kp_id": "kx_g04s1_u01_kp05",
+          "canonical_kp_id": "sci_g04s1_01_05",
+          "title": "流水搬運地表物質"
+        },
+        {
+          "kp_id": "kx_g04s1_u01_kp06",
+          "canonical_kp_id": "sci_g04s1_01_06",
+          "title": "流水作用強弱與搬運距離"
+        },
+        {
+          "kp_id": "kx_g04s1_u01_kp07",
+          "canonical_kp_id": "sci_g04s1_01_07",
+          "title": "人類開發對地表環境的影響"
+        },
+        {
+          "kp_id": "kx_g04s1_u01_kp08",
+          "canonical_kp_id": "sci_g04s1_01_08",
+          "title": "地震造成地表變動與災害"
+        },
+        {
+          "kp_id": "kx_g04s1_u01_kp09",
+          "canonical_kp_id": "sci_g04s1_01_09",
+          "title": "地震無法預知與平時防災準備"
+        },
+        {
+          "kp_id": "kx_g04s1_u01_kp10",
+          "canonical_kp_id": "sci_g04s1_01_10",
+          "title": "地震發生時的避難行動"
+        },
+        {
+          "kp_id": "kx_g04s1_u01_kp11",
+          "canonical_kp_id": "sci_g04s1_01_11",
+          "title": "地震後的安全檢查"
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "semester": 1,
+      "unit_id": "U02",
+      "unit_title": "水生生物與環境",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g04s1_u02_kp01",
+          "canonical_kp_id": "sci_g04s1_02_01",
+          "title": "陸域環境與水域環境"
+        },
+        {
+          "kp_id": "kx_g04s1_u02_kp02",
+          "canonical_kp_id": "sci_g04s1_02_02",
+          "title": "水域環境條件差異"
+        },
+        {
+          "kp_id": "kx_g04s1_u02_kp03",
+          "canonical_kp_id": "sci_g04s1_02_03",
+          "title": "水生植物的四種生長型"
+        },
+        {
+          "kp_id": "kx_g04s1_u02_kp04",
+          "canonical_kp_id": "sci_g04s1_02_04",
+          "title": "漂浮性植物的適應"
+        },
+        {
+          "kp_id": "kx_g04s1_u02_kp05",
+          "canonical_kp_id": "sci_g04s1_02_05",
+          "title": "沉水性植物的適應"
+        },
+        {
+          "kp_id": "kx_g04s1_u02_kp06",
+          "canonical_kp_id": "sci_g04s1_02_06",
+          "title": "浮葉性植物的適應"
+        },
+        {
+          "kp_id": "kx_g04s1_u02_kp07",
+          "canonical_kp_id": "sci_g04s1_02_07",
+          "title": "挺水性植物的適應"
+        },
+        {
+          "kp_id": "kx_g04s1_u02_kp08",
+          "canonical_kp_id": "sci_g04s1_02_08",
+          "title": "魚的外形、游泳與呼吸"
+        },
+        {
+          "kp_id": "kx_g04s1_u02_kp09",
+          "canonical_kp_id": "sci_g04s1_02_09",
+          "title": "水生動物的構造與環境適應"
+        },
+        {
+          "kp_id": "kx_g04s1_u02_kp10",
+          "canonical_kp_id": "sci_g04s1_02_10",
+          "title": "環境與人類飲食習慣"
+        },
+        {
+          "kp_id": "kx_g04s1_u02_kp11",
+          "canonical_kp_id": "sci_g04s1_02_11",
+          "title": "水域污染對生物的影響"
+        },
+        {
+          "kp_id": "kx_g04s1_u02_kp12",
+          "canonical_kp_id": "sci_g04s1_02_12",
+          "title": "熱廢水與珊瑚白化"
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "semester": 1,
+      "unit_id": "U03",
+      "unit_title": "有趣的聲光現象",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g04s1_u03_kp01",
+          "canonical_kp_id": "sci_g04s1_03_01",
+          "title": "聲音由物體振動產生"
+        },
+        {
+          "kp_id": "kx_g04s1_u03_kp02",
+          "canonical_kp_id": "sci_g04s1_03_02",
+          "title": "聲音經由周圍物質振動傳到耳朵"
+        },
+        {
+          "kp_id": "kx_g04s1_u03_kp03",
+          "canonical_kp_id": "sci_g04s1_03_03",
+          "title": "聲音需要介質傳播"
+        },
+        {
+          "kp_id": "kx_g04s1_u03_kp04",
+          "canonical_kp_id": "sci_g04s1_03_04",
+          "title": "看見物體需要光進入眼睛"
+        },
+        {
+          "kp_id": "kx_g04s1_u03_kp05",
+          "canonical_kp_id": "sci_g04s1_03_05",
+          "title": "光源"
+        },
+        {
+          "kp_id": "kx_g04s1_u03_kp06",
+          "canonical_kp_id": "sci_g04s1_03_06",
+          "title": "光直線行進與影子"
+        },
+        {
+          "kp_id": "kx_g04s1_u03_kp07",
+          "canonical_kp_id": "sci_g04s1_03_07",
+          "title": "光的反射與方向改變"
+        },
+        {
+          "kp_id": "kx_g04s1_u03_kp08",
+          "canonical_kp_id": "sci_g04s1_03_08",
+          "title": "反射現象的生活應用"
+        },
+        {
+          "kp_id": "kx_g04s1_u03_kp09",
+          "canonical_kp_id": "sci_g04s1_03_09",
+          "title": "聲與光的警示和指示用途"
+        },
+        {
+          "kp_id": "kx_g04s1_u03_kp10",
+          "canonical_kp_id": "sci_g04s1_03_10",
+          "title": "聲與光的裝飾和娛樂用途"
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "semester": 1,
+      "unit_id": "U04",
+      "unit_title": "好玩的電路",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g04s1_u04_kp01",
+          "canonical_kp_id": "sci_g04s1_04_01",
+          "title": "電池正負極"
+        },
+        {
+          "kp_id": "kx_g04s1_u04_kp02",
+          "canonical_kp_id": "sci_g04s1_04_02",
+          "title": "電線的導體與絕緣外皮"
+        },
+        {
+          "kp_id": "kx_g04s1_u04_kp03",
+          "canonical_kp_id": "sci_g04s1_04_03",
+          "title": "燈泡的基本導電構造"
+        },
+        {
+          "kp_id": "kx_g04s1_u04_kp04",
+          "canonical_kp_id": "sci_g04s1_04_04",
+          "title": "通路與斷路"
+        },
+        {
+          "kp_id": "kx_g04s1_u04_kp05",
+          "canonical_kp_id": "sci_g04s1_04_05",
+          "title": "良導體與不良導體"
+        },
+        {
+          "kp_id": "kx_g04s1_u04_kp06",
+          "canonical_kp_id": "sci_g04s1_04_06",
+          "title": "電池串聯對燈泡亮度的影響"
+        },
+        {
+          "kp_id": "kx_g04s1_u04_kp07",
+          "canonical_kp_id": "sci_g04s1_04_07",
+          "title": "電池並聯對燈泡亮度的影響"
+        },
+        {
+          "kp_id": "kx_g04s1_u04_kp08",
+          "canonical_kp_id": "sci_g04s1_04_08",
+          "title": "燈泡串聯對亮度的影響"
+        },
+        {
+          "kp_id": "kx_g04s1_u04_kp09",
+          "canonical_kp_id": "sci_g04s1_04_09",
+          "title": "燈泡並聯對亮度的影響"
+        },
+        {
+          "kp_id": "kx_g04s1_u04_kp10",
+          "canonical_kp_id": "sci_g04s1_04_10",
+          "title": "小馬達與電池極性"
+        },
+        {
+          "kp_id": "kx_g04s1_u04_kp11",
+          "canonical_kp_id": "sci_g04s1_04_11",
+          "title": "廢電池回收"
+        },
+        {
+          "kp_id": "kx_g04s1_u04_kp12",
+          "canonical_kp_id": "sci_g04s1_04_12",
+          "title": "市電與用電安全"
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "semester": 2,
+      "unit_id": "U01",
+      "unit_title": "白天和夜晚的天空",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g04s2_u01_kp01",
+          "canonical_kp_id": "sci_g04s2_01_01",
+          "title": "白天與夜晚景象差異"
+        },
+        {
+          "kp_id": "kx_g04s2_u01_kp02",
+          "canonical_kp_id": "sci_g04s2_01_02",
+          "title": "白天與夜晚可見天體"
+        },
+        {
+          "kp_id": "kx_g04s2_u01_kp03",
+          "canonical_kp_id": "sci_g04s2_01_03",
+          "title": "天文望遠鏡觀察與太陽觀測安全"
+        },
+        {
+          "kp_id": "kx_g04s2_u01_kp04",
+          "canonical_kp_id": "sci_g04s2_01_04",
+          "title": "影子方向與光源方向"
+        },
+        {
+          "kp_id": "kx_g04s2_u01_kp05",
+          "canonical_kp_id": "sci_g04s2_01_05",
+          "title": "光源高度與影子長短"
+        },
+        {
+          "kp_id": "kx_g04s2_u01_kp06",
+          "canonical_kp_id": "sci_g04s2_01_06",
+          "title": "太陽一天中的位置變化"
+        },
+        {
+          "kp_id": "kx_g04s2_u01_kp07",
+          "canonical_kp_id": "sci_g04s2_01_07",
+          "title": "月亮位置的方位與高度角"
+        },
+        {
+          "kp_id": "kx_g04s2_u01_kp08",
+          "canonical_kp_id": "sci_g04s2_01_08",
+          "title": "月亮方位的測量"
+        },
+        {
+          "kp_id": "kx_g04s2_u01_kp09",
+          "canonical_kp_id": "sci_g04s2_01_09",
+          "title": "月亮高度角的測量"
+        },
+        {
+          "kp_id": "kx_g04s2_u01_kp10",
+          "canonical_kp_id": "sci_g04s2_01_10",
+          "title": "月亮一天中的運行"
+        },
+        {
+          "kp_id": "kx_g04s2_u01_kp11",
+          "canonical_kp_id": "sci_g04s2_01_11",
+          "title": "月相變化週期"
+        },
+        {
+          "kp_id": "kx_g04s2_u01_kp12",
+          "canonical_kp_id": "sci_g04s2_01_12",
+          "title": "農曆日期與月相"
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "semester": 2,
+      "unit_id": "U02",
+      "unit_title": "水的移動",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g04s2_u02_kp01",
+          "canonical_kp_id": "sci_g04s2_02_01",
+          "title": "水自然由高處往低處流動"
+        },
+        {
+          "kp_id": "kx_g04s2_u02_kp02",
+          "canonical_kp_id": "sci_g04s2_02_02",
+          "title": "吸水材料具有細縫"
+        },
+        {
+          "kp_id": "kx_g04s2_u02_kp03",
+          "canonical_kp_id": "sci_g04s2_02_03",
+          "title": "毛細現象"
+        },
+        {
+          "kp_id": "kx_g04s2_u02_kp04",
+          "canonical_kp_id": "sci_g04s2_02_04",
+          "title": "細縫大小影響毛細現象"
+        },
+        {
+          "kp_id": "kx_g04s2_u02_kp05",
+          "canonical_kp_id": "sci_g04s2_02_05",
+          "title": "毛細現象的生活應用"
+        },
+        {
+          "kp_id": "kx_g04s2_u02_kp06",
+          "canonical_kp_id": "sci_g04s2_02_06",
+          "title": "虹吸現象"
+        },
+        {
+          "kp_id": "kx_g04s2_u02_kp07",
+          "canonical_kp_id": "sci_g04s2_02_07",
+          "title": "形成虹吸現象的條件"
+        },
+        {
+          "kp_id": "kx_g04s2_u02_kp08",
+          "canonical_kp_id": "sci_g04s2_02_08",
+          "title": "虹吸現象的換水應用"
+        },
+        {
+          "kp_id": "kx_g04s2_u02_kp09",
+          "canonical_kp_id": "sci_g04s2_02_09",
+          "title": "水面保持水平"
+        },
+        {
+          "kp_id": "kx_g04s2_u02_kp10",
+          "canonical_kp_id": "sci_g04s2_02_10",
+          "title": "連通管原理"
+        },
+        {
+          "kp_id": "kx_g04s2_u02_kp11",
+          "canonical_kp_id": "sci_g04s2_02_11",
+          "title": "連通管原理的生活應用"
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "semester": 2,
+      "unit_id": "U03",
+      "unit_title": "昆蟲大解密",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g04s2_u03_kp01",
+          "canonical_kp_id": "sci_g04s2_03_01",
+          "title": "昆蟲的基本身體構造"
+        },
+        {
+          "kp_id": "kx_g04s2_u03_kp02",
+          "canonical_kp_id": "sci_g04s2_03_02",
+          "title": "利用參考體描述昆蟲位置"
+        },
+        {
+          "kp_id": "kx_g04s2_u03_kp03",
+          "canonical_kp_id": "sci_g04s2_03_03",
+          "title": "昆蟲構造與運動方式"
+        },
+        {
+          "kp_id": "kx_g04s2_u03_kp04",
+          "canonical_kp_id": "sci_g04s2_03_04",
+          "title": "昆蟲構造與攝食"
+        },
+        {
+          "kp_id": "kx_g04s2_u03_kp05",
+          "canonical_kp_id": "sci_g04s2_03_05",
+          "title": "昆蟲繁殖相關習性與行為"
+        },
+        {
+          "kp_id": "kx_g04s2_u03_kp06",
+          "canonical_kp_id": "sci_g04s2_03_06",
+          "title": "昆蟲的保護色與外形隱蔽"
+        },
+        {
+          "kp_id": "kx_g04s2_u03_kp07",
+          "canonical_kp_id": "sci_g04s2_03_07",
+          "title": "昆蟲的棲地與食物"
+        },
+        {
+          "kp_id": "kx_g04s2_u03_kp08",
+          "canonical_kp_id": "sci_g04s2_03_08",
+          "title": "完全變態"
+        },
+        {
+          "kp_id": "kx_g04s2_u03_kp09",
+          "canonical_kp_id": "sci_g04s2_03_09",
+          "title": "不完全變態"
+        },
+        {
+          "kp_id": "kx_g04s2_u03_kp10",
+          "canonical_kp_id": "sci_g04s2_03_10",
+          "title": "昆蟲在自然界的重要性"
+        },
+        {
+          "kp_id": "kx_g04s2_u03_kp11",
+          "canonical_kp_id": "sci_g04s2_03_11",
+          "title": "昆蟲與人類生活的利與害"
+        },
+        {
+          "kp_id": "kx_g04s2_u03_kp12",
+          "canonical_kp_id": "sci_g04s2_03_12",
+          "title": "昆蟲仿生與生活創意"
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "semester": 2,
+      "unit_id": "U04",
+      "unit_title": "自然資源與利用",
+      "knowledge_points": [
+        {
+          "kp_id": "kx_g04s2_u04_kp01",
+          "canonical_kp_id": "sci_g04s2_04_01",
+          "title": "太陽是地球主要能量來源"
+        },
+        {
+          "kp_id": "kx_g04s2_u04_kp02",
+          "canonical_kp_id": "sci_g04s2_04_02",
+          "title": "能量的意義"
+        },
+        {
+          "kp_id": "kx_g04s2_u04_kp03",
+          "canonical_kp_id": "sci_g04s2_04_03",
+          "title": "常見能量形式"
+        },
+        {
+          "kp_id": "kx_g04s2_u04_kp04",
+          "canonical_kp_id": "sci_g04s2_04_04",
+          "title": "能源"
+        },
+        {
+          "kp_id": "kx_g04s2_u04_kp05",
+          "canonical_kp_id": "sci_g04s2_04_05",
+          "title": "燃料"
+        },
+        {
+          "kp_id": "kx_g04s2_u04_kp06",
+          "canonical_kp_id": "sci_g04s2_04_06",
+          "title": "自然資源"
+        },
+        {
+          "kp_id": "kx_g04s2_u04_kp07",
+          "canonical_kp_id": "sci_g04s2_04_07",
+          "title": "合理使用與資源再生"
+        },
+        {
+          "kp_id": "kx_g04s2_u04_kp08",
+          "canonical_kp_id": "sci_g04s2_04_08",
+          "title": "石油的用途"
+        },
+        {
+          "kp_id": "kx_g04s2_u04_kp09",
+          "canonical_kp_id": "sci_g04s2_04_09",
+          "title": "自然資源有限與珍惜使用"
+        },
+        {
+          "kp_id": "kx_g04s2_u04_kp10",
+          "canonical_kp_id": "sci_g04s2_04_10",
+          "title": "過度開發與廢棄物造成環境污染"
+        },
+        {
+          "kp_id": "kx_g04s2_u04_kp11",
+          "canonical_kp_id": "sci_g04s2_04_11",
+          "title": "當用則用、當省則省"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "units": 16,
+    "knowledge_points": 187
+  }
+}

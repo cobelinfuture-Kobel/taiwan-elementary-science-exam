@@ -1,17 +1,16 @@
 {
-  "schema_version": "SCIENCE_G03_G04_KP_SOURCE_PREFLIGHT_V1",
-  "status": "SOURCE_FILES_NOT_YET_VERIFIED",
-  "source_policy": "EXACT_ORIGINAL_AUTHORITY_ONLY; NEVER_RECONSTRUCT_FROM_DEMO_FIXTURES",
-  "academic_year_authority": "113",
+  "schema_version": "SCIENCE_G03_G04_KP_SOURCE_PREFLIGHT_V2",
+  "status": "SOURCE_ZIP_VERIFIED_PUBLIC_SELECTOR_PROJECTED",
+  "source_policy": "FOUR_VERIFIED_JSON_INPUTS_READ_ONLY; PUBLIC SELECTOR ONLY",
   "grade_scope": [
     3,
     4
   ],
-  "semesters": [
+  "semester_scope": [
     "S1",
     "S2"
   ],
-  "assessment_scope": {
+  "exam_scope": {
     "MIDTERM": [
       "U01",
       "U02"
@@ -21,72 +20,55 @@
       "U04"
     ]
   },
-  "targets": [
+  "sources": [
     {
       "grade": 3,
-      "semester": "S1",
-      "file": "science_g03_s1_kanghsuan_kp_authority_v1.json",
-      "unit_kp_expected": [
-        14,
-        12,
-        11,
-        10
-      ],
-      "kp_total_expected": 47
+      "semester": 1,
+      "filename": "science_g03_s1_kanghsuan_kp_authority_v2.json",
+      "sha256": "258a1b1f3ba78a419d41a75de60d88806a6fbba738d66c4c2b43663acb449fe8",
+      "source_status": "VERIFIED_LOCAL_ZIP"
     },
     {
       "grade": 3,
-      "semester": "S2",
-      "file": "science_g03_s2_kanghsuan_kp_authority_v1.json",
-      "unit_kp_expected": [
-        12,
-        12,
-        12,
-        13
-      ],
-      "kp_total_expected": 49
+      "semester": 2,
+      "filename": "science_g03_s2_kanghsuan_kp_authority_v1.json",
+      "sha256": "bba745c03edf23999129184a63ef8be4eb8df9e94bc1524180af64bb41652500",
+      "source_status": "VERIFIED_LOCAL_ZIP"
     },
     {
       "grade": 4,
-      "semester": "S1",
-      "file": "science_g04_s1_kanghsuan_kp_authority_v1.json",
-      "unit_kp_expected": [
-        11,
-        12,
-        10,
-        12
-      ],
-      "kp_total_expected": 45
+      "semester": 1,
+      "filename": "science_g04_s1_kanghsuan_kp_authority_v1.json",
+      "sha256": "ac2122b09caa56afec373303c8a6169b57353bff06794831b508c3a3f5b5e4d5",
+      "source_status": "VERIFIED_LOCAL_ZIP"
     },
     {
       "grade": 4,
-      "semester": "S2",
-      "file": "science_g04_s2_kanghsuan_kp_authority_v1.json",
-      "unit_kp_expected": [
-        12,
-        11,
-        12,
-        11
-      ],
-      "kp_total_expected": 46
+      "semester": 2,
+      "filename": "science_g04_s2_kanghsuan_kp_authority_v1.json",
+      "sha256": "93f7bcc65bbf4fa18e5f6516cf3f3cd31a51b327ab1ce276b15685971d094f46",
+      "source_status": "VERIFIED_LOCAL_ZIP"
     }
   ],
-  "public_export_policy": "Publish minimal KP titles/IDs and curriculum routing only after source readback and authorization; exclude original copyrighted teacher/source pages and original full copyrighted text.",
-  "pending_checks": [
-    "original file bytes/readback",
-    "JSON parse",
-    "unit distribution",
-    "KP ID uniqueness",
-    "canonical ID mapping",
-    "MIDTERM U01/U02 and FINAL U03/U04",
-    "copyright/privacy clearance",
-    "selector no-fallback behavior"
-  ],
-  "prohibited_actions": [
-    "invent missing KP",
-    "use DEMO_ONLY questions as canonical authority",
-    "import historical-exam question bank in S2",
-    "publish raw teacher copyrighted source scans",
-    "modify math-generator repository"
-  ]
+  "projection": {
+    "path": "site/data/authority/science-g03-g04-selector-v2.json",
+    "unit_count": 16,
+    "kp_count": 187,
+    "public_fields": [
+      "grade",
+      "semester",
+      "unit_id",
+      "unit_title",
+      "kp_id",
+      "canonical_kp_id",
+      "title"
+    ],
+    "excluded_fields": [
+      "statement",
+      "activity",
+      "evidence"
+    ]
+  },
+  "note": "The 47 G03-S1 canonical IDs are internally derived according to the approved schema-alignment V2 source, not manufacturer identifiers. The original source JSON bytes are not distributed through GitHub Pages.",
+  "preserved_demo_only": true
 }

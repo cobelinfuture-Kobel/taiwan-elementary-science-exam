@@ -1,0 +1,141 @@
+{
+  "schema_version": "SCIENCE_EXAM_S3_P08_ADMISSION_STATUS_V1",
+  "historical_exam_sources": 4,
+  "frozen_kp_count": 187,
+  "tf_cumulative": 40,
+  "tf_new_science_reviewed": 33,
+  "operator_accepted_first_seven": 7,
+  "tf_answers_O": 18,
+  "tf_answers_X": 22,
+  "context_source_groups": 20,
+  "context_source_regions": 21,
+  "certified_context_groups": 9,
+  "certified_context_answer_slots": 46,
+  "deferred_context_groups": 11,
+  "total_embedded_answer_slots": 86,
+  "teacher_answer_key_authenticated": 0,
+  "original_figure_crops_publicly_reused": 0,
+  "context_groups": [
+    {
+      "group_id": "MID_G03_FORCES_MATCHING",
+      "state": "CERTIFIED_EMBEDDED",
+      "publish_on_site": true,
+      "reason": "來源情境以原創文字、表格或選項重建；答案與 KP 已通過科學覆核，免用原卷裁切圖"
+    },
+    {
+      "group_id": "MID_G03_MAGNET_READING",
+      "state": "CERTIFIED_EMBEDDED",
+      "publish_on_site": true,
+      "reason": "來源情境以原創文字、表格或選項重建；答案與 KP 已通過科學覆核，免用原卷裁切圖"
+    },
+    {
+      "group_id": "FINAL_G03_INDICATOR_TABLE",
+      "state": "CERTIFIED_EMBEDDED",
+      "publish_on_site": true,
+      "reason": "來源情境以原創文字、表格或選項重建；答案與 KP 已通過科學覆核，免用原卷裁切圖"
+    },
+    {
+      "group_id": "MID_G04_WATER_ENV_MATCHING",
+      "state": "CERTIFIED_EMBEDDED",
+      "publish_on_site": true,
+      "reason": "來源情境以原創文字、表格或選項重建；答案與 KP 已通過科學覆核，免用原卷裁切圖"
+    },
+    {
+      "group_id": "MID_G04_HABITAT_MATCHING",
+      "state": "CERTIFIED_EMBEDDED",
+      "publish_on_site": true,
+      "reason": "來源情境以原創文字、表格或選項重建；答案與 KP 已通過科學覆核，免用原卷裁切圖"
+    },
+    {
+      "group_id": "MID_G04_WATER_PLANT_MATCHING",
+      "state": "CERTIFIED_EMBEDDED",
+      "publish_on_site": true,
+      "reason": "來源情境以原創文字、表格或選項重建；答案與 KP 已通過科學覆核，免用原卷裁切圖"
+    },
+    {
+      "group_id": "MID_G04_EARTHQUAKE_MATCHING",
+      "state": "CERTIFIED_EMBEDDED",
+      "publish_on_site": true,
+      "reason": "來源情境以原創文字、表格或選項重建；答案與 KP 已通過科學覆核，免用原卷裁切圖"
+    },
+    {
+      "group_id": "FINAL_G04_CONDUCTOR_OPTIONS",
+      "state": "CERTIFIED_EMBEDDED",
+      "publish_on_site": true,
+      "reason": "來源情境以原創文字、表格或選項重建；答案與 KP 已通過科學覆核，免用原卷裁切圖"
+    },
+    {
+      "group_id": "FINAL_G04_REFLECTION_READING",
+      "state": "CERTIFIED_EMBEDDED",
+      "publish_on_site": true,
+      "reason": "來源情境以原創文字、表格或選項重建；答案與 KP 已通過科學覆核，免用原卷裁切圖"
+    },
+    {
+      "group_id": "MID_G03_FORCE_OPTION_IMAGES",
+      "state": "REVIEW_HOLD",
+      "publish_on_site": false,
+      "reason": "圖片選項需重新繪製並確認判答不受圖片差異影響"
+    },
+    {
+      "group_id": "MID_G03_FLOWER_DIAGRAM",
+      "state": "REVIEW_HOLD",
+      "publish_on_site": false,
+      "reason": "花部四處標記圖未完成自主繪圖及代號對位驗收"
+    },
+    {
+      "group_id": "MID_G03_STEM_DIAGRAM",
+      "state": "REVIEW_HOLD",
+      "publish_on_site": false,
+      "reason": "木本、草本、藤本莖對照圖未完成重繪"
+    },
+    {
+      "group_id": "MID_G03_ROOT_DIAGRAM",
+      "state": "REVIEW_HOLD",
+      "publish_on_site": false,
+      "reason": "兩種根系圖尚需重繪與圖說驗收"
+    },
+    {
+      "group_id": "MID_G03_LEAF_ARRANGEMENTS",
+      "state": "REVIEW_HOLD",
+      "publish_on_site": false,
+      "reason": "三種葉序圖尚需獨立繪製與代號核對"
+    },
+    {
+      "group_id": "FINAL_G03_SYRINGE_FIGURE",
+      "state": "REVIEW_HOLD",
+      "publish_on_site": false,
+      "reason": "注射筒刻度與封口實驗示意圖尚需視覺驗收"
+    },
+    {
+      "group_id": "FINAL_G03_ANTHOCYANIN_READING",
+      "state": "REVIEW_HOLD",
+      "publish_on_site": false,
+      "reason": "長篇文章的原始來源與 A4 雙欄可讀性尚待查核"
+    },
+    {
+      "group_id": "MID_G04_EARTHQUAKE_READING",
+      "state": "REVIEW_HOLD",
+      "publish_on_site": false,
+      "reason": "原卷標示新聞報導，須分開核對第三方文章權利"
+    },
+    {
+      "group_id": "FINAL_G04_CIRCUIT_IMAGES",
+      "state": "REVIEW_HOLD",
+      "publish_on_site": false,
+      "reason": "三組電路的電池、燈泡串並聯拓樸尚需重繪及電路驗證"
+    },
+    {
+      "group_id": "FINAL_G04_CIRCUIT_DRAW",
+      "state": "REVIEW_HOLD",
+      "publish_on_site": false,
+      "reason": "開放式電路圖需要可執行的人工評分規則"
+    },
+    {
+      "group_id": "FINAL_G04_LED_READING",
+      "state": "REVIEW_HOLD",
+      "publish_on_site": false,
+      "reason": "長篇 LED 閱讀素材來源、權利與雙欄版面待驗收"
+    }
+  ],
+  "policy": "SCHOOL_EXAM_QUESTION_TEXT_RECONSTRUCTED; THIRD_PARTY_ASSET_GATED"
+}

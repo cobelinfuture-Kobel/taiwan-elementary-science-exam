@@ -184,6 +184,12 @@ try {
   assert.deepEqual(p03Errors,[]);
   await p03Page.screenshot({path:output+"/s3-p03-review-dashboard.png",fullPage:true});
   await p03Page.close();
+  const admission=await browser.newPage({viewport:{width:1200,height:800}});
+  await admission.goto("http://127.0.0.1:"+server.address().port+"/review/p08/",{waitUntil:"networkidle"});
+  await admission.waitForFunction(()=>document.querySelector("#summary")?.textContent?.includes("86"),{timeout:15000});
+  assert.equal(await admission.locator("#rows tr").count(),20,"all 20 original context groups must be disclosed");
+  await admission.screenshot({path:output+"/s3-p08-context-admission-status.png",fullPage:true});
+  await admission.close();
   await statusPage.close();
   console.log("S3_P05_PUBLIC_DASHBOARD_PASS: 40 original candidates, 7 built in");
   console.log("BROWSER_LAYOUT_PASS=" + JSON.stringify({ screen, print }, null, 2));

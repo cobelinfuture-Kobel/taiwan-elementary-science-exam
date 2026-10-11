@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>自然科 S3-P08 認證清冊</title><style>body{margin:0;background:#f3f6f9;color:#27384a;font:15px/1.6 system-ui,sans-serif}main{max-width:1100px;margin:30px auto;background:white;border-radius:12px;padding:27px}h1{font-size:1.5rem}.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:11px}.summary>div{padding:13px;border:1px solid #dbe5ec;border-radius:7px}.summary b{display:block;font-size:1.8rem}table{width:100%;border-collapse:collapse;margin-top:18px;font-size:.86rem}th,td{text-align:left;padding:9px;border-bottom:1px solid #ddd}th{background:#f2f6f8}.note{background:#fff6df;border-left:4px solid #c99f34;padding:11px}.pass{color:#166244}.pending{color:#905a16}a{color:#126a81}</style></head><body><main><a href="../">← S3 進度</a><h1>自然科 S3-P08｜考古題認證與公開入庫</h1><p class="note">教師原卷標準答案表未核實，題庫答案採科學論證。表格與閱讀情境由原題重新組織，不是原頁影印；未通過圖形或素材來源驗收的題組不會公開。原有 187 KP 不變。</p><section class="summary" id="summary"></section><h2>20 組情境題逐組結果</h2><table><thead><tr><th>題組來源 ID</th><th>結果</th><th>判定與後續</th></tr></thead><tbody id="rows"></tbody></table><p id="status" role="status"></p><p><a href="../../exam/">開啟自然科 Exam 考卷網站</a></p></main><script type="module">
+try{
+ const res=await fetch("../../data/question-bank/s3-p08-status.json",{cache:"no-cache"});
+ if(!res.ok)throw Error("無法載入本批次狀態");
+ const x=await res.json();
+ if(x.schema_version!=="SCIENCE_EXAM_S3_P08_ADMISSION_STATUS_V1")throw Error("資料契約不符");
+ for(const [label,value]of [["累計 O/X",x.tf_cumulative],["情境題組入庫",x.certified_context_groups],["新增情境小題",x.certified_context_answer_slots],["可組卷小題",x.total_embedded_answer_slots],["仍待審題組",x.deferred_context_groups]]){
+ const node=document.createElement("div"),txt=document.createElement("span"),strong=document.createElement("b");
+ txt.textContent=label;strong.textContent=String(value);node.append(txt,strong);document.querySelector("#summary").append(node);}
+ for(const g of x.context_groups){const tr=document.createElement("tr"),a=document.createElement("td"),b=document.createElement("td"),c=document.createElement("td");a.textContent=g.group_id;b.textContent=g.publish_on_site?"已內建":"保留待審";b.className=g.publish_on_site?"pass":"pending";c.textContent=g.reason;tr.append(a,b,c);document.querySelector("#rows").append(tr);}
+ document.querySelector("#status").textContent="已檢查 "+x.context_groups.length+" 組來源情境，原始圖像直接公開數 "+x.original_figure_crops_publicly_reused;
+}catch(error){document.querySelector("#status").textContent=String(error);}
+</script></body></html>

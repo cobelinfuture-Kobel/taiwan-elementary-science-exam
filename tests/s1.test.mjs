@@ -16,12 +16,12 @@ test('reading groups occupy a single A4 column and remain atomic',()=>{
 test('Exam uses the canonical Authority adapter and does not read KP labels from demo fixture as selector source',()=>{const html=read('site/exam/index.html');assert.match(html,/import \{ loadAuthority, unitsFor, resolveUnit \} from/);assert.doesNotMatch(html,/const titles=\{/);assert.doesNotMatch(html,/bank\.blocks\.filter\(b=>b\.unit===ui\.unit\.value\)/);assert.match(html,/kps\.has\(b\.canonical_kp_id\)/);});
 test('DEMO_ONLY fixture uses exact canonical KP lineage',()=>{const refs={q1:'sci_g04s1_02_03',q2:'sci_g04s1_02_08',q3:'sci_g04s1_02_03',q4:'sci_g04s1_01_08',q5:'sci_g03s1_02_05'};for(const row of fixture.blocks)assert.equal(row.canonical_kp_id,refs[row.id]);});
 
-test('S3-P04 local browser-only import does not mix sources or bypass exact KP authority',()=>{
+test('Exam exclusively uses embedded certified historical questions in public mode',()=>{
  const html=read('site/exam/index.html');
- assert.match(html,/id="source-select"/);
- assert.match(html,/id="local-import"/);
- assert.match(html,/SCIENCE_S3_P04_7_SOURCE_TEXT_ONLY/);
- assert.match(html,/const activeBank=ui.source.value==='LOCAL_APPROVED'\?localBank:bank/);
- assert.match(html,/請先選擇已核准考古題 JSON/);
- assert.match(html,/答案為科學判答，非教師答案表/);
+ assert.match(html,/loadEmbeddedHistoricalBank/);
+ assert.match(html,/EMBEDDED_CERTIFIED_HISTORICAL/);
+ assert.match(html,/內建考古題/);
+ assert.doesNotMatch(html,/id="local-import"|id="source-select"|LOCAL_APPROVED/);
+ assert.match(html,/const qaFixture=/);
+ assert.match(html,/qaFixture\?'DEMO_ONLY/);
 });

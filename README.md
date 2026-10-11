@@ -38,3 +38,8 @@ CI 通過與 Pages workflow success 是部署必要證據；瀏覽器互動、A4
 已接入 113 康軒三上、三下、四上、四下，共 **16 單元、187 KP**。年級／學期／單元／KP 由正式 V2 Authority 的公開 metadata 投影載入；原始教材敘述及來源證據不公開。
 
 **這不代表已匯入真實考古題。** 目前所有示範題維持 DEMO_ONLY，正式題庫與 GPT-6 逐題認證屬於 S3。詳細資料與驗收界線請參閱 [S2 紀錄](docs/S2_187KP_AUTHORITY_INTEGRATION.md)。
+
+
+## S3-P05：公開網站直接內建考古題
+
+不需額外匯入 JSON 或切換題庫。第一批 7 題學校考古題（採科學判答及原 KP 追溯）已內建，後續經認證的題目同樣直接加入。見 [P05 範圍](docs/S3_P05_PUBLIC_EMBEDDED_BANK.md)。

@@ -111,6 +111,33 @@ try {
   const print = await geometry();
   validate(print, "print");
   await page.pdf({ path: output + "/exam-two-column-a4.pdf", format: "A4", preferCSSPageSize: true, printBackground: true });
+  // Browser-only exam import: synthetic fixture, never commit real source text here.
+  await page.selectOption("#source-select","LOCAL_APPROVED");
+  await page.selectOption("#grade","4");
+  await page.selectOption("#semester","S1");
+  await page.selectOption("#unit","4-S1-U02");
+  await page.selectOption("#mode","single_unit");
+  await page.locator("#local-import").setInputFiles({
+    name:"s3-p04-synthetic.json",mimeType:"application/json",
+    buffer:Buffer.from(JSON.stringify({schema_version:"SCIENCE_S3_P04_7_SOURCE_TEXT_ONLY",blocks:[
+      {id:"SYNTHETIC_LOCAL_TEST",unit:"4-S1-U02",canonical_kp_id:"sci_g04s1_02_03",
+       type:"tf",stem:"測試用合成題，並非真實考古題。",answer:"正確",
+       science_reasoning:"驗證本機匯入及答案頁。",answer_qualification:"僅供自動化測試。",
+       teacher_key_authenticated:false,operator_science_answer_accepted:true,mapping_quality:"KP_EXACT_SCIENCE_REVIEWED"}
+    ]}),"utf8")
+  });
+  await page.waitForFunction(()=>document.querySelector("#status")?.textContent?.includes("已核對並載入"));
+  await page.fill("#count","1");
+  await page.locator("#generate").click();
+  assert.equal(await page.locator("#status").getAttribute("data-error"),"false");
+  assert.equal(await page.locator(".paper:not([data-answer='true']) .question").count(),1);
+  assert.ok((await page.locator(".paper:not([data-answer='true'])").first().innerText()).includes("本機核准考古題"));
+  assert.ok((await page.locator(".paper[data-answer='true']").first().innerText()).includes("判斷前提"));
+  await page.selectOption("#unit","4-S1-U01");
+  await page.locator("#generate").click();
+  assert.equal(await page.locator("#status").getAttribute("data-error"),"true","no fallback to unrelated demo source");
+  await page.screenshot({path:output+"/s3-p04-local-import-check.png",fullPage:true});
+  console.log("S3_P04_LOCAL_HISTORY_IMPORT_PASS");
   const statusPage=await browser.newPage({viewport:{width:1280,height:900}});
   const errors=[];
   statusPage.on("pageerror",err=>errors.push(String(err)));

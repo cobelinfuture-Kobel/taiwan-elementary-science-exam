@@ -27,7 +27,9 @@ let browser;
 try {
   browser = await chromium.launch({ headless: true });
   const page = await browser.newPage({ viewport: { width: 1500, height: 980 }, deviceScaleFactor: 1 });
-  await page.goto("http://127.0.0.1:" + server.address().port + "/exam/", { waitUntil: "networkidle" });
+  await page.goto("http://127.0.0.1:" + server.address().port + "/exam/?qa=1", { waitUntil: "networkidle" });
+  await page.fill("#count","4");
+  await page.locator("#generate").click();
   await page.waitForSelector(".paper:not([data-answer='true']) .group svg.diagram", { timeout: 15000 });
   const expectedCount = {"3-S1":[14,12,11,10],"3-S2":[12,12,12,13],"4-S1":[11,12,10,12],"4-S2":[12,11,12,11]};
   for(const [scope,nums] of Object.entries(expectedCount)){
@@ -111,34 +113,33 @@ try {
   const print = await geometry();
   validate(print, "print");
   await page.pdf({ path: output + "/exam-two-column-a4.pdf", format: "A4", preferCSSPageSize: true, printBackground: true });
-  // Browser-only exam import: synthetic fixture, never commit real source text here.
-  await page.emulateMedia({media:"screen"});
-  await page.selectOption("#source-select","LOCAL_APPROVED");
-  await page.selectOption("#grade","4");
-  await page.selectOption("#semester","S1");
-  await page.selectOption("#unit","4-S1-U02");
-  await page.selectOption("#mode","single_unit");
-  await page.locator("#local-import").setInputFiles({
-    name:"s3-p04-synthetic.json",mimeType:"application/json",
-    buffer:Buffer.from(JSON.stringify({schema_version:"SCIENCE_S3_P04_7_SOURCE_TEXT_ONLY",blocks:[
-      {id:"SYNTHETIC_LOCAL_TEST",unit:"4-S1-U02",canonical_kp_id:"sci_g04s1_02_03",
-       type:"tf",stem:"測試用合成題，並非真實考古題。",answer:"正確",
-       science_reasoning:"驗證本機匯入及答案頁。",answer_qualification:"僅供自動化測試。",
-       teacher_key_authenticated:false,operator_science_answer_accepted:true,mapping_quality:"KP_EXACT_SCIENCE_REVIEWED"}
-    ]}),"utf8")
-  });
-  await page.waitForFunction(()=>document.querySelector("#status")?.textContent?.includes("已核對並載入"));
-  await page.fill("#count","1");
-  await page.locator("#generate").click();
-  assert.equal(await page.locator("#status").getAttribute("data-error"),"false");
-  assert.equal(await page.locator(".paper:not([data-answer='true']) .question").count(),1);
-  assert.ok((await page.locator(".paper:not([data-answer='true'])").first().innerText()).includes("本機核准考古題"));
-  assert.ok((await page.locator(".paper[data-answer='true']").first().innerText()).includes("判斷前提"));
-  await page.selectOption("#unit","4-S1-U01");
-  await page.locator("#generate").click();
-  assert.equal(await page.locator("#status").getAttribute("data-error"),"true","no fallback to unrelated demo source");
-  await page.screenshot({path:output+"/s3-p04-local-import-check.png",fullPage:true});
-  console.log("S3_P04_LOCAL_HISTORY_IMPORT_PASS");
+  // Real user-facing public site: all eligible questions are built into the Pages payload.
+  const live=await browser.newPage({viewport:{width:1420,height:940}});
+  const liveErrors=[];live.on("pageerror",e=>liveErrors.push(String(e)));
+  await live.goto("http://127.0.0.1:"+server.address().port+"/exam/",{waitUntil:"networkidle"});
+  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已內建 7"),{timeout:15000});
+  assert.equal(await live.locator("#source-select").count(),0,"no source selector");
+  assert.equal(await live.locator("#local-import").count(),0,"no local JSON upload control");
+  assert.equal(await live.locator(".paper:not([data-answer='true']) .question").count(),1,"one approved question at default setting");
+  assert.ok((await live.locator(".paper").first().innerText()).includes("歷屆學校考古題"));
+  assert.equal(await live.locator(".paper[data-answer='true']").count(),1);
+  assert.ok((await live.locator(".paper[data-answer='true']").innerText()).includes("判斷前提"));
+  await live.selectOption("#grade","3");
+  await live.selectOption("#semester","S1");
+  await live.selectOption("#unit","3-S1-U04");
+  await live.fill("#count","2");
+  await live.locator("#generate").click();
+  assert.equal(await live.locator("#status").getAttribute("data-error"),"false","two embedded historical questions can be selected");
+  assert.equal(await live.locator(".paper:not([data-answer='true']) .question").count(),2);
+  assert.ok((await live.locator("#meta").textContent()).includes("內建考古題 2 小題"));
+  await live.selectOption("#semester","S2");
+  await live.locator("#generate").click();
+  assert.equal(await live.locator("#status").getAttribute("data-error"),"true","no DEMO fallback for semesters without approved questions");
+  assert.equal(await live.locator("#print").isDisabled(),true);
+  assert.deepEqual(liveErrors,[]);
+  await live.screenshot({path:output+"/s3-p05-embedded-history-no-upload.png",fullPage:true});
+  await live.close();
+  console.log("S3_P05_PUBLIC_EMBEDDED_PASS: 7 approved, no upload, no demo fallback");
   const statusPage=await browser.newPage({viewport:{width:1280,height:900}});
   const errors=[];
   statusPage.on("pageerror",err=>errors.push(String(err)));

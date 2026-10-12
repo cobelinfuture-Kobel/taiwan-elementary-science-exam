@@ -29,15 +29,20 @@
 
 其他八個：冰飲與冰棒變軟（2）、晾衣、吹風機、魚缸水位、濕雨傘（4）、溫泉與火鍋白霧（2），均屬相同知識點的不同生活情境；可作為情境遷移，不能只因同 KP 就宣告重複或刪除。
 
-## A4 排版驗收
+## A4 最終排版驗收（PASS）
 
-採 localhost 截止公開的 `?qa=` 模式，以 `tools/verify-p12-remaining51-layout.mjs` 僅在 CI 中攔截 DEMO fixture，注入未上線的候選題組資料：
-- 6 組，共 30 子題：蔬菜分類 5；水態分四組（4+7+7+3）；水耕閱讀 4。
-- 額外 6 道長度較高的單選題 smoke。
-- Chromium 驗證正反答案一致、共用選項不缺、題組不拆分、A4 雙欄不溢出，並輸出每例 screenshot、PDF。
-- 程式不會將 staged 51 題引入真實公開網站，也不會部署 QA fixture。
+公開網站維持 154 題；候選的 51 個位置**僅經 localhost QA 介面測試**，沒有加入公開抽題池。\
+詳見 `tools/verify-p12-remaining51-layout.mjs` 與專用 workflow `.github/workflows/p12-remaining51-layout.yml`。
 
-**最終排版 PASS 與否以 PR CI run 實際紀錄為準，不可直接依此說明文件宣稱 PASS。**
+已完成的實際 Chromium 驗收：
+
+- 共 **27/27 個版面區塊、51/51 個作答位置 PASS**，含 **6 組共用情境 30 小題、10 道是非及 11 道單選**。
+- 逐區塊確認每個作答位置／答案頁正確、共用選項齊全、所有小題保持同一 A4 欄位、兩欄寬度與高度無溢出。
+- 已輸出 **27 份 PDF 與 27 張瀏覽器截圖**。
+- 同一輪 Node `npm test` **82/82 PASS**。
+- 實際證據：GitHub Actions [完整 51 題 Chromium 測試](https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/38243750980)，artifact `science-p12-remaining51-localhost-layout`。
+
+本輪最終驗收結果正式保存於 `data/review/p12-g03s2mid-remaining51-final-acceptance-v1.json`。此處完成的是**來源、答案、科學語義、KP、共用情境及排版**驗收；尚未取得對剩餘 51 題的公開發布核准，不得以此次 PASS 逕行增加網站題數。
 
 ## 退場與後續
 

@@ -14,7 +14,7 @@ export function isExamQuestionReuseEligible(row){
 export function hasAcceptedScienceAnswer(row){
   if(row?.answer_evidence_status==="SCIENCE_REASONED_GPT6_REVIEWED"
     && row.model_science_answer_review_completed===true
-    && row.science_answer_source==="GPT6_S3_P08_REASONED_REVIEW"
+    && ["GPT6_S3_P08_REASONED_REVIEW","GPT6_S3_P10_REASONED_REVIEW"].includes(row.science_answer_source)
     && ["TRUE","FALSE"].includes(row.answer_normalized)
     && typeof row.science_review_reason==="string"&&row.science_review_reason.trim()
     && typeof row.science_review_qualification==="string"&&row.science_review_qualification.trim())return true;

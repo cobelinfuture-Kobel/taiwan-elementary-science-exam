@@ -117,7 +117,7 @@ try {
   const live=await browser.newPage({viewport:{width:1420,height:940}});
   const liveErrors=[];live.on("pageerror",e=>liveErrors.push(String(e)));
   await live.goto("http://127.0.0.1:"+server.address().port+"/exam/",{waitUntil:"networkidle"});
-  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 116 小題（40 題是非＋20 組情境）"),{timeout:15000});
+  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 148 小題（72 題是非＋20 組情境）"),{timeout:15000});
   assert.equal(await live.locator("#source-select").count(),0,"no source selector");
   assert.equal(await live.locator("#local-import").count(),0,"no local JSON upload control");
   assert.equal(await live.locator("#unit option").count(),4,"curriculum units must be present");
@@ -227,10 +227,31 @@ try {
   await live.fill("#count","1");
   await live.locator("#generate").click();
   assert.equal(await live.locator("#status").getAttribute("data-error"),"false");
+  const lowerCases=[
+   ["3","3-S1-U01","sci_g03s2_01_12","蔬菜大多會經過種子"],
+   ["3","3-S1-U04","sci_g03s2_04_09","漁業氣象中"],
+   ["4","4-S1-U02","sci_g04s2_02_10","兩個相連的容器"],
+   ["4","4-S1-U04","sci_g04s2_04_08","石油可以製造"]
+  ];
+  for(const [grade,preUnit,kp,excerpt] of lowerCases){
+    await live.selectOption("#grade",grade);
+    await live.selectOption("#semester","S2");
+    await live.selectOption("#unit",preUnit.replace("-S1-","-S2-"));
+    await live.selectOption("#mode","single_kp");
+    await live.selectOption("#kp",kp);
+    await live.fill("#count","1");
+    await live.locator("#generate").click();
+    const msg=await live.locator("#status").textContent();
+    assert.equal(await live.locator("#status").getAttribute("data-error"),"false","P10 semester source must generate: "+kp+" "+msg);
+    const question=await live.locator(".paper:not([data-answer='true']) .question").first().innerText();
+    assert.ok(question.includes(excerpt),"wrong semester/KP source "+kp+" "+question);
+    assert.match(question,/^（　）1\. /,"P10 must retain original O/X layout");
+  }
+  console.log("S3_P10_G03_G04_S2_FOUR_PERIODS_PASS");
   assert.deepEqual(liveErrors,[]);
   await live.screenshot({path:output+"/s3-p05-embedded-history-no-upload.png",fullPage:true});
   await live.close();
-  console.log("S3_P09_PUBLIC_CONTEXT_PASS: 40 OX plus 20 groups and 76 slots, no upload, no demo fallback");
+  console.log("S3_P10_PUBLIC_CONTEXT_PASS: 72 OX plus 20 groups and 76 slots, no upload, no demo fallback");
   const statusPage=await browser.newPage({viewport:{width:1280,height:900}});
   const errors=[];
   statusPage.on("pageerror",err=>errors.push(String(err)));

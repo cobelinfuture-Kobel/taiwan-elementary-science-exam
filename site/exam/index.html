@@ -50,7 +50,7 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 <div class="work"><section class="controls">
 <h2>考卷抬頭</h2><div class="pair"><label>學校名稱<input id="school" value="○○國民小學"></label><label>學年度<input id="year" value="115"></label></div>
 <label>評量名稱<select id="exam-name"><option>期中評量</option><option>期末評量</option><option>第一次定期評量</option><option>第二次定期評量</option><option>單元練習</option></select></label>
-<div class="warning" id="bank-info">公開網站已內建 40 道是非題及 20 組完成重新繪圖與科學驗收的題組，不需另外匯入。；不用額外下載、上傳或切換題庫。尚未核准的題目不會混入抽題池。</div><h2>出題範圍</h2><div class="pair"><label>年級<select id="grade"><option value="3">三年級</option><option value="4" selected>四年級</option></select></label><label>學期<select id="semester"><option value="S1">上學期</option><option value="S2">下學期</option></select></label></div>
+<div class="warning" id="bank-info">公開網站已內建 72 道是非題及 20 組完成圖文驗收的題組，不需另外匯入。；不用額外下載、上傳或切換題庫。尚未核准的題目不會混入抽題池。</div><h2>出題範圍</h2><div class="pair"><label>年級<select id="grade"><option value="3">三年級</option><option value="4" selected>四年級</option></select></label><label>學期<select id="semester"><option value="S1">上學期</option><option value="S2">下學期</option></select></label></div>
 <label>單元<select id="unit"></select></label>
 <label>組卷模式<select id="mode"><option value="single_unit">單一單元</option><option value="single_kp">單一 KP</option><option value="same_unit">同單元多 KP</option><option value="cross_unit">跨單元</option><option value="midterm">期中 U01＋U02</option><option value="final">期末 U03＋U04</option></select></label>
 <div id="kp-wrap"><label>正式 KP 知識點（選單依已驗證的 187 KP Authority）<select id="kp"></select></label><p class="minor" id="kp-summary"></p></div>
@@ -64,7 +64,7 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 </main>
 <script type="module">
 import { loadAuthority, unitsFor, resolveUnit } from "../assets/js/authority-adapter.mjs";
-import { loadEmbeddedHistoricalBank } from "../assets/js/historical-bank-ox-v5.mjs?v=20261012-p09v1";
+import { loadEmbeddedHistoricalBank } from "../assets/js/historical-bank-ox-v6.mjs?v=20261012-p10v1";
 import { renderScienceDiagram } from "../assets/js/science-diagrams-p09.mjs?v=20261012-p09v1";
 const $=id=>document.getElementById(id),ui={grade:$('grade'),sem:$('semester'),unit:$('unit'),mode:$('mode'),kp:$('kp'),kpWrap:$('kp-wrap'),kpSummary:$('kp-summary'),crossWrap:$('cross-wrap'),cross:$('cross'),crossKPs:$('cross-kps'),count:$('count'),order:$('order'),seed:$('seed'),sheet:$('sheet'),status:$('status'),print:$('print'),meta:$('meta')};
 const qaFixture=(location.hostname==="127.0.0.1"||location.hostname==="localhost")&&new URLSearchParams(location.search).has("qa");

@@ -1,0 +1,1142 @@
+{
+  "schema_version": "SCIENCE_EXAM_P12_G03S2MID_REMAINING51_STAGED_LEARNER_CANDIDATES_V1",
+  "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+  "created_from": "site/data/governance/p12-g03s2mid-candidate-review.json",
+  "audit_reference": "data/review/p12-g03s2mid-remaining51-source-editorial-audit-v1.json",
+  "public_site_integrated": false,
+  "operator_approval_received": false,
+  "candidate_source_positions": 51,
+  "expected_question_blocks": 27,
+  "expected_answer_slots": 51,
+  "expected_single_true_false": 10,
+  "expected_single_choice": 11,
+  "expected_context_groups": 6,
+  "original_shared_group_policy": "COMPLETE_SOURCE_DEPENDENCY_REPRESENTED_BY_RECONSTRUCTED_SHARED_CONTEXT_AND_REPEATED_CHOICE_BANK; PARTITIONED_ONLY_TO_FIT_ONE_A4_COLUMN",
+  "issue_count_requiring_prepublication_revision": 6,
+  "near_duplicate_review_count": 10,
+  "already_published_six_are_excluded": true,
+  "original_P11_148_and_P12_6_unmodified": true,
+  "blocks": [
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|TF|P01|002"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U01",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_TF_002",
+      "source_slot_id": "G03-S2-MID|TF|P01|002",
+      "canonical_kp_id": "sci_g03s2_01_05",
+      "type": "tf",
+      "stem": "番茄的種子發芽後，會先長出像愛心形狀的子葉。",
+      "answer": "X",
+      "answer_explanation": "番茄子葉通常呈狹長形，不是題述的愛心形",
+      "source_original_stem": "番茄的種子發芽後，會先長出像愛心形狀的子葉。",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|TF|P01|005"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U01",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_TF_005",
+      "source_slot_id": "G03-S2-MID|TF|P01|005",
+      "canonical_kp_id": "sci_g03s2_01_10",
+      "type": "tf",
+      "stem": "在播種後，為了避免蔬菜被蟲吃掉，可以長時間用透明塑膠袋把整株幼苗密封罩起來。",
+      "answer": "X",
+      "answer_explanation": "長期封罩阻礙通風、可能高溫潮濕及不利生長",
+      "source_original_stem": "在播種後，為了避免蔬菜被蟲吃掉，可以用透明塑膠袋把它整個罩起來。",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|TF|P01|007"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U01",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_TF_007",
+      "source_slot_id": "G03-S2-MID|TF|P01|007",
+      "canonical_kp_id": "sci_g03s2_01_05",
+      "type": "tf",
+      "stem": "番茄的種子像水滴形，而且有細毛。",
+      "answer": "O",
+      "answer_explanation": "番茄種子多為扁平近水滴或卵形，表面可見細毛",
+      "source_original_stem": "番茄的種子像水滴形，而且有細毛。",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|TF|P01|008"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_TF_008",
+      "source_slot_id": "G03-S2-MID|TF|P01|008",
+      "canonical_kp_id": "sci_g03s2_02_01",
+      "type": "tf",
+      "stem": "海苔或餅乾打開一段時間會變軟，是因為吸收了水蒸氣的緣故。",
+      "answer": "O",
+      "answer_explanation": "吸收環境水分可使乾燥食品失去酥脆",
+      "source_original_stem": "海苔或餅乾打開一段時間會變軟，是因為吸收了水蒸氣的緣故。",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|TF|P01|011"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_TF_011",
+      "source_slot_id": "G03-S2-MID|TF|P01|011",
+      "canonical_kp_id": "sci_g03s2_02_09",
+      "type": "tf",
+      "stem": "空氣中有很多水蒸氣，水蒸氣是液態的水。",
+      "answer": "X",
+      "answer_explanation": "水蒸氣是氣態水，不是液態水",
+      "source_original_stem": "空氣中有很多水蒸氣，水蒸氣是液態的水。",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|TF|P01|015"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_TF_015",
+      "source_slot_id": "G03-S2-MID|TF|P01|015",
+      "canonical_kp_id": "sci_g03s2_02_09",
+      "type": "tf",
+      "stem": "冰、水和水蒸氣是不同的物質，各有各的型態。",
+      "answer": "X",
+      "answer_explanation": "三種都是水，差異在物質的狀態",
+      "source_original_stem": "冰、水和水蒸氣是不同的物質，各有各的型態。",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|TF|P01|016"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_TF_016",
+      "source_slot_id": "G03-S2-MID|TF|P01|016",
+      "canonical_kp_id": "sci_g03s2_02_09",
+      "type": "tf",
+      "stem": "水蒸氣占有空間、具有重量。",
+      "answer": "O",
+      "answer_explanation": "氣體具有質量且佔據空間",
+      "source_original_stem": "水蒸氣占有空間、具有重量。",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|TF|P01|017"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_TF_017",
+      "source_slot_id": "G03-S2-MID|TF|P01|017",
+      "canonical_kp_id": "sci_g03s2_02_10",
+      "type": "tf",
+      "stem": "水是液態，沒有固定形狀。",
+      "answer": "O",
+      "answer_explanation": "液體體積在一般條件下相對固定，但形狀依容器改變",
+      "source_original_stem": "水是液態，沒有固定形狀。",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|TF|P01|018"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_TF_018",
+      "source_slot_id": "G03-S2-MID|TF|P01|018",
+      "canonical_kp_id": "sci_g03s2_02_11",
+      "type": "tf",
+      "stem": "巧克力變軟，是保存不當、變壞的現象。",
+      "answer": "X",
+      "answer_explanation": "受熱軟化或融化本身不代表腐敗；冷卻後可再固化",
+      "source_original_stem": "巧克力變軟，是保存不當、變壞的現象。",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|TF|P01|020"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_TF_020",
+      "source_slot_id": "G03-S2-MID|TF|P01|020",
+      "canonical_kp_id": "sci_g03s2_02_01",
+      "type": "tf",
+      "stem": "湖面上出現波紋，通常是風力對水的作用。",
+      "answer": "O",
+      "answer_explanation": "風對水面施力可以形成波紋，但並非唯一成因",
+      "source_original_stem": "湖面上出現波紋，通常是風力對水的作用。",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|MC|P01|001"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U01",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_MC_001",
+      "source_slot_id": "G03-S2-MID|MC|P01|001",
+      "canonical_kp_id": "sci_g03s2_01_08",
+      "type": "mcq",
+      "stem": "發現土壤和蔬菜葉子都乾乾的，可能是什麼原因造成的？",
+      "options": [
+        "① 忘記澆水",
+        "② 水澆太多",
+        "③ 沒有照到太陽",
+        "④ 蔬菜開花結果後都會枯死，這是正常的現象"
+      ],
+      "answer": "①",
+      "answer_explanation": "缺水可造成土壤與葉片乾燥",
+      "source_original_stem": "發現土壤和蔬菜葉子都乾乾的，可能是什麼原因造成的？",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|MC|P01|002"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U01",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_MC_002",
+      "source_slot_id": "G03-S2-MID|MC|P01|002",
+      "canonical_kp_id": "sci_g03s2_01_08",
+      "type": "mcq",
+      "stem": "下列哪項是適當的澆水時機或方式？",
+      "options": [
+        "① 如果種在花盆，可以澆到集水盤滿水為止",
+        "② 隨時可以澆水，水澆得愈多愈好",
+        "③ 將水澆在蔬菜根部的土壤上",
+        "④ 將水澆在葉子上，葉子可以吸收水分"
+      ],
+      "answer": "③",
+      "answer_explanation": "應適量澆於根部附近土壤，避免長期積水",
+      "source_original_stem": "下列哪項是適當的澆水時機或方式？",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|MC|P01|003"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U01",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_MC_003",
+      "source_slot_id": "G03-S2-MID|MC|P01|003",
+      "canonical_kp_id": "sci_g03s2_01_10",
+      "type": "mcq",
+      "stem": "下列哪項做法對蔬菜的生長有幫助？",
+      "options": [
+        "① 看到土壤有點乾，可以適量澆水",
+        "② 種植蔬菜的過程中，為了要讓蔬菜長得更好，肥料加越多越好",
+        "③ 種子在土壤中要埋得深一些，才能順利發芽",
+        "④ 看到幼苗太矮，可以用手把它拉高一點"
+      ],
+      "answer": "①",
+      "answer_explanation": "土壤偏乾時適當補水有助生長；須避免過度澆水",
+      "source_original_stem": "下列哪項做法對蔬菜的生長有幫助？",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|MC|P01|004"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U01",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_MC_004",
+      "source_slot_id": "G03-S2-MID|MC|P01|004",
+      "canonical_kp_id": "sci_g03s2_01_07",
+      "type": "mcq",
+      "stem": "下列關於番茄，哪一項正確？",
+      "options": [
+        "① 種子發芽會先長出 2 片子葉，子葉是愛心的形狀",
+        "② 是草本莖",
+        "③ 採收時，可以直接扯斷蒂頭",
+        "④ 採收時，果實下方有幾片葉子會一起摘下來"
+      ],
+      "answer": "②",
+      "answer_explanation": "番茄為草本植物，莖通常歸草本莖",
+      "source_original_stem": "下列關於番茄，哪一項正確？",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|MC|P01|005"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U01",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_MC_005",
+      "source_slot_id": "G03-S2-MID|MC|P01|005",
+      "canonical_kp_id": "sci_g03s2_01_06",
+      "type": "mcq",
+      "stem": "下列什麼蔬菜的種子較適合用撒播的方式種植？",
+      "options": [
+        "① 南瓜",
+        "② 小白菜",
+        "③ 玉米",
+        "④ 秋葵"
+      ],
+      "answer": "②",
+      "answer_explanation": "小白菜較適合使用撒播方式",
+      "source_original_stem": "下列什麼蔬菜的種子較適合用撒播的方式種植？",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|MC|P01|006"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U01",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_MC_006",
+      "source_slot_id": "G03-S2-MID|MC|P01|006",
+      "canonical_kp_id": "sci_g03s2_01_11",
+      "type": "mcq",
+      "stem": "下列哪一種蔬菜，通常不會等到它開花結果就採收了？",
+      "options": [
+        "① 花椰菜",
+        "② 南瓜",
+        "③ 秋葵",
+        "④ 番茄"
+      ],
+      "answer": "①",
+      "answer_explanation": "花椰菜主要採收尚未開放的花序",
+      "source_original_stem": "下列哪一種蔬菜，通常不會等到它開花結果就採收了？",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|MC|P01|007"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U01",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_MC_007",
+      "source_slot_id": "G03-S2-MID|MC|P01|007",
+      "canonical_kp_id": "sci_g03s2_01_04",
+      "type": "mcq",
+      "stem": "如果想在菜圃種植番茄，必須先做下列哪一個步驟？",
+      "options": [
+        "① 播種",
+        "② 澆水",
+        "③ 覆土",
+        "④ 鬆土"
+      ],
+      "answer": "④",
+      "answer_explanation": "整理並鬆土通常是播種前整地流程",
+      "source_original_stem": "如果想在菜圃種植番茄，必須先做下列哪一個步驟？",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|MC|P01|008"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_MC_008",
+      "source_slot_id": "G03-S2-MID|MC|P01|008",
+      "canonical_kp_id": "sci_g03s2_02_01",
+      "type": "mcq",
+      "stem": "海苔片放在空氣中一段時間，變得軟軟的，是什麼因素造成的？",
+      "options": [
+        "① 融化變軟",
+        "② 溫度升高",
+        "③ 水蒸氣",
+        "④ 變質變壞"
+      ],
+      "answer": "③",
+      "answer_explanation": "空氣水蒸氣造成吸濕",
+      "source_original_stem": "海苔片放在空氣中一段時間，變得軟軟的，是什麼因素造成的？",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|MC|P01|009"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_MC_009",
+      "source_slot_id": "G03-S2-MID|MC|P01|009",
+      "canonical_kp_id": "sci_g03s2_02_01",
+      "type": "mcq",
+      "stem": "下列什麼因素會影響鐵的生鏽？",
+      "options": [
+        "① 水",
+        "② 空氣",
+        "③ 溫度",
+        "④ 以上皆是"
+      ],
+      "answer": "④",
+      "answer_explanation": "水、氧氣和溫度會影響鐵鏽形成速率；溫度對速率有影響",
+      "source_original_stem": "下列什麼因素會影響鐵的生鏽？",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|MC|P01|010"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_MC_010",
+      "source_slot_id": "G03-S2-MID|MC|P01|010",
+      "canonical_kp_id": "sci_g03s2_02_04",
+      "type": "mcq",
+      "stem": "下列哪一個方式可以加快水蒸發成水蒸氣的速度？",
+      "options": [
+        "① 提高溫度",
+        "② 風吹",
+        "③ 增加接觸空氣面積",
+        "④ 以上皆可"
+      ],
+      "answer": "④",
+      "answer_explanation": "升溫、通風和增大水面可加快蒸發",
+      "source_original_stem": "下列哪一個方式可以加快水蒸發成水蒸氣的速度？",
+      "original_pdf_page": 1
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|MC|P01|011"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_MC_011",
+      "source_slot_id": "G03-S2-MID|MC|P01|011",
+      "canonical_kp_id": "sci_g03s2_02_11",
+      "type": "mcq",
+      "stem": "物質受熱後，下列哪一個變化後可以恢復原來的形態？",
+      "options": [
+        "① 蠟燃燒後",
+        "② 巧克力融化後",
+        "③ 木材燃燒後",
+        "④ 雞蛋加熱後"
+      ],
+      "answer": "②",
+      "answer_explanation": "巧克力融化後冷卻可重新凝固；外觀及結晶可能改變",
+      "source_original_stem": "物質受熱後，下列哪一個變化後可以恢復原來的形態？",
+      "original_pdf_page": 2
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|COMPOSITE|P01|001",
+        "G03-S2-MID|COMPOSITE|P01|002",
+        "G03-S2-MID|COMPOSITE|P01|003",
+        "G03-S2-MID|COMPOSITE|P01|004",
+        "G03-S2-MID|COMPOSITE|P01|005"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U01",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_VEGETABLE_5",
+      "type": "group",
+      "title": "蔬菜食用部位（5 小題）",
+      "canonical_kp_id": "sci_g03s2_01_01",
+      "secondary_canonical_kp_ids": [],
+      "shared": {
+        "instructions": "根據下列蔬菜名稱與代號，按題目所問的食用部位填入正確代號。",
+        "passage": "",
+        "choiceBank": [
+          "1. 竹筍",
+          "2. 胡蘿蔔",
+          "3. 小白菜",
+          "4. 花椰菜",
+          "5. 番茄",
+          "6. 蘿蔔",
+          "7. 馬鈴薯",
+          "8. 金針花",
+          "9. 菠菜",
+          "10. 南瓜",
+          "11. 絲瓜",
+          "12. 秋葵"
+        ],
+        "table": null
+      },
+      "items": [
+        {
+          "type": "short",
+          "stem": "根菜類：",
+          "answer": "2、6",
+          "canonical_kp_id": "sci_g03s2_01_01",
+          "answer_explanation": "食用根類為胡蘿蔔與蘿蔔",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P01|001",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P01_5PART"
+        },
+        {
+          "type": "short",
+          "stem": "莖菜類：",
+          "answer": "1、7",
+          "canonical_kp_id": "sci_g03s2_01_01",
+          "answer_explanation": "竹筍屬嫩莖，馬鈴薯為塊莖",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P01|002",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P01_5PART"
+        },
+        {
+          "type": "short",
+          "stem": "葉菜類：",
+          "answer": "3、9",
+          "canonical_kp_id": "sci_g03s2_01_01",
+          "answer_explanation": "兩者主要食用葉片",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P01|003",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P01_5PART"
+        },
+        {
+          "type": "short",
+          "stem": "花菜類：",
+          "answer": "4、8",
+          "canonical_kp_id": "sci_g03s2_01_01",
+          "answer_explanation": "主要食用花序或花部",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P01|004",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P01_5PART"
+        },
+        {
+          "type": "short",
+          "stem": "果實類：",
+          "answer": "5、10、11、12",
+          "canonical_kp_id": "sci_g03s2_01_01",
+          "answer_explanation": "植物學上的果實作為食用部位",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P01|005",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P01_5PART"
+        }
+      ],
+      "source": "P12_SOURCE_RECONSTRUCTED_STAGED",
+      "original_shared_source_group": "G03-S2-MID_COMPOSITE_P01_5PART",
+      "atomic_group_preserved_via_repeated_source_choice_bank": true
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|COMPOSITE|P02|001",
+        "G03-S2-MID|COMPOSITE|P02|002",
+        "G03-S2-MID|COMPOSITE|P02|003",
+        "G03-S2-MID|COMPOSITE|P02|004"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_WATER_01",
+      "type": "group",
+      "title": "水的形態變化（第 1 組）",
+      "canonical_kp_id": "sci_g03s2_02_03",
+      "secondary_canonical_kp_ids": [
+        "sci_g03s2_02_04",
+        "sci_g03s2_02_07",
+        "sci_g03s2_02_05"
+      ],
+      "shared": {
+        "instructions": "根據水的形態變化，從共用選項中選擇最適合的代號。",
+        "passage": "",
+        "choiceBank": [
+          "① 融化",
+          "② 蒸發",
+          "③ 凝結",
+          "④ 凝固"
+        ],
+        "table": null
+      },
+      "items": [
+        {
+          "type": "short",
+          "stem": "冰 →（　）→ 水",
+          "answer": "①",
+          "canonical_kp_id": "sci_g03s2_02_03",
+          "answer_explanation": "融化",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|001",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "水 →（　）→ 水蒸氣",
+          "answer": "②",
+          "canonical_kp_id": "sci_g03s2_02_04",
+          "answer_explanation": "蒸發",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|002",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "水蒸氣 →（　）→ 水",
+          "answer": "③",
+          "canonical_kp_id": "sci_g03s2_02_07",
+          "answer_explanation": "凝結",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|003",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "水 →（　）→ 冰",
+          "answer": "④",
+          "canonical_kp_id": "sci_g03s2_02_05",
+          "answer_explanation": "凝固",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|004",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        }
+      ],
+      "source": "P12_SOURCE_RECONSTRUCTED_STAGED",
+      "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+      "atomic_group_preserved_via_repeated_source_choice_bank": true
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|COMPOSITE|P02|005",
+        "G03-S2-MID|COMPOSITE|P02|006",
+        "G03-S2-MID|COMPOSITE|P02|007",
+        "G03-S2-MID|COMPOSITE|P02|008",
+        "G03-S2-MID|COMPOSITE|P02|009",
+        "G03-S2-MID|COMPOSITE|P02|010",
+        "G03-S2-MID|COMPOSITE|P02|011"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_WATER_02",
+      "type": "group",
+      "title": "水的形態變化（第 2 組）",
+      "canonical_kp_id": "sci_g03s2_02_07",
+      "secondary_canonical_kp_ids": [
+        "sci_g03s2_02_03",
+        "sci_g03s2_02_04",
+        "sci_g03s2_02_05"
+      ],
+      "shared": {
+        "instructions": "根據水的形態變化，從共用選項中選擇最適合的代號。",
+        "passage": "",
+        "choiceBank": [
+          "① 融化",
+          "② 蒸發",
+          "③ 凝結",
+          "④ 凝固"
+        ],
+        "table": null
+      },
+      "items": [
+        {
+          "type": "short",
+          "stem": "清晨看見葉子上有小水珠",
+          "answer": "③",
+          "canonical_kp_id": "sci_g03s2_02_07",
+          "answer_explanation": "凝結形成液滴",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|005",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "山上的積雪慢慢融掉了",
+          "answer": "①",
+          "canonical_kp_id": "sci_g03s2_02_03",
+          "answer_explanation": "固態冰雪融化成水",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|006",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "下雨過後，路面上的積水乾了",
+          "answer": "②",
+          "canonical_kp_id": "sci_g03s2_02_04",
+          "answer_explanation": "水蒸發成氣態",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|007",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "高山上湖面結冰",
+          "answer": "④",
+          "canonical_kp_id": "sci_g03s2_02_05",
+          "answer_explanation": "水降溫凝固成冰",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|008",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "飲料中的冰塊一段時間後變小了",
+          "answer": "①",
+          "canonical_kp_id": "sci_g03s2_02_03",
+          "answer_explanation": "一般環境中冰融化",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|009",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "冰棒從冰箱拿出來一段時間後變軟了",
+          "answer": "①",
+          "canonical_kp_id": "sci_g03s2_02_03",
+          "answer_explanation": "升溫使固態冰類融化",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|010",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "水放入冰箱中冷凍",
+          "answer": "④",
+          "canonical_kp_id": "sci_g03s2_02_05",
+          "answer_explanation": "液態水降溫凝固",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|011",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        }
+      ],
+      "source": "P12_SOURCE_RECONSTRUCTED_STAGED",
+      "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+      "atomic_group_preserved_via_repeated_source_choice_bank": true
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|COMPOSITE|P02|013",
+        "G03-S2-MID|COMPOSITE|P02|014",
+        "G03-S2-MID|COMPOSITE|P02|015",
+        "G03-S2-MID|COMPOSITE|P02|016",
+        "G03-S2-MID|COMPOSITE|P02|017",
+        "G03-S2-MID|COMPOSITE|P02|018",
+        "G03-S2-MID|COMPOSITE|P02|019"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_WATER_03",
+      "type": "group",
+      "title": "水的形態變化（第 3 組）",
+      "canonical_kp_id": "sci_g03s2_02_03",
+      "secondary_canonical_kp_ids": [
+        "sci_g03s2_02_04",
+        "sci_g03s2_02_07"
+      ],
+      "shared": {
+        "instructions": "根據水的形態變化，從共用選項中選擇最適合的代號。",
+        "passage": "",
+        "choiceBank": [
+          "① 融化",
+          "② 蒸發",
+          "③ 凝結",
+          "④ 凝固"
+        ],
+        "table": null
+      },
+      "items": [
+        {
+          "type": "short",
+          "stem": "天氣變暖後，海上的浮冰因吸收熱量而慢慢變小了",
+          "answer": "①",
+          "canonical_kp_id": "sci_g03s2_02_03",
+          "answer_explanation": "此處以溫度影響冰融化為題意前提；真實海冰面積也受破碎和移動影響",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|013",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": "CAUSAL_ASSUMPTION"
+        },
+        {
+          "type": "short",
+          "stem": "晾在陽臺的衣服乾了",
+          "answer": "②",
+          "canonical_kp_id": "sci_g03s2_02_04",
+          "answer_explanation": "水蒸發",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|014",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "用吹風機吹乾頭髮",
+          "answer": "②",
+          "canonical_kp_id": "sci_g03s2_02_04",
+          "answer_explanation": "升溫和氣流使水蒸發",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|015",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "對鏡子呵氣，鏡面會霧霧的",
+          "answer": "③",
+          "canonical_kp_id": "sci_g03s2_02_07",
+          "answer_explanation": "水蒸氣遇較冷表面凝結成水滴",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|016",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "一段時間後魚缸的水位變低",
+          "answer": "②",
+          "canonical_kp_id": "sci_g03s2_02_04",
+          "answer_explanation": "部分水蒸發使水位變低，假設沒有漏水或潑濺",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|017",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "冰可樂罐子外面有小水珠",
+          "answer": "③",
+          "canonical_kp_id": "sci_g03s2_02_07",
+          "answer_explanation": "環境中水蒸氣遇冷凝結",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|018",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "撐開溼雨傘晾乾",
+          "answer": "②",
+          "canonical_kp_id": "sci_g03s2_02_04",
+          "answer_explanation": "表面水逐漸蒸發",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|019",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        }
+      ],
+      "source": "P12_SOURCE_RECONSTRUCTED_STAGED",
+      "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+      "atomic_group_preserved_via_repeated_source_choice_bank": true
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|COMPOSITE|P02|020",
+        "G03-S2-MID|COMPOSITE|P02|021",
+        "G03-S2-MID|COMPOSITE|P02|022"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U02",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_WATER_04",
+      "type": "group",
+      "title": "水的形態變化（第 4 組）",
+      "canonical_kp_id": "sci_g03s2_02_08",
+      "secondary_canonical_kp_ids": [],
+      "shared": {
+        "instructions": "根據水的形態變化，從共用選項中選擇最適合的代號。",
+        "passage": "",
+        "choiceBank": [
+          "① 融化",
+          "② 蒸發",
+          "③ 凝結",
+          "④ 凝固"
+        ],
+        "table": null
+      },
+      "items": [
+        {
+          "type": "short",
+          "stem": "打開冰箱冷凍庫時，附近空氣中的水蒸氣遇冷，形成許多細小的液態水滴",
+          "answer": "③",
+          "canonical_kp_id": "sci_g03s2_02_08",
+          "answer_explanation": "冷空氣與較暖濕氣相遇形成微小液滴或冰晶，選項簡化歸凝結",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|020",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": "PHASE_CHANGE_QUALIFICATION"
+        },
+        {
+          "type": "short",
+          "stem": "泡溫泉時，在上方出現的白煙",
+          "answer": "③",
+          "canonical_kp_id": "sci_g03s2_02_08",
+          "answer_explanation": "水蒸氣冷卻後形成微小液滴，肉眼可見",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|021",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        },
+        {
+          "type": "short",
+          "stem": "火鍋上的白煙",
+          "answer": "③",
+          "canonical_kp_id": "sci_g03s2_02_08",
+          "answer_explanation": "水蒸氣在較冷空氣中凝結形成水滴",
+          "source_slot_id": "G03-S2-MID|COMPOSITE|P02|022",
+          "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+          "science_qualification": null
+        }
+      ],
+      "source": "P12_SOURCE_RECONSTRUCTED_STAGED",
+      "original_shared_source_group": "G03-S2-MID_COMPOSITE_P02_20PRINTED_22BLANKS",
+      "atomic_group_preserved_via_repeated_source_choice_bank": true
+    },
+    {
+      "source_id": "G03-S2-MID",
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "source_slot_ids": [
+        "G03-S2-MID|READ|P01|001",
+        "G03-S2-MID|READ|P01|002",
+        "G03-S2-MID|READ|P01|005",
+        "G03-S2-MID|READ|P01|006"
+      ],
+      "grade": 3,
+      "semester": 2,
+      "unit": "3-S2-U01",
+      "right_status": "REGULATED_SCHOOL_EXAM_QUESTION_TEXT_PLUS_ORIGINAL_RECONSTRUCTION",
+      "source_pdf_cropped_images_included": false,
+      "release_status": "EDITORIAL_REVIEW_STAGED_NOT_PUBLIC",
+      "operator_publication_approval": false,
+      "science_answer_source": "P12_ORIGINAL_PDF_INDEPENDENT_MODEL_REVIEW",
+      "id": "P12_REMAIN51_HYDROPONIC_4",
+      "type": "group",
+      "title": "水耕蔬菜閱讀理解（另 4 小題）",
+      "canonical_kp_id": "sci_g03s2_01_03",
+      "secondary_canonical_kp_ids": [
+        "sci_g03s2_01_10"
+      ],
+      "shared": {
+        "instructions": "閱讀短文，判斷下列敘述正確填 O，錯誤填 X。原卷勾選題改以 O/X 呈現。",
+        "passage": "有些蔬菜可採用水耕方式栽種。水耕時，植物的根可以接觸添加必要礦物養分的水，不一定要種在土壤裡。根除了吸收水分和養分，也需要氧氣；可以用打氣機把空氣打進水中，也可以讓部分根留在水面上方。水耕蔬菜生長仍需要適當的光照，來源可以是陽光或合適的植物燈。",
+        "choiceBank": [],
+        "table": null
+      },
+      "items": [
+        {
+          "type": "tf",
+          "stem": "水耕蔬菜可以讓根接觸含養分的水，而不一定要把植物種在土裡",
+          "answer": "O",
+          "canonical_kp_id": "sci_g03s2_01_03",
+          "answer_explanation": "原文描述為植株上部在水面附近而根吸取營養液；避免理解為整株漂在水上",
+          "source_slot_id": "G03-S2-MID|READ|P01|001",
+          "original_shared_source_group": "G03-S2-MID_READ_6_CHECKBOXES",
+          "original_checkbox_answer": "勾選"
+        },
+        {
+          "type": "tf",
+          "stem": "水耕蔬菜常使用含必要養分的營養液來栽種",
+          "answer": "O",
+          "canonical_kp_id": "sci_g03s2_01_03",
+          "answer_explanation": "營養液可供給所需礦物養分；依原文場景",
+          "source_slot_id": "G03-S2-MID|READ|P01|002",
+          "original_shared_source_group": "G03-S2-MID_READ_6_CHECKBOXES",
+          "original_checkbox_answer": "勾選"
+        },
+        {
+          "type": "tf",
+          "stem": "在水裡打入空氣，可以讓水變得更乾淨",
+          "answer": "X",
+          "canonical_kp_id": "sci_g03s2_01_10",
+          "answer_explanation": "打氣主要提供溶氧，不能推定使水更乾淨",
+          "source_slot_id": "G03-S2-MID|READ|P01|005",
+          "original_shared_source_group": "G03-S2-MID_READ_6_CHECKBOXES",
+          "original_checkbox_answer": "不勾選"
+        },
+        {
+          "type": "tf",
+          "stem": "在水裡打入空氣，可以讓蔬菜浮在水上",
+          "answer": "X",
+          "canonical_kp_id": "sci_g03s2_01_10",
+          "answer_explanation": "空氣供給根部氧氣，不是蔬菜漂浮的主要原理",
+          "source_slot_id": "G03-S2-MID|READ|P01|006",
+          "original_shared_source_group": "G03-S2-MID_READ_6_CHECKBOXES",
+          "original_checkbox_answer": "不勾選"
+        }
+      ],
+      "source": "P12_SOURCE_RECONSTRUCTED_STAGED",
+      "original_shared_source_group": "G03-S2-MID_READ_6_CHECKBOXES",
+      "atomic_group_preserved_via_repeated_source_choice_bank": true
+    }
+  ]
+}

@@ -19,12 +19,12 @@ test("full paper review preserves 20 printed water questions, 22 answer blanks, 
  assert.ok(d.items.filter(x=>x.original_section==="READ").every(x=>x.requires_context_group!==null));
 });
 test("source science holds cannot silently auto-publish and every review event has immutable evidence",()=>{
- assert.equal(ev.events.length,180);
- assert.equal(ev.events.filter(x=>x.action==="START").length,57);
- assert.equal(ev.events.filter(x=>x.action==="CERTIFY_STAGED").length,57);
+ assert.equal(ev.events.length,272);
+ assert.equal(ev.events.filter(x=>x.action==="START").length,103);
+ assert.equal(ev.events.filter(x=>x.action==="CERTIFY_STAGED").length,102);
  assert.equal(ev.events.filter(x=>x.action==="PUBLIC_ADMIT").length,57);
  assert.equal(ev.events.filter(x=>x.action==="BLOCK").length,9);
- assert.ok(ev.events.every(x=>x.review_evidence_ref?.startsWith("site/data/governance/p12-g03s2mid-")||x.review_evidence_ref?.startsWith("site/data/question-bank/p12-g03s2mid-approved-six-v1.json#")||x.review_evidence_ref?.startsWith("site/data/question-bank/p12-g03s2mid-remaining51-public-v1.json#")));
+ assert.ok(ev.events.every(x=>x.review_evidence_ref?.startsWith("site/data/governance/p12-g03s2mid-")||x.review_evidence_ref?.startsWith("site/data/question-bank/p12-g03s2mid-approved-six-v1.json#")||x.review_evidence_ref?.startsWith("site/data/question-bank/p12-g03s2mid-remaining51-public-v1.json#")||x.review_evidence_ref?.startsWith("data/review/p12-g03s2final-fullpaper-candidate-screening-v1.json#")));
  const scientificHolds=d.items.filter(x=>x.issue_type).map(x=>x.source_slot_id).sort();
  assert.deepEqual(scientificHolds,ev.events.slice(0,114).filter(x=>x.action==="BLOCK").map(x=>x.source_slot_id).sort());
  assert.equal(ev.events.slice(0,114).filter(x=>x.action==="CERTIFY_STAGED").length,51);
@@ -48,7 +48,7 @@ test("round two reconciles 6 scientific questions as three conditional candidate
  assert.deepEqual(newEvents.map(x=>x.action),[...Array(3).fill("CERTIFY_STAGED"),...Array(6).fill("PUBLIC_ADMIT")]);
  assert.equal(new Set(newEvents.slice(3).map(x=>x.source_slot_id)).size,6);
  assert.ok(newEvents.slice(3).every(x=>x.publication_approved===true));
- const admitted51=ev.events.slice(129);
+ const admitted51=ev.events.slice(129,180);
  assert.equal(admitted51.length,51);
  assert.ok(admitted51.every(x=>x.action==="PUBLIC_ADMIT"&&x.publication_approved===true));
  assert.equal(new Set(admitted51.map(x=>x.source_slot_id)).size,51);

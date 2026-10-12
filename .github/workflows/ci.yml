@@ -23,6 +23,19 @@ jobs:
       - run: npm run p12:master:build
       - run: npm run p12:master:check
       - run: npm test
+      - name: Install headless Chromium for isolated 51-question acceptance
+        run: |
+          npm install --no-save --package-lock=false playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: P12 51 staged-question A4 two-column pilot
+        run: node tools/verify-p12-remaining51-layout.mjs
+      - name: Upload P12 staged layout QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: science-p12-remaining51-localhost-layout
+          path: artifacts/p12-remaining51-layout/
+          if-no-files-found: ignore
       - name: Upload P11 provenance and coverage evidence
         uses: actions/upload-artifact@v4
         with:

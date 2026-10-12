@@ -143,8 +143,12 @@ try {
   assert.equal(await live.locator(".paper:not([data-answer='true']) .question").count(),2);
   assert.ok((await live.locator("#meta").textContent()).includes("內建考古題 2 小題"));
   await live.selectOption("#semester","S2");
+  await live.selectOption("#unit","3-S2-U04");
+  await live.selectOption("#mode","single_kp");
+  await live.selectOption("#kp","sci_g03s2_04_13");
+  await live.fill("#count","1");
   await live.locator("#generate").click();
-  assert.equal(await live.locator("#status").getAttribute("data-error"),"true","no DEMO fallback for semesters without approved questions");
+  assert.equal(await live.locator("#status").getAttribute("data-error"),"true","no DEMO fallback for KP with no certified historical questions");
   assert.equal(await live.locator("#print").isDisabled(),true);
   await live.selectOption("#grade","3");
   await live.selectOption("#semester","S1");

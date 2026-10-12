@@ -1,0 +1,643 @@
+{
+  "schema_version": "SCIENCE_P12_G04S1_114_FINAL_TEXT_READBACK_PREFLIGHT_V1",
+  "registry_ref": "data/source-registry/p12-g04s1-108114-drive-discovery-v1.json",
+  "grade": 4,
+  "semester": 1,
+  "year": 114,
+  "exam": "FINAL",
+  "candidate_count": 13,
+  "source_files_read": 11,
+  "screening_level": "TEXT_READBACK_TOPIC_SIGNAL_ONLY_NOT_FULL_QUESTION_SCREENING",
+  "authority_units": [
+    "U03",
+    "U04"
+  ],
+  "reviewer_notes": "For all publisher labels, compare each question against the frozen Kang Hsuan U03/U04 authority, not the exam's publisher label. Diagram dependency must be inspected visually.",
+  "papers": [
+    {
+      "candidate_source_id": "SCI_G04_S1_114_FINAL_001",
+      "title": "114_南一_四上_自然_期末評量卷_永安國小.pdf",
+      "drive_file_id": "1wiMXm5Wmk2dMDayrMN0iCPWcsMUpwO5D",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 3748,
+      "grade_indicator": true,
+      "paper_title_opening": "1\r\n高 雄 市 永 安 國 小 11 4 學 年 度 上 學 期 四 年 級 自 然 與 生 活 科 技 領 域 期 末 評量 \r\n 四 年 ___班 座號：___ 姓名：__________ \r\n一、是非題：每題 2 分、共 16 分 \r\n( )",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 7,
+          "matched_words": [
+            "光線",
+            "反射",
+            "光源"
+          ]
+        },
+        "U04": {
+          "hits": 68,
+          "matched_words": [
+            "電池",
+            "電路",
+            "燈泡",
+            "導體",
+            "串聯",
+            "並聯"
+          ]
+        },
+        "legacy": {
+          "hits": 11,
+          "matched_words": [
+            "月亮",
+            "能源"
+          ]
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "Keyword counts do not certify all original question positions, source images, science answers or KP."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_FINAL_002",
+      "title": "114_南一_四上_自然_期末評量卷_和順國小.pdf",
+      "drive_file_id": "1iZisyIpcQ0b_TzEue8YA2h_TRyc6GLJ9",
+      "readback_status": "READBACK_FAILED_OR_SPARSE",
+      "text_character_count": 0,
+      "grade_indicator": false,
+      "paper_title_opening": "",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": false,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "Keyword counts do not certify all original question positions, source images, science answers or KP."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_FINAL_003",
+      "title": "114_南一_四上_自然_期末評量卷_東光國小.pdf",
+      "drive_file_id": "1MdZkwTCFNK5JQgypgGc0X_uyGsbQJvfQ",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 4801,
+      "grade_indicator": true,
+      "paper_title_opening": " 基隆市東光國小 114 學年度第 1 學期四年級自然科學領域第二次定期評量試題\r\n四 年 忠 班 座號： 姓名： 家長簽名\r\n1\r\n得分：\r\n一、是非題-: (每題 2 分。共 20 分)：\r\n1. ( )拆開不同燈籠的燈罩，可以看到燈籠提\r\n把的",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 21,
+          "matched_words": [
+            "振動",
+            "聲音",
+            "影子",
+            "光線",
+            "反射"
+          ]
+        },
+        "U04": {
+          "hits": 128,
+          "matched_words": [
+            "電池",
+            "電路",
+            "燈泡",
+            "導體",
+            "串聯",
+            "並聯"
+          ]
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "Keyword counts do not certify all original question positions, source images, science answers or KP."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_FINAL_004",
+      "title": "114_南一_四上_自然_期末評量卷_崇德國小.pdf",
+      "drive_file_id": "1MVDJoRVSqpN4s1FPNp_nWSy5G5knc2-l",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 3309,
+      "grade_indicator": true,
+      "paper_title_opening": "1\r\n高雄市田寮區崇德國民小學114學年度第一學期【自然科學】期末考\r\n分數\r\n 四年 班 號 姓名： 家長簽名： \r\n一、 是非題：每題2分，共16分 \r\n( )1. 拔插頭時，不可以只拉電線的部分，以免電線\r\n內部的銅線斷裂。\r\n( )2. 小峻",
+      "topic_signals": {
+        "U01": {
+          "hits": 1,
+          "matched_words": [
+            "土壤"
+          ]
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 4,
+          "matched_words": [
+            "反射",
+            "光源"
+          ]
+        },
+        "U04": {
+          "hits": 65,
+          "matched_words": [
+            "電池",
+            "電路",
+            "燈泡",
+            "導體",
+            "串聯",
+            "並聯"
+          ]
+        },
+        "legacy": {
+          "hits": 7,
+          "matched_words": [
+            "能源"
+          ]
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "Keyword counts do not certify all original question positions, source images, science answers or KP."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_FINAL_005",
+      "title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "drive_file_id": "1KQesPj7fM1T5OUOiT79ePwnjZ4GLx1d3",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 4149,
+      "grade_indicator": true,
+      "paper_title_opening": "1\r\n臺中市南屯區大墩國民小學 114 學年度第一學期第二次定期評量四年級自然領域自然試卷 \r\n命題老師：陳建呈老師 四年 班 座號： 號 學生姓名：________________\r\n一、是非題：每題 2 分，共 30 分 \r\n1.( O ) 如下",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 40,
+          "matched_words": [
+            "振動",
+            "聲音",
+            "影子",
+            "光線",
+            "反射"
+          ]
+        },
+        "U04": {
+          "hits": 103,
+          "matched_words": [
+            "電池",
+            "電路",
+            "燈泡",
+            "導體",
+            "小馬達",
+            "串聯",
+            "並聯"
+          ]
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "Keyword counts do not certify all original question positions, source images, science answers or KP."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_FINAL_006",
+      "title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "drive_file_id": "1ZLZNORw5p1YbeQ8yKQ3rpsPsi6aEAdkr",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 3524,
+      "grade_indicator": true,
+      "paper_title_opening": "1\r\n臺北市民權國小一一四學年\r\n第一學期 期末評量\r\n一、是非題：(每題 1 分，共 14 分) \r\n（ ）1. 物體振動可以發出聲音，振動程度越大，聲\r\n音越大。\r\n（ ）2. 越用力敲擊紙盒上的紙片，紙片跳動越小。 \r\n（ ）3. 聲音除了可以",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 35,
+          "matched_words": [
+            "振動",
+            "聲音",
+            "影子",
+            "光線",
+            "反射",
+            "光源"
+          ]
+        },
+        "U04": {
+          "hits": 97,
+          "matched_words": [
+            "電池",
+            "電路",
+            "燈泡",
+            "導體",
+            "小馬達",
+            "串聯",
+            "並聯"
+          ]
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "Keyword counts do not certify all original question positions, source images, science answers or KP."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_FINAL_007",
+      "title": "114_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "drive_file_id": "1dRJk3FJ_Ua_FFl8tla30iMbMzgcQfbGz",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 3323,
+      "grade_indicator": true,
+      "paper_title_opening": "家長\r\n請簽章\r\n新北市\r\n土城區 安和國民小學\r\n114 學年度\r\n第一學期 第二次定期考查試題\r\n1 0 0 分 人\r\n99~90 分 人\r\n89~80 分 人\r\n79~70 分 人\r\n69~60 分 人\r\n59 分以下 人\r\n科\r\n目\r\n自然與",
+      "topic_signals": {
+        "U01": {
+          "hits": 1,
+          "matched_words": [
+            "地震"
+          ]
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 23,
+          "matched_words": [
+            "振動",
+            "聲音",
+            "影子",
+            "光線",
+            "反射",
+            "光源"
+          ]
+        },
+        "U04": {
+          "hits": 82,
+          "matched_words": [
+            "電池",
+            "電路",
+            "燈泡",
+            "導體",
+            "小馬達",
+            "串聯",
+            "並聯"
+          ]
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "Keyword counts do not certify all original question positions, source images, science answers or KP."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_FINAL_008",
+      "title": "114_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "drive_file_id": "1pwlIRa40MeeVMlAYAyhufNchGEqbL6oT",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 3346,
+      "grade_indicator": true,
+      "paper_title_opening": "1\r\n花蓮縣花蓮市明義國民小學 114 學年度第一學期 四年級自然科期末定期評量試卷 \r\n四年____ 班 座號：_____ 姓名：____________ 得分: 家長簽名:________________\r\n \r\n一、 是非題 （每題 2 分，共",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 33,
+          "matched_words": [
+            "振動",
+            "聲音",
+            "影子",
+            "光線",
+            "反射",
+            "光源"
+          ]
+        },
+        "U04": {
+          "hits": 59,
+          "matched_words": [
+            "電池",
+            "電路",
+            "燈泡",
+            "導體",
+            "小馬達",
+            "串聯",
+            "並聯"
+          ]
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "Keyword counts do not certify all original question positions, source images, science answers or KP."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_FINAL_009",
+      "title": "114_康軒_四上_自然_期末評量卷_翁子國小.pdf",
+      "drive_file_id": "1-Mi19WvmR6dlDtmcWhVatnEjj35wOVWZ",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 3882,
+      "grade_indicator": true,
+      "paper_title_opening": "臺中市翁子國民小學 114 學年度第一學期四年級自然科學領域第二次定期學習評量試卷\r\n 出題者 : 李佳容老師 審題者 : 蔡佳紋老師 四 年 班 號 姓名 \r\n1 \r\n一、 是非題 : (每題 2 分，共 10 分) \r\n請將正確的敘述打○，錯誤的",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 29,
+          "matched_words": [
+            "振動",
+            "聲音",
+            "影子",
+            "反射",
+            "光源"
+          ]
+        },
+        "U04": {
+          "hits": 78,
+          "matched_words": [
+            "電池",
+            "電路",
+            "燈泡",
+            "導體",
+            "小馬達",
+            "串聯",
+            "並聯"
+          ]
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "Keyword counts do not certify all original question positions, source images, science answers or KP."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_FINAL_010",
+      "title": "114_康軒_四上_自然_期末評量卷_普仁國小.pdf",
+      "drive_file_id": "1OuMQNYZJSnE8ZdVcYdrNE4aCLH7Bg0B0",
+      "readback_status": "READBACK_FAILED_OR_SPARSE",
+      "text_character_count": 0,
+      "grade_indicator": false,
+      "paper_title_opening": "",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": false,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "Keyword counts do not certify all original question positions, source images, science answers or KP."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_FINAL_011",
+      "title": "114_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "drive_file_id": "1qzeGpzru5YPhlY2pBKlhfL-dSW6RxOgF",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 3270,
+      "grade_indicator": true,
+      "paper_title_opening": "桃園市蘆竹區大華國小114學年度上學期四年級 自然科學 期末評量試卷 \r\n四年 班 號 姓名： 分數：\r\n一、是非題(一題 2 分/共 12 分) \r\n1. ( )路上大量的車流導致嚴重塞車，路上充斥\r\n著不耐煩的喇叭聲，是透過空氣傳播到謙鐸\r\n耳裡",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 20,
+          "matched_words": [
+            "聲音",
+            "影子",
+            "光線",
+            "反射",
+            "光源"
+          ]
+        },
+        "U04": {
+          "hits": 1,
+          "matched_words": [
+            "燈泡"
+          ]
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": false,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "Keyword counts do not certify all original question positions, source images, science answers or KP."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_FINAL_012",
+      "title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "drive_file_id": "14KIqnA3EGmx7JxEEroNOFN7nK7SH3IEG",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 3982,
+      "grade_indicator": true,
+      "paper_title_opening": "背面尚有試題\r\n114 學年度第 1 學期第 2 次定期評量 評量範圍：\r\n四年級自然領域試題 單元 3～單元 4\r\n四年 班 號 姓名 \r\n█根據題意回答問題。(共 100 分) \r\n1. 分別將「食鹽水、糖水、食醋、小蘇打溶液、肥皂水、\r\n汽水」",
+      "topic_signals": {
+        "U01": {
+          "hits": 1,
+          "matched_words": [
+            "地震"
+          ]
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 45,
+          "matched_words": [
+            "振動",
+            "聲音",
+            "影子",
+            "光線",
+            "反射",
+            "光源"
+          ]
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 1,
+          "matched_words": [
+            "月亮"
+          ]
+        }
+      },
+      "visual_dependency_keyword_detected": false,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "Keyword counts do not certify all original question positions, source images, science answers or KP."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_FINAL_013",
+      "title": "114_翰林_四上_自然_期末評量卷_獅湖國小.pdf",
+      "drive_file_id": "1KSK_lXGSBEY_bXf3B8J8UdWDA_4GjbY8",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 2946,
+      "grade_indicator": true,
+      "paper_title_opening": "1\r\n 高雄市三民區獅湖國民小學 114 學年度第一學期四年級自然科期末定期評量試卷 \r\n 四年 班 座號： 姓名： 得分：\r\n一、 是非題 （每題 2 分，共 22 分）\r\n1. ( ) 鐵製品氧化生鏽後會變得更耐用、更堅固。\r\n2. ( ) 水上",
+      "topic_signals": {
+        "U01": {
+          "hits": 2,
+          "matched_words": [
+            "流水",
+            "沖刷"
+          ]
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 28,
+          "matched_words": [
+            "振動",
+            "聲音",
+            "影子",
+            "光線",
+            "反射"
+          ]
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "Keyword counts do not certify all original question positions, source images, science answers or KP."
+    }
+  ]
+}

@@ -1,0 +1,596 @@
+{
+  "schema_version": "SCIENCE_P12_G04S1_114_MID_TEXT_READBACK_PREFLIGHT_V1",
+  "registry_ref": "data/source-registry/p12-g04s1-108114-drive-discovery-v1.json",
+  "grade": 4,
+  "semester": 1,
+  "year": 114,
+  "exam": "MID",
+  "candidate_count": 12,
+  "source_files_read": 10,
+  "screening_level": "TEXT_READBACK_TOPIC_SIGNAL_ONLY_NOT_FULL_QUESTION_SCREENING",
+  "authority_units": [
+    "U01",
+    "U02"
+  ],
+  "reviewer_notes": "Keyword counts are diagnostic only; never promote to FULL/NEAR_FULL or authenticate a KP/answer based on raw text matching.",
+  "papers": [
+    {
+      "candidate_source_id": "SCI_G04_S1_114_MID_001",
+      "title": "114_南一_四上_自然_期中評量卷_永安國小.pdf",
+      "drive_file_id": "1lLNg-pNkDzxbPgVyS2Ug61vdrhrUrF3o",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 3350,
+      "grade_indicator": true,
+      "paper_title_opening": "1\r\nㄅ.. ㄆ..\r\nㄇ.. ㄈ..\r\n高 雄 市 永 安 國 小 11 4 學 年 度 上 學 期 四 年 級 自 然 與 生 活 科 技 領 域 期 中 評 量 \r\n四 年 ___班 座號：___ 姓名：__________ \r\n一、是非題：每",
+      "topic_signals": {
+        "U01": {
+          "hits": 1,
+          "matched_words": [
+            "土壤"
+          ]
+        },
+        "U02": {
+          "hits": 26,
+          "matched_words": [
+            "水域",
+            "水生",
+            "布袋蓮",
+            "水蘊草",
+            "魚鰭",
+            "鰓",
+            "荷花"
+          ]
+        },
+        "U03": {
+          "hits": 11,
+          "matched_words": [
+            "影子"
+          ]
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 19,
+          "matched_words": [
+            "月相",
+            "月亮"
+          ]
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "This is a text/readability preflight; diagram shapes and answer-key science validity remain unverified."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_MID_002",
+      "title": "114_南一_四上_自然_期中評量卷_和順國小.pdf",
+      "drive_file_id": "1UxbTZOQo6gMXexzs57V26ycUmcSwjcaO",
+      "readback_status": "READBACK_FAILED_OR_SPARSE",
+      "text_character_count": 0,
+      "grade_indicator": false,
+      "paper_title_opening": "",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": false,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "This is a text/readability preflight; diagram shapes and answer-key science validity remain unverified."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_MID_003",
+      "title": "114_南一_四上_自然_期中評量卷_崇德國小.pdf",
+      "drive_file_id": "1-KKh_8kID9Y7Ua9sAltnjGy-9lftmhrY",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 3331,
+      "grade_indicator": true,
+      "paper_title_opening": "1\r\n高雄市田寮區崇德國民小學114學年度第一學期【自然科學】期中考 分數\r\n 四年 班 號 姓名： 家長簽名： \r\n一、 是非題：每題2分，共16分 \r\n( )1. 小湘、阿侑、小竣三個人在太陽下玩影子遊戲，\r\n三個人的影子方向會完全不一樣。\r\n(",
+      "topic_signals": {
+        "U01": {
+          "hits": 1,
+          "matched_words": [
+            "土壤"
+          ]
+        },
+        "U02": {
+          "hits": 24,
+          "matched_words": [
+            "水域",
+            "水生",
+            "布袋蓮",
+            "水蘊草",
+            "魚鰭",
+            "鰓",
+            "荷花"
+          ]
+        },
+        "U03": {
+          "hits": 6,
+          "matched_words": [
+            "影子"
+          ]
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 23,
+          "matched_words": [
+            "月相",
+            "月亮"
+          ]
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "This is a text/readability preflight; diagram shapes and answer-key science validity remain unverified."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_MID_004",
+      "title": "114_康軒_四上_自然_期中評量卷_大墩國小.pdf",
+      "drive_file_id": "17mG1IAXPhDilZuwDBgEUvdCBHE_Otxe5",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 3073,
+      "grade_indicator": true,
+      "paper_title_opening": "1\r\n臺中市南屯區大墩國民小學 114 學年度第一學期第一次定期評量四年級自然領域自然試卷 \r\n出題老師：葉雅嫻老師 四 年 班 座號： 姓名： 家長簽名： \r\n一、是非題；每題 2 分，共 16 分 \r\n( )1.地表上除了生物之外，還有非生物，例",
+      "topic_signals": {
+        "U01": {
+          "hits": 40,
+          "matched_words": [
+            "岩石",
+            "土壤",
+            "地震",
+            "地表",
+            "礫石",
+            "流水"
+          ]
+        },
+        "U02": {
+          "hits": 21,
+          "matched_words": [
+            "水域",
+            "水生",
+            "布袋蓮",
+            "水蘊草",
+            "魚鰭",
+            "鰓",
+            "荷花"
+          ]
+        },
+        "U03": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 1,
+          "matched_words": [
+            "月亮"
+          ]
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "This is a text/readability preflight; diagram shapes and answer-key science validity remain unverified."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_MID_005",
+      "title": "114_康軒_四上_自然_期中評量卷_民權國小.pdf",
+      "drive_file_id": "1eWBdPcFVKEWOUqgAcwnki-u9vbuPmWIB",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 2849,
+      "grade_indicator": true,
+      "paper_title_opening": "1\r\n臺北市民權國小 114 學年\r\n第一學期 期中評量 自然科學試題 四年( )班( )號姓名: \r\n一、是非題：(每個答案 2 分，共 30 分) \r\n（ ）1. 流水的作用變強，地表物質會被\r\n搬得更遠。\r\n（ ）2. 肥沃土壤可讓農作物生長良",
+      "topic_signals": {
+        "U01": {
+          "hits": 36,
+          "matched_words": [
+            "岩石",
+            "土壤",
+            "地震",
+            "地表",
+            "礫石",
+            "流水"
+          ]
+        },
+        "U02": {
+          "hits": 25,
+          "matched_words": [
+            "水域",
+            "水生",
+            "布袋蓮",
+            "水蘊草",
+            "魚鰭",
+            "鰓",
+            "荷花"
+          ]
+        },
+        "U03": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "This is a text/readability preflight; diagram shapes and answer-key science validity remain unverified."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_MID_006",
+      "title": "114_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "drive_file_id": "1b2Ra-MB32xdJjXy-xtn0gJTIuvtF8YTW",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 2461,
+      "grade_indicator": true,
+      "paper_title_opening": "一、是非題：(每題 2 分，共 30 分)\r\n( ) 1. 人類會用堅硬的岩石蓋房子，也可以用\r\n來鋪設步道。\r\n( ) 2. 栗喉蜂虎利用尖利的嘴挖洞，會棲息在\r\n陡峭的土丘洞穴。\r\n( ) 3. 流水作用對地表環境產生新樣貌後，地\r\n表環境就會變",
+      "topic_signals": {
+        "U01": {
+          "hits": 22,
+          "matched_words": [
+            "岩石",
+            "土壤",
+            "地震",
+            "地表",
+            "礫石",
+            "流水"
+          ]
+        },
+        "U02": {
+          "hits": 24,
+          "matched_words": [
+            "水域",
+            "水生",
+            "水蘊草",
+            "鰓",
+            "荷花"
+          ]
+        },
+        "U03": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "This is a text/readability preflight; diagram shapes and answer-key science validity remain unverified."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_MID_007",
+      "title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "drive_file_id": "1vYm6xxOw6TQzKb-r8bEYM8gp7cDIRDFa",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 1932,
+      "grade_indicator": true,
+      "paper_title_opening": "花蓮縣花蓮市明義國民小學 114 學年度第一學期 四年級自然科期中定期評量試卷\r\n四年____班 座號：______ 姓名：________________ 家長簽名：________________\r\n一、 是非題：每題 2 分，共 24 分\r\n(",
+      "topic_signals": {
+        "U01": {
+          "hits": 19,
+          "matched_words": [
+            "岩石",
+            "土壤",
+            "地震",
+            "地表",
+            "礫石"
+          ]
+        },
+        "U02": {
+          "hits": 14,
+          "matched_words": [
+            "水域",
+            "水生",
+            "布袋蓮",
+            "鰓",
+            "荷花"
+          ]
+        },
+        "U03": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": false,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "This is a text/readability preflight; diagram shapes and answer-key science validity remain unverified."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_MID_008",
+      "title": "114_康軒_四上_自然_期中評量卷_東光國小.pdf",
+      "drive_file_id": "1g0ld_8TiIqt_UrtNRFZx_VqlZzKOx8D5",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 2408,
+      "grade_indicator": true,
+      "paper_title_opening": "基隆市東光國小 114 學年度 第 1 學期\r\n四年級自然科學領域第一次定期評量試題\r\n四年忠 班 座號： 姓名： 家長簽名\r\n1\r\n得分：\r\n一、是非題-: 每題 2 分共 28 分\r\n1. ( )比較岩石、沙和土壤的顆粒大小，其中\r\n岩石的顆粒最",
+      "topic_signals": {
+        "U01": {
+          "hits": 17,
+          "matched_words": [
+            "岩石",
+            "土壤",
+            "地震",
+            "地表",
+            "礫石"
+          ]
+        },
+        "U02": {
+          "hits": 37,
+          "matched_words": [
+            "水域",
+            "水生",
+            "布袋蓮",
+            "水蘊草",
+            "荷花"
+          ]
+        },
+        "U03": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 1,
+          "matched_words": [
+            "運輸工具"
+          ]
+        }
+      },
+      "visual_dependency_keyword_detected": false,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "This is a text/readability preflight; diagram shapes and answer-key science validity remain unverified."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_MID_009",
+      "title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "drive_file_id": "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG",
+      "readback_status": "READBACK_FAILED_OR_SPARSE",
+      "text_character_count": 0,
+      "grade_indicator": false,
+      "paper_title_opening": "",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U03": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 0,
+          "matched_words": []
+        }
+      },
+      "visual_dependency_keyword_detected": false,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "This is a text/readability preflight; diagram shapes and answer-key science validity remain unverified."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_MID_010",
+      "title": "114_翰林_四上_自然_期中評量卷_大華國小.pdf",
+      "drive_file_id": "1Tf8dvnMnaw1DJoZQQXTptRfcjt2Krbor",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 3023,
+      "grade_indicator": true,
+      "paper_title_opening": "桃園市蘆竹區大華國小114學年度上學期四年級 自然科學 期中評量試卷 \r\n四年 班 號 姓名： 分數：\r\n一、是非題 (一題 2 分/共 20 分) \r\n1. ( )每天早上烱瑩校長都會站在門口迎\r\n接大家，如果太陽從他的前方升起，\r\n而影子落下的方",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 10,
+          "matched_words": [
+            "水域",
+            "水生",
+            "布袋蓮",
+            "鰓"
+          ]
+        },
+        "U03": {
+          "hits": 16,
+          "matched_words": [
+            "聲音",
+            "影子",
+            "光線"
+          ]
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 11,
+          "matched_words": [
+            "月相",
+            "月亮"
+          ]
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "This is a text/readability preflight; diagram shapes and answer-key science validity remain unverified."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_MID_011",
+      "title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "drive_file_id": "1cNAyUFRPvdNTQivMwLMszAuTTLu4RDNd",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 4501,
+      "grade_indicator": true,
+      "paper_title_opening": "背面尚有試題\r\n114 學年度第 1 學期第 1 次定期評量 評量範圍：\r\n四年級自然領域試題 單元 1～單元 2\r\n四年 班 號 姓名 \r\n█根據題意回答問題。(共 100 分) \r\n1. 下列關於「人類活動與水域環境之間關係」的敘述，\r\n正確畫○",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 32,
+          "matched_words": [
+            "水域",
+            "水生",
+            "布袋蓮",
+            "水蘊草",
+            "鰓",
+            "荷花"
+          ]
+        },
+        "U03": {
+          "hits": 2,
+          "matched_words": [
+            "影子"
+          ]
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 36,
+          "matched_words": [
+            "月相",
+            "月亮"
+          ]
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "This is a text/readability preflight; diagram shapes and answer-key science validity remain unverified."
+    },
+    {
+      "candidate_source_id": "SCI_G04_S1_114_MID_012",
+      "title": "114_翰林_四上_自然_期中評量卷_獅湖國小.pdf",
+      "drive_file_id": "14VXGVleqBBtZXIgopFJKF36-TXok16DC",
+      "readback_status": "SOURCE_SELECTABLE_TEXT_AVAILABLE",
+      "text_character_count": 3148,
+      "grade_indicator": true,
+      "paper_title_opening": "1\r\n高雄市獅湖國小 114 學年度第一學期自然科學 期中考\r\n四 年 班 號 姓名： 得分： \r\n一、 是非題 （每題 2 分，共 16 分）\r\n1( )允允和萱萱用高度角觀測器測量同一\r\n 根旗桿的高度角，結果允允測得的高\r\n 度角比萱萱小，是因",
+      "topic_signals": {
+        "U01": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U02": {
+          "hits": 16,
+          "matched_words": [
+            "水域",
+            "水生",
+            "布袋蓮",
+            "水蘊草",
+            "鰓"
+          ]
+        },
+        "U03": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "U04": {
+          "hits": 0,
+          "matched_words": []
+        },
+        "legacy": {
+          "hits": 20,
+          "matched_words": [
+            "月相",
+            "月亮"
+          ]
+        }
+      },
+      "visual_dependency_keyword_detected": true,
+      "scope_screening_status": "READBACK_DONE_PENDING_ITEM_BY_ITEM_KP_SCREENING",
+      "source_pdf_sha256": null,
+      "teacher_answer_key_authenticated": false,
+      "question_mapping_completed": false,
+      "notes": "This is a text/readability preflight; diagram shapes and answer-key science validity remain unverified."
+    }
+  ]
+}

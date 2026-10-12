@@ -148,11 +148,11 @@ try {
   const svg=page.locator(".paper:not([data-answer='true']) .group svg.p12-figure-svg").first();
   assert.equal(await svg.count(),1,"curved-fishbowl figure group actually selected");
   assert.equal(await svg.getAttribute("preserveAspectRatio"),"xMidYMid meet");
-  assert.ok((await svg.innerText()).includes("曲面小魚缸"));
+  assert.ok((await svg.textContent()).includes("曲面小魚缸"));
   const dims=await svg.evaluate(x=>{const r=x.getBoundingClientRect();return {width:r.width,height:r.height,col:x.closest(".col")?.getBoundingClientRect().width}});
   assert.ok(dims.width>0&&dims.width<=dims.col+2&&Math.abs(dims.width/dims.height-460/236)<0.035,"live figure must be proportionally scaled "+JSON.stringify(dims));
   const answerText=await page.locator(".paper[data-answer='true']").innerText();
-  assert.match(answerText,/3\\. X/,"third source fishbowl must be marked X on answer page");
+  assert.match(answerText,/3\. X/,"third source fishbowl must be marked X on answer page");
   await page.screenshot({path:"artifacts/deployed-browser/p12-g03s2final-46-fishbowl-live.png",fullPage:true});
   const screen=await page.screenshot({path:"artifacts/deployed-browser/p12-remaining51-live.png",fullPage:true});
   console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 251 slots (148 frozen + 57 MID + 46 FINAL)");

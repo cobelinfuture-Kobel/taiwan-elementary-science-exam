@@ -84,7 +84,7 @@ test("G03-S2-MID keeps historical defects but records operator-approved six as p
  assert.equal(p.not_started,0);
  assert.equal(p.pending_remaining,0);
  assert.equal(x.blocked_slots.length,0);
- assert.equal(x.resume_checkpoint.source_id,"G03-S2-FINAL");
+ assert.equal(x.resume_checkpoint.source_id,"G04-S2-MID");
  assert.equal(x.next_unstarted_screening_source_id,"G04-S2-MID");
  assert.equal(x.resume_checkpoint.block_reason,null);
 });

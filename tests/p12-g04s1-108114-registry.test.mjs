@@ -53,7 +53,7 @@ test("canonical G04-S1 study targets exactly U01 U02 mid 23 KP and U03 U04 final
  assert.deepEqual(scopeKP.map(u=>[u.unit_id,u.knowledge_points.length]),[["U01",11],["U02",12],["U03",10],["U04",12]]);
  assert.deepEqual(reg.exam_scope,{MID:["G04-S1-U01","G04-S1-U02"],FINAL:["G04-S1-U03","G04-S1-U04"]});
  assert.equal(scopeKP.reduce((n,u)=>n+u.knowledge_points.length,0),45);
- assert.match(reg.publisher_policy,/CONTENT_BASED_CANONICAL_SCOPE/);
+ assert.match(reg.publisher_policy,/KANGHSUAN_KP_ITEM_SCOPE_OVER_LABEL/);
 });
 test("113 original source papers already partially processed must remain linked but not wrongly declared fully closed",()=>{
  const sourceMid=p11.source_papers.find(x=>x.source_id==="G04-S1-MID"),sourceFinal=p11.source_papers.find(x=>x.source_id==="G04-S1-FINAL");

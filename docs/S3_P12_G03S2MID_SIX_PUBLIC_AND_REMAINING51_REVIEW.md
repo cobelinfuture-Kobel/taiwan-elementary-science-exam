@@ -23,8 +23,8 @@
 
 逐題來源與科學判答整理於：
 
-- `site/data/governance/p12-g03s2mid-remaining51-source-editorial-audit-v1.json`
-- `site/data/question-bank/p12-g03s2mid-remaining51-staged-v1.json`
+- `data/review/p12-g03s2mid-remaining51-source-editorial-audit-v1.json`
+- `data/staging/p12-g03s2mid-remaining51-staged-v1.json`
 
 已重新對位 **51/51** 個原卷位置：是非 10、選擇 11、蔬菜分類 5、水態 21、水耕閱讀 4。
 

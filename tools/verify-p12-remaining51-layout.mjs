@@ -32,8 +32,8 @@ try{
  browser=await chromium.launch({headless:true});
  const host="http://127.0.0.1:"+server.address().port;
  const results=[];
- const trials=[...groups,
-  ...blocks.filter(b=>b.type==="mcq").filter(b=>[1,2,3,4,7,10].includes(Number(b.source_slot_id.split("|").at(-1))))];
+ const trials=[...groups,...blocks.filter(b=>b.type!=="group")];
+ assert.equal(trials.length,27,"all 51 staged source slots must be browser-tested");
  for(const block of trials){
   const page=await browser.newPage({viewport:{width:1470,height:950}});
   const errors=[];page.on("pageerror",e=>errors.push(String(e)));
@@ -67,9 +67,12 @@ try{
     const bank=await g.locator(".choice-bank div").allInnerTexts();
     assert.deepEqual(bank,block.shared.choiceBank,block.id+" common choice bank");
     if(block.shared.passage)assert.ok((await g.locator(".group-passage").innerText()).includes("水耕"));
-  }else{
+  }else if(block.type==="mcq"){
     const texts=await page.locator(".paper:not([data-answer='true']) .question .opts div").allInnerTexts();
     assert.deepEqual(texts,block.options,block.id+" single-choice labels");
+  }else {
+    assert.equal(block.type,"tf","non-group question should be O/X or single-choice");
+    assert.match((await page.locator(".paper:not([data-answer='true']) .question").innerText()),/^（　）1\. /);
   }
   async function geometry(){
    return page.evaluate(()=>{
@@ -101,7 +104,9 @@ try{
  const observed=results.filter(x=>x.block_id.startsWith("P12_REMAIN51_")&&groups.some(g=>g.id===x.block_id));
  assert.equal(observed.length,6);
  assert.equal(observed.reduce((n,x)=>n+x.slots,0),30);
- console.log("P12_REMAIN51_A4_TWO_COLUMN_PILOT_PASS",JSON.stringify({groupCount:observed.length,groupSlots:30,trials:results.length,results:results.map(x=>({id:x.block_id,slots:x.slots,layout:"PASS"}))}));
+ assert.equal(results.length,27);
+ assert.equal(results.reduce((n,x)=>n+x.slots,0),51);
+ console.log("P12_REMAIN51_A4_TWO_COLUMN_PILOT_PASS",JSON.stringify({groupCount:observed.length,groupSlots:30,allSourceSlots:51,trials:results.length,results:results.map(x=>({id:x.block_id,slots:x.slots,layout:"PASS"}))}));
 }finally{
  await browser?.close();
  await new Promise(done=>server.close(done));

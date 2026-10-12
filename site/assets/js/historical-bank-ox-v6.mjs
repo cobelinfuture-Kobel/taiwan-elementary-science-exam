@@ -1,3 +1,4 @@
+import {validateAndConvertP12Six,P12_SIX_BANK_PATH} from "./p12-six-release.mjs";
 import {certificationGate} from "./s3-admission.mjs";
 import {resolveUnit} from "./authority-adapter.mjs";
 export const EMBEDDED_BANK_SCHEMA="SCIENCE_S3_P10_CUMULATIVE_EXAM_BANK_V1";
@@ -108,12 +109,17 @@ export function validateAndConvertContextGroups(value,authority){
  if(original!==12)throw Error("圖文資料群組路由異常");
  return {admission:"EMBEDDED_CERTIFIED_CONTEXT",blocks};
 }
-export async function loadEmbeddedHistoricalBank(authority,url=EMBEDDED_BANK_PATH,contextUrl=CONTEXT_BANK_PATH){
- const [questions,contexts]=await Promise.all([fetch(url,{cache:"no-cache"}),fetch(contextUrl,{cache:"no-cache"})]);
- if(!questions.ok||!contexts.ok)throw Error("公開內建考古題或情境題組載入失敗");
+export async function loadEmbeddedHistoricalBank(authority,url=EMBEDDED_BANK_PATH,contextUrl=CONTEXT_BANK_PATH,p12Url=P12_SIX_BANK_PATH){
+ const [questions,contexts,p12]=await Promise.all([fetch(url,{cache:"no-cache"}),fetch(contextUrl,{cache:"no-cache"}),fetch(p12Url,{cache:"no-cache"})]);
+ if(!questions.ok||!contexts.ok||!p12.ok)throw Error("公開內建考古題或 P12 六題題庫載入失敗");
  const singles=validateAndConvertEmbeddedBank(await questions.json(),authority);
  const groups=validateAndConvertContextGroups(await contexts.json(),authority);
- return {admission:"EMBEDDED_CERTIFIED_HISTORICAL",blocks:[...singles.blocks,...groups.blocks],
-  certifiedTrueFalse:singles.blocks.length,certifiedGroupCount:groups.blocks.length,
-  certifiedAnswerSlots:singles.blocks.length+groups.blocks.reduce((n,b)=>n+b.items.length,0)};
+ const supplement=validateAndConvertP12Six(await p12.json(),authority);
+ const combined=[...singles.blocks,...groups.blocks,...supplement.blocks];
+ if(new Set(combined.map(b=>b.id)).size!==combined.length)throw Error("累積題庫出現重複 ID");
+ return {admission:"EMBEDDED_CERTIFIED_HISTORICAL",blocks:combined,
+  certifiedTrueFalse:singles.blocks.length+supplement.blocks.filter(b=>b.type==="tf").length,
+  certifiedGroupCount:groups.blocks.length+supplement.contextGroups,
+  certifiedStandaloneChoice:supplement.blocks.filter(b=>b.type==="mcq").length,
+  certifiedAnswerSlots:singles.blocks.length+groups.blocks.reduce((n,b)=>n+b.items.length,0)+supplement.answerSlots};
 }

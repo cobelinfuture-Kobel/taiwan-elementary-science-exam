@@ -18,6 +18,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - run: npm run governance:build
+      - run: npm run governance:check
       - run: npm test
       - name: Install Chromium for actual A4 two-column verification
         run: |
@@ -42,6 +44,11 @@ jobs:
       - uses: actions/configure-pages@v5
         with:
           enablement: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm run governance:build
+      - run: npm run governance:check
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

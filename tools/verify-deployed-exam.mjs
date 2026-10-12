@@ -34,6 +34,15 @@ try {
   await page.locator("#generate").click();
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","deployed four-lower science bank selection");
   assert.ok((await page.locator(".paper:not([data-answer='true'])").innerText()).includes("石油可以製造"));
+  const g=await page.request.get(base+"/data/governance/p11-kp-coverage.json",{cache:"no-cache"});
+  const i=await page.request.get(base+"/data/governance/p11-question-identities.json",{cache:"no-cache"});
+  const c=await page.request.get(base+"/data/governance/p11-full-corpus-ledger.json",{cache:"no-cache"});
+  assert.equal(g.status(),200,"P11 KP report deployed");
+  assert.equal(i.status(),200,"P11 identity report deployed");
+  assert.equal(c.status(),200,"P11 corpus ledger deployed");
+  assert.equal((await g.json()).primary_kp_covered,71);
+  assert.equal((await i.json()).questions.length,148);
+  assert.equal((await c.json()).source_slots.length,477);
   assert.deepEqual(errors,[],"No JavaScript runtime errors");
   assert.ok(assetUrls.some(x=>x.includes("historical-bank-ox-v6.mjs")),"Actual browser must load v2 JS module");
   assert.ok(assetUrls.some(x=>x.includes("approved-historical-ox-v4.json")),"Actual browser must load v2 JSON");

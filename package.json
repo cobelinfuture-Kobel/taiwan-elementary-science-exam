@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "governance:build": "node tools/p11-governance.mjs --write",
+    "governance:check": "node tools/p11-governance.mjs --check"
   }
 }

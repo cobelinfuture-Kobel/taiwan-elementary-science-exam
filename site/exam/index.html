@@ -67,6 +67,7 @@ import { loadAuthority, unitsFor, resolveUnit } from "../assets/js/authority-ada
 import { loadEmbeddedHistoricalBank } from "../assets/js/historical-bank-ox-v6.mjs?v=20261012-p12remaining51v1";
  import { chooseExactBlocks } from "../assets/js/worksheet-nonrepeat-selection.mjs?v=20261012-p12remaining51v1";
 import { renderScienceDiagram } from "../assets/js/science-diagrams-p09.mjs?v=20261012-p09v1";
+import { renderP12G03FinalFigure } from "../assets/js/p12-g03final-figure-reconstruction.mjs?v=20261012-g03finalv1";
 const $=id=>document.getElementById(id),ui={grade:$('grade'),sem:$('semester'),unit:$('unit'),mode:$('mode'),kp:$('kp'),kpWrap:$('kp-wrap'),kpSummary:$('kp-summary'),crossWrap:$('cross-wrap'),cross:$('cross'),crossKPs:$('cross-kps'),count:$('count'),order:$('order'),seed:$('seed'),sheet:$('sheet'),status:$('status'),print:$('print'),meta:$('meta')};
 const qaFixture=(location.hostname==="127.0.0.1"||location.hostname==="localhost")&&new URLSearchParams(location.search).has("qa");
 let authority=null,bank=null;
@@ -150,6 +151,7 @@ function sourceContextGroup(b,start){
   const tbody=child(table,'tbody');
   b.shared.table.rows.forEach(row=>{const tr=child(tbody,'tr');row.forEach(x=>child(tr,'td','',x));});
  }
+ if(b.figure_spec)a.append(renderP12G03FinalFigure(b.figure_spec));
  if(b.diagram_kind&&b.diagram_kind!=="DRAW_CIRCUIT")a.append(renderScienceDiagram(b.diagram_kind));
  b.items.forEach((item,i)=>{
    a.append(question(item,start+i));

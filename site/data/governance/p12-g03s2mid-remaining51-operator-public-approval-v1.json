@@ -1,0 +1,478 @@
+{
+  "schema_version": "SCIENCE_P12_G03S2MID_REMAINING51_OPERATOR_PUBLIC_APPROVAL_V1",
+  "decision": "APPROVE_REMAINING51_FOR_PUBLIC_ADMISSION",
+  "operator_approval_intent": "2026-10-12 direct approval in conversation of P12_G03S2MID_Remaining51_PublicAdmission",
+  "reviewed_final_acceptance_path": "data/review/p12-g03s2mid-remaining51-final-acceptance-v1.json",
+  "approved_release_path": "site/data/question-bank/p12-g03s2mid-remaining51-public-v1.json",
+  "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+  "approved_slot_count": 51,
+  "approved_block_count": 27,
+  "original_p11_public_slots_preserved": 148,
+  "original_p12_six_public_slots_preserved": 6,
+  "expected_total_public_answer_slots": 205,
+  "published_same_worksheet_exclusion": [
+    "G03-S2-MID|TF|P01|008",
+    "G03-S2-MID|MC|P01|008"
+  ],
+  "approved_items": [
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|002",
+      "published_block_id": "P12_REMAIN51_TF_002",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_01_05",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|005",
+      "published_block_id": "P12_REMAIN51_TF_005",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_01_10",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|007",
+      "published_block_id": "P12_REMAIN51_TF_007",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_01_05",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|008",
+      "published_block_id": "P12_REMAIN51_TF_008",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_02_01",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|011",
+      "published_block_id": "P12_REMAIN51_TF_011",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_02_09",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|015",
+      "published_block_id": "P12_REMAIN51_TF_015",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_02_09",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|016",
+      "published_block_id": "P12_REMAIN51_TF_016",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_02_09",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|017",
+      "published_block_id": "P12_REMAIN51_TF_017",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_02_10",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|018",
+      "published_block_id": "P12_REMAIN51_TF_018",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_02_11",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|020",
+      "published_block_id": "P12_REMAIN51_TF_020",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_02_01",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|MC|P01|001",
+      "published_block_id": "P12_REMAIN51_MC_001",
+      "answer": "①",
+      "canonical_kp_id": "sci_g03s2_01_08",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|MC|P01|002",
+      "published_block_id": "P12_REMAIN51_MC_002",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_01_08",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|MC|P01|003",
+      "published_block_id": "P12_REMAIN51_MC_003",
+      "answer": "①",
+      "canonical_kp_id": "sci_g03s2_01_10",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|MC|P01|004",
+      "published_block_id": "P12_REMAIN51_MC_004",
+      "answer": "②",
+      "canonical_kp_id": "sci_g03s2_01_07",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|MC|P01|005",
+      "published_block_id": "P12_REMAIN51_MC_005",
+      "answer": "②",
+      "canonical_kp_id": "sci_g03s2_01_06",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|MC|P01|006",
+      "published_block_id": "P12_REMAIN51_MC_006",
+      "answer": "①",
+      "canonical_kp_id": "sci_g03s2_01_11",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|MC|P01|007",
+      "published_block_id": "P12_REMAIN51_MC_007",
+      "answer": "④",
+      "canonical_kp_id": "sci_g03s2_01_04",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|MC|P01|008",
+      "published_block_id": "P12_REMAIN51_MC_008",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_02_01",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|MC|P01|009",
+      "published_block_id": "P12_REMAIN51_MC_009",
+      "answer": "④",
+      "canonical_kp_id": "sci_g03s2_02_01",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|MC|P01|010",
+      "published_block_id": "P12_REMAIN51_MC_010",
+      "answer": "④",
+      "canonical_kp_id": "sci_g03s2_02_04",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|MC|P01|011",
+      "published_block_id": "P12_REMAIN51_MC_011",
+      "answer": "②",
+      "canonical_kp_id": "sci_g03s2_02_11",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P01|001",
+      "published_block_id": "P12_REMAIN51_VEGETABLE_5",
+      "answer": "2、6",
+      "canonical_kp_id": "sci_g03s2_01_01",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P01|002",
+      "published_block_id": "P12_REMAIN51_VEGETABLE_5",
+      "answer": "1、7",
+      "canonical_kp_id": "sci_g03s2_01_01",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P01|003",
+      "published_block_id": "P12_REMAIN51_VEGETABLE_5",
+      "answer": "3、9",
+      "canonical_kp_id": "sci_g03s2_01_01",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P01|004",
+      "published_block_id": "P12_REMAIN51_VEGETABLE_5",
+      "answer": "4、8",
+      "canonical_kp_id": "sci_g03s2_01_01",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P01|005",
+      "published_block_id": "P12_REMAIN51_VEGETABLE_5",
+      "answer": "5、10、11、12",
+      "canonical_kp_id": "sci_g03s2_01_01",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|001",
+      "published_block_id": "P12_REMAIN51_WATER_01",
+      "answer": "①",
+      "canonical_kp_id": "sci_g03s2_02_03",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|002",
+      "published_block_id": "P12_REMAIN51_WATER_01",
+      "answer": "②",
+      "canonical_kp_id": "sci_g03s2_02_04",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|003",
+      "published_block_id": "P12_REMAIN51_WATER_01",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_02_07",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|004",
+      "published_block_id": "P12_REMAIN51_WATER_01",
+      "answer": "④",
+      "canonical_kp_id": "sci_g03s2_02_05",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|005",
+      "published_block_id": "P12_REMAIN51_WATER_02",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_02_07",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|006",
+      "published_block_id": "P12_REMAIN51_WATER_02",
+      "answer": "①",
+      "canonical_kp_id": "sci_g03s2_02_03",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|007",
+      "published_block_id": "P12_REMAIN51_WATER_02",
+      "answer": "②",
+      "canonical_kp_id": "sci_g03s2_02_04",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|008",
+      "published_block_id": "P12_REMAIN51_WATER_02",
+      "answer": "④",
+      "canonical_kp_id": "sci_g03s2_02_05",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|009",
+      "published_block_id": "P12_REMAIN51_WATER_02",
+      "answer": "①",
+      "canonical_kp_id": "sci_g03s2_02_03",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|010",
+      "published_block_id": "P12_REMAIN51_WATER_02",
+      "answer": "①",
+      "canonical_kp_id": "sci_g03s2_02_03",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|011",
+      "published_block_id": "P12_REMAIN51_WATER_02",
+      "answer": "④",
+      "canonical_kp_id": "sci_g03s2_02_05",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|013",
+      "published_block_id": "P12_REMAIN51_WATER_03",
+      "answer": "①",
+      "canonical_kp_id": "sci_g03s2_02_03",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|014",
+      "published_block_id": "P12_REMAIN51_WATER_03",
+      "answer": "②",
+      "canonical_kp_id": "sci_g03s2_02_04",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|015",
+      "published_block_id": "P12_REMAIN51_WATER_03",
+      "answer": "②",
+      "canonical_kp_id": "sci_g03s2_02_04",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|016",
+      "published_block_id": "P12_REMAIN51_WATER_03",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_02_07",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|017",
+      "published_block_id": "P12_REMAIN51_WATER_03",
+      "answer": "②",
+      "canonical_kp_id": "sci_g03s2_02_04",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|018",
+      "published_block_id": "P12_REMAIN51_WATER_03",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_02_07",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|019",
+      "published_block_id": "P12_REMAIN51_WATER_03",
+      "answer": "②",
+      "canonical_kp_id": "sci_g03s2_02_04",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|020",
+      "published_block_id": "P12_REMAIN51_WATER_04",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_02_08",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|021",
+      "published_block_id": "P12_REMAIN51_WATER_04",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_02_08",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|022",
+      "published_block_id": "P12_REMAIN51_WATER_04",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_02_08",
+      "unit": "3-S2-U02",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|READ|P01|001",
+      "published_block_id": "P12_REMAIN51_HYDROPONIC_4",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_01_03",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|READ|P01|002",
+      "published_block_id": "P12_REMAIN51_HYDROPONIC_4",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_01_03",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|READ|P01|005",
+      "published_block_id": "P12_REMAIN51_HYDROPONIC_4",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_01_10",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    },
+    {
+      "source_slot_id": "G03-S2-MID|READ|P01|006",
+      "published_block_id": "P12_REMAIN51_HYDROPONIC_4",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_01_10",
+      "unit": "3-S2-U01",
+      "science_final_acceptance": "ACCEPTED",
+      "source_original_preserved_in_nonpublic_audit": true
+    }
+  ]
+}

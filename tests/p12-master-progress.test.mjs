@@ -28,7 +28,7 @@ test("overall ledger accounts for all eight unique PDF documents and all 477 ori
  assert.equal(x.external_sources_not_yet_registered_count,null);
  assert.equal(x.publisher_filter_enabled,false);
 });
-test("master resumes from original paper and printed TF source order, not lexical section sorting",()=>{
+test("master preserves original source order and the cloud-reading blocker resume",()=>{
  const x=buildMaster();
  assert.equal(x.resume_checkpoint.source_id,"G03-S2-FINAL");
  assert.ok(x.resume_checkpoint.source_slot_id.startsWith(slot+"|"));
@@ -41,7 +41,6 @@ test("master resumes from original paper and printed TF source order, not lexica
  assert.equal(x.position_status_counts.blocked,1);
  assert.equal(x.position_status_counts.certified_staged,45);
  assert.equal(x.position_status_counts.published,57);
- assert.equal(x.position_status_counts.certified_staged,0);
  assert.equal(x.position_status_counts.rejected,0);
  assert.ok(x.paper_rows.every(p=>p.textbook_publisher==="NOT_VERIFIED_METADATA_ONLY"));
 });

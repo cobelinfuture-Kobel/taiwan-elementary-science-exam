@@ -145,7 +145,7 @@ try {
   await live.selectOption("#semester","S2");
   await live.selectOption("#unit","3-S2-U04");
   await live.selectOption("#mode","single_kp");
-  await live.selectOption("#kp","sci_g03s2_04_13");
+  await live.selectOption("#kp","sci_g03s2_04_04");
   await live.fill("#count","1");
   await live.locator("#generate").click();
   assert.equal(await live.locator("#status").getAttribute("data-error"),"true","no DEMO fallback for KP with no certified historical questions");

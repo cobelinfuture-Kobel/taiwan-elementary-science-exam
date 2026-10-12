@@ -312,7 +312,7 @@ try {
   await masterPage.goto("http://127.0.0.1:"+server.address().port+"/review/master/",{waitUntil:"networkidle"});
   await masterPage.waitForFunction(()=>document.querySelector("#metrics")?.textContent?.includes("326"),{timeout:15000});
   assert.equal(await masterPage.locator("#paper-rows tr").count(),16,"8 source rows plus 8 section-details rows");
-  assert.ok((await masterPage.locator("#resume").innerText()).includes("G03-S2-MID\\|TF\\|P01\\|013".replaceAll("\\","")),"resume must point at the first blocked TF source slot requiring scientific adjudication");
+  assert.ok((await masterPage.locator("#resume").innerText()).includes("G03-S2-MID\\|MC\\|P01\\|012".replaceAll("\\","")),"resume must point at the first remaining MC scientific/source defect");
   assert.ok((await masterPage.locator("#resume").innerText()).includes("待釐清（阻擋）"),"human review hold must appear in public checkpoint");
   assert.ok((await masterPage.locator("#resume").innerText()).includes("G03-S2-FINAL"),"show independent next unstarted paper without closing G03-S2-MID");
   await masterPage.selectOption("#semester","2");

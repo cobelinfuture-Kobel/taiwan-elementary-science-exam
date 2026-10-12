@@ -4,7 +4,7 @@ import {readFileSync} from "node:fs";
 import {buildMaster,writeMaster,csvForMaster} from "../tools/p12-master-progress.mjs";
 
 const base=JSON.parse(readFileSync("site/data/governance/p12-review-events.json","utf8"));
-const slot="G03-S2-MID|TF|P01|013";
+const slot="G03-S2-MID|MC|P01|012";
 const syntheticSlot="G03-S2-MID|TF|P01|002";
 const clean={...base,events:[]};
 function event(action,id="e1"){return {event_id:id,source_slot_id:syntheticSlot,action,recorded_at_utc:"2026-10-12T02:00:00Z",reviewer:"CI_REVIEW_TEST"};}
@@ -17,7 +17,7 @@ test("overall ledger accounts for all eight unique PDF documents and all 477 ori
  assert.equal(x.originally_linked_exact_TF,72);
  assert.equal(x.originally_linked_adapted_context_source_positions,79);
  assert.equal(x.candidate_position_baseline,326);
- assert.equal(x.paper_rows.reduce((a,p)=>a+p.pending_remaining,0),275);
+ assert.equal(x.paper_rows.reduce((a,p)=>a+p.pending_remaining,0),272);
  assert.equal(x.complete_papers,0);
  assert.equal(x.incomplete_papers,8);
  assert.equal(x.public_question_bank_answer_slots_unchanged,148);
@@ -29,14 +29,14 @@ test("master resumes from original paper and printed TF source order, not lexica
  const x=buildMaster();
  assert.equal(x.resume_checkpoint.source_id,"G03-S2-MID");
  assert.equal(x.resume_checkpoint.source_slot_id,slot);
- assert.equal(x.resume_checkpoint.source_section_code,"TF");
+ assert.equal(x.resume_checkpoint.source_section_code,"MC");
  assert.equal(x.resume_checkpoint.state,"BLOCKED");
  assert.equal(x.next_unstarted_screening_source_id,"G03-S2-FINAL");
  assert.equal(x.resume_checkpoint.original_pdf_page_range[0],1);
- assert.equal(x.review_events_count,114);
+ assert.equal(x.review_events_count,120);
  assert.equal(x.position_status_counts.not_started,269);
- assert.equal(x.position_status_counts.blocked,6);
- assert.equal(x.position_status_counts.certified_staged,51);
+ assert.equal(x.position_status_counts.blocked,3);
+ assert.equal(x.position_status_counts.certified_staged,54);
  assert.equal(x.position_status_counts.rejected,0);
  assert.ok(x.paper_rows.every(p=>p.textbook_publisher==="NOT_VERIFIED_METADATA_ONLY"));
 });
@@ -66,15 +66,15 @@ test("master JSON and CSV are deterministic and current",()=>{
  assert.ok(csv.includes("source_pdf_sha256"));
 });
 
-test("G03-S2-MID full-paper screening preserves six independent scientific/context blockers",()=>{
+test("G03-S2-MID second review preserves three original science defects as blockers",()=>{
  const x=buildMaster();const p=x.paper_rows.find(p=>p.source_id==="G03-S2-MID");
  assert.equal(p.pending_before_p12,57);
- assert.equal(p.certified_staged,51);
- assert.equal(p.blocked,6);
+ assert.equal(p.certified_staged,54);
+ assert.equal(p.blocked,3);
  assert.equal(p.not_started,0);
- assert.equal(p.pending_remaining,6);
- assert.equal(x.blocked_slots.length,6);
- assert.equal(x.resume_checkpoint.source_slot_id,"G03-S2-MID|TF|P01|013");
+ assert.equal(p.pending_remaining,3);
+ assert.equal(x.blocked_slots.length,3);
+ assert.equal(x.resume_checkpoint.source_slot_id,"G03-S2-MID|MC|P01|012");
  assert.equal(x.next_unstarted_screening_source_id,"G03-S2-FINAL");
- assert.ok(x.resume_checkpoint.block_reason.includes("SCIENCE_ASSUMPTION_MISSING"));
+ assert.ok(x.resume_checkpoint.block_reason.includes("SOURCE_DEFECT_NOT_UNIQUELY_ANSWERABLE"));
 });

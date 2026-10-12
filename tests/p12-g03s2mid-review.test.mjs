@@ -19,11 +19,29 @@ test("full paper review preserves 20 printed water questions, 22 answer blanks, 
  assert.ok(d.items.filter(x=>x.original_section==="READ").every(x=>x.requires_context_group!==null));
 });
 test("source science holds cannot silently auto-publish and every review event has immutable evidence",()=>{
- assert.equal(ev.events.length,114);
+ assert.equal(ev.events.length,120);
  assert.equal(ev.events.filter(x=>x.action==="START").length,57);
- assert.equal(ev.events.filter(x=>x.action==="CERTIFY_STAGED").length,51);
- assert.equal(ev.events.filter(x=>x.action==="BLOCK").length,6);
- assert.ok(ev.events.every(x=>x.review_evidence_ref?.startsWith("site/data/governance/p12-g03s2mid-candidate-review.json#")));
+ assert.equal(ev.events.filter(x=>x.action==="CERTIFY_STAGED").length,54);
+ assert.equal(ev.events.filter(x=>x.action==="BLOCK").length,9);
+ assert.ok(ev.events.every(x=>x.review_evidence_ref?.startsWith("site/data/governance/p12-g03s2mid-")));
  const scientificHolds=d.items.filter(x=>x.issue_type).map(x=>x.source_slot_id).sort();
- assert.deepEqual(scientificHolds,ev.events.filter(x=>x.action==="BLOCK").map(x=>x.source_slot_id).sort());
+ assert.deepEqual(scientificHolds,ev.events.slice(0,114).filter(x=>x.action==="BLOCK").map(x=>x.source_slot_id).sort());
+ assert.equal(ev.events.slice(0,114).filter(x=>x.action==="CERTIFY_STAGED").length,51);
 });
+
+const r2=JSON.parse(readFileSync("site/data/governance/p12-g03s2mid-six-blocker-adjudication.json","utf8"));
+test("round two reconciles 6 scientific questions as three conditional candidates and three source defects",()=>{
+ assert.equal(r2.items.length,6);
+ assert.equal(new Set(r2.items.map(x=>x.source_slot_id)).size,6);
+ assert.equal(r2.conditional_stage,3);assert.equal(r2.persistent_holds,3);
+ assert.equal(r2.items.filter(x=>x.status==="CONDITIONAL_STAGE").length,3);
+ assert.equal(r2.items.filter(x=>x.status==="SOURCE_DEFECT_HOLD").length,3);
+ assert.ok(r2.items.every(x=>x.publication_approved===false&&x.external_evidence.startsWith("https://")&&x.required_edit));
+ assert.deepEqual(new Set(r2.items.map(x=>x.source_slot_id)),new Set(scienceInitial()));
+ const tail=ev.events.slice(-6);
+ assert.deepEqual(tail.map(x=>x.source_slot_id),r2.items.map(x=>x.source_slot_id));
+ assert.equal(tail.filter(x=>x.action==="CERTIFY_STAGED").length,3);
+ assert.equal(tail.filter(x=>x.action==="BLOCK").length,3);
+ assert.ok(tail.every(x=>x.publication_approved===false));
+});
+function scienceInitial(){return d.items.filter(x=>x.issue_type).map(x=>x.source_slot_id)}

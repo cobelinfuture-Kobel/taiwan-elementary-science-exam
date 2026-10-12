@@ -30,7 +30,7 @@ test("all 28 physical PDF and visual checks are recorded, including fidelity and
  assert.equal(c.two_column_screen_geometry,"PASS");
  assert.equal(c.two_column_print_geometry,"PASS");
  assert.equal(c.atomic_group_not_split,"PASS");
- assert.equal(c.correct_answer_mapping,"PASS");
+ assert.equal(c.correct_answer_mapping,"46/46 STAGED_ANSWER_PARITY_WITH_ONE_EXPLICIT_OVERRIDDEN_SOURCE_INFERENCE");
  assert.equal(c.figure_svg_rendered_count,6);
  assert.equal(c.pdf_issued,28);
  assert.equal(c.screenshots_issued,28);

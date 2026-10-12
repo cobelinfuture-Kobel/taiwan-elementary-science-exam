@@ -29,7 +29,7 @@ export function renderP12G03FinalFigure(spec){
  const expected={"flying-animals":4,"animal-habitats":3,"rain-gauges":4,"wind-directions":4,"forecast-activities":3,"warning-colors":4};
  if(spec.labels.length!==expected[spec.kind])throw Error("P12 source figure panel count mismatch");
  const svg=el("svg",{viewBox:"0 0 460 236",preserveAspectRatio:"xMidYMid meet",width:460,height:236,role:"img","aria-label":"依據原卷知識與位置重新繪製的六組自然科學示意圖",class:"diagram p12-figure-svg"});
- svg.style.cssText="display:block;width:100%;max-width:100%;height:auto;aspect-ratio:460 / 236;overflow:visible;";
+ svg.style.cssText="display:block;width:100%;max-width:100%;height:auto;max-height:none;aspect-ratio:460 / 236;object-fit:contain;overflow:visible;";
  spec.labels.forEach((title,i)=>{const p=panel(svg,i,title,spec.labels.length);objects(p.g,p.w,p.h,spec.kind,i);});
  return svg;
 }

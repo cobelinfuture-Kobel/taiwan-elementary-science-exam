@@ -187,7 +187,15 @@ export function buildP11(){
   score_conflict_requires_human_resolution:"G03-S2-MID_COMPOSITE_22_VISIBLE_BLANKS_VS_20_PRINTED_MARKS",
   source_count_and_locator_status:"SECTIONAL_INVENTORY_PROVISIONAL_NOT_FULL_TRANSCRIPTION",
   excluded_or_rejected_questions_not_yet_individually_classified:true,
-  public_admission_changed:false,groups:groupLineage,source_slots:sourceSlots};
+  public_admission_changed:false,
+  bulk_ingestion_resumption_allowed:false,
+  bulk_ingestion_blockers:[
+   "405 original source answer positions do not yet have exact approved subitem links",
+   "76 reconstructed group answer slots have only source-section lineage",
+   "G03-S2-MID has printed-score versus visible-blank ambiguity",
+   "non-OX source items have not yet received exhaustive per-slot certification"
+  ],
+  groups:groupLineage,source_slots:sourceSlots};
  const identities={schema_version:"SCIENCE_EXAM_P11_QUESTION_IDENTITIES_V1",
   no_new_items_verified:true,expected_public_items:148,
   all_source_pdfs_sha256_recorded:true,

@@ -1,0 +1,48 @@
+name: P12 G03 S2 Final 46 A4 Learner Review
+on:
+  pull_request:
+    paths:
+      - "data/staging/p12-g03s2final-46-*"
+      - "data/review/p12-g03s2final-figure-*"
+      - "data/review/p12-g03s2final-reading-*"
+      - "tests/p12-g03s2final-46-*"
+      - "tools/verify-p12-g03s2final-46-layout.mjs"
+      - "site/assets/js/p12-g03final-figure-reconstruction.mjs"
+      - "site/exam/index.html"
+      - ".github/workflows/p12-g03s2final-46-layout.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-grounded-a4:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Materialize and check P11 P12 governance ledgers
+        run: |
+          npm run governance:build
+          npm run governance:check
+          npm run governance:r1:build
+          npm run governance:r1:check
+          npm run p12:preflight:build
+          npm run p12:preflight:check
+          npm run p12:master:build
+          npm run p12:master:check
+      - name: Verify original source slots and learner answer parity
+        run: npm test
+      - name: Install Chromium for isolated staging review
+        run: |
+          npm install --no-save --package-lock=false playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Render all 28 staged blocks to actual A4 PDF, two-column, plus answer key
+        run: node tools/verify-p12-g03s2final-46-layout.mjs
+      - name: Upload 28 A4 PDFs and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: science-p12-g03s2final-46-a4-proof
+          path: artifacts/p12-g03s2final-46-layout/
+          if-no-files-found: ignore

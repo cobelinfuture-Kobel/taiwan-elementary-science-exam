@@ -117,7 +117,7 @@ try {
   const live=await browser.newPage({viewport:{width:1420,height:940}});
   const liveErrors=[];live.on("pageerror",e=>liveErrors.push(String(e)));
   await live.goto("http://127.0.0.1:"+server.address().port+"/exam/",{waitUntil:"networkidle"});
-  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 205 小題（84 題是非＋12 題單選＋28 組情境）"),{timeout:15000});
+  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 251 小題（90 題是非＋26 題單選＋36 組情境）"),{timeout:15000});
   assert.equal(await live.locator("#source-select").count(),0,"no source selector");
   assert.equal(await live.locator("#local-import").count(),0,"no local JSON upload control");
   assert.equal(await live.locator("#unit option").count(),4,"curriculum units must be present");
@@ -255,7 +255,7 @@ try {
   assert.deepEqual(liveErrors,[]);
   await live.screenshot({path:output+"/s3-p05-embedded-history-no-upload.png",fullPage:true});
   await live.close();
-  console.log("S3_P12_PUBLIC_CONTEXT_PASS: 205 answer slots; 148 legacy slots preserved, no upload, no demo fallback");
+  console.log("S3_P12_PUBLIC_CONTEXT_PASS: 251 answer slots; 148 legacy slots preserved, no upload, no demo fallback");
   const statusPage=await browser.newPage({viewport:{width:1280,height:900}});
   const errors=[];
   statusPage.on("pageerror",err=>errors.push(String(err)));
@@ -313,8 +313,8 @@ try {
   await masterPage.waitForFunction(()=>document.querySelector("#metrics")?.textContent?.includes("326"),{timeout:15000});
   assert.equal(await masterPage.locator("#paper-rows tr").count(),16,"8 source rows plus 8 section-details rows");
   assert.ok((await masterPage.locator("#resume").innerText()).includes("G04-S2-MID"),"resume must advance to next source after 46 stage decisions");
-  assert.ok((await masterPage.locator("#metrics").innerText()).includes("205"),"public slots must show 205");
-  assert.ok((await masterPage.locator("#metrics").innerText()).includes("57"),"57 source positions must be public");
+  assert.ok((await masterPage.locator("#metrics").innerText()).includes("251"),"public slots must show 251");
+  assert.ok((await masterPage.locator("#metrics").innerText()).includes("103"),"103 source positions must be public");
   await masterPage.selectOption("#semester","2");
   assert.equal(await masterPage.locator("#paper-rows tr").count(),8,"four S2 papers with their details");
   await masterPage.selectOption("#semester","");

@@ -11,6 +11,13 @@ const pad=(n,width=2)=>String(n).padStart(width,"0");
 function invariant(ok,message){if(!ok)throw Error("P11_GOVERNANCE_BLOCKED: "+message);}
 
 export function buildP11(){
+ const lock=read("site/data/governance/p11-frozen-baseline.json");
+ invariant(lock.schema_version==="SCIENCE_EXAM_P11_OPERATOR_APPROVED_FROZEN_BASELINE_V1","baseline lock invalid");
+ for(const [path,expectedSha] of Object.entries(lock.file_git_blob_sha1)){
+  const bytes=readFileSync(resolve(ROOT,path));
+  const gitBlobHash=createHash("sha1").update("blob "+bytes.length+"\\0").update(bytes).digest("hex");
+  invariant(gitBlobHash===expectedSha,"frozen source file changed without operator-authorized revision: "+path);
+ }
  const authority=read("site/data/authority/science-g03-g04-selector-v2.json");
  const bank=read("site/data/question-bank/approved-historical-ox-v4.json");
  const groups=read("site/data/question-bank/certified-context-groups-v2.json");

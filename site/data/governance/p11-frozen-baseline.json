@@ -1,0 +1,16 @@
+{
+  "schema_version": "SCIENCE_EXAM_P11_OPERATOR_APPROVED_FROZEN_BASELINE_V1",
+  "scope": "P11 governance changes only—zero new questions, zero revised question text/answers/KP",
+  "file_git_blob_sha1": {
+    "site/data/authority/science-g03-g04-selector-v2.json": "b2760ccef468439b5a5989b750e9afeb292bd2e4",
+    "site/data/question-bank/approved-historical-ox-v4.json": "2b8e23df3639539f5c454f6636f40abcbe98276b",
+    "site/data/question-bank/certified-context-groups-v2.json": "aa97d7b63be6b89af8245a307f0f4cf429493c71",
+    "site/assets/js/science-diagrams-p09.mjs": "48b43b5c61c28d669f0bd64878a3ec75be315002"
+  },
+  "expected_original_tf": 72,
+  "expected_context_groups": 20,
+  "expected_context_slots": 76,
+  "expected_total_answer_slots": 148,
+  "expected_authority_kp": 187,
+  "upgrade_requires": "explicit_operator_approval_and_revision_audit"
+}

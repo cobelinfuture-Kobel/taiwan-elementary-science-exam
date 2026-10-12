@@ -290,6 +290,16 @@ try {
   await p10Page.waitForFunction(()=>document.querySelector("#summary")?.textContent?.includes("148"),{timeout:15000});
   assert.equal(await p10Page.locator("#rows tr").count(),4,"P10 four exams must be visible on review page");
   await p10Page.screenshot({path:output+"/s3-p10-s2-four-periods.png",fullPage:true});
+  const p11=await browser.newPage({viewport:{width:1300,height:930}});
+  await p11.goto("http://127.0.0.1:"+server.address().port+"/review/p11/",{waitUntil:"networkidle"});
+  await p11.waitForFunction(()=>document.querySelector("#metrics")?.textContent?.includes("477"),{timeout:15000});
+  assert.equal(await p11.locator("#units tr").count(),16,"P11 all 16 curriculum units");
+  assert.equal(await p11.locator("#sources tr").count(),8,"P11 all eight sources");
+  assert.ok((await p11.locator("#metrics").textContent()).includes("148"),"P11 keeps original 148 slots");
+  assert.ok((await p11.locator("#metrics").textContent()).includes("116"),"P11 must disclose missing KP");
+  assert.ok((await p11.locator("#status").textContent()).includes("SHA-256"),"P11 identity provenance visible");
+  await p11.screenshot({path:output+"/s3-p11-source-and-kp-governance.png",fullPage:true});
+  await p11.close();
   await p10Page.close();
   await statusPage.close();
   console.log("S3_P05_PUBLIC_DASHBOARD_PASS: 40 original candidates, 7 built in");

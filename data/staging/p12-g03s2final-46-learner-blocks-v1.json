@@ -4,7 +4,7 @@
   "source_id": "G03-S2-FINAL",
   "source_validation_ref": "data/review/p12-g03s2final-46-final-source-acceptance-v1.json",
   "mc06_resolution_ref": "data/review/p12-g03s2final-mc06-referenced-reading-resolution-v1.json",
-  "status": "STAGED_ONLY_A4_PASS_SCIENCE_CORRECTION_PROPOSED",
+  "status": "STAGED_ONLY_A4_PASS_SCIENCE_ADJUDICATED_PUBLIC_ADMISSION_NOT_AUTHORIZED",
   "public_site_integrated": false,
   "operator_public_release_approved": false,
   "original_school_answer_key_authenticated": false,
@@ -830,7 +830,8 @@
           "canonical_kp_id": "sci_g03s2_04_06",
           "source_original_anchor": "直壁小魚缸",
           "science_correction_ref": "data/review/p12-g03s2final-composite-p03-q03-science-correction-v1.json",
-          "science_answer_status": "PROPOSED_CORRECTION_OPERATOR_ADJUDICATION_REQUIRED_BEFORE_PUBLIC"
+          "science_answer_status": "OPERATOR_SCIENCE_ADJUDICATED_X__NOT_PUBLIC",
+          "operator_science_adjudication_ref": "data/review/p12-g03s2final-fishbowl-operator-science-adjudication-v1.json"
         },
         {
           "source_id": "G03-S2-FINAL",
@@ -853,7 +854,8 @@
       "original_source_group_key": "G03-S2-FINAL_COMPOSITE_P03",
       "release_status": "FINAL_LEARNER_CANDIDATE_NOT_PUBLIC",
       "physical_layout_gate": "PENDING_CHROMIUM_PRINT",
-      "science_correction_pending_public_approval": true
+      "science_correction_pending_public_approval": true,
+      "operator_science_adjudication_approved": true
     },
     {
       "source_id": "G03-S2-FINAL",
@@ -1328,5 +1330,10 @@
   ],
   "science_correction_pending_public_approval_slots": [
     "G03-S2-FINAL|COMPOSITE|P03|003"
-  ]
+  ],
+  "operator_science_adjudication_ref": "data/review/p12-g03s2final-fishbowl-operator-science-adjudication-v1.json",
+  "science_correction_adjudicated_source_slots": [
+    "G03-S2-FINAL|COMPOSITE|P03|003"
+  ],
+  "science_correction_pending_operator_adjudication_slots": []
 }

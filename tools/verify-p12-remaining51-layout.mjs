@@ -39,7 +39,8 @@ try{
   const errors=[];page.on("pageerror",e=>errors.push(String(e)));
   const fixture={admission:"DEMO_ONLY",blocks:[{
    ...block,
-   ...(block.type==="group"?{source:"CERTIFIED_CONTEXT_RECONSTRUCTED"}:{})
+   ...(block.type==="group"?{source:"CERTIFIED_CONTEXT_RECONSTRUCTED"}:{}),
+   ...(block.type==="tf"?{answer:block.answer==="O"?"正確":"錯誤"}:{})
   }]};
   await page.route("**/data/layout-demo.json",route=>route.fulfill({status:200,contentType:"application/json",body:JSON.stringify(fixture)}));
   await page.goto(host+"/exam/?qa=p12-51-layout",{waitUntil:"networkidle"});

@@ -3043,6 +3043,33 @@
       "visual_dependency_verified": true,
       "model_answer": "④",
       "publication_approved": false
+    },
+    {
+      "event_id": "P12-G03S2FINAL-MC06-READING-RESOLUTION-START-001",
+      "source_slot_id": "G03-S2-FINAL|MC|P01|006",
+      "action": "START",
+      "recorded_at_utc": "2026-10-12T13:09:54Z",
+      "reviewer": "GPT6_SCIENCE_SOURCE_REVIEW",
+      "review_evidence_ref": "data/review/p12-g03s2final-mc06-referenced-reading-resolution-v1.json#G03-S2-FINAL|MC|P01|006",
+      "reason": "Referenced science-reading traced to National Education source; source-exact use remains unproven, self-contained adaptation drafted"
+    },
+    {
+      "event_id": "P12-G03S2FINAL-MC06-READING-RESOLUTION-STAGE-001",
+      "source_slot_id": "G03-S2-FINAL|MC|P01|006",
+      "action": "CERTIFY_STAGED",
+      "recorded_at_utc": "2026-10-12T13:09:55Z",
+      "reviewer": "GPT6_SCIENCE_SOURCE_REVIEW",
+      "review_evidence_ref": "data/review/p12-g03s2final-mc06-referenced-reading-resolution-v1.json#G03-S2-FINAL|MC|P01|006",
+      "source_question_text_verified": true,
+      "science_answer_verified": true,
+      "kp_mapping_verified": true,
+      "visual_dependency_verified": true,
+      "model_answer": "①",
+      "source_text_revision_applied": true,
+      "source_original_not_overwritten": true,
+      "independent_of_unattached_reading": true,
+      "original_teacher_key_authenticated": false,
+      "publication_approved": false
     }
   ]
 }

@@ -1,0 +1,71 @@
+{
+  "schema_version": "SCIENCE_P12_G03S2FINAL_MC06_REFERENCED_READING_RESOLUTION_V1",
+  "source_slot_id": "G03-S2-FINAL|MC|P01|006",
+  "source_pdf_sha256": "078806660f9673fd3e677c25afb348e0e3e9cc97fe866d94c91f1a370a33b793",
+  "source_pdf_original_question": "科學閱讀雲的說明，哪項錯誤？",
+  "original_choices": [
+    "① 像魚鱗高積雲表示快下雨",
+    "② 天氣不穩雷雨後可能出現下垂袋子乳狀積雲",
+    "③ 高山山頂有機會形成飛碟莢狀雲像大帽子",
+    "④ 寒流來襲海邊出現罕見弧狀雲"
+  ],
+  "original_source_unchanged": true,
+  "original_teacher_answer_key_authenticated": false,
+  "reference_match": {
+    "status": "STRONG_TEXTUAL_MATCH_CITED_READING_NOT_PROVEN_EXAM_ATTACHED_ARTICLE",
+    "reading_title": "奇形怪狀的雲",
+    "collection": "110 學年度自然領域／科學＋跨領域科學閱讀課程計畫",
+    "publisher_or_program": "國教署中央團自然科學領域",
+    "source_textbook_citation": "康軒 111 年 2 月初版三下自然第四單元〈天氣變變變〉課本 P.136–137",
+    "source_workbook_pdf_url": "https://padlet-uploads.storage.googleapis.com/1385116055/0c15bbb18a10b4e189f04c104243e2fb/__110_______________________30___1110302_.pdf",
+    "document_pdf_page_number_1_based": 23,
+    "document_answer_pdf_page_number_1_based": 24,
+    "matched_concepts": [
+      {
+        "option": "①",
+        "educational_reading_finding": "魚鱗狀高積雲可見於晴朗穩定天氣；不能直接斷定必然立即降雨",
+        "option_as_original_reading": "CONTRADICTS_REFERENCED_EDUCATIONAL_READING"
+      },
+      {
+        "option": "②",
+        "educational_reading_finding": "雷陣雨後或不穩定時可能出現袋狀乳狀積雲",
+        "option_as_original_reading": "SUPPORTED"
+      },
+      {
+        "option": "③",
+        "educational_reading_finding": "高山附近可能出現飛碟狀莢狀雲",
+        "option_as_original_reading": "SUPPORTED"
+      },
+      {
+        "option": "④",
+        "educational_reading_finding": "寒流時沿海可能出現特殊的弧狀雲",
+        "option_as_original_reading": "SUPPORTED"
+      }
+    ],
+    "limitation": "未取得大墩國小教師指定閱讀材料原件，也未取得原教師答案表；相同敘述的教材對照不能當成教師文件簽證。"
+  },
+  "science_review": {
+    "source_science_answer": "①",
+    "science_gate": "PASS_CONDITIONAL_EDUCATIONAL_TEXT_CONTEXT",
+    "generic_weather_warning": "僅憑雲形不能一律預言即將降雨；此題正誤以引用閱讀描述為背景。"
+  },
+  "learner_revision": {
+    "content_type": "CONTROLLED_SELF_CONTAINED_ADAPTATION_NOT_VERBATIM_ORIGINAL",
+    "stem": "下列關於雲的外形和出現情況，哪一項不正確？",
+    "options": [
+      "① 天空出現像魚鱗的高積雲，就一定表示馬上會下雨。",
+      "② 天氣不穩或雷雨過後，有時可能出現像下垂袋子的乳狀積雲。",
+      "③ 高山附近有時可能出現像飛碟的莢狀雲。",
+      "④ 寒流來襲時，海邊有機會出現像大海嘯的弧狀雲。"
+    ],
+    "answer": "①",
+    "kp": "sci_g03s2_04_05",
+    "scope": "G03-S2-U04",
+    "justification": "只有①把高積雲誤寫成必然、立即降雨；其餘選項都有限定可能條件。",
+    "independent_of_unavailable_original_reading": true
+  },
+  "resolved_decision": "ALLOW_SOURCE_CERTIFIED_STAGED_WITH_SELF_CONTAINED_ADAPTATION",
+  "source_reading_gate": "RESOLVED_BY_SOURCE_TRACEABLE_PARALLEL_READING_AND_EXPLICIT_REVISION",
+  "publication_approved": false,
+  "image_dependency": "NONE"
+}

@@ -43,6 +43,10 @@ test("acceptance cannot be mistaken for public publication approval or alter the
  assert.equal(staged.public_site_integrated,false);
  assert.equal(staged.operator_approval_received,false);
  assert.equal(released.expected_answer_slots,6);
- assert.equal(approval.actual_a4_layout_pilot,"CI_PENDING");
+ assert.equal(approval.actual_a4_layout_pilot,"PASS_CHROMIUM_ALL_27_BLOCKS_51_SLOTS");
+ assert.equal(approval.actual_a4_layout_evidence.tested_block_count,27);
+ assert.equal(approval.actual_a4_layout_evidence.tested_answer_slot_count,51);
+ assert.equal(approval.final_acceptance_status,"FINAL_SCIENCE_AND_A4_ACCEPTED_STAGED_ONLY");
+ assert.ok(approval.items.every(x=>x.layout_status==="ACTUAL_A4_SCREEN_PRINT_PDF_PASS"));
  assert.ok(approval.items.every(x=>x.publication_status==="STAGED_ONLY_NO_USER_PUBLIC_RELEASE_APPROVAL"));
 });

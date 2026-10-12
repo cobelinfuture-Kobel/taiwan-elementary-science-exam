@@ -67,10 +67,11 @@ try {
   assert.equal(progress.public_question_bank_answer_slots_current,205);
   assert.equal(progress.p12_operator_published_slots,57);
   assert.equal(progress.p12_not_publicly_released_source_positions,269);
-  assert.equal(progress.position_status_counts.certified_staged,0);
+  assert.equal(progress.position_status_counts.certified_staged,45);
+  assert.equal(progress.position_status_counts.not_started,223);
   assert.equal(progress.position_status_counts.published,57);
-  assert.equal(progress.position_status_counts.blocked,0);
-  assert.equal(progress.review_events_count,180);
+  assert.equal(progress.position_status_counts.blocked,1);
+  assert.equal(progress.review_events_count,272);
   const audit=await page.request.get(base+"/data/governance/p12-g03s2mid-candidate-review.json",{cache:"no-cache"});
   assert.equal(audit.status(),200,"G03-S2-MID science screening decisions live");
   const auditData=await audit.json();

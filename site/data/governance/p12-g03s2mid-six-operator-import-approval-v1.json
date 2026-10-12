@@ -1,0 +1,81 @@
+{
+  "schema_version": "SCIENCE_EXAM_P12_G03S2MID_SIX_OPERATOR_IMPORT_APPROVAL_V1",
+  "review_id": "G03_S2_MID_ANHE_SIX_QUESTION_SCIENCE_REVIEW_V4_OPERATOR_ACCEPTED",
+  "source_id": "G03-S2-MID",
+  "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+  "operator_decision": "APPROVE_ALL_SIX_FOR_QUESTION_BANK_IMPORT",
+  "approved_slot_count": 6,
+  "operator_source_exception": "G03-S2-MID|COMPOSITE|P02|012",
+  "preserve_original_source_record": true,
+  "existing_p11_p12_baselines_unchanged": true,
+  "runtime_publication_state": "AWAITING_ADDITIVE_BANK_ADAPTER_AND_POST_DEPLOY_ACCEPTANCE",
+  "operator_science_exception_note": "For snow, keep original text and answer ④ 凝固 at this user's direction. This is a curricular simplification, not a general scientific equivalence; snow crystals may also form by vapor deposition (凝華).",
+  "approved_items": [
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|013",
+      "approved_kind": "TRUE_FALSE",
+      "approved_text": "把冰塊放進溫度高於 0°C 的水中，冰塊吸收足夠的熱量後會逐漸融化。",
+      "answer": "O",
+      "primary_canonical_kp_id": "sci_g03s2_02_03",
+      "status": "OPERATOR_APPROVED"
+    },
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|019",
+      "approved_kind": "TRUE_FALSE",
+      "approved_text": "蘋果切開後，果肉接觸到空氣中的氧氣，經過一段時間，切面可能逐漸變成褐色。",
+      "answer": "O",
+      "primary_canonical_kp_id": "sci_g03s2_02_01",
+      "status": "OPERATOR_APPROVED"
+    },
+    {
+      "source_slot_id": "G03-S2-MID|MC|P01|012",
+      "approved_kind": "SINGLE_CHOICE",
+      "approved_text": "水在不同溫度、不同形態時，有各種用途。下列哪一個不正確？",
+      "options": [
+        "生物需要水維持生命",
+        "高溫水蒸氣可以消毒",
+        "高溫水蒸氣可以讓食物快速結冰。",
+        "冰可以保鮮食物"
+      ],
+      "answer": "3",
+      "primary_canonical_kp_id": "sci_g03s2_02_01",
+      "status": "OPERATOR_APPROVED"
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|012",
+      "approved_kind": "CLASSIFICATION_WITH_ORIGINAL_OPTIONS",
+      "approved_text": "冬天時高山下雪",
+      "parent_stem": "水有三種形態，會因為溫度而改變，請填入正確的代號：",
+      "options": [
+        "融化",
+        "蒸發",
+        "凝結",
+        "凝固"
+      ],
+      "answer": "4",
+      "primary_canonical_kp_id": "sci_g03s2_02_09",
+      "scientific_qualification_required": true,
+      "scientific_qualification": "依原卷選項及三年級教學情境保留④；雪晶可能由凝華形成，非普遍的凝固定義。",
+      "status": "OPERATOR_APPROVED_WITH_QUALIFICATION"
+    },
+    {
+      "source_slot_id": "G03-S2-MID|READ|P01|003",
+      "approved_kind": "READING_CHECKBOX",
+      "approved_text": "可以使用打氣機在水中打入空氣，幫助水耕蔬菜的根部取得氧氣。",
+      "answer": "checked",
+      "primary_canonical_kp_id": "sci_g03s2_01_10",
+      "shared_context_required": true,
+      "status": "OPERATOR_APPROVED"
+    },
+    {
+      "source_slot_id": "G03-S2-MID|READ|P01|004",
+      "approved_kind": "READING_CHECKBOX",
+      "approved_text": "水耕蔬菜完全不需要光照，也能正常生長。",
+      "answer": "unchecked",
+      "primary_canonical_kp_id": "sci_g03s2_01_03",
+      "shared_context_addition": "水耕蔬菜也需要適當的光照，可以利用陽光或適合植物生長的人工燈光。",
+      "shared_context_required": true,
+      "status": "OPERATOR_APPROVED"
+    }
+  ]
+}

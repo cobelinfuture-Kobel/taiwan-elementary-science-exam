@@ -6,7 +6,7 @@ test("20 atomic groups and 76 answer slots are certified",()=>{
  const bank=validateAndConvertContextGroups(db,authority);
  assert.equal(bank.blocks.length,20);
  assert.equal(bank.blocks.reduce((n,b)=>n+b.items.length,0),76);
- assert.equal(new Set(bank.blocks.map(x=>x.id)).size,9);
+ assert.equal(new Set(bank.blocks.map(x=>x.id)).size,20);
  assert.ok(bank.blocks.every(x=>x.items.length>=1&&x.original_cropped_assets_included===false));
 });
 test("group contracts fail closed on missing answers/partial context/altered rights",()=>{

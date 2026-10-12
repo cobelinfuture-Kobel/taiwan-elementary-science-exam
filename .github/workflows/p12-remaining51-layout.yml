@@ -20,6 +20,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - name: Build and read back deterministic P11 P12 governance ledgers
+        run: |
+          npm run governance:build
+          npm run governance:check
+          npm run governance:r1:build
+          npm run governance:r1:check
+          npm run p12:preflight:build
+          npm run p12:preflight:check
+          npm run p12:master:build
+          npm run p12:master:check
       - name: Test original source lineage, answers, KP and non-public admission
         run: npm test
       - name: Install isolated Chromium test runtime

@@ -254,6 +254,12 @@ try {
   assert.equal(await admission.locator("#rows tr").count(),20,"all 20 original context groups must be disclosed");
   await admission.screenshot({path:output+"/s3-p08-context-admission-status.png",fullPage:true});
   await admission.close();
+  const p09=await browser.newPage({viewport:{width:1240,height:860}});
+  await p09.goto("http://127.0.0.1:"+server.address().port+"/review/p09/",{waitUntil:"networkidle"});
+  await p09.waitForFunction(()=>document.querySelector("#stats")?.textContent?.includes("116"),{timeout:15000});
+  assert.equal(await p09.locator("#groups tr").count(),20,"P09 dashboard lists all 20 admitted context groups");
+  await p09.screenshot({path:output+"/s3-p09-admitted-twenty-contexts.png",fullPage:true});
+  await p09.close();
   await statusPage.close();
   console.log("S3_P05_PUBLIC_DASHBOARD_PASS: 40 original candidates, 7 built in");
   console.log("BROWSER_LAYOUT_PASS=" + JSON.stringify({ screen, print }, null, 2));

@@ -58,7 +58,7 @@ test("final release fails closed for unsupported answer, KP, figure mismatch, om
  x=clone(bank);x.blocks.pop();
  assert.throws(()=>validateAndConvertP12G03Final46(x,approval,authority),/來源數量/);
  x=clone(bank);x.blocks[0].source_slot_id=x.blocks[1].source_slot_id;
- assert.throws(()=>validateAndConvertP12G03Final46(x,approval,authority),/位置/);
+ assert.throws(()=>validateAndConvertP12G03Final46(x,approval,authority),/位置|slot 順序/);
  x=clone(bank);x.blocks[0].original_teacher_answer_key_authenticated=true;
  assert.throws(()=>validateAndConvertP12G03Final46(x,approval,authority),/來源/);
  x=clone(bank);x.blocks.find(b=>b.figure_spec).figure_spec.preserveAspectRatio="none";

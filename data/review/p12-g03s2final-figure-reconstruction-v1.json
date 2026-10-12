@@ -75,7 +75,9 @@
         "O"
       ],
       "science_correction_ref": "data/review/p12-g03s2final-composite-p03-q03-science-correction-v1.json",
-      "public_operator_approval_required": true
+      "public_operator_approval_required": true,
+      "operator_science_adjudication_received": true,
+      "operator_science_adjudication_ref": "data/review/p12-g03s2final-fishbowl-operator-science-adjudication-v1.json"
     },
     {
       "block_id": "P12_G03S2FINAL_COMPOSITE_P04",
@@ -148,6 +150,6 @@
   "expected_source_slots": 22,
   "graphics_policy": "SELF_DRAWN_VECTOR_NOT_ORIGINAL_SCANNED_PICTURES",
   "width_policy": "scale <= available A4 half-page column width, preserve SVG aspect ratio",
-  "figure_status": "VECTOR_RECONSTRUCTION_A4_PASS_WITH_ONE_PROPOSED_SCIENCE_CORRECTION",
+  "figure_status": "VECTOR_RECONSTRUCTION_A4_PASS_FISHBOWL_SCIENCE_ADJUDICATED_PENDING_PUBLIC",
   "source_science_change_not_automatically_authorized": true
 }

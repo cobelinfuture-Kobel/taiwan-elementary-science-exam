@@ -40,7 +40,7 @@ test("all answers and primary canonical KPs retain original final source accepta
   if(item.source_slot_id===scienceCorrection.source_slot_id){
    assert.equal(o.independent_science_answer,scienceCorrection.old_independent_model_answer);
    assert.equal(item.answer,scienceCorrection.new_proposed_learner_answer);
-   assert.equal(item.science_answer_status,"PROPOSED_CORRECTION_OPERATOR_ADJUDICATION_REQUIRED_BEFORE_PUBLIC");
+   assert.equal(item.science_answer_status,"OPERATOR_SCIENCE_ADJUDICATED_X__NOT_PUBLIC");
    assert.equal(scienceCorrection.public_release_approved,false);
   }else assert.equal(item.answer,o.independent_science_answer,item.source_slot_id);
   assert.equal(item.canonical_kp_id,o.source_canonical_kp_id,item.source_slot_id);
@@ -93,8 +93,10 @@ test("original curved fishbowl is not silently reinterpreted as straight-sided O
  assert.equal(b.figure_spec.labels[2],"曲面小魚缸");
  assert.equal(a.answer,"X");
  assert.equal(b.science_correction_pending_public_approval,true);
+ assert.equal(b.operator_science_adjudication_approved,true);
  assert.match(a.answer_explanation,/側面彎曲/);
  assert.equal(scienceCorrection.old_independent_model_answer,"O");
+ assert.equal(scienceCorrection.operator_science_adjudication_received,true);
  assert.equal(scienceCorrection.original_science_review_preserved,true);
  assert.equal(scienceCorrection.public_release_approved,false);
  assert.deepEqual(b.items.map(i=>i.answer),["O","X","X","O"]);

@@ -21,11 +21,19 @@
 
 因此本輪 FinalVisualAcceptance 的最精確狀態為 **A4 技術驗收 PASS、科學修訂 1 題待操作人裁定**，不可宣稱 46 題已全部取得公開許可。
 
+## 後續操作人科學裁定：已核准 X（尚未公開）
+
+使用者於 2026-10-12 明確核准 `G03-S2-FINAL|COMPOSITE|P03|003` 的候選科學答案由 **O 改為 X**，並要求維持原卷曲面小魚缸圖。正式裁定紀錄：`data/review/p12-g03s2final-fishbowl-operator-science-adjudication-v1.json`。
+
+本次核准**只限這一題的科學判答與候選素材**；不代表取得原教師答案表，也不是 46 題的公開入庫核准。原先 O 判答保留在 V1 來源審核檔，候選答案和獨立 SVG 維持 X 與曲面魚缸。A4 專用測試已於 run 38262035029 驗收，入庫前實際讀回另由 `tools/verify-p12-g03s2final-46-prepublic.mjs` 執行。
+
+目前需要通過的是 **46/46 source identity、答案及 canonical KP、來源修正例外、8 組共用情境、原始 8 題去重、A4 證據與未公開 205 題基線**；正式 PublicAdmission 為下一個獨立操作。
+
 ## 六組自製 SVG 圖形
 
 1. ①鴿子、②麻雀、③野鴨、④青蛙：飛行能力 O/X。
 2. ①鳥、②象龜、③魚：樹上／陸地／水中配對。
-3. ①方形直筒、②曲線杯、③直壁小魚缸、④圓筒：雨量器適用性。
+3. ①方形直筒、②曲線杯、③曲面小魚缸、④圓筒：雨量器適用性。
 4. ①往東伸展風向袋、②箭頭指東風向標、③北向南氣流、④微微下垂風向袋：答案 **B、A、D、F**。尤其②左側寬片是尾翼、右端尖部指東；**不得把寬片當箭頭**。
 5. ①搭船遠遊、②到瑞士旅行、③曬棉被：氣象預報種類。
 6. ①北極熊、②黃帶箭毒蛙、③雨傘節、④樹蛙：警戒色。
@@ -55,13 +63,13 @@ GitHub Actions [P12 G03 S2 Final 46 A4 Learner Review — science correction rer
 
 ## 治理邊界
 
-**本輪結案只針對 staged learner materials 和 A4 版面技術驗收；魚缸第③題仍待科學裁定，且本輪不是 PublicAdmission。**
+**本輪結案只針對 staged learner materials 和 A4 版面技術驗收；魚缸第③題已在後續單獨獲得科學裁定，但尚未取得全批 PublicAdmission。**
 
 - 原 P11 148 + P12 三下期中 57 = **公開仍為 205 作答位置**。
 - G03-S2-FINAL **46 個 source slots 仍處於 CERTIFIED_STAGED_NOT_PUBLIC**，沒有 `PUBLIC_ADMIT`。
 - 其餘 P12 未逐題審核 **223**；無新阻擋。
 - 原卷來源記錄、教師答案「未認證」、之前的檔案及 205 個公開題目全數保留。
-- 待魚缸第③題的 X/O 由操作人明確裁定後，下一階段才做 `P12_G03S2FINAL_46_PublicAdmission_SourceIdentityAndLivePagesE2E`：精確 46 源位置核准清冊 → 題庫增量載入 → 來源/KP/答案 fail-closed → CI → Pages live readback。公開後理論總數 **251**，不在本輪直接調整。
+- 魚缸第③題 O→X 已獲科學裁定。待獨立預入庫驗收通過並取得全批公開核准後，下一階段才做 `P12_G03S2FINAL_46_PublicAdmission_SourceIdentityAndLivePagesE2E`：精確 46 源位置核准清冊 → 題庫增量載入 → 來源/KP/答案 fail-closed → CI → Pages live readback。公開後理論總數 **251**，不在本輪直接調整。
 
 ## 主要產物
 

@@ -308,6 +308,17 @@ try {
   assert.ok((await r1.locator("#gate").textContent()).includes("未逐題驗證者直接公開：禁止"));
   await r1.screenshot({path:output+"/s3-p11r1-exact-source-slot-reconciliation.png",fullPage:true});
   await r1.close();
+  const masterPage=await browser.newPage({viewport:{width:1360,height:920}});
+  await masterPage.goto("http://127.0.0.1:"+server.address().port+"/review/master/",{waitUntil:"networkidle"});
+  await masterPage.waitForFunction(()=>document.querySelector("#metrics")?.textContent?.includes("326"),{timeout:15000});
+  assert.equal(await masterPage.locator("#paper-rows tr").count(),16,"8 source rows plus 8 section-details rows");
+  assert.ok((await masterPage.locator("#resume").innerText()).includes("G03-S2-MID\\|TF\\|P01\\|002".replaceAll("\\","")),"resume must begin with first unchecked original TF position");
+  await masterPage.selectOption("#semester","2");
+  assert.equal(await masterPage.locator("#paper-rows tr").count(),8,"four S2 papers with their details");
+  await masterPage.selectOption("#semester","");
+  await masterPage.screenshot({path:output+"/p12-master-progress-resume.png",fullPage:true});
+  await masterPage.close();
+  console.log("P12_MASTER_BROWSER_RESUME_PASS");
   await p11.close();
   await p10Page.close();
   await statusPage.close();

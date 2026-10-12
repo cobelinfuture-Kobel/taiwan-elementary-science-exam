@@ -20,6 +20,8 @@ jobs:
       - run: npm run governance:r1:check
       - run: npm run p12:preflight:build
       - run: npm run p12:preflight:check
+      - run: npm run p12:master:build
+      - run: npm run p12:master:check
       - run: npm test
       - name: Upload P11 provenance and coverage evidence
         uses: actions/upload-artifact@v4
@@ -29,4 +31,5 @@ jobs:
             site/data/governance/p11-*.json
             site/data/governance/p11r1-*.json
             site/data/governance/p12-*.json
+            site/data/governance/p12-*.csv
           if-no-files-found: error

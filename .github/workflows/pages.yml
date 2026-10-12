@@ -24,6 +24,8 @@ jobs:
       - run: npm run governance:r1:check
       - run: npm run p12:preflight:build
       - run: npm run p12:preflight:check
+      - run: npm run p12:master:build
+      - run: npm run p12:master:check
       - run: npm test
       - name: Install Chromium for actual A4 two-column verification
         run: |
@@ -37,6 +39,7 @@ jobs:
             site/data/governance/p11-*.json
             site/data/governance/p11r1-*.json
             site/data/governance/p12-*.json
+            site/data/governance/p12-*.csv
           if-no-files-found: error
       - name: Verify two-column atomic groups and proportional images
         run: node tools/verify-exam-layout.mjs
@@ -66,6 +69,8 @@ jobs:
       - run: npm run governance:r1:check
       - run: npm run p12:preflight:build
       - run: npm run p12:preflight:check
+      - run: npm run p12:master:build
+      - run: npm run p12:master:check
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

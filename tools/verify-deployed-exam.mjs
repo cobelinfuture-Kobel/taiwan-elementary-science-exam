@@ -55,6 +55,16 @@ try {
   assert.equal(pq.candidate_slots.length,326);
   assert.equal(pq.first_batch_source,"G03-S2-MID");
   assert.equal(pq.no_additions_in_this_phase,true);
+  const master=await page.request.get(base+"/data/governance/p12-master-progress.json",{cache:"no-cache"});
+  const csv=await page.request.get(base+"/data/governance/p12-master-progress.csv",{cache:"no-cache"});
+  assert.equal(master.status(),200,"public master progress JSON exists");
+  assert.equal(csv.status(),200,"public master progress CSV exists");
+  const progress=await master.json();
+  assert.equal(progress.paper_rows.length,8);
+  assert.equal(progress.candidate_position_baseline,326);
+  assert.equal(progress.resume_checkpoint.source_slot_id,"G03-S2-MID|TF|P01|002");
+  const masterPage=await page.request.get(base+"/review/master/");
+  assert.equal(masterPage.status(),200,"public master dashboard exists");
   assert.deepEqual(errors,[],"No JavaScript runtime errors");
   assert.ok(assetUrls.some(x=>x.includes("historical-bank-ox-v6.mjs")),"Actual browser must load v2 JS module");
   assert.ok(assetUrls.some(x=>x.includes("approved-historical-ox-v4.json")),"Actual browser must load v2 JSON");

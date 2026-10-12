@@ -10,6 +10,8 @@
     "governance:r1:build": "node tools/p11r1-reconcile.mjs --write",
     "governance:r1:check": "node tools/p11r1-reconcile.mjs --check",
     "p12:preflight:build": "node tools/p12-source-preflight.mjs --write",
-    "p12:preflight:check": "node tools/p12-source-preflight.mjs --check"
+    "p12:preflight:check": "node tools/p12-source-preflight.mjs --check",
+    "p12:master:build": "node tools/p12-master-progress.mjs --write",
+    "p12:master:check": "node tools/p12-master-progress.mjs --check"
   }
 }

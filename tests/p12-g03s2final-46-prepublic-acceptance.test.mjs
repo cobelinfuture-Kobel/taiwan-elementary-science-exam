@@ -33,3 +33,23 @@ test("all 46 staged positions prepublic fail-closed acceptance retains independe
  assert.equal(result.publicAdmission,false);
  assert.equal(result.a4ProofRun,38262035029);
 });
+
+
+test("durable PrePublic acceptance report mirrors the gate, requires separate public authorization",()=>{
+ const result=verifyG03S2FinalPrepublic();
+ const report=read("data/review/p12-g03s2final-46-prepublic-acceptance-v1.json");
+ assert.equal(report.decision,"PREPUBLIC_ACCEPTANCE_PASS__BULK_PUBLIC_RELEASE_NOT_AUTHORIZED");
+ assert.equal(report.prepublic_candidate_blocks,result.blocks);
+ assert.equal(report.prepublic_candidate_source_slots,result.sourceAnswerSlots);
+ assert.equal(report.source_science_adjudication.operator_approved_learner_answer,result.correctedAnswer);
+ assert.equal(report.source_science_adjudication.source_slot_id,result.explicitSourceException);
+ assert.equal(report.a4_technical_review.block_count,result.blocks);
+ assert.equal(report.a4_technical_review.source_answer_slots,result.sourceAnswerSlots);
+ assert.equal(report.automated_acceptance.node_tests_failed,0);
+ assert.ok(report.automated_acceptance.node_tests_passed>=106);
+ assert.equal(report.public_boundary.public_answer_slots_before_and_after,result.existingPublicSlots);
+ assert.equal(report.public_boundary.planned_additive_slots_only_after_separate_approval,result.sourceAnswerSlots);
+ assert.equal(report.public_boundary.bulk_public_approval,false);
+ assert.equal(report.public_boundary.no_46_public_admit_events,true);
+ assert.equal(report.public_release_requires_separate_approval,true);
+});

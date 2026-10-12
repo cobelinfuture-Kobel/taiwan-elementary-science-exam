@@ -29,7 +29,7 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
   fail(!!paper&&sectionOrder>=0,"unregistered source or section "+item.source_slot_id);
   fail(paper.source_pdf_sha256===item.source_pdf_sha256,"source sha mismatch "+item.source_slot_id);
   fail(!pending.has(item.source_slot_id)&&bySourceSlot.get(item.source_slot_id)?.admission_status==="INVENTORIED_PENDING_INDIVIDUAL_QUESTION_REVIEW","candidate no longer pending or duplicated "+item.source_slot_id);
-  pending.set(item.source_slot_id,{...item,source_order:paper.source_order,section_order,state:"NOT_STARTED",
+  pending.set(item.source_slot_id,{...item,source_order:paper.source_order,section_order:sectionOrder,state:"NOT_STARTED",
    last_event_id:null,last_event_at_utc:null,last_reviewer:null,review_evidence_ref:null,block_reason:null});
  }
  const observedEvents=new Set();

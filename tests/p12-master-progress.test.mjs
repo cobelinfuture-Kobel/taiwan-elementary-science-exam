@@ -18,8 +18,8 @@ test("overall ledger accounts for all eight unique PDF documents and all 477 ori
  assert.equal(x.originally_linked_adapted_context_source_positions,79);
  assert.equal(x.candidate_position_baseline,326);
  assert.equal(x.paper_rows.reduce((a,p)=>a+p.pending_remaining,0),269);
- assert.equal(x.complete_papers,0);
- assert.equal(x.incomplete_papers,8);
+ assert.equal(x.complete_papers,1);
+ assert.equal(x.incomplete_papers,7);
  assert.equal(x.p11_frozen_public_baseline_answer_slots,148);
  assert.equal(x.public_question_bank_answer_slots_current,154);
  assert.equal(x.p12_operator_published_slots,6);

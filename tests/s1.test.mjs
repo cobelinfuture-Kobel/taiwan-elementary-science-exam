@@ -13,7 +13,7 @@ test('reading groups occupy a single A4 column and remain atomic',()=>{
   assert.match(html,/if\(!mounted\)throw Error\('題目內容過高，拒絕裁切'\)/);
 });
 
-test('Exam uses the canonical Authority adapter and does not read KP labels from demo fixture as selector source',()=>{const html=read('site/exam/index.html');assert.match(html,/import \{ loadAuthority, unitsFor, resolveUnit \} from/);assert.doesNotMatch(html,/const titles=\{/);assert.doesNotMatch(html,/bank\.blocks\.filter\(b=>b\.unit===ui\.unit\.value\)/);assert.match(html,/kps\.has\(b\.canonical_kp_id\)/);});
+test('Exam uses the canonical Authority adapter and does not read KP labels from demo fixture as selector source',()=>{const html=read('site/exam/index.html');assert.match(html,/import \{ loadAuthority, unitsFor, resolveUnit \} from/);assert.doesNotMatch(html,/const titles=\{/);assert.doesNotMatch(html,/bank\.blocks\.filter\(b=>b\.unit===ui\.unit\.value\)/);assert.match(html,/secondary_canonical_kp_ids/);});
 test('DEMO_ONLY fixture uses exact canonical KP lineage',()=>{const refs={q1:'sci_g04s1_02_03',q2:'sci_g04s1_02_08',q3:'sci_g04s1_02_03',q4:'sci_g04s1_01_08',q5:'sci_g03s1_02_05'};for(const row of fixture.blocks)assert.equal(row.canonical_kp_id,refs[row.id]);});
 
 test('Exam exclusively uses embedded certified historical questions in public mode',()=>{
@@ -35,7 +35,7 @@ test("TF item has O/X parenthesis before number and no invented 正確/錯誤 ch
 
 test("public Exam pins a versioned JS module and keeps selectors when bank fails",()=>{
  const html=read("site/exam/index.html");
- assert.match(html,/historical-bank-ox-v6\.mjs\?v=20261012-p10v1/);
+ assert.match(html,/historical-bank-ox-v6\.mjs\?v=20261012-p12sixv1/);
  assert.match(html,/authority=await loadAuthority\(\);\s*\/\/ Render canonical curriculum selector/);
  assert.match(html,/syncUnits\(\);\s*if\(qaFixture\)/);
  assert.match(html,/題庫載入或版本檢查失敗/);

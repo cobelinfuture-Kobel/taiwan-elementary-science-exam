@@ -1,0 +1,37 @@
+name: P12 Remaining51 A4 Acceptance
+on:
+  pull_request:
+    paths:
+      - "data/review/p12-g03s2mid-remaining51-*"
+      - "data/staging/p12-g03s2mid-remaining51-*"
+      - "tests/p12-remaining51-*"
+      - "tools/verify-p12-remaining51-layout.mjs"
+      - "site/exam/index.html"
+      - "site/assets/js/**"
+      - ".github/workflows/p12-remaining51-layout.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  staging-a4-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Test original source lineage, answers, KP and non-public admission
+        run: npm test
+      - name: Install isolated Chromium test runtime
+        run: |
+          npm install --no-save --package-lock=false playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Run actual A4 double-column and PDF check for all 51 staged slots
+        run: node tools/verify-p12-remaining51-layout.mjs
+      - name: Upload all 27 PDFs and screenshots as review evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: science-p12-remaining51-localhost-layout
+          path: artifacts/p12-remaining51-layout/
+          if-no-files-found: ignore

@@ -29,7 +29,7 @@ test("all answers and primary canonical KPs retain original final source accepta
  for(const b of stage.blocks){
   assert.ok(b.unit==="3-S2-U03"||b.unit==="3-S2-U04",b.id);
   assert.equal(b.source_pdf_sha256,original.source_pdf_sha256);
-  assert.equal(b.original_school_answer_key_authenticated,false);
+  assert.equal(b.source_original_teacher_key_authenticated,false);
   assert.equal(b.public_release_authorized,false);
   assert.ok(authorized.has(b.canonical_kp_id));
   if(b.type==="group")assert.ok(b.items.length>=2);

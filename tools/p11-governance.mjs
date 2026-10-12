@@ -15,7 +15,7 @@ export function buildP11(){
  invariant(lock.schema_version==="SCIENCE_EXAM_P11_OPERATOR_APPROVED_FROZEN_BASELINE_V1","baseline lock invalid");
  for(const [path,expectedSha] of Object.entries(lock.file_git_blob_sha1)){
   const bytes=readFileSync(resolve(ROOT,path));
-  const gitBlobHash=createHash("sha1").update("blob "+bytes.length+"\\0").update(bytes).digest("hex");
+  const gitBlobHash=createHash("sha1").update(Buffer.concat([Buffer.from("blob "+bytes.length),Buffer.from([0]),bytes])).digest("hex");
   invariant(gitBlobHash===expectedSha,"frozen source file changed without operator-authorized revision: "+path);
  }
  const authority=read("site/data/authority/science-g03-g04-selector-v2.json");

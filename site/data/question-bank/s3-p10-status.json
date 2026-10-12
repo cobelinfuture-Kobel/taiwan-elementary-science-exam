@@ -1,0 +1,80 @@
+{
+  "schema_version": "SCIENCE_S3_P10_FIRST_BATCH_V1",
+  "source_count": 4,
+  "source_year": 113,
+  "scope": "G03-S2/G04-S2 midterm U01+U02 final U03+U04",
+  "source_preflight": "SOURCE_PDF_SHA256_AND_PAGE1_VISUAL_REVIEWED",
+  "newly_certified_text_tf": 32,
+  "baseline_public_answer_slots": 116,
+  "new_public_answer_slots": 148,
+  "baseline_tf": 40,
+  "total_tf": 72,
+  "p09_context_groups_preserved": 20,
+  "p09_context_slots_preserved": 76,
+  "teacher_keys_authenticated": 0,
+  "remaining_exam_sections_status": "NOT_YET_EXTRACTED_OR_CERTIFIED",
+  "new_by_period": {
+    "G03-S2-MID": 8,
+    "G03-S2-FINAL": 8,
+    "G04-S2-MID": 8,
+    "G04-S2-FINAL": 8
+  },
+  "sources": [
+    {
+      "source_id": "G03-S2-MID",
+      "grade": 3,
+      "semester": 2,
+      "school": "安和國小",
+      "paper_pages": 3,
+      "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+      "period": "MIDTERM",
+      "covered_units": [
+        "U01",
+        "U02"
+      ],
+      "certified_tf_count": 8
+    },
+    {
+      "source_id": "G03-S2-FINAL",
+      "grade": 3,
+      "semester": 2,
+      "school": "大墩國小",
+      "paper_pages": 2,
+      "source_pdf_sha256": "078806660f9673fd3e677c25afb348e0e3e9cc97fe866d94c91f1a370a33b793",
+      "period": "FINAL",
+      "covered_units": [
+        "U03",
+        "U04"
+      ],
+      "certified_tf_count": 8
+    },
+    {
+      "source_id": "G04-S2-MID",
+      "grade": 4,
+      "semester": 2,
+      "school": "明義國小",
+      "paper_pages": 2,
+      "source_pdf_sha256": "f6df37529f0f344877dfdbe86a970562b7bc7b3715222c7950a460ed03e7cbbd",
+      "period": "MIDTERM",
+      "covered_units": [
+        "U01",
+        "U02"
+      ],
+      "certified_tf_count": 8
+    },
+    {
+      "source_id": "G04-S2-FINAL",
+      "grade": 4,
+      "semester": 2,
+      "school": "明義國小",
+      "paper_pages": 2,
+      "source_pdf_sha256": "262854a974db15887fcd66e0ca25108438e387e4b8e1bf5447dccc96177ae7f3",
+      "period": "FINAL",
+      "covered_units": [
+        "U03",
+        "U04"
+      ],
+      "certified_tf_count": 8
+    }
+  ]
+}

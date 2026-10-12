@@ -1,0 +1,144 @@
+{
+  "schema_version": "SCIENCE_P12_G03S2FINAL_FIGURE_RECONSTRUCTION_V1",
+  "original_source_pdf_sha256": "078806660f9673fd3e677c25afb348e0e3e9cc97fe866d94c91f1a370a33b793",
+  "figure_groups": [
+    {
+      "block_id": "P12_G03S2FINAL_COMPOSITE_P01",
+      "kind": "flying-animals",
+      "source_position_count": 4,
+      "source_pdf_page": 2,
+      "source_graphic": "source-backed redraw (not source image)",
+      "reconstruction_status": "INDEPENDENT_VECTOR_SVG_CREATED_PENDING_VISUAL_ACCEPTANCE",
+      "label_order": [
+        "鴿子",
+        "麻雀",
+        "野鴨",
+        "青蛙"
+      ],
+      "source_answers": [
+        "O",
+        "O",
+        "O",
+        "X"
+      ],
+      "viewBox": "0 0 460 236",
+      "preserveAspectRatio": "xMidYMid meet",
+      "do_not_crop": true
+    },
+    {
+      "block_id": "P12_G03S2FINAL_COMPOSITE_P02",
+      "kind": "animal-habitats",
+      "source_position_count": 3,
+      "source_pdf_page": 2,
+      "source_graphic": "source-backed redraw (not source image)",
+      "reconstruction_status": "INDEPENDENT_VECTOR_SVG_CREATED_PENDING_VISUAL_ACCEPTANCE",
+      "label_order": [
+        "鳥",
+        "象龜",
+        "魚"
+      ],
+      "source_answers": [
+        "C",
+        "A",
+        "B"
+      ],
+      "viewBox": "0 0 460 236",
+      "preserveAspectRatio": "xMidYMid meet",
+      "do_not_crop": true
+    },
+    {
+      "block_id": "P12_G03S2FINAL_COMPOSITE_P03",
+      "kind": "rain-gauges",
+      "source_position_count": 4,
+      "source_pdf_page": 2,
+      "source_graphic": "source-backed redraw (not source image)",
+      "reconstruction_status": "INDEPENDENT_VECTOR_SVG_CREATED_PENDING_VISUAL_ACCEPTANCE",
+      "label_order": [
+        "方形直筒",
+        "曲線杯",
+        "直壁小魚缸",
+        "圓形直筒"
+      ],
+      "source_answers": [
+        "O",
+        "X",
+        "O",
+        "O"
+      ],
+      "viewBox": "0 0 460 236",
+      "preserveAspectRatio": "xMidYMid meet",
+      "do_not_crop": true
+    },
+    {
+      "block_id": "P12_G03S2FINAL_COMPOSITE_P04",
+      "kind": "wind-directions",
+      "source_position_count": 4,
+      "source_pdf_page": 2,
+      "source_graphic": "source-backed redraw (not source image)",
+      "reconstruction_status": "INDEPENDENT_VECTOR_SVG_CREATED_PENDING_VISUAL_ACCEPTANCE",
+      "label_order": [
+        "風向袋往東伸展",
+        "風向標箭頭朝東",
+        "氣流由北吹往南",
+        "風向袋微微下垂"
+      ],
+      "source_answers": [
+        "B",
+        "A",
+        "D",
+        "F"
+      ],
+      "viewBox": "0 0 460 236",
+      "preserveAspectRatio": "xMidYMid meet",
+      "do_not_crop": true
+    },
+    {
+      "block_id": "P12_G03S2FINAL_COMPOSITE_P05",
+      "kind": "forecast-activities",
+      "source_position_count": 3,
+      "source_pdf_page": 2,
+      "source_graphic": "source-backed redraw (not source image)",
+      "reconstruction_status": "INDEPENDENT_VECTOR_SVG_CREATED_PENDING_VISUAL_ACCEPTANCE",
+      "label_order": [
+        "搭船遠遊",
+        "到瑞士旅行",
+        "曬棉被"
+      ],
+      "source_answers": [
+        "B",
+        "C",
+        "A"
+      ],
+      "viewBox": "0 0 460 236",
+      "preserveAspectRatio": "xMidYMid meet",
+      "do_not_crop": true
+    },
+    {
+      "block_id": "P12_G03S2FINAL_COMPOSITE_P06",
+      "kind": "warning-colors",
+      "source_position_count": 4,
+      "source_pdf_page": 2,
+      "source_graphic": "source-backed redraw (not source image)",
+      "reconstruction_status": "INDEPENDENT_VECTOR_SVG_CREATED_PENDING_VISUAL_ACCEPTANCE",
+      "label_order": [
+        "北極熊",
+        "黃帶箭毒蛙",
+        "雨傘節",
+        "樹蛙"
+      ],
+      "source_answers": [
+        "X",
+        "O",
+        "O",
+        "X"
+      ],
+      "viewBox": "0 0 460 236",
+      "preserveAspectRatio": "xMidYMid meet",
+      "do_not_crop": true
+    }
+  ],
+  "expected_source_slots": 22,
+  "graphics_policy": "SELF_DRAWN_VECTOR_NOT_ORIGINAL_SCANNED_PICTURES",
+  "width_policy": "scale <= available A4 half-page column width, preserve SVG aspect ratio",
+  "figure_status": "CODE_MATERIALIZED_VISUAL_ACCEPTANCE_PENDING"
+}

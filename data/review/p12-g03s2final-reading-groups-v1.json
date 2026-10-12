@@ -1,0 +1,32 @@
+{
+  "schema_version": "SCIENCE_P12_G03S2FINAL_READING_GROUPS_V1",
+  "source_pdf_sha256": "078806660f9673fd3e677c25afb348e0e3e9cc97fe866d94c91f1a370a33b793",
+  "reading_groups": [
+    {
+      "block_id": "P12_G03S2FINAL_READ_P01",
+      "items": 2,
+      "scope": "3-S2-U03",
+      "shared_passage_revision": "SELF_CONTAINED_CONTEXTUAL_PARAPHRASE",
+      "source_answer_parity": [
+        "③",
+        "①"
+      ],
+      "source_year_percentage_handling": "NA"
+    },
+    {
+      "block_id": "P12_G03S2FINAL_READ_P02",
+      "items": 2,
+      "scope": "3-S2-U04",
+      "shared_passage_revision": "SELF_CONTAINED_CONTEXTUAL_PARAPHRASE",
+      "source_answer_parity": [
+        "②",
+        "④"
+      ],
+      "source_year_percentage_handling": "PERCENTAGES_ARE_SOURCE_QUOTATION_NOT_TIMELESS_FACT"
+    }
+  ],
+  "expected_source_slots": 4,
+  "reading_policy": "PARAPHRASE_SOURCE_WITH_ANSWER_AND_CONTEXT_PARITY",
+  "source_text_not_verbatim": true,
+  "status": "LEARNER_CANDIDATE_PENDING_A4"
+}

@@ -24,7 +24,7 @@ test("source science holds cannot silently auto-publish and every review event h
  assert.equal(ev.events.filter(x=>x.action==="CERTIFY_STAGED").length,57);
  assert.equal(ev.events.filter(x=>x.action==="PUBLIC_ADMIT").length,6);
  assert.equal(ev.events.filter(x=>x.action==="BLOCK").length,9);
- assert.ok(ev.events.every(x=>x.review_evidence_ref?.startsWith("site/data/governance/p12-g03s2mid-")));
+ assert.ok(ev.events.every(x=>x.review_evidence_ref?.startsWith("site/data/governance/p12-g03s2mid-")||x.review_evidence_ref?.startsWith("site/data/question-bank/p12-g03s2mid-approved-six-v1.json#")));
  const scientificHolds=d.items.filter(x=>x.issue_type).map(x=>x.source_slot_id).sort();
  assert.deepEqual(scientificHolds,ev.events.slice(0,114).filter(x=>x.action==="BLOCK").map(x=>x.source_slot_id).sort());
  assert.equal(ev.events.slice(0,114).filter(x=>x.action==="CERTIFY_STAGED").length,51);

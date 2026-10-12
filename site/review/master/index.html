@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>自然科考古卷｜來源總表與斷點續跑</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6f9;color:#263747;font:15px/1.55 system-ui,"Noto Sans TC",sans-serif}
+main{max-width:1300px;margin:22px auto;padding:26px;background:#fff;border-radius:12px}h1{font-size:1.5rem}h2{font-size:1.18rem}
+a{color:#0b657d}p{margin:10px 0}.small{font-size:.88rem;color:#586a76}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:10px}
+.metrics>div{border:1px solid #dbe4eb;border-radius:9px;padding:12px;background:#f8fafc}
+.metrics b{display:block;font-size:1.85rem;font-variant-numeric:tabular-nums}
+.notice{border-left:4px solid #b58f39;background:#fff7e5;padding:12px;margin:14px 0}
+.controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:9px;margin:14px 0}
+label{display:flex;flex-direction:column;gap:4px;font-weight:600}select,input{height:36px;padding:6px 9px;border:1px solid #b5c2cd;border-radius:6px;background:white;font:inherit}
+.wrapper{overflow-x:auto}table{width:100%;border-collapse:collapse;white-space:nowrap;font-size:.85rem}th,td{text-align:left;padding:9px 7px;border-bottom:1px solid #e0e7ed}th{background:#eef4f7}
+details{margin:6px 0}summary{cursor:pointer;color:#0b657d}.ok{color:#126c50}.hold{color:#9b5e1f}
+pre{overflow-x:auto;background:#f3f6f9;border-radius:7px;padding:13px;font-size:.82rem;white-space:pre-wrap;overflow-wrap:anywhere}
+#resume{border:1px solid #d5e1e8;border-radius:9px;padding:14px}.headrow{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+button{border:1px solid #0f657c;border-radius:6px;color:#0f657c;background:white;padding:7px 12px;cursor:pointer}
+@media(max-width:700px){main{margin:0;padding:15px;border-radius:0}table{font-size:.76rem}}
+</style></head>
+<body><main>
+<p><a href="../">← S3 驗證總覽</a>　<a href="../../exam/">開啟 Exam</a></p>
+<h1>自然科考古卷｜總進度與斷點續跑</h1>
+<p class="notice"><strong>分母定義：</strong>下表只涵蓋已登記的 8 份來源考卷，不代表已完整掃描所有學校或出版社。原卷「作答位置」不等於獨立題數；改編題可能合併多個原卷作答位置。未逐題核准者不得直接公開入庫。</p>
+<section class="metrics" id="metrics"></section>
+<h2>考卷總表</h2>
+<div class="controls">
+<label>年級<select id="grade"><option value="">全部年級</option><option value="3">三年級</option><option value="4">四年級</option></select></label>
+<label>學期<select id="semester"><option value="">全部學期</option><option value="1">上學期</option><option value="2">下學期</option></select></label>
+<label>考別<select id="exam"><option value="">全部考別</option><option value="MIDTERM">期中</option><option value="FINAL">期末</option></select></label>
+<label>處理狀態<select id="state"><option value="">全部狀態</option><option value="PENDING">尚有待審</option><option value="IN_PROGRESS">正在逐題審核</option><option value="DONE">登記位置已決議</option></select></label>
+<label>搜尋考卷／學校／SHA<input id="search" placeholder="安和國小或 SHA"></label>
+</div>
+<p class="small" id="filtered">正在讀取……</p>
+<div class="wrapper"><table>
+<thead><tr><th>來源考卷</th><th>PDF SHA-256</th><th>原卷位置</th><th>是非題已連結</th><th>改編來源已連結</th><th>尚待審核</th><th>狀態</th><th>續跑位置</th></tr></thead>
+<tbody id="paper-rows"></tbody></table></div>
+<p class="small">按「分段明細」可確認 MC、TF、COMPOSITE、READ 等分段進度。完整 SHA 保存在可下載 JSON；不以出版社作收題限制。</p>
+<h2>最近續跑點</h2>
+<div id="resume"><p>正在讀取最新 checkpoint……</p></div>
+<div class="headrow"><h2>資料與保存規則</h2>
+<div><a href="../../data/governance/p12-master-progress.csv">下載 CSV 總表</a>　<a href="../../data/governance/p12-master-progress.json">完整 JSON</a>　<a href="../../data/governance/p12-frozen-candidate-queue.json">待審位置佇列</a></div></div>
+<p>每次執行逐題審核，應將來源 SHA、位置 ID、動作、覆核證據與時間<strong>提交至 GitHub 進度事件紀錄</strong>。只有成功提交後才算持久保存；下次從最新事件與未完成位置自動重算。發現原題有誤或重新審核時使用新的事件，不覆蓋歷史紀錄。</p>
+<p class="small">未登記考卷的總量仍是未知，不顯示「0 份」。新的學校考卷先依 PDF SHA 登記，再判定年級／學期／考別與 Canonical KP，不因康軒、南一、翰林或不明出版社而排除。</p>
+<p role="status" id="status"></p>
+</main>
+<script type="module">
+const $=id=>document.getElementById(id);
+const show=x=>String(x??"—");
+let master=null;
+function cell(tr,value){const td=document.createElement("td");td.textContent=show(value);tr.append(td);return td}
+function draw(){
+ if(!master)return;
+ const values={grade:$("grade").value,semester:$("semester").value,exam:$("exam").value,state:$("state").value,search:$("search").value.trim().toLowerCase()};
+ const rows=master.paper_rows.filter(x=>(!values.grade||String(x.grade)===values.grade)&&(!values.semester||String(x.semester)===values.semester)&&(!values.exam||x.exam===values.exam)&&
+ (!values.state||(values.state==="DONE"?x.full_paper_question_review_complete:values.state==="PENDING"?x.pending_remaining>0:x.in_progress>0))&&
+ (!values.search||[x.school,x.paper_uid,x.source_id,x.source_pdf_sha256].some(s=>String(s).toLowerCase().includes(values.search))));
+ $("paper-rows").replaceChildren();
+ for(const p of rows){
+  const tr=document.createElement("tr");
+  cell(tr,(p.grade===3?"三":"四")+(p.semester===1?"上":"下")+(p.exam==="MIDTERM"?"期中":"期末")+"・"+p.school);
+  const sha=cell(tr,p.source_pdf_sha256.slice(0,12)+"…");sha.title=p.source_pdf_sha256;
+  cell(tr,p.source_original_positions);cell(tr,p.exact_original_TF_linked);
+  cell(tr,p.adapted_context_original_positions_linked);cell(tr,p.pending_remaining);
+  const status=cell(tr,p.full_paper_question_review_complete?"登記位置已決議":"部分完成／待逐題認證");
+  status.className=p.full_paper_question_review_complete?"ok":"hold";
+  const td=document.createElement("td");
+  if(p.next_source_slot_id){const code=document.createElement("code");code.textContent=p.next_source_slot_id;td.append(code)}
+  else td.textContent="—";
+  tr.append(td);$("paper-rows").append(tr);
+  const details=document.createElement("tr"),box=document.createElement("td");box.colSpan=8;
+  const block=document.createElement("details"),label=document.createElement("summary");
+  label.textContent="分段明細｜"+p.source_id+"｜來源唯一值："+p.paper_uid;
+  block.append(label);
+  for(const x of p.sections){
+   const line=document.createElement("p");line.className="small";
+   line.textContent=x.section_code+"：來源位置 "+x.positions+"；已連結 "+x.originally_linked+"；待開始 "+x.not_started+"；進行中 "+x.in_progress+"；阻擋 "+x.blocked+"；已決議 "+x.resolved;
+   block.append(line);
+  }
+  const idline=document.createElement("p");idline.className="small";
+  idline.textContent="PDF SHA-256："+p.source_pdf_sha256+"；來源盤點為暫列位置，出版社尚未核實";
+  block.append(idline);box.append(block);details.append(box);$("paper-rows").append(details);
+ }
+ $("filtered").textContent="顯示 "+rows.length+"／"+master.paper_rows.length+" 份已登記考卷；外部尚未登記的來源數量未知";
+}
+try{
+ const r=await fetch("../../data/governance/p12-master-progress.json",{cache:"no-cache"});
+ if(!r.ok)throw Error("總表尚未部署："+r.status);
+ master=await r.json();
+ if(master.schema_version!=="SCIENCE_EXAM_P12_MASTER_PROGRESS_V1")throw Error("總表版本不符");
+ for(const [k,n]of [["已登記考卷",master.sources_discovered_in_registered_corpus],["原卷暫列位置",master.scanned_original_answer_positions],
+ ["已連結原卷位置",master.originally_linked_exact_TF+master.originally_linked_adapted_context_source_positions],
+ ["待審位置",master.candidate_position_baseline],["未完成全卷",master.incomplete_papers],
+ ["已發布作答小題",master.public_question_bank_answer_slots_unchanged]]){
+  const card=document.createElement("div"),small=document.createElement("span"),num=document.createElement("b");
+  small.textContent=k;num.textContent=n;card.append(small,num);$("metrics").append(card);
+ }
+ for(const k of ["grade","semester","exam","state","search"])$(k).addEventListener(k==="search"?"input":"change",draw);
+ draw();
+ const cp=master.resume_checkpoint;
+ $("resume").replaceChildren();
+ if(cp){
+  const p=document.createElement("p");
+  p.textContent="下一份："+cp.source_id+"；原卷位置："+cp.source_slot_id+"；頁數 "+cp.original_pdf_page_range.join("–")+"；狀態："+(cp.state==="NOT_STARTED"?"尚未開始":"續接進行中");
+  const pre=document.createElement("pre");
+  const instruction=cp.next_task+"\nSOURCE_SHA256 = "+cp.source_pdf_sha256+"\nNEXT_SOURCE_SLOT_ID = "+cp.source_slot_id+"\nMODE = RESUME_WITH_EXISTING_P11R1_LEDGER_NO_RECHECK_COMPLETED";
+  pre.textContent=instruction;
+  const b=document.createElement("button");b.textContent="複製續跑指令";b.addEventListener("click",async()=>{try{await navigator.clipboard.writeText(instruction);b.textContent="已複製"}catch{b.textContent="請選取上方文字複製"}});
+  $("resume").append(p,pre,b);
+ }else{$("resume").textContent="沒有尚待開始或進行中的位置；需另檢查被阻擋的覆核事件。"}
+ $("status").textContent="R1 對位清冊＋P12 工作佇列＋GitHub 覆核事件已核對。已記錄 "+master.review_events_count+" 件逐題進度事件。";
+}catch(e){$("status").textContent="總表載入失敗："+String(e);$("filtered").textContent="無法安全顯示進度，請查看 GitHub Actions。"}
+</script></body></html>

@@ -19,7 +19,8 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
  const source=read("site/data/governance/p11-source-sections.json");
  fail(source.source_papers.length===8&&queue.candidate_slots.length===326&&r1.reconciled_source_slots.length===477,"baseline count drift");
  fail(events.schema_version==="SCIENCE_EXAM_P12_REVIEW_EVENTS_V1"&&Array.isArray(events.events),"review journal missing");
- const sources=new Map(source.source_papers.map((p,i)=>[p.source_id,{...p,source_order:i}]));
+ const priority=new Map(queue.batch_groups.map(x=>[x.source_id,x.queue_priority]));
+ const sources=new Map(source.source_papers.map(p=>[p.source_id,{...p,source_order:priority.get(p.source_id)}]));
  const bySourceSlot=new Map(r1.reconciled_source_slots.map(x=>[x.source_slot_id,x]));
  const pending=new Map();
  for(const item of queue.candidate_slots){

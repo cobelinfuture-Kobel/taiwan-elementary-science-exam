@@ -299,6 +299,15 @@ try {
   assert.ok((await p11.locator("#metrics").textContent()).includes("116"),"P11 must disclose missing KP");
   assert.ok((await p11.locator("#status").textContent()).includes("SHA-256"),"P11 identity provenance visible");
   await p11.screenshot({path:output+"/s3-p11-source-and-kp-governance.png",fullPage:true});
+  const r1=await browser.newPage({viewport:{width:1300,height:920}});
+  await r1.goto("http://127.0.0.1:"+server.address().port+"/review/p11r1/",{waitUntil:"networkidle"});
+  await r1.waitForFunction(()=>document.querySelector("#metrics")?.textContent?.includes("326"),{timeout:15000});
+  assert.equal(await r1.locator("#sources tr").count(),8,"eight source PDFs reported");
+  assert.equal(await r1.locator("#groups tr").count(),20,"all twenty published context groups audited");
+  assert.ok((await r1.locator("#score").textContent()).includes("20 個印刷計分小題／22 個作答空格"));
+  assert.ok((await r1.locator("#gate").textContent()).includes("未逐題驗證者直接公開：禁止"));
+  await r1.screenshot({path:output+"/s3-p11r1-exact-source-slot-reconciliation.png",fullPage:true});
+  await r1.close();
   await p11.close();
   await p10Page.close();
   await statusPage.close();

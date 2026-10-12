@@ -20,6 +20,8 @@ jobs:
           node-version: '20'
       - run: npm run governance:build
       - run: npm run governance:check
+      - run: npm run governance:r1:build
+      - run: npm run governance:r1:check
       - run: npm test
       - name: Install Chromium for actual A4 two-column verification
         run: |
@@ -55,6 +57,8 @@ jobs:
           node-version: '20'
       - run: npm run governance:build
       - run: npm run governance:check
+      - run: npm run governance:r1:build
+      - run: npm run governance:r1:check
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

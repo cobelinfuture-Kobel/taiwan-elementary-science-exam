@@ -43,6 +43,12 @@ try {
   assert.equal((await g.json()).primary_kp_covered,71);
   assert.equal((await i.json()).questions.length,148);
   assert.equal((await c.json()).source_slots.length,477);
+  const rr=await page.request.get(base+"/data/governance/p11r1-reconciled-ledger.json",{cache:"no-cache"});
+  assert.equal(rr.status(),200,"P11R1 source-to-content reconciliation is live");
+  const revision=await rr.json();
+  assert.equal(revision.published_adapted_source_links.length,76);
+  assert.equal(revision.original_source_answer_positions_remaining_for_candidate_review,326);
+  assert.equal(revision.admission_gate.direct_bulk_publication_without_individual_answer_KP_visual_gates_enabled,false);
   assert.deepEqual(errors,[],"No JavaScript runtime errors");
   assert.ok(assetUrls.some(x=>x.includes("historical-bank-ox-v6.mjs")),"Actual browser must load v2 JS module");
   assert.ok(assetUrls.some(x=>x.includes("approved-historical-ox-v4.json")),"Actual browser must load v2 JSON");

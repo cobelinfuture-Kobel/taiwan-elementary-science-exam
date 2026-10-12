@@ -8,6 +8,8 @@
     "governance:build": "node tools/p11-governance.mjs --write",
     "governance:check": "node tools/p11-governance.mjs --check",
     "governance:r1:build": "node tools/p11r1-reconcile.mjs --write",
-    "governance:r1:check": "node tools/p11r1-reconcile.mjs --check"
+    "governance:r1:check": "node tools/p11r1-reconcile.mjs --check",
+    "p12:preflight:build": "node tools/p12-source-preflight.mjs --write",
+    "p12:preflight:check": "node tools/p12-source-preflight.mjs --check"
   }
 }

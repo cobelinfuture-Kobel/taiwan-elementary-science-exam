@@ -49,6 +49,12 @@ try {
   assert.equal(revision.published_adapted_source_links.length,76);
   assert.equal(revision.original_source_answer_positions_remaining_for_candidate_review,326);
   assert.equal(revision.admission_gate.direct_bulk_publication_without_individual_answer_KP_visual_gates_enabled,false);
+  const p12=await page.request.get(base+"/data/governance/p12-frozen-candidate-queue.json",{cache:"no-cache"});
+  assert.equal(p12.status(),200,"controlled P12 screening queue publicly archived");
+  const pq=await p12.json();
+  assert.equal(pq.candidate_slots.length,326);
+  assert.equal(pq.first_batch_source,"G03-S2-MID");
+  assert.equal(pq.no_additions_in_this_phase,true);
   assert.deepEqual(errors,[],"No JavaScript runtime errors");
   assert.ok(assetUrls.some(x=>x.includes("historical-bank-ox-v6.mjs")),"Actual browser must load v2 JS module");
   assert.ok(assetUrls.some(x=>x.includes("approved-historical-ox-v4.json")),"Actual browser must load v2 JSON");

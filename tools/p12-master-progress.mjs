@@ -58,11 +58,10 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
   item.last_event_id=event.event_id;item.last_event_at_utc=event.recorded_at_utc;item.last_reviewer=event.reviewer;
   item.review_evidence_ref=event.review_evidence_ref??null;item.block_reason=event.action==="BLOCK"?event.reason:null;
  }
- const candidates=[...pending.values()].sort((a,b)=>{
-  const priority=x=>x.state==="IN_PROGRESS"?0:x.state==="NOT_STARTED"?1:x.state==="BLOCKED"?2:3;
-  return priority(a)-priority(b)||sortBySource(a,b);
- });
- const next=candidates.find(x=>x.state==="IN_PROGRESS"||x.state==="NOT_STARTED")??null;
+ const unresolved=[...pending.values()].filter(x=>["NOT_STARTED","IN_PROGRESS","BLOCKED"].includes(x.state)).sort(sortBySource);
+ // Do not leap over unresolved source-paper blockers to a new source; preserve original-paper priority.
+ const next=unresolved[0]??null;
+ const nextForScreening=[...pending.values()].filter(x=>["NOT_STARTED","IN_PROGRESS"].includes(x.state)).sort(sortBySource)[0]??null;
  const rows=[];
  for(const p of source.source_papers){
   const r=r1.per_source_summary.find(x=>x.source_id===p.source_id);
@@ -76,7 +75,7 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
   fail(queueRows.length===r.remaining_candidate_positions,"source candidate ledger mismatch "+p.source_id);
   const left=counts.not_started+counts.in_progress+counts.blocked;
   const resolved=counts.certified_staged+counts.rejected;
-  const rowNext=queueRows.filter(x=>x.state==="IN_PROGRESS"||x.state==="NOT_STARTED").sort(sortBySource)[0]??null;
+  const rowNext=queueRows.filter(x=>["IN_PROGRESS","NOT_STARTED","BLOCKED"].includes(x.state)).sort(sortBySource)[0]??null;
   const year=113; // Recorded corpus batch only; does not imply all external papers discovered
   const sha=p.source_pdf_sha256;
   rows.push({
@@ -141,18 +140,23 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
   complete_papers:rows.filter(x=>x.full_paper_question_review_complete).length,
   incomplete_papers:rows.filter(x=>!x.full_paper_question_review_complete).length,
   resume_checkpoint:next?{
-    next_task:"SCIENCE_EXAM_S3_P12_"+next.source_id.replaceAll("-","")+"_FullPaperCandidateScreening",
+    next_task:next.state==="BLOCKED"?"SCIENCE_EXAM_S3_P12_"+next.source_id.replaceAll("-")+"_ResolveScienceReviewBlocker":"SCIENCE_EXAM_S3_P12_"+next.source_id.replaceAll("-")+"_FullPaperCandidateScreening",
     source_id:next.source_id,
     source_pdf_sha256:next.source_pdf_sha256,
     source_slot_id:next.source_slot_id,
     source_section_code:next.section_code,
     original_pdf_page_range:[next.source_page_start,next.source_page_end],
     state:next.state,
-    required_next_actions:["VERIFY_PDF_SHA","READ_ORIGINAL_QUESTION","CHECK_SCIENCE_ANSWER","MAP_CANONICAL_KP","VERIFY_FIGURE_CONTEXT","APPEND_REVIEW_EVENT_COMMIT"],
-    note:"Resume exactly this original slot. Any screening transition must be appended as a committed, validated event; staging is not public admission."
+    required_next_actions:next.state==="BLOCKED"?
+      ["READ_REVIEW_BLOCK_REASON","VERIFY_SCIENCE_AND_SOURCE_ASSUMPTIONS","RESOLVE_OR_PRESERVE_BLOCK_WITH_EVIDENCE","APPEND_REVIEW_EVENT_COMMIT"]:
+      ["VERIFY_PDF_SHA","READ_ORIGINAL_QUESTION","CHECK_SCIENCE_ANSWER","MAP_CANONICAL_KP","VERIFY_FIGURE_CONTEXT","APPEND_REVIEW_EVENT_COMMIT"],
+    block_reason:next.state==="BLOCKED"?next.block_reason:null,
+    note:"Resume this original source slot, including unresolved BLOCKED items; progress is durable only after GitHub commit, staging is not public admission."
   }:null,
   in_progress_slots:inProgress.map(x=>x.source_slot_id),
   blocked_slots:blockers.map(x=>({slot_id:x.source_slot_id,reason:x.block_reason})),
+  next_unstarted_screening_slot_id:nextForScreening?.source_slot_id??null,
+  next_unstarted_screening_source_id:nextForScreening?.source_id??null,
   paper_rows:rows
  };
 }

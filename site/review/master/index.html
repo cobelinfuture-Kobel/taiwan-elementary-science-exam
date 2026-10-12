@@ -102,12 +102,14 @@ try{
  $("resume").replaceChildren();
  if(cp){
   const p=document.createElement("p");
-  p.textContent="下一份："+cp.source_id+"；原卷位置："+cp.source_slot_id+"；頁數 "+cp.original_pdf_page_range.join("–")+"；狀態："+(cp.state==="NOT_STARTED"?"尚未開始":"續接進行中");
+  p.textContent="下一份："+cp.source_id+"；原卷位置："+cp.source_slot_id+"；頁數 "+cp.original_pdf_page_range.join("–")+"；狀態："+(cp.state==="NOT_STARTED"?"尚未開始":cp.state==="BLOCKED"?"待釐清（阻擋）":"續接進行中");
   const pre=document.createElement("pre");
   const instruction=cp.next_task+"\nSOURCE_SHA256 = "+cp.source_pdf_sha256+"\nNEXT_SOURCE_SLOT_ID = "+cp.source_slot_id+"\nMODE = RESUME_WITH_EXISTING_P11R1_LEDGER_NO_RECHECK_COMPLETED";
   pre.textContent=instruction;
   const b=document.createElement("button");b.textContent="複製續跑指令";b.addEventListener("click",async()=>{try{await navigator.clipboard.writeText(instruction);b.textContent="已複製"}catch{b.textContent="請選取上方文字複製"}});
   $("resume").append(p,pre,b);
+  if(cp.block_reason){const warning=document.createElement("p");warning.className="notice";warning.textContent="阻擋原因："+cp.block_reason;$("resume").append(warning);}
+  if(master.next_unstarted_screening_slot_id){const forward=document.createElement("p");forward.className="small";forward.textContent="下一個尚未開始的來源位置："+master.next_unstarted_screening_slot_id+"（阻擋題須先留存，不會自動跳過結案）";$("resume").append(forward);}
  }else{$("resume").textContent="沒有尚待開始或進行中的位置；需另檢查被阻擋的覆核事件。"}
  $("status").textContent="R1 對位清冊＋P12 工作佇列＋GitHub 覆核事件已核對。已記錄 "+master.review_events_count+" 件逐題進度事件。";
 }catch(e){$("status").textContent="總表載入失敗："+String(e);$("filtered").textContent="無法安全顯示進度，請查看 GitHub Actions。"}

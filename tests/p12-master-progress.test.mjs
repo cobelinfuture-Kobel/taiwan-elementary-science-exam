@@ -5,8 +5,9 @@ import {buildMaster,writeMaster,csvForMaster} from "../tools/p12-master-progress
 
 const base=JSON.parse(readFileSync("site/data/governance/p12-review-events.json","utf8"));
 const slot="G03-S2-MID|TF|P01|013";
+const syntheticSlot="G03-S2-MID|TF|P01|002";
 const clean={...base,events:[]};
-function event(action,id="e1"){return {event_id:id,source_slot_id:slot,action,recorded_at_utc:"2026-10-12T02:00:00Z",reviewer:"CI_REVIEW_TEST"};}
+function event(action,id="e1"){return {event_id:id,source_slot_id:syntheticSlot,action,recorded_at_utc:"2026-10-12T02:00:00Z",reviewer:"CI_REVIEW_TEST"};}
 test("overall ledger accounts for all eight unique PDF documents and all 477 original positions",()=>{
  const x=buildMaster();
  assert.equal(x.paper_rows.length,8);
@@ -41,7 +42,7 @@ test("master resumes from original paper and printed TF source order, not lexica
 });
 test("append-only event checkpoint is respected, but does not automatically publish a staged answer",()=>{
  const x=buildMaster({events:{...clean,events:[event("START")]}});
- assert.equal(x.resume_checkpoint.source_slot_id,slot);
+ assert.equal(x.resume_checkpoint.source_slot_id,syntheticSlot);
  assert.equal(x.resume_checkpoint.state,"IN_PROGRESS");
  assert.equal(x.paper_rows.find(p=>p.source_id==="G03-S2-MID").in_progress,1);
  const decision={...event("CERTIFY_STAGED","e2"),recorded_at_utc:"2026-10-12T02:10:00Z",
@@ -50,7 +51,7 @@ test("append-only event checkpoint is respected, but does not automatically publ
  const staged=buildMaster({events:{...clean,events:[event("START"),decision]}});
  assert.equal(staged.position_status_counts.certified_staged,1);
  assert.equal(staged.public_question_bank_answer_slots_unchanged,148);
- assert.notEqual(staged.resume_checkpoint.source_slot_id,slot);
+ assert.notEqual(staged.resume_checkpoint.source_slot_id,syntheticSlot);
 });
 test("unknown source and evidence-free certification stop the build",()=>{
  assert.throws(()=>buildMaster({events:{...clean,events:[{...event("START"),source_slot_id:"NOT_REGISTERED"}]}}),/unknown source slot/);

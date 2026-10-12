@@ -62,7 +62,16 @@ try {
   const progress=await master.json();
   assert.equal(progress.paper_rows.length,8);
   assert.equal(progress.candidate_position_baseline,326);
-  assert.equal(progress.resume_checkpoint.source_slot_id,"G03-S2-MID|TF|P01|002");
+  assert.equal(progress.resume_checkpoint.source_slot_id,"G03-S2-MID|TF|P01|013");
+  assert.equal(progress.position_status_counts.certified_staged,51);
+  assert.equal(progress.position_status_counts.blocked,6);
+  assert.equal(progress.review_events_count,114);
+  const audit=await page.request.get(base+"/data/governance/p12-g03s2mid-candidate-review.json",{cache:"no-cache"});
+  assert.equal(audit.status(),200,"G03-S2-MID science screening decisions live");
+  const auditData=await audit.json();
+  assert.equal(auditData.items.length,57);
+  assert.equal(auditData.decisions.staged,51);
+  assert.equal(auditData.decisions.blocked,6);
   const masterPage=await page.request.get(base+"/review/master/");
   assert.equal(masterPage.status(),200,"public master dashboard exists");
   assert.deepEqual(errors,[],"No JavaScript runtime errors");

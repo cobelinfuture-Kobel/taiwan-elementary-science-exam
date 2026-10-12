@@ -40,7 +40,7 @@ try {
   const ctx=await page.request.get(base+"/data/question-bank/certified-context-groups-v2.json");
   assert.equal(ctx.status(),200,"source-reconstructed group data accessible");
   assert.equal((await ctx.json()).expected_group_count,20);
-  const asset=await page.request.get(base+"/data/question-bank/approved-historical-ox-v3.json");
+  const asset=await page.request.get(base+"/data/question-bank/approved-historical-ox-v4.json");
   assert.equal(asset.status(),200,"Live JSON directly accessible");
   assert.equal((await asset.json()).asset_revision,rev,"Live JSON revision");
   const screen=await page.screenshot({path:"artifacts/deployed-browser/ox-question-visible.png",fullPage:true});

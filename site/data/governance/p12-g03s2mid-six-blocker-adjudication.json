@@ -1,0 +1,73 @@
+{
+  "schema_version": "P12_G03S2MID_SIX_REVIEW_V2",
+  "source_id": "G03-S2-MID",
+  "source_pdf_sha256": "372db8a4016eec03e6910b4ea617c32c7e27f14d01c12a37447b2d8f5830eb71",
+  "original_issues": 6,
+  "conditional_stage": 3,
+  "persistent_holds": 3,
+  "baseline_evidence": "site/data/governance/p12-g03s2mid-candidate-review.json",
+  "no_public_question_changes": true,
+  "qualifications_required_before_publication": true,
+  "items": [
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|013",
+      "status": "CONDITIONAL_STAGE",
+      "answer": "X",
+      "reason": "一般室溫有熱量流入時冰可以在冰水中融化；隔熱平衡時不保證淨融化。",
+      "required_edit": "加入熱交換情境",
+      "external_evidence": "https://www.nsta.org/lesson-plan/ice-water",
+      "original_school_key_authenticated": false,
+      "publication_approved": false
+    },
+    {
+      "source_slot_id": "G03-S2-MID|TF|P01|019",
+      "status": "CONDITIONAL_STAGE",
+      "answer": "O",
+      "reason": "蘋果切面接觸氧後主要發生酵素性褐變，黃色並非嚴格的唯一顏色。",
+      "required_edit": "改寫為黃褐或褐色",
+      "external_evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7022590/",
+      "original_school_key_authenticated": false,
+      "publication_approved": false
+    },
+    {
+      "source_slot_id": "G03-S2-MID|MC|P01|012",
+      "status": "SOURCE_DEFECT_HOLD",
+      "answer": null,
+      "reason": "熱敷對部分症狀有緩解作用，急性受傷與恢復期適用方式不同，四選一缺少唯一錯誤項。",
+      "required_edit": "補上傷害類型與時間條件",
+      "external_evidence": "https://health.clevelandclinic.org/should-you-use-ice-or-heat-for-pain-infographic",
+      "original_school_key_authenticated": false,
+      "publication_approved": false
+    },
+    {
+      "source_slot_id": "G03-S2-MID|COMPOSITE|P02|012",
+      "status": "SOURCE_DEFECT_HOLD",
+      "answer": null,
+      "reason": "雲中雪晶可經由水蒸氣直接凝華增長；原選項未包含凝華。",
+      "required_edit": "補凝華選項或改為湖水結冰",
+      "external_evidence": "https://www.noaa.gov/jetstream/atmosphere/precipitation",
+      "original_school_key_authenticated": false,
+      "publication_approved": false
+    },
+    {
+      "source_slot_id": "G03-S2-MID|READ|P01|003",
+      "status": "SOURCE_DEFECT_HOLD",
+      "answer": null,
+      "reason": "來源文章提供根部露出水面的替代方法，不能說所有水耕一定要打氣機。",
+      "required_edit": "改問根部可用哪些方式取得氧氣",
+      "external_evidence": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/small-scale-hydroponics",
+      "original_school_key_authenticated": false,
+      "publication_approved": false
+    },
+    {
+      "source_slot_id": "G03-S2-MID|READ|P01|004",
+      "status": "CONDITIONAL_STAGE",
+      "answer": "X",
+      "reason": "原卷未設人工補光時，植物需要光才能持續生長；適當人工燈可替代自然日光。",
+      "required_edit": "將題意改為完全不需要任何光源",
+      "external_evidence": "https://ext.vt.edu/content/pubs_ext_vt_edu/en/SPES/spes-466/spes-466.html",
+      "original_school_key_authenticated": false,
+      "publication_approved": false
+    }
+  ]
+}

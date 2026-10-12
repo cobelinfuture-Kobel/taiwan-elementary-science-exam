@@ -62,8 +62,8 @@ test("all six figure groups and two reading groups retain pending learner assets
  assert.equal(accepted.operator_public_approval,false);
 });
 test("append-only resolution stages MC06 exactly once and advances screening to G04 S2 MID",()=>{
- assert.equal(events.length,274);
- const two=events.slice(-2);
+ assert.equal(events.length,320);
+ const two=events.slice(272,274);
  assert.deepEqual(two.map(x=>x.action),["START","CERTIFY_STAGED"]);
  assert.ok(two.every(x=>x.source_slot_id===evidence.source_slot_id));
  assert.ok(two.every(x=>x.review_evidence_ref?.includes("mc06-referenced-reading-resolution-v1.json")));
@@ -71,15 +71,16 @@ test("append-only resolution stages MC06 exactly once and advances screening to 
  assert.equal(two[1].publication_approved,false);
  const master=buildMaster();
  const row=master.paper_rows.find(x=>x.source_id==="G03-S2-FINAL");
- assert.equal(row.certified_staged,46);
+ assert.equal(row.certified_staged,0);
  assert.equal(row.blocked,0);
  assert.equal(row.pending_remaining,0);
+ assert.equal(row.published,46);
  assert.equal(master.complete_papers,2);
- assert.equal(master.position_status_counts.certified_staged,46);
+ assert.equal(master.position_status_counts.certified_staged,0);
  assert.equal(master.position_status_counts.blocked,0);
  assert.equal(master.position_status_counts.not_started,223);
- assert.equal(master.public_question_bank_answer_slots_current,205);
- assert.equal(master.p12_operator_published_slots,57);
+ assert.equal(master.public_question_bank_answer_slots_current,251);
+ assert.equal(master.p12_operator_published_slots,103);
  assert.equal(master.resume_checkpoint.source_id,"G04-S2-MID");
- assert.equal(master.review_events_count,274);
+ assert.equal(master.review_events_count,320);
 });

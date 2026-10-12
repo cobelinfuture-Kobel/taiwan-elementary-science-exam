@@ -6,6 +6,7 @@ const stage=read("data/staging/p12-g03s2final-46-learner-blocks-v1.json");
 const original=read("data/review/p12-g03s2final-46-final-source-acceptance-v1.json");
 const fig=read("data/review/p12-g03s2final-figure-reconstruction-v1.json");
 const reading=read("data/review/p12-g03s2final-reading-groups-v1.json");
+const scienceCorrection=read("data/review/p12-g03s2final-composite-p03-q03-science-correction-v1.json");
 const cloud=read("data/review/p12-g03s2final-mc06-referenced-reading-resolution-v1.json");
 const authority=read("site/data/authority/science-g03-g04-selector-v2.json");
 const flat=stage.blocks.flatMap(b=>(b.type==="group"?b.items:[b]).map(item=>({...item,block_id:b.id,block_unit:b.unit})));
@@ -36,7 +37,12 @@ test("all answers and primary canonical KPs retain original final source accepta
  }
  for(const item of flat){
   const o=roots.get(item.source_slot_id);
-  assert.equal(item.answer,o.independent_science_answer,item.source_slot_id);
+  if(item.source_slot_id===scienceCorrection.source_slot_id){
+   assert.equal(o.independent_science_answer,scienceCorrection.old_independent_model_answer);
+   assert.equal(item.answer,scienceCorrection.new_proposed_learner_answer);
+   assert.equal(item.science_answer_status,"PROPOSED_CORRECTION_OPERATOR_ADJUDICATION_REQUIRED_BEFORE_PUBLIC");
+   assert.equal(scienceCorrection.public_release_approved,false);
+  }else assert.equal(item.answer,o.independent_science_answer,item.source_slot_id);
   assert.equal(item.canonical_kp_id,o.source_canonical_kp_id,item.source_slot_id);
   assert.ok(item.stem?.trim());
   assert.ok(item.answer_explanation?.trim());
@@ -80,6 +86,18 @@ test("cloud-reading MC06 uses approved self-contained rewrite while original que
  assert.deepEqual(b.options,cloud.learner_revision.options.map(x=>x.replace(/^([①②③④])\s*/,"$1 ")));
  assert.equal(b.editorial_status,"SELF_CONTAINED_CLOUD_READING_RECONSTRUCTION");
  assert.equal(cloud.original_source_unchanged,true);
+});
+test("original curved fishbowl is not silently reinterpreted as straight-sided O",()=>{
+ const b=stage.blocks.find(b=>b.id==="P12_G03S2FINAL_COMPOSITE_P03");
+ const a=b.items.find(x=>x.source_slot_id===scienceCorrection.source_slot_id);
+ assert.equal(b.figure_spec.labels[2],"曲面小魚缸");
+ assert.equal(a.answer,"X");
+ assert.equal(b.science_correction_pending_public_approval,true);
+ assert.match(a.answer_explanation,/側面彎曲/);
+ assert.equal(scienceCorrection.old_independent_model_answer,"O");
+ assert.equal(scienceCorrection.original_science_review_preserved,true);
+ assert.equal(scienceCorrection.public_release_approved,false);
+ assert.deepEqual(b.items.map(i=>i.answer),["O","X","X","O"]);
 });
 test("48th source item or already published eight TF cannot silently join staged release",()=>{
  assert.equal(new Set(flat.map(x=>x.source_slot_id)).size,46);

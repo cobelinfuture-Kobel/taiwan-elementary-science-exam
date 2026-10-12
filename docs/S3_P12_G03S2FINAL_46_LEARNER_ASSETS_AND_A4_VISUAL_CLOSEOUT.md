@@ -8,6 +8,19 @@
 - 所有 candidate `source_slot_id`、科學擬答與 canonical KP 均與前輪 FinalSourceAcceptance 一對一對應。
 - MC06 依可追溯的雲類教材比對重寫成獨立選擇題；保留原教師答案與指定閱讀資料未認證的註記。
 
+## 來源圖形與科學判答的差異（公開前必須裁定）
+
+在實際對照原卷第二頁配合題（三）時，發現 **③「小魚缸」畫成窄口、鼓肚、側面彎曲的魚缸**。過去 46 題來源初審將它判為適合做雨量器（O），當時本專案的候選 SVG 也不正確地改畫成「直壁小魚缸」。原卷形狀和先前的模型推定並不吻合。
+
+本輪已作**待核准的候選科學修訂**：
+
+- 原初審科學答案 O **原樣保留**在 `data/review/p12-g03s2final-fullpaper-candidate-screening-v1.json` 及 `data/review/p12-g03s2final-46-final-source-acceptance-v1.json`；
+- 修訂候選圖③重新畫成源圖的曲面小魚缸；候選題答案提出 **X**，理由是容器的截面積隨高度變化，不宜直接以水深刻度量測雨量；
+- 修訂提案詳見 `data/review/p12-g03s2final-composite-p03-q03-science-correction-v1.json`，明確 `operator_adjudication_required`；
+- 經修訂後 Chromium **28/28 區塊、46/46 位置 A4 排版技術驗收仍為 PASS**，重新產出 28 PDF＋28 PNG，證據在 [CI run 38262035029](https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/38262035029)。
+
+因此本輪 FinalVisualAcceptance 的最精確狀態為 **A4 技術驗收 PASS、科學修訂 1 題待操作人裁定**，不可宣稱 46 題已全部取得公開許可。
+
 ## 六組自製 SVG 圖形
 
 1. ①鴿子、②麻雀、③野鴨、④青蛙：飛行能力 O/X。
@@ -27,9 +40,9 @@
 
 ## 實際 A4 雙欄與答案頁驗收
 
-GitHub Actions [P12 G03 S2 Final 46 A4 Learner Review](https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/38259976209)：
+GitHub Actions [P12 G03 S2 Final 46 A4 Learner Review — science correction rerun](https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/38262035029)：
 
-- Node tests：**101 PASS、0 FAIL**。
+- Node tests：**104 PASS、0 FAIL**（圖形修訂後）。
 - Chromium: **28/28 個候選區塊 PASS**，來源作答位置 **46/46 PASS**。
 - 每一區塊保留原來源題組，核對答案與代號，精確檢查螢幕及印刷模式的 A4 兩欄溢出。
 - 每組 SVG 完整顯示，實測圖片寬高比誤差小於 3.5%，寬度不超過欄位。
@@ -42,13 +55,13 @@ GitHub Actions [P12 G03 S2 Final 46 A4 Learner Review](https://github.com/cobeli
 
 ## 治理邊界
 
-**本輪結案只針對 staged learner materials 和 A4 acceptance，不是 PublicAdmission。**
+**本輪結案只針對 staged learner materials 和 A4 版面技術驗收；魚缸第③題仍待科學裁定，且本輪不是 PublicAdmission。**
 
 - 原 P11 148 + P12 三下期中 57 = **公開仍為 205 作答位置**。
 - G03-S2-FINAL **46 個 source slots 仍處於 CERTIFIED_STAGED_NOT_PUBLIC**，沒有 `PUBLIC_ADMIT`。
 - 其餘 P12 未逐題審核 **223**；無新阻擋。
 - 原卷來源記錄、教師答案「未認證」、之前的檔案及 205 個公開題目全數保留。
-- 若核准下一階段，才做 `P12_G03S2FINAL_46_PublicAdmission_SourceIdentityAndLivePagesE2E`：精確 46 源位置核准清冊 → 題庫增量載入 → 來源/KP/答案 fail-closed → CI → Pages live readback。公開後理論總數 **251**，不在本輪直接調整。
+- 待魚缸第③題的 X/O 由操作人明確裁定後，下一階段才做 `P12_G03S2FINAL_46_PublicAdmission_SourceIdentityAndLivePagesE2E`：精確 46 源位置核准清冊 → 題庫增量載入 → 來源/KP/答案 fail-closed → CI → Pages live readback。公開後理論總數 **251**，不在本輪直接調整。
 
 ## 主要產物
 

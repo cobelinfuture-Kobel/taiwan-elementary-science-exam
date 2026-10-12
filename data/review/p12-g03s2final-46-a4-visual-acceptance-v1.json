@@ -7,11 +7,11 @@
   "reading_contract": "data/review/p12-g03s2final-reading-groups-v1.json",
   "source_acceptance": "data/review/p12-g03s2final-46-final-source-acceptance-v1.json",
   "validation_gate": "A4_DOUBLE_COLUMN_ACTUAL_VISUAL_PEDAGOGICAL_ACCEPTANCE",
-  "decision": "PASS_STAGED_ONLY_NOT_PUBLIC",
-  "tested_git_head": "ab82a23970e4fe4e022325edf489077c3bc99d12",
-  "evidence_workflow_run_id": 38259976209,
-  "evidence_workflow_url": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/38259976209",
-  "evidence_artifact_id": 11751568345,
+  "decision": "A4_TECHNICAL_PASS_SCIENCE_CORRECTION_OPERATOR_DECISION_PENDING",
+  "tested_git_head": "9b136c6417321ac8d9c9292d8a8a544131523d10",
+  "evidence_workflow_run_id": 38262035029,
+  "evidence_workflow_url": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/38262035029",
+  "evidence_artifact_id": 11752991941,
   "evidence_artifact_name": "science-p12-g03s2final-46-a4-proof",
   "actual_blocks_reviewed": 28,
   "answer_slots_reviewed": 46,
@@ -28,7 +28,7 @@
     "all_block_ids_unique": "PASS",
     "teacher_key_not_claimed": "PASS",
     "public_release_not_authorized": "PASS",
-    "node_test_count_pass": 101,
+    "node_test_count_pass": 104,
     "node_test_fail": 0
   },
   "actual_browser_acceptance": {
@@ -40,7 +40,7 @@
     "svg_within_column_check": "PASS",
     "actual_browser_question_count": "28/28 PASS",
     "actual_answer_slots": "46/46 PASS",
-    "correct_answer_mapping": "PASS",
+    "correct_answer_mapping": "46/46 STAGED_ANSWER_PARITY_WITH_ONE_EXPLICIT_OVERRIDDEN_SOURCE_INFERENCE",
     "two_column_screen_geometry": "PASS",
     "two_column_print_geometry": "PASS",
     "atomic_group_not_split": "PASS",
@@ -51,7 +51,7 @@
     "screenshots_issued": 28
   },
   "artifact_readback": {
-    "artifact_zip_size_bytes": 9877101,
+    "artifact_zip_size_bytes": 9878642,
     "observed_zip_members": 56,
     "observed_pdf_count": 28,
     "observed_png_count": 28,
@@ -61,9 +61,10 @@
   },
   "independent_visual_review": {
     "inspected": "Six SVG figure groups and two reconstructed reading groups from rendered Playwright screenshot previews",
-    "result": "PASS_FOR_STAGED_CONTENT",
+    "result": "PASS_FOR_STAGED_LAYOUT_WITH_PEDAGOGICAL_HOLD_ONE_SOURCE_ITEM",
     "figure_02_wind_direction_spec": "left side wide vane tail; arrow tip to east; original answer A maintained",
-    "readability_note": "Reading text is in existing 8.5pt A4 contextual group style; no glyph clipping visible in QA previews."
+    "readability_note": "Reading text is in existing 8.5pt A4 contextual group style; no glyph clipping visible in QA previews.",
+    "curved_fishbowl_source_discrepancy": "Original source drawn ③ 小魚缸 has narrow neck and curved, bulbous walls. Original independent answer O was inconsistent with source image. Staged figure corrected to curved fishbowl, proposed answer X; source reviewer/original O preserved and operator public-admission decision pending."
   },
   "fixed_defect": {
     "initial_failure": "INHERITED_38MM_MAX_HEIGHT_CHANGED_FIGURE_ASPECT_RATIO",
@@ -74,6 +75,16 @@
   "public_exam_assets_not_added_to_loader": true,
   "original_p11_p12_published_bank_unmodified": true,
   "operator_public_approval": false,
-  "remaining_gate": "Operator review / explicit public admission approval, followed by separate 46-slot additive release CI + GitHub Pages E2E",
-  "next_resume_task": "P12_G03S2FINAL_46_PublicAdmission_SourceIdentityAndLivePagesE2E"
+  "remaining_gate": "Operator explicitly adjudicates source figure P03 item③ science correction O→X; then separate 46 public admission CI and live Pages E2E.",
+  "next_resume_task": "P12_G03S2FINAL_46_FishbowlScienceAdjudication_Then_PublicAdmission",
+  "pedagogical_holds": [
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P03|003",
+      "source_provisional_answer": "O",
+      "staged_science_corrected_answer": "X",
+      "reason": "Curved fishbowl does not have constant cross-section required for direct rainfall-depth measurement.",
+      "correction_ref": "data/review/p12-g03s2final-composite-p03-q03-science-correction-v1.json",
+      "operator_adjudication_required": true
+    }
+  ]
 }

@@ -1,0 +1,23 @@
+{
+  "schema_version": "SCIENCE_P12_G03S2FINAL_COMPOSITE_P03_Q03_SCIENCE_CORRECTION_V1",
+  "source_slot_id": "G03-S2-FINAL|COMPOSITE|P03|003",
+  "source_pdf_sha256": "078806660f9673fd3e677c25afb348e0e3e9cc97fe866d94c91f1a370a33b793",
+  "source_pdf_page_pdf_1_based": 2,
+  "source_visual_evidence": "原卷配合（三）③『小魚缸』圖示明顯是上方瓶頸狹窄、腹部鼓起的曲面玻璃容器，不是橫截面固定的直壁缸。",
+  "old_independent_model_answer": "O",
+  "new_proposed_learner_answer": "X",
+  "why": "直接以量尺讀取容器中累積水深作雨量時，須使用固定截面、能以水深代表降雨量的合適雨量器。原卷曲面魚缸不同高度處截面積不一致，不宜直接作為雨量器量測工具。",
+  "scope": "ONLY_STAGED_LEARNER_QA_NOT_ORIGINAL_TEACHER_ANSWER",
+  "source_original_question_and_image_unchanged": true,
+  "original_teacher_key_authenticated": false,
+  "original_science_review_preserved": true,
+  "public_release_approved": false,
+  "source_figures_corrective_redraw": "P12_G03S2FINAL_COMPOSITE_P03 panel③ should depict original curved fishbowl rather than straight-sided aquarium",
+  "remediation_gate": "SOURCE_PEDAGOGICAL_CORRECTION_PROPOSED_ONLY_REQUIRES_OPERATOR_ADJUDICATION_BEFORE_PUBLIC_ADMISSION",
+  "science_context": "This correction concerns the shape in the source figure. A genuinely straight-sided aquarium could be an acceptable rain collector, but that is not the illustrated object.",
+  "evidence_sources": [
+    "data/review/p12-g03s2final-fullpaper-candidate-screening-v1.json",
+    "data/review/p12-g03s2final-46-final-source-acceptance-v1.json",
+    "113_康軒_三下_自然_期末評量卷_大墩國小.pdf#page=2"
+  ]
+}

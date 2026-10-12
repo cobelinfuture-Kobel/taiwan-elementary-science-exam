@@ -4,7 +4,7 @@
   "source_id": "G03-S2-FINAL",
   "source_validation_ref": "data/review/p12-g03s2final-46-final-source-acceptance-v1.json",
   "mc06_resolution_ref": "data/review/p12-g03s2final-mc06-referenced-reading-resolution-v1.json",
-  "status": "STAGED_ONLY_VISUAL_ACCEPTANCE_PENDING",
+  "status": "STAGED_ONLY_A4_PASS_SCIENCE_CORRECTION_PROPOSED",
   "public_site_integrated": false,
   "operator_public_release_approved": false,
   "original_school_answer_key_authenticated": false,
@@ -770,7 +770,7 @@
         "labels": [
           "方形直筒",
           "曲線杯",
-          "直壁小魚缸",
+          "曲面小魚缸",
           "圓形直筒"
         ],
         "viewBox": "0 0 460 236",
@@ -824,11 +824,13 @@
           "source_pdf_cropped_images_included": false,
           "type": "tf",
           "source_slot_id": "G03-S2-FINAL|COMPOSITE|P03|003",
-          "stem": "圖③：這種容器適合用來觀測雨量嗎？",
-          "answer": "O",
-          "answer_explanation": "直壁、橫截面固定的容器可用於水深觀察；曲線杯的體積與水高關係不均勻。",
+          "stem": "圖③：曲面小魚缸適合直接用來測量雨量嗎？",
+          "answer": "X",
+          "answer_explanation": "原卷圖示的小魚缸上窄下寬、側面彎曲，各高度的橫截面不同；不宜直接用相同刻度的水深當作雨量。",
           "canonical_kp_id": "sci_g03s2_04_06",
-          "source_original_anchor": "直壁小魚缸"
+          "source_original_anchor": "直壁小魚缸",
+          "science_correction_ref": "data/review/p12-g03s2final-composite-p03-q03-science-correction-v1.json",
+          "science_answer_status": "PROPOSED_CORRECTION_OPERATOR_ADJUDICATION_REQUIRED_BEFORE_PUBLIC"
         },
         {
           "source_id": "G03-S2-FINAL",
@@ -850,7 +852,8 @@
       ],
       "original_source_group_key": "G03-S2-FINAL_COMPOSITE_P03",
       "release_status": "FINAL_LEARNER_CANDIDATE_NOT_PUBLIC",
-      "physical_layout_gate": "PENDING_CHROMIUM_PRINT"
+      "physical_layout_gate": "PENDING_CHROMIUM_PRINT",
+      "science_correction_pending_public_approval": true
     },
     {
       "source_id": "G03-S2-FINAL",
@@ -1322,5 +1325,8 @@
       "release_status": "FINAL_LEARNER_CANDIDATE_NOT_PUBLIC",
       "physical_layout_gate": "PENDING_CHROMIUM_PRINT"
     }
+  ],
+  "science_correction_pending_public_approval_slots": [
+    "G03-S2-FINAL|COMPOSITE|P03|003"
   ]
 }

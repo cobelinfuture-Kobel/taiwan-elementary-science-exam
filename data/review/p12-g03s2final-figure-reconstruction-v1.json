@@ -56,18 +56,26 @@
       "label_order": [
         "方形直筒",
         "曲線杯",
-        "直壁小魚缸",
+        "曲面小魚缸",
         "圓形直筒"
       ],
       "source_answers": [
         "O",
         "X",
-        "O",
+        "X",
         "O"
       ],
       "viewBox": "0 0 460 236",
       "preserveAspectRatio": "xMidYMid meet",
-      "do_not_crop": true
+      "do_not_crop": true,
+      "original_independent_model_answers": [
+        "O",
+        "X",
+        "O",
+        "O"
+      ],
+      "science_correction_ref": "data/review/p12-g03s2final-composite-p03-q03-science-correction-v1.json",
+      "public_operator_approval_required": true
     },
     {
       "block_id": "P12_G03S2FINAL_COMPOSITE_P04",
@@ -140,5 +148,6 @@
   "expected_source_slots": 22,
   "graphics_policy": "SELF_DRAWN_VECTOR_NOT_ORIGINAL_SCANNED_PICTURES",
   "width_policy": "scale <= available A4 half-page column width, preserve SVG aspect ratio",
-  "figure_status": "CODE_MATERIALIZED_VISUAL_ACCEPTANCE_PENDING"
+  "figure_status": "VECTOR_RECONSTRUCTION_A4_PASS_WITH_ONE_PROPOSED_SCIENCE_CORRECTION",
+  "source_science_change_not_automatically_authorized": true
 }

@@ -6,8 +6,9 @@ const a=load("data/review/p12-g03s2final-46-a4-visual-acceptance-v1.json");
 const bank=load("data/staging/p12-g03s2final-46-learner-blocks-v1.json");
 const figure=load("data/review/p12-g03s2final-figure-reconstruction-v1.json");
 const reading=load("data/review/p12-g03s2final-reading-groups-v1.json");
+const correction=load("data/review/p12-g03s2final-composite-p03-q03-science-correction-v1.json");
 test("P12 46 staged A4 acceptance requires actual Chromium PDF and unchanged 205 public baseline",()=>{
- assert.equal(a.decision,"PASS_STAGED_ONLY_NOT_PUBLIC");
+ assert.equal(a.decision,"A4_TECHNICAL_PASS_SCIENCE_CORRECTION_OPERATOR_DECISION_PENDING");
  assert.equal(a.actual_blocks_reviewed,bank.expected_blocks);
  assert.equal(a.answer_slots_reviewed,bank.expected_answer_slots);
  assert.equal(a.independent_source_figure_groups,figure.figure_groups.length);
@@ -29,7 +30,7 @@ test("all 28 physical PDF and visual checks are recorded, including fidelity and
  assert.equal(c.two_column_screen_geometry,"PASS");
  assert.equal(c.two_column_print_geometry,"PASS");
  assert.equal(c.atomic_group_not_split,"PASS");
- assert.equal(c.correct_answer_mapping,"PASS");
+ assert.equal(c.correct_answer_mapping,"46/46 STAGED_ANSWER_PARITY_WITH_ONE_EXPLICIT_OVERRIDDEN_SOURCE_INFERENCE");
  assert.equal(c.figure_svg_rendered_count,6);
  assert.equal(c.pdf_issued,28);
  assert.equal(c.screenshots_issued,28);
@@ -38,7 +39,12 @@ test("all 28 physical PDF and visual checks are recorded, including fidelity and
  assert.equal(r.observed_png_count,28);
  assert.equal(r.actual_pdf_page_total,56);
  assert.equal(r.all_pdf_two_pages,"PASS");
- assert.equal(a.independent_visual_review.result,"PASS_FOR_STAGED_CONTENT");
- assert.match(a.evidence_workflow_url,/actions\/runs\/38259976209/);
+ assert.equal(a.independent_visual_review.result,"PASS_FOR_STAGED_LAYOUT_WITH_PEDAGOGICAL_HOLD_ONE_SOURCE_ITEM");
+ assert.equal(a.pedagogical_holds.length,1);
+ assert.equal(a.pedagogical_holds[0].source_slot_id,correction.source_slot_id);
+ assert.equal(a.pedagogical_holds[0].source_provisional_answer,"O");
+ assert.equal(a.pedagogical_holds[0].staged_science_corrected_answer,"X");
+ assert.equal(a.pedagogical_holds[0].operator_adjudication_required,true);
+ assert.match(a.evidence_workflow_url,/actions\/runs\/38262035029/);
  assert.ok(a.evidence_artifact_id>0);
 });

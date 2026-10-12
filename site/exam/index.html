@@ -135,7 +135,7 @@ function layout(page,mode){page.mode=mode;const wrap=child(page.body,'div',mode=
 function overflow(x){return x.scrollHeight>x.clientHeight+2||x.scrollWidth>x.clientWidth+2;}
 function question(q,n){const a=node('article','question');const prefix=(q.type==='tf'||q.type==='short'||q.type==='mcq'||q.type==='multi')?'（　）'+n+'. ':n+'. ';child(a,'div','',prefix+q.stem);if(q.options){const o=child(a,'div','opts');q.options.forEach((v,i)=>child(o,'div','',v));}return a;}
 function sourceContextGroup(b,start){
- const a=node('section','group group-context');
+ const a=node('section','group group-context');a.dataset.groupId=b.id;
  child(a,'h4','',b.title+'（'+start+'–'+(start+b.items.length-1)+' 題）');
  if(b.shared.instructions)child(a,'p','group-instructions',b.shared.instructions);
  if(b.shared.passage)child(a,'p','group-passage',b.shared.passage);

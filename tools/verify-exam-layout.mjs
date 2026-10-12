@@ -190,6 +190,36 @@ try {
       && !geom.horizontalClip && !geom.verticalClip,"group overflow: "+kp+" "+JSON.stringify(geom));
   }
   console.log("S3_P08_NINE_GROUP_VISUAL_PASS");
+  const p09Cases=[["3","3-S1-U02","sci_g03s1_02_09",1,"MID_G03_FORCE_OPTION_IMAGES",false],["3","3-S1-U01","sci_g03s1_01_10",4,"MID_G03_FLOWER_DIAGRAM",true],["3","3-S1-U01","sci_g03s1_01_07",3,"MID_G03_STEM_DIAGRAM",true],["3","3-S1-U01","sci_g03s1_01_08",2,"MID_G03_ROOT_DIAGRAM",true],["3","3-S1-U01","sci_g03s1_01_05",3,"MID_G03_LEAF_ARRANGEMENTS",true],["3","3-S1-U03","sci_g03s1_03_07",4,"FINAL_G03_SYRINGE_FIGURE",true],["3","3-S1-U04","sci_g03s1_04_09",3,"FINAL_G03_ANTHOCYANIN_READING",false],["4","4-S1-U01","sci_g04s1_01_09",4,"MID_G04_EARTHQUAKE_READING",false],["4","4-S1-U04","sci_g04s1_04_06",3,"FINAL_G04_CIRCUIT_IMAGES",true],["4","4-S1-U04","sci_g04s1_04_04",1,"FINAL_G04_CIRCUIT_DRAW",true],["4","4-S1-U03","sci_g04s1_03_10",2,"FINAL_G04_LED_READING",false]];
+  await live.selectOption("#order","group");
+  for(const [grade,unit,kp,slots,groupId,expectDrawing] of p09Cases){
+    await live.selectOption("#grade",grade);
+    await live.selectOption("#semester","S1");
+    await live.selectOption("#unit",unit);
+    await live.selectOption("#mode","single_kp");
+    await live.selectOption("#kp",kp);
+    await live.fill("#count",String(slots));
+    await live.locator("#generate").click();
+    const message=await live.locator("#status").textContent();
+    assert.equal(await live.locator("#status").getAttribute("data-error"),"false","P09 group cannot render "+groupId+" "+message);
+    const group=live.locator(".paper:not([data-answer='true']) .group-context");
+    assert.equal(await group.count(),1,"P09 atomic group missing "+groupId);
+    assert.equal(await group.getAttribute("data-group-id"),groupId,"P09 incorrect source group selected");
+    assert.equal(await group.locator(".question").count(),slots,"P09 subquestion count mismatch "+groupId);
+    if(expectDrawing) assert.equal(await group.locator("svg.science-diagram").count(),1,"P09 independent SVG absent "+groupId);
+    const area=await group.evaluate(node=>{
+      const x=node.getBoundingClientRect(),box=node.closest(".col").getBoundingClientRect();
+      return {left:x.left,right:x.right,bottom:x.bottom,colL:box.left,colR:box.right,colB:box.bottom,scX:node.scrollWidth-node.clientWidth,scY:node.scrollHeight-node.clientHeight};
+    });
+    assert.ok(area.left>=area.colL-2&&area.right<=area.colR+2&&area.bottom<=area.colB+2
+      &&area.scX<3&&area.scY<3,"P09 diagram/reading group overflow "+groupId+" "+JSON.stringify(area));
+    if(groupId==="FINAL_G04_CIRCUIT_DRAW"){
+      assert.ok((await live.locator(".paper[data-answer='true']").innerText()).includes("5"),"drawing must retain five-point rubric");
+      assert.equal(await live.locator(".paper[data-answer='true'] svg.science-diagram").count(),1,"drawing answer exemplar required");
+    }
+  }
+  console.log("S3_P09_ELEVEN_CONTEXT_VISUAL_PASS");
+
   await live.selectOption("#grade","3");
   await live.selectOption("#semester","S1");
   await live.selectOption("#unit","3-S1-U01");

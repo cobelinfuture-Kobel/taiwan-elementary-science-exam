@@ -21,9 +21,9 @@ test("overall ledger accounts for all eight unique PDF documents and all 477 ori
  assert.equal(x.complete_papers,2);
  assert.equal(x.incomplete_papers,6);
  assert.equal(x.p11_frozen_public_baseline_answer_slots,148);
- assert.equal(x.public_question_bank_answer_slots_current,205);
- assert.equal(x.p12_operator_published_slots,57);
- assert.equal(x.p12_not_publicly_released_source_positions,269);
+ assert.equal(x.public_question_bank_answer_slots_current,251);
+ assert.equal(x.p12_operator_published_slots,103);
+ assert.equal(x.p12_not_publicly_released_source_positions,223);
  assert.equal(x.external_drive_global_discovery_complete,false);
  assert.equal(x.external_sources_not_yet_registered_count,null);
  assert.equal(x.publisher_filter_enabled,false);
@@ -36,11 +36,11 @@ test("master records source-resolved MC06 and advances to G04 S2 MID",()=>{
  assert.equal(x.resume_checkpoint.state,"NOT_STARTED");
  assert.equal(x.next_unstarted_screening_source_id,"G04-S2-MID");
  assert.equal(x.resume_checkpoint.original_pdf_page_range[0],1);
- assert.equal(x.review_events_count,274);
+ assert.equal(x.review_events_count,320);
  assert.equal(x.position_status_counts.not_started,223);
  assert.equal(x.position_status_counts.blocked,0);
- assert.equal(x.position_status_counts.certified_staged,46);
- assert.equal(x.position_status_counts.published,57);
+ assert.equal(x.position_status_counts.certified_staged,0);
+ assert.equal(x.position_status_counts.published,103);
  assert.equal(x.position_status_counts.rejected,0);
  assert.ok(x.paper_rows.every(p=>p.textbook_publisher==="NOT_VERIFIED_METADATA_ONLY"));
 });
@@ -66,8 +66,8 @@ test("master JSON and CSV are deterministic and current",()=>{
  const result=writeMaster({check:true});
  assert.equal(result.papers,8);
  assert.equal(result.pending,223);
- assert.equal(result.liveItems,205);
- assert.equal(result.published,57);
+ assert.equal(result.liveItems,251);
+ assert.equal(result.published,103);
  assert.ok(result.resume.startsWith("G04-S2-MID|"));
  const csv=csvForMaster(buildMaster());
  assert.ok(csv.startsWith("\ufeff"));

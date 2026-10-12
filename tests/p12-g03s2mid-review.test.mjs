@@ -19,9 +19,10 @@ test("full paper review preserves 20 printed water questions, 22 answer blanks, 
  assert.ok(d.items.filter(x=>x.original_section==="READ").every(x=>x.requires_context_group!==null));
 });
 test("source science holds cannot silently auto-publish and every review event has immutable evidence",()=>{
- assert.equal(ev.events.length,120);
+ assert.equal(ev.events.length,129);
  assert.equal(ev.events.filter(x=>x.action==="START").length,57);
- assert.equal(ev.events.filter(x=>x.action==="CERTIFY_STAGED").length,54);
+ assert.equal(ev.events.filter(x=>x.action==="CERTIFY_STAGED").length,57);
+ assert.equal(ev.events.filter(x=>x.action==="PUBLIC_ADMIT").length,6);
  assert.equal(ev.events.filter(x=>x.action==="BLOCK").length,9);
  assert.ok(ev.events.every(x=>x.review_evidence_ref?.startsWith("site/data/governance/p12-g03s2mid-")));
  const scientificHolds=d.items.filter(x=>x.issue_type).map(x=>x.source_slot_id).sort();
@@ -38,10 +39,14 @@ test("round two reconciles 6 scientific questions as three conditional candidate
  assert.equal(r2.items.filter(x=>x.status==="SOURCE_DEFECT_HOLD").length,3);
  assert.ok(r2.items.every(x=>x.publication_approved===false&&x.external_evidence.startsWith("https://")&&x.required_edit));
  assert.deepEqual(new Set(r2.items.map(x=>x.source_slot_id)),new Set(scienceInitial()));
- const tail=ev.events.slice(-6);
+ const tail=ev.events.slice(114,120);
  assert.deepEqual(tail.map(x=>x.source_slot_id),r2.items.map(x=>x.source_slot_id));
  assert.equal(tail.filter(x=>x.action==="CERTIFY_STAGED").length,3);
  assert.equal(tail.filter(x=>x.action==="BLOCK").length,3);
  assert.ok(tail.every(x=>x.publication_approved===false));
+ const newEvents=ev.events.slice(120);
+ assert.deepEqual(newEvents.map(x=>x.action),[...Array(3).fill("CERTIFY_STAGED"),...Array(6).fill("PUBLIC_ADMIT")]);
+ assert.equal(new Set(newEvents.slice(3).map(x=>x.source_slot_id)).size,6);
+ assert.ok(newEvents.slice(3).every(x=>x.publication_approved===true));
 });
 function scienceInitial(){return d.items.filter(x=>x.issue_type).map(x=>x.source_slot_id)}

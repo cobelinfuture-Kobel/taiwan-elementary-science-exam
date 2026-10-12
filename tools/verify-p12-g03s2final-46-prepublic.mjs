@@ -97,9 +97,9 @@ export function verifyG03S2FinalPrepublic(){
  must(seen.size===46&&Object.values(counts).reduce((a,b)=>a+b,0)===46,"46 source slots missing");
  must(JSON.stringify(counts)===JSON.stringify({TF:6,MC:14,COMPOSITE:22,READ:4}),"source section counts");
  for(let n=2;n<=9;n++)must(!seen.has("G03-S2-FINAL|TF|P01|"+String(n).padStart(3,"0")),"P11 published TF duplicated");
- const visual=stage.blocks.filter(x=>x.type==="group"&&x.figure_spec),read=stage.blocks.filter(x=>x.type==="group"&&!x.figure_spec);
+ const visual=stage.blocks.filter(x=>x.type==="group"&&x.figure_spec),readingBlocks=stage.blocks.filter(x=>x.type==="group"&&!x.figure_spec);
  must(visual.length===6&&visual.reduce((n,x)=>n+x.items.length,0)===22
-  &&read.length===2&&read.reduce((n,x)=>n+x.items.length,0)===4,"atomic groups not retained");
+  &&readingBlocks.length===2&&readingBlocks.reduce((n,x)=>n+x.items.length,0)===4,"atomic groups not retained");
  must(figures.figure_groups.length===6&&readings.reading_groups.length===2
   &&figures.figure_status.includes("SCIENCE_ADJUDICATED"),"figure/reading contracts");
  for(const b of visual){
@@ -114,8 +114,8 @@ export function verifyG03S2FinalPrepublic(){
  must(fish.figure_spec.labels[2]==="曲面小魚缸"&&fish.items.map(x=>x.answer).join(",")==="O,X,X,O"
   &&fish.operator_science_adjudication_approved===true
   &&fish.science_correction_pending_public_approval===true,"fishbowl figure/teacher-key boundary");
- must(read.every(x=>x.shared?.passage&&x.items.every(y=>y.type==="mcq"&&y.options.length===4))
-  &&read[1].shared.passage.includes("不表示每一年都完全相同"),"source-context reading");
+ must(readingBlocks.every(x=>x.shared?.passage&&x.items.every(y=>y.type==="mcq"&&y.options.length===4))
+  &&readingBlocks[1].shared.passage.includes("不表示每一年都完全相同"),"source-context reading");
  const cloud=stage.blocks.find(x=>x.source_slot_id==="G03-S2-FINAL|MC|P01|006");
  must(cloud?.answer==="①"&&cloud.editorial_status==="SELF_CONTAINED_CLOUD_READING_RECONSTRUCTION","source-referenced reading must be independent");
  must(a4.decision==="A4_TECHNICAL_PASS_SCIENCE_ADJUDICATED_STAGED_ONLY"

@@ -312,7 +312,7 @@ try {
   await masterPage.goto("http://127.0.0.1:"+server.address().port+"/review/master/",{waitUntil:"networkidle"});
   await masterPage.waitForFunction(()=>document.querySelector("#metrics")?.textContent?.includes("326"),{timeout:15000});
   assert.equal(await masterPage.locator("#paper-rows tr").count(),16,"8 source rows plus 8 section-details rows");
-  assert.ok((await masterPage.locator("#resume").innerText()).includes("G03-S2-FINAL"),"resume must advance to next unstarted paper after six publication decisions");
+  assert.ok((await masterPage.locator("#resume").innerText()).includes("G04-S2-MID"),"resume must advance to next source after 46 stage decisions");
   assert.ok((await masterPage.locator("#metrics").innerText()).includes("205"),"public slots must show 205");
   assert.ok((await masterPage.locator("#metrics").innerText()).includes("57"),"57 source positions must be public");
   await masterPage.selectOption("#semester","2");

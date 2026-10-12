@@ -41,7 +41,7 @@ export function verifyG03S2FinalPrepublic(){
   &&correction.operator_science_adjudication_ref===approvalPath
   &&correction.operator_science_adjudication_received===true
   &&correction.public_release_approved===false
-  &&correction.original_source_question_and_image_unchanged===true,"science correction record conflict");
+  &&correction.source_original_question_and_image_unchanged===true,"science correction record conflict");
  must(source.assessed_source_answer_slots===46&&source.teacher_key_authenticated_count===0
   &&source.items.length===46&&source.previously_published_source_tf_count===8,"source acceptance scope altered");
  const reviewed=new Map(source.items.map(x=>[x.source_slot_id,x]));

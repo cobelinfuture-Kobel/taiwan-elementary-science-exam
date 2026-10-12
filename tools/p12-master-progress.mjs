@@ -10,13 +10,26 @@ const MASTER_PATH="site/data/governance/p12-master-progress.json";
 const CSV_PATH="site/data/governance/p12-master-progress.csv";
 const read=x=>JSON.parse(readFileSync(resolve(ROOT,x),"utf8"));
 const fail=(c,m)=>{if(!c)throw new Error("SCIENCE_P12_MASTER_LEDGER_INVALID: "+m);};
-const actions=new Set(["START","BLOCK","CERTIFY_STAGED","REJECT","REOPEN"]);
+const actions=new Set(["START","BLOCK","CERTIFY_STAGED","REJECT","REOPEN","PUBLIC_ADMIT"]);
+const APPROVAL_PATH="site/data/governance/p12-g03s2mid-six-operator-import-approval-v1.json";
+const RELEASE_PATH="site/data/question-bank/p12-g03s2mid-approved-six-v1.json";
 const pad=(n,width=2)=>String(n).padStart(width,"0");
 const csvEscape=x=>'"'+String(x??"").replace(/"/g,'""')+'"';
 const sortBySource=(a,b)=>a.source_order-b.source_order||a.section_order-b.section_order||a.source_part_number-b.source_part_number||a.part_slot_ordinal-b.part_slot_ordinal;
 
 export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),events=read(EVENT_PATH)}={}){
  const source=read("site/data/governance/p11-source-sections.json");
+ const approval=read(APPROVAL_PATH),release=read(RELEASE_PATH);
+ fail(approval.approved_slot_count===6&&release.expected_answer_slots===6&&release.blocks.length===5&&release.source_pdf_sha256===approval.source_pdf_sha256,"P12 public approval drift");
+ const released=new Map();
+ for(const block of release.blocks){
+  for(const sub of block.type==="group"?block.items:[block]){
+   const id=sub.source_slot_id;
+   fail(typeof id==="string"&&!released.has(id),"P12 published source slot duplicate/invalid");
+   released.set(id,{block_id:block.id,answer:sub.answer});
+  }
+ }
+ fail(released.size===6&&approval.approved_items.length===6&&approval.approved_items.every(x=>released.has(x.source_slot_id)),"P12 six-public reference mismatch");
  fail(source.source_papers.length===8&&queue.candidate_slots.length===326&&r1.reconciled_source_slots.length===477,"baseline count drift");
  fail(events.schema_version==="SCIENCE_EXAM_P12_REVIEW_EVENTS_V1"&&Array.isArray(events.events),"review journal missing");
  const priority=new Map(queue.batch_groups.map(x=>[x.source_id,x.queue_priority]));
@@ -32,7 +45,7 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
   pending.set(item.source_slot_id,{...item,source_order:paper.source_order,section_order:sectionOrder,state:"NOT_STARTED",
    last_event_id:null,last_event_at_utc:null,last_reviewer:null,review_evidence_ref:null,block_reason:null});
  }
- const observedEvents=new Set();
+ const observedEvents=new Set(),admitted=new Set();
  for(const event of events.events){
   fail(event&&typeof event.event_id==="string"&&event.event_id.length>0&&!observedEvents.has(event.event_id),"event id invalid/duplicate");
   observedEvents.add(event.event_id);
@@ -51,9 +64,18 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
   if(event.action==="REJECT")fail(["IN_PROGRESS","BLOCKED"].includes(item.state)
     &&typeof event.reason==="string"&&event.reason.trim()&&typeof event.review_evidence_ref==="string"&&event.review_evidence_ref.trim(),
     "REJECT requires reason and evidence");
+  if(event.action==="PUBLIC_ADMIT"){
+   const expected=released.get(event.source_slot_id);
+   fail(item.state==="CERTIFIED_STAGED"&&expected&&!admitted.has(event.source_slot_id)
+    &&event.publication_approved===true&&event.operator_approval_ref===APPROVAL_PATH
+    &&event.published_question_block_id===expected.block_id&&event.public_source_slot_answer===expected.answer
+    &&event.review_evidence_ref?.startsWith(RELEASE_PATH+"#"),
+    "PUBLIC_ADMIT requires staged slot, exact six-item approval and released answer");
+   admitted.add(event.source_slot_id);
+  }
   if(event.action==="REOPEN")fail(["CERTIFIED_STAGED","REJECTED"].includes(item.state)
     &&typeof event.reason==="string"&&event.reason.trim(),"REOPEN only after terminal decision with rationale");
-  const next={START:"IN_PROGRESS",BLOCK:"BLOCKED",CERTIFY_STAGED:"CERTIFIED_STAGED",REJECT:"REJECTED",REOPEN:"IN_PROGRESS"};
+  const next={START:"IN_PROGRESS",BLOCK:"BLOCKED",CERTIFY_STAGED:"CERTIFIED_STAGED",REJECT:"REJECTED",REOPEN:"IN_PROGRESS",PUBLIC_ADMIT:"PUBLISHED"};
   item.state=next[event.action];
   item.last_event_id=event.event_id;item.last_event_at_utc=event.recorded_at_utc;item.last_reviewer=event.reviewer;
   item.review_evidence_ref=event.review_evidence_ref??null;item.block_reason=event.action==="BLOCK"?event.reason:null;
@@ -71,10 +93,11 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
     in_progress:queueRows.filter(x=>x.state==="IN_PROGRESS").length,
     blocked:queueRows.filter(x=>x.state==="BLOCKED").length,
     certified_staged:queueRows.filter(x=>x.state==="CERTIFIED_STAGED").length,
+    published:queueRows.filter(x=>x.state==="PUBLISHED").length,
     rejected:queueRows.filter(x=>x.state==="REJECTED").length};
   fail(queueRows.length===r.remaining_candidate_positions,"source candidate ledger mismatch "+p.source_id);
   const left=counts.not_started+counts.in_progress+counts.blocked;
-  const resolved=counts.certified_staged+counts.rejected;
+  const resolved=counts.certified_staged+counts.published+counts.rejected;
   const rowNext=queueRows.filter(x=>["IN_PROGRESS","NOT_STARTED","BLOCKED"].includes(x.state)).sort(sortBySource)[0]??null;
   const year=113; // Recorded corpus batch only; does not imply all external papers discovered
   const sha=p.source_pdf_sha256;
@@ -105,7 +128,7 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
       not_started:slotRows.filter(x=>x.state==="NOT_STARTED").length,
       in_progress:slotRows.filter(x=>x.state==="IN_PROGRESS").length,
       blocked:slotRows.filter(x=>x.state==="BLOCKED").length,
-      resolved:slotRows.filter(x=>["CERTIFIED_STAGED","REJECTED"].includes(x.state)).length};
+      resolved:slotRows.filter(x=>["CERTIFIED_STAGED","PUBLISHED","REJECTED"].includes(x.state)).length};
    }),
    last_review_event_at_utc:queueRows.map(x=>x.last_event_at_utc).filter(Boolean).sort().at(-1)??null,
    next_source_slot_id:rowNext?.source_slot_id??null,
@@ -117,6 +140,7 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
    &&rows.reduce((a,x)=>a+x.exact_original_TF_linked,0)===72
    &&rows.reduce((a,x)=>a+x.adapted_context_original_positions_linked,0)===79
    &&rows.reduce((a,x)=>a+x.pending_before_p12,0)===326,"source accounting drift");
+ fail(admitted.size===0||admitted.size===6,"P12 operator batch must be fully published or still unpublished");
  const inProgress=[...pending.values()].filter(x=>x.state==="IN_PROGRESS").sort(sortBySource);
  const blockers=[...pending.values()].filter(x=>x.state==="BLOCKED").sort(sortBySource);
  return {
@@ -127,7 +151,10 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
   external_sources_not_yet_registered_count:null,
   paper_uid_policy:"SOURCE_PDF_SHA256_IS_IDENTITY_NOT_PUBLISHER_OR_SCOPE_ONLY",
   publisher_filter_enabled:false,
-  public_question_bank_answer_slots_unchanged:148,
+  p11_frozen_public_baseline_answer_slots:148,
+  public_question_bank_answer_slots_current:148+admitted.size,
+  p12_operator_published_slots:admitted.size,
+  p12_not_publicly_released_source_positions:326-admitted.size,
   scanned_original_answer_positions:477,
   originally_linked_exact_TF:72,
   originally_linked_adapted_context_source_positions:79,
@@ -135,6 +162,7 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
   position_status_counts:{not_started:[...pending.values()].filter(x=>x.state==="NOT_STARTED").length,
    in_progress:inProgress.length,blocked:blockers.length,
    certified_staged:[...pending.values()].filter(x=>x.state==="CERTIFIED_STAGED").length,
+   published:[...pending.values()].filter(x=>x.state==="PUBLISHED").length,
    rejected:[...pending.values()].filter(x=>x.state==="REJECTED").length},
   review_events_count:events.events.length,
   complete_papers:rows.filter(x=>x.full_paper_question_review_complete).length,
@@ -163,7 +191,7 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
 export function csvForMaster(m){
  const cols=["paper_uid","source_id","school","source_year","grade","semester","exam","source_pdf_sha256","source_original_positions",
  "exact_original_TF_linked","adapted_context_original_positions_linked","pending_before_p12","not_started","in_progress","blocked",
- "certified_staged","rejected","pending_remaining","completion_state","next_source_slot_id","last_review_event_at_utc"];
+ "certified_staged","published","rejected","pending_remaining","completion_state","next_source_slot_id","last_review_event_at_utc"];
  return "\ufeff"+[cols.join(","),...m.paper_rows.map(x=>cols.map(k=>csvEscape(x[k])).join(","))].join("\r\n")+"\r\n";
 }
 export function writeMaster({check=false}={}){
@@ -175,7 +203,8 @@ export function writeMaster({check=false}={}){
  }
  return {papers:master.paper_rows.length,positions:master.scanned_original_answer_positions,
   tf:master.originally_linked_exact_TF,adaptedPositions:master.originally_linked_adapted_context_source_positions,
-  pending:master.position_status_counts.not_started,liveItems:148,resume:master.resume_checkpoint?.source_slot_id??null};
+  pending:master.position_status_counts.not_started,liveItems:master.public_question_bank_answer_slots_current,
+  published:master.position_status_counts.published,resume:master.resume_checkpoint?.source_slot_id??null};
 }
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
  console.log("P12_MASTER_RESUME_LEDGER_PASS",JSON.stringify(writeMaster({check:process.argv.includes("--check")})));

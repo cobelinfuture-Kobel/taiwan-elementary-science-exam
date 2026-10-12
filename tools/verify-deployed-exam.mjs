@@ -17,7 +17,7 @@ try {
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 148 小題（72 題是非＋20 組情境）"),"Live site must load current pinned assets: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 154 小題（74 題是非＋1 題單選＋22 組情境）"),"Live site must load current pinned assets: "+info+"; status="+status);
   assert.equal(await page.locator("#unit option").count(),4,"live unit selector present");
   assert.ok(await page.locator("#kp option").count()>0,"live KP selector populated");
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","public default question can generate: "+status);
@@ -89,8 +89,17 @@ try {
   const asset=await page.request.get(base+"/data/question-bank/approved-historical-ox-v4.json");
   assert.equal(asset.status(),200,"Live JSON directly accessible");
   assert.equal((await asset.json()).asset_revision,rev,"Live JSON revision");
-  const screen=await page.screenshot({path:"artifacts/deployed-browser/ox-question-visible.png",fullPage:true});
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 72 O/X plus 20 contexts; 4 units; O/X; pinned JS and JSON; no demo import");
+  const p12New=await page.request.get(base+"/data/question-bank/p12-g03s2mid-approved-six-v1.json",{cache:"no-cache"});
+  assert.equal(p12New.status(),200,"P12 approved six data accessible on Pages");
+  const release=await p12New.json();
+  assert.equal(release.expected_answer_slots,6);
+  assert.equal(release.blocks.reduce((n,b)=>n+(b.type==="group"?b.items.length:1),0),6);
+  assert.equal(release.blocks.find(x=>x.id==="P12_G03S2MID_COMPOSITE_010").items[0].answer,"④");
+  const approval=await page.request.get(base+"/data/governance/p12-g03s2mid-six-operator-import-approval-v1.json",{cache:"no-cache"});
+  assert.equal(approval.status(),200,"P12 operator approval evidence available");
+  assert.equal((await approval.json()).approved_slot_count,6);
+  const screen=await page.screenshot({path:"artifacts/deployed-browser/p12-six-question-visible.png",fullPage:true});
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 154 slots including six source-approved additions; prior 148 preserved");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

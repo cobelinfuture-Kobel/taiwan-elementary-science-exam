@@ -281,6 +281,12 @@ try {
   assert.equal(await p09.locator("#groups tr").count(),20,"P09 dashboard lists all 20 admitted context groups");
   await p09.screenshot({path:output+"/s3-p09-admitted-twenty-contexts.png",fullPage:true});
   await p09.close();
+  const p10Page=await browser.newPage({viewport:{width:1280,height:840}});
+  await p10Page.goto("http://127.0.0.1:"+server.address().port+"/review/p10/",{waitUntil:"networkidle"});
+  await p10Page.waitForFunction(()=>document.querySelector("#summary")?.textContent?.includes("148"),{timeout:15000});
+  assert.equal(await p10Page.locator("#rows tr").count(),4,"P10 four exams must be visible on review page");
+  await p10Page.screenshot({path:output+"/s3-p10-s2-four-periods.png",fullPage:true});
+  await p10Page.close();
   await statusPage.close();
   console.log("S3_P05_PUBLIC_DASHBOARD_PASS: 40 original candidates, 7 built in");
   console.log("BROWSER_LAYOUT_PASS=" + JSON.stringify({ screen, print }, null, 2));

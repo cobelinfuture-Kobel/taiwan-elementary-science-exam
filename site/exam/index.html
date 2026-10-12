@@ -46,11 +46,11 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 .paper:last-child{break-after:auto!important}}
 </style></head>
 <body><main class="shell">
-<header class="hero"><p class="eyebrow">TAIWAN ELEMENTARY SCIENCE EXAM · S1</p><h1>自然科學校考券模板</h1><p>沿用數學 Exam 的組卷選項與 A4 雙欄列印概念；閱讀、實驗與圖片題組須在同一欄內完整排版，圖片等比例縮至欄寬。</p><p class="warning">內建歷屆考古題：目前 7 題已經核准科學判答並可直接組卷，後續合格題目會直接增加到網站。</p><a href="../">返回首頁</a>　<a href="../review/">查看 S3 來源與入庫狀態</a></header>
+<header class="hero"><p class="eyebrow">TAIWAN ELEMENTARY SCIENCE EXAM · S1</p><h1>自然科學校考券模板</h1><p>沿用數學 Exam 的組卷選項與 A4 雙欄列印概念；閱讀、實驗與圖片題組須在同一欄內完整排版，圖片等比例縮至欄寬。</p><p class="warning">內建歷屆考古題依來源、KP、答案及使用者核准逐題驗證；本次另加入六題三下期中修訂版。</p><a href="../">返回首頁</a>　<a href="../review/">查看 S3 來源與入庫狀態</a></header>
 <div class="work"><section class="controls">
 <h2>考卷抬頭</h2><div class="pair"><label>學校名稱<input id="school" value="○○國民小學"></label><label>學年度<input id="year" value="115"></label></div>
 <label>評量名稱<select id="exam-name"><option>期中評量</option><option>期末評量</option><option>第一次定期評量</option><option>第二次定期評量</option><option>單元練習</option></select></label>
-<div class="warning" id="bank-info">公開網站已內建 72 道是非題及 20 組完成圖文驗收的題組，不需另外匯入。；不用額外下載、上傳或切換題庫。尚未核准的題目不會混入抽題池。</div><h2>出題範圍</h2><div class="pair"><label>年級<select id="grade"><option value="3">三年級</option><option value="4" selected>四年級</option></select></label><label>學期<select id="semester"><option value="S1">上學期</option><option value="S2">下學期</option></select></label></div>
+<div class="warning" id="bank-info">公開網站正在載入已核准題庫；不需手動匯入，尚未核准的題目不得進入抽題池。</div><h2>出題範圍</h2><div class="pair"><label>年級<select id="grade"><option value="3">三年級</option><option value="4" selected>四年級</option></select></label><label>學期<select id="semester"><option value="S1">上學期</option><option value="S2">下學期</option></select></label></div>
 <label>單元<select id="unit"></select></label>
 <label>組卷模式<select id="mode"><option value="single_unit">單一單元</option><option value="single_kp">單一 KP</option><option value="same_unit">同單元多 KP</option><option value="cross_unit">跨單元</option><option value="midterm">期中 U01＋U02</option><option value="final">期末 U03＋U04</option></select></label>
 <div id="kp-wrap"><label>正式 KP 知識點（選單依已驗證的 187 KP Authority）<select id="kp"></select></label><p class="minor" id="kp-summary"></p></div>
@@ -64,7 +64,7 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 </main>
 <script type="module">
 import { loadAuthority, unitsFor, resolveUnit } from "../assets/js/authority-adapter.mjs";
-import { loadEmbeddedHistoricalBank } from "../assets/js/historical-bank-ox-v6.mjs?v=20261012-p10v1";
+import { loadEmbeddedHistoricalBank } from "../assets/js/historical-bank-ox-v6.mjs?v=20261012-p12sixv1";
 import { renderScienceDiagram } from "../assets/js/science-diagrams-p09.mjs?v=20261012-p09v1";
 const $=id=>document.getElementById(id),ui={grade:$('grade'),sem:$('semester'),unit:$('unit'),mode:$('mode'),kp:$('kp'),kpWrap:$('kp-wrap'),kpSummary:$('kp-summary'),crossWrap:$('cross-wrap'),cross:$('cross'),crossKPs:$('cross-kps'),count:$('count'),order:$('order'),seed:$('seed'),sheet:$('sheet'),status:$('status'),print:$('print'),meta:$('meta')};
 const qaFixture=(location.hostname==="127.0.0.1"||location.hostname==="localhost")&&new URLSearchParams(location.search).has("qa");
@@ -127,7 +127,7 @@ function invalidate(){ui.print.disabled=true;ui.meta.textContent='請重新產�
 function seeded(blocks,seed){let h=2166136261;for(const ch of seed){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)}let x=h>>>0||1;const a=[...blocks];for(let i=a.length-1;i>0;i--){x^=x<<13;x^=x>>>17;x^=x<<5;const j=(x>>>0)%(i+1);[a[i],a[j]]=[a[j],a[i]]}return a;}
 const size=b=>b.type==='group'?b.items.length:1;
 function subset(blocks,n){const sums=new Map([[0,[]]]);for(const b of blocks){for(const [v,old] of [...sums].sort((a,z)=>z[0]-a[0])){const next=v+size(b);if(next<=n&&!sums.has(next))sums.set(next,[...old,b]);}}return sums.get(n)||null;}
-function selectedPool(){const mode=ui.mode.value,uid=ui.unit.value,pre=ui.grade.value+'-'+ui.sem.value+'-',selected=[...ui.cross.querySelectorAll('input:checked')].map(x=>x.value);if(mode==='cross_unit'&&selected.length<2)throw Error('跨單元至少需選兩個單元');const kps=new Set([...ui.kp.selectedOptions].map(x=>x.value));const crossKPs=new Set([...ui.crossKPs.querySelectorAll('input:checked')].map(x=>x.value));if(mode==='same_unit'&&kps.size<2)throw Error('同單元多 KP 至少選兩個知識點');if(mode==='cross_unit')for(const sourceId of selected){const u=resolveUnit(authority,sourceId);if(!u||!u.knowledge_points.some(x=>crossKPs.has(x.canonical_kp_id)))throw Error('每個跨單元至少勾選一個知識點');}if(!bank)throw Error('內建考古題庫尚未載入');return bank.blocks.filter(b=>{if(!b.unit.startsWith(pre))return false;if(mode==='midterm')return /U0[12]$/.test(b.unit);if(mode==='final')return /U0[34]$/.test(b.unit);if(mode==='cross_unit')return selected.includes(b.unit)&&crossKPs.has(b.canonical_kp_id);if(b.unit!==uid)return false;if(mode==='single_unit')return true;return kps.has(b.canonical_kp_id);});}
+function selectedPool(){const mode=ui.mode.value,uid=ui.unit.value,pre=ui.grade.value+'-'+ui.sem.value+'-',selected=[...ui.cross.querySelectorAll('input:checked')].map(x=>x.value);if(mode==='cross_unit'&&selected.length<2)throw Error('跨單元至少需選兩個單元');const kps=new Set([...ui.kp.selectedOptions].map(x=>x.value));const crossKPs=new Set([...ui.crossKPs.querySelectorAll('input:checked')].map(x=>x.value));if(mode==='same_unit'&&kps.size<2)throw Error('同單元多 KP 至少選兩個知識點');if(mode==='cross_unit')for(const sourceId of selected){const u=resolveUnit(authority,sourceId);if(!u||!u.knowledge_points.some(x=>crossKPs.has(x.canonical_kp_id)))throw Error('每個跨單元至少勾選一個知識點');}if(!bank)throw Error('內建考古題庫尚未載入');return bank.blocks.filter(b=>{if(!b.unit.startsWith(pre))return false;if(mode==='midterm')return /U0[12]$/.test(b.unit);if(mode==='final')return /U0[34]$/.test(b.unit);if(mode==='cross_unit')return selected.includes(b.unit)&&[b.canonical_kp_id,...(b.secondary_canonical_kp_ids??[])].some(x=>crossKPs.has(x));if(b.unit!==uid)return false;if(mode==='single_unit')return true;return [b.canonical_kp_id,...(b.secondary_canonical_kp_ids??[])].some(x=>kps.has(x));});}
 function node(tag,cls,txt){const x=document.createElement(tag);if(cls)x.className=cls;if(txt!==undefined)x.textContent=txt;return x;}
 function child(parent,tag,cls,txt){const x=node(tag,cls,txt);parent.append(x);return x;}
 function paper(answer){const p=node('section','paper');p.dataset.answer=answer?'true':'false';const head=child(p,'header');child(head,'h3','',($('school').value||'○○國民小學')+'　'+$('year').value+' 學年度');child(head,'div','', '自然科 '+$('exam-name').value+(answer?(qaFixture?'｜示範答案':'｜科學判答與說明'):''));child(head,'div','student','年級：_____　班級：_____　座號：_____　姓名：______________');child(head,'div','watermark',qaFixture?'DEMO_ONLY｜本機版面測試':'歷屆學校考古題｜科學判答，非原校教師答案表');if(!answer&&!qaFixture)child(head,'div','student','是非題：請在題目前的（　）內填入 O 或 X。');const body=child(p,'div','body'),foot=child(p,'footer');child(foot,'span','', 'Science Exam');const num=child(foot,'span');ui.sheet.append(p);return {p,body,num,mode:'',targets:[]};}
@@ -178,7 +178,7 @@ async function init(){
    if(bank.admission!=="DEMO_ONLY")throw Error('QA 測試版本不符');
   }else{
    bank=await loadEmbeddedHistoricalBank(authority);
-   document.querySelector("#bank-info").textContent="已載入內建考古題 "+bank.certifiedAnswerSlots+" 小題（"+bank.certifiedTrueFalse+" 題是非＋"+bank.certifiedGroupCount+" 組情境）；選年級、單元或 KP 後直接產生考卷。";
+   document.querySelector("#bank-info").textContent="已載入內建考古題 "+bank.certifiedAnswerSlots+" 小題（"+bank.certifiedTrueFalse+" 題是非＋"+bank.certifiedStandaloneChoice+" 題單選＋"+bank.certifiedGroupCount+" 組情境）；選年級、單元或 KP 後直接產生考卷。";
   }
   syncUnits();generate();
  }catch(e){ui.status.textContent='題庫載入或版本檢查失敗：'+e.message+'。請重新整理網頁；若持續發生，請回報此訊息。';ui.status.dataset.error='true';$('generate').disabled=true;ui.print.disabled=true;ui.sheet.replaceChildren();if(!authority)ui.kpSummary.textContent='正式 KP Authority 尚未載入；已禁止組卷。';else ui.kpSummary.textContent='187 KP 選單已載入，但核准題庫版本不一致，暫停組卷。';}

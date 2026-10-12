@@ -41,6 +41,8 @@ test("six-question loader fails closed for missing origin, duplicate slot and re
 test("P12 addition does not alter frozen 72 OX and 20 context group assets",async()=>{
  const old=read("site/data/question-bank/approved-historical-ox-v4.json");
  const contexts=read("site/data/question-bank/certified-context-groups-v2.json");
+ const remaining=read("site/data/question-bank/p12-g03s2mid-remaining51-public-v1.json");
+ const approval=read("site/data/governance/p12-g03s2mid-remaining51-operator-public-approval-v1.json");
  assert.equal(old.blocks.length,72);
  assert.equal(contexts.groups.length,20);
  assert.equal(contexts.expected_answer_slots,76);
@@ -48,16 +50,16 @@ test("P12 addition does not alter frozen 72 OX and 20 context group assets",asyn
  globalThis.fetch=async url=>({
   ok:true,
   json:async()=>structuredClone(url.includes("approved-historical-ox-v4")?old:
-   url.includes("certified-context-groups-v2")?contexts:supplement)
+   url.includes("certified-context-groups-v2")?contexts:url.includes("remaining51-public-v1")?remaining:url.includes("remaining51-operator-public-approval-v1")?approval:supplement)
  });
  try{
   const all=await loadEmbeddedHistoricalBank(authority);
   assert.equal(all.admission,"EMBEDDED_CERTIFIED_HISTORICAL");
-  assert.equal(all.certifiedAnswerSlots,154);
-  assert.equal(all.certifiedTrueFalse,74);
-  assert.equal(all.certifiedStandaloneChoice,1);
-  assert.equal(all.certifiedGroupCount,22);
-  assert.equal(all.blocks.length,72+20+5);
+  assert.equal(all.certifiedAnswerSlots,205);
+  assert.equal(all.certifiedTrueFalse,84);
+  assert.equal(all.certifiedStandaloneChoice,12);
+  assert.equal(all.certifiedGroupCount,28);
+  assert.equal(all.blocks.length,72+20+5+27);
   assert.equal(new Set(all.blocks.map(b=>b.id)).size,all.blocks.length);
  }finally{globalThis.fetch=oldFetch}
 });

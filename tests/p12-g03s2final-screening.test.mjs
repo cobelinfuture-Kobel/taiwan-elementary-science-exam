@@ -52,7 +52,7 @@ test("source-dependence holds the unattached cloud reading rather than inventing
  assert.equal(review.bulk_publication_approved,false);
 });
 test("append-only event trail contains original 180, then 46 START and 45 STAGED/1 BLOCK decisions",()=>{
- assert.equal(events.length,274);
+ assert.equal(events.length,320);
  const tail=events.slice(180,272);
  assert.equal(tail.length,92);
  assert.equal(tail.filter(x=>x.action==="START").length,46);
@@ -66,15 +66,15 @@ test("source review count, publication count and blocker resume are reconciled w
  const master=buildMaster();
  const row=master.paper_rows.find(x=>x.source_id===source);
  assert.equal(row.pending_before_p12,46);
- assert.equal(row.certified_staged,46);assert.equal(row.blocked,0);
- assert.equal(row.not_started,0);assert.equal(row.published,0);
+ assert.equal(row.certified_staged,0);assert.equal(row.blocked,0);
+ assert.equal(row.not_started,0);assert.equal(row.published,46);
  assert.equal(row.pending_remaining,0);
- assert.equal(master.position_status_counts.published,57);
- assert.equal(master.position_status_counts.certified_staged,46);
+ assert.equal(master.position_status_counts.published,103);
+ assert.equal(master.position_status_counts.certified_staged,0);
  assert.equal(master.position_status_counts.not_started,223);
  assert.equal(master.position_status_counts.blocked,0);
- assert.equal(master.public_question_bank_answer_slots_current,205);
- assert.equal(master.p12_not_publicly_released_source_positions,269);
+ assert.equal(master.public_question_bank_answer_slots_current,251);
+ assert.equal(master.p12_not_publicly_released_source_positions,223);
  assert.ok(master.resume_checkpoint.source_slot_id.startsWith("G04-S2-MID|"));
  assert.equal(master.resume_checkpoint.state,"NOT_STARTED");
  assert.equal(master.next_unstarted_screening_source_id,"G04-S2-MID");

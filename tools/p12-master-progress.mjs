@@ -15,6 +15,8 @@ const APPROVAL_PATH="site/data/governance/p12-g03s2mid-six-operator-import-appro
 const RELEASE_PATH="site/data/question-bank/p12-g03s2mid-approved-six-v1.json";
 const APPROVAL_51_PATH="site/data/governance/p12-g03s2mid-remaining51-operator-public-approval-v1.json";
 const RELEASE_51_PATH="site/data/question-bank/p12-g03s2mid-remaining51-public-v1.json";
+const APPROVAL_46_PATH="site/data/governance/p12-g03s2final-46-operator-public-approval-v1.json";
+const RELEASE_46_PATH="site/data/question-bank/p12-g03s2final-46-public-v1.json";
 const pad=(n,width=2)=>String(n).padStart(width,"0");
 const csvEscape=x=>'"'+String(x??"").replace(/"/g,'""')+'"';
 const sortBySource=(a,b)=>a.source_order-b.source_order||a.section_order-b.section_order||a.source_part_number-b.source_part_number||a.part_slot_ordinal-b.part_slot_ordinal;
@@ -23,6 +25,7 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
  const source=read("site/data/governance/p11-source-sections.json");
  const approval=read(APPROVAL_PATH),release=read(RELEASE_PATH);
  const approval51=read(APPROVAL_51_PATH),release51=read(RELEASE_51_PATH);
+ const approval46=read(APPROVAL_46_PATH),release46=read(RELEASE_46_PATH);
  fail(approval51.approved_slot_count===51&&approval51.approved_block_count===27&&release51.expected_answer_slots===51
    &&release51.expected_question_blocks===27&&release51.public_site_integrated===true
    &&approval51.source_pdf_sha256===release51.source_pdf_sha256
@@ -49,6 +52,23 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
   return y?.approval_ref===APPROVAL_51_PATH&&y.block_id===x.published_block_id
     &&y.answer===x.answer&&release51.blocks.some(b=>b.id===y.block_id&&b.unit===x.unit);
  }),"51 source slots, operator approval and released answers must match");
+ fail(approval46.approved_slot_count===46&&approval46.approved_block_count===28
+   &&approval46.expected_total_public_answer_slots===251&&approval46.preexisting_public_answer_slots===205
+   &&approval46.source_pdf_sha256===release46.source_pdf_sha256&&approval46.approved_release_path===RELEASE_46_PATH
+   &&release46.expected_answer_slots===46&&release46.expected_question_blocks===28&&release46.public_site_integrated===true,
+   "G03 final 46 source-public operator approval drift");
+ for(const block of release46.blocks){
+  for(const item of block.type==="group"?block.items:[block]){
+   const id=item.source_slot_id;
+   fail(typeof id==="string"&&!released.has(id),"G03 final 46 release source slot duplicated");
+   released.set(id,{block_id:block.id,answer:item.answer,approval_ref:APPROVAL_46_PATH,release_ref:RELEASE_46_PATH});
+  }
+ }
+ fail(released.size===103&&approval46.approved_items.length===46&&approval46.approved_items.every(x=>{
+  const y=released.get(x.source_slot_id);
+  return y?.approval_ref===APPROVAL_46_PATH&&y.block_id===x.published_block_id&&y.answer===x.answer
+   &&release46.blocks.some(b=>b.id===y.block_id&&b.unit===x.unit);
+ }),"G03 final 46 source slots, answer and operator approval mismatch");
  fail(source.source_papers.length===8&&queue.candidate_slots.length===326&&r1.reconciled_source_slots.length===477,"baseline count drift");
  fail(events.schema_version==="SCIENCE_EXAM_P12_REVIEW_EVENTS_V1"&&Array.isArray(events.events),"review journal missing");
  const priority=new Map(queue.batch_groups.map(x=>[x.source_id,x.queue_priority]));
@@ -89,7 +109,7 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
     &&event.publication_approved===true&&event.operator_approval_ref===(expected.approval_ref??APPROVAL_PATH)
     &&event.published_question_block_id===expected.block_id&&event.public_source_slot_answer===expected.answer
     &&event.review_evidence_ref?.startsWith((expected.release_ref??RELEASE_PATH)+"#"),
-    "PUBLIC_ADMIT requires staged slot, exact six-item approval and released answer");
+    "PUBLIC_ADMIT requires staged slot, exact operator approval and released answer");
    admitted.add(event.source_slot_id);
   }
   if(event.action==="REOPEN")fail(["CERTIFIED_STAGED","REJECTED"].includes(item.state)
@@ -160,8 +180,10 @@ export function buildMaster({r1=reconcileP11R1(),queue=buildP12Preflight({r1}),e
    &&rows.reduce((a,x)=>a+x.adapted_context_original_positions_linked,0)===79
    &&rows.reduce((a,x)=>a+x.pending_before_p12,0)===326,"source accounting drift");
  const from51=[...admitted].filter(id=>released.get(id)?.approval_ref===APPROVAL_51_PATH);
- fail((admitted.size===0||admitted.size===6||admitted.size===57)&&(from51.length===0||from51.length===51),
+ const from46=[...admitted].filter(id=>released.get(id)?.approval_ref===APPROVAL_46_PATH);
+ fail((admitted.size===0||admitted.size===6||admitted.size===57||admitted.size===103)&&(from51.length===0||from51.length===51),
   "P12 operator source batches cannot be partially published");
+ fail(from46.length===0||from46.length===46,"P12 G03 final batch cannot be partially published");
  const inProgress=[...pending.values()].filter(x=>x.state==="IN_PROGRESS").sort(sortBySource);
  const blockers=[...pending.values()].filter(x=>x.state==="BLOCKED").sort(sortBySource);
  return {

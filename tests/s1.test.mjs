@@ -35,7 +35,7 @@ test("TF item has O/X parenthesis before number and no invented 正確/錯誤 ch
 
 test("public Exam pins a versioned JS module and keeps selectors when bank fails",()=>{
  const html=read("site/exam/index.html");
- assert.match(html,/historical-bank-ox-v4\.mjs\?v=20261012-ctxv1/);
+ assert.match(html,/historical-bank-ox-v5\.mjs\?v=20261012-p09v1/);
  assert.match(html,/authority=await loadAuthority\(\);\s*\/\/ Render canonical curriculum selector/);
  assert.match(html,/syncUnits\(\);\s*if\(qaFixture\)/);
  assert.match(html,/題庫載入或版本檢查失敗/);
@@ -48,4 +48,12 @@ test("historical context group renderer preserves all subquestions in a single c
  assert.match(html,/group-context/);
  assert.match(html,/answers\.push\(\{number:\+\+ix,answer:sub\.answer,explanation:sub\.answer_explanation/);
  assert.match(html,/break-inside:avoid/);
+});
+
+test("P09 new scalable vector diagrams replace screenshot crops with explicit scoring rubric",()=>{
+ const html=read("site/exam/index.html");
+ assert.match(html,/renderScienceDiagram\(b\.diagram_kind\)/);
+ assert.match(html,/if\(entry\.draw==='DRAW_CIRCUIT'\)x\.append/);
+ assert.match(html,/science-diagram/);
+ assert.doesNotMatch(html,/private_contexts\/.*\.png/);
 });

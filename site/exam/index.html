@@ -29,6 +29,10 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 .group-context .group-passage{font-size:8.5pt;line-height:1.42;margin:2mm 0}
 .group-context .choice-bank{font-size:8.5pt;display:grid;grid-template-columns:1fr;gap:.5mm;margin:2mm 0;padding:1mm 2mm;background:#f8f8f8}
 .group-context .question{font-size:9pt;line-height:1.3;margin:1.5mm 0;break-inside:avoid}
+.group-context .science-diagram{display:block;width:100%;max-width:100%;height:auto;max-height:49mm;margin:1.5mm auto;object-fit:contain}
+.group-context .science-diagram[aria-label*="作圖"]{max-height:43mm}
+.answer .science-diagram{max-width:74mm;width:100%;height:auto;max-height:32mm;display:block}
+
 .group-context .opts{font-size:8pt;grid-template-columns:1fr 1fr;line-height:1.3;gap:1mm 2mm;padding-left:2mm}
 .group-context th,.group-context td{font-size:7.5pt;padding:1mm!important;white-space:normal;text-align:center}
 .group-context th:first-child,.group-context td:first-child{max-width:18mm;text-align:left}
@@ -46,7 +50,7 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 <div class="work"><section class="controls">
 <h2>考卷抬頭</h2><div class="pair"><label>學校名稱<input id="school" value="○○國民小學"></label><label>學年度<input id="year" value="115"></label></div>
 <label>評量名稱<select id="exam-name"><option>期中評量</option><option>期末評量</option><option>第一次定期評量</option><option>第二次定期評量</option><option>單元練習</option></select></label>
-<div class="warning" id="bank-info">公開網站已內建 40 道是非題及 9 組圖文情境題，不需另外匯入。；不用額外下載、上傳或切換題庫。尚未核准的題目不會混入抽題池。</div><h2>出題範圍</h2><div class="pair"><label>年級<select id="grade"><option value="3">三年級</option><option value="4" selected>四年級</option></select></label><label>學期<select id="semester"><option value="S1">上學期</option><option value="S2">下學期</option></select></label></div>
+<div class="warning" id="bank-info">公開網站已內建 40 道是非題及 20 組完成重新繪圖與科學驗收的題組，不需另外匯入。；不用額外下載、上傳或切換題庫。尚未核准的題目不會混入抽題池。</div><h2>出題範圍</h2><div class="pair"><label>年級<select id="grade"><option value="3">三年級</option><option value="4" selected>四年級</option></select></label><label>學期<select id="semester"><option value="S1">上學期</option><option value="S2">下學期</option></select></label></div>
 <label>單元<select id="unit"></select></label>
 <label>組卷模式<select id="mode"><option value="single_unit">單一單元</option><option value="single_kp">單一 KP</option><option value="same_unit">同單元多 KP</option><option value="cross_unit">跨單元</option><option value="midterm">期中 U01＋U02</option><option value="final">期末 U03＋U04</option></select></label>
 <div id="kp-wrap"><label>正式 KP 知識點（選單依已驗證的 187 KP Authority）<select id="kp"></select></label><p class="minor" id="kp-summary"></p></div>
@@ -60,7 +64,8 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 </main>
 <script type="module">
 import { loadAuthority, unitsFor, resolveUnit } from "../assets/js/authority-adapter.mjs";
-import { loadEmbeddedHistoricalBank } from "../assets/js/historical-bank-ox-v4.mjs?v=20261012-ctxv1";
+import { loadEmbeddedHistoricalBank } from "../assets/js/historical-bank-ox-v5.mjs?v=20261012-p09v1";
+import { renderScienceDiagram } from "../assets/js/science-diagrams-p09.mjs?v=20261012-p09v1";
 const $=id=>document.getElementById(id),ui={grade:$('grade'),sem:$('semester'),unit:$('unit'),mode:$('mode'),kp:$('kp'),kpWrap:$('kp-wrap'),kpSummary:$('kp-summary'),crossWrap:$('cross-wrap'),cross:$('cross'),crossKPs:$('cross-kps'),count:$('count'),order:$('order'),seed:$('seed'),sheet:$('sheet'),status:$('status'),print:$('print'),meta:$('meta')};
 const qaFixture=(location.hostname==="127.0.0.1"||location.hostname==="localhost")&&new URLSearchParams(location.search).has("qa");
 let authority=null,bank=null;
@@ -144,7 +149,11 @@ function sourceContextGroup(b,start){
   const tbody=child(table,'tbody');
   b.shared.table.rows.forEach(row=>{const tr=child(tbody,'tr');row.forEach(x=>child(tr,'td','',x));});
  }
- b.items.forEach((item,i)=>a.append(question(item,start+i)));
+ if(b.diagram_kind&&b.diagram_kind!=="DRAW_CIRCUIT")a.append(renderScienceDiagram(b.diagram_kind));
+ b.items.forEach((item,i)=>{
+   a.append(question(item,start+i));
+   if(item.type==="draw")a.append(renderScienceDiagram("DRAW_CIRCUIT"));
+ });
  return a;
 }
 function group(b,start){if(b.source==='CERTIFIED_CONTEXT_RECONSTRUCTED')return sourceContextGroup(b,start);const a=node('section','group');child(a,'h4','',b.title+'（題組，'+start+'–'+(start+b.items.length-1)+' 題）');child(a,'p','',b.passage);const fig=document.createElementNS('http://www.w3.org/2000/svg','svg');fig.classList.add('diagram');a.append(fig);fig.setAttribute('width','420');fig.setAttribute('height','110');fig.setAttribute('viewBox','0 0 420 110');fig.setAttribute('preserveAspectRatio','xMidYMid meet');fig.setAttribute('role','img');fig.setAttribute('aria-label','示範水生植物示意圖');const ns='http://www.w3.org/2000/svg';const rect=document.createElementNS(ns,'rect');rect.setAttribute('width','420');rect.setAttribute('height','110');rect.setAttribute('fill','#d2ecfa');fig.append(rect);const line=document.createElementNS(ns,'path');line.setAttribute('d','M0 46 H420 M90 90 L90 30 M240 91 L240 58');line.setAttribute('stroke','#327da9');line.setAttribute('stroke-width','4');fig.append(line);const ellipse=document.createElementNS(ns,'ellipse');ellipse.setAttribute('cx','90');ellipse.setAttribute('cy','30');ellipse.setAttribute('rx','43');ellipse.setAttribute('ry','11');ellipse.setAttribute('fill','#6eb66e');fig.append(ellipse);b.items.forEach((x,i)=>a.append(question(x,start+i)));return a;}
@@ -153,8 +162,8 @@ let pages=[],num=0;const newPage=()=>{const p=paper(false);layout(p,'two');pages
 let current=newPage(),col=0;for(const b of chosen){const start=num+1;const el=b.type==='group'?group(b,start):question(b,num+1);const count=size(b);let mounted=false;
 for(let attempt=0;attempt<3&&!mounted;attempt++){const target=current.targets[col];target.append(el);if(!overflow(target)){mounted=true;break;}target.removeChild(el);if(col+1<current.targets.length)col++;else{current=newPage();col=0;}}
 if(!mounted)throw Error('題目內容過高，拒絕裁切');num+=count;}
-let answers=[];let ix=0;for(const b of chosen){if(b.type==='group')for(const sub of b.items)answers.push({number:++ix,answer:sub.answer,explanation:sub.answer_explanation,qualification:sub.answer_assumption});else answers.push({number:++ix,answer:b.type==='tf'?(qaFixture?(b.answer==='正確'?'O':'X'):b.answer):b.answer,explanation:b.answer_explanation,qualification:b.answer_assumption});}
-if($('answer-key').checked){let a=paper(true);layout(a,'two');pages.push(a);let ci=0;for(const entry of answers){const x=node('div','answer',entry.number+'. '+entry.answer);if(historical&&entry.explanation)child(x,'small','',entry.explanation);if(historical&&entry.qualification)child(x,'small','', '判斷前提：'+entry.qualification);let ok=false;for(let tr=0;tr<3&&!ok;tr++){a.targets[ci].append(x);if(!overflow(a.targets[ci]))ok=true;else{x.remove();if(ci===0)ci=1;else{a=paper(true);layout(a,'two');pages.push(a);ci=0;}}}if(!ok)throw Error('答案頁無法排版');}}
+let answers=[];let ix=0;for(const b of chosen){if(b.type==='group')for(const sub of b.items)answers.push({number:++ix,answer:sub.answer,explanation:sub.answer_explanation,qualification:sub.answer_assumption,draw:(sub.type==='draw'?b.diagram_kind:null)});else answers.push({number:++ix,answer:b.type==='tf'?(qaFixture?(b.answer==='正確'?'O':'X'):b.answer):b.answer,explanation:b.answer_explanation,qualification:b.answer_assumption});}
+if($('answer-key').checked){let a=paper(true);layout(a,'two');pages.push(a);let ci=0;for(const entry of answers){const x=node('div','answer',entry.number+'. '+entry.answer);if(historical&&entry.explanation)child(x,'small','',entry.explanation);if(historical&&entry.qualification)child(x,'small','', '判斷前提：'+entry.qualification);if(entry.draw==='DRAW_CIRCUIT')x.append(renderScienceDiagram('DRAW_CIRCUIT',{answer:true}));let ok=false;for(let tr=0;tr<3&&!ok;tr++){a.targets[ci].append(x);if(!overflow(a.targets[ci]))ok=true;else{x.remove();if(ci===0)ci=1;else{a=paper(true);layout(a,'two');pages.push(a);ci=0;}}}if(!ok)throw Error('答案頁無法排版');}}
 pages.forEach((p,i)=>p.num.textContent='第 '+(i+1)+'／'+pages.length+' 頁');ui.meta.textContent=(historical?'內建考古題 ':'示範題 ')+num+' 小題｜A4 '+pages.length+' 頁｜'+(historical?'科學判答':'DEMO_ONLY');ui.status.textContent=historical?'已從公開內建題庫組卷；答案為科學論證，不代表原校教師答案表。':'示範考卷已完成（僅限本機 QA）。';ui.print.disabled=false;
 }catch(e){ui.sheet.replaceChildren();ui.status.dataset.error='true';ui.status.textContent=e.message;ui.meta.textContent='尚未產生';}}
 async function init(){

@@ -1,0 +1,478 @@
+{
+  "schema_version": "SCIENCE_P12_G03S2FINAL_46_OPERATOR_PUBLIC_APPROVAL_V1",
+  "source_id": "G03-S2-FINAL",
+  "source_pdf_sha256": "078806660f9673fd3e677c25afb348e0e3e9cc97fe866d94c91f1a370a33b793",
+  "decision": "APPROVE_46_SOURCE_VERIFIED_LEARNER_POSITIONS_FOR_PUBLIC_ADMISSION",
+  "operator_approval_intent": "Explicit user request on 2026-10-12 to publicly admit 28 validated blocks and 46 source answer positions, preserving old fishbowl O and using approved X",
+  "exact_prepublic_approval_ref": "data/review/p12-g03s2final-46-prepublic-acceptance-v1.json",
+  "fishbowl_science_adjudication_ref": "data/review/p12-g03s2final-fishbowl-operator-science-adjudication-v1.json",
+  "approved_release_path": "site/data/question-bank/p12-g03s2final-46-public-v1.json",
+  "approved_slot_count": 46,
+  "approved_block_count": 28,
+  "preexisting_public_answer_slots": 205,
+  "expected_total_public_answer_slots": 251,
+  "original_p11_public_tf_excluded": 8,
+  "teacher_answer_key_authenticated": false,
+  "approved_items": [
+    {
+      "source_slot_id": "G03-S2-FINAL|TF|P01|001",
+      "published_block_id": "P12_G03S2FINAL_TF_001",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_03_03",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|TF|P01|010",
+      "published_block_id": "P12_G03S2FINAL_TF_010",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_04_03",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|TF|P01|011",
+      "published_block_id": "P12_G03S2FINAL_TF_011",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_04_08",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|TF|P01|012",
+      "published_block_id": "P12_G03S2FINAL_TF_012",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_03_04",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|TF|P01|013",
+      "published_block_id": "P12_G03S2FINAL_TF_013",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_04_11",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|TF|P01|014",
+      "published_block_id": "P12_G03S2FINAL_TF_014",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_03_11",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|001",
+      "published_block_id": "P12_G03S2FINAL_MC_001",
+      "answer": "④",
+      "canonical_kp_id": "sci_g03s2_04_02",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|002",
+      "published_block_id": "P12_G03S2FINAL_MC_002",
+      "answer": "①",
+      "canonical_kp_id": "sci_g03s2_03_03",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|003",
+      "published_block_id": "P12_G03S2FINAL_MC_003",
+      "answer": "①",
+      "canonical_kp_id": "sci_g03s2_04_12",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|004",
+      "published_block_id": "P12_G03S2FINAL_MC_004",
+      "answer": "②",
+      "canonical_kp_id": "sci_g03s2_03_01",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|005",
+      "published_block_id": "P12_G03S2FINAL_MC_005",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_03_08",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|006",
+      "published_block_id": "P12_G03S2FINAL_MC_006",
+      "answer": "①",
+      "canonical_kp_id": "sci_g03s2_04_05",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|007",
+      "published_block_id": "P12_G03S2FINAL_MC_007",
+      "answer": "④",
+      "canonical_kp_id": "sci_g03s2_03_10",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|008",
+      "published_block_id": "P12_G03S2FINAL_MC_008",
+      "answer": "②",
+      "canonical_kp_id": "sci_g03s2_04_02",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|009",
+      "published_block_id": "P12_G03S2FINAL_MC_009",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_03_02",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|010",
+      "published_block_id": "P12_G03S2FINAL_MC_010",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_04_01",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|011",
+      "published_block_id": "P12_G03S2FINAL_MC_011",
+      "answer": "②",
+      "canonical_kp_id": "sci_g03s2_04_06",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|012",
+      "published_block_id": "P12_G03S2FINAL_MC_012",
+      "answer": "④",
+      "canonical_kp_id": "sci_g03s2_03_06",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|013",
+      "published_block_id": "P12_G03S2FINAL_MC_013",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_04_13",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|MC|P01|014",
+      "published_block_id": "P12_G03S2FINAL_MC_014",
+      "answer": "①",
+      "canonical_kp_id": "sci_g03s2_03_09",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 1,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P01|001",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P01",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_03_03",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P01|002",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P01",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_03_03",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P01|003",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P01",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_03_03",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P01|004",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P01",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_03_03",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P02|001",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P02",
+      "answer": "C",
+      "canonical_kp_id": "sci_g03s2_03_04",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P02|002",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P02",
+      "answer": "A",
+      "canonical_kp_id": "sci_g03s2_03_04",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P02|003",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P02",
+      "answer": "B",
+      "canonical_kp_id": "sci_g03s2_03_04",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P03|001",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P03",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_04_06",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P03|002",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P03",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_04_06",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P03|003",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P03",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_04_06",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": "data/review/p12-g03s2final-composite-p03-q03-science-correction-v1.json"
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P03|004",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P03",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_04_06",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P04|001",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P04",
+      "answer": "B",
+      "canonical_kp_id": "sci_g03s2_04_08",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P04|002",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P04",
+      "answer": "A",
+      "canonical_kp_id": "sci_g03s2_04_08",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P04|003",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P04",
+      "answer": "D",
+      "canonical_kp_id": "sci_g03s2_04_08",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P04|004",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P04",
+      "answer": "F",
+      "canonical_kp_id": "sci_g03s2_04_09",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P05|001",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P05",
+      "answer": "B",
+      "canonical_kp_id": "sci_g03s2_04_12",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P05|002",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P05",
+      "answer": "C",
+      "canonical_kp_id": "sci_g03s2_04_12",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P05|003",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P05",
+      "answer": "A",
+      "canonical_kp_id": "sci_g03s2_04_12",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P06|001",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P06",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_03_10",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P06|002",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P06",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_03_10",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P06|003",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P06",
+      "answer": "O",
+      "canonical_kp_id": "sci_g03s2_03_10",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|COMPOSITE|P06|004",
+      "published_block_id": "P12_G03S2FINAL_COMPOSITE_P06",
+      "answer": "X",
+      "canonical_kp_id": "sci_g03s2_03_10",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|READ|P01|001",
+      "published_block_id": "P12_G03S2FINAL_READ_P01",
+      "answer": "③",
+      "canonical_kp_id": "sci_g03s2_03_04",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|READ|P01|002",
+      "published_block_id": "P12_G03S2FINAL_READ_P01",
+      "answer": "①",
+      "canonical_kp_id": "sci_g03s2_03_05",
+      "unit": "3-S2-U03",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|READ|P02|001",
+      "published_block_id": "P12_G03S2FINAL_READ_P02",
+      "answer": "②",
+      "canonical_kp_id": "sci_g03s2_04_05",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    },
+    {
+      "source_slot_id": "G03-S2-FINAL|READ|P02|002",
+      "published_block_id": "P12_G03S2FINAL_READ_P02",
+      "answer": "④",
+      "canonical_kp_id": "sci_g03s2_04_13",
+      "unit": "3-S2-U04",
+      "source_page_pdf_1_based": 2,
+      "original_source_review_preserved": true,
+      "science_exception_ref": null
+    }
+  ]
+}

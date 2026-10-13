@@ -1,0 +1,75 @@
+{
+  "schema_version": "P12_G04S1_114_B03_FOUR_CORRECTABLE_DRAFT_ONLY_V1",
+  "source_verdict_ref": "data/review/p12-g04s1-114-b03-dahua-mid-science-figure-verdict-v1.json",
+  "original_source_ref": "data/review/p12-g04s1-114-hanlin-dahua-mid-50-source-kp-first-v1.json",
+  "correction_count": 4,
+  "all_operator_final_approval_pending": true,
+  "all_KP_authority_review_pending": true,
+  "source_teacher_key_verified": false,
+  "source_copyright_public_rights_cleared": false,
+  "public_admission_approved": false,
+  "items": [
+    {
+      "issue": "蝌蚪變成成蛙時，『皮膚狀態』並非明確固定且不變的可驗證量，題目要求唯一不變選項不嚴謹",
+      "proposed_new_question": "下列哪個現象較能表示蝌蚪長成青蛙後，身體的運動方式發生了改變？",
+      "proposed_options": [
+        "①由用尾巴游泳為主逐漸轉為利用後肢游泳及跳躍",
+        "②終生只能用尾巴游泳",
+        "③出生後沒有任何器官改變",
+        "④不能生活在水裡"
+      ],
+      "expected_after_rewrite": "①",
+      "kp_status": "PENDING_RECHECK_CURRENT45",
+      "source_slot_id": "SCI_G04_S1_114_MID_010|S02|MC|013",
+      "rewrite_state": "DRAFT_NO_PUBLIC_RELEASE",
+      "operator_approved": false
+    },
+    {
+      "issue": "原選項把『珊瑚礁岩建材』正常化，易被解讀為鼓勵採集珊瑚，欠缺生態保護與法規脈絡",
+      "proposed_new_question": "下列哪一項不是直接從海洋獲得的天然資源或海洋提供的服務？",
+      "proposed_options": [
+        "①可食用的海產",
+        "②海洋運輸",
+        "③潮汐能",
+        "④精製糖粉"
+      ],
+      "expected_after_rewrite": "④",
+      "kp_status": "PENDING_SCOPE_02_10",
+      "source_slot_id": "SCI_G04_S1_114_MID_010|S02|MC|014",
+      "rewrite_state": "DRAFT_NO_PUBLIC_RELEASE",
+      "operator_approved": false
+    },
+    {
+      "issue": "原文章將鯨魚當魚類，並將大部分鯨聲頻率概括為15–20Hz，未建立可信的生物聲學資料基礎",
+      "proposed_passage_substitution": "鯨與海豚都屬哺乳類，必須到水面呼吸空氣。許多鯨豚可發出聲音，在水中與同伴聯繫或尋找獵物；不同種類的發聲方式與頻率可能不同。",
+      "proposed_new_question": "根據短文，下列何者不正確？",
+      "proposed_options": [
+        "①不同鯨豚的聲音可能不同",
+        "②鯨魚和鯊魚一樣都是魚類",
+        "③鯨豚可透過水中聲音交流",
+        "④鯨豚需要呼吸空氣"
+      ],
+      "expected_after_rewrite": "②",
+      "kp_status": "PENDING_CURRENT45_KP_AND_READING_REVIEW",
+      "source_slot_id": "SCI_G04_S1_114_MID_010|S04|READ|001",
+      "rewrite_state": "DRAFT_NO_PUBLIC_RELEASE",
+      "operator_approved": false
+    },
+    {
+      "issue": "『52赫茲鯨魚』沒有家人、其他鯨絕對聽不到，以及大多數鯨類只在15–20Hz發聲等說法缺乏科學可靠性",
+      "proposed_context_substitution": "假設研究者記錄了兩個不同聲音，甲的頻率為20Hz，乙的頻率為52Hz。",
+      "proposed_new_question": "比較這兩個假設聲音，乙的頻率相對甲為何？",
+      "proposed_options": [
+        "①較高",
+        "②較低",
+        "③相同",
+        "④無法比較"
+      ],
+      "expected_after_rewrite": "①",
+      "kp_status": "PENDING_SCOPE__FREQUENCY_NOT_IN_FROZEN_U03_BASELINE",
+      "source_slot_id": "SCI_G04_S1_114_MID_010|S04|READ|003",
+      "rewrite_state": "DRAFT_NO_PUBLIC_RELEASE",
+      "operator_approved": false
+    }
+  ]
+}

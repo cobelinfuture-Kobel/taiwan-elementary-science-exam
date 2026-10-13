@@ -1,0 +1,80 @@
+{
+  "schema_version": "P12_G04S1_114_B03_DAHUA_SOURCE_FIGURE_GEOMETRY_EVIDENCE_V1",
+  "original_file": "114_翰林_四上_自然_期中評量卷_大華國小.pdf",
+  "original_pdf_sha256": "d476e8bae13884d75dc1c386aedf716630f70e3c6b579d840c5c308a629676d6",
+  "source_original_page": 2,
+  "original_group_id": "SCI_G04_S1_114_MID_010|S03|G05",
+  "source_slot_id_geometry_binding_status": "NOT_FROZEN_IN_INITIAL_SOURCE_MAP",
+  "no_automatic_id_mapping": true,
+  "visible_diagram_boxes_count": 8,
+  "science_anatomical_identifications_from_original_arrows": [
+    {
+      "diagram_region": "TOP_LEFT",
+      "image_target": "魚身表面鱗片",
+      "answer_label": "G",
+      "answer_text": "鱗"
+    },
+    {
+      "diagram_region": "TOP_CENTER",
+      "image_target": "背部上緣長鰭",
+      "answer_label": "A",
+      "answer_text": "背鰭"
+    },
+    {
+      "diagram_region": "TOP_RIGHT",
+      "image_target": "魚頭後方鰓蓋區",
+      "answer_label": "C",
+      "answer_text": "鰓蓋"
+    },
+    {
+      "diagram_region": "MIDDLE_LEFT",
+      "image_target": "尾端左右展開鰭",
+      "answer_label": "H",
+      "answer_text": "尾鰭"
+    },
+    {
+      "diagram_region": "MIDDLE_RIGHT",
+      "image_target": "吻端口部",
+      "answer_label": "D",
+      "answer_text": "口"
+    },
+    {
+      "diagram_region": "BOTTOM_LEFT",
+      "image_target": "身體腹側靠尾端的鰭",
+      "answer_label": "E",
+      "answer_text": "臀鰭"
+    },
+    {
+      "diagram_region": "BOTTOM_CENTER",
+      "image_target": "身體腹側小鰭",
+      "answer_label": "B",
+      "answer_text": "腹鰭"
+    },
+    {
+      "diagram_region": "BOTTOM_RIGHT",
+      "image_target": "鰓蓋後方體側鰭",
+      "answer_label": "F",
+      "answer_text": "胸鰭"
+    }
+  ],
+  "source_slots_awaiting_1_to_1_geometry_anchor": [
+    "SCI_G04_S1_114_MID_010|S03|G05|014",
+    "SCI_G04_S1_114_MID_010|S03|G05|015",
+    "SCI_G04_S1_114_MID_010|S03|G05|016",
+    "SCI_G04_S1_114_MID_010|S03|G05|017",
+    "SCI_G04_S1_114_MID_010|S03|G05|018",
+    "SCI_G04_S1_114_MID_010|S03|G05|019",
+    "SCI_G04_S1_114_MID_010|S03|G05|020",
+    "SCI_G04_S1_114_MID_010|S03|G05|021"
+  ],
+  "why_on_hold": "The original image arrow labels are scientifically legible, but the frozen first-pass item source descriptions say only 1st to 8th answer box, with no frame coordinates. Without specifying which reading order was used, assigning an organ to source_slot_id could corrupt the source truth.",
+  "acceptance_prerequisites": [
+    "Freeze original source-box anchor convention (normalized rectangle coordinates or uniquely named positions) and lineage for all 8 IDs",
+    "Verify organ names follow exact arrows and list A–H",
+    "Check regenerated learner image visually and rights",
+    "Rerun independently validated answers against exact anchored box IDs"
+  ],
+  "source_original_image_copied_to_public_repo": false,
+  "source_image_copyright_or_redraw_approved": false,
+  "public_admission_approved": false
+}

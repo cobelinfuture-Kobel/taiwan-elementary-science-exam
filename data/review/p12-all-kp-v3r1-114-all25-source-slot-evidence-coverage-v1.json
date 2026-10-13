@@ -1,0 +1,77 @@
+{
+  "schema_version": "P12_ALL_KP_V3R1_114_ALL25_SOURCE_SLOT_EVIDENCE_COVERAGE_V1",
+  "input_v17": "data/review/p12-g04s1-114-all25-kp-first-progress-v17.json",
+  "input_full_187_kp_source_index": "tools/p12-all-kp-source-mapping.mjs",
+  "original_paper_count": 25,
+  "source_answer_position_count": 1623,
+  "original_pdf_binary_sha_verified_count_from_private_runtime": 25,
+  "source_pdf_pages_after_recovery": 60,
+  "original_pdf_text_layer_count": 21,
+  "source_positions_with_text_layer": 1380,
+  "original_pdf_image_only_count": 4,
+  "source_positions_image_only": 243,
+  "original_pdf_missing_count_after_recovery": 0,
+  "source_positions_missing_original_after_recovery": 0,
+  "recovered_since_v3_papers": [
+    {
+      "id": "SCI_G04_S1_114_MID_001",
+      "source_response_positions": 80,
+      "raw_pdf_sha256": "4d924c412166812557793cc43b62b02f6ce4da2539e9ddcf165e2faf456251fe",
+      "drive_file_id": "1lLNg-pNkDzxbPgVyS2Ug61vdrhrUrF3o"
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_001",
+      "source_response_positions": 74,
+      "raw_pdf_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "drive_file_id": "1wiMXm5Wmk2dMDayrMN0iCPWcsMUpwO5D"
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_012",
+      "source_response_positions": 100,
+      "raw_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "drive_file_id": "14KIqnA3EGmx7JxEEroNOFN7nK7SH3IEG"
+    }
+  ],
+  "image_only_papers": [
+    {
+      "id": "SCI_G04_S1_114_MID_002",
+      "positions": 70
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_002",
+      "positions": 70
+    },
+    {
+      "id": "SCI_G04_S1_114_MID_009",
+      "positions": 54
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_010",
+      "positions": 49
+    }
+  ],
+  "source_slot_binding_status_counts": {
+    "STEM_OPTIONS_LOCATED_PENDING_VISUAL_REVIEW": 277,
+    "PARTIAL_STEM_LOCATED_REQUIRES_SOURCE_REVIEW": 132,
+    "PARENT_GROUP_LOCATED_CHILD_UNBOUND": 192,
+    "TEXT_LAYER_SLOT_UNBOUND": 769,
+    "AMBIGUOUS_NUMBER_OR_SECTION": 10,
+    "IMAGE_ONLY_PENDING_VISUAL": 243
+  },
+  "printed_question_number_source_locator_candidate_count": 409,
+  "parent_group_text_candidate_count": 192,
+  "strict_full_source_question_stem_all_options_parent_diagram_and_answer_box_verified": 0,
+  "original_answer_box_coordinates_verified": 0,
+  "primary_or_secondary_kp_formally_verified_by_v3r1": 0,
+  "original_teacher_key_authenticated_by_v3r1": 0,
+  "learner_repainted_images_rights_cleared_by_v3r1": false,
+  "no_source_question_text_or_artwork_committed": true,
+  "new_public_question_admissions": 0,
+  "public_total_source_answer_positions_unchanged": 251,
+  "public_g04s1_answer_positions_unchanged": 53,
+  "original_114_all25_science_screen_before_public_admission_policy_preserved": true,
+  "scope_note": "The 277 direct stem/option candidates and 192 shared parent-group matches are non-certified text locators. Original answer-box/diagram geometry, human sample acceptance and complete stem/option content are not verified. Historical V3 source availability figures must not be rewritten retrospectively.",
+  "private_artifact_user_handoff": "P12_V3R1_private_all25_source_binding_evidence.zip",
+  "private_artifact_sha256": "82851f218e06707c7f472f6c242c4b99b9c0c10745538e749c59d3f7393690c7",
+  "next_gate": "P12_ALL_KP_V3R2_TextQuestionNumberToExactAnswerBoxAndParentFigureGeometryAcceptance"
+}

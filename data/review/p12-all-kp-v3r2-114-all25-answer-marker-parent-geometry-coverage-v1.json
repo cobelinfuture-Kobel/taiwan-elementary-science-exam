@@ -1,0 +1,69 @@
+{
+  "schema_version": "P12_ALL_KP_V3R2_114_ALL25_TEXT_NUMBER_ANSWER_BOX_GROUP_GEOMETRY_QA_V1",
+  "frozen_input_ref": "data/review/p12-all-kp-v3r1-114-all25-source-slot-evidence-coverage-v1.json",
+  "source_index_ref": "tools/p12-all-kp-source-mapping.mjs",
+  "source_count_frozen": 1623,
+  "original_pdf_count": 25,
+  "original_pdf_sha256_locally_checked_count": 25,
+  "text_layer_source_positions": 1380,
+  "image_only_source_positions": 243,
+  "original_pdf_missing_count": 0,
+  "original_source_slot_coverage": {
+    "DIRECT_START_ROW_ANSWER_MARKER_CANDIDATE": 141,
+    "PARTIAL_STEM_GEOMETRY_CANDIDATE": 89,
+    "PARENT_CHILD_NUMBER_AND_BLANK_CANDIDATE": 23,
+    "NEEDS_VISUAL_START_ROW": 136,
+    "PARTIAL_STEM_REVIEW_REQUIRED": 43,
+    "PARENT_CHILD_REVIEW_REQUIRED": 169,
+    "UNBOUND_OR_AMBIGUOUS_SOURCE_ID": 779,
+    "IMAGE_ONLY_VISUAL_REGION_PENDING": 243
+  },
+  "machine_detected_unique_text_geometry_candidate_pairs": 253,
+  "model_original_page_visual_review_sample": {
+    "source_answer_markers_located_and_visual_checked": 27,
+    "original_source_pages_examined": 3,
+    "groups": [
+      {
+        "source_prefix": "SCI_G04_S1_114_FINAL_003|S01|TF",
+        "count": 10,
+        "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+        "page": 1
+      },
+      {
+        "source_prefix": "SCI_G04_S1_114_FINAL_012|Q01",
+        "count": 9,
+        "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+        "page": 1
+      },
+      {
+        "source_prefix": "SCI_G04_S1_114_MID_011|Q01",
+        "count": 8,
+        "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+        "page": 1
+      }
+    ],
+    "external_human_blind_certification": false,
+    "scope": "SOURCE_ID_TO_PRINTED_NUMBERED_ANSWER_BRACKETS_ONLY; NOT FULL_QUESTION_FIGURE_STIMULUS_ACCEPTANCE"
+  },
+  "image_only_originals": {
+    "count": 4,
+    "pages_first_page_visually_examined": 4,
+    "source_slots_not_individually_geom_accepted": 243,
+    "ocr_invoked": false
+  },
+  "source_id_to_exact_stem_all_options_parent_image_and_answer_box_formal_acceptance": 0,
+  "parent_group_complete_question_figure_provenance_verified": 0,
+  "original_teacher_answer_key_authenticated": 0,
+  "formal_KP_approved_from_v3r2": 0,
+  "source_artwork_learner_redraw_rights_accepted": false,
+  "public_new_questions": 0,
+  "public_all_grades_answer_positions_frozen": 251,
+  "public_g04s1_answer_positions_frozen": 53,
+  "operator_114_all25_screen_then_explicit_approval_gate_unchanged": true,
+  "source_answers_and_copyrighted_question_text_not_committed": true,
+  "private_artifact_name": "P12_V3R2_private_exact_answer_geometry_evidence.zip",
+  "private_artifact_sha256": "01df38f9eac088ded87fcd66f2d19fa0d790b82010a1d433380bbc470276b820",
+  "mode": "SOURCE_GROUNDING_GEOMETRY_BOUNDED_PILOT_NOT_FULL_FINAL_ACCEPTANCE",
+  "next_step": "P12_ALL_KP_V3R2R1_Full277NumberRowVisualQA_Parent192ChildRoutingThenImage243VisualSlots",
+  "quality_warning": "Model visual spot check of 27 exact answer marker boxes is not externally independent certification; 253 machine-generated coordinate hits remain candidate-level and require full source/diagram validation."
+}

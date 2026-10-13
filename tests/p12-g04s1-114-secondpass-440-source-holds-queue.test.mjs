@@ -1,0 +1,60 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import {readFileSync} from "node:fs";
+import {buildMaster} from "../tools/p12-master-progress.mjs";
+const read=p=>JSON.parse(readFileSync(p,"utf8"));
+const p="data/review/p12-g04s1-114-";
+const v17=read(p+"all25-kp-first-progress-v17.json");
+const m=read(p+"secondpass-all25-hold-and-kp-review-queue-v1.json");
+const groups=m.source_review_queue_shards.map(read);
+const kinds=["KP_MATCH_CANDIDATE","KP_MATCH_SOURCE_EVIDENCE_HOLD","REVIEW_KP_UNCERTAIN","NONMATCH_G04S1_KP_ARCHIVE"];
+test("All 25 actual-paper review shards reconcile with V17 source position count and category partition",()=>{
+ assert.equal(groups.length,5);
+ assert.deepEqual(groups.map(g=>g.source_papers),[5,5,5,5,5]);
+ assert.deepEqual(groups.map(g=>g.source_paper_batch_index),[[0,4],[5,9],[10,14],[15,19],[20,24]]);
+ assert.deepEqual(groups.map(g=>g.review_queue_items),[81,118,95,86,60]);
+ const t=Object.fromEntries(kinds.map(k=>[k,groups.reduce((s,g)=>s+g.all_original_candidate_decisions[k],0)]));
+ assert.deepEqual(t,m.source_decisions_total);
+ assert.deepEqual(t,v17.source_text_position_kp_decisions);
+ assert.equal(Object.values(t).reduce((a,b)=>a+b,0),1623);
+ assert.equal(t.KP_MATCH_SOURCE_EVIDENCE_HOLD,325);
+ assert.equal(t.REVIEW_KP_UNCERTAIN,115);
+ assert.equal(t.KP_MATCH_CANDIDATE,845);
+ assert.equal(t.NONMATCH_G04S1_KP_ARCHIVE,338);
+ assert.equal(groups.reduce((s,g)=>s+g.excluded_unverified_source_placeholders,0),4);
+ const r=groups.flatMap(g=>g.records_by_source);
+ assert.equal(r.length,25);
+ assert.equal(new Set(r.map(x=>x.source_candidate_id)).size,25);
+ assert.deepEqual(new Set(r.map(x=>x.source_candidate_id)),new Set(v17.source_papers.map(x=>x.source_candidate_id)));
+});
+test("440 second-pass rows have source file lineage, unique original slot id and no verified science answers",()=>{
+ const rows=groups.flatMap(g=>g.items);
+ assert.equal(rows.length,440);
+ assert.equal(new Set(rows.map(x=>x.source_slot_id)).size,440);
+ const whitelist=new Set(read("site/data/authority/science-g03-g04-selector-v2.json").units.filter(x=>x.grade===4&&x.semester===1).flatMap(u=>u.knowledge_points.map(k=>k.canonical_kp_id)));
+ assert.equal(whitelist.size,45);
+ for(const r of rows){
+  assert.ok(r.source_candidate_id&&r.source_slot_id&&r.source_file_ref);
+  assert.ok(["KP_MATCH_SOURCE_EVIDENCE_HOLD","REVIEW_KP_UNCERTAIN"].includes(r.initial_kp_first_decision));
+  assert.ok(r.matched_canonical_kp_ids.every(x=>whitelist.has(x)));
+  assert.equal(r.science_answer_verified,false);
+  assert.equal(r.original_teacher_key_authenticated,false);
+  assert.equal(r.learner_image_admission_approved,false);
+  assert.equal(r.public_admission_approved,false);
+ }
+ assert.equal(rows.filter(r=>r.initial_kp_first_decision==="KP_MATCH_SOURCE_EVIDENCE_HOLD").length,325);
+ assert.equal(rows.filter(r=>r.initial_kp_first_decision==="REVIEW_KP_UNCERTAIN").length,115);
+});
+test("21 printed-score ambiguity points and website/lesson bank remain fail closed",()=>{
+ assert.equal(m.source_printed_scoring_unreconciled_points,21);
+ assert.equal(m.original_pdf_sha_certified_papers,22);
+ assert.equal(m.original_pdf_sha_missing_legacy_papers,3);
+ assert.equal(m.science_answer_verdicts_issued_this_stage,0);
+ assert.equal(m.teacher_answer_keys_issued_this_stage,0);
+ assert.equal(m.source_diagram_rebuild_accepted_this_stage,0);
+ assert.equal(m.operator_public_admission_approvals_issued_this_stage,0);
+ assert.equal(m.live_exam_answer_slots_unmodified,251);
+ assert.equal(m.live_g04s1_exam_answer_slots_unmodified,53);
+ assert.equal(v17.original_science_answer_and_figure_acceptance_complete_count,0);
+ assert.equal(buildMaster().public_question_bank_answer_slots_current,251);
+});

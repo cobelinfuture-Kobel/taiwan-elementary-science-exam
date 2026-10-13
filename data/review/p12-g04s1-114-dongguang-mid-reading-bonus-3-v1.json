@@ -1,0 +1,68 @@
+{
+  "schema_version": "P12_G04S1_114_DONGGUANG_MID_READING_BONUS_3_V1",
+  "source_candidate_id": "SCI_G04_S1_114_MID_008",
+  "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+  "source_main_exam_answer_positions": 2,
+  "source_bonus_answer_positions": 1,
+  "source_main_exam_score": 2,
+  "source_bonus_score": 2,
+  "original_page3_bonus_not_confused_with_main100": true,
+  "all_science_answers_certified": false,
+  "public_admission_approved": false,
+  "items": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S05|READ|001",
+      "original_section": 5,
+      "original_group": "READ",
+      "printed_subitem": 1,
+      "source_text_summary": "稻田環境類型辨識",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_01"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 1,
+      "bonus": false,
+      "source_image_required": false,
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_original_pdf_page": 2,
+      "science_answer_verified": false,
+      "operator_public_admission_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S05|READ|002",
+      "original_section": 5,
+      "original_group": "READ",
+      "printed_subitem": 2,
+      "source_text_summary": "校外教學於退潮後泥灘地所屬水域類型",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_02"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "bonus": false,
+      "source_image_required": true,
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_original_pdf_page": 2,
+      "science_answer_verified": false,
+      "operator_public_admission_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S06|BONUS|001",
+      "original_section": 6,
+      "original_group": "BONUS",
+      "printed_subitem": 1,
+      "source_text_summary": "稻米所屬挺水性水生植物類型",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_07"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "bonus": true,
+      "source_image_required": false,
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_original_pdf_page": 3,
+      "science_answer_verified": false,
+      "operator_public_admission_approved": false
+    }
+  ]
+}

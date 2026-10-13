@@ -1,0 +1,65 @@
+{
+  "schema_version": "SCIENCE_P12_G04S1_114_KANGHSUAN_DONGGUANG_MID_60_SOURCE_MANIFEST_V1",
+  "source_candidate_id": "SCI_G04_S1_114_MID_008",
+  "source_title": "114_康軒_四上_自然_期中評量卷_東光國小.pdf",
+  "source_drive_file_id": "1g0ld_8TiIqt_UrtNRFZx_VqlZzKOx8D5",
+  "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+  "source_pdf_pages": 3,
+  "source_original_pdf_visual_inspected": true,
+  "source_parts": [
+    "data/review/p12-g04s1-114-dongguang-mid-tfmc-26-v1.json",
+    "data/review/p12-g04s1-114-dongguang-mid-sections34-31-v1.json",
+    "data/review/p12-g04s1-114-dongguang-mid-reading-bonus-3-v1.json"
+  ],
+  "all_original_answer_positions": 60,
+  "main_exam_answer_positions": 59,
+  "bonus_answer_positions": 1,
+  "main_exam_score_points": 100,
+  "bonus_score_points": 2,
+  "score_to_position_weight_parity_verified": true,
+  "sections": [
+    {
+      "section": 1,
+      "positions": 14,
+      "score_points": 28
+    },
+    {
+      "section": 2,
+      "positions": 12,
+      "score_points": 24
+    },
+    {
+      "section": 3,
+      "positions": 16,
+      "score_points": 16
+    },
+    {
+      "section": 4,
+      "positions": 15,
+      "score_points": 30
+    },
+    {
+      "section": 5,
+      "positions": 2,
+      "score_points": 2
+    },
+    {
+      "section": 6,
+      "positions": 1,
+      "score_points": 2
+    }
+  ],
+  "preliminary_kp_decisions": {
+    "KP_MATCH_CANDIDATE": 49,
+    "KP_MATCH_SOURCE_EVIDENCE_HOLD": 9,
+    "REVIEW_KP_UNCERTAIN": 2,
+    "NONMATCH_G04S1_KP_ARCHIVE": 0
+  },
+  "kp_associated_positions": 58,
+  "original_quake_report_star_marker_figure_pending": true,
+  "source_science_answers_certified": false,
+  "original_teacher_key_authenticated": false,
+  "learner_diagrams_accepted": false,
+  "operator_public_admission_approved": false,
+  "note": "Main PDF assessment has 59 response positions worth exactly 100 points; separately printed page3 bonus = 1 extra source slot worth 2 points. Missing earthquake-report star picture remains figure-evidence HOLD; no invented answer."
+}

@@ -17,9 +17,9 @@ test("114 Nanyi MID: all 80 printed answer positions mapped by original selectab
  assert.equal(mid.full_question_science_and_diagram_acceptance,false);
  assert.equal(mid.source_teacher_answer_key_authenticated,false);
  assert.equal(mid.public_admission_approved,false);
- assert.equal(mid.preliminary_kp_decisions.KP_MATCH_CANDIDATE,41);
+ assert.equal(mid.preliminary_kp_decisions.KP_MATCH_CANDIDATE,43);
  assert.equal(mid.preliminary_kp_decisions.KP_MATCH_SOURCE_EVIDENCE_HOLD,9);
- assert.equal(mid.preliminary_kp_decisions.NONMATCH_G04S1_KP_ARCHIVE,27);
+ assert.equal(mid.preliminary_kp_decisions.NONMATCH_G04S1_KP_ARCHIVE,25);
  assert.equal(mid.preliminary_kp_decisions.REVIEW_KP_UNCERTAIN,3);
  assert.equal(mid.items.filter(x=>x.routing_by_current_kp==="CURRENT_FINAL").length,15);
  assert.ok(mid.items.filter(x=>x.original_figure_required).every(x=>x.original_diagram_verified===false&&x.publish_approved===false));
@@ -65,4 +65,38 @@ test("source title/figure/science holds do not alter existing 251 publicly relea
  const current=buildMaster();
  assert.equal(current.public_question_bank_answer_slots_current,251);
  assert.equal(current.p12_operator_published_slots,103);
+});
+
+test("negative choices about moon/sun in water-survey shared context are still U02 KP checks",()=>{
+ for(const i of [2,5]){
+  const x=mid.items.find(q=>q.source_section_number===4&&q.section_slot_index===i);
+  assert.equal(x.previous_text_only_classification,"NONMATCH_G04S1_KP_ARCHIVE");
+  assert.equal(x.kp_first_decision,"KP_MATCH_CANDIDATE");
+  assert.deepEqual(x.matched_canonical_kp_ids,["sci_g04s1_02_02"]);
+  assert.equal(x.model_provisional_answer,"X");
+  assert.equal(x.routing_by_current_kp,"CURRENT_MID");
+  assert.equal(x.publish_approved,false);
+ }
+});
+test("all 25 PDF record progress aggregates two 114 text maps without conflating source excerpts with science certification",()=>{
+ const p=read("data/review/p12-g04s1-114-all25-kp-first-progress-v2.json");
+ assert.equal(p.source_pdf_file_count,25);
+ assert.equal(p.original_text_readable_files,21);
+ assert.equal(p.original_binary_visual_text_holds,4);
+ assert.equal(p.papers_with_all_textually_identifiable_answer_positions_mapped,2);
+ assert.equal(p.other_papers_with_source_outline_only,23);
+ assert.equal(p.textually_identifiable_answer_positions_count,154);
+ assert.equal(p.source_score_points_not_proven_as_distinct_questions,4);
+ assert.equal(p.provisional_matched_kp_positions,106);
+ assert.deepEqual(p.source_text_position_kp_decisions,{KP_MATCH_CANDIDATE:75,NONMATCH_G04S1_KP_ARCHIVE:34,REVIEW_KP_UNCERTAIN:14,KP_MATCH_SOURCE_EVIDENCE_HOLD:31});
+ assert.equal(p.original_all_paper_item_screening_complete_count,0);
+ assert.equal(p.public_question_positions_added,0);
+ assert.equal(p.live_exam_answer_slots_still,251);
+ assert.equal(p.g04s1_live_answer_slots_still,53);
+ assert.equal(p.source_papers.length,25);
+ assert.equal(p.source_papers.filter(x=>x.original_source_position_text_map_ref).length,2);
+ assert.equal(p.source_papers.filter(x=>x.next_operation==="RAW_PDF_VISUAL_READBACK_BEFORE_QUESTION_EXTRACTION").length,4);
+ const sourceIds=new Set(p.source_papers.map(x=>x.source_candidate_id));
+ assert.equal(sourceIds.size,25);
+ assert.ok(p.source_papers.every(x=>x.public_admission_approved===false&&x.kp_matching_screens_original_exam_and_publisher===false));
 });

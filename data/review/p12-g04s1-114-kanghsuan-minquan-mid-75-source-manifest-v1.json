@@ -1,0 +1,61 @@
+{
+  "schema_version": "SCIENCE_P12_G04S1_114_KANGHSUAN_MINQUAN_MID_75_SOURCE_MANIFEST_V1",
+  "source_candidate_id": "SCI_G04_S1_114_MID_005",
+  "source_title": "114_康軒_四上_自然_期中評量卷_民權國小.pdf",
+  "source_drive_file_id": "1eWBdPcFVKEWOUqgAcwnki-u9vbuPmWIB",
+  "source_pdf_sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+  "source_original_pdf_pages": 2,
+  "source_original_pdf_visual_inspected": true,
+  "source_records_parts": [
+    "data/review/p12-g04s1-114-minquan-mid-tfmc-25-v1.json",
+    "data/review/p12-g04s1-114-minquan-mid-sections34-18-v1.json",
+    "data/review/p12-g04s1-114-minquan-mid-sections56-32-v1.json"
+  ],
+  "original_source_answer_positions": 75,
+  "original_exam_score_points": 100,
+  "source_score_to_answer_position_parity_verified": true,
+  "source_section_score_to_position_counts": [
+    {
+      "section": 1,
+      "source_positions": 15,
+      "score_points": 30
+    },
+    {
+      "section": 2,
+      "source_positions": 10,
+      "score_points": 20
+    },
+    {
+      "section": 3,
+      "source_positions": 11,
+      "score_points": 11
+    },
+    {
+      "section": 4,
+      "source_positions": 7,
+      "score_points": 7
+    },
+    {
+      "section": 5,
+      "source_positions": 27,
+      "score_points": 27
+    },
+    {
+      "section": 6,
+      "source_positions": 5,
+      "score_points": 5
+    }
+  ],
+  "preliminary_kp_decisions": {
+    "KP_MATCH_CANDIDATE": 58,
+    "KP_MATCH_SOURCE_EVIDENCE_HOLD": 11,
+    "REVIEW_KP_UNCERTAIN": 6,
+    "NONMATCH_G04S1_KP_ARCHIVE": 0
+  },
+  "kp_associated_positions": 69,
+  "source_answers_science_verified": false,
+  "original_teacher_key_authenticated": false,
+  "all_original_figures_learner_accepted": false,
+  "operator_public_admission_approved": false,
+  "note": "Original printed scoring: 30+20+11+7+27+5 =100; exact unique 75 response positions. Soil-runoff group prints six checkboxes in two water-amount columns; all six retained separately. Source-labeled report is image dependent, no answers published."
+}

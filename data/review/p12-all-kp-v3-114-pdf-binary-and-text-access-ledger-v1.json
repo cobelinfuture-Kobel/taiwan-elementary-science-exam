@@ -1,0 +1,242 @@
+{
+  "schema_version": "P12_ALL_KP_V3_25_PDF_SOURCE_EVIDENCE_AVAILABILITY_V1",
+  "evidence_corpus_ref": "data/review/p12-g04s1-114-all25-kp-first-progress-v17.json",
+  "local_pdf_binary_hash_check_completed": true,
+  "caveat": "Local runtime evidence only. Original PDF binaries are not committed or licensed for learner/public use. No OCR and no full-original-item-bounded evidence asserted from page text alone.",
+  "source_papers": 25,
+  "pdf_binary_available": 22,
+  "pdf_binary_missing": 3,
+  "readable_text_pdf": 18,
+  "image_only_pdf": 4,
+  "available_original_pdf_pages": 54,
+  "original_response_positions_from_v17": 1623,
+  "full_question_option_and_diagram_evidence_materialized_all_slots": false,
+  "no_public_admission": true,
+  "originals": [
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_001",
+      "original_pdf_sha256_or_null": null,
+      "pdf_local_access": "MISSING",
+      "page_count": 0,
+      "extracted_text_characters": 0,
+      "evidence_stage": "RAW_PDF_MISSING__NO_EXACT_SOURCE_ADMISSION",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_002",
+      "original_pdf_sha256_or_null": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 0,
+      "evidence_stage": "IMAGE_ONLY__VISUAL_REVIEW_OR_CONTROLLED_OCR_REQUIRED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_003",
+      "original_pdf_sha256_or_null": "90967222348a95719ee1263240e5ae943e9d4f4d4cc15b7ea576191d0f618335",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 3528,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_001",
+      "original_pdf_sha256_or_null": null,
+      "pdf_local_access": "MISSING",
+      "page_count": 0,
+      "extracted_text_characters": 0,
+      "evidence_stage": "RAW_PDF_MISSING__NO_EXACT_SOURCE_ADMISSION",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_002",
+      "original_pdf_sha256_or_null": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 0,
+      "evidence_stage": "IMAGE_ONLY__VISUAL_REVIEW_OR_CONTROLLED_OCR_REQUIRED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_003",
+      "original_pdf_sha256_or_null": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 4,
+      "extracted_text_characters": 5018,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_004",
+      "original_pdf_sha256_or_null": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 3410,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_004",
+      "original_pdf_sha256_or_null": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 3760,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_005",
+      "original_pdf_sha256_or_null": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 3002,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_006",
+      "original_pdf_sha256_or_null": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 2638,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "original_pdf_sha256_or_null": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 2375,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "original_pdf_sha256_or_null": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 3,
+      "extracted_text_characters": 2448,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "original_pdf_sha256_or_null": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 0,
+      "evidence_stage": "IMAGE_ONLY__VISUAL_REVIEW_OR_CONTROLLED_OCR_REQUIRED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "original_pdf_sha256_or_null": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 4,
+      "extracted_text_characters": 4611,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "original_pdf_sha256_or_null": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 3771,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_007",
+      "original_pdf_sha256_or_null": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 3407,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_008",
+      "original_pdf_sha256_or_null": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 3,
+      "extracted_text_characters": 4024,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_009",
+      "original_pdf_sha256_or_null": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 4,
+      "extracted_text_characters": 4971,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_010",
+      "original_pdf_sha256_or_null": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 3,
+      "extracted_text_characters": 0,
+      "evidence_stage": "IMAGE_ONLY__VISUAL_REVIEW_OR_CONTROLLED_OCR_REQUIRED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_010",
+      "original_pdf_sha256_or_null": "d476e8bae13884d75dc1c386aedf716630f70e3c6b579d840c5c308a629676d6",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 3315,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "original_pdf_sha256_or_null": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 4708,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "original_pdf_sha256_or_null": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 3,
+      "extracted_text_characters": 3515,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_011",
+      "original_pdf_sha256_or_null": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 3368,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "original_pdf_sha256_or_null": null,
+      "pdf_local_access": "MISSING",
+      "page_count": 0,
+      "extracted_text_characters": 0,
+      "evidence_stage": "RAW_PDF_MISSING__NO_EXACT_SOURCE_ADMISSION",
+      "full_question_options_image_bound": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_013",
+      "original_pdf_sha256_or_null": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "pdf_local_access": "BINARY_AVAILABLE",
+      "page_count": 2,
+      "extracted_text_characters": 3208,
+      "evidence_stage": "PAGE_TEXT_EXTRACTABLE__QUESTION_BOUNDARIES_NOT_YET_CERTIFIED",
+      "full_question_options_image_bound": false
+    }
+  ]
+}

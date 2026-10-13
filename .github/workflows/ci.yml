@@ -53,6 +53,16 @@ jobs:
           name: p12-g04s2-v2-exact-source-routing-v1
           path: data/index/p12-g04s2-v2-exact-source-retrieval-routing-v1.json
           if-no-files-found: error
+      - name: Build full 25-PDF 1623-slot source readiness and unseen benchmark
+        run: npm run kp:g04s2:v3:build
+      - name: Verify V3 immutable source and blind benchmark readback
+        run: npm run kp:g04s2:v3:check
+      - name: Upload nonpublic V3 source-evidence and untouched-pair test
+        uses: actions/upload-artifact@v4
+        with:
+          name: p12-all-kp-v3-source-readiness-heldout-v1
+          path: data/index/p12-all-kp-v3-fullsource-readiness-and-frozen-benchmark-v1.json
+          if-no-files-found: error
       - name: Upload P11 provenance and coverage evidence
         uses: actions/upload-artifact@v4
         with:

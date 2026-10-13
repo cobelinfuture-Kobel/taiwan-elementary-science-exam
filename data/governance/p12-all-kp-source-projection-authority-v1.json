@@ -1,0 +1,58 @@
+{
+  "schema_version": "P12_ALL_KP_QUESTION_SOURCE_PROJECTION_AUTHORITY_V1",
+  "operator_approval": "All original source questions can be examined against every current canonical KP and newly introduced KP in future, regardless of the original exam year, source publisher, originally printed grade, semester, or exam period.",
+  "architecture": "EXTRACT_ONCE_INDEX_EVERY_SOURCE_POSITION_THEN_VERSIONED_MANY_TO_MANY_SOURCE_TO_KP_PROJECTION",
+  "current_authority_ref": "site/data/authority/science-g03-g04-selector-v2.json",
+  "current_authority_kps": 187,
+  "current_authority_breakdown": {
+    "G03-S1": 47,
+    "G03-S2": 49,
+    "G04-S1": 45,
+    "G04-S2": 46
+  },
+  "initial_corpus_ref": "data/review/p12-g04s1-114-all25-kp-first-progress-v17.json",
+  "initial_corpus_original_papers": 25,
+  "initial_corpus_original_positions": 1623,
+  "initial_current_g04s1_excluded_but_retained_positions": 338,
+  "not_authentic_original_source_slot_placeholders": 4,
+  "source_inventory_contract": [
+    "Original exam metadata is provenance only, never a grade-semester eligibility filter",
+    "Unique immutable original source answer-position ID is primary key",
+    "Preserve original PDF identity or unresolved SHA; preserve textual/source-figure evidence and exact item-containing source map file",
+    "Preserve 338 outside-G04S1 positions and original unresolved KP positions so future all-KP projections can see them",
+    "Never turn extra printed score-points into unproved source slots",
+    "Never delete sources when an authority KP changes; use versioned overlay and a separately evidenced verified decision"
+  ],
+  "kp_matching_contract": [
+    "Every Authority KP ID must be individually indexed even if it currently has zero source candidate mappings",
+    "Any individual source ID may have zero, one or multiple KP edges across grades and semesters",
+    "All first-pass existing G04S1 edges remain LEGACY_FIRSTPASS and never silently become MATCH_VERIFIED",
+    "All new cross-semester edges start as CANDIDATE_REQUIRES_SOURCE_AND_KP_REVIEW until independent original source and formal KP review",
+    "The full source corpus must be projected for each new or modified KP authority item; re-extraction of already complete original PDFs is not required",
+    "If an original item lacks full question, options, source diagrams or trustworthy teacher key, a targeted original-PDF readback is necessary before final admission",
+    "No keyword-only match is sufficient to claim semantic coverage or complete scan",
+    "A KP without initial mapped edges is NOT_YET_MAPPED; only after a complete scoped review may it be marked MISSING_FROM_CORPUS",
+    "One-to-many KP and many-to-one source matches must preserve evidence, latest authority content fingerprint, exact source version fingerprint, and approval lineage"
+  ],
+  "incremental_contract": {
+    "kp_added_or_modified": "Schedule complete existing source pool against the new/modified KP; do not suppress cross-semester or past-year candidates.",
+    "source_added_or_modified": "Schedule changed source ID against all current KP; retain previous mappings as historical versions if source meaning or PDF changes.",
+    "kp_deleted_or_replaced": "Historical edges remain in prior immutable snapshots; new current authority index drops inactive KP only with explicit tombstone/remap evidence.",
+    "unchanged_pair": "Reuse previous versioned comparison evidence only when both the exact source evidence hash and KP definition hash match.",
+    "corpus_growth": "Any later 108–113 or grade5+ source papers can be appended with the same normalized source adapter and mapping procedure."
+  },
+  "review_decisions": [
+    "MATCH_VERIFIED",
+    "MATCH_CANDIDATE",
+    "KP_UNCERTAIN",
+    "OUT_OF_SCOPE_THIS_KP",
+    "NO_RESULT_AFTER_EXHAUSTIVE_REVIEW"
+  ],
+  "release_gate": "KP verification is distinct from independent science-answer correctness, image rights/learner redraw, A4 double-column acceptance, and explicit operator public approval; no mapping-index job can publish questions.",
+  "project_114_release_policy_ref": "data/governance/p12-g04s1-114-full25-screen-before-public-admission-v1.json",
+  "public_bank_mutation_allowed": false,
+  "public_bank_total_answer_positions_frozen": 251,
+  "public_bank_g04s1_answer_positions_frozen": 53,
+  "effective_current_iteration": "P12_ALL_KP_QUESTION_SOURCE_MAPPING_ARCHITECTURE_V1",
+  "next_step_after_architecture": "Freeze verified all-187 authority/source index and add a bounded cross-semester candidate review batch; continue Batch05 science screening separately"
+}

@@ -1,0 +1,374 @@
+{
+  "schema_version": "P12_114_CHONGDE_MID16_SCIENCE_KP_MODEL_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_MID_003",
+  "source_original_pdf_sha256": "90967222348a95719ee1263240e5ae943e9d4f4d4cc15b7ea576191d0f618335",
+  "prior_preflight_ref": "data/review/p12-g04s1-114-nanyi-chongde-mid-source-visual-preflight-v1.json",
+  "source_public_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-mid16-original-questions-v1.json",
+  "full_source_tf_mc_record_count": 16,
+  "source_bbox_original_pdf_verified_count": 16,
+  "model_science_preliminary_pass": 15,
+  "model_science_hold": 1,
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 8,
+    "KP_NONMATCH_G04S1": 7,
+    "KP_REVIEW": 1
+  },
+  "kp_strong_and_model_science_pass_count": 7,
+  "hold_source_ids": [
+    "SCI_G04_S1_114_MID_003|S01|TF|007"
+  ],
+  "source_exact_stem_duplicate_links": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S01|TF|007",
+      "same_stem_as": "SCI_G04_S1_114_MID_001|TF|S01|004",
+      "note": "Exact same stem; both original paper source occurrences retained; science HOLD in both"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S02|MC|002",
+      "same_stem_as": "SCI_G04_S1_114_MID_001|MC|S02|010",
+      "note": "Same original stem; alternatives reordered, correct option position changes"
+    }
+  ],
+  "formal_science_acceptance_count": 0,
+  "formal_kp_approval_count": 0,
+  "teacher_key_authenticated_count": 0,
+  "operator_public_learner_admission_count": 0,
+  "original_question_reviews": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S01|TF|001",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "同一時刻、同一光源下，影子方向不會完全不同",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_06",
+      "cross_semester_kp_proposed": null,
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        116.04,
+        60.28,
+        132.2
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S01|TF|002",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "觀察月亮方位時，用手指方向對讀指北針刻度",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": "sci_g04s2_01_08",
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        156,
+        60.28,
+        172.16
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S01|TF|003",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "上弦月約一週後接近滿月，不是朔",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": "sci_g04s2_01_11",
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        195.96,
+        60.28,
+        212.12
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S01|TF|004",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "農曆日期與月相循環關係密切，並非單依太陽運行制定",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": "sci_g04s2_01_12",
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        236.04,
+        60.28,
+        252.2
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S01|TF|005",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "氣腔特別明顯是部分水生植物的適應特徵，不能推及所有植物",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": null,
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        255.96,
+        60.28,
+        272.12
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S01|TF|006",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "紅娘華是水生昆蟲，以腳在水中活動",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_09",
+      "cross_semester_kp_proposed": null,
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        276,
+        60.28,
+        292.16
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S01|TF|007",
+      "model_provisional_answer": null,
+      "model_science_review_status": "SCIENCE_HOLD_VAGUE_COMPARATIVE",
+      "science_reason": "前半句可判定，後半句『生物種類較多』缺少比較對象，暫不給唯一判定",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_02",
+      "cross_semester_kp_proposed": null,
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        315.96,
+        60.28,
+        332.12
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S01|TF|008",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "外海燃油洩漏會形成海洋污染，需儘速處理",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_11",
+      "cross_semester_kp_proposed": null,
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        356.04,
+        60.28,
+        372.2
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S02|MC|001",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "農曆初一朔，約初七八上弦，十五望",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": "sci_g04s2_01_12",
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        429.72,
+        60.28,
+        445.88
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S02|MC|002",
+      "model_provisional_answer": "②",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "荷花地下莖的孔洞可存留空氣，有利於水生環境生存",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_07",
+      "cross_semester_kp_proposed": null,
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        493.68,
+        60.28,
+        509.84
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S02|MC|003",
+      "model_provisional_answer": "①",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "不透明物體遮光時，光源和影子分處物體兩側",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_06",
+      "cross_semester_kp_proposed": null,
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        557.64,
+        60.28,
+        573.8
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S02|MC|004",
+      "model_provisional_answer": "④",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "月亮位置可用方位和高度角描述",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": "sci_g04s2_01_07",
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        653.64,
+        60.28,
+        669.8
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S02|MC|005",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "磁針應指向地磁北，不能人為轉成指向月亮",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": "sci_g04s2_01_08",
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        701.64,
+        60.28,
+        717.8
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S02|MC|006",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "月亮位置和高度角會隨觀察時間改變",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": "sci_g04s2_01_10",
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        797.64,
+        60.28,
+        813.8
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S02|MC|007",
+      "model_provisional_answer": "①",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "荷花根植泥底，花和葉可挺出水面，屬挺水性",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_07",
+      "cross_semester_kp_proposed": null,
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        845.64,
+        60.28,
+        861.8
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S02|MC|008",
+      "model_provisional_answer": "④",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "魚類用魚鰭配合軀體游泳，以鰓呼吸",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_08",
+      "cross_semester_kp_proposed": null,
+      "source_complete": true,
+      "original_pdf_page": 1,
+      "marker_bbox": [
+        28.32,
+        909.72,
+        60.28,
+        925.88
+      ],
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    }
+  ]
+}

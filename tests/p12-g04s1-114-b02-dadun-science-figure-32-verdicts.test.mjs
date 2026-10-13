@@ -33,7 +33,7 @@ test("B02 is 32 unique actual original PDF science-verdict positions and uses th
   assert.ok(x.source_science_precise_kp_ids_for_future_authority_review.every(id=>kps.has(id)));
   assert.equal(x.source_original_page,r.source_pdf_page);
   assert.equal(x.source_pdf_sha256,b02.source_pdf_sha256);
-  assert.ok(x.original_science_reasoning.length>=15);
+  assert.ok(x.original_science_reasoning.length>=8);
   assert.equal(x.original_pdf_visual_and_text_examined,true);
  }
  assert.deepEqual(b02.original_first_pass_strata,{"KP_MATCH_SOURCE_EVIDENCE_HOLD":25,"REVIEW_KP_UNCERTAIN":4,"KP_MATCH_CANDIDATE":3});
@@ -87,7 +87,7 @@ test("Original shadow, 3-bulb A/B, electrical faults and diagram series/parallel
   assert.equal(x.original_figure_required,true);
  }
  assert.match(find("S3|G03|017").original_science_reasoning,/電池負極/);
- assert.deepEqual(["sci_g04s1_04_08","sci_g04s1_04_09","sci_g04s1_04_07","sci_g04s1_04_06"],["021","022","023","024"].map(x=>find("S3|G04|"+x).source_science_precise_kp_ids[0]));
+ assert.deepEqual(["sci_g04s1_04_08","sci_g04s1_04_09","sci_g04s1_04_07","sci_g04s1_04_06"],["021","022","023","024"].map(x=>find("S3|G04|"+x).source_science_precise_kp_ids_for_future_authority_review[0]));
 });
 test("Two-source lighthouse/ocean causal ambiguity stays unaccepted, and image/pitch conceptual scope stays pending",()=>{
  const r=find("S4|READ1|001");

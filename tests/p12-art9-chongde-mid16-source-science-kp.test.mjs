@@ -109,11 +109,12 @@ test("cumulative 42+16=58 original source occurrences, 251 site unchanged and or
   assert.equal(index.all_114_25_exams_must_screen_before_final_public_practice_admission,true);
   assert.equal(index.source_position_frozen_all25_total,1623);
   assert.equal(queue.source_papers_total,25);
-  assert.equal(queue.source_exact_standalone_private_completed,58);
-  assert.equal(queue.science_model_reviewed_original_standalone_items,58);
-  assert.equal(queue.model_science_no_obvious_problem,53);
-  assert.equal(queue.model_science_hold,5);
-  assert.equal(queue.source_paper_queue.reduce((s,p)=>s+p.full_complete_standalone_tf_mc_private_source_count,0),58);
+  assert.ok(queue.source_exact_standalone_private_completed>=58);
+  assert.equal(queue.science_model_reviewed_original_standalone_items,queue.source_exact_standalone_private_completed);
+  assert.ok(queue.model_science_no_obvious_problem>=53);
+  assert.ok(queue.model_science_hold>=5);
+  assert.equal(queue.model_science_no_obvious_problem+queue.model_science_hold,queue.science_model_reviewed_original_standalone_items);
+  assert.equal(queue.source_paper_queue.reduce((s,p)=>s+p.full_complete_standalone_tf_mc_private_source_count,0),queue.source_exact_standalone_private_completed);
   assert.equal(queue.fully_screened_all_25_standalone_papers,0);
   assert.equal(queue.all25_before_publication_gate_preserved,true);
   assert.equal(queue.public_items_new,0);

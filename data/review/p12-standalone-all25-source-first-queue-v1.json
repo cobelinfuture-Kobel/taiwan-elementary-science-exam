@@ -8,11 +8,11 @@
   "source_response_slots_unchanged": 1623,
   "text_layer_papers": 21,
   "image_only_papers": 4,
-  "source_exact_standalone_private_completed": 22,
+  "source_exact_standalone_private_completed": 42,
   "fully_screened_all_25_standalone_papers": 0,
-  "science_model_reviewed_original_standalone_items": 22,
-  "model_science_no_obvious_problem": 20,
-  "model_science_hold": 2,
+  "science_model_reviewed_original_standalone_items": 42,
+  "model_science_no_obvious_problem": 38,
+  "model_science_hold": 4,
   "formal_science_items_approved": 0,
   "formal_kp_items_approved": 0,
   "public_items_new": 0,
@@ -40,9 +40,10 @@
         "1lLNg-pNkDzxbPgVyS2Ug61vdrhrUrF3o"
       ],
       "original_pdf_access_type": "TEXT_LAYER",
-      "full_complete_standalone_tf_mc_private_source_count": 0,
-      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
-      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+      "full_complete_standalone_tf_mc_private_source_count": 20,
+      "private_complete_source_pass_state": "FIRST20_PRIVATE_COMPLETE__18_MODEL_PASS_2_SCIENCE_HOLD__FORMAL_QA_PENDING",
+      "next_action": "DONE_FIRST_PAGE_TF_MC__COMPLEX_AND_DIAGRAMS_SEPARATE_STREAM",
+      "source_exact_safe_manifest_ref": "data/review/p12-standalone-yongan-mid20-safe-science-kp-v1.json"
     },
     {
       "priority_rank": 4,
@@ -359,5 +360,7 @@
     "source_use_rights_and_operator_release_gate"
   ],
   "non_promotable_evidence": "Text-layer, firstpass KP source maps and source-box locator candidates do NOT imply a complete or usable single question.",
-  "next_execution": "P12_STANDALONE_B01_NextTextLayerPaper_FirstPageTFMC_OriginalFullSourceAndBBoxThenScienceKP"
+  "next_execution": "P12_STANDALONE_B01_NextTextLayerPaper_NanyiChongdeMID_FullTFMC_SourceExactScienceKP",
+  "last_completed_original_paper_source_id": "SCI_G04_S1_114_MID_001",
+  "last_completed_original_paper_first_page_standalone_items": 20
 }

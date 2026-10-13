@@ -1,0 +1,60 @@
+{
+  "schema_version": "P12_G04S1_114_B04_THREE_REWRITE_DRAFTS_AND_SOURCE_SEMANTIC_REPAIR_V1",
+  "source_verdict_ref": "data/review/p12-g04s1-114-b04-anhe-mid-science-figure-50-verdicts-v1.json",
+  "source_original_ref": "data/review/p12-g04s1-114-kanghsuan-anhe-mid-50-source-kp-first-v1.json",
+  "all_rewrites_draft_unapproved": true,
+  "original_teacher_key_authenticated": false,
+  "source_original_pdf_question_text_modified": false,
+  "public_admission_approved": false,
+  "rewrite_proposals": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|004",
+      "risk": "原文把搬運力道強度與更小顆粒必定運得更遠直接等同，且混入風力與流水兩個介質",
+      "proposed_stem": "在其他條件相同時，水流較快通常有能力搬運較大的砂石顆粒。這個說法是否正確？",
+      "expected_answer": "O",
+      "kp_target": "sci_g04s1_01_06",
+      "operator_revision_state": "DRAFT_PENDING_KP_AUTHORITY"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S02|MC|001",
+      "risk": "西瓜需要適度水分且排水良好的土壤，來源②只稱『溼潤泥土』並不構成不適合棲地的唯一錯誤",
+      "proposed_stem": "哪一種植物和生長環境的配對最不恰當？",
+      "proposed_options": [
+        "①水稻：潮溼的土壤",
+        "②西瓜：長時間積水、排水不良的土壤",
+        "③招潮蟹：海岸潮間帶的泥灘",
+        "④螞蟻：有些種類在土壤挖洞築巢"
+      ],
+      "expected_answer": "②",
+      "kp_target": "sci_g04s1_01_02",
+      "operator_revision_state": "DRAFT_PENDING_KP_AND_AGE_ACCEPTANCE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S02|MC|011",
+      "risk": "『森林大火不是地震造成』並非絕對：地震可間接導致電力設備損壞與火災",
+      "proposed_stem": "下列哪個不是地震直接引起的地表變化，而通常需要另有燃燒條件才會發生？",
+      "proposed_options": [
+        "①地層抬升",
+        "②地面破裂",
+        "③斷層錯動",
+        "④森林大火"
+      ],
+      "expected_answer": "④",
+      "kp_target": "sci_g04s1_01_08",
+      "operator_revision_state": "DRAFT_PENDING_SCIENCE_AND_KP_RECHECK"
+    }
+  ],
+  "firstpass_source_description_discrepancy": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S03|G03|013",
+      "original_source_summary_as_committed": "魚體圖甲乙丙構造功能：尾鰭與方向",
+      "original_pdf_figure_grounded_correction": "原卷第2頁丙箭頭指向胸鰭，不是尾鰭；問『丙是什麼、能控制游水方向』；原卷正確選項 E 胸鰭",
+      "required_action_before_final_admission": "Add provenance-preserving corrected source-semantic overlay and keep original first-pass summary immutable. Verify user-facing diagram redraw and one-to-one arrow label prior to final admission.",
+      "science_verdict_currently": "FULL_PASS",
+      "kp_id": "sci_g04s1_02_08",
+      "public_admission_allowed": false
+    }
+  ],
+  "new_public_admissions": 0,
+  "next_step": "Re-verify drafts and original ID semantic repair during consolidated candidate freeze; do not publish"
+}

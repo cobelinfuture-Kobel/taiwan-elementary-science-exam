@@ -20,8 +20,8 @@
   "other_positions_not_yet_individually_examined": 60,
   "cross_exam_KP_match_positions": 4,
   "preliminary_kp_decisions": {
-    "KP_MATCH_CANDIDATE": 41,
-    "NONMATCH_G04S1_KP_ARCHIVE": 27,
+    "KP_MATCH_CANDIDATE": 43,
+    "NONMATCH_G04S1_KP_ARCHIVE": 25,
     "REVIEW_KP_UNCERTAIN": 3,
     "KP_MATCH_SOURCE_EVIDENCE_HOLD": 9
   },
@@ -844,20 +844,25 @@
       "source_text_reviewed": true,
       "original_pdf_sha256": null,
       "original_diagram_verified": false,
-      "model_provisional_answer": null,
+      "model_provisional_answer": "X",
       "teacher_key_authenticated": false,
-      "matched_canonical_kp_ids": [],
-      "effective_kp_unit_ids": [],
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_02"
+      ],
+      "effective_kp_unit_ids": [
+        "U02"
+      ],
       "original_exam_type": "MID",
-      "routing_by_current_kp": null,
-      "kp_first_decision": "NONMATCH_G04S1_KP_ARCHIVE",
-      "reason": "Question is traced to original selectable text; no original PDF SHA, full science answer or figure proof yet.",
+      "routing_by_current_kp": "CURRENT_MID",
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "reason": "Although the option mentions astronomy, in context it is an irrelevant item in a WATER SURVEY checklist: correctly rejecting it tests U02 water survey/environment variables. KP-first checks question+shared stem rather than keyword.",
       "publish_approved": false,
       "source_section_context": "水域調查",
       "original_figure_required": false,
       "source_binary_sha_pending": true,
       "science_answer_certified": false,
-      "review_status": "SOURCE_TEXT_PRELIMINARY_KP_ONLY"
+      "review_status": "SOURCE_CONTEXT_CHECKLIST_KP_MATCH__SCIENCE_CERTIFICATION_PENDING",
+      "previous_text_only_classification": "NONMATCH_G04S1_KP_ARCHIVE"
     },
     {
       "source_position_id": "SCI_G04_S1_114_MID_001|CHECK|S04|003",
@@ -930,20 +935,25 @@
       "source_text_reviewed": true,
       "original_pdf_sha256": null,
       "original_diagram_verified": false,
-      "model_provisional_answer": null,
+      "model_provisional_answer": "X",
       "teacher_key_authenticated": false,
-      "matched_canonical_kp_ids": [],
-      "effective_kp_unit_ids": [],
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_02"
+      ],
+      "effective_kp_unit_ids": [
+        "U02"
+      ],
       "original_exam_type": "MID",
-      "routing_by_current_kp": null,
-      "kp_first_decision": "NONMATCH_G04S1_KP_ARCHIVE",
-      "reason": "Question is traced to original selectable text; no original PDF SHA, full science answer or figure proof yet.",
+      "routing_by_current_kp": "CURRENT_MID",
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "reason": "Although the option mentions astronomy, in context it is an irrelevant item in a WATER SURVEY checklist: correctly rejecting it tests U02 water survey/environment variables. KP-first checks question+shared stem rather than keyword.",
       "publish_approved": false,
       "source_section_context": "水域調查",
       "original_figure_required": false,
       "source_binary_sha_pending": true,
       "science_answer_certified": false,
-      "review_status": "SOURCE_TEXT_PRELIMINARY_KP_ONLY"
+      "review_status": "SOURCE_CONTEXT_CHECKLIST_KP_MATCH__SCIENCE_CERTIFICATION_PENDING",
+      "previous_text_only_classification": "NONMATCH_G04S1_KP_ARCHIVE"
     },
     {
       "source_position_id": "SCI_G04_S1_114_MID_001|CHECK|S04|006",
@@ -2259,5 +2269,14 @@
     "KP_MATCH_CANDIDATE": 31,
     "KP_MATCH_SOURCE_EVIDENCE_HOLD": 8,
     "NONMATCH_G04S1_KP_ARCHIVE": 21
-  }
+  },
+  "context_aware_option_level_corrections": [
+    {
+      "source_position_ids": [
+        "SCI_G04_S1_114_MID_001|CHECK|S04|002",
+        "SCI_G04_S1_114_MID_001|CHECK|S04|005"
+      ],
+      "reason": "Moon-direction and Sun-altitude options are negative water-survey checklist choices; retain under U02 KP despite astronomy wording."
+    }
+  ]
 }

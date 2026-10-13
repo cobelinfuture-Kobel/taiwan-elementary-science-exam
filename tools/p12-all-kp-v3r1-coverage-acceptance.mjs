@@ -5,6 +5,11 @@ import { buildAllKpSourceIndex,readRepoJSON } from "./p12-all-kp-source-mapping.
 
 export const COVERAGE_MANIFEST="data/review/p12-all-kp-v3r1-114-all25-source-slot-evidence-coverage-v1.json";
 const SHA=/^[a-f0-9]{64}$/;
+const VERIFIED_RECOVERED_SOURCE_SHAS=Object.freeze({
+  "SCI_G04_S1_114_MID_001":"4d924c412166812557793cc43b62b02f6ce4da2539e9ddcf165e2faf456251fe",
+  "SCI_G04_S1_114_FINAL_001":"88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+  "SCI_G04_S1_114_FINAL_012":"1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987"
+});
 export const APPROVED_STATUSES=new Set([
   "STEM_OPTIONS_LOCATED_PENDING_VISUAL_REVIEW",
   "PARTIAL_STEM_LOCATED_REQUIRES_SOURCE_REVIEW",
@@ -34,6 +39,7 @@ export function verifyPublicV3R1Coverage(index=buildAllKpSourceIndex(),manifest=
  for(const file of recovered){
    invariant(byPaper.get(file.id)===file.source_response_positions,"recovered source positions do not match frozen original "+file.id);
    invariant(SHA.test(file.raw_pdf_sha256)&&file.drive_file_id?.length>12,"original recovered PDF hash or drive provenance invalid");
+   invariant(VERIFIED_RECOVERED_SOURCE_SHAS[file.id]===file.raw_pdf_sha256,"recovered original binary SHA differs from independently frozen V3R1 local readback "+file.id);
  }
  invariant(sum(recovered.map(x=>x.source_response_positions))===254,"recovered 254 source positions mismatch");
  const raster=manifest.image_only_papers??[];

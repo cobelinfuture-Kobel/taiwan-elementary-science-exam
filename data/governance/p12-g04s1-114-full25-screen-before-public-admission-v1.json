@@ -1,0 +1,116 @@
+{
+  "schema_version": "SCIENCE_P12_G04S1_114_CORPUS_FIRST_PUBLIC_ADMISSION_GATE_V1",
+  "status": "OPERATOR_APPROVED_FROZEN_EXECUTION_SEQUENCE",
+  "operator_decision_zh_tw": "114學年度四上自然25份原卷：全部完成逐題科學、KP、圖形及命題品質篩選後，集中整理合格候選，經使用者最後核准才正式入庫；不以108–113年度完成作為114年入庫前提。",
+  "effective_year": 114,
+  "exact_source_paper_count": 25,
+  "current_kp_authority_ref": "data/governance/p12-g04s1-108114-kp-first-authority-v1.json",
+  "current_kp_authority_count": 45,
+  "source_firstpass_snapshot_ref": "data/review/p12-g04s1-114-all25-kp-first-progress-v17.json",
+  "secondpass_queue_ref": "data/review/p12-g04s1-114-secondpass-all25-hold-and-kp-review-queue-v1.json",
+  "latest_science_snapshot_ref": "data/review/p12-g04s1-114-b02-science-figure-acceptance-progress-v2.json",
+  "baseline_source_answer_position_count": 1623,
+  "original_candidate_and_uncertain_positions": 1285,
+  "original_archived_nonmatching_positions": 338,
+  "original_candidate_partition": {
+    "KP_MATCH_CANDIDATE": 845,
+    "KP_MATCH_SOURCE_EVIDENCE_HOLD": 325,
+    "REVIEW_KP_UNCERTAIN": 115
+  },
+  "freeze_preexisting_public_answer_positions_all": 251,
+  "freeze_preexisting_public_answer_positions_g04s1": 53,
+  "phase_sequence": [
+    {
+      "phase": "A",
+      "id": "SOURCE_25_ORIGINAL_PDF_KP_FIRST_INVENTORY",
+      "baseline_status": "COMPLETE",
+      "criteria": [
+        "25 of 25 original paper source positions independently traced",
+        "1623 source positions mapped, including 338 archived source nonmatches",
+        "No publication from first-pass categories"
+      ]
+    },
+    {
+      "phase": "B",
+      "id": "SCIENCE_KP_FIGURE_FULL25_SCREENING",
+      "baseline_status": "IN_PROGRESS",
+      "criteria": [
+        "All 25 original papers receive complete item-level science screening",
+        "Every one of the original 1285 potentially relevant/uncertain source positions has a traceable final screening disposition",
+        "Source image, question wording, options, related subparts and KP boundaries reviewed",
+        "CORRECTABLE must be corrected and re-reviewed or excluded; HOLD unresolved must be explicitly parked/excluded and cannot pass admission",
+        "Do not fabricate source questions from 21 unreconciled printed score points",
+        "Preserve exact source PDF binary identities and resolve three legacy SHA holds before corpus-wide final screening declaration"
+      ]
+    },
+    {
+      "phase": "C",
+      "id": "CONSOLIDATED_114_ELIGIBLE_CANDIDATE_FREEZE",
+      "baseline_status": "NOT_STARTED",
+      "criteria": [
+        "Deduplicate semantically without deleting original source evidence",
+        "Record accepted/revised/excluded item lineage and canonical KP coverage",
+        "Independently validate final learner-facing answer and explanation",
+        "Recreate or clear rights for learner images; verify proportions and A4 two-column output",
+        "Produce an operator-reviewable final admission candidate manifest"
+      ]
+    },
+    {
+      "phase": "D",
+      "id": "OPERATOR_APPROVAL_THEN_BATCH_PUBLIC_ADMISSION",
+      "baseline_status": "BLOCKED",
+      "criteria": [
+        "Require explicit new user approval on the final consolidated 114 candidate list",
+        "Only then add approved, individually cleared questions to public draw pool",
+        "Run generator/exam selection, answer and print acceptance, browser Pages deployment and readback",
+        "Do not silently enlarge the site during Batch03/04 or any remaining science screening"
+      ]
+    }
+  ],
+  "corpus_completion_not_equal_public_admission": true,
+  "scope_barrier": {
+    "years_required_before_114_public_release": [
+      114
+    ],
+    "years_explicitly_not_required": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113
+    ],
+    "original_108_114_candidate_eligibility_unchanged": true,
+    "no_revision_to_legacy_kp_screening_authority": true,
+    "decision_applies_to": "release sequencing and 114 consolidated final operator gate, not suppression of 108–113 source discovery"
+  },
+  "do_not_block_science_batches_on_operator_approval": true,
+  "no_automatic_public_release": true,
+  "per_item_public_prerequisites": [
+    "exact_original_source_id_pdf_and_group_lineage",
+    "final_current45_canonical_kp_match",
+    "final_independent_scientific_answer_and_option_verdict",
+    "rewrite_pass_or_explicit_exclusion_for_problematic_items",
+    "semantic_dedup_lineage",
+    "learner_figure_redraw_or_rights_clearance_when_applicable",
+    "actual_A4_double_column_and_answer_print_validation",
+    "user_approved_consolidated_114_candidate_manifest"
+  ],
+  "final_corpus_checkpoint": {
+    "all_25_original_papers_item_science_screening_complete_required": true,
+    "all_1285_previously_candidate_or_uncertain_source_positions_dispositioned_required": true,
+    "remaining_unreviewed_candidate_positions_must_be_zero": true,
+    "unresolved_holds_cannot_be_public_admitted": true,
+    "user_must_approve_actual_final_candidate_manifest": true,
+    "no_req_for_108_to_113_completion": true
+  },
+  "publication_lock_during_screening": {
+    "public_added_answer_positions": 0,
+    "allow_source_inventory_updates": true,
+    "allow_internal_science_verdicts_and_rewrite_drafts": true,
+    "allow_nonpublic_acceptance_candidate_manifest": true,
+    "allow_changes_to_published_exam_bank": false,
+    "allow_operator_free_preapproval": false
+  },
+  "next_resume_task": "P12_G04S1_114_ALL25_ScienceAnswerVerdictAndFigureEvidence_Batch03"
+}

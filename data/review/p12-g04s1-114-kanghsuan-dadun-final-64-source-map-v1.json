@@ -1,0 +1,1220 @@
+{
+  "schema_version": "P12_114_KANGHSUAN_DADUN_FINAL_64_SOURCE_KP_FIRST_V1",
+  "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+  "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+  "source_drive_file_id": "1KQesPj7fM1T5OUOiT79ePwnjZ4GLx1d3",
+  "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+  "original_pdf_pages": 4,
+  "source_original_pdf_text_and_visual_checked": true,
+  "source_natural_answer_boxes": 64,
+  "source_score_total": 100,
+  "source_score_points_attributable_to_individual_positions": 98,
+  "source_group1_part1_aggregate_score_points": 2,
+  "source_score_group_level_parity_verified": true,
+  "source_score_per_checkbox_parity_verified": false,
+  "source_sections": [
+    {
+      "section": 1,
+      "slots": 15,
+      "points": 30
+    },
+    {
+      "section": 2,
+      "slots": 15,
+      "points": 30
+    },
+    {
+      "section": 3,
+      "slots": 24,
+      "points": 20
+    },
+    {
+      "section": 4,
+      "slots": 10,
+      "points": 20
+    }
+  ],
+  "preliminary_kp_decisions": {
+    "KP_MATCH_CANDIDATE": 35,
+    "KP_MATCH_SOURCE_EVIDENCE_HOLD": 25,
+    "REVIEW_KP_UNCERTAIN": 4,
+    "NONMATCH_G04S1_KP_ARCHIVE": 0
+  },
+  "kp_associated_positions": 60,
+  "source_science_answer_certified": false,
+  "teacher_key_authenticated": false,
+  "learner_source_figure_redraw_accepted": false,
+  "operator_public_admission_approved": false,
+  "note": "Original section3 starts with six separately visible source checkbox locations in laser/smoke diagram; parent group is worth TWO points total and score per individual box is unspecified. Do not assign fractional marks or invent question count; account group-level two points separately. Subsequent 4 shadow figures,2 physics statements,4 bulb connections,4 faults,4 circuit figures. Original reading two passages 5 questions each; answer marks in original PDF may be prefilled, independent science acceptance remains closed.",
+  "items": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|001",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 1,
+      "source_description": "鏡面反射光路走向原圖B",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|002",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 2,
+      "source_description": "照鏡子看到左右相反影像",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|003",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 3,
+      "source_description": "鏡面物體會改變光方向",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|004",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 4,
+      "source_description": "反射光行進是否無特定方向",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|005",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 5,
+      "source_description": "三角鐵聲音小時振動逐漸停止",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_01"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|006",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 6,
+      "source_description": "光滑不鏽鋼能否代替鏡子",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|007",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 7,
+      "source_description": "月光是否月球自己發光",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_05"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|008",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 8,
+      "source_description": "耳貼牆面聽到聲音經固體傳播",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_03"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|009",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 9,
+      "source_description": "太空無空氣聲音傳播情況",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_03"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|010",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 10,
+      "source_description": "電池串聯越多越亮是否適當",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|011",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 11,
+      "source_description": "六燈泡串聯是否亮度最高",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_08"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|012",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 12,
+      "source_description": "冰箱洗衣機電力來源",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_12"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|013",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 13,
+      "source_description": "延長線負載安全",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_12"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|014",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 14,
+      "source_description": "增加電池並聯是否變亮",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_07"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|015",
+      "section": 1,
+      "original_group": "TF",
+      "original_subitem": 15,
+      "source_description": "手電筒電池極性與安裝",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_01"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|001",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 1,
+      "source_description": "交換電池正負極改變小馬達轉向",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_10"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|002",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 2,
+      "source_description": "電池凸起端稱正極",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_01"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|003",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 3,
+      "source_description": "電良導體的定義",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_05"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|004",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 4,
+      "source_description": "製作開關用金屬銅線",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_05"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|005",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 5,
+      "source_description": "燈泡接線不亮原因排查",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|006",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 6,
+      "source_description": "原圖移除燈泡亮度比較",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 2,
+      "source_pdf_page": 1,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|007",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 7,
+      "source_description": "電池串聯提高風扇轉速",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_10"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 2,
+      "source_pdf_page": 2,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|008",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 8,
+      "source_description": "開關形成通路或斷路",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 2,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|009",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 9,
+      "source_description": "電池種類放置使用與回收",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_01",
+        "sci_g04s1_04_11"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 2,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|010",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 10,
+      "source_description": "海豚蝙蝠猴鼠的傳聲介質",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_03"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 2,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|011",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 11,
+      "source_description": "鏡面反射光線方向",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 2,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|012",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 12,
+      "source_description": "透光孔的影子與孔數",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 2,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|013",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 13,
+      "source_description": "鏡面反射後光改變方向",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 2,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|014",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 14,
+      "source_description": "光在空氣直線前進",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 2,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|015",
+      "section": 2,
+      "original_group": "MC",
+      "original_subitem": 15,
+      "source_description": "兩面鏡夾角與影像數量",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "score_points": 2,
+      "source_pdf_page": 2,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|001",
+      "section": 3,
+      "original_group": "G01A",
+      "original_subitem": 1,
+      "source_description": "雷射煙盒光路示意圖第1個可勾選原圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": null,
+      "source_pdf_page": 2,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|002",
+      "section": 3,
+      "original_group": "G01A",
+      "original_subitem": 2,
+      "source_description": "雷射煙盒光路示意圖第2個可勾選原圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": null,
+      "source_pdf_page": 2,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|003",
+      "section": 3,
+      "original_group": "G01A",
+      "original_subitem": 3,
+      "source_description": "雷射煙盒光路示意圖第3個可勾選原圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": null,
+      "source_pdf_page": 2,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|004",
+      "section": 3,
+      "original_group": "G01A",
+      "original_subitem": 4,
+      "source_description": "雷射煙盒光路示意圖第4個可勾選原圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": null,
+      "source_pdf_page": 2,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|005",
+      "section": 3,
+      "original_group": "G01A",
+      "original_subitem": 5,
+      "source_description": "雷射煙盒光路示意圖第5個可勾選原圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": null,
+      "source_pdf_page": 2,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|006",
+      "section": 3,
+      "original_group": "G01A",
+      "original_subitem": 6,
+      "source_description": "雷射煙盒光路示意圖第6個可勾選原圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": null,
+      "source_pdf_page": 2,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01B|007",
+      "section": 3,
+      "original_group": "G01B",
+      "original_subitem": 1,
+      "source_description": "手電筒照射物體影子示意圖第1個判斷框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 2,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01B|008",
+      "section": 3,
+      "original_group": "G01B",
+      "original_subitem": 2,
+      "source_description": "手電筒照射物體影子示意圖第2個判斷框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 2,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01B|009",
+      "section": 3,
+      "original_group": "G01B",
+      "original_subitem": 3,
+      "source_description": "手電筒照射物體影子示意圖第3個判斷框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 2,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01B|010",
+      "section": 3,
+      "original_group": "G01B",
+      "original_subitem": 4,
+      "source_description": "手電筒照射物體影子示意圖第4個判斷框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 2,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01C|011",
+      "section": 3,
+      "original_group": "G01C",
+      "original_subitem": 1,
+      "source_description": "光是直線行進的",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 1,
+      "source_pdf_page": 2,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01C|012",
+      "section": 3,
+      "original_group": "G01C",
+      "original_subitem": 2,
+      "source_description": "被物體阻擋在背後形成影子",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 1,
+      "source_pdf_page": 2,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G02|013",
+      "section": 3,
+      "original_group": "G02",
+      "original_subitem": 1,
+      "source_description": "原圖燈泡A/B哪一組更亮",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 3,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G02|014",
+      "section": 3,
+      "original_group": "G02",
+      "original_subitem": 2,
+      "source_description": "哪個原圖燈泡同一條通路",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_08"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 3,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G02|015",
+      "section": 3,
+      "original_group": "G02",
+      "original_subitem": 3,
+      "source_description": "哪種原圖一燈壞全組熄",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_08"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 3,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G02|016",
+      "section": 3,
+      "original_group": "G02",
+      "original_subitem": 4,
+      "source_description": "家中電燈一燈壞其他仍亮",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_09"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 3,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G03|017",
+      "section": 3,
+      "original_group": "G03",
+      "original_subitem": 1,
+      "source_description": "電路①電線接觸燈泡部位錯誤",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_03",
+        "sci_g04s1_04_04"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 3,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G03|018",
+      "section": 3,
+      "original_group": "G03",
+      "original_subitem": 2,
+      "source_description": "電路①燈泡太小斷路說法",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 3,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G03|019",
+      "section": 3,
+      "original_group": "G03",
+      "original_subitem": 3,
+      "source_description": "電路②電線連電池兩極形成通路",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 3,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G03|020",
+      "section": 3,
+      "original_group": "G03",
+      "original_subitem": 4,
+      "source_description": "電路③換電線顏色無法亮",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 3,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G04|021",
+      "section": 3,
+      "original_group": "G04",
+      "original_subitem": 1,
+      "source_description": "原圖電路1辨識電池/燈泡串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 3,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G04|022",
+      "section": 3,
+      "original_group": "G04",
+      "original_subitem": 2,
+      "source_description": "原圖電路2辨識電池/燈泡串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 3,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G04|023",
+      "section": 3,
+      "original_group": "G04",
+      "original_subitem": 3,
+      "source_description": "原圖電路3辨識電池/燈泡串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 3,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G04|024",
+      "section": 3,
+      "original_group": "G04",
+      "original_subitem": 4,
+      "source_description": "原圖電路4辨識電池/燈泡串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "score_points": 1,
+      "source_pdf_page": 3,
+      "source_figure_required": true,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ1|001",
+      "section": 4,
+      "original_group": "READ1",
+      "original_subitem": 1,
+      "source_description": "先看燈塔光後聽海浪聲因光較快",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_03"
+      ],
+      "kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "score_points": 2,
+      "source_pdf_page": 4,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ1|002",
+      "section": 4,
+      "original_group": "READ1",
+      "original_subitem": 2,
+      "source_description": "遠離吉他聲音變弱",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_03"
+      ],
+      "kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "score_points": 2,
+      "source_pdf_page": 4,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ1|003",
+      "section": 4,
+      "original_group": "READ1",
+      "original_subitem": 3,
+      "source_description": "橡皮筋拉緊音高變化與振動",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_01"
+      ],
+      "kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "score_points": 2,
+      "source_pdf_page": 4,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ1|004",
+      "section": 4,
+      "original_group": "READ1",
+      "original_subitem": 4,
+      "source_description": "遮住手電筒光後地面變暗",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_04"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 4,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ1|005",
+      "section": 4,
+      "original_group": "READ1",
+      "original_subitem": 5,
+      "source_description": "救護車鳴笛與閃燈的應用",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_09"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 4,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ2|006",
+      "section": 4,
+      "original_group": "READ2",
+      "original_subitem": 1,
+      "source_description": "電路乙開關不通而燈不亮",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 4,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ2|007",
+      "section": 4,
+      "original_group": "READ2",
+      "original_subitem": 2,
+      "source_description": "鋁箔紙能導電",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_05"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 4,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ2|008",
+      "section": 4,
+      "original_group": "READ2",
+      "original_subitem": 3,
+      "source_description": "塑膠片為不良導體",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_05"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 4,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ2|009",
+      "section": 4,
+      "original_group": "READ2",
+      "original_subitem": 4,
+      "source_description": "電池燈泡導線完整連接",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 4,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ2|010",
+      "section": 4,
+      "original_group": "READ2",
+      "original_subitem": 5,
+      "source_description": "加入開關控制小夜燈",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "score_points": 2,
+      "source_pdf_page": 4,
+      "source_figure_required": false,
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "science_answer_verified": false,
+      "teacher_key_authenticated": false,
+      "public_release_approved": false
+    }
+  ],
+  "original_pdf_page_lineage_adjustment_note": "Corrected 9 exact original section-to-page locations after PDF image layout readback."
+}

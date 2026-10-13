@@ -1,0 +1,1034 @@
+{
+  "schema_version": "P12_114_KANGHSUAN_PUREN_MID_54_SCAN_KP_FIRST_V1",
+  "source_candidate_id": "SCI_G04_S1_114_MID_009",
+  "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+  "source_drive_file_id": "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG",
+  "source_exact_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+  "source_pages": 2,
+  "scan_only_raw_pdf_pages_original_visually_reviewed": 2,
+  "sections": [
+    {
+      "section": 1,
+      "positions": 15,
+      "score": 30
+    },
+    {
+      "section": 2,
+      "positions": 19,
+      "score": 38
+    },
+    {
+      "section": 3,
+      "positions": 17,
+      "score": 22
+    },
+    {
+      "section": 4,
+      "positions": 3,
+      "score": 6
+    }
+  ],
+  "printed_section_scores": [
+    30,
+    42,
+    22,
+    6
+  ],
+  "source_identified_positions": 54,
+  "source_scored_points_supported": 96,
+  "source_score_to_position_gap_points": 4,
+  "source_parity_certified": false,
+  "original_source_PDF_figure_dependencies_held": true,
+  "preliminary_kp_decisions": {
+    "KP_MATCH_CANDIDATE": 35,
+    "KP_MATCH_SOURCE_EVIDENCE_HOLD": 11,
+    "REVIEW_KP_UNCERTAIN": 8,
+    "NONMATCH_G04S1_KP_ARCHIVE": 0
+  },
+  "kp_related_positions": 46,
+  "science_answer_certified": false,
+  "teacher_key_authenticated": false,
+  "public_admission_approved": false,
+  "notes": "Original scan-only 2-page PDF visually read, not OCR. Printed second section 42 points but four plant category choices + five wind/sediment questions + six fish diagram answer boxes + four animal classification boxes visibly account for 19*2=38 points. Keep 4-point score/slot gap rather than inventing 2 additional positions. Third section has 6 safety judgments (1 each), 6 submerged plant judgments (1 each), 5 earthquake report items (2 each), total 22. Source appendix reading 3 MC at2 points, total6.",
+  "items": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|001",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 1,
+      "original_summary": "哪個因素不會讓地表岩石碎裂",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_05"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|002",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 2,
+      "original_summary": "地震規模與釋放能量的比較",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|003",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 3,
+      "original_summary": "水田與潮間帶水生生物環境",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_01",
+        "sci_g04s1_02_02"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|004",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 4,
+      "original_summary": "兩種水域不可能同現的物種",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_02"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|005",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 5,
+      "original_summary": "荷花布袋蓮葉水珠與葉柄透氣",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_04",
+        "sci_g04s1_02_07"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|006",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 6,
+      "original_summary": "漂浮性植物不可能的共同特徵",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_04"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|007",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 7,
+      "original_summary": "魚螺蝌蚪蛙運動方式",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_09"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|008",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 8,
+      "original_summary": "流水搬沙土形成土石流的原因",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_05",
+        "sci_g04s1_01_06"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|009",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 9,
+      "original_summary": "水族箱大萍入水再放開情況",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_04"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|010",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 10,
+      "original_summary": "水生植物葉柄及水面浮葉的敘述",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_06"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|011",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 11,
+      "original_summary": "水生植物特徵錨定",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_07"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|012",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 12,
+      "original_summary": "淡鹹水交界潮間帶的水域",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_02"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|013",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 13,
+      "original_summary": "以手摸礫石沙土細粗比較",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_03"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|014",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 14,
+      "original_summary": "溪流海洋生態池和水田的動物棲地",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_02"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|015",
+      "section": 1,
+      "source_group": "MC",
+      "subitem": 15,
+      "original_summary": "布袋蓮葉柄膨大與漂浮功能",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_04"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G01|001",
+      "section": 2,
+      "source_group": "G01",
+      "subitem": 1,
+      "original_summary": "大萍類型",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_04"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G01|002",
+      "section": 2,
+      "source_group": "G01",
+      "subitem": 2,
+      "original_summary": "香蒲類型",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_07"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G01|003",
+      "section": 2,
+      "source_group": "G01",
+      "subitem": 3,
+      "original_summary": "睡蓮類型",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_06"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G01|004",
+      "section": 2,
+      "source_group": "G01",
+      "subitem": 4,
+      "original_summary": "水蘊草類型",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_05"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G02|005",
+      "section": 2,
+      "source_group": "G02",
+      "subitem": 1,
+      "original_summary": "土堆吹風後最遠粒徑位置",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_06"
+      ],
+      "kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G02|006",
+      "section": 2,
+      "source_group": "G02",
+      "subitem": 2,
+      "original_summary": "土堆吹風後原位置C的物質",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_06"
+      ],
+      "kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G02|007",
+      "section": 2,
+      "source_group": "G02",
+      "subitem": 3,
+      "original_summary": "風搬運顆粒越小運距越遠",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_06"
+      ],
+      "kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G02|008",
+      "section": 2,
+      "source_group": "G02",
+      "subitem": 4,
+      "original_summary": "礫石沙土中誰粒徑最小",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_03"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G02|009",
+      "section": 2,
+      "source_group": "G02",
+      "subitem": 5,
+      "original_summary": "吹風後土堆高度變高或變低",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_06"
+      ],
+      "kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 1,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G03|010",
+      "section": 2,
+      "source_group": "G03",
+      "subitem": 1,
+      "original_summary": "魚口附近呼吸構造圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G03|011",
+      "section": 2,
+      "source_group": "G03",
+      "subitem": 2,
+      "original_summary": "魚體軀幹外形圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G03|012",
+      "section": 2,
+      "source_group": "G03",
+      "subitem": 3,
+      "original_summary": "魚尾游泳構造圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G03|013",
+      "section": 2,
+      "source_group": "G03",
+      "subitem": 4,
+      "original_summary": "魚口呼吸所需構造功能",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G03|014",
+      "section": 2,
+      "source_group": "G03",
+      "subitem": 5,
+      "original_summary": "魚身體保護功能",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G03|015",
+      "section": 2,
+      "source_group": "G03",
+      "subitem": 6,
+      "original_summary": "魚用尾鰭運動功能",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G04|016",
+      "section": 2,
+      "source_group": "G04",
+      "subitem": 1,
+      "original_summary": "無殼且有蹼的水生動物",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_09"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G04|017",
+      "section": 2,
+      "source_group": "G04",
+      "subitem": 2,
+      "original_summary": "無殼且無蹼的水生動物",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_09"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G04|018",
+      "section": 2,
+      "source_group": "G04",
+      "subitem": 3,
+      "original_summary": "有殼爬行的水生動物",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_09"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G04|019",
+      "section": 2,
+      "source_group": "G04",
+      "subitem": 4,
+      "original_summary": "有殼非爬行的水生動物",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_09"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|001",
+      "section": 3,
+      "source_group": "G01",
+      "subitem": 1,
+      "original_summary": "地震前準備避難包",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_09"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 1,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|002",
+      "section": 3,
+      "source_group": "G01",
+      "subitem": 2,
+      "original_summary": "平時防災演練",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_09"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 1,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|003",
+      "section": 3,
+      "source_group": "G01",
+      "subitem": 3,
+      "original_summary": "地震時搭電梯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_10"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 1,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|004",
+      "section": 3,
+      "source_group": "G01",
+      "subitem": 4,
+      "original_summary": "地震不可能預測發生日期",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_09"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 1,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|005",
+      "section": 3,
+      "source_group": "G01",
+      "subitem": 5,
+      "original_summary": "地震時維持冷靜",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_10"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 1,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|006",
+      "section": 3,
+      "source_group": "G01",
+      "subitem": 6,
+      "original_summary": "地震後檢查瓦斯水電",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_11"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 1,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G02|007",
+      "section": 3,
+      "source_group": "G02",
+      "subitem": 1,
+      "original_summary": "沉水植物葉呈細長形",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 1,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G02|008",
+      "section": 3,
+      "source_group": "G02",
+      "subitem": 2,
+      "original_summary": "沉水植物葉不易被水沾濕",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "source_printed_score_points": 1,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G02|009",
+      "section": 3,
+      "source_group": "G02",
+      "subitem": 3,
+      "original_summary": "沉水植物柔軟隨水流擺動",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 1,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G02|010",
+      "section": 3,
+      "source_group": "G02",
+      "subitem": 4,
+      "original_summary": "沉水植物葉在水面上",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 1,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G02|011",
+      "section": 3,
+      "source_group": "G02",
+      "subitem": 5,
+      "original_summary": "沉水植物根漂在水面",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 1,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G02|012",
+      "section": 3,
+      "source_group": "G02",
+      "subitem": 6,
+      "original_summary": "沉水植物葉表面細毛",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "source_printed_score_points": 1,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G03|013",
+      "section": 3,
+      "source_group": "G03",
+      "subitem": 1,
+      "original_summary": "113年4月3日地震深度（公里）",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G03|014",
+      "section": 3,
+      "source_group": "G03",
+      "subitem": 2,
+      "original_summary": "113年4月3日地震規模",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G03|015",
+      "section": 3,
+      "source_group": "G03",
+      "subitem": 3,
+      "original_summary": "花蓮縣和平地區最大震度",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G03|016",
+      "section": 3,
+      "source_group": "G03",
+      "subitem": 4,
+      "original_summary": "桃園市最大震度",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G03|017",
+      "section": 3,
+      "source_group": "G03",
+      "subitem": 5,
+      "original_summary": "地震時的可能感受或現象",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": true,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S4|READ|001",
+      "section": 4,
+      "source_group": "READ",
+      "subitem": 1,
+      "original_summary": "茭白筍的葉柄是否浮在水面上",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_07"
+      ],
+      "kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S4|READ|002",
+      "section": 4,
+      "source_group": "READ",
+      "subitem": 2,
+      "original_summary": "茭白筍可食部位為莖",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_10"
+      ],
+      "kp_first_decision": "KP_MATCH_CANDIDATE",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S4|READ|003",
+      "section": 4,
+      "source_group": "READ",
+      "subitem": 3,
+      "original_summary": "茭白筍與黑穗菌形成菰筍",
+      "matched_canonical_kp_ids": [],
+      "kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "source_printed_score_points": 2,
+      "source_original_pdf_page": 2,
+      "source_figure_needed": false,
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_science_answer_verified": false,
+      "source_teacher_key_authenticated": false,
+      "public_release_approved": false
+    }
+  ]
+}

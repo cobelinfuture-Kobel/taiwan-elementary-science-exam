@@ -1,0 +1,236 @@
+{
+  "schema_version": "SCIENCE_P12_114_G04S1_LAST11_FULL_SOURCE_POSITION_FIRST_PASS_BATCH_V1",
+  "original_main_sha_before_batch": "9aae0220b4040bf07c1bd6fccf25d275a7d09a19",
+  "source_authority_ref": "data/governance/p12-g04s1-108114-kp-first-authority-v1.json",
+  "previous_progress_ref": "data/review/p12-g04s1-114-all25-kp-first-progress-v16.json",
+  "new_progress_ref": "data/review/p12-g04s1-114-all25-kp-first-progress-v17.json",
+  "frozen_canonical_kp_count": 45,
+  "source_paper_count": 11,
+  "previous_source_papers_mapped": 14,
+  "after_source_papers_mapped": 25,
+  "source_slots_new": 730,
+  "source_slots_previously": 893,
+  "source_slots_full25": 1623,
+  "new_source_text_positions": 487,
+  "new_original_image_only_positions": 243,
+  "kp_first_decisions_new": {
+    "KP_MATCH_CANDIDATE": 372,
+    "KP_MATCH_SOURCE_EVIDENCE_HOLD": 114,
+    "REVIEW_KP_UNCERTAIN": 50,
+    "NONMATCH_G04S1_KP_ARCHIVE": 194
+  },
+  "kp_first_decisions_full25": {
+    "KP_MATCH_CANDIDATE": 845,
+    "KP_MATCH_SOURCE_EVIDENCE_HOLD": 325,
+    "REVIEW_KP_UNCERTAIN": 115,
+    "NONMATCH_G04S1_KP_ARCHIVE": 338
+  },
+  "original_source_scoring_new_ambiguity_points": 7,
+  "original_source_scoring_full_ambiguity_points": 21,
+  "all_science_answers_certified": false,
+  "all_teacher_answer_keys_authenticated": false,
+  "all_learner_diagrams_accepted": false,
+  "operator_public_admission_approved": false,
+  "public_bank_current_total": 251,
+  "public_bank_grade4_sem1": 53,
+  "records": [
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_002",
+      "source_title": "114_南一_四上_自然_期中評量卷_和順國小.pdf",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-heshun-mid-70-source-map-v1.json",
+      "source_modality": "ORIGINAL_PDF_IMAGE_ONLY",
+      "source_answer_positions": 70,
+      "canonical_kp_first_decisions": {
+        "KP_MATCH_CANDIDATE": 29,
+        "KP_MATCH_SOURCE_EVIDENCE_HOLD": 3,
+        "REVIEW_KP_UNCERTAIN": 5,
+        "NONMATCH_G04S1_KP_ARCHIVE": 33
+      },
+      "source_scoring_gap_points": 0,
+      "independent_science_answer_accepted": false,
+      "learner_figure_accepted": false,
+      "operator_public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_002",
+      "source_title": "114_南一_四上_自然_期末評量卷_和順國小.pdf",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-heshun-final-70-source-map-v1.json",
+      "source_modality": "ORIGINAL_PDF_IMAGE_ONLY",
+      "source_answer_positions": 70,
+      "canonical_kp_first_decisions": {
+        "KP_MATCH_CANDIDATE": 32,
+        "KP_MATCH_SOURCE_EVIDENCE_HOLD": 12,
+        "REVIEW_KP_UNCERTAIN": 2,
+        "NONMATCH_G04S1_KP_ARCHIVE": 24
+      },
+      "source_scoring_gap_points": 0,
+      "independent_science_answer_accepted": false,
+      "learner_figure_accepted": false,
+      "operator_public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_modality": "ORIGINAL_PDF_IMAGE_ONLY",
+      "source_answer_positions": 54,
+      "canonical_kp_first_decisions": {
+        "KP_MATCH_CANDIDATE": 35,
+        "KP_MATCH_SOURCE_EVIDENCE_HOLD": 11,
+        "REVIEW_KP_UNCERTAIN": 8,
+        "NONMATCH_G04S1_KP_ARCHIVE": 0
+      },
+      "source_scoring_gap_points": 4,
+      "independent_science_answer_accepted": false,
+      "learner_figure_accepted": false,
+      "operator_public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_010",
+      "source_title": "114_康軒_四上_自然_期末評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-final-49-source-map-v1.json",
+      "source_modality": "ORIGINAL_PDF_IMAGE_ONLY",
+      "source_answer_positions": 49,
+      "canonical_kp_first_decisions": {
+        "KP_MATCH_CANDIDATE": 32,
+        "KP_MATCH_SOURCE_EVIDENCE_HOLD": 14,
+        "REVIEW_KP_UNCERTAIN": 0,
+        "NONMATCH_G04S1_KP_ARCHIVE": 3
+      },
+      "source_scoring_gap_points": 0,
+      "independent_science_answer_accepted": false,
+      "learner_figure_accepted": false,
+      "operator_public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_011",
+      "source_title": "114_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-dahua-final-42-source-map-v1.json",
+      "source_modality": "ORIGINAL_PDF_SELECTABLE_TEXT_AND_DIAGRAM",
+      "source_answer_positions": 42,
+      "canonical_kp_first_decisions": {
+        "KP_MATCH_CANDIDATE": 13,
+        "KP_MATCH_SOURCE_EVIDENCE_HOLD": 1,
+        "REVIEW_KP_UNCERTAIN": 6,
+        "NONMATCH_G04S1_KP_ARCHIVE": 22
+      },
+      "source_scoring_gap_points": 0,
+      "independent_science_answer_accepted": false,
+      "learner_figure_accepted": false,
+      "operator_public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "source_title": "114_翰林_四上_自然_期中評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "source_modality": "ORIGINAL_PDF_SELECTABLE_TEXT_AND_DIAGRAM",
+      "source_answer_positions": 60,
+      "canonical_kp_first_decisions": {
+        "KP_MATCH_CANDIDATE": 17,
+        "KP_MATCH_SOURCE_EVIDENCE_HOLD": 7,
+        "REVIEW_KP_UNCERTAIN": 4,
+        "NONMATCH_G04S1_KP_ARCHIVE": 32
+      },
+      "source_scoring_gap_points": 0,
+      "independent_science_answer_accepted": false,
+      "learner_figure_accepted": false,
+      "operator_public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_013",
+      "source_title": "114_翰林_四上_自然_期末評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-shihu-final-62-source-map-v1.json",
+      "source_modality": "ORIGINAL_PDF_SELECTABLE_TEXT_AND_DIAGRAM",
+      "source_answer_positions": 62,
+      "canonical_kp_first_decisions": {
+        "KP_MATCH_CANDIDATE": 32,
+        "KP_MATCH_SOURCE_EVIDENCE_HOLD": 1,
+        "REVIEW_KP_UNCERTAIN": 3,
+        "NONMATCH_G04S1_KP_ARCHIVE": 26
+      },
+      "source_scoring_gap_points": 3,
+      "independent_science_answer_accepted": false,
+      "learner_figure_accepted": false,
+      "operator_public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_modality": "ORIGINAL_PDF_SELECTABLE_TEXT_AND_DIAGRAM",
+      "source_answer_positions": 79,
+      "canonical_kp_first_decisions": {
+        "KP_MATCH_CANDIDATE": 57,
+        "KP_MATCH_SOURCE_EVIDENCE_HOLD": 18,
+        "REVIEW_KP_UNCERTAIN": 4,
+        "NONMATCH_G04S1_KP_ARCHIVE": 0
+      },
+      "source_scoring_gap_points": 0,
+      "independent_science_answer_accepted": false,
+      "learner_figure_accepted": false,
+      "operator_public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_modality": "ORIGINAL_PDF_SELECTABLE_TEXT_AND_DIAGRAM",
+      "source_answer_positions": 64,
+      "canonical_kp_first_decisions": {
+        "KP_MATCH_CANDIDATE": 35,
+        "KP_MATCH_SOURCE_EVIDENCE_HOLD": 25,
+        "REVIEW_KP_UNCERTAIN": 4,
+        "NONMATCH_G04S1_KP_ARCHIVE": 0
+      },
+      "source_scoring_gap_points": 0,
+      "independent_science_answer_accepted": false,
+      "learner_figure_accepted": false,
+      "operator_public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_009",
+      "source_title": "114_康軒_四上_自然_期末評量卷_翁子國小.pdf",
+      "source_pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-wengzi-final-80-source-map-v1.json",
+      "source_modality": "ORIGINAL_PDF_SELECTABLE_TEXT_AND_DIAGRAM",
+      "source_answer_positions": 80,
+      "canonical_kp_first_decisions": {
+        "KP_MATCH_CANDIDATE": 58,
+        "KP_MATCH_SOURCE_EVIDENCE_HOLD": 21,
+        "REVIEW_KP_UNCERTAIN": 1,
+        "NONMATCH_G04S1_KP_ARCHIVE": 0
+      },
+      "source_scoring_gap_points": 0,
+      "independent_science_answer_accepted": false,
+      "learner_figure_accepted": false,
+      "operator_public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_modality": "ORIGINAL_PDF_SELECTABLE_TEXT_AND_DIAGRAM",
+      "source_answer_positions": 100,
+      "canonical_kp_first_decisions": {
+        "KP_MATCH_CANDIDATE": 32,
+        "KP_MATCH_SOURCE_EVIDENCE_HOLD": 1,
+        "REVIEW_KP_UNCERTAIN": 13,
+        "NONMATCH_G04S1_KP_ARCHIVE": 54
+      },
+      "source_scoring_gap_points": 0,
+      "independent_science_answer_accepted": false,
+      "learner_figure_accepted": false,
+      "operator_public_admission_approved": false
+    }
+  ]
+}

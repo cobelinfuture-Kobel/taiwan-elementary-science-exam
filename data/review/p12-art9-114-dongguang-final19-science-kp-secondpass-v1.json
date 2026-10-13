@@ -1,0 +1,263 @@
+{
+  "schema_version": "P12_114_DONGGUANG_FINAL19_SCIENCE_KP_MODEL_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_FINAL_003",
+  "source_original_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+  "prior_source_map_ref": "data/review/p12-g04s1-114-nanyi-dongguang-final-source-visual-v2.json",
+  "source_public_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+  "full_source_standalone_tf_mc_record_count": 19,
+  "source_bbox_original_pdf_verified_count": 19,
+  "source_exact_pdf_page_count": 4,
+  "excluded_figure_dependent_mc": [
+    "SCI_G04_S1_114_FINAL_003|S02|MC|003"
+  ],
+  "excluded_figure_reason": "Original MC03 has mirror-and-laser figure; cannot be described as standalone text-only or copied with third-party visual rights unresolved",
+  "cross_page_source_ids": [
+    "SCI_G04_S1_114_FINAL_003|S02|MC|010"
+  ],
+  "model_science_preliminary_pass": 17,
+  "model_science_hold": 2,
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 14,
+    "KP_REVIEW": 5,
+    "KP_NONMATCH_G04S1": 0
+  },
+  "kp_strong_and_model_science_pass_count": 13,
+  "hold_source_ids": [
+    "SCI_G04_S1_114_FINAL_003|S02|MC|002",
+    "SCI_G04_S1_114_FINAL_003|S02|MC|008"
+  ],
+  "formal_science_acceptance_count": 0,
+  "formal_kp_approval_count": 0,
+  "teacher_key_authenticated_count": 0,
+  "operator_public_learner_admission_count": 0,
+  "original_question_reviews": [
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|001",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "各式燈籠燈泡的外形及規格可不同；45 KP未直接教導所有燈泡外形",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|002",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "一般開關使電路通斷，不是調節電力強弱",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_04",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|003",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "橡皮擦、橡皮筋、手帕一般是電的不良導體，無法取代金屬迴紋針的導通功能",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_05",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|004",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "相同電池下增加串聯燈泡一般使個別燈泡變暗而非更亮",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_08",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|005",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "兩顆合宜電池串聯通常提高電壓，燈泡亮度與單顆情況不同",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_06",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|006",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "撥動尺的力不同可造成不同振幅，但聲音振幅不等於45 KP內明列的聲音產生概念",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|007",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "皮影戲依賴遮蔽沿直線前進的光形成影子",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_06",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|008",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "光也可作警示和指示，如交通燈號",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_09",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|009",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "電器外殼一般需要適當絕緣設計避免觸電，不能以增加導電性為目的",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_02",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|010",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "不良導體可作電線絕緣外皮、開關或電器的防觸電部分，不只作裝飾",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_02",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|001",
+      "model_provisional_answer": "①",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "完全沒有可用光源的儲藏室不易形成可見影子",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_06",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|002",
+      "model_provisional_answer": null,
+      "model_science_review_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDERDETERMINED",
+      "science_reason": "僅描述燈籠發彩光與旋轉，無法排除同時裝有喇叭；②是原題意圖但非邏輯唯一",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|004",
+      "model_provisional_answer": "②",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "久置乾電池可能發生電解液滲漏，不是必然；題幹為『可能』",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|005",
+      "model_provisional_answer": "②",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "水等液體可以傳聲，因此『液體無法傳播聲音』是錯誤的",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_03",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|006",
+      "model_provisional_answer": "①",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "喇叭聲先經空氣傳至水面，再透過水傳給舞者",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_03",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|007",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "彩虹主要涉及光在水滴中的折射、反射和色散，與光形成影子不同",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_06",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|008",
+      "model_provisional_answer": null,
+      "model_science_review_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDERDETERMINED",
+      "science_reason": "只有一條導線不一定不能點亮燈泡：若燈泡底端直接接觸電池另一極也能形成通路；缺少實際連法無法證明唯一不是故障原因",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_04",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|009",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "串聯與並聯增加燈泡時亮度變化不同，因此需知道連接方式",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|010",
+      "model_provisional_answer": "①",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "電池並聯須同極相連（正對正、負對負），正負交叉相接不是並聯正確接法",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_07",
+      "formally_teacher_key_verified": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    }
+  ]
+}

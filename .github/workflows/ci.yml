@@ -43,6 +43,16 @@ jobs:
           name: p12-g04s2-114-cross-scope-retrieval-pilot-v1
           path: data/index/p12-g04s2-114-cross-scope-retrieval-pilot-v1.json
           if-no-files-found: error
+      - name: Generate nonpublic G04S2 V2 evidence-audited KP rerouting
+        run: npm run kp:g04s2:v2:build
+      - name: Verify source-exact V2 retrieval and rerouting parity
+        run: npm run kp:g04s2:v2:check
+      - name: Upload V2 exact-source semantic repair evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: p12-g04s2-v2-exact-source-routing-v1
+          path: data/index/p12-g04s2-v2-exact-source-retrieval-routing-v1.json
+          if-no-files-found: error
       - name: Upload P11 provenance and coverage evidence
         uses: actions/upload-artifact@v4
         with:

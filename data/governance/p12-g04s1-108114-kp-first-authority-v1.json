@@ -1,0 +1,80 @@
+{
+  "schema_version": "SCIENCE_P12_G04S1_108114_KP_FIRST_SCREENING_AUTHORITY_V1",
+  "effective_scope": "All question/answer positions from every discovered 108–114 original G04 S1 Natural Science source; preserve additional discovery candidates",
+  "operator_decision": "Approved explicit user directive: 不分出版社、不分考試別、不以整卷合格率限制，只要題目符合四上45個canonical KP，就全部保留並進行入庫驗收。",
+  "authoritative_reference": "site/data/authority/science-g03-g04-selector-v2.json",
+  "canonical_scope": {
+    "grade": 4,
+    "semester": 1,
+    "unit_ids": [
+      "U01",
+      "U02",
+      "U03",
+      "U04"
+    ],
+    "kp_count": 45,
+    "kp_by_unit": {
+      "U01": 11,
+      "U02": 12,
+      "U03": 10,
+      "U04": 12
+    }
+  },
+  "original_paper_attributes_only": [
+    "academic_year",
+    "school",
+    "publisher_label",
+    "printed_exam_type",
+    "paper_level_scope_rating",
+    "original_question_number",
+    "original_pdf_sha256"
+  ],
+  "invalid_exclusion_gates": [
+    "printed_exam_type",
+    "publisher_label",
+    "academic_year_within_108_114",
+    "paper_level_scope_rating",
+    "same-filename_duplicate",
+    "previously_covered_kp",
+    "previous_published_similar_fact"
+  ],
+  "admitted_candidate_predicate": "A question has at least one valid canonical KP in G04-S1-U01/U02/U03/U04 -> KEEP_KP_MATCH_CANDIDATE, regardless of its original exam-type/publisher/paper-level rating. Candidate ≠ approved public release.",
+  "exam_routing": {
+    "U01": "CURRENT_KANGHSUAN_MID",
+    "U02": "CURRENT_KANGHSUAN_MID",
+    "U03": "CURRENT_KANGHSUAN_FINAL",
+    "U04": "CURRENT_KANGHSUAN_FINAL"
+  },
+  "decisions": {
+    "KP_MATCH_CANDIDATE": "Retain exact source slot and enter science, provenance, diagram and image-dependent acceptance pipeline.",
+    "KP_MATCH_SOURCE_EVIDENCE_HOLD": "Retain the source slot and inferred KP match; missing source figure/text/answers blocks certification, never silently discard.",
+    "REVIEW_KP_UNCERTAIN": "Retain unresolved original source position; do not decide based solely on subject keywords.",
+    "NONMATCH_G04S1_KP_ARCHIVE": "Archive the source position with reason and optional target-other-grade/unit, not G04-S1 public bank.",
+    "PUBLISHED_EXISTING_SOURCE": "Preserve source lineage and existing published entry without re-publishing duplicate slot."
+  },
+  "publication_gates": [
+    "source_pdf_exact_identity_and_visual_readback",
+    "all_original_answer_position_inventory",
+    "source_text_and_shared_context_verified",
+    "science_answer_independently_verified",
+    "canonical_kp_verified",
+    "source_and_semantic_dedup_lineage",
+    "copyright_and_figure_redraw_if_needed",
+    "A4_double_column_actual_visual_acceptance",
+    "explicit_operator_public_admission"
+  ],
+  "duplicate_policy": "Do not eliminate source positions because equivalent questions already exist; link duplicates to canonical item concept, keep all provenance, and prevent identical repetition on the same generated worksheet.",
+  "historical_overlay_policy": "Do not overwrite any prior source pilot statuses including WRONG_PERIOD; create new item-level KP-first assessments referencing original annotations.",
+  "figure_policy": "Pictures and graph-dependent questions remain eligible to be kept but certification waits for original diagram and exact learner-facing figure proof.",
+  "registry_path": "data/source-registry/p12-g04s1-108114-drive-discovery-v1.json",
+  "registry_scope": {
+    "filename_candidates": 273,
+    "drive_file_records": 429,
+    "duplicate_name_aliases_pending_binary_sha": 156
+  },
+  "source_readback_snapshot": "data/review/p12-g04s1-114mid-text-readback-preflight-v1.json",
+  "no_bulk_admission": true,
+  "existing_public_answers_unchanged": 251,
+  "existing_g04s1_public_answers_unchanged": 53,
+  "next_execution": "P12_G04S1_114_QuestionLevelAllPositionsExtraction_Then_113to108"
+}

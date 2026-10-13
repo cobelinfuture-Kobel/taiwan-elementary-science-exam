@@ -24,6 +24,7 @@
     "kp:g04s2:v2:check": "node tools/p12-g04s2-v2-exact-source-routing.mjs --check",
     "kp:g04s2:v3:summary": "node tools/p12-all-kp-v3-source-readiness-and-heldout.mjs --summary",
     "kp:g04s2:v3:build": "node tools/p12-all-kp-v3-source-readiness-and-heldout.mjs --write",
-    "kp:g04s2:v3:check": "node tools/p12-all-kp-v3-source-readiness-and-heldout.mjs --check"
+    "kp:g04s2:v3:check": "node tools/p12-all-kp-v3-source-readiness-and-heldout.mjs --check",
+    "kp:v3r1:coverage:check": "node tools/p12-all-kp-v3r1-coverage-acceptance.mjs --check"
   }
 }

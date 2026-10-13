@@ -1,0 +1,45 @@
+{
+  "schema_version": "P12_G04S1_114_ALL25_SCIENCE_ACCEPTANCE_B01_PROGRESS_V1",
+  "source_authority_ref": "data/governance/p12-g04s1-108114-kp-first-authority-v1.json",
+  "first_pass_v17_ref": "data/review/p12-g04s1-114-all25-kp-first-progress-v17.json",
+  "second_pass_b15_frozen_queue_ref": "data/review/p12-g04s1-114-secondpass-all25-hold-and-kp-review-queue-v1.json",
+  "b01_independent_science_review_ref": "data/review/p12-g04s1-114-b01-dongguang-final-science-figure-verdict-v1.json",
+  "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+  "source_papers_second_pass_science_examined": 1,
+  "source_papers_total": 25,
+  "source_answer_positions_all": 1623,
+  "source_positions_reviewed_independent_science": 30,
+  "science_verdict_counts": {
+    "FULL_PASS": 24,
+    "CORRECTABLE": 5,
+    "HOLD": 0,
+    "REJECT": 1
+  },
+  "science_full_pass_without_teacher_or_learner_release": 24,
+  "requires_educational_rewrite": 5,
+  "scientific_or_scope_reject": 1,
+  "still_no_public_approvals": true,
+  "original_440_review_queue_positions_touched": 21,
+  "original_440_review_queue_positions_not_yet_independently_reviewed": 419,
+  "original_845_candidate_positions_touched": 9,
+  "original_845_candidate_positions_not_yet_independently_reviewed": 836,
+  "correction_ids": [
+    "SCI_G04_S1_114_FINAL_003|S02|MC|002",
+    "SCI_G04_S1_114_FINAL_003|S02|MC|003",
+    "SCI_G04_S1_114_FINAL_003|S02|MC|008",
+    "SCI_G04_S1_114_FINAL_003|S04|CHECK|006",
+    "SCI_G04_S1_114_FINAL_003|S05|READ|002"
+  ],
+  "rejection_ids": [
+    "SCI_G04_S1_114_FINAL_003|S01|TF|001"
+  ],
+  "figures_independent_source_image_science_interpreted": 15,
+  "original_source_figures_teacher_and_learner_acceptance_complete": 0,
+  "source_teacher_key_authenticated_count": 0,
+  "source_copyright_clearance_count": 0,
+  "public_admission_this_stage": 0,
+  "site_total_answer_positions_unchanged": 251,
+  "site_g04s1_answer_positions_unchanged": 53,
+  "review_scope_narrative": "30 distinct positions (21 original second-pass HOLD or KP uncertain, 9 other generic KP candidates). FULL_PASS means independent model-based scientific answer and original PDF semantic check only, not public/teacher/rights validation. Source review not an authoritative teacher answer key. No automatic release, and initial V17/B15 category counters remain historically unchanged.",
+  "next_resume_task": "P12_G04S1_114_ALL25_ScienceAnswerVerdictAndFigureEvidence_Batch02"
+}

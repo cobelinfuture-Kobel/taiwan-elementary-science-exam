@@ -1,0 +1,83 @@
+{
+  "schema_version": "P12_G04S1_114_B01_CORRECTABLE_SOURCE_QUESTIONS_DRAFT_V1",
+  "source_firstpass_ref": "data/review/p12-g04s1-114-nanyi-dongguang-final-source-visual-v2.json",
+  "science_verdict_ref": "data/review/p12-g04s1-114-b01-dongguang-final-science-figure-verdict-v1.json",
+  "correction_proposal_count": 5,
+  "all_drafts_pending_operator_approval": true,
+  "teacher_key_authenticated": false,
+  "science_proposal_is_separate_from_original_source": true,
+  "learner_facing_changes_permitted_without_approval": false,
+  "public_admission_approved": false,
+  "items": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_003|S02|MC|002",
+      "risk": "不能由題目只描述光與旋轉，就斷言燈籠內確定沒有喇叭",
+      "proposed_stem": "若只需要讓燈籠發出彩色光並持續旋轉，而不需要播放聲音，下列哪一種構造不是必要的？",
+      "original_choices_retained": true,
+      "expected_answer_after_rewrite": "②喇叭",
+      "kp_candidate": [
+        "sci_g04s1_03_10"
+      ],
+      "new_kp_requires_human_review": true,
+      "operator_revision_status": "DRAFT_NOT_APPROVED",
+      "independent_review_required": true,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_003|S02|MC|003",
+      "risk": "平移入射點不一定改變反射方向；原本的『改變照射位置』不等於改變入射角",
+      "proposed_stem": "如圖，雷射筆以兩個不同入射角度照射同一面平面鏡，下列哪個敘述不正確？",
+      "original_choices_retained": true,
+      "expected_answer_after_rewrite": "③改變照射角度，反射光方向不會改變",
+      "kp_candidate": [
+        "sci_g04s1_03_07"
+      ],
+      "new_kp_requires_human_review": false,
+      "operator_revision_status": "DRAFT_NOT_APPROVED",
+      "independent_review_required": true,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_003|S02|MC|008",
+      "risk": "燈泡可直接接觸電池一極，加一條導線即可形成通路",
+      "proposed_option4": "燈泡的一個金屬接點直接接觸電池一極；另一個金屬接點用一條電線連接電池另一極",
+      "other_original_choices_retained": true,
+      "expected_answer_after_rewrite": "④（不是燈泡不亮的原因）",
+      "kp_candidate": [
+        "sci_g04s1_04_04"
+      ],
+      "new_kp_requires_human_review": false,
+      "operator_revision_status": "DRAFT_NOT_APPROVED",
+      "independent_review_required": true,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_003|S04|CHECK|006",
+      "risk": "描圖紙也可能漫反射，『反光』未明定反射效果，真假因操作標準而異",
+      "proposed_stem": "平整鋁箔紙比描圖紙更容易產生方向集中的明顯反射光，用來設計反光玩具。這個敘述是否正確？",
+      "replaces_checkbox_statement": true,
+      "expected_answer_after_rewrite": "√（應明示採一般光源、材料平整度與距離）",
+      "kp_candidate": [
+        "sci_g04s1_03_08"
+      ],
+      "new_kp_requires_human_review": false,
+      "operator_revision_status": "DRAFT_NOT_APPROVED",
+      "independent_review_required": true,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_003|S05|READ|002",
+      "risk": "原文將臺灣家用電器電壓概括為110V，忽略實際存在220V等使用情況",
+      "proposed_stem": "依照短文，作者以哪一個電壓數值作為許多家用電器的例子？",
+      "original_choices_retained": true,
+      "expected_answer_after_rewrite": "① 110伏特（閱讀原文的資訊擷取，不等同於全部電器的科學事實）",
+      "kp_candidate": [
+        "sci_g04s1_04_12"
+      ],
+      "new_kp_requires_human_review": false,
+      "operator_revision_status": "DRAFT_NOT_APPROVED",
+      "independent_review_required": true,
+      "public_release_approved": false
+    }
+  ]
+}

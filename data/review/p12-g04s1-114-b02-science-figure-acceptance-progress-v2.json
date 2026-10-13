@@ -1,0 +1,39 @@
+{
+  "schema_version": "P12_G04S1_114_ALL25_SCIENCE_ACCEPTANCE_B01_TO_B02_PROGRESS_V2",
+  "baseline_source_v17_ref": "data/review/p12-g04s1-114-all25-kp-first-progress-v17.json",
+  "baseline_b15_queue_ref": "data/review/p12-g04s1-114-secondpass-all25-hold-and-kp-review-queue-v1.json",
+  "completed_science_verdict_batch_refs": [
+    "data/review/p12-g04s1-114-b01-dongguang-final-science-figure-verdict-v1.json",
+    "data/review/p12-g04s1-114-b02-dadun-final-science-figure-verdict-v1.json"
+  ],
+  "source_papers_with_independent_model_science_review": 2,
+  "source_papers_in_114_corpus": 25,
+  "original_source_answer_positions_fixed": 1623,
+  "model_independent_science_reviewed_positions_total": 62,
+  "science_verdict_counts_cumulative": {
+    "FULL_PASS": 55,
+    "CORRECTABLE": 6,
+    "HOLD": 0,
+    "REJECT": 1
+  },
+  "original_440_hold_kp_queue_reviewed_distinct": 50,
+  "original_440_hold_kp_queue_not_yet_reviewed": 390,
+  "original_845_kp_candidates_reviewed_distinct": 12,
+  "original_845_kp_candidates_not_yet_reviewed": 833,
+  "source_scope_kp_pending_after_science_review": [
+    "SCI_G04_S1_114_FINAL_005|S2|MC|015",
+    "SCI_G04_S1_114_FINAL_005|S4|READ1|002",
+    "SCI_G04_S1_114_FINAL_005|S4|READ1|003"
+  ],
+  "source_scoring_unknown_individual_checkbox_points_preserved": true,
+  "source_scoring_aggregate_ambiguities_unchanged": 21,
+  "original_pdf_sha_certified_papers_still": 22,
+  "science_review_is_not_formal_kp_or_teacher_key_acceptance": true,
+  "formal_teacher_answer_keys_authenticated_this_batch": 0,
+  "learner_figures_legally_cleared_or_redrawn_this_batch": 0,
+  "operator_public_approvals_this_batch": 0,
+  "public_question_positions_added": 0,
+  "public_answer_positions_still": 251,
+  "public_g04s1_answer_positions_still": 53,
+  "next_task": "P12_G04S1_114_ALL25_ScienceAnswerVerdictAndFigureEvidence_Batch03"
+}

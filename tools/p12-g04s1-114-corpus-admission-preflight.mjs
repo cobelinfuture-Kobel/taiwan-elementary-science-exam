@@ -66,7 +66,7 @@ export function evaluateG04S1114CorpusAdmission(policy, source, science, evidenc
     schema_version: "P12_G04S1_114_CORPUS_ADMISSION_PREFLIGHT_RESULT_V1",
     publication_ready: failures.length === 0,
     failed_gate_ids: failures,
-    114_corpus_firstpass_complete: source?.papers_with_all_textually_identifiable_answer_positions_mapped === 25,
+    corpus_114_firstpass_complete: source?.papers_with_all_textually_identifiable_answer_positions_mapped === 25,
     current_science_reviewed_source_positions: science?.model_independent_science_reviewed_positions_total ?? 0,
     review_target: 1285,
     publication_mutation_performed: false

@@ -28,7 +28,7 @@ test("Actual main B02 62/1285 is NOT sufficient to publicly admit from 114",()=>
  const before=JSON.stringify({source,science});
  const r=evaluateG04S1114CorpusAdmission(policy,source,science);
  assert.equal(r.publication_ready,false);
- assert.equal(r['114_corpus_firstpass_complete'],true);
+ assert.equal(r.corpus_114_firstpass_complete,true);
  assert.equal(r.current_science_reviewed_source_positions,62);
  assert.equal(r.review_target,1285);
  assert.ok(r.failed_gate_ids.includes("ALL25_SCIENCE_BATCHES_COMPLETE"));

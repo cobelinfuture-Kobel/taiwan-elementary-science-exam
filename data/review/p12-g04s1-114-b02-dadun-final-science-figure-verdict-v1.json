@@ -1,0 +1,996 @@
+{
+  "schema_version": "SCIENCE_P12_G04S1_114_B02_DADUN_FINAL_SCIENCE_FIGURE_32_VERDICT_V1",
+  "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+  "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+  "source_drive_file_id": "1KQesPj7fM1T5OUOiT79ePwnjZ4GLx1d3",
+  "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+  "original_pdf_pages": 4,
+  "source_pdf_sha256_verified_against_raw_original": true,
+  "first_pass_source_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+  "frozen_v17_ref": "data/review/p12-g04s1-114-all25-kp-first-progress-v17.json",
+  "frozen_second_pass_queue_ref": "data/review/p12-g04s1-114-secondpass-all25-hold-and-kp-review-queue-v1.json",
+  "previous_science_batch01_ref": "data/review/p12-g04s1-114-b01-dongguang-final-science-figure-verdict-v1.json",
+  "batch_source_positions": 32,
+  "original_first_pass_strata": {
+    "KP_MATCH_SOURCE_EVIDENCE_HOLD": 25,
+    "REVIEW_KP_UNCERTAIN": 4,
+    "KP_MATCH_CANDIDATE": 3
+  },
+  "independent_model_science_verdict_counts": {
+    "FULL_PASS": 31,
+    "CORRECTABLE": 1,
+    "HOLD": 0,
+    "REJECT": 0
+  },
+  "original_figure_dependent_positions_reviewed": 24,
+  "original_scoring_group_s3_g01a": {
+    "source_figure_checkbox_positions": 6,
+    "parent_group_printed_score_points": 2,
+    "per_checkbox_points_reconciled": false,
+    "child_score_points_added_to_paper_total": 0,
+    "do_not_create_new_positions": true
+  },
+  "source_science_reasoning_scope": "Only model independent original PDF science evaluation; not original teacher key validation or formal learner/public acceptance",
+  "known_source_ambiguity": "READ1 Q1 uses two noncoincident sources; ② light travels faster than sound is a fact but not proven by lighthouse then sea wave causal narrative",
+  "kp_scope_review_required_for": [
+    "SCI_G04_S1_114_FINAL_005|S2|MC|015",
+    "SCI_G04_S1_114_FINAL_005|S4|READ1|002",
+    "SCI_G04_S1_114_FINAL_005|S4|READ1|003"
+  ],
+  "science_answer_verdict_not_equal_formal_kp_admission": true,
+  "original_teacher_key_authenticated": false,
+  "original_source_figure_public_rights_cleared": false,
+  "original_figures_redrawn_for_learner": false,
+  "public_admission_this_batch": 0,
+  "website_total_answer_positions_unchanged": 251,
+  "website_grade4_s1_answer_positions_unchanged": 53,
+  "next_task": "P12_G04S1_114_ALL25_ScienceAnswerVerdictAndFigureEvidence_Batch03",
+  "items": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|001",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "鏡面反射光路走向原圖B",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_07"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 1,
+      "visual_evidence_anchor": "ORIGINAL_REFLECTION_DIAGRAM_P1",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "O",
+      "original_science_reasoning": "依原卷第一頁鏡面示意圖，從右上斜向入射的光在平面鏡反射至左上 B 路徑；相對法線入射角與反射角相等。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 2,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|006",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "原圖移除燈泡亮度比較",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 1,
+      "visual_evidence_anchor": "ORIGINAL_TWO_BULB_SERIES_DIAGRAM_P1",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "3",
+      "original_science_reasoning": "原圖為兩燈泡串聯；拆下一顆後重新接妥剩餘一顆時，在同一顆正常電池與同型燈泡下，剩餘燈泡通常變亮。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 2,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|007",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "電池串聯提高風扇轉速",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_10"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_10"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "SOURCE_TEXT_P2",
+      "original_figure_required": false,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "2",
+      "original_science_reasoning": "在小型直流馬達及電池規格允許的情況下，增加適量串聯電池可使端電壓提高並使轉速加快；不表示越多越安全。",
+      "kp_review_disposition": "KP_CONFIRMED_WITH_RATED_VOLTAGE_CAUTION",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 2,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|015",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "REVIEW_KP_UNCERTAIN",
+      "source_original_source_summary": "兩面鏡夾角與影像數量",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_07"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "SOURCE_TEXT_P2",
+      "original_figure_required": false,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "3",
+      "original_science_reasoning": "理想的兩面平面鏡相互成角，多重反射形成的像數通常隨夾角縮小而增多；但該多重成像能力超出目前 frozen U03 的單純光反射與方向改變 KP，需要跨單元能力人工核定。",
+      "kp_review_disposition": "KP_SCOPE_LATER_OR_UNSUPPORTED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 2,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|001",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "雷射煙盒光路示意圖第1個可勾選原圖框",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_06"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "PAGE2_G01A_PANEL1_TOP",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "×",
+      "original_science_reasoning": "第一組容器中由手電筒端向左上延伸的第一條『波浪形』路徑並非同一均勻煙霧介質中的直線光路。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": 2,
+      "original_source_checkbox_score_points": null,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|002",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "雷射煙盒光路示意圖第2個可勾選原圖框",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_06"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "PAGE2_G01A_PANEL1_MIDDLE",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "√",
+      "original_science_reasoning": "第一組容器中自手電筒端水平向左的中間直線為正確的光路。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": 2,
+      "original_source_checkbox_score_points": null,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|003",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "雷射煙盒光路示意圖第3個可勾選原圖框",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_06"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "PAGE2_G01A_PANEL1_BOTTOM",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "×",
+      "original_science_reasoning": "第一組容器中底部向上彎的曲線不符合均勻介質中直線行進的光。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": 2,
+      "original_source_checkbox_score_points": null,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|004",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "雷射煙盒光路示意圖第4個可勾選原圖框",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_06"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "PAGE2_G01A_PANEL2_LEFT",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "×",
+      "original_science_reasoning": "第二組容器左側彎曲光線錯誤，光在相同介質中不會自行彎成弧線。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": 2,
+      "original_source_checkbox_score_points": null,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|005",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "雷射煙盒光路示意圖第5個可勾選原圖框",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_06"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "PAGE2_G01A_PANEL2_MIDDLE",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "√",
+      "original_science_reasoning": "第二組容器中央向下的斜直線是正確光路；直線不必水平。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": 2,
+      "original_source_checkbox_score_points": null,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|006",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "雷射煙盒光路示意圖第6個可勾選原圖框",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_06"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "PAGE2_G01A_PANEL2_RIGHT",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "×",
+      "original_science_reasoning": "第二組容器右側彎曲光線錯誤。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": 2,
+      "original_source_checkbox_score_points": null,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01B|007",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "手電筒照射物體影子示意圖第1個判斷框",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_06"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "PAGE2_G01B_CARD1",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "×",
+      "original_science_reasoning": "第①圖物體是帶棱角的三角形立體，但牆面卻畫成完整圓影，不符合此圖的光線投影輪廓。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01B|008",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "手電筒照射物體影子示意圖第2個判斷框",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_06"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "PAGE2_G01B_CARD2",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "√",
+      "original_science_reasoning": "第②圖柱形物體對應牆上直立長方形影子，影子位置與方向符合光源、物體、投影面的配置。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01B|009",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "手電筒照射物體影子示意圖第3個判斷框",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_06"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "PAGE2_G01B_CARD3",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "×",
+      "original_science_reasoning": "第③圖馬克杯置於聚光束中，但牆面未畫出應有杯形遮光影子，示意缺漏。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01B|010",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "手電筒照射物體影子示意圖第4個判斷框",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_06"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "PAGE2_G01B_CARD4",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "√",
+      "original_science_reasoning": "第④圖梳子類似 E 形的遮光物投射出對應的 E 形影子，符合示意光路。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G02|013",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "原圖燈泡A/B哪一組更亮",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 3,
+      "visual_evidence_anchor": "PAGE3_G02_A_PARALLEL_B_SERIES",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "A",
+      "original_science_reasoning": "第③頁電路 A 為三燈泡並聯，各獨立支路受同一電池電壓；B 為三燈串聯，故在相同燈泡與正常電池下 A 較亮。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G02|014",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "哪個原圖燈泡同一條通路",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_08"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_08"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 3,
+      "visual_evidence_anchor": "PAGE3_G02_A_PARALLEL_B_SERIES",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "B",
+      "original_science_reasoning": "第③頁電路 B 三個燈泡沿同一連續路徑相接；屬燈泡串聯。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G02|015",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "哪種原圖一燈壞全組熄",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_08"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_08"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 3,
+      "visual_evidence_anchor": "PAGE3_G02_A_PARALLEL_B_SERIES",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "B",
+      "original_science_reasoning": "第③頁 B 串聯電路只有一條燈泡通路；任一燈泡故障而斷路時全組熄滅。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G02|016",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "家中電燈一燈壞其他仍亮",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_09"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_09"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 3,
+      "visual_evidence_anchor": "PAGE3_G02_A_PARALLEL_B_SERIES",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "A",
+      "original_science_reasoning": "一般家庭多採並聯支路；原卷 A 的並聯配置，某一燈泡不亮不會必然造成其他燈泡全滅。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G03|017",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "電路①電線接觸燈泡部位錯誤",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_03",
+        "sci_g04s1_04_04"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_03",
+        "sci_g04s1_04_04"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 3,
+      "visual_evidence_anchor": "PAGE3_G03_CIRCUIT1_BATTERY_MINUS_GAP",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "×",
+      "original_science_reasoning": "原圖①的左下導線末端與電池負極之間有明顯空隙，無法形成通路；原選項誤說成是『燈泡連接點』未接正確，與圖所標錯誤位置不符。保留原圖及判讀證據。",
+      "kp_review_disposition": "KP_CONFIRMED_BUT_REASON_STEM_NEEDS_EXTRA_CLARITY",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G03|018",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "電路①燈泡太小斷路說法",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_04"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 3,
+      "visual_evidence_anchor": "PAGE3_G03_CIRCUIT1",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "×",
+      "original_science_reasoning": "電流不能通過原因在接線未閉合，與燈泡『太小』無必然關係。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G03|019",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "電路②電線連電池兩極形成通路",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_04"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 3,
+      "visual_evidence_anchor": "PAGE3_G03_CIRCUIT2_SIDE_CONTACT",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "√",
+      "original_science_reasoning": "第②圖導線接於電池側壁而未分別接觸正、負兩極；接對兩極並讓燈泡兩金屬接點形成完整迴路才可能點亮。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G03|020",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "電路③換電線顏色無法亮",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_04"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 3,
+      "visual_evidence_anchor": "PAGE3_G03_CIRCUIT3_OPEN_GAP",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "×",
+      "original_science_reasoning": "第③圖右邊導線存在開口／斷路；僅更換電線顏色不會閉合電路。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G04|021",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "原圖電路1辨識電池/燈泡串並聯",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_08"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 3,
+      "visual_evidence_anchor": "PAGE3_G04_CARD1",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "A",
+      "original_science_reasoning": "原圖①一顆電池供電、兩燈泡位於同一圈路徑，應填燈泡串聯 A。",
+      "kp_review_disposition": "KP_CONFIRMED_SINGLE_KP_04_08",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G04|022",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "原圖電路2辨識電池/燈泡串並聯",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_09"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 3,
+      "visual_evidence_anchor": "PAGE3_G04_CARD2",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "B",
+      "original_science_reasoning": "原圖②兩顆燈泡分居左右兩條路徑，共用電池兩端，應填燈泡並聯 B。",
+      "kp_review_disposition": "KP_CONFIRMED_SINGLE_KP_04_09",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G04|023",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "原圖電路3辨識電池/燈泡串並聯",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_07"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 3,
+      "visual_evidence_anchor": "PAGE3_G04_CARD3",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "D",
+      "original_science_reasoning": "原圖③三顆電池負極彼此連接、正極彼此連接，共用電壓並向右方燈泡供電，應填電池並聯 D。",
+      "kp_review_disposition": "KP_CONFIRMED_SINGLE_KP_04_07",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G04|024",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "source_original_source_summary": "原圖電路4辨識電池/燈泡串並聯",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_04_06"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 3,
+      "visual_evidence_anchor": "PAGE3_G04_CARD4",
+      "original_figure_required": true,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "C",
+      "original_science_reasoning": "原圖④兩電池以正負極首尾相接接在同一路徑，應填電池串聯 C。",
+      "kp_review_disposition": "KP_CONFIRMED_SINGLE_KP_04_06",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ1|001",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "REVIEW_KP_UNCERTAIN",
+      "source_original_source_summary": "先看燈塔光後聽海浪聲因光較快",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_03"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_03"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 4,
+      "visual_evidence_anchor": "PAGE4_READ1",
+      "original_figure_required": false,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "CORRECTABLE",
+      "science_answer_if_full_pass": null,
+      "original_science_reasoning": "原文先觀察遠處燈塔閃光、稍後才聽到海浪拍石聲，兩現象並非同一地點的同步光聲訊號。選②光比聲音快雖是科學事實，但不能從這組非同步事件的先後嚴謹推論，故此題原文因果鏈需改寫。",
+      "kp_review_disposition": "REWRITE_CAUSAL_EVIDENCE_NOT_A_KP_ADMISSION",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 2,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ1|002",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "REVIEW_KP_UNCERTAIN",
+      "source_original_source_summary": "遠離吉他聲音變弱",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_03"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_03"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 4,
+      "visual_evidence_anchor": "PAGE4_READ1",
+      "original_figure_required": false,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "3",
+      "original_science_reasoning": "同一把吉他同一彈奏下，距離增大時通常接收到的聲音強度減弱，因此選③。聲音隨距離衰減不等同本單元『介質傳聲』能力，KP_SCOPE 仍待後續核定。",
+      "kp_review_disposition": "KP_SCOPE_UNCERTAIN__SOUND_INTENSITY_DISTANCE",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 2,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ1|003",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "REVIEW_KP_UNCERTAIN",
+      "source_original_source_summary": "橡皮筋拉緊音高變化與振動",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_01"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_01"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 4,
+      "visual_evidence_anchor": "PAGE4_READ1",
+      "original_figure_required": false,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "2",
+      "original_science_reasoning": "橡皮筋材料與長度近似不變時拉得更緊，通常振動頻率提高、音高升高，因此②振動快慢。音高／頻率不屬於已證實的 U03_01『聲音由物體振動產生』基本指標，維持 KP 範圍 HOLD。",
+      "kp_review_disposition": "KP_SCOPE_UNCERTAIN__PITCH_FREQUENCY",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 2,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01C|011",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_CANDIDATE",
+      "source_original_source_summary": "光是直線行進的",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_06"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "PAGE2_G01C_TEXT",
+      "original_figure_required": false,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "√",
+      "original_science_reasoning": "同一均勻介質中可觀察到雷射光線沿直線路徑前進。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01C|012",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_CANDIDATE",
+      "source_original_source_summary": "被物體阻擋在背後形成影子",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_06"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "PAGE2_G01C_TEXT",
+      "original_figure_required": false,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "√",
+      "original_science_reasoning": "不透明物阻擋直線傳播的光，通常在物體背後形成影子。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 1,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|011",
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_first_pass_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_first_pass_decision": "KP_MATCH_CANDIDATE",
+      "source_original_source_summary": "鏡面反射光線方向",
+      "source_first_pass_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "source_science_precise_kp_ids_for_future_authority_review": [
+        "sci_g04s1_03_07"
+      ],
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_original_page": 2,
+      "visual_evidence_anchor": "SOURCE_TEXT_P2",
+      "original_figure_required": false,
+      "original_pdf_visual_and_text_examined": true,
+      "model_independent_science_verdict": "FULL_PASS",
+      "science_answer_if_full_pass": "1",
+      "original_science_reasoning": "平面鏡發生反射後沿特定方向產生反射光，符合選項①；原題其他選項所謂方向完全無法預測或放射狀多道反射均不符合此理想實驗。",
+      "kp_review_disposition": "KP_CONFIRMED",
+      "original_source_group_parent_score_points": null,
+      "original_source_checkbox_score_points": 2,
+      "original_source_teacher_key_authenticated": false,
+      "learner_figure_redraw_verified": false,
+      "source_copyright_public_use_cleared": false,
+      "operator_public_admission_approved": false,
+      "public_release_approved": false
+    }
+  ]
+}

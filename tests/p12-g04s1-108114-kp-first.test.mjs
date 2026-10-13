@@ -65,7 +65,7 @@ test("uncertain mapping and visual/science holds retain the source; only individ
 test("the first 114 Nanyi MID 80 source positions include 4 cross-period U03 positions and 60 explicitly pending",()=>{
  assert.equal(pilot.original_source_answer_positions,80);
  assert.equal(pilot.items.length,80);
- assert.deepEqual(pilot.original_source_section_totals,[10,10,9,13,8,7,23]);
+ assert.deepEqual(pilot.source_original_section_totals,[10,10,9,13,8,7,23]);
  assert.equal(new Set(pilot.items.map(x=>x.source_position_id)).size,80);
  assert.deepEqual(pilot.preliminary_kp_decisions,{
    KP_MATCH_CANDIDATE:10,NONMATCH_G04S1_KP_ARCHIVE:6,REVIEW_KP_UNCERTAIN:3,KP_MATCH_SOURCE_EVIDENCE_HOLD:1,PENDING_FULL_SOURCE_POSITION_EXTRACTION:60

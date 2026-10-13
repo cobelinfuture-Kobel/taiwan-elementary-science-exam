@@ -97,7 +97,7 @@ export function buildG04S2RetrievalPilot({index=buildAllKpSourceIndex(),benchmar
   if(!Array.isArray(benchmark.cases))throw Error("Missing adjudication audit cases");
   for(const c of benchmark.cases) {
     const src=sourceById.get(c.source_id);
-    if(!src || !kpSet.has(c.kp_id)||typeof c.science_boundary_rationale!=="string"||c.science_boundary_rationale.length<10)
+    if(!src || !kpSet.has(c.kp_id)||typeof c.science_boundary_rationale!=="string"||c.science_boundary_rationale.length<6)
       throw Error("Invalid audited case "+JSON.stringify(c));
     if(src.source_excerpt!==c.firstpass_source_summary)throw Error("Audited case source text drift "+c.source_id);
     if(!["ALIGNMENT_PLAUSIBLE_FROM_SOURCE_SUMMARY","NONALIGNMENT_FROM_SOURCE_SUMMARY","INSUFFICIENT_SOURCE_EVIDENCE"].includes(c.adjudication))

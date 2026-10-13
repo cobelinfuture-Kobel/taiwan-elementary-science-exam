@@ -15,6 +15,9 @@
     "p12:master:check": "node tools/p12-master-progress.mjs --check",
     "kp:index:summary": "node tools/p12-all-kp-source-mapping.mjs --summary",
     "kp:index:build": "node tools/p12-all-kp-source-mapping.mjs --write",
-    "kp:index:check": "node tools/p12-all-kp-source-mapping.mjs --check"
+    "kp:index:check": "node tools/p12-all-kp-source-mapping.mjs --check",
+    "kp:g04s2:pilot:summary": "node tools/p12-g04s2-114-cross-scope-retrieval-pilot.mjs --summary",
+    "kp:g04s2:pilot:build": "node tools/p12-g04s2-114-cross-scope-retrieval-pilot.mjs --write",
+    "kp:g04s2:pilot:check": "node tools/p12-g04s2-114-cross-scope-retrieval-pilot.mjs --check"
   }
 }

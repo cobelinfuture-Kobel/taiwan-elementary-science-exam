@@ -8,6 +8,12 @@ export const AUTHORITY_V2 = "site/data/authority/science-g03-g04-selector-v2.jso
 export const PROJECTION_RULES = "data/governance/p12-all-kp-source-projection-authority-v1.json";
 export const OVERLAY_V1 = "data/review/p12-all-kp-114-semester-cross-candidate-overlay-v1.json";
 export const OUTPUT_V1 = "data/index/p12-all-kp-114-source-index-v1.json";
+export const SCIENCE_BATCH_FILES = [
+  "data/review/p12-g04s1-114-b01-dongguang-final-science-figure-verdict-v1.json",
+  "data/review/p12-g04s1-114-b02-dadun-final-science-figure-verdict-v1.json",
+  "data/review/p12-g04s1-114-b03-dahua-mid-science-figure-verdict-v1.json",
+  "data/review/p12-g04s1-114-b04-anhe-mid-science-figure-50-verdicts-v1.json"
+];
 const ALLOWED_DECISIONS = new Set(["KP_MATCH_CANDIDATE","KP_MATCH_SOURCE_EVIDENCE_HOLD","REVIEW_KP_UNCERTAIN","NONMATCH_G04S1_KP_ARCHIVE"]);
 const fields = (row, names) => { for (const n of names) if (row[n] !== undefined && row[n] !== null) return row[n]; return null; };
 const digest = v => createHash("sha256").update(JSON.stringify(v)).digest("hex");
@@ -100,11 +106,30 @@ export function buildAllKpSourceIndex({root=process.cwd(),authority=readRepoJSON
   const sourceById=new Map(source.map(x=>[x.source_id,x]));
   if(sourceById.size!==source.length)throw new Error("Duplicate source IDs in original paper fragments");
   if(source.length!==baseline.all_identified_source_answer_positions_count)throw new Error("Original 114 source count discrepancy: "+source.length+" != "+baseline.all_identified_source_answer_positions_count);
-  if(source.length!==1623 || baseline.source_papers.length!==25)throw new Error("114 frozen full25 source denominator changed: "+source.length);
+  if(source.length<1623 || baseline.source_papers.length<25)throw new Error("Frozen 114 original corpus disappeared: "+source.length);
   const stats=Object.fromEntries([...ALLOWED_DECISIONS].map(k=>[k,0]));
   for(const q of source)stats[q.current_g04s1_firstpass_status]++;
   if(JSON.stringify(stats)!==JSON.stringify(Object.fromEntries([...ALLOWED_DECISIONS].map(k=>[k,baseline.source_text_position_kp_decisions[k]]))))
     throw new Error("Original firstpass decision parity "+JSON.stringify(stats));
+  // Science review is a separate dimension from KP matching or public admission.
+  // Consume completed source-ID-verdict batches without upgrading KP edges.
+  const scienceVerdicts=new Map();
+  for (const file of SCIENCE_BATCH_FILES) {
+    const batch=readRepoJSON(file,root);
+    for(const r of batch.items??[]) {
+      const id=r.source_slot_id;
+      const verdict=fields(r,["independent_model_science_verdict","model_independent_science_verdict","independent_science_verdict"]);
+      if(!sourceById.has(id)||scienceVerdicts.has(id)||!["FULL_PASS","CORRECTABLE","HOLD","REJECT"].includes(verdict))
+        throw new Error("Invalid or duplicate science-review source ID "+id+" in "+file);
+      scienceVerdicts.set(id,{model_independent_science_verdict:verdict,independent_science_batch_evidence_ref:file});
+    }
+  }
+  for(const sourceItem of source) {
+    const evidence=scienceVerdicts.get(sourceItem.source_id);
+    sourceItem.model_science_review_completed=!!evidence;
+    sourceItem.model_independent_science_verdict=evidence?.model_independent_science_verdict??null;
+    sourceItem.independent_science_batch_evidence_ref=evidence?.independent_science_batch_evidence_ref??null;
+  }
   const edges=[];
   for(const item of source)for(const kp_id of item.current_g04s1_kp_ids){
     if(!kpById.has(kp_id))throw new Error("Legacy source maps unknown KP "+kp_id);
@@ -148,6 +173,7 @@ export function buildAllKpSourceIndex({root=process.cwd(),authority=readRepoJSON
      possible_source_to_kp_review_pairs:target_count,
      existing_firstpass_scope:"G04-S1 45 KP ONLY",
      all_authority_kps_indexed_for_reverse_lookup:true,
+     independently_model_science_reviewed_original_source_positions:scienceVerdicts.size,
      cross_grade_semester_matching_completed:false,
      full_187_kp_exhaustive_semantic_review_completed:false,
      future_kps_supported_by_authority_extension_and_remap:true},

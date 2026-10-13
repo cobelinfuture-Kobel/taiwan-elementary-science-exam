@@ -76,6 +76,8 @@ test("Science review distinguishes laser MC003 multi-false hold from provisional
 test("Cross-paper identical text retains per-paper answers and re-ordered options; coal millions-years differs from faulty centuries",()=>{
  const links=review.cross_exam_original_stem_links;
  assert.equal(links.length,4);
+ assert.ok(links.every(x=>x.source_id.includes("|S02|MC|")));
+ assert.ok(src.original_question_records.filter(x=>x.question_type==="TRUE_FALSE").every(x=>x.original_same_or_similar_stem_source_links.length===0));
  assert.equal(links.filter(x=>x.links[0].relation==="SAME_STEM_CHOICES_REORDERED").length,2);
  assert.equal(links.filter(x=>x.links[0].relation==="SAME_STEM_SAME_OPTIONS").length,1);
  assert.equal(links.filter(x=>x.links[0].relation==="NEAR_DUPLICATE_DIFFERENT_SCIENCE_VALIDITY").length,1);

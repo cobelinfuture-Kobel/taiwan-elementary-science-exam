@@ -1,0 +1,468 @@
+{
+  "schema_version": "P12_114_CHONGDE_FINAL19_SCIENCE_KP_MODEL_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_FINAL_004",
+  "source_original_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+  "frozen_source_map_ref": "data/review/p12-g04s1-114-nanyi-chongde-final-65-source-kp-first-v1.json",
+  "public_full_original_source_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+  "original_full_standalone_tf_mc_count": 19,
+  "source_pdf_marker_bbox_readback_verified_count": 19,
+  "model_science_preliminary_pass": 18,
+  "model_science_hold": 1,
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 11,
+    "KP_REVIEW": 3,
+    "KP_NONMATCH_G04S1": 5
+  },
+  "kp_strong_and_model_science_pass_count": 10,
+  "hold_source_ids": [
+    "SCI_G04_S1_114_FINAL_004|S02|MC|003"
+  ],
+  "cross_exam_original_stem_links": [
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|002",
+      "links": [
+        {
+          "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|005",
+          "relation": "SAME_STEM_CHOICES_REORDERED",
+          "note": "原題幹相同；選項重新排序，崇德答案④，永安答案②"
+        }
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|006",
+      "links": [
+        {
+          "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|010",
+          "relation": "SAME_STEM_SAME_OPTIONS",
+          "note": "兩校相同題幹與選項，答案①"
+        }
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|009",
+      "links": [
+        {
+          "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|004",
+          "relation": "NEAR_DUPLICATE_DIFFERENT_SCIENCE_VALIDITY",
+          "note": "永安版本煤炭『數百年』造成兩個錯選項；崇德改成『數百萬年』，選項重新排序後具有預期唯一答案"
+        }
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|010",
+      "links": [
+        {
+          "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|006",
+          "relation": "SAME_STEM_CHOICES_REORDERED",
+          "note": "題幹相同；崇德答案③，永安答案①"
+        }
+      ]
+    }
+  ],
+  "science_concern": "MC003 laser light is not itself a light source, while choice ② (fill transparent box with soil/rocks) is also wrong: unique-choice hold",
+  "formally_teacher_key_authenticated_count": 0,
+  "formal_science_approved_count": 0,
+  "formal_kp_approved_count": 0,
+  "operator_public_learner_admission_count": 0,
+  "original_question_reviews": [
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|001",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "拔插頭應握住插頭而非拉扯電線，以避免內部導線受損",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_12",
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        114.13,
+        67.36,
+        127.41
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|002",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "反射不只存在於鏡面，各種物體表面會在不同程度上反射光",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_07",
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        145.09,
+        67.36,
+        158.37
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|003",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "鐵是導體，若金屬尺確實把斷開的導線接通，電路可再成為通路",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_05",
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        176.17,
+        67.36,
+        189.45
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|004",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "雷射光不可照射眼睛，題幹允許身體任何部位，因而不安全",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        222.61,
+        67.36,
+        235.89
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|005",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "一般碳鋅一次電池耗盡後應分類回收",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_11",
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        253.57,
+        67.36,
+        266.85
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|006",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "石油屬不可再生化石燃料，不屬綠色再生能源",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": "sci_g04s2_04_09",
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        284.65,
+        67.36,
+        297.93
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|007",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "適當兩電池正負極相接為串聯",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_06",
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        315.61,
+        67.36,
+        328.89
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|008",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "相同電池下增加串聯燈泡，單顆燈泡通常變暗",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_08",
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        362.2,
+        67.36,
+        375.48
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|001",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "電池座能協助固定乾電池並方便將導線接至正負兩極",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        437.8,
+        67.36,
+        451.08
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|002",
+      "model_provisional_answer": "④",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "家庭廢水排河川主要造成水域污染，其餘選項為常見空氣污染源",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        492.4,
+        67.36,
+        505.68
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|003",
+      "model_provisional_answer": null,
+      "model_science_review_status": "SCIENCE_HOLD_MULTIPLE_PLAUSIBLE_FALSE_OPTIONS",
+      "science_reason": "②在盒子放滿石頭或土壤不適合作實驗；但①「雷射光是一種光源」把光與發光的物體混為一談，可能同時錯，單選唯一性不成立",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_06",
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        567.66,
+        67.36,
+        580.94
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|004",
+      "model_provisional_answer": "①",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "鏡面能使入射光發生反射",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_07",
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        680.1,
+        67.36,
+        693.38
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|005",
+      "model_provisional_answer": "④",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "石油、煤炭、天然氣與核能均屬能源或能源來源",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": "sci_g04s2_04_04",
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        736.26,
+        67.36,
+        749.54
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|006",
+      "model_provisional_answer": "①",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "其中一盞日光燈故障而其他仍亮，符合並聯連接特徵",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_09",
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        773.58,
+        67.36,
+        786.86
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|007",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "長期不用取出電池可避免電池漏液造成腐蝕",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        828.93,
+        67.36,
+        842.21
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|008",
+      "model_provisional_answer": "②",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "串聯通路中一顆燈泡斷路，另一顆也不會亮",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_08",
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        35.4,
+        904.17,
+        67.36,
+        917.45
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|009",
+      "model_provisional_answer": "①",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "風力可持續補充，因此把風能稱為短時間內不可再生會耗盡是不正確敘述；煤炭形成需數百萬年，與前一卷錯誤的『數百年』不同",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": "sci_g04s2_04_07",
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        371.71,
+        96.85,
+        403.67,
+        110.13
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|010",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "減碳指降低二氧化碳排放量",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1",
+      "g04s1_kp_proposed": null,
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        371.71,
+        227.53,
+        403.67,
+        240.81
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|011",
+      "model_provisional_answer": "②",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "一般遙控器使用電池，而冰箱、電視機及微波爐一般使用市電",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_12",
+      "cross_semester_kp_proposed": null,
+      "original_pdf_page": 1,
+      "answer_marker_pdf_bbox": [
+        371.71,
+        283.69,
+        403.67,
+        296.97
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    }
+  ]
+}

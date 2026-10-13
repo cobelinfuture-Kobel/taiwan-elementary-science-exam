@@ -1,0 +1,55 @@
+{
+  "schema_version": "P12_PUBLIC_EXAM_SOURCE_ART9_GOVERNANCE_R1_INDEX",
+  "release_lineage": "P12_STANDALONE_B01_YONGAN_114_G04S1",
+  "operator_direction": "Public complete exam question stems and options in GitHub source archive, strictly separate from certified public learner question bank",
+  "legal_basis": "Copyright Act Article 9(1)(5), qualifying Taiwan school regulated exam question texts",
+  "official_law_references": [
+    "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0070017",
+    "https://www.tipo.gov.tw/tw/copyright/692-12107.html",
+    "https://www.tipo.gov.tw/tw/copyright/692-17037.html",
+    "https://www.tipo.gov.tw/tw/copyright/692-76110.html"
+  ],
+  "case_specific_source_examination": "Both original PDF academic year, school/grade/subject exam header and source binary SHA verified; official school edition schedule confirms 114 G04 science Nanyi; exact public school-host URL to the two files not independently identified",
+  "third_party_content_handling": "Only first-page standalone question stems/options without copied artwork, third-party reading passages, full original PDF files or teacher solution texts; source identity/quality assessment required separately for other papers",
+  "referenced_public_source_archives": [
+    "data/source-archive/p12-art9-114-yongan-g04s1-mid20-original-questions-v1.json",
+    "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json"
+  ],
+  "sources": [
+    {
+      "paper_id": "SCI_G04_S1_114_MID_001",
+      "source_sha256": "4d924c412166812557793cc43b62b02f6ce4da2539e9ddcf165e2faf456251fe",
+      "records": 20,
+      "true_false": 10,
+      "multiple_choice": 10,
+      "science_hold": 2
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "source_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "records": 22,
+      "true_false": 8,
+      "multiple_choice": 14,
+      "science_hold": 2
+    }
+  ],
+  "question_source_archive_total": 42,
+  "true_false_total": 18,
+  "four_choice_total": 24,
+  "total_original_choice_options": 96,
+  "model_science_preliminary_pass_total": 38,
+  "science_holds_total": 4,
+  "article9_source_reuse_review": "PUBLIC_EXAM_QUESTION_TEXT_ONLY_ACCEPTED_FOR_ARCHIVE",
+  "teacher_original_key_released": false,
+  "source_pdf_or_diagrams_released": false,
+  "canonical_kp_formally_approved_count": 0,
+  "science_final_approved_count": 0,
+  "operator_learner_public_admission_approved_count": 0,
+  "new_learner_site_question_admissions": 0,
+  "live_bank_baseline_answer_positions_total": 251,
+  "live_bank_baseline_answer_positions_g04s1": 53,
+  "keep_114_all25_before_publication_rule": true,
+  "keep_1623_original_response_denominator": true,
+  "source_archive_is_not_learner_website": true,
+  "next_action": "P12_STANDALONE_B01_NEXT_PAPER_SOURCE_ART9_EXACT_FULLTEXT_TFMC_WITH_SCIENCE_KP_GATES"
+}

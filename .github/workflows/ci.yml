@@ -63,6 +63,8 @@ jobs:
           name: p12-all-kp-v3-source-readiness-heldout-v1
           path: data/index/p12-all-kp-v3-fullsource-readiness-and-frozen-benchmark-v1.json
           if-no-files-found: error
+      - name: Verify V3R1 original 25-PDF recovered source-slot coverage and no public changes
+        run: npm run kp:v3r1:coverage:check
       - name: Upload P11 provenance and coverage evidence
         uses: actions/upload-artifact@v4
         with:

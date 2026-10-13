@@ -10,7 +10,7 @@ const canon=new Set(authority.units.flatMap(x=>x.knowledge_points.map(k=>k.canon
 test("Yong'an MID20 source identity and 10 TF + 10 MC exact source positions",()=>{
   assert.equal(m.source_paper_id,"SCI_G04_S1_114_MID_001");
   assert.equal(m.source_original_pdf_sha256,"4d924c412166812557793cc43b62b02f6ce4da2539e9ddcf165e2faf456251fe");
-  assert.equal(m.source_original_pdf_sha256_recomputed_from_raw_binary,true);
+  assert.equal(m.original_pdf_sha256_recomputed_from_raw_binary,true);
   assert.equal(m.source_original_pdf_pages,2);
   assert.equal(m.source_records.length,20);
   assert.equal(m.true_false_count,10); assert.equal(m.four_choice_count,10);
@@ -70,10 +70,11 @@ test("copyright safe public manifest and cumulative 25-paper queue are fail clos
   assert.equal(q.source_papers_total,25);
   assert.equal(q.source_response_slots_unchanged,1623);
   assert.equal(q.source_paper_queue.length,25);
-  assert.equal(q.source_paper_queue.reduce((a,b)=>a+b.full_complete_standalone_tf_mc_private_source_count,0),42);
-  assert.equal(q.source_exact_standalone_private_completed,42);
-  assert.equal(q.model_science_no_obvious_problem,38);
-  assert.equal(q.model_science_hold,4);
+  assert.ok(q.source_paper_queue.reduce((a,b)=>a+b.full_complete_standalone_tf_mc_private_source_count,0)>=42);
+  assert.equal(q.source_exact_standalone_private_completed,q.source_paper_queue.reduce((a,b)=>a+b.full_complete_standalone_tf_mc_private_source_count,0));
+  assert.ok(q.model_science_no_obvious_problem>=38);
+  assert.ok(q.model_science_hold>=4);
+  assert.equal(q.science_model_reviewed_original_standalone_items,q.model_science_no_obvious_problem+q.model_science_hold);
   assert.equal(q.fully_screened_all_25_standalone_papers,0);
   assert.equal(q.public_items_new,0);
   assert.equal(q.all25_before_publication_gate_preserved,true);

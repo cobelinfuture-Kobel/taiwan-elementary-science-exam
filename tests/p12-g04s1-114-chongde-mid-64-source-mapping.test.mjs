@@ -1,0 +1,52 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import {readFileSync} from "node:fs";
+import {buildMaster} from "../tools/p12-master-progress.mjs";
+const r=p=>JSON.parse(readFileSync(p,"utf8"));
+const p="data/review/p12-g04s1-114-";
+const manifest=r(p+"nanyi-chongde-mid-64-source-manifest-v2.json");
+const pre=r(p+"nanyi-chongde-mid-source-visual-preflight-v1.json");
+const groups=["b01","b02","b03"].map(b=>r(p+"chongde-mid-groups-"+b+"-v1.json"));
+const v5=r(p+"all25-kp-first-progress-v5.json"),v6=r(p+"all25-kp-first-progress-v6.json");
+const canonical=r("site/data/authority/science-g03-g04-selector-v2.json");
+test("12 Chongde original group source-slot inventories have 48 distinct identities",()=>{
+ const all=groups.flatMap(x=>x.items);
+ assert.deepEqual(groups.map(x=>x.source_position_count),[15,18,15]);
+ assert.equal(all.length,48);
+ const counts={G01:3,G02:3,G03:6,G04:3,G05:1,G06:4,G07:6,G08:7,G09:5,G10:4,G11:4,G12:2};
+ for(const [group,num] of Object.entries(counts))assert.equal(all.filter(x=>x.original_group===group).length,num,group);
+ assert.equal(new Set([...pre.first_16_items,...all].map(x=>x.source_slot_id)).size,64);
+ assert.deepEqual(manifest.section_natural_response_positions,[8,8,48]);
+ assert.equal(manifest.total_natural_response_positions,64);
+ assert.equal(manifest.unresolved_group_score_to_independent_response_weight_points,8);
+ assert.equal(manifest.science_answer_certified,false);
+ assert.equal(manifest.operator_public_admission_approved,false);
+});
+test("KP first source decisions within 45 canonical IDs, diagram holds not prematurely accepted",()=>{
+ const allowed=new Set(canonical.units.filter(x=>x.grade===4&&x.semester===1).flatMap(x=>x.knowledge_points.map(k=>k.canonical_kp_id)));
+ const items=[...pre.first_16_items,...groups.flatMap(x=>x.items)];
+ assert.equal(allowed.size,45);
+ for(const x of items){assert.ok(x.matched_canonical_kp_ids.every(k=>allowed.has(k)));assert.equal(x.public_release_approved,false)}
+ assert.ok(items.some(x=>x.source_slot_id.includes("|MC|003")&&x.matched_canonical_kp_ids.includes("sci_g04s1_03_06")));
+ assert.equal(items.filter(x=>x.kp_first_decision==="KP_MATCH_CANDIDATE").length,23);
+ assert.equal(items.filter(x=>x.kp_first_decision==="KP_MATCH_SOURCE_EVIDENCE_HOLD").length,13);
+ assert.equal(items.filter(x=>x.kp_first_decision==="REVIEW_KP_UNCERTAIN").length,1);
+ assert.equal(items.filter(x=>x.kp_first_decision==="NONMATCH_G04S1_KP_ARCHIVE").length,27);
+});
+test("V6 392 source positions 5 papers, 12 score points still unresolved and public untouched",()=>{
+ assert.equal(v5.all_identified_source_answer_positions_count,344);
+ assert.equal(v6.all_identified_source_answer_positions_count,392);
+ assert.equal(v6.textually_identifiable_answer_positions_count,386);
+ assert.equal(v6.original_source_visual_only_positions_identified,6);
+ assert.equal(Object.values(v6.source_text_position_kp_decisions).reduce((a,b)=>a+b,0),392);
+ assert.equal(v6.provisional_matched_kp_positions,258);
+ assert.equal(v6.papers_with_all_textually_identifiable_answer_positions_mapped,5);
+ assert.equal(v6.other_papers_with_source_outline_only,20);
+ assert.equal(v6.partially_item_mapped_additional_papers,0);
+ assert.equal(v6.source_score_points_not_proven_as_distinct_questions,12);
+ assert.equal(v6.source_papers.filter(x=>x.original_source_position_text_map_ref).length,5);
+ assert.equal(v6.public_question_positions_added,0);
+ assert.equal(v6.live_exam_answer_slots_still,251);
+ assert.equal(v6.g04s1_live_answer_slots_still,53);
+ assert.equal(buildMaster().public_question_bank_answer_slots_current,251);
+});

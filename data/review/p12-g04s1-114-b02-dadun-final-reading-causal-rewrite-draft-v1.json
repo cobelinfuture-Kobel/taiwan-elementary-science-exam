@@ -1,0 +1,24 @@
+{
+  "schema_version": "P12_G04S1_114_B02_DADUN_FINAL_CORRECTION_PROPOSAL_V1",
+  "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ1|001",
+  "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+  "source_verdict_ref": "data/review/p12-g04s1-114-b02-dadun-final-science-figure-verdict-v1.json",
+  "original_source_problem": "海邊露營情境先看到遠處燈塔的閃光，過一會才聽到海浪拍礁石的聲音，要求直接推論為何光比聲音快",
+  "scientific_defect": "Observations originate from independent nonsimultaneous physical events: lighthouse flashing and waves hitting rocks. A later heard wave cannot by itself establish relative propagation speeds.",
+  "proposed_shared_context_rewrite": "晚上，站在海邊的小宇看見遠處同一座燈塔同時發出一道閃光和一聲警示鳴笛。他先看見閃光，過了一會兒才聽見鳴笛聲。",
+  "proposed_question_rewrite": "小宇先看見燈塔的閃光，過了一會兒才聽見從同一位置同時發出的警示鳴笛聲，主要原因是什麼？",
+  "proposed_options": [
+    "(1)聲音比光亮",
+    "(2)光傳播的速度比聲音快",
+    "(3)警示鳴笛聲比較小",
+    "(4)燈塔的高度比較高"
+  ],
+  "scientific_answer_after_rewrite": "(2)",
+  "kp_provisional": "sci_g04s1_03_03",
+  "kp_frozen_scope_review_needed": true,
+  "operator_rewrite_approved": false,
+  "original_teacher_answer_authenticated": false,
+  "learner_copyright_clearance": false,
+  "public_release_approved": false,
+  "note": "Separate instructional rewrite proposal only. Never replace raw source text or assert this is the original test; cross-unit light-vs-sound speed scope requires authority review before using as G04-S1 practice."
+}

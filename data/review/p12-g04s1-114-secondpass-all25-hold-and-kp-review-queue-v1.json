@@ -1,0 +1,217 @@
+{
+  "schema_version": "P12_G04S1_114_ALL25_SECOND_PASS_HOLD_QUEUE_V1",
+  "source_authority_ref": "data/governance/p12-g04s1-108114-kp-first-authority-v1.json",
+  "frozen_first_pass_v17_ref": "data/review/p12-g04s1-114-all25-kp-first-progress-v17.json",
+  "source_papers_exact_count": 25,
+  "source_positions_exact_count": 1623,
+  "source_positions_newly_admitted_public": 0,
+  "source_decisions_total": {
+    "KP_MATCH_CANDIDATE": 845,
+    "KP_MATCH_SOURCE_EVIDENCE_HOLD": 325,
+    "REVIEW_KP_UNCERTAIN": 115,
+    "NONMATCH_G04S1_KP_ARCHIVE": 338
+  },
+  "review_queue_count": 440,
+  "review_evidence_hold_count": 325,
+  "review_kp_uncertain_count": 115,
+  "other_candidate_answer_certification_pending": 845,
+  "nonmatching_archive_source_positions": 338,
+  "unverified_source_score_placeholders_excluded_from_counts": 4,
+  "source_printed_scoring_unreconciled_points": 21,
+  "original_pdf_sha_certified_papers": 22,
+  "original_pdf_sha_missing_legacy_papers": 3,
+  "source_review_queue_shards": [
+    "data/review/p12-g04s1-114-secondpass-acceptance-queue-b15-part01.json",
+    "data/review/p12-g04s1-114-secondpass-acceptance-queue-b15-part02.json",
+    "data/review/p12-g04s1-114-secondpass-acceptance-queue-b15-part03.json",
+    "data/review/p12-g04s1-114-secondpass-acceptance-queue-b15-part04.json",
+    "data/review/p12-g04s1-114-secondpass-acceptance-queue-b15-part05.json"
+  ],
+  "priority_by_unresolved_count": [
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_003",
+      "eligible_source_slots": 74,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 40,
+      "source_kp_uncertain_positions": 3
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_001",
+      "eligible_source_slots": 74,
+      "source_score_placeholders_excluded": 4,
+      "source_hold_positions": 22,
+      "source_kp_uncertain_positions": 11
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "eligible_source_slots": 64,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 25,
+      "source_kp_uncertain_positions": 4
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_010",
+      "eligible_source_slots": 50,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 16,
+      "source_kp_uncertain_positions": 9
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_006",
+      "eligible_source_slots": 50,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 21,
+      "source_kp_uncertain_positions": 3
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "eligible_source_slots": 100,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 15,
+      "source_kp_uncertain_positions": 9
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "eligible_source_slots": 79,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 18,
+      "source_kp_uncertain_positions": 4
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_009",
+      "eligible_source_slots": 80,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 21,
+      "source_kp_uncertain_positions": 1
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_004",
+      "eligible_source_slots": 65,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 14,
+      "source_kp_uncertain_positions": 5
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "eligible_source_slots": 54,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 11,
+      "source_kp_uncertain_positions": 8
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_005",
+      "eligible_source_slots": 75,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 11,
+      "source_kp_uncertain_positions": 6
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_004",
+      "eligible_source_slots": 62,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 11,
+      "source_kp_uncertain_positions": 4
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_003",
+      "eligible_source_slots": 64,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 13,
+      "source_kp_uncertain_positions": 1
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_002",
+      "eligible_source_slots": 70,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 12,
+      "source_kp_uncertain_positions": 2
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "eligible_source_slots": 39,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 10,
+      "source_kp_uncertain_positions": 4
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_008",
+      "eligible_source_slots": 50,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 13,
+      "source_kp_uncertain_positions": 1
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_010",
+      "eligible_source_slots": 49,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 14,
+      "source_kp_uncertain_positions": 0
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "eligible_source_slots": 100,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 1,
+      "source_kp_uncertain_positions": 13
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_001",
+      "eligible_source_slots": 80,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 9,
+      "source_kp_uncertain_positions": 3
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "eligible_source_slots": 60,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 9,
+      "source_kp_uncertain_positions": 2
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_007",
+      "eligible_source_slots": 50,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 7,
+      "source_kp_uncertain_positions": 4
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "eligible_source_slots": 60,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 7,
+      "source_kp_uncertain_positions": 4
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_002",
+      "eligible_source_slots": 70,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 3,
+      "source_kp_uncertain_positions": 5
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_011",
+      "eligible_source_slots": 42,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 1,
+      "source_kp_uncertain_positions": 6
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_013",
+      "eligible_source_slots": 62,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 1,
+      "source_kp_uncertain_positions": 3
+    }
+  ],
+  "science_answer_verdicts_issued_this_stage": 0,
+  "teacher_answer_keys_issued_this_stage": 0,
+  "source_diagram_rebuild_accepted_this_stage": 0,
+  "copyright_clearance_accepted_this_stage": 0,
+  "operator_public_admission_approvals_issued_this_stage": 0,
+  "live_exam_answer_slots_unmodified": 251,
+  "live_g04s1_exam_answer_slots_unmodified": 53,
+  "publication_status": "FAIL_CLOSED_UNTIL_EVERY_REQUIREMENT_PASSES",
+  "next_science_review": "PER_SOURCE_CHUNKED_INDEPENDENT_SCIENCE_ANSWER_VERDICT_WITH_OPTION_LEVEL_KP_MAPPING_AND_SCORE_PARITY",
+  "notes": "440 full exact IDs distributed among five shards; this manifest is a screening queue NOT a science answer key, teacher key, copyrighted image authorization or public admission. Printed but unverified placeholders excluded."
+}

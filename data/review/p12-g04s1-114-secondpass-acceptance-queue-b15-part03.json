@@ -1,0 +1,1707 @@
+{
+  "schema_version": "P12_114_ALL25_SECOND_PASS_REVIEW_QUEUE_PART03_V1",
+  "source_paper_batch_index": [
+    10,
+    14
+  ],
+  "v17_frozen_ref": "data/review/p12-g04s1-114-all25-kp-first-progress-v17.json",
+  "source_papers": 5,
+  "all_original_candidate_decisions": {
+    "KP_MATCH_CANDIDATE": 201,
+    "KP_MATCH_SOURCE_EVIDENCE_HOLD": 73,
+    "REVIEW_KP_UNCERTAIN": 22,
+    "NONMATCH_G04S1_KP_ARCHIVE": 0
+  },
+  "excluded_unverified_source_placeholders": 0,
+  "review_queue_items": 95,
+  "records_by_source": [
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "eligible_source_slots": 39,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 10,
+      "source_kp_uncertain_positions": 4
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "eligible_source_slots": 60,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 9,
+      "source_kp_uncertain_positions": 2
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "eligible_source_slots": 54,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 11,
+      "source_kp_uncertain_positions": 8
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "eligible_source_slots": 64,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 25,
+      "source_kp_uncertain_positions": 4
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "eligible_source_slots": 79,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 18,
+      "source_kp_uncertain_positions": 4
+    }
+  ],
+  "items": [
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|008",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "觀察後水生生物放回原處保護環境",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|011",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "臺灣平地茶葉可製作飲品",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_10"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S02|MC|005",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "森林大火等事件何者不是地震所致",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S02|MC|008",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "走訪水域環境時的安全與行為",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S03|G01|001",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "原卷魚體圖第1個標示部位與口鰓鰭等構造代號",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S03|G01|002",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "原卷魚體圖第2個標示部位與口鰓鰭等構造代號",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S03|G01|003",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "原卷魚體圖第3個標示部位與口鰓鰭等構造代號",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S03|G01|004",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "原卷魚體圖第4個標示部位與口鰓鰭等構造代號",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S03|G01|005",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "原卷魚體圖第5個標示部位與口鰓鰭等構造代號",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S05|G01|001",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "依地震報告判定最大震度最高的縣市",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S05|G01|002",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "題目詢問『嘉義市的芮氏規模』",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S05|G01|003",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "依圖表填寫地震報告發表單位",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S05|G01|004",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "依來源報告讀取震源深度",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_007",
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S05|G01|005",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_source_summary": "109年起地震震度分級數目",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|003",
+      "source_file_ref": "data/review/p12-g04s1-114-dongguang-mid-tfmc-26-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_東光國小.pdf",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "original_source_summary": "溪流生物可採回放置另一水域的說法",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|008",
+      "source_file_ref": "data/review/p12-g04s1-114-dongguang-mid-tfmc-26-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_東光國小.pdf",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "original_source_summary": "為免干擾生物不應定期清潔生態池的說法",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_11"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|002",
+      "source_file_ref": "data/review/p12-g04s1-114-dongguang-mid-tfmc-26-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_東光國小.pdf",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "original_source_summary": "何者非地震地表改變：崩塌斷裂淹水斷層瀑布",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S03|G01|001",
+      "source_file_ref": "data/review/p12-g04s1-114-dongguang-mid-sections34-31-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_東光國小.pdf",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "original_source_summary": "浮萍漂浮性圖①",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_04"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S03|G01|002",
+      "source_file_ref": "data/review/p12-g04s1-114-dongguang-mid-sections34-31-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_東光國小.pdf",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "original_source_summary": "荷花挺水性圖②",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_07"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S03|G01|003",
+      "source_file_ref": "data/review/p12-g04s1-114-dongguang-mid-sections34-31-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_東光國小.pdf",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "original_source_summary": "睡蓮浮葉性圖③",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S03|G01|004",
+      "source_file_ref": "data/review/p12-g04s1-114-dongguang-mid-sections34-31-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_東光國小.pdf",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "original_source_summary": "大萍漂浮性圖④",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_04"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S03|G01|005",
+      "source_file_ref": "data/review/p12-g04s1-114-dongguang-mid-sections34-31-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_東光國小.pdf",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "original_source_summary": "水蘊草沉水性圖⑤",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_05"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S03|G01|006",
+      "source_file_ref": "data/review/p12-g04s1-114-dongguang-mid-sections34-31-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_東光國小.pdf",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "original_source_summary": "臺灣萍蓬草浮葉性圖⑥",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S03|G02|013",
+      "source_file_ref": "data/review/p12-g04s1-114-dongguang-mid-sections34-31-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_東光國小.pdf",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "original_source_summary": "地震報告★原卷圖示位置含義",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_008",
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S05|READ|002",
+      "source_file_ref": "data/review/p12-g04s1-114-dongguang-mid-reading-bonus-3-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_東光國小.pdf",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "original_source_summary": "校外教學於退潮後泥灘地所屬水域類型",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_02"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G02|005",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "土堆吹風後最遠粒徑位置",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_06"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G02|006",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "土堆吹風後原位置C的物質",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_06"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G02|007",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "風搬運顆粒越小運距越遠",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_06"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G02|009",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "吹風後土堆高度變高或變低",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_06"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G03|010",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "魚口附近呼吸構造圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G03|011",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "魚體軀幹外形圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G03|012",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "魚尾游泳構造圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G03|013",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "魚口呼吸所需構造功能",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G03|014",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "魚身體保護功能",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S2|G03|015",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "魚用尾鰭運動功能",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G02|008",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "沉水植物葉不易被水沾濕",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G02|012",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "沉水植物葉表面細毛",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G03|013",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "113年4月3日地震深度（公里）",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G03|014",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "113年4月3日地震規模",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G03|015",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "花蓮縣和平地區最大震度",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G03|016",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "桃園市最大震度",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G03|017",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "地震時的可能感受或現象",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S4|READ|001",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "茭白筍的葉柄是否浮在水面上",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_07"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_009",
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S4|READ|003",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_summary": "茭白筍與黑穗菌形成菰筍",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|001",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "鏡面反射光路走向原圖B",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|006",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "原圖移除燈泡亮度比較",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|007",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "電池串聯提高風扇轉速",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_10"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|015",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "兩面鏡夾角與影像數量",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|001",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "雷射煙盒光路示意圖第1個可勾選原圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|002",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "雷射煙盒光路示意圖第2個可勾選原圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|003",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "雷射煙盒光路示意圖第3個可勾選原圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|004",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "雷射煙盒光路示意圖第4個可勾選原圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|005",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "雷射煙盒光路示意圖第5個可勾選原圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01A|006",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "雷射煙盒光路示意圖第6個可勾選原圖框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01B|007",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "手電筒照射物體影子示意圖第1個判斷框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01B|008",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "手電筒照射物體影子示意圖第2個判斷框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01B|009",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "手電筒照射物體影子示意圖第3個判斷框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G01B|010",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "手電筒照射物體影子示意圖第4個判斷框",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G02|013",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "原圖燈泡A/B哪一組更亮",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G02|014",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "哪個原圖燈泡同一條通路",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G02|015",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "哪種原圖一燈壞全組熄",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G02|016",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "家中電燈一燈壞其他仍亮",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G03|017",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "電路①電線接觸燈泡部位錯誤",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_03",
+        "sci_g04s1_04_04"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G03|018",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "電路①燈泡太小斷路說法",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G03|019",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "電路②電線連電池兩極形成通路",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G03|020",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "電路③換電線顏色無法亮",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_04"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G04|021",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "原圖電路1辨識電池/燈泡串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G04|022",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "原圖電路2辨識電池/燈泡串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G04|023",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "原圖電路3辨識電池/燈泡串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S3|G04|024",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "原圖電路4辨識電池/燈泡串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ1|001",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "先看燈塔光後聽海浪聲因光較快",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_03"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ1|002",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "遠離吉他聲音變弱",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_03"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_005",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S4|READ1|003",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_source_summary": "橡皮筋拉緊音高變化與振動",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_01"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|011",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "LED效率、規格與電壓",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|014",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "電流從負極往正極的說法",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|008",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "兩鏡多重影像",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|015",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "小風扇電池串聯轉速",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_10"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|017",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "長期不用電器取出乾電池",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_11"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G04|018",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "煙盒雷射光路圖1是否正確",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G04|019",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "煙盒雷射光路圖2是否正確",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G04|020",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "煙盒雷射光路圖3是否正確",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G07|034",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "單圖畫出四條電線，讓LED和小馬達由開關控制",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_04",
+        "sci_g04s1_04_10"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G08A|035",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "原圖電路A辨識燈泡／電池串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G08A|036",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "原圖電路B辨識燈泡／電池串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G08A|037",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "原圖電路C辨識燈泡／電池串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G08A|038",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "原圖電路D辨識燈泡／電池串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G08A|039",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "原圖電路E辨識燈泡／電池串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G08A|040",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "原圖電路F辨識燈泡／電池串並聯",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G08B|041",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "六電路中燈泡最亮的原圖代號",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G08B|042",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "D與E兩電路亮度比較",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G08B|043",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "B與F兩電路亮度比較",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_07",
+        "sci_g04s1_04_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G08B|044",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "B失去一顆電池燈還亮否",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_07"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G08B|045",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "C一個燈泡壞後另一是否亮",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G08B|046",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "A其中一電池沒電其他是否亮",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_06",
+        "sci_g04s1_04_07"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_006",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S3|G08B|047",
+      "source_file_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_source_summary": "將E電路改單燈泡亮度變化",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_04_08",
+        "sci_g04s1_04_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    }
+  ],
+  "science_verdicts_authored": 0,
+  "public_admissions": 0
+}

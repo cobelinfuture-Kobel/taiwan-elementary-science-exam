@@ -1,0 +1,1058 @@
+{
+  "schema_version": "P12_114_ALL25_SECOND_PASS_REVIEW_QUEUE_PART05_V1",
+  "source_paper_batch_index": [
+    20,
+    24
+  ],
+  "v17_frozen_ref": "data/review/p12-g04s1-114-all25-kp-first-progress-v17.json",
+  "source_papers": 5,
+  "all_original_candidate_decisions": {
+    "KP_MATCH_CANDIDATE": 128,
+    "KP_MATCH_SOURCE_EVIDENCE_HOLD": 25,
+    "REVIEW_KP_UNCERTAIN": 35,
+    "NONMATCH_G04S1_KP_ARCHIVE": 176
+  },
+  "excluded_unverified_source_placeholders": 0,
+  "review_queue_items": 60,
+  "records_by_source": [
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "eligible_source_slots": 100,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 1,
+      "source_kp_uncertain_positions": 13
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "eligible_source_slots": 60,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 7,
+      "source_kp_uncertain_positions": 4
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_011",
+      "eligible_source_slots": 42,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 1,
+      "source_kp_uncertain_positions": 6
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "eligible_source_slots": 100,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 15,
+      "source_kp_uncertain_positions": 9
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_013",
+      "eligible_source_slots": 62,
+      "source_score_placeholders_excluded": 0,
+      "source_hold_positions": 1,
+      "source_kp_uncertain_positions": 3
+    }
+  ],
+  "items": [
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q01|001",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "只在特定季節捕魚是否就不需護魚",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_11"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q01|002",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "在水源保護區烤肉玩水",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_11"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q01|003",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "任意放生水生動物影響生態",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_11"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q01|004",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "修建水庫提供水源",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_01"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q01|005",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "達悟飛魚季限季捕魚保護資源",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_10"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q03|005",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "荷花蓮蓬蓮子種子發芽",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_07"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q03|007",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "香蒲有水蠟燭別名",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_07"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q03|008",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "水稻葉柄隨水位調整",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_07"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q03|009",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "大萍葉片通氣組織",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_04"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q06|004",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "水生動物不能任意抓回飼養",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_09"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q09|001",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "夜晚月亮自己會發光",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_05"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q14|001",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "夢幻湖是否火山口湖",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_01"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q14|004",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "東北季風與雲霧原因",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_02"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_011",
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q14|005",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "original_source_summary": "夢幻湖是否位於太魯閣",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_02"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "source_slot_id": "SCI_G04_S1_114_MID_012|S1|TF|007",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "original_source_summary": "水生生物不能任意帶回養",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_09"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "source_slot_id": "SCI_G04_S1_114_MID_012|S2|MC|007",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "original_source_summary": "不任意在水域放生的保育",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_11"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "source_slot_id": "SCI_G04_S1_114_MID_012|S2|MC|009",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "original_source_summary": "查水生生物名稱的圖鑑",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_09"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "source_slot_id": "SCI_G04_S1_114_MID_012|S2|MC|011",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "original_source_summary": "從水域取得珊瑚和漁產",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_10"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "source_slot_id": "SCI_G04_S1_114_MID_012|S3|G01|001",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "original_source_summary": "魚圖尾鰭名稱",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "source_slot_id": "SCI_G04_S1_114_MID_012|S3|G01|002",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "original_source_summary": "魚圖魚鱗名稱",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "source_slot_id": "SCI_G04_S1_114_MID_012|S3|G01|003",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "original_source_summary": "魚圖魚鰓名稱",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "source_slot_id": "SCI_G04_S1_114_MID_012|S3|G01|004",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "original_source_summary": "尾鰭移動功能連線",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "source_slot_id": "SCI_G04_S1_114_MID_012|S3|G01|005",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "original_source_summary": "魚鱗保護功能連線",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "source_slot_id": "SCI_G04_S1_114_MID_012|S3|G01|006",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "original_source_summary": "魚鰓呼吸功能連線",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_08"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_MID_012",
+      "source_slot_id": "SCI_G04_S1_114_MID_012|S6|READ_B|004",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期中評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "original_source_summary": "大王蓮葉脈支撐漂浮功能",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_02_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_011",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_011|S2|MC|001",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-dahua-final-42-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "original_source_summary": "音樂聲離舞台越近越大",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_03"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_011",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_011|S2|MC|003",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-dahua-final-42-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "original_source_summary": "玻璃帷幕光路反射圖",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_011",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_011|S3|G01|001",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-dahua-final-42-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "original_source_summary": "五色鳥叫聲功能",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_09"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_011",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_011|S3|G01|002",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-dahua-final-42-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "original_source_summary": "狼嚎集結同伴",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_09"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_011",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_011|S3|G01|003",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-dahua-final-42-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "original_source_summary": "獅子吼聲警告敵人",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_09"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_011",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_011|S3|G01|004",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-dahua-final-42-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "original_source_summary": "青蛙求偶叫聲",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_09"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_011",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_011|S4|READ|002",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-dahua-final-42-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "original_source_summary": "道路交通事故穿反光背心法規順序",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q03|002",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "汽車遮陽板反射陽光",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q03|003",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "透明杯完全不會有影子",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q08|005",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "停止振動聲音是否即停",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_01"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q10|002",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "螢火蟲發光求偶",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q10|004",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "太陽能板把電轉聲",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q10|005",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "手機震動提示屬聲音應用",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_09"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q13|001",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "拉直排水軟管光傳播",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q13|002",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "彎曲排水軟管光傳播",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q13|003",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "軟管實驗證明光直進",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q13|004",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "雷射筆替代手電筒",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_05"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q14|005",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "聽診器傳聲",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_03"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q15|001",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "平面鏡雷射反射圖①",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q15|002",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "平面鏡雷射反射圖②",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q15|003",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "平面鏡雷射反射圖③",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q15|004",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "平面鏡雷射反射圖④",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q15|005",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "平面鏡雷射反射圖⑤",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q15|006",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "平面鏡雷射反射圖⑥",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q16|001",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "三稜鏡將白光分色",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q16|002",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "白色物體吸光所以亮",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q16|003",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "紅蘋果反射紅光",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q16|004",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "黑色物體吸光而暗",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q16|006",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "黑板吸收綠光呈綠色",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q16|007",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "物體顏色由吸收光決定",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_012",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q16|008",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": null,
+      "original_source_summary": "太陽光只有一種色光",
+      "matched_canonical_kp_ids": [],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_013",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_013|S1|TF|006",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-final-62-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "original_source_summary": "手機語音輸入是聲音生活應用",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_09"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_013",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_013|S1|TF|008",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-final-62-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "original_source_summary": "原光束照鏡反射走A路徑",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_07"
+      ],
+      "initial_kp_first_decision": "KP_MATCH_SOURCE_EVIDENCE_HOLD",
+      "next_gate": "ORIGINAL_SOURCE_FIGURE_OR_SCIENCE_EVIDENCE_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_013",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_013|S1|TF|011",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-final-62-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "original_source_summary": "動物不同叫聲可求偶及警示",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_09"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    },
+    {
+      "source_candidate_id": "SCI_G04_S1_114_FINAL_013",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_013|S3|G03|014",
+      "source_file_ref": "data/review/p12-g04s1-114-hanlin-shihu-final-62-source-map-v1.json",
+      "source_title": "114_翰林_四上_自然_期末評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "original_source_summary": "汽車遮陽板光線",
+      "matched_canonical_kp_ids": [
+        "sci_g04s1_03_06"
+      ],
+      "initial_kp_first_decision": "REVIEW_KP_UNCERTAIN",
+      "next_gate": "KP_SCOPE_OPTION_LEVEL_HUMAN_REVIEW",
+      "science_answer_verified": false,
+      "original_teacher_key_authenticated": false,
+      "learner_image_admission_approved": false,
+      "public_admission_approved": false
+    }
+  ],
+  "science_verdicts_authored": 0,
+  "public_admissions": 0
+}

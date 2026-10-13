@@ -1,0 +1,363 @@
+{
+  "schema_version": "P12_STANDALONE_ALL25_SOURCE_FIRST_QUEUE_V1",
+  "frozen_input_25": "data/review/p12-g04s1-114-all25-kp-first-progress-v17.json",
+  "modality_input": "data/review/p12-all-kp-v3r1-114-all25-source-slot-evidence-coverage-v1.json",
+  "operator_execution_priority": "COMPLETE_STANDALONE_TF_MC_FIRST; grouped/diagrams independent later; model_science and KP gates distinct",
+  "source_papers_total": 25,
+  "raw_pdf_binary_sha_verified_historical": 25,
+  "source_response_slots_unchanged": 1623,
+  "text_layer_papers": 21,
+  "image_only_papers": 4,
+  "source_exact_standalone_private_completed": 22,
+  "fully_screened_all_25_standalone_papers": 0,
+  "science_model_reviewed_original_standalone_items": 22,
+  "model_science_no_obvious_problem": 20,
+  "model_science_hold": 2,
+  "formal_science_items_approved": 0,
+  "formal_kp_items_approved": 0,
+  "public_items_new": 0,
+  "all25_before_publication_gate_preserved": true,
+  "source_paper_queue": [
+    {
+      "priority_rank": 1,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_001",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-yongan-final-kp-first-text-map-v2.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1wiMXm5Wmk2dMDayrMN0iCPWcsMUpwO5D"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 22,
+      "private_complete_source_pass_state": "FIRST22_PRIVATE_COMPLETE_REVIEW_PENDING",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 2,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_001",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-yongan-mid-kp-first-80-text-map-v2.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1lLNg-pNkDzxbPgVyS2Ug61vdrhrUrF3o"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 4,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_003",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-chongde-mid-64-source-manifest-v2.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1-KKh_8kID9Y7Ua9sAltnjGy-9lftmhrY"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 7,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_003",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-dongguang-final-source-visual-v2.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1MdZkwTCFNK5JQgypgGc0X_uyGsbQJvfQ"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 8,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_004",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-chongde-final-65-source-kp-first-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1MVDJoRVSqpN4s1FPNp_nWSy5G5knc2-l"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 9,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_004",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-mid-62-source-kp-first-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "17mG1IAXPhDilZuwDBgEUvdCBHE_Otxe5"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 10,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_005",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-mid-75-source-manifest-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1eWBdPcFVKEWOUqgAcwnki-u9vbuPmWIB"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 11,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_006",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-anhe-mid-50-source-kp-first-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1b2Ra-MB32xdJjXy-xtn0gJTIuvtF8YTW"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 12,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_007",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1vYm6xxOw6TQzKb-r8bEYM8gp7cDIRDFa"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 13,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_008",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-dongguang-mid-60-source-manifest-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1g0ld_8TiIqt_UrtNRFZx_VqlZzKOx8D5"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 15,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1KQesPj7fM1T5OUOiT79ePwnjZ4GLx1d3"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 16,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1ZLZNORw5p1YbeQ8yKQ3rpsPsi6aEAdkr"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 17,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-anhe-final-50-source-kp-first-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1dRJk3FJ_Ua_FFl8tla30iMbMzgcQfbGz"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 18,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-final-50-source-kp-first-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1pwlIRa40MeeVMlAYAyhufNchGEqbL6oT"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 19,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_009",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-wengzi-final-80-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1-Mi19WvmR6dlDtmcWhVatnEjj35wOVWZ"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 21,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_010",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-dahua-mid-50-source-kp-first-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1Tf8dvnMnaw1DJoZQQXTptRfcjt2Krbor"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 22,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_011",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1cNAyUFRPvdNTQivMwLMszAuTTLu4RDNd"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 23,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_002",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-heshun-mid-70-source-map-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1UxbTZOQo6gMXexzs57V26ycUmcSwjcaO"
+      ],
+      "original_pdf_access_type": "IMAGE_ONLY",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "VISUAL_TF_MC_ONLY_AFTER_TEXT_LAYER_PAPERS"
+    },
+    {
+      "priority_rank": 23,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_012",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "14VXGVleqBBtZXIgopFJKF36-TXok16DC"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 24,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_011",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-dahua-final-42-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1qzeGpzru5YPhlY2pBKlhfL-dSW6RxOgF"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 25,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "14KIqnA3EGmx7JxEEroNOFN7nK7SH3IEG"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 26,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-heshun-final-70-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1iZisyIpcQ0b_TzEue8YA2h_TRyc6GLJ9"
+      ],
+      "original_pdf_access_type": "IMAGE_ONLY",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "VISUAL_TF_MC_ONLY_AFTER_TEXT_LAYER_PAPERS"
+    },
+    {
+      "priority_rank": 26,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-shihu-final-62-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1KSK_lXGSBEY_bXf3B8J8UdWDA_4GjbY8"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 34,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_009",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG"
+      ],
+      "original_pdf_access_type": "IMAGE_ONLY",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "VISUAL_TF_MC_ONLY_AFTER_TEXT_LAYER_PAPERS"
+    },
+    {
+      "priority_rank": 40,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-final-49-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1OuMQNYZJSnE8ZdVcYdrNE4aCLH7Bg0B0"
+      ],
+      "original_pdf_access_type": "IMAGE_ONLY",
+      "full_complete_standalone_tf_mc_private_source_count": 0,
+      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
+      "next_action": "VISUAL_TF_MC_ONLY_AFTER_TEXT_LAYER_PAPERS"
+    }
+  ],
+  "per_question_required_fields": [
+    "source_id",
+    "original_pdf_sha256",
+    "original_pdf_page",
+    "full_original_question_stem_PRIVATE",
+    "all_original_options_in_print_order_PRIVATE",
+    "printed_question_number",
+    "original_answer_marker_pdf_bbox_or_approved_equivalent",
+    "standalone_no_shared_material_proven",
+    "source_question_scored_points",
+    "independent_science_unique_answer_verdict",
+    "canonical_kp_review",
+    "source_use_rights_and_operator_release_gate"
+  ],
+  "non_promotable_evidence": "Text-layer, firstpass KP source maps and source-box locator candidates do NOT imply a complete or usable single question.",
+  "next_execution": "P12_STANDALONE_B01_NextTextLayerPaper_FirstPageTFMC_OriginalFullSourceAndBBoxThenScienceKP"
+}

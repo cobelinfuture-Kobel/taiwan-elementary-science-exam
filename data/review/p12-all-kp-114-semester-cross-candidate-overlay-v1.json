@@ -1,0 +1,41 @@
+{
+  "schema_version": "P12_ALL_KP_114_FIRST_CROSS_SEMESTER_SOURCE_CANDIDATES_V1",
+  "purpose": "NONPUBLIC_BOUNDED_EXAMPLES_NOT_AN_EXHAUSTIVE_MAPPING_OF_THE_1623_SOURCE_ITEMS",
+  "original_paper_id": "SCI_G04_S1_114_MID_010",
+  "source_ref": "data/review/p12-g04s1-114-hanlin-dahua-mid-50-source-kp-first-v1.json",
+  "kp_authority_ref": "site/data/authority/science-g03-g04-selector-v2.json",
+  "mapping_status": "CANDIDATE_REQUIRES_SOURCE_AND_KP_REVIEW",
+  "source_identity_and_full_options_need_recheck": true,
+  "model_recommended_cross_semester_mapping_is_not_formal_verification": true,
+  "public_admission_approved": false,
+  "edges": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|003",
+      "kp_id": "sci_g04s2_01_12",
+      "status": "CANDIDATE_REQUIRES_SOURCE_AND_KP_REVIEW",
+      "evidence_ref": "data/review/p12-g04s1-114-hanlin-dahua-mid-50-source-kp-first-v1.json",
+      "rationale": "Source first-pass summary says 中秋節滿月月相 and the current G04S2 U01 KP title is 農曆日期與月相; exact original multiple-choice options must still be checked."
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|004",
+      "kp_id": "sci_g04s2_01_11",
+      "status": "CANDIDATE_REQUIRES_SOURCE_AND_KP_REVIEW",
+      "evidence_ref": "data/review/p12-g04s1-114-hanlin-dahua-mid-50-source-kp-first-v1.json",
+      "rationale": "Source first-pass summary says 相同月相再次出現約29.5天 and current G04S2 U01 KP is 月相變化週期; science/key/option review remains pending."
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|002",
+      "kp_id": "sci_g04s2_01_08",
+      "status": "CANDIDATE_REQUIRES_SOURCE_AND_KP_REVIEW",
+      "evidence_ref": "data/review/p12-g04s1-114-hanlin-dahua-mid-50-source-kp-first-v1.json",
+      "rationale": "Source first-pass summary discusses 指北針測月亮方位的錯誤操作 and KP G04S2 U01_08 is 月亮方位的測量; exact method and distractors still need scope checking."
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|002",
+      "kp_id": "sci_g04s2_01_02",
+      "status": "CANDIDATE_REQUIRES_SOURCE_AND_KP_REVIEW",
+      "evidence_ref": "data/review/p12-g04s1-114-hanlin-dahua-mid-50-source-kp-first-v1.json",
+      "rationale": "Source first-pass summary says 白天可能同時看見太陽與月亮 and KP G04S2 U01_02 covers 白天與夜晚可見天體; final textbook and science verification not completed."
+    }
+  ]
+}

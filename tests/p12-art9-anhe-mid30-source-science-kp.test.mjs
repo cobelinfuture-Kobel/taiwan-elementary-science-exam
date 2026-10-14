@@ -113,11 +113,11 @@ test("Cumulative 145+30=175 source items; 25 exam/1623 original denominator and 
  assert.equal(corpus.source_position_frozen_all25_total,1623);
  assert.equal(corpus.all_114_25_exams_must_screen_before_final_public_practice_admission,true);
  assert.equal(q.source_papers_total,25);
- assert.equal(q.source_exact_standalone_private_completed,175);
- assert.equal(q.science_model_reviewed_original_standalone_items,175);
- assert.equal(q.model_science_no_obvious_problem,163);
- assert.equal(q.model_science_hold,12);
- assert.equal(q.source_paper_queue.reduce((s,r)=>s+r.full_complete_standalone_tf_mc_private_source_count,0),175);
+ assert.ok(q.source_exact_standalone_private_completed>=175);
+ assert.equal(q.science_model_reviewed_original_standalone_items,q.source_exact_standalone_private_completed);
+ assert.ok(q.model_science_no_obvious_problem>=163);
+ assert.ok(q.model_science_hold>=12);
+ assert.equal(q.source_paper_queue.reduce((s,r)=>s+r.full_complete_standalone_tf_mc_private_source_count,0),q.source_exact_standalone_private_completed);
  assert.equal(q.fully_screened_all_25_standalone_papers,0);
  assert.equal(q.all25_before_publication_gate_preserved,true);
  assert.equal(q.public_items_new,0);

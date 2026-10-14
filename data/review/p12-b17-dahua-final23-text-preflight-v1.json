@@ -1,6 +1,6 @@
 {
   "schema_version": "P12_B17_DAHUA_FINAL_TEXT_PREFLIGHT_V1",
-  "stage": "DRAFT_SOURCE_TEXT_ONLY_NOT_SOURCE_EXACT_CERTIFIED",
+  "stage": "PDF_ORIGINAL_VISUAL_AND_RAW_ANSWER_MARKER_BBOX_VERIFIED__22_STANDALONE_SOURCE_ARCHIVED__1_DIAGRAM_DEFERRED",
   "source_paper_id": "SCI_G04_S1_114_FINAL_011",
   "source_drive_id": "1qzeGpzru5YPhlY2pBKlhfL-dSW6RxOgF",
   "expected_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
@@ -13,7 +13,7 @@
   ],
   "source_note": "Extracted selectable Google Drive PDF text. Text line wrapping normalized for triage only. Not yet compared character-by-character to rendered pages. PDF bbox, exact options glyphs, full context, authenticated key and canonical KP per-item review are outstanding.",
   "science_prelim_pass": 21,
-  "science_hold": 2,
+  "science_hold": 1,
   "formal_science_approved": 0,
   "formal_kp_approved": 0,
   "learner_admission": 0,
@@ -26,7 +26,15 @@
       "choices": [],
       "model_answer_provisional": "T",
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null
+      "pdf_bbox": [
+        56.64,
+        150.06,
+        89.78,
+        161.1
+      ],
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S1|TF|002",
@@ -36,7 +44,15 @@
       "choices": [],
       "model_answer_provisional": "F",
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null
+      "pdf_bbox": [
+        56.64,
+        199.38,
+        89.78,
+        210.42
+      ],
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S1|TF|003",
@@ -46,7 +62,15 @@
       "choices": [],
       "model_answer_provisional": "T",
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null
+      "pdf_bbox": [
+        56.64,
+        248.7,
+        89.78,
+        259.74
+      ],
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S1|TF|004",
@@ -56,7 +80,15 @@
       "choices": [],
       "model_answer_provisional": "T",
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null
+      "pdf_bbox": [
+        56.64,
+        281.73,
+        89.78,
+        292.77
+      ],
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S1|TF|005",
@@ -66,7 +98,15 @@
       "choices": [],
       "model_answer_provisional": "T",
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null
+      "pdf_bbox": [
+        56.64,
+        314.61,
+        89.78,
+        325.65
+      ],
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S1|TF|006",
@@ -76,7 +116,15 @@
       "choices": [],
       "model_answer_provisional": "T",
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null
+      "pdf_bbox": [
+        56.64,
+        347.49,
+        89.78,
+        358.53
+      ],
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|001",
@@ -91,9 +139,17 @@
       ],
       "model_answer_provisional": 3,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        56.64,
+        449.25,
+        89.78,
+        460.29
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|002",
@@ -108,9 +164,17 @@
       ],
       "model_answer_provisional": 4,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        56.64,
+        531.47,
+        89.78,
+        542.51
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|003",
@@ -124,10 +188,18 @@
         "甲乙丙皆會"
       ],
       "model_answer_provisional": null,
-      "science_firstpass": "HOLD",
-      "pdf_bbox": null,
+      "science_firstpass": "FIGURE_DEPENDENCY_HOLD",
+      "pdf_bbox": [
+        56.64,
+        597.35,
+        89.78,
+        608.39
+      ],
       "dependency": "SOURCE_FIGURE_REQUIRED",
-      "hold_reason": "reflection path diagram absent from extracted text"
+      "hold_reason": "reflection path diagram absent from extracted text",
+      "pdf_page": 1,
+      "source_standalone_eligible": false,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|004",
@@ -142,9 +214,17 @@
       ],
       "model_answer_provisional": 3,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        56.64,
+        729.02,
+        89.78,
+        740.06
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|005",
@@ -159,9 +239,17 @@
       ],
       "model_answer_provisional": 3,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        322.49,
+        80.58,
+        355.63,
+        91.62
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|006",
@@ -176,9 +264,17 @@
       ],
       "model_answer_provisional": 2,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        322.49,
+        146.34,
+        355.63,
+        157.38
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|007",
@@ -193,9 +289,17 @@
       ],
       "model_answer_provisional": 3,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        322.49,
+        302.73,
+        355.63,
+        313.77
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|008",
@@ -210,9 +314,17 @@
       ],
       "model_answer_provisional": 3,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        322.49,
+        368.61,
+        355.63,
+        379.65
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|009",
@@ -227,9 +339,17 @@
       ],
       "model_answer_provisional": 1,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        322.49,
+        417.93,
+        355.63,
+        428.97
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|010",
@@ -244,9 +364,17 @@
       ],
       "model_answer_provisional": 4,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        332.35,
+        467.27,
+        365.47,
+        478.31
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|011",
@@ -261,9 +389,17 @@
       ],
       "model_answer_provisional": 1,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        332.35,
+        516.71,
+        365.47,
+        527.75
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|012",
@@ -278,9 +414,17 @@
       ],
       "model_answer_provisional": 3,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        332.35,
+        582.47,
+        365.47,
+        593.51
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|013",
@@ -295,9 +439,17 @@
       ],
       "model_answer_provisional": 1,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        332.35,
+        648.38,
+        365.47,
+        659.42
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|014",
@@ -312,9 +464,17 @@
       ],
       "model_answer_provisional": 4,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        66.5,
+        44.08,
+        99.62,
+        55.12
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 2,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|015",
@@ -329,9 +489,17 @@
       ],
       "model_answer_provisional": 1,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        66.5,
+        109.98,
+        99.62,
+        121.02
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 2,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|016",
@@ -346,9 +514,17 @@
       ],
       "model_answer_provisional": null,
       "science_firstpass": "HOLD",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        66.5,
+        159.3,
+        99.62,
+        170.34
+      ],
       "dependency": null,
-      "hold_reason": "red lantern may or may not be a luminous source, depending on illumination; inspect paper graphic/context"
+      "hold_reason": "red lantern may or may not be a luminous source, depending on illumination; inspect paper graphic/context",
+      "pdf_page": 2,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     },
     {
       "id": "SCI_G04_S1_114_FINAL_011|S2|MC|017",
@@ -363,9 +539,26 @@
       ],
       "model_answer_provisional": 1,
       "science_firstpass": "PROVISIONAL_PASS",
-      "pdf_bbox": null,
+      "pdf_bbox": [
+        66.5,
+        208.62,
+        99.62,
+        219.66
+      ],
       "dependency": null,
-      "hold_reason": null
+      "hold_reason": null,
+      "pdf_page": 2,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
     }
-  ]
+  ],
+  "pdf_visual_pages_checked": [
+    1,
+    2
+  ],
+  "source_pdf_sha256_verified": true,
+  "source_text_and_choices_pdf_verification": "23/23 STEMS AND 68/68 MC OPTIONS MATCH PDF SELECTABLE TEXT; exact printed wording normalized for line wraps only",
+  "source_archive_standalone_eligible": 22,
+  "source_figure_deferred": 1,
+  "figure_dependency_hold": 1
 }

@@ -1,0 +1,494 @@
+{
+  "schema_version": "P12_HANLIN_DAHUA_114_MID23_MODEL_SCIENCE_KP_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_MID_010",
+  "source_pdf_sha256": "d476e8bae13884d75dc1c386aedf716630f70e3c6b579d840c5c308a629676d6",
+  "source_original_full23_ref": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json",
+  "frozen_source_map_ref": "data/review/p12-g04s1-114-hanlin-dahua-mid-50-source-kp-first-v1.json",
+  "model_science_preliminary_pass": 18,
+  "model_science_hold": 5,
+  "science_hold_source_ids": [
+    "SCI_G04_S1_114_MID_010|S01|TF|006",
+    "SCI_G04_S1_114_MID_010|S01|TF|009",
+    "SCI_G04_S1_114_MID_010|S02|MC|007",
+    "SCI_G04_S1_114_MID_010|S02|MC|011",
+    "SCI_G04_S1_114_MID_010|S02|MC|013"
+  ],
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 8,
+    "KP_REVIEW": 4,
+    "KP_NONMATCH_G04S1": 11
+  },
+  "kp_strong_and_model_science_pass_count": 5,
+  "source_print_hold_count": 0,
+  "source_shared_narrative_excluded": [
+    "SCI_G04_S1_114_MID_010|S02|MC|006"
+  ],
+  "normalized_exact_stem_matches_prior362": [],
+  "lexical_bigrams_prior362_at_least_0_5": [],
+  "teacher_key_authenticated_count": 0,
+  "formal_science_approved_count": 0,
+  "formal_kp_approved_count": 0,
+  "operator_site_admitted_count": 0,
+  "original_question_reviews": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|001",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "Sun rising in front of observer means East is in front and the shadow is cast generally West.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_06",
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        66.5,
+        96.37,
+        102.5,
+        108.37
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|002",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "The Sun and Moon can both be visible in the daytime.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        66.5,
+        150.25,
+        102.5,
+        162.25
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|003",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "Approaching a flagpole changes its observed elevation angle substantially.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        66.5,
+        186.13,
+        102.5,
+        198.13
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|004",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "Fist-count estimates elevation roughly; it is not a precise measuring instrument.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        66.5,
+        239.89,
+        102.5,
+        251.89
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|005",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "Clownfish require marine saltwater; a typical school freshwater eco-pond also home to freshwater stream crabs cannot be assumed to host clownfish.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_02",
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        66.5,
+        275.92,
+        102.5,
+        287.92
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|006",
+      "model_provisional_answer": null,
+      "model_science_reason": "Water hyacinth floats using aerated petiole tissue, but the sentence joins a water hyacinth with a dropped baseball and refers to 'its petiole' ambiguously. The ball has no petiole, so scope is unclear.",
+      "science_review_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        66.5,
+        329.68,
+        102.5,
+        341.68
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|007",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "Apple snails and tadpoles commonly occur in rice paddies and similar freshwater environments.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_02",
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        66.5,
+        383.56,
+        102.5,
+        395.56
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|008",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "One should not touch corals or sea turtles while snorkeling, both for conservation and animal welfare.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        66.5,
+        437.44,
+        102.5,
+        449.44
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|009",
+      "model_provisional_answer": null,
+      "model_science_reason": "Ramsar's marine-water six-metre low-tide clause is not a sufficient universal definition that any shallow natural/artificial water is a wetland. Exact treaty scope and literal statement need independent review.",
+      "science_review_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        66.5,
+        491.34,
+        102.5,
+        503.34
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|010",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "Reducing overfishing can support reproduction and conservation of aquatic resources.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        66.5,
+        545.1,
+        102.5,
+        557.1
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|001",
+      "model_provisional_answer": "③",
+      "model_science_reason": "Shimen Reservoir is human-built; other named examples are predominantly natural water bodies.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_01",
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        66.5,
+        596.7,
+        102.5,
+        608.7
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|002",
+      "model_provisional_answer": "④",
+      "model_science_reason": "The compass needle indicates magnetic North, not directly the Moon's bearing. Original typo 面相 preserved.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        66.5,
+        648.21,
+        102.5,
+        660.21
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|003",
+      "model_provisional_answer": "③",
+      "model_science_reason": "Mid-Autumn Day is around a full Moon.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        66.5,
+        741.8,
+        102.5,
+        753.8
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|004",
+      "model_provisional_answer": "③",
+      "model_science_reason": "The lunar synodic month is approximately 29.5 days, so 30 days is closest.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        332.35,
+        80.77,
+        368.35,
+        92.77
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|005",
+      "model_provisional_answer": "④",
+      "model_science_reason": "At night a bright Sun is not a plausible cause, while conjunction/new moon, obstruction and thick cloud can be.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        332.35,
+        127.57,
+        368.35,
+        139.57
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|007",
+      "model_provisional_answer": null,
+      "model_science_reason": "No season or observation date is given. Noon Sun elevation in Taoyuan varies dramatically across the year, so no unique selection among 20/40/60/80 degrees.",
+      "science_review_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        332.35,
+        252.49,
+        368.35,
+        264.49
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|008",
+      "model_provisional_answer": "②",
+      "model_science_reason": "An open rural campground in Taitung is more suitable for stargazing than brightly lit metropolitan venues.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        332.35,
+        314.92,
+        368.35,
+        326.92
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|009",
+      "model_provisional_answer": "①",
+      "model_science_reason": "Air temperature may be interesting but is not an essential Moon position/time log field.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        332.35,
+        392.92,
+        368.35,
+        404.92
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|010",
+      "model_provisional_answer": "①",
+      "model_science_reason": "Within an elementary school timescale of the same day, the Moon's phase is approximately the same, unlike the other options.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        332.35,
+        439.72,
+        368.35,
+        451.72
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|011",
+      "model_provisional_answer": null,
+      "model_science_reason": "Flexible submerged waterweed can bend with water movement, but a falling water level does not guarantee that the entire plant stays submerged. Requires initial depth/plant height.",
+      "science_review_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_05",
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        332.35,
+        533.46,
+        368.35,
+        545.46
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|012",
+      "model_provisional_answer": "①",
+      "model_science_reason": "Hollow lotus petiole pathways facilitate gas/air transport to underwater tissues.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_07",
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        332.35,
+        595.86,
+        368.35,
+        607.86
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|013",
+      "model_provisional_answer": null,
+      "model_science_reason": "Tadpole and adult frog differ in breathing, movement and habitat, but 'skin state' also changes through metamorphosis; the question doesn't establish a science-unique invariant.",
+      "science_review_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_09",
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        332.35,
+        674.01,
+        368.35,
+        686.01
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|014",
+      "model_provisional_answer": "④",
+      "model_science_reason": "Refined sugar powder is not ordinarily derived from marine resources; other options can describe food, construction use, or transportation service associated with the sea.",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_10",
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        332.35,
+        736.4,
+        368.35,
+        748.4
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    }
+  ]
+}

@@ -1,0 +1,719 @@
+{
+  "schema_version": "P12_HANLIN_SHIHU_114_FINAL34_MODEL_SCIENCE_KP_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+  "source_original_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+  "source_original_full34_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+  "frozen_source_map_ref": "data/review/p12-g04s1-114-hanlin-shihu-final-62-source-map-v1.json",
+  "frozen_score_discrepancy": {
+    "printed_total": 100,
+    "attributable_to_identified_positions": 97,
+    "unreconciled": 3,
+    "score_parity_certified": false
+  },
+  "model_science_preliminary_pass": 33,
+  "model_science_hold": 1,
+  "science_hold_source_ids": [
+    "SCI_G04_S1_114_FINAL_013|S1|TF|003"
+  ],
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 17,
+    "KP_REVIEW": 2,
+    "KP_NONMATCH_G04S1": 15
+  },
+  "kp_strong_and_science_pass_count": 16,
+  "source_print_hold_count": 0,
+  "normalized_exact_stem_matches_prior550": [],
+  "cross_paper_lexical_near_matches_prior550": [
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|004",
+      "prior_source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|009",
+      "lexical_bigram_jaccard": 0.6531
+    }
+  ],
+  "teacher_key_authenticated_count": 0,
+  "formal_science_approved_count": 0,
+  "formal_kp_approved_count": 0,
+  "operator_site_admitted_count": 0,
+  "original_question_reviews": [
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|001",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "生鏽通常造成腐蝕與材料性能劣化。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        96.71,
+        79.52,
+        112.25
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|002",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "水是能傳播聲音的介質。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_03",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        114.95,
+        79.52,
+        130.49
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|003",
+      "model_provisional_answer": null,
+      "model_science_reason": "觀察玻璃帷幕上的陽光，未確定是反射、透射或直射，故不直接認證。",
+      "science_review_status": "MODEL_SCIENCE_HOLD",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_07",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        151.31,
+        79.52,
+        166.85
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|004",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "月球近真空環境缺乏空氣傳聲介質。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_03",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        169.55,
+        79.52,
+        185.09
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|005",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "摩擦生熱可使手部溫度上升，僅屬初審。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        224.15,
+        79.52,
+        239.69
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|006",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "語音輸入以聲音傳遞訊號。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_09",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        260.63,
+        79.52,
+        276.17
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|007",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "交通燈號使用光的訊號管理交通。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_09",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        297.02,
+        79.52,
+        312.56
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|009",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "酵母發酵速度受到溫度影響。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        428.42,
+        79.52,
+        443.96
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|010",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "彎曲不透明軟管無法維持光線直通。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_06",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        464.9,
+        79.52,
+        480.44
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|011",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "動物會用聲音溝通、求偶或警示。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_09",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        519.52,
+        79.52,
+        535.06
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|001",
+      "model_provisional_answer": "④",
+      "model_science_reason": "發聲鼓面振動使綠豆跳動。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_01",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        592.24,
+        79.52,
+        607.78
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|002",
+      "model_provisional_answer": "④",
+      "model_science_reason": "雞蛋加熱後顏色與外形均可能改變。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        667.12,
+        79.52,
+        682.66
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|003",
+      "model_provisional_answer": "③",
+      "model_science_reason": "物體表面亮光反射符合資料夾內頁例子。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_07",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        742.99,
+        79.52,
+        758.53
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|004",
+      "model_provisional_answer": "②",
+      "model_science_reason": "紫色高麗菜的變色可反映酸鹼性。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        818.83,
+        79.52,
+        834.37
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|005",
+      "model_provisional_answer": "②",
+      "model_science_reason": "耳朵貼門板聽到聲音說明固體傳聲。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_03",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        49.32,
+        912.93,
+        79.52,
+        928.47
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|006",
+      "model_provisional_answer": "①",
+      "model_science_reason": "光源與影子通常在物體相反側。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_06",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        395.83,
+        92.03,
+        426.03,
+        107.57
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|007",
+      "model_provisional_answer": "②",
+      "model_science_reason": "冰水散熱可使巧克力凝固。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        395.83,
+        185.99,
+        426.03,
+        201.53
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|008",
+      "model_provisional_answer": "①",
+      "model_science_reason": "廣告看板以光吸引路人注意。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_10",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        395.83,
+        260.87,
+        426.03,
+        276.41
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|009",
+      "model_provisional_answer": "③",
+      "model_science_reason": "水含大量沙石一般不會因此變清澈。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        395.83,
+        335.78,
+        426.03,
+        351.32
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|010",
+      "model_provisional_answer": "①",
+      "model_science_reason": "較粗糙表面通常呈較不明顯的鏡面反射。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_07",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        395.83,
+        449.06,
+        426.03,
+        464.6
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G01|001",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "線香達引燃溫度可發生燃燒。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        40.32,
+        706.09,
+        82.46,
+        720.13
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G01|002",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "常見肥皂水具滑溜觸感。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        40.32,
+        724.33,
+        82.46,
+        738.37
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G01|003",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "乳酸飲料通常呈酸性。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        40.32,
+        742.45,
+        82.46,
+        756.49
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G01|004",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "水霧凝結需降溫而非遇熱。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        40.32,
+        760.69,
+        82.46,
+        774.73
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G01|005",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "小蘇打溶液偏鹼性。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        40.32,
+        797.17,
+        82.46,
+        811.21
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G01|006",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "較低室溫通常抑制冰棒融化。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        40.32,
+        815.29,
+        82.46,
+        829.33
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G01|007",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "鹼粽會加入鹼性成分。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        40.32,
+        833.53,
+        82.46,
+        847.57
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G02|008",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "門縫透光可由直線行進解釋。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_06",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        40.32,
+        906.87,
+        82.46,
+        920.91
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G02|009",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "影子形成與光直線行進有關。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_06",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        40.32,
+        925.11,
+        82.46,
+        939.15
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G02|010",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "反光標示有助於道路警示。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_08",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        40.32,
+        961.47,
+        82.46,
+        975.51
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G02|011",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "月光主要來自反射的太陽光。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_07",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        386.83,
+        30.27,
+        428.95,
+        44.31
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G02|012",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "握住三角鐵可阻尼振動使聲響停止。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_01",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        386.83,
+        48.51,
+        428.95,
+        62.55
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G02|013",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "太陽能光電板將光能轉為電能。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        386.83,
+        85.01,
+        428.95,
+        99.05
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G02|014",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "說話時聲帶振動可由手觸喉部感受。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_01",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        386.83,
+        103.13,
+        428.95,
+        117.17
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    }
+  ]
+}

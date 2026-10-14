@@ -1,0 +1,707 @@
+{
+  "schema_version": "P12_114_ANHE_MID30_SCIENCE_KP_MODEL_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_MID_006",
+  "source_original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+  "frozen_source_map_ref": "data/review/p12-g04s1-114-kanghsuan-anhe-mid-50-source-kp-first-v1.json",
+  "public_full_original_source_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+  "original_full_standalone_tf_mc_count": 30,
+  "source_original_pdf_marker_bbox_verified_count": 30,
+  "tf_count": 15,
+  "mc_count": 15,
+  "mc_four_choice_option_entries": 60,
+  "source_last_two_mc_on_pdf_page2": [
+    "SCI_G04_S1_114_MID_006|S02|MC|014",
+    "SCI_G04_S1_114_MID_006|S02|MC|015"
+  ],
+  "model_science_preliminary_pass": 28,
+  "model_science_hold": 2,
+  "science_hold_source_ids": [
+    "SCI_G04_S1_114_MID_006|S02|MC|001",
+    "SCI_G04_S1_114_MID_006|S02|MC|011"
+  ],
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 29,
+    "KP_REVIEW": 1,
+    "KP_NONMATCH_G04S1": 0
+  },
+  "kp_strong_and_science_pass_count": 27,
+  "same_normalized_stem_as_previous_145": [],
+  "near_duplicate_stem_candidates": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|001",
+      "related_source_id": "SCI_G04_S1_114_MID_004|S01|TF|005",
+      "relation": "NEAR_DUPLICATE_SAME_ROCK_USE_CONCEPT",
+      "normalized_bigram_overlap_ratio": 0.56,
+      "note": "兩題都考岩石堅硬可用於建屋與鋪設步道，文字不同、保留兩校Source ID"
+    }
+  ],
+  "unrelated_similar_string_cases_not_conceptual_duplicates": [
+    "SCI_G04_S1_114_MID_006|S02|MC|014 vs SCI_G04_S1_114_FINAL_001|MC|S02|011"
+  ],
+  "teacher_key_authenticated_count": 0,
+  "formal_science_approved_count": 0,
+  "formal_kp_approved_count": 0,
+  "operator_public_site_admission_count": 0,
+  "original_question_reviews": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|001",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "岩石堅硬可用於建築或步道鋪面",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_04",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        190.02,
+        61.46,
+        203.94
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|002",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "栗喉蜂虎可在適合土質的陡坡挖掘巢穴",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_02",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        226.5,
+        61.46,
+        240.42
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|003",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "地表作用後不一定會永遠不穩定且持續變動；『一直』過度概括",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_05",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        263,
+        61.46,
+        276.92
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|004",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "受控風力/流水作用較強時可搬運物質更遠，細小顆粒通常較易移動",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_06",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        317.72,
+        61.46,
+        331.64
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|005",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "芮氏規模沒有原題宣稱的最大七級上限",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_08",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        353.96,
+        61.46,
+        367.88
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|006",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "地震報告可提供震央、震源、規模、震度及災害訊息",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_08",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        390.47,
+        61.46,
+        404.39
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|007",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "自然中有水不必然構成一個具獨立生境意義的水域",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_01",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        426.95,
+        61.46,
+        440.87
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|008",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "水流、水質與日照差異影響不同水域的生物類群",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_02",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        463.43,
+        61.46,
+        477.35
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|009",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "魚類一般是軀幹較厚而頭尾漸細的流線型，原句反向",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_08",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        517.93,
+        61.46,
+        531.85
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|010",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "水蘊草的細軟莖葉隨流水擺動",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_05",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        572.65,
+        61.46,
+        586.57
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|011",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "水生動物不可任意放生，可能造成外來種或疾病生態問題",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        609.15,
+        61.46,
+        623.07
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|012",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "污染土壤可能連帶影響河岸水域與生物",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_11",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        645.39,
+        61.46,
+        659.31
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|013",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "溪流可見蝦、蟹及溪魚等水生動物",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_02",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        681.87,
+        61.46,
+        695.79
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|014",
+      "model_provisional_answer": "FALSE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "根生長底泥並不代表整株必然沉水，挺水與浮葉植物也是例子",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_03",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        718.38,
+        61.46,
+        732.3
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|015",
+      "model_provisional_answer": "TRUE",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "自然環境影響人類可取得的食物來源與飲食",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_10",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        33.6,
+        754.86,
+        61.46,
+        768.78
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|001",
+      "model_provisional_answer": null,
+      "model_science_review_status": "SCIENCE_HOLD_UNDERDETERMINED_SINGLE_CHOICE",
+      "science_reason": "教材可能預期②西瓜偏好排水良好沙質土，但『溼潤的泥土』並不必然與西瓜生長矛盾；沒有明確泥土排水/含水狀況，單選無唯一可驗證的錯誤項",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_02",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        40.34,
+        845.84,
+        68.18,
+        859.76
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|002",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "口嘗岩石或土壤具衛生風險，不適合觀察地表物質",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_03",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        381.48,
+        187.62,
+        409.32,
+        201.54
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|003",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "在土堆上澆水造成沖刷，土堆容易產生凹陷",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_05",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        381.48,
+        242.1,
+        409.32,
+        256.02
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|004",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "大量開挖砂石會破壞地表並可能導致水土流失",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_07",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        381.48,
+        333.32,
+        409.32,
+        347.24
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|005",
+      "model_provisional_answer": "②",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "地震規模越大所釋放能量通常越多",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_08",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        381.48,
+        406.07,
+        409.32,
+        419.99
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|006",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "地震發生時優先趴下、掩護、穩住，不是先釘櫃或檢查房屋",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_10",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        381.48,
+        460.79,
+        409.32,
+        474.71
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|007",
+      "model_provisional_answer": "②",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "蓮藕是荷花的肥厚地下莖",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_07",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        381.48,
+        533.53,
+        409.32,
+        547.45
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|008",
+      "model_provisional_answer": "②",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "大萍表面細毛及荷花葉面疏水特性均可使水珠不易附著",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_04",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        381.48,
+        588.27,
+        409.32,
+        602.19
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|009",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "在所列環境中，緩流、藻類與青蛙相容於湖泊",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_02",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        381.48,
+        661.23,
+        409.32,
+        675.15
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|010",
+      "model_provisional_answer": "①",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "潮間帶是天然水域；其餘水田、生態池、水庫由人建造或營造",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_01",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        381.48,
+        715.74,
+        409.32,
+        729.66
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|011",
+      "model_provisional_answer": null,
+      "model_science_review_status": "SCIENCE_HOLD_UNDERDETERMINED_SINGLE_CHOICE",
+      "science_reason": "題目預期④『森林大火』，但地震可透過電線設備損壞、火源或瓦斯引發森林/野地火災；若不限定直接造成，『不是地震造成』無可靠唯一答案",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_08",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        381.48,
+        770.46,
+        409.32,
+        784.38
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|012",
+      "model_provisional_answer": "①",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "葉面平滑不是中空或孔隙通氣構造",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_04",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        381.48,
+        824.96,
+        409.32,
+        838.88
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|013",
+      "model_provisional_answer": "③",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "茶葉產自陸域茶樹；牡蠣、魚、蓮藕來源為水域",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_10",
+      "source_original_pdf_pages": [
+        1
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        381.48,
+        897.92,
+        409.32,
+        911.84
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|014",
+      "model_provisional_answer": "②",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "烏龜可游泳亦可爬行，原②『不能爬行』錯誤",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_09",
+      "source_original_pdf_pages": [
+        2
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        40.34,
+        58.95,
+        68.18,
+        72.87
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|015",
+      "model_provisional_answer": "④",
+      "model_science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "工廠廢水直接排河川會造成污染，不是保育水域的正確行為",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_11",
+      "source_original_pdf_pages": [
+        2
+      ],
+      "source_original_answer_marker_pdf_bbox": [
+        40.34,
+        150.18,
+        68.18,
+        164.1
+      ],
+      "source_complete": true,
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    }
+  ]
+}

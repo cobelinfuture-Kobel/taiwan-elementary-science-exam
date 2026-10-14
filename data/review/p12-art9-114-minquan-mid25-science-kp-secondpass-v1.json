@@ -1,0 +1,528 @@
+{
+  "schema_version": "P12_114_MINQUAN_MID25_SCIENCE_KP_MODEL_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_MID_005",
+  "source_original_pdf_sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+  "frozen_source_map_ref": "data/review/p12-g04s1-114-minquan-mid-tfmc-25-v1.json",
+  "public_full_original_source_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+  "original_full_standalone_tf_mc_count": 25,
+  "original_source_bbox_verified_count": 25,
+  "tf_count": 15,
+  "mc_count": 10,
+  "model_science_preliminary_pass": 24,
+  "model_science_hold": 1,
+  "science_hold_source_ids": [
+    "SCI_G04_S1_114_MID_005|S02|MC|006"
+  ],
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 23,
+    "KP_REVIEW": 2,
+    "KP_NONMATCH_G04S1": 0
+  },
+  "kp_strong_and_science_pass_count": 22,
+  "formal_teacher_key_authentication_count": 0,
+  "formal_science_acceptance_count": 0,
+  "formal_kp_approval_count": 0,
+  "operator_public_site_admissions": 0,
+  "original_question_reviews": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|001",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "在可比較條件下，水流變強通常可搬運物質到更遠位置",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_06",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        42.12,
+        89.77,
+        90.14,
+        101.77
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|002",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "肥沃且適合的土壤環境有利許多農作物生長",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_02",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        42.12,
+        121.81,
+        90.14,
+        133.81
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|003",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "工廠廢水必須妥善處理，不能未處理就直接排入河川",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_11",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        42.12,
+        137.77,
+        90.14,
+        149.77
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|004",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "地震亦可能損壞電線或瓦斯管而引發火災，並不限於建築物地面受損",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_08",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        42.12,
+        169.81,
+        90.14,
+        181.81
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|005",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "魚以口與鰓蓋運動使水流經鰓進行氣體交換",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_08",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        42.12,
+        201.73,
+        90.14,
+        213.73
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|006",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "不同水域的鹽度、水流與環境差異影響物種組成",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_02",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        42.12,
+        233.8,
+        90.14,
+        245.8
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|007",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "原卷一般流水實驗下小顆粒較容易被搬運更遠",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_06",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        42.12,
+        265.84,
+        90.14,
+        277.84
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|008",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "蟹通常有四對步足與一對螯足，能行走並以鰓呼吸",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_09",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        42.12,
+        313.84,
+        90.14,
+        325.84
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|009",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "蓮地下莖通氣組織的空隙可儲存或輸送氣體",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_07",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        42.12,
+        345.76,
+        90.14,
+        357.76
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|010",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "布袋蓮葉柄氣室受壓於水中可排出空氣形成氣泡",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_04",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        36.48,
+        377.8,
+        84.5,
+        389.8
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|011",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "大萍葉面的細毛助於拒水與漂浮，不是沉入水中幫助呼吸",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_04",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        36.48,
+        425.82,
+        84.5,
+        437.82
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|012",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "茶樹常栽培於山區，而臺灣西部海岸有牡蠣養殖",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_10",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        36.48,
+        457.86,
+        84.5,
+        469.86
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|013",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "在裸露山坡地恢復適當植被通常有助減緩侵蝕",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_07",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        36.48,
+        489.78,
+        84.5,
+        501.78
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|014",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "荷花是挺水植物，葉挺出水面；原句所述貼平浮水面較符合浮葉植物",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_07",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        36.48,
+        521.82,
+        84.5,
+        533.82
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|015",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "香蒲是挺水性植物，不是隨水流移動的有細毛漂浮植物",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_03",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        36.48,
+        553.89,
+        84.5,
+        565.89
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S02|MC|001",
+      "model_provisional_answer": "②",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "一般水域調查常用水桶、撈網、望遠鏡，而長條形磁鐵通常不必備",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        42.12,
+        617.85,
+        90.14,
+        629.85
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S02|MC|002",
+      "model_provisional_answer": "③",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "採捕水生生物可能破壞水域；其餘行為通常有助保護水域",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        42.12,
+        665.85,
+        90.14,
+        677.85
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S02|MC|003",
+      "model_provisional_answer": "①",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "岩石堅硬適合作建材",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_04",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        42.12,
+        745.91,
+        90.14,
+        757.91
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S02|MC|004",
+      "model_provisional_answer": "②",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "臺灣萍蓬草為浮葉性植物，葉片接近橢圓或卵形",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_06",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        307.99,
+        73.81,
+        355.99,
+        85.81
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S02|MC|005",
+      "model_provisional_answer": "④",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "蝌蚪主要以尾部左右擺動推進",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_09",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        307.99,
+        121.81,
+        355.99,
+        133.81
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S02|MC|006",
+      "model_provisional_answer": null,
+      "science_review_status": "SCIENCE_HOLD_SOIL_GRANULARITY_UNDEFINED",
+      "science_reason": "石塊/岩石尺寸不與土壤和沙形成固定可比粒徑三類；土壤是混合物，既含沙也可含礫石與細粒，③只是常見教科書意圖，無唯一科學標準",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_01_03",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        307.99,
+        169.81,
+        355.99,
+        181.81
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S02|MC|007",
+      "model_provisional_answer": "④",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "蝦用鰓進行氣體交換",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_09",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        307.99,
+        233.8,
+        355.99,
+        245.8
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S02|MC|008",
+      "model_provisional_answer": "②",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "挺水植物根或地下莖常在水底土中，花葉或莖葉伸出水面",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_07",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        307.99,
+        265.84,
+        355.99,
+        277.84
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S02|MC|009",
+      "model_provisional_answer": "①",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "布袋蓮葉面具疏水性，浮在水面且可隨水流移動；大萍表面多有絨毛，資料所示最可能是布袋蓮",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_04",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        307.99,
+        345.76,
+        355.99,
+        357.76
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S02|MC|010",
+      "model_provisional_answer": "③",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "漂浮性與浮葉性植物均使葉接近水面，通常隨水位下降而維持浮葉位置",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_02_06",
+      "source_complete": true,
+      "source_original_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        302.35,
+        425.82,
+        350.35,
+        437.82
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    }
+  ]
+}

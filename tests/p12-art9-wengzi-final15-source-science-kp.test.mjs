@@ -1,0 +1,104 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import {readFileSync} from "node:fs";
+import {isExamQuestionReuseEligible,certificationGate} from "../site/assets/js/s3-admission.mjs";
+const load=p=>JSON.parse(readFileSync(p,"utf8"));
+const source=load("data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json");
+const qa=load("data/review/p12-art9-114-wengzi-final15-science-kp-secondpass-v1.json");
+const frozen=load("data/review/p12-g04s1-114-kanghsuan-wengzi-final-80-source-map-v1.json");
+const index=load("data/source-archive/p12-art9-114-g04s1-public-original-source-corpus-current-v14.json");
+const old=load("data/source-archive/p12-art9-114-g04s1-public-original-source-corpus-current-v13.json");
+const queue=load("data/review/p12-standalone-all25-source-first-queue-v1.json");
+const auth=load("site/data/authority/science-g03-g04-selector-v2.json");
+const validKp=new Set(auth.units.flatMap(u=>u.knowledge_points.map(k=>k.canonical_kp_id)));
+const sid="SCI_G04_S1_114_FINAL_009";
+test("Original Wengzi FINAL identity, 4 pages and immutable 80 source answer positions",()=>{
+ assert.equal(source.source_paper_id,sid);
+ assert.equal(source.source_school,"臺中市翁子國民小學");
+ assert.equal(source.original_pdf_sha256,frozen.source_original_pdf_sha256);
+ assert.equal(source.original_pdf_sha256,"0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049");
+ assert.equal(source.original_raw_pdf_size_bytes,463404);
+ assert.equal(source.original_pdf_pages,4);
+ assert.equal(source.original_full_paper_answer_positions_frozen,80);
+ assert.equal(source.original_full_paper_scored_points_frozen,100);
+ assert.deepEqual(source.original_pdf_page_visual_reviewed,[1,2,3,4]);
+ assert.equal(frozen.original_answer_positions,80);
+ assert.equal(source.source_pdf_sha256_verified,true);
+});
+test("5 standalone TF and 10 complete independent MC, 40 options, and authentic PDF raw-char markers",()=>{
+ const rows=source.original_question_records;
+ assert.equal(rows.length,15);
+ assert.deepEqual([source.true_false,source.four_option_choice,source.original_mc_option_entries],[5,10,40]);
+ assert.equal(rows.reduce((n,x)=>n+x.full_original_options_in_order.length,0),40);
+ const immutable=new Map(frozen.items.map(x=>[x.source_slot_id,x]));
+ const ids=new Set();
+ for(let i=0;i<15;i++){
+  const row=rows[i],f=immutable.get(row.source_id);
+  assert.ok(f,row.source_id);
+  assert.equal(f.source_original_page,1);
+  assert.equal(f.source_picture_required,false);
+  assert.equal(row.answer_marker_pdf_page,1);
+  assert.deepEqual(row.source_pdf_pages,[1]);
+  assert.equal(row.original_scored_points,2);
+  assert.equal(row.original_printed_number,i<5?i+1:i-4);
+  assert.equal(row.source_id,sid+"|"+(i<5?"S1|TF|":"S2|MC|")+String(i<5?i+1:i-4).padStart(3,"0"));
+  assert.ok(row.full_original_stem.trim().length>6);
+  assert.deepEqual(row.full_original_options_in_order.map(o=>o.label),i<5?[]:["①","②","③","④"]);
+  const [x0,y0,x1,y1]=row.answer_marker_pdf_bbox_pts_top_left;
+  assert.ok(x0>55&&x0<470&&x1>x0&&y0>100&&y1>y0&&y1<1150,row.source_id);
+  assert.equal(row.primary_canonical_kp_id_proposed,f.canonical_kp_ids[0]);
+  assert.ok(validKp.has(row.primary_canonical_kp_id_proposed));
+  assert.equal(row.teacher_answer_authenticated,false);
+  assert.equal(row.site_question_bank_admitted,false);
+  assert.equal(row.standalone_without_shared_figure_or_stimulus,true);
+  ids.add(row.source_id);
+ }
+ assert.equal(ids.size,15);
+});
+test("Model Science 11 pass/4 HOLD, KP 14 strong/1 review, no school teacher-key authentication",()=>{
+ assert.deepEqual([qa.model_science_preliminary_pass,qa.model_science_hold],[11,4]);
+ assert.deepEqual(qa.kp_secondpass_count,{KP_STRONG_CANDIDATE:14,KP_REVIEW:1,KP_NONMATCH_G04S1:0});
+ assert.equal(qa.kp_strong_and_model_science_pass_count,11);
+ assert.equal(qa.original_question_reviews.length,15);
+ assert.deepEqual(qa.science_hold_source_ids,[sid+"|S1|TF|005",sid+"|S2|MC|003",sid+"|S2|MC|004",sid+"|S2|MC|008"]);
+ for(const id of qa.science_hold_source_ids)assert.equal(qa.original_question_reviews.find(x=>x.source_id===id).model_provisional_answer,null);
+ assert.equal(qa.source_print_hold_count,0);
+ assert.equal(qa.normalized_exact_stem_links_prior347.length,0);
+ assert.equal(qa.cross_paper_generic_lexical_similarity_candidates_0_5_threshold,10);
+ assert.equal(qa.confirmed_semantic_same_question_duplicates,0);
+ assert.equal(qa.teacher_key_authenticated_count,0);
+ assert.equal(qa.formal_science_approved_count,0);
+ assert.equal(qa.formal_kp_approved_count,0);
+ assert.equal(qa.operator_site_admitted_count,0);
+});
+test("Article9 source legality cannot bypass original answer, KP or operator learner admission gates",()=>{
+ assert.equal(isExamQuestionReuseEligible(source),true);
+ for(const r of source.original_question_records){
+  const cand={...source,candidate_id:r.source_id,source_id:r.source_id,question_type:r.question_type,raw_question_text:r.full_original_stem,source_page_pdf_1_based:r.answer_marker_pdf_page,review_status:"ARCHIVED_SOURCE_ONLY",admission_status:"ARCHIVED_SOURCE_ONLY",answer_evidence_status:"ANSWER_KEY_NOT_PRESENT",answer_review_verified:false,answer_normalized:null,mapping_status:"KP_UNRESOLVED",primary_canonical_kp_id:null,kp_review_verified:false,source_visual_review_verified:true,dependency_review_verified:true,assets_complete:true,image_dependency:"NONE_FOR_THIS_ITEM"};
+  const gate=certificationGate(cand,auth);
+  assert.equal(gate.allowed,false);
+  assert.ok(gate.reasons.includes("ANSWER_UNVERIFIED"));
+  assert.ok(gate.reasons.includes("KP_REVIEW_PENDING"));
+  assert.ok(gate.reasons.includes("NOT_CERTIFIED_FOR_PUBLIC"));
+ }
+});
+test("Frozen all25 1623 original response positions; cumulative 347+15=362 and site 251/53 unchanged",()=>{
+ assert.equal(old.cumulative_original_source_question_occurrences,347);
+ assert.deepEqual([index.cumulative_original_source_question_occurrences,index.total_true_false,index.total_single_choice,index.original_single_choice_options],[362,171,191,764]);
+ assert.deepEqual([index.science_model_preliminary_pass,index.science_hold],[324,38]);
+ assert.equal(index.current_public_source_paper_count,15);
+ assert.equal(index.current_public_source_archive_files.length,15);
+ assert.equal(index.source_print_duplicate_choice_label_hold_total,2);
+ assert.equal(index.source_position_frozen_all25_total,1623);
+ assert.equal(index.existing_live_bank_total_answer_positions,251);
+ assert.equal(index.existing_live_bank_g04s1_answer_positions,53);
+ assert.equal(index.site_question_bank_new_admissions,0);
+ assert.equal(queue.source_papers_total,25);
+ assert.equal(queue.source_exact_standalone_private_completed,362);
+ assert.equal(queue.science_model_reviewed_original_standalone_items,362);
+ assert.equal(queue.model_science_no_obvious_problem,324);
+ assert.equal(queue.model_science_hold,38);
+ assert.equal(queue.source_paper_queue.reduce((n,x)=>n+x.full_complete_standalone_tf_mc_private_source_count,0),362);
+ assert.equal(queue.public_items_new,0);
+ assert.equal(queue.all25_before_publication_gate_preserved,true);
+});

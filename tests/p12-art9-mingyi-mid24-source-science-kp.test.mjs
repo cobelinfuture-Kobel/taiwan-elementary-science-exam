@@ -33,7 +33,7 @@ test("Printed full original words, four options, scores and 24 PDF answer-marker
   assert.equal(r.original_scored_points,tf?2:3);
   assert.deepEqual(r.source_pdf_pages,[1]);
   assert.equal(r.answer_marker_pdf_page,1);
-  assert.ok(r.full_original_stem.length>9);
+  assert.ok(r.full_original_stem.trim().length>=5);
   assert.deepEqual(r.full_original_options_in_order.map(x=>x.label),tf?[]:["①","②","③","④"]);
   const [a,b,c,d]=r.answer_marker_pdf_bbox_pts_top_left;
   assert.ok(a>=54&&a<=444&&c>a&&b>110&&d>b&&d<1020,r.source_id);

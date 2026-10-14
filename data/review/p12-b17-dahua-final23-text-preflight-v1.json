@@ -1,0 +1,564 @@
+{
+  "schema_version": "P12_B17_DAHUA_FINAL_TEXT_PREFLIGHT_V1",
+  "stage": "PDF_ORIGINAL_VISUAL_AND_RAW_ANSWER_MARKER_BBOX_VERIFIED__22_STANDALONE_SOURCE_ARCHIVED__1_DIAGRAM_DEFERRED",
+  "source_paper_id": "SCI_G04_S1_114_FINAL_011",
+  "source_drive_id": "1qzeGpzru5YPhlY2pBKlhfL-dSW6RxOgF",
+  "expected_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+  "pdf_pages": 2,
+  "frozen_total_slots": 42,
+  "candidate_tf": 6,
+  "candidate_mc": 17,
+  "known_diagram_mc": [
+    "S2|MC|003"
+  ],
+  "source_note": "Extracted selectable Google Drive PDF text. Text line wrapping normalized for triage only. Not yet compared character-by-character to rendered pages. PDF bbox, exact options glyphs, full context, authenticated key and canonical KP per-item review are outstanding.",
+  "science_prelim_pass": 21,
+  "science_hold": 1,
+  "formal_science_approved": 0,
+  "formal_kp_approved": 0,
+  "learner_admission": 0,
+  "items": [
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S1|TF|001",
+      "type": "TF",
+      "printed_number": 1,
+      "stem_text_layer": "路上大量的車流導致嚴重塞車，路上充斥著不耐煩的喇叭聲，是透過空氣傳播到謙鐸耳裡。",
+      "choices": [],
+      "model_answer_provisional": "T",
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        56.64,
+        150.06,
+        89.78,
+        161.1
+      ],
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S1|TF|002",
+      "type": "TF",
+      "printed_number": 2,
+      "stem_text_layer": "在路口協助疏導車流的交通警察身上穿著反光背心，是為了在寒冷的跨年夜增加保暖。",
+      "choices": [],
+      "model_answer_provisional": "F",
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        56.64,
+        199.38,
+        89.78,
+        210.42
+      ],
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S1|TF|003",
+      "type": "TF",
+      "printed_number": 3,
+      "stem_text_layer": "樹上的聖誕燈飾還有路人手上的螢光棒都是會自行發光的光源。",
+      "choices": [],
+      "model_answer_provisional": "T",
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        56.64,
+        248.7,
+        89.78,
+        259.74
+      ],
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S1|TF|004",
+      "type": "TF",
+      "printed_number": 4,
+      "stem_text_layer": "101 門口擺著胡迪的人型塑像，在它前方形成了影子，燈光可能在胡迪的後方。",
+      "choices": [],
+      "model_answer_provisional": "T",
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        56.64,
+        281.73,
+        89.78,
+        292.77
+      ],
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S1|TF|005",
+      "type": "TF",
+      "printed_number": 5,
+      "stem_text_layer": "碩軒站在巴斯光年的旁邊一起照相，他身上的白色帽 T 可以形成反射現象。",
+      "choices": [],
+      "model_answer_provisional": "T",
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        56.64,
+        314.61,
+        89.78,
+        325.65
+      ],
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S1|TF|006",
+      "type": "TF",
+      "printed_number": 6,
+      "stem_text_layer": "展睿看見附近有救護車閃著警示燈與鳴笛經過，它是結合聲音與光的生活應用。",
+      "choices": [],
+      "model_answer_provisional": "T",
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        56.64,
+        347.49,
+        89.78,
+        358.53
+      ],
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|001",
+      "type": "MC",
+      "printed_number": 1,
+      "stem_text_layer": "前排搖滾區觀眾比後排觀眾聽到的音樂聲音大，最主要的原因是什麼？",
+      "choices": [
+        "前排觀眾聽力比較好",
+        "聲音只會往前傳播",
+        "距離發聲位置較近，聲音比較大",
+        "後排觀眾被燈光影響聽力"
+      ],
+      "model_answer_provisional": 3,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        56.64,
+        449.25,
+        89.78,
+        460.29
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|002",
+      "type": "MC",
+      "printed_number": 2,
+      "stem_text_layer": "舞台燈光照亮整個棒球場，讓觀眾看清楚表演，這和光的哪一個特性最有關？",
+      "choices": [
+        "光只能在白天出現",
+        "光會讓物體變熱",
+        "光會發出聲音",
+        "光會直線前進"
+      ],
+      "model_answer_provisional": 4,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        56.64,
+        531.47,
+        89.78,
+        542.51
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|003",
+      "type": "MC",
+      "printed_number": 3,
+      "stem_text_layer": "七彩的燈光直上天際，照射到旁邊大樓的玻璃帷幕產生反射現象，請問燈光的反射路徑為何？",
+      "choices": [
+        "甲",
+        "乙",
+        "丙",
+        "甲乙丙皆會"
+      ],
+      "model_answer_provisional": null,
+      "science_firstpass": "FIGURE_DEPENDENCY_HOLD",
+      "pdf_bbox": [
+        56.64,
+        597.35,
+        89.78,
+        608.39
+      ],
+      "dependency": "SOURCE_FIGURE_REQUIRED",
+      "hold_reason": "reflection path diagram absent from extracted text",
+      "pdf_page": 1,
+      "source_standalone_eligible": false,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|004",
+      "type": "MC",
+      "printed_number": 4,
+      "stem_text_layer": "台上的藝人在表演時，現場的沙塵與帆布被捲起飛至空中，請問是因為下列何種物質而影響？",
+      "choices": [
+        "水",
+        "沙土",
+        "風",
+        "陽光"
+      ],
+      "model_answer_provisional": 3,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        56.64,
+        729.02,
+        89.78,
+        740.06
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|005",
+      "type": "MC",
+      "printed_number": 5,
+      "stem_text_layer": "球場周圍的反光標誌在晚上特別明顯，讓人容易看見出口位置，最主要的原因是什麼？",
+      "choices": [
+        "它會自己發光",
+        "它能吸收所有光",
+        "它能把光反射回來",
+        "它會放大聲音"
+      ],
+      "model_answer_provisional": 3,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        322.49,
+        80.58,
+        355.63,
+        91.62
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|006",
+      "type": "MC",
+      "printed_number": 6,
+      "stem_text_layer": "演唱會結束後，球場突然停電，下列哪一項最能幫助紹丞和應楨安全離場？",
+      "choices": [
+        "提高音響音量提醒觀眾",
+        "使用緊急照明燈或手電筒照亮通道",
+        "關閉所有電器設備",
+        "讓大家大聲呼喊指路"
+      ],
+      "model_answer_provisional": 2,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        322.49,
+        146.34,
+        355.63,
+        157.38
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|007",
+      "type": "MC",
+      "printed_number": 7,
+      "stem_text_layer": "熱熱的鹹豆漿搭配上蔥花飄出淡淡香氣，請問它是在製造過程中加入何種物質才產生凝固的塊狀物？",
+      "choices": [
+        "鹽巴",
+        "辣油",
+        "食醋",
+        "熱水"
+      ],
+      "model_answer_provisional": 3,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        322.49,
+        302.73,
+        355.63,
+        313.77
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|008",
+      "type": "MC",
+      "printed_number": 8,
+      "stem_text_layer": "師傅在寒冷的冬天製作吐司時，影響麵糰發酵狀態最重要的關鍵因素為何？",
+      "choices": [
+        "空氣",
+        "模具大小",
+        "溫度",
+        "水質"
+      ],
+      "model_answer_provisional": 3,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        322.49,
+        368.61,
+        355.63,
+        379.65
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|009",
+      "type": "MC",
+      "printed_number": 9,
+      "stem_text_layer": "冰凍的奶油抹在熱烤吐司上後融化了，請問影響此物質變化的因素為何？",
+      "choices": [
+        "溫度",
+        "酸鹼性",
+        "空氣",
+        "水"
+      ],
+      "model_answer_provisional": 1,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        322.49,
+        417.93,
+        355.63,
+        428.97
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|010",
+      "type": "MC",
+      "printed_number": 10,
+      "stem_text_layer": "下列哪一個現象和「冰奶油融化」一樣可以恢復原狀？",
+      "choices": [
+        "麵包發霉",
+        "鐵釘生鏽",
+        "煎蛋變熟",
+        "冰塊放在室溫下變成水"
+      ],
+      "model_answer_provisional": 4,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        332.35,
+        467.27,
+        365.47,
+        478.31
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|011",
+      "type": "MC",
+      "printed_number": 11,
+      "stem_text_layer": "生雞蛋加熱後變成煎荷包蛋，請問下列敘述何者正確？",
+      "choices": [
+        "無法變回原來的狀態",
+        "溫度下降後可以變回生蛋",
+        "只有溫度改變",
+        "只有形狀改變，性質不變"
+      ],
+      "model_answer_provisional": 1,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        332.35,
+        516.71,
+        365.47,
+        527.75
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|012",
+      "type": "MC",
+      "printed_number": 12,
+      "stem_text_layer": "把砂糖加入熱豆漿中並攪拌後，砂糖「看不見了」，最合理的解釋是什麼？",
+      "choices": [
+        "被蒸發掉了",
+        "沉到杯子底部",
+        "溶解在豆漿中",
+        "變成另一種物質"
+      ],
+      "model_answer_provisional": 3,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        332.35,
+        582.47,
+        365.47,
+        593.51
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|013",
+      "type": "MC",
+      "printed_number": 13,
+      "stem_text_layer": "珮筠發現店員用小蘇打水擦拭被飲料弄髒的地方，污漬比較容易清除。何者不是小蘇打水的特性？",
+      "choices": [
+        "聞起來酸酸的",
+        "可以幫助清除某些污垢",
+        "摸起來滑滑的",
+        "加入紫高麗菜汁會呈現藍綠色"
+      ],
+      "model_answer_provisional": 1,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        332.35,
+        648.38,
+        365.47,
+        659.42
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 1,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|014",
+      "type": "MC",
+      "printed_number": 14,
+      "stem_text_layer": "亮典夾了一盤生菜沙拉，回到座位時，發現盤中的紫高麗菜絲變成紅色的，請問他有可能加了什麼醬汁？",
+      "choices": [
+        "胡麻醬",
+        "醬油",
+        "美乃滋",
+        "檸檬汁"
+      ],
+      "model_answer_provisional": 4,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        66.5,
+        44.08,
+        99.62,
+        55.12
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 2,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|015",
+      "type": "MC",
+      "printed_number": 15,
+      "stem_text_layer": "方喜拿棉花糖沾上巧克力噴泉的巧克力後，置於哪樣物品無法加速凝固？",
+      "choices": [
+        "蒸籠裡",
+        "冰塊水中",
+        "冰箱裡",
+        "風扇前"
+      ],
+      "model_answer_provisional": 1,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        66.5,
+        109.98,
+        99.62,
+        121.02
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 2,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|016",
+      "type": "MC",
+      "printed_number": 16,
+      "stem_text_layer": "下列餐廳內的哪一項物品不屬於光源？",
+      "choices": [
+        "閃亮亮的彩帶裝飾",
+        "甜點櫃的燈泡",
+        "大門掛著紅燈籠",
+        "餐具櫃的紫外線燈"
+      ],
+      "model_answer_provisional": null,
+      "science_firstpass": "HOLD",
+      "pdf_bbox": [
+        66.5,
+        159.3,
+        99.62,
+        170.34
+      ],
+      "dependency": null,
+      "hold_reason": "red lantern may or may not be a luminous source, depending on illumination; inspect paper graphic/context",
+      "pdf_page": 2,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011|S2|MC|017",
+      "type": "MC",
+      "printed_number": 17,
+      "stem_text_layer": "吃飽後亮典和方喜在一旁玩起手影遊戲，發現光源、影子、手會呈一直線排列，三者的相對位置為何？",
+      "choices": [
+        "光-手-影子",
+        "手-影子-光",
+        "影子-光-手",
+        "手-光-影子"
+      ],
+      "model_answer_provisional": 1,
+      "science_firstpass": "PROVISIONAL_PASS",
+      "pdf_bbox": [
+        66.5,
+        208.62,
+        99.62,
+        219.66
+      ],
+      "dependency": null,
+      "hold_reason": null,
+      "pdf_page": 2,
+      "source_standalone_eligible": true,
+      "source_original_pdf_geometry_verified": true
+    }
+  ],
+  "pdf_visual_pages_checked": [
+    1,
+    2
+  ],
+  "source_pdf_sha256_verified": true,
+  "source_text_and_choices_pdf_verification": "23/23 STEMS AND 68/68 MC OPTIONS MATCH PDF SELECTABLE TEXT; exact printed wording normalized for line wraps only",
+  "source_archive_standalone_eligible": 22,
+  "source_figure_deferred": 1,
+  "figure_dependency_hold": 1
+}

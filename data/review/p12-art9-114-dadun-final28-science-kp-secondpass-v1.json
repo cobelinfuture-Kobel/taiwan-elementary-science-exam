@@ -1,0 +1,485 @@
+{
+  "schema_version": "P12_114_DADUN_FINAL28_MODEL_SCIENCE_KP_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+  "source_original_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+  "source_original_full28_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+  "model_science_preliminary_pass": 26,
+  "model_science_hold": 2,
+  "source_science_hold_reasons": {
+    "SCI_G04_S1_114_FINAL_005|S1|TF|002": "鏡像左右相反是小學常見說法，但物理上的鏡面反射不是左右座標直接對調；需限定觀察方向與教材定義，模型不認證唯一判答。",
+    "SCI_G04_S1_114_FINAL_005|S2|MC|008": "「打開開關」可能指操作電器至開啟狀態，也可能指電路學術語 open switch（形成斷路）；選項(2)與(3)在兩種讀法下不同。"
+  },
+  "original_scored_response_slots_from_this_source": 28,
+  "source_figure_dependent_excluded_items": [
+    "SCI_G04_S1_114_FINAL_005|S1|TF|001",
+    "SCI_G04_S1_114_FINAL_005|S2|MC|006"
+  ],
+  "source_kp_pending_second_pass": true,
+  "teacher_key_authenticated_count": 0,
+  "formal_science_approved_count": 0,
+  "formal_kp_approved_count": 0,
+  "operator_site_admitted_count": 0,
+  "model_answers": [
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|002",
+      "model_provisional_answer": null,
+      "science_review_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "science_hold_reason": "鏡像左右相反是小學常見說法，但物理上的鏡面反射不是左右座標直接對調；需限定觀察方向與教材定義，模型不認證唯一判答。",
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_03_07",
+      "original_source_pdf_bbox": [
+        49.56,
+        233.81,
+        84.53,
+        247.85
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|003",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_03_07",
+      "original_source_pdf_bbox": [
+        49.56,
+        256.85,
+        84.53,
+        270.89
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|004",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_03_07",
+      "original_source_pdf_bbox": [
+        49.56,
+        279.92,
+        84.53,
+        293.96
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|005",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_03_01",
+      "original_source_pdf_bbox": [
+        49.56,
+        302.84,
+        84.53,
+        316.88
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|006",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_03_07",
+      "original_source_pdf_bbox": [
+        49.56,
+        325.88,
+        84.53,
+        339.92
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|007",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_03_05",
+      "original_source_pdf_bbox": [
+        49.56,
+        348.92,
+        84.53,
+        362.96
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|008",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_03_03",
+      "original_source_pdf_bbox": [
+        49.56,
+        371.84,
+        84.53,
+        385.88
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|009",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_03_03",
+      "original_source_pdf_bbox": [
+        49.56,
+        394.88,
+        84.53,
+        408.92
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|010",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_04_06",
+      "original_source_pdf_bbox": [
+        42.48,
+        440.84,
+        84.52,
+        454.88
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|011",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_04_08",
+      "original_source_pdf_bbox": [
+        42.48,
+        463.88,
+        84.52,
+        477.92
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|012",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_04_12",
+      "original_source_pdf_bbox": [
+        42.48,
+        509.86,
+        84.52,
+        523.9
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|013",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_04_12",
+      "original_source_pdf_bbox": [
+        42.48,
+        532.9,
+        84.52,
+        546.94
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|014",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_04_07",
+      "original_source_pdf_bbox": [
+        42.48,
+        555.94,
+        84.52,
+        569.98
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|015",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_04_01",
+      "original_source_pdf_bbox": [
+        42.48,
+        578.86,
+        84.52,
+        592.9
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|001",
+      "model_provisional_answer": "(3)",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_04_10",
+      "original_source_pdf_bbox": [
+        49.56,
+        647.86,
+        84.53,
+        661.9
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|002",
+      "model_provisional_answer": "(1)",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_04_01",
+      "original_source_pdf_bbox": [
+        49.56,
+        696.61,
+        84.53,
+        710.65
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|003",
+      "model_provisional_answer": "(2)",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_04_05",
+      "original_source_pdf_bbox": [
+        49.56,
+        719.53,
+        84.53,
+        733.57
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|004",
+      "model_provisional_answer": "(3)",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_04_05",
+      "original_source_pdf_bbox": [
+        49.56,
+        765.61,
+        84.53,
+        779.65
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|005",
+      "model_provisional_answer": "(4)",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_04_04",
+      "original_source_pdf_bbox": [
+        49.56,
+        811.57,
+        84.53,
+        825.61
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|007",
+      "model_provisional_answer": "(2)",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_REVIEW_SOURCE_EVIDENCE_HOLD_IN_FROZEN",
+      "kp_proposed": "sci_g04s1_04_10",
+      "original_source_pdf_bbox": [
+        49.56,
+        48.63,
+        84.53,
+        62.67
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|008",
+      "model_provisional_answer": null,
+      "science_review_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "science_hold_reason": "「打開開關」可能指操作電器至開啟狀態，也可能指電路學術語 open switch（形成斷路）；選項(2)與(3)在兩種讀法下不同。",
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_04_04",
+      "original_source_pdf_bbox": [
+        49.56,
+        94.61,
+        84.53,
+        108.65
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|009",
+      "model_provisional_answer": "(1)",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_04_01",
+      "original_source_pdf_bbox": [
+        49.56,
+        140.69,
+        84.53,
+        154.73
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|010",
+      "model_provisional_answer": "(2)",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_03_03",
+      "original_source_pdf_bbox": [
+        42.48,
+        209.69,
+        84.52,
+        223.73
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|011",
+      "model_provisional_answer": "(1)",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_03_07",
+      "original_source_pdf_bbox": [
+        42.48,
+        255.65,
+        84.52,
+        269.69
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|012",
+      "model_provisional_answer": "(3)",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_03_06",
+      "original_source_pdf_bbox": [
+        42.48,
+        324.68,
+        84.52,
+        338.72
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|013",
+      "model_provisional_answer": "(2)",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_03_07",
+      "original_source_pdf_bbox": [
+        42.48,
+        370.64,
+        84.52,
+        384.68
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|014",
+      "model_provisional_answer": "(1)",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "kp_proposed": "sci_g04s1_03_06",
+      "original_source_pdf_bbox": [
+        42.48,
+        416.72,
+        77.55,
+        430.76
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|015",
+      "model_provisional_answer": "(3)",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "teacher_key_authenticated": false,
+      "site_admitted": false,
+      "kp_secondpass_status": "KP_REVIEW_UNCERTAIN_IN_FROZEN",
+      "kp_proposed": "sci_g04s1_03_07",
+      "original_source_pdf_bbox": [
+        42.48,
+        439.64,
+        84.52,
+        453.68
+      ]
+    }
+  ],
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 26,
+    "KP_REVIEW": 2,
+    "KP_NONMATCH_G04S1": 0
+  },
+  "kp_strong_and_model_science_pass_count": 24,
+  "original_standalone_tf_count": 14,
+  "original_standalone_mc_count": 14,
+  "original_complete_mc_choice_count": 56,
+  "excluded_figure_items_with_wrong_firstpass_figure_required_flag": [
+    "SCI_G04_S1_114_FINAL_005|S1|TF|001",
+    "SCI_G04_S1_114_FINAL_005|S2|MC|006"
+  ]
+}

@@ -34,17 +34,17 @@
   "normalization": "PDF physical line-break and layout whitespace removal only; preserve stem and option words and their order",
   "public_repository_source_archive_only": true,
   "public_learner_site_not_yet_admitted": true,
-  "source_archived_count": 15,
+  "source_archived_count": 30,
   "true_false": 15,
-  "four_option_choice": 0,
-  "original_mc_option_entries": 0,
-  "source_science_model_preliminary_pass_count": 15,
-  "source_science_hold_count": 0,
-  "source_kp_strong_candidate_count": 14,
+  "four_option_choice": 15,
+  "original_mc_option_entries": 60,
+  "source_science_model_preliminary_pass_count": 28,
+  "source_science_hold_count": 2,
+  "source_kp_strong_candidate_count": 29,
   "source_kp_review_count": 1,
   "source_kp_nonmatch_g04s1_count": 0,
   "source_review_ref": "data/review/p12-art9-114-anhe-mid30-science-kp-secondpass-v1.json",
-  "second_page_independent_mc_014_015_included": false,
+  "second_page_independent_mc_014_015_included": true,
   "second_page_shared_diagrams_grouped_stimuli_separate": true,
   "release_policy": "All25 historical PDFs must be screened, formal science unique-answer and KP reviews, explicit operator learner-site admission required",
   "original_question_records": [
@@ -464,6 +464,681 @@
       "science_unique_answer_final_approved": false,
       "kp_review_status": "KP_STRONG_CANDIDATE",
       "primary_canonical_kp_id_proposed": "sci_g04s1_02_10",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|001",
+      "original_printed_number": 1,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "有關生物與生存環境的關係，下列敘述何者錯誤？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "水稻：潮溼有黏性的土壤"
+        },
+        {
+          "label": "②",
+          "text": "西瓜：溼潤的泥土"
+        },
+        {
+          "label": "③",
+          "text": "招潮蟹：海濱鬆軟的泥土"
+        },
+        {
+          "label": "④",
+          "text": "螞蟻：土壤裡挖洞築巢穴。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        1
+      ],
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        40.34,
+        845.84,
+        68.18,
+        859.76
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "SCIENCE_HOLD_UNDERDETERMINED_SINGLE_CHOICE",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_02",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|002",
+      "original_printed_number": 2,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "觀察地表物質如岩石、沙和土壤時，下列何者並不恰當？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "手摸表面"
+        },
+        {
+          "label": "②",
+          "text": "用放大鏡看"
+        },
+        {
+          "label": "③",
+          "text": "口嘗味道"
+        },
+        {
+          "label": "④",
+          "text": "鼻聞氣味。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        1
+      ],
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        381.48,
+        187.62,
+        409.32,
+        201.54
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_03",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|003",
+      "original_printed_number": 3,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "將礫石、沙和土壤混合堆成土堆，並在土堆上方澆水，下列敘述何者正確？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "土堆遠方會迅速形成堆積"
+        },
+        {
+          "label": "②",
+          "text": "土堆會更堅固"
+        },
+        {
+          "label": "③",
+          "text": "土堆會凹陷"
+        },
+        {
+          "label": "④",
+          "text": "在土堆形狀沒有改變。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        1
+      ],
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        381.48,
+        242.1,
+        409.32,
+        256.02
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_05",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|004",
+      "original_printed_number": 4,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "下列哪一項是地表環境被破壞的情形？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "避免砍伐森林樹木"
+        },
+        {
+          "label": "②",
+          "text": "整治河川"
+        },
+        {
+          "label": "③",
+          "text": "大量開挖砂石"
+        },
+        {
+          "label": "④",
+          "text": "在裸露的山坡地種植植物。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        1
+      ],
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        381.48,
+        333.32,
+        409.32,
+        347.24
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_07",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|005",
+      "original_printed_number": 5,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "地震紀錄的芮氏規模越大時，表示該地震所釋放的能量大小為何？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "越小"
+        },
+        {
+          "label": "②",
+          "text": "越大"
+        },
+        {
+          "label": "③",
+          "text": "二者無關聯"
+        },
+        {
+          "label": "④",
+          "text": "以上皆非。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        1
+      ],
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        381.48,
+        406.07,
+        409.32,
+        419.99
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_08",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|006",
+      "original_printed_number": 6,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "感受到地震發生時，應該立即進行的行動為何？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "檢查瓦斯管線"
+        },
+        {
+          "label": "②",
+          "text": "釘牢衣櫃"
+        },
+        {
+          "label": "③",
+          "text": "防震三步驟"
+        },
+        {
+          "label": "④",
+          "text": "檢查房屋是否傾斜。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        1
+      ],
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        381.48,
+        460.79,
+        409.32,
+        474.71
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_10",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|007",
+      "original_printed_number": 7,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "蓮藕是一項人類的食物，在構造上是荷花的哪一個部位？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "種子"
+        },
+        {
+          "label": "②",
+          "text": "地下莖"
+        },
+        {
+          "label": "③",
+          "text": "花"
+        },
+        {
+          "label": "④",
+          "text": "葉。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        1
+      ],
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        381.48,
+        533.53,
+        409.32,
+        547.45
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_07",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|008",
+      "original_printed_number": 8,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "下列何者是大萍與荷花的共同特徵？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "會隨著水流移動漂移"
+        },
+        {
+          "label": "②",
+          "text": "水珠不易在葉面附著"
+        },
+        {
+          "label": "③",
+          "text": "根生長在泥土裡"
+        },
+        {
+          "label": "④",
+          "text": "有地下莖。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        1
+      ],
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        381.48,
+        588.27,
+        409.32,
+        602.19
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|009",
+      "original_printed_number": 9,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "水流較緩慢的水域環境，並有藻類、青蛙出現，可能是下列何種水域環境？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "潮間帶"
+        },
+        {
+          "label": "②",
+          "text": "海洋"
+        },
+        {
+          "label": "③",
+          "text": "湖泊"
+        },
+        {
+          "label": "④",
+          "text": "溪流。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        1
+      ],
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        381.48,
+        661.23,
+        409.32,
+        675.15
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_02",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|010",
+      "original_printed_number": 10,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "下列哪一個是天然形成的水域環境？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "潮間帶"
+        },
+        {
+          "label": "②",
+          "text": "水田"
+        },
+        {
+          "label": "③",
+          "text": "學校生態池"
+        },
+        {
+          "label": "④",
+          "text": "水庫。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        1
+      ],
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        381.48,
+        715.74,
+        409.32,
+        729.66
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_01",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|011",
+      "original_printed_number": 11,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "下列何者不是地震所造成的？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "大樓倒塌"
+        },
+        {
+          "label": "②",
+          "text": "產生堰塞湖"
+        },
+        {
+          "label": "③",
+          "text": "地面隆起"
+        },
+        {
+          "label": "④",
+          "text": "森林大火。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        1
+      ],
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        381.48,
+        770.46,
+        409.32,
+        784.38
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "SCIENCE_HOLD_UNDERDETERMINED_SINGLE_CHOICE",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_08",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|012",
+      "original_printed_number": 12,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "下列何者與水生植物儲存空氣的構造無關？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "葉面平滑"
+        },
+        {
+          "label": "②",
+          "text": "地下莖有孔洞"
+        },
+        {
+          "label": "③",
+          "text": "葉柄有中空的管道"
+        },
+        {
+          "label": "④",
+          "text": "葉柄有許多孔洞。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        1
+      ],
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        381.48,
+        824.96,
+        409.32,
+        838.88
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|013",
+      "original_printed_number": 13,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "下列何者不是來自於水域環境的食物？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "牡蠣"
+        },
+        {
+          "label": "②",
+          "text": "生魚片"
+        },
+        {
+          "label": "③",
+          "text": "茶葉"
+        },
+        {
+          "label": "④",
+          "text": "蓮藕。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        1
+      ],
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        381.48,
+        897.92,
+        409.32,
+        911.84
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_10",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|014",
+      "original_printed_number": 14,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "下列有關水生動物的敘述，哪一項錯誤？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "魚用鰓呼吸"
+        },
+        {
+          "label": "②",
+          "text": "烏龜腳上有蹼，可以在水中游水，但不能爬行"
+        },
+        {
+          "label": "③",
+          "text": "螺用腹足爬行"
+        },
+        {
+          "label": "④",
+          "text": "青蛙粗壯的後腳，能夠跳躍與游水。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        2
+      ],
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        40.34,
+        58.95,
+        68.18,
+        72.87
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_09",
+      "teacher_answer_authenticated": false,
+      "operator_public_admission_approved": false,
+      "site_question_bank_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|015",
+      "original_printed_number": 15,
+      "question_type": "SINGLE_CHOICE",
+      "full_original_stem": "有關保護水域環境與生物的行為，下列何者錯誤？",
+      "full_original_options_in_order": [
+        {
+          "label": "①",
+          "text": "不將垃圾留在風景區"
+        },
+        {
+          "label": "②",
+          "text": "參與淨灘活動"
+        },
+        {
+          "label": "③",
+          "text": "觀察過的水生生物要放回原處"
+        },
+        {
+          "label": "④",
+          "text": "工廠廢水排放到河川。"
+        }
+      ],
+      "original_scored_points": 2,
+      "source_pdf_pages": [
+        2
+      ],
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        40.34,
+        150.18,
+        68.18,
+        164.1
+      ],
+      "standalone_without_shared_figure_or_stimulus": true,
+      "article9_exam_question_text_only": true,
+      "third_party_content_in_this_item": "NONE_IDENTIFIED_TEXT_ONLY",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_unique_answer_final_approved": false,
+      "kp_review_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_11",
       "teacher_answer_authenticated": false,
       "operator_public_admission_approved": false,
       "site_question_bank_admitted": false

@@ -1,0 +1,331 @@
+{
+  "schema_version": "P12_114_WENGZI_FINAL15_SCIENCE_KP_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_FINAL_009",
+  "source_original_pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+  "source_original_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+  "frozen_source_map_ref": "data/review/p12-g04s1-114-kanghsuan-wengzi-final-80-source-map-v1.json",
+  "model_science_preliminary_pass": 11,
+  "model_science_hold": 4,
+  "science_hold_source_ids": [
+    "SCI_G04_S1_114_FINAL_009|S1|TF|005",
+    "SCI_G04_S1_114_FINAL_009|S2|MC|003",
+    "SCI_G04_S1_114_FINAL_009|S2|MC|004",
+    "SCI_G04_S1_114_FINAL_009|S2|MC|008"
+  ],
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 14,
+    "KP_REVIEW": 1,
+    "KP_NONMATCH_G04S1": 0
+  },
+  "kp_strong_and_model_science_pass_count": 11,
+  "source_print_hold_count": 0,
+  "normalized_exact_stem_links_prior347": [],
+  "cross_paper_generic_lexical_similarity_candidates_0_5_threshold": 10,
+  "confirmed_semantic_same_question_duplicates": 0,
+  "teacher_key_authenticated_count": 0,
+  "formal_science_approved_count": 0,
+  "formal_kp_approved_count": 0,
+  "operator_site_admitted_count": 0,
+  "original_question_reviews": [
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S1|TF|001",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "氣體、液體和固體都可透過介質的振動傳聲",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_03",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        60.12,
+        178.47,
+        108.08,
+        194.43
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S1|TF|002",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "敲擊使振幅較大時聲音一般較大，原題說越小不正確",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_01",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        59.04,
+        250.47,
+        107,
+        266.43
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S1|TF|003",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "燭火、正在亮的燈泡及太陽都會自行發光",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_05",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        59.16,
+        322.5,
+        107.12,
+        338.46
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S1|TF|004",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "電池兩端與燈泡的螺紋金屬體、接點妥當連線可形成通路",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_04_03",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        59.16,
+        394.5,
+        107.12,
+        410.46
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S1|TF|005",
+      "model_provisional_answer": null,
+      "model_science_reason": "增加串聯電池可能提升轉速，但題幹沒有馬達額定電壓、電池數量與負載條件；不能認證無限制的必然性",
+      "science_review_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_04_10",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        60.24,
+        502.5,
+        108.2,
+        518.46
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|001",
+      "model_provisional_answer": "③",
+      "model_science_reason": "敲擊物體產生振動，故選③",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_01",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        59.28,
+        646.52,
+        107.24,
+        662.48
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|002",
+      "model_provisional_answer": "④",
+      "model_science_reason": "前三項均是常見振動發聲例子；海豚探測環境主要依靠發聲及回聲接收，並非使用尾巴",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_01",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        59.16,
+        754.52,
+        107.12,
+        770.48
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|003",
+      "model_provisional_answer": null,
+      "model_science_reason": "②水中可聽到音樂；但③若只是停止敲擊而鼓皮仍持續振動，短時間仍可發聲，造成多項可能正確",
+      "science_review_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_03",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        59.26,
+        934.55,
+        107.12,
+        950.51
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|004",
+      "model_provisional_answer": null,
+      "model_science_reason": "通常教材預期③鏡子；但木頭、牆壁及黑紙表面也會有不同程度的漫反射，題目沒有指定鏡面反射，不能稱其他物體絕不改變光線方向",
+      "science_review_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_07",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        59.28,
+        1078.57,
+        107.24,
+        1094.53
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|005",
+      "model_provisional_answer": "①",
+      "model_science_reason": "兩面鏡子之間多個影像是光多次反射",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_07",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        462.89,
+        106.47,
+        510.85,
+        122.43
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|006",
+      "model_provisional_answer": "②",
+      "model_science_reason": "必要材料是燈泡、電線與電池；其他選項缺電源或燈泡",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_04_04",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        463.73,
+        286.47,
+        511.69,
+        302.43
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|007",
+      "model_provisional_answer": "④",
+      "model_science_reason": "電池可以串聯與並聯；其他選項錯在電極、新舊混用或回收",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_04_06",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        463.73,
+        430.5,
+        511.69,
+        446.46
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|008",
+      "model_provisional_answer": null,
+      "model_science_reason": "③小馬達和④電線都通常存在於電動小風扇與電動玩具汽車，可能有兩個符合「通常會有」的選項",
+      "science_review_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_04_10",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        463.71,
+        574.52,
+        511.69,
+        590.48
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|009",
+      "model_provisional_answer": "②",
+      "model_science_reason": "長尾夾導電，適合代替簡易開關上的導電金屬件",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_04_05",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        463.73,
+        682.52,
+        511.69,
+        698.48
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|010",
+      "model_provisional_answer": "④",
+      "model_science_reason": "簡單直流馬達轉向可由電池兩極連接方向對調而改變",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_04_10",
+      "original_answer_marker_pdf_page": 1,
+      "original_answer_marker_pdf_bbox_pts_top_left": [
+        463.73,
+        790.55,
+        511.69,
+        806.51
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    }
+  ]
+}

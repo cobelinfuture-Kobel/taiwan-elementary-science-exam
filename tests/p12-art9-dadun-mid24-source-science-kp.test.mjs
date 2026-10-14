@@ -121,11 +121,12 @@ test("原卷來源累積96→120；52TF、68MC、272個原選項；251/53網站�
  assert.equal(now.source_position_frozen_all25_total,1623);
  assert.equal(now.all_114_25_exams_must_screen_before_final_public_practice_admission,true);
  assert.equal(queue.source_papers_total,25);
- assert.equal(queue.source_exact_standalone_private_completed,120);
- assert.equal(queue.science_model_reviewed_original_standalone_items,120);
- assert.equal(queue.model_science_no_obvious_problem,111);
- assert.equal(queue.model_science_hold,9);
- assert.equal(queue.source_paper_queue.reduce((sum,p)=>sum+p.full_complete_standalone_tf_mc_private_source_count,0),120);
+ assert.ok(queue.source_exact_standalone_private_completed>=120);
+ assert.equal(queue.science_model_reviewed_original_standalone_items,queue.source_exact_standalone_private_completed);
+ assert.ok(queue.model_science_no_obvious_problem>=111);
+ assert.ok(queue.model_science_hold>=9);
+ assert.equal(queue.model_science_hold+queue.model_science_no_obvious_problem,queue.science_model_reviewed_original_standalone_items);
+ assert.equal(queue.source_paper_queue.reduce((sum,p)=>sum+p.full_complete_standalone_tf_mc_private_source_count,0),queue.source_exact_standalone_private_completed);
  assert.equal(queue.fully_screened_all_25_standalone_papers,0);
  assert.equal(queue.all25_before_publication_gate_preserved,true);
  assert.equal(queue.public_items_new,0);

@@ -28,7 +28,7 @@ test("Anhe 114 school exam 2pp binary SHA and immutable 50 response positions wi
  assert.deepEqual(src.original_pdf_page_visual_reviewed,[1,2]);
  assert.deepEqual([src.source_archived_count,src.true_false,src.four_option_choice],[30,15,15]);
  assert.equal(rows.length,30);
- assert.deepEqual(rows.map(x=>x.source_id),frozen.items.filter(x=>/\\|S0[12]\\|(TF|MC)\\|/.test(x.source_slot_id)).map(x=>x.source_slot_id));
+ assert.deepEqual(rows.map(x=>x.source_id),frozen.items.slice(0,30).map(x=>x.source_slot_id));
  assert.equal(new Set(rows.map(x=>x.source_id)).size,30);
  assert.equal(rows.reduce((n,r)=>n+r.full_original_options_in_order.length,0),60);
  assert.deepEqual(rows.map(x=>x.source_id),qa.original_question_reviews.map(x=>x.source_id));

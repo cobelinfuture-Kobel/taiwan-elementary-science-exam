@@ -8,11 +8,11 @@
   "source_response_slots_unchanged": 1623,
   "text_layer_papers": 21,
   "image_only_papers": 4,
-  "source_exact_standalone_private_completed": 96,
+  "source_exact_standalone_private_completed": 120,
   "fully_screened_all_25_standalone_papers": 0,
-  "science_model_reviewed_original_standalone_items": 96,
-  "model_science_no_obvious_problem": 88,
-  "model_science_hold": 8,
+  "science_model_reviewed_original_standalone_items": 120,
+  "model_science_no_obvious_problem": 111,
+  "model_science_hold": 9,
   "formal_science_items_approved": 0,
   "formal_kp_items_approved": 0,
   "public_items_new": 0,
@@ -99,9 +99,11 @@
         "17mG1IAXPhDilZuwDBgEUvdCBHE_Otxe5"
       ],
       "original_pdf_access_type": "TEXT_LAYER",
-      "full_complete_standalone_tf_mc_private_source_count": 0,
-      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
-      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+      "full_complete_standalone_tf_mc_private_source_count": 24,
+      "private_complete_source_pass_state": "FIRST24_SOURCE_EXACT_ART9_ARCHIVED__23_MODEL_SCIENCE_PASS_1_SCIENCE_HOLD__1_INDEPENDENT_PRINTED_LABEL_SOURCE_HOLD__FORMAL_QA_PENDING",
+      "next_action": "DONE_TEXT_LAYER_TF8_MC16__TWO_PRINT_ANOMALIES_RETAINED__SHARED_GROUP_AND_IMAGE_PAGE2_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-dadun-mid24-science-kp-secondpass-v1.json"
     },
     {
       "priority_rank": 10,
@@ -366,10 +368,11 @@
     "source_use_rights_and_operator_release_gate"
   ],
   "non_promotable_evidence": "Text-layer, firstpass KP source maps and source-box locator candidates do NOT imply a complete or usable single question.",
-  "next_execution": "P12_STANDALONE_B04_NextTextLayerPaper_Art9CompleteTFMC_ScienceKP",
-  "last_completed_original_paper_source_id": "SCI_G04_S1_114_FINAL_004",
-  "last_completed_original_paper_first_page_standalone_items": 19,
-  "source_fulltext_eligible_article9_public_archive_complete_occurrences": 96,
-  "source_model_science_hold_total": 8,
-  "source_exact_stem_cross_paper_links_observed_current_additional": 2
+  "next_execution": "P12_STANDALONE_B05_NextTextLayerPaper_Art9CompleteTFMC_ScienceKP",
+  "last_completed_original_paper_source_id": "SCI_G04_S1_114_MID_004",
+  "last_completed_original_paper_first_page_standalone_items": 24,
+  "source_fulltext_eligible_article9_public_archive_complete_occurrences": 120,
+  "source_model_science_hold_total": 9,
+  "source_exact_stem_cross_paper_links_observed_current_additional": 2,
+  "source_printed_mc_choice_label_hold_occurrences": 1
 }

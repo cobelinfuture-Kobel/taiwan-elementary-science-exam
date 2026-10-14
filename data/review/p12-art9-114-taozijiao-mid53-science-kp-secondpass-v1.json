@@ -1,0 +1,1055 @@
+{
+  "schema_version": "P12_114_TAOZIJIAO_MID53_MODEL_SCIENCE_KP_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_MID_011",
+  "source_original_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+  "source_original_full53_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+  "frozen_source_map_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+  "model_science_preliminary_pass": 44,
+  "model_science_hold": 9,
+  "science_hold_reason_by_source_id": {
+    "SCI_G04_S1_114_MID_011|Q01|005": "達悟族只在飛魚季捕魚是涵蓋全年的絕對化文化敘述；須核對捕魚種類、季節與原教材史實，不能直接認證。",
+    "SCI_G04_S1_114_MID_011|Q04|001": "原卷未附唯一高度角觀測器結構／製作規格；手電筒、指北針、棉線、吸管、迴紋針、紙卡是否必需依實作方案而定，保留原教材答案待來源覆核。",
+    "SCI_G04_S1_114_MID_011|Q04|002": "原卷未附唯一高度角觀測器結構／製作規格；手電筒、指北針、棉線、吸管、迴紋針、紙卡是否必需依實作方案而定，保留原教材答案待來源覆核。",
+    "SCI_G04_S1_114_MID_011|Q04|003": "原卷未附唯一高度角觀測器結構／製作規格；手電筒、指北針、棉線、吸管、迴紋針、紙卡是否必需依實作方案而定，保留原教材答案待來源覆核。",
+    "SCI_G04_S1_114_MID_011|Q04|004": "原卷未附唯一高度角觀測器結構／製作規格；手電筒、指北針、棉線、吸管、迴紋針、紙卡是否必需依實作方案而定，保留原教材答案待來源覆核。",
+    "SCI_G04_S1_114_MID_011|Q04|005": "原卷未附唯一高度角觀測器結構／製作規格；手電筒、指北針、棉線、吸管、迴紋針、紙卡是否必需依實作方案而定，保留原教材答案待來源覆核。",
+    "SCI_G04_S1_114_MID_011|Q04|006": "原卷未附唯一高度角觀測器結構／製作規格；手電筒、指北針、棉線、吸管、迴紋針、紙卡是否必需依實作方案而定，保留原教材答案待來源覆核。",
+    "SCI_G04_S1_114_MID_011|Q07|001": "月亮升起、落下方位隨日期、赤緯而異，題目『每天由東方升起，西方落下』未限定指東／西半邊天空還是正東／正西，需教材語境判定。",
+    "SCI_G04_S1_114_MID_011|Q07|005": "月亮在『夜晚』的可見時段未必包含它通過最高高度角的完整過程；月出月落時段、相位與觀測時間未指定。"
+  },
+  "science_hold_source_ids": [
+    "SCI_G04_S1_114_MID_011|Q01|005",
+    "SCI_G04_S1_114_MID_011|Q04|001",
+    "SCI_G04_S1_114_MID_011|Q04|002",
+    "SCI_G04_S1_114_MID_011|Q04|003",
+    "SCI_G04_S1_114_MID_011|Q04|004",
+    "SCI_G04_S1_114_MID_011|Q04|005",
+    "SCI_G04_S1_114_MID_011|Q04|006",
+    "SCI_G04_S1_114_MID_011|Q07|001",
+    "SCI_G04_S1_114_MID_011|Q07|005"
+  ],
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 14,
+    "KP_REVIEW": 11,
+    "KP_NONMATCH_G04S1": 28
+  },
+  "kp_strong_and_science_pass_count": 14,
+  "source_print_duplicate_choice_marker_hold_count": 0,
+  "source_inline_phonetic_annotation_review_count": 1,
+  "source_original_teacher_answers_visible_in_pdf_text_layer_but_not_authenticated": true,
+  "normalized_exact_stem_matches_prior385": [],
+  "bigram_near_matches_prior385_at_least_0_5": [],
+  "teacher_key_authenticated_count": 0,
+  "formal_science_approved_count": 0,
+  "formal_kp_approved_count": 0,
+  "operator_site_admitted_count": 0,
+  "original_question_reviews": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q01|001",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_11",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        176.46,
+        77.99,
+        191.48
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q01|002",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_11",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        210.06,
+        77.99,
+        225.08
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q01|003",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_11",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        243.66,
+        77.99,
+        258.68
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q01|004",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_01",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        262.26,
+        77.99,
+        277.28
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q01|005",
+      "model_provisional_answer": null,
+      "science_review_status": "SCIENCE_HOLD_ASSUMPTION_OR_SCOPE",
+      "science_hold_reason": "達悟族只在飛魚季捕魚是涵蓋全年的絕對化文化敘述；須核對捕魚種類、季節與原教材史實，不能直接認證。",
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_10",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        280.86,
+        77.99,
+        295.88
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q01|006",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_11",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        299.46,
+        77.99,
+        314.48
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q01|007",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_10",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        333.06,
+        77.99,
+        348.08
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q01|008",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_07",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        366.66,
+        77.99,
+        381.68
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|001",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_05",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        771,
+        77.99,
+        786.02
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|002",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_06",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        789.6,
+        77.99,
+        804.62
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|003",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_07",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        808.2,
+        77.99,
+        823.22
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|004",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_03",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        826.8,
+        77.99,
+        841.82
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|005",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_07",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        845.4,
+        77.99,
+        860.42
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|006",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        864,
+        77.99,
+        879.02
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|007",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_07",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        882.6,
+        77.99,
+        897.62
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|008",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_07",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        916.2,
+        77.99,
+        931.22
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|009",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.16,
+        934.8,
+        77.99,
+        949.82
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q04|001",
+      "model_provisional_answer": null,
+      "science_review_status": "SCIENCE_HOLD_ASSUMPTION_OR_SCOPE",
+      "science_hold_reason": "原卷未附唯一高度角觀測器結構／製作規格；手電筒、指北針、棉線、吸管、迴紋針、紙卡是否必需依實作方案而定，保留原教材答案待來源覆核。",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        399.3,
+        186.5,
+        427.1,
+        201.5
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q04|002",
+      "model_provisional_answer": null,
+      "science_review_status": "SCIENCE_HOLD_ASSUMPTION_OR_SCOPE",
+      "science_hold_reason": "原卷未附唯一高度角觀測器結構／製作規格；手電筒、指北針、棉線、吸管、迴紋針、紙卡是否必需依實作方案而定，保留原教材答案待來源覆核。",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        411.5,
+        205.1,
+        439.3,
+        220.1
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q04|003",
+      "model_provisional_answer": null,
+      "science_review_status": "SCIENCE_HOLD_ASSUMPTION_OR_SCOPE",
+      "science_hold_reason": "原卷未附唯一高度角觀測器結構／製作規格；手電筒、指北針、棉線、吸管、迴紋針、紙卡是否必需依實作方案而定，保留原教材答案待來源覆核。",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        503.5,
+        186.5,
+        531.3,
+        201.5
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q04|004",
+      "model_provisional_answer": null,
+      "science_review_status": "SCIENCE_HOLD_ASSUMPTION_OR_SCOPE",
+      "science_hold_reason": "原卷未附唯一高度角觀測器結構／製作規格；手電筒、指北針、棉線、吸管、迴紋針、紙卡是否必需依實作方案而定，保留原教材答案待來源覆核。",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        503.5,
+        205.1,
+        531.3,
+        220.1
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q04|005",
+      "model_provisional_answer": null,
+      "science_review_status": "SCIENCE_HOLD_ASSUMPTION_OR_SCOPE",
+      "science_hold_reason": "原卷未附唯一高度角觀測器結構／製作規格；手電筒、指北針、棉線、吸管、迴紋針、紙卡是否必需依實作方案而定，保留原教材答案待來源覆核。",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        581.5,
+        186.5,
+        609.3,
+        201.5
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q04|006",
+      "model_provisional_answer": null,
+      "science_review_status": "SCIENCE_HOLD_ASSUMPTION_OR_SCOPE",
+      "science_hold_reason": "原卷未附唯一高度角觀測器結構／製作規格；手電筒、指北針、棉線、吸管、迴紋針、紙卡是否必需依實作方案而定，保留原教材答案待來源覆核。",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        581.5,
+        205.1,
+        609.3,
+        220.1
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q04|007",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        399.3,
+        264.5,
+        427.1,
+        279.5
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q04|008",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        413.1,
+        281.3,
+        440.9,
+        296.3
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q04|009",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        413.1,
+        313.2,
+        440.9,
+        328.2
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q04|010",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        399.3,
+        380.8,
+        427.1,
+        395.8
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q04|011",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        411.5,
+        397.7,
+        439.3,
+        412.7
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q04|012",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        411.5,
+        414.5,
+        439.3,
+        429.5
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q04|013",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        411.5,
+        431.3,
+        439.3,
+        446.3
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q06|001",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_01",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        388.4,
+        884.1,
+        416.2,
+        899.11
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q06|002",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_02",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        388.4,
+        902.7,
+        416.2,
+        917.71
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q06|003",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_02",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        388.4,
+        921.3,
+        416.2,
+        936.31
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q06|004",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_09",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        388.4,
+        939.9,
+        416.2,
+        954.91
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q06|005",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_02",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        388.4,
+        958.5,
+        416.2,
+        973.51
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q07|001",
+      "model_provisional_answer": null,
+      "science_review_status": "SCIENCE_HOLD_ASSUMPTION_OR_SCOPE",
+      "science_hold_reason": "月亮升起、落下方位隨日期、赤緯而異，題目『每天由東方升起，西方落下』未限定指東／西半邊天空還是正東／正西，需教材語境判定。",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.3,
+        85.7,
+        78.1,
+        100.71
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q07|002",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.3,
+        102.5,
+        78.1,
+        117.51
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q07|003",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.3,
+        119.3,
+        78.1,
+        134.31
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q07|004",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.3,
+        151.1,
+        78.1,
+        166.11
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q07|005",
+      "model_provisional_answer": null,
+      "science_review_status": "SCIENCE_HOLD_ASSUMPTION_OR_SCOPE",
+      "science_hold_reason": "月亮在『夜晚』的可見時段未必包含它通過最高高度角的完整過程；月出月落時段、相位與觀測時間未指定。",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.3,
+        167.9,
+        78.1,
+        182.91
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q09|001",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_05",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.3,
+        450.9,
+        78.1,
+        465.91
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q09|002",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_06",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.3,
+        466.6,
+        78.1,
+        481.61
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q09|003",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.3,
+        496.5,
+        78.1,
+        511.51
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q09|004",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_06",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.3,
+        526.3,
+        78.1,
+        541.31
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q09|005",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        50.3,
+        556.1,
+        78.1,
+        571.11
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q13|001",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        388.4,
+        212.3,
+        416.2,
+        227.31
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q13|002",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        388.4,
+        230.9,
+        416.2,
+        245.91
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q13|003",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        388.4,
+        249.5,
+        416.2,
+        264.51
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q13|004",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        388.4,
+        268.1,
+        416.2,
+        283.11
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q13|005",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        388.4,
+        286.7,
+        416.2,
+        301.71
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q13|006",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        388.4,
+        305.3,
+        416.2,
+        320.31
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q13|007",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        388.4,
+        324,
+        416.2,
+        339.01
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_011|Q13|008",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_hold_reason": null,
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        388.4,
+        342.6,
+        416.2,
+        357.61
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    }
+  ]
+}

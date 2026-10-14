@@ -8,11 +8,11 @@
   "source_response_slots_unchanged": 1623,
   "text_layer_papers": 21,
   "image_only_papers": 4,
-  "source_exact_standalone_private_completed": 385,
+  "source_exact_standalone_private_completed": 438,
   "fully_screened_all_25_standalone_papers": 0,
-  "science_model_reviewed_original_standalone_items": 385,
-  "model_science_no_obvious_problem": 342,
-  "model_science_hold": 43,
+  "science_model_reviewed_original_standalone_items": 438,
+  "model_science_no_obvious_problem": 386,
+  "model_science_hold": 52,
   "formal_science_items_approved": 0,
   "formal_kp_items_approved": 0,
   "public_items_new": 0,
@@ -263,9 +263,11 @@
         "1cNAyUFRPvdNTQivMwLMszAuTTLu4RDNd"
       ],
       "original_pdf_access_type": "TEXT_LAYER",
-      "full_complete_standalone_tf_mc_private_source_count": 0,
-      "private_complete_source_pass_state": "NOT_YET_ASSESSED",
-      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+      "full_complete_standalone_tf_mc_private_source_count": 53,
+      "private_complete_source_pass_state": "SOURCE_EXACT_Q01_Q03_Q04_PART1_3_Q06_Q07_Q09_Q13_TF53__SCIENCE44_PASS_9_HOLD_KP14_STRONG_11_REVIEW_28_NONMATCH__FORMAL_GATE_PENDING",
+      "next_action": "53_INDEPENDENT_JUDGEMENTS_ARCHIVED_WITH_PARENT_PROMPTS__47_IMAGE_TABLE_READING_GROUPED_SLOTS_DEFERRED",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-taozijiao-mid53-science-kp-secondpass-v1.json"
     },
     {
       "priority_rank": 23,
@@ -387,11 +389,11 @@
     "source_use_rights_and_operator_release_gate"
   ],
   "non_promotable_evidence": "Text-layer, firstpass KP source maps and source-box locator candidates do NOT imply a complete or usable single question.",
-  "next_execution": "P12_STANDALONE_B15_TAOZIJIAO_MID_Art9CompleteTFMC_SourceScienceKP",
-  "last_completed_original_paper_source_id": "SCI_G04_S1_114_MID_010",
-  "last_completed_original_paper_first_page_standalone_items": 23,
-  "source_fulltext_eligible_article9_public_archive_complete_occurrences": 385,
-  "source_model_science_hold_total": 43,
+  "next_execution": "P12_STANDALONE_B16_SHIHU_MID_Art9CompleteTFMC_SourceScienceKP",
+  "last_completed_original_paper_source_id": "SCI_G04_S1_114_MID_011",
+  "last_completed_original_paper_first_page_standalone_items": 35,
+  "source_fulltext_eligible_article9_public_archive_complete_occurrences": 438,
+  "source_model_science_hold_total": 52,
   "source_exact_stem_cross_paper_links_observed_current_additional": 2,
   "source_printed_mc_choice_label_hold_occurrences": 2,
   "last_completed_original_paper_second_page_standalone_items": 2,
@@ -399,5 +401,5 @@
     1,
     2
   ],
-  "last_completed_original_paper_total_standalone_items": 23
+  "last_completed_original_paper_total_standalone_items": 53
 }

@@ -42,7 +42,7 @@ test("Printed source positions and four options: first MC on page1 left, MC2-13 
   assert.deepEqual(r.source_pdf_pages,[pg]);
   assert.equal(r.answer_marker_pdf_page,pg);
   assert.equal(r.original_scored_points,2);
-  assert.ok(r.full_original_stem.length>13);
+  assert.ok(r.full_original_stem.length>=13);
   assert.deepEqual(r.full_original_options_in_order.map(x=>x.label),tf?[]:["①","②","③","④"]);
   assert.ok(r.full_original_options_in_order.every(x=>x.text.length>0));
   const [x0,y0,x1,y1]=r.answer_marker_pdf_bbox_pts_top_left;

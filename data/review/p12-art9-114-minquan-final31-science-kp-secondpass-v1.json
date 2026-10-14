@@ -1,0 +1,626 @@
+{
+  "schema_version": "P12_114_MINQUAN_FINAL31_SCIENCE_KP_MODEL_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+  "source_original_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+  "source_original_full31_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+  "frozen_source_map_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+  "model_science_preliminary_pass": 30,
+  "model_science_hold": 1,
+  "science_hold_source_ids": [
+    "SCI_G04_S1_114_FINAL_006|S2|MC|018"
+  ],
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 27,
+    "KP_REVIEW": 4,
+    "KP_NONMATCH_G04S1": 0
+  },
+  "kp_strong_and_model_science_pass_count": 26,
+  "teacher_key_authenticated_count": 0,
+  "formal_science_approved_count": 0,
+  "formal_kp_approved_count": 0,
+  "operator_site_admitted_count": 0,
+  "source_print_anomaly_hold_count": 0,
+  "normalized_exact_matches_prior253": [],
+  "cross_paper_near_similar_source_links": [
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|014",
+      "related_original_source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|001",
+      "bigram_overlap_set_ratio": 0.611,
+      "similarity": "SAME_MOTOR_DIRECTION_SKILL_DIFFERENT_EXACT_TEXT_AND_SCHOOL"
+    }
+  ],
+  "excluded_picture_dependent_source_ids": [
+    "SCI_G04_S1_114_FINAL_006|S2|MC|008"
+  ],
+  "original_question_reviews": [
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|001",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "振動幅度較大一般會使聲音較大，這是依自然課振幅的教學語境所做的模型初審",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_01",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        113.91,
+        80.34,
+        125.93
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|002",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "敲擊越用力通常使紙片跳動越大，不是越小",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_01",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        151.91,
+        80.34,
+        163.93
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|003",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "固體、液體與氣體皆能傳聲",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_03",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        170.91,
+        80.34,
+        182.93
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|004",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "眼睛靠接收光而看見，不自行放射足以照明的光",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_04",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        208.92,
+        80.34,
+        220.94
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|005",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "鏡面角度改變會改變反射光行進方向",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_07",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        246.95,
+        80.34,
+        258.97
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|006",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "站在空氣中的沙灘聽海浪聲，主要聲音透過空氣到耳朵，原句所述路徑不正確",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_03",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        284.95,
+        80.34,
+        296.97
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|007",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "反光材質增加行人與標誌的可見度",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_08",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        322.95,
+        80.34,
+        334.97
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|008",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "串並聯不同接法，即使電池及燈泡數相同，亮度亦可能不同",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_06",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        360.96,
+        80.34,
+        372.98
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|009",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "花燈通常靠光源發光，小馬達不是發光裝置",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_10",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        417.84,
+        80.34,
+        429.86
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|010",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "一般電池凸起端是正極，平端負極，原句顛倒",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_01",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        26.57,
+        455.85,
+        74.7,
+        467.87
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|011",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "在常見設計與規格下 LED 通常省電且壽命長，使用時須遵守電壓限制",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        26.57,
+        493.85,
+        74.7,
+        505.87
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|012",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "銅線導電、塑膠外皮絕緣可降低觸電與短路風險",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_02",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        26.57,
+        550.86,
+        74.7,
+        562.88
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|013",
+      "model_provisional_answer": "TRUE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "形成完整導電回路才可使燈泡發亮",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_04",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        26.57,
+        588.88,
+        74.7,
+        600.9
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|014",
+      "model_provisional_answer": "FALSE",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "國小電流方向通常採傳統電流正極流向負極；電子漂移方向另有區別",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": null,
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        26.57,
+        626.89,
+        74.7,
+        638.91
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|001",
+      "model_provisional_answer": "③",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "鏡面將雷射筆光反射的現象最容易清楚觀察",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_07",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        683.89,
+        80.34,
+        695.91
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|002",
+      "model_provisional_answer": "②",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "不透明自然課本阻光，形成清楚影子",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_06",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        759.93,
+        80.34,
+        771.95
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|003",
+      "model_provisional_answer": "①",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "太空真空條件下沒有傳聲介質，原題依學校一般真空情境初審",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_03",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        816.93,
+        80.34,
+        828.95
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|004",
+      "model_provisional_answer": "④",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "光源—物體—影子是常見照明成影幾何順序",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_06",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        854.94,
+        80.34,
+        866.96
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|005",
+      "model_provisional_answer": "①",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "紙杯傳聲筒的張緊棉線屬固體振動傳聲",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_03",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        32.21,
+        930.97,
+        80.34,
+        942.99
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|006",
+      "model_provisional_answer": "③",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "燃燒中的火把自行發光，是光源",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_05",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        364.68,
+        94.91,
+        412.77,
+        106.93
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|007",
+      "model_provisional_answer": "③",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "踩影子利用遮光直線傳播而非反射",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_07",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        364.68,
+        132.91,
+        412.77,
+        144.93
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|009",
+      "model_provisional_answer": "③",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "安全梯緊急出口燈提供方向指示",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_03_09",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        365.57,
+        284.95,
+        413.7,
+        296.97
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|010",
+      "model_provisional_answer": "②",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "傳統手電筒常以電池串聯取得所需工作電壓，其他選項多為燈泡接法",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_06",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        359.04,
+        341.96,
+        407.13,
+        353.98
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|011",
+      "model_provisional_answer": "④",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "迴紋針導電、紙板可支撐，適合簡易開關",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_05",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        359.04,
+        398.81,
+        407.13,
+        410.83
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|012",
+      "model_provisional_answer": "①",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "燈泡金屬螺紋與底部接點是兩個導電接點，形成通路",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_03",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        359.04,
+        474.85,
+        407.13,
+        486.87
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|013",
+      "model_provisional_answer": "③",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "燈絲燒斷即便電路其他接線正確，仍無法正常發亮",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_04",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        359.04,
+        550.86,
+        407.13,
+        562.88
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|014",
+      "model_provisional_answer": "④",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "改變直流電池極性會改變簡易直流小馬達的轉動方向",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_10",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        359.04,
+        626.89,
+        407.13,
+        638.91
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|015",
+      "model_provisional_answer": "②",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "教材典型條件下串聯電池提高電壓，能提高適當小馬達的轉速",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": "sci_g04s1_04_10",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        359.04,
+        683.89,
+        407.13,
+        695.91
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|016",
+      "model_provisional_answer": "④",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "常見家用冷氣以市電運轉，其他選項一般以電池供電",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_12",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        359.04,
+        759.93,
+        407.13,
+        771.95
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|017",
+      "model_provisional_answer": "②",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "science_reason": "長期不用的電器應取出電池，避免滲液損壞",
+      "kp_secondpass_status": "KP_REVIEW",
+      "g04s1_kp_proposed": "sci_g04s1_04_11",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        359.78,
+        816.93,
+        407.88,
+        828.95
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|018",
+      "model_provisional_answer": null,
+      "science_review_status": "SCIENCE_HOLD_ASSUMED_IDENTICAL_CIRCUIT_PARAMETERS_MISSING",
+      "science_reason": "缺少電池電壓、燈泡額定電壓、電池內阻及比較條件，教材可能預期①但不足以無條件認證最亮",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "g04s1_kp_proposed": "sci_g04s1_04_06",
+      "source_original_pdf_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        359.93,
+        892.94,
+        408.02,
+        904.96
+      ],
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    }
+  ]
+}

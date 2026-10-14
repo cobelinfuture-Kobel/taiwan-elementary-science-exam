@@ -1,0 +1,481 @@
+{
+  "schema_version": "P12_HANLIN_DAHUA_114_FINAL22_MODEL_SCIENCE_KP_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_FINAL_011",
+  "source_original_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+  "source_original_full22_ref": "data/source-archive/p12-art9-114-dahua-g04s1-final22-original-questions-v1.json",
+  "frozen_source_map_ref": "data/review/p12-g04s1-114-hanlin-dahua-final-42-source-map-v1.json",
+  "model_science_preliminary_pass": 21,
+  "model_science_hold": 1,
+  "science_hold_source_ids": [
+    "SCI_G04_S1_114_FINAL_011|S2|MC|016"
+  ],
+  "source_figure_dependency_hold_not_archived": [
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|003",
+      "original_pdf_answer_marker_page": 1,
+      "original_pdf_answer_marker_bbox_pts_top_left": [
+        56.64,
+        597.35,
+        89.78,
+        608.39
+      ],
+      "reason": "DIAGRAM_REQUIRED; keep in figure processing stream, not text-only source corpus"
+    }
+  ],
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 11,
+    "KP_REVIEW": 1,
+    "KP_NONMATCH_G04S1": 10
+  },
+  "kp_strong_and_science_pass_count": 10,
+  "source_print_hold_count": 0,
+  "normalized_exact_stem_matches_prior468": [],
+  "cross_paper_lexical_near_matches_prior468": [],
+  "cross_paper_comparison_contract": "468 previously archived source originals, Unicode NFKC, remove whitespace/punctuation, CJK character bigram Jaccard >=0.50; no original-school ID deduplication",
+  "teacher_key_authenticated_count": 0,
+  "formal_science_approved_count": 0,
+  "formal_kp_approved_count": 0,
+  "operator_site_admitted_count": 0,
+  "original_question_reviews": [
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S1|TF|001",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "汽車喇叭聲經空氣傳遞至耳朵，介質傳聲成立。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_03",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        56.64,
+        150.06,
+        89.78,
+        161.1
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S1|TF|002",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "反光背心以提高被看見的機會為主，不是增加保暖。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_08",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        56.64,
+        199.38,
+        89.78,
+        210.42
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S1|TF|003",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "有電的聖誕燈飾與發生化學發光的螢光棒皆能自行發光。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_05",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        56.64,
+        248.7,
+        89.78,
+        259.74
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S1|TF|004",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "物體後方有光源時，影子可能投射至物體前方。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_06",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        56.64,
+        281.73,
+        89.78,
+        292.77
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S1|TF|005",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "白色布料反射入射光，符合反射現象。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_07",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        56.64,
+        314.61,
+        89.78,
+        325.65
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S1|TF|006",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "救護車的警示燈與警笛分別提供光和聲的警示。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_09",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        56.64,
+        347.49,
+        89.78,
+        358.53
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|001",
+      "model_provisional_answer": "③",
+      "model_science_reason": "前排位置更靠近聲源，在題目條件下聲音一般較大。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_REVIEW",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_03",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        56.64,
+        449.25,
+        89.78,
+        460.29
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|002",
+      "model_provisional_answer": "④",
+      "model_science_reason": "選項中光直線傳播最能解釋舞臺燈光的照射方向，但看清物體亦與反射光入眼有關。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_06",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        56.64,
+        531.47,
+        89.78,
+        542.51
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|004",
+      "model_provisional_answer": "③",
+      "model_science_reason": "風可以帶動沙塵和帆布。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        56.64,
+        729.02,
+        89.78,
+        740.06
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|005",
+      "model_provisional_answer": "③",
+      "model_science_reason": "反光標誌依靠把入射光反射回來提高可見度。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_08",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        322.49,
+        80.58,
+        355.63,
+        91.62
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|006",
+      "model_provisional_answer": "②",
+      "model_science_reason": "停電時緊急照明或手電筒能照亮通道。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_09",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        322.49,
+        146.34,
+        355.63,
+        157.38
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|007",
+      "model_provisional_answer": "③",
+      "model_science_reason": "食醋使豆漿中蛋白質凝聚，形成鹹豆漿的凝結塊。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        322.49,
+        302.73,
+        355.63,
+        313.77
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|008",
+      "model_provisional_answer": "③",
+      "model_science_reason": "發酵過程受溫度顯著影響。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        322.49,
+        368.61,
+        355.63,
+        379.65
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|009",
+      "model_provisional_answer": "①",
+      "model_science_reason": "溫度升高促使奶油融化。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        322.49,
+        417.93,
+        355.63,
+        428.97
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|010",
+      "model_provisional_answer": "④",
+      "model_science_reason": "冰融化成水後仍可再降溫凝固，是物理可逆變化。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        332.35,
+        467.27,
+        365.47,
+        478.31
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|011",
+      "model_provisional_answer": "①",
+      "model_science_reason": "蛋受熱變熟涉及不可逆性質變化。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        332.35,
+        516.71,
+        365.47,
+        527.75
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|012",
+      "model_provisional_answer": "③",
+      "model_science_reason": "砂糖在豆漿中溶解，並非消失或變成另一種物質。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        332.35,
+        582.47,
+        365.47,
+        593.51
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|013",
+      "model_provisional_answer": "①",
+      "model_science_reason": "小蘇打水偏鹼性，並非有酸味氣味。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        332.35,
+        648.38,
+        365.47,
+        659.42
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|014",
+      "model_provisional_answer": "④",
+      "model_science_reason": "紫高麗菜色素遇檸檬汁酸性環境變紅。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        66.5,
+        44.08,
+        99.62,
+        55.12
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|015",
+      "model_provisional_answer": "①",
+      "model_science_reason": "蒸籠加熱而非降溫，不會加速巧克力凝固。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_NONMATCH_G04S1_ARCHIVE",
+      "primary_canonical_kp_id_proposed": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        66.5,
+        109.98,
+        99.62,
+        121.02
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|016",
+      "model_provisional_answer": null,
+      "model_science_reason": "不發光的彩帶不是光源，但紅燈籠若未點亮也可能不是光源，故選項多解。",
+      "science_review_status": "MODEL_SCIENCE_HOLD",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_05",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        66.5,
+        159.3,
+        99.62,
+        170.34
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|017",
+      "model_provisional_answer": "①",
+      "model_science_reason": "手位於光源與影子之間形成手影。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_06",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_top_left": [
+        66.5,
+        208.62,
+        99.62,
+        219.66
+      ],
+      "source_print_review_status": "SOURCE_PRINT_OK",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    }
+  ]
+}

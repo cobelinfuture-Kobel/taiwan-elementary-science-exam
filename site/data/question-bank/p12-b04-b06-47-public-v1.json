@@ -18,7 +18,6 @@
   "expected_answer_slots": 47,
   "expected_standalone_true_false": 37,
   "expected_standalone_choice": 10,
-  "source_score_instruction_projection_count": 11,
   "evidence_ref": "data/review/p12-b04-b06-47-formal-science-kp-acceptance-v1.json",
   "blocks": [
     {
@@ -1586,5 +1585,6 @@
       "b06_review_ordinal": 49
     }
   ],
-  "source_score_instruction_projection_count_in_original_review": 12
+  "parent_instruction_projection_count": 11,
+  "parent_instruction_original_review_count": 12
 }

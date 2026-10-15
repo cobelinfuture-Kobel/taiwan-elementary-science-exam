@@ -74,7 +74,7 @@ test("Scoreless adapter strips scoring keys but never removes educational grade,
  assert.equal(sourceQuestionContentOnly({full_original_stem:stem,original_scored_points:2,source_id:"abc"}).full_original_stem,"下列關於光的敘述：光照到鏡子會反射。");
 });
 test("Drawing exercise and public Exam keep science correctness guidance without numeric marking rubric",()=>{
- const context=read("site/data/question-bank/certified-context-groups-v2.json");
+ const context=read("site/data/question-bank/certified-context-groups-content-v3.json");
  const published=validateAndConvertContextGroups(context,authority);
  const drawing=published.blocks.find(x=>x.id==="FINAL_G04_CIRCUIT_DRAW");
  assert.ok(drawing);
@@ -82,7 +82,7 @@ test("Drawing exercise and public Exam keep science correctness guidance without
  assert.ok(!("automatic_grading" in drawing));
  assert.doesNotMatch(drawing.items[0].answer_explanation,/配分|計分|每.+分|得分|總分|分數/u);
  assertScorelessMetadata(published.blocks);
- const status=read("site/data/question-bank/s3-p09-status.json");
+ const status=read("site/data/question-bank/s3-p09-status-content-v2.json");
  assert.equal(status.drawing_groups_for_visual_correctness_review,1);
  assert.equal(status.groups.filter(x=>x.manual_visual_review).length,1);
  assertScorelessMetadata(status);

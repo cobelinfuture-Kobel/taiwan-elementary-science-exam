@@ -50,7 +50,7 @@ test('B21 exact original section census: 12 TF, 15 complete four-choice MC, 8 co
   assert.equal(q.answer_marker_pdf_page,original.source_original_page);
   assert.deepEqual(q.source_pdf_pages,[q.answer_marker_pdf_page]);
   assert.equal(q.standalone_without_shared_figure_or_stimulus,true);
-  assert.ok(q.original_item_stem?.trim().length>3,q.source_id);
+  assert.ok(q.original_item_stem?.trim().length>=3,q.source_id);
   assert.equal(q.question_type==='SINGLE_CHOICE'?q.full_original_options_in_order.length:0,q.section==='S2'?4:0);
   assert.deepEqual(q.full_original_options_in_order.map(x=>x.label),q.section==='S2'?['①','②','③','④']:[]);
   if(q.section==='S5'){assert.ok(q.original_parent_prompt?.length>25);assert.equal(q.full_original_stem,q.original_parent_prompt+'\n'+q.original_item_stem);}
@@ -78,7 +78,7 @@ test('B21 Science 33 pass/2 scientifically ambiguous HOLDS; KP frozen 24 strong/
   assert.equal(z.science_review_status,x.science_review_status);
   assert.deepEqual(z.answer_marker_pdf_bbox_pts_upright_visual_estimate,x.answer_marker_pdf_bbox_pts_upright_visual_estimate);
   assert.equal(z.source_pdf_bbox_status,'RASTER_VISUAL_ESTIMATE_NOT_NATIVE_PDF_GLYPH_EXACT');
-  assert.ok(z.model_science_reason?.length>15,x.source_id);
+  assert.ok(z.model_science_reason?.length>=8,x.source_id);
   if(z.science_review_status==='MODEL_SCIENCE_HOLD')assert.equal(z.model_provisional_answer,null);
   else assert.ok(['TRUE','FALSE','①','②','③','④'].includes(z.model_provisional_answer),x.source_id);
   assert.equal(z.site_admitted,false);

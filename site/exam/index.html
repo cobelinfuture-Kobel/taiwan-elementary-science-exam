@@ -64,6 +64,7 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 </main>
 <script type="module">
 import { loadAuthority, unitsFor, resolveUnit } from "../assets/js/authority-adapter.mjs";
+import { assertScorelessMetadata, removePrintedScoringInstructions } from "../assets/js/scoreless-contract.mjs";
 import { loadEmbeddedHistoricalBank } from "../assets/js/historical-bank-ox-v6.mjs?v=20261012-p12-g03final46v1";
  import { chooseExactBlocks } from "../assets/js/worksheet-nonrepeat-selection.mjs?v=20261012-p12remaining51v1";
 import { renderScienceDiagram } from "../assets/js/science-diagrams-p09.mjs?v=20261012-p09v1";
@@ -135,12 +136,12 @@ function child(parent,tag,cls,txt){const x=node(tag,cls,txt);parent.append(x);re
 function paper(answer){const p=node('section','paper');p.dataset.answer=answer?'true':'false';const head=child(p,'header');child(head,'h3','',($('school').value||'○○國民小學')+'　'+$('year').value+' 學年度');child(head,'div','', '自然科 '+$('exam-name').value+(answer?(qaFixture?'｜示範答案':'｜科學判答與說明'):''));child(head,'div','student','年級：_____　班級：_____　座號：_____　姓名：______________');child(head,'div','watermark',qaFixture?'DEMO_ONLY｜本機版面測試':'歷屆學校考古題｜科學判答，非原校教師答案表');if(!answer&&!qaFixture)child(head,'div','student','是非題：請在題目前的（　）內填入 O 或 X。');const body=child(p,'div','body'),foot=child(p,'footer');child(foot,'span','', 'Science Exam');const num=child(foot,'span');ui.sheet.append(p);return {p,body,num,mode:'',targets:[]};}
 function layout(page,mode){page.mode=mode;const wrap=child(page.body,'div',mode==='wide'?'page-wide':'cols');page.targets=mode==='wide'?[wrap]:[child(wrap,'div','col'),child(wrap,'div','col')];}
 function overflow(x){return x.scrollHeight>x.clientHeight+2||x.scrollWidth>x.clientWidth+2;}
-function question(q,n){const a=node('article','question');const prefix=(q.type==='tf'||q.type==='short'||q.type==='mcq'||q.type==='multi')?'（　）'+n+'. ':n+'. ';child(a,'div','',prefix+q.stem);if(q.options){const o=child(a,'div','opts');q.options.forEach((v,i)=>child(o,'div','',v));}return a;}
+function question(q,n){const a=node('article','question');const prefix=(q.type==='tf'||q.type==='short'||q.type==='mcq'||q.type==='multi')?'（　）'+n+'. ':n+'. ';child(a,'div','',prefix+removePrintedScoringInstructions(q.stem));if(q.options){const o=child(a,'div','opts');q.options.forEach((v,i)=>child(o,'div','',v));}return a;}
 function sourceContextGroup(b,start){
  const a=node('section','group group-context');a.dataset.groupId=b.id;
  child(a,'h4','',b.title+'（'+start+'–'+(start+b.items.length-1)+' 題）');
- if(b.shared.instructions)child(a,'p','group-instructions',b.shared.instructions);
- if(b.shared.passage)child(a,'p','group-passage',b.shared.passage);
+ if(b.shared.instructions)child(a,'p','group-instructions',removePrintedScoringInstructions(b.shared.instructions));
+ if(b.shared.passage)child(a,'p','group-passage',removePrintedScoringInstructions(b.shared.passage));
  if(b.shared.choiceBank?.length){
   const choices=child(a,'div','choice-bank');
   b.shared.choiceBank.forEach(item=>child(choices,'div','',item));
@@ -166,7 +167,7 @@ let current=newPage(),col=0;for(const b of chosen){const start=num+1;const el=b.
 for(let attempt=0;attempt<3&&!mounted;attempt++){const target=current.targets[col];target.append(el);if(!overflow(target)){mounted=true;break;}target.removeChild(el);if(col+1<current.targets.length)col++;else{current=newPage();col=0;}}
 if(!mounted)throw Error('題目內容過高，拒絕裁切');num+=count;}
 let answers=[];let ix=0;for(const b of chosen){if(b.type==='group')for(const sub of b.items)answers.push({number:++ix,answer:sub.answer,explanation:sub.answer_explanation,qualification:sub.answer_assumption,draw:(sub.type==='draw'?b.diagram_kind:null)});else answers.push({number:++ix,answer:b.type==='tf'?(qaFixture?(b.answer==='正確'?'O':'X'):b.answer):b.answer,explanation:b.answer_explanation,qualification:b.answer_assumption});}
-if($('answer-key').checked){let a=paper(true);layout(a,'two');pages.push(a);let ci=0;for(const entry of answers){const x=node('div','answer',entry.number+'. '+entry.answer);if(historical&&entry.explanation)child(x,'small','',entry.explanation);if(historical&&entry.qualification)child(x,'small','', '判斷前提：'+entry.qualification);if(entry.draw==='DRAW_CIRCUIT')x.append(renderScienceDiagram('DRAW_CIRCUIT',{answer:true}));let ok=false;for(let tr=0;tr<3&&!ok;tr++){a.targets[ci].append(x);if(!overflow(a.targets[ci]))ok=true;else{x.remove();if(ci===0)ci=1;else{a=paper(true);layout(a,'two');pages.push(a);ci=0;}}}if(!ok)throw Error('答案頁無法排版');}}
+if($('answer-key').checked){let a=paper(true);layout(a,'two');pages.push(a);let ci=0;for(const entry of answers){const x=node('div','answer',entry.number+'. '+entry.answer);if(historical&&entry.explanation)child(x,'small','',removePrintedScoringInstructions(entry.explanation));if(historical&&entry.qualification)child(x,'small','', '判斷前提：'+removePrintedScoringInstructions(entry.qualification));if(entry.draw==='DRAW_CIRCUIT')x.append(renderScienceDiagram('DRAW_CIRCUIT',{answer:true}));let ok=false;for(let tr=0;tr<3&&!ok;tr++){a.targets[ci].append(x);if(!overflow(a.targets[ci]))ok=true;else{x.remove();if(ci===0)ci=1;else{a=paper(true);layout(a,'two');pages.push(a);ci=0;}}}if(!ok)throw Error('答案頁無法排版');}}
 pages.forEach((p,i)=>p.num.textContent='第 '+(i+1)+'／'+pages.length+' 頁');ui.meta.textContent=(historical?'內建考古題 ':'示範題 ')+num+' 小題｜A4 '+pages.length+' 頁｜'+(historical?'科學判答':'DEMO_ONLY');ui.status.textContent=historical?'已從公開內建題庫組卷；答案為科學論證，不代表原校教師答案表。':'示範考卷已完成（僅限本機 QA）。';ui.print.disabled=false;
 }catch(e){ui.sheet.replaceChildren();ui.status.dataset.error='true';ui.status.textContent=e.message;ui.meta.textContent='尚未產生';}}
 async function init(){
@@ -181,6 +182,7 @@ async function init(){
    if(bank.admission!=="DEMO_ONLY")throw Error('QA 測試版本不符');
   }else{
    bank=await loadEmbeddedHistoricalBank(authority);
+   assertScorelessMetadata(bank.blocks);
    document.querySelector("#bank-info").textContent="已載入內建考古題 "+bank.certifiedAnswerSlots+" 小題（"+bank.certifiedTrueFalse+" 題是非＋"+bank.certifiedStandaloneChoice+" 題單選＋"+bank.certifiedGroupCount+" 組情境）；選年級、單元或 KP 後直接產生考卷。";
   }
   syncUnits();generate();

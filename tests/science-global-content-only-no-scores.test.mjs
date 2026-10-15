@@ -19,7 +19,7 @@ test("Global scoreless authority covers all science grades, semesters, exam type
  assert.equal(routes.question_selection_basis,"QUESTION_COUNT");
  assert.equal(routes.answer_evaluation_basis,"CORRECT_ANSWER_WITH_EXPLANATION");
  assert.equal(routes.historical_examination_maps_are_evidence_not_active_processing,true);
- assert.equal(q.next_execution,"P12_ALL25_B03_Science73_KP81_SourceQuestionQualityReview_NoScoring");
+ assert.equal(q.next_execution,"P12_ALL25_B04_ScienceUniqueCandidateOperatorReview_KPDirectAndFloatingFamilyReview_ThenFigureSourceGroups");
  assert.equal(q.per_question_required_fields.some(x=>isScoringMetadataKey(x)),false);
  assert.equal(q.source_paper_queue.length,25);
  assert.equal(q.source_exact_standalone_private_completed,717);

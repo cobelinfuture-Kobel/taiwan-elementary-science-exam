@@ -405,7 +405,7 @@
     "source_use_rights_and_operator_release_gate"
   ],
   "non_promotable_evidence": "Text-layer, firstpass KP source maps and source-box locator candidates do NOT imply a complete or usable single question.",
-  "next_execution": "P12_STANDALONE_ALL25_FirstPassSourceCorpusFinalCloseoutAndBlockerLedger",
+  "next_execution": "P12_ALL25_B01_SourceScoreGap27AndLegacy26ContractMinimalReview_ThenScience73KPTriage",
   "last_completed_original_paper_source_id": "SCI_G04_S1_114_FINAL_010",
   "last_completed_original_paper_first_page_standalone_items": 14,
   "source_fulltext_eligible_article9_public_archive_complete_occurrences": 717,
@@ -420,5 +420,21 @@
   "last_completed_original_paper_total_standalone_items": 18,
   "first_pass_all25_completed": true,
   "first_pass_last_paper_score_gap_visually_unreconciled": 6,
-  "first_pass_all25_operator_final_acceptance": false
+  "first_pass_all25_operator_final_acceptance": false,
+  "first_pass_all25_machine_source_closeout": "SOURCE_FIRSTPASS_COMPLETE_BLOCKERS_OPEN",
+  "first_pass_all25_closeout_evidence_ref": "data/review/p12-standalone-all25-firstpass-closeout-blocker-ledger-v1.json",
+  "first_pass_all25_per_paper_audit_refs": [
+    "data/review/p12-standalone-all25-firstpass-paper-audit-shard01-v1.json",
+    "data/review/p12-standalone-all25-firstpass-paper-audit-shard02-v1.json",
+    "data/review/p12-standalone-all25-firstpass-paper-audit-shard03-v1.json"
+  ],
+  "first_pass_all25_original_positions_not_independently_archived": 906,
+  "first_pass_all25_model_science_hold_count": 73,
+  "first_pass_all25_model_kp_strong_candidate_count": 470,
+  "first_pass_all25_model_kp_review_count": 81,
+  "first_pass_all25_kp_outside_current_g04s1_count": 166,
+  "first_pass_all25_known_source_score_gap_points": 27,
+  "first_pass_all25_known_score_gap_papers": 6,
+  "first_pass_all25_legacy_source_item_schema_missing_count": 26,
+  "first_pass_all25_new_student_site_admission": 0
 }

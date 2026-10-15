@@ -1,0 +1,121 @@
+{
+  "schema_version": "P12_ALL25_B01_SCORE_GAP27_PROVENANCE_REVIEW_V1",
+  "input_closeout": "data/review/p12-standalone-all25-firstpass-closeout-blocker-ledger-v1.json",
+  "source_map_contract": "READONLY_FROZEN_SOURCE_MAPS_NO_NEW_ITEMS_NO_SCORE_PARITY_CLAIM",
+  "total_known_unreconciled_points": 27,
+  "unreconciled_original_papers": 6,
+  "historical_v17_points": 21,
+  "additional_b23_points": 6,
+  "source_review_cases": [
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "gap": 4,
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-yongan-final-kp-first-text-map-v2.json",
+      "evidence": "Printed section-point total 78; only 74 explicit source answer positions confirmed. Section S06 tentative positions 009–012 explicitly NOT verified as answer boxes.",
+      "observed": {
+        "section_printed_total": 78,
+        "verified_explicit_positions": 74,
+        "unverified_s06_candidate_positions": [
+          "009",
+          "010",
+          "011",
+          "012"
+        ]
+      },
+      "decision": "HOLD_NO_EXTRA_4_POSITIONS",
+      "required": "Inspect original PDF S06 answer-line markings and grading units; distinguish blanks from score weights.",
+      "evidence_level": "HISTORICAL_FROZEN_SOURCE_MAP_NOT_NEW_FULL_PDF_PIXEL_ACCEPTANCE"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_003",
+      "gap": 8,
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-chongde-mid-64-source-manifest-v2.json",
+      "evidence": "Section scores [16,16,68]; visible natural response positions [8,8,48] =64; last grouped section weighting leaves 8 score points without uniquely proven additional slots.",
+      "observed": {
+        "printed_section_points": [
+          16,
+          16,
+          68
+        ],
+        "natural_response_positions": [
+          8,
+          8,
+          48
+        ]
+      },
+      "decision": "HOLD_GROUP_WEIGHT_NOT_EXTRA_SLOTS",
+      "required": "Inspect original S03 group scoring rules, visible response boxes and parent prompts before adding any independent source positions.",
+      "evidence_level": "HISTORICAL_FROZEN_SOURCE_MAP_NOT_NEW_FULL_PDF_PIXEL_ACCEPTANCE"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_008",
+      "gap": 2,
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-final-50-source-kp-first-v1.json",
+      "evidence": "Printed S03 section score 38 but 18 source positions nominally at 2 points each account for 36. Drawing two wires remains one source response prompt and cannot be split without original explicit boxes.",
+      "observed": {
+        "printed_s03_points": 38,
+        "identified_s03_source_positions": 18,
+        "nominal_attributable_points": 36
+      },
+      "decision": "HOLD_DRAWING_TASK_WEIGHT_NOT_NEW_ITEM",
+      "required": "Recheck drawing response scoring from original PDF; keep one two-wire drawing prompt as one original source slot unless original indicates separate scored answers.",
+      "evidence_level": "HISTORICAL_FROZEN_SOURCE_MAP_NOT_NEW_FULL_PDF_PIXEL_ACCEPTANCE"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_013",
+      "gap": 3,
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-shihu-final-62-source-map-v1.json",
+      "evidence": "Printed third matching section totals 18 points; source map confirms only 15 natural answer positions (6 sound/light +3 matter change +6 light-function). Source PDF 62 positions, 97 attributable points.",
+      "observed": {
+        "printed_s03_points": 18,
+        "natural_s03_positions": 15,
+        "fullpaper_source_positions": 62,
+        "attributable_points": 97
+      },
+      "decision": "HOLD_MATCHING_SLOT_VS_WEIGHT",
+      "required": "Review original matching marks and scoring rubric for 3 unsupported points, not silently create three fictitious responses.",
+      "evidence_level": "HISTORICAL_FROZEN_SOURCE_MAP_NOT_NEW_FULL_PDF_PIXEL_ACCEPTANCE"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_009",
+      "gap": 4,
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "evidence": "Printed second section 42 points; 19 visually identified positions at 2 each yield only 38. Original score map verified 54 positions/96 points and leaves 4 points unresolved.",
+      "observed": {
+        "printed_s02_points": 42,
+        "identified_s02_positions": 19,
+        "attributable_s02_points": 38,
+        "source_total_positions": 54,
+        "attributable_fullpaper_points": 96
+      },
+      "decision": "HOLD_4_POINTS_NO_EXTRA_TWO_SLOTS",
+      "required": "Recheck original two-page raster S02 diagram/response-box layout and grading; source map's 'two additional answers' is not verified.",
+      "evidence_level": "ORIGINAL_SCAN_VISUALLY_REVIEWED_IN_B22_NOT_NEW_PIXEL_EXACT"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_010",
+      "gap": 6,
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-final-49-source-map-v1.json",
+      "evidence": "S03 printed 46, five groups 3+5+5+4+6 positions. Source scan says G05 every answer 1 point while frozen map incorrectly assigns 2 per position. Attributable S03 =34+6=40, full paper 94 vs printed 100.",
+      "observed": {
+        "printed_s03_points": 46,
+        "source_identified_s03_positions": 23,
+        "first_four_group_positions": 17,
+        "first_four_group_weight_each": 2,
+        "g05_positions": 6,
+        "g05_printed_weight_each": 1,
+        "g05_frozen_map_weight_each": 2,
+        "attributable_s03_points": 40,
+        "fullpaper_attributable_points": 94
+      },
+      "decision": "HOLD_EXPLICIT_FROZEN_WEIGHT_CONFLICT",
+      "required": "Operator verify cropped original PDF scoring instruction and whether section subtotal is erroneous or hidden other marks; preserve original 49 positions and frozen map unchanged.",
+      "evidence_level": "ORIGINAL_3PAGE_SCAN_VISUALLY_REVIEWED_B23"
+    }
+  ],
+  "scoring_authority_accepted_count": 0,
+  "score_gap_resolved_points": 0,
+  "score_gap_still_open_points": 27,
+  "source_original_answer_position_denominator_unchanged": 1623,
+  "next_gate": "ORIGINAL_PDF_AND_OPERATOR_PIXEL_AND_SCORE_AUTHORITY_ACCEPTANCE"
+}

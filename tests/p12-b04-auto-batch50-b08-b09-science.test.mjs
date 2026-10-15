@@ -5,8 +5,8 @@ import {tmpdir} from "node:os";
 import {join} from "node:path";
 import {execFileSync} from "node:child_process";
 const read=p=>JSON.parse(readFileSync(p,"utf8"));
-const norm=s=>String(s??"").normalize("NFKC").replace(/\\s+/gu,"");
-const scoreless=s=>String(s??"").replace(/[（(]每個答案\\s*\\d+\\s*分[）)]/gu,"").replace(/[（(]\\s*\\d+\\s*分\\s*[）)]/gu,"");
+const norm=s=>String(s??"").normalize("NFKC").replace(/\s+/gu,"");
+const scoreless=s=>String(s??"").replace(/[（(]每個答案\s*\d+\s*分[）)]/gu,"").replace(/[（(]\s*\d+\s*分\s*[）)]/gu,"");
 const files=[
  "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
  "data/review/p12-b04-auto-batch50-b09-last9-science-kp-review-v1.json"

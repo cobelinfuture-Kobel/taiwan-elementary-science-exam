@@ -49,6 +49,7 @@ test("P12 addition does not alter frozen 72 OX and 20 context group assets",asyn
  const b04=read("site/data/question-bank/p12-b04-g04s1-yongan-mid9-public-v1.json");
  const chongde=read("site/data/question-bank/p12-b04-g04s1-chongde-mid6-public-v1.json");
  const b01=read("site/data/question-bank/p12-b04-b01-47-public-v1.json");
+ const b02=read("site/data/question-bank/p12-b04-b02-41-public-v1.json");
  assert.equal(old.blocks.length,72);
  assert.equal(contexts.groups.length,20);
  assert.equal(contexts.expected_answer_slots,76);
@@ -56,16 +57,16 @@ test("P12 addition does not alter frozen 72 OX and 20 context group assets",asyn
  globalThis.fetch=async url=>({
   ok:true,
   json:async()=>structuredClone(url.includes("approved-historical-ox-v4")?old:
-   url.includes("certified-context-groups-content-v3")?contentContexts:url.includes("remaining51-public-v1")?remaining:url.includes("remaining51-operator-public-approval-v1")?approval:url.includes("p12-g03s2final-46-public-v1")?g03Final:url.includes("p12-g03s2final-46-operator-public-approval-v1")?finalApproval:url.includes("p12-b04-g04s1-yongan-mid9-public-v1")?b04:url.includes("p12-b04-g04s1-chongde-mid6-public-v1")?chongde:url.includes("p12-b04-b01-47-public-v1")?b01:supplement)
+   url.includes("certified-context-groups-content-v3")?contentContexts:url.includes("remaining51-public-v1")?remaining:url.includes("remaining51-operator-public-approval-v1")?approval:url.includes("p12-g03s2final-46-public-v1")?g03Final:url.includes("p12-g03s2final-46-operator-public-approval-v1")?finalApproval:url.includes("p12-b04-g04s1-yongan-mid9-public-v1")?b04:url.includes("p12-b04-g04s1-chongde-mid6-public-v1")?chongde:url.includes("p12-b04-b01-47-public-v1")?b01:url.includes("p12-b04-b02-41-public-v1")?b02:supplement)
  });
  try{
   const all=await loadEmbeddedHistoricalBank(authority);
   assert.equal(all.admission,"EMBEDDED_CERTIFIED_HISTORICAL");
-  assert.equal(all.certifiedAnswerSlots,313);
-  assert.equal(all.certifiedTrueFalse,122);
-  assert.equal(all.certifiedStandaloneChoice,56);
+  assert.equal(all.certifiedAnswerSlots,354);
+  assert.equal(all.certifiedTrueFalse,145);
+  assert.equal(all.certifiedStandaloneChoice,74);
   assert.equal(all.certifiedGroupCount,36);
-  assert.equal(all.blocks.length,72+20+5+27+28+9+6+47);
+  assert.equal(all.blocks.length,72+20+5+27+28+9+6+47+41);
   assert.equal(new Set(all.blocks.map(b=>b.id)).size,all.blocks.length);
  }finally{globalThis.fetch=oldFetch}
 });

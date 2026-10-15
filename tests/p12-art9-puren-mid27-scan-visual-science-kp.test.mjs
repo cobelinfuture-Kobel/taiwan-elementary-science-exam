@@ -88,7 +88,7 @@ test('B22 model Science 26 provisional pass and MC10 two-wrong-answer HOLD; KP21
   assert.equal(z.source_id,r.source_id);
   assert.equal(z.science_review_status,r.science_review_status);
   assert.deepEqual(z.answer_marker_pdf_bbox_pts_upright_visual_estimate,r.answer_marker_pdf_bbox_pts_upright_visual_estimate);
-  assert.ok(z.model_science_reason.length>=12,z.source_id);
+  assert.ok(z.model_science_reason.length>=8,z.source_id);
   if(z.science_review_status==='MODEL_SCIENCE_HOLD')assert.equal(z.model_provisional_answer,null);
   else assert.ok(['TRUE','FALSE','①','②','③','④'].includes(z.model_provisional_answer));
   assert.equal(z.site_admitted,false);

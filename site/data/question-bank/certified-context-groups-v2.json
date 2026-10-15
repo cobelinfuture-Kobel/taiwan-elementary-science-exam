@@ -1157,8 +1157,8 @@
           "type": "draw",
           "stem": "畫出一顆電池與兩條電線形成閉合通路，並標示兩端接點。",
           "answer": "正確閉合電路圖；電池＋與燈泡底部接點連通，電池－與金屬側殼連通（相反極性亦可）。",
-          "answer_explanation": "配分建議：畫出一顆電池 1 分；第一條導線連接電池一極與燈泡底端 2 分；第二條導線連接另一極與金屬側殼 2 分。不可兩線都接到同一燈泡接點。",
-          "answer_assumption": "採人工閱卷；不能用文字答案自動判定學生是否畫出通路。"
+          "answer_explanation": "正確畫出閉合通路：電池兩極分別接到燈泡的底部接點及金屬側殼，形成完整導電路徑；兩條線不能都接在燈泡同一接點。",
+          "answer_assumption": "由老師或學習者根據導電接點與閉合通路的正確性核對作圖。"
         }
       ],
       "diagram_kind": "DRAW_CIRCUIT",
@@ -1172,8 +1172,7 @@
       "copyright_path": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
       "certification_status": "CERTIFIED_PUBLIC",
       "adaptation_policy": "SOURCE_QUESTION_SKILL_PRESERVED; ORIGINAL_VECTOR_OR_PARAPHRASE",
-      "assessment_method": "MANUAL_RUBRIC_5_POINTS",
-      "automatic_grading": false
+      "assessment_method": "MANUAL_VISUAL_CORRECTNESS_CHECK"
     },
     {
       "id": "FINAL_G04_LED_READING",

@@ -1,0 +1,43 @@
+{
+  "schema_version": "P12_ALL25_B03_KP81_PRECISE_AUTHORITY_REVIEW_INDEX_V1",
+  "scope": "114 G04 S1 all 25 source papers",
+  "canonical_kp_authority_ref": "site/data/authority/science-g03-g04-selector-v2.json",
+  "official_kp_authority_count": 45,
+  "question_count": 81,
+  "per_item_evidence_shards": [
+    "data/review/p12-all25-b03-kp81-precise-authority-shard01-v1.json",
+    "data/review/p12-all25-b03-kp81-precise-authority-shard02-v1.json",
+    "data/review/p12-all25-b03-kp81-precise-authority-shard03-v1.json"
+  ],
+  "case_counts": {
+    "NO_EXACT_KP": 14,
+    "ADJACENT_KP": 35,
+    "DIRECT_KP_CANDIDATE": 21,
+    "SCIENCE_HOLD_NO_KP_ADMISSION": 1,
+    "MULTIPLE_KP_REVIEW": 3,
+    "SCIENCE_HOLD_KP_ADJACENT": 1,
+    "SCIENCE_HOLD_MULTIPLE_KP": 2,
+    "SCIENCE_HOLD_NO_EXACT_KP": 2,
+    "SCIENCE_HOLD_KP_DIRECT_TOPIC": 2
+  },
+  "summary": {
+    "direct": 21,
+    "near": 35,
+    "noExact": 14,
+    "multi": 3,
+    "scienceHold": 8
+  },
+  "six_original_source_floating_plant_family_potential_corrections": [
+    "SCI_G04_S1_114_MID_009|S3|G02|007",
+    "SCI_G04_S1_114_MID_009|S3|G02|008",
+    "SCI_G04_S1_114_MID_009|S3|G02|009",
+    "SCI_G04_S1_114_MID_009|S3|G02|010",
+    "SCI_G04_S1_114_MID_009|S3|G02|011",
+    "SCI_G04_S1_114_MID_009|S3|G02|012"
+  ],
+  "unmodified_firstpass_original_source_maps": true,
+  "independent_science_review_remains_separate": true,
+  "operator_approval_new": 0,
+  "learner_site_new_admissions": 0,
+  "summary_note": "All 81 original stems, options and preliminary candidates precisely read back. Exact/near/no/multi classifications are model-level review proposals, not formal canonical KP authorization."
+}

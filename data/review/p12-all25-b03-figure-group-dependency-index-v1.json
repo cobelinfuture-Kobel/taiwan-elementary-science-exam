@@ -1,0 +1,267 @@
+{
+  "schema_version": "P12_ALL25_B03_IMAGE_GROUP_SOURCE_DEPENDENCY_INDEX_V1",
+  "global_quality_policy_ref": "data/governance/science-global-no-scoring-authority-v1.json",
+  "source_index": "data/source-archive/p12-art9-114-g04s1-public-original-source-corpus-current-v25.json",
+  "source_original_papers": 25,
+  "source_original_answer_positions": 1623,
+  "source_complete_standalone_text_occurrences": 717,
+  "other_original_positions_not_complete_standalone": 906,
+  "source_map_individual_item_coverage_count": 1428,
+  "raw_source_map_explicit_diagram_dependency_flags": 197,
+  "original_paper_maps_without_items": [
+    "SCI_G04_S1_114_MID_003",
+    "SCI_G04_S1_114_MID_005",
+    "SCI_G04_S1_114_MID_008"
+  ],
+  "scanned_school_original_papers": [
+    "SCI_G04_S1_114_MID_002",
+    "SCI_G04_S1_114_FINAL_002",
+    "SCI_G04_S1_114_MID_009",
+    "SCI_G04_S1_114_FINAL_010"
+  ],
+  "source_paper_shard_refs": [
+    "data/review/p12-all25-b03-figure-group-dependency-shard01-v1.json",
+    "data/review/p12-all25-b03-figure-group-dependency-shard02-v1.json",
+    "data/review/p12-all25-b03-figure-group-dependency-shard03-v1.json"
+  ],
+  "per_paper_source_dependency_rows": [
+    {
+      "paper_id": "SCI_G04_S1_114_MID_001",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-yongan-mid-kp-first-80-text-map-v2.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 60,
+      "structured_source_map_positions": 80,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-yongan-final-kp-first-text-map-v2.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 52,
+      "structured_source_map_positions": 78,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_003",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-chongde-mid-64-source-manifest-v2.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 48,
+      "structured_source_map_positions": 0,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-dongguang-final-source-visual-v2.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 55,
+      "structured_source_map_positions": 74,
+      "source_map_explicit_figure_flags": 37,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-chongde-final-65-source-kp-first-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 46,
+      "structured_source_map_positions": 65,
+      "source_map_explicit_figure_flags": 21,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-mid-62-source-kp-first-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 38,
+      "structured_source_map_positions": 62,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_005",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-mid-75-source-manifest-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 50,
+      "structured_source_map_positions": 0,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_006",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-anhe-mid-50-source-kp-first-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 20,
+      "structured_source_map_positions": 50,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 15,
+      "structured_source_map_positions": 39,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_008",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-dongguang-mid-60-source-manifest-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 34,
+      "structured_source_map_positions": 0,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_005",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 36,
+      "structured_source_map_positions": 64,
+      "source_map_explicit_figure_flags": 22,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_006",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 48,
+      "structured_source_map_positions": 79,
+      "source_map_explicit_figure_flags": 17,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-anhe-final-50-source-kp-first-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 15,
+      "structured_source_map_positions": 50,
+      "source_map_explicit_figure_flags": 7,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_008",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-final-50-source-kp-first-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 22,
+      "structured_source_map_positions": 50,
+      "source_map_explicit_figure_flags": 10,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_009",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-wengzi-final-80-source-map-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 65,
+      "structured_source_map_positions": 80,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-dahua-mid-50-source-kp-first-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 27,
+      "structured_source_map_positions": 50,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_011",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 47,
+      "structured_source_map_positions": 100,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_012",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 30,
+      "structured_source_map_positions": 60,
+      "source_map_explicit_figure_flags": 20,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_011",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-dahua-final-42-source-map-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 20,
+      "structured_source_map_positions": 42,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_012",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 40,
+      "structured_source_map_positions": 100,
+      "source_map_explicit_figure_flags": 10,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_013",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-shihu-final-62-source-map-v1.json",
+      "source_modality": "TEXT_LAYER",
+      "remaining_source_positions": 28,
+      "structured_source_map_positions": 62,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_002",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-heshun-mid-70-source-map-v1.json",
+      "source_modality": "IMAGE_ONLY",
+      "remaining_source_positions": 17,
+      "structured_source_map_positions": 70,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_002",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-heshun-final-70-source-map-v1.json",
+      "source_modality": "IMAGE_ONLY",
+      "remaining_source_positions": 35,
+      "structured_source_map_positions": 70,
+      "source_map_explicit_figure_flags": 32,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_009",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "source_modality": "IMAGE_ONLY",
+      "remaining_source_positions": 27,
+      "structured_source_map_positions": 54,
+      "source_map_explicit_figure_flags": 0,
+      "source_map_has_full_position_coverage": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_010",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-final-49-source-map-v1.json",
+      "source_modality": "IMAGE_ONLY",
+      "remaining_source_positions": 31,
+      "structured_source_map_positions": 49,
+      "source_map_explicit_figure_flags": 21,
+      "source_map_has_full_position_coverage": true
+    }
+  ],
+  "admission_state": "NOT_STANDALONE_CONTENT_AND_IMAGE_CERTIFIED",
+  "dependency_work_sequence": [
+    "VERIFY_ORIGINAL_PDF_REGION_AND_SOURCE_GROUP_PARENT",
+    "CLASSIFY_AS_IMAGE_SHARED_READING_MATCH_DRAW_OR_OTHER_FROM_ACTUAL_SOURCE",
+    "PRESERVE_PARENT_AND_ALL_CHILD_RESPONSE_DEPENDENCIES",
+    "REBUILD_SOURCE_PERMITTED_SCHEMATIC_AS_NEEDED_AND_VERIFY_VISUAL",
+    "CHECK_SCIENCE_UNIQUE_ANSWER_KP_AND_RIGHTS",
+    "OPERATOR_PUBLIC_RELEASE_GATE"
+  ],
+  "do_not_infer_unarchived_positions_are_independent_questions": true,
+  "do_not_infer_all_figure_flags_are_new_unique_questions": true,
+  "original_source_figure_assets_in_public_repo": false,
+  "new_site_admissions": 0
+}

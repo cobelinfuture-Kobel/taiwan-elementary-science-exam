@@ -49,8 +49,8 @@ export function validateAndConvertEmbeddedBank(payload,authority){
  if(blocks.length!==40||payload.blocks.length!==40||payload.expected_count!==40)throw Error("核准題數與封存版本不一致");
  return {admission:"EMBEDDED_CERTIFIED_HISTORICAL",blocks};
 }
-export const CONTEXT_BANK_PATH="../data/question-bank/certified-context-groups-v2.json";
-export const CONTEXT_BANK_SCHEMA="SCIENCE_EXAM_S3_P09_CONTEXT_GROUPS_V2";
+export const CONTEXT_BANK_PATH="../data/question-bank/certified-context-groups-content-v3.json";
+export const CONTEXT_BANK_SCHEMA="SCIENCE_EXAM_S3_P09_CONTEXT_GROUPS_CONTENT_ONLY_V3";
 export function validateAndConvertContextGroups(value,authority){
  if(value?.schema_version!==CONTEXT_BANK_SCHEMA||value.expected_group_count!==20
  ||value.expected_answer_slots!==76||value.source_visual_crops_published!==false
@@ -96,8 +96,8 @@ export function validateAndConvertContextGroups(value,authority){
  const drawn=blocks.filter(b=>b.diagram_kind!=null);
  const allowed=new Set(["FLOWER","STEM","ROOT","LEAF","SYRINGE","CIRCUIT_COMPARE","DRAW_CIRCUIT"]);
  if(drawn.length!==7||drawn.some(b=>!allowed.has(b.diagram_kind)))throw Error("P09 向量圖品項未核准");
- if(blocks.some(b=>b.items.some(item=>item.type==="draw") && (b.diagram_kind!=="DRAW_CIRCUIT"||b.assessment_method!=="MANUAL_RUBRIC_5_POINTS"||b.automatic_grading!==false)))
-   throw Error("作圖題不得假裝能自動判分");
+ if(blocks.some(b=>b.items.some(item=>item.type==="draw") && (b.diagram_kind!=="DRAW_CIRCUIT"||b.assessment_method!=="MANUAL_VISUAL_CORRECTNESS_CHECK"||("automatic_grading" in b))))
+   throw Error("作圖題應以圖形正確性核對，不提供分數或自動計分");
  const original=blocks.filter(b=>b.diagram_kind==null&&b.id!=="MID_G03_FORCE_OPTION_IMAGES").length;
  if(original!==12)throw Error("圖文資料群組路由異常");
  return {admission:"EMBEDDED_CERTIFIED_CONTEXT",blocks};

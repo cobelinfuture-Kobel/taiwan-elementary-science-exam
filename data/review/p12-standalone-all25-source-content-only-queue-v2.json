@@ -1,0 +1,498 @@
+{
+  "schema_version": "P12_ALL25_SOURCE_CONTENT_ONLY_QUEUE_V2",
+  "frozen_input_25": "data/review/p12-g04s1-114-all25-kp-first-progress-v17.json",
+  "modality_input": "data/review/p12-all-kp-v3r1-114-all25-source-slot-evidence-coverage-v1.json",
+  "operator_execution_priority": "COMPLETE_STANDALONE_TF_MC_FIRST; grouped/diagrams independent later; model_science and KP gates distinct",
+  "source_papers_total": 25,
+  "raw_pdf_binary_sha_verified_historical": 25,
+  "source_response_slots_unchanged": 1623,
+  "text_layer_papers": 21,
+  "image_only_papers": 4,
+  "source_exact_standalone_private_completed": 717,
+  "fully_screened_all_25_standalone_papers": 0,
+  "science_model_reviewed_original_standalone_items": 717,
+  "model_science_no_obvious_problem": 644,
+  "model_science_hold": 73,
+  "formal_science_items_approved": 0,
+  "formal_kp_items_approved": 0,
+  "public_items_new": 0,
+  "all25_before_publication_gate_preserved": true,
+  "source_paper_queue": [
+    {
+      "priority_rank": 1,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_001",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-yongan-final-kp-first-text-map-v2.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1wiMXm5Wmk2dMDayrMN0iCPWcsMUpwO5D"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 22,
+      "private_complete_source_pass_state": "FIRST22_PRIVATE_COMPLETE_REVIEW_PENDING",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX"
+    },
+    {
+      "priority_rank": 2,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_001",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-yongan-mid-kp-first-80-text-map-v2.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1lLNg-pNkDzxbPgVyS2Ug61vdrhrUrF3o"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 20,
+      "private_complete_source_pass_state": "FIRST20_PRIVATE_COMPLETE__18_MODEL_PASS_2_SCIENCE_HOLD__FORMAL_QA_PENDING",
+      "next_action": "DONE_FIRST_PAGE_TF_MC__COMPLEX_AND_DIAGRAMS_SEPARATE_STREAM",
+      "source_exact_safe_manifest_ref": "data/review/p12-standalone-yongan-mid20-safe-science-kp-v1.json"
+    },
+    {
+      "priority_rank": 4,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_003",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-chongde-mid-64-source-manifest-v2.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1-KKh_8kID9Y7Ua9sAltnjGy-9lftmhrY"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 16,
+      "private_complete_source_pass_state": "FIRST16_SOURCE_EXACT_ART9_ARCHIVED__15_MODEL_SCIENCE_PASS_1_HOLD__FORMAL_QA_PENDING",
+      "next_action": "DONE_PAGE1_LEFT_COLUMN_TF_MC__REMAINING_SHARED_CONTEXT_IMAGE_GROUPS_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-mid16-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-chongde-mid16-source-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 7,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_003",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-dongguang-final-source-visual-v2.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1MdZkwTCFNK5JQgypgGc0X_uyGsbQJvfQ"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 19,
+      "private_complete_source_pass_state": "FIRST19_SOURCE_EXACT_ART9_ARCHIVED__17_MODEL_SCIENCE_PASS_2_HOLD__FORMAL_QA_PENDING",
+      "next_action": "DONE_TF10_AND_MC1_2_4_TO_10__FIGURE_MC003_SEPARATE__CROSSPAGE_MC010_COMPLETE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-dongguang-final19-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 8,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_004",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-chongde-final-65-source-kp-first-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1MVDJoRVSqpN4s1FPNp_nWSy5G5knc2-l"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 19,
+      "private_complete_source_pass_state": "TF8_MC11_FULL_ART9_PUBLIC_SOURCE__18_MODEL_SCIENCE_PASS_1_HOLD__FORMAL_QA_PENDING",
+      "next_action": "DONE_TEXT_ONLY_TF8_MC11__GROUPED_ARTICLE_DIAGRAM_MULTI_SLOT_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-chongde-final19-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 9,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_004",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-mid-62-source-kp-first-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "17mG1IAXPhDilZuwDBgEUvdCBHE_Otxe5"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 24,
+      "private_complete_source_pass_state": "FIRST24_SOURCE_EXACT_ART9_ARCHIVED__23_MODEL_SCIENCE_PASS_1_SCIENCE_HOLD__1_INDEPENDENT_PRINTED_LABEL_SOURCE_HOLD__FORMAL_QA_PENDING",
+      "next_action": "DONE_TEXT_LAYER_TF8_MC16__TWO_PRINT_ANOMALIES_RETAINED__SHARED_GROUP_AND_IMAGE_PAGE2_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-dadun-mid24-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 10,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_005",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-mid-75-source-manifest-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1eWBdPcFVKEWOUqgAcwnki-u9vbuPmWIB"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 25,
+      "private_complete_source_pass_state": "TF15_MC10_ART9_PUBLIC_SOURCE_EXACT__24_MODEL_SCIENCE_PASS_1_SOIL_SIZE_HOLD__FORMAL_QA_PENDING",
+      "next_action": "DONE_PAGE1_TF15_MC10__PAGE2_GROUPED_DIAGRAMS_REPORT_AND_MULTISLOTS_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-minquan-mid25-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 11,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_006",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-anhe-mid-50-source-kp-first-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1b2Ra-MB32xdJjXy-xtn0gJTIuvtF8YTW"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 30,
+      "private_complete_source_pass_state": "TF15_MC15_FULL_SOURCE_EXACT_ART9__28_SCIENCE_MODEL_PASS_2_SCIENCE_HOLD__FORMAL_QA_AND_SITE_ADMISSION_PENDING",
+      "next_action": "DONE_FIRST_TF15_AND_MC15_ACROSS_PAGES1_AND2__GROUPED_FIGURE_SECTION3_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-anhe-mid30-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 12,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_007",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1vYm6xxOw6TQzKb-r8bEYM8gp7cDIRDFa"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 24,
+      "private_complete_source_pass_state": "TF12_MC12_ART9_SOURCE_EXACT__17_MODEL_PASS_7_SCIENCE_HOLD__FORMAL_ACCEPTANCE_PENDING",
+      "next_action": "DONE_P1_TF12_MC12__P2_DIAGRAM_REPORT_AND_GROUPS_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-mingyi-mid24-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 13,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_008",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-dongguang-mid-60-source-manifest-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1g0ld_8TiIqt_UrtNRFZx_VqlZzKOx8D5"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 26,
+      "private_complete_source_pass_state": "TF14_MC12_ORIGINAL_ART9_ARCHIVED__SCIENCE_23PASS_3HOLD",
+      "next_action": "LOCATE_STANDALONE_TF_MC__VERIFY_FULL_STEM_ALL_OPTIONS__EXCLUDE_SHARED_FIGURES__CHECK_PDF_BBOX",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json"
+    },
+    {
+      "priority_rank": 15,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1KQesPj7fM1T5OUOiT79ePwnjZ4GLx1d3"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 28,
+      "private_complete_source_pass_state": "FIRST_TWO_SECTIONS_28_SOURCE_EXACT__26_MODEL_SCIENCE_PASS_2_HOLD__FORMAL_GATE_PENDING",
+      "next_action": "TF2_15_AND_MC1_5_7_15_TEXT_ARCHIVED__TF1_MC6_FIGURE_DEPENDENT_P3_P4_GROUPS_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-dadun-final28-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 16,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1ZLZNORw5p1YbeQ8yKQ3rpsPsi6aEAdkr"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 31,
+      "private_complete_source_pass_state": "SOURCE_EXACT_TF14_MC17__SCIENCE30_PASS_1_HOLD_KP27_STRONG_4_REVIEW__FORMAL_QA_PENDING",
+      "next_action": "P1_TF14_MC17_TEXT_COMPLETE__MC008_FIGURE_DEPENDENT__P2_DIAGRAM_AND_COMPREHENSIVE_TASKS_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-minquan-final31-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 17,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-anhe-final-50-source-kp-first-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1dRJk3FJ_Ua_FFl8tla30iMbMzgcQfbGz"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 35,
+      "private_complete_source_pass_state": "TF15_MC20_ART9_SOURCE_EXACT__29_MODEL_PASS_6_SCIENCE_HOLD_1_PRINT_HOLD_KP29_STRONG_4_REVIEW_2_NONMATCH",
+      "next_action": "PAGE1_TF15_MC13_AND_PAGE2_MC7_COMPLETE__FIGURES_CIRCUITS_EDISON_READING_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-anhe-final35-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 18,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-final-50-source-kp-first-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1pwlIRa40MeeVMlAYAyhufNchGEqbL6oT"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 28,
+      "private_complete_source_pass_state": "SOURCE_EXACT_TF15_MC13_MODEL_SCIENCE25_PASS_3_HOLD_KP26_STRONG_2_REVIEW__PUBLIC_ADMISSION_PENDING",
+      "next_action": "TF15_MC01_07_MC10_15_TEXT_SOURCE_COMPLETE__MC08_MC09_DIAGRAM_DEPENDENT_AND_S03_S04_GROUPS_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-mingyi-final28-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 19,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_009",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-wengzi-final-80-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1-Mi19WvmR6dlDtmcWhVatnEjj35wOVWZ"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 15,
+      "private_complete_source_pass_state": "SOURCE_EXACT_TF5_MC10__SCIENCE11_MODEL_PASS_4_HOLD_KP14_STRONG_1_REVIEW__FORMAL_GATE_PENDING",
+      "next_action": "S1_TF5_S2_MC10_SOURCE_COMPLETE__S3_60_POSITION_GROUPS_AND_S4_5_IMAGE_LINKED_READING_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-wengzi-final15-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 21,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_010",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-dahua-mid-50-source-kp-first-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1Tf8dvnMnaw1DJoZQQXTptRfcjt2Krbor"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 23,
+      "private_complete_source_pass_state": "S01_TF10_S02_MC13_SOURCE_EXACT_MODEL_SCIENCE18_PASS_5_HOLD_KP8_STRONG_4_REVIEW_11_NONMATCH__NO_ADMISSION",
+      "next_action": "S1_TF10_S2_MC13_STANDALONE_TEXT_ARCHIVED__S2_MC006_SHARED_ANAPHORA__S3_MOON_FIGURES_S4_WIKIPEDIA_WHALE_READING_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-dahua-mid23-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 22,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_011",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1cNAyUFRPvdNTQivMwLMszAuTTLu4RDNd"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 53,
+      "private_complete_source_pass_state": "SOURCE_EXACT_Q01_Q03_Q04_PART1_3_Q06_Q07_Q09_Q13_TF53__SCIENCE44_PASS_9_HOLD_KP14_STRONG_11_REVIEW_28_NONMATCH__FORMAL_GATE_PENDING",
+      "next_action": "53_INDEPENDENT_JUDGEMENTS_ARCHIVED_WITH_PARENT_PROMPTS__47_IMAGE_TABLE_READING_GROUPED_SLOTS_DEFERRED",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-taozijiao-mid53-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 23,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_002",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-heshun-mid-70-source-map-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "1UxbTZOQo6gMXexzs57V26ycUmcSwjcaO"
+      ],
+      "original_pdf_access_type": "IMAGE_ONLY",
+      "full_complete_standalone_tf_mc_private_source_count": 53,
+      "private_complete_source_pass_state": "IMAGE_ONLY_VISUAL_TF41_MC12_COMPLETE_53__SCIENCE44_PASS_9_HOLD__KP21_STRONG_5_REVIEW_27_NONMATCH__17_DIAGRAM_OPTION_BANK_READING_DEFERRED__RASTER_BBOX_ESTIMATE_NOT_NATIVE__NO_SITE_ADMISSION",
+      "next_action": "SOURCE_TEXT_VISUAL_REVIEW_DONE_AND_PDF_BBOX_RASTER_ESTIMATE_RETAINED__17_IMAGE_SHARED_READING_STIMULI_DEFERRED",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-heshun-mid53-science-kp-visual-v1.json"
+    },
+    {
+      "priority_rank": 23,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_012",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "14VXGVleqBBtZXIgopFJKF36-TXok16DC"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 30,
+      "private_complete_source_pass_state": "SOURCE_EXACT_S1_TF8_S2_MC12_S5_TF10__SCIENCE29_PRELIM_PASS_1_HOLD_KP11_STRONG_4_REVIEW_15_NONMATCH__LEARNER_ADMISSION_PENDING",
+      "next_action": "INDEPENDENT_TEXT_S1_S2_S5_COMPLETE__S3_FIGURES_S4_SHARED_BANK_S6_GROUPED_READING_30_FROZEN_RESPONSE_POSITIONS_DEFERRED",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-shihu-mid30-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 24,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_011",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-dahua-final-42-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1qzeGpzru5YPhlY2pBKlhfL-dSW6RxOgF"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 22,
+      "private_complete_source_pass_state": "SOURCE_EXACT_S1_TF6_S2_MC16__FIGURE_MC003_DEFERRED__SCIENCE21_PASS_1_HOLD_KP11_STRONG_1_REVIEW_10_NONMATCH__NO_ADMISSION",
+      "next_action": "S1_TF6_AND_S2_MC16_SOURCE_COMPLETE__MC003_REFLECTION_FIGURE_AND_S3_MATCHING16_S4_READING3_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-final22-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-dahua-final22-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 25,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "14KIqnA3EGmx7JxEEroNOFN7nK7SH3IEG"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 60,
+      "private_complete_source_pass_state": "SOURCE_EXACT_Q02_TO_Q10_TF60__SCIENCE56_PASS_4_HOLD_KP29_STRONG_6_REVIEW_25_NONMATCH__40_GROUPED_FIGURE_READING_DEFERRED__NO_ADMISSION",
+      "next_action": "Q02_Q10_60_INDEPENDENT_JUDGEMENTS_ARCHIVED_WITH_ORIGINAL_PARENT_PROMPTS__Q01_AND_Q11_Q16_40_GROUPED_FIGURE_READING_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-taozijiao-final60-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 26,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-heshun-final-70-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1iZisyIpcQ0b_TzEue8YA2h_TRyc6GLJ9"
+      ],
+      "original_pdf_access_type": "IMAGE_ONLY",
+      "full_complete_standalone_tf_mc_private_source_count": 35,
+      "private_complete_source_pass_state": "IMAGE_ONLY_VISUAL_TF20_MC15_COMPLETE_35__SCIENCE33_PASS_2_HOLD__KP24_STRONG_2_REVIEW_9_NONMATCH__35_FIGURE_READING_DEFERRED__RASTER_BBOX_ESTIMATE_NOT_NATIVE__TWO_EXACT_TWO_LEXICAL_NEAR_CROSS_PAPER__NO_SITE_ADMISSION",
+      "next_action": "SOURCE_TEXT_VISUAL_REVIEW_AND_CHOICES_DONE__RASTER_BBOX_ESTIMATE_REQUIRES_EXACT_PIXEL_REVIEW__35_DIAGRAM_PICTURE_READING_POSITIONS_SEPARATE",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-heshun-final35-science-kp-visual-v1.json"
+    },
+    {
+      "priority_rank": 26,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-shihu-final-62-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1KSK_lXGSBEY_bXf3B8J8UdWDA_4GjbY8"
+      ],
+      "original_pdf_access_type": "TEXT_LAYER",
+      "full_complete_standalone_tf_mc_private_source_count": 34,
+      "private_complete_source_pass_state": "SOURCE_ONLY_REVIEW_PENDING_FORMAL_SCIENCE_KP_ADMISSION",
+      "next_action": "SOURCE_CONTENT_AND_FIGURE_OR_SHARED_STIMULUS_REVIEW",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-shihu-final34-science-kp-secondpass-v1.json"
+    },
+    {
+      "priority_rank": 34,
+      "original_source_paper_id": "SCI_G04_S1_114_MID_009",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "original_exam_type": "MID",
+      "pdf_source_file_ids": [
+        "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG"
+      ],
+      "original_pdf_access_type": "IMAGE_ONLY",
+      "full_complete_standalone_tf_mc_private_source_count": 27,
+      "private_complete_source_pass_state": "SOURCE_ONLY_REVIEW_PENDING_FORMAL_SCIENCE_KP_ADMISSION",
+      "next_action": "SOURCE_CONTENT_AND_FIGURE_OR_SHARED_STIMULUS_REVIEW",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-puren-mid27-science-kp-visual-v1.json"
+    },
+    {
+      "priority_rank": 40,
+      "original_source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-final-49-source-map-v1.json",
+      "original_exam_type": "FINAL",
+      "pdf_source_file_ids": [
+        "1OuMQNYZJSnE8ZdVcYdrNE4aCLH7Bg0B0"
+      ],
+      "original_pdf_access_type": "IMAGE_ONLY",
+      "full_complete_standalone_tf_mc_private_source_count": 18,
+      "private_complete_source_pass_state": "SOURCE_ONLY_REVIEW_PENDING_FORMAL_SCIENCE_KP_ADMISSION",
+      "next_action": "SOURCE_CONTENT_AND_FIGURE_OR_SHARED_STIMULUS_REVIEW",
+      "source_exact_public_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_science_kp_review_ref": "data/review/p12-art9-114-puren-final18-science-kp-visual-v1.json"
+    }
+  ],
+  "per_question_required_fields": [
+    "source_id",
+    "original_pdf_sha256",
+    "original_pdf_page",
+    "full_original_question_stem_PRIVATE",
+    "all_original_options_in_print_order_PRIVATE",
+    "printed_question_number",
+    "standalone_no_shared_material_proven",
+    "independent_science_unique_answer_verdict",
+    "canonical_kp_review",
+    "source_use_rights_and_operator_release_gate"
+  ],
+  "non_promotable_evidence": "Text-layer, firstpass KP source maps and source-box locator candidates do NOT imply a complete or usable single question.",
+  "next_execution": "P12_ALL25_B04_ScienceUniqueCandidateOperatorReview_KPDirectAndFloatingFamilyReview_ThenFigureSourceGroups",
+  "last_completed_original_paper_source_id": "SCI_G04_S1_114_FINAL_010",
+  "last_completed_original_paper_first_page_standalone_items": 14,
+  "source_fulltext_eligible_article9_public_archive_complete_occurrences": 717,
+  "source_model_science_hold_total": 73,
+  "source_exact_stem_cross_paper_links_observed_current_additional": 5,
+  "source_printed_mc_choice_label_hold_occurrences": 2,
+  "last_completed_original_paper_second_page_standalone_items": 4,
+  "last_completed_original_paper_standalone_items_across_pages": [
+    1,
+    2
+  ],
+  "last_completed_original_paper_total_standalone_items": 18,
+  "first_pass_all25_completed": true,
+  "first_pass_all25_operator_final_acceptance": false,
+  "first_pass_all25_machine_source_closeout": "SOURCE_FIRSTPASS_COMPLETE_BLOCKERS_OPEN",
+  "first_pass_all25_closeout_evidence_ref": "data/review/p12-standalone-all25-firstpass-closeout-blocker-ledger-v1.json",
+  "first_pass_all25_per_paper_audit_refs": [
+    "data/review/p12-standalone-all25-firstpass-paper-audit-shard01-v1.json",
+    "data/review/p12-standalone-all25-firstpass-paper-audit-shard02-v1.json",
+    "data/review/p12-standalone-all25-firstpass-paper-audit-shard03-v1.json"
+  ],
+  "first_pass_all25_original_positions_not_independently_archived": 906,
+  "first_pass_all25_model_science_hold_count": 73,
+  "first_pass_all25_model_kp_strong_candidate_count": 470,
+  "first_pass_all25_model_kp_review_count": 81,
+  "first_pass_all25_kp_outside_current_g04s1_count": 166,
+  "first_pass_all25_legacy_source_item_schema_missing_count": 26,
+  "first_pass_all25_new_student_site_admission": 0,
+  "b01_legacy26_source_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+  "b01_legacy26_source_row_status_fields_missing_after_patch": 0,
+  "b01_legacy26_model_science_pass": 23,
+  "b01_legacy26_model_science_hold": 3,
+  "b01_legacy26_kp_strong_candidate": 24,
+  "b01_legacy26_kp_review": 2,
+  "b01_science73_kp81_triage_index_ref": "data/review/p12-all25-b01-science73-kp81-triage-index-v1.json",
+  "b01_science_hold_triaged": 73,
+  "b01_kp_review_triaged": 81,
+  "b01_science_and_kp_overlap": 8,
+  "b01_formal_science_approvals": 0,
+  "b01_formal_kp_approvals": 0,
+  "b01_public_site_admissions": 0,
+  "b01_closeout_status": "LEGACY_CONTRACT_ALIGNED_SCIENCE_AND_KP_REVIEW_ACTIVE",
+  "b02_science73_kp81_human_review_control_ref": "data/review/p12-all25-b02-science73-kp81-human-triage-control-v1.json",
+  "b02_individual_human_triage_shard_refs": [
+    "data/review/p12-all25-b02-human-triage-shard01-v1.json",
+    "data/review/p12-all25-b02-human-triage-shard02-v1.json",
+    "data/review/p12-all25-b02-human-triage-shard03-v1.json"
+  ],
+  "b02_six_original_pdf_binary_sha_verified": 6,
+  "b02_science_model_hold_review_queued": 73,
+  "b02_kp_human_review_queued": 81,
+  "b02_overlap_source_ids_review_queued": 8,
+  "b02_science_holds_model_resolved": 0,
+  "b02_kp_formal_approvals": 0,
+  "b02_operator_acceptance": false,
+  "b02_new_student_bank_admission": 0,
+  "b02_closeout_status": "SCIENCE_AND_KP_HUMAN_REVIEW_QUEUED_NO_FORMAL_PASS",
+  "previous_queue_historical_ref": "data/review/p12-standalone-all25-source-first-queue-v1.json",
+  "global_quality_policy_ref": "data/governance/science-global-no-scoring-authority-v1.json",
+  "current_source_index_ref": "data/source-archive/p12-art9-114-g04s1-public-original-source-corpus-current-v25.json",
+  "source_view_adapter_ref": "site/assets/js/scoreless-contract.mjs",
+  "all_source_questions_content_only": true,
+  "source_pdf_originals_not_rewritten": true,
+  "content_review_gates": [
+    "SOURCE_EXACT_FULL_QUESTION_AND_OPTIONS",
+    "SOURCE_FIGURE_AND_PARENT_DEPENDENCIES",
+    "SCIENCE_UNIQUE_ANSWER_REVIEW",
+    "CANONICAL_KP_REVIEW",
+    "RIGHTS_AND_OPERATOR_RELEASE"
+  ],
+  "source_original_question_occurrences": 717,
+  "science_model_hold_for_human_review": 73,
+  "kp_review_for_human_review": 81,
+  "science_and_kp_overlap": 8,
+  "site_existing_public_positions": 251,
+  "site_existing_g04s1_positions": 53,
+  "new_public_admissions": 0,
+  "b03_source_review_index_ref": "data/review/p12-all25-b03-science73-kp81-content-review-index-v1.json",
+  "b03_figure_dependency_index_ref": "data/review/p12-all25-b03-figure-group-dependency-index-v1.json",
+  "b03_independent_science_holds_reviewed": 73,
+  "b03_kp_alignment_candidates_reviewed": 81,
+  "b03_new_model_science_explanations": 26,
+  "b03_model_uniqueness_candidates_operator_gate": 1,
+  "b03_kp_direct_alignment_candidates": 17,
+  "b03_kp_floating_family_correction_candidates": 6,
+  "b03_other_original_positions_figure_shared_dependency_pending": 906,
+  "b03_formal_science_approved": 0,
+  "b03_formal_kp_approved": 0,
+  "b03_public_site_admissions": 0,
+  "b03_model_review_state": "MODEL_ORIGINAL_CONTENT_REVIEW_73SCIENCE_81KP_DONE_NO_FORMAL_ADMISSION",
+  "per_question_science_and_kp_only": true
+}

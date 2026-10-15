@@ -1,0 +1,1340 @@
+{
+  "schema_version": "P12_B03_SCIENCE_KP_CONTENT_ONLY_REVIEW_SHARD_V1",
+  "shard": 2,
+  "source_b02_ref": "data/review/p12-all25-b02-human-triage-shard02-v1.json",
+  "model_reason_provenance": "Original reason when present; GPT-6 independent reasoning otherwise",
+  "science_review_rows": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_007|S01|TF|001",
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "西瓜適合種在有點黏性的濕潤土壤裡。",
+      "options": [],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_OR_SCOPE_UNDETERMINED",
+      "problem_category": "GROWTH_CONDITIONS_NOT_SPECIFIED",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "西瓜通常偏好排水良好土壤，土壤僅稱有點黏性且濕潤不足以判定排水是否適當，不能絕對判真偽。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_007|S01|TF|002",
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "比較岩石、沙、土壤三者的顆粒大小，沙的顆粒最小。",
+      "options": [],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_OR_SCOPE_UNDETERMINED",
+      "problem_category": "PARTICLE_SIZE_MIXED_CATEGORIES",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "岩石尺寸、沙粒與包含多種大小成分的土壤不能形成所有情況都成立的嚴格顆粒排序。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_007|S01|TF|004",
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "在河川開挖砂石會破壞地表環境，所以我們應該全面禁止。",
+      "options": [],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_OR_SCOPE_UNDETERMINED",
+      "problem_category": "NORMATIVE_ABSOLUTE_CLAIM",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "是否全面禁止開挖是政策價值判斷，不能由開挖可能破壞地表的科學事實必然推出。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_007|S01|TF|011",
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "臺灣平地產茶葉，可以做成飲品。",
+      "options": [],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_OR_SCOPE_UNDETERMINED",
+      "problem_category": "REGIONAL_FACT_SCOPE_NOT_FIXED",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "茶葉可在不同海拔生長；題目的『臺灣平地產茶葉』未指明產區、環境與品種，需另查實際資料來源，不宜僅按印象答題。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_007|S02|MC|003",
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "把礫石、沙和土壤混合後，在容器內堆成土堆，接著從土推上方澆水，請問下列何者正確？",
+      "options": [
+        {
+          "label": "①",
+          "text": "礫石被沖得最遠"
+        },
+        {
+          "label": "②",
+          "text": "沙被沖得最遠"
+        },
+        {
+          "label": "③",
+          "text": "土壤被沖得最遠"
+        },
+        {
+          "label": "④",
+          "text": "土推的形狀沒有改變"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_OR_SCOPE_UNDETERMINED",
+      "problem_category": "EXPERIMENT_SETUP_AND_OPTIONS",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "粒徑、土堆坡度、澆水流量與時間沒有指定；哪類顆粒被沖最遠不由三個物質名稱唯一決定。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": true,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_007|S02|MC|005",
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "地震會造成的現象不包含以下何者？",
+      "options": [
+        {
+          "label": "①",
+          "text": "森林大火"
+        },
+        {
+          "label": "②",
+          "text": "堰塞湖"
+        },
+        {
+          "label": "③",
+          "text": "鐵軌變形彎曲"
+        },
+        {
+          "label": "④",
+          "text": "斷層瀑布"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_OR_SCOPE_UNDETERMINED",
+      "problem_category": "INDIRECT_CAUSATION_NOT_EXCLUDED",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "森林火災可因地震衍生的設備損壞或火源引起，是否排除間接災害未交代。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_007|S02|MC|009",
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "荷花的特性，以下何者為非？",
+      "options": [
+        {
+          "label": "①",
+          "text": "葉平貼在水面上"
+        },
+        {
+          "label": "②",
+          "text": "適合生長在水域環境"
+        },
+        {
+          "label": "③",
+          "text": "地下莖會長成蓮藕"
+        },
+        {
+          "label": "④",
+          "text": "根長在水底泥土裡"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_OR_SCOPE_UNDETERMINED",
+      "problem_category": "MULTIPLE_FALSE_OR_CORRECT_OPTIONS",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "四項中『荷花葉平貼水面』可辨為通常不符成熟荷花挺水葉特徵，其餘生境、蓮藕、底泥根系符合；模型有較強唯一候選①，仍須審視品種／葉齡與原卷上下文。",
+      "science_answer_uniqueness": "MODEL_SINGLE_OPTION_CANDIDATE_OPERATOR_CHECK_REQUIRED",
+      "model_answer_candidate": "①",
+      "science_recommendation": "EXACT_QUESTION_HUMAN_UNIQUE_ANSWER_REVIEW_PRIORITY",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_008|S01|TF|001",
+      "paper_id": "SCI_G04_S1_114_MID_008",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "比較岩石、沙和土壤的顆粒大小，其中岩石的顆粒最大，沙的顆粒最小。",
+      "options": [],
+      "previous_science_status": "MODEL_SCIENCE_HOLD",
+      "problem_category": "PARTICLE_SIZE_MIXED_CATEGORIES",
+      "original_review_reason": "土壤是包含沙、粉砂、黏土等的混合物；無法不加限定將沙列為三者固定最小粒徑",
+      "independent_model_science_review_reason": "土壤是包含沙、粉砂、黏土等的混合物；無法不加限定將沙列為三者固定最小粒徑",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_008|S02|MC|002",
+      "paper_id": "SCI_G04_S1_114_MID_008",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "下列哪一項不是地震所造成的地表改變？",
+      "options": [
+        {
+          "label": "①",
+          "text": "山坡崩落"
+        },
+        {
+          "label": "②",
+          "text": "地面斷裂"
+        },
+        {
+          "label": "③",
+          "text": "淹水"
+        },
+        {
+          "label": "④",
+          "text": "斷層瀑布"
+        }
+      ],
+      "previous_science_status": "MODEL_SCIENCE_HOLD",
+      "problem_category": "INDIRECT_CAUSATION_NOT_EXCLUDED",
+      "original_review_reason": "地震可引發海嘯、河流阻塞或設施損害導致淹水；把淹水列為不可能的地表變化欠缺唯一性",
+      "independent_model_science_review_reason": "地震可引發海嘯、河流阻塞或設施損害導致淹水；把淹水列為不可能的地表變化欠缺唯一性",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_008|S02|MC|011",
+      "paper_id": "SCI_G04_S1_114_MID_008",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "關於荷花的敘述，下列哪一項是不正確的？",
+      "options": [
+        {
+          "label": "①",
+          "text": "屬於浮葉性水生植物"
+        },
+        {
+          "label": "②",
+          "text": "有地下莖"
+        },
+        {
+          "label": "③",
+          "text": "葉柄可以儲存空氣"
+        },
+        {
+          "label": "④",
+          "text": "葉面上有微細的纖毛"
+        }
+      ],
+      "previous_science_status": "MODEL_SCIENCE_HOLD",
+      "problem_category": "MULTIPLE_FALSE_OR_CORRECT_OPTIONS",
+      "original_review_reason": "荷花主要為挺水植物，①浮葉性有誤；④『葉面上有微細纖毛』亦與荷花具疏水微凸和蠟質層之特徵混淆，疑似兩個錯誤選項",
+      "independent_model_science_review_reason": "荷花主要為挺水植物，①浮葉性有誤；④『葉面上有微細纖毛』亦與荷花具疏水微凸和蠟質層之特徵混淆，疑似兩個錯誤選項",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|002",
+      "paper_id": "SCI_G04_S1_114_FINAL_005",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "當我們站在鏡子前，所照出的影像會和自己左右相反。",
+      "options": [],
+      "previous_science_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "problem_category": "OPTICAL_PERSPECTIVE_AND_CONVENTION",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "平面鏡在物理上主要發生前後方向的座標反轉；說『左右相反』取決於參照姿態與觀察者定義。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|008",
+      "paper_id": "SCI_G04_S1_114_FINAL_005",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "電器用品中的開關，是怎樣控制電器用品啟動或關閉的？",
+      "options": [
+        {
+          "label": "(1)",
+          "text": "打開開關時，形成短路"
+        },
+        {
+          "label": "(2)",
+          "text": "打開開關時，形成通路"
+        },
+        {
+          "label": "(3)",
+          "text": "打開開關時，形成斷路"
+        },
+        {
+          "label": "(4)",
+          "text": "關上開關時，形成通路。"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "problem_category": "CIRCUIT_SWITCH_MECHANISM_SCOPE",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "『打開開關／關上開關』可指開啟電器或將電路開關撥到斷開/閉合位置，語義不固定，②與④的語用可能相抵觸。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|018",
+      "paper_id": "SCI_G04_S1_114_FINAL_006",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "如果有兩個燈泡和兩個電池，哪種連接方法可以讓燈泡最亮？",
+      "options": [
+        {
+          "label": "①",
+          "text": "電池串聯、燈泡並聯"
+        },
+        {
+          "label": "②",
+          "text": "電池並聯、燈泡串聯"
+        },
+        {
+          "label": "③",
+          "text": "電池串聯、燈泡串聯"
+        },
+        {
+          "label": "④",
+          "text": "電池並聯、燈泡並聯"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_ASSUMED_IDENTICAL_CIRCUIT_PARAMETERS_MISSING",
+      "problem_category": "ELECTRICAL_COMPONENT_RATINGS_MISSING",
+      "original_review_reason": "缺少電池電壓、燈泡額定電壓、電池內阻及比較條件，教材可能預期①但不足以無條件認證最亮",
+      "independent_model_science_review_reason": "缺少電池電壓、燈泡額定電壓、電池內阻及比較條件，教材可能預期①但不足以無條件認證最亮",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|006",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "電器不使用時，電池也可以繼續裝在裡面沒有關係。",
+      "options": [],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "problem_category": "BATTERY_LEAKAGE_STORAGE_CONDITIONAL",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "若長期不使用電器，留置電池可能漏液；題幹未指定閒置時間與電池類型，不能宣稱永遠沒有影響。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|008",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "延長線可以同時連接很多個電器。",
+      "options": [],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "problem_category": "EXTENSION_CORD_LOAD_LIMIT_MISSING",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "延長線能接多個設備但必須受額定總負載與接點安全限制，『很多個』未限定數量和功率。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S02|MC|009",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "如果想要讓燈泡變得更亮，下列哪一種電路比較適合?",
+      "options": [
+        {
+          "label": "①",
+          "text": "電池串聯"
+        },
+        {
+          "label": "②",
+          "text": "電池並聯"
+        },
+        {
+          "label": "③",
+          "text": "燈泡串聯"
+        },
+        {
+          "label": "④",
+          "text": "燈泡並聯。"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "problem_category": "ELECTRICAL_COMPONENT_RATINGS_MISSING",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "電池串聯可能增加電壓，但比較亮度還需要相同燈泡規格與原電路基準；僅依四個連接名稱不夠精確。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S02|MC|010",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "用手電筒照射方形的積木，影子投影在牆壁上，牆壁上的影子會出現什麼形狀？",
+      "options": [
+        {
+          "label": "①",
+          "text": "圓形"
+        },
+        {
+          "label": "②",
+          "text": "球形"
+        },
+        {
+          "label": "③",
+          "text": "方形"
+        },
+        {
+          "label": "④",
+          "text": "三角形。"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "problem_category": "SHADOW_GEOMETRY_NOT_FIXED",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "方形積木可從不同角度投出不同形狀，取決於積木三維形態、光源和牆面角度。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S02|MC|016",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "愷威在玩紙杯傳聲筒時，發現將棉線壓住時，對方會聽不到自己的聲音，主要原因為何？",
+      "options": [
+        {
+          "label": "①",
+          "text": "聲音無法在空氣中傳播"
+        },
+        {
+          "label": "②",
+          "text": "棉線被壓住時，聲音無法透過棉線傳播"
+        },
+        {
+          "label": "③",
+          "text": "棉線被壓住時，聲音的速度忽快忽慢"
+        },
+        {
+          "label": "④",
+          "text": "棉線被壓住時，聲音變成高音了。"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "problem_category": "STRING_PHONE_EXPERIMENT_NOT_FIXED",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "紙杯傳聲須考慮棉線張力和接觸方式；壓住棉線的操作不同，不能直接斷定聲音完全無法傳播。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S02|MC|020",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "有關「電池串聯」與「電池並聯」的說明，下列哪一項是正確的？",
+      "options": [
+        {
+          "label": "①",
+          "text": "「電池並聯」的其中一個電池壞了，燈泡也不會亮"
+        },
+        {
+          "label": "②",
+          "text": "「電池串聯」的其中一個電池沒電了，燈泡還是會亮"
+        },
+        {
+          "label": "③",
+          "text": "「燈泡串聯」的燈泡亮度比「燈泡並聯」的燈泡亮度還要亮"
+        },
+        {
+          "label": "④",
+          "text": "「電池並聯」的燈泡亮度比「電池串聯」的燈泡亮度還要暗。"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "problem_category": "SERIES_PARALLEL_WIRING_CONVENTION",
+      "original_review_reason": null,
+      "independent_model_science_review_reason": "電池串並聯與燈泡串並聯不能混為同一變因，且損壞／沒電的語義需區分開路與耗電；若要唯一答案需指定相同元件與有效接法。",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_008|S01|TF|003",
+      "paper_id": "SCI_G04_S1_114_FINAL_008",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-final28-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "光照到物體所形成的影子形狀和物體的形狀大致相同。",
+      "options": [],
+      "previous_science_status": "SCIENCE_HOLD_CONDITIONS_UNSPECIFIED",
+      "problem_category": "SHADOW_GEOMETRY_NOT_FIXED",
+      "original_review_reason": "物體與影子形狀不必然大致相同；光源方向、三維姿態及投影面未限定",
+      "independent_model_science_review_reason": "物體與影子形狀不必然大致相同；光源方向、三維姿態及投影面未限定",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_008|S02|MC|012",
+      "paper_id": "SCI_G04_S1_114_FINAL_008",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-final28-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "同樣一顆電池，在下列哪個電路中，燈泡的亮度最暗？",
+      "options": [
+        {
+          "label": "①",
+          "text": "串聯3顆燈泡"
+        },
+        {
+          "label": "②",
+          "text": "並聯2顆燈泡"
+        },
+        {
+          "label": "③",
+          "text": "並聯4顆燈泡"
+        },
+        {
+          "label": "④",
+          "text": "串聯2顆燈泡。"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_CONDITIONS_UNSPECIFIED",
+      "problem_category": "ELECTRICAL_COMPONENT_RATINGS_MISSING",
+      "original_review_reason": "原卷未指明燈泡規格、電池內阻及電路配置細節，不宜把最暗認證為絕對唯一",
+      "independent_model_science_review_reason": "原卷未指明燈泡規格、電池內阻及電路配置細節，不宜把最暗認證為絕對唯一",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_008|S02|MC|014",
+      "paper_id": "SCI_G04_S1_114_FINAL_008",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-final28-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "增加小型電風扇的電池數量，並用串聯的方式連接時，會有什麼好處？",
+      "options": [
+        {
+          "label": "①",
+          "text": "使風扇轉得更快"
+        },
+        {
+          "label": "②",
+          "text": "讓電力持久"
+        },
+        {
+          "label": "③",
+          "text": "延長小型電風扇的使用期限"
+        },
+        {
+          "label": "④",
+          "text": "方便觀察風扇葉片轉動的方向。"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_CONDITIONS_UNSPECIFIED",
+      "problem_category": "ELECTRICAL_COMPONENT_RATINGS_MISSING",
+      "original_review_reason": "串聯增加電池數量可能提高轉速，但超額定電壓會損傷馬達；缺安全與額定條件",
+      "independent_model_science_review_reason": "串聯增加電池數量可能提高轉速，但超額定電壓會損傷馬達；缺安全與額定條件",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S1|TF|005",
+      "paper_id": "SCI_G04_S1_114_FINAL_009",
+      "source_content_ref": "data/content-only/p12-art9-114-wengzi-g04s1-final15-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "小馬達可以讓風扇轉動，小瑛想要讓玩具小風扇轉動的速度更快，她可以增加串聯的電池數量。",
+      "options": [],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "problem_category": "ELECTRICAL_COMPONENT_RATINGS_MISSING",
+      "original_review_reason": "增加串聯電池可能提升轉速，但題幹沒有馬達額定電壓、電池數量與負載條件；不能認證無限制的必然性",
+      "independent_model_science_review_reason": "增加串聯電池可能提升轉速，但題幹沒有馬達額定電壓、電池數量與負載條件；不能認證無限制的必然性",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|003",
+      "paper_id": "SCI_G04_S1_114_FINAL_009",
+      "source_content_ref": "data/content-only/p12-art9-114-wengzi-g04s1-final15-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "關於聲音的敘述，下列哪一項是正確的?",
+      "options": [
+        {
+          "label": "①",
+          "text": "聲音無法透過液體傳播"
+        },
+        {
+          "label": "②",
+          "text": "在水中的舞者可以聽到岸上的音樂聲"
+        },
+        {
+          "label": "③",
+          "text": "停止敲鼓時，仍然有聲音"
+        },
+        {
+          "label": "④",
+          "text": "聲音無法透過固體傳播。"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "problem_category": "MULTIPLE_FALSE_OR_CORRECT_OPTIONS",
+      "original_review_reason": "②水中可聽到音樂；但③若只是停止敲擊而鼓皮仍持續振動，短時間仍可發聲，造成多項可能正確",
+      "independent_model_science_review_reason": "②水中可聽到音樂；但③若只是停止敲擊而鼓皮仍持續振動，短時間仍可發聲，造成多項可能正確",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|004",
+      "paper_id": "SCI_G04_S1_114_FINAL_009",
+      "source_content_ref": "data/content-only/p12-art9-114-wengzi-g04s1-final15-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "光會改變行進的方向，是照射到下列哪一種物體?",
+      "options": [
+        {
+          "label": "①",
+          "text": "木頭"
+        },
+        {
+          "label": "②",
+          "text": "牆壁"
+        },
+        {
+          "label": "③",
+          "text": "鏡子"
+        },
+        {
+          "label": "④",
+          "text": "黑紙"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "problem_category": "MIRROR_VS_DIFFUSE_REFLECTION",
+      "original_review_reason": "通常教材預期③鏡子；但木頭、牆壁及黑紙表面也會有不同程度的漫反射，題目沒有指定鏡面反射，不能稱其他物體絕不改變光線方向",
+      "independent_model_science_review_reason": "通常教材預期③鏡子；但木頭、牆壁及黑紙表面也會有不同程度的漫反射，題目沒有指定鏡面反射，不能稱其他物體絕不改變光線方向",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|008",
+      "paper_id": "SCI_G04_S1_114_FINAL_009",
+      "source_content_ref": "data/content-only/p12-art9-114-wengzi-g04s1-final15-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "會轉動的小風扇或會動的玩具汽車，裡面的構造通常會有下列哪一項物品呢?",
+      "options": [
+        {
+          "label": "①",
+          "text": "燈泡"
+        },
+        {
+          "label": "②",
+          "text": "玻璃"
+        },
+        {
+          "label": "③",
+          "text": "小馬達"
+        },
+        {
+          "label": "④",
+          "text": "電線。"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "problem_category": "MULTIPLE_FALSE_OR_CORRECT_OPTIONS",
+      "original_review_reason": "③小馬達和④電線都通常存在於電動小風扇與電動玩具汽車，可能有兩個符合「通常會有」的選項",
+      "independent_model_science_review_reason": "③小馬達和④電線都通常存在於電動小風扇與電動玩具汽車，可能有兩個符合「通常會有」的選項",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|006",
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "一旁的恩瑞看見布袋蓮跟樂樂棒球同時在池面上漂浮著，是因為其葉柄裡具有通氣組織。",
+      "options": [],
+      "previous_science_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "problem_category": "PRONOUN_REFERENT_SCOPE_AMBIGUOUS",
+      "original_review_reason": "Water hyacinth floats using aerated petiole tissue, but the sentence joins a water hyacinth with a dropped baseball and refers to 'its petiole' ambiguously. The ball has no petiole, so scope is unclear.",
+      "independent_model_science_review_reason": "Water hyacinth floats using aerated petiole tissue, but the sentence joins a water hyacinth with a dropped baseball and refers to 'its petiole' ambiguously. The ball has no petiole, so scope is unclear.",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|009",
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "根據國際拉姆薩濕地公約的定義，無論是天然或人為，只要水深低潮時不超過六公尺，都屬於濕地水域。",
+      "options": [],
+      "previous_science_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "problem_category": "TREATY_DEFINITION_SCOPE_UNDERDETERMINED",
+      "original_review_reason": "Ramsar's marine-water six-metre low-tide clause is not a sufficient universal definition that any shallow natural/artificial water is a wetland. Exact treaty scope and literal statement need independent review.",
+      "independent_model_science_review_reason": "Ramsar's marine-water six-metre low-tide clause is not a sufficient universal definition that any shallow natural/artificial water is a wetland. Exact treaty scope and literal statement need independent review.",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|007",
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "正彧測量出一個拳頭大約是10°，若在正中午到操場中央測量太陽高度角應該最接近幾度？",
+      "options": [
+        {
+          "label": "①",
+          "text": "20°"
+        },
+        {
+          "label": "②",
+          "text": "40°"
+        },
+        {
+          "label": "③",
+          "text": "60°"
+        },
+        {
+          "label": "④",
+          "text": "80°"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "problem_category": "OBSERVATION_DATE_SEASON_MISSING",
+      "original_review_reason": "No season or observation date is given. Noon Sun elevation in Taoyuan varies dramatically across the year, so no unique selection among 20/40/60/80 degrees.",
+      "independent_model_science_review_reason": "No season or observation date is given. Noon Sun elevation in Taoyuan varies dramatically across the year, so no unique selection among 20/40/60/80 degrees.",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|011",
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "奕霓發現水族箱的水變少後，水蘊草整株依然維持在水面下，是因為它具有？",
+      "options": [
+        {
+          "label": "①",
+          "text": "中空的管道"
+        },
+        {
+          "label": "②",
+          "text": "柔軟的身體"
+        },
+        {
+          "label": "③",
+          "text": "挺拔的莖部"
+        },
+        {
+          "label": "④",
+          "text": "細短的根部"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "problem_category": "PLANT_HEIGHT_WATER_DEPTH_MISSING",
+      "original_review_reason": "Flexible submerged waterweed can bend with water movement, but a falling water level does not guarantee that the entire plant stays submerged. Requires initial depth/plant height.",
+      "independent_model_science_review_reason": "Flexible submerged waterweed can bend with water movement, but a falling water level does not guarantee that the entire plant stays submerged. Requires initial depth/plant height.",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|013",
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "宥萱家中飼養的小蝌蚪順利長大成蛙後，下列何種適應環境的方式並未因長大而改變?",
+      "options": [
+        {
+          "label": "①",
+          "text": "呼吸方式"
+        },
+        {
+          "label": "②",
+          "text": "運動方式"
+        },
+        {
+          "label": "③",
+          "text": "棲息環境"
+        },
+        {
+          "label": "④",
+          "text": "皮膚狀態"
+        }
+      ],
+      "previous_science_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "problem_category": "METAMORPHOSIS_COMPARISON_AMBIGUITY",
+      "original_review_reason": "Tadpole and adult frog differ in breathing, movement and habitat, but 'skin state' also changes through metamorphosis; the question doesn't establish a science-unique invariant.",
+      "independent_model_science_review_reason": "Tadpole and adult frog differ in breathing, movement and habitat, but 'skin state' also changes through metamorphosis; the question doesn't establish a science-unique invariant.",
+      "science_answer_uniqueness": "NOT_ESTABLISHED",
+      "model_answer_candidate": null,
+      "science_recommendation": "RETAIN_HOLD_NOT_DIRECTLY_USABLE",
+      "needs_shared_parent_or_diagram": false,
+      "formal_science_approved": false,
+      "operator_reviewed": false
+    }
+  ],
+  "kp_review_rows": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_007|S01|TF|008",
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "觀察後的水生生物，應放回原處，避免造成生物死亡或破壞環境。",
+      "options": [],
+      "original_proposed_kp": null,
+      "model_kp_review_conclusion": "NO_DIRECT_MATCH",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "觀察後放回水生動物是保育操作，現行 02_11 聚焦污染對生物影響，不可直接套用。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_007|S02|MC|008",
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "下列拜訪水域環境的注意事項，何者有誤？",
+      "options": [
+        {
+          "label": "①",
+          "text": "要有大人陪同"
+        },
+        {
+          "label": "②",
+          "text": "不要前往水深的環境"
+        },
+        {
+          "label": "③",
+          "text": "穿著適合的衣服和鞋子"
+        },
+        {
+          "label": "④",
+          "text": "亂丟垃圾"
+        }
+      ],
+      "original_proposed_kp": null,
+      "model_kp_review_conclusion": "NO_DIRECT_MATCH",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "水域拜訪注意事項不是正式 45 KP 中獨立列出的題型目標。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_008|S01|TF|003",
+      "paper_id": "SCI_G04_S1_114_MID_008",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "進行水域調查活動時，可以將在溪流採集的水生生物放到其他的水域環境。",
+      "options": [],
+      "original_proposed_kp": null,
+      "model_kp_review_conclusion": "NO_DIRECT_MATCH",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "水生生物跨水域放置與外來種風險不等於特定水生動物形態適應 KP。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_008|S01|TF|008",
+      "paper_id": "SCI_G04_S1_114_MID_008",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "清理學校的生態池會干擾生長在其中的生物，所以不要定期實施。",
+      "options": [],
+      "original_proposed_kp": "sci_g04s1_02_11",
+      "model_kp_review_conclusion": "BOUNDARY_NOT_EXACT",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "定期清理生態池的生態衝擊與 02_11 水域污染概念相近，但不屬完全相同技能。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|007",
+      "paper_id": "SCI_G04_S1_114_FINAL_005",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "如果要讓自製的小型電風扇轉得更快，下列哪一個方法可以做得到？",
+      "options": [
+        {
+          "label": "(1)",
+          "text": "換成大一點的風車葉片"
+        },
+        {
+          "label": "(2)",
+          "text": "多串聯幾個電池"
+        },
+        {
+          "label": "(3)",
+          "text": "多連接幾個風車葉片"
+        },
+        {
+          "label": "(4)",
+          "text": "不要設置開關的構造。"
+        }
+      ],
+      "original_proposed_kp": "sci_g04s1_04_10",
+      "model_kp_review_conclusion": "BOUNDARY_NOT_EXACT",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "風扇轉速與 04_10 小馬達電池極性所影響的轉向不同。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|015",
+      "paper_id": "SCI_G04_S1_114_FINAL_005",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "小明將兩面鏡子面對面放置，並調整鏡子的夾角，他發現鏡子中的影像數量會隨著夾角的變化而改變。請問以下哪個敘述是正確的？",
+      "options": [
+        {
+          "label": "(1)",
+          "text": "鏡子夾角為直角時，影像數量最多"
+        },
+        {
+          "label": "(2)",
+          "text": "影像數量與鏡子夾角的大小無關"
+        },
+        {
+          "label": "(3)",
+          "text": "鏡子夾角越小，影像數量越多"
+        },
+        {
+          "label": "(4)",
+          "text": "鏡子夾角越大，影像數量越多。"
+        }
+      ],
+      "original_proposed_kp": "sci_g04s1_03_07",
+      "model_kp_review_conclusion": "MODEL_DIRECT_CANDIDATE",
+      "model_kp_candidate": "sci_g04s1_03_07",
+      "kp_alignment_review_reason": "鏡面夾角影響多重反射影像，可直接歸入光的反射現象，但來源內容仍須人工核對。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|011",
+      "paper_id": "SCI_G04_S1_114_FINAL_006",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "發光二極體(LED)比傳統的燈泡更省電，壽命更長，有不同的規格，使用時要注意電壓的限制。",
+      "options": [],
+      "original_proposed_kp": null,
+      "model_kp_review_conclusion": "NO_DIRECT_MATCH",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "LED 能耗、壽命與耐壓規格沒有四上當前獨立 KP。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|014",
+      "paper_id": "SCI_G04_S1_114_FINAL_006",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "通路中的電流是由電池的負極流向電池的正極。",
+      "options": [],
+      "original_proposed_kp": null,
+      "model_kp_review_conclusion": "NO_DIRECT_MATCH",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "電流傳統方向的概念未列於現行四上電路 KP。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|015",
+      "paper_id": "SCI_G04_S1_114_FINAL_006",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "用小馬達自製簡易風扇，怎樣做可以讓風扇的風更強？",
+      "options": [
+        {
+          "label": "①",
+          "text": "並聯兩個電池"
+        },
+        {
+          "label": "②",
+          "text": "串聯兩個電池"
+        },
+        {
+          "label": "③",
+          "text": "連接一個燈泡"
+        },
+        {
+          "label": "④",
+          "text": "改變電池的正負極方向"
+        }
+      ],
+      "original_proposed_kp": "sci_g04s1_04_10",
+      "model_kp_review_conclusion": "BOUNDARY_NOT_EXACT",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "風扇風力/轉速與 04_10 極性造成的旋轉方向非同一技能。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|017",
+      "paper_id": "SCI_G04_S1_114_FINAL_006",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "下列哪一個使用電池的注意事項是正確的？",
+      "options": [
+        {
+          "label": "①",
+          "text": "新舊電池可以混用"
+        },
+        {
+          "label": "②",
+          "text": "長期不使用的電器要將電池取出"
+        },
+        {
+          "label": "③",
+          "text": "廢棄電池直接丟垃圾桶"
+        },
+        {
+          "label": "④",
+          "text": "所有的電池都可以充電再使用"
+        }
+      ],
+      "original_proposed_kp": "sci_g04s1_04_11",
+      "model_kp_review_conclusion": "BOUNDARY_NOT_EXACT",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "電池使用注意事項不能直接歸為 04_11 廢電池回收。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|006",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "電器不使用時，電池也可以繼續裝在裡面沒有關係。",
+      "options": [],
+      "original_proposed_kp": null,
+      "model_kp_review_conclusion": "BOUNDARY_NOT_EXACT",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "長時間閒置可能漏液屬安全常識，02 題庫的 04_12 用電安全可鄰近但需教材確認。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|015",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "夏天的午後會時常會有雷陣雨，會先看到閃電，然後才聽到雷聲，這是因為光的速度比聲音的速度快。",
+      "options": [],
+      "original_proposed_kp": null,
+      "model_kp_review_conclusion": "NO_DIRECT_MATCH",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "閃電雷聲時間差涉及聲光速度，比 03_03 的聲音需要介質更具體，未獨立列 KP。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S02|MC|007",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "若熙將兩面鏡子面對面放置，並調整鏡子的夾角，她發現鏡子中的影像數量會隨著夾角的變化而改變。請問以下哪個敘述是正確的？",
+      "options": [
+        {
+          "label": "①",
+          "text": "鏡子夾角越大，影像數量越多"
+        },
+        {
+          "label": "②",
+          "text": "鏡子夾角越小，影像數量越多"
+        },
+        {
+          "label": "③",
+          "text": "鏡子夾角的大小與影像數量無關"
+        },
+        {
+          "label": "④",
+          "text": "鏡子夾角為直角時，影像數量最多。"
+        }
+      ],
+      "original_proposed_kp": "sci_g04s1_03_07",
+      "model_kp_review_conclusion": "MODEL_DIRECT_CANDIDATE",
+      "model_kp_candidate": "sci_g04s1_03_07",
+      "kp_alignment_review_reason": "鏡子夾角與多重影像直接涉及反射原理。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S02|MC|017",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "下列哪一種方法可以改變小馬達的轉動方向？",
+      "options": [
+        {
+          "label": "①",
+          "text": "增加電線長度"
+        },
+        {
+          "label": "②",
+          "text": "改變電池品牌"
+        },
+        {
+          "label": "③",
+          "text": "增加電池數量"
+        },
+        {
+          "label": "④",
+          "text": "改變電池的正負極方向。"
+        }
+      ],
+      "original_proposed_kp": "sci_g04s1_04_10",
+      "model_kp_review_conclusion": "MODEL_DIRECT_CANDIDATE",
+      "model_kp_candidate": "sci_g04s1_04_10",
+      "kp_alignment_review_reason": "改變電池接法極性使馬達反轉，直接對應小馬達與電池極性。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_008|S01|TF|009",
+      "paper_id": "SCI_G04_S1_114_FINAL_008",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-final28-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "為了方便起見，就算不常使用的電器，乾電池也不需要拿出來，不會有任何影響。",
+      "options": [],
+      "original_proposed_kp": null,
+      "model_kp_review_conclusion": "BOUNDARY_NOT_EXACT",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "留置電池的安全風險可能與 04_12 相關，但未確認正式課本具體語句。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_008|S02|MC|014",
+      "paper_id": "SCI_G04_S1_114_FINAL_008",
+      "source_content_ref": "data/content-only/p12-art9-114-mingyi-g04s1-final28-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "增加小型電風扇的電池數量，並用串聯的方式連接時，會有什麼好處？",
+      "options": [
+        {
+          "label": "①",
+          "text": "使風扇轉得更快"
+        },
+        {
+          "label": "②",
+          "text": "讓電力持久"
+        },
+        {
+          "label": "③",
+          "text": "延長小型電風扇的使用期限"
+        },
+        {
+          "label": "④",
+          "text": "方便觀察風扇葉片轉動的方向。"
+        }
+      ],
+      "original_proposed_kp": "sci_g04s1_04_10",
+      "model_kp_review_conclusion": "BOUNDARY_NOT_EXACT",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "增加串聯電池以提高馬達轉速，不能僅因有馬達而歸在極性反轉 04_10。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S1|TF|005",
+      "paper_id": "SCI_G04_S1_114_FINAL_009",
+      "source_content_ref": "data/content-only/p12-art9-114-wengzi-g04s1-final15-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "小馬達可以讓風扇轉動，小瑛想要讓玩具小風扇轉動的速度更快，她可以增加串聯的電池數量。",
+      "options": [],
+      "original_proposed_kp": "sci_g04s1_04_10",
+      "model_kp_review_conclusion": "BOUNDARY_NOT_EXACT",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "風扇加速與電池串接不是 04_10 已明確定義的極性方向關係。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|008",
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "育揚到小琉球進行浮潛，會看見許多珊瑚礁還有海龜，可以就近觀察、輕輕觸碰牠們。",
+      "options": [],
+      "original_proposed_kp": null,
+      "model_kp_review_conclusion": "NO_DIRECT_MATCH",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "觸碰珊瑚或海龜是野生動物接觸倫理，未必等於水域污染的 KP。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|009",
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "根據國際拉姆薩濕地公約的定義，無論是天然或人為，只要水深低潮時不超過六公尺，都屬於濕地水域。",
+      "options": [],
+      "original_proposed_kp": null,
+      "model_kp_review_conclusion": "NO_DIRECT_MATCH",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "濕地公約定義是法規文本與觀察範圍，並非四上列名 KP。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|010",
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json",
+      "question_type": "TRUE_FALSE",
+      "question_stem": "為了保護水生生物，人類應該不過度捕撈，讓生態資源能永續繁衍。",
+      "options": [],
+      "original_proposed_kp": null,
+      "model_kp_review_conclusion": "BOUNDARY_NOT_EXACT",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "禁止過度捕撈與水域資源保育重要，但 02_11 正式標題限定水域污染對生物影響。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|014",
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json",
+      "question_type": "SINGLE_CHOICE",
+      "question_stem": "下列何者並非人類能從海洋中取得的資源？",
+      "options": [
+        {
+          "label": "①",
+          "text": "食用海鮮水產"
+        },
+        {
+          "label": "②",
+          "text": "珊瑚礁岩建材"
+        },
+        {
+          "label": "③",
+          "text": "提供遠洋貨運"
+        },
+        {
+          "label": "④",
+          "text": "精製糖粉"
+        }
+      ],
+      "original_proposed_kp": "sci_g04s1_02_10",
+      "model_kp_review_conclusion": "NEEDS_FULL_OPTIONS",
+      "model_kp_candidate": null,
+      "kp_alignment_review_reason": "海洋資源取得可能涉及 02_10 飲食，但需核對四個選項是否真的評量飲食習慣。",
+      "formal_kp_approved": false,
+      "operator_reviewed": false
+    }
+  ],
+  "scoreless": true,
+  "website_admission": false
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "SCIENCE_ACTIVE_CONTENT_ONLY_ROUTING_V1",
+  "scope": "ALL_GRADES_ALL_SEMESTERS_ALL_EXAMS_AND_KP_UNITS",
+  "authority": "data/governance/science-global-no-scoring-authority-v1.json",
+  "active_source_index": "data/source-archive/p12-art9-114-g04s1-public-original-source-corpus-current-v25.json",
+  "active_review_queue": "data/review/p12-standalone-all25-source-content-only-queue-v2.json",
+  "source_display_transform": "site/assets/js/scoreless-contract.mjs",
+  "learner_exam_page": "site/exam/index.html",
+  "operator_review_mode": "QUESTION_TEXT_SCIENCE_KP_DEPENDENCIES_AND_QUALITY",
+  "question_selection_basis": "QUESTION_COUNT",
+  "answer_evaluation_basis": "CORRECT_ANSWER_WITH_EXPLANATION",
+  "original_pdf_is_read_only": true,
+  "historical_examination_maps_are_evidence_not_active_processing": true,
+  "source_original_papers": 25,
+  "current_original_occurrences": 717,
+  "pending_science_model_holds": 73,
+  "pending_kp_reviews": 81,
+  "site_publication_requires_operator_approval": true,
+  "next_execution": "P12_ALL25_B03_Science73_KP81_SourceQuestionQualityReview_NoScoring"
+}

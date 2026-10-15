@@ -53,6 +53,7 @@ test("P12 addition does not alter frozen 72 OX and 20 context group assets",asyn
  const b03=read("site/data/question-bank/p12-b04-b03-41-public-v1.json");
  const b04next=read("site/data/question-bank/p12-b04-b04-47-public-v1.json");
  const b05=read("site/data/question-bank/p12-b04-b05-40-public-v1.json");
+ const b06=read("site/data/question-bank/p12-b04-b06-47-public-v1.json");
  assert.equal(old.blocks.length,72);
  assert.equal(contexts.groups.length,20);
  assert.equal(contexts.expected_answer_slots,76);
@@ -60,16 +61,16 @@ test("P12 addition does not alter frozen 72 OX and 20 context group assets",asyn
  globalThis.fetch=async url=>({
   ok:true,
   json:async()=>structuredClone(url.includes("approved-historical-ox-v4")?old:
-   url.includes("certified-context-groups-content-v3")?contentContexts:url.includes("remaining51-public-v1")?remaining:url.includes("remaining51-operator-public-approval-v1")?approval:url.includes("p12-g03s2final-46-public-v1")?g03Final:url.includes("p12-g03s2final-46-operator-public-approval-v1")?finalApproval:url.includes("p12-b04-g04s1-yongan-mid9-public-v1")?b04:url.includes("p12-b04-g04s1-chongde-mid6-public-v1")?chongde:url.includes("p12-b04-b01-47-public-v1")?b01:url.includes("p12-b04-b02-41-public-v1")?b02:url.includes("p12-b04-b03-41-public-v1")?b03:url.includes("p12-b04-b04-47-public-v1")?b04next:url.includes("p12-b04-b05-40-public-v1")?b05:supplement)
+   url.includes("certified-context-groups-content-v3")?contentContexts:url.includes("remaining51-public-v1")?remaining:url.includes("remaining51-operator-public-approval-v1")?approval:url.includes("p12-g03s2final-46-public-v1")?g03Final:url.includes("p12-g03s2final-46-operator-public-approval-v1")?finalApproval:url.includes("p12-b04-g04s1-yongan-mid9-public-v1")?b04:url.includes("p12-b04-g04s1-chongde-mid6-public-v1")?chongde:url.includes("p12-b04-b01-47-public-v1")?b01:url.includes("p12-b04-b02-41-public-v1")?b02:url.includes("p12-b04-b03-41-public-v1")?b03:url.includes("p12-b04-b04-47-public-v1")?b04next:url.includes("p12-b04-b05-40-public-v1")?b05:url.includes("p12-b04-b06-47-public-v1")?b06:supplement)
  });
  try{
   const all=await loadEmbeddedHistoricalBank(authority);
   assert.equal(all.admission,"EMBEDDED_CERTIFIED_HISTORICAL");
-  assert.equal(all.certifiedAnswerSlots,482);
-  assert.equal(all.certifiedTrueFalse,205);
-  assert.equal(all.certifiedStandaloneChoice,142);
+  assert.equal(all.certifiedAnswerSlots,529);
+  assert.equal(all.certifiedTrueFalse,242);
+  assert.equal(all.certifiedStandaloneChoice,152);
   assert.equal(all.certifiedGroupCount,36);
-  assert.equal(all.blocks.length,72+20+5+27+28+9+6+47+41+41+47+40);
+  assert.equal(all.blocks.length,72+20+5+27+28+9+6+47+41+41+47+40+47);
   assert.equal(new Set(all.blocks.map(b=>b.id)).size,all.blocks.length);
  }finally{globalThis.fetch=oldFetch}
 });

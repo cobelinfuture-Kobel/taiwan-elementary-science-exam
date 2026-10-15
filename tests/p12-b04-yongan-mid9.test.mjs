@@ -22,7 +22,7 @@ test("B04 nine release matches original source text, ordered options, answers, K
   assert.ok(s&&r,"source/review missing");
   assert.equal(b.stem,s.full_original_stem);
   assert.deepEqual(b.options??[],s.full_original_options_in_order.map(o=>o.label+o.text));
-  assert.deepEqual(b.source_answer_marker_bbox_pts_top_left,s.answer_marker_pdf_bbox_pts_top_left);
+  assert.deepEqual(b.source_pdf_bbox_pts_top_left,s.answer_marker_pdf_bbox_pts_top_left);
   assert.equal(b.canonical_kp_id,s.primary_canonical_kp_id_proposed);
   assert.equal(b.answer,r.answer_independently_reviewed);
   assert.equal(b.stem,r.original_full_stem);
@@ -38,7 +38,7 @@ test("B04 fails closed on answer, KP, geometry, source or rights tampering",()=>
  for(const mutate of [
   b=>{b.blocks[0].answer="O";},
   b=>{b.blocks[0].canonical_kp_id="sci_g04s1_02_01";},
-  b=>{b.blocks[0].source_answer_marker_bbox_pts_top_left=null;},
+  b=>{b.blocks[0].source_pdf_bbox_pts_top_left=null;},
   b=>{b.blocks[0].source_pdf_sha256="0".repeat(64);},
   b=>{b.blocks[0].dependency_review_verified=false;},
   b=>{b.blocks[0].options=["①A"];}

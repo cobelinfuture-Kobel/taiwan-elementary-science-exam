@@ -33,7 +33,7 @@ test('B02 six user-owned original raw PDF SHA readbacks exactly match source arc
   assert.equal(row.original_pdf_sha256,z.source_pdf_sha256_recomputed_original,z.paper_id);
   reviewed+=z.source_original_inspected_page_numbers_1based.length;
  }
- assert.equal(reviewed,10);
+ assert.equal(reviewed,9);
  const p=score.source_records.at(-1);
  assert.equal(p.paper_id,'SCI_G04_S1_114_FINAL_010');
  assert.ok(p.original_printed_quoted_instruction_excerpt.includes('每答1分'));

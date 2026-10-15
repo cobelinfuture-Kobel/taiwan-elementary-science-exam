@@ -65,7 +65,7 @@ test('P12 each of the 25 source archive JSONs and source QA references actually 
  }
  assert.deepEqual([n,tf,mc,options],[717,426,291,1164]);
  assert.deepEqual([sciencePass,scienceHold],[644,73]);
- assert.equal(legacy,26);
+ assert.equal(legacy,0); // B01 contract-normalized 26 rows; frozen predecessor audit still records original defect
  assert.equal(siteYes,0);
 });
 test('P12 source-only Science644/73 and provisional KP470/81/166 never equal formal admission',()=>{
@@ -106,12 +106,15 @@ test('P12 25 original PDF modal historical snapshot has unresolved 6-position mo
  assert.equal(rows.filter(x=>x.source_modality==='TEXT_LAYER').length,21);
  assert.equal(closeout.scan_visual_bbox_gate.pixel_exact_acceptance_complete,false);
 });
-test('P12 older 東光MID26 source-item schema gaps are explicit and Science/KP QA is linked, not silently filled',()=>{
+test('P12 historical 東光MID26 audit defect retained while B01 source-row QA contract now materialized',()=>{
  const z=rows.find(x=>x.paper_id==='SCI_G04_S1_114_MID_008');
  assert.equal(z.source_row_question_type_missing,26);
  assert.equal(z.source_row_science_review_missing,26);
  assert.equal(z.source_row_kp_review_missing,26);
- assert.equal(closeout.legacy_schema_defect.missing_row_question_type_count,26);
+ assert.equal(closeout.legacy_schema_defect.missing_row_question_type_count,26); // frozen historical evidence
+ const now=read(z.source_archive_ref);
+ assert.equal(now.original_question_records.filter(x=>!x.question_type||!x.science_review_status||!x.kp_review_status).length,0);
+ assert.equal(now.legacy_contract_original_wording_unchanged,true);
  const qa=read(z.science_review_ref);
  assert.equal(qa.model_science_preliminary_pass,23);
  assert.equal(qa.model_science_hold,3);

@@ -162,6 +162,10 @@ try {
   assert.equal(await live.locator(".group-context .question").count(),12);
   assert.ok((await live.locator(".paper[data-answer='true']").first().innerText()).includes("③"),"group answers must be retained");
   await live.screenshot({path:output+"/s3-p08-first-approved-context.png",fullPage:true});
+  // B01 introduces additional standalone questions for some of the same KP.
+  // Pin group-first ordering before atomic-context assertions so the browser
+  // validates the frozen source group, not a valid one-slot standalone item.
+  await live.selectOption("#order","group");
   const groupCases=[
     ["3","3-S1-U02","sci_g03s1_02_09",12],
     ["3","3-S1-U02","sci_g03s1_02_06",8],

@@ -1,0 +1,74 @@
+{
+  "schema_version": "P12_ALL25_B03_OTHER_FORMAT_INITIAL_CLASSIFICATION_V1",
+  "paper_rows": [
+    {
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "original_positions": 39,
+      "standalone_source_count": 24,
+      "remaining_position_count": 15,
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-mid-39-source-kp-first-v1.json",
+      "map_item_count": 39,
+      "original_source_format_labels": {
+        "TF": 12,
+        "MC": 12,
+        "G01": 15
+      },
+      "classification_status": "SOURCE_MAP_GROUP_LABELS_NOT_INDEPENDENT_QUESTION_CERTIFICATION"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_008",
+      "original_positions": 60,
+      "standalone_source_count": 26,
+      "remaining_position_count": 34,
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-dongguang-mid-60-source-manifest-v1.json",
+      "map_item_count": 0,
+      "original_source_format_labels": {},
+      "classification_status": "SOURCE_MAP_GROUP_LABELS_NOT_INDEPENDENT_QUESTION_CERTIFICATION"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_positions": 64,
+      "standalone_source_count": 28,
+      "remaining_position_count": 36,
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-dadun-final-64-source-map-v1.json",
+      "map_item_count": 64,
+      "original_source_format_labels": {
+        "TF": 15,
+        "MC": 15,
+        "G01A": 6,
+        "G01B": 4,
+        "G01C": 2,
+        "G02": 4,
+        "G03": 4,
+        "G04": 4,
+        "READ1": 5,
+        "READ2": 5
+      },
+      "classification_status": "SOURCE_MAP_GROUP_LABELS_NOT_INDEPENDENT_QUESTION_CERTIFICATION"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_positions": 79,
+      "standalone_source_count": 31,
+      "remaining_position_count": 48,
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-minquan-final-79-source-map-v1.json",
+      "map_item_count": 79,
+      "original_source_format_labels": {
+        "TF": 14,
+        "MC": 18,
+        "G01": 6,
+        "G02": 6,
+        "G03": 5,
+        "G04": 3,
+        "G05": 5,
+        "G06": 8,
+        "G07": 1,
+        "G08A": 6,
+        "G08B": 7
+      },
+      "classification_status": "SOURCE_MAP_GROUP_LABELS_NOT_INDEPENDENT_QUESTION_CERTIFICATION"
+    }
+  ],
+  "original_content_only": true,
+  "all_contexts_and_diagrams_still_require_exact_qa": true
+}

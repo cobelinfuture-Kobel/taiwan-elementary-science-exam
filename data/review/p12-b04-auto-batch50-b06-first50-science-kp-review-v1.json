@@ -2,8 +2,8 @@
   "schema_version": "P12_B04_AUTO_BATCH50_B06_SOURCE_SCIENCE_KP_REVIEW_V1",
   "batch": "B06",
   "source_positions": 50,
-  "model_ready_for_formal_review": 34,
-  "hold_count": 16,
+  "model_ready_for_formal_review": 45,
+  "hold_count": 5,
   "original_pdf_text_readback": "FIVE_GOOGLE_DRIVE_PDFS_2026_10_15",
   "original_teacher_answer_key_authenticated": false,
   "source_question_labels_immutable": true,
@@ -1157,10 +1157,10 @@
       "science_formal_approval": false,
       "kp_formal_approval": false,
       "public_admitted": false,
-      "model_review_state": "EXCEPTION_HOLD",
-      "hold_flags": [
-        "EXACT_SOURCE_TEXT_CHOICES_DIVERGE"
-      ]
+      "model_review_state": "MODEL_SCIENCE_READY_FOR_FORMAL_KP_QA",
+      "hold_flags": [],
+      "source_archive_full_stem_including_points": "下列關於「光」的敘述，正確畫○，不正確打〤。(8 分)\n影子的形狀通常與物體的形狀相似。",
+      "score_only_transcription_delta": true
     },
     {
       "ordinal": 40,
@@ -1187,10 +1187,10 @@
       "science_formal_approval": false,
       "kp_formal_approval": false,
       "public_admitted": false,
-      "model_review_state": "EXCEPTION_HOLD",
-      "hold_flags": [
-        "EXACT_SOURCE_TEXT_CHOICES_DIVERGE"
-      ]
+      "model_review_state": "MODEL_SCIENCE_READY_FOR_FORMAL_KP_QA",
+      "hold_flags": [],
+      "source_archive_full_stem_including_points": "下列關於「光」的敘述，正確畫○，不正確打〤。(8 分)\n影子與光源的方向相同。",
+      "score_only_transcription_delta": true
     },
     {
       "ordinal": 41,
@@ -1217,10 +1217,10 @@
       "science_formal_approval": false,
       "kp_formal_approval": false,
       "public_admitted": false,
-      "model_review_state": "EXCEPTION_HOLD",
-      "hold_flags": [
-        "EXACT_SOURCE_TEXT_CHOICES_DIVERGE"
-      ]
+      "model_review_state": "MODEL_SCIENCE_READY_FOR_FORMAL_KP_QA",
+      "hold_flags": [],
+      "source_archive_full_stem_including_points": "下列關於「光」的敘述，正確畫○，不正確打〤。(8 分)\n有打開開關的手電筒，是一種光源。",
+      "score_only_transcription_delta": true
     },
     {
       "ordinal": 42,
@@ -1247,10 +1247,10 @@
       "science_formal_approval": false,
       "kp_formal_approval": false,
       "public_admitted": false,
-      "model_review_state": "EXCEPTION_HOLD",
-      "hold_flags": [
-        "EXACT_SOURCE_TEXT_CHOICES_DIVERGE"
-      ]
+      "model_review_state": "MODEL_SCIENCE_READY_FOR_FORMAL_KP_QA",
+      "hold_flags": [],
+      "source_archive_full_stem_including_points": "下列關於「光」的敘述，正確畫○，不正確打〤。(8 分)\n月亮會發光，所以它和太陽一樣是光源",
+      "score_only_transcription_delta": true
     },
     {
       "ordinal": 43,
@@ -1277,10 +1277,10 @@
       "science_formal_approval": false,
       "kp_formal_approval": false,
       "public_admitted": false,
-      "model_review_state": "EXCEPTION_HOLD",
-      "hold_flags": [
-        "EXACT_SOURCE_TEXT_CHOICES_DIVERGE"
-      ]
+      "model_review_state": "MODEL_SCIENCE_READY_FOR_FORMAL_KP_QA",
+      "hold_flags": [],
+      "source_archive_full_stem_including_points": "下列關於「光」的敘述，正確畫○，不正確打〤。(8 分)\n在黑暗中只要有手電筒，就能看見所有物體。",
+      "score_only_transcription_delta": true
     },
     {
       "ordinal": 44,
@@ -1307,10 +1307,10 @@
       "science_formal_approval": false,
       "kp_formal_approval": false,
       "public_admitted": false,
-      "model_review_state": "EXCEPTION_HOLD",
-      "hold_flags": [
-        "EXACT_SOURCE_TEXT_CHOICES_DIVERGE"
-      ]
+      "model_review_state": "MODEL_SCIENCE_READY_FOR_FORMAL_KP_QA",
+      "hold_flags": [],
+      "source_archive_full_stem_including_points": "下列情況能發出聲音的畫○，不能打〤。(7 分)\n吹奏直笛。",
+      "score_only_transcription_delta": true
     },
     {
       "ordinal": 45,
@@ -1337,10 +1337,10 @@
       "science_formal_approval": false,
       "kp_formal_approval": false,
       "public_admitted": false,
-      "model_review_state": "EXCEPTION_HOLD",
-      "hold_flags": [
-        "EXACT_SOURCE_TEXT_CHOICES_DIVERGE"
-      ]
+      "model_review_state": "MODEL_SCIENCE_READY_FOR_FORMAL_KP_QA",
+      "hold_flags": [],
+      "source_archive_full_stem_including_points": "下列情況能發出聲音的畫○，不能打〤。(7 分)\n傾盆大雨。",
+      "score_only_transcription_delta": true
     },
     {
       "ordinal": 46,
@@ -1369,9 +1369,10 @@
       "public_admitted": false,
       "model_review_state": "EXCEPTION_HOLD",
       "hold_flags": [
-        "GARDEN_SOUND_SOURCE_NOT_SPECIFIED",
-        "EXACT_SOURCE_TEXT_CHOICES_DIVERGE"
-      ]
+        "GARDEN_SOUND_SOURCE_NOT_SPECIFIED"
+      ],
+      "source_archive_full_stem_including_points": "下列情況能發出聲音的畫○，不能打〤。(7 分)\n欣賞美麗的花園。",
+      "score_only_transcription_delta": true
     },
     {
       "ordinal": 47,
@@ -1398,10 +1399,10 @@
       "science_formal_approval": false,
       "kp_formal_approval": false,
       "public_admitted": false,
-      "model_review_state": "EXCEPTION_HOLD",
-      "hold_flags": [
-        "EXACT_SOURCE_TEXT_CHOICES_DIVERGE"
-      ]
+      "model_review_state": "MODEL_SCIENCE_READY_FOR_FORMAL_KP_QA",
+      "hold_flags": [],
+      "source_archive_full_stem_including_points": "下列情況能發出聲音的畫○，不能打〤。(7 分)\n在水中敲木魚。",
+      "score_only_transcription_delta": true
     },
     {
       "ordinal": 48,
@@ -1428,10 +1429,10 @@
       "science_formal_approval": false,
       "kp_formal_approval": false,
       "public_admitted": false,
-      "model_review_state": "EXCEPTION_HOLD",
-      "hold_flags": [
-        "EXACT_SOURCE_TEXT_CHOICES_DIVERGE"
-      ]
+      "model_review_state": "MODEL_SCIENCE_READY_FOR_FORMAL_KP_QA",
+      "hold_flags": [],
+      "source_archive_full_stem_including_points": "下列情況能發出聲音的畫○，不能打〤。(7 分)\n朗讀課文。",
+      "score_only_transcription_delta": true
     },
     {
       "ordinal": 49,
@@ -1458,10 +1459,10 @@
       "science_formal_approval": false,
       "kp_formal_approval": false,
       "public_admitted": false,
-      "model_review_state": "EXCEPTION_HOLD",
-      "hold_flags": [
-        "EXACT_SOURCE_TEXT_CHOICES_DIVERGE"
-      ]
+      "model_review_state": "MODEL_SCIENCE_READY_FOR_FORMAL_KP_QA",
+      "hold_flags": [],
+      "source_archive_full_stem_including_points": "下列情況能發出聲音的畫○，不能打〤。(7 分)\n靜置的太鼓。",
+      "score_only_transcription_delta": true
     },
     {
       "ordinal": 50,
@@ -1488,10 +1489,11 @@
       "science_formal_approval": false,
       "kp_formal_approval": false,
       "public_admitted": false,
-      "model_review_state": "EXCEPTION_HOLD",
-      "hold_flags": [
-        "EXACT_SOURCE_TEXT_CHOICES_DIVERGE"
-      ]
+      "model_review_state": "MODEL_SCIENCE_READY_FOR_FORMAL_KP_QA",
+      "hold_flags": [],
+      "source_archive_full_stem_including_points": "下列關於「光的反射」敘述，正確畫○，不正確打〤。(9 分)\n萬花筒能看到對稱圖案，是因為光的反射。",
+      "score_only_transcription_delta": true
     }
-  ]
+  ],
+  "source_score_annotation_only_delta_verified": 12
 }

@@ -1,0 +1,182 @@
+{
+  "schema_version": "P12_ALL25_B01_SCIENCE_KP_TRIAGE_INDEX_V1",
+  "source_only_triage_not_formal_acceptance": true,
+  "source_original_question_occurrences_unmodified": 717,
+  "source_original_papers": 25,
+  "science_model_hold_queue_count": 73,
+  "kp_review_queue_count": 81,
+  "science_and_kp_intersection_count": 8,
+  "science_and_kp_intersection_source_ids": [
+    "SCI_G04_S1_114_FINAL_003|S02|MC|002",
+    "SCI_G04_S1_114_FINAL_007|S01|TF|006",
+    "SCI_G04_S1_114_FINAL_008|S02|MC|014",
+    "SCI_G04_S1_114_FINAL_009|S1|TF|005",
+    "SCI_G04_S1_114_MID_010|S01|TF|009",
+    "SCI_G04_S1_114_MID_011|Q01|005",
+    "SCI_G04_S1_114_FINAL_012|Q08|005",
+    "SCI_G04_S1_114_MID_002|S2|TF|015"
+  ],
+  "distinct_question_sources_in_either_queue": 146,
+  "kp_outside_current_g04s1_source_occurrences_not_falsely_reclassified": 166,
+  "science_hold_rows_with_existing_explicit_reason": 47,
+  "science_hold_rows_where_reason_needs_exact_qa_source_readback": 26,
+  "reason_missing_behavior": "Keep link to existing original science QA; do not fabricate scientific explanation or approve key",
+  "shards": [
+    "data/review/p12-all25-b01-science-kp-triage-shard01-v1.json",
+    "data/review/p12-all25-b01-science-kp-triage-shard02-v1.json",
+    "data/review/p12-all25-b01-science-kp-triage-shard03-v1.json"
+  ],
+  "shard_counts": [
+    {
+      "index": 1,
+      "science": 12,
+      "kp": 23
+    },
+    {
+      "index": 2,
+      "science": 31,
+      "kp": 21
+    },
+    {
+      "index": 3,
+      "science": 30,
+      "kp": 37
+    }
+  ],
+  "per_paper_triage_summary": [
+    {
+      "id": "SCI_G04_S1_114_MID_001",
+      "science_hold": 2,
+      "kp_review": 3
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_001",
+      "science_hold": 2,
+      "kp_review": 5
+    },
+    {
+      "id": "SCI_G04_S1_114_MID_003",
+      "science_hold": 1,
+      "kp_review": 1
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_003",
+      "science_hold": 2,
+      "kp_review": 5
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_004",
+      "science_hold": 1,
+      "kp_review": 3
+    },
+    {
+      "id": "SCI_G04_S1_114_MID_004",
+      "science_hold": 1,
+      "kp_review": 3
+    },
+    {
+      "id": "SCI_G04_S1_114_MID_005",
+      "science_hold": 1,
+      "kp_review": 2
+    },
+    {
+      "id": "SCI_G04_S1_114_MID_006",
+      "science_hold": 2,
+      "kp_review": 1
+    },
+    {
+      "id": "SCI_G04_S1_114_MID_007",
+      "science_hold": 7,
+      "kp_review": 2
+    },
+    {
+      "id": "SCI_G04_S1_114_MID_008",
+      "science_hold": 3,
+      "kp_review": 2
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_005",
+      "science_hold": 2,
+      "kp_review": 2
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_006",
+      "science_hold": 1,
+      "kp_review": 4
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_007",
+      "science_hold": 6,
+      "kp_review": 4
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_008",
+      "science_hold": 3,
+      "kp_review": 2
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_009",
+      "science_hold": 4,
+      "kp_review": 1
+    },
+    {
+      "id": "SCI_G04_S1_114_MID_010",
+      "science_hold": 5,
+      "kp_review": 4
+    },
+    {
+      "id": "SCI_G04_S1_114_MID_011",
+      "science_hold": 9,
+      "kp_review": 11
+    },
+    {
+      "id": "SCI_G04_S1_114_MID_012",
+      "science_hold": 1,
+      "kp_review": 4
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_011",
+      "science_hold": 1,
+      "kp_review": 1
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_012",
+      "science_hold": 4,
+      "kp_review": 6
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_013",
+      "science_hold": 1,
+      "kp_review": 2
+    },
+    {
+      "id": "SCI_G04_S1_114_MID_002",
+      "science_hold": 9,
+      "kp_review": 5
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_002",
+      "science_hold": 2,
+      "kp_review": 2
+    },
+    {
+      "id": "SCI_G04_S1_114_MID_009",
+      "science_hold": 1,
+      "kp_review": 6
+    },
+    {
+      "id": "SCI_G04_S1_114_FINAL_010",
+      "science_hold": 2,
+      "kp_review": 0
+    }
+  ],
+  "review_gate": {
+    "school_teacher_keys_authenticated": 0,
+    "model_science_formally_approved": 0,
+    "canonical_kp_formally_approved": 0,
+    "student_site_admissions": 0
+  },
+  "science_review_operator_instruction": "For each Science HOLD check the original exact full question text and complete choice list against the frozen PDF, establish if one unambiguous answer follows; if not, retain HOLD or exclude from student use.",
+  "kp_review_operator_instruction": "For each KP REVIEW compare original question intent and source scene against current authorized Kanghsuan canonical KP; preserve nonmatches and source-frozen old lineage; 普仁期中 six floating/submerged item classifications must remain reviewer-gated.",
+  "next_after_this_batch": "P12_ALL25_B02_ScoreGap27OperatorEvidenceThenScience73KPHumanTriage"
+}

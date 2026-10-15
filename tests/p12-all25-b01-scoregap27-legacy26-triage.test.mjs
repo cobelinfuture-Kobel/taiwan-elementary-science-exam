@@ -1,0 +1,117 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const read=p=>JSON.parse(readFileSync(p,'utf8'));
+const prefix='data/review/p12-all25-b01-';
+const score=read(prefix+'source-score-gap27-evidence-ledger-v1.json');
+const triage=read(prefix+'science73-kp81-triage-index-v1.json');
+const shards=triage.shards.map(read);
+const source=read('data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json');
+const marker=read('data/source-archive/p12-art9-114-dongguang-mid26-pdf-marker-science-kp-v1.json');
+const qa=read('data/review/p12-art9-114-dongguang-mid26-science-kp-secondpass-v1.json');
+const v24=read('data/source-archive/p12-art9-114-g04s1-public-original-source-corpus-current-v24.json');
+const q=read('data/review/p12-standalone-all25-source-first-queue-v1.json');
+const older=read('data/review/p12-standalone-all25-firstpass-closeout-blocker-ledger-v1.json');
+test('B01 source-score review explicitly leaves six frozen school papers and all 27 score points unresolved',()=>{
+ assert.equal(score.total_known_unreconciled_points,27);
+ assert.equal(score.unreconciled_original_papers,6);
+ assert.equal(score.historical_v17_points,21);
+ assert.equal(score.additional_b23_points,6);
+ assert.equal(score.score_gap_resolved_points,0);
+ assert.equal(score.score_gap_still_open_points,27);
+ assert.equal(score.scoring_authority_accepted_count,0);
+ assert.equal(score.source_original_answer_position_denominator_unchanged,1623);
+ assert.deepEqual(score.source_review_cases.map(x=>x.gap),[4,8,2,3,4,6]);
+ assert.equal(new Set(score.source_review_cases.map(x=>x.paper_id)).size,6);
+ assert.equal(score.source_review_cases.reduce((n,x)=>n+x.gap,0),27);
+ assert.equal(older.source_score_ledger.known_unreconciled_score_total,27);
+ assert.equal(v24.source_position_frozen_all25_total,1623);
+ for(const x of score.source_review_cases){
+  const map=read(x.source_map_ref);
+  assert.equal(map.source_candidate_id,x.paper_id);
+  assert.ok(x.evidence.length>50);
+  assert.match(x.decision,/^HOLD_/);
+  assert.ok(x.required.length>20);
+ }
+ const last=score.source_review_cases.at(-1);
+ assert.equal(last.observed.g05_printed_weight_each,1);
+ assert.equal(last.observed.g05_frozen_map_weight_each,2);
+});
+test('B01 東光 26 original source rows minimally materialized from identical original marker and independent QA without public admission',()=>{
+ assert.equal(source.original_question_records.length,26);
+ assert.equal(source.true_false,14);
+ assert.equal(source.four_option_choice,12);
+ assert.equal(source.legacy_contract_original_wording_unchanged,true);
+ assert.equal(source.legacy_contract_formal_admission_unchanged,0);
+ assert.equal(marker.records.length,26);
+ assert.equal(qa.model_answers.length,26);
+ assert.equal(qa.individual_science_reasons.length,26);
+ const markerById=new Map(marker.records.map(x=>[x.source_id,x]));
+ let tf=0,mc=0,pass=0,hold=0,strong=0,review=0;
+ for(let i=0;i<26;i++){
+  const row=source.original_question_records[i],m=markerById.get(row.source_id);
+  assert.ok(m,row.source_id);
+  assert.equal(row.question_type,row.source_id.includes('|TF|')?'TRUE_FALSE':'SINGLE_CHOICE');
+  assert.equal(row.original_scored_points,m.original_score_points);
+  assert.equal(row.answer_marker_pdf_page,m.answer_marker_pdf_page);
+  assert.deepEqual(row.answer_marker_pdf_bbox_pts_top_left,m.answer_marker_pdf_bbox_pts_top_left);
+  assert.equal(row.model_provisional_answer,qa.model_answers[i]);
+  assert.equal(row.model_science_reason,qa.individual_science_reasons[i]);
+  assert.equal(row.science_review_status,qa.hold_source_ids.includes(row.source_id)?'MODEL_SCIENCE_HOLD':'MODEL_SCIENCE_PASS');
+  assert.equal(row.kp_review_status,m.kp_review_status);
+  assert.equal(row.primary_canonical_kp_id_proposed,m.primary_canonical_kp_id_proposed);
+  assert.ok(row.full_original_stem.trim().length>0);
+  assert.equal(row.full_original_options_in_order.length,row.question_type==='TRUE_FALSE'?0:4);
+  assert.equal(row.teacher_answer_authenticated,false);
+  assert.equal(row.science_unique_answer_final_approved,false);
+  assert.equal(row.kp_formal_approved,false);
+  assert.equal(row.operator_public_admission_approved,false);
+  assert.equal(row.site_question_bank_admitted,false);
+  if(row.question_type==='TRUE_FALSE')tf++;else mc++;
+  if(row.science_review_status==='MODEL_SCIENCE_PASS')pass++;else hold++;
+  if(row.kp_review_status==='KP_STRONG_CANDIDATE')strong++;else review++;
+ }
+ assert.deepEqual([tf,mc,pass,hold,strong,review],[14,12,23,3,24,2]);
+});
+test('B01 Science HOLD73 and KP REVIEW81 triage are full individually linked original source rows, with exact overlap8',()=>{
+ const science=shards.flatMap(z=>z.science_hold_rows),kp=shards.flatMap(z=>z.kp_review_rows);
+ assert.equal(shards.length,3);
+ assert.deepEqual(shards.map(z=>[z.science_hold_rows.length,z.kp_review_rows.length]),[[12,23],[31,21],[30,37]]);
+ assert.equal(science.length,73);
+ assert.equal(kp.length,81);
+ assert.equal(new Set(science.map(x=>x.source_id)).size,73);
+ assert.equal(new Set(kp.map(x=>x.source_id)).size,81);
+ const kpIds=new Set(kp.map(x=>x.source_id));
+ assert.equal(science.filter(x=>kpIds.has(x.source_id)).length,8);
+ assert.equal(triage.science_and_kp_intersection_count,8);
+ assert.equal(triage.distinct_question_sources_in_either_queue,146);
+ assert.equal(triage.science_hold_rows_where_reason_needs_exact_qa_source_readback,science.filter(x=>!x.science_reason).length);
+ assert.equal(triage.science_model_hold_queue_count,73);
+ assert.equal(triage.kp_review_queue_count,81);
+ assert.equal(shards.flatMap(z=>z.paper_statistics).length,25);
+ for(const row of [...science,...kp]){
+  assert.ok(row.source_id.startsWith(row.paper_id+'|'));
+  assert.ok(row.source_archive_ref.startsWith('data/source-archive/'));
+  assert.ok(row.science_qa_ref.startsWith('data/review/'));
+  assert.equal(row.formal_science_approved,false);
+  assert.equal(row.formal_kp_approved,false);
+  assert.equal(row.site_admitted,false);
+ }
+ assert.equal(triage.review_gate.student_site_admissions,0);
+ assert.equal(triage.kp_outside_current_g04s1_source_occurrences_not_falsely_reclassified,166);
+});
+test('B01 source firstpass and learner site denominators are unchanged and no science HOLD auto-passes',()=>{
+ assert.equal(v24.cumulative_original_source_question_occurrences,717);
+ assert.equal(v24.total_true_false,426);
+ assert.equal(v24.total_single_choice,291);
+ assert.equal(v24.science_model_preliminary_pass,644);
+ assert.equal(v24.science_hold,73);
+ assert.equal(v24.existing_live_bank_total_answer_positions,251);
+ assert.equal(v24.existing_live_bank_g04s1_answer_positions,53);
+ assert.equal(v24.site_question_bank_new_admissions,0);
+ assert.equal(q.source_response_slots_unchanged,1623);
+ assert.equal(q.source_exact_standalone_private_completed,717);
+ assert.equal(q.model_science_hold,73);
+ assert.equal(q.first_pass_all25_operator_final_acceptance,false);
+ assert.equal(q.public_items_new,0);
+});

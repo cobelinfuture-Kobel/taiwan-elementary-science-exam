@@ -143,6 +143,8 @@ try {
   assert.ok((await live.locator(".paper[data-answer='true']").innerText()).includes("判斷前提"));
   const answersText=await live.locator(".paper[data-answer='true']").innerText();
   assert.match(answersText,/\b1\. [OX]\b/,"answer page should display literal O or X");
+  // Restore historical unit-selection mode after TF-specific source pin.
+  await live.selectOption("#mode","single_unit");
 
   await live.selectOption("#grade","3");
   await live.selectOption("#semester","S1");

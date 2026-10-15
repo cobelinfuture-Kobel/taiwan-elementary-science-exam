@@ -1,0 +1,418 @@
+{
+  "schema_version": "P12_114_PUREN_FINAL18_VISUAL_SCIENCE_KP_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+  "source_original_full18_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+  "source_original_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+  "frozen_source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-final-49-source-map-v1.json",
+  "original_full_paper_response_positions": 49,
+  "source_original_printed_total_points": 100,
+  "frozen_map_points_claimed_certified": 100,
+  "source_visual_recognized_points": 94,
+  "source_scoring_discrepancy_points": 6,
+  "source_score_parity_certified": false,
+  "source_score_conflict": {
+    "section": "S3 G05",
+    "printed_heading": "第5題各1分",
+    "original_six_answer_positions": 6,
+    "frozen_map_points_per_position": 2,
+    "source_printed_points_per_position": 1,
+    "printed_section_total": 46,
+    "visually_attributable_section_points": 40,
+    "conflict_requires_source_review": true,
+    "no_frozen_map_mutation": true
+  },
+  "model_science_preliminary_pass": 16,
+  "model_science_hold": 2,
+  "science_hold_source_ids": [
+    "SCI_G04_S1_114_FINAL_010|S1|TF|003",
+    "SCI_G04_S1_114_FINAL_010|S2|MC|002"
+  ],
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 18,
+    "KP_REVIEW": 0,
+    "KP_NONMATCH_G04S1": 0
+  },
+  "kp_strong_and_science_pass_count": 16,
+  "source_pdf_marker_geometry_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+  "source_deferred_figure_matching_shared_positions": 31,
+  "normalized_exact_stem_matches_prior699": [],
+  "cross_paper_lexical_near_nonexact_matches_prior699": [
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|004",
+      "prior_source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|005",
+      "lexical_bigram_jaccard": 0.6667
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|004",
+      "prior_source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|003",
+      "lexical_bigram_jaccard": 0.5294
+    }
+  ],
+  "cross_paper_contract": "Unicode NFKC punctuation/symbol/space removed, character-bigram Jaccard >=0.5, compared original independent school item stems against 699 prior occurrences",
+  "teacher_key_authenticated_count": 0,
+  "formal_science_approved_count": 0,
+  "formal_kp_approved_count": 0,
+  "operator_site_admitted_count": 0,
+  "original_question_reviews": [
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|001",
+      "model_provisional_answer": "②",
+      "model_science_reason": "用電安全應避免直接拉扯電線，其他三項可能造成風險。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_04_12",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        475.71,
+        84,
+        496.71
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|002",
+      "model_provisional_answer": null,
+      "model_science_reason": "HOLD：原卷文字先列 D.表面皺巴巴，接著又列 D.表面平滑，同一標籤重複，組合選項 ABD 等無法消歧。",
+      "science_review_status": "MODEL_SCIENCE_HOLD",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_07",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        580.48,
+        84,
+        601.48
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|003",
+      "model_provisional_answer": "③",
+      "model_science_reason": "行人號誌與消防車鳴笛均用來警示或管制交通。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_09",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        649.52,
+        84,
+        670.52
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|004",
+      "model_provisional_answer": "④",
+      "model_science_reason": "同一聲源在不同傳播介質、路徑下的感知可能不同。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_03",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        742.38,
+        84,
+        763.38
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|005",
+      "model_provisional_answer": "①",
+      "model_science_reason": "開關中通常同時使用導體接點與絕緣結構。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_04_04",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        840,
+        84,
+        861
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|006",
+      "model_provisional_answer": "③",
+      "model_science_reason": "增加一盞並聯燈泡，理想電源條件下單燈端電壓可大致維持。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_04_08",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        369,
+        102.38,
+        418,
+        123.38
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|007",
+      "model_provisional_answer": "①",
+      "model_science_reason": "尺子撥動幅度較大時振動能量、聲音大小通常較大。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_01",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        369,
+        213.81,
+        418,
+        234.81
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|001",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "雷射與太陽發出的光在均勻介質中都沿直線傳播。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_06",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        122.86,
+        84,
+        143.86
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|002",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "鏡子及反光背心主要反射入射光，並非自行發光。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_05",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        154.29,
+        84,
+        175.29
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|003",
+      "model_provisional_answer": null,
+      "model_science_reason": "HOLD：部分燈泡不亮而其他燈亮，可能表示並聯，也可能含旁路或不同燈串；僅依外觀無法唯一驗證接線拓撲。",
+      "science_review_status": "MODEL_SCIENCE_HOLD",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_04_09",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        190,
+        84,
+        211
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|004",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "電池、燈泡串並聯不同會影響電壓和各燈泡亮度。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_04_06",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        263.81,
+        84,
+        284.81
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|005",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "鼓面振幅增加時，通常會讓聲音更響亮。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_01",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        311.43,
+        84,
+        332.43
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|006",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "電動馬達旋轉方向一般由供電極性決定，僅增加電池數量不必改變轉向。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_04_10",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        344.29,
+        84,
+        365.29
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|007",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "岸上人用耳朵聽海浪聲時，最終到達耳朵的是空氣中的聲波。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_03",
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        377.62,
+        84,
+        398.62
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S3|G04|014",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "眼睛需要有光進入才可能看見一般物體。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_04",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        169.52,
+        84,
+        190.52
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S3|G04|015",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "光源光路沒有被物體阻擋時，不產生該物遮蔽造成的影子。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_06",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        190.48,
+        84,
+        211.48
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S3|G04|016",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "光遇反射面會改變傳播方向。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_07",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        211.9,
+        84,
+        232.9
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_010|S3|G04|017",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "透明玻璃通常透光，未必形成明顯影子。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "primary_canonical_kp_id_proposed": "sci_g04s1_03_06",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        35,
+        232.86,
+        84,
+        253.86
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    }
+  ]
+}

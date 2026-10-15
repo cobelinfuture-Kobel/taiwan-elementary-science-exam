@@ -1,0 +1,974 @@
+{
+  "schema_version": "P12_E01_PUREN_FINAL16_PDF_IMAGE_PIXEL_BBOX_SCIENCE_KP_FORMAL_V1",
+  "frozen_closeout_ref": "data/review/p12-b04-auto-batch50-final-closeout-115-exceptions-v1.json",
+  "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+  "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+  "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+  "original_google_drive_file_id": "1OuMQNYZJSnE8ZdVcYdrNE4aCLH7Bg0B0",
+  "source_image_raw_pdf_sha256_checked": true,
+  "source_scan_only": true,
+  "native_glyph_bbox_claimed": false,
+  "pixel_geometry_model_visual_overlay_reviewed": true,
+  "raster_overlay_proof_locally_rendered": true,
+  "source_binary_not_published": true,
+  "formal_admitted_candidate_count": 16,
+  "tf_count": 10,
+  "mc_count": 6,
+  "original_teacher_key_authenticated": false,
+  "other_bbox_only_held": 56,
+  "scan_secondary_held": 6,
+  "prior_ledger_held": 115,
+  "remain_open_if_16_admitted": 99,
+  "evidence": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S1|TF|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "75a9323fd100329e6b406338873ccef407469692ff36d055df2675e95d792d58",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        48,
+        217,
+        125,
+        239
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        30,
+        135.625,
+        78.125,
+        149.375
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        122.86,
+        84,
+        143.86
+      ],
+      "source_original_stem_exact": "雷射筆射出的光是直線行進，太陽的光則不是。",
+      "source_original_options_exact": [],
+      "student_stem_scoreless": "雷射筆射出的光是直線行進，太陽的光則不是。",
+      "independently_reasoned_unique_answer": "X",
+      "science_reason": "雷射筆與太陽發出的光，在均勻透明介質中均沿直線行進。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_03_06",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S1|TF|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "75a9323fd100329e6b406338873ccef407469692ff36d055df2675e95d792d58",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        48,
+        272,
+        125,
+        294
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        30,
+        170,
+        78.125,
+        183.75
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        154.29,
+        84,
+        175.29
+      ],
+      "source_original_stem_exact": "光源是指本身能發光的物體，例如鏡子、反光背心都是光源。",
+      "source_original_options_exact": [],
+      "student_stem_scoreless": "光源是指本身能發光的物體，例如鏡子、反光背心都是光源。",
+      "independently_reasoned_unique_answer": "X",
+      "science_reason": "鏡子與反光背心是反射光，不是本身發光的光源。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_03_05",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S1|TF|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "75a9323fd100329e6b406338873ccef407469692ff36d055df2675e95d792d58",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        48,
+        447,
+        125,
+        469
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        30,
+        279.375,
+        78.125,
+        293.125
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        263.81,
+        84,
+        284.81
+      ],
+      "source_original_stem_exact": "設計電路時，電池的並聯或串聯與燈泡的亮度沒有關係，只是為了達到燈泡不會同時全部不亮的目的。",
+      "source_original_options_exact": [],
+      "student_stem_scoreless": "設計電路時，電池的並聯或串聯與燈泡的亮度沒有關係，只是為了達到燈泡不會同時全部不亮的目的。",
+      "independently_reasoned_unique_answer": "X",
+      "science_reason": "電池串聯與並聯的電壓特性不同，會影響燈泡亮度。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_04_06",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S1|TF|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "75a9323fd100329e6b406338873ccef407469692ff36d055df2675e95d792d58",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        48,
+        530,
+        125,
+        552
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        30,
+        331.25,
+        78.125,
+        345
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        311.43,
+        84,
+        332.43
+      ],
+      "source_original_stem_exact": "運動會大鼓表演，表演者敲擊得越用力，鼓面的振動越大，發出的聲音也越大。",
+      "source_original_options_exact": [],
+      "student_stem_scoreless": "運動會大鼓表演，表演者敲擊得越用力，鼓面的振動越大，發出的聲音也越大。",
+      "independently_reasoned_unique_answer": "O",
+      "science_reason": "較用力敲擊鼓面通常使振動幅度增加、聲音較大。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_03_01",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S1|TF|006",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "75a9323fd100329e6b406338873ccef407469692ff36d055df2675e95d792d58",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        48,
+        585,
+        125,
+        607
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        30,
+        365.625,
+        78.125,
+        379.375
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        344.29,
+        84,
+        365.29
+      ],
+      "source_original_stem_exact": "小馬達的轉動方向並不會因為電池數量而改變。",
+      "source_original_options_exact": [],
+      "student_stem_scoreless": "小馬達的轉動方向並不會因為電池數量而改變。",
+      "independently_reasoned_unique_answer": "O",
+      "science_reason": "在極性方向相同且電壓適當的通常情況下，增加電池數量不改變小馬達轉向；轉向與極性相關。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_04_10",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S1|TF|007",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "75a9323fd100329e6b406338873ccef407469692ff36d055df2675e95d792d58",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        48,
+        641,
+        125,
+        664
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        30,
+        400.625,
+        78.125,
+        415
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        377.62,
+        84,
+        398.62
+      ],
+      "source_original_stem_exact": "在海邊聽到海浪聲是聲音經由液體傳播的例子。",
+      "source_original_options_exact": [],
+      "student_stem_scoreless": "在海邊聽到海浪聲是聲音經由液體傳播的例子。",
+      "independently_reasoned_unique_answer": "X",
+      "science_reason": "海浪聲雖源於海水運動，但海邊聽見的聲音主要經空氣傳入耳朵。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_03_03",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S2|MC|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "75a9323fd100329e6b406338873ccef407469692ff36d055df2675e95d792d58",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        48,
+        810,
+        125,
+        834
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        30,
+        506.25,
+        78.125,
+        521.25
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        475.71,
+        84,
+        496.71
+      ],
+      "source_original_stem_exact": "小普要參加正確用電安全的海報比賽，他應該選擇哪一個宣導內容？",
+      "source_original_options_exact": [
+        {
+          "label": "①",
+          "text": "使用電器時，電線捲在一起可以省空間"
+        },
+        {
+          "label": "②",
+          "text": "不可用手直接拉扯電線"
+        },
+        {
+          "label": "③",
+          "text": "電線有塑膠皮保護，不需要隨時檢查"
+        },
+        {
+          "label": "④",
+          "text": "延長線同時連接多個電器較為省電"
+        }
+      ],
+      "student_stem_scoreless": "小普要參加正確用電安全的海報比賽，他應該選擇哪一個宣導內容？",
+      "independently_reasoned_unique_answer": "②",
+      "science_reason": "拔插頭時應握插頭本體，不可直接拉扯電線。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_04_12",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S2|MC|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "75a9323fd100329e6b406338873ccef407469692ff36d055df2675e95d792d58",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        48,
+        1098,
+        125,
+        1120
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        30,
+        686.25,
+        78.125,
+        700
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        649.52,
+        84,
+        670.52
+      ],
+      "source_original_stem_exact": "下列哪一個選項中的物品都具有警示的功能？",
+      "source_original_options_exact": [
+        {
+          "label": "①",
+          "text": "元宵節天燈、聖誕燈飾"
+        },
+        {
+          "label": "②",
+          "text": "聲光玩具、火災警報器"
+        },
+        {
+          "label": "③",
+          "text": "行人穿越號誌、消防車鳴笛聲"
+        },
+        {
+          "label": "④",
+          "text": "國家級警報、遊樂園的聲光旋轉木馬"
+        }
+      ],
+      "student_stem_scoreless": "下列哪一個選項中的物品都具有警示的功能？",
+      "independently_reasoned_unique_answer": "③",
+      "science_reason": "行人穿越號誌和消防車鳴笛均具有警示功能。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_03_09",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S2|MC|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "75a9323fd100329e6b406338873ccef407469692ff36d055df2675e95d792d58",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        48,
+        1240,
+        125,
+        1261
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        30,
+        775,
+        78.125,
+        788.125
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        742.38,
+        84,
+        763.38
+      ],
+      "source_original_stem_exact": "關於聲音的敘述，哪一項正確？",
+      "source_original_options_exact": [
+        {
+          "label": "①",
+          "text": "陽光可以穿越太空照射到地球，聲音也可以在真空的太空中傳播"
+        },
+        {
+          "label": "②",
+          "text": "泳池中無法產生聲音"
+        },
+        {
+          "label": "③",
+          "text": "物體振動的大小，不會影響聲音的大小"
+        },
+        {
+          "label": "④",
+          "text": "同一個聲音透過不同物體傳播出來，聽起來可能不一樣"
+        }
+      ],
+      "student_stem_scoreless": "關於聲音的敘述，哪一項正確？",
+      "independently_reasoned_unique_answer": "④",
+      "science_reason": "聲音在不同介質中傳播方式與聽感可能有所不同。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_03_03",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S2|MC|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "75a9323fd100329e6b406338873ccef407469692ff36d055df2675e95d792d58",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        48,
+        1415,
+        125,
+        1437
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        30,
+        884.375,
+        78.125,
+        898.125
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        840,
+        84,
+        861
+      ],
+      "source_original_stem_exact": "以下電器用品開關的敘述，何者正確？",
+      "source_original_options_exact": [
+        {
+          "label": "①",
+          "text": "開關裝置的設計包含了電的良導體與不良導體"
+        },
+        {
+          "label": "②",
+          "text": "開關外部多半會使用良導體"
+        },
+        {
+          "label": "③",
+          "text": "設計開關最主要是為了控制電力的強弱"
+        },
+        {
+          "label": "④",
+          "text": "關上開關，形成通路，電腦關機"
+        }
+      ],
+      "student_stem_scoreless": "以下電器用品開關的敘述，何者正確？",
+      "independently_reasoned_unique_answer": "①",
+      "science_reason": "開關可由良導體完成導通、絕緣部分提供操作安全。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_04_04",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S2|MC|006",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "75a9323fd100329e6b406338873ccef407469692ff36d055df2675e95d792d58",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        578,
+        183,
+        667,
+        211
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        361.25,
+        114.375,
+        416.875,
+        131.875
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        369,
+        102.38,
+        418,
+        123.38
+      ],
+      "source_original_stem_exact": "自然老師：「在原本連接一個電池和一個燈泡的通路中再增加一個燈泡，有什麼方法能讓這兩個燈泡都維持原來的亮度？」",
+      "source_original_options_exact": [
+        {
+          "label": "①",
+          "text": "將電池顛倒放置"
+        },
+        {
+          "label": "②",
+          "text": "Sorry，沒有辦法"
+        },
+        {
+          "label": "③",
+          "text": "將燈泡並聯"
+        },
+        {
+          "label": "④",
+          "text": "將燈泡串聯"
+        }
+      ],
+      "student_stem_scoreless": "自然老師：「在原本連接一個電池和一個燈泡的通路中再增加一個燈泡，有什麼方法能讓這兩個燈泡都維持原來的亮度？」",
+      "independently_reasoned_unique_answer": "③",
+      "science_reason": "原電池電壓下，將兩個相同燈泡並聯通常能維持接近單燈時的亮度。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_04_08",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S2|MC|007",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "75a9323fd100329e6b406338873ccef407469692ff36d055df2675e95d792d58",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        578,
+        328,
+        667,
+        356
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        361.25,
+        205,
+        416.875,
+        222.5
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        369,
+        213.81,
+        418,
+        234.81
+      ],
+      "source_original_stem_exact": "將塑膠尺的一端固定在桌面上，用手指撥動尺的另一端，哪種作法會讓尺發出的聲音最大？",
+      "source_original_options_exact": [
+        {
+          "label": "①",
+          "text": "將尺往下壓10公分"
+        },
+        {
+          "label": "②",
+          "text": "將尺往下壓1公分"
+        },
+        {
+          "label": "③",
+          "text": "不要撥動尺"
+        },
+        {
+          "label": "④",
+          "text": "將尺往下壓5公分"
+        }
+      ],
+      "student_stem_scoreless": "將塑膠尺的一端固定在桌面上，用手指撥動尺的另一端，哪種作法會讓尺發出的聲音最大？",
+      "independently_reasoned_unique_answer": "①",
+      "science_reason": "在其他條件相同的情況下，撥動尺的振幅較大通常聲音較大。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_03_01",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S3|G04|014",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 2,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "c76bd4da5c2fdd93145a764fdd2ab4c30f90af8ea3a6c745263ea6c0ca382e5d",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        63,
+        295,
+        132,
+        320
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        39.375,
+        184.375,
+        82.5,
+        200
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        169.52,
+        84,
+        190.52
+      ],
+      "source_original_stem_exact": "下列關於光的特性，正確的打√，不正確的打 X。\n即使沒有光，我們也能看見物體。",
+      "source_original_options_exact": [],
+      "student_stem_scoreless": "下列關於光的特性，正確的打√，不正確的打 X。\n即使沒有光，我們也能看見物體。",
+      "independently_reasoned_unique_answer": "X",
+      "science_reason": "若沒有光進入眼睛，便無法用視覺看見物體。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_03_04",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S3|G04|015",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 2,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "c76bd4da5c2fdd93145a764fdd2ab4c30f90af8ea3a6c745263ea6c0ca382e5d",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        63,
+        331,
+        132,
+        354
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        39.375,
+        206.875,
+        82.5,
+        221.25
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        190.48,
+        84,
+        211.48
+      ],
+      "source_original_stem_exact": "下列關於光的特性，正確的打√，不正確的打 X。\n光沒有被阻擋時，不會形成影子。",
+      "source_original_options_exact": [],
+      "student_stem_scoreless": "下列關於光的特性，正確的打√，不正確的打 X。\n光沒有被阻擋時，不會形成影子。",
+      "independently_reasoned_unique_answer": "O",
+      "science_reason": "影子形成需要光被不透明物體阻擋。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_03_06",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S3|G04|016",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 2,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "c76bd4da5c2fdd93145a764fdd2ab4c30f90af8ea3a6c745263ea6c0ca382e5d",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        63,
+        365,
+        132,
+        388
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        39.375,
+        228.125,
+        82.5,
+        242.5
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        211.9,
+        84,
+        232.9
+      ],
+      "source_original_stem_exact": "下列關於光的特性，正確的打√，不正確的打 X。\n當光反射後，它反射的方向也會改變。",
+      "source_original_options_exact": [],
+      "student_stem_scoreless": "下列關於光的特性，正確的打√，不正確的打 X。\n當光反射後，它反射的方向也會改變。",
+      "independently_reasoned_unique_answer": "O",
+      "science_reason": "光照到反射面後可能改變其傳播方向。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_03_07",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_010|S3|G04|017",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_page_1_based": 2,
+      "original_pdf_raw_bytes_verified": 1335789,
+      "page_upright_size_px": [
+        1166,
+        1651
+      ],
+      "render_geometry": {
+        "library": "PyMuPDF (fitz)",
+        "matrix_scale": 1.6,
+        "pdf_page_rotation": 0,
+        "orientation": "ORIGINAL_SCAN_UPRIGHT_UNROTATED",
+        "rendered_page_rgb_sha256": "c76bd4da5c2fdd93145a764fdd2ab4c30f90af8ea3a6c745263ea6c0ca382e5d",
+        "render_method": "page.get_pixmap(matrix=fitz.Matrix(1.6,1.6),alpha=False)"
+      },
+      "answer_marker_bbox_upright_render_px": [
+        63,
+        399,
+        132,
+        425
+      ],
+      "answer_marker_bbox_pts_top_left": [
+        39.375,
+        249.375,
+        82.5,
+        265.625
+      ],
+      "coordinate_evidence": "MODEL_DIRECT_ORIGINAL_PDF_RASTER_VISUAL_RECTANGLE_OVERLAY_REVIEW_NOT_NATIVE_GLYPH",
+      "original_native_pdf_glyph_bbox_available": false,
+      "old_source_visual_estimate_not_admitted": [
+        35,
+        232.86,
+        84,
+        253.86
+      ],
+      "source_original_stem_exact": "下列關於光的特性，正確的打√，不正確的打 X。\n當光照射到透明玻璃時，會形成明顯的影子。",
+      "source_original_options_exact": [],
+      "student_stem_scoreless": "下列關於光的特性，正確的打√，不正確的打 X。\n當光照射到透明玻璃時，會形成明顯的影子。",
+      "independently_reasoned_unique_answer": "X",
+      "science_reason": "透明玻璃通常容許多數光通過，不會形成明顯深色的影子。",
+      "formal_science_semantic_reassessment": "DIRECT_ORIGINAL_PDF_TEXT_VISUAL_AND_MODEL_SCIENCE_REVIEW",
+      "certified_canonical_kp_id": "sci_g04s1_03_06",
+      "source_no_figure_dependency": true,
+      "source_rights_text_only": "REGULATED_EXAM_QUESTION_ART9",
+      "teacher_answer_key_authenticated": false,
+      "duplicate_published_original_exact_stem_detected": false,
+      "bulk_operator_authorization": "P12_B04_AUTO_BATCH50_EXCEPTION_ONLY_WHEN_ALL_GATES_PASS",
+      "source_image_asset_publicly_exposed": false
+    }
+  ]
+}

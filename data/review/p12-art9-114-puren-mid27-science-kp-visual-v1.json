@@ -1,0 +1,821 @@
+{
+  "schema_version": "P12_PUREN_114_MID27_VISUAL_SCIENCE_KP_SECOND_PASS_V1",
+  "source_paper_id": "SCI_G04_S1_114_MID_009",
+  "source_original_full27_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+  "source_original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+  "frozen_source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+  "original_pdf_scan_only": true,
+  "original_source_frozen_positions": 54,
+  "original_printed_total_points": 100,
+  "source_position_scored_points_supported": 96,
+  "source_gap_points_unreconciled": 4,
+  "source_score_parity_certified": false,
+  "model_science_preliminary_pass": 26,
+  "model_science_hold": 1,
+  "science_hold_source_ids": [
+    "SCI_G04_S1_114_MID_009|S1|MC|010"
+  ],
+  "kp_secondpass_count": {
+    "KP_STRONG_CANDIDATE": 21,
+    "KP_REVIEW": 6,
+    "KP_NONMATCH_G04S1": 0
+  },
+  "kp_strong_and_science_pass_count": 20,
+  "source_kp_authority_family_correction": {
+    "affected_original_positions": 6,
+    "frozen_source_text_family": "漂浮性水生植物",
+    "wrong_frozen_mapped_kp": "sci_g04s1_02_05",
+    "wrong_frozen_title": "沉水性植物的適應",
+    "correct_proposed_kp": "sci_g04s1_02_04",
+    "correct_proposed_title": "漂浮性植物的適應",
+    "status": "HUMAN_REVIEW_KP_REQUIRED_NO_AUTHORITY_MUTATION"
+  },
+  "source_pdf_marker_geometry_status": "RASTER_ESTIMATES_REQUIRE_PIXEL_EXACT_ACCEPTANCE",
+  "original_figure_and_shared_stimuli_positions_deferred": 27,
+  "normalized_exact_stem_matches_prior672": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|004",
+      "prior_source_id": "SCI_G04_S1_114_MID_008|S02|MC|012"
+    }
+  ],
+  "cross_paper_lexical_near_nonexact_matches_prior672": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|010",
+      "prior_source_id": "SCI_G04_S1_114_MID_008|S02|MC|011",
+      "lexical_bigram_jaccard": 0.7647
+    }
+  ],
+  "cross_paper_comparison_contract": "Unicode NFKC; remove punctuation/whitespace/symbols; compare 672 previous original school item stems; CJK character bigram Jaccard >=0.5; retain distinct source IDs",
+  "teacher_key_authenticated_count": 0,
+  "formal_science_approved_count": 0,
+  "formal_kp_approved_count": 0,
+  "operator_site_admitted_count": 0,
+  "original_question_reviews": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|001",
+      "model_provisional_answer": "②",
+      "model_science_reason": "小動物走過通常不會直接使大塊岩石風化碎裂；日曬、沖刷、風化較相關。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_01_05"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_05",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_01_05"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        33,
+        71.74,
+        82,
+        84.78
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|002",
+      "model_provisional_answer": "④",
+      "model_science_reason": "震源釋放的能量通常以地震規模表達，不等於震度或深度。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_01_08"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_08",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_01_08"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        33,
+        104.78,
+        82,
+        117.83
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|003",
+      "model_provisional_answer": "④",
+      "model_science_reason": "水田為人工營造的水域，潮間帶為天然水域。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_01",
+        "sci_g04s1_02_02"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_01",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_01",
+        "sci_g04s1_02_02"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        33,
+        140.87,
+        82,
+        153.91
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|004",
+      "model_provisional_answer": "③",
+      "model_science_reason": "鯉魚主要生於淡水，海龜主要活動於海洋；其餘組合較可能共享水域。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_02"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_02",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_02"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        33,
+        203.48,
+        82,
+        216.52
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|005",
+      "model_provisional_answer": "③",
+      "model_science_reason": "荷葉表面的拒水性與布袋蓮充氣葉柄均符合兩人的描述。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_04",
+        "sci_g04s1_02_07"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_04",
+        "sci_g04s1_02_07"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        33,
+        239.57,
+        82,
+        252.61
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|006",
+      "model_provisional_answer": "④",
+      "model_science_reason": "漂浮性植物根不固定在水底泥土，是與挺水、浮葉植物的重要區別。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_04"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_04"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        33,
+        292.61,
+        82,
+        305.65
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|007",
+      "model_provisional_answer": "①",
+      "model_science_reason": "螺類多以腹足爬行，蝌蚪、蛙、龜主要用游泳移動。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_09"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_09",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_09"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        33,
+        347.83,
+        82,
+        360.87
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|008",
+      "model_provisional_answer": "②",
+      "model_science_reason": "強降雨可能造成地表沖刷、土砂下移。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_01_05",
+        "sci_g04s1_01_06"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_05",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_01_05",
+        "sci_g04s1_01_06"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        33,
+        380,
+        82,
+        393.04
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|009",
+      "model_provisional_answer": "①",
+      "model_science_reason": "大萍為可浮水的漂浮性植物，壓入水後放手通常回升。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_04"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_04"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        33,
+        417.39,
+        82,
+        430.43
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|010",
+      "model_provisional_answer": null,
+      "model_science_reason": "HOLD：題目要找唯一『不正確』項，但荷花屬挺水植物，③『屬浮葉性』及④『葉面平貼水面』均不正確；至少兩個可選答案。",
+      "science_review_status": "MODEL_SCIENCE_HOLD",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_06"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_03",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_06"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        33,
+        480,
+        82,
+        493.04
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|011",
+      "model_provisional_answer": "③",
+      "model_science_reason": "花香與作為魚類主要食物並不是一般水生植物共同的特徵。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_07"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_03",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_03",
+        "sci_g04s1_02_07"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        33,
+        518.26,
+        82,
+        531.3
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|012",
+      "model_provisional_answer": "③",
+      "model_science_reason": "淡水與鹹水交界的潮間帶鹽分變化明顯。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_02"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_02",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_02"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        33,
+        581.74,
+        82,
+        594.78
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|013",
+      "model_provisional_answer": "④",
+      "model_science_reason": "岩石、沙和土壤有不同觸感，題意預期土壤相對細軟；材料本身可能有差異。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_01_03"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_03",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_01_03"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        381,
+        67.83,
+        430,
+        80.87
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|014",
+      "model_provisional_answer": "②",
+      "model_science_reason": "苔蘚、浮萍與蛙是以淡水濕地相關環境為主，海洋最不可能同時見到。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_02"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_02",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_02"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        381,
+        146.09,
+        430,
+        159.13
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|015",
+      "model_provisional_answer": "①",
+      "model_science_reason": "布袋蓮膨大的葉柄有氣室可提供浮力而非增加重量。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_04"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_04"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 1,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        381,
+        225.65,
+        430,
+        238.7
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G01|001",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "平時準備避難救生包符合地震防災準備。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_01_09"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_09",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_01_09"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        34,
+        684.78,
+        83,
+        697.83
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G01|002",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "平時進行防震演練有助提升應變能力。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_01_09"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_09",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_01_09"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        34,
+        708.7,
+        83,
+        721.74
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G01|003",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "地震時不應搭乘電梯。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_01_10"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_10",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_01_10"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        34,
+        728.26,
+        83,
+        741.3
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G01|004",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "目前無法準確預測地震確切發生時間。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_01_09"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_09",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_01_09"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        34,
+        746.96,
+        83,
+        760
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G01|005",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "地震時應冷靜採取避難動作，大聲尖叫不是標準防災步驟。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_01_10"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_10",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_01_10"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        34,
+        766.52,
+        83,
+        779.57
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G01|006",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "震後應確認瓦斯、水電安全並避免危險操作。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_STRONG_CANDIDATE",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_01_11"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_01_11",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_01_11"
+      ],
+      "source_kp_mismatch": null,
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        34,
+        786.52,
+        83,
+        799.57
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G02|007",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "『細長線形、絲狀』較符合沉水植物的常見形態，而非漂浮性植物的共同特徵。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_REVIEW",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_04"
+      ],
+      "source_kp_mismatch": "FROZEN_MAP_SUBMERGED_KP_INCORRECT_SOURCE_PRINTED_FLOATING_PLANTS",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        34,
+        831.74,
+        83,
+        844.78
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G02|008",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "漂浮性植物的葉片常具有阻水表面，為暫定普遍特徵。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_REVIEW",
+      "source_firstpass_kp_decision": "REVIEW_KP_UNCERTAIN",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_04"
+      ],
+      "source_kp_mismatch": "FROZEN_MAP_SUBMERGED_KP_INCORRECT_SOURCE_PRINTED_FLOATING_PLANTS",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        34,
+        852.17,
+        83,
+        865.22
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G02|009",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "長且柔軟並隨水流彎曲為沉水植物常見適應性，並非漂浮性類型共同特徵。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_REVIEW",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_04"
+      ],
+      "source_kp_mismatch": "FROZEN_MAP_SUBMERGED_KP_INCORRECT_SOURCE_PRINTED_FLOATING_PLANTS",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        34,
+        872.61,
+        83,
+        885.65
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G02|010",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "漂浮性植物可在水面漂浮生長。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_REVIEW",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_04"
+      ],
+      "source_kp_mismatch": "FROZEN_MAP_SUBMERGED_KP_INCORRECT_SOURCE_PRINTED_FLOATING_PLANTS",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        34,
+        893.48,
+        83,
+        906.52
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G02|011",
+      "model_provisional_answer": "TRUE",
+      "model_science_reason": "漂浮性植物根部可在水中自由懸垂，不固定於水底泥土。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_REVIEW",
+      "source_firstpass_kp_decision": "KP_MATCH_CANDIDATE",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_04"
+      ],
+      "source_kp_mismatch": "FROZEN_MAP_SUBMERGED_KP_INCORRECT_SOURCE_PRINTED_FLOATING_PLANTS",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        34,
+        915.22,
+        83,
+        928.26
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G02|012",
+      "model_provisional_answer": "FALSE",
+      "model_science_reason": "漂浮性植物葉面不一定都有細毛，如布袋蓮葉面與其他種類不同。",
+      "science_review_status": "MODEL_SCIENCE_PASS",
+      "kp_secondpass_status": "KP_REVIEW",
+      "source_firstpass_kp_decision": "REVIEW_KP_UNCERTAIN",
+      "source_firstpass_canonical_kp_ids": [
+        "sci_g04s1_02_05"
+      ],
+      "primary_canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "canonical_kp_ids_proposed": [
+        "sci_g04s1_02_04"
+      ],
+      "source_kp_mismatch": "FROZEN_MAP_SUBMERGED_KP_INCORRECT_SOURCE_PRINTED_FLOATING_PLANTS",
+      "answer_marker_pdf_page": 2,
+      "answer_marker_pdf_bbox_pts_upright_visual_estimate": [
+        34,
+        937.39,
+        83,
+        950.43
+      ],
+      "source_pdf_bbox_status": "RASTER_VISUAL_ESTIMATE_NOT_NATIVE_GLYPH",
+      "teacher_key_authenticated": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false
+    }
+  ]
+}

@@ -1,0 +1,3231 @@
+{
+  "schema_version": "P12_B04_AUTO_BATCH50_FINAL_CLOSEOUT_115_EXCEPTIONS_V1",
+  "evidence_main_sha": "7c74584095de75cda33dbe9cda382ff8db67cedd",
+  "operator_scope": "CLOSE_INITIAL_REVIEW_AND_B07_RELEASE; CLASSIFY_OPEN_EXCEPTIONS; NO_AUTOMATIC_PUBLIC_ADMISSION",
+  "sources": {
+    "review_files": [
+      "data/review/p12-b04-auto-batch50-b01-first50-science-review-v1.json",
+      "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "data/review/p12-b04-auto-batch50-b04-first50-science-kp-review-v1.json",
+      "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "data/review/p12-b04-auto-batch50-b06-first50-science-kp-review-v1.json",
+      "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "data/review/p12-b04-auto-batch50-b09-last9-science-kp-review-v1.json"
+    ],
+    "formal_acceptance_files": [
+      "data/review/p12-b04-b01-47-formal-science-kp-acceptance-v1.json",
+      "data/review/p12-b04-b02-41-formal-science-kp-acceptance-v1.json",
+      "data/review/p12-b04-b03-41-formal-science-kp-acceptance-v1.json",
+      "data/review/p12-b04-b04-47-formal-science-kp-native-source-acceptance-v1.json",
+      "data/review/p12-b04-b05-40-formal-science-kp-acceptance-v1.json",
+      "data/review/p12-b04-b06-47-formal-science-kp-acceptance-v1.json",
+      "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json"
+    ]
+  },
+  "baseline": {
+    "source_papers": 25,
+    "original_positions": 717,
+    "model_science_pass": 644,
+    "model_science_hold": 73,
+    "priority_candidates": 425,
+    "previously_reviewed_priority_positions": 16,
+    "initial_review_positions": 409,
+    "initial_priority_public_admitted": 15,
+    "initial_priority_deduplicated": 1,
+    "initial_review_positions_public_admitted": 294,
+    "cumulative_student_bank_answer_slots": 560
+  },
+  "totals": {
+    "reviewed": 409,
+    "admitted": 294,
+    "held": 115,
+    "scan_bbox_hold": 78,
+    "scan_bbox_only_without_other_blockers": 72,
+    "scan_bbox_plus_duplicate_or_semantic_hold": 6,
+    "non_scan_hold": 37,
+    "non_scan_duplicate_lineage_only": 3,
+    "non_scan_printed_options_source_problem": 1,
+    "non_scan_science_kp_semantic_review": 33,
+    "scanned_cross_source_duplicate_flags": 2,
+    "original_teacher_key_authenticated": false
+  },
+  "by_batch": {
+    "B01": {
+      "reviewed": 50,
+      "public_admitted": 47,
+      "held": 3,
+      "scan_bbox_hold": 0
+    },
+    "B02": {
+      "reviewed": 50,
+      "public_admitted": 41,
+      "held": 9,
+      "scan_bbox_hold": 0
+    },
+    "B03": {
+      "reviewed": 50,
+      "public_admitted": 41,
+      "held": 9,
+      "scan_bbox_hold": 0
+    },
+    "B04": {
+      "reviewed": 50,
+      "public_admitted": 47,
+      "held": 3,
+      "scan_bbox_hold": 0
+    },
+    "B05": {
+      "reviewed": 50,
+      "public_admitted": 40,
+      "held": 10,
+      "scan_bbox_hold": 0
+    },
+    "B06": {
+      "reviewed": 50,
+      "public_admitted": 47,
+      "held": 3,
+      "scan_bbox_hold": 0
+    },
+    "B07": {
+      "reviewed": 50,
+      "public_admitted": 31,
+      "held": 19,
+      "scan_bbox_hold": 19
+    },
+    "B08": {
+      "reviewed": 50,
+      "public_admitted": 0,
+      "held": 50,
+      "scan_bbox_hold": 50
+    },
+    "B09": {
+      "reviewed": 9,
+      "public_admitted": 0,
+      "held": 9,
+      "scan_bbox_hold": 9
+    }
+  },
+  "admission_policy": {
+    "scan_visual_estimate_is_not_certified_bbox": true,
+    "formal_science_answer_and_kp_required": true,
+    "rights_and_no_shared_figure_dependency_required": true,
+    "duplicate_must_not_create_second_student_item": true,
+    "no_modification_of_existing_294": true,
+    "operator_exception_only_stop": true
+  },
+  "records": [
+    {
+      "batch": "B01",
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|006",
+      "batch_ordinal": 32,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_004",
+      "review_ref": "data/review/p12-b04-auto-batch50-b01-first50-science-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b01-47-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "source_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_09",
+      "primary_route": "DEDUP_LINEAGE_ONLY",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": true,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "DUPLICATE_EXACT_STEM_ACROSS_SCHOOLS"
+      ],
+      "exception_flags": [
+        "DUPLICATE_EXACT_STEM_ACROSS_SCHOOLS"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B01",
+      "source_id": "SCI_G04_S1_114_MID_004|S01|TF|008",
+      "batch_ordinal": 42,
+      "source_paper_id": "SCI_G04_S1_114_MID_004",
+      "review_ref": "data/review/p12-b04-auto-batch50-b01-first50-science-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b01-47-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_02",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "AMBIGUOUS_HABITAT_SCOPE"
+      ],
+      "exception_flags": [
+        "AMBIGUOUS_HABITAT_SCOPE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B01",
+      "source_id": "SCI_G04_S1_114_MID_004|S02|MC|009",
+      "batch_ordinal": 48,
+      "source_paper_id": "SCI_G04_S1_114_MID_004",
+      "review_ref": "data/review/p12-b04-auto-batch50-b01-first50-science-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b01-47-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_01",
+      "primary_route": "ORIGINAL_PRINTED_OPTIONS_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": true,
+      "secondary_blocker_flags": [
+        "PRINTED_DUPLICATE_②_CHOICE_LABEL",
+        "SOURCE_PRINTED_OPTIONS_HOLD"
+      ],
+      "exception_flags": [
+        "PRINTED_DUPLICATE_②_CHOICE_LABEL",
+        "SOURCE_PRINTED_OPTIONS_HOLD"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B02",
+      "source_id": "SCI_G04_S1_114_MID_005|S01|TF|014",
+      "batch_ordinal": 18,
+      "source_paper_id": "SCI_G04_S1_114_MID_005",
+      "review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b02-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "source_pdf_sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_07",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "LOTUS_FLOATING_JUVENILE_LEAF_AMBIGUITY"
+      ],
+      "exception_flags": [
+        "LOTUS_FLOATING_JUVENILE_LEAF_AMBIGUITY"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B02",
+      "source_id": "SCI_G04_S1_114_MID_005|S02|MC|010",
+      "batch_ordinal": 26,
+      "source_paper_id": "SCI_G04_S1_114_MID_005",
+      "review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b02-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "source_pdf_sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_06",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "FLOATING_VS_FLOATING_LEAF_WATER_LEVEL_AMBIGUITY"
+      ],
+      "exception_flags": [
+        "FLOATING_VS_FLOATING_LEAF_WATER_LEVEL_AMBIGUITY"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B02",
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|003",
+      "batch_ordinal": 29,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b02-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_05",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "CONTINUOUS_GROUND_INSTABILITY_OVERGENERALIZATION"
+      ],
+      "exception_flags": [
+        "CONTINUOUS_GROUND_INSTABILITY_OVERGENERALIZATION"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B02",
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|004",
+      "batch_ordinal": 30,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b02-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_06",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "WIND_PROCESS_NOT_DIRECT_FLOWING_WATER_KP_MATCH"
+      ],
+      "exception_flags": [
+        "WIND_PROCESS_NOT_DIRECT_FLOWING_WATER_KP_MATCH"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B02",
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|005",
+      "batch_ordinal": 31,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b02-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_08",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "SEISMIC_MAGNITUDE_OUTSIDE_CURRENT_CANONICAL_KP"
+      ],
+      "exception_flags": [
+        "SEISMIC_MAGNITUDE_OUTSIDE_CURRENT_CANONICAL_KP"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B02",
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|006",
+      "batch_ordinal": 32,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b02-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_08",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "EARTHQUAKE_REPORT_DAMAGE_DETAILS_NOT_UNIVERSAL"
+      ],
+      "exception_flags": [
+        "EARTHQUAKE_REPORT_DAMAGE_DETAILS_NOT_UNIVERSAL"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B02",
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|007",
+      "batch_ordinal": 33,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b02-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_01",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "AQUATIC_HABITAT_DEFINITION_OVERBROAD"
+      ],
+      "exception_flags": [
+        "AQUATIC_HABITAT_DEFINITION_OVERBROAD"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B02",
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|002",
+      "batch_ordinal": 41,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b02-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_03",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "SAFE_SCIENCE_OBSERVATION_OUTSIDE_KP_GRAIN_SIZE_SCOPE"
+      ],
+      "exception_flags": [
+        "SAFE_SCIENCE_OBSERVATION_OUTSIDE_KP_GRAIN_SIZE_SCOPE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B02",
+      "source_id": "SCI_G04_S1_114_MID_006|S02|MC|005",
+      "batch_ordinal": 44,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b02-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_08",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "SEISMIC_MAGNITUDE_OUTSIDE_CURRENT_CANONICAL_KP"
+      ],
+      "exception_flags": [
+        "SEISMIC_MAGNITUDE_OUTSIDE_CURRENT_CANONICAL_KP"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B03",
+      "source_id": "SCI_G04_S1_114_MID_007|S01|TF|003",
+      "batch_ordinal": 4,
+      "source_paper_id": "SCI_G04_S1_114_MID_007",
+      "review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b03-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_05",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "WIND_AND_WATER_GEOMORPHOLOGY_KP_SCOPE"
+      ],
+      "exception_flags": [
+        "WIND_AND_WATER_GEOMORPHOLOGY_KP_SCOPE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B03",
+      "source_id": "SCI_G04_S1_114_MID_007|S01|TF|005",
+      "batch_ordinal": 5,
+      "source_paper_id": "SCI_G04_S1_114_MID_007",
+      "review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b03-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_07",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "EARTHQUAKE_NATURAL_ORIGIN_NOT_MATCH_DEVELOPMENT_KP"
+      ],
+      "exception_flags": [
+        "EARTHQUAKE_NATURAL_ORIGIN_NOT_MATCH_DEVELOPMENT_KP"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B03",
+      "source_id": "SCI_G04_S1_114_MID_007|S01|TF|012",
+      "batch_ordinal": 10,
+      "source_paper_id": "SCI_G04_S1_114_MID_007",
+      "review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b03-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_12",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "WASTEWATER_NOT_ALWAYS_THERMAL"
+      ],
+      "exception_flags": [
+        "WASTEWATER_NOT_ALWAYS_THERMAL"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B03",
+      "source_id": "SCI_G04_S1_114_MID_008|S01|TF|004",
+      "batch_ordinal": 20,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b03-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_05",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "SUBMERGED_VS_FLOATING_LEAF_ADAPTATION_SCOPE"
+      ],
+      "exception_flags": [
+        "SUBMERGED_VS_FLOATING_LEAF_ADAPTATION_SCOPE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B03",
+      "source_id": "SCI_G04_S1_114_MID_008|S01|TF|005",
+      "batch_ordinal": 21,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b03-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "FREE_HANGING_ROOT_VS_FLOATING_SEMANTICS"
+      ],
+      "exception_flags": [
+        "FREE_HANGING_ROOT_VS_FLOATING_SEMANTICS"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B03",
+      "source_id": "SCI_G04_S1_114_MID_008|S01|TF|011",
+      "batch_ordinal": 26,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b03-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_03",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "SOIL_FORMATION_OVERGENERALIZATION"
+      ],
+      "exception_flags": [
+        "SOIL_FORMATION_OVERGENERALIZATION"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B03",
+      "source_id": "SCI_G04_S1_114_MID_008|S01|TF|012",
+      "batch_ordinal": 27,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b03-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_05",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "ROCK_TO_SOIL_FIXED_SEQUENCE_UNJUSTIFIED"
+      ],
+      "exception_flags": [
+        "ROCK_TO_SOIL_FIXED_SEQUENCE_UNJUSTIFIED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B03",
+      "source_id": "SCI_G04_S1_114_MID_008|S01|TF|013",
+      "batch_ordinal": 28,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b03-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_06",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "FLOATING_LEAF_LOW_WATER_CONDITIONAL"
+      ],
+      "exception_flags": [
+        "FLOATING_LEAF_LOW_WATER_CONDITIONAL"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B03",
+      "source_id": "SCI_G04_S1_114_MID_008|S02|MC|004",
+      "batch_ordinal": 32,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b03-41-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "STREAM_SLOW_WATER_LOTUS_AMBIGUITY"
+      ],
+      "exception_flags": [
+        "STREAM_SLOW_WATER_LOTUS_AMBIGUITY"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B04",
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|003",
+      "batch_ordinal": 28,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "review_ref": "data/review/p12-b04-auto-batch50-b04-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b04-47-formal-science-kp-native-source-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "VACUUM_VS_SPACECRAFT_SOUND_SCOPE_AMBIGUOUS"
+      ],
+      "exception_flags": [
+        "VACUUM_VS_SPACECRAFT_SOUND_SCOPE_AMBIGUOUS"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B04",
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|011",
+      "batch_ordinal": 35,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "review_ref": "data/review/p12-b04-auto-batch50-b04-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b04-47-formal-science-kp-native-source-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "CONDUCTIVE_SWITCH_ALTERNATE_ASSEMBLY_MULTIPLE_CORRECT"
+      ],
+      "exception_flags": [
+        "CONDUCTIVE_SWITCH_ALTERNATE_ASSEMBLY_MULTIPLE_CORRECT"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B04",
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|002",
+      "batch_ordinal": 41,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "review_ref": "data/review/p12-b04-auto-batch50-b04-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b04-47-formal-science-kp-native-source-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "CO_ALARM_WARNING_FUNCTION_VS_LIGHT_ONLY_KP_MISMATCH"
+      ],
+      "exception_flags": [
+        "CO_ALARM_WARNING_FUNCTION_VS_LIGHT_ONLY_KP_MISMATCH"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B05",
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|014",
+      "batch_ordinal": 1,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b05-40-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "SOUND_WARNING_QUESTION_MAPPED_TO_LIGHT_WARNING_KP"
+      ],
+      "exception_flags": [
+        "SOUND_WARNING_QUESTION_MAPPED_TO_LIGHT_WARNING_KP"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B05",
+      "source_id": "SCI_G04_S1_114_FINAL_007|S02|MC|002",
+      "batch_ordinal": 3,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b05-40-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "BICYCLE_BELL_LIGHT_REFLECTOR_MIXED_MODALITY_KP"
+      ],
+      "exception_flags": [
+        "BICYCLE_BELL_LIGHT_REFLECTOR_MIXED_MODALITY_KP"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B05",
+      "source_id": "SCI_G04_S1_114_FINAL_007|S02|MC|011",
+      "batch_ordinal": 9,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b05-40-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "ASTRONAUT_SOUND_VACUUM_CONTEXT_UNSPECIFIED"
+      ],
+      "exception_flags": [
+        "ASTRONAUT_SOUND_VACUUM_CONTEXT_UNSPECIFIED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B05",
+      "source_id": "SCI_G04_S1_114_FINAL_008|S01|TF|004",
+      "batch_ordinal": 16,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b05-40-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "SHADOW_BEHIND_OBJECT_RELATIVE_TO_LIGHT_SOURCE_UNSTATED"
+      ],
+      "exception_flags": [
+        "SHADOW_BEHIND_OBJECT_RELATIVE_TO_LIGHT_SOURCE_UNSTATED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B05",
+      "source_id": "SCI_G04_S1_114_FINAL_008|S01|TF|005",
+      "batch_ordinal": 17,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b05-40-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "CONCERT_LIGHTS_WARNING_FUNCTION_NOT_UNIVERSAL"
+      ],
+      "exception_flags": [
+        "CONCERT_LIGHTS_WARNING_FUNCTION_NOT_UNIVERSAL"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B05",
+      "source_id": "SCI_G04_S1_114_FINAL_008|S01|TF|006",
+      "batch_ordinal": 18,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b05-40-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "SPACE_EXPLOSION_NO_MEDIUM_CONTEXT_UNSTATED"
+      ],
+      "exception_flags": [
+        "SPACE_EXPLOSION_NO_MEDIUM_CONTEXT_UNSTATED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B05",
+      "source_id": "SCI_G04_S1_114_FINAL_008|S01|TF|012",
+      "batch_ordinal": 23,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b05-40-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_01",
+      "primary_route": "DEDUP_LINEAGE_ONLY",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": true,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "SOURCE_EXACT_DUPLICATE_PREVIOUSLY_PUBLISHED_B04_TF"
+      ],
+      "exception_flags": [
+        "SOURCE_EXACT_DUPLICATE_PREVIOUSLY_PUBLISHED_B04_TF"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B05",
+      "source_id": "SCI_G04_S1_114_FINAL_008|S02|MC|007",
+      "batch_ordinal": 33,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b05-40-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "primary_route": "DEDUP_LINEAGE_ONLY",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": true,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "SOURCE_EXACT_PUBLISHED_114_FINAL_003_S02_MC_001"
+      ],
+      "exception_flags": [
+        "SOURCE_EXACT_PUBLISHED_114_FINAL_003_S02_MC_001"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B05",
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|002",
+      "batch_ordinal": 43,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b05-40-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "source_pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "DOLPHIN_ECHOLOCATION_NOT_DIRECT_SOUND_GENERATION_KP"
+      ],
+      "exception_flags": [
+        "DOLPHIN_ECHOLOCATION_NOT_DIRECT_SOUND_GENERATION_KP"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B05",
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|007",
+      "batch_ordinal": 46,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b05-40-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "source_pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_06",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "BATTERY_SERIES_PARALLEL_NOT_DIRECT_BRIGHTNESS_KP"
+      ],
+      "exception_flags": [
+        "BATTERY_SERIES_PARALLEL_NOT_DIRECT_BRIGHTNESS_KP"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B06",
+      "source_id": "SCI_G04_S1_114_MID_011|Q01|007",
+      "batch_ordinal": 5,
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "review_ref": "data/review/p12-b04-auto-batch50-b06-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b06-47-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_10",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "CORAL_REEF_HISTORICAL_USE_VS_CURRENT_PROTECTION_AMBIGUITY"
+      ],
+      "exception_flags": [
+        "CORAL_REEF_HISTORICAL_USE_VS_CURRENT_PROTECTION_AMBIGUITY"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B06",
+      "source_id": "SCI_G04_S1_114_MID_011|Q01|008",
+      "batch_ordinal": 6,
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "review_ref": "data/review/p12-b04-auto-batch50-b06-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b06-47-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_07",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "FOREST_CLEARANCE_DOES_NOT_SUFFICE_FOR_LANDSLIDE_DAM"
+      ],
+      "exception_flags": [
+        "FOREST_CLEARANCE_DOES_NOT_SUFFICE_FOR_LANDSLIDE_DAM"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B06",
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q06|001",
+      "batch_ordinal": 50,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "review_ref": "data/review/p12-b04-auto-batch50-b06-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b06-47-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_08",
+      "primary_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "scan_bbox_blocker": false,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "KALEIDOSCOPE_MIRROR_REFLECTION_KP_03_07_NOT_03_08"
+      ],
+      "exception_flags": [
+        "KALEIDOSCOPE_MIRROR_REFLECTION_KP_03_07_NOT_03_08"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S1|MC|005",
+      "batch_ordinal": 32,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S1|MC|006",
+      "batch_ordinal": 33,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S1|MC|009",
+      "batch_ordinal": 34,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S1|MC|010",
+      "batch_ordinal": 35,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S1|MC|011",
+      "batch_ordinal": 36,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_03",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S1|MC|012",
+      "batch_ordinal": 37,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_09",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S2|TF|004",
+      "batch_ordinal": 38,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S2|TF|007",
+      "batch_ordinal": 39,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S2|TF|009",
+      "batch_ordinal": 40,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_11",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S2|TF|011",
+      "batch_ordinal": 41,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S2|TF|013",
+      "batch_ordinal": 42,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "primary_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "FLOATING_LEAVED_LILY_KP_MISMAPPED_AS_FREE_FLOATING_PLANT"
+      ],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE",
+        "FLOATING_LEAVED_LILY_KP_MISMAPPED_AS_FREE_FLOATING_PLANT"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G05|019",
+      "batch_ordinal": 43,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_11",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G05|020",
+      "batch_ordinal": 44,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_11",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G05|022",
+      "batch_ordinal": 45,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_11",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G07|029",
+      "batch_ordinal": 46,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G07|030",
+      "batch_ordinal": 47,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G07|031",
+      "batch_ordinal": 48,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G07|032",
+      "batch_ordinal": 49,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B07",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S1|TF|002",
+      "batch_ordinal": 50,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": "data/review/p12-b04-b07-31-formal-science-kp-acceptance-v1.json",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S1|TF|003",
+      "batch_ordinal": 1,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S1|TF|007",
+      "batch_ordinal": 2,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_08",
+      "primary_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "AMBIGUOUS_CIRCUIT_DEFINITION",
+        "CANONICAL_KP_PROPOSAL_MISMATCH"
+      ],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "AMBIGUOUS_CIRCUIT_DEFINITION",
+        "CANONICAL_KP_PROPOSAL_MISMATCH"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S1|TF|008",
+      "batch_ordinal": 3,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S1|TF|009",
+      "batch_ordinal": 4,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_08",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S1|TF|011",
+      "batch_ordinal": 5,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_06",
+      "primary_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "CANONICAL_KP_PROPOSAL_MISMATCH"
+      ],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "CANONICAL_KP_PROPOSAL_MISMATCH"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S2|MC|001",
+      "batch_ordinal": 6,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_05",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S2|MC|002",
+      "batch_ordinal": 7,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S2|MC|003",
+      "batch_ordinal": 8,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_04",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S2|MC|006",
+      "batch_ordinal": 9,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S2|MC|008",
+      "batch_ordinal": 10,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_01",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S2|MC|009",
+      "batch_ordinal": 11,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_11",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S2|MC|010",
+      "batch_ordinal": 12,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_04",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S2|MC|012",
+      "batch_ordinal": 13,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_12",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S2|MC|013",
+      "batch_ordinal": 14,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_11",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S2|MC|015",
+      "batch_ordinal": 15,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_09",
+      "primary_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": true,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "CROSS_SOURCE_SAME_STEM_DUPLICATE_HOLD"
+      ],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "CROSS_SOURCE_SAME_STEM_DUPLICATE_HOLD"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S5|G01|001",
+      "batch_ordinal": 16,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S5|G01|002",
+      "batch_ordinal": 17,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S5|G01|003",
+      "batch_ordinal": 18,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S5|G01|004",
+      "batch_ordinal": 19,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S5|G01|005",
+      "batch_ordinal": 20,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S5|G01|006",
+      "batch_ordinal": 21,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S5|G01|007",
+      "batch_ordinal": 22,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_002|S5|G01|008",
+      "batch_ordinal": 23,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|001",
+      "batch_ordinal": 24,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_05",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|002",
+      "batch_ordinal": 25,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_08",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|003",
+      "batch_ordinal": 26,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_01",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|004",
+      "batch_ordinal": 27,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "primary_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": true,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "CROSS_SOURCE_SAME_STEM_DUPLICATE_HOLD"
+      ],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "CROSS_SOURCE_SAME_STEM_DUPLICATE_HOLD"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|005",
+      "batch_ordinal": 28,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|006",
+      "batch_ordinal": 29,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|007",
+      "batch_ordinal": 30,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_09",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|008",
+      "batch_ordinal": 31,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_05",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|009",
+      "batch_ordinal": 32,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|011",
+      "batch_ordinal": 33,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_03",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|012",
+      "batch_ordinal": 34,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "primary_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [
+        "NO_EXACT_SCIENCE_ANSWER_TIDAL_ZONE_VS_ESTUARY"
+      ],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "NO_EXACT_SCIENCE_ANSWER_TIDAL_ZONE_VS_ESTUARY"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|013",
+      "batch_ordinal": 35,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_03",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|014",
+      "batch_ordinal": 36,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|015",
+      "batch_ordinal": 37,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G01|001",
+      "batch_ordinal": 38,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_09",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "ORIGINAL_PARENT_SCORE_ANNOTATION_PRESERVED_SCORELESS_PROJECTION_VERIFIED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G01|002",
+      "batch_ordinal": 39,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_09",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "ORIGINAL_PARENT_SCORE_ANNOTATION_PRESERVED_SCORELESS_PROJECTION_VERIFIED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G01|003",
+      "batch_ordinal": 40,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_10",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "ORIGINAL_PARENT_SCORE_ANNOTATION_PRESERVED_SCORELESS_PROJECTION_VERIFIED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G01|004",
+      "batch_ordinal": 41,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_09",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "ORIGINAL_PARENT_SCORE_ANNOTATION_PRESERVED_SCORELESS_PROJECTION_VERIFIED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G01|005",
+      "batch_ordinal": 42,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_10",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "ORIGINAL_PARENT_SCORE_ANNOTATION_PRESERVED_SCORELESS_PROJECTION_VERIFIED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_MID_009|S3|G01|006",
+      "batch_ordinal": 43,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_01_11",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "ORIGINAL_PARENT_SCORE_ANNOTATION_PRESERVED_SCORELESS_PROJECTION_VERIFIED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|001",
+      "batch_ordinal": 44,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_12",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|003",
+      "batch_ordinal": 45,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|004",
+      "batch_ordinal": 46,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|005",
+      "batch_ordinal": 47,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_04",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|006",
+      "batch_ordinal": 48,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_08",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S2|MC|007",
+      "batch_ordinal": 49,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B08",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|001",
+      "batch_ordinal": 50,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B09",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|002",
+      "batch_ordinal": 1,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b09-last9-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_05",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B09",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|004",
+      "batch_ordinal": 2,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b09-last9-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_06",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B09",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|005",
+      "batch_ordinal": 3,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b09-last9-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B09",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|006",
+      "batch_ordinal": 4,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b09-last9-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_04_10",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B09",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|007",
+      "batch_ordinal": 5,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b09-last9-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B09",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S3|G04|014",
+      "batch_ordinal": 6,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b09-last9-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_04",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B09",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S3|G04|015",
+      "batch_ordinal": 7,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b09-last9-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B09",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S3|G04|016",
+      "batch_ordinal": 8,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b09-last9-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    },
+    {
+      "batch": "B09",
+      "source_id": "SCI_G04_S1_114_FINAL_010|S3|G04|017",
+      "batch_ordinal": 9,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "review_ref": "data/review/p12-b04-auto-batch50-b09-last9-science-kp-review-v1.json",
+      "formal_acceptance_ref": null,
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        2
+      ],
+      "question_type": "TRUE_FALSE",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "primary_route": "SCAN_PDF_BBOX_RECOVERY",
+      "scan_bbox_blocker": true,
+      "cross_source_duplicate_blocker": false,
+      "source_print_problem": false,
+      "secondary_blocker_flags": [],
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "public_admitted": false,
+      "original_school_teacher_key_authenticated": false,
+      "requires_separate_original_pdf_review_before_any_admission": true
+    }
+  ]
+}

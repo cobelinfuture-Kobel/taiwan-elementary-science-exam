@@ -28,14 +28,14 @@ test("source-based context groups include true O/X and explanation",()=>{
  assert.deepEqual(reflection.items.map(x=>x.answer),["②","①、④"]);
 });
 
-test("P09 seven diagrams and manual drawing scoring are source aligned",()=>{
+test("P09 seven diagrams and manual correctness check are source aligned",()=>{
  const rows=validateAndConvertContextGroups(db,authority).blocks.filter(g=>g.diagram_kind);
  assert.equal(rows.length,7);
  assert.ok(rows.every(g=>g.source_pdf_sha256.length===64));
  const drawing=rows.find(g=>g.id==="FINAL_G04_CIRCUIT_DRAW");
  assert.equal(drawing.items[0].type,"draw");
- assert.equal(drawing.automatic_grading,false);
- assert.equal(drawing.assessment_method,"MANUAL_RUBRIC_5_POINTS");
+ assert.equal(Object.hasOwn(drawing,"automatic_grading"),false);
+ assert.equal(drawing.assessment_method,"MANUAL_VISUAL_CORRECTNESS_CHECK");
  const original=db.groups.find(x=>x.id==="FINAL_G04_CIRCUIT_IMAGES");
  assert.deepEqual(original.items.map(x=>x.answer),["甲","丙","乙"]);
 });

@@ -1,0 +1,1184 @@
+{
+  "schema_version": "P12_E01_PUREN_MID18_PIXEL_GEOMETRY_13_ADMISSION_5_HOLD_V1",
+  "baseline_main": "14ed02606c7a31cce3bd399c733b7bb231ec9b3e",
+  "source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+  "source_paper_id": "SCI_G04_S1_114_MID_009",
+  "original_drive_file_id": "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG",
+  "original_pdf_size_bytes": 1166576,
+  "source_image_unchanged_and_sha_verified": true,
+  "source_scan_only": true,
+  "no_original_pdf_images_published": true,
+  "teacher_answer_key_authenticated": false,
+  "source_review_positions": 18,
+  "formal_admission_candidates": 13,
+  "science_kp_quarantine": 5,
+  "published_baseline_slots": 576,
+  "expected_slots_after_ci_pages": 589,
+  "unresolved_prior": 99,
+  "unresolved_if_13_published": 86,
+  "evidence": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|003",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "下列關於水田和潮間帶這兩種水域環境的敘述，哪一項是正確的？",
+      "student_scoreless_stem_projection": "下列關於水田和潮間帶這兩種水域環境的敘述，哪一項是正確的？",
+      "original_full_options_in_order": [
+        {
+          "label": "①",
+          "text": "水田中找不到水生植物"
+        },
+        {
+          "label": "②",
+          "text": "潮間帶中找不到水生動物"
+        },
+        {
+          "label": "③",
+          "text": "水田的水是鹹水"
+        },
+        {
+          "label": "④",
+          "text": "水田是人為建造的水域環境，潮間帶是天然形成的水域環境"
+        }
+      ],
+      "source_parent_score_annotation_removed": false,
+      "original_legacy_visual_estimate_not_certified": [
+        33,
+        140.87,
+        82,
+        153.91
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        80,
+        330,
+        136,
+        358
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        50,
+        206.25,
+        85,
+        223.75
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "④",
+      "model_answer_reason": "水田屬人工水域，潮間帶是自然形成的水域。",
+      "canonical_kp_id_proposed": "sci_g04s1_02_01",
+      "source_original_immutable": true,
+      "admission_status": "FORMAL_SCIENCE_KP_PUBLISHED_IF_PR_CI_PAGES_PASS",
+      "certified_kp_id": "sci_g04s1_02_01",
+      "reasoned_unique_answer": "④",
+      "duplicate_exact_stem_in_published_bank": false,
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_block_id": "P12_E01_PUREN_MID_MC_001"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|005",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "小華說：「水滴在荷花葉面上會形成水珠，葉面不易被水沾溼。」小美說：「布袋蓮的葉柄裡有孔洞，可以儲存空氣，所以它能在水面上漂浮。」請問他們兩人誰說得對？",
+      "student_scoreless_stem_projection": "小華說：「水滴在荷花葉面上會形成水珠，葉面不易被水沾溼。」小美說：「布袋蓮的葉柄裡有孔洞，可以儲存空氣，所以它能在水面上漂浮。」請問他們兩人誰說得對？",
+      "original_full_options_in_order": [
+        {
+          "label": "①",
+          "text": "小華"
+        },
+        {
+          "label": "②",
+          "text": "小美"
+        },
+        {
+          "label": "③",
+          "text": "兩人都對"
+        },
+        {
+          "label": "④",
+          "text": "兩人都不對"
+        }
+      ],
+      "source_parent_score_annotation_removed": false,
+      "original_legacy_visual_estimate_not_certified": [
+        33,
+        239.57,
+        82,
+        252.61
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        80,
+        588,
+        136,
+        616
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        50,
+        367.5,
+        85,
+        385
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "③",
+      "model_answer_reason": "荷葉疏水性與布袋蓮葉柄含氣構造的敘述都成立。",
+      "canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "source_original_immutable": true,
+      "admission_status": "FORMAL_SCIENCE_KP_PUBLISHED_IF_PR_CI_PAGES_PASS",
+      "certified_kp_id": "sci_g04s1_02_04",
+      "reasoned_unique_answer": "③",
+      "duplicate_exact_stem_in_published_bank": false,
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_block_id": "P12_E01_PUREN_MID_MC_002"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|006",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "下列哪一項不可能是漂浮性水生植物的特徵？",
+      "student_scoreless_stem_projection": "下列哪一項不可能是漂浮性水生植物的特徵？",
+      "original_full_options_in_order": [
+        {
+          "label": "①",
+          "text": "葉面有蠟質"
+        },
+        {
+          "label": "②",
+          "text": "葉柄有儲存空氣的構造"
+        },
+        {
+          "label": "③",
+          "text": "葉面有細毛"
+        },
+        {
+          "label": "④",
+          "text": "根生長在水底的泥土裡"
+        }
+      ],
+      "source_parent_score_annotation_removed": false,
+      "original_legacy_visual_estimate_not_certified": [
+        33,
+        292.61,
+        82,
+        305.65
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        80,
+        750,
+        136,
+        778
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        50,
+        468.75,
+        85,
+        486.25
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "④",
+      "model_answer_reason": "漂浮植物的根通常不固定在水底泥土裡。",
+      "canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "source_original_immutable": true,
+      "admission_status": "FORMAL_SCIENCE_KP_PUBLISHED_IF_PR_CI_PAGES_PASS",
+      "certified_kp_id": "sci_g04s1_02_04",
+      "reasoned_unique_answer": "④",
+      "duplicate_exact_stem_in_published_bank": false,
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_block_id": "P12_E01_PUREN_MID_MC_003"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|007",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "下列哪一種水生動物在水中的主要運動方式和其他三者不同？",
+      "student_scoreless_stem_projection": "下列哪一種水生動物在水中的主要運動方式和其他三者不同？",
+      "original_full_options_in_order": [
+        {
+          "label": "①",
+          "text": "螺"
+        },
+        {
+          "label": "②",
+          "text": "蝌蚪"
+        },
+        {
+          "label": "③",
+          "text": "蛙"
+        },
+        {
+          "label": "④",
+          "text": "龜"
+        }
+      ],
+      "source_parent_score_annotation_removed": false,
+      "original_legacy_visual_estimate_not_certified": [
+        33,
+        347.83,
+        82,
+        360.87
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        80,
+        867,
+        136,
+        895
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        50,
+        541.875,
+        85,
+        559.375
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "①",
+      "model_answer_reason": "螺類通常以足緩慢爬行，與其他動物主要游動方式不同。",
+      "canonical_kp_id_proposed": "sci_g04s1_02_09",
+      "source_original_immutable": true,
+      "admission_status": "FORMAL_SCIENCE_KP_PUBLISHED_IF_PR_CI_PAGES_PASS",
+      "certified_kp_id": "sci_g04s1_02_09",
+      "reasoned_unique_answer": "①",
+      "duplicate_exact_stem_in_published_bank": false,
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_block_id": "P12_E01_PUREN_MID_MC_004"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|008",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "下列哪一項是造成河川砂石往下移動形成土石流的可能原因？",
+      "student_scoreless_stem_projection": "下列哪一項是造成河川砂石往下移動形成土石流的可能原因？",
+      "original_full_options_in_order": [
+        {
+          "label": "①",
+          "text": "打雷"
+        },
+        {
+          "label": "②",
+          "text": "下大雨"
+        },
+        {
+          "label": "③",
+          "text": "強風"
+        },
+        {
+          "label": "④",
+          "text": "動物遷移"
+        }
+      ],
+      "source_parent_score_annotation_removed": false,
+      "original_legacy_visual_estimate_not_certified": [
+        33,
+        380,
+        82,
+        393.04
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        80,
+        945,
+        136,
+        973
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        50,
+        590.625,
+        85,
+        608.125
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "②",
+      "model_answer_reason": "大量降雨會使土砂含水與流動增加，可能誘發土石流。",
+      "canonical_kp_id_proposed": "sci_g04s1_01_05",
+      "source_original_immutable": true,
+      "admission_status": "FORMAL_SCIENCE_KP_PUBLISHED_IF_PR_CI_PAGES_PASS",
+      "certified_kp_id": "sci_g04s1_01_05",
+      "reasoned_unique_answer": "②",
+      "duplicate_exact_stem_in_published_bank": false,
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_block_id": "P12_E01_PUREN_MID_MC_005"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|009",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "把水族箱中的大萍壓入水底再放手，會發生什麼情形？",
+      "student_scoreless_stem_projection": "把水族箱中的大萍壓入水底再放手，會發生什麼情形？",
+      "original_full_options_in_order": [
+        {
+          "label": "①",
+          "text": "大萍會立刻浮起來"
+        },
+        {
+          "label": "②",
+          "text": "大萍會一直沉在水底"
+        },
+        {
+          "label": "③",
+          "text": "手將大萍壓到什麼地方，大萍就會停在那個地方"
+        },
+        {
+          "label": "④",
+          "text": "大萍會上下顛倒的在水面下漂浮移動"
+        }
+      ],
+      "source_parent_score_annotation_removed": false,
+      "original_legacy_visual_estimate_not_certified": [
+        33,
+        417.39,
+        82,
+        430.43
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        80,
+        1036,
+        136,
+        1064
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        50,
+        647.5,
+        85,
+        665
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "①",
+      "model_answer_reason": "大萍漂浮組織提供浮力，放開後通常浮回水面。",
+      "canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "source_original_immutable": true,
+      "admission_status": "FORMAL_SCIENCE_KP_PUBLISHED_IF_PR_CI_PAGES_PASS",
+      "certified_kp_id": "sci_g04s1_02_04",
+      "reasoned_unique_answer": "①",
+      "duplicate_exact_stem_in_published_bank": false,
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_block_id": "P12_E01_PUREN_MID_MC_006"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|014",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "大雄調查水域環境時，發現了苔蘚、浮萍和蛙，下列哪一個最不可能是大雄調查的水域環境？",
+      "student_scoreless_stem_projection": "大雄調查水域環境時，發現了苔蘚、浮萍和蛙，下列哪一個最不可能是大雄調查的水域環境？",
+      "original_full_options_in_order": [
+        {
+          "label": "①",
+          "text": "溪流"
+        },
+        {
+          "label": "②",
+          "text": "海洋"
+        },
+        {
+          "label": "③",
+          "text": "生態池"
+        },
+        {
+          "label": "④",
+          "text": "水田"
+        }
+      ],
+      "source_parent_score_annotation_removed": false,
+      "original_legacy_visual_estimate_not_certified": [
+        381,
+        146.09,
+        430,
+        159.13
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        627,
+        296,
+        684,
+        326
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        391.875,
+        185,
+        427.5,
+        203.75
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "②",
+      "model_answer_reason": "苔蘚、浮萍與蛙的組合不符合高鹽度海洋水域。",
+      "canonical_kp_id_proposed": "sci_g04s1_02_02",
+      "source_original_immutable": true,
+      "admission_status": "FORMAL_SCIENCE_KP_PUBLISHED_IF_PR_CI_PAGES_PASS",
+      "certified_kp_id": "sci_g04s1_02_02",
+      "reasoned_unique_answer": "②",
+      "duplicate_exact_stem_in_published_bank": false,
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_block_id": "P12_E01_PUREN_MID_MC_007"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|015",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "下列哪一種不是布袋蓮葉柄膨大的功能？",
+      "student_scoreless_stem_projection": "下列哪一種不是布袋蓮葉柄膨大的功能？",
+      "original_full_options_in_order": [
+        {
+          "label": "①",
+          "text": "增加重量"
+        },
+        {
+          "label": "②",
+          "text": "增加浮力"
+        },
+        {
+          "label": "③",
+          "text": "儲存空氣"
+        },
+        {
+          "label": "④",
+          "text": "幫助漂浮"
+        }
+      ],
+      "source_parent_score_annotation_removed": false,
+      "original_legacy_visual_estimate_not_certified": [
+        381,
+        225.65,
+        430,
+        238.7
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        627,
+        410,
+        684,
+        440
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        391.875,
+        256.25,
+        427.5,
+        275
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "①",
+      "model_answer_reason": "膨大的含氣葉柄增加浮力而非重量。",
+      "canonical_kp_id_proposed": "sci_g04s1_02_04",
+      "source_original_immutable": true,
+      "admission_status": "FORMAL_SCIENCE_KP_PUBLISHED_IF_PR_CI_PAGES_PASS",
+      "certified_kp_id": "sci_g04s1_02_04",
+      "reasoned_unique_answer": "①",
+      "duplicate_exact_stem_in_published_bank": false,
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_block_id": "P12_E01_PUREN_MID_MC_008"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|001",
+      "source_pdf_page_1_based": 2,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。(每個答案1分)\n平時準備避難救生包。",
+      "student_scoreless_stem_projection": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。\n平時準備避難救生包。",
+      "original_full_options_in_order": [],
+      "source_parent_score_annotation_removed": true,
+      "original_legacy_visual_estimate_not_certified": [
+        34,
+        684.78,
+        83,
+        697.83
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "fe57caf2381bfc66e9353a4c0608c4554de9cafdee9afe76032f1baf0fe4643f",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        61,
+        1094,
+        125,
+        1122
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        38.125,
+        683.75,
+        78.125,
+        701.25
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "O",
+      "model_answer_reason": "地震前備妥避難救生包屬基本防災準備。",
+      "canonical_kp_id_proposed": "sci_g04s1_01_09",
+      "source_original_immutable": true,
+      "admission_status": "FORMAL_SCIENCE_KP_PUBLISHED_IF_PR_CI_PAGES_PASS",
+      "certified_kp_id": "sci_g04s1_01_09",
+      "reasoned_unique_answer": "O",
+      "duplicate_exact_stem_in_published_bank": false,
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_block_id": "P12_E01_PUREN_MID_TF_001"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|002",
+      "source_pdf_page_1_based": 2,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。(每個答案1分)\n平時應進行防震演練。",
+      "student_scoreless_stem_projection": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。\n平時應進行防震演練。",
+      "original_full_options_in_order": [],
+      "source_parent_score_annotation_removed": true,
+      "original_legacy_visual_estimate_not_certified": [
+        34,
+        708.7,
+        83,
+        721.74
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "fe57caf2381bfc66e9353a4c0608c4554de9cafdee9afe76032f1baf0fe4643f",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        61,
+        1126,
+        125,
+        1154
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        38.125,
+        703.75,
+        78.125,
+        721.25
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "O",
+      "model_answer_reason": "定期演練可使人更熟悉地震應變。",
+      "canonical_kp_id_proposed": "sci_g04s1_01_09",
+      "source_original_immutable": true,
+      "admission_status": "FORMAL_SCIENCE_KP_PUBLISHED_IF_PR_CI_PAGES_PASS",
+      "certified_kp_id": "sci_g04s1_01_09",
+      "reasoned_unique_answer": "O",
+      "duplicate_exact_stem_in_published_bank": false,
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_block_id": "P12_E01_PUREN_MID_TF_002"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|003",
+      "source_pdf_page_1_based": 2,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。(每個答案1分)\n地震發生時應搭電梯盡速下樓。",
+      "student_scoreless_stem_projection": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。\n地震發生時應搭電梯盡速下樓。",
+      "original_full_options_in_order": [],
+      "source_parent_score_annotation_removed": true,
+      "original_legacy_visual_estimate_not_certified": [
+        34,
+        728.26,
+        83,
+        741.3
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "fe57caf2381bfc66e9353a4c0608c4554de9cafdee9afe76032f1baf0fe4643f",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        61,
+        1158,
+        125,
+        1186
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        38.125,
+        723.75,
+        78.125,
+        741.25
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "X",
+      "model_answer_reason": "地震時應就地採取趴下、掩護、穩住，不宜搭電梯。",
+      "canonical_kp_id_proposed": "sci_g04s1_01_10",
+      "source_original_immutable": true,
+      "admission_status": "FORMAL_SCIENCE_KP_PUBLISHED_IF_PR_CI_PAGES_PASS",
+      "certified_kp_id": "sci_g04s1_01_10",
+      "reasoned_unique_answer": "X",
+      "duplicate_exact_stem_in_published_bank": false,
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_block_id": "P12_E01_PUREN_MID_TF_003"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|004",
+      "source_pdf_page_1_based": 2,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。(每個答案1分)\n人們現在已能準確預測地震的發生。",
+      "student_scoreless_stem_projection": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。\n人們現在已能準確預測地震的發生。",
+      "original_full_options_in_order": [],
+      "source_parent_score_annotation_removed": true,
+      "original_legacy_visual_estimate_not_certified": [
+        34,
+        746.96,
+        83,
+        760
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "fe57caf2381bfc66e9353a4c0608c4554de9cafdee9afe76032f1baf0fe4643f",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        61,
+        1188,
+        125,
+        1216
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        38.125,
+        742.5,
+        78.125,
+        760
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "X",
+      "model_answer_reason": "目前無法準確預測特定地震發生的時間、地點與規模。",
+      "canonical_kp_id_proposed": "sci_g04s1_01_09",
+      "source_original_immutable": true,
+      "admission_status": "FORMAL_SCIENCE_KP_PUBLISHED_IF_PR_CI_PAGES_PASS",
+      "certified_kp_id": "sci_g04s1_01_09",
+      "reasoned_unique_answer": "X",
+      "duplicate_exact_stem_in_published_bank": false,
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_block_id": "P12_E01_PUREN_MID_TF_004"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|006",
+      "source_pdf_page_1_based": 2,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。(每個答案1分)\n地震後應該檢查瓦斯、水、電等設備。",
+      "student_scoreless_stem_projection": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。\n地震後應該檢查瓦斯、水、電等設備。",
+      "original_full_options_in_order": [],
+      "source_parent_score_annotation_removed": true,
+      "original_legacy_visual_estimate_not_certified": [
+        34,
+        786.52,
+        83,
+        799.57
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "fe57caf2381bfc66e9353a4c0608c4554de9cafdee9afe76032f1baf0fe4643f",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        61,
+        1252,
+        125,
+        1280
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        38.125,
+        782.5,
+        78.125,
+        800
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "O",
+      "model_answer_reason": "震後在確認環境安全下，應留意瓦斯、水與電力設備異常。",
+      "canonical_kp_id_proposed": "sci_g04s1_01_11",
+      "source_original_immutable": true,
+      "admission_status": "FORMAL_SCIENCE_KP_PUBLISHED_IF_PR_CI_PAGES_PASS",
+      "certified_kp_id": "sci_g04s1_01_11",
+      "reasoned_unique_answer": "O",
+      "duplicate_exact_stem_in_published_bank": false,
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_block_id": "P12_E01_PUREN_MID_TF_005"
+    }
+  ],
+  "quarantined": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|001",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "下列哪個因素並不會讓大塊岩石碎裂成礫石？",
+      "student_scoreless_stem_projection": "下列哪個因素並不會讓大塊岩石碎裂成礫石？",
+      "original_full_options_in_order": [
+        {
+          "label": "①",
+          "text": "太陽長期照射"
+        },
+        {
+          "label": "②",
+          "text": "小動物走過去"
+        },
+        {
+          "label": "③",
+          "text": "雨水大量沖刷"
+        },
+        {
+          "label": "④",
+          "text": "長時間強風吹襲"
+        }
+      ],
+      "source_parent_score_annotation_removed": false,
+      "original_legacy_visual_estimate_not_certified": [
+        33,
+        71.74,
+        82,
+        84.78
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        80,
+        187,
+        136,
+        215
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        50,
+        116.875,
+        85,
+        134.375
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "②",
+      "model_answer_reason": "小動物走過通常不足以使大塊岩石碎裂成礫石。",
+      "canonical_kp_id_proposed": "sci_g04s1_01_05",
+      "source_original_immutable": true,
+      "admission_status": "SCIENCE_KP_EXCEPTION_HOLD",
+      "additional_blocker": "WEATHERING_NOT_DIRECT_KP_01_05",
+      "student_site_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|002",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "地震震源釋放出的能量大小稱為",
+      "student_scoreless_stem_projection": "地震震源釋放出的能量大小稱為",
+      "original_full_options_in_order": [
+        {
+          "label": "①",
+          "text": "震央"
+        },
+        {
+          "label": "②",
+          "text": "震度"
+        },
+        {
+          "label": "③",
+          "text": "地震深度"
+        },
+        {
+          "label": "④",
+          "text": "地震規模"
+        }
+      ],
+      "source_parent_score_annotation_removed": false,
+      "original_legacy_visual_estimate_not_certified": [
+        33,
+        104.78,
+        82,
+        117.83
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        80,
+        273,
+        136,
+        301
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        50,
+        170.625,
+        85,
+        188.125
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "④",
+      "model_answer_reason": "地震規模用於描述地震釋放能量的大小。",
+      "canonical_kp_id_proposed": "sci_g04s1_01_08",
+      "source_original_immutable": true,
+      "admission_status": "SCIENCE_KP_EXCEPTION_HOLD",
+      "additional_blocker": "MAGNITUDE_OUTSIDE_KP_01_08",
+      "student_site_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|011",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "下列哪一項不是水生植物的特徵？",
+      "student_scoreless_stem_projection": "下列哪一項不是水生植物的特徵？",
+      "original_full_options_in_order": [
+        {
+          "label": "①",
+          "text": "莖、葉通常較柔軟，可以隨著水流擺動"
+        },
+        {
+          "label": "②",
+          "text": "葉柄中有孔洞，可以儲存空氣"
+        },
+        {
+          "label": "③",
+          "text": "花很香，是魚類的主要食物"
+        },
+        {
+          "label": "④",
+          "text": "葉面大多有細毛或蠟質，可以防水"
+        }
+      ],
+      "source_parent_score_annotation_removed": false,
+      "original_legacy_visual_estimate_not_certified": [
+        33,
+        518.26,
+        82,
+        531.3
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        91,
+        1300,
+        136,
+        1328
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        56.875,
+        812.5,
+        85,
+        830
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "③",
+      "model_answer_reason": "花香以及成為魚類主要食物並非水生植物的通用特徵。",
+      "canonical_kp_id_proposed": "sci_g04s1_02_03",
+      "source_original_immutable": true,
+      "admission_status": "SCIENCE_KP_EXCEPTION_HOLD",
+      "additional_blocker": "WATER_PLANT_UNIVERSAL_TRAIT_MULTIPLE_POSSIBLE",
+      "student_site_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|013",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "用手觸摸岩石、沙和土壤，下列哪一個是正確的？",
+      "student_scoreless_stem_projection": "用手觸摸岩石、沙和土壤，下列哪一個是正確的？",
+      "original_full_options_in_order": [
+        {
+          "label": "①",
+          "text": "岩石摸起來粗粗的、軟軟的"
+        },
+        {
+          "label": "②",
+          "text": "沙摸起來細細的、軟軟的"
+        },
+        {
+          "label": "③",
+          "text": "岩石、沙和土壤摸起來的感覺相同"
+        },
+        {
+          "label": "④",
+          "text": "土壤摸起來細細的、軟軟的"
+        }
+      ],
+      "source_parent_score_annotation_removed": false,
+      "original_legacy_visual_estimate_not_certified": [
+        381,
+        67.83,
+        430,
+        80.87
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        627,
+        156,
+        684,
+        186
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        391.875,
+        97.5,
+        427.5,
+        116.25
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "④",
+      "model_answer_reason": "課本常以土壤顆粒較細與摸起來鬆軟作示例，仍需核對原題材料條件。",
+      "canonical_kp_id_proposed": "sci_g04s1_01_03",
+      "source_original_immutable": true,
+      "admission_status": "SCIENCE_KP_EXCEPTION_HOLD",
+      "additional_blocker": "SOIL_TEXTURE_MATERIAL_CONDITIONS_UNSTATED",
+      "student_site_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|005",
+      "source_pdf_page_1_based": 2,
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_full_stem": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。(每個答案1分)\n地震發生時可以大聲尖叫，舒緩緊張。",
+      "student_scoreless_stem_projection": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。\n地震發生時可以大聲尖叫，舒緩緊張。",
+      "original_full_options_in_order": [],
+      "source_parent_score_annotation_removed": true,
+      "original_legacy_visual_estimate_not_certified": [
+        34,
+        766.52,
+        83,
+        779.57
+      ],
+      "original_pdf_scan_only": true,
+      "native_pdf_text_glyph_bbox_available": false,
+      "pdf_image_render": {
+        "raster_engine": "PyMuPDF",
+        "matrix_scale": 1.6,
+        "page_rotation": 0,
+        "rendered_page_rgb_sha256": "fe57caf2381bfc66e9353a4c0608c4554de9cafdee9afe76032f1baf0fe4643f",
+        "page_image_size_px": [
+          1166,
+          1651
+        ]
+      },
+      "answer_marker_pixel_bbox_on_original_image": [
+        61,
+        1220,
+        125,
+        1248
+      ],
+      "answer_marker_bbox_upright_pts_top_left": [
+        38.125,
+        762.5,
+        78.125,
+        780
+      ],
+      "precision_type": "DIRECT_SOURCE_IMAGE_PIXEL_RECTANGLE_VERIFIED_NOT_NATIVE_GLYPH",
+      "source_figure_dependency_absent": true,
+      "article9_school_exam_question_text_only": true,
+      "original_school_answer_key_authenticated": false,
+      "model_independent_answer": "X",
+      "model_answer_reason": "地震時應維持警覺並採取適當防護，不是以大聲尖叫作為安全行動。",
+      "canonical_kp_id_proposed": "sci_g04s1_01_10",
+      "source_original_immutable": true,
+      "admission_status": "SCIENCE_KP_EXCEPTION_HOLD",
+      "additional_blocker": "SCREAM_TO_RELIEVE_STRESS_NOT_UNIQUE_SAFETY_JUDGMENT",
+      "student_site_published": false
+    }
+  ]
+}

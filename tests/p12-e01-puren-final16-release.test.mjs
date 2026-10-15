@@ -84,7 +84,7 @@ test("P12 E01 16 original standalone stems not exact duplicates of previously pu
   "p12-b04-b03-41-public-v1","p12-b04-b04-47-public-v1","p12-b04-b05-40-public-v1",
   "p12-b04-b06-47-public-v1","p12-b04-b07-31-public-v1",
   "p12-b04-g04s1-chongde-mid6-public-v1","p12-b04-g04s1-yongan-mid9-public-v1"];
- const norm=s=>String(s??"").normalize("NFKC").replace(/\\s+/gu,"");
+ const norm=s=>String(s??"").normalize("NFKC").replace(/\s+/gu,"");
  const known=new Set(previous.flatMap(name=>read("site/data/question-bank/"+name+".json").blocks.map(x=>norm(x.stem))));
  for(const b of bank.blocks)assert.ok(!known.has(norm(b.stem)),"old bank exact duplicate: "+b.source_slot_id);
 });

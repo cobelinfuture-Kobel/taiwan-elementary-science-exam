@@ -1,0 +1,43 @@
+name: P12 B04 AUTO_BATCH50 Nine Source Review Batches
+on:
+  pull_request:
+    paths:
+      - 'scripts/review/p12-b04-auto-batch50.cjs'
+      - 'tests/p12-b04-auto-batch50.test.mjs'
+      - 'data/content-only/**'
+      - 'site/data/question-bank/p12-b04-**'
+      - 'data/review/p12-b04-chongde-mid6-science-kp-source-acceptance-v1.json'
+      - '.github/workflows/p12-b04-auto-batch50.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/review/p12-b04-auto-batch50.cjs'
+      - 'tests/p12-b04-auto-batch50.test.mjs'
+      - 'data/content-only/**'
+      - 'site/data/question-bank/p12-b04-**'
+      - '.github/workflows/p12-b04-auto-batch50.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: p12-b04-auto-batch50-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  prepare-nine-batches:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Confirm frozen 425, 16 reviewed, 409 pending
+        run: node --test tests/p12-b04-auto-batch50.test.mjs
+      - name: Materialize nine exact original-source review shards
+        run: node scripts/review/p12-b04-auto-batch50.cjs --out-dir=artifacts/p12-b04-auto-batch50
+      - name: Upload independently resumable B01–B09 source review ledgers
+        uses: actions/upload-artifact@v4
+        with:
+          name: p12-b04-auto-batch50-nine-shards
+          path: artifacts/p12-b04-auto-batch50/
+          if-no-files-found: error
+          retention-days: 90

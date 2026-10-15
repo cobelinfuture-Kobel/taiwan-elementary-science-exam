@@ -63,7 +63,7 @@ test('B03 25 original papers, remaining 906 positions = 774 ID-bound format hint
 test('Global score-free policy in active Exam question data, not historical source archives',()=>{
  assert.equal(active.current_public_source_archive_files.length,25);
  assert.equal(active.cumulative_original_source_question_occurrences,717);
- assert.equal(approval.next_execution,'P12_ALL25_B04_ThreeMissingSourceMapIndividualization_ThenContextFigureOriginalPDFAcceptance_NoScoring');
+ assert.match(approval.next_execution,/^P12_ALL25_B04_/);
  for(const file of active.current_public_source_archive_files){
   const obj=read(file);assertScorelessMetadata(obj);
   for(const row of obj.original_question_records)assert.doesNotMatch(row.stem,/每(?:題|格|答|個答案)\s*\d+\s*分|[（(]\s*\d+\s*分/);

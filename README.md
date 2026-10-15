@@ -1,5 +1,15 @@
 # 台灣國小自然科 Exam 考古題組卷系統
 
+## 全域內容題庫規範（2026-10-15 起）
+
+自然科題庫採 **題目數量與內容正確性** 管理，不採分數、每題配分、總分、加權或計分門檻。所有年級、學期、考卷模式、學生組卷、答案解析及 Science/KP 覆核均使用同一規則。
+
+- [全域內容規範](data/governance/science-global-no-scoring-authority-v1.json) 與 [正式運作入口](data/governance/science-active-content-only-routing-v1.json)。
+- 114 四上 25 卷首輪來源改使用 [v25 內容清冊](data/source-archive/p12-art9-114-g04s1-public-original-source-corpus-current-v25.json) 與 [v2 待審清單](data/review/p12-standalone-all25-source-content-only-queue-v2.json)。717 個來源題的 active projection 均位於 `data/content-only/`。
+- 作圖題仍可藉由正確電路參考圖人工核對，但沒有數字評分規則。
+- 原始 PDF、歷史 frozen Source Maps 和既有審核快照**不修改**，僅作原始證據保存；其印刷配分不得流入新資料、學生網站或阻塞未來題目收錄。
+
+
 獨立 GitHub Pages 專案，參照 Math Generator 的 Exam 介面。
 
 - 首頁：https://cobelinfuture-kobel.github.io/taiwan-elementary-science-exam/

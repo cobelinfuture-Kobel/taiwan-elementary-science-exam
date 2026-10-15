@@ -1,6 +1,6 @@
 import test from "node:test";import assert from "node:assert/strict";import {readFileSync} from "node:fs";
 import {validateAndConvertContextGroups,loadEmbeddedHistoricalBank} from "../site/assets/js/historical-bank-ox-v5.mjs";
-const db=JSON.parse(readFileSync("site/data/question-bank/certified-context-groups-v2.json","utf8"));
+const db=JSON.parse(readFileSync("site/data/question-bank/certified-context-groups-content-v3.json","utf8"));
 const authority=JSON.parse(readFileSync("site/data/authority/science-g03-g04-selector-v2.json","utf8"));
 test("20 atomic groups and 76 answer slots are certified",()=>{
  const bank=validateAndConvertContextGroups(db,authority);

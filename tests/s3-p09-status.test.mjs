@@ -7,7 +7,7 @@ test("P09 admission ledger matches original 20 source groups exactly",()=>{
  assert.equal(st.p09_recovered_groups,11);assert.equal(st.p09_recovered_answer_slots,30);
  assert.equal(st.public_context_answer_slots,76);assert.equal(st.total_public_answer_slots,116);
  assert.equal(st.groups.filter(x=>x.previous_p08_state==="REVIEW_HOLD").length,11);
- assert.equal(st.groups.filter(x=>x.manual_scoring).length,1);
+ assert.equal(st.groups.filter(x=>x.manual_visual_review).length,1);assert.equal(st.drawing_groups_for_visual_correctness_review,1);
  assert.equal(st.groups.filter(x=>x.diagram_kind).length,7);
  assert.equal(st.source_cropped_figures_copied,0);assert.equal(st.teacher_key_verified_count,0);
 });

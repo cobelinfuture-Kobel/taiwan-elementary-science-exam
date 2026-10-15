@@ -1,0 +1,1281 @@
+{
+  "schema_version": "P12_B04_B04_47_FORMAL_SOURCE_SCIENCE_KP_NATIVE_ACCEPTANCE_V1",
+  "frozen_batch": "B04",
+  "source_reviewed": 50,
+  "admitted": 47,
+  "held": 3,
+  "source_review_ref": "data/review/p12-b04-auto-batch50-b04-first50-science-kp-review-v1.json",
+  "source_pdf_archives": [
+    {
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "original_drive_file_id": "1KQesPj7fM1T5OUOiT79ePwnjZ4GLx1d3",
+      "pdf_visual_reviewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "rights": "REGULATED_EXAM_QUESTION_ART9"
+    },
+    {
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "original_drive_file_id": "1ZLZNORw5p1YbeQ8yKQ3rpsPsi6aEAdkr",
+      "pdf_visual_reviewed_pages": [
+        1,
+        2
+      ],
+      "rights": "REGULATED_EXAM_QUESTION_ART9"
+    },
+    {
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "original_drive_file_id": "1dRJk3FJ_Ua_FFl8tla30iMbMzgcQfbGz",
+      "pdf_visual_reviewed_pages": [
+        1,
+        2
+      ],
+      "rights": "REGULATED_EXAM_QUESTION_ART9"
+    }
+  ],
+  "native_printed_parenthetical_mc_count": 11,
+  "exact_stem_duplicates_with_existing_395": 0,
+  "future_cross_school_same_stem_lineage": [
+    {
+      "primary": "SCI_G04_S1_114_FINAL_005|S2|MC|001",
+      "later": "SCI_G04_S1_114_FINAL_007|S02|MC|017"
+    },
+    {
+      "primary": "SCI_G04_S1_114_FINAL_006|S1|TF|010",
+      "later": "SCI_G04_S1_114_FINAL_008|S01|TF|012"
+    }
+  ],
+  "operator_authorization": "USER_AUTO_BATCH50_EXCEPTION_ONLY",
+  "original_school_teacher_key_authenticated": false,
+  "approved_items": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|014",
+      "b04_ordinal": 1,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        42.48,
+        555.94,
+        84.52,
+        569.98
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "X",
+      "independent_science_reasoning": "同規格電池並聯時通常維持相同端電壓，未必讓單一燈泡更亮。",
+      "canonical_kp_id": "sci_g04s1_04_07",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|015",
+      "b04_ordinal": 2,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        42.48,
+        578.86,
+        84.52,
+        592.9
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "X",
+      "independent_science_reasoning": "乾電池具有指定極性，手電筒應按器具標示方向裝入。",
+      "canonical_kp_id": "sci_g04s1_04_01",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|001",
+      "b04_ordinal": 3,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        49.56,
+        647.86,
+        84.53,
+        661.9
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "(3)",
+      "independent_science_reasoning": "簡單直流小馬達改變電流方向，常能改變轉動方向。",
+      "canonical_kp_id": "sci_g04s1_04_10",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|002",
+      "b04_ordinal": 4,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        49.56,
+        696.61,
+        84.53,
+        710.65
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "(1)",
+      "independent_science_reasoning": "一般圓柱乾電池凸出端標示正極＋。",
+      "canonical_kp_id": "sci_g04s1_04_01",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|003",
+      "b04_ordinal": 5,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        49.56,
+        719.53,
+        84.53,
+        733.57
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "(2)",
+      "independent_science_reasoning": "可讓電流通過的材料稱電的良導體。",
+      "canonical_kp_id": "sci_g04s1_04_05",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|004",
+      "b04_ordinal": 6,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        49.56,
+        765.61,
+        84.53,
+        779.65
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "(3)",
+      "independent_science_reasoning": "銅線導電，適合取代簡易開關的金屬迴紋針。",
+      "canonical_kp_id": "sci_g04s1_04_05",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|005",
+      "b04_ordinal": 7,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        49.56,
+        811.57,
+        84.53,
+        825.61
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "(4)",
+      "independent_science_reasoning": "沒電、斷線與接觸不良都會讓燈泡不亮。",
+      "canonical_kp_id": "sci_g04s1_04_04",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|009",
+      "b04_ordinal": 8,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 2,
+      "original_answer_bbox": [
+        49.56,
+        140.69,
+        84.53,
+        154.73
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "(1)",
+      "independent_science_reasoning": "電池尺寸與種類不完全相同，不能認為所有都一樣。",
+      "canonical_kp_id": "sci_g04s1_04_01",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|010",
+      "b04_ordinal": 9,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 2,
+      "original_answer_bbox": [
+        42.48,
+        209.69,
+        84.52,
+        223.73
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "(2)",
+      "independent_science_reasoning": "蝙蝠主要使用聲音及回聲定位，聲音不依賴光線作傳播介質。",
+      "canonical_kp_id": "sci_g04s1_03_03",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|011",
+      "b04_ordinal": 10,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 2,
+      "original_answer_bbox": [
+        42.48,
+        255.65,
+        84.52,
+        269.69
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "(1)",
+      "independent_science_reasoning": "鏡面反射受入射方向和鏡面角度決定，具有可預測方向。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|012",
+      "b04_ordinal": 11,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 2,
+      "original_answer_bbox": [
+        42.48,
+        324.68,
+        84.52,
+        338.72
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "(3)",
+      "independent_science_reasoning": "單一光源正面照射有三孔的不透明板，正常可形成三處透光區。",
+      "canonical_kp_id": "sci_g04s1_03_06",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|013",
+      "b04_ordinal": 12,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 2,
+      "original_answer_bbox": [
+        42.48,
+        370.64,
+        84.52,
+        384.68
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "(2)",
+      "independent_science_reasoning": "雷射光照到鏡子後反射，方向通常改變。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S2|MC|014",
+      "b04_ordinal": 13,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 2,
+      "original_answer_bbox": [
+        42.48,
+        416.72,
+        77.55,
+        430.76
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "(1)",
+      "independent_science_reasoning": "光在均勻空氣中主要沿直線傳播。",
+      "canonical_kp_id": "sci_g04s1_03_06",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|001",
+      "b04_ordinal": 14,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        32.21,
+        113.91,
+        80.34,
+        125.93
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "O",
+      "independent_science_reasoning": "其他條件相近時，振幅較大通常產生較大聲音。",
+      "canonical_kp_id": "sci_g04s1_03_01",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|002",
+      "b04_ordinal": 15,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        32.21,
+        151.91,
+        80.34,
+        163.93
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "X",
+      "independent_science_reasoning": "通常敲擊越用力，紙片跳動幅度越大。",
+      "canonical_kp_id": "sci_g04s1_03_01",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|003",
+      "b04_ordinal": 16,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        32.21,
+        170.91,
+        80.34,
+        182.93
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "O",
+      "independent_science_reasoning": "聲音傳播可經空氣、水與固體等介質。",
+      "canonical_kp_id": "sci_g04s1_03_03",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|004",
+      "b04_ordinal": 17,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        32.21,
+        208.92,
+        80.34,
+        220.94
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "X",
+      "independent_science_reasoning": "眼睛一般不自行發出照明物體所需的光線，完全無光時無法看見。",
+      "canonical_kp_id": "sci_g04s1_03_04",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|005",
+      "b04_ordinal": 18,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        32.21,
+        246.95,
+        80.34,
+        258.97
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "O",
+      "independent_science_reasoning": "改變鏡面角度會改變光的反射方向。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|006",
+      "b04_ordinal": 19,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        32.21,
+        284.95,
+        80.34,
+        296.97
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "X",
+      "independent_science_reasoning": "站在沙灘上聽海浪，聲波最後主要在空氣中傳入耳朵，而不是海水直接進耳。",
+      "canonical_kp_id": "sci_g04s1_03_03",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|007",
+      "b04_ordinal": 20,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        32.21,
+        322.95,
+        80.34,
+        334.97
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "O",
+      "independent_science_reasoning": "反光器材能提升駕駛對行人或標誌的可見度，改善交通安全。",
+      "canonical_kp_id": "sci_g04s1_03_08",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|008",
+      "b04_ordinal": 21,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        32.21,
+        360.96,
+        80.34,
+        372.98
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "X",
+      "independent_science_reasoning": "相同電池數量和燈泡數量可能有不同串並聯方式，亮度不必相同。",
+      "canonical_kp_id": "sci_g04s1_04_06",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|009",
+      "b04_ordinal": 22,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        32.21,
+        417.84,
+        80.34,
+        429.86
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "X",
+      "independent_science_reasoning": "燈籠發光需要發光元件和電源，小馬達的主要功能是產生轉動。",
+      "canonical_kp_id": "sci_g04s1_04_10",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|010",
+      "b04_ordinal": 23,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        26.57,
+        455.85,
+        74.7,
+        467.87
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "X",
+      "independent_science_reasoning": "一般乾電池凸起端是正極＋，平坦端是負極－。",
+      "canonical_kp_id": "sci_g04s1_04_01",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|012",
+      "b04_ordinal": 24,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        26.57,
+        550.86,
+        74.7,
+        562.88
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "O",
+      "independent_science_reasoning": "電線金屬導體外有塑膠絕緣層，有助降低碰觸裸線觸電風險。",
+      "canonical_kp_id": "sci_g04s1_04_02",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S1|TF|013",
+      "b04_ordinal": 25,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        26.57,
+        588.88,
+        74.7,
+        600.9
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "O",
+      "independent_science_reasoning": "完整通路可使燈泡點亮，斷路使電流無法正常通過。",
+      "canonical_kp_id": "sci_g04s1_04_04",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|001",
+      "b04_ordinal": 26,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        32.21,
+        683.89,
+        80.34,
+        695.91
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "③",
+      "independent_science_reasoning": "光照射到鏡面能清楚觀察反射。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|002",
+      "b04_ordinal": 27,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        32.21,
+        759.93,
+        80.34,
+        771.95
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "②",
+      "independent_science_reasoning": "自然課本較不透明，遮光形成的影子通常較清楚。",
+      "canonical_kp_id": "sci_g04s1_03_06",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|004",
+      "b04_ordinal": 29,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        32.21,
+        854.94,
+        80.34,
+        866.96
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "④",
+      "independent_science_reasoning": "直線行進光線遭物體遮擋後，影子一般位於背離光源的一側。",
+      "canonical_kp_id": "sci_g04s1_03_06",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|005",
+      "b04_ordinal": 30,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        32.21,
+        930.97,
+        80.34,
+        942.99
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "①",
+      "independent_science_reasoning": "紙杯電話藉拉緊的棉線振動傳播聲音，主要利用固體。",
+      "canonical_kp_id": "sci_g04s1_03_03",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|006",
+      "b04_ordinal": 31,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        364.68,
+        94.91,
+        412.77,
+        106.93
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "③",
+      "independent_science_reasoning": "燃燒的火把會自行發出可見光，是光源。",
+      "canonical_kp_id": "sci_g04s1_03_05",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|007",
+      "b04_ordinal": 32,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        364.68,
+        132.91,
+        412.77,
+        144.93
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "③",
+      "independent_science_reasoning": "踩影子主要利用遮光形成影子，不是以光反射設計；其餘為反光。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|009",
+      "b04_ordinal": 33,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        365.57,
+        284.95,
+        413.7,
+        296.97
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "③",
+      "independent_science_reasoning": "緊急出口燈可標示逃生方向，具有指示用途。",
+      "canonical_kp_id": "sci_g04s1_03_09",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|010",
+      "b04_ordinal": 34,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        359.04,
+        341.96,
+        407.13,
+        353.98
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "②",
+      "independent_science_reasoning": "手電筒常以電池串聯提高供應電壓以增亮，而非一般電池並聯。",
+      "canonical_kp_id": "sci_g04s1_04_06",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|012",
+      "b04_ordinal": 36,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        359.04,
+        474.85,
+        407.13,
+        486.87
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "①",
+      "independent_science_reasoning": "燈泡側面螺紋金屬與底部接點為兩個電極接觸位置。",
+      "canonical_kp_id": "sci_g04s1_04_03",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|013",
+      "b04_ordinal": 37,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        359.04,
+        550.86,
+        407.13,
+        562.88
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "③",
+      "independent_science_reasoning": "燈絲斷裂造成燈泡內部開路，即使外部電路連接正確也不亮。",
+      "canonical_kp_id": "sci_g04s1_04_04",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|014",
+      "b04_ordinal": 38,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        359.04,
+        626.89,
+        407.13,
+        638.91
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "④",
+      "independent_science_reasoning": "對簡單直流馬達將電池正負極反接能改變轉動方向。",
+      "canonical_kp_id": "sci_g04s1_04_10",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|016",
+      "b04_ordinal": 39,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        359.04,
+        759.93,
+        407.13,
+        771.95
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "④",
+      "independent_science_reasoning": "冷氣機通常由市電供電，另外三種常見用品可使用乾電池。",
+      "canonical_kp_id": "sci_g04s1_04_12",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|001",
+      "b04_ordinal": 40,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        56.64,
+        217.72,
+        93.83,
+        236.63
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "O",
+      "independent_science_reasoning": "少量散射顆粒可使光線路徑顯現；實際教學需採安全且不刺激呼吸道的替代方式。",
+      "canonical_kp_id": "sci_g04s1_03_06",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|003",
+      "b04_ordinal": 42,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        56.63,
+        297.63,
+        93.82,
+        316.55
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "X",
+      "independent_science_reasoning": "影子位於物體背向光源的一側；右側有影子時光源通常在左側。",
+      "canonical_kp_id": "sci_g04s1_03_06",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|004",
+      "b04_ordinal": 43,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        56.64,
+        337.71,
+        93.85,
+        356.63
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "X",
+      "independent_science_reasoning": "發聲物體停止振動後不再持續產生原聲；已傳出的聲音仍可能短暫傳至遠處。",
+      "canonical_kp_id": "sci_g04s1_03_01",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|005",
+      "b04_ordinal": 44,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        56.64,
+        377.67,
+        93.83,
+        396.58
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "X",
+      "independent_science_reasoning": "濕手接觸插頭或吹風機可能增加觸電風險，應先擦乾手。",
+      "canonical_kp_id": "sci_g04s1_04_12",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|007",
+      "b04_ordinal": 45,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        56.6,
+        457.7,
+        93.79,
+        476.61
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "X",
+      "independent_science_reasoning": "聲音可以在門板等固體中傳播，貼門仍可能聽見門外聲音。",
+      "canonical_kp_id": "sci_g04s1_03_03",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|009",
+      "b04_ordinal": 46,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        56.57,
+        497.66,
+        93.76,
+        516.57
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "X",
+      "independent_science_reasoning": "教室燈通常採並聯，使各燈能相對獨立控制與運作。",
+      "canonical_kp_id": "sci_g04s1_04_09",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|010",
+      "b04_ordinal": 47,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        56.57,
+        517.69,
+        93.78,
+        536.6
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "O",
+      "independent_science_reasoning": "外層塑膠通常是電的不良導體，可阻隔正常使用時直接接觸導線。",
+      "canonical_kp_id": "sci_g04s1_04_02",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|011",
+      "b04_ordinal": 48,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        56.57,
+        557.65,
+        93.76,
+        576.56
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "O",
+      "independent_science_reasoning": "腳踏車加裝反光板能把入射車燈光反射給駕駛，提高安全性。",
+      "canonical_kp_id": "sci_g04s1_03_08",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|012",
+      "b04_ordinal": 49,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        56.54,
+        577.69,
+        93.75,
+        596.6
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "O",
+      "independent_science_reasoning": "廢電池可能含有危害環境的化學物質，應交由專用管道回收。",
+      "canonical_kp_id": "sci_g04s1_04_11",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|013",
+      "b04_ordinal": 50,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_page": 1,
+      "original_answer_bbox": [
+        56.54,
+        617.64,
+        93.73,
+        636.55
+      ],
+      "full_source_stem_exact": true,
+      "original_source_options_exact": true,
+      "source_standalone_and_no_media_dependency": true,
+      "scientific_answer": "O",
+      "independent_science_reasoning": "塑膠通常較不導電，適合作電器開關外殼的絕緣保護。",
+      "canonical_kp_id": "sci_g04s1_04_05",
+      "semantic_kp_reason": "原題所問光、聲、電路或相關安全核心概念與 G04S1 所選 canonical KP 直接對應。",
+      "native_original_choice_markers": [],
+      "original_teacher_key_authenticated": false,
+      "rights_text_only": true
+    }
+  ],
+  "held_items": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|003",
+      "batch_ordinal": 28,
+      "flags": [
+        "VACUUM_VS_SPACECRAFT_SOUND_SCOPE_AMBIGUOUS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|011",
+      "batch_ordinal": 35,
+      "flags": [
+        "CONDUCTIVE_SWITCH_ALTERNATE_ASSEMBLY_MULTIPLE_CORRECT"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|002",
+      "batch_ordinal": 41,
+      "flags": [
+        "CO_ALARM_WARNING_FUNCTION_VS_LIGHT_ONLY_KP_MISMATCH"
+      ]
+    }
+  ],
+  "release_rule": "ORIGINAL_STEM_CHOICES_NATIVE_LABELS_SHA_BBOX_UNIQUE_SCIENCE_KP_RIGHTS_DEDUP_CI_MAIN_PAGES"
+}

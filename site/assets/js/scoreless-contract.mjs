@@ -30,10 +30,11 @@ export function assertScorelessMetadata(value,path="root"){
 export function removePrintedScoringInstructions(text){
  if(typeof text!=="string")return text;
  return text
-  .replace(/[（(]\s*每(?:題|格|答|小題)\s*\d+\s*分\s*[、，,；;]?\s*共\s*\d+\s*分\s*[)）]/gu,"")
-  .replace(/[（(]\s*(?:每(?:題|格|答|小題)\s*\d+\s*分|共\s*\d+\s*分)\s*[)）]/gu,"")
-  .replace(/(?:每(?:題|格|答|小題)\s*\d+\s*分\s*[、，,；;]?\s*)?共\s*\d+\s*分[。．、，,；;]?/gu,"")
-  .replace(/每(?:題|格|答|小題)\s*\d+\s*分[。．、，,；;]?/gu,"")
+  .replace(/[（(]\s*每(?:題|格|答|小題|個答案)\s*\d+\s*分\s*[、，,；;]?\s*共\s*\d+\s*分\s*[)）]/gu,"")
+  .replace(/[（(]\s*(?:每(?:題|格|答|小題|個答案)\s*\d+\s*分|共\s*\d+\s*分)\s*[)）]/gu,"")
+  .replace(/(?:每(?:題|格|答|小題|個答案)\s*\d+\s*分\s*[、，,；;]?\s*)?共\s*\d+\s*分[。．、，,；;]?/gu,"")
+  .replace(/每(?:題|格|答|小題|個答案)\s*\d+\s*分[。．、，,；;]?/gu,"")
+  .replace(/[（(]\s*\d+\s*分\s*[)）]/gu,"")
   .replace(/[ \t]{2,}/gu," ");
 }
 /** Source archive inputs are read-only; return a detached, non-scored question projection. */

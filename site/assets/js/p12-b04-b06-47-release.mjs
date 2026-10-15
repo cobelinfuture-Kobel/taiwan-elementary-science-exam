@@ -62,8 +62,8 @@ export function validateAndConvertP12B04B06_47(bank,authority){
   &&bank.original_source_positions_approved===47&&bank.exceptions_held===3
   &&bank.expected_blocks===47&&bank.expected_answer_slots===47
   &&bank.expected_standalone_true_false===37&&bank.expected_standalone_choice===10
-  &&bank.source_score_instruction_projection_count===11
-  &&bank.source_score_instruction_projection_count_in_original_review===12
+  &&bank.parent_instruction_projection_count===11
+  &&bank.parent_instruction_original_review_count===12
   &&bank.original_teacher_answer_key_authenticated===false
   &&bank.original_cropped_images_included===false&&bank.evidence_ref===EVIDENCE
   &&Array.isArray(bank.blocks)&&bank.blocks.length===47,"frozen source/release metadata");

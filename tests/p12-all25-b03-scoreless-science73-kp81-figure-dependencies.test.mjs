@@ -129,7 +129,7 @@ test("B03 25 source map figure and shared-context dependency inventories preserv
  for(const row of rows){assertScorelessMetadata(row);assert.equal(row.acceptance_status,"SOURCE_ONLY_UNREVIEWED_NONSTANDALONE_POSITIONS");}
 });
 test("Learner-facing circuit diagram is visually checked for electrical correctness without a numerical grade rule",()=>{
- const db=read("site/data/question-bank/certified-context-groups-v2.json");
+ const db=read("site/data/question-bank/certified-context-groups-content-v3.json");
  const d=db.groups.find(x=>x.id==="FINAL_G04_CIRCUIT_DRAW");
  assert.equal(d.assessment_method,"MANUAL_VISUAL_CORRECTNESS_CHECK");
  assert.equal(Object.hasOwn(d,"automatic_grading"),false);

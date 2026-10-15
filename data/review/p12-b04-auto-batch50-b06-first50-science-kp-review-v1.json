@@ -1,0 +1,1582 @@
+{
+  "schema_version": "P12_B04_AUTO_BATCH50_B06_50_SOURCE_SCIENCE_KP_REVIEW_V1",
+  "batch": "B06",
+  "source_positions": 50,
+  "model_ready_for_formal_QA": 47,
+  "science_kp_hold": 3,
+  "source_pdf_text_readback": "FIVE_GOOGLE_DRIVE_ORIGINAL_PDFS_2026_10_15",
+  "original_school_teacher_key_authenticated": false,
+  "site_admissions_in_this_review": 0,
+  "release_requires": "SOURCE_EXACT_SCIENCE_UNIQUE_KP_SEMANTIC_DUPLICATE_RIGHTS_AND_CI_MAIN_PAGES",
+  "records": [
+    {
+      "batch_ordinal": 1,
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|007",
+      "source_paper_id": "SCI_G04_S1_114_MID_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "d476e8bae13884d75dc1c386aedf716630f70e3c6b579d840c5c308a629676d6",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        66.5,
+        383.56,
+        102.5,
+        395.56
+      ],
+      "original_full_stem": "在菀真的水域紀錄表中，有觀察到福壽螺及蝌蚪，她去拜訪的水域環境有可能是水田。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "水田等淡水環境可能同時觀察到福壽螺與蝌蚪。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 2,
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|001",
+      "source_paper_id": "SCI_G04_S1_114_MID_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "d476e8bae13884d75dc1c386aedf716630f70e3c6b579d840c5c308a629676d6",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        66.5,
+        596.7,
+        102.5,
+        608.7
+      ],
+      "original_full_stem": "請問下列何者屬於人工水域環境？",
+      "original_options_in_order": [
+        "①台中的高美濕地",
+        "②臺東的嘉明湖",
+        "③桃園的石門水庫",
+        "④新北的淡水河"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_proposed_unique_answer": "③",
+      "independent_science_reasoning": "石門水庫由人興建蓄水，另外三項屬自然水域。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_01",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 3,
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|012",
+      "source_paper_id": "SCI_G04_S1_114_MID_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "d476e8bae13884d75dc1c386aedf716630f70e3c6b579d840c5c308a629676d6",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        332.35,
+        595.86,
+        368.35,
+        607.86
+      ],
+      "original_full_stem": "睿元回阿公家經過白河蓮花池，發現蓮葉葉柄裡面有中空的管道，請問它具有何種功能？",
+      "original_options_in_order": [
+        "①用來輸送空氣",
+        "②提供小魚躲藏",
+        "③幫助蓮子傳播",
+        "④適應水流變化"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_proposed_unique_answer": "①",
+      "independent_science_reasoning": "荷花葉柄內部通氣孔道能將空氣輸送到不同部位。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_07",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 4,
+      "source_id": "SCI_G04_S1_114_MID_011|Q01|006",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.16,
+        299.46,
+        77.99,
+        314.48
+      ],
+      "original_full_stem": "下列關於「人類活動與水域環境之間關係」的敘述，正確畫○，不正確打〤。\n農業肥料流入水域會使藻類大量繁殖，可能讓水中生物缺氧。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "肥料營養鹽進入水中可能使藻類大量繁殖，分解與呼吸造成缺氧。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_11",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 5,
+      "source_id": "SCI_G04_S1_114_MID_011|Q01|007",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.16,
+        333.06,
+        77.99,
+        348.08
+      ],
+      "original_full_stem": "下列關於「人類活動與水域環境之間關係」的敘述，正確畫○，不正確打〤。\n澎湖居民利用珊瑚礁建造房屋，是人類利用水域資源的方式之一。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": null,
+      "independent_science_reasoning": "珊瑚礁石材確曾有歷史建材利用，但現代保護與採集法規差異大，不能把它當作可任意利用水域資源的現行方式。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_10",
+      "model_ready_for_formal_gate": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [
+        "CORAL_REEF_HISTORICAL_USE_VS_CURRENT_PROTECTION_AMBIGUITY"
+      ],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 6,
+      "source_id": "SCI_G04_S1_114_MID_011|Q01|008",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.16,
+        366.66,
+        77.99,
+        381.68
+      ],
+      "original_full_stem": "下列關於「人類活動與水域環境之間關係」的敘述，正確畫○，不正確打〤。\n人類過度開發森林，遇上豪大雨，容易造成具有潛在危機的堰( )塞湖。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": null,
+      "independent_science_reasoning": "森林開發及豪雨會增加崩塌機率，但形成堰塞湖還需地形與土石堵塞河道等條件；『容易造成』需限定。",
+      "proposed_canonical_kp_id": "sci_g04s1_01_07",
+      "model_ready_for_formal_gate": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [
+        "FOREST_CLEARANCE_DOES_NOT_SUFFICE_FOR_LANDSLIDE_DAM"
+      ],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 7,
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|001",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.16,
+        771,
+        77.99,
+        786.02
+      ],
+      "original_full_stem": "下列關於「水生植物」的敘述，正確畫○，不正確打〤。\n水蘊草的身體柔軟，不容易因為水流折斷。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "沉水植物水蘊草莖葉柔軟可因應水流，減少折斷風險。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_05",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 8,
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|002",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.16,
+        789.6,
+        77.99,
+        804.62
+      ],
+      "original_full_stem": "下列關於「水生植物」的敘述，正確畫○，不正確打〤。\n睡蓮葉柄柔軟，會隨著水位高低伸展或彎曲。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "睡蓮具柔軟可伸展的葉柄，可配合一般水位變化。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_06",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 9,
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|003",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.16,
+        808.2,
+        77.99,
+        823.22
+      ],
+      "original_full_stem": "下列關於「水生植物」的敘述，正確畫○，不正確打〤。\n荷花葉柄和莖裡有中空管道，能讓空氣流通。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "荷花莖與葉柄含氣通道，可協助氣體交換。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_07",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 10,
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|004",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.16,
+        826.8,
+        77.99,
+        841.82
+      ],
+      "original_full_stem": "下列關於「水生植物」的敘述，正確畫○，不正確打〤。\n睡蓮和荷花的葉片外形相同，不容易區分。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "睡蓮與荷花在典型葉片外形及生長位置上可以區分。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_03",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 11,
+      "source_id": "SCI_G04_S1_114_MID_011|Q03|006",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.16,
+        864,
+        77.99,
+        879.02
+      ],
+      "original_full_stem": "下列關於「水生植物」的敘述，正確畫○，不正確打〤。\n布袋蓮葉面有細毛，能幫助植物漂浮在水面。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "布袋蓮主要藉膨大的含氣葉柄組織漂浮，葉面細毛不是主要浮力來源。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 12,
+      "source_id": "SCI_G04_S1_114_MID_011|Q06|001",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        388.4,
+        884.1,
+        416.2,
+        899.11
+      ],
+      "original_full_stem": "下列關於「水域環境」的敘述，正確畫○，不正確打〤。\n魚塭和水田屬於人工建造的水域環境。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "魚塭、水田是人工營造或管理的水域環境。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_01",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 13,
+      "source_id": "SCI_G04_S1_114_MID_011|Q06|002",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        388.4,
+        902.7,
+        416.2,
+        917.71
+      ],
+      "original_full_stem": "下列關於「水域環境」的敘述，正確畫○，不正確打〤。\n海岸潮間帶是指海洋漲潮和退潮之間的區域。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "潮間帶通常指大潮高潮位與低潮位間的海岸區域。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 14,
+      "source_id": "SCI_G04_S1_114_MID_011|Q06|003",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        388.4,
+        921.3,
+        416.2,
+        936.31
+      ],
+      "original_full_stem": "下列關於「水域環境」的敘述，正確畫○，不正確打〤。\n不同水域，水質、水流及陽光照射情形也不同。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "各種水域的水質、水流與日照等環境條件可能有所差異。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 15,
+      "source_id": "SCI_G04_S1_114_MID_011|Q06|005",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        388.4,
+        958.5,
+        416.2,
+        973.51
+      ],
+      "original_full_stem": "下列關於「水域環境」的敘述，正確畫○，不正確打〤。\n湖泊和池塘裡的水生生物都相同。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "湖泊與池塘的水生物種類受環境影響，並非全部相同。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 16,
+      "source_id": "SCI_G04_S1_114_MID_011|Q09|002",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.3,
+        466.6,
+        78.1,
+        481.61
+      ],
+      "original_full_stem": "下列關於「日夜景象」的敘述，正確畫○，不正確打〤。\n白天時影子在陽光照射下，長度會由短變長，再由長變短。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "一般晴天影子從早上較長、接近中午最短、傍晚變長，不是先短再長再短。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 17,
+      "source_id": "SCI_G04_S1_114_MID_011|Q09|004",
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.3,
+        526.3,
+        78.1,
+        541.31
+      ],
+      "original_full_stem": "下列關於「日夜景象」的敘述，正確畫○，不正確打〤。\n一天中，受陽光的照射，物體的影子方向會由西向東，再向西。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "同一固定物體的影子隨太陽位置逐日改變，不符合題目所述由西向東又折返西方的規律。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 18,
+      "source_id": "SCI_G04_S1_114_MID_012|S1|TF|002",
+      "source_paper_id": "SCI_G04_S1_114_MID_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-mid30-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        48.96,
+        184.76,
+        74.9,
+        197.72
+      ],
+      "original_full_stem": "工廠廢水流入河川容易造成水中生物死亡。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "未經處理的工廠廢水可能污染河流，嚴重時造成生物死亡。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_11",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 19,
+      "source_id": "SCI_G04_S1_114_MID_012|S1|TF|008",
+      "source_paper_id": "SCI_G04_S1_114_MID_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-mid30-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        48.96,
+        394.19,
+        74.88,
+        407.15
+      ],
+      "original_full_stem": "魚在呼吸時，只有魚口會不停的開合",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "魚類呼吸時口與鰓蓋通常都有規律開合，不只有魚口。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_08",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 20,
+      "source_id": "SCI_G04_S1_114_MID_012|S2|MC|001",
+      "source_paper_id": "SCI_G04_S1_114_MID_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-mid30-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        63.5,
+        428.7,
+        89.42,
+        441.98
+      ],
+      "original_full_stem": "水蘊草是屬於哪一種類型的水生植物？",
+      "original_options_in_order": [
+        "①沉水性",
+        "②漂浮性",
+        "③挺水性",
+        "④浮葉性。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_proposed_unique_answer": "①",
+      "independent_science_reasoning": "水蘊草通常在水中生長，屬沉水性植物。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_03",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 21,
+      "source_id": "SCI_G04_S1_114_MID_012|S2|MC|002",
+      "source_paper_id": "SCI_G04_S1_114_MID_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-mid30-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        63.5,
+        477.18,
+        89.42,
+        490.46
+      ],
+      "original_full_stem": "哪種水生動物可以跳躍和游泳？",
+      "original_options_in_order": [
+        "①蝌蚪",
+        "②蛙",
+        "③螃蟹",
+        "④紅娘華。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_proposed_unique_answer": "②",
+      "independent_science_reasoning": "蛙可利用後肢跳躍，也能以四肢游泳。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_09",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 22,
+      "source_id": "SCI_G04_S1_114_MID_012|S2|MC|004",
+      "source_paper_id": "SCI_G04_S1_114_MID_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-mid30-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        63.5,
+        574.14,
+        89.42,
+        587.42
+      ],
+      "original_full_stem": "在河川或池塘中，不可能看到哪種水生動物？",
+      "original_options_in_order": [
+        "①小丑魚",
+        "②青蛙",
+        "③蝌蚪",
+        "④紅娘華。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_proposed_unique_answer": "①",
+      "independent_science_reasoning": "小丑魚通常為海水魚，不是一般淡水河川或池塘的典型水生動物。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 23,
+      "source_id": "SCI_G04_S1_114_MID_012|S2|MC|010",
+      "source_paper_id": "SCI_G04_S1_114_MID_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-mid30-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        315.19,
+        229.28,
+        354.07,
+        242.24
+      ],
+      "original_full_stem": "下列哪一個是蓮葉柄的特徵？",
+      "original_options_in_order": [
+        "①葉柄膨大",
+        "②可維持葉片平貼在水面上",
+        "③有像吸管般的中空管道",
+        "④裡面有蓮子生長。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_proposed_unique_answer": "③",
+      "independent_science_reasoning": "荷葉柄內部具通氣孔道，可供空氣傳輸。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_07",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 24,
+      "source_id": "SCI_G04_S1_114_MID_012|S5|G01|001",
+      "source_paper_id": "SCI_G04_S1_114_MID_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-mid30-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_answer_bbox_pts_top_left": [
+        315.07,
+        481.18,
+        357.19,
+        495.22
+      ],
+      "original_full_stem": "有關水生動物呼吸和運動方式的敘述，對的打ˇ，錯的打×。\n蝦子用鰓呼吸，用腹足步行。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "蝦類主要以步足、游泳足移動，腹足是螺類運動構造。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_09",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 25,
+      "source_id": "SCI_G04_S1_114_MID_012|S5|G01|002",
+      "source_paper_id": "SCI_G04_S1_114_MID_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-mid30-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_answer_bbox_pts_top_left": [
+        315.07,
+        499.42,
+        357.19,
+        513.46
+      ],
+      "original_full_stem": "有關水生動物呼吸和運動方式的敘述，對的打ˇ，錯的打×。\n紅娘華用呼吸管呼吸，中後腳可游泳爬行。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "紅娘華是水生昆蟲，具有後端呼吸管，足可用於水中移動及攀爬。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_09",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 26,
+      "source_id": "SCI_G04_S1_114_MID_012|S5|G01|003",
+      "source_paper_id": "SCI_G04_S1_114_MID_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-mid30-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_answer_bbox_pts_top_left": [
+        315.07,
+        535.78,
+        357.19,
+        549.82
+      ],
+      "original_full_stem": "有關水生動物呼吸和運動方式的敘述，對的打ˇ，錯的打×。\n蛙主要用肺呼吸，四隻腳可跳躍游泳。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "成蛙主要使用肺及皮膚呼吸，四肢能跳躍游泳；肺為陸上主要呼吸構造。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_09",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 27,
+      "source_id": "SCI_G04_S1_114_MID_012|S5|G01|004",
+      "source_paper_id": "SCI_G04_S1_114_MID_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-mid30-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_answer_bbox_pts_top_left": [
+        315.07,
+        572.26,
+        357.19,
+        586.3
+      ],
+      "original_full_stem": "有關水生動物呼吸和運動方式的敘述，對的打ˇ，錯的打×。\n螃蟹用肺呼吸，以腳爬行游泳",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "螃蟹主要靠鰓呼吸，不是肺。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_09",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 28,
+      "source_id": "SCI_G04_S1_114_MID_012|S5|G01|005",
+      "source_paper_id": "SCI_G04_S1_114_MID_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-mid30-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_answer_bbox_pts_top_left": [
+        315.07,
+        590.5,
+        357.19,
+        604.54
+      ],
+      "original_full_stem": "有關水生動物呼吸和運動方式的敘述，對的打ˇ，錯的打×。\n石田螺用鰓呼吸，用腹足爬行",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "石田螺等淡水螺類常以鰓呼吸、用腹足爬行。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_09",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 29,
+      "source_id": "SCI_G04_S1_114_FINAL_011|S1|TF|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        56.64,
+        150.06,
+        89.78,
+        161.1
+      ],
+      "original_full_stem": "路上大量的車流導致嚴重塞車，路上充斥著不耐煩的喇叭聲，是透過空氣傳播到謙鐸耳裡。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "一般戶外喇叭聲經空氣傳播到人耳。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 30,
+      "source_id": "SCI_G04_S1_114_FINAL_011|S1|TF|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        56.64,
+        199.38,
+        89.78,
+        210.42
+      ],
+      "original_full_stem": "在路口協助疏導車流的交通警察身上穿著反光背心，是為了在寒冷的跨年夜增加保暖。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "反光背心主要用來反射入射光線，提高交通可見度，非保暖。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_08",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 31,
+      "source_id": "SCI_G04_S1_114_FINAL_011|S1|TF|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        56.64,
+        248.7,
+        89.78,
+        259.74
+      ],
+      "original_full_stem": "樹上的聖誕燈飾還有路人手上的螢光棒都是會自行發光的光源。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "點亮的燈飾及化學發光棒可自行發出可見光。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_05",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 32,
+      "source_id": "SCI_G04_S1_114_FINAL_011|S1|TF|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        56.64,
+        281.73,
+        89.78,
+        292.77
+      ],
+      "original_full_stem": "101 門口擺著胡迪的人型塑像，在它前方形成了影子，燈光可能在胡迪的後方。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "陰影位於背向光源的一側，燈若在塑像後方可於前方成影。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 33,
+      "source_id": "SCI_G04_S1_114_FINAL_011|S1|TF|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        56.64,
+        314.61,
+        89.78,
+        325.65
+      ],
+      "original_full_stem": "碩軒站在巴斯光年的旁邊一起照相，他身上的白色帽 T 可以形成反射現象。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "白色布料可將部分入射光向周圍散射及反射。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 34,
+      "source_id": "SCI_G04_S1_114_FINAL_011|S1|TF|006",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        56.64,
+        347.49,
+        89.78,
+        358.53
+      ],
+      "original_full_stem": "展睿看見附近有救護車閃著警示燈與鳴笛經過，它是結合聲音與光的生活應用。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "救護車的警示燈與警笛分別利用光與聲音提示道路使用者。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 35,
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        56.64,
+        531.47,
+        89.78,
+        542.51
+      ],
+      "original_full_stem": "舞台燈光照亮整個棒球場，讓觀眾看清楚表演，這和光的哪一個特性最有關？",
+      "original_options_in_order": [
+        "①光只能在白天出現",
+        "②光會讓物體變熱",
+        "③光會發出聲音",
+        "④光會直線前進"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_proposed_unique_answer": "④",
+      "independent_science_reasoning": "光線由舞台燈向前傳播照亮球場，與光沿直線行進相符。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 36,
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        322.49,
+        80.58,
+        355.63,
+        91.62
+      ],
+      "original_full_stem": "球場周圍的反光標誌在晚上特別明顯，讓人容易看見出口位置，最主要的原因是什麼？",
+      "original_options_in_order": [
+        "①它會自己發光",
+        "②它能吸收所有光",
+        "③它能把光反射回來",
+        "④它會放大聲音"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_proposed_unique_answer": "③",
+      "independent_science_reasoning": "反光標誌藉反射外界光線提高夜晚辨識，不是自行發光。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_08",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 37,
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|006",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        322.49,
+        146.34,
+        355.63,
+        157.38
+      ],
+      "original_full_stem": "演唱會結束後，球場突然停電，下列哪一項最能幫助紹丞和應楨安全離場？",
+      "original_options_in_order": [
+        "①提高音響音量提醒觀眾",
+        "②使用緊急照明燈或手電筒照亮通道",
+        "③關閉所有電器設備",
+        "④讓大家大聲呼喊指路"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_proposed_unique_answer": "②",
+      "independent_science_reasoning": "停電時應使用緊急照明及安全照明幫助辨識通道。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 38,
+      "source_id": "SCI_G04_S1_114_FINAL_011|S2|MC|017",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_011",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dahua-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_answer_bbox_pts_top_left": [
+        66.5,
+        208.62,
+        99.62,
+        219.66
+      ],
+      "original_full_stem": "吃飽後亮典和方喜在一旁玩起手影遊戲，發現光源、影子、手會呈一直線排列，三者的相對位置為何？",
+      "original_options_in_order": [
+        "①光-手-影子",
+        "②手-影子-光",
+        "③影子-光-手",
+        "④手-光-影子"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_proposed_unique_answer": "①",
+      "independent_science_reasoning": "光源與影子通常位於遮光物體相反兩側，順序為光源、手、影子。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "source_score_annotation_intentionally_excluded": false,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 39,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q03|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.16,
+        661.39,
+        78.01,
+        676.34
+      ],
+      "original_full_stem": "下列關於「光」的敘述，正確畫○，不正確打〤。\n影子的形狀通常與物體的形狀相似。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "影子形狀與遮光物輪廓通常有關，會有相似處。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "original_complete_stem_including_scoring_instruction": "下列關於「光」的敘述，正確畫○，不正確打〤。(8 分)\n影子的形狀通常與物體的形狀相似。",
+      "source_score_annotation_intentionally_excluded": true,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 40,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q03|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.16,
+        717.19,
+        78.01,
+        732.14
+      ],
+      "original_full_stem": "下列關於「光」的敘述，正確畫○，不正確打〤。\n影子與光源的方向相同。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "影子方向一般和光源照射方向相反。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "original_complete_stem_including_scoring_instruction": "下列關於「光」的敘述，正確畫○，不正確打〤。(8 分)\n影子與光源的方向相同。",
+      "source_score_annotation_intentionally_excluded": true,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 41,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q03|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.16,
+        735.79,
+        78.01,
+        750.74
+      ],
+      "original_full_stem": "下列關於「光」的敘述，正確畫○，不正確打〤。\n有打開開關的手電筒，是一種光源。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "開啟並正常發光的手電筒屬人造光源。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_05",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "original_complete_stem_including_scoring_instruction": "下列關於「光」的敘述，正確畫○，不正確打〤。(8 分)\n有打開開關的手電筒，是一種光源。",
+      "source_score_annotation_intentionally_excluded": true,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 42,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q03|007",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.16,
+        772.99,
+        78.01,
+        787.94
+      ],
+      "original_full_stem": "下列關於「光」的敘述，正確畫○，不正確打〤。\n月亮會發光，所以它和太陽一樣是光源",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "月亮主要反射太陽光，不是像太陽那樣自己產生可見光。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_05",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "original_complete_stem_including_scoring_instruction": "下列關於「光」的敘述，正確畫○，不正確打〤。(8 分)\n月亮會發光，所以它和太陽一樣是光源",
+      "source_score_annotation_intentionally_excluded": true,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 43,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q03|008",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        50.16,
+        791.59,
+        78.01,
+        806.54
+      ],
+      "original_full_stem": "下列關於「光」的敘述，正確畫○，不正確打〤。\n在黑暗中只要有手電筒，就能看見所有物體。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "手電筒的光照得到物體才可能看見，遮擋、距離或視線限制使『所有』不成立。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_04",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "original_complete_stem_including_scoring_instruction": "下列關於「光」的敘述，正確畫○，不正確打〤。(8 分)\n在黑暗中只要有手電筒，就能看見所有物體。",
+      "source_score_annotation_intentionally_excluded": true,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 44,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q05|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        388.18,
+        141.51,
+        416.03,
+        156.46
+      ],
+      "original_full_stem": "下列情況能發出聲音的畫○，不能打〤。\n吹奏直笛。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "吹奏直笛會使空氣柱振動而發聲。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "original_complete_stem_including_scoring_instruction": "下列情況能發出聲音的畫○，不能打〤。(7 分)\n吹奏直笛。",
+      "source_score_annotation_intentionally_excluded": true,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 45,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q05|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        388.18,
+        160.11,
+        416.03,
+        175.06
+      ],
+      "original_full_stem": "下列情況能發出聲音的畫○，不能打〤。\n傾盆大雨。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "大雨打到地面或其他物體會造成振動而發聲。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "original_complete_stem_including_scoring_instruction": "下列情況能發出聲音的畫○，不能打〤。(7 分)\n傾盆大雨。",
+      "source_score_annotation_intentionally_excluded": true,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 46,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q05|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        388.18,
+        178.71,
+        416.03,
+        193.66
+      ],
+      "original_full_stem": "下列情況能發出聲音的畫○，不能打〤。\n欣賞美麗的花園。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "單純觀看花園不必引發物體振動產生聲音。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "original_complete_stem_including_scoring_instruction": "下列情況能發出聲音的畫○，不能打〤。(7 分)\n欣賞美麗的花園。",
+      "source_score_annotation_intentionally_excluded": true,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 47,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q05|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        388.18,
+        197.33,
+        416.03,
+        212.28
+      ],
+      "original_full_stem": "下列情況能發出聲音的畫○，不能打〤。\n在水中敲木魚。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "木魚在水中敲擊仍可使其與周圍水體振動並傳聲。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "original_complete_stem_including_scoring_instruction": "下列情況能發出聲音的畫○，不能打〤。(7 分)\n在水中敲木魚。",
+      "source_score_annotation_intentionally_excluded": true,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 48,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q05|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        388.18,
+        215.93,
+        416.03,
+        230.88
+      ],
+      "original_full_stem": "下列情況能發出聲音的畫○，不能打〤。\n朗讀課文。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "O",
+      "independent_science_reasoning": "朗讀課文需要聲帶及周圍空氣振動產生聲音。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "original_complete_stem_including_scoring_instruction": "下列情況能發出聲音的畫○，不能打〤。(7 分)\n朗讀課文。",
+      "source_score_annotation_intentionally_excluded": true,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 49,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q05|007",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        388.18,
+        253.13,
+        416.03,
+        268.08
+      ],
+      "original_full_stem": "下列情況能發出聲音的畫○，不能打〤。\n靜置的太鼓。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": "X",
+      "independent_science_reasoning": "沒有外力敲擊或振動的靜置太鼓，通常不自行發聲。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "model_ready_for_formal_gate": true,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [],
+      "original_complete_stem_including_scoring_instruction": "下列情況能發出聲音的畫○，不能打〤。(7 分)\n靜置的太鼓。",
+      "source_score_annotation_intentionally_excluded": true,
+      "scoreless_original_stem_projection_verified": true
+    },
+    {
+      "batch_ordinal": 50,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q06|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_answer_bbox_pts_top_left": [
+        388.18,
+        302.93,
+        416.03,
+        317.88
+      ],
+      "original_full_stem": "下列關於「光的反射」敘述，正確畫○，不正確打〤。\n萬花筒能看到對稱圖案，是因為光的反射。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_proposed_unique_answer": null,
+      "independent_science_reasoning": "萬花筒使用多重鏡面反射，但本題 proposed KP_03_08 側重反光材料與生活應用，需核對是否應改成 KP_03_07 的光反射規律。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_08",
+      "model_ready_for_formal_gate": false,
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "public_bank_admitted": false,
+      "exception_flags": [
+        "KALEIDOSCOPE_MIRROR_REFLECTION_KP_03_07_NOT_03_08"
+      ],
+      "original_complete_stem_including_scoring_instruction": "下列關於「光的反射」敘述，正確畫○，不正確打〤。(9 分)\n萬花筒能看到對稱圖案，是因為光的反射。",
+      "source_score_annotation_intentionally_excluded": true,
+      "scoreless_original_stem_projection_verified": true
+    }
+  ],
+  "source_score_annotation_projection_count": 12
+}

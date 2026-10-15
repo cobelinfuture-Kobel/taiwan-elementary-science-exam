@@ -9,10 +9,10 @@
   "native_pdf_glyph_bbox_certified": false,
   "original_source_images_publicly_included": false,
   "reviewed_source_count": 21,
-  "formally_admitted_candidate_count": 21,
+  "formally_admitted_candidate_count": 20,
   "teacher_answer_key_authenticated": false,
   "cumulative_public_pre_release": 604,
-  "cumulative_public_post_success": 625,
+  "cumulative_public_post_success": 624,
   "records": [
     {
       "source_slot_id": "SCI_G04_S1_114_FINAL_002|S1|TF|002",
@@ -349,7 +349,7 @@
       ],
       "model_unique_science_answer": "③",
       "model_science_reasoning": "柔軟窗簾表面通常形成散射而非鏡面反射，難以映出清楚影像。",
-      "certified_canonical_kp_id": "sci_g04s1_03_06",
+      "certified_canonical_kp_id": "sci_g04s1_03_07",
       "no_shared_media_dependency": true,
       "article9_regulated_school_exam_question_text_only": true,
       "original_teacher_answer_key_authenticated": false,
@@ -358,76 +358,9 @@
       "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
       "public_block_id": "P12_E01_HESHUN_FINAL_MC_002",
       "model_semantic_qualifier": null,
-      "accepted_if_pr_ci_pages_pass": true
-    },
-    {
-      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|003",
-      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
-      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
-      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
-      "pdf_page_1_based": 1,
-      "original_pdf_page_rotation_degrees": 90,
-      "unrotated_page_render_size_px": [
-        1651,
-        1166
-      ],
-      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
-      "upright_page_size_px": [
-        1166,
-        1651
-      ],
-      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
-      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
-      "source_scan_only_no_native_text_glyph_bbox": true,
-      "original_visual_estimate_not_certified": [
-        26,
-        687.37,
-        77,
-        704.74
-      ],
-      "answer_marker_original_image_pixel_bbox_upright": [
-        37,
-        1225,
-        101,
-        1259
-      ],
-      "answer_marker_bbox_upright_top_left_points": [
-        23.125,
-        765.625,
-        63.125,
-        786.875
-      ],
-      "full_original_stem_exact": "下列哪些不會運用到太陽的光與熱？",
-      "all_original_options_exact": [
-        {
-          "label": "①",
-          "text": "動植物生長"
-        },
-        {
-          "label": "②",
-          "text": "連接電池讓燈泡發光"
-        },
-        {
-          "label": "③",
-          "text": "白天感覺到溫暖"
-        },
-        {
-          "label": "④",
-          "text": "白天可清楚看見環境與景物"
-        }
-      ],
-      "model_unique_science_answer": "②",
-      "model_science_reasoning": "電池讓燈泡發光不必依賴太陽的光與熱。",
-      "certified_canonical_kp_id": "sci_g04s1_03_04",
-      "no_shared_media_dependency": true,
-      "article9_regulated_school_exam_question_text_only": true,
-      "original_teacher_answer_key_authenticated": false,
-      "student_site_image_assets_published": false,
-      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
-      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
-      "public_block_id": "P12_E01_HESHUN_FINAL_MC_003",
-      "model_semantic_qualifier": null,
-      "accepted_if_pr_ci_pages_pass": true
+      "accepted_if_pr_ci_pages_pass": true,
+      "kp_change_from_preliminary": "sci_g04s1_03_06",
+      "kp_change_reason": "Original question tests clear mirror-like image versus diffuse reflection on a curtain; sci_g04s1_03_07 covers light reflection, while original 03_06 is light's straight-line travel and shadows. Explicit source-grounded semantic correction."
     },
     {
       "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|006",
@@ -1259,5 +1192,93 @@
       "model_semantic_qualifier": null,
       "accepted_if_pr_ci_pages_pass": true
     }
-  ]
+  ],
+  "held_items": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        26,
+        687.37,
+        77,
+        704.74
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        37,
+        1225,
+        101,
+        1259
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        23.125,
+        765.625,
+        63.125,
+        786.875
+      ],
+      "full_original_stem_exact": "下列哪些不會運用到太陽的光與熱？",
+      "all_original_options_exact": [
+        {
+          "label": "①",
+          "text": "動植物生長"
+        },
+        {
+          "label": "②",
+          "text": "連接電池讓燈泡發光"
+        },
+        {
+          "label": "③",
+          "text": "白天感覺到溫暖"
+        },
+        {
+          "label": "④",
+          "text": "白天可清楚看見環境與景物"
+        }
+      ],
+      "model_unique_science_answer": "②",
+      "model_science_reasoning": "電池讓燈泡發光不必依賴太陽的光與熱。",
+      "certified_canonical_kp_id": "sci_g04s1_03_04",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_MC_003",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true,
+      "admission_state": "SCIENCE_KP_EXCEPTION_HOLD",
+      "primary_blocker": "NO_DIRECT_CANONICAL_KP_FOR_SOLAR_LIGHT_HEAT_VS_BATTERY_POWER",
+      "unapproved_mapping": "sci_g04s1_03_04",
+      "hold_reason": "The original asks which use does not rely on solar light/heat; sci_g04s1_03_04 concerns light reaching eyes, not solar heat versus independent battery circuit. Correct answer ② alone is insufficient for public admission without a directly taught canonical KP.",
+      "public_admitted": false,
+      "source_image_pixel_geometry_recovered": true
+    }
+  ],
+  "quarantined_count": 1,
+  "kp_reassessed_corrections": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|002",
+      "from": "sci_g04s1_03_06",
+      "to": "sci_g04s1_03_07",
+      "reason": "Original question tests clear mirror-like image versus diffuse reflection on a curtain; sci_g04s1_03_07 covers light reflection, while original 03_06 is light's straight-line travel and shadows. Explicit source-grounded semantic correction."
+    }
+  ],
+  "student_publication_gate": "ONLY_AFTER_PR_CI_AND_PAGES_E2E_SUCCESS",
+  "original_21_positions_all_image_geometry_recovered": true
 }

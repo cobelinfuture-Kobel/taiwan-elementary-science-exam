@@ -1,0 +1,1792 @@
+{
+  "schema_version": "P12_B04_B04_FIRST50_SOURCE_SCIENCE_KP_REVIEW_V1",
+  "batch": "B04",
+  "original_source_positions": 50,
+  "model_ready_for_formal_QA": 47,
+  "science_kp_hold": 3,
+  "renderer_style_review": 11,
+  "printed_source_choice_labels_are_immutable": true,
+  "source_original_pdf_text_readback": "3_GOOGLE_DRIVE_PDFS_2026_10_15",
+  "teacher_original_answer_key_authenticated": false,
+  "next_release_gate": "SCIENCE_UNIQUE_KP_DUPLICATE_RIGHTS_ORIGINAL_CHOICES_RENDERER_CI_PAGES",
+  "records": [
+    {
+      "batch_ordinal": 1,
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|014",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        555.94,
+        84.52,
+        569.98
+      ],
+      "original_full_stem": "在通路中，增加電池並聯的數量會讓燈泡變得更亮。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "X",
+      "independent_science_reasoning": "同規格電池並聯時通常維持相同端電壓，未必讓單一燈泡更亮。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_07",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 2,
+      "source_id": "SCI_G04_S1_114_FINAL_005|S1|TF|015",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        578.86,
+        84.52,
+        592.9
+      ],
+      "original_full_stem": "當我們要更換手電筒內的電池時，只要將電池裝入電池組中，不需要注意電池正負極放置的方向。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "X",
+      "independent_science_reasoning": "乾電池具有指定極性，手電筒應按器具標示方向裝入。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_01",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 3,
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        49.56,
+        647.86,
+        84.53,
+        661.9
+      ],
+      "original_full_stem": "下列哪一種方法可以改變小馬達的轉動方向？",
+      "original_options_in_order": [
+        "(1)更換電池品牌",
+        "(2)增加電線長度",
+        "(3)改變電池的正負極方向",
+        "(4)增加電池數量。"
+      ],
+      "original_option_labels": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "(3)",
+      "independent_science_reasoning": "簡單直流小馬達改變電流方向，常能改變轉動方向。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_10",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": [
+        "NATIVE_PARENTHESES_CHOICE_MARKERS_REQUIRE_RENDERER_SUPPORT"
+      ]
+    },
+    {
+      "batch_ordinal": 4,
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        49.56,
+        696.61,
+        84.53,
+        710.65
+      ],
+      "original_full_stem": "電池外觀凸起的一端稱為什麼？",
+      "original_options_in_order": [
+        "(1)正極",
+        "(2)負極",
+        "(3)南極",
+        "(4)北極。"
+      ],
+      "original_option_labels": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "(1)",
+      "independent_science_reasoning": "一般圓柱乾電池凸出端標示正極＋。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_01",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": [
+        "NATIVE_PARENTHESES_CHOICE_MARKERS_REQUIRE_RENDERER_SUPPORT"
+      ]
+    },
+    {
+      "batch_ordinal": 5,
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        49.56,
+        719.53,
+        84.53,
+        733.57
+      ],
+      "original_full_stem": "在電路中可以讓電流通過，使燈泡發亮的物體稱為",
+      "original_options_in_order": [
+        "(1)通電體",
+        "(2)電的良導體",
+        "(3)電的不良導體",
+        "(4)絕緣體。"
+      ],
+      "original_option_labels": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "(2)",
+      "independent_science_reasoning": "可讓電流通過的材料稱電的良導體。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": [
+        "NATIVE_PARENTHESES_CHOICE_MARKERS_REQUIRE_RENDERER_SUPPORT"
+      ]
+    },
+    {
+      "batch_ordinal": 6,
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        49.56,
+        765.61,
+        84.53,
+        779.65
+      ],
+      "original_full_stem": "製作電路的簡易開關時，小華找不到迴紋針，他可以使用什麼物品來代替？",
+      "original_options_in_order": [
+        "(1)橡皮擦",
+        "(2)木片",
+        "(3)銅線",
+        "(4)紙張。"
+      ],
+      "original_option_labels": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "(3)",
+      "independent_science_reasoning": "銅線導電，適合取代簡易開關的金屬迴紋針。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": [
+        "NATIVE_PARENTHESES_CHOICE_MARKERS_REQUIRE_RENDERER_SUPPORT"
+      ]
+    },
+    {
+      "batch_ordinal": 7,
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        49.56,
+        811.57,
+        84.53,
+        825.61
+      ],
+      "original_full_stem": "小明接好電路後，發現燈泡仍然不會亮，可能是下列哪一個原因？",
+      "original_options_in_order": [
+        "(1)電池沒電了",
+        "(2)電線斷掉了",
+        "(3)電線接觸不良",
+        "(4)以上都有可能。"
+      ],
+      "original_option_labels": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "(4)",
+      "independent_science_reasoning": "沒電、斷線與接觸不良都會讓燈泡不亮。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_04",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": [
+        "NATIVE_PARENTHESES_CHOICE_MARKERS_REQUIRE_RENDERER_SUPPORT"
+      ]
+    },
+    {
+      "batch_ordinal": 8,
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|009",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        49.56,
+        140.69,
+        84.53,
+        154.73
+      ],
+      "original_full_stem": "關於電池的使用問題，下列哪一項敘述錯誤？",
+      "original_options_in_order": [
+        "(1)每一種電池的大小和形狀都相同",
+        "(2)將電池裝入電器時有固定的放置方向",
+        "(3)電池放久了內部的化學物質可能會滲出來",
+        "(4)沒有電的廢電池應該投入專用的回收筒。"
+      ],
+      "original_option_labels": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "(1)",
+      "independent_science_reasoning": "電池尺寸與種類不完全相同，不能認為所有都一樣。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_01",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": [
+        "NATIVE_PARENTHESES_CHOICE_MARKERS_REQUIRE_RENDERER_SUPPORT"
+      ]
+    },
+    {
+      "batch_ordinal": 9,
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|010",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        209.69,
+        84.52,
+        223.73
+      ],
+      "original_full_stem": "下列動物向同伴傳播聲音時，主要透過的物質哪一個組合錯誤？",
+      "original_options_in_order": [
+        "(1)海豚－水",
+        "(2)蝙蝠－光線",
+        "(3)猴子－空氣",
+        "(4)老鼠－空氣。"
+      ],
+      "original_option_labels": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "(2)",
+      "independent_science_reasoning": "蝙蝠主要使用聲音及回聲定位，聲音不依賴光線作傳播介質。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": [
+        "NATIVE_PARENTHESES_CHOICE_MARKERS_REQUIRE_RENDERER_SUPPORT"
+      ]
+    },
+    {
+      "batch_ordinal": 10,
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|011",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        255.65,
+        84.52,
+        269.69
+      ],
+      "original_full_stem": "當一道光束遇到一面鏡子時會發生反射，反射光會是什麼樣子呢？",
+      "original_options_in_order": [
+        "(1)有一道反射光，且反射光有一定的方向",
+        "(2)有一道反射光，但方向無法預測",
+        "(3)有多道反射光，且會是放射狀",
+        "(4)有多道反射光，且方向都是不一定的。"
+      ],
+      "original_option_labels": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "(1)",
+      "independent_science_reasoning": "鏡面反射受入射方向和鏡面角度決定，具有可預測方向。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": [
+        "NATIVE_PARENTHESES_CHOICE_MARKERS_REQUIRE_RENDERER_SUPPORT"
+      ]
+    },
+    {
+      "batch_ordinal": 11,
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|012",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        324.68,
+        84.52,
+        338.72
+      ],
+      "original_full_stem": "將手電筒的光朝著一塊有洞的板子正前方照射，發現照出的板子影子有3個洞，請問板子本身有幾個洞呢？",
+      "original_options_in_order": [
+        "(1)1個",
+        "(2)2個",
+        "(3)3個",
+        "(4)4個。"
+      ],
+      "original_option_labels": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "(3)",
+      "independent_science_reasoning": "單一光源正面照射有三孔的不透明板，正常可形成三處透光區。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": [
+        "NATIVE_PARENTHESES_CHOICE_MARKERS_REQUIRE_RENDERER_SUPPORT"
+      ]
+    },
+    {
+      "batch_ordinal": 12,
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|013",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        370.64,
+        84.52,
+        384.68
+      ],
+      "original_full_stem": "使用雷射筆，觀察光照射到鏡子後的情況，請問下列哪一項結果正確？",
+      "original_options_in_order": [
+        "(1)光的行進方向不變",
+        "(2)光會改變行進方向",
+        "(3)光會馬上變暗",
+        "(4)光會變成彩虹色光。"
+      ],
+      "original_option_labels": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "(2)",
+      "independent_science_reasoning": "雷射光照到鏡子後反射，方向通常改變。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": [
+        "NATIVE_PARENTHESES_CHOICE_MARKERS_REQUIRE_RENDERER_SUPPORT"
+      ]
+    },
+    {
+      "batch_ordinal": 13,
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|014",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        416.72,
+        77.55,
+        430.76
+      ],
+      "original_full_stem": "光在空氣中以什麼方式前進？",
+      "original_options_in_order": [
+        "(1)直線",
+        "(2)鋸齒線",
+        "(3)曲線",
+        "(4)不一定。"
+      ],
+      "original_option_labels": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "(1)",
+      "independent_science_reasoning": "光在均勻空氣中主要沿直線傳播。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": [
+        "NATIVE_PARENTHESES_CHOICE_MARKERS_REQUIRE_RENDERER_SUPPORT"
+      ]
+    },
+    {
+      "batch_ordinal": 14,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        113.91,
+        80.34,
+        125.93
+      ],
+      "original_full_stem": "物體振動可以發出聲音，振動程度越大，聲音越大。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "O",
+      "independent_science_reasoning": "其他條件相近時，振幅較大通常產生較大聲音。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 15,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        151.91,
+        80.34,
+        163.93
+      ],
+      "original_full_stem": "越用力敲擊紙盒上的紙片，紙片跳動越小。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "X",
+      "independent_science_reasoning": "通常敲擊越用力，紙片跳動幅度越大。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 16,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        170.91,
+        80.34,
+        182.93
+      ],
+      "original_full_stem": "聲音除了可以透過空氣傳播，還可以透過液體和固體來傳播。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "O",
+      "independent_science_reasoning": "聲音傳播可經空氣、水與固體等介質。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 17,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        208.92,
+        80.34,
+        220.94
+      ],
+      "original_full_stem": "如果房間裡完全沒有光，我們的眼睛會自行發射光線，所以還是看得到東西。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "X",
+      "independent_science_reasoning": "眼睛一般不自行發出照明物體所需的光線，完全無光時無法看見。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_04",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 18,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        246.95,
+        80.34,
+        258.97
+      ],
+      "original_full_stem": "進行光的反射實驗時可以發現，改變鏡子的角度，光的反射方向也會隨之改變。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "O",
+      "independent_science_reasoning": "改變鏡面角度會改變光的反射方向。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 19,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|006",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        284.95,
+        80.34,
+        296.97
+      ],
+      "original_full_stem": "站在沙灘上聽海浪聲，聲音是透過海水傳到我們的耳朵後產生聽覺。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "X",
+      "independent_science_reasoning": "站在沙灘上聽海浪，聲波最後主要在空氣中傳入耳朵，而不是海水直接進耳。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 20,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|007",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        322.95,
+        80.34,
+        334.97
+      ],
+      "original_full_stem": "會反光的物品對於交通安全很重要，可以讓駕駛更容易看見行人與標誌。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "O",
+      "independent_science_reasoning": "反光器材能提升駕駛對行人或標誌的可見度，改善交通安全。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_08",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 21,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|008",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        360.96,
+        80.34,
+        372.98
+      ],
+      "original_full_stem": "小明和小華各自組裝電路，只要兩人使用的燈泡和電池的數量相同，不管怎樣組裝，他們的燈泡都會一樣亮。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "X",
+      "independent_science_reasoning": "相同電池數量和燈泡數量可能有不同串並聯方式，亮度不必相同。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_06",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 22,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|009",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        417.84,
+        80.34,
+        429.86
+      ],
+      "original_full_stem": "元宵節提的花燈會發光，是因為裡面安裝了小馬達。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "X",
+      "independent_science_reasoning": "燈籠發光需要發光元件和電源，小馬達的主要功能是產生轉動。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_10",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 23,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|010",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        26.57,
+        455.85,
+        74.7,
+        467.87
+      ],
+      "original_full_stem": "電池有兩極，凸起的一端稱為負極，用「－」表示；平的一端稱為正極，用「＋」表示。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "X",
+      "independent_science_reasoning": "一般乾電池凸起端是正極＋，平坦端是負極－。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_01",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 24,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|012",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        26.57,
+        550.86,
+        74.7,
+        562.88
+      ],
+      "original_full_stem": "電線的裡面是導電的銅線，外面是不導電的塑膠皮，這樣的設計可以避免使用時觸電。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "O",
+      "independent_science_reasoning": "電線金屬導體外有塑膠絕緣層，有助降低碰觸裸線觸電風險。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_02",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 25,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|013",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        26.57,
+        588.88,
+        74.7,
+        600.9
+      ],
+      "original_full_stem": "能讓燈泡發亮的電路稱為通路，斷路則不能讓燈泡發亮。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "O",
+      "independent_science_reasoning": "完整通路可使燈泡點亮，斷路使電流無法正常通過。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_04",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 26,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        683.89,
+        80.34,
+        695.91
+      ],
+      "original_full_stem": "下列哪一個現象可以清楚看到光的反射？",
+      "original_options_in_order": [
+        "①從雲層間透出的陽光",
+        "②手電筒發出的光照在黑布上",
+        "③雷射筆的光照射在鏡子上",
+        "④燈會的表演雷射燈光"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "③",
+      "independent_science_reasoning": "光照射到鏡面能清楚觀察反射。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 27,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        759.93,
+        80.34,
+        771.95
+      ],
+      "original_full_stem": "把手電筒的光照在下列哪一種物品所形成的影子最清楚？",
+      "original_options_in_order": [
+        "①玻璃燒杯",
+        "②自然課本",
+        "③半透明塑膠袋",
+        "④透明玻璃杯"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "②",
+      "independent_science_reasoning": "自然課本較不透明，遮光形成的影子通常較清楚。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 28,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        816.93,
+        80.34,
+        828.95
+      ],
+      "original_full_stem": "在下列哪個地方人的耳朵無法聽到聲音？",
+      "original_options_in_order": [
+        "①太空中",
+        "②海洋中",
+        "③森林裡",
+        "④被窩裡"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": null,
+      "independent_science_reasoning": "太空艙／太空衣內仍可透過空氣或電子設備聽聲音；裸露真空環境則無法直接聽聲音，題幹未限定。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "EXCEPTION_HOLD",
+      "exception_flags": [
+        "VACUUM_VS_SPACECRAFT_SOUND_SCOPE_AMBIGUOUS"
+      ],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 29,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        854.94,
+        80.34,
+        866.96
+      ],
+      "original_full_stem": "下列哪一個是光源、物體和影子的正確位置關係？",
+      "original_options_in_order": [
+        "①光源-影子-物體",
+        "②影子-光源-物體",
+        "③物體-光源-影子",
+        "④光源-物體-影子"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "④",
+      "independent_science_reasoning": "直線行進光線遭物體遮擋後，影子一般位於背離光源的一側。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 30,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        32.21,
+        930.97,
+        80.34,
+        942.99
+      ],
+      "original_full_stem": "用紙杯和棉線製作的傳聲筒，主要是利用哪一類物質來傳播聲音？",
+      "original_options_in_order": [
+        "①固體",
+        "②液體",
+        "③氣體",
+        "④不須任何物質"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "①",
+      "independent_science_reasoning": "紙杯電話藉拉緊的棉線振動傳播聲音，主要利用固體。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 31,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|006",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        364.68,
+        94.91,
+        412.77,
+        106.93
+      ],
+      "original_full_stem": "下列哪一個可以被稱為光源？",
+      "original_options_in_order": [
+        "①玻璃窗",
+        "②太陽眼鏡",
+        "③燃燒的火把",
+        "④閃亮的珠寶"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "③",
+      "independent_science_reasoning": "燃燒的火把會自行發出可見光，是光源。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_05",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 32,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|007",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        364.68,
+        132.91,
+        412.77,
+        144.93
+      ],
+      "original_full_stem": "下面哪一種物品或遊戲不是利用光的反射設計的？",
+      "original_options_in_order": [
+        "①車子後視鏡",
+        "②導護志工穿的反光背心",
+        "③踩影子",
+        "④腳踏車的反光板"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "③",
+      "independent_science_reasoning": "踩影子主要利用遮光形成影子，不是以光反射設計；其餘為反光。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 33,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|009",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        365.57,
+        284.95,
+        413.7,
+        296.97
+      ],
+      "original_full_stem": "下列光在生活中的應用中，哪一個可以達到指示的目的？",
+      "original_options_in_order": [
+        "①元宵節花燈",
+        "②聖誕樹燈",
+        "③安全梯的緊急出口燈",
+        "④光雕音樂會"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "③",
+      "independent_science_reasoning": "緊急出口燈可標示逃生方向，具有指示用途。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 34,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|010",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        359.04,
+        341.96,
+        407.13,
+        353.98
+      ],
+      "original_full_stem": "為了讓手電筒的光更亮，手電筒的內部通常是哪一種電路裝置？",
+      "original_options_in_order": [
+        "①電池並聯",
+        "②電池串聯",
+        "③燈泡並聯",
+        "④燈泡串聯"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "②",
+      "independent_science_reasoning": "手電筒常以電池串聯提高供應電壓以增亮，而非一般電池並聯。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_06",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 35,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|011",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        359.04,
+        398.81,
+        407.13,
+        410.83
+      ],
+      "original_full_stem": "下面哪一組的材料，可以用來製造控制通路或斷路的簡易開關？",
+      "original_options_in_order": [
+        "①鐵湯匙和長尾夾",
+        "②塑膠尺和紙板",
+        "③手帕和橡皮筋",
+        "④迴紋針和紙板"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": null,
+      "independent_science_reasoning": "迴紋針與紙板可作常見簡易開關，但鐵湯匙與金屬長尾夾若配置可分合接點亦可能控制通斷，不宜無前提地判定唯一。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "EXCEPTION_HOLD",
+      "exception_flags": [
+        "CONDUCTIVE_SWITCH_ALTERNATE_ASSEMBLY_MULTIPLE_CORRECT"
+      ],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 36,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|012",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        359.04,
+        474.85,
+        407.13,
+        486.87
+      ],
+      "original_full_stem": "電池的正極和負極分別與燈泡的那些部位連接才能形成通路？",
+      "original_options_in_order": [
+        "①螺紋金屬體和接點",
+        "②玻璃罩和燈絲",
+        "③玻璃罩和接點",
+        "④燈絲和螺紋金屬體"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "①",
+      "independent_science_reasoning": "燈泡側面螺紋金屬與底部接點為兩個電極接觸位置。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_03",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 37,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|013",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        359.04,
+        550.86,
+        407.13,
+        562.88
+      ],
+      "original_full_stem": "如果電路的連接是正確的，下列哪一個有可能是燈泡不亮的原因？",
+      "original_options_in_order": [
+        "①電池是全新的",
+        "②沒有使用燈泡座",
+        "③燈絲燒斷了",
+        "④電線兩端的銅線露出來了"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "③",
+      "independent_science_reasoning": "燈絲斷裂造成燈泡內部開路，即使外部電路連接正確也不亮。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_04",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 38,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|014",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        359.04,
+        626.89,
+        407.13,
+        638.91
+      ],
+      "original_full_stem": "下面哪一個方法可以改變小馬達的轉向？",
+      "original_options_in_order": [
+        "①改變電池品牌",
+        "②改變電線顏色",
+        "③增加電池數量",
+        "④改變電池的正負極方向"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "④",
+      "independent_science_reasoning": "對簡單直流馬達將電池正負極反接能改變轉動方向。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_10",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 39,
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|016",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        359.04,
+        759.93,
+        407.13,
+        771.95
+      ],
+      "original_full_stem": "下面哪一項生活用品不是使用電池的電來運作的？",
+      "original_options_in_order": [
+        "①手電筒",
+        "②遙控器",
+        "③鬧鐘",
+        "④冷氣機"
+      ],
+      "original_option_labels": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "provisional_unique_answer": "④",
+      "independent_science_reasoning": "冷氣機通常由市電供電，另外三種常見用品可使用乾電池。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_12",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 40,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        56.64,
+        217.72,
+        93.83,
+        236.63
+      ],
+      "original_full_stem": "在進行光的行進路線實驗時，讓盒子充滿煙，是為了清楚地看到光的路線。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "O",
+      "independent_science_reasoning": "少量散射顆粒可使光線路徑顯現；實際教學需採安全且不刺激呼吸道的替代方式。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 41,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        56.64,
+        257.68,
+        93.83,
+        276.59
+      ],
+      "original_full_stem": "一氧化碳偵測警報器是一種具有警示功能的物品。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": null,
+      "independent_science_reasoning": "一氧化碳警報器可有聲音、燈光警示；原題沒有指明光的用途，可能與所擬 KP 指示／警示光不完全對應。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "EXCEPTION_HOLD",
+      "exception_flags": [
+        "CO_ALARM_WARNING_FUNCTION_VS_LIGHT_ONLY_KP_MISMATCH"
+      ],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 42,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        56.63,
+        297.63,
+        93.82,
+        316.55
+      ],
+      "original_full_stem": "上學時，安可看到影子出現在他的右手邊，此時太陽光是從她的右邊照射過來。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "X",
+      "independent_science_reasoning": "影子位於物體背向光源的一側；右側有影子時光源通常在左側。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 43,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        56.64,
+        337.71,
+        93.85,
+        356.63
+      ],
+      "original_full_stem": "當物體的振動停止時，我們還是可以聽見物體持續發出聲音。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "X",
+      "independent_science_reasoning": "發聲物體停止振動後不再持續產生原聲；已傳出的聲音仍可能短暫傳至遠處。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 44,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        56.64,
+        377.67,
+        93.83,
+        396.58
+      ],
+      "original_full_stem": "洗完澡，為了節省時間，溼溼的手可以直接拿吹風機的插頭插入插座吹乾頭髮。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "X",
+      "independent_science_reasoning": "濕手接觸插頭或吹風機可能增加觸電風險，應先擦乾手。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_12",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 45,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|007",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        56.6,
+        457.7,
+        93.79,
+        476.61
+      ],
+      "original_full_stem": "耳朵貼在門板上無法聽到門外的聲音。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "X",
+      "independent_science_reasoning": "聲音可以在門板等固體中傳播，貼門仍可能聽見門外聲音。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 46,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|009",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        56.57,
+        497.66,
+        93.76,
+        516.57
+      ],
+      "original_full_stem": "教室的電燈是使用燈泡串聯的方式連接。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "X",
+      "independent_science_reasoning": "教室燈通常採並聯，使各燈能相對獨立控制與運作。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_09",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 47,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|010",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        56.57,
+        517.69,
+        93.78,
+        536.6
+      ],
+      "original_full_stem": "電線外層是塑膠，我們不會觸電是因為塑膠是電的不良導體。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "O",
+      "independent_science_reasoning": "外層塑膠通常是電的不良導體，可阻隔正常使用時直接接觸導線。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_02",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 48,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|011",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        56.57,
+        557.65,
+        93.76,
+        576.56
+      ],
+      "original_full_stem": "單車加裝反光板可以增加騎乘的安全。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "O",
+      "independent_science_reasoning": "腳踏車加裝反光板能把入射車燈光反射給駕駛，提高安全性。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_08",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 49,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|012",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        56.54,
+        577.69,
+        93.75,
+        596.6
+      ],
+      "original_full_stem": "廢電池裡的化學物質具有毒性，會危害環境，所以必須放入電池回收桶裡回收。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "O",
+      "independent_science_reasoning": "廢電池可能含有危害環境的化學物質，應交由專用管道回收。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_11",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    },
+    {
+      "batch_ordinal": 50,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|013",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_bbox_pts_top_left": [
+        56.54,
+        617.64,
+        93.73,
+        636.55
+      ],
+      "original_full_stem": "為避免觸電，我們會用塑膠材質來製作電器開關的外殼。",
+      "original_options_in_order": [],
+      "original_option_labels": [],
+      "question_type": "TRUE_FALSE",
+      "provisional_unique_answer": "O",
+      "independent_science_reasoning": "塑膠通常較不導電，適合作電器開關外殼的絕緣保護。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "science_formal_approved": false,
+      "kp_formal_approved": false,
+      "site_admitted": false,
+      "preliminary_review_state": "MODEL_REASONED_READY_FOR_FORMAL_QA",
+      "exception_flags": [],
+      "presentation_review_flags": []
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "schema_version": "P12_B04_AUTO_BATCH50_B09_SCAN_QUALITY_SCIENCE_KP_INITIAL_REVIEW_V1",
+  "batch": "B09",
+  "source_positions": 9,
+  "model_science_reasoned_from_archived_transcription": 9,
+  "scan_only_visual_bbox_unverified": 9,
+  "exact_source_projection_parent_score_preserved": 0,
+  "duplicate_hold": 0,
+  "additional_science_or_kp_semantic_hold": 0,
+  "formal_gate_ready": 0,
+  "source_or_semantic_hold": 9,
+  "new_public_admissions": 0,
+  "teacher_answer_key_authenticated": false,
+  "next_gate": "REAL_PDF_PAGE_IMAGE_PIXEL_GEOMETRY_VISUAL_READBACK_THEN_SCIENCE_UNIQUE_KP_DUPLICATE_RIGHTS_PR_CI_PAGES",
+  "records": [
+    {
+      "batch_ordinal": 1,
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-puren-g04s1-final18-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_scan_only": true,
+      "native_pdf_answer_marker_bbox_certified": false,
+      "original_visual_bbox_estimate_not_for_admission": [
+        35,
+        154.29,
+        84,
+        175.29
+      ],
+      "original_pdf_bbox_visual_coordinate_frame": null,
+      "full_original_stem_including_parent_instructions": "光源是指本身能發光的物體，例如鏡子、反光背心都是光源。",
+      "student_scoreless_stem_projection": "光源是指本身能發光的物體，例如鏡子、反光背心都是光源。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "鏡子與反光背心是反射光，不是本身發光的光源。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_05",
+      "kp_semantic_attention": [],
+      "cross_source_duplicate_of": null,
+      "review_state": "SOURCE_VISUAL_BBOX_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ]
+    },
+    {
+      "batch_ordinal": 2,
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-puren-g04s1-final18-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_scan_only": true,
+      "native_pdf_answer_marker_bbox_certified": false,
+      "original_visual_bbox_estimate_not_for_admission": [
+        35,
+        263.81,
+        84,
+        284.81
+      ],
+      "original_pdf_bbox_visual_coordinate_frame": null,
+      "full_original_stem_including_parent_instructions": "設計電路時，電池的並聯或串聯與燈泡的亮度沒有關係，只是為了達到燈泡不會同時全部不亮的目的。",
+      "student_scoreless_stem_projection": "設計電路時，電池的並聯或串聯與燈泡的亮度沒有關係，只是為了達到燈泡不會同時全部不亮的目的。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "電池串聯與並聯的電壓特性不同，會影響燈泡亮度。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_06",
+      "kp_semantic_attention": [],
+      "cross_source_duplicate_of": null,
+      "review_state": "SOURCE_VISUAL_BBOX_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ]
+    },
+    {
+      "batch_ordinal": 3,
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-puren-g04s1-final18-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_scan_only": true,
+      "native_pdf_answer_marker_bbox_certified": false,
+      "original_visual_bbox_estimate_not_for_admission": [
+        35,
+        311.43,
+        84,
+        332.43
+      ],
+      "original_pdf_bbox_visual_coordinate_frame": null,
+      "full_original_stem_including_parent_instructions": "運動會大鼓表演，表演者敲擊得越用力，鼓面的振動越大，發出的聲音也越大。",
+      "student_scoreless_stem_projection": "運動會大鼓表演，表演者敲擊得越用力，鼓面的振動越大，發出的聲音也越大。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "較用力敲擊鼓面通常使振動幅度增加、聲音較大。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "kp_semantic_attention": [],
+      "cross_source_duplicate_of": null,
+      "review_state": "SOURCE_VISUAL_BBOX_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ]
+    },
+    {
+      "batch_ordinal": 4,
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|006",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-puren-g04s1-final18-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_scan_only": true,
+      "native_pdf_answer_marker_bbox_certified": false,
+      "original_visual_bbox_estimate_not_for_admission": [
+        35,
+        344.29,
+        84,
+        365.29
+      ],
+      "original_pdf_bbox_visual_coordinate_frame": null,
+      "full_original_stem_including_parent_instructions": "小馬達的轉動方向並不會因為電池數量而改變。",
+      "student_scoreless_stem_projection": "小馬達的轉動方向並不會因為電池數量而改變。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "在極性方向相同且電壓適當的通常情況下，增加電池數量不改變小馬達轉向；轉向與極性相關。",
+      "proposed_canonical_kp_id": "sci_g04s1_04_10",
+      "kp_semantic_attention": [],
+      "cross_source_duplicate_of": null,
+      "review_state": "SOURCE_VISUAL_BBOX_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ]
+    },
+    {
+      "batch_ordinal": 5,
+      "source_id": "SCI_G04_S1_114_FINAL_010|S1|TF|007",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-puren-g04s1-final18-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_pdf_scan_only": true,
+      "native_pdf_answer_marker_bbox_certified": false,
+      "original_visual_bbox_estimate_not_for_admission": [
+        35,
+        377.62,
+        84,
+        398.62
+      ],
+      "original_pdf_bbox_visual_coordinate_frame": null,
+      "full_original_stem_including_parent_instructions": "在海邊聽到海浪聲是聲音經由液體傳播的例子。",
+      "student_scoreless_stem_projection": "在海邊聽到海浪聲是聲音經由液體傳播的例子。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "海浪聲雖源於海水運動，但海邊聽見的聲音主要經空氣傳入耳朵。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "kp_semantic_attention": [],
+      "cross_source_duplicate_of": null,
+      "review_state": "SOURCE_VISUAL_BBOX_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ]
+    },
+    {
+      "batch_ordinal": 6,
+      "source_id": "SCI_G04_S1_114_FINAL_010|S3|G04|014",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-puren-g04s1-final18-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_pdf_scan_only": true,
+      "native_pdf_answer_marker_bbox_certified": false,
+      "original_visual_bbox_estimate_not_for_admission": [
+        35,
+        169.52,
+        84,
+        190.52
+      ],
+      "original_pdf_bbox_visual_coordinate_frame": null,
+      "full_original_stem_including_parent_instructions": "下列關於光的特性，正確的打√，不正確的打 X。\n即使沒有光，我們也能看見物體。",
+      "student_scoreless_stem_projection": "下列關於光的特性，正確的打√，不正確的打 X。\n即使沒有光，我們也能看見物體。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "若沒有光進入眼睛，便無法用視覺看見物體。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_04",
+      "kp_semantic_attention": [],
+      "cross_source_duplicate_of": null,
+      "review_state": "SOURCE_VISUAL_BBOX_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ]
+    },
+    {
+      "batch_ordinal": 7,
+      "source_id": "SCI_G04_S1_114_FINAL_010|S3|G04|015",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-puren-g04s1-final18-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_pdf_scan_only": true,
+      "native_pdf_answer_marker_bbox_certified": false,
+      "original_visual_bbox_estimate_not_for_admission": [
+        35,
+        190.48,
+        84,
+        211.48
+      ],
+      "original_pdf_bbox_visual_coordinate_frame": null,
+      "full_original_stem_including_parent_instructions": "下列關於光的特性，正確的打√，不正確的打 X。\n光沒有被阻擋時，不會形成影子。",
+      "student_scoreless_stem_projection": "下列關於光的特性，正確的打√，不正確的打 X。\n光沒有被阻擋時，不會形成影子。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "影子形成需要光被不透明物體阻擋。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "kp_semantic_attention": [],
+      "cross_source_duplicate_of": null,
+      "review_state": "SOURCE_VISUAL_BBOX_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ]
+    },
+    {
+      "batch_ordinal": 8,
+      "source_id": "SCI_G04_S1_114_FINAL_010|S3|G04|016",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-puren-g04s1-final18-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_pdf_scan_only": true,
+      "native_pdf_answer_marker_bbox_certified": false,
+      "original_visual_bbox_estimate_not_for_admission": [
+        35,
+        211.9,
+        84,
+        232.9
+      ],
+      "original_pdf_bbox_visual_coordinate_frame": null,
+      "full_original_stem_including_parent_instructions": "下列關於光的特性，正確的打√，不正確的打 X。\n當光反射後，它反射的方向也會改變。",
+      "student_scoreless_stem_projection": "下列關於光的特性，正確的打√，不正確的打 X。\n當光反射後，它反射的方向也會改變。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "光照到反射面後可能改變其傳播方向。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "kp_semantic_attention": [],
+      "cross_source_duplicate_of": null,
+      "review_state": "SOURCE_VISUAL_BBOX_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ]
+    },
+    {
+      "batch_ordinal": 9,
+      "source_id": "SCI_G04_S1_114_FINAL_010|S3|G04|017",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_010",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-puren-g04s1-final18-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_pdf_scan_only": true,
+      "native_pdf_answer_marker_bbox_certified": false,
+      "original_visual_bbox_estimate_not_for_admission": [
+        35,
+        232.86,
+        84,
+        253.86
+      ],
+      "original_pdf_bbox_visual_coordinate_frame": null,
+      "full_original_stem_including_parent_instructions": "下列關於光的特性，正確的打√，不正確的打 X。\n當光照射到透明玻璃時，會形成明顯的影子。",
+      "student_scoreless_stem_projection": "下列關於光的特性，正確的打√，不正確的打 X。\n當光照射到透明玻璃時，會形成明顯的影子。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "透明玻璃通常容許多數光通過，不會形成明顯深色的影子。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "kp_semantic_attention": [],
+      "cross_source_duplicate_of": null,
+      "review_state": "SOURCE_VISUAL_BBOX_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ]
+    }
+  ]
+}

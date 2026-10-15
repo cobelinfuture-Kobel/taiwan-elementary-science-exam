@@ -41,7 +41,7 @@ test("B07 fifty frozen source IDs preserve five source partitions; hold scan-onl
     assert.ok(r.source_pdf_scan_only);
     assert.ok(r.exception_flags.includes("SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"));
    }else{
-    assert.equal(r.source_pdf_scan_only,false);
+    assert.equal(r.source_pdf_scan_only===true,false);
     assert.equal(r.exception_flags.length,0);
     assert.ok(r.model_independently_reasoned_answer);
    }

@@ -54,3 +54,5 @@ test("B05 rejects tampering with source, geometry, answer, KP, rights and author
   assert.throws(()=>validateAndConvertP12B04B05_40(v,auth));
  }
 });
+
+test("B05 #29 canonical semantic correction uses light reflection not shadow",()=>{const q=bank.blocks.find(x=>x.b05_review_ordinal===29);assert.equal(q.canonical_kp_id,"sci_g04s1_03_07");});

@@ -1,0 +1,48 @@
+{
+  "schema_version": "P12_ALL25_B03_NONSTANDALONE_SOURCE_FORMAT_INDEX_V1",
+  "source_review_mode": "GLOBAL_SCORELESS_CONTENT_ONLY",
+  "source_paper_count": 25,
+  "original_source_response_positions": 1623,
+  "already_archived_independent_fulltext_question_occurrences": 717,
+  "original_positions_requiring_context_or_other_format_review": 906,
+  "positions_exactly_linked_to_frozen_source_map_ids": 774,
+  "positions_not_yet_bound_to_individual_map_entry": 132,
+  "source_derived_initial_format_categories": {
+    "MULTI_RESPONSE_OR_CHECK": 64,
+    "MATCHING_SET": 12,
+    "FIGURE_DEPENDENCY": 334,
+    "SHARED_STIMULUS_GROUP": 257,
+    "READING_GROUP": 56,
+    "OTHER_OR_NEEDS_SOURCE_LAYOUT": 51
+  },
+  "source_papers_with_missing_individual_map": [
+    {
+      "paper_id": "SCI_G04_S1_114_MID_003",
+      "remaining_unbound": 48,
+      "source_map_ref": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_005",
+      "remaining_unbound": 50,
+      "source_map_ref": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_008",
+      "remaining_unbound": 34,
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-dongguang-mid-60-source-manifest-v1.json"
+    }
+  ],
+  "source_format_evidence_refs": [
+    "data/review/p12-all25-b03-remaining-formats-part01-v1.json",
+    "data/review/p12-all25-b03-remaining-formats-part02-v1.json",
+    "data/review/p12-all25-b03-remaining-formats-part03-v1.json",
+    "data/review/p12-all25-b03-remaining-formats-part04-v1.json",
+    "data/review/p12-all25-b03-remaining-formats-part05-v1.json",
+    "data/review/p12-all25-b03-remaining-formats-part06-v1.json",
+    "data/review/p12-all25-b03-remaining-formats-part07-v1.json"
+  ],
+  "strict_image_and_parent_acceptance_completed": 0,
+  "extra_student_question_bank_admissions": 0,
+  "warning": "Initial source map hints are not final 2D figure acceptance, parent shared stimuli reconstruction, independently answerable questions or student-site availability. Source response slots are not necessarily separable items.",
+  "next": "P12_ALL25_B04_ThreeMissingSourceMapIndividualization_ThenContextFigureOriginalPDFAcceptance_NoScoring"
+}

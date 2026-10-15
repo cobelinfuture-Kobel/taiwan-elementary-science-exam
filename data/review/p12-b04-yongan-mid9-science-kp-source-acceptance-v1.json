@@ -1,0 +1,258 @@
+{
+  "schema_version": "P12_B04_YONGAN_MID9_SOURCE_SCIENCE_KP_ACCEPTANCE_V1",
+  "source_paper_id": "SCI_G04_S1_114_MID_001",
+  "original_pdf_drive_id": "1lLNg-pNkDzxbPgVyS2Ug61vdrhrUrF3o",
+  "original_pdf_sha256": "4d924c412166812557793cc43b62b02f6ce4da2539e9ddcf165e2faf456251fe",
+  "pdf_text_readback": "GOOGLE_DRIVE_ORIGINAL_PDF_2026_10_15",
+  "historical_pdf_binary_sha_verified": true,
+  "historical_source_visual_inspection_record": "data/review/p12-standalone-yongan-mid20-safe-science-kp-v1.json",
+  "source_archive_ref": "data/source-archive/p12-art9-114-yongan-g04s1-mid20-original-questions-v1.json",
+  "current_source_content_ref": "data/content-only/p12-art9-114-yongan-g04s1-mid20-original-questions-v1-content-v1.json",
+  "authority_ref": "site/data/authority/science-g03-g04-selector-v2.json",
+  "independent_science_answer_basis": "FULL_PRINTED_STEM_AND_ALL_OPTIONS_PLUS_SCIENCE_REASONING_NOT_SCHOOL_TEACHER_KEY",
+  "authority_kp_scope": "KANGHSUAN_G04_S1_45_KP",
+  "school_teacher_key_authenticated": false,
+  "figure_dependency": "NONE_FOR_NINE_STANDALONE_TEXT_QUESTIONS",
+  "rights_basis": "REGULATED_SCHOOL_EXAM_QUESTION_ART9_TEXT_ONLY_THIRD_PARTY_COPY_NONE",
+  "authorization": "USER_AUTHORIZED_TO_ADMIT_ONLY_FULLY_VERIFIED_QUESTIONS_2026_10_15",
+  "source_question_count": 9,
+  "science_independent_review_count": 9,
+  "kp_title_direct_alignment_count": 9,
+  "source_question_bbox_record_type": "ORIGINAL_PDF_ANSWER_MARKER_BBOX_PTS_TOP_LEFT",
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_001|TF|S01|001",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        118.09,
+        74.44,
+        131.37
+      ],
+      "original_question_number": 1,
+      "original_full_stem": "影子無所不在，即使在沒有光源的地方也會產生影子。",
+      "all_original_options_in_order": [],
+      "answer_independently_reviewed": "X",
+      "science_answer_reason": "沒有光源就沒有光線被物體遮擋，無法形成由遮光造成的影子。",
+      "science_qualification": "一般可見光影子形成需有光源、不透明物體與受光面。",
+      "kp_id": "sci_g04s1_03_06",
+      "science_uniqueness_decision": "UNIQUE_UNDER_STATED_CLASSROOM_ASSUMPTIONS",
+      "exact_text_pdf_readback": true,
+      "assets_complete": true,
+      "rights_exam_question_text_only": true,
+      "source_approved_for_published_staging": true,
+      "teacher_key_authenticated": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_001|TF|S01|006",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        274.09,
+        74.44,
+        287.37
+      ],
+      "original_question_number": 6,
+      "original_full_stem": "改變光源的位置時，物體的影子的位置也會跟著改變。",
+      "all_original_options_in_order": [],
+      "answer_independently_reviewed": "O",
+      "science_answer_reason": "物體與受光面保持不動時，移動光源會改變光線方向，通常使影子位置跟著變化。",
+      "science_qualification": "以題目一般光照實驗情境判讀。",
+      "kp_id": "sci_g04s1_03_06",
+      "science_uniqueness_decision": "UNIQUE_UNDER_STATED_CLASSROOM_ASSUMPTIONS",
+      "exact_text_pdf_readback": true,
+      "assets_complete": true,
+      "rights_exam_question_text_only": true,
+      "source_approved_for_published_staging": true,
+      "teacher_key_authenticated": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_001|TF|S01|008",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        332.53,
+        74.44,
+        345.81
+      ],
+      "original_question_number": 8,
+      "original_full_stem": "圓圓放學時，太陽在西方，樹的影子會在東方。",
+      "all_original_options_in_order": [],
+      "answer_independently_reviewed": "O",
+      "science_answer_reason": "太陽在西方時，陽光自西側照射，樹阻擋陽光產生的影子指向東側。",
+      "science_qualification": "以一般日落前戶外、地面受光面判讀。",
+      "kp_id": "sci_g04s1_03_06",
+      "science_uniqueness_decision": "UNIQUE_UNDER_STATED_CLASSROOM_ASSUMPTIONS",
+      "exact_text_pdf_readback": true,
+      "assets_complete": true,
+      "rights_exam_question_text_only": true,
+      "source_approved_for_published_staging": true,
+      "teacher_key_authenticated": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_001|TF|S01|009",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        352.09,
+        74.44,
+        365.37
+      ],
+      "original_question_number": 9,
+      "original_full_stem": "所有水生動物都生活在水底，所以我們在水面上看不到牠們。",
+      "all_original_options_in_order": [],
+      "answer_independently_reviewed": "X",
+      "science_answer_reason": "水生動物可生活在水面、水中或水底，不是全部都住在水底。",
+      "science_qualification": "此題中的「所有」是錯誤的絕對敘述。",
+      "kp_id": "sci_g04s1_02_09",
+      "science_uniqueness_decision": "UNIQUE_UNDER_STATED_CLASSROOM_ASSUMPTIONS",
+      "exact_text_pdf_readback": true,
+      "assets_complete": true,
+      "rights_exam_question_text_only": true,
+      "source_approved_for_published_staging": true,
+      "teacher_key_authenticated": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_001|MC|S02|002",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        508.12,
+        74.44,
+        521.4
+      ],
+      "original_question_number": 2,
+      "original_full_stem": "光照在哪一種物體上會產生明顯而清楚的影子？",
+      "all_original_options_in_order": [
+        "①玻璃杯",
+        "②透明塑膠尺",
+        "③放大鏡鏡片",
+        "④橡皮擦"
+      ],
+      "answer_independently_reviewed": "④",
+      "science_answer_reason": "橡皮擦通常不透明，能明顯遮擋光線；玻璃杯、透明塑膠尺與放大鏡鏡片通常透光。",
+      "science_qualification": "採一般教具、單一主要陰影的比較情境。",
+      "kp_id": "sci_g04s1_03_06",
+      "science_uniqueness_decision": "UNIQUE_UNDER_STATED_CLASSROOM_ASSUMPTIONS",
+      "exact_text_pdf_readback": true,
+      "assets_complete": true,
+      "rights_exam_question_text_only": true,
+      "source_approved_for_published_staging": true,
+      "teacher_key_authenticated": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_001|MC|S02|006",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        761.58,
+        74.44,
+        774.86
+      ],
+      "original_question_number": 6,
+      "original_full_stem": "關於水生動物和呼吸構造的配對，下列哪一項正確？",
+      "all_original_options_in_order": [
+        "①鯨魚：鰓",
+        "②紅娘華：皮膚",
+        "③海豚：肺",
+        "④蛙：呼吸管"
+      ],
+      "answer_independently_reviewed": "③",
+      "science_answer_reason": "海豚是哺乳類，以肺呼吸；鯨魚同樣以肺呼吸，紅娘華與蛙的配對不符題示。",
+      "science_qualification": "題目考主要呼吸構造，不將皮膚輔助呼吸混同指定構造。",
+      "kp_id": "sci_g04s1_02_09",
+      "science_uniqueness_decision": "UNIQUE_UNDER_STATED_CLASSROOM_ASSUMPTIONS",
+      "exact_text_pdf_readback": true,
+      "assets_complete": true,
+      "rights_exam_question_text_only": true,
+      "source_approved_for_published_staging": true,
+      "teacher_key_authenticated": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_001|MC|S02|008",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        898.17,
+        74.44,
+        911.45
+      ],
+      "original_question_number": 8,
+      "original_full_stem": "小妍在公園池塘看到許多美麗的睡蓮，請問下列關於睡蓮的敘述，哪一項錯誤？",
+      "all_original_options_in_order": [
+        "①葉子平鋪在水面上",
+        "②根在土裡",
+        "③葉柄很硬，不會隨著水位高低而改變",
+        "④會開花"
+      ],
+      "answer_independently_reviewed": "③",
+      "science_answer_reason": "睡蓮是浮葉植物，葉柄較具柔軟與伸展適應，不是硬到無法因水位改變而調整。",
+      "science_qualification": "以一般睡蓮在水域中的生長構造判讀。",
+      "kp_id": "sci_g04s1_02_06",
+      "science_uniqueness_decision": "UNIQUE_UNDER_STATED_CLASSROOM_ASSUMPTIONS",
+      "exact_text_pdf_readback": true,
+      "assets_complete": true,
+      "rights_exam_question_text_only": true,
+      "source_approved_for_published_staging": true,
+      "teacher_key_authenticated": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_001|MC|S02|009",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        976.17,
+        74.44,
+        989.45
+      ],
+      "original_question_number": 9,
+      "original_full_stem": "將布袋蓮整株壓入水底再放開，布袋蓮會發生什麼變化？",
+      "all_original_options_in_order": [
+        "①沉在水底",
+        "②浮到水面",
+        "③葉子開始變黃",
+        "④顏色改變"
+      ],
+      "answer_independently_reviewed": "②",
+      "science_answer_reason": "布袋蓮是漂浮性植物，植株有幫助浮起的構造，放開後會回到水面。",
+      "science_qualification": "以健康、未受損、未被外力綁住的布袋蓮判讀。",
+      "kp_id": "sci_g04s1_02_04",
+      "science_uniqueness_decision": "UNIQUE_UNDER_STATED_CLASSROOM_ASSUMPTIONS",
+      "exact_text_pdf_readback": true,
+      "assets_complete": true,
+      "rights_exam_question_text_only": true,
+      "source_approved_for_published_staging": true,
+      "teacher_key_authenticated": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_001|MC|S02|010",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        42.48,
+        1054.17,
+        74.44,
+        1067.45
+      ],
+      "original_question_number": 10,
+      "original_full_stem": "切開荷花的地下莖，可以看到許多孔洞，這些孔洞有什麼作用？",
+      "all_original_options_in_order": [
+        "①儲存空氣",
+        "②儲存土壤",
+        "③讓小動物躲在裡面",
+        "④美觀"
+      ],
+      "answer_independently_reviewed": "①",
+      "science_answer_reason": "荷花地下莖有通氣孔道與空隙，能保存與傳送空氣以維持淤泥中組織的氣體交換。",
+      "science_qualification": "題目採「儲存空氣」指含氣空隙，不等同主要功能只有儲存。",
+      "kp_id": "sci_g04s1_02_07",
+      "science_uniqueness_decision": "UNIQUE_UNDER_STATED_CLASSROOM_ASSUMPTIONS",
+      "exact_text_pdf_readback": true,
+      "assets_complete": true,
+      "rights_exam_question_text_only": true,
+      "source_approved_for_published_staging": true,
+      "teacher_key_authenticated": false
+    }
+  ],
+  "duplicate_comparison": "SOURCE_SLOT_ID_UNIQUE_AND_NO_MATCH_TO_P12_PREEXISTING_SOURCE_PREFIX",
+  "site_release_requires": "ADAPTER_TESTS_CI_AND_DEPLOYMENT_READBACK"
+}

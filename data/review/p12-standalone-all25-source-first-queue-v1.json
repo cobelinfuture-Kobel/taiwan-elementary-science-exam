@@ -405,7 +405,7 @@
     "source_use_rights_and_operator_release_gate"
   ],
   "non_promotable_evidence": "Text-layer, firstpass KP source maps and source-box locator candidates do NOT imply a complete or usable single question.",
-  "next_execution": "P12_ALL25_B02_ScoreGap27OperatorEvidenceThenScience73KPHumanTriage",
+  "next_execution": "P12_ALL25_B03_OperatorSixPDFScoreAuthorityDecisionThenPrioritizedScienceKPEvidenceAcceptance",
   "last_completed_original_paper_source_id": "SCI_G04_S1_114_FINAL_010",
   "last_completed_original_paper_first_page_standalone_items": 14,
   "source_fulltext_eligible_article9_public_archive_complete_occurrences": 717,
@@ -454,5 +454,24 @@
   "b01_formal_science_approvals": 0,
   "b01_formal_kp_approvals": 0,
   "b01_public_site_admissions": 0,
-  "b01_closeout_status": "SOURCE_SCORE_GAP_EVIDENCE_LEDGER_DONE_LEGACY26_CONTRACT_PATCH_DONE_SCIENCE73_KP81_TRIAGE_DONE_FORMAL_GATES_STILL_OPEN"
+  "b01_closeout_status": "SOURCE_SCORE_GAP_EVIDENCE_LEDGER_DONE_LEGACY26_CONTRACT_PATCH_DONE_SCIENCE73_KP81_TRIAGE_DONE_FORMAL_GATES_STILL_OPEN",
+  "b02_source_score_original_sixpdf_visual_evidence_ref": "data/review/p12-all25-b02-sixpdf-scoregap27-original-visual-evidence-v1.json",
+  "b02_science73_kp81_human_review_control_ref": "data/review/p12-all25-b02-science73-kp81-human-triage-control-v1.json",
+  "b02_individual_human_triage_shard_refs": [
+    "data/review/p12-all25-b02-human-triage-shard01-v1.json",
+    "data/review/p12-all25-b02-human-triage-shard02-v1.json",
+    "data/review/p12-all25-b02-human-triage-shard03-v1.json"
+  ],
+  "b02_six_original_pdf_binary_sha_verified": 6,
+  "b02_source_scoring_gap_points": 27,
+  "b02_source_scoring_gap_cleared_points": 0,
+  "b02_formal_score_authority_approved_papers": 0,
+  "b02_science_model_hold_review_queued": 73,
+  "b02_kp_human_review_queued": 81,
+  "b02_overlap_source_ids_review_queued": 8,
+  "b02_science_holds_model_resolved": 0,
+  "b02_kp_formal_approvals": 0,
+  "b02_operator_acceptance": false,
+  "b02_new_student_bank_admission": 0,
+  "b02_closeout_status": "SIX_ORIGINAL_PDFS_RECHECKED_ALL27_SCORE_POINTS_STILL_HOLD_SCIENCE73_KP81_OPERATOR_TRIAGE_QUEUED_NO_FORMAL_PASS"
 }

@@ -25,7 +25,7 @@ const EXPECTED=new Map([
  ["SCI_G04_S1_114_FINAL_008|S01|TF|015",["X","sci_g04s1_04_12","023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",26]],
  ["SCI_G04_S1_114_FINAL_008|S02|MC|001",["②","sci_g04s1_03_03","023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",27]],
  ["SCI_G04_S1_114_FINAL_008|S02|MC|002",["①","sci_g04s1_03_01","023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",28]],
- ["SCI_G04_S1_114_FINAL_008|S02|MC|003",["③","sci_g04s1_03_06","023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",29]],
+ ["SCI_G04_S1_114_FINAL_008|S02|MC|003",["③","sci_g04s1_03_07","023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",29]],
  ["SCI_G04_S1_114_FINAL_008|S02|MC|004",["④","sci_g04s1_03_10","023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",30]],
  ["SCI_G04_S1_114_FINAL_008|S02|MC|005",["①","sci_g04s1_03_07","023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",31]],
  ["SCI_G04_S1_114_FINAL_008|S02|MC|006",["④","sci_g04s1_03_07","023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",32]],

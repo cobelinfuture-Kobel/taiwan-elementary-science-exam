@@ -41,6 +41,7 @@ test("six-question loader fails closed for missing origin, duplicate slot and re
 test("P12 addition does not alter frozen 72 OX and 20 context group assets",async()=>{
  const old=read("site/data/question-bank/approved-historical-ox-v4.json");
  const contexts=read("site/data/question-bank/certified-context-groups-v2.json");
+ const contentContexts=read("site/data/question-bank/certified-context-groups-content-v3.json");
  const remaining=read("site/data/question-bank/p12-g03s2mid-remaining51-public-v1.json");
  const approval=read("site/data/governance/p12-g03s2mid-remaining51-operator-public-approval-v1.json");
  const g03Final=read("site/data/question-bank/p12-g03s2final-46-public-v1.json");
@@ -52,7 +53,7 @@ test("P12 addition does not alter frozen 72 OX and 20 context group assets",asyn
  globalThis.fetch=async url=>({
   ok:true,
   json:async()=>structuredClone(url.includes("approved-historical-ox-v4")?old:
-   url.includes("certified-context-groups-v2")?contexts:url.includes("remaining51-public-v1")?remaining:url.includes("remaining51-operator-public-approval-v1")?approval:url.includes("p12-g03s2final-46-public-v1")?g03Final:url.includes("p12-g03s2final-46-operator-public-approval-v1")?finalApproval:supplement)
+   url.includes("certified-context-groups-content-v3")?contentContexts:url.includes("remaining51-public-v1")?remaining:url.includes("remaining51-operator-public-approval-v1")?approval:url.includes("p12-g03s2final-46-public-v1")?g03Final:url.includes("p12-g03s2final-46-operator-public-approval-v1")?finalApproval:supplement)
  });
  try{
   const all=await loadEmbeddedHistoricalBank(authority);

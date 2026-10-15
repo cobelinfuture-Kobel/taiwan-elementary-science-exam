@@ -122,7 +122,17 @@ try {
   assert.equal(await live.locator("#local-import").count(),0,"no local JSON upload control");
   assert.equal(await live.locator("#unit option").count(),4,"curriculum units must be present");
   assert.ok(await live.locator("#kp option").count()>0,"KP selection must be populated");
-  assert.equal(await live.locator(".paper:not([data-answer='true']) .question").count(),1,"one approved question at default setting");
+  // After the additional MC source pool, default shuffle is not a TF guarantee.
+  // Choose a certified TF-only KP before asserting that the answer is O or X.
+  await live.selectOption("#grade","4");
+  await live.selectOption("#semester","S1");
+  await live.selectOption("#unit","4-S1-U01");
+  await live.selectOption("#mode","single_kp");
+  await live.selectOption("#kp","sci_g04s1_01_11");
+  await live.fill("#count","1");
+  await live.locator("#generate").click();
+  assert.equal(await live.locator("#status").getAttribute("data-error"),"false","pinned TF-only KP source available");
+  assert.equal(await live.locator(".paper:not([data-answer='true']) .question").count(),1,"one approved source TF question");
   const firstQuestion=await live.locator(".paper:not([data-answer='true']) .question").first().innerText();
   assert.match(firstQuestion,/^（　）1\. /,"O/X response box must precede question number");
   assert.doesNotMatch(firstQuestion,/（　）正確|（　）錯誤/);

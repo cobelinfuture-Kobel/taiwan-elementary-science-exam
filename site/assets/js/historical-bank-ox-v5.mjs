@@ -49,8 +49,8 @@ export function validateAndConvertEmbeddedBank(payload,authority){
  if(blocks.length!==40||payload.blocks.length!==40||payload.expected_count!==40)throw Error("核准題數與封存版本不一致");
  return {admission:"EMBEDDED_CERTIFIED_HISTORICAL",blocks};
 }
-export const CONTEXT_BANK_PATH="../data/question-bank/certified-context-groups-v2.json";
-export const CONTEXT_BANK_SCHEMA="SCIENCE_EXAM_S3_P09_CONTEXT_GROUPS_V2";
+export const CONTEXT_BANK_PATH="../data/question-bank/certified-context-groups-content-v3.json";
+export const CONTEXT_BANK_SCHEMA="SCIENCE_EXAM_S3_P09_CONTEXT_GROUPS_CONTENT_ONLY_V3";
 export function validateAndConvertContextGroups(value,authority){
  if(value?.schema_version!==CONTEXT_BANK_SCHEMA||value.expected_group_count!==20
  ||value.expected_answer_slots!==76||value.source_visual_crops_published!==false

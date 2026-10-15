@@ -1,0 +1,958 @@
+{
+  "schema_version": "P12_B04_B05_41_FORMAL_SOURCE_SCIENCE_KP_ACCEPTANCE_V1",
+  "batch": "B05",
+  "source_reviewed": 50,
+  "source_admitted": 41,
+  "source_held": 9,
+  "original_teacher_key_authenticated": false,
+  "review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+  "source_pdfs": [
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "path": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "drive_id": "1dRJk3FJ_Ua_FFl8tla30iMbMzgcQfbGz",
+      "visual_pages": [
+        1,
+        2
+      ],
+      "source_exam_rights": "REGULATED_EXAM_QUESTION_ART9"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_008",
+      "path": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "drive_id": "1pwlIRa40MeeVMlAYAyhufNchGEqbL6oT",
+      "visual_pages": [
+        1,
+        2,
+        3
+      ],
+      "source_exam_rights": "REGULATED_EXAM_QUESTION_ART9"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_009",
+      "path": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "drive_id": "1-Mi19WvmR6dlDtmcWhVatnEjj35wOVWZ",
+      "visual_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_exam_rights": "REGULATED_EXAM_QUESTION_ART9"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "path": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json",
+      "sha256": "d476e8bae13884d75dc1c386aedf716630f70e3c6b579d840c5c308a629676d6",
+      "drive_id": "1Tf8dvnMnaw1DJoZQQXTptRfcjt2Krbor",
+      "visual_pages": [
+        1,
+        2
+      ],
+      "source_exam_rights": "REGULATED_EXAM_QUESTION_ART9"
+    }
+  ],
+  "kp_correction": {
+    "ordinal": 29,
+    "from": "sci_g04s1_03_06",
+    "to": "sci_g04s1_03_07",
+    "reason": "本題問鏡面造成光線方向改變，核心為反射而非影子。"
+  },
+  "duplicate_not_published": {
+    "ordinal": 33,
+    "source_id": "SCI_G04_S1_114_FINAL_008|S02|MC|007",
+    "existing_public_source": "SCI_G04_S1_114_FINAL_003|S02|MC|001"
+  },
+  "held_items": [
+    {
+      "ordinal": 1,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|014",
+      "flags": [
+        "SOUND_WARNING_QUESTION_MAPPED_TO_LIGHT_WARNING_KP"
+      ]
+    },
+    {
+      "ordinal": 3,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S02|MC|002",
+      "flags": [
+        "BICYCLE_BELL_LIGHT_REFLECTOR_MIXED_MODALITY_KP"
+      ]
+    },
+    {
+      "ordinal": 9,
+      "source_id": "SCI_G04_S1_114_FINAL_007|S02|MC|011",
+      "flags": [
+        "ASTRONAUT_SOUND_VACUUM_CONTEXT_UNSPECIFIED"
+      ]
+    },
+    {
+      "ordinal": 16,
+      "source_id": "SCI_G04_S1_114_FINAL_008|S01|TF|004",
+      "flags": [
+        "SHADOW_BEHIND_OBJECT_RELATIVE_TO_LIGHT_SOURCE_UNSTATED"
+      ]
+    },
+    {
+      "ordinal": 17,
+      "source_id": "SCI_G04_S1_114_FINAL_008|S01|TF|005",
+      "flags": [
+        "CONCERT_LIGHTS_WARNING_FUNCTION_NOT_UNIVERSAL"
+      ]
+    },
+    {
+      "ordinal": 18,
+      "source_id": "SCI_G04_S1_114_FINAL_008|S01|TF|006",
+      "flags": [
+        "SPACE_EXPLOSION_NO_MEDIUM_CONTEXT_UNSTATED"
+      ]
+    },
+    {
+      "ordinal": 23,
+      "source_id": "SCI_G04_S1_114_FINAL_008|S01|TF|012",
+      "flags": [
+        "SOURCE_EXACT_DUPLICATE_PREVIOUSLY_PUBLISHED_B04_TF"
+      ]
+    },
+    {
+      "ordinal": 33,
+      "source_id": "SCI_G04_S1_114_FINAL_008|S02|MC|007",
+      "flags": [
+        "EXACT_ALREADY_PUBLISHED_STEM"
+      ]
+    },
+    {
+      "ordinal": 46,
+      "source_id": "SCI_G04_S1_114_FINAL_009|S2|MC|007",
+      "flags": [
+        "KP_SERIES_PARALLEL_NOT_BRIGHTNESS"
+      ]
+    }
+  ],
+  "approved_items": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|001",
+      "b05_ordinal": 2,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        56.28,
+        781.67,
+        104.28,
+        793.67
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "③",
+      "science_reason": "書本靜置桌上通常不會有明顯產生聲音的振動，其餘為發聲源。",
+      "canonical_kp_id": "sci_g04s1_03_01",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|003",
+      "b05_ordinal": 4,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        56.28,
+        901.07,
+        104.28,
+        913.07
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "④",
+      "science_reason": "一般家用電視主要使用市電，另三項有常見電池供電版本。",
+      "canonical_kp_id": "sci_g04s1_04_12",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|004",
+      "b05_ordinal": 5,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        375.24,
+        166.79,
+        423.24,
+        178.79
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "①",
+      "science_reason": "拉得較緊、撥動幅度增大，通常能使橡皮筋振動更明顯而較響亮。",
+      "canonical_kp_id": "sci_g04s1_03_01",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|005",
+      "b05_ordinal": 6,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        375.24,
+        238.79,
+        423.24,
+        250.79
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "④",
+      "science_reason": "加入不良導體會阻斷電路或顯著降低電流。",
+      "canonical_kp_id": "sci_g04s1_04_05",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|006",
+      "b05_ordinal": 7,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        375.24,
+        310.79,
+        423.24,
+        322.79
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "②",
+      "science_reason": "鋁箔紙可反射外界光線，但通常不是自行發光的光源。",
+      "canonical_kp_id": "sci_g04s1_03_05",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|008",
+      "b05_ordinal": 8,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        375.24,
+        490.79,
+        423.24,
+        502.79
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "④",
+      "science_reason": "樹葉間透出的陽光是光路被遮擋或直接透過空隙，非刻意利用反射。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|013",
+      "b05_ordinal": 10,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        369.6,
+        868.79,
+        417.6,
+        880.79
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "④",
+      "science_reason": "燈泡損壞、電池耗盡或正負極裝反都可能使手電筒無法正常發亮。",
+      "canonical_kp_id": "sci_g04s1_04_01",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|014",
+      "b05_ordinal": 11,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "pdf_page": 2,
+      "pdf_answer_bbox": [
+        50.64,
+        75.71,
+        98.64,
+        87.71
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "①",
+      "science_reason": "白熾燈泡主要由燈絲在通電受熱時發光。",
+      "canonical_kp_id": "sci_g04s1_04_03",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|018",
+      "b05_ordinal": 12,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "pdf_page": 2,
+      "pdf_answer_bbox": [
+        50.64,
+        345.71,
+        98.64,
+        357.71
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "③",
+      "science_reason": "教室電燈通常不需小馬達來提供主要照明功能。",
+      "canonical_kp_id": "sci_g04s1_04_10",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|019",
+      "b05_ordinal": 13,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "pdf_page": 2,
+      "pdf_answer_bbox": [
+        50.64,
+        399.71,
+        98.64,
+        411.71
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "②",
+      "science_reason": "若一顆燈泡斷開後其他也不亮，通常符合燈泡串聯同一路徑的特性。",
+      "canonical_kp_id": "sci_g04s1_04_08",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|001",
+      "b05_ordinal": 14,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        53.88,
+        122.87,
+        98.18,
+        138.41
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "O",
+      "science_reason": "聲音源自物體振動，例如聲帶或球與地板的碰撞。",
+      "canonical_kp_id": "sci_g04s1_03_01",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|002",
+      "b05_ordinal": 15,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        53.88,
+        177.47,
+        98.18,
+        193.01
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "O",
+      "science_reason": "玻璃帷幕的平整表面可以反射入射光，產生近似鏡面的影像。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|007",
+      "b05_ordinal": 19,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        53.88,
+        477.02,
+        98.18,
+        492.56
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "X",
+      "science_reason": "聲音通過不同介質時傳播速度、衰減及聽感可不同。",
+      "canonical_kp_id": "sci_g04s1_03_02",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|008",
+      "b05_ordinal": 20,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        53.88,
+        531.74,
+        98.18,
+        547.28
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "X",
+      "science_reason": "反轉簡單直流小馬達電源極性一般可改變旋轉方向。",
+      "canonical_kp_id": "sci_g04s1_04_10",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|010",
+      "b05_ordinal": 21,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        53.88,
+        651.52,
+        98.18,
+        667.06
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "O",
+      "science_reason": "燈泡並聯的獨立支路中一顆損壞，其他支路可維持亮燈。",
+      "canonical_kp_id": "sci_g04s1_04_09",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|011",
+      "b05_ordinal": 22,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        53.88,
+        733.48,
+        98.18,
+        749.02
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "X",
+      "science_reason": "延長線有額定載流與功率限制，不可無限制接入電器。",
+      "canonical_kp_id": "sci_g04s1_04_12",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|013",
+      "b05_ordinal": 24,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        53.88,
+        842.8,
+        98.18,
+        858.34
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "X",
+      "science_reason": "同一電源下增加燈泡串聯數量，單顆燈泡通常更暗。",
+      "canonical_kp_id": "sci_g04s1_04_08",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|014",
+      "b05_ordinal": 25,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        53.88,
+        897.43,
+        98.18,
+        912.97
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "O",
+      "science_reason": "金屬迴紋針和鋁箔紙可導電，合理製成可開合接點。",
+      "canonical_kp_id": "sci_g04s1_04_05",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|015",
+      "b05_ordinal": 26,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        53.88,
+        952.03,
+        98.18,
+        967.57
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "X",
+      "science_reason": "隨意拆開電器可能造成觸電、短路或損壞，應遵循安全規範。",
+      "canonical_kp_id": "sci_g04s1_04_12",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S02|MC|001",
+      "b05_ordinal": 27,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        52.32,
+        1068.07,
+        96.53,
+        1083.61
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "②",
+      "science_reason": "水中舞者可經水接收到音樂引起的聲波振動。",
+      "canonical_kp_id": "sci_g04s1_03_03",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S02|MC|002",
+      "b05_ordinal": 28,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        455.59,
+        104.87,
+        499.87,
+        120.41
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "①",
+      "science_reason": "用力大小影響紙盒振動幅度，通常也影響聲音響度。",
+      "canonical_kp_id": "sci_g04s1_03_01",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S02|MC|003",
+      "b05_ordinal": 29,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        455.59,
+        296.15,
+        499.8,
+        311.69
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "③",
+      "science_reason": "光照鏡面後改變方向屬反射，不僅是光直線傳播。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S02|MC|004",
+      "b05_ordinal": 30,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        456.67,
+        494.54,
+        500.88,
+        510.08
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "④",
+      "science_reason": "水舞光影秀同時運用聲音與光影效果，較符合煙火的聲光應用。",
+      "canonical_kp_id": "sci_g04s1_03_10",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S02|MC|005",
+      "b05_ordinal": 31,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        456.67,
+        690.16,
+        500.88,
+        705.7
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "①",
+      "science_reason": "筆記本不如平靜水面或平滑金屬表面容易形成清楚反射影像。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S02|MC|006",
+      "b05_ordinal": 32,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        456.67,
+        813.4,
+        500.88,
+        828.94
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "④",
+      "science_reason": "兩面鏡子間物體出現多重影像，主要因多次光線反射。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S02|MC|010",
+      "b05_ordinal": 34,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 2,
+      "pdf_answer_bbox": [
+        52.32,
+        225.47,
+        96.53,
+        241.01
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "①",
+      "science_reason": "沒有電池座本身不一定妨礙接線形成通路，相比其餘三項較不可能造成燈不亮。",
+      "canonical_kp_id": "sci_g04s1_04_04",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S02|MC|011",
+      "b05_ordinal": 35,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 2,
+      "pdf_answer_bbox": [
+        52.32,
+        421.1,
+        96.53,
+        436.64
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "④",
+      "science_reason": "拔除一燈泡後另一燈仍亮，可推知至少部分燈泡位於並聯支路。",
+      "canonical_kp_id": "sci_g04s1_04_09",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S02|MC|013",
+      "b05_ordinal": 36,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 2,
+      "pdf_answer_bbox": [
+        52.32,
+        747.16,
+        96.53,
+        762.7
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "②",
+      "science_reason": "電動玩具車通常包含驅動馬達，其餘選項通常不依馬達運作。",
+      "canonical_kp_id": "sci_g04s1_04_10",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S02|MC|015",
+      "b05_ordinal": 37,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "pdf_page": 2,
+      "pdf_answer_bbox": [
+        52.32,
+        1007.95,
+        96.53,
+        1023.49
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "①",
+      "science_reason": "檢查電線外部塑膠絕緣層是否破損，屬正確用電安全措施。",
+      "canonical_kp_id": "sci_g04s1_04_12",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S1|TF|001",
+      "b05_ordinal": 38,
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        60.12,
+        178.47,
+        108.08,
+        194.43
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "O",
+      "science_reason": "聲音可經固體、液體、氣體等介質傳播。",
+      "canonical_kp_id": "sci_g04s1_03_03",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S1|TF|002",
+      "b05_ordinal": 39,
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        59.04,
+        250.47,
+        107,
+        266.43
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "X",
+      "science_reason": "振動更大時通常較響亮，不是越小聲。",
+      "canonical_kp_id": "sci_g04s1_03_01",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S1|TF|003",
+      "b05_ordinal": 40,
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        59.16,
+        322.5,
+        107.12,
+        338.46
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "O",
+      "science_reason": "燃燒的燭火、通電燈泡與太陽皆可發出光，屬光源。",
+      "canonical_kp_id": "sci_g04s1_03_05",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S1|TF|004",
+      "b05_ordinal": 41,
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        59.16,
+        394.5,
+        107.12,
+        410.46
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "O",
+      "science_reason": "電池兩極分別接觸燈泡側面金屬與底部接點，可形成通路。",
+      "canonical_kp_id": "sci_g04s1_04_03",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S2|MC|001",
+      "b05_ordinal": 42,
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        59.28,
+        646.52,
+        107.24,
+        662.48
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "③",
+      "science_reason": "敲擊時物體振動，振動會使周圍介質形成聲波。",
+      "canonical_kp_id": "sci_g04s1_03_01",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S2|MC|002",
+      "b05_ordinal": 43,
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        59.16,
+        754.52,
+        107.12,
+        770.48
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "④",
+      "science_reason": "海豚通常使用聲音、回聲定位探測環境，不是主要靠尾巴探測。",
+      "canonical_kp_id": "sci_g04s1_03_01",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S2|MC|005",
+      "b05_ordinal": 44,
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        462.89,
+        106.47,
+        510.85,
+        122.43
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "①",
+      "science_reason": "兩面鏡子能多次反射物體的光線，形成多個影像。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S2|MC|006",
+      "b05_ordinal": 45,
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        463.73,
+        286.47,
+        511.69,
+        302.43
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "②",
+      "science_reason": "燈泡、電線、電池足以搭建基本發光回路。",
+      "canonical_kp_id": "sci_g04s1_04_04",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S2|MC|009",
+      "b05_ordinal": 47,
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        463.73,
+        682.52,
+        511.69,
+        698.48
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "②",
+      "science_reason": "長尾夾金屬部分導電，可用作簡易開關的可接觸部件。",
+      "canonical_kp_id": "sci_g04s1_04_05",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S2|MC|010",
+      "b05_ordinal": 48,
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        463.73,
+        790.55,
+        511.69,
+        806.51
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "④",
+      "science_reason": "將簡易直流風扇的小馬達兩端極性反接，通常能改變轉向。",
+      "canonical_kp_id": "sci_g04s1_04_10",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_010|S01|TF|001",
+      "b05_ordinal": 49,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json",
+      "pdf_sha256": "d476e8bae13884d75dc1c386aedf716630f70e3c6b579d840c5c308a629676d6",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        66.5,
+        96.37,
+        102.5,
+        108.37
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "O",
+      "science_reason": "太陽從東方升起，人物面向太陽時影子通常指向西方。",
+      "canonical_kp_id": "sci_g04s1_03_06",
+      "right_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_010|S01|TF|005",
+      "b05_ordinal": 50,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json",
+      "pdf_sha256": "d476e8bae13884d75dc1c386aedf716630f70e3c6b579d840c5c308a629676d6",
+      "pdf_page": 1,
+      "pdf_answer_bbox": [
+        66.5,
+        275.92,
+        102.5,
+        287.92
+      ],
+      "source_text_exact": true,
+      "source_options_exact": true,
+      "no_source_image_dependency": true,
+      "science_answer": "X",
+      "science_reason": "小丑魚主要是海水魚，普通淡水生態池不適合作其棲息地。",
+      "canonical_kp_id": "sci_g04s1_02_02",
+      "right_text_only": true
+    }
+  ],
+  "operator_authorization": "USER_P12_B04_AUTO_BATCH50_GENERAL_RELEASE_WITH_EXCEPTION_HOLDS",
+  "release_requires": "FULL_SOURCE_BBOX_SCIENCE_KP_RIGHTS_DUPLICATE_CI_PAGES"
+}

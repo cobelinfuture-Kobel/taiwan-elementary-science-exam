@@ -1,6 +1,6 @@
 import test from "node:test";import assert from "node:assert/strict";import {readFileSync} from "node:fs";
-const st=JSON.parse(readFileSync("site/data/question-bank/s3-p09-status.json","utf8"));
-const db=JSON.parse(readFileSync("site/data/question-bank/certified-context-groups-v2.json","utf8"));
+const st=JSON.parse(readFileSync("site/data/question-bank/s3-p09-status-content-v2.json","utf8"));
+const db=JSON.parse(readFileSync("site/data/question-bank/certified-context-groups-content-v3.json","utf8"));
 test("P09 admission ledger matches original 20 source groups exactly",()=>{
  assert.equal(st.groups.length,20);assert.equal(new Set(st.groups.map(x=>x.group_id)).size,20);
  assert.deepEqual(new Set(st.groups.map(x=>x.group_id)),new Set(db.groups.map(x=>x.id)));

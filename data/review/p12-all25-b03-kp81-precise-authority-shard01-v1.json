@@ -1,0 +1,641 @@
+{
+  "schema_version": "P12_ALL25_B03_KP81_PRECISE_AUTHORITY_MAP_SHARD_V1",
+  "shard": 1,
+  "authority_ref": "site/data/authority/science-g03-g04-selector-v2.json",
+  "authority_g04s1_kp_count": 45,
+  "input_review_ref": "data/review/p12-all25-b02-human-triage-shard01-v1.json",
+  "review_count": 23,
+  "formal_kp_approvals": 0,
+  "review_rows": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_001|TF|S01|005",
+      "paper_id": "SCI_G04_S1_114_MID_001",
+      "original_source_ref": "data/source-archive/p12-art9-114-yongan-g04s1-mid20-original-questions-v1.json",
+      "original_full_stem": "如果家裡的魚已不想再養，可以直接將牠們放生到水域環境中。",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": null,
+      "strict_reviewer_candidate_kp_title": null,
+      "exact_boundary_status": "NO_EXACT_KP",
+      "source_grounded_reason": "放生外來或家養魚的生態管理，權威 U02_11 聚焦水域污染，不包含完整放生規範。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_001|TF|S01|010",
+      "paper_id": "SCI_G04_S1_114_MID_001",
+      "original_source_ref": "data/source-archive/p12-art9-114-yongan-g04s1-mid20-original-questions-v1.json",
+      "original_full_stem": "陸生植物的構造和水生植物可能不大一樣，導致陸生植物的根泡在水中後可能會爛掉。",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_02_01",
+      "strict_reviewer_candidate_kp_title": "陸域環境與水域環境",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "談陸生與水生植物適應差異，U02_01 僅涵蓋陸域與水域環境分類，並非植物根腐機制。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_001|MC|S02|005",
+      "paper_id": "SCI_G04_S1_114_MID_001",
+      "original_source_ref": "data/source-archive/p12-art9-114-yongan-g04s1-mid20-original-questions-v1.json",
+      "original_full_stem": "進行水域調查時，下列哪個做法不適當？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "不到水深的地方"
+        },
+        {
+          "label": "②",
+          "text": "將觀察過的生物放回原處"
+        },
+        {
+          "label": "③",
+          "text": "獨自前往偏僻的地點觀察"
+        },
+        {
+          "label": "④",
+          "text": "將觀察到的水域環境特徵記錄下來"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": null,
+      "strict_reviewer_candidate_kp_title": null,
+      "exact_boundary_status": "NO_EXACT_KP",
+      "source_grounded_reason": "調查水域的人身安全規範，現行 U02 沒有專屬野外調查安全 KP。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_001|TF|S01|001",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "original_full_stem": "使用雷射光來了解光的行進路徑時要小心，不可以對著同學的眼睛照射。",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": null,
+      "strict_reviewer_candidate_kp_title": null,
+      "exact_boundary_status": "NO_EXACT_KP",
+      "source_grounded_reason": "雷射照眼安全屬科學實驗安全，不等同 U03 光源或直線行進的機制。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_001|TF|S01|008",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "original_full_stem": "電池的大小、樣式有很多種，但功能都是提供電力。",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_01",
+      "strict_reviewer_candidate_kp_title": "電池正負極",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "電池提供電力為一般功能，U04_01 核心是電池正負極。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|009",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "original_full_stem": "以下哪一項不是發光二極體的優點？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "容易破碎"
+        },
+        {
+          "label": "②",
+          "text": "用電省"
+        },
+        {
+          "label": "③",
+          "text": "壽命長"
+        },
+        {
+          "label": "④",
+          "text": "體積小"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": null,
+      "strict_reviewer_candidate_kp_title": null,
+      "exact_boundary_status": "NO_EXACT_KP",
+      "source_grounded_reason": "LED 省電、壽命及體積非 U03 或 U04 已列正式 KP 對象。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|011",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "original_full_stem": "下列有關發光二極體的敘述，哪一項錯誤？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "長腳要與電池正極相接"
+        },
+        {
+          "label": "②",
+          "text": "短腳要與電池負極相接"
+        },
+        {
+          "label": "③",
+          "text": "發光二極體用過一次就要丟掉"
+        },
+        {
+          "label": "④",
+          "text": "發光二極體的英文縮寫為LED"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_01",
+      "strict_reviewer_candidate_kp_title": "電池正負極",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "LED 長短腳接線涉及 LED 極性，U04_01 僅明訂電池正負極。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|013",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "original_full_stem": "下列哪一種物品不需要用「電」來當作動力來源？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "烤箱"
+        },
+        {
+          "label": "②",
+          "text": "冰箱"
+        },
+        {
+          "label": "③",
+          "text": "剪刀"
+        },
+        {
+          "label": "④",
+          "text": "電鍋"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": null,
+      "strict_reviewer_candidate_kp_title": null,
+      "exact_boundary_status": "NO_EXACT_KP",
+      "source_grounded_reason": "剪刀不需用電的工具辨識不是正式 U04 的獨立學習指標。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_003|S01|TF|005",
+      "paper_id": "SCI_G04_S1_114_MID_003",
+      "original_source_ref": "data/source-archive/p12-art9-114-chongde-g04s1-mid16-original-questions-v1.json",
+      "original_full_stem": "切開所有植物的葉柄，都會發現許多明顯的空隙。",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_02_03",
+      "strict_reviewer_candidate_kp_title": "水生植物的四種生長型",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "植物葉柄中空普遍性屬不同植物構造差異，U02_03 聚焦水生植物四類生長型。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|001",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "original_full_stem": "拆開不同燈籠的燈罩，可以看到燈籠提把的電線都連接著燈泡，而且每個燈泡長得都一樣",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_03",
+      "strict_reviewer_candidate_kp_title": "燈泡的基本導電構造",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "燈籠內部燈泡與接線差異涉及裝置構造，U04_03 限燈泡基本導電構造。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|006",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "original_full_stem": "將尺的一端固定在桌面上，手指用不同大小的力撥動尺的另一端時，尺振動的大小都相同。",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_03_01",
+      "strict_reviewer_candidate_kp_title": "聲音由物體振動產生",
+      "exact_boundary_status": "DIRECT_KP_CANDIDATE",
+      "source_grounded_reason": "尺受撥動後振動幅度會因施力不同而變化，符合聲源振動相關 U03_01，仍需確認是否只測振幅而非發聲。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|002",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "original_full_stem": "小麗在元宵節時買了一個新的燈籠，裡面會發出各種顏色的光，燈罩還會旋轉，依據以上的敘述，這個燈籠裡面應該沒有下列哪一種構造？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "燈泡"
+        },
+        {
+          "label": "②",
+          "text": "喇叭"
+        },
+        {
+          "label": "③",
+          "text": "電池"
+        },
+        {
+          "label": "④",
+          "text": "電線"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": null,
+      "strict_reviewer_candidate_kp_title": null,
+      "exact_boundary_status": "SCIENCE_HOLD_NO_KP_ADMISSION",
+      "source_grounded_reason": "燈籠是否含喇叭本身無唯一答案，且裝置組成不在現有光源 KP 的明確邊界。",
+      "science_gate_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDERDETERMINED",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|004",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "original_full_stem": "手電筒中的電池放久沒用，可能會發生什麼事？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "變得更有電"
+        },
+        {
+          "label": "②",
+          "text": "流出電池液"
+        },
+        {
+          "label": "③",
+          "text": "電池爆炸"
+        },
+        {
+          "label": "④",
+          "text": "體積變小"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_12",
+      "strict_reviewer_candidate_kp_title": "市電與用電安全",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "電池漏液及長期放置是用電安全延伸，U04_12 主要是市電與用電安全。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|009",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "original_full_stem": "在連接一個燈泡和電池的通路中多連接幾個燈泡，燈泡的亮度會改變嗎？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "會"
+        },
+        {
+          "label": "②",
+          "text": "不會"
+        },
+        {
+          "label": "③",
+          "text": "要看是使用哪一種連接法才能判斷"
+        },
+        {
+          "label": "④",
+          "text": "亮度會先增加，再馬上熄滅"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_08",
+      "strict_reviewer_candidate_kp_title": "燈泡串聯對亮度的影響",
+      "exact_boundary_status": "MULTIPLE_KP_REVIEW",
+      "source_grounded_reason": "題目同時涉及燈泡串聯與並聯，候選 U04_08 和 U04_09；不可只指定其一。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|004",
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_source_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "original_full_stem": "使用雷射筆進行實驗時，可以讓雷射光照射到同學身體的任何部位。",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": null,
+      "strict_reviewer_candidate_kp_title": null,
+      "exact_boundary_status": "NO_EXACT_KP",
+      "source_grounded_reason": "雷射筆不照射人體的安全操作並無已定義的光學安全 KP。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|001",
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_source_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "original_full_stem": "下列何者是使用電池座的原因？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "增加電流強度"
+        },
+        {
+          "label": "②",
+          "text": "增加燈泡發光亮度"
+        },
+        {
+          "label": "③",
+          "text": "方便連接電線"
+        },
+        {
+          "label": "④",
+          "text": "幫助電池降低溫度"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_04",
+      "strict_reviewer_candidate_kp_title": "通路與斷路",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "電池座連接電線是通路實作輔具，但非通路與斷路的主概念。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|007",
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_source_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "original_full_stem": "電器長時間不用時，為何要將電池拿出來？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "減輕電器的重量"
+        },
+        {
+          "label": "②",
+          "text": "避免電池消失"
+        },
+        {
+          "label": "③",
+          "text": "避免電池內部的化學物質滲出破壞電器"
+        },
+        {
+          "label": "④",
+          "text": "避免吸引小蟲"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_12",
+      "strict_reviewer_candidate_kp_title": "市電與用電安全",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "久置電池漏液的維護安全與市電安全 KP 邊界不同。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_004|S02|MC|004",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "original_full_stem": "進行水域環境調查時，下列哪一種做法是不正確的？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "攜帶望遠鏡、撈網等觀察物品"
+        },
+        {
+          "label": "②",
+          "text": "單獨跑到水深的地方觀察"
+        },
+        {
+          "label": "③",
+          "text": "將水生生物放回原處"
+        },
+        {
+          "label": "④",
+          "text": "注意安全。"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": null,
+      "strict_reviewer_candidate_kp_title": null,
+      "exact_boundary_status": "NO_EXACT_KP",
+      "source_grounded_reason": "水域野外調查守則尚無指定 canonical KP。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_004|S02|MC|008",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "original_full_stem": "為了給魚一條回家的路，人類以生態工程建造「魚梯」，下列哪一項不正確？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "讓魚回到上游繁殖"
+        },
+        {
+          "label": "②",
+          "text": "為了讓環境與生態之間取得平衡"
+        },
+        {
+          "label": "③",
+          "text": "維護生物生存的權利"
+        },
+        {
+          "label": "④",
+          "text": "讓人類方便行走。"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_02_11",
+      "strict_reviewer_candidate_kp_title": "水域污染對生物的影響",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "魚梯維持魚類移動和繁殖屬河川棲地管理，U02_11 是水域污染影響。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_004|S02|MC|010",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "original_full_stem": "海邊的沙丘在不同時間的樣貌會不一樣，主要是什麼作用造成的？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "雨水和風"
+        },
+        {
+          "label": "②",
+          "text": "雨水和人類"
+        },
+        {
+          "label": "③",
+          "text": "雨水和小動物"
+        },
+        {
+          "label": "④",
+          "text": "人類和小動物。"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_01_05",
+      "strict_reviewer_candidate_kp_title": "流水搬運地表物質",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "海岸沙丘受風與雨水影響，U01_05 特指流水搬運，不能將風蝕等同流水。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S02|MC|001",
+      "paper_id": "SCI_G04_S1_114_MID_005",
+      "original_source_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "original_full_stem": "調查水域環境時，何者不需要攜帶？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "水桶"
+        },
+        {
+          "label": "②",
+          "text": "長條形磁鐵"
+        },
+        {
+          "label": "③",
+          "text": "撈網"
+        },
+        {
+          "label": "④",
+          "text": "望遠鏡"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": null,
+      "strict_reviewer_candidate_kp_title": null,
+      "exact_boundary_status": "NO_EXACT_KP",
+      "source_grounded_reason": "調查器材選擇不是 U02 現有十二個 KP 的特定知識點。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_005|S02|MC|002",
+      "paper_id": "SCI_G04_S1_114_MID_005",
+      "original_source_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "original_full_stem": "下列哪一項不是保護水域環境的行為？",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "避免將垃圾丟到水域環境裡"
+        },
+        {
+          "label": "②",
+          "text": "主動參與淨灘、淨溪等活動"
+        },
+        {
+          "label": "③",
+          "text": "捕捉或採摘水生生物"
+        },
+        {
+          "label": "④",
+          "text": "定期清理學校的生態池"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_02_11",
+      "strict_reviewer_candidate_kp_title": "水域污染對生物的影響",
+      "exact_boundary_status": "DIRECT_KP_CANDIDATE",
+      "source_grounded_reason": "垃圾、水域清理及採捕對水域環境的影響，與 U02_11 污染對生物的影響直接相關。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_006|S01|TF|011",
+      "paper_id": "SCI_G04_S1_114_MID_006",
+      "original_source_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_full_stem": "水生動物在水域環境中的適應力十分強大，所以可以隨意放生。",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_02_11",
+      "strict_reviewer_candidate_kp_title": "水域污染對生物的影響",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "任意放生是生態風險而不單純污染，需決定是否擴充權威範圍。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true
+    }
+  ],
+  "operator_review_required": true
+}

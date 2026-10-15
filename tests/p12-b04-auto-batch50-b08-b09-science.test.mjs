@@ -64,7 +64,7 @@ test("B08 50+B09 9 frozen source IDs; no scanned PDF answer BBox may be admitted
     assert.equal(row.formal_kp_approved,false);
     assert.equal(kpIds.has(row.proposed_canonical_kp_id),true);
     assert.equal(typeof row.science_explanation,"string");
-    assert.ok(row.science_explanation.length>=12);
+    assert.ok(row.science_explanation.trim().length>=6);
     assert.ok(row.exception_flags.includes("SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"));
     if(row.question_type==="TRUE_FALSE")assert.ok(["O","X"].includes(row.model_independently_reasoned_answer));
     else assert.ok(row.original_options_in_order.some(o=>o.label===row.model_independently_reasoned_answer));

@@ -77,6 +77,8 @@ for (const p of index.current_public_source_archive_files) {
   if (!standalone)flags.push('PARENT_FIGURE_CONTEXT_DEPENDENCY_REVIEW');
   if (!rights)flags.push('RIGHTS_EVIDENCE_REVIEW');
   if (!kpExists)flags.push('CANONICAL_KP_AUTHORITY_REVIEW');
+  if(q.question_type==='SINGLE_CHOICE' && new Set((q.options??[]).map(o=>o.label)).size!==(q.options??[]).length)
+   flags.push('PRINTED_DUPLICATE_CHOICE_LABEL_HOLD');
   if (duplicatePublished)flags.push('EXACT_STEM_ALREADY_IN_PUBLIC_BANK');
   if (same&&!duplicatePublished)flags.push('CROSS_SOURCE_SAME_STEM_REVIEW');
   // A model PASS and a KP proposal cannot supply an independently certified answer.
@@ -91,7 +93,7 @@ for (const p of index.current_public_source_archive_files) {
    original_pdf_page_bbox_recorded:bboxValid&&pageValid,
    exam_question_text_rights_evidence:!!rights,
    same_stem_prior_source:same??duplicatePublished?.source_slot_id??null,
-   review_state:flags.some(x=>/MISSING|NOT_CONFIRMED|PDF_PAGE|DEPENDENCY|RIGHTS|AUTHORITY|ALREADY|CROSS_SOURCE/.test(x))?
+   review_state:flags.some(x=>/MISSING|NOT_CONFIRMED|PDF_PAGE|DEPENDENCY|RIGHTS|AUTHORITY|ALREADY|CROSS_SOURCE|DUPLICATE_CHOICE/.test(x))?
      'SOURCE_OR_DUPLICATE_HOLD':'EXACT_SOURCE_READY_FOR_INDEPENDENT_SCIENCE_KP_REVIEW',
    release_allowed:false,exception_flags:flags
   };

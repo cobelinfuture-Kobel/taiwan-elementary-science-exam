@@ -1,0 +1,1697 @@
+{
+  "schema_version": "P12_B04_B01_FIRST50_MODEL_SCIENCE_REVIEW_V1",
+  "source_index": "data/source-archive/p12-art9-114-g04s1-public-original-source-corpus-current-v25.json",
+  "batch": "B01",
+  "source_positions_reviewed": 50,
+  "model_reasoned_without_immediate_quality_hold": 47,
+  "source_exceptions": 3,
+  "original_source_papers": [
+    "SCI_G04_S1_114_FINAL_001",
+    "SCI_G04_S1_114_FINAL_003",
+    "SCI_G04_S1_114_FINAL_004",
+    "SCI_G04_S1_114_MID_004"
+  ],
+  "pdf_text_layer_readback_done": "GOOGLE_DRIVE_4_PAPERS_2026_10_15",
+  "evidence_limitation": "Independent GPT6 model reasoning; not original school answer key or final learner bank admission",
+  "admission_requires": "ORIGINAL_SOURCE_AND_PDF_VISUAL+UNIQUE_SCIENCE+KP_MEANING+RIGHTS+DUPLICATE+OPERATOR_BULK_POLICY+PR_CI_PAGES",
+  "records": [
+    {
+      "batch_item_ordinal": 1,
+      "source_id": "SCI_G04_S1_114_FINAL_001|TF|S01|002",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-yongan-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "original_full_stem": "本身能發光的物體稱為「光源」，例如：發亮的燈泡、點燃的蠟燭等。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.5,
+        173.3,
+        66.5,
+        185.3
+      ],
+      "model_proposed_answer": "O",
+      "independent_model_science_reasoning": "能自行發出可見光的物體是光源；發亮的燈泡與燃燒的蠟燭符合。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_03_05",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 2,
+      "source_id": "SCI_G04_S1_114_FINAL_001|TF|S01|003",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-yongan-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "original_full_stem": "為了安全，有些道路的兩旁會裝設反光板，這是光反射的應用。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.5,
+        211.2,
+        66.5,
+        223.2
+      ],
+      "model_proposed_answer": "O",
+      "independent_model_science_reasoning": "道路反光板將車燈的光反射給駕駛者以提高辨識。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_03_08",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 3,
+      "source_id": "SCI_G04_S1_114_FINAL_001|TF|S01|006",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-yongan-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "original_full_stem": "乾電池兩端的標示不同，凸的一端是正極，標示為「＋」。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.5,
+        287.3,
+        66.5,
+        299.3
+      ],
+      "model_proposed_answer": "O",
+      "independent_model_science_reasoning": "一般圓柱乾電池凸起端是正極，標示＋。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_01",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 4,
+      "source_id": "SCI_G04_S1_114_FINAL_001|TF|S01|007",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-yongan-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "original_full_stem": "在電池座中，有金屬彈簧的那端通常要連接電池的正極。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.5,
+        325.2,
+        66.5,
+        337.2
+      ],
+      "model_proposed_answer": "X",
+      "independent_model_science_reasoning": "常見電池座彈簧端通常接觸電池負極（平坦端），不是正極。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_01",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 5,
+      "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|001",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-yongan-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "original_full_stem": "停電的時候，準備哪個東西對在黑暗中看見物體沒有幫助？",
+      "original_options_in_order": [
+        "①蠟燭",
+        "②手電筒",
+        "③醫藥箱",
+        "④緊急照明燈"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.5,
+        401.3,
+        66.5,
+        413.3
+      ],
+      "model_proposed_answer": "③",
+      "independent_model_science_reasoning": "醫藥箱本身不提供照明，其他三項能發出光線。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_03_04",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 6,
+      "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|002",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-yongan-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "original_full_stem": "相傳唐代著名的詩人李白是因為想要撈水中的月亮而溺水而死，但是月亮不可能在水中。請問李白看見的是什麼？",
+      "original_options_in_order": [
+        "①水中的大石頭",
+        "②水面反射月亮的倒影",
+        "③掉入水中的盤子",
+        "④池塘中的睡蓮"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.5,
+        458.3,
+        66.5,
+        470.3
+      ],
+      "model_proposed_answer": "②",
+      "independent_model_science_reasoning": "水面能反射月光，眼睛看到的是月亮在水中的反射影像。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 7,
+      "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|007",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-yongan-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "original_full_stem": "當電路中的燈泡不亮時，可能是出了什麼問題？",
+      "original_options_in_order": [
+        "①燈泡故障",
+        "②電線損毀",
+        "③電池沒電",
+        "④以上都有可能"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.5,
+        819.3,
+        66.5,
+        831.3
+      ],
+      "model_proposed_answer": "④",
+      "independent_model_science_reasoning": "燈泡損壞、導線斷路或電池耗盡，都可能使完整電路中的燈泡不亮。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_04",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 8,
+      "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|008",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-yongan-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "original_full_stem": "關於電線、乾電池、燈泡連接成通路的方式，何者錯誤？",
+      "original_options_in_order": [
+        "①電線接在乾電池的負極",
+        "②電線接在燈泡的玻璃罩",
+        "③電線接在燈泡的連接點",
+        "④電線接在乾電池的正極"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.5,
+        876.3,
+        66.5,
+        888.3
+      ],
+      "model_proposed_answer": "②",
+      "independent_model_science_reasoning": "燈泡的玻璃罩不是接通電路的金屬接點，不能取代接點接線。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_03",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 9,
+      "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|010",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-yongan-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "original_full_stem": "教室裡的日光燈管壞了一個，其他的還是會發光，表示日光燈管是利用下列哪一種方法連接的？",
+      "original_options_in_order": [
+        "①並聯",
+        "②串聯",
+        "③通聯",
+        "④亂聯"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.5,
+        1009.3,
+        66.5,
+        1021.3
+      ],
+      "model_proposed_answer": "①",
+      "independent_model_science_reasoning": "教室照明通常採並聯，一盞故障不會讓其他正常燈一起熄滅。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_09",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 10,
+      "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|012",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-yongan-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "original_full_stem": "下列哪一項物品通常使用電力公司輸送的電力來運作？",
+      "original_options_in_order": [
+        "①行動電話",
+        "②手錶",
+        "③冷氣機",
+        "④手電筒"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        431.6,
+        116.3,
+        455.6,
+        128.3
+      ],
+      "model_proposed_answer": "③",
+      "independent_model_science_reasoning": "常見冷氣機由建築物的市電供電，手錶、手電筒與手機一般有電池。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_12",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 11,
+      "source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|014",
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-yongan-g04s1-final22-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "original_full_stem": "下列哪些設計不是為了避免我們觸電？",
+      "original_options_in_order": [
+        "①插座保護蓋",
+        "②電線以塑膠包覆",
+        "③許多電器的開關按鈕使用塑膠材質製成",
+        "④有花邊的開關"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        431.6,
+        211.2,
+        455.6,
+        223.2
+      ],
+      "model_proposed_answer": "④",
+      "independent_model_science_reasoning": "開關上的花邊是造型裝飾，其他項目主要用來降低導電接觸風險。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_12",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 12,
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|002",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "original_full_stem": "大部分的電器用品，例如電腦、電視或電風扇等，啟動的開關主要是控制電力的強弱。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        74.3,
+        214.97,
+        116.36,
+        229.01
+      ],
+      "model_proposed_answer": "X",
+      "independent_model_science_reasoning": "電器開關主要控制電路是否導通，不是單純控制電流強弱。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_04",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 13,
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|003",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "original_full_stem": "製作簡易開關時，我們可以使用橡皮擦、橡皮筋或手帕來替代迴紋針，因為它們都能導電。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        74.3,
+        278.57,
+        116.36,
+        292.61
+      ],
+      "model_proposed_answer": "X",
+      "independent_model_science_reasoning": "橡皮擦、橡皮筋與手帕通常是絕緣體，不能替代金屬迴紋針作導電橋接。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 14,
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|004",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "original_full_stem": "連接一個電池時，如果串聯越多燈泡，燈泡就會越亮。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        74.3,
+        342.2,
+        116.72,
+        356.24
+      ],
+      "model_proposed_answer": "X",
+      "independent_model_science_reasoning": "相同電池串聯更多相同燈泡時，每顆分得的電壓通常降低、亮度變暗。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_08",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 15,
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|005",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "original_full_stem": "在電路中將兩個電池串聯時，燈泡亮度會和原本只用一個電池的電路相同。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        74.3,
+        387.68,
+        116.36,
+        401.72
+      ],
+      "model_proposed_answer": "X",
+      "independent_model_science_reasoning": "在其餘條件相同的情況下兩顆電池串聯提高總電壓，燈泡亮度通常不同。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_06",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 16,
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|007",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "original_full_stem": "「皮影戲」利用燈光、布幕投射出戲偶的影子來表演，是應用了光直線行進的特性。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        74.3,
+        496.64,
+        116.36,
+        510.68
+      ],
+      "model_proposed_answer": "O",
+      "independent_model_science_reasoning": "皮影戲藉光沿直線傳播，戲偶擋光後在布幕上形成影子。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 17,
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|008",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "original_full_stem": "生活中利用光可以達到裝飾或娛樂等目的，但無法發揮警示或指示的效果。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        74.3,
+        560.38,
+        116.36,
+        574.42
+      ],
+      "model_proposed_answer": "X",
+      "independent_model_science_reasoning": "光也廣泛用於警示燈、交通號誌和方向指示。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 18,
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|009",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "original_full_stem": "為了增加導電性，大部分電器的外殼都是用良導體製成的。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        74.3,
+        605.74,
+        116.36,
+        619.78
+      ],
+      "model_proposed_answer": "X",
+      "independent_model_science_reasoning": "多數家用電器外殼需要有適當絕緣保護，不能一概用良導體。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_02",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 19,
+      "source_id": "SCI_G04_S1_114_FINAL_003|S01|TF|010",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "original_full_stem": "不良導體在電路中除了裝飾美觀以外，沒有其他的用途。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        81.26,
+        651.22,
+        124.4,
+        665.26
+      ],
+      "model_proposed_answer": "X",
+      "independent_model_science_reasoning": "不良導體可用於絕緣、防止漏電觸電，不只有裝飾作用。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_02",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 20,
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|001",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "original_full_stem": "在下列哪一個地方比較無法看見物體的影子？",
+      "original_options_in_order": [
+        "①全黑的儲藏室",
+        "②燈光明亮的圖書室",
+        "③照到陽光的陽臺",
+        "④白天的花圃裡"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        74.3,
+        741.58,
+        116.36,
+        755.62
+      ],
+      "model_proposed_answer": "①",
+      "independent_model_science_reasoning": "完全無可見光照明的儲藏室，普通眼睛較難看見由光形成的影子。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 21,
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|005",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "original_full_stem": "下列關於聲音的敘述，哪一項不正確？",
+      "original_options_in_order": [
+        "①生活中可以聽到許多聲音",
+        "②液體無法傳播聲音",
+        "③聲音有大聲、有小聲",
+        "④物體振動會產生聲音"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        413.23,
+        428.72,
+        455.29,
+        442.76
+      ],
+      "model_proposed_answer": "②",
+      "independent_model_science_reasoning": "聲音可在水等液體中傳播，②的絕對否定錯誤。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 22,
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|006",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "original_full_stem": "水中的舞者可以聽見水池邊喇叭撥放的音樂，原因是什麼？",
+      "original_options_in_order": [
+        "①音樂從空氣透過水傳播",
+        "②音樂從水透過空氣傳播",
+        "③音樂直接透過水傳播",
+        "④水無法傳播聲音，水中舞者無法聽見水池邊音樂"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        413.23,
+        510.56,
+        455.29,
+        524.6
+      ],
+      "model_proposed_answer": "①",
+      "independent_model_science_reasoning": "池邊喇叭聲先在空氣傳遞，再通過水面傳入水中。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 23,
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|007",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "original_full_stem": "下列日常生活現象中，哪一項不是光的直線行進形成的？",
+      "original_options_in_order": [
+        "①跨年晚會上的雷射光",
+        "②玩手影遊戲",
+        "③彩虹的形成",
+        "④立竿見影"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        413.23,
+        610.66,
+        455.29,
+        624.7
+      ],
+      "model_proposed_answer": "③",
+      "independent_model_science_reasoning": "彩虹主要涉及光在水滴中的折射、內部反射及色散，不是單由直線行進形成。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 24,
+      "source_id": "SCI_G04_S1_114_FINAL_003|S02|MC|010",
+      "paper_id": "SCI_G04_S1_114_FINAL_003",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "original_full_stem": "下列有關電池並聯的敘述，哪一項是不正確的？",
+      "original_options_in_order": [
+        "①由兩個電池的正極連接負極、負極連接正極",
+        "②由兩個電池的正極連接正極、負極連接負極",
+        "③電池並聯時，電路上的燈泡亮度會與只有一個電池時相等",
+        "④電池並聯時，電力可以持續較久"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1,
+        2
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        420.19,
+        919.93,
+        462.25,
+        933.97
+      ],
+      "model_proposed_answer": "①",
+      "independent_model_science_reasoning": "電池並聯應是正極接正極、負極接負極；正接負再負接正不是並聯方式。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_07",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 25,
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|001",
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-chongde-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "original_full_stem": "拔插頭時，不可以只拉電線的部分，以免電線內部的銅線斷裂。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        35.4,
+        114.13,
+        67.36,
+        127.41
+      ],
+      "model_proposed_answer": "O",
+      "independent_model_science_reasoning": "拔插頭只拉導線容易拉鬆導體或接點，應握住插頭本體拔除。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_12",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 26,
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|002",
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-chongde-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "original_full_stem": "小峻實驗了許多物品，發現除了鏡子以外的東西都不能反射光。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        35.4,
+        145.09,
+        67.36,
+        158.37
+      ],
+      "model_proposed_answer": "X",
+      "independent_model_science_reasoning": "除鏡子外，許多材質的表面也會反射光線。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 27,
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|003",
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-chongde-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "original_full_stem": "形成通路的電路中，電線不小心被剪斷了，湘湘拿了鐵尺連接剪斷的電線，燈泡就會再發光。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        35.4,
+        176.17,
+        67.36,
+        189.45
+      ],
+      "model_proposed_answer": "O",
+      "independent_model_science_reasoning": "鐵尺是金屬導體；若接觸斷線兩端可重新形成通路。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_05",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 28,
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|005",
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-chongde-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "original_full_stem": "碳鋅電池屬於電池耗盡後就無法再使用的一次性電池，使用完後要回收。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        35.4,
+        253.57,
+        67.36,
+        266.85
+      ],
+      "model_proposed_answer": "O",
+      "independent_model_science_reasoning": "一般碳鋅乾電池是一次電池，使用後應依規定回收。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_11",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 29,
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|007",
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-chongde-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "original_full_stem": "在電路是通路的情況下，看到一顆電池的負極與另一顆電池的正極連接在一起，再接到燈泡上，這種接法稱為「電池串聯」。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        35.4,
+        315.61,
+        67.36,
+        328.89
+      ],
+      "model_proposed_answer": "O",
+      "independent_model_science_reasoning": "兩顆電池以其中一顆的負極連到另一顆正極，是常見串聯連接。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_06",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 30,
+      "source_id": "SCI_G04_S1_114_FINAL_004|S01|TF|008",
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-chongde-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "original_full_stem": "原本只有一個燈泡及一個電池的通路，再多串聯一個燈泡，則電路中每個燈泡的亮度就會愈亮。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        35.4,
+        362.2,
+        67.36,
+        375.48
+      ],
+      "model_proposed_answer": "X",
+      "independent_model_science_reasoning": "相同電池上再串聯一個燈泡，每顆亮度通常減少，不會更亮。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_08",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 31,
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|004",
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-chongde-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "original_full_stem": "將一條光束射向鏡子，光束會有什麼變化？",
+      "original_options_in_order": [
+        "①發生反射",
+        "②沒有變化",
+        "③顏色改變",
+        "④變得更亮"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        35.4,
+        680.1,
+        67.36,
+        693.38
+      ],
+      "model_proposed_answer": "①",
+      "independent_model_science_reasoning": "鏡面反射會使入射光束改變行進方向。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 32,
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|006",
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-chongde-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "original_full_stem": "教室裡的日光燈管壞了一個，其他的還是會發光，表示日光燈管是利用下列哪一種方法連接的？",
+      "original_options_in_order": [
+        "①並聯",
+        "②串聯",
+        "③通聯",
+        "④亂聯"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        35.4,
+        773.58,
+        67.36,
+        786.86
+      ],
+      "model_proposed_answer": "①",
+      "independent_model_science_reasoning": "題幹及選項與另一份學校原題相同；科學答案為並聯，但不重複入庫。",
+      "source_semantic_quality": "EXCEPTION_REVIEW",
+      "proposed_canonical_kp_id": "sci_g04s1_04_09",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": true,
+      "holds": [
+        "DUPLICATE_EXACT_STEM_ACROSS_SCHOOLS"
+      ]
+    },
+    {
+      "batch_item_ordinal": 33,
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|008",
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-chongde-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "original_full_stem": "將兩個燈泡串聯在通路上，如果其中一個燈泡是壞的，另一個燈泡會亮嗎？",
+      "original_options_in_order": [
+        "①會",
+        "②不會",
+        "③有時亮有時不亮",
+        "④會亮，但亮度較低"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        35.4,
+        904.17,
+        67.36,
+        917.45
+      ],
+      "model_proposed_answer": "②",
+      "independent_model_science_reasoning": "串聯燈泡共用單一路徑，一顆燈泡斷路時另一顆也無法形成通路。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_08",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 34,
+      "source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|011",
+      "paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-chongde-g04s1-final19-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "original_full_stem": "下列哪一項物品的電力來源不是電力公司？",
+      "original_options_in_order": [
+        "①冰箱",
+        "②遙控器",
+        "③電視機",
+        "④微波爐"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        371.71,
+        283.69,
+        403.67,
+        296.97
+      ],
+      "model_proposed_answer": "②",
+      "independent_model_science_reasoning": "遙控器通常使用乾電池，而冰箱、電視與微波爐一般使用市電。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_04_12",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 35,
+      "source_id": "SCI_G04_S1_114_MID_004|S01|TF|001",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "地表上除了生物之外，還有非生物，例如: 空氣、水、岩石。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.24,
+        104.69,
+        81.2,
+        118.73
+      ],
+      "model_proposed_answer": "O",
+      "independent_model_science_reasoning": "地表環境除了生物，確實也包含空氣、水、岩石等非生物因子。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_01_01",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 36,
+      "source_id": "SCI_G04_S1_114_MID_004|S01|TF|002",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "如果改變生物原本的生長環境,所有的生物都可以馬上調適,越長越好。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        40.8,
+        144.53,
+        79.64,
+        158.57
+      ],
+      "model_proposed_answer": "X",
+      "independent_model_science_reasoning": "生物改變棲地後不保證立即適應；『所有、馬上、越長越好』過度絕對。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_01_02",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 37,
+      "source_id": "SCI_G04_S1_114_MID_004|S01|TF|003",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "流水作用實驗，從土推上方澆水，流水會把地表物質搬運到其他地方堆積，顆粒越小的土壤會被搬得越遠。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        40.8,
+        184.37,
+        79.64,
+        198.41
+      ],
+      "model_proposed_answer": "O",
+      "independent_model_science_reasoning": "流水有侵蝕、搬運與堆積作用；同一條件下較細顆粒通常較易被搬運得遠。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_01_05",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 38,
+      "source_id": "SCI_G04_S1_114_MID_004|S01|TF|004",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "臺灣位於菲律賓海板塊和歐亞大陸板塊的交界處，當兩個板塊互相擠壓時，會造成地層斷裂或移動而產生震動，這就是臺灣地震頻繁的主要原因。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        40.8,
+        244.13,
+        79.64,
+        258.17
+      ],
+      "model_proposed_answer": "O",
+      "independent_model_science_reasoning": "臺灣位於板塊交界附近，板塊運動使地層受力斷裂滑動，導致頻繁地震。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_01_08",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 39,
+      "source_id": "SCI_G04_S1_114_MID_004|S01|TF|005",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "堅硬的岩石不僅可以用來蓋房子，也能作為鋪設步道的材料。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        40.8,
+        323.84,
+        79.64,
+        337.88
+      ],
+      "model_proposed_answer": "O",
+      "independent_model_science_reasoning": "堅硬岩石可以作為建築或道路步道鋪設的材料。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_01_04",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 40,
+      "source_id": "SCI_G04_S1_114_MID_004|S01|TF|006",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "布袋蓮葉柄具有儲存空氣的構造，因此可以漂浮在水面上，以適應陸域環境。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        40.8,
+        361.88,
+        79.64,
+        375.92
+      ],
+      "model_proposed_answer": "X",
+      "independent_model_science_reasoning": "布袋蓮葉柄含氣有助漂浮，但那是適應水域環境，不是陸域環境。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 41,
+      "source_id": "SCI_G04_S1_114_MID_004|S01|TF|007",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "海洋中色彩鮮豔的小丑魚「尼莫」可以飼養在學校的生態池中。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        40.8,
+        400.04,
+        79.64,
+        414.08
+      ],
+      "model_proposed_answer": "X",
+      "independent_model_science_reasoning": "小丑魚通常生活在鹹水海域，普通學校淡水生態池不適合直接飼養。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 42,
+      "source_id": "SCI_G04_S1_114_MID_004|S01|TF|008",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "森林中，常可見到玉山圓柏、玉山箭竹等植物。",
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        37.8,
+        439.88,
+        80.48,
+        453.92
+      ],
+      "model_proposed_answer": null,
+      "independent_model_science_reasoning": "『森林中常可見』沒有界定海拔與棲地類型；玉山圓柏及玉山箭竹主要分布於高海拔地區，應保留語意情境核對。",
+      "source_semantic_quality": "EXCEPTION_REVIEW",
+      "proposed_canonical_kp_id": "sci_g04s1_01_02",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": true,
+      "holds": [
+        "AMBIGUOUS_HABITAT_SCOPE"
+      ]
+    },
+    {
+      "batch_item_ordinal": 43,
+      "source_id": "SCI_G04_S1_114_MID_004|S02|MC|002",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "下列哪一項行為會對地表造成破壞？",
+      "original_options_in_order": [
+        "①定期清理垃圾",
+        "②維護好山林樹木",
+        "③做好水土保持",
+        "④開挖山坡地。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.6,
+        599.14,
+        81.56,
+        613.18
+      ],
+      "model_proposed_answer": "④",
+      "independent_model_science_reasoning": "開挖山坡地會破壞植被與地表結構，可能增加侵蝕和崩塌風險。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_01_07",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 44,
+      "source_id": "SCI_G04_S1_114_MID_004|S02|MC|003",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "人類大量砍伐樹木，可能引發下列哪一種災害？",
+      "original_options_in_order": [
+        "①森林大火",
+        "②土石流",
+        "③地震",
+        "④颱風。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.6,
+        671.74,
+        81.56,
+        685.78
+      ],
+      "model_proposed_answer": "②",
+      "independent_model_science_reasoning": "大量伐木減少樹根固土與植被覆蓋，可能提高土石流風險。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_01_07",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 45,
+      "source_id": "SCI_G04_S1_114_MID_004|S02|MC|005",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "小美進行環境與生物的調查，她在紀錄表上寫著「發現松鼠、五色鳥、榕樹。」小美可能到下列哪一個陸域環境進行調查？",
+      "original_options_in_order": [
+        "①高山",
+        "②森林",
+        "③草地",
+        "④海洋。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.6,
+        841.33,
+        81.56,
+        855.37
+      ],
+      "model_proposed_answer": "②",
+      "independent_model_science_reasoning": "松鼠、五色鳥、榕樹常見於森林等陸地林地環境。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_01_02",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 46,
+      "source_id": "SCI_G04_S1_114_MID_004|S02|MC|006",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "下列哪一種水生植物的葉柄會隨著水位高低而彎曲或伸展？",
+      "original_options_in_order": [
+        "①香蒲",
+        "②大萍",
+        "③睡蓮",
+        "④荷花。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        42.48,
+        938.17,
+        81.44,
+        952.21
+      ],
+      "model_proposed_answer": "③",
+      "independent_model_science_reasoning": "睡蓮屬浮葉性植物，葉柄可配合水位伸展或彎曲。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_02_06",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 47,
+      "source_id": "SCI_G04_S1_114_MID_004|S02|MC|007",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "小美用澆水器在土堆上澆水，請問澆水器的水量多寡對土堆有什麼影響？",
+      "original_options_in_order": [
+        "①水量愈多，砂石流失愈多",
+        "②水量愈多，土堆會變得愈高",
+        "③水量愈少，砂石流失愈多",
+        "④不管水量多寡，對土堆都不會造成影響。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        384.67,
+        197.33,
+        423.61,
+        211.37
+      ],
+      "model_proposed_answer": "①",
+      "independent_model_science_reasoning": "在坡度與土質等條件相近的實驗中，流量越大通常沖刷搬運越強。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_01_05",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 48,
+      "source_id": "SCI_G04_S1_114_MID_004|S02|MC|009",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "小美想要進行水域環境的探索，請問她選擇哪一種環境最不適合？",
+      "original_options_in_order": [
+        "①海洋",
+        "②河流",
+        "②池塘",
+        "④草原"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        384.67,
+        415.28,
+        423.61,
+        429.32
+      ],
+      "model_proposed_answer": "④",
+      "independent_model_science_reasoning": "草原屬陸域環境，海洋、河流、池塘皆為水域環境；原卷有重複②標籤須保留待審。",
+      "source_semantic_quality": "EXCEPTION_REVIEW",
+      "proposed_canonical_kp_id": "sci_g04s1_02_01",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": true,
+      "holds": [
+        "PRINTED_DUPLICATE_②_CHOICE_LABEL",
+        "SOURCE_PRINTED_OPTIONS_HOLD"
+      ]
+    },
+    {
+      "batch_item_ordinal": 49,
+      "source_id": "SCI_G04_S1_114_MID_004|S02|MC|011",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "下列哪一種水生動物是利用腹足爬行？",
+      "original_options_in_order": [
+        "①蛙",
+        "②蝦",
+        "③螺",
+        "④龜。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        384.67,
+        570.34,
+        423.61,
+        584.38
+      ],
+      "model_proposed_answer": "③",
+      "independent_model_science_reasoning": "螺類以腹足肌肉收縮爬行，其他選項動物不是以腹足運動。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_02_09",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    },
+    {
+      "batch_item_ordinal": 50,
+      "source_id": "SCI_G04_S1_114_MID_004|S02|MC|012",
+      "paper_id": "SCI_G04_S1_114_MID_004",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "original_full_stem": "依水生植物的生長方式來區分，下列哪一種水生植物和其他三種不會分在同一類？",
+      "original_options_in_order": [
+        "①大萍",
+        "②浮萍",
+        "③水蘊草",
+        "④布袋蓮。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "source_pdf_pages": [
+        1
+      ],
+      "original_answer_marker_bbox_pts_top_left": [
+        384.67,
+        613.9,
+        423.61,
+        627.94
+      ],
+      "model_proposed_answer": "③",
+      "independent_model_science_reasoning": "大萍、浮萍、布袋蓮屬漂浮性；水蘊草通常為沉水性植物。",
+      "source_semantic_quality": "MODEL_REASONED_NO_OBVIOUS_AMBIGUITY",
+      "proposed_canonical_kp_id": "sci_g04s1_02_05",
+      "provisional_kp_title_verified": true,
+      "science_answer_formal_approval": false,
+      "kp_formal_approval": false,
+      "site_admitted": false,
+      "original_teacher_key_authenticated": false,
+      "operator_exception_required": false,
+      "holds": []
+    }
+  ]
+}

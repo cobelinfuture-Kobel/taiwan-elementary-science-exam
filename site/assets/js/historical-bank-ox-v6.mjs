@@ -2,6 +2,7 @@ import {validateAndConvertP12Six,P12_SIX_BANK_PATH} from "./p12-six-release.mjs"
 import {validateAndConvertP12Remaining51,P12_REMAINING51_PATH,P12_REMAINING51_APPROVAL_PATH} from "./p12-remaining51-release.mjs";
 import {validateAndConvertP12G03Final46,P12_G03FINAL_46_PATH,P12_G03FINAL_46_APPROVAL_PATH} from "./p12-g03s2final-46-release.mjs";
 import {certificationGate} from "./s3-admission.mjs";
+import {validateAndConvertP12B04B04_47,P12_B04_B04_47_PATH} from "./p12-b04-b04-47-release.mjs";
 import {validateAndConvertP12B04B03_41,P12_B04_B03_41_PATH} from "./p12-b04-b03-41-release.mjs";
 import {validateAndConvertP12B04B02_41,P12_B04_B02_41_PATH} from "./p12-b04-b02-41-release.mjs";
 import {validateAndConvertP12B04B01_47,P12_B04_B01_47_PATH} from "./p12-b04-b01-47-release.mjs";
@@ -116,9 +117,9 @@ export function validateAndConvertContextGroups(value,authority){
  if(original!==12)throw Error("圖文資料群組路由異常");
  return {admission:"EMBEDDED_CERTIFIED_CONTEXT",blocks};
 }
-export async function loadEmbeddedHistoricalBank(authority,url=EMBEDDED_BANK_PATH,contextUrl=CONTEXT_BANK_PATH,p12Url=P12_SIX_BANK_PATH,p12RemainingUrl=P12_REMAINING51_PATH,p12ApprovalUrl=P12_REMAINING51_APPROVAL_PATH,final46Url=P12_G03FINAL_46_PATH,final46ApprovalUrl=P12_G03FINAL_46_APPROVAL_PATH,b04Url=P12_B04_YONGAN_MID9_PATH,chongdeUrl=P12_B04_CHONGDE_MID6_PATH,b01Url=P12_B04_B01_47_PATH,b02Url=P12_B04_B02_41_PATH,b03Url=P12_B04_B03_41_PATH){
- const [questions,contexts,p12,remaining,approval,finalBank,finalApproval,b04Bank,chongdeBank,b01Bank,b02Bank,b03Bank]=await Promise.all([fetch(url,{cache:"no-cache"}),fetch(contextUrl,{cache:"no-cache"}),fetch(p12Url,{cache:"no-cache"}),fetch(p12RemainingUrl,{cache:"no-cache"}),fetch(p12ApprovalUrl,{cache:"no-cache"}),fetch(final46Url,{cache:"no-cache"}),fetch(final46ApprovalUrl,{cache:"no-cache"}),fetch(b04Url,{cache:"no-cache"}),fetch(chongdeUrl,{cache:"no-cache"}),fetch(b01Url,{cache:"no-cache"}),fetch(b02Url,{cache:"no-cache"}),fetch(b03Url,{cache:"no-cache"})]);
- if(!questions.ok||!contexts.ok||!p12.ok||!remaining.ok||!approval.ok||!finalBank.ok||!finalApproval.ok||!b04Bank.ok||!chongdeBank.ok||!b01Bank.ok||!b02Bank.ok||!b03Bank.ok)throw Error("公開內建考古題或 P12 51 題入庫核准資料載入失敗");
+export async function loadEmbeddedHistoricalBank(authority,url=EMBEDDED_BANK_PATH,contextUrl=CONTEXT_BANK_PATH,p12Url=P12_SIX_BANK_PATH,p12RemainingUrl=P12_REMAINING51_PATH,p12ApprovalUrl=P12_REMAINING51_APPROVAL_PATH,final46Url=P12_G03FINAL_46_PATH,final46ApprovalUrl=P12_G03FINAL_46_APPROVAL_PATH,b04Url=P12_B04_YONGAN_MID9_PATH,chongdeUrl=P12_B04_CHONGDE_MID6_PATH,b01Url=P12_B04_B01_47_PATH,b02Url=P12_B04_B02_41_PATH,b03Url=P12_B04_B03_41_PATH,b04batchUrl=P12_B04_B04_47_PATH){
+ const [questions,contexts,p12,remaining,approval,finalBank,finalApproval,b04Bank,chongdeBank,b01Bank,b02Bank,b03Bank,b04BatchBank]=await Promise.all([fetch(url,{cache:"no-cache"}),fetch(contextUrl,{cache:"no-cache"}),fetch(p12Url,{cache:"no-cache"}),fetch(p12RemainingUrl,{cache:"no-cache"}),fetch(p12ApprovalUrl,{cache:"no-cache"}),fetch(final46Url,{cache:"no-cache"}),fetch(final46ApprovalUrl,{cache:"no-cache"}),fetch(b04Url,{cache:"no-cache"}),fetch(chongdeUrl,{cache:"no-cache"}),fetch(b01Url,{cache:"no-cache"}),fetch(b02Url,{cache:"no-cache"}),fetch(b03Url,{cache:"no-cache"}),fetch(b04batchUrl,{cache:"no-cache"})]);
+ if(!questions.ok||!contexts.ok||!p12.ok||!remaining.ok||!approval.ok||!finalBank.ok||!finalApproval.ok||!b04Bank.ok||!chongdeBank.ok||!b01Bank.ok||!b02Bank.ok||!b03Bank.ok||!b04BatchBank.ok)throw Error("公開內建考古題或 P12 51 題入庫核准資料載入失敗");
  const singles=validateAndConvertEmbeddedBank(await questions.json(),authority);
  const groups=validateAndConvertContextGroups(await contexts.json(),authority);
  const supplement=validateAndConvertP12Six(await p12.json(),authority);
@@ -129,11 +130,12 @@ export async function loadEmbeddedHistoricalBank(authority,url=EMBEDDED_BANK_PAT
  const b01=validateAndConvertP12B04B01_47(await b01Bank.json(),authority);
  const b02=validateAndConvertP12B04B02_41(await b02Bank.json(),authority);
  const b03=validateAndConvertP12B04B03_41(await b03Bank.json(),authority);
- const combined=[...singles.blocks,...groups.blocks,...supplement.blocks,...admitted.blocks,...final46.blocks,...b04.blocks,...chongde.blocks,...b01.blocks,...b02.blocks,...b03.blocks];
+ const b04batch=validateAndConvertP12B04B04_47(await b04BatchBank.json(),authority);
+ const combined=[...singles.blocks,...groups.blocks,...supplement.blocks,...admitted.blocks,...final46.blocks,...b04.blocks,...chongde.blocks,...b01.blocks,...b02.blocks,...b03.blocks,...b04batch.blocks];
  if(new Set(combined.map(b=>b.id)).size!==combined.length)throw Error("累積題庫出現重複 ID");
  return {admission:"EMBEDDED_CERTIFIED_HISTORICAL",blocks:combined,
-  certifiedTrueFalse:singles.blocks.length+supplement.blocks.filter(b=>b.type==="tf").length+admitted.standaloneTf+final46.standaloneTf+b04.standaloneTf+chongde.standaloneTf+b01.standaloneTf+b02.standaloneTf+b03.standaloneTf,
-  certifiedGroupCount:groups.blocks.length+supplement.contextGroups+admitted.contextGroups+final46.contextGroups+b04.contextGroups+chongde.contextGroups+b01.contextGroups+b02.contextGroups+b03.contextGroups,
-  certifiedStandaloneChoice:supplement.blocks.filter(b=>b.type==="mcq").length+admitted.standaloneChoice+final46.standaloneChoice+b04.standaloneChoice+chongde.standaloneChoice+b01.standaloneChoice+b02.standaloneChoice+b03.standaloneChoice,
-  certifiedAnswerSlots:singles.blocks.length+groups.blocks.reduce((n,b)=>n+b.items.length,0)+supplement.answerSlots+admitted.answerSlots+final46.answerSlots+b04.answerSlots+chongde.answerSlots+b01.answerSlots+b02.answerSlots+b03.answerSlots};
+  certifiedTrueFalse:singles.blocks.length+supplement.blocks.filter(b=>b.type==="tf").length+admitted.standaloneTf+final46.standaloneTf+b04.standaloneTf+chongde.standaloneTf+b01.standaloneTf+b02.standaloneTf+b03.standaloneTf+b04batch.standaloneTf,
+  certifiedGroupCount:groups.blocks.length+supplement.contextGroups+admitted.contextGroups+final46.contextGroups+b04.contextGroups+chongde.contextGroups+b01.contextGroups+b02.contextGroups+b03.contextGroups+b04batch.contextGroups,
+  certifiedStandaloneChoice:supplement.blocks.filter(b=>b.type==="mcq").length+admitted.standaloneChoice+final46.standaloneChoice+b04.standaloneChoice+chongde.standaloneChoice+b01.standaloneChoice+b02.standaloneChoice+b03.standaloneChoice+b04batch.standaloneChoice,
+  certifiedAnswerSlots:singles.blocks.length+groups.blocks.reduce((n,b)=>n+b.items.length,0)+supplement.answerSlots+admitted.answerSlots+final46.answerSlots+b04.answerSlots+chongde.answerSlots+b01.answerSlots+b02.answerSlots+b03.answerSlots+b04batch.answerSlots};
 }

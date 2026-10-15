@@ -90,6 +90,15 @@ export function validateAndConvertContextGroups(value,authority){
    if((item.type==="mcq"||item.type==="multi")&&(!Array.isArray(item.options)||item.options.length<2))throw Error("選項缺失："+key);
    items.add(key);
   }
+  // Historical P09 source is immutable. Normalize legacy drawing rubric for active correctness-only view.
+  if(group.id==="FINAL_G04_CIRCUIT_DRAW"){
+   const {automatic_grading, ...clean}=group;
+   return {...clean,assessment_method:"MANUAL_VISUAL_CORRECTNESS_CHECK",
+    items:group.items.map((item,i)=>({...item,
+     answer_explanation:"正確閉合通路：電池兩極分別接到燈泡底部接點與金屬側殼，兩條導線不能接在燈泡同一接點。",
+     answer_assumption:"依原圖核對導電接點與通路是否完整，不採數字評量。",
+     group_item_id:group.id+"#"+String(i+1).padStart(2,"0")}))};
+  }
   return {...group,items:group.items.map((item,i)=>({...item,group_item_id:group.id+"#"+String(i+1).padStart(2,"0")}))};
  });
  if(blocks.reduce((n,b)=>n+b.items.length,0)!==76)throw Error("題組 76 小題覆蓋數不符");

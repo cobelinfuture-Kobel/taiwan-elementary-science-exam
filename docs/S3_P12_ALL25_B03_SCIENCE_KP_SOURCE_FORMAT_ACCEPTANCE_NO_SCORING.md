@@ -1,5 +1,9 @@
 # P12 ALL25 B03｜Science 73 與 KP 81 原題品質對照、非獨立題型盤點（全域無分數）
 
+## 與 main 既有 B03 的關係
+
+本檔是 **第二次獨立模型的逐題來源補充驗證**，不是取代目前 main 已合併的 B03 結論。對照 main 的 81 筆原 KP 判定，61 筆粗粒度分類一致，另 20 筆邊界判定不同；均保留人工裁決，見 `data/review/p12-all25-b03-kp81-two-model-boundary-disagreements-v1.json`。本檔列出的 21 個直接 KP 候選屬**補充模型觀點**，不等於 main 既有的 17 個直接候選和 6 個植物類型候選，不能相互覆蓋或相加。完整原卷與正式 Authority 仍為最終依據。
+
 ## 目的與限制
 
 B03 採用全域無分數內容規範 `data/governance/science-global-no-scoring-authority-v1.json` 和 25 卷無分數內容庫 `data/content-only/`。此輪僅處理科學答案唯一性、正式 KP 定義、原始圖片和共用題組的來源依賴；不再使用任何原卷給分規則來決定題目可否收錄。

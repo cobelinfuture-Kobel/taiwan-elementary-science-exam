@@ -21,6 +21,15 @@ try {
   assert.equal(await page.locator("#unit option").count(),4,"live unit selector present");
   assert.ok(await page.locator("#kp option").count()>0,"live KP selector populated");
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","public default question can generate: "+status);
+  // Pin certified TF-only KP; mixed default public pool can select MC.
+  await page.selectOption("#grade","4");
+  await page.selectOption("#semester","S1");
+  await page.selectOption("#unit","4-S1-U01");
+  await page.selectOption("#mode","single_kp");
+  await page.selectOption("#kp","sci_g04s1_01_11");
+  await page.fill("#count","1");
+  await page.locator("#generate").click();
+  assert.equal(await page.locator("#status").getAttribute("data-error"),"false","deployed certified TF O/X source available");
   const question=(await page.locator(".paper:not([data-answer='true']) .question").first().innerText()).trim();
   assert.match(question,/^（　）1\. /,"O/X bracket must precede question number");
   const answer=await page.locator(".paper[data-answer='true']").innerText();

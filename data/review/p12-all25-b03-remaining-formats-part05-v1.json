@@ -1,0 +1,66 @@
+{
+  "schema_version": "P12_ALL25_B03_OTHER_FORMAT_INITIAL_CLASSIFICATION_V1",
+  "paper_rows": [
+    {
+      "paper_id": "SCI_G04_S1_114_MID_011",
+      "original_positions": 100,
+      "standalone_source_count": 53,
+      "remaining_position_count": 47,
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-mid-100-source-map-v1.json",
+      "map_item_count": 100,
+      "original_source_format_labels": {
+        "UNKNOWN": 100
+      },
+      "classification_status": "SOURCE_MAP_GROUP_LABELS_NOT_INDEPENDENT_QUESTION_CERTIFICATION"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_012",
+      "original_positions": 60,
+      "standalone_source_count": 30,
+      "remaining_position_count": 30,
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-shihu-mid-60-source-map-v1.json",
+      "map_item_count": 60,
+      "original_source_format_labels": {
+        "TF": 8,
+        "MC": 12,
+        "G01": 15,
+        "G02": 9,
+        "G03": 10,
+        "READ_A": 3,
+        "READ_B": 3
+      },
+      "classification_status": "SOURCE_MAP_GROUP_LABELS_NOT_INDEPENDENT_QUESTION_CERTIFICATION"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_011",
+      "original_positions": 42,
+      "standalone_source_count": 22,
+      "remaining_position_count": 20,
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-dahua-final-42-source-map-v1.json",
+      "map_item_count": 42,
+      "original_source_format_labels": {
+        "TF": 6,
+        "MC": 17,
+        "G01": 4,
+        "G02": 6,
+        "G03": 6,
+        "READ": 3
+      },
+      "classification_status": "SOURCE_MAP_GROUP_LABELS_NOT_INDEPENDENT_QUESTION_CERTIFICATION"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_positions": 100,
+      "standalone_source_count": 60,
+      "remaining_position_count": 40,
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-taozijiao-final-100-kp-first-text-map-v1.json",
+      "map_item_count": 100,
+      "original_source_format_labels": {
+        "UNKNOWN": 100
+      },
+      "classification_status": "SOURCE_MAP_GROUP_LABELS_NOT_INDEPENDENT_QUESTION_CERTIFICATION"
+    }
+  ],
+  "original_content_only": true,
+  "all_contexts_and_diagrams_still_require_exact_qa": true
+}

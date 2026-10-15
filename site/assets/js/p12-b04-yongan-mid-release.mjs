@@ -38,11 +38,11 @@ export function validateAndConvertP12B04YonganMid9(payload,authority){
   fail(text(b.id)&&b.id===`P12_B04_G04S1_YONGAN_MID_${tail.startsWith("TF")?"TF":"MC"}_${tail.slice(-3)}`,"公開ID");
   fail(b.source_id===SOURCE_PAPER&&b.source_pdf_sha256===PDF_SHA
     &&b.grade===4&&b.semester===1&&b.source_page_pdf_1_based===1
-    &&Array.isArray(b.source_answer_marker_bbox_pts_top_left)
-    &&b.source_answer_marker_bbox_pts_top_left.length===4
-    &&b.source_answer_marker_bbox_pts_top_left.every(n=>Number.isFinite(n))
-    &&b.source_answer_marker_bbox_pts_top_left[0]<b.source_answer_marker_bbox_pts_top_left[2]
-    &&b.source_answer_marker_bbox_pts_top_left[1]<b.source_answer_marker_bbox_pts_top_left[3],"PDF來源頁碼或BBox");
+    &&Array.isArray(b.source_pdf_bbox_pts_top_left)
+    &&b.source_pdf_bbox_pts_top_left.length===4
+    &&b.source_pdf_bbox_pts_top_left.every(n=>Number.isFinite(n))
+    &&b.source_pdf_bbox_pts_top_left[0]<b.source_pdf_bbox_pts_top_left[2]
+    &&b.source_pdf_bbox_pts_top_left[1]<b.source_pdf_bbox_pts_top_left[3],"PDF來源頁碼或BBox");
   fail(text(b.stem)&&text(b.answer_explanation)&&text(b.answer_assumption)
     &&b.answer===acceptance[0]&&b.canonical_kp_id===acceptance[1]
     &&b.evidence_ref===EVIDENCE_REF,"答案理由或來源KP");

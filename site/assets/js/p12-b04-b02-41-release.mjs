@@ -48,7 +48,7 @@ const EXPECTED=new Map([
 ]);
 const fail=(v,s)=>{if(!v)throw Error("P12 B04 B02 rejected: "+s)};
 const txt=s=>typeof s==="string"&&s.trim().length>0;
-const norm=s=>String(s??"").replace(/\\s+/g,"").replace(/[，,。．！？!?：:、「」『』（）、]/g,"");
+const norm=s=>String(s??"").replace(/\s+/g,"").replace(/[，,。．！？!?：:、「」『』（）、]/g,"");
 export function validateAndConvertP12B04B02_41(bank,authority){
  assertScorelessMetadata(bank);
  fail(bank?.schema_version===P12_B04_B02_41_SCHEMA&&bank.public_site_integrated===true

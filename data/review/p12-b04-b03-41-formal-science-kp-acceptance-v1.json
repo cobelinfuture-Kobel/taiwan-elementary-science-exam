@@ -1,0 +1,1042 @@
+{
+  "schema_version": "P12_B04_B03_41_FORMAL_SOURCE_SCIENCE_KP_ACCEPTANCE_V1",
+  "batch": "B03",
+  "source_positions_reviewed": 50,
+  "formal_admitted": 41,
+  "independent_exception_count": 9,
+  "source_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+  "sources": [
+    {
+      "archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "paper_id": "SCI_G04_S1_114_MID_006",
+      "pdf_file_id": "1b2Ra-MB32xdJjXy-xtn0gJTIuvtF8YTW",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_previously_verified": true,
+      "original_pdf_visual_pages": [
+        1,
+        2
+      ],
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "third_party_copy": "NO_THIRD_PARTY_COPY"
+    },
+    {
+      "archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "pdf_file_id": "1vYm6xxOw6TQzKb-r8bEYM8gp7cDIRDFa",
+      "original_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_previously_verified": true,
+      "original_pdf_visual_pages": [
+        1,
+        2
+      ],
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "third_party_copy": "NO_THIRD_PARTY_COPY"
+    },
+    {
+      "archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "paper_id": "SCI_G04_S1_114_MID_008",
+      "pdf_file_id": "1g0ld_8TiIqt_UrtNRFZx_VqlZzKOx8D5",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_previously_verified": true,
+      "original_pdf_visual_pages": [
+        1,
+        2,
+        3
+      ],
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "third_party_copy": "NO_THIRD_PARTY_COPY"
+    },
+    {
+      "archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "paper_id": "SCI_G04_S1_114_FINAL_005",
+      "pdf_file_id": "1KQesPj7fM1T5OUOiT79ePwnjZ4GLx1d3",
+      "original_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_previously_verified": true,
+      "original_pdf_visual_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "rights_status": "REGULATED_EXAM_QUESTION_ART9",
+      "third_party_copy": "NO_THIRD_PARTY_COPY"
+    }
+  ],
+  "known_cross_source_future_duplicate": {
+    "primary_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|012",
+    "later_source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|004",
+    "policy": "PUBLISH_EARLIER_SOURCE_ONLY_AND_RECORD_LATER_DUPLICATE"
+  },
+  "source_school_teacher_answer_key_authenticated": false,
+  "operator_bulk_authorization": "USER_P12_B04_AUTO_BATCH50_EXCEPTION_ONLY",
+  "approved_items": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S02|MC|013",
+      "b03_review_ordinal": 1,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        381.48,
+        897.92,
+        409.32,
+        911.84
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "③",
+      "science_unique_answer_rationale": "牡蠣、生魚片與蓮藕來自水域生物或水域栽培；茶葉主要來自陸域種植。",
+      "canonical_kp_id": "sci_g04s1_02_10",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S02|MC|014",
+      "b03_review_ordinal": 2,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_page": 2,
+      "source_answer_marker_bbox_pts_top_left": [
+        40.34,
+        58.95,
+        68.18,
+        72.87
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "②",
+      "science_unique_answer_rationale": "龜類的四肢可在水中游泳，也可在陸地爬行；『不能爬行』不正確。",
+      "canonical_kp_id": "sci_g04s1_02_09",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S02|MC|015",
+      "b03_review_ordinal": 3,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_page": 2,
+      "source_answer_marker_bbox_pts_top_left": [
+        40.34,
+        150.18,
+        68.18,
+        164.1
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "④",
+      "science_unique_answer_rationale": "把未妥善處理的工廠廢水排入河川會傷害水域環境，不屬保護行為。",
+      "canonical_kp_id": "sci_g04s1_02_11",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|006",
+      "b03_review_ordinal": 6,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        54.6,
+        447.68,
+        108.39,
+        461.72
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "O",
+      "science_unique_answer_rationale": "地震後需確認水電與瓦斯設備安全再使用，以降低漏電、漏氣等風險。",
+      "canonical_kp_id": "sci_g04s1_01_11",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|007",
+      "b03_review_ordinal": 7,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        54.6,
+        519.68,
+        108.39,
+        533.72
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "O",
+      "science_unique_answer_rationale": "生物對光、水分、溫度、棲地有不同需求，因此適合環境不同。",
+      "canonical_kp_id": "sci_g04s1_01_02",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|009",
+      "b03_review_ordinal": 8,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        54.6,
+        627.7,
+        108.39,
+        641.74
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "O",
+      "science_unique_answer_rationale": "布袋蓮葉柄有具氣室的組織，水中擠壓可見氣泡排出。",
+      "canonical_kp_id": "sci_g04s1_02_04",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|010",
+      "b03_review_ordinal": 9,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        54.6,
+        663.7,
+        115.44,
+        677.74
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "O",
+      "science_unique_answer_rationale": "蝌蚪主要以鰓呼吸，成蛙主要以肺與皮膚呼吸，發育階段呼吸方式改變。",
+      "canonical_kp_id": "sci_g04s1_02_09",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S02|MC|001",
+      "b03_review_ordinal": 11,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        54.6,
+        852.7,
+        108.39,
+        866.74
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "①",
+      "science_unique_answer_rationale": "操場土堆可能棲息螞蟻；招潮蟹通常在潮間帶，另兩者不以普通土堆作典型棲地。",
+      "canonical_kp_id": "sci_g04s1_01_02",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S02|MC|002",
+      "b03_review_ordinal": 12,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        54.6,
+        924.73,
+        108.39,
+        938.77
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "②",
+      "science_unique_answer_rationale": "蓋房子、鋪路或製作地磚可使用岩石；種菜主要使用土壤而非完整岩石。",
+      "canonical_kp_id": "sci_g04s1_01_04",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S02|MC|004",
+      "b03_review_ordinal": 13,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        443.71,
+        123.65,
+        497.5,
+        137.69
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "④",
+      "science_unique_answer_rationale": "不要亂丟垃圾入河川能降低河川污染，其他行為可能造成環境干擾。",
+      "canonical_kp_id": "sci_g04s1_02_11",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S02|MC|006",
+      "b03_review_ordinal": 14,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        443.71,
+        339.65,
+        497.5,
+        353.69
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "②",
+      "science_unique_answer_rationale": "地震防災演練可協助學生先熟悉避難行動與路線，而非預測何時地震。",
+      "canonical_kp_id": "sci_g04s1_01_09",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S02|MC|007",
+      "b03_review_ordinal": 15,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        443.71,
+        519.68,
+        497.5,
+        533.72
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "③",
+      "science_unique_answer_rationale": "學校生態池一般為人工營造，另外高山、海洋、潮間帶屬自然環境。",
+      "canonical_kp_id": "sci_g04s1_02_01",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S02|MC|010",
+      "b03_review_ordinal": 16,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        443.71,
+        807.7,
+        504.55,
+        821.74
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "②",
+      "science_unique_answer_rationale": "青蛙後肢通常強壯，適合跳躍；螃蟹及蝦使用鰓，蝸牛類以腹足移動。",
+      "canonical_kp_id": "sci_g04s1_02_09",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S02|MC|011",
+      "b03_review_ordinal": 17,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        443.71,
+        915.73,
+        504.55,
+        929.77
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "③",
+      "science_unique_answer_rationale": "山豬生活在陸域山林，牡蠣、海帶、鯖魚主要取自水域環境。",
+      "canonical_kp_id": "sci_g04s1_02_10",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S02|MC|012",
+      "b03_review_ordinal": 18,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        443.71,
+        987.73,
+        504.55,
+        1001.77
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "④",
+      "science_unique_answer_rationale": "參與淨灘、淨溪可減少廢棄物，另外三項對生態可能有害。",
+      "canonical_kp_id": "sci_g04s1_02_11",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|002",
+      "b03_review_ordinal": 19,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        74.3,
+        196.73,
+        116.36,
+        210.77
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "O",
+      "science_unique_answer_rationale": "生態池與溪流的環境條件、流速與水質不同，生物適應性可能不同。",
+      "canonical_kp_id": "sci_g04s1_02_02",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|006",
+      "b03_review_ordinal": 22,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        74.3,
+        414.8,
+        116.36,
+        428.84
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "X",
+      "science_unique_answer_rationale": "水生昆蟲、部分兩棲類等也生活在水域，並非僅有魚、蝦、蟹。",
+      "canonical_kp_id": "sci_g04s1_02_09",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|007",
+      "b03_review_ordinal": 23,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        74.3,
+        460.28,
+        116.36,
+        474.32
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "O",
+      "science_unique_answer_rationale": "蝌蚪到青蛙經變態發育，外形、肢體與移動方式均不同。",
+      "canonical_kp_id": "sci_g04s1_02_09",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|009",
+      "b03_review_ordinal": 24,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        74.3,
+        551.14,
+        116.36,
+        565.18
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "O",
+      "science_unique_answer_rationale": "亂丟垃圾或任意排放廢水可能使水域受到污染及生態破壞。",
+      "canonical_kp_id": "sci_g04s1_02_11",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|010",
+      "b03_review_ordinal": 25,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        81.26,
+        596.62,
+        123.32,
+        610.66
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "X",
+      "science_unique_answer_rationale": "一些植物可在岩縫累積的土壤及水分中生長，不能說任何植物都無法存活。",
+      "canonical_kp_id": "sci_g04s1_01_02",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|014",
+      "b03_review_ordinal": 29,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        81.26,
+        778.21,
+        123.32,
+        792.25
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "X",
+      "science_unique_answer_rationale": "漂浮性植物通常是整株隨水流移動，不代表莖葉會因水流改變形態。",
+      "canonical_kp_id": "sci_g04s1_02_04",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|001",
+      "b03_review_ordinal": 30,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        74.3,
+        886.95,
+        116.36,
+        900.99
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "④",
+      "science_unique_answer_rationale": "種植樹木及恢復植被有助保護地表，另外選項多使地表受開發干擾。",
+      "canonical_kp_id": "sci_g04s1_01_07",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|003",
+      "b03_review_ordinal": 31,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        413.23,
+        169.97,
+        455.29,
+        184.01
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "③",
+      "science_unique_answer_rationale": "溪流常有較快流動的水，湖泊、池塘和水田一般較緩慢。",
+      "canonical_kp_id": "sci_g04s1_02_02",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|005",
+      "b03_review_ordinal": 33,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        413.23,
+        297.2,
+        455.29,
+        311.24
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "②",
+      "science_unique_answer_rationale": "黑板樹屬陸域喬木，與荷花、蝦、浮萍等水域生物不同。",
+      "canonical_kp_id": "sci_g04s1_02_01",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|006",
+      "b03_review_ordinal": 34,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        420.31,
+        360.8,
+        462.25,
+        374.84
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "③",
+      "science_unique_answer_rationale": "水蘊草為柔軟的沉水植物，離水後莖葉缺乏水的支撐而彎曲下垂。",
+      "canonical_kp_id": "sci_g04s1_02_05",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|007",
+      "b03_review_ordinal": 35,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        413.23,
+        442.64,
+        455.29,
+        456.68
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "③",
+      "science_unique_answer_rationale": "香蒲的葉可挺出水面，屬挺水性植物；睡蓮與萍蓬草是浮葉性，大萍為漂浮性。",
+      "canonical_kp_id": "sci_g04s1_02_07",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|008",
+      "b03_review_ordinal": 36,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        420.31,
+        524.5,
+        462.25,
+        538.54
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "④",
+      "science_unique_answer_rationale": "龜和蛙都可使用四肢及有蹼的腳在水中划動；魚、蝌蚪主要使用尾部，螺使用腹足。",
+      "canonical_kp_id": "sci_g04s1_02_09",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|009",
+      "b03_review_ordinal": 37,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        420.31,
+        588.22,
+        462.25,
+        602.26
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "②",
+      "science_unique_answer_rationale": "臺灣目前沒有現存的冰河地形活動帶，而生態池、湖泊、海洋存在。",
+      "canonical_kp_id": "sci_g04s1_02_02",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|010",
+      "b03_review_ordinal": 38,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        420.19,
+        651.82,
+        462.25,
+        665.86
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "④",
+      "science_unique_answer_rationale": "潮間帶位於海洋與陸地交接的海岸地帶。",
+      "canonical_kp_id": "sci_g04s1_02_02",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|012",
+      "b03_review_ordinal": 39,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        420.19,
+        797.29,
+        462.25,
+        811.33
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "④",
+      "science_unique_answer_rationale": "大肚魚一般生活於淡水，海龜生活於海洋，通常不在同一水域棲地。",
+      "canonical_kp_id": "sci_g04s1_02_02",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|003",
+      "b03_review_ordinal": 40,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        49.56,
+        256.85,
+        84.53,
+        270.89
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "O",
+      "science_unique_answer_rationale": "具有光滑反射表面的物體可讓入射光改變方向，包含鏡面反射。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|004",
+      "b03_review_ordinal": 41,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        49.56,
+        279.92,
+        84.53,
+        293.96
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "X",
+      "science_unique_answer_rationale": "光照鏡面後遵循反射定律，方向與入射角、鏡面方向有關，不是完全沒有規律。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|005",
+      "b03_review_ordinal": 42,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        49.56,
+        302.84,
+        84.53,
+        316.88
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "O",
+      "science_unique_answer_rationale": "三角鐵振動幅度隨衰減而減少，發出的聲音通常隨之變小。",
+      "canonical_kp_id": "sci_g04s1_03_01",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|006",
+      "b03_review_ordinal": 43,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        49.56,
+        325.88,
+        84.53,
+        339.92
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "X",
+      "science_unique_answer_rationale": "光滑的不鏽鋼板也能反射光線，特定實驗可代替鏡面觀察反射。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|007",
+      "b03_review_ordinal": 44,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        49.56,
+        348.92,
+        84.53,
+        362.96
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "X",
+      "science_unique_answer_rationale": "月光是月球反射太陽光，月球並非自行發出可見的月光。",
+      "canonical_kp_id": "sci_g04s1_03_05",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|008",
+      "b03_review_ordinal": 45,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        49.56,
+        371.84,
+        84.53,
+        385.88
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "O",
+      "science_unique_answer_rationale": "聲音可透過牆壁等固體傳遞；貼近牆面可感受固體傳遞的振動。",
+      "canonical_kp_id": "sci_g04s1_03_03",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|009",
+      "b03_review_ordinal": 46,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        49.56,
+        394.88,
+        84.53,
+        408.92
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "O",
+      "science_unique_answer_rationale": "太空近真空環境缺乏足夠的介質，兩人不能只靠空氣直接傳播說話聲。",
+      "canonical_kp_id": "sci_g04s1_03_03",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|010",
+      "b03_review_ordinal": 47,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        42.48,
+        440.84,
+        84.52,
+        454.88
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "X",
+      "science_unique_answer_rationale": "串聯過多電池可能超出燈泡設計電壓，造成燈泡損壞或安全風險，並非越多越好。",
+      "canonical_kp_id": "sci_g04s1_04_06",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|011",
+      "b03_review_ordinal": 48,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        42.48,
+        463.88,
+        84.52,
+        477.92
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "X",
+      "science_unique_answer_rationale": "在相同電源條件下，燈泡串聯越多，每顆亮度通常減弱，不會讓六顆最亮。",
+      "canonical_kp_id": "sci_g04s1_04_08",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|012",
+      "b03_review_ordinal": 49,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        42.48,
+        509.86,
+        84.52,
+        523.9
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "X",
+      "science_unique_answer_rationale": "冰箱、洗衣機一般由市電供電，不是典型使用乾電池提供運作電力。",
+      "canonical_kp_id": "sci_g04s1_04_12",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_005|S1|TF|013",
+      "b03_review_ordinal": 50,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_pdf_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "source_pdf_page": 1,
+      "source_answer_marker_bbox_pts_top_left": [
+        42.48,
+        532.9,
+        84.52,
+        546.94
+      ],
+      "complete_stem_exact": true,
+      "all_printed_options_exact": true,
+      "source_standalone_without_media_dependency": true,
+      "science_answer": "O",
+      "science_unique_answer_rationale": "延長線有額定電流與功率限制，插接過多高耗電設備可能過載發熱。",
+      "canonical_kp_id": "sci_g04s1_04_12",
+      "canonical_kp_semantic_explanation": "題目主要測查的自然現象、環境特徵或用電安全與所選 canonical KP 直接一致。",
+      "original_teacher_answer_key_authenticated": false,
+      "source_licensing_exam_text_only": true
+    }
+  ],
+  "held_items": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|003",
+      "ordinal": 4,
+      "reason": [
+        "WIND_AND_WATER_GEOMORPHOLOGY_KP_SCOPE"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|005",
+      "ordinal": 5,
+      "reason": [
+        "EARTHQUAKE_NATURAL_ORIGIN_NOT_MATCH_DEVELOPMENT_KP"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|012",
+      "ordinal": 10,
+      "reason": [
+        "WASTEWATER_NOT_ALWAYS_THERMAL"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|004",
+      "ordinal": 20,
+      "reason": [
+        "SUBMERGED_VS_FLOATING_LEAF_ADAPTATION_SCOPE"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|005",
+      "ordinal": 21,
+      "reason": [
+        "FREE_HANGING_ROOT_VS_FLOATING_SEMANTICS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|011",
+      "ordinal": 26,
+      "reason": [
+        "SOIL_FORMATION_OVERGENERALIZATION"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|012",
+      "ordinal": 27,
+      "reason": [
+        "ROCK_TO_SOIL_FIXED_SEQUENCE_UNJUSTIFIED"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|013",
+      "ordinal": 28,
+      "reason": [
+        "FLOATING_LEAF_LOW_WATER_CONDITIONAL"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|004",
+      "ordinal": 32,
+      "reason": [
+        "STREAM_SLOW_WATER_LOTUS_AMBIGUITY"
+      ]
+    }
+  ],
+  "release_requires": "FAIL_CLOSED_SOURCE_FULL_TEXT_OPTIONS_PDF_SHA_BBOX_SCIENCE_UNIQUE_KP_RIGHTS_DUPLICATE_CI_MAIN_PAGES_E6"
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": "P12_ALL25_B02_ORIGINAL_SIXPDF_SCOREGAP27_VISUAL_EVIDENCE_V1",
+  "source_context": "P12 B01 immutable six paper 27-point gap ledger",
+  "original_pdfs_rediscovered_from_user_connected_drive": true,
+  "original_pdf_sha256_recomputed_count": 6,
+  "original_pdf_pages_inspected_only_as_recorded": true,
+  "source_document_visual_readback_performed": true,
+  "original_pdf_figure_copies_committed_to_public_repo": false,
+  "all_source_score_gaps_resolved": false,
+  "known_gap_total_unchanged": 27,
+  "score_gap_paper_count": 6,
+  "operator_formal_score_authority_approved_papers": 0,
+  "visual_confirmed_conflicting_per_slot_weight_papers": 1,
+  "source_records": [
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_001",
+      "source_pdf_sha256_recomputed_original": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "source_pdf_bytes_verified": 749763,
+      "source_pdf_pages": 2,
+      "source_original_inspected_page_numbers_1based": [
+        2
+      ],
+      "unreconciled_printed_score_points": 4,
+      "original_printed_quoted_instruction_excerpt": "六、題組：每格1分、共12分；原卷第二頁六、題組含電路與青銅鏡共用材料",
+      "visual_readback_specific_findings": "Printed S06 12-points under one-point-per-response instruction; previous registry enumerates only 74 explicit response positions against original printable 78. Layout cannot validate four speculative S06 boxes.",
+      "problem_class": "SOURCE_RESPONSE_COUNT_WITH_GROUPED_SUBPARTS_NEEDS_EXACT_RECT_AND_SCORE",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-yongan-final-kp-first-text-map-v2.json",
+      "original_source_not_modified": true,
+      "formal_score_authority_acceptance": false,
+      "operator_requires_original_pdf_manual_approval": true,
+      "source_figure_public_copy_excluded": true,
+      "review_status": "SOURCE_VISUAL_EVIDENCE_RECONFIRMED_SCORE_GAP_HOLD"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_003",
+      "source_pdf_sha256_recomputed_original": "90967222348a95719ee1263240e5ae943e9d4f4d4cc15b7ea576191d0f618335",
+      "source_pdf_bytes_verified": 972168,
+      "source_pdf_pages": 2,
+      "source_original_inspected_page_numbers_1based": [
+        1,
+        2
+      ],
+      "unreconciled_printed_score_points": 8,
+      "original_printed_quoted_instruction_excerpt": "三、題組：共68分。(第8~9題每格2分，其餘每格1分)",
+      "visual_readback_specific_findings": "Original printed mixed-weight directive confirmed, 12 contextual subquestion groups span two pages. Earlier 64 natural response slots lack proof of eight additional independent boxes.",
+      "problem_class": "MIXED_WEIGHT_GROUP_SHARED_STIMULUS_SCORE_RECOUNT",
+      "source_map_ref": "data/review/p12-g04s1-114-nanyi-chongde-mid-64-source-manifest-v2.json",
+      "original_source_not_modified": true,
+      "formal_score_authority_acceptance": false,
+      "operator_requires_original_pdf_manual_approval": true,
+      "source_figure_public_copy_excluded": true,
+      "review_status": "SOURCE_VISUAL_EVIDENCE_RECONFIRMED_SCORE_GAP_HOLD"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_008",
+      "source_pdf_sha256_recomputed_original": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_bytes_verified": 350499,
+      "source_pdf_pages": 3,
+      "source_original_inspected_page_numbers_1based": [
+        2
+      ],
+      "unreconciled_printed_score_points": 2,
+      "original_printed_quoted_instruction_excerpt": "三、配合題（每格或每小題2分，共38分）；第2題：請試著用兩條電線畫出可以讓燈泡發亮的正確位置。",
+      "visual_readback_specific_findings": "Source visibly shows one lighting circuit drawing prompt with two drawn wires, not 2 separate printed answer boxes. 18 third-section source positions worth nominal 36 vs printed 38.",
+      "problem_class": "DRAW_TWO_WIRES_SINGLE_RESPONSE_WEIGHT_OR_MISSING_MARK",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-mingyi-final-50-source-kp-first-v1.json",
+      "original_source_not_modified": true,
+      "formal_score_authority_acceptance": false,
+      "operator_requires_original_pdf_manual_approval": true,
+      "source_figure_public_copy_excluded": true,
+      "review_status": "SOURCE_VISUAL_EVIDENCE_RECONFIRMED_SCORE_GAP_HOLD"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_013",
+      "source_pdf_sha256_recomputed_original": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_bytes_verified": 387034,
+      "source_pdf_pages": 2,
+      "source_original_inspected_page_numbers_1based": [
+        1,
+        2
+      ],
+      "unreconciled_printed_score_points": 3,
+      "original_printed_quoted_instruction_excerpt": "三、配合題（每個答案1分，共18分）",
+      "visual_readback_specific_findings": "Three original matching groups: six sound/light examples, three matter-change rows (one '複選' row), six light-use cases. Fifteen visible source responses vs 18 printed section points.",
+      "problem_class": "MULTISELECT_ROW_AND_MATCHING_SUBPART_SCORE_RECOUNT",
+      "source_map_ref": "data/review/p12-g04s1-114-hanlin-shihu-final-62-source-map-v1.json",
+      "original_source_not_modified": true,
+      "formal_score_authority_acceptance": false,
+      "operator_requires_original_pdf_manual_approval": true,
+      "source_figure_public_copy_excluded": true,
+      "review_status": "SOURCE_VISUAL_EVIDENCE_RECONFIRMED_SCORE_GAP_HOLD"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_MID_009",
+      "source_pdf_sha256_recomputed_original": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_bytes_verified": 1166576,
+      "source_pdf_pages": 2,
+      "source_original_inspected_page_numbers_1based": [
+        1,
+        2
+      ],
+      "unreconciled_printed_score_points": 4,
+      "original_printed_quoted_instruction_excerpt": "二、填填看（每個答案2分，共42分）",
+      "visual_readback_specific_findings": "Nineteen separately identified original second-section source response positions at 2 points = 38, printed 42. All diagram/animal/matching response marks require image-by-image count; no inferred extra two blanks.",
+      "problem_class": "RANDOM_SOURCE_SCAN_DIAGRAM_AND_SHARED_BOX_COUNT",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-mid-54-source-map-v1.json",
+      "original_source_not_modified": true,
+      "formal_score_authority_acceptance": false,
+      "operator_requires_original_pdf_manual_approval": true,
+      "source_figure_public_copy_excluded": true,
+      "review_status": "SOURCE_VISUAL_EVIDENCE_RECONFIRMED_SCORE_GAP_HOLD"
+    },
+    {
+      "paper_id": "SCI_G04_S1_114_FINAL_010",
+      "source_pdf_sha256_recomputed_original": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "source_pdf_bytes_verified": 1335789,
+      "source_pdf_pages": 3,
+      "source_original_inspected_page_numbers_1based": [
+        2
+      ],
+      "unreconciled_printed_score_points": 6,
+      "original_printed_quoted_instruction_excerpt": "3.請將下列物品代號填入正確的分類表格中。…5.生活中使用的電力有些主要來自於電池…（每答1分，共6分）",
+      "visual_readback_specific_findings": "Scan page 2 visually confirms G05 '每答1分，共6分'. Frozen map says six slots 2 each to satisfy overall S3 '共46分'; source-evident S3 = 34+6 = 40 and entire paper attributable 94/100, so score-sum conflict is real, not 6 proven missing answers.",
+      "problem_class": "PRINTED_SECTION_SUBTOTAL_CONTRADICTS_PER_RESPONSE_POINT_WEIGHTS",
+      "source_map_ref": "data/review/p12-g04s1-114-kanghsuan-puren-final-49-source-map-v1.json",
+      "original_source_not_modified": true,
+      "formal_score_authority_acceptance": false,
+      "operator_requires_original_pdf_manual_approval": true,
+      "source_figure_public_copy_excluded": true,
+      "review_status": "SOURCE_VISUAL_EVIDENCE_RECONFIRMED_SCORE_GAP_HOLD"
+    }
+  ],
+  "highest_priority": "SCI_G04_S1_114_FINAL_010",
+  "next_operator_gate": "SHOW_SCORE_REGION_CROPS_PRIVATELY_AND_ASK_FOR_OPERATOR_SOURCE_SCORE_INTERPRETATION; NEVER_ADD_ANSWER_SLOTS_TO_REACH_PRINTED_TOTAL"
+}

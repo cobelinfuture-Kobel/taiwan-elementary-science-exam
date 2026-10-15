@@ -105,8 +105,8 @@ export function validateAndConvertContextGroups(value,authority){
  const drawn=blocks.filter(b=>b.diagram_kind!=null);
  const allowed=new Set(["FLOWER","STEM","ROOT","LEAF","SYRINGE","CIRCUIT_COMPARE","DRAW_CIRCUIT"]);
  if(drawn.length!==7||drawn.some(b=>!allowed.has(b.diagram_kind)))throw Error("P09 向量圖品項未核准");
- if(blocks.some(b=>b.items.some(item=>item.type==="draw") && (b.diagram_kind!=="DRAW_CIRCUIT"||b.assessment_method!=="MANUAL_RUBRIC_5_POINTS"||b.automatic_grading!==false)))
-   throw Error("作圖題不得假裝能自動判分");
+ if(blocks.some(b=>b.items.some(item=>item.type==="draw") && (b.diagram_kind!=="DRAW_CIRCUIT"||b.assessment_method!=="MANUAL_VISUAL_CORRECTNESS_CHECK"||("automatic_grading" in b))))
+   throw Error("作圖題應以圖形正確性核對，不提供分數或自動計分");
  const original=blocks.filter(b=>b.diagram_kind==null&&b.id!=="MID_G03_FORCE_OPTION_IMAGES").length;
  if(original!==12)throw Error("圖文資料群組路由異常");
  return {admission:"EMBEDDED_CERTIFIED_CONTEXT",blocks};

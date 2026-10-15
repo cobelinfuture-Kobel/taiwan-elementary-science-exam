@@ -1,0 +1,1558 @@
+{
+  "schema_version": "P12_B04_AUTO_BATCH50_B07_50_SOURCE_SCIENCE_KP_REVIEW_V1",
+  "batch": "B07",
+  "source_positions": 50,
+  "science_model_reasoned": 50,
+  "ready_for_formal_gate": 31,
+  "source_or_semantic_hold": 19,
+  "source_pdf_text_readback": "3_TEXT_LAYER_PDFS_AND_1_SCAN_ONLY_PDF_WITH_ARCHIVED_VISUAL_TRANSCRIPTION",
+  "scanned_visual_bbox_reconfirmation_required": 19,
+  "source_scoreless_instruction_projection_count": 15,
+  "original_school_teacher_answer_key_authenticated": false,
+  "new_public_admissions": 0,
+  "next_gate": "SOURCE_PDF_PIXEL_EXACT_SCIENCE_UNIQUE_KP_SEMANTICS_DUPLICATE_RIGHTS_PR_CI_PAGES",
+  "records": [
+    {
+      "batch_ordinal": 1,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q06|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        388.18,
+        321.53,
+        416.03,
+        336.48
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「光的反射」敘述，正確畫○，不正確打〤。(9 分)\n鏡面變粗糙，反射影像會變模糊。",
+      "student_scoreless_stem_projection": "下列關於「光的反射」敘述，正確畫○，不正確打〤。\n鏡面變粗糙，反射影像會變模糊。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "平滑鏡面變粗糙後反射方向更分散，清楚成像能力減弱。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 2,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q06|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        388.18,
+        340.13,
+        416.03,
+        355.08
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「光的反射」敘述，正確畫○，不正確打〤。(9 分)\n水面在陽光下閃亮，是因為反射光。",
+      "student_scoreless_stem_projection": "下列關於「光的反射」敘述，正確畫○，不正確打〤。\n水面在陽光下閃亮，是因為反射光。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "水面可反射陽光，在特定觀察角度造成閃爍亮點。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 3,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q06|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        388.18,
+        358.73,
+        416.03,
+        373.68
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「光的反射」敘述，正確畫○，不正確打〤。(9 分)\n站在兩面相對的鏡子中會產生許多影像。",
+      "student_scoreless_stem_projection": "下列關於「光的反射」敘述，正確畫○，不正確打〤。\n站在兩面相對的鏡子中會產生許多影像。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "兩面相對鏡子的重複反射可能產生多個影像。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_08",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 4,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q06|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        388.18,
+        377.33,
+        416.03,
+        392.28
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「光的反射」敘述，正確畫○，不正確打〤。(9 分)\n反光背心的亮條會吸收光，所以會發亮。",
+      "student_scoreless_stem_projection": "下列關於「光的反射」敘述，正確畫○，不正確打〤。\n反光背心的亮條會吸收光，所以會發亮。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "反光材料主要將光反射到觀察者方向，而不是因吸收光線發亮。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_08",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 5,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q06|006",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        388.18,
+        395.93,
+        416.03,
+        410.88
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「光的反射」敘述，正確畫○，不正確打〤。(9 分)\n反射後的光會沿著彎曲的路線前進。",
+      "student_scoreless_stem_projection": "下列關於「光的反射」敘述，正確畫○，不正確打〤。\n反射後的光會沿著彎曲的路線前進。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "反射改變傳播方向後，光在均勻介質中仍沿直線行進。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 6,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q06|007",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        388.18,
+        414.53,
+        416.03,
+        429.48
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「光的反射」敘述，正確畫○，不正確打〤。(9 分)\n能看到鏡中自己，是因為光反射進眼睛。",
+      "student_scoreless_stem_projection": "下列關於「光的反射」敘述，正確畫○，不正確打〤。\n能看到鏡中自己，是因為光反射進眼睛。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "眼睛接收鏡子反射而來的光才能看到鏡中影像。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 7,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q06|008",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        388.18,
+        433.13,
+        416.03,
+        448.08
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「光的反射」敘述，正確畫○，不正確打〤。(9 分)\n不鏽鋼湯匙會反光，是因為表面光滑。",
+      "student_scoreless_stem_projection": "下列關於「光的反射」敘述，正確畫○，不正確打〤。\n不鏽鋼湯匙會反光，是因為表面光滑。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "表面相對光滑的不鏽鋼湯匙可反射入射光。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_08",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 8,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q06|009",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        388.18,
+        451.73,
+        416.03,
+        466.68
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「光的反射」敘述，正確畫○，不正確打〤。(9 分)\n手電筒照鏡子的角度改變，反射方向也會改變。",
+      "student_scoreless_stem_projection": "下列關於「光的反射」敘述，正確畫○，不正確打〤。\n手電筒照鏡子的角度改變，反射方向也會改變。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "改變入射方向或鏡面角度，可使光的反射方向改變。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 9,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q08|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        388.18,
+        653.95,
+        416.03,
+        668.9
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「聲音」的敘述，正確畫○，不正確打〤。(6 分)\n物體發出聲音時，發聲部位會有振動現象。",
+      "student_scoreless_stem_projection": "下列關於「聲音」的敘述，正確畫○，不正確打〤。\n物體發出聲音時，發聲部位會有振動現象。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "發聲物體的發聲部位一般會振動。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 10,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q08|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        388.18,
+        670.75,
+        416.03,
+        685.7
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「聲音」的敘述，正確畫○，不正確打〤。(6 分)\n太空中沒有空氣，太空人面對面說話時，無法像在地球上一樣直接聽見聲音。",
+      "student_scoreless_stem_projection": "下列關於「聲音」的敘述，正確畫○，不正確打〤。\n太空中沒有空氣，太空人面對面說話時，無法像在地球上一樣直接聽見聲音。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "沒有傳聲介質時無法像空氣中直接傳播說話聲，太空人需透過通訊設備。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 11,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q08|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        388.18,
+        702.55,
+        416.03,
+        717.5
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「聲音」的敘述，正確畫○，不正確打〤。(6 分)\n動物可以透過聲音來進行求偶、警告或溝通等行為。",
+      "student_scoreless_stem_projection": "下列關於「聲音」的敘述，正確畫○，不正確打〤。\n動物可以透過聲音來進行求偶、警告或溝通等行為。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "動物可藉聲音求偶、溝通與發出警告。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 12,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q08|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        388.18,
+        734.35,
+        416.03,
+        749.3
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「聲音」的敘述，正確畫○，不正確打〤。(6 分)\n敲打造成的振動才能產生聲音，其他方式無法產生聲音。",
+      "student_scoreless_stem_projection": "下列關於「聲音」的敘述，正確畫○，不正確打〤。\n敲打造成的振動才能產生聲音，其他方式無法產生聲音。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "撥動、吹氣、摩擦等也可引起振動發聲，不只有敲打。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 13,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q08|006",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        388.18,
+        782.95,
+        416.08,
+        797.9
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「聲音」的敘述，正確畫○，不正確打〤。(6 分)\n聲音一定要透過物質傳播，才能使人聽見。",
+      "student_scoreless_stem_projection": "下列關於「聲音」的敘述，正確畫○，不正確打〤。\n聲音一定要透過物質傳播，才能使人聽見。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "聲音在介質中藉振動傳播，真空無法直接傳聲。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 14,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q10|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": [
+        50.16,
+        85.71,
+        78.01,
+        100.66
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「聲音和光的應用」敘述，正確的畫○，不正確打〤。(5 分)\n用手機的語音輸入搜尋資料。",
+      "student_scoreless_stem_projection": "下列關於「聲音和光的應用」敘述，正確的畫○，不正確打〤。\n用手機的語音輸入搜尋資料。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "語音輸入系統把聲音訊號轉換成文字搜尋指令。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 15,
+      "source_id": "SCI_G04_S1_114_FINAL_012|Q10|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": [
+        50.16,
+        119.31,
+        78.01,
+        134.26
+      ],
+      "full_original_stem_including_parent_instructions": "下列關於「聲音和光的應用」敘述，正確的畫○，不正確打〤。(5 分)\n手機地震速報的聲響是光的應用。",
+      "student_scoreless_stem_projection": "下列關於「聲音和光的應用」敘述，正確的畫○，不正確打〤。\n手機地震速報的聲響是光的應用。",
+      "source_parent_score_annotation_removed_for_student_view": true,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "地震速報的警報聲屬聲音應用，不是光的應用。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 16,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        49.32,
+        114.95,
+        79.52,
+        130.49
+      ],
+      "full_original_stem_including_parent_instructions": "水上芭蕾的表演者，在水中時可以聽到音樂，表示水可以傳播聲音。",
+      "student_scoreless_stem_projection": "水上芭蕾的表演者，在水中時可以聽到音樂，表示水可以傳播聲音。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "聲音可以在水等液體中傳遞。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 17,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        49.32,
+        169.55,
+        79.52,
+        185.09
+      ],
+      "full_original_stem_including_parent_instructions": "「根據資料顯示：月球上幾乎沒有空氣。」依此資訊判斷，月球上兩個人面對面說話時，無法像在地球上一樣直接傳播聲音。",
+      "student_scoreless_stem_projection": "「根據資料顯示：月球上幾乎沒有空氣。」依此資訊判斷，月球上兩個人面對面說話時，無法像在地球上一樣直接傳播聲音。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "月球近真空環境不適合聲音透過空氣直接傳播。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 18,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|007",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        49.32,
+        297.02,
+        79.52,
+        312.56
+      ],
+      "full_original_stem_including_parent_instructions": "交通號誌的不同燈色，可以管制交通。",
+      "student_scoreless_stem_projection": "交通號誌的不同燈色，可以管制交通。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "交通號誌以不同顏色光線指示行停。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_09",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 19,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S1|TF|010",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        49.32,
+        464.9,
+        79.52,
+        480.44
+      ],
+      "full_original_stem_including_parent_instructions": "進行「光的行進」實驗時，手電筒從排水軟管的一端照射，無論是彎曲或拉直排水軟管，光線都可以從另一端照射出來。",
+      "student_scoreless_stem_projection": "進行「光的行進」實驗時，手電筒從排水軟管的一端照射，無論是彎曲或拉直排水軟管，光線都可以從另一端照射出來。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "彎曲不透明軟管遮住直射路徑時，通常無法如直管透出照明光。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 20,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        49.32,
+        592.24,
+        79.52,
+        607.78
+      ],
+      "full_original_stem_including_parent_instructions": "如果阿忠將綠豆灑在正在發出聲音的鼓面上，可以觀察到哪一種現象？",
+      "student_scoreless_stem_projection": "如果阿忠將綠豆灑在正在發出聲音的鼓面上，可以觀察到哪一種現象？",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [
+        "①鼓面膨脹",
+        "②鼓面改變顏色",
+        "③綠豆變重",
+        "④綠豆在鼓面上跳動。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_independently_reasoned_answer": "④",
+      "science_explanation": "敲擊發聲時鼓面振動，綠豆會隨鼓面上下跳動。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 21,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        49.32,
+        742.99,
+        79.52,
+        758.53
+      ],
+      "full_original_stem_including_parent_instructions": "下列哪一種情況下可以觀察到明顯的反光情形？",
+      "student_scoreless_stem_projection": "下列哪一種情況下可以觀察到明顯的反光情形？",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [
+        "①汽車的燈光",
+        "②樹林間透出光線",
+        "③透明資料夾內頁在燈光下看起來亮亮的",
+        "④雷射筆的燈束呈一直線。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_independently_reasoned_answer": "③",
+      "science_explanation": "透明資料夾光滑表面可將燈光反射到眼睛，看到反光。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 22,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        49.32,
+        912.93,
+        79.52,
+        928.47
+      ],
+      "full_original_stem_including_parent_instructions": "耳朵貼在門板，可以聽到門外的聲音，代表哪一種物質可以傳播聲音？",
+      "student_scoreless_stem_projection": "耳朵貼在門板，可以聽到門外的聲音，代表哪一種物質可以傳播聲音？",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [
+        "①氣體",
+        "②固體",
+        "③液體",
+        "④以上都不是。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_independently_reasoned_answer": "②",
+      "science_explanation": "聲音能藉門板等固體振動傳遞。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_03",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 23,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|006",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        395.83,
+        92.03,
+        426.03,
+        107.57
+      ],
+      "full_original_stem_including_parent_instructions": "光照到物體時會產生影子，光、影子和物體的位置有什麼關係？",
+      "student_scoreless_stem_projection": "光照到物體時會產生影子，光、影子和物體的位置有什麼關係？",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [
+        "①光和影子的方向相反",
+        "②光和影子都在物體的右側",
+        "③光和影子都在物體的左側",
+        "④光和影子會在同一側。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_independently_reasoned_answer": "①",
+      "science_explanation": "影子一般出現在物體背向光源的一側。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 24,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|008",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        395.83,
+        260.87,
+        426.03,
+        276.41
+      ],
+      "full_original_stem_including_parent_instructions": "下列哪一個是生活中光的應用？",
+      "student_scoreless_stem_projection": "下列哪一個是生活中光的應用？",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [
+        "①廣告看板上的燈光能吸引路人注意",
+        "②鬧鈴會發出鈴響",
+        "③消防車開啟警示聲",
+        "④垃圾車用音樂提醒民眾倒垃圾。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_independently_reasoned_answer": "①",
+      "science_explanation": "廣告燈光吸引注意是生活中利用光的例子。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_10",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 25,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S2|MC|010",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": [
+        395.83,
+        449.06,
+        426.03,
+        464.6
+      ],
+      "full_original_stem_including_parent_instructions": "甲、乙兩種物體同時放在太陽底下，甲不容易看到反光情形，乙容易看到反光情形，由此可以推測出哪一種結果？",
+      "student_scoreless_stem_projection": "甲、乙兩種物體同時放在太陽底下，甲不容易看到反光情形，乙容易看到反光情形，由此可以推測出哪一種結果？",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [
+        "①甲物體表面比較粗糙、不平滑",
+        "②乙物體表面比較粗糙、不平滑",
+        "③甲、乙物體表面一樣粗糙、不平滑",
+        "④甲、乙物體表面一樣光滑。"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_independently_reasoned_answer": "①",
+      "science_explanation": "粗糙表面通常使光向多方向散射，較難形成明顯鏡面反光。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 26,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G02|008",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": [
+        40.32,
+        906.87,
+        82.46,
+        920.91
+      ],
+      "full_original_stem_including_parent_instructions": "2.生活中有許多聲音和光的應用，正確的打ˇ，不正確的打╳。\n門縫中透出的燈光是光的反射效果。",
+      "student_scoreless_stem_projection": "2.生活中有許多聲音和光的應用，正確的打ˇ，不正確的打╳。\n門縫中透出的燈光是光的反射效果。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "門縫透出來的燈光主要直接通過空隙，非鏡面反射。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 27,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G02|009",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": [
+        40.32,
+        925.11,
+        82.46,
+        939.15
+      ],
+      "full_original_stem_including_parent_instructions": "2.生活中有許多聲音和光的應用，正確的打ˇ，不正確的打╳。\n影子的形狀和物體的形狀相似，與光的直線前進無關。",
+      "student_scoreless_stem_projection": "2.生活中有許多聲音和光的應用，正確的打ˇ，不正確的打╳。\n影子的形狀和物體的形狀相似，與光的直線前進無關。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "遮光形成的影子與光直線傳播密切相關。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 28,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G02|010",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": [
+        40.32,
+        961.47,
+        82.46,
+        975.51
+      ],
+      "full_original_stem_including_parent_instructions": "2.生活中有許多聲音和光的應用，正確的打ˇ，不正確的打╳。\n路上的反光裝置可以提醒用路人，避免發生事故。",
+      "student_scoreless_stem_projection": "2.生活中有許多聲音和光的應用，正確的打ˇ，不正確的打╳。\n路上的反光裝置可以提醒用路人，避免發生事故。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "道路反光裝置將車燈反射給駕駛或路人，提升夜間安全。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_08",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 29,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G02|011",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": [
+        386.83,
+        30.27,
+        428.95,
+        44.31
+      ],
+      "full_original_stem_including_parent_instructions": "2.生活中有許多聲音和光的應用，正確的打ˇ，不正確的打╳。\n月光是月球表面反射太陽光而來。",
+      "student_scoreless_stem_projection": "2.生活中有許多聲音和光的應用，正確的打ˇ，不正確的打╳。\n月光是月球表面反射太陽光而來。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "月亮表面把太陽光反射到地球形成月光。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 30,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G02|012",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": [
+        386.83,
+        48.51,
+        428.95,
+        62.55
+      ],
+      "full_original_stem_including_parent_instructions": "2.生活中有許多聲音和光的應用，正確的打ˇ，不正確的打╳。\n用手握住發出聲音的三角鐵，可讓三角鐵聲音停止。",
+      "student_scoreless_stem_projection": "2.生活中有許多聲音和光的應用，正確的打ˇ，不正確的打╳。\n用手握住發出聲音的三角鐵，可讓三角鐵聲音停止。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "握住三角鐵使振動受到抑制，原有敲擊聲逐漸停止。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 31,
+      "source_id": "SCI_G04_S1_114_FINAL_013|S4|G02|014",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_013",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-shihu-g04s1-final34-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": [
+        386.83,
+        103.13,
+        428.95,
+        117.17
+      ],
+      "full_original_stem_including_parent_instructions": "2.生活中有許多聲音和光的應用，正確的打ˇ，不正確的打╳。\n說話時，手放在喉嚨上不會有振動的感覺。",
+      "student_scoreless_stem_projection": "2.生活中有許多聲音和光的應用，正確的打ˇ，不正確的打╳。\n說話時，手放在喉嚨上不會有振動的感覺。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "說話時聲帶振動，手摸喉嚨通常可感受振動。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_01",
+      "review_state": "MODEL_READY_FOR_FORMAL_SCIENCE_KP_GATE",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": []
+    },
+    {
+      "batch_ordinal": 32,
+      "source_id": "SCI_G04_S1_114_MID_002|S1|MC|005",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "下列哪一組水生植物的根部沒有長在土裡，且整株漂在水面上？",
+      "student_scoreless_stem_projection": "下列哪一組水生植物的根部沒有長在土裡，且整株漂在水面上？",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [
+        "①蓮花和荷花",
+        "②大萍和睡蓮",
+        "③布袋蓮和大萍",
+        "④水蘊草和布袋蓮"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_independently_reasoned_answer": "③",
+      "science_explanation": "布袋蓮和大萍通常是整株漂浮的水生植物，根不固定在底泥。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 33,
+      "source_id": "SCI_G04_S1_114_MID_002|S1|MC|006",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "太陽移動和影子的方位改變有什麼關係？",
+      "student_scoreless_stem_projection": "太陽移動和影子的方位改變有什麼關係？",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [
+        "①沒有關係",
+        "②太陽移動方向和影子方位改變一樣",
+        "③太陽會移動但影子的方位改變不會改變",
+        "④太陽移動方向和影子方位改變相反"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_independently_reasoned_answer": "④",
+      "science_explanation": "當太陽照射方向改變時，影子方向一般在物體另一側。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 34,
+      "source_id": "SCI_G04_S1_114_MID_002|S1|MC|009",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "珊瑚會生長在哪一種水域環境中？",
+      "student_scoreless_stem_projection": "珊瑚會生長在哪一種水域環境中？",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [
+        "①海洋",
+        "②埤塘",
+        "③溪流",
+        "④河海口交界"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_independently_reasoned_answer": "①",
+      "science_explanation": "造礁珊瑚主要生活於適宜的海水環境。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 35,
+      "source_id": "SCI_G04_S1_114_MID_002|S1|MC|010",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "下列哪些資料是進行水域環境調查時要紀錄的？",
+      "student_scoreless_stem_projection": "下列哪些資料是進行水域環境調查時要紀錄的？",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [
+        "①水生生物",
+        "②水域類型",
+        "③天氣",
+        "④以上都要"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_independently_reasoned_answer": "④",
+      "science_explanation": "水生物、環境類型和天氣都有助調查水域狀況。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 36,
+      "source_id": "SCI_G04_S1_114_MID_002|S1|MC|011",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "下列哪一種植物沒有通氣組織？",
+      "student_scoreless_stem_projection": "下列哪一種植物沒有通氣組織？",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [
+        "①荷花",
+        "②布袋蓮",
+        "③椰子樹",
+        "④睡蓮"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_independently_reasoned_answer": "③",
+      "science_explanation": "荷花、布袋蓮與睡蓮有水生通氣構造；椰子樹非典型水生植物。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_03",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 37,
+      "source_id": "SCI_G04_S1_114_MID_002|S1|MC|012",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "下列那個水生動物不用鰓呼吸？",
+      "student_scoreless_stem_projection": "下列那個水生動物不用鰓呼吸？",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [
+        "①鯉魚",
+        "②蓋斑鬥魚",
+        "③海豚",
+        "④蝌蚪"
+      ],
+      "question_type": "SINGLE_CHOICE",
+      "model_independently_reasoned_answer": "③",
+      "science_explanation": "海豚使用肺而非鰓呼吸。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_09",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 38,
+      "source_id": "SCI_G04_S1_114_MID_002|S2|TF|004",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "我們觀測太陽的位置變化時發現大樹上午的影子在西方。",
+      "student_scoreless_stem_projection": "我們觀測太陽的位置變化時發現大樹上午的影子在西方。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "一般上午太陽在東側，大樹影子位於相反西側。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 39,
+      "source_id": "SCI_G04_S1_114_MID_002|S2|TF|007",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "水生動物和水生植物生活在同一個水域不會互相影響。",
+      "student_scoreless_stem_projection": "水生動物和水生植物生活在同一個水域不會互相影響。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "同一水域裡的水生生物彼此會互相影響。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 40,
+      "source_id": "SCI_G04_S1_114_MID_002|S2|TF|009",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "輪船在海上漏油後，只要清除掉海面上的油汙就不會影響水生生物的生存。",
+      "student_scoreless_stem_projection": "輪船在海上漏油後，只要清除掉海面上的油汙就不會影響水生生物的生存。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "漏油可傷害海洋生物，清除可見海面油污也無法保證沒有後續影響。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_11",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 41,
+      "source_id": "SCI_G04_S1_114_MID_002|S2|TF|011",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "一天中太陽的位置貼水面置隨時間而變化，中午的影子最長。",
+      "student_scoreless_stem_projection": "一天中太陽的位置貼水面置隨時間而變化，中午的影子最長。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "通常接近正午時影子較短，不是最長。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_06",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 42,
+      "source_id": "SCI_G04_S1_114_MID_002|S2|TF|013",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "睡蓮的葉背有氣孔可以輸送空氣。",
+      "student_scoreless_stem_projection": "睡蓮的葉背有氣孔可以輸送空氣。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "睡蓮氣孔主要分布在浮葉上表面，所給 KP 為漂浮植物適應而非睡蓮浮葉性適應。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE",
+        "FLOATING_LEAVED_LILY_KP_MISMAPPED_AS_FREE_FLOATING_PLANT"
+      ]
+    },
+    {
+      "batch_ordinal": 43,
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G05|019",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "可以做哪些事情，愛護水域環境裡的各種生物呢？請在（ ）裡打ˇ，錯誤的打╳：\n不隨意丟垃圾。",
+      "student_scoreless_stem_projection": "可以做哪些事情，愛護水域環境裡的各種生物呢？請在（ ）裡打ˇ，錯誤的打╳：\n不隨意丟垃圾。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "不往水域亂丟垃圾有利維護環境。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_11",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 44,
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G05|020",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "可以做哪些事情，愛護水域環境裡的各種生物呢？請在（ ）裡打ˇ，錯誤的打╳：\n工廠汙水直接排到河流。",
+      "student_scoreless_stem_projection": "可以做哪些事情，愛護水域環境裡的各種生物呢？請在（ ）裡打ˇ，錯誤的打╳：\n工廠汙水直接排到河流。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "未處理工廠廢水直接入河可能污染水質及危害生物。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_11",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 45,
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G05|022",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "可以做哪些事情，愛護水域環境裡的各種生物呢？請在（ ）裡打ˇ，錯誤的打╳：\n參加淨灘活動。",
+      "student_scoreless_stem_projection": "可以做哪些事情，愛護水域環境裡的各種生物呢？請在（ ）裡打ˇ，錯誤的打╳：\n參加淨灘活動。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "參與淨灘可協助移除垃圾保護海岸生態。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_11",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 46,
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G07|029",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "在水中擠壓布袋蓮的葉柄，可以看到氣泡跑出來，這個發現能說明布袋蓮有哪些特性？請在（ ）裡打ˇ，錯誤的打╳：\n布袋蓮的葉柄含有空氣。",
+      "student_scoreless_stem_projection": "在水中擠壓布袋蓮的葉柄，可以看到氣泡跑出來，這個發現能說明布袋蓮有哪些特性？請在（ ）裡打ˇ，錯誤的打╳：\n布袋蓮的葉柄含有空氣。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "布袋蓮膨大葉柄內部含有氣體。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 47,
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G07|030",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "在水中擠壓布袋蓮的葉柄，可以看到氣泡跑出來，這個發現能說明布袋蓮有哪些特性？請在（ ）裡打ˇ，錯誤的打╳：\n布袋蓮的葉柄可以幫助它在水面上漂浮。",
+      "student_scoreless_stem_projection": "在水中擠壓布袋蓮的葉柄，可以看到氣泡跑出來，這個發現能說明布袋蓮有哪些特性？請在（ ）裡打ˇ，錯誤的打╳：\n布袋蓮的葉柄可以幫助它在水面上漂浮。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "O",
+      "science_explanation": "含氣葉柄提供浮力，幫助布袋蓮漂浮。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 48,
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G07|031",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "在水中擠壓布袋蓮的葉柄，可以看到氣泡跑出來，這個發現能說明布袋蓮有哪些特性？請在（ ）裡打ˇ，錯誤的打╳：\n布袋蓮的葉柄可以幫助它在水面上噴氣移動。",
+      "student_scoreless_stem_projection": "在水中擠壓布袋蓮的葉柄，可以看到氣泡跑出來，這個發現能說明布袋蓮有哪些特性？請在（ ）裡打ˇ，錯誤的打╳：\n布袋蓮的葉柄可以幫助它在水面上噴氣移動。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "布袋蓮不是依靠葉柄噴氣作動力在水面移動。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 49,
+      "source_id": "SCI_G04_S1_114_MID_002|S3|G07|032",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "在水中擠壓布袋蓮的葉柄，可以看到氣泡跑出來，這個發現能說明布袋蓮有哪些特性？請在（ ）裡打ˇ，錯誤的打╳：\n布袋蓮的葉柄遇到水容易爛掉。",
+      "student_scoreless_stem_projection": "在水中擠壓布袋蓮的葉柄，可以看到氣泡跑出來，這個發現能說明布袋蓮有哪些特性？請在（ ）裡打ˇ，錯誤的打╳：\n布袋蓮的葉柄遇到水容易爛掉。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "水生葉柄並非遇水便容易腐爛的構造。",
+      "proposed_canonical_kp_id": "sci_g04s1_02_04",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    },
+    {
+      "batch_ordinal": 50,
+      "source_id": "SCI_G04_S1_114_FINAL_002|S1|TF|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_content_ref": "data/content-only/p12-art9-114-heshun-g04s1-final35-original-questions-v1-content-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "source_bbox_pts_top_left": null,
+      "source_pdf_scan_only": true,
+      "full_original_stem_including_parent_instructions": "當光照在光滑的物體上時會產生反射，被反射的光會以曲線前進。",
+      "student_scoreless_stem_projection": "當光照在光滑的物體上時會產生反射，被反射的光會以曲線前進。",
+      "source_parent_score_annotation_removed_for_student_view": false,
+      "original_options_in_order": [],
+      "question_type": "TRUE_FALSE",
+      "model_independently_reasoned_answer": "X",
+      "science_explanation": "反射改變光的方向，並不使光在均勻介質中改成曲線傳播。",
+      "proposed_canonical_kp_id": "sci_g04s1_03_07",
+      "review_state": "EXCEPTION_HOLD",
+      "formal_science_approved": false,
+      "formal_kp_approved": false,
+      "site_admitted": false,
+      "exception_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ]
+    }
+  ]
+}

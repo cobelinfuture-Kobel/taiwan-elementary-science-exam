@@ -61,7 +61,8 @@ test("B04 runtime integrates with existing certified bank and preserves 251 prio
   "../data/question-bank/p12-b04-g04s1-yongan-mid9-public-v1.json":bankPath,
   "../data/question-bank/p12-b04-g04s1-chongde-mid6-public-v1.json":"site/data/question-bank/p12-b04-g04s1-chongde-mid6-public-v1.json",
   "../data/question-bank/p12-b04-b01-47-public-v1.json":"site/data/question-bank/p12-b04-b01-47-public-v1.json",
-  "../data/question-bank/p12-b04-b02-41-public-v1.json":"site/data/question-bank/p12-b04-b02-41-public-v1.json"
+  "../data/question-bank/p12-b04-b02-41-public-v1.json":"site/data/question-bank/p12-b04-b02-41-public-v1.json",
+  "../data/question-bank/p12-b04-b03-41-public-v1.json":"site/data/question-bank/p12-b04-b03-41-public-v1.json"
  };
  // Isolated fake fetch, no browser or external network.
  globalThis.fetch=async url=>{
@@ -70,7 +71,7 @@ test("B04 runtime integrates with existing certified bank and preserves 251 prio
  };
  try{
   const result=await loadEmbeddedHistoricalBank(authority);
-  assert.equal(result.certifiedAnswerSlots,354);
+  assert.equal(result.certifiedAnswerSlots,395);
   assert.equal(result.blocks.filter(x=>x.source_id==="SCI_G04_S1_114_MID_001").length,9);
  }finally{globalThis.fetch=originalFetch;}
 });

@@ -34,6 +34,7 @@ test("two untouched original school source PDFs have recomputed SHA, exact nativ
  const paper=audit.certified_two_source_pdfs.find(x=>x.pdf_sha256===b.source_pdf_sha256);
  assert.equal(b.stem,a.original_scoreless_stem_frozen);
  assert.deepEqual(b.source_pdf_bbox_pts_top_left,paper.original_marker_bbox_pts);
+ assert.equal(b.source_pdf_sha256,paper.pdf_sha256,"source original binary identity must be a required public block field");
  assert.equal(b.original_teacher_answer_key_authenticated,false);
  assert.ok(b.answer_assumption.includes("原校教師答案"));
  }

@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-selective27-live663-20261016",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-final16-live679-20261017",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 663 小題（328 題是非＋200 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 679 小題（344 題是非＋200 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
   const new113Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-selective27-public-v1.json",{cache:"no-cache"});
   assert.equal(new113Response.status(),200,"public Pages serves 113 G04S1 selective 27 source bank");
   const new113=await new113Response.json();
@@ -26,6 +26,14 @@ try {
   assert.deepEqual([new113.blocks.filter(b=>b.type==="tf").length,new113.blocks.filter(b=>b.type==="mcq").length],[15,12]);
   assert.ok(new113.blocks.every(b=>b.source_id?.includes("SCI_G04_S1_113_")&&b.grade===4&&b.semester===1&&b.source_pdf_sha256?.length===64&&b.original_cropped_assets_included===false));
   assert.ok(new113.blocks.every(b=>!["sci_g04s1_01_12","sci_g04s1_02_13","sci_g04s1_02_14"].includes(b.canonical_kp_id)),"preserve R5 frozen selector-only newly added KPs");
+  const nextResp=await page.request.get(base+"/data/question-bank/p12-g04s1-113-selective-final16-public-v1.json",{cache:"no-cache"});
+  assert.equal(nextResp.status(),200,"Pages serves source-verified additive 113 final-term 16 TF bank");
+  const final16=await nextResp.json();
+  assert.deepEqual([final16.expected_blocks,final16.expected_answer_slots,final16.expected_standalone_true_false],[16,16,16]);
+  assert.equal(final16.blocks.length,16);
+  assert.equal(new Set(final16.blocks.map(b=>b.source_slot_id)).size,16);
+  assert.ok(final16.blocks.every(b=>b.type==="tf"&&["O","X"].includes(b.answer)&&b.grade===4&&b.semester===1&&b.source_pdf_sha256?.length===64&&b.original_cropped_assets_included===false));
+  assert.ok(final16.blocks.every(b=>!["sci_g04s1_01_12","sci_g04s1_02_13","sci_g04s1_02_14"].includes(b.canonical_kp_id)),"final16 does not auto-admit R5 selector-only KPs");
   assert.equal(await page.locator("#unit option").count(),4,"live unit selector present");
   assert.ok(await page.locator("#kp option").count()>0,"live KP selector populated");
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","public default question can generate: "+status);
@@ -223,7 +231,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 663 slots (636 prior + 27 formally accepted 113 school original sources)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 679 slots (636 prior + 27 earlier 113 + 16 final-term certified 113 source items)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

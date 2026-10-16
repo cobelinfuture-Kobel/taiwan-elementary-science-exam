@@ -82,7 +82,7 @@ test("B04 runtime integrates with existing certified bank and preserves 251 prio
  };
  try{
   const result=await loadEmbeddedHistoricalBank(authority);
-  assert.equal(result.certifiedAnswerSlots,629);
+  assert.equal(result.certifiedAnswerSlots,631);
   assert.equal(result.blocks.filter(x=>x.source_id==="SCI_G04_S1_114_MID_001").length,9);
  }finally{globalThis.fetch=originalFetch;}
 });

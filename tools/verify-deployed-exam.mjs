@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-e01-post46-anhe-wind-live630-20261016",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-e01-post45-scan9-two-live632-20261016",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 630 小題（308 題是非＋187 題單選＋36 組情境）"),"Live site must load current pinned assets: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 632 小題（309 題是非＋188 題單選＋36 組情境）"),"Live site must load current pinned assets: "+info+"; status="+status);
   assert.equal(await page.locator("#unit option").count(),4,"live unit selector present");
   assert.ok(await page.locator("#kp option").count()>0,"live KP selector populated");
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","public default question can generate: "+status);
@@ -189,7 +189,16 @@ try {
   assert.equal(await page.locator("#status").getAttribute("data-error"),"true","R5 water-safety KP has no certified item; refuse substitute");
   assert.ok((await page.locator("#status").textContent()).includes("題庫不足：可用 0 小題"),"R5 empty KP must fail closed with zero");
   await page.screenshot({path:"artifacts/deployed-browser/r5-190kp-new3-failclosed.png",fullPage:true});
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 630 slots (629 prior + 1 Anhe wind original TF)");
+  const scan9resp=await page.request.get(base+"/data/question-bank/p12-e01-post45-puren2-public-v1.json",{cache:"no-cache"});
+  assert.equal(scan9resp.status(),200,"actual Pages serves Scan9 2-source selective bank");
+  const scan9bank=await scan9resp.json();
+  assert.deepEqual(scan9bank.blocks.map(x=>x.source_slot_id),[
+   "SCI_G04_S1_114_MID_009|S1|MC|013","SCI_G04_S1_114_MID_009|S3|G01|005"
+  ]);
+  assert.deepEqual(scan9bank.blocks.map(x=>x.answer),["④","X"]);
+  assert.deepEqual(scan9bank.blocks.map(x=>x.canonical_kp_id),["sci_g04s1_01_03","sci_g04s1_01_10"]);
+  assert.ok(scan9bank.blocks.every(x=>x.original_cropped_assets_included===false));
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 632 slots (630 prior + 1 Puren original MC + 1 Puren original TF)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

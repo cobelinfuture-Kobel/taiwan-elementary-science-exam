@@ -1,10 +1,15 @@
 export const AUTHORITY_SCHEMA = "SCIENCE_G03_G04_PUBLIC_SELECTOR_V2";
+export const AUTHORITY_SCHEMA_V3 = "SCIENCE_G03_G04_PUBLIC_SELECTOR_V3";
 const EXPECTED = new Map([["3-1","14,12,11,10"],["3-2","12,12,12,13"],["4-1","11,12,10,12"],["4-2","12,11,12,11"]]);
+const EXPECTED_V3 = new Map([["3-1","14,12,11,10"],["3-2","12,12,12,13"],["4-1","12,14,10,12"],["4-2","12,11,12,11"]]);
 export function validateAuthority(value) {
-  if (!value || value.schema_version !== AUTHORITY_SCHEMA || value.projection_purpose !== "selector_only") throw new Error("KP Authority 版本不相容");
+  const isV3=value?.schema_version===AUTHORITY_SCHEMA_V3;
+  const expectedByTerm=isV3?EXPECTED_V3:EXPECTED;
+  const expectedTotal=isV3?190:187;
+  if (!value || ![AUTHORITY_SCHEMA,AUTHORITY_SCHEMA_V3].includes(value.schema_version) || value.projection_purpose !== "selector_only") throw new Error("KP Authority 版本不相容");
   if (!Array.isArray(value.sources) || value.sources.length !== 4 || !Array.isArray(value.units) || value.units.length !== 16) throw new Error("KP Authority 四學期／16 單元不完整");
   const legacy = new Set(), canonical = new Set();
-  for(const [scope, expected] of EXPECTED) {
+  for(const [scope, expected] of expectedByTerm) {
     const [g,s] = scope.split("-").map(Number);
     const rows = value.units.filter(u => u.grade === g && u.semester === s).sort((a,b) => a.unit_id.localeCompare(b.unit_id));
     if(rows.map(u=>u.knowledge_points?.length).join(",") !== expected || rows.map(u=>u.unit_id).join(",") !== "U01,U02,U03,U04") throw new Error("KP 單元範圍或數量不符：" + scope);
@@ -20,7 +25,14 @@ export function validateAuthority(value) {
       }
     }
   }
-  if(legacy.size!==187||canonical.size!==187||value.counts?.knowledge_points!==187||value.counts?.units!==16)throw new Error("KP 187 筆完整性失敗");
+  if(legacy.size!==expectedTotal||canonical.size!==expectedTotal||value.counts?.knowledge_points!==expectedTotal||value.counts?.units!==16)throw new Error(`KP ${expectedTotal} 筆完整性失敗`);
+  if(isV3){
+    if(value.authority_revision?.activation_level!=="EXAM_SELECTOR_ONLY_NO_QUESTION_REMAP"||value.authority_revision?.new_question_admission_count!==0||value.authority_revision?.operator_approved_added_kps!==3)throw new Error("190 KP 切換治理缺失");
+    const g4s1=value.sources.find(x=>x.grade===4&&x.semester===1);
+    if(g4s1?.sha256!=="0422cbbbf685d20cf2389ecc37fda147291b309ae486f49b16c0c5ba86193389")throw new Error("48-KP 私有 Authority SHA 不符");
+    const additions=[["U01","sci_g04s1_01_12"],["U02","sci_g04s1_02_13"],["U02","sci_g04s1_02_14"]];
+    for(const [unit,id] of additions){if(!value.units.find(x=>x.grade===4&&x.semester===1&&x.unit_id===unit)?.knowledge_points.some(k=>k.canonical_kp_id===id))throw new Error("R4 新增 KP 遺失");}
+  }
   if(value.assessment_scope?.MIDTERM?.join(",")!=="U01,U02"||value.assessment_scope?.FINAL?.join(",")!=="U03,U04")throw new Error("期中期末範圍不符");
   if(value.question_bank_status!=="DEMO_ONLY_NOT_CERTIFIED")throw new Error("題庫狀態不符");
   return value;
@@ -34,7 +46,7 @@ export function resolveUnit(authority,unitKey){
   const found=/^([34])-S([12])-(U0[1-4])$/.exec(String(unitKey));
   return found?authority.units.find(u=>u.grade===Number(found[1])&&u.semester===Number(found[2])&&u.unit_id===found[3])??null:null;
 }
-export async function loadAuthority(url="../data/authority/science-g03-g04-selector-v2.json"){
+export async function loadAuthority(url="../data/authority/science-g03-g04-selector-v3.json"){
   const response=await fetch(url,{cache:"no-cache"});
   if(!response.ok)throw new Error("讀取正式 KP 選單資料失敗");
   return validateAuthority(await response.json());

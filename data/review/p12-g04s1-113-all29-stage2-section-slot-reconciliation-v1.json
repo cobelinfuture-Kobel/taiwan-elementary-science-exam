@@ -8,9 +8,9 @@
   "scan_pdf_visual_exam_pages_recovered": 5,
   "scan_pdf_section_response_positions": 262,
   "one_native_original_exam_printed_section_response_positions": 64,
-  "section_reconciled_source_papers": 9,
-  "original_response_positions_section_reconciled": 526,
-  "remaining_native_source_papers_to_exactly_count": 20,
+  "section_reconciled_source_papers": 13,
+  "original_response_positions_section_reconciled": 821,
+  "remaining_native_source_papers_to_exactly_count": 16,
   "one_native_paper_independently_provisional_science_answer_count": 54,
   "one_native_paper_answer_or_picture_hold_count": 10,
   "one_native_paper_corrected_native_numbered_start_count": 31,
@@ -616,9 +616,30 @@
       "publisher_from_filename": "康軒",
       "original_exam_type": "FINAL",
       "scan_only": false,
-      "original_visual_section_answer_positions": null,
-      "visually_counted_source_sections": null,
-      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "original_visual_section_answer_positions": 81,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "是非題",
+          "answer_positions": 6
+        },
+        {
+          "section": "S2",
+          "printed_section": "連連看",
+          "answer_positions": 12
+        },
+        {
+          "section": "S3",
+          "printed_section": "勾選題",
+          "answer_positions": 22
+        },
+        {
+          "section": "S4",
+          "printed_section": "題組回答問題：六組",
+          "answer_positions": 41
+        }
+      ],
+      "section_count_status": "NATIVE_SOURCE_TEXT_PRINTED_SUBRESPONSE_INVENTORY_RECONCILED__ORIGINAL_PAGE_GEOMETRY_PENDING",
       "direct_current48kp_and_unique_science_completed": false,
       "site_admission_eligible_now": false,
       "prior_provisional_native_candidate_starts": 28
@@ -661,9 +682,40 @@
       "publisher_from_filename": "康軒",
       "original_exam_type": "FINAL",
       "scan_only": false,
-      "original_visual_section_answer_positions": null,
-      "visually_counted_source_sections": null,
-      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "original_visual_section_answer_positions": 54,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "是非題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S2",
+          "printed_section": "選擇題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S3",
+          "printed_section": "綜合題：單答案格、多個配對及勾選",
+          "answer_positions": 26
+        },
+        {
+          "section": "S4",
+          "printed_section": "素養題：選擇、勾選",
+          "answer_positions": 5
+        },
+        {
+          "section": "S5",
+          "printed_section": "畫圖題",
+          "answer_positions": 1
+        },
+        {
+          "section": "S6",
+          "printed_section": "科學閱讀",
+          "answer_positions": 2
+        }
+      ],
+      "section_count_status": "NATIVE_SOURCE_TEXT_PRINTED_SUBRESPONSE_INVENTORY_RECONCILED__ORIGINAL_PAGE_GEOMETRY_PENDING",
       "direct_current48kp_and_unique_science_completed": false,
       "site_admission_eligible_now": false,
       "prior_provisional_native_candidate_starts": 31
@@ -676,9 +728,25 @@
       "publisher_from_filename": "康軒",
       "original_exam_type": "FINAL",
       "scan_only": false,
-      "original_visual_section_answer_positions": null,
-      "visually_counted_source_sections": null,
-      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "original_visual_section_answer_positions": 92,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "單選題",
+          "answer_positions": 5
+        },
+        {
+          "section": "S2_G1-G12",
+          "printed_section": "根據題意回答問題：12個群組，含繪圖／電路圖",
+          "answer_positions": 81
+        },
+        {
+          "section": "S3",
+          "printed_section": "科學閱讀",
+          "answer_positions": 6
+        }
+      ],
+      "section_count_status": "NATIVE_SOURCE_TEXT_PRINTED_SUBRESPONSE_INVENTORY_RECONCILED__ORIGINAL_PAGE_GEOMETRY_PENDING",
       "direct_current48kp_and_unique_science_completed": false,
       "site_admission_eligible_now": false,
       "prior_provisional_native_candidate_starts": 23
@@ -737,9 +805,30 @@
       "publisher_from_filename": "翰林",
       "original_exam_type": "MID",
       "scan_only": false,
-      "original_visual_section_answer_positions": null,
-      "visually_counted_source_sections": null,
-      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "original_visual_section_answer_positions": 68,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "是非題",
+          "answer_positions": 15
+        },
+        {
+          "section": "S2",
+          "printed_section": "選擇題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S3",
+          "printed_section": "勾選題：五組",
+          "answer_positions": 25
+        },
+        {
+          "section": "S4",
+          "printed_section": "應用題：月相圖、紀錄與判斷",
+          "answer_positions": 18
+        }
+      ],
+      "section_count_status": "NATIVE_SOURCE_TEXT_PRINTED_SUBRESPONSE_INVENTORY_RECONCILED__ORIGINAL_PAGE_GEOMETRY_PENDING",
       "direct_current48kp_and_unique_science_completed": false,
       "site_admission_eligible_now": false,
       "prior_provisional_native_candidate_starts": 32
@@ -791,5 +880,7 @@
     }
   ],
   "native_additional_113_mid_reconciled_papers": 3,
-  "native_additional_answer_positions": 200
+  "native_additional_answer_positions": 200,
+  "native_additional_113_complex_reconciled_papers": 4,
+  "native_additional_complex_response_positions": 295
 }

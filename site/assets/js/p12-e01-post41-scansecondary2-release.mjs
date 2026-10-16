@@ -10,6 +10,7 @@ export function validateAndConvertP12E01Post41ScanSecondary2(v,a){
  gate(v?.schema_version==="SCIENCE_P12_E01_POST41_SCANSECONDARY_TWO_PUBLIC_V1"&&v.public_site_integrated===true&&v.expected_answer_slots===2&&v.expected_blocks===2&&v.expected_standalone_true_false===2&&v.expected_standalone_choice===0&&v.original_teacher_answer_key_authenticated===false&&v.original_cropped_images_included===false&&v.source_image_geometry_verified==="DIRECT_RASTER_SOURCE_PIXEL_BBOX"&&v.evidence_ref==="data/review/p12-e01-post41-scansecondary6-source-science-kp-dedup-v1.json"&&v.blocks?.length===2);
  for(let i=0;i<2;i++){const b=v.blocks[i],x=e[i],u=resolveUnit(a,b.unit);
   gate(eq([b.source_slot_id,b.answer,b.canonical_kp_id,b.source_pdf_sha256,b.source_pdf_bbox_pts_top_left,b.stem],x));
+  gate(!Object.hasOwn(b,"source_image_answer_marker_pixel_bbox_upright"));
   gate(b.type==="tf"&&b.operator_publication_approval===true&&b.dependency_review_verified===true&&b.original_teacher_answer_key_authenticated===false&&b.original_cropped_assets_included===false&&b.copyright_path==="SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES");
   gate(u?.knowledge_points.some(k=>k.canonical_kp_id===b.canonical_kp_id));
   gate(eq(b.secondary_canonical_kp_ids||[],i?["sci_g04s1_04_09"]:[]));

@@ -1,0 +1,47 @@
+{
+  "schema_version": "SCIENCE_P12_E01_POST46_ANHE_WIND1_PUBLIC_V1",
+  "public_site_integrated": true,
+  "expected_blocks": 1,
+  "expected_answer_slots": 1,
+  "expected_standalone_true_false": 1,
+  "expected_standalone_choice": 0,
+  "expected_context_groups": 0,
+  "original_teacher_answer_key_authenticated": false,
+  "original_cropped_images_included": false,
+  "original_frozen47_exceptions_immutable": true,
+  "existing_629_answer_slots_preserved": true,
+  "evidence_ref": "data/review/p12-e01-post46-anhe-wind-original-pdf-science-r4-bbox-formal-acceptance-v1.json",
+  "blocks": [
+    {
+      "id": "P12_E01_POST46_ANHE_MID_WIND_TF_004",
+      "source_id": "SCI_G04_S1_114_MID_006",
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|004",
+      "source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        33.6,
+        317.72,
+        61.46,
+        331.64
+      ],
+      "original_question_number": "004",
+      "grade": 4,
+      "semester": 1,
+      "unit": "4-S1-U01",
+      "canonical_kp_id": "sci_g04s1_01_12",
+      "type": "tf",
+      "stem": "風力的作用與流水一樣，作用力越強，顆粒越小的物質會移動得越遠。",
+      "answer": "O",
+      "answer_explanation": "在同類、乾燥、可比較的鬆散地表物質實驗中，風和流水都能搬運並堆積顆粒；作用較強時通常能搬運較多或較遠，較細小顆粒一般較容易移動得遠，因此依四年級實驗概念判為○。實際搬運還受土壤含水量、顆粒密度與凝聚程度、風向及障礙物等影響，不能解讀成所有條件下顆粒越小必定越遠。",
+      "answer_assumption": "以課本常見的礫石、沙、土壤比較實驗與可比較的乾燥條件判讀；一般趨勢而非無條件物理定律。模型獨立科學判答，不是原校教師核定答案。",
+      "source": "P12_OPERATOR_APPROVED_QUESTION",
+      "certification_status": "OPERATOR_APPROVED_PUBLIC",
+      "operator_publication_approval": true,
+      "original_teacher_answer_key_authenticated": false,
+      "original_cropped_assets_included": false,
+      "dependency_review_verified": true,
+      "copyright_path": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "evidence_ref": "data/review/p12-e01-post46-anhe-wind-original-pdf-science-r4-bbox-formal-acceptance-v1.json"
+    }
+  ]
+}

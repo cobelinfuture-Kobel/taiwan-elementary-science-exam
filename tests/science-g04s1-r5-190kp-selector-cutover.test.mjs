@@ -1,0 +1,70 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import {readFileSync,readdirSync} from "node:fs";
+import {validateAuthority,unitsFor,resolveUnit} from "../site/assets/js/authority-adapter.mjs";
+const read=p=>JSON.parse(readFileSync(p,"utf8"));
+const legacy=read("site/data/authority/science-g03-g04-selector-v2.json");
+const active=read("site/data/authority/science-g03-g04-selector-v3.json");
+const shadow=read("data/governance/science-g04s1-kp-additive-r4-shadow-v1.json");
+const remap=read("data/review/science-g04s1-kp-additive-r4-remap-queue-v1.json");
+const newIds=["sci_g04s1_01_12","sci_g04s1_02_13","sci_g04s1_02_14"];
+test("R5 187-KP frozen selector remains valid alongside additive 190-KP V3",()=>{
+ assert.equal(validateAuthority(legacy),legacy);
+ assert.equal(validateAuthority(active),active);
+ assert.equal(legacy.counts.knowledge_points,187);
+ assert.equal(active.counts.knowledge_points,190);
+ assert.equal(legacy.schema_version,"SCIENCE_G03_G04_PUBLIC_SELECTOR_V2");
+ assert.equal(active.schema_version,"SCIENCE_G03_G04_PUBLIC_SELECTOR_V3");
+ assert.deepEqual(unitsFor(active,4,1).map(u=>u.knowledge_points.length),[12,14,10,12]);
+ assert.equal(unitsFor(active,4,2).reduce((a,u)=>a+u.knowledge_points.length,0),46);
+});
+test("R5 exactly preserves original 187 KP titles/IDs and their order",()=>{
+ assert.deepEqual(active.assessment_scope,legacy.assessment_scope);
+ assert.equal(active.units.length,legacy.units.length);
+ const added=[];
+ for(const [i,original] of legacy.units.entries()){
+   const current=active.units[i];
+   assert.equal(current.grade,original.grade);
+   assert.equal(current.semester,original.semester);
+   assert.equal(current.unit_id,original.unit_id);
+   assert.equal(current.unit_title,original.unit_title);
+   assert.deepEqual(current.knowledge_points.slice(0,original.knowledge_points.length),original.knowledge_points);
+   added.push(...current.knowledge_points.slice(original.knowledge_points.length));
+ }
+ assert.deepEqual(added.map(x=>x.canonical_kp_id),newIds);
+ assert.deepEqual(added.map(x=>x.title),shadow.added_kps.map(x=>x.title));
+ assert.deepEqual(added.map(x=>x.kp_id),shadow.added_kps.map(x=>x.kp_id));
+ assert.equal(active.sources.find(x=>x.grade===4&&x.semester===1).sha256,shadow.private_v2.sha256);
+ assert.equal(active.sources.find(x=>x.grade===3&&x.semester===1).sha256,legacy.sources.find(x=>x.grade===3&&x.semester===1).sha256);
+ assert.equal(active.counts.knowledge_points-legacy.counts.knowledge_points,3);
+});
+test("R5 fail-closed when new KP missing or duplicated",()=>{
+ const missing=structuredClone(active);
+ missing.units.find(x=>x.grade===4&&x.semester===1&&x.unit_id==="U02").knowledge_points.pop();
+ assert.throws(()=>validateAuthority(missing));
+ const duplicate=structuredClone(active);
+ const newItem=duplicate.units.find(x=>x.grade===4&&x.semester===1&&x.unit_id==="U01").knowledge_points.at(-1);
+ newItem.canonical_kp_id="sci_g04s1_01_05";
+ assert.throws(()=>validateAuthority(duplicate));
+ const wrongSource=structuredClone(active);
+ wrongSource.sources.find(x=>x.grade===4&&x.semester===1).sha256="b".repeat(64);
+ assert.throws(()=>validateAuthority(wrongSource));
+});
+test("new KPs appear in selectors but no certified public questions are automatically added",()=>{
+ const sourceFiles=readdirSync("site/data/question-bank").filter(name=>name.endsWith(".json"));
+ for(const name of sourceFiles){
+   const bytes=readFileSync("site/data/question-bank/"+name,"utf8");
+   for(const id of newIds)assert.equal(bytes.includes(id),false,name+" must not auto-admit "+id);
+ }
+ assert.equal(remap.public_admission_count,0);
+ assert.equal(remap.published_question_changes,0);
+ assert.equal(remap.known_exact_candidate_matches[0].source_visual_bbox_certified,false);
+ assert.equal(remap.known_exact_candidate_matches[0].site_admitted,false);
+ assert.equal(active.authority_revision.activation_level,"EXAM_SELECTOR_ONLY_NO_QUESTION_REMAP");
+ assert.equal(active.authority_revision.new_question_admission_count,0);
+ assert.equal(resolveUnit(active,"4-S1-U02").knowledge_points.at(-1).title,"水域調查安全與尊重水生生物");
+});
+test("V3 projection publishes no private statement or textbook quote",()=>{
+ for(const unit of active.units)for(const kp of unit.knowledge_points)
+   assert.deepEqual(Object.keys(kp).sort(),["canonical_kp_id","kp_id","title"]);
+});

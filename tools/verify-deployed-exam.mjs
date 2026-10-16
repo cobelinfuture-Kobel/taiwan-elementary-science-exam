@@ -12,12 +12,20 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-taozijiao-final17-live716-20261017",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-taozijiao-final-remaining8-live724-20261017",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 716 小題（361 題是非＋220 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 724 小題（369 題是非＋220 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  const remaining8Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-taozijiao-final-remaining8-public-v1.json",{cache:"no-cache"});
+  assert.equal(remaining8Response.status(),200,"Pages must deploy eight additional original TF");
+  const remaining8Bank=await remaining8Response.json();
+  assert.deepEqual([remaining8Bank.expected_blocks,remaining8Bank.expected_answer_slots,remaining8Bank.expected_standalone_true_false],[8,8,8]);
+  assert.equal(remaining8Bank.blocks.length,8);
+  assert.equal(new Set(remaining8Bank.blocks.map(b=>b.source_slot_id)).size,8);
+  assert.ok(remaining8Bank.blocks.every(b=>b.source_id==="SCI_G04_S1_113_FINAL_008"&&b.source_page_pdf_1_based===1
+     &&b.source_pdf_bbox_pts_top_left?.length===4&&b.original_cropped_assets_included===false));
   const new113Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-selective27-public-v1.json",{cache:"no-cache"});
   assert.equal(new113Response.status(),200,"public Pages serves 113 G04S1 selective 27 source bank");
   const new113=await new113Response.json();
@@ -258,7 +266,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 716 slots (636 baseline + 27 first 113 + 16 final TF + 11 midterm MC + 9 final MC + 17 Taizijiao final TF)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 724 slots (636 baseline + 27 first 113 + 16 final TF + 11 midterm MC + 9 final MC + 17 Taizijiao first TF + 8 remaining TF)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

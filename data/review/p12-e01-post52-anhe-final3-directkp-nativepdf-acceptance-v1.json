@@ -1,0 +1,182 @@
+{
+  "schema_version": "P12_E01_POST52_ANHE_FINAL3_NATIVE_PDF_DIRECTKP_ACCEPTANCE_V1",
+  "main_baseline": "9e1d8dd17e275749cd02dca61b2c82df1cc4fd27",
+  "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+  "source_pdf_original_drive_file_id": "1dRJk3FJ_Ua_FFl8tla30iMbMzgcQfbGz",
+  "original_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+  "original_source_pdf_binary_size_bytes": 365111,
+  "original_pdf_pages": 2,
+  "native_text_layer_glyph_bbox_verified": true,
+  "original_pdf_SHA256_from_raw_download_verified": true,
+  "source_pdf_image_rendered_and_visually_inspected": true,
+  "published_image_assets": false,
+  "original_school_teacher_key_authenticated": false,
+  "original_exception_ledger_immutable": true,
+  "baseline_remaining_source_slots": 52,
+  "admission_candidates": 3,
+  "remaining_if_verified_success": 49,
+  "public_answer_slots_pre": 623,
+  "public_answer_slots_post_success": 626,
+  "release_candidate_tf": 2,
+  "release_candidate_mc": 1,
+  "source_exact_stems_and_options_verified": true,
+  "proposed_kp_repair_via_existing_title": "sci_g04s1_03_09 — 聲與光的警示和指示用途",
+  "cross_public_bank_source_exact_stem_duplicate_count": 0,
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|002",
+      "previous_frozen_batch_exception_flags": [
+        "CO_ALARM_WARNING_FUNCTION_VS_LIGHT_ONLY_KP_MISMATCH"
+      ],
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "postcloseout52_classification_ref": "data/review/p12-e01-postcloseout-remaining52-source-classification-v1.json",
+      "original_source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_page_1_based": 1,
+      "source_pdf_has_native_text_layer": true,
+      "source_pdf_original_rotation_deg": 0,
+      "source_pdf_page_size_pts": [
+        728.28,
+        1031.64
+      ],
+      "original_pdf_raster_engine": "PyMuPDF Matrix(1.6,1.6)",
+      "rendered_page_image_size_px": [
+        1166,
+        1651
+      ],
+      "rendered_page_rgb_sha256": "437a99121f2a33ecc378e1f2caeb88dd369f2cbc3ec8362cd10ccdff0562a15e",
+      "original_pdf_source_bbox_points_top_left": [
+        56.64,
+        257.68,
+        93.83,
+        276.59
+      ],
+      "original_native_marker_text": "(    )",
+      "native_bbox_glyph_text_verified": true,
+      "original_printed_stem_exact": "一氧化碳偵測警報器是一種具有警示功能的物品。",
+      "original_full_options_exact": [],
+      "model_science_unique_answer": "O",
+      "independently_rechecked_science_reason": "一氧化碳偵測警報器會透過聲音或燈光提示一氧化碳危險，屬於聲與光的警示功能。",
+      "science_direct_recheck_reason_code": "CO_ALARM_SOUNDS_OR_LIGHTS_CONSTITUTE_WARNING",
+      "direct_kp_id": "sci_g04s1_03_09",
+      "direct_kp_title": "聲與光的警示和指示用途",
+      "original_KP_id_unchanged": true,
+      "exception_scope_repair": "AUTHORITATIVE_KP_TITLE_EXPLICITLY_COVERS_BOTH_SOUND_AND_LIGHT_WARNING; NO_NEW_AUTHORITY",
+      "duplicate_exact_full_stem_in_published_bank": false,
+      "source_text_only_no_third_party_media": true,
+      "original_pdf_no_public_image": true,
+      "original_school_answer_key_authenticated": false,
+      "standalone_no_media_parent": true,
+      "public_block_id": "P12_E01_POST52_ANHE_TF_001",
+      "release_status": "FORMAL_PUBLISH_ONLY_IF_PR_CI_MAIN_PAGES_ALL_PASS"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|014",
+      "previous_frozen_batch_exception_flags": [
+        "SOUND_WARNING_QUESTION_MAPPED_TO_LIGHT_WARNING_KP"
+      ],
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "postcloseout52_classification_ref": "data/review/p12-e01-postcloseout-remaining52-source-classification-v1.json",
+      "original_source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_page_1_based": 1,
+      "source_pdf_has_native_text_layer": true,
+      "source_pdf_original_rotation_deg": 0,
+      "source_pdf_page_size_pts": [
+        728.28,
+        1031.64
+      ],
+      "original_pdf_raster_engine": "PyMuPDF Matrix(1.6,1.6)",
+      "rendered_page_image_size_px": [
+        1166,
+        1651
+      ],
+      "rendered_page_rgb_sha256": "437a99121f2a33ecc378e1f2caeb88dd369f2cbc3ec8362cd10ccdff0562a15e",
+      "original_pdf_source_bbox_points_top_left": [
+        56.53,
+        657.6,
+        93.72,
+        676.51
+      ],
+      "original_native_marker_text": "(    )",
+      "native_bbox_glyph_text_verified": true,
+      "original_printed_stem_exact": "地震時，手機會用警報聲來提醒民眾注意，這是利用聲音來警示危險。",
+      "original_full_options_exact": [],
+      "model_science_unique_answer": "O",
+      "independently_rechecked_science_reason": "地震警報可以利用手機發出聲響提醒民眾危險，是聲音警示的例子。",
+      "science_direct_recheck_reason_code": "EARTHQUAKE_PHONE_SOUND_WARNING_IS_DIRECT_KP",
+      "direct_kp_id": "sci_g04s1_03_09",
+      "direct_kp_title": "聲與光的警示和指示用途",
+      "original_KP_id_unchanged": true,
+      "exception_scope_repair": "AUTHORITATIVE_KP_TITLE_EXPLICITLY_COVERS_BOTH_SOUND_AND_LIGHT_WARNING; NO_NEW_AUTHORITY",
+      "duplicate_exact_full_stem_in_published_bank": false,
+      "source_text_only_no_third_party_media": true,
+      "original_pdf_no_public_image": true,
+      "original_school_answer_key_authenticated": false,
+      "standalone_no_media_parent": true,
+      "public_block_id": "P12_E01_POST52_ANHE_TF_002",
+      "release_status": "FORMAL_PUBLISH_ONLY_IF_PR_CI_MAIN_PAGES_ALL_PASS"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|002",
+      "previous_frozen_batch_exception_flags": [
+        "BICYCLE_BELL_LIGHT_REFLECTOR_MIXED_MODALITY_KP"
+      ],
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "postcloseout52_classification_ref": "data/review/p12-e01-postcloseout-remaining52-source-classification-v1.json",
+      "original_source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_page_1_based": 1,
+      "source_pdf_has_native_text_layer": true,
+      "source_pdf_original_rotation_deg": 0,
+      "source_pdf_page_size_pts": [
+        728.28,
+        1031.64
+      ],
+      "original_pdf_raster_engine": "PyMuPDF Matrix(1.6,1.6)",
+      "rendered_page_image_size_px": [
+        1166,
+        1651
+      ],
+      "rendered_page_rgb_sha256": "437a99121f2a33ecc378e1f2caeb88dd369f2cbc3ec8362cd10ccdff0562a15e",
+      "original_pdf_source_bbox_points_top_left": [
+        56.28,
+        841.67,
+        104.28,
+        853.67
+      ],
+      "original_native_marker_text": "（  ）",
+      "native_bbox_glyph_text_verified": true,
+      "original_printed_stem_exact": "腳踏車加裝什麼物品可以增加騎乘的安全性?",
+      "original_full_options_exact": [
+        {
+          "label": "①",
+          "text": "反光板"
+        },
+        {
+          "label": "②",
+          "text": "車鈴"
+        },
+        {
+          "label": "③",
+          "text": "車燈"
+        },
+        {
+          "label": "④",
+          "text": "以上皆是。"
+        }
+      ],
+      "model_science_unique_answer": "④",
+      "independently_rechecked_science_reason": "反光板反射光、車鈴發出聲響、車燈增加可見度，三者都能協助提醒與保護騎乘者，因此選④。",
+      "science_direct_recheck_reason_code": "BICYCLE_REFLECTOR_BELL_LIGHT_ALL_SAFETY_WARNING",
+      "direct_kp_id": "sci_g04s1_03_09",
+      "direct_kp_title": "聲與光的警示和指示用途",
+      "original_KP_id_unchanged": true,
+      "exception_scope_repair": "AUTHORITATIVE_KP_TITLE_EXPLICITLY_COVERS_BOTH_SOUND_AND_LIGHT_WARNING; NO_NEW_AUTHORITY",
+      "duplicate_exact_full_stem_in_published_bank": false,
+      "source_text_only_no_third_party_media": true,
+      "original_pdf_no_public_image": true,
+      "original_school_answer_key_authenticated": false,
+      "standalone_no_media_parent": true,
+      "public_block_id": "P12_E01_POST52_ANHE_MC_001",
+      "release_status": "FORMAL_PUBLISH_ONLY_IF_PR_CI_MAIN_PAGES_ALL_PASS"
+    }
+  ]
+}

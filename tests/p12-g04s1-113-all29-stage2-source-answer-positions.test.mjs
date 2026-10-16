@@ -150,6 +150,25 @@ test("550 native source text-phrase positions must not be confused with 934 real
  assert.equal(anchor.public_student_answer_slots_unchanged,636);
  assert.equal(anchor.all_113_114_semantic_dedup_still_pending,true);
 });
+test("Wende original PDF page1 all 15 true-false and 12 multiple-choice printed answer glyph bboxes, no source-marker inferred from text phrase",()=>{
+ const w=read("data/review/p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json");
+ assert.equal(w.source_pdf_sha256,review.records.find(x=>x.source_id===w.source_id).source_pdf_sha256);
+ assert.equal(w.actual_source_answer_marker_glyph_bboxes_count,27);
+ assert.equal(w.original_tf_printed_marker_count,15);
+ assert.equal(w.original_mc_printed_marker_count,12);
+ assert.equal(w.position_records.length,27);
+ assert.equal(new Set(w.position_records.map(x=>x.source_slot_id)).size,27);
+ assert.ok(w.position_records.every(x=>{
+  const [x1,y1,x2,y2]=x.printed_answer_marker_parenthesis_pdf_bbox_pts_top_left;
+  return x.source_page_pdf_1_based===1 && x1>=0 && y1>=0 && x2>x1 && y2>y1 && x.full_printed_source_qa_complete===false;
+ }));
+ assert.equal(w.position_records.filter(x=>x.original_question_type==="tf").length,15);
+ assert.equal(w.position_records.filter(x=>x.original_question_type==="mcq").length,12);
+ assert.equal(w.page2_grouped_response_positions_scoring_estimate,28);
+ assert.equal(w.all55_exam_original_response_positions_exactly_verified,false);
+ assert.equal(w.independent_science_answers_certified,false);
+ assert.equal(w.operator_release_admission_eligible_count,0);
+});
 test("One-batch 29 remaining source work must not misstate 771 candidate starts or the 636 public baseline",()=>{
  assert.equal(review.original_response_positions_section_reconciled,821);
  assert.equal(review.section_reconciled_source_papers,13);

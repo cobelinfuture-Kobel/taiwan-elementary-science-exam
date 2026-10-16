@@ -73,7 +73,7 @@ test("P12 addition does not alter frozen 72 OX and 20 context group assets",asyn
  try{
   const all=await loadEmbeddedHistoricalBank(authority);
   assert.equal(all.admission,"EMBEDDED_CERTIFIED_HISTORICAL");
-  assert.equal(all.certifiedAnswerSlots,628);
+  assert.equal(all.certifiedAnswerSlots,629);
   assert.equal(all.certifiedTrueFalse,307);
   assert.equal(all.certifiedStandaloneChoice,186);
   assert.equal(all.certifiedGroupCount,36);

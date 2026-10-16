@@ -117,7 +117,7 @@ try {
   const live=await browser.newPage({viewport:{width:1420,height:940}});
   const liveErrors=[];live.on("pageerror",e=>liveErrors.push(String(e)));
   await live.goto("http://127.0.0.1:"+server.address().port+"/exam/",{waitUntil:"networkidle"});
-  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 630 小題（308 題是非＋187 題單選＋36 組情境）"),{timeout:15000});
+  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 632 小題（309 題是非＋188 題單選＋36 組情境）"),{timeout:15000});
   assert.equal(await live.locator("#source-select").count(),0,"no source selector");
   assert.equal(await live.locator("#local-import").count(),0,"no local JSON upload control");
   assert.equal(await live.locator("#unit option").count(),4,"curriculum units must be present");
@@ -268,6 +268,15 @@ try {
     assert.match(question,/^（　）1\. /,"P10 must retain original O/X layout");
   }
   console.log("S3_P10_G03_G04_S2_FOUR_PERIODS_PASS");
+  const recentScan2=await live.request.get("http://127.0.0.1:"+server.address().port+"/data/question-bank/p12-e01-post45-puren2-public-v1.json");
+  assert.equal(recentScan2.status(),200,"scan-only source: new public bank file served");
+  const recentBlocks=(await recentScan2.json()).blocks;
+  assert.deepEqual(recentBlocks.map(x=>x.source_slot_id),[
+    "SCI_G04_S1_114_MID_009|S1|MC|013","SCI_G04_S1_114_MID_009|S3|G01|005"
+  ]);
+  assert.deepEqual(recentBlocks.map(x=>x.answer),["④","X"]);
+  assert.equal(recentBlocks.every(x=>x.original_cropped_assets_included===false),true);
+  console.log("P12_E01_SCAN9_TWO_EXACT_PUBLIC_SOURCE_BROWSER_PASS");
   // P12 E01: R5 primary wind KP admits one source-exact Anhe and preserves Mingyi secondary link.
   await live.selectOption("#grade","4");await live.selectOption("#semester","S1");
   await live.selectOption("#unit","4-S1-U01");await live.selectOption("#mode","single_kp");

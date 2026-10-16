@@ -1,11 +1,11 @@
 {
-  "schema_version": "P12_G04S1_113_49_TAOZIJIAO_GROUP_SUBITEM_SOURCE_SCIENCE_KP_V2",
+  "schema_version": "P12_G04S1_113_49_SHARED_GROUP_SUBITEMS_SOURCE_ID_NORMALIZED_V3",
   "full_item_evidence_bundle": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
   "review_rows": [
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G01|SUB01",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S01|SUB01",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp02",
@@ -16,7 +16,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G01|SUB02",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S01|SUB02",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": null,
@@ -27,7 +27,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G01|SUB03",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S01|SUB03",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u02_kp02",
@@ -38,7 +38,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G01|SUB04",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S01|SUB04",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp02",
@@ -49,7 +49,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G01|SUB05",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S01|SUB05",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u02_kp02",
@@ -60,7 +60,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G01|SUB06",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S01|SUB06",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u02_kp02",
@@ -71,7 +71,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G02|SUB01",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S02|SUB01",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u02_kp13",
@@ -82,7 +82,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G02|SUB02",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S02|SUB02",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u02_kp14",
@@ -93,7 +93,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G02|SUB03",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S02|SUB03",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u02_kp14",
@@ -104,7 +104,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G02|SUB04",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S02|SUB04",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u02_kp13",
@@ -115,7 +115,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G03|SUB01",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S03|SUB01",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u02_kp08",
@@ -126,7 +126,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G03|SUB02",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S03|SUB02",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u02_kp08",
@@ -137,7 +137,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G03|SUB03",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S03|SUB03",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u02_kp08",
@@ -148,7 +148,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G03|SUB04",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S03|SUB04",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u02_kp08",
@@ -159,7 +159,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G03|SUB05",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S03|SUB05",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u02_kp08",
@@ -170,7 +170,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G03|SUB06",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S03|SUB06",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u02_kp08",
@@ -181,7 +181,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G04|SUB01",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S04|SUB01",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u02_kp04",
@@ -192,7 +192,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G04|SUB02",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S04|SUB02",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u02_kp05",
@@ -203,7 +203,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G04|SUB03",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S04|SUB03",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u02_kp07",
@@ -214,7 +214,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G04|SUB04",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S04|SUB04",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": null,
@@ -225,7 +225,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G04|SUB05",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S04|SUB05",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u02_kp04",
@@ -236,7 +236,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G04|SUB06",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S04|SUB06",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u02_kp06",
@@ -247,7 +247,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G07|SUB01",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S07|SUB01",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp04",
@@ -258,7 +258,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G07|SUB02",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S07|SUB02",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp02",
@@ -269,7 +269,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G07|SUB03",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S07|SUB03",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp04",
@@ -280,7 +280,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G07|SUB04",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S07|SUB04",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": null,
@@ -291,7 +291,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G07|SUB05",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S07|SUB05",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp04",
@@ -302,7 +302,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G07|SUB06",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S07|SUB06",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp04",
@@ -313,7 +313,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G08|SUB01",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S08|SUB01",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp04",
@@ -324,7 +324,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G08|SUB02",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S08|SUB02",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp07",
@@ -335,7 +335,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G08|SUB03",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S08|SUB03",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp07",
@@ -346,7 +346,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G08|SUB04",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S08|SUB04",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp02",
@@ -357,7 +357,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G08|SUB05",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S08|SUB05",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp07",
@@ -368,7 +368,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G08|SUB06",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S08|SUB06",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp07",
@@ -379,7 +379,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G09|SUB01",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S09|SUB01",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp02",
@@ -390,7 +390,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G09|SUB02",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S09|SUB02",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp04",
@@ -401,7 +401,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G09|SUB03",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S09|SUB03",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp04",
@@ -412,7 +412,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G09|SUB04",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S09|SUB04",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp02",
@@ -423,7 +423,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G09|SUB05",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S09|SUB05",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp12",
@@ -434,7 +434,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G09|SUB07",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S09|SUB07",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp03",
@@ -445,7 +445,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G09|SUB08",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S09|SUB08",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp03",
@@ -456,7 +456,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G10|SUB01",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S10|SUB01",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp05",
@@ -467,7 +467,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G10|SUB02",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S10|SUB02",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp06",
@@ -478,7 +478,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G10|SUB03",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S10|SUB03",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp06",
@@ -489,7 +489,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G10|SUB04",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S10|SUB04",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp06",
@@ -500,7 +500,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G10|SUB05",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S10|SUB05",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp05",
@@ -511,7 +511,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G10|SUB06",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S10|SUB06",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "T",
       "direct_kp_candidate": "kx_g04s1_u01_kp05",
@@ -522,7 +522,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G10|SUB07",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S10|SUB07",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp06",
@@ -533,7 +533,7 @@
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
       "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
-      "source_slot_id": "SCI_G04_S1_113_MID_012|G10|SUB08",
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S10|SUB08",
       "item_type": "TRUE_FALSE_GROUP_SUBITEM",
       "model_science_answer": "F",
       "direct_kp_candidate": "kx_g04s1_u01_kp05",
@@ -548,10 +548,11 @@
     "Original source public reproduction rights not certified"
   ],
   "ready_for_student_site": 0,
-  "description": "Only 49 unique grouped-subitem rows. Other 21 standalone rows now exist in 311 standalone ledger; do not double-count.",
+  "description": "These 49 source slots are a subset of the Taozijiao MID100 full paper ledger; count them only once in all-corpus union.",
   "model_review_stats_unique_total_360": {
     "standalone": 311,
     "grouped_subitems": 49,
     "total_unique": 360
-  }
+  },
+  "exact_source_slot_overlap_verified": 49
 }

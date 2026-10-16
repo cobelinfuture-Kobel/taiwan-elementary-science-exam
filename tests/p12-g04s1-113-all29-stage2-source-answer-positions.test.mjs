@@ -49,10 +49,18 @@ test("Native 建德 source exact 64 = 10 TF + 10 MC + 7 circle + 7 matching + 8 
  assert.equal(jiande.records.filter(x=>x.provisional_science_answer===null).length,10);
  assert.equal(jiande.confirmed_student_bank_admissions,0);
 });
+test("Original section-level native reconstruction includes Taozijiao100 Shihu50 Lushang50",()=>{
+  const ids=["SCI_G04_S1_113_MID_012","SCI_G04_S1_113_MID_013","SCI_G04_S1_113_MID_014"];
+  const rows=ids.map(id=>review.records.find(x=>x.source_id===id));
+  assert.deepEqual(rows.map(x=>x.original_visual_section_answer_positions),[100,50,50]);
+  assert.deepEqual(rows.map(x=>x.visually_counted_source_sections.length),[16,7,9]);
+  assert.equal(rows.reduce((n,x)=>n+x.visually_counted_source_sections.reduce((m,s)=>m+s.answer_positions,0),0),200);
+  assert.ok(rows.every(x=>x.direct_current48kp_and_unique_science_completed===false));
+});
 test("One-batch 29 remaining source work must not misstate 771 candidate starts or the 636 public baseline",()=>{
- assert.equal(review.original_response_positions_section_reconciled,326);
- assert.equal(review.section_reconciled_source_papers,6);
- assert.equal(review.remaining_native_source_papers_to_exactly_count,23);
+ assert.equal(review.original_response_positions_section_reconciled,526);
+ assert.equal(review.section_reconciled_source_papers,9);
+ assert.equal(review.remaining_native_source_papers_to_exactly_count,20);
  assert.equal(review.all29_exact_source_position_closeout,false);
  assert.equal(review.all29_science_unique_answer_and_direct_kp_certified,false);
  assert.equal(review.cross_year_114_exact_duplicate_fully_checked,false);

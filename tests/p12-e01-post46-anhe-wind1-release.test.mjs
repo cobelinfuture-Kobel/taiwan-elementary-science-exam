@@ -75,15 +75,15 @@ test("active V3 ScienceKP26 two more original TF while frozen V2 excludes only R
  };
  try{
   const v3=await loadEmbeddedHistoricalBank(authority);
-  assert.equal(v3.certifiedAnswerSlots,634);
-  assert.equal(v3.certifiedTrueFalse,311);
+  assert.equal(v3.certifiedAnswerSlots,636);
+  assert.equal(v3.certifiedTrueFalse,313);
   assert.equal(v3.certifiedStandaloneChoice,188);
   assert.equal(v3.certifiedGroupCount,36);
   assert.equal(v3.blocks.filter(x=>x.source_slot_id===proof.source_slot_id).length,1);
   const wind=v3.blocks.filter(x=>x.canonical_kp_id==="sci_g04s1_01_12"||x.secondary_canonical_kp_ids?.includes("sci_g04s1_01_12"));
   assert.equal(wind.length,2);
   const v2=await loadEmbeddedHistoricalBank(read("site/data/authority/science-g03-g04-selector-v2.json"));
-  assert.equal(v2.certifiedAnswerSlots,633);
+  assert.equal(v2.certifiedAnswerSlots,635);
   assert.equal(v2.blocks.some(x=>x.source_slot_id===proof.source_slot_id),false);
  }finally{globalThis.fetch=original}
 });

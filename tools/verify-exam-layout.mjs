@@ -117,7 +117,7 @@ try {
   const live=await browser.newPage({viewport:{width:1420,height:940}});
   const liveErrors=[];live.on("pageerror",e=>liveErrors.push(String(e)));
   await live.goto("http://127.0.0.1:"+server.address().port+"/exam/",{waitUntil:"networkidle"});
-  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 632 小題（309 題是非＋188 題單選＋36 組情境）"),{timeout:15000});
+  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 634 小題（311 題是非＋188 題單選＋36 組情境）"),{timeout:15000});
   assert.equal(await live.locator("#source-select").count(),0,"no source selector");
   assert.equal(await live.locator("#local-import").count(),0,"no local JSON upload control");
   assert.equal(await live.locator("#unit option").count(),4,"curriculum units must be present");
@@ -277,6 +277,13 @@ try {
   assert.deepEqual(recentBlocks.map(x=>x.answer),["④","X"]);
   assert.equal(recentBlocks.every(x=>x.original_cropped_assets_included===false),true);
   console.log("P12_E01_SCAN9_TWO_EXACT_PUBLIC_SOURCE_BROWSER_PASS");
+  const science26Resp=await live.request.get("http://127.0.0.1:"+server.address().port+"/data/question-bank/p12-e01-post43-sciencekp2-public-v1.json");
+  assert.equal(science26Resp.status(),200,"ScienceKP26 public source data served");
+  const science26Blocks=(await science26Resp.json()).blocks;
+  assert.deepEqual(science26Blocks.map(x=>x.answer),["O","X"]);
+  assert.deepEqual(science26Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_05","sci_g04s1_03_10"]);
+  assert.ok(science26Blocks.every(x=>x.original_cropped_assets_included===false));
+  console.log("P12_E01_SCIENCEKP26_TWO_EXACT_SOURCE_A4_PASS");
   // P12 E01: R5 primary wind KP admits one source-exact Anhe and preserves Mingyi secondary link.
   await live.selectOption("#grade","4");await live.selectOption("#semester","S1");
   await live.selectOption("#unit","4-S1-U01");await live.selectOption("#mode","single_kp");

@@ -66,7 +66,7 @@ const legacy=read("site/data/authority/science-g03-g04-selector-v2.json");
 assert.throws(()=>validateAndConvertP12E01Post46AnheWind1(bank,legacy));
 });
 
-test("active V3 live aggregation is 632 while frozen V2 authority now loads Puren Scan9 2 and excludes Anhe wind",async()=>{
+test("active V3 ScienceKP26 two more original TF while frozen V2 excludes only R4 wind",async()=>{
  const {loadEmbeddedHistoricalBank}=await import("../site/assets/js/historical-bank-ox-v6.mjs");
  const original=globalThis.fetch;
  globalThis.fetch=async url=>{
@@ -75,15 +75,15 @@ test("active V3 live aggregation is 632 while frozen V2 authority now loads Pure
  };
  try{
   const v3=await loadEmbeddedHistoricalBank(authority);
-  assert.equal(v3.certifiedAnswerSlots,632);
-  assert.equal(v3.certifiedTrueFalse,309);
+  assert.equal(v3.certifiedAnswerSlots,634);
+  assert.equal(v3.certifiedTrueFalse,311);
   assert.equal(v3.certifiedStandaloneChoice,188);
   assert.equal(v3.certifiedGroupCount,36);
   assert.equal(v3.blocks.filter(x=>x.source_slot_id===proof.source_slot_id).length,1);
   const wind=v3.blocks.filter(x=>x.canonical_kp_id==="sci_g04s1_01_12"||x.secondary_canonical_kp_ids?.includes("sci_g04s1_01_12"));
   assert.equal(wind.length,2);
   const v2=await loadEmbeddedHistoricalBank(read("site/data/authority/science-g03-g04-selector-v2.json"));
-  assert.equal(v2.certifiedAnswerSlots,631);
+  assert.equal(v2.certifiedAnswerSlots,633);
   assert.equal(v2.blocks.some(x=>x.source_slot_id===proof.source_slot_id),false);
  }finally{globalThis.fetch=original}
 });

@@ -1,0 +1,27 @@
+import {resolveUnit} from "./authority-adapter.mjs";
+export const P12_E01_POST43_SCIENCEKP2_PATH="../data/question-bank/p12-e01-post43-sciencekp2-public-v1.json";
+export const P12_E01_POST43_SCIENCEKP2_SCHEMA="SCIENCE_P12_E01_POST43_SCIENCEKP26_TWO_PUBLIC_V1";
+const EXPECTED=[{"id":"P12_E01_POST43_DONGGUANG_MID_TF_004","source_id":"SCI_G04_S1_114_MID_008","source_slot_id":"SCI_G04_S1_114_MID_008|S01|TF|004","source_page_pdf_1_based":1,"source_pdf_bbox_pts_top_left":[81.38,287.6,123.32,301.64],"original_question_number":"004","grade":4,"semester":1,"unit":"4-S1-U02","canonical_kp_id":"sci_g04s1_02_05","type":"tf","stem":"水生植物為了適應水中生活，大部分都有特殊的構造，例如水蘊草具有柔軟的莖和葉，以適應水位變化和減少水流的衝擊。","answer":"O","answer_explanation":"水蘊草屬沉水性植物，莖與葉柔軟，可隨水流彎曲並較能適應水位和水流變動，符合四年級沉水植物構造與環境適應的教學範圍，因此判○。並非指任何水位或流速變化都能適應。","answer_assumption":"依常見國小沉水植物觀察與適度流水條件判讀；原校教師答案未經認證。","source":"P12_OPERATOR_APPROVED_QUESTION","certification_status":"OPERATOR_APPROVED_PUBLIC","operator_publication_approval":true,"original_teacher_answer_key_authenticated":false,"original_cropped_assets_included":false,"dependency_review_verified":true,"copyright_path":"SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES","evidence_ref":"data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json","source_pdf_sha256":"0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7"},{"id":"P12_E01_POST43_MINGYI_FINAL_TF_005","source_id":"SCI_G04_S1_114_FINAL_008","source_slot_id":"SCI_G04_S1_114_FINAL_008|S01|TF|005","source_page_pdf_1_based":1,"source_pdf_bbox_pts_top_left":[53.88,321.23,98.18,336.77],"original_question_number":"005","grade":4,"semester":1,"unit":"4-S1-U03","canonical_kp_id":"sci_g04s1_03_10","type":"tf","stem":"警察車警鈴是應用聲音的裝置，演唱會的燈光則是應用光的裝置，兩者都有達到警示效果的功能。","answer":"X","answer_explanation":"警察車警鈴主要用聲音提醒警示；演唱會舞台燈光的主要用途是裝飾、營造氣氛和娛樂效果，並非以警示為主要功能。因此「兩者都有達到警示效果」在四年級常見用途分類下為錯誤，判×。","answer_assumption":"按一般演唱會舞台燈光的主要設計用途理解；不否認特定演出燈光在其他情境也可能用作提示訊號。原校教師答案未經認證。","source":"P12_OPERATOR_APPROVED_QUESTION","certification_status":"OPERATOR_APPROVED_PUBLIC","operator_publication_approval":true,"original_teacher_answer_key_authenticated":false,"original_cropped_assets_included":false,"dependency_review_verified":true,"copyright_path":"SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES","evidence_ref":"data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json","source_pdf_sha256":"023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd"}];
+const fail=(ok,reason)=>{if(!ok)throw Error("P12_E01_POST43_SCIENCEKP2_FAIL_CLOSED: "+reason)};
+const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
+export function validateAndConvertP12E01Post43ScienceKP2(bank,authority){
+ fail(bank?.schema_version===P12_E01_POST43_SCIENCEKP2_SCHEMA&&
+ bank.public_site_integrated===true&&bank.expected_blocks===2&&bank.expected_answer_slots===2&&
+ bank.expected_standalone_true_false===2&&bank.expected_standalone_choice===0&&
+ bank.expected_context_groups===0&&bank.original_teacher_answer_key_authenticated===false&&
+ bank.original_cropped_images_included===false&&bank.frozen_26_previous_holds_immutable===true&&
+ bank.evidence_ref==="data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json"&&
+ Array.isArray(bank.blocks)&&bank.blocks.length===2,"immutable governance header");
+ fail(same(bank.blocks,EXPECTED),"original source stem, certified answer, bbox, KP, source SHA, provenance or rights changed");
+ for(const b of bank.blocks){
+ const u=resolveUnit(authority,b.unit);
+ fail(u?.grade===4&&u.semester===1&&u.knowledge_points.some(k=>k.canonical_kp_id===b.canonical_kp_id),
+ "exact canonical KP within public authority");
+ }
+ fail(new Set(bank.blocks.map(b=>b.id)).size===2&&
+ new Set(bank.blocks.map(b=>b.source_slot_id)).size===2&&
+ bank.blocks.every(b=>b.type==="tf"&&b.operator_publication_approval===true&&b.dependency_review_verified===true),
+ "unique originally certified TF source slots");
+ return {admission:"P12_E01_POST43_SCIENCEKP2_CERTIFIED",blocks:bank.blocks,
+ answerSlots:2,standaloneTf:2,standaloneChoice:0,contextGroups:0};
+}

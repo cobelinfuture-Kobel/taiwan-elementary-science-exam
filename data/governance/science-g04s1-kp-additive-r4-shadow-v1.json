@@ -1,0 +1,90 @@
+{
+  "schema_version": "SCIENCE_G04S1_R4_ADDITIVE_KP_METADATA_SHADOW_V1",
+  "status": "OPERATOR_APPROVED_SHADOW_ONLY_NOT_ACTIVE",
+  "edition_year": 113,
+  "grade": 4,
+  "semester": 1,
+  "baseline": {
+    "file": "science_g04_s1_kanghsuan_kp_authority_v1.json",
+    "sha256": "ac2122b09caa56afec373303c8a6169b57353bff06794831b508c3a3f5b5e4d5",
+    "kp_count": 45,
+    "unit_counts": {
+      "U01": 11,
+      "U02": 12,
+      "U03": 10,
+      "U04": 12
+    },
+    "four_semester_legacy_total": 187
+  },
+  "private_v2": {
+    "filename": "science_g04_s1_kanghsuan_kp_authority_v2_r4_PRIVATE.json",
+    "sha256": "0422cbbbf685d20cf2389ecc37fda147291b309ae486f49b16c0c5ba86193389",
+    "kp_count": 48,
+    "four_semester_future_total": 190
+  },
+  "added_kps": [
+    {
+      "kp_id": "kx_g04s1_u01_kp12",
+      "canonical_kp_id": "sci_g04s1_01_12",
+      "unit_id": "U01",
+      "title": "風的作用搬運並堆積地表物質",
+      "activity": "活動2 地表環境會變動嗎",
+      "source_pdf_pages": [
+        21
+      ],
+      "r3_case": "G04S1_GAP_001",
+      "approved": true
+    },
+    {
+      "kp_id": "kx_g04s1_u02_kp13",
+      "canonical_kp_id": "sci_g04s1_02_13",
+      "unit_id": "U02",
+      "title": "水域環境實地調查的準備、觀察與紀錄",
+      "activity": "活動1 生物生存的環境都相同嗎",
+      "source_pdf_pages": [
+        45,
+        46
+      ],
+      "r3_case": "G04S1_GAP_002",
+      "approved": true
+    },
+    {
+      "kp_id": "kx_g04s1_u02_kp14",
+      "canonical_kp_id": "sci_g04s1_02_14",
+      "unit_id": "U02",
+      "title": "水域調查安全與尊重水生生物",
+      "activity": "活動1 生物生存的環境都相同嗎",
+      "source_pdf_pages": [
+        46
+      ],
+      "r3_case": "G04S1_GAP_002",
+      "approved": true
+    }
+  ],
+  "non_additions": {
+    "vibration_loudness": "sci_g04s1_03_01",
+    "water_flow_deposition": "sci_g04s1_01_05",
+    "switch_circuit": "sci_g04s1_04_04",
+    "sound_speed": "ENRICHMENT_ONLY",
+    "led": "ENRICHMENT_ONLY"
+  },
+  "runtime_activation": {
+    "enabled": false,
+    "legacy_selector_untouched": true,
+    "legacy_187_source_parity_unchanged": true,
+    "new_private_source_to_be_deployed_before_activation": true,
+    "existing_student_questions_untouched": true,
+    "requires_separate_selector_adapter_test_transition": true,
+    "operator_public_question_admission_required": true
+  },
+  "evidence": {
+    "textbook_source": "113上[康軒]國小新挑戰學習自修-自然-(4上).pdf",
+    "textbook_sha256": "3a20236f593cfde191b2bd90b19385eebe8ab1123e3ab8f192947295098dfbf3",
+    "pdf_pages": [
+      21,
+      45,
+      46
+    ]
+  },
+  "do_not_publish_full_statements": true
+}

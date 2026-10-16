@@ -169,6 +169,25 @@ test("Wende original PDF page1 all 15 true-false and 12 multiple-choice printed 
  assert.equal(w.independent_science_answers_certified,false);
  assert.equal(w.operator_release_admission_eligible_count,0);
 });
+test("Wende all 27 actual printed page1 markers have independent model preliminary Science and direct KP48 review without false teacher answer",()=>{
+ const w=read("data/review/p12-g04s1-113-wende-mid27-science-kp48-preliminary-v1.json");
+ const src=read("data/review/p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json");
+ const ids=new Set(authority.units.filter(u=>u.grade===4&&u.semester===1).flatMap(u=>u.knowledge_points.map(k=>k.canonical_kp_id)));
+ assert.equal(w.reviewed_original_position_count,27);
+ assert.equal(w.records.length,27);
+ assert.deepEqual(w.decision_counts,{OTHER_UNIT:13,HOLD_CONTEXT:2,PROVISIONAL_DIRECT:10,HOLD_UNIQUE_SCIENCE:1,PROVISIONAL_CROSS_PERIOD:1});
+ assert.equal(new Set(w.records.map(r=>r.source_slot_id)).size,27);
+ for(const x of w.records){
+  assert.ok(src.position_records.some(y=>y.source_slot_id===x.source_slot_id));
+  assert.equal(x.public_release_permitted,false);
+  assert.equal(x.cross_year_113_114_complete_dedup,false);
+  assert.equal(x.original_school_teacher_key_verified,false);
+  if(x.provisional_current48kp_direct_mapping)assert.ok(ids.has(x.provisional_current48kp_direct_mapping),x.source_slot_id);
+ }
+ assert.equal(w.records.filter(r=>r.provisional_current48kp_direct_mapping).length,11);
+ assert.equal(w.cross_period_direct_KP03_source_midterm_count,1);
+ assert.equal(w.student_public_admissions,0);
+});
 test("One-batch 29 remaining source work must not misstate 771 candidate starts or the 636 public baseline",()=>{
  assert.equal(review.original_response_positions_section_reconciled,821);
  assert.equal(review.section_reconciled_source_papers,13);

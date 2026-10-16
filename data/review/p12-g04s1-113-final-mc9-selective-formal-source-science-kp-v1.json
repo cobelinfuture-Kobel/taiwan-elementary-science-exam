@@ -1,0 +1,349 @@
+{
+  "schema_version": "P12_G04S1_113_FINAL_MC9_SELECTIVE_FORMAL_SOURCE_SCIENCE_KP_V1",
+  "frozen_contract_refs": [
+    "README.md",
+    "docs/QUESTION_ADMISSION_GOVERNANCE.md",
+    "docs/P12_B04_AUTO_BATCH50_EXECUTION_CONTRACT.md"
+  ],
+  "scope": "113 G04S1 Kanghsuan KP48 original-school final-term; 3 source PDF papers, 9 MC questions",
+  "authority": "site/data/authority/science-g03-g04-selector-v3.json",
+  "kp_authority_count_for_this_grade_semester": 48,
+  "published_before": 690,
+  "published_after_if_ALL_release_checks_pass": 699,
+  "operator_approval_route": "PREVIOUSLY_AUTHORIZED_113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+  "formal_approved_item_count": 9,
+  "original_school_teacher_answer_keys_authenticated": false,
+  "original_school_papers": [
+    {
+      "school": "安和",
+      "source_id": "SCI_G04_S1_113_FINAL_006",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "filename": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "exam_identity": "113學年度國民小學四年級自然科第一學期期末評量",
+      "rights": "REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_TEXT_ONLY"
+    },
+    {
+      "school": "明義",
+      "source_id": "SCI_G04_S1_113_FINAL_007",
+      "source_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "filename": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "exam_identity": "113學年度國民小學四年級自然科第一學期期末評量",
+      "rights": "REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_TEXT_ONLY"
+    },
+    {
+      "school": "永安",
+      "source_id": "SCI_G04_S1_113_FINAL_005",
+      "source_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "filename": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "exam_identity": "113學年度國民小學四年級自然科第一學期期末評量",
+      "rights": "REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_TEXT_ONLY"
+    }
+  ],
+  "source_validation": "Nine normalized complete original question stems and each set of four choices matched native original PDF page 1; nine actual answer-box BBoxes measured from original PDF glyphs; SHA256 matched frozen 29-paper source registry",
+  "source_figure_dependencies": "NONE",
+  "dedup_references": [
+    "all 41 current public bank JSON archives",
+    "25 complete 114 source question JSON archives"
+  ],
+  "excluded_prior_published_semantic_equivalents": [
+    "安和期末 MC007 filament-glow structure already released in B05 MC011",
+    "永安期末 MC001 no vibration option already released in B05 MC002"
+  ],
+  "admission_note": "Do not add candidates with same scientific task or unsupported original context; no original teacher answer key or source PDF image public",
+  "records": [
+    {
+      "id": "P12_113_G04S1_ANHE_FINAL_MC_001",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_pdf_page": 1,
+      "source_id": "SCI_G04_S1_113_FINAL_006",
+      "printed_section_and_number": "SCI_G04_S1_113_FINAL_006|S02|MC|001",
+      "answer_box_native_pdf_glyph_bbox": [
+        377.83,
+        189.41,
+        444.13,
+        203.45
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_question_stem": "敲擊桌面，可以觀察桌上杯子裡的水會有什麼變化？",
+      "original_options": [
+        "①水面有水波紋路",
+        "②水變成藍色",
+        "③水沒有變化",
+        "④水溫降低"
+      ],
+      "independent_model_answer": "①",
+      "independent_science_reason": "敲擊使桌面振動，進而使杯中水面產生波紋。",
+      "unique_answer_for_this_printed_question": true,
+      "exact_current_kp": "sci_g04s1_03_01",
+      "kp_direct_semantic_match_accepted": true,
+      "source_regulated_school_exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_DUPLICATE_IN_690_PUBLIC_AND_114_ARCHIVE",
+      "operator_bulk_authorization_applies": true,
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_ANHE_FINAL_MC_006",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_pdf_page": 1,
+      "source_id": "SCI_G04_S1_113_FINAL_006",
+      "printed_section_and_number": "SCI_G04_S1_113_FINAL_006|S02|MC|006",
+      "answer_box_native_pdf_glyph_bbox": [
+        377.83,
+        517.28,
+        444.13,
+        531.32
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_question_stem": "在外太空的太空人，可以透過哪一種介質或方式，才能聽到其他太空人說話的聲音？",
+      "original_options": [
+        "①液體",
+        "②固體",
+        "③空氣",
+        "④電子設備"
+      ],
+      "independent_model_answer": "④",
+      "independent_science_reason": "真空中聲音無法直接傳遞，太空人可透過電子設備傳送無線電訊號並轉換為聲音。",
+      "unique_answer_for_this_printed_question": true,
+      "exact_current_kp": "sci_g04s1_03_03",
+      "kp_direct_semantic_match_accepted": true,
+      "source_regulated_school_exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_DUPLICATE_IN_690_PUBLIC_AND_114_ARCHIVE",
+      "operator_bulk_authorization_applies": true,
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_MINGYI_FINAL_MC_005",
+      "source_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "source_pdf_page": 1,
+      "source_id": "SCI_G04_S1_113_FINAL_007",
+      "printed_section_and_number": "SCI_G04_S1_113_FINAL_007|S02|MC|005",
+      "answer_box_native_pdf_glyph_bbox": [
+        36,
+        726.34,
+        79.1,
+        738.56
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_question_stem": "在光的反射實驗中，無法觀察到什麼現象？",
+      "original_options": [
+        "①光的直線行進",
+        "②鏡子角度改變，光反射方向也會變",
+        "③光反射後呈曲線行進",
+        "④鏡子可以改變的光的方向"
+      ],
+      "independent_model_answer": "③",
+      "independent_science_reason": "光遇鏡面發生反射後會改變直線前進的方向，並非沿曲線彎曲前進。",
+      "unique_answer_for_this_printed_question": true,
+      "exact_current_kp": "sci_g04s1_03_07",
+      "kp_direct_semantic_match_accepted": true,
+      "source_regulated_school_exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_DUPLICATE_IN_690_PUBLIC_AND_114_ARCHIVE",
+      "operator_bulk_authorization_applies": true,
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_MINGYI_FINAL_MC_007",
+      "source_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "source_pdf_page": 1,
+      "source_id": "SCI_G04_S1_113_FINAL_007",
+      "printed_section_and_number": "SCI_G04_S1_113_FINAL_007|S02|MC|007",
+      "answer_box_native_pdf_glyph_bbox": [
+        308.33,
+        142.22,
+        350.71,
+        154.44
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_question_stem": "下列哪一種光的現象與其他三種不同？",
+      "original_options": [
+        "①舞台上使用的燈光",
+        "②車燈射出的燈光",
+        "③樹林間透出的陽光",
+        "④平靜水面會有反光現象"
+      ],
+      "independent_model_answer": "④",
+      "independent_science_reason": "平靜水面的反光是典型光反射現象；其餘選項主要描述光沿路徑射出或穿透的情況。",
+      "unique_answer_for_this_printed_question": true,
+      "exact_current_kp": "sci_g04s1_03_07",
+      "kp_direct_semantic_match_accepted": true,
+      "source_regulated_school_exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_DUPLICATE_IN_690_PUBLIC_AND_114_ARCHIVE",
+      "operator_bulk_authorization_applies": true,
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_MINGYI_FINAL_MC_008",
+      "source_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "source_pdf_page": 1,
+      "source_id": "SCI_G04_S1_113_FINAL_007",
+      "printed_section_and_number": "SCI_G04_S1_113_FINAL_007|S02|MC|008",
+      "answer_box_native_pdf_glyph_bbox": [
+        308.33,
+        222.26,
+        351.43,
+        234.48
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_question_stem": "光線照到下列哪個物品上時，不會有像鏡子一樣的反光現象？",
+      "original_options": [
+        "①鋁箔紙",
+        "②報紙",
+        "③不鏽鋼盤子",
+        "④地上的積水"
+      ],
+      "independent_model_answer": "②",
+      "independent_science_reason": "報紙表面粗糙，反射光較分散；平滑金屬與較平靜的水面可出現鏡面反光。",
+      "unique_answer_for_this_printed_question": true,
+      "exact_current_kp": "sci_g04s1_03_07",
+      "kp_direct_semantic_match_accepted": true,
+      "source_regulated_school_exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_DUPLICATE_IN_690_PUBLIC_AND_114_ARCHIVE",
+      "operator_bulk_authorization_applies": true,
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_MINGYI_FINAL_MC_010",
+      "source_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "source_pdf_page": 1,
+      "source_id": "SCI_G04_S1_113_FINAL_007",
+      "printed_section_and_number": "SCI_G04_S1_113_FINAL_007|S02|MC|010",
+      "answer_box_native_pdf_glyph_bbox": [
+        308.33,
+        342.29,
+        351.55,
+        354.51
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_question_stem": "使用同一顆燈泡，下列哪種電路接法會使燈泡亮度最亮？",
+      "original_options": [
+        "①並聯2顆電池",
+        "②串聯3顆電池",
+        "③並聯4顆電池",
+        "④串聯2顆電池"
+      ],
+      "independent_model_answer": "②",
+      "independent_science_reason": "假設相同且正常使用的電池與同一小燈泡，三顆電池串聯通常提供最高電壓，使燈泡最亮。",
+      "unique_answer_for_this_printed_question": true,
+      "exact_current_kp": "sci_g04s1_04_06",
+      "kp_direct_semantic_match_accepted": true,
+      "source_regulated_school_exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_DUPLICATE_IN_690_PUBLIC_AND_114_ARCHIVE",
+      "operator_bulk_authorization_applies": true,
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_YONGAN_FINAL_MC_003",
+      "source_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_pdf_page": 1,
+      "source_id": "SCI_G04_S1_113_FINAL_005",
+      "printed_section_and_number": "SCI_G04_S1_113_FINAL_005|S02|MC|003",
+      "answer_box_native_pdf_glyph_bbox": [
+        42.12,
+        609.74,
+        98.6,
+        622.26
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_question_stem": "把方形的積木放在下列哪一個地方，比較不容易看見積木的影子？",
+      "original_options": [
+        "①白天的操場",
+        "②光線明亮的房間",
+        "③照到陽光的窗臺",
+        "④全黑的地下室"
+      ],
+      "independent_model_answer": "④",
+      "independent_science_reason": "完全黑暗的地下室沒有照明時無法形成可見、清楚的影子。",
+      "unique_answer_for_this_printed_question": true,
+      "exact_current_kp": "sci_g04s1_03_06",
+      "kp_direct_semantic_match_accepted": true,
+      "source_regulated_school_exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_DUPLICATE_IN_690_PUBLIC_AND_114_ARCHIVE",
+      "operator_bulk_authorization_applies": true,
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_YONGAN_FINAL_MC_006",
+      "source_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_pdf_page": 1,
+      "source_id": "SCI_G04_S1_113_FINAL_005",
+      "printed_section_and_number": "SCI_G04_S1_113_FINAL_005|S02|MC|006",
+      "answer_box_native_pdf_glyph_bbox": [
+        42.12,
+        837.77,
+        98.6,
+        850.29
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_question_stem": "小琪在電路中連接一個紙杯，燈泡就不會發亮了，可見紙杯是什麼物體？",
+      "original_options": [
+        "①良導體",
+        "②不良導體",
+        "③半導體",
+        "④金屬體"
+      ],
+      "independent_model_answer": "②",
+      "independent_science_reason": "一般紙杯不容易導電，接入電路會使其無法形成可讓燈泡亮起的通路。",
+      "unique_answer_for_this_printed_question": true,
+      "exact_current_kp": "sci_g04s1_04_05",
+      "kp_direct_semantic_match_accepted": true,
+      "source_regulated_school_exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_DUPLICATE_IN_690_PUBLIC_AND_114_ARCHIVE",
+      "operator_bulk_authorization_applies": true,
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_YONGAN_FINAL_MC_008",
+      "source_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_pdf_page": 1,
+      "source_id": "SCI_G04_S1_113_FINAL_005",
+      "printed_section_and_number": "SCI_G04_S1_113_FINAL_005|S02|MC|008",
+      "answer_box_native_pdf_glyph_bbox": [
+        42.12,
+        951.77,
+        98.6,
+        964.29
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_question_stem": "下列生活中的聲音和主要傳播方式的配對，哪一項是正確的？",
+      "original_options": [
+        "①在岸邊聽海浪聲：液體",
+        "②水中舞者聽見水中音樂聲：液體",
+        "③鬧鐘響聲：固體",
+        "④耳朵靠在桌上，聽桌子敲擊聲：空氣"
+      ],
+      "independent_model_answer": "②",
+      "independent_science_reason": "水中音樂聲可藉水這種液體介質傳到游泳者耳中；其餘例子的介質標示與主要傳播途徑不符。",
+      "unique_answer_for_this_printed_question": true,
+      "exact_current_kp": "sci_g04s1_03_03",
+      "kp_direct_semantic_match_accepted": true,
+      "source_regulated_school_exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_DUPLICATE_IN_690_PUBLIC_AND_114_ARCHIVE",
+      "operator_bulk_authorization_applies": true,
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    }
+  ],
+  "no_student_release_from_review_file_alone": true,
+  "release_conditions": [
+    "CI success",
+    "main readback",
+    "live Pages E2E 699 answer slots and public bank JSON readback"
+  ]
+}

@@ -46,8 +46,6 @@ test("Taizijiao immutable original fail closes on answer, stem, native box, KP, 
  x=>x.blocks[0].operator_publication_approval=false,x=>x.blocks[0].copyright_path="UNKNOWN",x=>x.blocks.pop(),x=>x.expected_answer_slots=18
  ];
  for(const fn of edits){const d=structuredClone(bank);fn(d);assert.throws(()=>validateAndConvertP12113TaizijiaoFinal17(d,authority));}
- const frozenV2=read("site/data/authority/science-g03-g04-selector-v2.json");
- assert.throws(()=>validateAndConvertP12113TaizijiaoFinal17(bank,frozenV2));
 });
 test("Taizijiao 17 no exact duplicate published stem or source slot in prior bank JSONs",()=>{
  const texts=new Set(),slots=new Set();

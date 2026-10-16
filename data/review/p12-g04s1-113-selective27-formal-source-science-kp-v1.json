@@ -43,7 +43,7 @@
   ],
   "public_bank_compare": "38 historical public JSON source files: standalone blocks plus context group items; cross-year 114 25 content-only original question archive files; same-year native question source block scan; dedup fuzzy candidate manually checked where found",
   "known_former43_hold": 16,
-  "hold_reasons_note": "Includes 6 Mingyi questions already in active approved-historical-ox-v4, Dadun/Rushang crab/rock overlaps, repeated hot-effluent coral proposition, source/semantic/answer holds. Not published in this batch.",
+  "hold_reasons_note": "Includes 6 Mingyi questions already in active approved-historical-ox-v4, Dadun/Rushang crab/rock overlaps, repeated hot-effluent coral proposition, source/semantic/answer holds. Not published in this batch. Frozen R5 wind source held instead of included in new release.",
   "formal_approved_item_count": 27,
   "operator_publication_approval_basis": "User previously approved continuation of existing 113 G04S1 batch and selective-admission workflow; no new policy or authority invented.",
   "records": [
@@ -529,6 +529,38 @@
     },
     {
       "ordinal": 16,
+      "id": "P12_113_G04S1_LUSHANG_MC_003",
+      "source_id": "SCI_G04_S1_113_MID_014",
+      "printed_section_and_number": "SCI_G04_S1_113_MID_014|S02|MC|003",
+      "original_pdf_filename": "113_康軒_四上_自然_期中評量卷_路上國小.pdf",
+      "original_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "answer_box_native_pdf_glyph_bbox": [
+        308.23,
+        142.04,
+        347.11,
+        155
+      ],
+      "native_source_glyph_bbox_validated": true,
+      "source_full_stem_and_option_projection_verified": true,
+      "source_fingerprint_utf8_recheck_status": "27_OF_27_ORIGINAL_LOCAL_VS_GITHUB_STEM_OPTION_FINGERPRINT_PARITY",
+      "source_no_figure_or_third_party_dependency": true,
+      "independent_model_answer": "②",
+      "independent_science_reason": "防震演練是地震發生前應做的準備；檢查損壞及地震時樓梯疏散屬不同階段。",
+      "unique_answer_for_this_printed_question": true,
+      "exact_current_kp": "sci_g04s1_01_09",
+      "kp_direct_semantic_match_accepted": true,
+      "source_regulated_school_exam_identity_verified": true,
+      "source_question_text_only": true,
+      "no_teacher_key_or_exam_page_published": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_DUPLICATE_AFTER_PUBLIC_AND_114_COMPARISON",
+      "operator_approval_route": "PREVIOUSLY_AUTHORIZED_113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "ordinal": 17,
       "id": "P12_113_G04S1_LUSHANG_MC_004",
       "source_id": "SCI_G04_S1_113_MID_014",
       "printed_section_and_number": "SCI_G04_S1_113_MID_014|S02|MC|004",
@@ -560,7 +592,7 @@
       "all_individual_admission_gates_passed": true
     },
     {
-      "ordinal": 17,
+      "ordinal": 18,
       "id": "P12_113_G04S1_LUSHANG_MC_005",
       "source_id": "SCI_G04_S1_113_MID_014",
       "printed_section_and_number": "SCI_G04_S1_113_MID_014|S02|MC|005",
@@ -592,7 +624,7 @@
       "all_individual_admission_gates_passed": true
     },
     {
-      "ordinal": 18,
+      "ordinal": 19,
       "id": "P12_113_G04S1_LUSHANG_MC_006",
       "source_id": "SCI_G04_S1_113_MID_014",
       "printed_section_and_number": "SCI_G04_S1_113_MID_014|S02|MC|006",
@@ -624,7 +656,7 @@
       "all_individual_admission_gates_passed": true
     },
     {
-      "ordinal": 19,
+      "ordinal": 20,
       "id": "P12_113_G04S1_LUSHANG_MC_009",
       "source_id": "SCI_G04_S1_113_MID_014",
       "printed_section_and_number": "SCI_G04_S1_113_MID_014|S02|MC|009",
@@ -656,7 +688,7 @@
       "all_individual_admission_gates_passed": true
     },
     {
-      "ordinal": 20,
+      "ordinal": 21,
       "id": "P12_113_G04S1_DADUN_TF_003",
       "source_id": "SCI_G04_S1_113_MID_005",
       "printed_section_and_number": "SCI_G04_S1_113_MID_005|S01|TF|003",
@@ -688,7 +720,7 @@
       "all_individual_admission_gates_passed": true
     },
     {
-      "ordinal": 21,
+      "ordinal": 22,
       "id": "P12_113_G04S1_DADUN_TF_005",
       "source_id": "SCI_G04_S1_113_MID_005",
       "printed_section_and_number": "SCI_G04_S1_113_MID_005|S01|TF|005",
@@ -720,7 +752,7 @@
       "all_individual_admission_gates_passed": true
     },
     {
-      "ordinal": 22,
+      "ordinal": 23,
       "id": "P12_113_G04S1_DADUN_TF_009",
       "source_id": "SCI_G04_S1_113_MID_005",
       "printed_section_and_number": "SCI_G04_S1_113_MID_005|S01|TF|009",
@@ -752,7 +784,7 @@
       "all_individual_admission_gates_passed": true
     },
     {
-      "ordinal": 23,
+      "ordinal": 24,
       "id": "P12_113_G04S1_DADUN_TF_012",
       "source_id": "SCI_G04_S1_113_MID_005",
       "printed_section_and_number": "SCI_G04_S1_113_MID_005|S01|TF|012",
@@ -784,7 +816,7 @@
       "all_individual_admission_gates_passed": true
     },
     {
-      "ordinal": 24,
+      "ordinal": 25,
       "id": "P12_113_G04S1_DADUN_TF_014",
       "source_id": "SCI_G04_S1_113_MID_005",
       "printed_section_and_number": "SCI_G04_S1_113_MID_005|S01|TF|014",
@@ -816,7 +848,7 @@
       "all_individual_admission_gates_passed": true
     },
     {
-      "ordinal": 25,
+      "ordinal": 26,
       "id": "P12_113_G04S1_DADUN_MC_002",
       "source_id": "SCI_G04_S1_113_MID_005",
       "printed_section_and_number": "SCI_G04_S1_113_MID_005|S02|MC|002",
@@ -837,38 +869,6 @@
       "independent_science_reason": "依原卷環境調查情境，觀察完應在適當安全條件下將生物放回原來棲地，不應任意丟棄或帶走。",
       "unique_answer_for_this_printed_question": true,
       "exact_current_kp": "sci_g04s1_02_14",
-      "kp_direct_semantic_match_accepted": true,
-      "source_regulated_school_exam_identity_verified": true,
-      "source_question_text_only": true,
-      "no_teacher_key_or_exam_page_published": true,
-      "rights_path": "REGULATED_EXAM_QUESTION_ART9",
-      "semantic_dedup_disposition": "NO_IDENTIFIED_DUPLICATE_AFTER_PUBLIC_AND_114_COMPARISON",
-      "operator_approval_route": "PREVIOUSLY_AUTHORIZED_113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
-      "formal_science_kp_approved": true,
-      "all_individual_admission_gates_passed": true
-    },
-    {
-      "ordinal": 26,
-      "id": "P12_113_G04S1_DADUN_MC_004",
-      "source_id": "SCI_G04_S1_113_MID_005",
-      "printed_section_and_number": "SCI_G04_S1_113_MID_005|S02|MC|004",
-      "original_pdf_filename": "113_康軒_四上_自然_期中評量卷_大墩國小.pdf",
-      "original_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
-      "original_pdf_page": 1,
-      "answer_box_native_pdf_glyph_bbox": [
-        378.91,
-        200.65,
-        426.91,
-        212.65
-      ],
-      "native_source_glyph_bbox_validated": true,
-      "source_full_stem_and_option_projection_verified": true,
-      "source_fingerprint_utf8_recheck_status": "27_OF_27_ORIGINAL_LOCAL_VS_GITHUB_STEM_OPTION_FINGERPRINT_PARITY",
-      "source_no_figure_or_third_party_dependency": true,
-      "independent_model_answer": "②",
-      "independent_science_reason": "風可以搬運沙與細土，之後在別處堆積；搬運狀況會受風力大小和顆粒大小影響。",
-      "unique_answer_for_this_printed_question": true,
-      "exact_current_kp": "sci_g04s1_01_12",
       "kp_direct_semantic_match_accepted": true,
       "source_regulated_school_exam_identity_verified": true,
       "source_question_text_only": true,
@@ -918,5 +918,11 @@
     "merge current main readback",
     "Pages live deployed E2E PASS"
   ],
-  "no_student_release_from_review_file_alone": true
+  "no_student_release_from_review_file_alone": true,
+  "frozen_R5_guard_preserved": {
+    "excluded_source_slot": "SCI_G04_S1_113_MID_005|S02|MC|004",
+    "excluded_kp": "sci_g04s1_01_12",
+    "reason": "Existing R5 selector prohibits automatic admission of wind KP; approved R5 source link exceptions unchanged",
+    "new_nonwind_slot": "SCI_G04_S1_113_MID_014|S02|MC|003"
+  }
 }

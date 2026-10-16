@@ -117,7 +117,19 @@ try {
   const live=await browser.newPage({viewport:{width:1420,height:940}});
   const liveErrors=[];live.on("pageerror",e=>liveErrors.push(String(e)));
   await live.goto("http://127.0.0.1:"+server.address().port+"/exam/",{waitUntil:"networkidle"});
-  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 636 小題（313 題是非＋188 題單選＋36 組情境）"),{timeout:15000});
+  try{
+    await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 636 小題（313 題是非＋188 題單選＋36 組情境）"),{timeout:15000});
+  }catch(error){
+    const details=await live.evaluate(()=>({
+      bankInfo:document.querySelector("#bank-info")?.textContent,
+      status:document.querySelector("#status")?.textContent,
+      errorFlag:document.querySelector("#status")?.dataset?.error,
+      kpSummary:document.querySelector("#kp-summary")?.textContent,
+      moduleCache:document.querySelector('script[type="module"]')?.textContent?.match(/historical-bank-ox-v6[^"']*/)?.[0]
+    }));
+    console.error("PUBLIC_SITE_BANK_LOADING_DIAG",JSON.stringify({details,liveErrors}));
+    throw error;
+  }
   assert.equal(await live.locator("#source-select").count(),0,"no source selector");
   assert.equal(await live.locator("#local-import").count(),0,"no local JSON upload control");
   assert.equal(await live.locator("#unit option").count(),4,"curriculum units must be present");

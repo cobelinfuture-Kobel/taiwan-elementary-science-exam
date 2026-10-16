@@ -1,0 +1,124 @@
+{
+  "schema_version": "P12_E01_POST49_MINGYI_TAOZIJIAO_2_NATIVE_SOURCE_SCIENCE_KP_ACCEPTANCE_V1",
+  "baseline_main": "a5cb2ca4d8b7a9bba3fd655788eefd5893008f44",
+  "source_review_positions": 49,
+  "formal_admission_candidates": 2,
+  "source_remain_after_release": 47,
+  "baseline_public_slots": 626,
+  "target_public_slots_after_release": 628,
+  "school_original_answer_keys_authenticated": false,
+  "all_original_pdf_SHA256_verified": true,
+  "all_original_marker_native_text_glyph_and_visual_bbox_verified": true,
+  "all_admitted_questions_text_only_without_figure_dependency": true,
+  "source_rights_original_question_text_only": true,
+  "no_original_pdf_or_images_published": true,
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|003",
+      "source_paper_id": "SCI_G04_S1_114_MID_007",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "original_frozen_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_115_exception_ref": "data/review/p12-b04-auto-batch50-final-closeout-115-exceptions-v1.json",
+      "remaining49_sweep_ref": "data/review/p12-e01-postcloseout-remaining49-science-kp-source-sweep-v1.json",
+      "original_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "original_pdf_byte_size": 322600,
+      "source_drive_file_id": "1vYm6xxOw6TQzKb-r8bEYM8gp7cDIRDFa",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 0,
+      "original_pdf_page_size_pts": [
+        841.92,
+        1190.52
+      ],
+      "pdf_page_render_scale": 1.6,
+      "original_page_rgb_sha256": "788ebae1f026028f3322494441a89947031a9c767c5429369ea88fe0e7cbef71",
+      "original_page_image_size_px": [
+        1348,
+        1905
+      ],
+      "native_pdf_glyph_text_at_answer_marker": [
+        "(",
+        ")",
+        "3."
+      ],
+      "source_pdf_native_text_layer_available": true,
+      "source_bbox_native_pdf_glyph_source_coordinates": [
+        54.6,
+        267.65,
+        108.39,
+        281.69
+      ],
+      "source_bbox_geometry_verified_by_pdf_image_overlay": true,
+      "source_original_question_full_stem_including_scoring_annotation": "著名的地形景觀「風吹砂」，代表只有風會改變墾丁國家公園海邊沙丘的樣貌，雨水不會。",
+      "student_scoreless_stem_projection": "著名的地形景觀「風吹砂」，代表只有風會改變墾丁國家公園海邊沙丘的樣貌，雨水不會。",
+      "source_original_options": [],
+      "question_type": "TRUE_FALSE",
+      "reasoned_science_answer": "X",
+      "independent_science_reason": "單純排除雨水影響的全稱斷言為錯；降雨形成地表逕流，能搬運沙土，與流水搬運地表物質的 KP 直接相關。",
+      "previous_kp_proposal": "sci_g04s1_01_05",
+      "final_direct_canonical_kp_id": "sci_g04s1_01_05",
+      "original_frozen_exception_flags": [
+        "WIND_AND_WATER_GEOMORPHOLOGY_KP_SCOPE"
+      ],
+      "repair_semantic_reason": "RAINFALL_AND_RUNOFF_CAN_ALTER_COASTAL_SAND",
+      "source_original_school_answer_key_authenticated": false,
+      "published_original_scan_images": false,
+      "no_picture_parent_dependency": true,
+      "article9_regulated_exam_question_text_only": true,
+      "student_publication_condition": "ONLY_PR_CI_MAIN_PAGES_LIVE_EXAM_SUCCESS",
+      "public_id": "P12_E01_POST49_MINGYI_MID_TF_003"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q06|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "original_frozen_review_ref": "data/review/p12-b04-auto-batch50-b06-first50-science-kp-review-v1.json",
+      "original_115_exception_ref": "data/review/p12-b04-auto-batch50-final-closeout-115-exceptions-v1.json",
+      "remaining49_sweep_ref": "data/review/p12-e01-postcloseout-remaining49-science-kp-source-sweep-v1.json",
+      "original_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "original_pdf_byte_size": 376368,
+      "source_drive_file_id": "14KIqnA3EGmx7JxEEroNOFN7nK7SH3IEG",
+      "source_pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 0,
+      "original_pdf_page_size_pts": [
+        728.52,
+        1031.82
+      ],
+      "pdf_page_render_scale": 1.6,
+      "original_page_rgb_sha256": "b5d46ac4f0bd6c7713ac20f883b5c1f14f8885c3f50508ce192b860587c7e815",
+      "original_page_image_size_px": [
+        1166,
+        1651
+      ],
+      "native_pdf_glyph_text_at_answer_marker": [
+        "(",
+        ")(1)"
+      ],
+      "source_pdf_native_text_layer_available": true,
+      "source_bbox_native_pdf_glyph_source_coordinates": [
+        388.18,
+        302.93,
+        416.03,
+        317.88
+      ],
+      "source_bbox_geometry_verified_by_pdf_image_overlay": true,
+      "source_original_question_full_stem_including_scoring_annotation": "下列關於「光的反射」敘述，正確畫○，不正確打〤。(9 分)\n萬花筒能看到對稱圖案，是因為光的反射。",
+      "student_scoreless_stem_projection": "下列關於「光的反射」敘述，正確畫○，不正確打〤。\n萬花筒能看到對稱圖案，是因為光的反射。",
+      "source_original_options": [],
+      "question_type": "TRUE_FALSE",
+      "reasoned_science_answer": "O",
+      "independent_science_reason": "萬花筒利用鏡面多次反射光線產生對稱或重複圖案，屬於光的反射與方向改變；不同於原提案的生活反光器材 KP 判讀。",
+      "previous_kp_proposal": "sci_g04s1_03_08",
+      "final_direct_canonical_kp_id": "sci_g04s1_03_07",
+      "original_frozen_exception_flags": [
+        "KALEIDOSCOPE_MIRROR_REFLECTION_KP_03_07_NOT_03_08"
+      ],
+      "repair_semantic_reason": "KALEIDOSCOPE_MULTIPLE_MIRROR_REFLECTION",
+      "source_original_school_answer_key_authenticated": false,
+      "published_original_scan_images": false,
+      "no_picture_parent_dependency": true,
+      "article9_regulated_exam_question_text_only": true,
+      "student_publication_condition": "ONLY_PR_CI_MAIN_PAGES_LIVE_EXAM_SUCCESS",
+      "public_id": "P12_E01_POST49_TAOZIJIAO_FINAL_TF_001"
+    }
+  ]
+}

@@ -57,10 +57,33 @@ test("Original section-level native reconstruction includes Taozijiao100 Shihu50
   assert.equal(rows.reduce((n,x)=>n+x.visually_counted_source_sections.reduce((m,s)=>m+s.answer_positions,0),0),200);
   assert.ok(rows.every(x=>x.direct_current48kp_and_unique_science_completed===false));
 });
+test("Four complex native paper subsection counters reconciled, no source/SciKP publication assumption",()=>{
+ const ids=["SCI_G04_S1_113_FINAL_007","SCI_G04_S1_113_FINAL_008","SCI_G04_S1_113_FINAL_004","SCI_G04_S1_113_MID_017"];
+ const expected=[54,92,81,68];
+ const rows=ids.map(id=>review.records.find(x=>x.source_id===id));
+ assert.deepEqual(rows.map(x=>x.original_visual_section_answer_positions),expected);
+ assert.ok(rows.every(x=>x.section_count_status==="NATIVE_SOURCE_TEXT_PRINTED_SUBRESPONSE_INVENTORY_RECONCILED__ORIGINAL_PAGE_GEOMETRY_PENDING"));
+ assert.ok(rows.every(x=>x.site_admission_eligible_now===false));
+ assert.equal(rows.reduce((n,r)=>n+r.original_visual_section_answer_positions,0),295);
+});
+test("Remaining16 header quantities are speculative and must never satisfy 29-paper source exact certification",()=>{
+ const guesses=read("data/review/p12-g04s1-113-remaining16-header-estimate-only-v1.json");
+ assert.equal(guesses.remaining_original_source_papers,16);
+ assert.equal(guesses.records.length,16);
+ assert.equal(guesses.unverified_estimated_source_answer_positions,929);
+ assert.equal(guesses.combined_numerical_planning_estimate_all29,1750);
+ assert.ok(guesses.records.every(x=>x.exact_printed_subanswer_inventory_complete===false&&x.public_admission===false));
+ for(const x of guesses.records){
+   const current=review.records.find(r=>r.source_id===x.source_id);
+   assert.ok(current);
+   assert.equal(current.original_visual_section_answer_positions,null);
+   assert.equal(current.source_pdf_sha256,x.pdf_sha256);
+ }
+});
 test("One-batch 29 remaining source work must not misstate 771 candidate starts or the 636 public baseline",()=>{
- assert.equal(review.original_response_positions_section_reconciled,526);
- assert.equal(review.section_reconciled_source_papers,9);
- assert.equal(review.remaining_native_source_papers_to_exactly_count,20);
+ assert.equal(review.original_response_positions_section_reconciled,821);
+ assert.equal(review.section_reconciled_source_papers,13);
+ assert.equal(review.remaining_native_source_papers_to_exactly_count,16);
  assert.equal(review.all29_exact_source_position_closeout,false);
  assert.equal(review.all29_science_unique_answer_and_direct_kp_certified,false);
  assert.equal(review.cross_year_114_exact_duplicate_fully_checked,false);

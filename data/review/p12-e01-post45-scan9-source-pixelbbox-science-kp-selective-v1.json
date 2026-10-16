@@ -1,0 +1,451 @@
+{
+  "schema_version": "P12_E01_POST45_SCAN9_SOURCE_PIXELBBOX_EXACT_SCIENCE_KP_SELECTIVE_V1",
+  "current_main_sha": "939611041aec9d4a93bb16b7fba16ab04fa54aee",
+  "preceding_46_ledger": "data/review/p12-e01-postcloseout-remaining46-priority-review-v1.json",
+  "public_slots_before": 630,
+  "remaining_exception_positions_before": 45,
+  "source_papers_original_drive_files_retrieved": 3,
+  "original_pdf_sha_verified_against_frozen_archive_for_all_3": true,
+  "six_raster_page_sha256_verified_against_prior_evidence": true,
+  "positions_reviewed": 9,
+  "science_answer_proposed_for_all": 9,
+  "exact_pixel_marker_certified_for_selective_admission": 2,
+  "other_7_pixels_visual_candidate_only_not_formal_certification": true,
+  "certified_selected_admissions": 2,
+  "science_kp_or_source_held": 7,
+  "by_hold_reason": {
+    "SOURCE_TEXT_CORRUPTION": 1,
+    "KP_NO_DIRECT_MATCH": 6
+  },
+  "student_bank_original_image_assets_included": false,
+  "old_frozen_45_held_source_snapshot_unmodified": true,
+  "independent_model_answer_not_school_teacher_key": true,
+  "no_historical_630_question_deleted_or_rewritten": true,
+  "rights_scope": "FORMAL_SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_ORIGINAL_SCANS",
+  "conditional_total_after_all_gates": 632,
+  "conditional_remaining_after_all_gates": 43,
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_002|S2|TF|007",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_publisher": "南一",
+      "original_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "original_pdf_binary_bytes": 1071058,
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_page_pdf_1_based": 1,
+      "source_scan_only": true,
+      "native_pdf_glyphs_available": false,
+      "rotation_transformation": "SOURCE_PAGE_LANDSCAPE_ROTATE_90_CLOCKWISE_AFTER_RENDER",
+      "render_scale": 1.6,
+      "upright_page_image_size_px": [
+        1166,
+        1650
+      ],
+      "upright_page_rgb_sha256": "3fdba6bdca23ca017da18f19a3267543c9f7abe02e1b67f36d62a313228c5ff0",
+      "image_verified_answer_marker_pixel_bbox_candidate": [
+        35,
+        1483,
+        96,
+        1520
+      ],
+      "exact_pixel_bbox_independent_acceptance": false,
+      "answer_marker_bbox_pts_top_left": [
+        21.875,
+        926.875,
+        60,
+        950
+      ],
+      "source_original_stem_from_archive": "水生動物和水生植物生活在同一個水域不會互相影響。",
+      "printed_source_visual_observation": "Original scan visually matches archive.",
+      "source_exact_ordered_options": [],
+      "independent_model_science_answer": "X",
+      "proposed_prior_kp_id": "sci_g04s1_02_02",
+      "current_scope_kp_reviewed": "sci_g04s1_02_02",
+      "source_science_kp_decision": "HOLD_KP_NOT_DIRECT",
+      "decision_reason": "Animal/plant mutual influence in one habitat is not a direct test of canonical 02_02 'water-habitat environmental differences'; do not force-fit to 02_11 pollution.",
+      "original_school_teacher_answer_key_authenticated": false,
+      "standalone_no_figure_dependency": true,
+      "source_image_or_cropped_assets_publicly_included": false,
+      "prior_frozen_source_immutable": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_002|S2|TF|011",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_publisher": "南一",
+      "original_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "original_pdf_binary_bytes": 1071058,
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_page_pdf_1_based": 1,
+      "source_scan_only": true,
+      "native_pdf_glyphs_available": false,
+      "rotation_transformation": "SOURCE_PAGE_LANDSCAPE_ROTATE_90_CLOCKWISE_AFTER_RENDER",
+      "render_scale": 1.6,
+      "upright_page_image_size_px": [
+        1166,
+        1650
+      ],
+      "upright_page_rgb_sha256": "3fdba6bdca23ca017da18f19a3267543c9f7abe02e1b67f36d62a313228c5ff0",
+      "image_verified_answer_marker_pixel_bbox_candidate": [
+        589,
+        242,
+        651,
+        274
+      ],
+      "exact_pixel_bbox_independent_acceptance": false,
+      "answer_marker_bbox_pts_top_left": [
+        368.125,
+        151.25,
+        406.875,
+        171.25
+      ],
+      "source_original_stem_from_archive": "一天中太陽的位置貼水面置隨時間而變化，中午的影子最長。",
+      "printed_source_visual_observation": "Original print differs from archived transcription; original photographed full row reviewed.",
+      "source_exact_ordered_options": [],
+      "independent_model_science_answer": "X",
+      "proposed_prior_kp_id": "sci_g04s1_03_06",
+      "current_scope_kp_reviewed": "sci_g04s1_03_06",
+      "source_science_kp_decision": "HOLD_ORIGINAL_PRINTED_TEXT_CORRUPTION",
+      "decision_reason": "Original print mixes solar position with nonsensical '平貼水面置'; frozen archive omits 平; must not silently repair/normalize printed science stem or certify a unique question.",
+      "original_school_teacher_answer_key_authenticated": false,
+      "standalone_no_figure_dependency": true,
+      "source_image_or_cropped_assets_publicly_included": false,
+      "prior_frozen_source_immutable": true,
+      "original_print_text_warning": "Original scan displays extra character 平 before 貼水面置 compared with frozen archive; do not silently edit."
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_publisher": "南一",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "original_pdf_binary_bytes": 351361,
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_page_pdf_1_based": 1,
+      "source_scan_only": true,
+      "native_pdf_glyphs_available": false,
+      "rotation_transformation": "SOURCE_PAGE_PDF_ROTATION_90_FITZ_RASTER_ROTATE_90_COUNTERCLOCKWISE_TO_UPRIGHT",
+      "render_scale": 1.6,
+      "upright_page_image_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "image_verified_answer_marker_pixel_bbox_candidate": [
+        37,
+        1230,
+        101,
+        1268
+      ],
+      "exact_pixel_bbox_independent_acceptance": false,
+      "answer_marker_bbox_pts_top_left": [
+        23.125,
+        768.75,
+        63.125,
+        792.5
+      ],
+      "source_original_stem_from_archive": "下列哪些不會運用到太陽的光與熱？",
+      "printed_source_visual_observation": "Four original options visually matched archive.",
+      "source_exact_ordered_options": [
+        "①動植物生長",
+        "②連接電池讓燈泡發光",
+        "③白天感覺到溫暖",
+        "④白天可清楚看見環境與景物"
+      ],
+      "independent_model_science_answer": "②",
+      "proposed_prior_kp_id": "sci_g04s1_03_04",
+      "current_scope_kp_reviewed": "sci_g04s1_03_04",
+      "source_science_kp_decision": "HOLD_KP_NOT_DIRECT",
+      "decision_reason": "Battery-powered bulb vs sunlight/solar heat is not a direct assessment of 03_04 'seeing requires light entering the eyes'; answer ② independently reasoned, no exact existing KP.",
+      "original_school_teacher_answer_key_authenticated": false,
+      "standalone_no_figure_dependency": true,
+      "source_image_or_cropped_assets_publicly_included": false,
+      "prior_frozen_source_immutable": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|013",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_publisher": "南一",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "original_pdf_binary_bytes": 351361,
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_page_pdf_1_based": 1,
+      "source_scan_only": true,
+      "native_pdf_glyphs_available": false,
+      "rotation_transformation": "SOURCE_PAGE_PDF_ROTATION_90_FITZ_RASTER_ROTATE_90_COUNTERCLOCKWISE_TO_UPRIGHT",
+      "render_scale": 1.6,
+      "upright_page_image_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "image_verified_answer_marker_pixel_bbox_candidate": [
+        515,
+        998,
+        577,
+        1035
+      ],
+      "exact_pixel_bbox_independent_acceptance": false,
+      "answer_marker_bbox_pts_top_left": [
+        321.875,
+        623.75,
+        360.625,
+        646.875
+      ],
+      "source_original_stem_from_archive": "下列哪個使用電池的方式是錯誤的？",
+      "printed_source_visual_observation": "Four original options visually matched archive.",
+      "source_exact_ordered_options": [
+        "①要買有回收標誌的電池",
+        "②新舊電池一起使用",
+        "③剩餘電量要利用",
+        "④電量用完要回收"
+      ],
+      "independent_model_science_answer": "②",
+      "proposed_prior_kp_id": "sci_g04s1_04_11",
+      "current_scope_kp_reviewed": "sci_g04s1_04_11",
+      "source_science_kp_decision": "HOLD_KP_NOT_DIRECT",
+      "decision_reason": "New/old battery mixed use is a handling-safety rule, not direct 'waste-battery recycling' 04_11; cannot force-fit because other distractors discuss recycling.",
+      "original_school_teacher_answer_key_authenticated": false,
+      "standalone_no_figure_dependency": true,
+      "source_image_or_cropped_assets_publicly_included": false,
+      "prior_frozen_source_immutable": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|001",
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_publisher": "康軒",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_pdf_binary_bytes": 1166576,
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_page_pdf_1_based": 1,
+      "source_scan_only": true,
+      "native_pdf_glyphs_available": false,
+      "rotation_transformation": "PDF_UPRIGHT_NO_POST_RENDER_ROTATION",
+      "render_scale": 1.6,
+      "upright_page_image_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+      "image_verified_answer_marker_pixel_bbox_candidate": [
+        80,
+        190,
+        136,
+        224
+      ],
+      "exact_pixel_bbox_independent_acceptance": false,
+      "answer_marker_bbox_pts_top_left": [
+        50,
+        118.75,
+        85,
+        140
+      ],
+      "source_original_stem_from_archive": "下列哪個因素並不會讓大塊岩石碎裂成礫石？",
+      "printed_source_visual_observation": "Four original options visually matched archive.",
+      "source_exact_ordered_options": [
+        "①太陽長期照射",
+        "②小動物走過去",
+        "③雨水大量沖刷",
+        "④長時間強風吹襲"
+      ],
+      "independent_model_science_answer": "②",
+      "proposed_prior_kp_id": "sci_g04s1_01_05",
+      "current_scope_kp_reviewed": "sci_g04s1_01_05",
+      "source_science_kp_decision": "HOLD_KP_NOT_DIRECT",
+      "decision_reason": "Causes of rock fragmentation/weathering not directly assessed by 01_05 running-water transport; do not misclassify as river transport.",
+      "original_school_teacher_answer_key_authenticated": false,
+      "standalone_no_figure_dependency": true,
+      "source_image_or_cropped_assets_publicly_included": false,
+      "prior_frozen_source_immutable": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|002",
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_publisher": "康軒",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_pdf_binary_bytes": 1166576,
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_page_pdf_1_based": 1,
+      "source_scan_only": true,
+      "native_pdf_glyphs_available": false,
+      "rotation_transformation": "PDF_UPRIGHT_NO_POST_RENDER_ROTATION",
+      "render_scale": 1.6,
+      "upright_page_image_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+      "image_verified_answer_marker_pixel_bbox_candidate": [
+        80,
+        279,
+        136,
+        314
+      ],
+      "exact_pixel_bbox_independent_acceptance": false,
+      "answer_marker_bbox_pts_top_left": [
+        50,
+        174.375,
+        85,
+        196.25
+      ],
+      "source_original_stem_from_archive": "地震震源釋放出的能量大小稱為",
+      "printed_source_visual_observation": "Four original options visually matched archive.",
+      "source_exact_ordered_options": [
+        "①震央",
+        "②震度",
+        "③地震深度",
+        "④地震規模"
+      ],
+      "independent_model_science_answer": "④",
+      "proposed_prior_kp_id": "sci_g04s1_01_08",
+      "current_scope_kp_reviewed": "sci_g04s1_01_08",
+      "source_science_kp_decision": "HOLD_KP_NOT_DIRECT",
+      "decision_reason": "Earthquake magnitude measures released energy; 01_08 is ground changes/disaster consequences, not magnitude terminology.",
+      "original_school_teacher_answer_key_authenticated": false,
+      "standalone_no_figure_dependency": true,
+      "source_image_or_cropped_assets_publicly_included": false,
+      "prior_frozen_source_immutable": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|011",
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_publisher": "康軒",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_pdf_binary_bytes": 1166576,
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_page_pdf_1_based": 1,
+      "source_scan_only": true,
+      "native_pdf_glyphs_available": false,
+      "rotation_transformation": "PDF_UPRIGHT_NO_POST_RENDER_ROTATION",
+      "render_scale": 1.6,
+      "upright_page_image_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+      "image_verified_answer_marker_pixel_bbox_candidate": [
+        80,
+        1290,
+        136,
+        1326
+      ],
+      "exact_pixel_bbox_independent_acceptance": false,
+      "answer_marker_bbox_pts_top_left": [
+        50,
+        806.25,
+        85,
+        828.75
+      ],
+      "source_original_stem_from_archive": "下列哪一項不是水生植物的特徵？",
+      "printed_source_visual_observation": "Four original options visually matched archive.",
+      "source_exact_ordered_options": [
+        "①莖、葉通常較柔軟，可以隨著水流擺動",
+        "②葉柄中有孔洞，可以儲存空氣",
+        "③花很香，是魚類的主要食物",
+        "④葉面大多有細毛或蠟質，可以防水"
+      ],
+      "independent_model_science_answer": "③",
+      "proposed_prior_kp_id": "sci_g04s1_02_03",
+      "current_scope_kp_reviewed": "sci_g04s1_02_03",
+      "source_science_kp_decision": "HOLD_KP_NOT_DIRECT",
+      "decision_reason": "General aquatic plant traits and fish eating flowers are not direct assessment of 02_03 four aquatic plant growth types; not a one-KP form-category item.",
+      "original_school_teacher_answer_key_authenticated": false,
+      "standalone_no_figure_dependency": true,
+      "source_image_or_cropped_assets_publicly_included": false,
+      "prior_frozen_source_immutable": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|013",
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_publisher": "康軒",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_pdf_binary_bytes": 1166576,
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_page_pdf_1_based": 1,
+      "source_scan_only": true,
+      "native_pdf_glyphs_available": false,
+      "rotation_transformation": "PDF_UPRIGHT_NO_POST_RENDER_ROTATION",
+      "render_scale": 1.6,
+      "upright_page_image_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+      "image_verified_answer_marker_pixel_bbox_candidate": [
+        627,
+        148,
+        684,
+        183
+      ],
+      "exact_pixel_bbox_independent_acceptance": true,
+      "answer_marker_bbox_pts_top_left": [
+        391.875,
+        92.5,
+        427.5,
+        114.375
+      ],
+      "source_original_stem_from_archive": "用手觸摸岩石、沙和土壤，下列哪一個是正確的？",
+      "printed_source_visual_observation": "Four original options visually matched archive; printed ( ) and number 13 in verified pixel box.",
+      "source_exact_ordered_options": [
+        "①岩石摸起來粗粗的、軟軟的",
+        "②沙摸起來細細的、軟軟的",
+        "③岩石、沙和土壤摸起來的感覺相同",
+        "④土壤摸起來細細的、軟軟的"
+      ],
+      "independent_model_science_answer": "④",
+      "proposed_prior_kp_id": "sci_g04s1_01_03",
+      "current_scope_kp_reviewed": "sci_g04s1_01_03",
+      "source_science_kp_decision": "CERTIFIED_SELECTIVE_ADMISSION",
+      "decision_reason": "In the instructional rock-sand-soil tactile comparison, typical soil is finer and softer than gritty sand/hard rock; option ④ uniquely fits, though actual soil texture depends on its composition.",
+      "original_school_teacher_answer_key_authenticated": false,
+      "standalone_no_figure_dependency": true,
+      "source_image_or_cropped_assets_publicly_included": false,
+      "prior_frozen_source_immutable": true,
+      "public_block_id": "P12_E01_POST45_PUREN_MID_MC_013",
+      "formally_selectively_admitted_after_ci_pages_only": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|005",
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_publisher": "康軒",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_pdf_binary_bytes": 1166576,
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_page_pdf_1_based": 2,
+      "source_scan_only": true,
+      "native_pdf_glyphs_available": false,
+      "rotation_transformation": "PDF_UPRIGHT_NO_POST_RENDER_ROTATION",
+      "render_scale": 1.6,
+      "upright_page_image_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "fe57caf2381bfc66e9353a4c0608c4554de9cafdee9afe76032f1baf0fe4643f",
+      "image_verified_answer_marker_pixel_bbox_candidate": [
+        61,
+        1218,
+        125,
+        1248
+      ],
+      "exact_pixel_bbox_independent_acceptance": true,
+      "answer_marker_bbox_pts_top_left": [
+        38.125,
+        761.25,
+        78.125,
+        780
+      ],
+      "source_original_stem_from_archive": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。(每個答案1分)\n地震發生時可以大聲尖叫，舒緩緊張。",
+      "printed_source_visual_observation": "Original parent prompt and fifth printed answer box verified on scan page 2; preserves parent prompt with only score annotation removed.",
+      "source_exact_ordered_options": [],
+      "independent_model_science_answer": "X",
+      "proposed_prior_kp_id": "sci_g04s1_01_10",
+      "current_scope_kp_reviewed": "sci_g04s1_01_10",
+      "source_science_kp_decision": "CERTIFIED_SELECTIVE_ADMISSION",
+      "decision_reason": "Earthquake emergency guidance does not recommend screaming as a coping response; drop, cover and hold on, remain alert to surroundings; original false statement X.",
+      "original_school_teacher_answer_key_authenticated": false,
+      "standalone_no_figure_dependency": true,
+      "source_image_or_cropped_assets_publicly_included": false,
+      "prior_frozen_source_immutable": true,
+      "public_block_id": "P12_E01_POST45_PUREN_MID_TF_005",
+      "formally_selectively_admitted_after_ci_pages_only": true
+    }
+  ]
+}

@@ -1,0 +1,2597 @@
+{
+  "schema_version": "P12_E01_POSTCLOSEOUT_REMAINING49_ORIGINAL_SOURCE_SEMANTIC_KP_SWEEP_V1",
+  "baseline_main": "a5cb2ca4d8b7a9bba3fd655788eefd5893008f44",
+  "previous_52_ref": "data/review/p12-e01-postcloseout-remaining52-source-classification-v1.json",
+  "previous_52_count": 52,
+  "previous_anhe3_success_source_ids": [
+    "SCI_G04_S1_114_FINAL_007|S01|TF|002",
+    "SCI_G04_S1_114_FINAL_007|S01|TF|014",
+    "SCI_G04_S1_114_FINAL_007|S02|MC|002"
+  ],
+  "new_remaining_count": 49,
+  "direct_science_kp_source_exact_candidates": 2,
+  "unreleased_exception_count_until_PR_CI_Pages_pass": 49,
+  "expected_unreleased_exception_count_after_selective_admission": 47,
+  "baseline_student_answer_slots": 626,
+  "expected_student_answer_slots_after_release": 628,
+  "candidates_checked_against_real_source_original_pdfs": true,
+  "all_other_47_not_released": true,
+  "original_teacher_school_answer_key_authenticated": false,
+  "original_frozen_source_and_115_exception_ledger_immutable": true,
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_004|S02|MC|006",
+      "original_batch": "B01",
+      "original_batch_ordinal": 32,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_frozen_route": "DEDUP_LINEAGE_ONLY",
+      "latest_route": "DUPLICATE_LINEAGE_ONLY_NO_PUBLIC_SECOND_COPY",
+      "original_flags": [
+        "DUPLICATE_EXACT_STEM_ACROSS_SCHOOLS"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_09",
+      "source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b01-first50-science-review-v1.json",
+      "original_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "教室裡的日光燈管壞了一個，其他的還是會發光，表示日光燈管是利用下列哪一種方法連接的？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "並聯"
+        },
+        {
+          "label": "②",
+          "text": "串聯"
+        },
+        {
+          "label": "③",
+          "text": "通聯"
+        },
+        {
+          "label": "④",
+          "text": "亂聯"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        35.4,
+        773.58,
+        67.36,
+        786.86
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_南一_四上_自然_期末評量卷_崇德國小.pdf",
+      "original_source_drive_file_id": "1MVDJoRVSqpN4s1FPNp_nWSy5G5knc2-l",
+      "previous_kp_title": "燈泡並聯對亮度的影響",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_004|S01|TF|008",
+      "original_batch": "B01",
+      "original_batch_ordinal": 42,
+      "source_paper_id": "SCI_G04_S1_114_MID_004",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "AMBIGUOUS_HABITAT_SCOPE"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_02",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b01-first50-science-review-v1.json",
+      "original_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "森林中，常可見到玉山圓柏、玉山箭竹等植物。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        37.8,
+        439.88,
+        80.48,
+        453.92
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_大墩國小.pdf",
+      "original_source_drive_file_id": "17mG1IAXPhDilZuwDBgEUvdCBHE_Otxe5",
+      "previous_kp_title": "生物與適合的生存環境",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_004|S02|MC|009",
+      "original_batch": "B01",
+      "original_batch_ordinal": 48,
+      "source_paper_id": "SCI_G04_S1_114_MID_004",
+      "original_frozen_route": "ORIGINAL_PRINTED_OPTIONS_REVIEW",
+      "latest_route": "SOURCE_PRINTED_OPTION_LABEL_ANOMALY_HOLD",
+      "original_flags": [
+        "PRINTED_DUPLICATE_②_CHOICE_LABEL",
+        "SOURCE_PRINTED_OPTIONS_HOLD"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_01",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b01-first50-science-review-v1.json",
+      "original_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "小美想要進行水域環境的探索，請問她選擇哪一種環境最不適合？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "海洋"
+        },
+        {
+          "label": "②",
+          "text": "河流"
+        },
+        {
+          "label": "②",
+          "text": "池塘"
+        },
+        {
+          "label": "④",
+          "text": "草原"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        384.67,
+        415.28,
+        423.61,
+        429.32
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_大墩國小.pdf",
+      "original_source_drive_file_id": "17mG1IAXPhDilZuwDBgEUvdCBHE_Otxe5",
+      "previous_kp_title": "陸域環境與水域環境",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_005|S01|TF|014",
+      "original_batch": "B02",
+      "original_batch_ordinal": 18,
+      "source_paper_id": "SCI_G04_S1_114_MID_005",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "LOTUS_FLOATING_JUVENILE_LEAF_AMBIGUITY"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_07",
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "荷花葉柄會隨著水位降低而改變形態，使葉面平貼在水面。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        36.48,
+        521.82,
+        84.5,
+        533.82
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_民權國小.pdf",
+      "original_source_drive_file_id": "1eWBdPcFVKEWOUqgAcwnki-u9vbuPmWIB",
+      "previous_kp_title": "挺水性植物的適應",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_005|S02|MC|010",
+      "original_batch": "B02",
+      "original_batch_ordinal": 26,
+      "source_paper_id": "SCI_G04_S1_114_MID_005",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "FLOATING_VS_FLOATING_LEAF_WATER_LEVEL_AMBIGUITY"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "下列何者是漂浮性水生植物和浮葉性水生植物的相同點？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "根都沒有生長在水底的泥土裡"
+        },
+        {
+          "label": "②",
+          "text": "整株植物會隨水流漂到別處"
+        },
+        {
+          "label": "③",
+          "text": "水位低時，葉仍會浮在水面上"
+        },
+        {
+          "label": "④",
+          "text": "莖都生長在水底的泥土裡"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        302.35,
+        425.82,
+        350.35,
+        437.82
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_民權國小.pdf",
+      "original_source_drive_file_id": "1eWBdPcFVKEWOUqgAcwnki-u9vbuPmWIB",
+      "previous_kp_title": "浮葉性植物的適應",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|003",
+      "original_batch": "B02",
+      "original_batch_ordinal": 29,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "CONTINUOUS_GROUND_INSTABILITY_OVERGENERALIZATION"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_05",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "流水作用對地表環境產生新樣貌後，地表環境就會變得不穩定，而一直在變動。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        33.6,
+        263,
+        61.46,
+        276.92
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "original_source_drive_file_id": "1b2Ra-MB32xdJjXy-xtn0gJTIuvtF8YTW",
+      "previous_kp_title": "流水搬運地表物質",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|004",
+      "original_batch": "B02",
+      "original_batch_ordinal": 30,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "WIND_PROCESS_NOT_DIRECT_FLOWING_WATER_KP_MATCH"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "風力的作用與流水一樣，作用力越強，顆粒越小的物質會移動得越遠。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        33.6,
+        317.72,
+        61.46,
+        331.64
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "original_source_drive_file_id": "1b2Ra-MB32xdJjXy-xtn0gJTIuvtF8YTW",
+      "previous_kp_title": "流水作用強弱與搬運距離",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|005",
+      "original_batch": "B02",
+      "original_batch_ordinal": 31,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SEISMIC_MAGNITUDE_OUTSIDE_CURRENT_CANONICAL_KP"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_08",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "臺灣用來表示地震規模大小是芮氏規模，最大是「7 級」。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        33.6,
+        353.96,
+        61.46,
+        367.88
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "original_source_drive_file_id": "1b2Ra-MB32xdJjXy-xtn0gJTIuvtF8YTW",
+      "previous_kp_title": "地震造成地表變動與災害",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|006",
+      "original_batch": "B02",
+      "original_batch_ordinal": 32,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "EARTHQUAKE_REPORT_DAMAGE_DETAILS_NOT_UNIVERSAL"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_08",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "地震報告會包含震央、震源、地震規模、震度與災損情形等資訊。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        33.6,
+        390.47,
+        61.46,
+        404.39
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "original_source_drive_file_id": "1b2Ra-MB32xdJjXy-xtn0gJTIuvtF8YTW",
+      "previous_kp_title": "地震造成地表變動與災害",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|007",
+      "original_batch": "B02",
+      "original_batch_ordinal": 33,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "AQUATIC_HABITAT_DEFINITION_OVERBROAD"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_01",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "在大自然中，只要是有水的地方，都可稱為水域環境。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        33.6,
+        426.95,
+        61.46,
+        440.87
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "original_source_drive_file_id": "1b2Ra-MB32xdJjXy-xtn0gJTIuvtF8YTW",
+      "previous_kp_title": "陸域環境與水域環境",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S02|MC|002",
+      "original_batch": "B02",
+      "original_batch_ordinal": 41,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SAFE_SCIENCE_OBSERVATION_OUTSIDE_KP_GRAIN_SIZE_SCOPE"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "觀察地表物質如岩石、沙和土壤時，下列何者並不恰當？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "手摸表面"
+        },
+        {
+          "label": "②",
+          "text": "用放大鏡看"
+        },
+        {
+          "label": "③",
+          "text": "口嘗味道"
+        },
+        {
+          "label": "④",
+          "text": "鼻聞氣味。"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        381.48,
+        187.62,
+        409.32,
+        201.54
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "original_source_drive_file_id": "1b2Ra-MB32xdJjXy-xtn0gJTIuvtF8YTW",
+      "previous_kp_title": "岩石、沙與土壤的顆粒大小",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S02|MC|005",
+      "original_batch": "B02",
+      "original_batch_ordinal": 44,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SEISMIC_MAGNITUDE_OUTSIDE_CURRENT_CANONICAL_KP"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_08",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "地震紀錄的芮氏規模越大時，表示該地震所釋放的能量大小為何？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "越小"
+        },
+        {
+          "label": "②",
+          "text": "越大"
+        },
+        {
+          "label": "③",
+          "text": "二者無關聯"
+        },
+        {
+          "label": "④",
+          "text": "以上皆非。"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        381.48,
+        406.07,
+        409.32,
+        419.99
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "original_source_drive_file_id": "1b2Ra-MB32xdJjXy-xtn0gJTIuvtF8YTW",
+      "previous_kp_title": "地震造成地表變動與災害",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|003",
+      "original_batch": "B03",
+      "original_batch_ordinal": 4,
+      "source_paper_id": "SCI_G04_S1_114_MID_007",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "WIND_AND_WATER_GEOMORPHOLOGY_KP_SCOPE"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_05",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "著名的地形景觀「風吹砂」，代表只有風會改變墾丁國家公園海邊沙丘的樣貌，雨水不會。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        54.6,
+        267.65,
+        108.39,
+        281.69
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "original_source_drive_file_id": "1vYm6xxOw6TQzKb-r8bEYM8gp7cDIRDFa",
+      "previous_kp_title": "流水搬運地表物質",
+      "new_direct_kp": "sci_g04s1_01_05",
+      "model_rechecked_unique_answer": "X",
+      "model_science_recheck_rationale": "單純排除雨水影響的全稱斷言為錯；降雨形成地表逕流，能搬運沙土，與流水搬運地表物質的 KP 直接相關。",
+      "selective_repair_reason_code": "RAINFALL_AND_RUNOFF_CAN_ALTER_COASTAL_SAND",
+      "selective_repair_status": "SOURCE_EXACT_NATIVE_PDF_DIRECT_KP_ANSWER_RELEASE_CANDIDATE",
+      "requires_pdf_exact_check_before_release": true,
+      "no_automatic_release_of_other_held_sources": false,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|005",
+      "original_batch": "B03",
+      "original_batch_ordinal": 5,
+      "source_paper_id": "SCI_G04_S1_114_MID_007",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "EARTHQUAKE_NATURAL_ORIGIN_NOT_MATCH_DEVELOPMENT_KP"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_07",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "地震和土石流是人為現象所導致。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        54.6,
+        411.68,
+        108.39,
+        425.72
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "original_source_drive_file_id": "1vYm6xxOw6TQzKb-r8bEYM8gp7cDIRDFa",
+      "previous_kp_title": "人類開發對地表環境的影響",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|012",
+      "original_batch": "B03",
+      "original_batch_ordinal": 10,
+      "source_paper_id": "SCI_G04_S1_114_MID_007",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "WASTEWATER_NOT_ALWAYS_THERMAL"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_12",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "工廠排放廢水會導致附近海水溫度上升。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        54.6,
+        735.7,
+        115.44,
+        749.74
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "original_source_drive_file_id": "1vYm6xxOw6TQzKb-r8bEYM8gp7cDIRDFa",
+      "previous_kp_title": "熱廢水與珊瑚白化",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|004",
+      "original_batch": "B03",
+      "original_batch_ordinal": 20,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SUBMERGED_VS_FLOATING_LEAF_ADAPTATION_SCOPE"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_05",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "水生植物為了適應水中生活，大部分都有特殊的構造，例如水蘊草具有柔軟的莖和葉，以適應水位變化和減少水流的衝擊。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        81.38,
+        287.6,
+        123.32,
+        301.64
+      ],
+      "original_source_bbox_provenance": "ORIGINAL_TEXT_LAYER_CHARACTER_BOX_QA_REF",
+      "original_paper_file_title": null,
+      "original_source_drive_file_id": "1g0ld_8TiIqt_UrtNRFZx_VqlZzKOx8D5",
+      "previous_kp_title": "沉水性植物的適應",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|005",
+      "original_batch": "B03",
+      "original_batch_ordinal": 21,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "FREE_HANGING_ROOT_VS_FLOATING_SEMANTICS"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_04",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "漂浮性水生植物的根漂浮在水裡，葉漂浮在水面上。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        74.3,
+        369.44,
+        116.36,
+        383.48
+      ],
+      "original_source_bbox_provenance": "ORIGINAL_TEXT_LAYER_CHARACTER_BOX_QA_REF",
+      "original_paper_file_title": null,
+      "original_source_drive_file_id": "1g0ld_8TiIqt_UrtNRFZx_VqlZzKOx8D5",
+      "previous_kp_title": "漂浮性植物的適應",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|011",
+      "original_batch": "B03",
+      "original_batch_ordinal": 26,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SOIL_FORMATION_OVERGENERALIZATION"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "岩石長期受到陽光、風和水的影響會漸漸變成土壤。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        81.26,
+        623.74,
+        123.32,
+        637.78
+      ],
+      "original_source_bbox_provenance": "ORIGINAL_TEXT_LAYER_CHARACTER_BOX_QA_REF",
+      "original_paper_file_title": null,
+      "original_source_drive_file_id": "1g0ld_8TiIqt_UrtNRFZx_VqlZzKOx8D5",
+      "previous_kp_title": "岩石、沙與土壤的顆粒大小",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|012",
+      "original_batch": "B03",
+      "original_batch_ordinal": 27,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "ROCK_TO_SOIL_FIXED_SEQUENCE_UNJUSTIFIED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_05",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "岩石受到風力或雨水的作用，會先碎裂成小礫石，最後變成土壤。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        81.26,
+        669.25,
+        123.32,
+        683.29
+      ],
+      "original_source_bbox_provenance": "ORIGINAL_TEXT_LAYER_CHARACTER_BOX_QA_REF",
+      "original_paper_file_title": null,
+      "original_source_drive_file_id": "1g0ld_8TiIqt_UrtNRFZx_VqlZzKOx8D5",
+      "previous_kp_title": "流水搬運地表物質",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|013",
+      "original_batch": "B03",
+      "original_batch_ordinal": 28,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "FLOATING_LEAF_LOW_WATER_CONDITIONAL"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "臺灣萍蓬草和睡蓮都是浮葉性水生植物，當水位降低時，它們葉面都仍然會平貼在水面。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        81.26,
+        714.61,
+        123.32,
+        728.65
+      ],
+      "original_source_bbox_provenance": "ORIGINAL_TEXT_LAYER_CHARACTER_BOX_QA_REF",
+      "original_paper_file_title": null,
+      "original_source_drive_file_id": "1g0ld_8TiIqt_UrtNRFZx_VqlZzKOx8D5",
+      "previous_kp_title": "浮葉性植物的適應",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|004",
+      "original_batch": "B03",
+      "original_batch_ordinal": 32,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "STREAM_SLOW_WATER_LOTUS_AMBIGUITY"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_02",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "進行溪流調查時，比較不可能觀察到下列哪一種水生生物？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "龜"
+        },
+        {
+          "label": "②",
+          "text": "蟹"
+        },
+        {
+          "label": "③",
+          "text": "睡蓮"
+        },
+        {
+          "label": "④",
+          "text": "蝦"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        413.23,
+        233.57,
+        455.29,
+        247.61
+      ],
+      "original_source_bbox_provenance": "ORIGINAL_TEXT_LAYER_CHARACTER_BOX_QA_REF",
+      "original_paper_file_title": null,
+      "original_source_drive_file_id": "1g0ld_8TiIqt_UrtNRFZx_VqlZzKOx8D5",
+      "previous_kp_title": "水域環境條件差異",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|003",
+      "original_batch": "B04",
+      "original_batch_ordinal": 28,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "VACUUM_VS_SPACECRAFT_SOUND_SCOPE_AMBIGUOUS"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b04-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "在下列哪個地方人的耳朵無法聽到聲音？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "太空中"
+        },
+        {
+          "label": "②",
+          "text": "海洋中"
+        },
+        {
+          "label": "③",
+          "text": "森林裡"
+        },
+        {
+          "label": "④",
+          "text": "被窩裡"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        32.21,
+        816.93,
+        80.34,
+        828.95
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "original_source_drive_file_id": "1ZLZNORw5p1YbeQ8yKQ3rpsPsi6aEAdkr",
+      "previous_kp_title": "聲音需要介質傳播",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|011",
+      "original_batch": "B04",
+      "original_batch_ordinal": 35,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "CONDUCTIVE_SWITCH_ALTERNATE_ASSEMBLY_MULTIPLE_CORRECT"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_05",
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b04-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "下面哪一組的材料，可以用來製造控制通路或斷路的簡易開關？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "鐵湯匙和長尾夾"
+        },
+        {
+          "label": "②",
+          "text": "塑膠尺和紙板"
+        },
+        {
+          "label": "③",
+          "text": "手帕和橡皮筋"
+        },
+        {
+          "label": "④",
+          "text": "迴紋針和紙板"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        359.04,
+        398.81,
+        407.13,
+        410.83
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "original_source_drive_file_id": "1ZLZNORw5p1YbeQ8yKQ3rpsPsi6aEAdkr",
+      "previous_kp_title": "良導體與不良導體",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|011",
+      "original_batch": "B05",
+      "original_batch_ordinal": 9,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "ASTRONAUT_SOUND_VACUUM_CONTEXT_UNSPECIFIED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "下列有關聲音的說明，哪一項是錯誤的？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "太空人在太空中可以聽見太空船爆炸的聲音"
+        },
+        {
+          "label": "②",
+          "text": "耳朵貼在門板上可以聽到門外的聲音"
+        },
+        {
+          "label": "③",
+          "text": "海豚的聲音可以用水傳播出去"
+        },
+        {
+          "label": "④",
+          "text": "水中的舞者可以聽見岸上的音樂。"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        369.6,
+        688.79,
+        417.6,
+        700.79
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "original_source_drive_file_id": "1dRJk3FJ_Ua_FFl8tla30iMbMzgcQfbGz",
+      "previous_kp_title": "聲音需要介質傳播",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|004",
+      "original_batch": "B05",
+      "original_batch_ordinal": 16,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SHADOW_BEHIND_OBJECT_RELATIVE_TO_LIGHT_SOURCE_UNSTATED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "用手電筒照射物體，影子會在物體的後面。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        53.88,
+        286.79,
+        98.18,
+        302.33
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_source_drive_file_id": "1pwlIRa40MeeVMlAYAyhufNchGEqbL6oT",
+      "previous_kp_title": "光直線行進與影子",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|005",
+      "original_batch": "B05",
+      "original_batch_ordinal": 17,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "CONCERT_LIGHTS_WARNING_FUNCTION_NOT_UNIVERSAL"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_09",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "警察車警鈴是應用聲音的裝置，演唱會的燈光則是應用光的裝置，兩者都有達到警示效果的功能。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        53.88,
+        321.23,
+        98.18,
+        336.77
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_source_drive_file_id": "1pwlIRa40MeeVMlAYAyhufNchGEqbL6oT",
+      "previous_kp_title": "聲與光的警示和指示用途",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|006",
+      "original_batch": "B05",
+      "original_batch_ordinal": 18,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SPACE_EXPLOSION_NO_MEDIUM_CONTEXT_UNSTATED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "如果有機會去到外太空，可以很清楚聽到爆炸的聲響。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        53.88,
+        419.06,
+        98.18,
+        434.6
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_source_drive_file_id": "1pwlIRa40MeeVMlAYAyhufNchGEqbL6oT",
+      "previous_kp_title": "聲音需要介質傳播",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|012",
+      "original_batch": "B05",
+      "original_batch_ordinal": 23,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "original_frozen_route": "DEDUP_LINEAGE_ONLY",
+      "latest_route": "DUPLICATE_LINEAGE_ONLY_NO_PUBLIC_SECOND_COPY",
+      "original_flags": [
+        "SOURCE_EXACT_DUPLICATE_PREVIOUSLY_PUBLISHED_B04_TF"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_01",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "電池有兩極，凸起的一端稱為負極，用「－」表示；平的一端稱為正極，用「＋」表示。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        53.88,
+        788.2,
+        98.18,
+        803.74
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_source_drive_file_id": "1pwlIRa40MeeVMlAYAyhufNchGEqbL6oT",
+      "previous_kp_title": "電池正負極",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S02|MC|007",
+      "original_batch": "B05",
+      "original_batch_ordinal": 33,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "original_frozen_route": "DEDUP_LINEAGE_ONLY",
+      "latest_route": "DUPLICATE_LINEAGE_ONLY_NO_PUBLIC_SECOND_COPY",
+      "original_flags": [
+        "SOURCE_EXACT_PUBLISHED_114_FINAL_003_S02_MC_001"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "在下列哪一個地方比較無法看見物體的影子？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "完全沒有燈光的深山裡"
+        },
+        {
+          "label": "②",
+          "text": "燈光明亮的教室"
+        },
+        {
+          "label": "③",
+          "text": "夜晚路燈下的街道"
+        },
+        {
+          "label": "④",
+          "text": "白天的籃球場。"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        456.67,
+        922.75,
+        500.88,
+        938.29
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_source_drive_file_id": "1pwlIRa40MeeVMlAYAyhufNchGEqbL6oT",
+      "previous_kp_title": "光直線行進與影子",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S2|MC|002",
+      "original_batch": "B05",
+      "original_batch_ordinal": 43,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_009",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "DOLPHIN_ECHOLOCATION_NOT_DIRECT_SOUND_GENERATION_KP"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_01",
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "下列對於物體振動發出聲音的敘述，哪一項是不正確的呢?",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "用筆敲擊桌子會發出聲音"
+        },
+        {
+          "label": "②",
+          "text": "說話時，用手摸喉嚨會感覺麻麻的"
+        },
+        {
+          "label": "③",
+          "text": "雄蟋蟀摩擦翅膀發出聲音"
+        },
+        {
+          "label": "④",
+          "text": "海豚利用尾巴來探測周圍環境。"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        59.16,
+        754.52,
+        107.12,
+        770.48
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期末評量卷_翁子國小.pdf",
+      "original_source_drive_file_id": "1-Mi19WvmR6dlDtmcWhVatnEjj35wOVWZ",
+      "previous_kp_title": "聲音由物體振動產生",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S2|MC|007",
+      "original_batch": "B05",
+      "original_batch_ordinal": 46,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_009",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "BATTERY_SERIES_PARALLEL_NOT_DIRECT_BRIGHTNESS_KP"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "關於電池的敘述，下列哪一項是正確的?",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "凸起來的一端是負極"
+        },
+        {
+          "label": "②",
+          "text": "新、舊電池一起使用比較省電"
+        },
+        {
+          "label": "③",
+          "text": "使用過的電池是一般垃圾"
+        },
+        {
+          "label": "④",
+          "text": "電池的連接方式有串聯和並聯兩種。"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        463.73,
+        430.5,
+        511.69,
+        446.46
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_康軒_四上_自然_期末評量卷_翁子國小.pdf",
+      "original_source_drive_file_id": "1-Mi19WvmR6dlDtmcWhVatnEjj35wOVWZ",
+      "previous_kp_title": "電池串聯對燈泡亮度的影響",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q01|007",
+      "original_batch": "B06",
+      "original_batch_ordinal": 5,
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "CORAL_REEF_HISTORICAL_USE_VS_CURRENT_PROTECTION_AMBIGUITY"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_10",
+      "source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b06-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "下列關於「人類活動與水域環境之間關係」的敘述，正確畫○，不正確打〤。\n澎湖居民利用珊瑚礁建造房屋，是人類利用水域資源的方式之一。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        50.16,
+        333.06,
+        77.99,
+        348.08
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "original_source_drive_file_id": "1cNAyUFRPvdNTQivMwLMszAuTTLu4RDNd",
+      "previous_kp_title": "環境與人類飲食習慣",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q01|008",
+      "original_batch": "B06",
+      "original_batch_ordinal": 6,
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "FOREST_CLEARANCE_DOES_NOT_SUFFICE_FOR_LANDSLIDE_DAM"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_07",
+      "source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b06-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "下列關於「人類活動與水域環境之間關係」的敘述，正確畫○，不正確打〤。\n人類過度開發森林，遇上豪大雨，容易造成具有潛在危機的堰(  )塞湖。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        50.16,
+        366.66,
+        77.99,
+        381.68
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_翰林_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "original_source_drive_file_id": "1cNAyUFRPvdNTQivMwLMszAuTTLu4RDNd",
+      "previous_kp_title": "人類開發對地表環境的影響",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q06|001",
+      "original_batch": "B06",
+      "original_batch_ordinal": 50,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "KALEIDOSCOPE_MIRROR_REFLECTION_KP_03_07_NOT_03_08"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_08",
+      "source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b06-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "下列關於「光的反射」敘述，正確畫○，不正確打〤。(9 分)\n萬花筒能看到對稱圖案，是因為光的反射。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        388.18,
+        302.93,
+        416.03,
+        317.88
+      ],
+      "original_source_bbox_provenance": "SOURCE_ARCHIVED_COORDS_REQUIRES_ORIGINAL_PDF_CONFIRMATION",
+      "original_paper_file_title": "114_翰林_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "original_source_drive_file_id": "14KIqnA3EGmx7JxEEroNOFN7nK7SH3IEG",
+      "previous_kp_title": "反射現象的生活應用",
+      "new_direct_kp": "sci_g04s1_03_07",
+      "model_rechecked_unique_answer": "O",
+      "model_science_recheck_rationale": "萬花筒利用鏡面多次反射光線產生對稱或重複圖案，屬於光的反射與方向改變；不同於原提案的生活反光器材 KP 判讀。",
+      "selective_repair_reason_code": "KALEIDOSCOPE_MULTIPLE_MIRROR_REFLECTION",
+      "selective_repair_status": "SOURCE_EXACT_NATIVE_PDF_DIRECT_KP_ANSWER_RELEASE_CANDIDATE",
+      "requires_pdf_exact_check_before_release": true,
+      "no_automatic_release_of_other_held_sources": false,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_002|S2|TF|007",
+      "original_batch": "B07",
+      "original_batch_ordinal": 39,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_02",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-heshun-mid17-pixel-bbox-15accept-2hold-v1.json",
+      "e01_independently_identified_blocker": "AQUATIC_ORGANISM_INTERACTION_NOT_DIRECT_WATER_CONDITIONS_KP_02_02",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "水生動物和水生植物生活在同一個水域不會互相影響。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        14.38,
+        885,
+        49.38,
+        901.88
+      ],
+      "original_source_bbox_provenance": "RASTER_VISUAL_ESTIMATE_UPRIGHT_COORDS_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_南一_四上_自然_期中評量卷_和順國小.pdf",
+      "original_source_drive_file_id": null,
+      "previous_kp_title": "水域環境條件差異",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_002|S2|TF|011",
+      "original_batch": "B07",
+      "original_batch_ordinal": 41,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-heshun-mid17-pixel-bbox-15accept-2hold-v1.json",
+      "e01_independently_identified_blocker": "SOURCE_PDF_VISUAL_CONFLICT_ARCHIVED_TF11_STEM_TRANSCRIPTION",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "一天中太陽的位置貼水面置隨時間而變化，中午的影子最長。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        373.75,
+        148.13,
+        422.5,
+        165
+      ],
+      "original_source_bbox_provenance": "RASTER_VISUAL_ESTIMATE_UPRIGHT_COORDS_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_南一_四上_自然_期中評量卷_和順國小.pdf",
+      "original_source_drive_file_id": null,
+      "previous_kp_title": "光直線行進與影子",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_002|S2|TF|013",
+      "original_batch": "B07",
+      "original_batch_ordinal": 42,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_frozen_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "latest_route": "SCAN_AND_SECONDARY_SEMANTIC_OR_DUPLICATE_HOLD",
+      "original_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE",
+        "FLOATING_LEAVED_LILY_KP_MISMAPPED_AS_FREE_FLOATING_PLANT"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_04",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "睡蓮的葉背有氣孔可以輸送空氣。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        373.75,
+        217.5,
+        422.5,
+        234.38
+      ],
+      "original_source_bbox_provenance": "RASTER_VISUAL_ESTIMATE_UPRIGHT_COORDS_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_南一_四上_自然_期中評量卷_和順國小.pdf",
+      "original_source_drive_file_id": null,
+      "previous_kp_title": "漂浮性植物的適應",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S1|TF|007",
+      "original_batch": "B08",
+      "original_batch_ordinal": 2,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_frozen_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "latest_route": "SCAN_AND_SECONDARY_SEMANTIC_OR_DUPLICATE_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "AMBIGUOUS_CIRCUIT_DEFINITION",
+        "CANONICAL_KP_PROPOSAL_MISMATCH"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_08",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "就算電線和電池都接好了，如果燈泡不會發光，這樣的電路可以稱為「通路」。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        26,
+        290,
+        77,
+        307.37
+      ],
+      "original_source_bbox_provenance": "RASTER_VISUAL_ESTIMATE_UPRIGHT_COORDS_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_南一_四上_自然_期末評量卷_和順國小.pdf",
+      "original_source_drive_file_id": "1iZisyIpcQ0b_TzEue8YA2h_TRyc6GLJ9",
+      "previous_kp_title": "燈泡串聯對亮度的影響",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S1|TF|011",
+      "original_batch": "B08",
+      "original_batch_ordinal": 5,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_frozen_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "latest_route": "SCAN_AND_SECONDARY_SEMANTIC_OR_DUPLICATE_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "CANONICAL_KP_PROPOSAL_MISMATCH"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "相同數量的電池和燈泡，在電池接法相同但燈泡接法不同的情況下，單個燈泡的亮度仍然會相同。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        26,
+        442.63,
+        77,
+        460
+      ],
+      "original_source_bbox_provenance": "RASTER_VISUAL_ESTIMATE_UPRIGHT_COORDS_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_南一_四上_自然_期末評量卷_和順國小.pdf",
+      "original_source_drive_file_id": "1iZisyIpcQ0b_TzEue8YA2h_TRyc6GLJ9",
+      "previous_kp_title": "電池串聯對燈泡亮度的影響",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|003",
+      "original_batch": "B08",
+      "original_batch_ordinal": 8,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_04",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-heshun-final21-raster-pixelbbox-science-kp-admission-v2.json",
+      "e01_independently_identified_blocker": "NO_DIRECT_CANONICAL_KP_FOR_SOLAR_LIGHT_HEAT_VS_BATTERY_POWER",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "下列哪些不會運用到太陽的光與熱？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "動植物生長"
+        },
+        {
+          "label": "②",
+          "text": "連接電池讓燈泡發光"
+        },
+        {
+          "label": "③",
+          "text": "白天感覺到溫暖"
+        },
+        {
+          "label": "④",
+          "text": "白天可清楚看見環境與景物"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        26,
+        687.37,
+        77,
+        704.74
+      ],
+      "original_source_bbox_provenance": "RASTER_VISUAL_ESTIMATE_UPRIGHT_COORDS_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_南一_四上_自然_期末評量卷_和順國小.pdf",
+      "original_source_drive_file_id": "1iZisyIpcQ0b_TzEue8YA2h_TRyc6GLJ9",
+      "previous_kp_title": "看見物體需要光進入眼睛",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|013",
+      "original_batch": "B08",
+      "original_batch_ordinal": 14,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_11",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-heshun-final21-raster-pixelbbox-science-kp-admission-v2.json",
+      "e01_independently_identified_blocker": "BATTERY_MIX_NEW_OLD_NO_DIRECT_CANONICAL_KP_IN_G04S1_U04",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "下列哪個使用電池的方式是錯誤的？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "要買有回收標誌的電池"
+        },
+        {
+          "label": "②",
+          "text": "新舊電池一起使用"
+        },
+        {
+          "label": "③",
+          "text": "剩餘電量要利用"
+        },
+        {
+          "label": "④",
+          "text": "電量用完要回收"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        370,
+        544.21,
+        417,
+        561.58
+      ],
+      "original_source_bbox_provenance": "RASTER_VISUAL_ESTIMATE_UPRIGHT_COORDS_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_南一_四上_自然_期末評量卷_和順國小.pdf",
+      "original_source_drive_file_id": "1iZisyIpcQ0b_TzEue8YA2h_TRyc6GLJ9",
+      "previous_kp_title": "廢電池回收",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|015",
+      "original_batch": "B08",
+      "original_batch_ordinal": 15,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_frozen_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "latest_route": "SCAN_AND_SECONDARY_SEMANTIC_OR_DUPLICATE_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "CROSS_SOURCE_SAME_STEM_DUPLICATE_HOLD"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_09",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "教室裡的日光燈管壞了一個，其他的還是會發光，表示日光燈管是利用下列哪一種方法連接的？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "串聯"
+        },
+        {
+          "label": "②",
+          "text": "並聯"
+        },
+        {
+          "label": "③",
+          "text": "通聯"
+        },
+        {
+          "label": "④",
+          "text": "亂聯"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        370,
+        666.32,
+        417,
+        683.68
+      ],
+      "original_source_bbox_provenance": "RASTER_VISUAL_ESTIMATE_UPRIGHT_COORDS_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_南一_四上_自然_期末評量卷_和順國小.pdf",
+      "original_source_drive_file_id": "1iZisyIpcQ0b_TzEue8YA2h_TRyc6GLJ9",
+      "previous_kp_title": "燈泡並聯對亮度的影響",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|001",
+      "original_batch": "B08",
+      "original_batch_ordinal": 24,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_05",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-puren-mid18-raster-pixelbbox-13accept-5hold-v1.json",
+      "e01_independently_identified_blocker": "WEATHERING_NOT_DIRECT_KP_01_05",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "下列哪個因素並不會讓大塊岩石碎裂成礫石？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "太陽長期照射"
+        },
+        {
+          "label": "②",
+          "text": "小動物走過去"
+        },
+        {
+          "label": "③",
+          "text": "雨水大量沖刷"
+        },
+        {
+          "label": "④",
+          "text": "長時間強風吹襲"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        33,
+        71.74,
+        82,
+        84.78
+      ],
+      "original_source_bbox_provenance": "RASTER_ESTIMATE_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "original_source_drive_file_id": "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG",
+      "previous_kp_title": "流水搬運地表物質",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|002",
+      "original_batch": "B08",
+      "original_batch_ordinal": 25,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_08",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-puren-mid18-raster-pixelbbox-13accept-5hold-v1.json",
+      "e01_independently_identified_blocker": "MAGNITUDE_OUTSIDE_KP_01_08",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "地震震源釋放出的能量大小稱為",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "震央"
+        },
+        {
+          "label": "②",
+          "text": "震度"
+        },
+        {
+          "label": "③",
+          "text": "地震深度"
+        },
+        {
+          "label": "④",
+          "text": "地震規模"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        33,
+        104.78,
+        82,
+        117.83
+      ],
+      "original_source_bbox_provenance": "RASTER_ESTIMATE_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "original_source_drive_file_id": "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG",
+      "previous_kp_title": "地震造成地表變動與災害",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|004",
+      "original_batch": "B08",
+      "original_batch_ordinal": 27,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "latest_route": "SCAN_AND_SECONDARY_SEMANTIC_OR_DUPLICATE_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "CROSS_SOURCE_SAME_STEM_DUPLICATE_HOLD"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_02",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "下列哪一組水生生物不太可能出現在同一個水域環境？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "蛙、布袋蓮"
+        },
+        {
+          "label": "②",
+          "text": "浮萍、布袋蓮"
+        },
+        {
+          "label": "③",
+          "text": "鯉魚、海龜"
+        },
+        {
+          "label": "④",
+          "text": "蟹、蝦"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        33,
+        203.48,
+        82,
+        216.52
+      ],
+      "original_source_bbox_provenance": "RASTER_ESTIMATE_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "original_source_drive_file_id": "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG",
+      "previous_kp_title": "水域環境條件差異",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|011",
+      "original_batch": "B08",
+      "original_batch_ordinal": 33,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-puren-mid18-raster-pixelbbox-13accept-5hold-v1.json",
+      "e01_independently_identified_blocker": "WATER_PLANT_UNIVERSAL_TRAIT_MULTIPLE_POSSIBLE",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "下列哪一項不是水生植物的特徵？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "莖、葉通常較柔軟，可以隨著水流擺動"
+        },
+        {
+          "label": "②",
+          "text": "葉柄中有孔洞，可以儲存空氣"
+        },
+        {
+          "label": "③",
+          "text": "花很香，是魚類的主要食物"
+        },
+        {
+          "label": "④",
+          "text": "葉面大多有細毛或蠟質，可以防水"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        33,
+        518.26,
+        82,
+        531.3
+      ],
+      "original_source_bbox_provenance": "RASTER_ESTIMATE_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "original_source_drive_file_id": "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG",
+      "previous_kp_title": "水生植物的四種生長型",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|012",
+      "original_batch": "B08",
+      "original_batch_ordinal": 34,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "latest_route": "SCAN_AND_SECONDARY_SEMANTIC_OR_DUPLICATE_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "NO_EXACT_SCIENCE_ANSWER_TIDAL_ZONE_VS_ESTUARY"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_02",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "下列哪一個環境是淡水和鹹水的交界處，水中鹽分含量的變化很大？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "溪流"
+        },
+        {
+          "label": "②",
+          "text": "高山湖泊"
+        },
+        {
+          "label": "③",
+          "text": "潮間帶"
+        },
+        {
+          "label": "④",
+          "text": "公園水池"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        33,
+        581.74,
+        82,
+        594.78
+      ],
+      "original_source_bbox_provenance": "RASTER_ESTIMATE_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "original_source_drive_file_id": "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG",
+      "previous_kp_title": "水域環境條件差異",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|013",
+      "original_batch": "B08",
+      "original_batch_ordinal": 35,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-puren-mid18-raster-pixelbbox-13accept-5hold-v1.json",
+      "e01_independently_identified_blocker": "SOIL_TEXTURE_MATERIAL_CONDITIONS_UNSTATED",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "用手觸摸岩石、沙和土壤，下列哪一個是正確的？",
+      "original_full_source_options": [
+        {
+          "label": "①",
+          "text": "岩石摸起來粗粗的、軟軟的"
+        },
+        {
+          "label": "②",
+          "text": "沙摸起來細細的、軟軟的"
+        },
+        {
+          "label": "③",
+          "text": "岩石、沙和土壤摸起來的感覺相同"
+        },
+        {
+          "label": "④",
+          "text": "土壤摸起來細細的、軟軟的"
+        }
+      ],
+      "original_source_bbox_pts_top_left": [
+        381,
+        67.83,
+        430,
+        80.87
+      ],
+      "original_source_bbox_provenance": "RASTER_ESTIMATE_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "original_source_drive_file_id": "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG",
+      "previous_kp_title": "岩石、沙與土壤的顆粒大小",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|005",
+      "original_batch": "B08",
+      "original_batch_ordinal": 42,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "ORIGINAL_PARENT_SCORE_ANNOTATION_PRESERVED_SCORELESS_PROJECTION_VERIFIED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_10",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        2
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-puren-mid18-raster-pixelbbox-13accept-5hold-v1.json",
+      "e01_independently_identified_blocker": "SCREAM_TO_RELIEVE_STRESS_NOT_UNIQUE_SAFETY_JUDGMENT",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true,
+      "original_full_source_text": "臺灣經常發生地震，關於防災準備及應對觀念，正確的請打✓，錯誤的請打×。(每個答案1分)\n地震發生時可以大聲尖叫，舒緩緊張。",
+      "original_full_source_options": [],
+      "original_source_bbox_pts_top_left": [
+        34,
+        766.52,
+        83,
+        779.57
+      ],
+      "original_source_bbox_provenance": "RASTER_ESTIMATE_NOT_NATIVE_GLYPH",
+      "original_paper_file_title": "114_康軒_四上_自然_期中評量卷_普仁國小.pdf",
+      "original_source_drive_file_id": "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG",
+      "previous_kp_title": "地震發生時的避難行動",
+      "new_direct_kp": null,
+      "model_rechecked_unique_answer": null,
+      "model_science_recheck_rationale": null,
+      "selective_repair_reason_code": null,
+      "selective_repair_status": "RETAIN_ORIGINAL_EXCEPTION_HOLD",
+      "requires_pdf_exact_check_before_release": false,
+      "no_automatic_release_of_other_held_sources": true,
+      "no_original_exam_stem_alteration": true
+    }
+  ]
+}

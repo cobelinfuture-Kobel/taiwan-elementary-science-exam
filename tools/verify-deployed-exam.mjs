@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-e01-heshun-mid15-live604-20261015",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-e01-heshun-final19-live623-20261016",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 604 小題（291 題是非＋178 題單選＋36 組情境）"),"Live site must load current pinned assets: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 623 小題（303 題是非＋185 題單選＋36 組情境）"),"Live site must load current pinned assets: "+info+"; status="+status);
   assert.equal(await page.locator("#unit option").count(),4,"live unit selector present");
   assert.ok(await page.locator("#kp option").count()>0,"live KP selector populated");
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","public default question can generate: "+status);
@@ -164,7 +164,7 @@ try {
   assert.match(answerText,/3\. X/,"third source fishbowl must be marked X on answer page");
   await page.screenshot({path:"artifacts/deployed-browser/p12-g03s2final-46-fishbowl-live.png",fullPage:true});
   const screen=await page.screenshot({path:"artifacts/deployed-browser/p12-remaining51-live.png",fullPage:true});
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 604 slots (589 prior + 15 Heshun MID rotated original scan accepted)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 623 slots (604 prior + 19 Heshun FINAL rotated original scan accepted)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

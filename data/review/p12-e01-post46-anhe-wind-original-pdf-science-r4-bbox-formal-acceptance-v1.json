@@ -1,0 +1,81 @@
+{
+  "schema_version": "P12_E01_POST46_ANHE_WIND_ORIGINAL_SOURCE_SCIENCE_R4_BBOX_FORMAL_ACCEPTANCE_V1",
+  "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|004",
+  "source_paper_id": "SCI_G04_S1_114_MID_006",
+  "source_paper_original_file": "114_康軒_四上_自然_期中評量卷_安和國小.pdf",
+  "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+  "original_46_priority_review_ref": "data/review/p12-e01-postcloseout-remaining46-priority-review-v1.json",
+  "r4_prior_shadow_ref": "data/review/p12-e01-postcloseout-remaining47-r4-shadow-comparison-v1.json",
+  "source_drive_file_id": "1b2Ra-MB32xdJjXy-xtn0gJTIuvtF8YTW",
+  "original_pdf_raw_size_bytes": 186792,
+  "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+  "original_pdf_sha256_independently_recomputed_in_this_task": true,
+  "original_pdf_pages": 2,
+  "original_pdf_page_1_based": 1,
+  "original_page_rotation_degrees": 0,
+  "original_pdf_page_size_pts_top_left": [
+    728.4,
+    1031.76
+  ],
+  "pdf_raster_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False)",
+  "original_page_raster_size_px": [
+    1166,
+    1651
+  ],
+  "original_page_rgb_samples_sha256": "655a3d5f3854345ce90e1e8776601ba332096474fe8426f1c3ade862a71e5ade",
+  "original_pdf_native_answer_marker_bbox_pts_top_left": [
+    33.6,
+    317.72,
+    61.46,
+    331.64
+  ],
+  "pdf_native_glyphs_intersecting_bbox": [
+    "(",
+    " ",
+    ")"
+  ],
+  "original_pdf_question_line_1_bbox_pts_top_left": [
+    88.58,
+    317.72,
+    351.44,
+    331.64
+  ],
+  "original_pdf_question_line_2_bbox_pts_top_left": [
+    113.57,
+    335.96,
+    316.66,
+    349.88
+  ],
+  "source_exact_stem": "風力的作用與流水一樣，作用力越強，顆粒越小的物質會移動得越遠。",
+  "source_exact_options": [],
+  "question_type": "TRUE_FALSE",
+  "original_question_number": "4",
+  "original_source_exact_stem_verified_on_fresh_pdf": true,
+  "original_answer_marker_glyph_bbox_freshly_verified": true,
+  "source_is_independent_without_shared_figure": true,
+  "answered_science": "O",
+  "science_explanation": "在同類、乾燥、可比較的鬆散地表物質實驗中，風和流水都能搬運並堆積顆粒；作用較強時通常能搬運較多或較遠，較細小顆粒一般較容易移動得遠，因此依四年級實驗概念判為○。實際搬運還受土壤含水量、顆粒密度與凝聚程度、風向及障礙物等影響，不能解讀成所有條件下顆粒越小必定越遠。",
+  "answer_qualification": "以課本常見的礫石、沙、土壤比較實驗與可比較的乾燥條件判讀；一般趨勢而非無條件物理定律。模型獨立科學判答，不是原校教師核定答案。",
+  "school_teacher_original_key_authenticated": false,
+  "source_has_original_teacher_answer_key": false,
+  "semantic_interpretation": "GRADE4_COMPARABLE_WIND_AND_STREAM_GRANULAR_TRANSPORT_EXPERIMENT_NOT_ABSOLUTE",
+  "primary_new_canonical_kp_id": "sci_g04s1_01_12",
+  "previous_legacy_kp_proposal": "sci_g04s1_01_06",
+  "r4_direct_kp_source_verified": true,
+  "strict_primary_legacy_authority_metadata_not_mutated": true,
+  "no_original_exam_stem_rewrite": true,
+  "nearby_existing_public_source_stems_with_shared_granular_transport_concept": [
+    "P12_B04_G04S1_B01_TF_037",
+    "P12_B04_G04S1_B02_TF_011"
+  ],
+  "exact_published_stem_duplicate_found": false,
+  "duplicate_review_scope": "ALL_CURRENT_PUBLIC_BANK_JSON_STEMS_EXACT_NORMALIZED_NO_EXACT_DUPLICATE",
+  "original_image_crop_or_pdf_published": false,
+  "rights_path": "FORMAL_SCHOOL_EXAM_ORIGINAL_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+  "operator_publication_gate_requested_in_resume_task": true,
+  "formal_public_admission_state": "CONDITIONAL_PR_CI_MAIN_PAGES_AND_LIVE_BROWSER_REQUIRED",
+  "before_public_slots": 629,
+  "after_public_slots_on_all_gates": 630,
+  "before_unadmitted_exception_positions": 46,
+  "after_unadmitted_exception_positions_on_all_gates": 45
+}

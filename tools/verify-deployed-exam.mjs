@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-e01-post49-two-live628-20261016",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-e01-post46-anhe-wind-live630-20261016",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 629 小題（307 題是非＋187 題單選＋36 組情境）"),"Live site must load current pinned assets: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 630 小題（308 題是非＋187 題單選＋36 組情境）"),"Live site must load current pinned assets: "+info+"; status="+status);
   assert.equal(await page.locator("#unit option").count(),4,"live unit selector present");
   assert.ok(await page.locator("#kp option").count()>0,"live KP selector populated");
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","public default question can generate: "+status);
@@ -172,10 +172,13 @@ try {
   assert.deepEqual(r5auth.units.filter(x=>x.grade===4&&x.semester===1).map(x=>x.knowledge_points.length),[12,14,10,12]);
   await page.selectOption("#grade","4");await page.selectOption("#semester","S1");
   await page.selectOption("#unit","4-S1-U01");await page.selectOption("#mode","single_kp");
-  await page.selectOption("#kp","sci_g04s1_01_12");await page.fill("#count","1");
+  await page.selectOption("#kp","sci_g04s1_01_12");await page.fill("#count","2");
   await page.locator("#generate").click();
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","live R5 wind KP must select existing certified source once");
-  assert.ok((await page.locator(".paper:not([data-answer='true'])").innerText()).includes("風吹砂"),"R5 wind KP binds existing Mingyi source");
+  const windPageText=await page.locator(".paper:not([data-answer='true'])").innerText();
+  assert.ok(windPageText.includes("風吹砂"),"R5 wind KP retains existing Mingyi source");
+  assert.ok(windPageText.includes("風力的作用與流水一樣"),"R5 wind KP adds source-exact Anhe TF4");
+  assert.equal(await page.locator(".paper:not([data-answer='true']) .question").count(),2,"two wind KP source positions without duplication");
   await page.selectOption("#unit","4-S1-U02");await page.selectOption("#mode","single_kp");
   await page.selectOption("#kp","sci_g04s1_02_13");await page.fill("#count","1");
   await page.locator("#generate").click();
@@ -186,7 +189,7 @@ try {
   assert.equal(await page.locator("#status").getAttribute("data-error"),"true","R5 water-safety KP has no certified item; refuse substitute");
   assert.ok((await page.locator("#status").textContent()).includes("題庫不足：可用 0 小題"),"R5 empty KP must fail closed with zero");
   await page.screenshot({path:"artifacts/deployed-browser/r5-190kp-new3-failclosed.png",fullPage:true});
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 629 slots (628 prior + 1 Dongguang original exact MC)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 630 slots (629 prior + 1 Anhe wind original TF)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

@@ -1,0 +1,404 @@
+{
+  "schema_version": "P12_G04S1_113_MID11_SELECTIVE_FORMAL_SOURCE_SCIENCE_KP_V1",
+  "frozen_contract_refs": [
+    "README.md",
+    "docs/QUESTION_ADMISSION_GOVERNANCE.md",
+    "docs/P12_B04_AUTO_BATCH50_EXECUTION_CONTRACT.md"
+  ],
+  "scope": "113 G04S1 Kanghsuan KP48 original-school midterm; 3 source exams, 11 standalone MC questions",
+  "authority": "site/data/authority/science-g03-g04-selector-v3.json",
+  "kp_authority_count_for_this_grade_semester": 48,
+  "published_before": 679,
+  "published_after_if_ALL_release_checks_pass": 690,
+  "original_school_teacher_answer_keys_authenticated": false,
+  "operator_approval_route": "PREVIOUSLY_AUTHORIZED_113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+  "formal_approved_item_count": 11,
+  "original_school_papers": [
+    {
+      "school": "安和",
+      "source_id": "SCI_G04_S1_113_MID_009",
+      "filename": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "source_identity": "113學年度公立國小四上自然科期中評量試題",
+      "rights": "REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_TEXT_ONLY"
+    },
+    {
+      "school": "明義",
+      "source_id": "SCI_G04_S1_113_MID_010",
+      "filename": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_identity": "113學年度公立國小四上自然科期中評量試題",
+      "rights": "REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_TEXT_ONLY"
+    },
+    {
+      "school": "廣興",
+      "source_id": "SCI_G04_S1_113_MID_015",
+      "filename": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_identity": "113學年度公立國小四上自然科期中評量試題",
+      "rights": "REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_TEXT_ONLY"
+    }
+  ],
+  "pdf_source_validation": "All 11 original selected stems and each of their four choices matched normalized original page 1 native PDF text; all 11 answer box bboxes measured from original native PDF glyphs; per-file original SHA256 matched frozen 29-paper registry",
+  "crossyear_semantic_dedup": "Compared all 40 current public question-bank JSONs and the 25 actual 114 source archive JSONs; exact/semantic equivalents screened; no identical four-option assessment admitted",
+  "known_exceptions_not_admitted": [
+    "安和MC04 water conservation has similar 114 archival question",
+    "安和MC05 poured soil erosion overlaps 113 previously released scenario",
+    "安和MC06 artificial water environments overlaps existing 114 admission",
+    "安和MC11 rock-use exclusion overlaps 114 publicly admitted",
+    "明義MC08 lotus underground stem has existing B02 released equivalent",
+    "廣興MC15 and MC16 earthquake prior/during action resemble 114 previously admitted tasks; held",
+    "廣興MC03 fish streamlining matches widely used existing response pattern",
+    "明義MC03 fast stream environment matches 114 fast-flow topic"
+  ],
+  "source_text_only_no_scan_figure_or_teacher_key_published": true,
+  "records": [
+    {
+      "id": "P12_113_G04S1_ANHE_MID_MC_007",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "printed_section_and_number": "SCI_G04_S1_113_MID_009|S02|MC|007",
+      "answer_box_native_pdf_glyph_bbox": [
+        381.41,
+        403.76,
+        416.41,
+        417.8
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_source_stem": "蝌蚪利用什麼構造在水中游水？",
+      "original_source_four_options": [
+        "①腹足",
+        "②斧足",
+        "③腳上的蹼",
+        "④尾巴"
+      ],
+      "unique_answer_for_this_printed_question": true,
+      "independent_model_answer": "④",
+      "independent_science_reason": "蝌蚪主要擺動尾巴在水中游動。",
+      "exact_current_kp": "sci_g04s1_02_09",
+      "kp_direct_semantic_match_accepted": true,
+      "exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_SEMANTIC_DUPLICATE_AFTER_PUBLIC_AND_114_COMPARISON",
+      "operator_approval": "113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_ANHE_MID_MC_009",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "printed_section_and_number": "SCI_G04_S1_113_MID_009|S02|MC|009",
+      "answer_box_native_pdf_glyph_bbox": [
+        381.41,
+        495.8,
+        416.41,
+        509.84
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_source_stem": "請問下列哪一種水域環境具有「水流動很緩慢，幾乎靜止不動」的特性？",
+      "original_source_four_options": [
+        "①海岸潮間帶",
+        "②海洋",
+        "③生態池",
+        "④溪流"
+      ],
+      "unique_answer_for_this_printed_question": true,
+      "independent_model_answer": "③",
+      "independent_science_reason": "生態池的水流通常較緩慢；溪流、潮間帶有明顯的水流或潮汐運動。",
+      "exact_current_kp": "sci_g04s1_02_02",
+      "kp_direct_semantic_match_accepted": true,
+      "exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_SEMANTIC_DUPLICATE_AFTER_PUBLIC_AND_114_COMPARISON",
+      "operator_approval": "113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_ANHE_MID_MC_012",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "printed_section_and_number": "SCI_G04_S1_113_MID_009|S02|MC|012",
+      "answer_box_native_pdf_glyph_bbox": [
+        381.41,
+        702.82,
+        444.12,
+        716.86
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_source_stem": "下列哪一個水域環境的水中鹽分含量最少？",
+      "original_source_four_options": [
+        "①太平洋",
+        "②安和國小景觀池",
+        "③潮間帶",
+        "④海水養殖魚塭"
+      ],
+      "unique_answer_for_this_printed_question": true,
+      "independent_model_answer": "②",
+      "independent_science_reason": "一般淡水校園景觀池的鹽度遠低於海洋、潮間帶及海水養殖魚塭。",
+      "exact_current_kp": "sci_g04s1_02_02",
+      "kp_direct_semantic_match_accepted": true,
+      "exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_SEMANTIC_DUPLICATE_AFTER_PUBLIC_AND_114_COMPARISON",
+      "operator_approval": "113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_ANHE_MID_MC_013",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "printed_section_and_number": "SCI_G04_S1_113_MID_009|S02|MC|013",
+      "answer_box_native_pdf_glyph_bbox": [
+        381.41,
+        771.85,
+        444.12,
+        785.89
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_source_stem": "平時在家中準備「避難救生包」適合放入哪一個物品？",
+      "original_source_four_options": [
+        "①哨子",
+        "②鮮奶",
+        "③寵物",
+        "④玩具"
+      ],
+      "unique_answer_for_this_printed_question": true,
+      "independent_model_answer": "①",
+      "independent_science_reason": "哨子適合在受困或需要協助時發出求救聲響，鮮奶不便長期保存。",
+      "exact_current_kp": "sci_g04s1_01_09",
+      "kp_direct_semantic_match_accepted": true,
+      "exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_SEMANTIC_DUPLICATE_AFTER_PUBLIC_AND_114_COMPARISON",
+      "operator_approval": "113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_ANHE_MID_MC_014",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "printed_section_and_number": "SCI_G04_S1_113_MID_009|S02|MC|014",
+      "answer_box_native_pdf_glyph_bbox": [
+        381.41,
+        840.85,
+        444.12,
+        854.89
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_source_stem": "下列哪一個不是森林環境的特性？",
+      "original_source_four_options": [
+        "①有生物",
+        "②沒有非生物",
+        "③有茂密的樹木",
+        "④有新鮮的空氣"
+      ],
+      "unique_answer_for_this_printed_question": true,
+      "independent_model_answer": "②",
+      "independent_science_reason": "森林環境既有植物、動物等生物，也包含空氣、水、土壤、岩石等非生物。",
+      "exact_current_kp": "sci_g04s1_01_01",
+      "kp_direct_semantic_match_accepted": true,
+      "exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_SEMANTIC_DUPLICATE_AFTER_PUBLIC_AND_114_COMPARISON",
+      "operator_approval": "113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_MINGYI_MID_MC_004",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "original_pdf_page": 1,
+      "printed_section_and_number": "SCI_G04_S1_113_MID_010|S02|MC|004",
+      "answer_box_native_pdf_glyph_bbox": [
+        42.24,
+        898.65,
+        98.72,
+        910.65
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_source_stem": "下列何者是【螺】的運動方式？",
+      "original_source_four_options": [
+        "①利用斧足爬行",
+        "②利用泳足爬行",
+        "③利用腹足爬行",
+        "④利用胸足爬行"
+      ],
+      "unique_answer_for_this_printed_question": true,
+      "independent_model_answer": "③",
+      "independent_science_reason": "螺以發達的腹足肌肉在底面或其他物體表面爬行。",
+      "exact_current_kp": "sci_g04s1_02_09",
+      "kp_direct_semantic_match_accepted": true,
+      "exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_SEMANTIC_DUPLICATE_AFTER_PUBLIC_AND_114_COMPARISON",
+      "operator_approval": "113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_MINGYI_MID_MC_007",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "original_pdf_page": 1,
+      "printed_section_and_number": "SCI_G04_S1_113_MID_010|S02|MC|007",
+      "answer_box_native_pdf_glyph_bbox": [
+        374.59,
+        275.65,
+        431.05,
+        287.65
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_source_stem": "將布袋蓮膨大的部分橫切開來，可以觀察到裡面有什麼構造？",
+      "original_source_four_options": [
+        "①裡面有很多小蟲",
+        "②裡面都是泥土",
+        "③裡面是實心的",
+        "④裡面有許多孔洞"
+      ],
+      "unique_answer_for_this_printed_question": true,
+      "independent_model_answer": "④",
+      "independent_science_reason": "布袋蓮膨大的葉柄內有充滿空氣的孔隙，協助植株漂浮於水面。",
+      "exact_current_kp": "sci_g04s1_02_04",
+      "kp_direct_semantic_match_accepted": true,
+      "exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_SEMANTIC_DUPLICATE_AFTER_PUBLIC_AND_114_COMPARISON",
+      "operator_approval": "113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_MINGYI_MID_MC_009",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "original_pdf_page": 1,
+      "printed_section_and_number": "SCI_G04_S1_113_MID_010|S02|MC|009",
+      "answer_box_native_pdf_glyph_bbox": [
+        374.59,
+        421.24,
+        431.05,
+        433.24
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_source_stem": "「葉面具細毛，水珠不易附著，會隨著水流四處移動」，以上水生植物的特徵，最有可能是下列哪一種水生植物？",
+      "original_source_four_options": [
+        "①荷花",
+        "②睡蓮",
+        "③布袋蓮",
+        "④大萍"
+      ],
+      "unique_answer_for_this_printed_question": true,
+      "independent_model_answer": "④",
+      "independent_science_reason": "大萍葉面具有防水細毛，且是漂浮性水生植物，能隨水流移動。",
+      "exact_current_kp": "sci_g04s1_02_04",
+      "kp_direct_semantic_match_accepted": true,
+      "exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_SEMANTIC_DUPLICATE_AFTER_PUBLIC_AND_114_COMPARISON",
+      "operator_approval": "113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_GUANGXING_MID_MC_002",
+      "original_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "printed_section_and_number": "SCI_G04_S1_113_MID_015|S02|MC|002",
+      "answer_box_native_pdf_glyph_bbox": [
+        28.32,
+        406.12,
+        70.32,
+        418.12
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_source_stem": "下列哪一個不是屬於水域環境？",
+      "original_source_four_options": [
+        "①生態池",
+        "②高山",
+        "③溪流",
+        "④海洋"
+      ],
+      "unique_answer_for_this_printed_question": true,
+      "independent_model_answer": "②",
+      "independent_science_reason": "高山本身是陸域環境類型；生態池、溪流與海洋都是水域環境。",
+      "exact_current_kp": "sci_g04s1_02_01",
+      "kp_direct_semantic_match_accepted": true,
+      "exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_SEMANTIC_DUPLICATE_AFTER_PUBLIC_AND_114_COMPARISON",
+      "operator_approval": "113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_GUANGXING_MID_MC_006",
+      "original_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "printed_section_and_number": "SCI_G04_S1_113_MID_015|S02|MC|006",
+      "answer_box_native_pdf_glyph_bbox": [
+        28.32,
+        694.17,
+        70.32,
+        706.17
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_source_stem": "下列哪一種水生植物的類型與其他三者不同？",
+      "original_source_four_options": [
+        "①台灣萍蓬草",
+        "②睡蓮",
+        "③龍骨瓣莕菜",
+        "④荷花"
+      ],
+      "unique_answer_for_this_printed_question": true,
+      "independent_model_answer": "④",
+      "independent_science_reason": "荷花屬挺水性植物，其他三種植物的葉片主要浮於水面，屬浮葉性。",
+      "exact_current_kp": "sci_g04s1_02_03",
+      "kp_direct_semantic_match_accepted": true,
+      "exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_SEMANTIC_DUPLICATE_AFTER_PUBLIC_AND_114_COMPARISON",
+      "operator_approval": "113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    },
+    {
+      "id": "P12_113_G04S1_GUANGXING_MID_MC_008",
+      "original_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "printed_section_and_number": "SCI_G04_S1_113_MID_015|S02|MC|008",
+      "answer_box_native_pdf_glyph_bbox": [
+        297.77,
+        82.09,
+        339.77,
+        94.09
+      ],
+      "source_full_stem_and_four_original_options_verified": true,
+      "original_source_stem": "下列何者不是生活在高山環境的生物？",
+      "original_source_four_options": [
+        "①黃喉貂",
+        "②小丑魚",
+        "③玉山圓柏",
+        "④玉山箭竹"
+      ],
+      "unique_answer_for_this_printed_question": true,
+      "independent_model_answer": "②",
+      "independent_science_reason": "小丑魚主要生活於海洋珊瑚礁附近，與高山陸域生態不同。",
+      "exact_current_kp": "sci_g04s1_01_02",
+      "kp_direct_semantic_match_accepted": true,
+      "exam_identity_verified": true,
+      "rights_path": "REGULATED_EXAM_QUESTION_ART9_TEXT_ONLY",
+      "semantic_dedup_disposition": "NO_IDENTIFIED_SEMANTIC_DUPLICATE_AFTER_PUBLIC_AND_114_COMPARISON",
+      "operator_approval": "113_WHOLE_CORPUS_SELECTIVE_ADMISSION",
+      "formal_science_kp_approved": true,
+      "all_individual_admission_gates_passed": true
+    }
+  ],
+  "no_student_release_from_review_file_alone": true,
+  "release_conditions": [
+    "CI success",
+    "main SHA readback",
+    "Pages live E2E source bank presence and 690 answer slots"
+  ]
+}

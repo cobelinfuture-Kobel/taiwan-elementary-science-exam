@@ -1,5 +1,26 @@
 # 台灣國小自然科 Exam 考古題組卷系統
 
+## 題庫正式入庫與驗收規則（2026-10-16 操作人核准）
+
+> **固定沿用既有 Frozen Contract，不另立 ONE-PASS 新契約、不擅自新增必經 Science/KP 二審、三審或其他完成門檻。**
+> 完整條文與歷史依據：[正式驗收與入庫執行準則](docs/QUESTION_ADMISSION_GOVERNANCE.md) ｜ [B04 AUTO_BATCH50 Frozen Contract](docs/P12_B04_AUTO_BATCH50_EXECUTION_CONTRACT.md)。
+
+已經成功發布的 114 年四上題庫，依**固定來源批次／可追溯初審 → 逐題完成既有正式 Admission Gate → 合格題選擇性發布**處理（例如 [B01 PR #82](https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/pull/82)、[B06 PR #99](https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/pull/99)、[B07 PR #100／#102](https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/pull/102)）。**初審可與正式驗收分批執行，但正式 Gate 的各項條件不是額外的多輪審核。**
+
+```text
+SOURCE_EXACT → PDF_PAGE_BBOX → SCIENCE_UNIQUE_ANSWER → CANONICAL_KP
+→ DUPLICATE → RIGHTS → ADMISSION_GATE
+→ PR / focused CI → main readback → Pages E2E
+```
+
+- **不得自行改規則**：不得修改已核准的 Authority／Frozen Contract、原題、公開權利或核准條件；不得添加 `SECOND_PASS`、`THIRD_PASS`、`FINAL_RECHECK` 等**必經**審核層。確需變更，須先提差異與影響並取得操作人明確核准。已有同名歷史審核檔仍保留作為證據，不代表應重做。
+- **缺哪項補哪項**：有正式證據的 Gate 直接沿用；只有不確定的題目進 `HOLD`／`REJECT`，不阻塞其他合格題。重複題只保留原始來源，不重複入學生抽題池。
+- **進度只以三項為主**：`FORMAL_SCIENCE_KP_APPROVED`（正式科學答案＋直接 KP 驗收通過）、`ADMISSION_READY`（所有 Gate 與適用核准均通過）、`PUBLISHED`（已完成 main／Pages 驗證的實際新增題）。來源數、模型初判、BBox、候選題數僅是輔助指標。
+- **不越權發布**：模型答案不得冒稱原校教師答案；遵守學校考題文字／第三方圖像權利界線及各 scope 已要求的 operator 批次或最終清冊核准。CI PASS 不代表 Science／KP 或 Pages E2E 已通過。
+- **續跑不反覆交握**：依既有核准的 batch、durable checkpoint 與例外清冊處理；不在每 50 題或每次 PR 後重新要求相同授權。需要實際新核准或存在實質阻塞時才交握。
+
+此摘要**不變更**下列 2026-10-15 起的全域**內容題庫不計分規範**，亦不將 113 四上 48 KP 偷換成其他學年度 authority。
+
 ## 全域內容題庫規範（2026-10-15 起）
 
 自然科題庫採 **題目數量與內容正確性** 管理，不採分數、每題配分、總分、加權或計分門檻。所有年級、學期、考卷模式、學生組卷、答案解析及 Science/KP 覆核均使用同一規則。

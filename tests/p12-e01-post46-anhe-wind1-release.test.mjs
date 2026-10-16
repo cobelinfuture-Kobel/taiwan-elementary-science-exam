@@ -65,3 +65,25 @@ for(const edit of edits){const copy=structuredClone(bank);edit(copy);
 const legacy=read("site/data/authority/science-g03-g04-selector-v2.json");
 assert.throws(()=>validateAndConvertP12E01Post46AnheWind1(bank,legacy));
 });
+
+test("active V3 live aggregation is 630 while frozen V2 historical fixture still returns 629",async()=>{
+ const {loadEmbeddedHistoricalBank}=await import("../site/assets/js/historical-bank-ox-v6.mjs");
+ const original=globalThis.fetch;
+ globalThis.fetch=async url=>{
+  const p=String(url).replace(/^\.\.\/data\//,"site/data/");
+  try{return {ok:true,json:async()=>read(p)}}catch{return {ok:false,json:async()=>{throw Error("not found "+p)}}}
+ };
+ try{
+  const v3=await loadEmbeddedHistoricalBank(authority);
+  assert.equal(v3.certifiedAnswerSlots,630);
+  assert.equal(v3.certifiedTrueFalse,308);
+  assert.equal(v3.certifiedStandaloneChoice,187);
+  assert.equal(v3.certifiedGroupCount,36);
+  assert.equal(v3.blocks.filter(x=>x.source_slot_id===proof.source_slot_id).length,1);
+  const wind=v3.blocks.filter(x=>x.canonical_kp_id==="sci_g04s1_01_12"||x.secondary_canonical_kp_ids?.includes("sci_g04s1_01_12"));
+  assert.equal(wind.length,2);
+  const v2=await loadEmbeddedHistoricalBank(read("site/data/authority/science-g03-g04-selector-v2.json"));
+  assert.equal(v2.certifiedAnswerSlots,629);
+  assert.equal(v2.blocks.some(x=>x.source_slot_id===proof.source_slot_id),false);
+ }finally{globalThis.fetch=original}
+});

@@ -117,7 +117,7 @@ try {
   const live=await browser.newPage({viewport:{width:1420,height:940}});
   const liveErrors=[];live.on("pageerror",e=>liveErrors.push(String(e)));
   await live.goto("http://127.0.0.1:"+server.address().port+"/exam/",{waitUntil:"networkidle"});
-  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 629 小題（307 題是非＋187 題單選＋36 組情境）"),{timeout:15000});
+  await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 630 小題（308 題是非＋187 題單選＋36 組情境）"),{timeout:15000});
   assert.equal(await live.locator("#source-select").count(),0,"no source selector");
   assert.equal(await live.locator("#local-import").count(),0,"no local JSON upload control");
   assert.equal(await live.locator("#unit option").count(),4,"curriculum units must be present");
@@ -268,6 +268,16 @@ try {
     assert.match(question,/^（　）1\. /,"P10 must retain original O/X layout");
   }
   console.log("S3_P10_G03_G04_S2_FOUR_PERIODS_PASS");
+  // P12 E01: R5 primary wind KP admits one source-exact Anhe and preserves Mingyi secondary link.
+  await live.selectOption("#grade","4");await live.selectOption("#semester","S1");
+  await live.selectOption("#unit","4-S1-U01");await live.selectOption("#mode","single_kp");
+  await live.selectOption("#kp","sci_g04s1_01_12");await live.fill("#count","2");
+  await live.locator("#generate").click();
+  assert.equal(await live.locator("#status").getAttribute("data-error"),"false","R5 wind KP must generate exactly two certified source positions");
+  const windQuestions=await live.locator(".paper:not([data-answer='true']) .question").allInnerTexts();
+  assert.equal(windQuestions.length,2);assert.ok(windQuestions.some(x=>x.includes("風力的作用與流水一樣")));
+  assert.ok(windQuestions.some(x=>x.includes("風吹砂")),"existing Mingyi secondary link stays available");
+  await live.screenshot({path:output+"/p12-e01-anhe-wind-original-plus-mingyi-live-layout.png",fullPage:true});
   assert.deepEqual(liveErrors,[]);
   await live.screenshot({path:output+"/s3-p05-embedded-history-no-upload.png",fullPage:true});
   await live.close();

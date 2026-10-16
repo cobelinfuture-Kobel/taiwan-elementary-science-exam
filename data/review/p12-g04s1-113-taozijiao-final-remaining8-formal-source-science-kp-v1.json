@@ -1,0 +1,278 @@
+{
+  "schema_version": "P12_G04S1_113_TAOZIJIAO_FINAL_REMAINING8_FORMAL_ADMISSION_V1",
+  "authority_refs": [
+    "README.md",
+    "docs/QUESTION_ADMISSION_GOVERNANCE.md",
+    "docs/P12_B04_AUTO_BATCH50_EXECUTION_CONTRACT.md",
+    "site/data/authority/science-g03-g04-selector-v3.json"
+  ],
+  "scope": "113 fourth grade semester 1 Kanghsuan final page 1 remaining 20 original OX slots; 8 selective new student-bank items, 12 isolated holds",
+  "source_pdf": "113_康軒_四上_自然_期末評量卷_桃子腳國小.pdf",
+  "source_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+  "source_id": "SCI_G04_S1_113_FINAL_008",
+  "source_page": 1,
+  "exam_identity": "113學年度國民小學四年級上學期自然領域第二次定期評量",
+  "source_regulated_school_exam_question_text_only": true,
+  "source_third_party_images_or_reading_passages_used": false,
+  "operator_bulk_scope": "P12_113_G04S1_KP48_WHOLE_CORPUS_SELECTIVE_ADMISSION_PREVIOUSLY_APPROVED",
+  "original_teacher_answer_key_authenticated": false,
+  "source_review_prefilter": "data/review/p12-g04s1-113-taozijiao-final-page1-remaining20-text-preflight-v1.json",
+  "current_published_answer_slots_before": 716,
+  "published_after_successful_ci_and_pages_e2e": 724,
+  "formal_science_kp_approved_count": 8,
+  "admission_ready_in_this_release": 8,
+  "excluded_source_items": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G01|TF|005",
+      "reason": "WITHIN_BATCH_NEAR_EQUIVALENT_G05_001_AND_EXISTING_VISIBILITY_FACT_REQUIRES_ONE_LINEAGE_ONLY"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G02|TF|002",
+      "reason": "SEMANTIC_DUPLICATE_PUBLISHED_SCI_G04_S1_113_FINAL_006_S01_TF_002"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G02|TF|003",
+      "reason": "UNIQUE_SCIENCE_ANSWER_HOLD_TIME_AFTER_VIBRATION_STOPS_AND_SOUND_PROPAGATION"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G02|TF|005",
+      "reason": "SEMANTIC_DUPLICATE_EXISTING_ASTRONAUT_VACUUM_COMMUNICATION_FACT"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G03|TF|004",
+      "reason": "UNIQUE_SCIENCE_ANSWER_HOLD_ADAPTER_EARTHING_CONDITIONS_UNSPECIFIED"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G03|TF|006",
+      "reason": "SEMANTIC_DUPLICATE_REVERSE_WORDING_PUBLISHED_113_BATTERY_DISPOSAL"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G05|TF|001",
+      "reason": "WITHIN_BATCH_NEAR_EQUIVALENT_G01_005_AND_EXISTING_VISIBILITY_FACT"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G05|TF|002",
+      "reason": "SEMANTIC_DUPLICATE_PREVIOUS_PUBLISHED_ROUGH_WALL_REFLECTION"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G05|TF|003",
+      "reason": "SEMANTIC_DUPLICATE_114_TWO_MIRRORS_MANY_REFLECTIONS_009_008"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G06|TF|001",
+      "reason": "UNIQUE_SCIENCE_ANSWER_HOLD_UNLIT_ROOM_NOT_NECESSARILY_NO_LIGHT"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G06|TF|002",
+      "reason": "SEMANTIC_DUPLICATE_114_FINAL_012_Q03_005_OPEN_FLASHLIGHT_IS_LIGHT_SOURCE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G06|TF|005",
+      "reason": "SEMANTIC_OVERLAP_EXISTING_REFLECTION_AND_VISIBILITY_PUBLIC_113"
+    }
+  ],
+  "dedup_reference": "Prior 80 published 113 source IDs + prior public 114 25 source archive question texts + legacy public bank reviews, same-batch semantic contradictions; original PDF SHA256 and all 20 native glyph markers reverified. Known near-semantic overlap isolated to HOLD. Model-science explanations are not original teacher answer key.",
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G01|TF|001",
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "source_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "source_pdf_page": 1,
+      "answer_glyph_bbox_exact_native_pdf": [
+        55.3,
+        580.69,
+        80.8,
+        593.51
+      ],
+      "original_text": "手電筒的光照射到牆壁，會產生圓形的影子。",
+      "unique_answer": "X",
+      "science_reason": "照亮牆面通常形成亮斑；沒有物體遮擋時不能直接說形成圓形影子。",
+      "direct_frozen_canonical_kp": "sci_g04s1_03_06",
+      "full_original_stem_verified": true,
+      "source_required_parent_instructions": "第二大題各組：正確畫○，不正確打〤。",
+      "source_bbox_original_glyph_qa": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "duplication_gate_accepted": true,
+      "article9_exam_question_text_rights_accepted": true,
+      "operator_approved_in_scope": true,
+      "student_bank_admission_ready": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G01|TF|002",
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "source_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "source_pdf_page": 1,
+      "answer_glyph_bbox_exact_native_pdf": [
+        55.3,
+        597.97,
+        80.8,
+        610.79
+      ],
+      "original_text": "光的直線行進現象只能在白天觀察到，夜晚則無法觀察到。",
+      "unique_answer": "X",
+      "science_reason": "只要有適當光源，白天與夜晚均可觀察光沿直線行進。",
+      "direct_frozen_canonical_kp": "sci_g04s1_03_06",
+      "full_original_stem_verified": true,
+      "source_required_parent_instructions": "第二大題各組：正確畫○，不正確打〤。",
+      "source_bbox_original_glyph_qa": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "duplication_gate_accepted": true,
+      "article9_exam_question_text_rights_accepted": true,
+      "operator_approved_in_scope": true,
+      "student_bank_admission_ready": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G01|TF|007",
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "source_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "source_pdf_page": 1,
+      "answer_glyph_bbox_exact_native_pdf": [
+        55.3,
+        729.97,
+        80.8,
+        742.79
+      ],
+      "original_text": "光的直線行進是形成影子的原因之一。",
+      "unique_answer": "O",
+      "science_reason": "光被不透明物體阻擋，形成影子，與光直線行進相關。",
+      "direct_frozen_canonical_kp": "sci_g04s1_03_06",
+      "full_original_stem_verified": true,
+      "source_required_parent_instructions": "第二大題各組：正確畫○，不正確打〤。",
+      "source_bbox_original_glyph_qa": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "duplication_gate_accepted": true,
+      "article9_exam_question_text_rights_accepted": true,
+      "operator_approved_in_scope": true,
+      "student_bank_admission_ready": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G04|TF|001",
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "source_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "source_pdf_page": 1,
+      "answer_glyph_bbox_exact_native_pdf": [
+        394.21,
+        317.17,
+        419.71,
+        329.99
+      ],
+      "original_text": "將耳朵貼近地面，能聽到遠處的馬蹄聲。",
+      "unique_answer": "O",
+      "science_reason": "地面等固體可以傳播聲音，靠近固體可接收到地面傳來的振動。",
+      "direct_frozen_canonical_kp": "sci_g04s1_03_03",
+      "full_original_stem_verified": true,
+      "source_required_parent_instructions": "第二大題各組：正確畫○，不正確打〤。",
+      "source_bbox_original_glyph_qa": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "duplication_gate_accepted": true,
+      "article9_exam_question_text_rights_accepted": true,
+      "operator_approved_in_scope": true,
+      "student_bank_admission_ready": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G04|TF|003",
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "source_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "source_pdf_page": 1,
+      "answer_glyph_bbox_exact_native_pdf": [
+        393.46,
+        366.85,
+        418.96,
+        379.67
+      ],
+      "original_text": "我們能聽到雷聲，是因為雷聲透過空氣傳播到我們的耳朵。",
+      "unique_answer": "O",
+      "science_reason": "雷鳴造成的聲波可經空氣傳到耳朵。",
+      "direct_frozen_canonical_kp": "sci_g04s1_03_02",
+      "full_original_stem_verified": true,
+      "source_required_parent_instructions": "第二大題各組：正確畫○，不正確打〤。",
+      "source_bbox_original_glyph_qa": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "duplication_gate_accepted": true,
+      "article9_exam_question_text_rights_accepted": true,
+      "operator_approved_in_scope": true,
+      "student_bank_admission_ready": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G04|TF|006",
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "source_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "source_pdf_page": 1,
+      "answer_glyph_bbox_exact_native_pdf": [
+        393.46,
+        464.05,
+        418.96,
+        476.87
+      ],
+      "original_text": "潛水員在水下無法聽到水面上的船隻發出的聲音。",
+      "unique_answer": "X",
+      "science_reason": "水可以傳聲，船體機械振動等可向水中傳遞聲音；『完全無法』不成立。",
+      "direct_frozen_canonical_kp": "sci_g04s1_03_03",
+      "full_original_stem_verified": true,
+      "source_required_parent_instructions": "第二大題各組：正確畫○，不正確打〤。",
+      "source_bbox_original_glyph_qa": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "duplication_gate_accepted": true,
+      "article9_exam_question_text_rights_accepted": true,
+      "operator_approved_in_scope": true,
+      "student_bank_admission_ready": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G05|TF|005",
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "source_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "source_pdf_page": 1,
+      "answer_glyph_bbox_exact_native_pdf": [
+        393.46,
+        665.65,
+        418.96,
+        678.47
+      ],
+      "original_text": "汽車的後視鏡是利用光的反射原理來幫助駕駛員看到後方車輛的。",
+      "unique_answer": "O",
+      "science_reason": "後視鏡反射來自後方的光線，協助駕駛觀察車後。",
+      "direct_frozen_canonical_kp": "sci_g04s1_03_08",
+      "full_original_stem_verified": true,
+      "source_required_parent_instructions": "第二大題各組：正確畫○，不正確打〤。",
+      "source_bbox_original_glyph_qa": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "duplication_gate_accepted": true,
+      "article9_exam_question_text_rights_accepted": true,
+      "operator_approved_in_scope": true,
+      "student_bank_admission_ready": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S02|G06|TF|003",
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "source_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "source_pdf_page": 1,
+      "answer_glyph_bbox_exact_native_pdf": [
+        393.46,
+        849.97,
+        418.96,
+        862.79
+      ],
+      "original_text": "太陽是地球上最重要的光源。",
+      "unique_answer": "O",
+      "science_reason": "太陽為地球主要自然光源，提供大量日光。",
+      "direct_frozen_canonical_kp": "sci_g04s1_03_05",
+      "full_original_stem_verified": true,
+      "source_required_parent_instructions": "第二大題各組：正確畫○，不正確打〤。",
+      "source_bbox_original_glyph_qa": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "duplication_gate_accepted": true,
+      "article9_exam_question_text_rights_accepted": true,
+      "operator_approved_in_scope": true,
+      "student_bank_admission_ready": true
+    }
+  ],
+  "release_gate": "ADMISSION_READY_PENDING_FOCUSED_CI_MAIN_READBACK_AND_LIVE_PAGES_E2E; PUBLISHED REMAINS ZERO UNTIL VERIFIED"
+}

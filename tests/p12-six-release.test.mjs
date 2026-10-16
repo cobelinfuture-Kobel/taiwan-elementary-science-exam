@@ -61,6 +61,7 @@ test("P12 addition does not alter frozen 72 OX and 20 context group assets",asyn
  const heshunFinal=read("site/data/question-bank/p12-e01-heshun-final21-public-v1.json");
  const post52Anhe=read("site/data/question-bank/p12-e01-post52-anhe-final3-public-v1.json");
  const post49Source2=read("site/data/question-bank/p12-e01-post49-source2-public-v1.json");
+ const post47Dongguang=read("site/data/question-bank/p12-e01-post47-dongguang-mid-mc1-public-v1.json");
  assert.equal(old.blocks.length,72);
  assert.equal(contexts.groups.length,20);
  assert.equal(contexts.expected_answer_slots,76);

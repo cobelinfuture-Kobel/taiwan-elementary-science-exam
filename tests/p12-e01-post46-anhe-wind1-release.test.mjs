@@ -75,8 +75,8 @@ test("active V3 ScienceKP26 two more original TF while frozen V2 excludes only R
  };
  try{
   const v3=await loadEmbeddedHistoricalBank(authority);
-  assert.equal(v3.certifiedAnswerSlots,699); // existing 690 + 9 source-certified 113 final MC; frozen V2 remains 635
-  assert.equal(v3.certifiedTrueFalse,344); // 313 baseline + 15 prior 113 + 16 new final TF
+  assert.equal(v3.certifiedAnswerSlots,716); // existing 699 + 17 original 113 Taizijiao final TF, frozen V2 remains 635
+  assert.equal(v3.certifiedTrueFalse,361); // existing 344 + 17 Taizijiao independently source-certified final TF
   assert.equal(v3.certifiedStandaloneChoice,220); // existing 211 plus 9 certified 113 final MC
   assert.equal(v3.certifiedGroupCount,36);
   assert.equal(v3.blocks.filter(x=>x.source_slot_id===proof.source_slot_id).length,1);

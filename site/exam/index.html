@@ -53,9 +53,9 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 <div class="warning" id="bank-info">公開網站正在載入已核准題庫；不需手動匯入，尚未核准的題目不得進入抽題池。</div><h2>出題範圍</h2><div class="pair"><label>年級<select id="grade"><option value="3">三年級</option><option value="4" selected>四年級</option></select></label><label>學期<select id="semester"><option value="S1">上學期</option><option value="S2">下學期</option></select></label></div>
 <label>單元<select id="unit"></select></label>
 <label>組卷模式<select id="mode"><option value="single_unit">單一單元</option><option value="single_kp">單一 KP</option><option value="same_unit">同單元多 KP</option><option value="cross_unit">跨單元</option><option value="midterm">期中 U01＋U02</option><option value="final">期末 U03＋U04</option></select></label>
-<div id="kp-wrap"><label>正式 KP 知識點（選單依已驗證的 187 KP Authority）<select id="kp"></select></label><p class="minor" id="kp-summary"></p></div>
+<div id="kp-wrap"><label>正式 KP 知識點（選單依已驗證的 190 KP Authority）<select id="kp"></select></label><p class="minor" id="kp-summary"></p></div>
 <div id="cross-wrap" hidden><label>選取同年級同學期單元（至少 2 個）</label><div class="checks checkbox-list" id="cross"></div><div class="cross-kp-groups" id="cross-kps" aria-label="跨單元知識點勾選"></div></div>
-<p class="minor">使用三、四年級 187 KP Authority；沒有足夠核准題目的範圍會顯示題數不足，不補入示範題。</p>
+<p class="minor">使用三、四年級 190 KP Authority；沒有足夠核准題目的範圍會顯示題數不足，不補入示範題。</p>
 <h2>題目設定</h2><div class="pair"><label>小題數<input id="count" type="number" min="1" max="120" value="1"></label><label>排序<select id="order"><option value="shuffle">混合排序</option><option value="group">依題型分組</option></select></label></div>
 <label>產生種子<input id="seed" value="science-exam-history"></label>
 <label class="checks"><input id="answer-key" type="checkbox" checked> 附答案頁</label>

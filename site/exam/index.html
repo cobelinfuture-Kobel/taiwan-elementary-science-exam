@@ -186,7 +186,7 @@ async function init(){
    document.querySelector("#bank-info").textContent="已載入內建考古題 "+bank.certifiedAnswerSlots+" 小題（"+bank.certifiedTrueFalse+" 題是非＋"+bank.certifiedStandaloneChoice+" 題單選＋"+bank.certifiedGroupCount+" 組情境）；選年級、單元或 KP 後直接產生考卷。";
   }
   syncUnits();generate();
- }catch(e){ui.status.textContent='題庫載入或版本檢查失敗：'+e.message+'。請重新整理網頁；若持續發生，請回報此訊息。';ui.status.dataset.error='true';$('generate').disabled=true;ui.print.disabled=true;ui.sheet.replaceChildren();if(!authority)ui.kpSummary.textContent='正式 KP Authority 尚未載入；已禁止組卷。';else ui.kpSummary.textContent='187 KP 選單已載入，但核准題庫版本不一致，暫停組卷。';}
+ }catch(e){ui.status.textContent='題庫載入或版本檢查失敗：'+e.message+'。請重新整理網頁；若持續發生，請回報此訊息。';ui.status.dataset.error='true';$('generate').disabled=true;ui.print.disabled=true;ui.sheet.replaceChildren();if(!authority)ui.kpSummary.textContent='正式 KP Authority 尚未載入；已禁止組卷。';else ui.kpSummary.textContent=authority.counts.knowledge_points+' KP 選單已載入，但核准題庫版本不一致，暫停組卷。';}
 }
 [ui.grade,ui.sem].forEach(e=>e.addEventListener('change',syncUnits));ui.unit.addEventListener('change',syncMode);ui.mode.addEventListener('change',syncMode);
 ui.cross.addEventListener('change',()=>{renderCrossKPs();invalidate();});

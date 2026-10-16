@@ -1,0 +1,57 @@
+{
+  "schema_version": "SCIENCE_G04S1_R4_PRIVATE_REMAP_REVIEW_QUEUE_V1",
+  "status": "PENDING_INDIVIDUAL_SOURCE_AND_SCIENCE_REVIEW_NO_PUBLIC_ADMISSION",
+  "baseline_legacy_45_unmodified": true,
+  "new_canonical_ids": [
+    "sci_g04s1_01_12",
+    "sci_g04s1_02_13",
+    "sci_g04s1_02_14"
+  ],
+  "known_exact_candidate_matches": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_002|S1|MC|010",
+      "source_review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "old_proposed_canonical_kp_id": "sci_g04s1_02_02",
+      "new_proposed_canonical_kp_id": "sci_g04s1_02_13",
+      "proposed_match_reason": "Assess the contents of a water-environment investigation record, not environmental differences",
+      "source_visual_bbox_certified": false,
+      "science_answer_formally_approved": false,
+      "new_kp_formally_admitted": false,
+      "site_admitted": false,
+      "review_state": "REMAP_CANDIDATE_HELD_SOURCE_BBOX"
+    }
+  ],
+  "negative_control_examples": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|007",
+      "remain_on": "sci_g04s1_02_02",
+      "reason": "Biota from a water-environment record are used to infer water habitat; not a question on observation procedures"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_009|S1|MC|014",
+      "remain_on": "sci_g04s1_02_02",
+      "reason": "Identifies likely water habitat based on species; not investigating recording method"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_004|S01|TF|003",
+      "remain_on": "sci_g04s1_01_05",
+      "reason": "流水, not wind"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_008|S01|TF|012",
+      "remain_uncertified": true,
+      "reason": "Ambiguous rock-to-soil fixed sequence; new wind KP does not resolve science defect"
+    }
+  ],
+  "future_reinspection_scope": [
+    "archived/held G04S1 positions without KP",
+    "questions involving wind moving sand and soil",
+    "questions assessing investigation/recording steps",
+    "questions assessing water survey safety"
+  ],
+  "reinspection_not_claimed_complete": true,
+  "public_admission_count": 0,
+  "published_question_changes": 0
+}

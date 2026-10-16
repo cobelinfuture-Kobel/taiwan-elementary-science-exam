@@ -61,6 +61,7 @@ test("P12 addition does not alter frozen 72 OX and 20 context group assets",asyn
  const heshunFinal=read("site/data/question-bank/p12-e01-heshun-final21-public-v1.json");
  const post52Anhe=read("site/data/question-bank/p12-e01-post52-anhe-final3-public-v1.json");
  const post49Source2=read("site/data/question-bank/p12-e01-post49-source2-public-v1.json");
+ const post47Dongguang=read("site/data/question-bank/p12-e01-post47-dongguang1-public-v1.json");
  assert.equal(old.blocks.length,72);
  assert.equal(contexts.groups.length,20);
  assert.equal(contexts.expected_answer_slots,76);
@@ -68,16 +69,16 @@ test("P12 addition does not alter frozen 72 OX and 20 context group assets",asyn
  globalThis.fetch=async url=>({
   ok:true,
   json:async()=>structuredClone(url.includes("approved-historical-ox-v4")?old:
-   url.includes("certified-context-groups-content-v3")?contentContexts:url.includes("remaining51-public-v1")?remaining:url.includes("remaining51-operator-public-approval-v1")?approval:url.includes("p12-g03s2final-46-public-v1")?g03Final:url.includes("p12-g03s2final-46-operator-public-approval-v1")?finalApproval:url.includes("p12-b04-g04s1-yongan-mid9-public-v1")?b04:url.includes("p12-b04-g04s1-chongde-mid6-public-v1")?chongde:url.includes("p12-b04-b01-47-public-v1")?b01:url.includes("p12-b04-b02-41-public-v1")?b02:url.includes("p12-b04-b03-41-public-v1")?b03:url.includes("p12-b04-b04-47-public-v1")?b04next:url.includes("p12-b04-b05-40-public-v1")?b05:url.includes("p12-b04-b06-47-public-v1")?b06:url.includes("p12-b04-b07-31-public-v1")?b07:url.includes("p12-e01-puren-final16-public-v1")?e01:url.includes("p12-e01-puren-mid13-public-v1")?e01mid:url.includes("p12-e01-heshun-mid15-public-v1")?heshunMid:url.includes("p12-e01-heshun-final21-public-v1")?heshunFinal:url.includes("p12-e01-post52-anhe-final3-public-v1")?post52Anhe:url.includes("p12-e01-post49-source2-public-v1")?post49Source2:supplement)
+   url.includes("certified-context-groups-content-v3")?contentContexts:url.includes("remaining51-public-v1")?remaining:url.includes("remaining51-operator-public-approval-v1")?approval:url.includes("p12-g03s2final-46-public-v1")?g03Final:url.includes("p12-g03s2final-46-operator-public-approval-v1")?finalApproval:url.includes("p12-b04-g04s1-yongan-mid9-public-v1")?b04:url.includes("p12-b04-g04s1-chongde-mid6-public-v1")?chongde:url.includes("p12-b04-b01-47-public-v1")?b01:url.includes("p12-b04-b02-41-public-v1")?b02:url.includes("p12-b04-b03-41-public-v1")?b03:url.includes("p12-b04-b04-47-public-v1")?b04next:url.includes("p12-b04-b05-40-public-v1")?b05:url.includes("p12-b04-b06-47-public-v1")?b06:url.includes("p12-b04-b07-31-public-v1")?b07:url.includes("p12-e01-puren-final16-public-v1")?e01:url.includes("p12-e01-puren-mid13-public-v1")?e01mid:url.includes("p12-e01-heshun-mid15-public-v1")?heshunMid:url.includes("p12-e01-heshun-final21-public-v1")?heshunFinal:url.includes("p12-e01-post52-anhe-final3-public-v1")?post52Anhe:url.includes("p12-e01-post49-source2-public-v1")?post49Source2:url.includes("p12-e01-post47-dongguang1-public-v1")?post47Dongguang:supplement)
  });
  try{
   const all=await loadEmbeddedHistoricalBank(authority);
   assert.equal(all.admission,"EMBEDDED_CERTIFIED_HISTORICAL");
-  assert.equal(all.certifiedAnswerSlots,628);
+  assert.equal(all.certifiedAnswerSlots,629);
   assert.equal(all.certifiedTrueFalse,307);
-  assert.equal(all.certifiedStandaloneChoice,186);
+  assert.equal(all.certifiedStandaloneChoice,187);
   assert.equal(all.certifiedGroupCount,36);
-  assert.equal(all.blocks.length,72+20+5+27+28+9+6+47+41+41+47+40+47+31+16+13+15+19+3+2);
+  assert.equal(all.blocks.length,72+20+5+27+28+9+6+47+41+41+47+40+47+31+16+13+15+19+3+2+1);
   assert.equal(new Set(all.blocks.map(b=>b.id)).size,all.blocks.length);
  }finally{globalThis.fetch=oldFetch}
 });

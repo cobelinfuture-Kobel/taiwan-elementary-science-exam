@@ -1,0 +1,926 @@
+{
+  "schema_version": "P12_E01_FINAL39_ONEPASS_EXCEPTION_CLOSEOUT_V1",
+  "publication_baseline_merge_commit": "aab036edcf6637e17ee91e37decf41f4b25c3e8c",
+  "historical_46_source_ledger_ref": "data/review/p12-e01-postcloseout-remaining46-priority-review-v1.json",
+  "independent_source_review_refs": [
+    "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+    "data/review/p12-e01-post45-scan9-source-pixelbbox-science-kp-selective-v1.json",
+    "data/review/p12-e01-post41-scansecondary6-source-science-kp-dedup-v1.json"
+  ],
+  "scope": "G04_S1_114_ALL25_SOURCE_SCANNED_EXCEPTION_COMPLIANCE",
+  "public_selector_authority": "SCIENCE_G03_G04_PUBLIC_SELECTOR_V3",
+  "eligible_learner_question_admission_count": 0,
+  "new_public_bank_asset_count": 0,
+  "public_answer_slots_before_and_after": 636,
+  "public_true_false_before_and_after": 313,
+  "public_standalone_mc_before_and_after": 188,
+  "public_context_groups_before_and_after": 36,
+  "initial_unique_exception_slots_after_PR120": 39,
+  "onepass_original_archive_records_screened": 39,
+  "frozen_source_archive_count": 14,
+  "frozen_source_archive_question_text_and_pdf_hash_readback_checked_against_prior_priority_ledger": true,
+  "original_teacher_answer_key_authentication_not_claimed": true,
+  "current_scope_exception_disposition_counts": {
+    "EXCLUDE_ALREADY_PUBLISHED_EXACT_STEM": 5,
+    "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE": 32,
+    "EXCLUDE_SOURCE_PRINT_CHOICE_LABEL_CONFLICT": 1,
+    "EXCLUDE_ORIGINAL_PRINT_TEXT_UNRELIABLE": 1
+  },
+  "same_question_duplicate_lineage_exclusions": 5,
+  "original_source_print_anomaly_exclusions": 2,
+  "deferred_science_or_kp_for_new_authority_or_evidence": 32,
+  "open_untriaged_exception_positions": 0,
+  "deferred_or_excluded_source_positions_total": 39,
+  "no_undocumented_original_pdf_repair": true,
+  "new_KP_inventions": 0,
+  "no_false_claim_all_source_questions_scientifically_correct": true,
+  "no_original_source_archives_modified": true,
+  "no_previously_published_636_question_rewrites": true,
+  "closure_rule": "All 39 classified in one pass; none satisfies all independent Science, direct existing KP, no-duplicate, original-source print, image/PDF BBox, rights and public student admission gates. This is a review closeout, not claim that 39 student questions became admitted.",
+  "prior_frozen_46_source_positions_remain_immutable": true,
+  "reopen_requires_new_source_evidence_or_approved_curriculum_authority": true,
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_004|S02|MC|006",
+      "priority_order": 1,
+      "source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "original_source_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "exact_original_scoreless_stem_from_frozen_source": "教室裡的日光燈管壞了一個，其他的還是會發光，表示日光燈管是利用下列哪一種方法連接的？",
+      "firstpass_proposed_kp_id": "sci_g04s1_04_09",
+      "legacy_hold_category": "DUPLICATE_SOURCE_LINEAGE_NO_STUDENT_ITEM",
+      "legacy_frozen_flags": [
+        "DUPLICATE_EXACT_STEM_ACROSS_SCHOOLS"
+      ],
+      "last_independent_review_status": "DUPLICATE_SOURCE_LINEAGE_NO_STUDENT_ITEM",
+      "last_independent_review_ref": null,
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "EXCLUDE_ALREADY_PUBLISHED_EXACT_STEM",
+      "why_not_eligible": "Identical original question stem already has a public student-facing lineage. Original options and answer-label order may differ; do not double-publish.",
+      "reopen_trigger": "Only a substantively different legally published school question or verified revised original; no automatic re-admission.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_004|S01|TF|008",
+      "priority_order": 2,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "original_source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "exact_original_scoreless_stem_from_frozen_source": "森林中，常可見到玉山圓柏、玉山箭竹等植物。",
+      "firstpass_proposed_kp_id": "sci_g04s1_01_02",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "AMBIGUOUS_HABITAT_SCOPE"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "玉山圓柏與玉山箭竹位於特定高海拔森林/植群帶；題幹泛稱「森林中常可見」未指明區域，缺乏穩定唯一判讀。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_004|S02|MC|009",
+      "priority_order": 3,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "original_source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "exact_original_scoreless_stem_from_frozen_source": "小美想要進行水域環境的探索，請問她選擇哪一種環境最不適合？",
+      "firstpass_proposed_kp_id": "sci_g04s1_02_01",
+      "legacy_hold_category": "SOURCE_PRINT_OPTIONS_UNCORRECTABLE_AS_EXACT_PUBLIC_MC",
+      "legacy_frozen_flags": [
+        "PRINTED_DUPLICATE_②_CHOICE_LABEL",
+        "SOURCE_PRINTED_OPTIONS_HOLD"
+      ],
+      "last_independent_review_status": "SOURCE_PRINT_OPTIONS_UNCORRECTABLE_AS_EXACT_PUBLIC_MC",
+      "last_independent_review_ref": null,
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "EXCLUDE_SOURCE_PRINT_CHOICE_LABEL_CONFLICT",
+      "why_not_eligible": "Original paper prints a repeated second-choice label, making exact multiple-choice answer binding ambiguous; do not silently repair published original.",
+      "reopen_trigger": "Only a substantively different legally published school question or verified revised original; no automatic re-admission.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_005|S01|TF|014",
+      "priority_order": 4,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "original_source_pdf_sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+      "exact_original_scoreless_stem_from_frozen_source": "荷花葉柄會隨著水位降低而改變形態，使葉面平貼在水面。",
+      "firstpass_proposed_kp_id": "sci_g04s1_02_07",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "LOTUS_FLOATING_JUVENILE_LEAF_AMBIGUITY"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "荷花與睡蓮以及不同生長階段的葉面位置不可混同；水位降低時荷葉葉柄「改變形態使葉平貼」不具一般必然性。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_005|S02|MC|010",
+      "priority_order": 5,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "original_source_pdf_sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+      "exact_original_scoreless_stem_from_frozen_source": "下列何者是漂浮性水生植物和浮葉性水生植物的相同點？",
+      "firstpass_proposed_kp_id": "sci_g04s1_02_06",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "FLOATING_VS_FLOATING_LEAF_WATER_LEVEL_AMBIGUITY"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "兩類植物在根是否固定、整株是否隨流移動不同；選項③葉隨降水位仍浮起受葉柄長度與降水位程度影響，無無條件唯一性。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|003",
+      "priority_order": 6,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "exact_original_scoreless_stem_from_frozen_source": "流水作用對地表環境產生新樣貌後，地表環境就會變得不穩定，而一直在變動。",
+      "firstpass_proposed_kp_id": "sci_g04s1_01_05",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "CONTINUOUS_GROUND_INSTABILITY_OVERGENERALIZATION"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "流水改造地貌不代表環境之後必定持續不穩定；題目把局部條件描述為普遍必然。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|005",
+      "priority_order": 7,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "exact_original_scoreless_stem_from_frozen_source": "臺灣用來表示地震規模大小是芮氏規模，最大是「7 級」。",
+      "firstpass_proposed_kp_id": "sci_g04s1_01_08",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "SEISMIC_MAGNITUDE_OUTSIDE_CURRENT_CANONICAL_KP"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "地震規模/釋放能量概念不屬既有01_08地表變動/災害KP；科學可判讀但不能硬對應。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|006",
+      "priority_order": 8,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "exact_original_scoreless_stem_from_frozen_source": "地震報告會包含震央、震源、地震規模、震度與災損情形等資訊。",
+      "firstpass_proposed_kp_id": "sci_g04s1_01_08",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "EARTHQUAKE_REPORT_DAMAGE_DETAILS_NOT_UNIVERSAL"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "地震速報並非都含災損資訊，甚至可能不列震源；概括「地震報告會包含」缺少範圍且不直接測01_08。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|007",
+      "priority_order": 9,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "exact_original_scoreless_stem_from_frozen_source": "在大自然中，只要是有水的地方，都可稱為水域環境。",
+      "firstpass_proposed_kp_id": "sci_g04s1_02_01",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "AQUATIC_HABITAT_DEFINITION_OVERBROAD"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "有水位置不必然為穩定水域生境；「只要」過寬、且不同科學語境定義不一。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S02|MC|002",
+      "priority_order": 10,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "exact_original_scoreless_stem_from_frozen_source": "觀察地表物質如岩石、沙和土壤時，下列何者並不恰當？",
+      "firstpass_proposed_kp_id": "sci_g04s1_01_03",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "SAFE_SCIENCE_OBSERVATION_OUTSIDE_KP_GRAIN_SIZE_SCOPE"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "③口嘗味道不安全雖可判，但測的是觀察安全操作，不是既有01_03顆粒大小KP。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S02|MC|005",
+      "priority_order": 11,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "exact_original_scoreless_stem_from_frozen_source": "地震紀錄的芮氏規模越大時，表示該地震所釋放的能量大小為何？",
+      "firstpass_proposed_kp_id": "sci_g04s1_01_08",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "SEISMIC_MAGNITUDE_OUTSIDE_CURRENT_CANONICAL_KP"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "地震規模/釋放能量概念不屬既有01_08地表變動/災害KP；科學可判讀但不能硬對應。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|005",
+      "priority_order": 12,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "original_source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "exact_original_scoreless_stem_from_frozen_source": "地震和土石流是人為現象所導致。",
+      "firstpass_proposed_kp_id": "sci_g04s1_01_07",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "EARTHQUAKE_NATURAL_ORIGIN_NOT_MATCH_DEVELOPMENT_KP"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "地震非人為現象；土石流兼有自然與人為誘因，將其歸為全人為不當，且不直接測01_07人類開發對地表影響。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|012",
+      "priority_order": 13,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "original_source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "exact_original_scoreless_stem_from_frozen_source": "工廠排放廢水會導致附近海水溫度上升。",
+      "firstpass_proposed_kp_id": "sci_g04s1_02_12",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "WASTEWATER_NOT_ALWAYS_THERMAL"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "一般工廠廢水不一定溫度偏高；不能直接等同02_12熱廢水/珊瑚白化。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|005",
+      "priority_order": 14,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "exact_original_scoreless_stem_from_frozen_source": "漂浮性水生植物的根漂浮在水裡，葉漂浮在水面上。",
+      "firstpass_proposed_kp_id": "sci_g04s1_02_04",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "FREE_HANGING_ROOT_VS_FLOATING_SEMANTICS"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "漂浮性水生植物根多懸垂於水中，文字「根漂浮在水裡」會混淆懸垂與浮力，單一是非答案不夠穩定。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|011",
+      "priority_order": 15,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "exact_original_scoreless_stem_from_frozen_source": "岩石長期受到陽光、風和水的影響會漸漸變成土壤。",
+      "firstpass_proposed_kp_id": "sci_g04s1_01_03",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "SOIL_FORMATION_OVERGENERALIZATION"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "岩石風化不等於必定直接變成土壤；土壤形成還需要有機質和成土作用，非01_03顆粒大小核心。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|012",
+      "priority_order": 16,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "exact_original_scoreless_stem_from_frozen_source": "岩石受到風力或雨水的作用，會先碎裂成小礫石，最後變成土壤。",
+      "firstpass_proposed_kp_id": "sci_g04s1_01_05",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "ROCK_TO_SOIL_FIXED_SEQUENCE_UNJUSTIFIED"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "岩石經風雨作用並非固定先變小礫石再形成土壤，且不直接測01_05流水搬運。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|013",
+      "priority_order": 17,
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "exact_original_scoreless_stem_from_frozen_source": "臺灣萍蓬草和睡蓮都是浮葉性水生植物，當水位降低時，它們葉面都仍然會平貼在水面。",
+      "firstpass_proposed_kp_id": "sci_g04s1_02_06",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "FLOATING_LEAF_LOW_WATER_CONDITIONAL"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "浮葉植物在降低水位後葉面是否保持平貼取決於深度和葉柄條件；「都仍然」太絕對。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|003",
+      "priority_order": 18,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "original_source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "exact_original_scoreless_stem_from_frozen_source": "在下列哪個地方人的耳朵無法聽到聲音？",
+      "firstpass_proposed_kp_id": "sci_g04s1_03_03",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "VACUUM_VS_SPACECRAFT_SOUND_SCOPE_AMBIGUOUS"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "太空真空無法傳聲，太空載具內有氣體介質能傳聲；「太空中」未限定外部真空。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|011",
+      "priority_order": 19,
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "original_source_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "exact_original_scoreless_stem_from_frozen_source": "下面哪一組的材料，可以用來製造控制通路或斷路的簡易開關？",
+      "firstpass_proposed_kp_id": "sci_g04s1_04_05",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "CONDUCTIVE_SWITCH_ALTERNATE_ASSEMBLY_MULTIPLE_CORRECT"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "鐵湯匙+長尾夾亦可能組成導電開關，迴紋針+紙板亦可，選項①與④潛在雙答案；不能認證唯一正答。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|011",
+      "priority_order": 20,
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "original_source_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "exact_original_scoreless_stem_from_frozen_source": "下列有關聲音的說明，哪一項是錯誤的？",
+      "firstpass_proposed_kp_id": "sci_g04s1_03_03",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "ASTRONAUT_SOUND_VACUUM_CONTEXT_UNSPECIFIED"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "太空船爆炸是否經過空氣/固體介質傳到太空人耳朵取決於太空人所在艙內或艙外，不能無條件判唯一。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|004",
+      "priority_order": 21,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_source_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "exact_original_scoreless_stem_from_frozen_source": "用手電筒照射物體，影子會在物體的後面。",
+      "firstpass_proposed_kp_id": "sci_g04s1_03_06",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "SHADOW_BEHIND_OBJECT_RELATIVE_TO_LIGHT_SOURCE_UNSTATED"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "影子在背光側，但「物體後面」缺少觀察方向與光源相對位置，含語意前提。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|006",
+      "priority_order": 22,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_source_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "exact_original_scoreless_stem_from_frozen_source": "如果有機會去到外太空，可以很清楚聽到爆炸的聲響。",
+      "firstpass_proposed_kp_id": "sci_g04s1_03_03",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "SPACE_EXPLOSION_NO_MEDIUM_CONTEXT_UNSTATED"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "太空外部真空無法直接傳聲，但艙內或結構傳聲可能存在；題幹未限定所在環境。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|012",
+      "priority_order": 23,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_source_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "exact_original_scoreless_stem_from_frozen_source": "電池有兩極，凸起的一端稱為負極，用「－」表示；平的一端稱為正極，用「＋」表示。",
+      "firstpass_proposed_kp_id": "sci_g04s1_04_01",
+      "legacy_hold_category": "DUPLICATE_SOURCE_LINEAGE_NO_STUDENT_ITEM",
+      "legacy_frozen_flags": [
+        "SOURCE_EXACT_DUPLICATE_PREVIOUSLY_PUBLISHED_B04_TF"
+      ],
+      "last_independent_review_status": "DUPLICATE_SOURCE_LINEAGE_NO_STUDENT_ITEM",
+      "last_independent_review_ref": null,
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "EXCLUDE_ALREADY_PUBLISHED_EXACT_STEM",
+      "why_not_eligible": "Identical original question stem already has a public student-facing lineage. Original options and answer-label order may differ; do not double-publish.",
+      "reopen_trigger": "Only a substantively different legally published school question or verified revised original; no automatic re-admission.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S02|MC|007",
+      "priority_order": 24,
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_source_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "exact_original_scoreless_stem_from_frozen_source": "在下列哪一個地方比較無法看見物體的影子？",
+      "firstpass_proposed_kp_id": "sci_g04s1_03_06",
+      "legacy_hold_category": "DUPLICATE_SOURCE_LINEAGE_NO_STUDENT_ITEM",
+      "legacy_frozen_flags": [
+        "SOURCE_EXACT_PUBLISHED_114_FINAL_003_S02_MC_001"
+      ],
+      "last_independent_review_status": "DUPLICATE_SOURCE_LINEAGE_NO_STUDENT_ITEM",
+      "last_independent_review_ref": null,
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "EXCLUDE_ALREADY_PUBLISHED_EXACT_STEM",
+      "why_not_eligible": "Identical original question stem already has a public student-facing lineage. Original options and answer-label order may differ; do not double-publish.",
+      "reopen_trigger": "Only a substantively different legally published school question or verified revised original; no automatic re-admission.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S2|MC|002",
+      "priority_order": 25,
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "original_source_pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "exact_original_scoreless_stem_from_frozen_source": "下列對於物體振動發出聲音的敘述，哪一項是不正確的呢?",
+      "firstpass_proposed_kp_id": "sci_g04s1_03_01",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "DOLPHIN_ECHOLOCATION_NOT_DIRECT_SOUND_GENERATION_KP"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "選項④海豚以尾巴探測環境是錯，但考的是回聲定位器官而非03_01振動發聲KP，不能硬套。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S2|MC|007",
+      "priority_order": 26,
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "original_source_pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "exact_original_scoreless_stem_from_frozen_source": "關於電池的敘述，下列哪一項是正確的?",
+      "firstpass_proposed_kp_id": "sci_g04s1_04_06",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "BATTERY_SERIES_PARALLEL_NOT_DIRECT_BRIGHTNESS_KP"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "選項④談電池串並聯存在，現行04_06/07規定的是燈泡亮度影響，不是連接種類名詞，不能直接映射。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q01|007",
+      "priority_order": 27,
+      "source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "original_source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "exact_original_scoreless_stem_from_frozen_source": "下列關於「人類活動與水域環境之間關係」的敘述，正確畫○，不正確打〤。\n澎湖居民利用珊瑚礁建造房屋，是人類利用水域資源的方式之一。",
+      "firstpass_proposed_kp_id": "sci_g04s1_02_10",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "CORAL_REEF_HISTORICAL_USE_VS_CURRENT_PROTECTION_AMBIGUITY"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "澎湖珊瑚礁石歷史建材使用與現今保育規範不等同，「利用」句欠時代界定，且02_10飲食資源KP不適用。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q01|008",
+      "priority_order": 28,
+      "source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "original_source_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "exact_original_scoreless_stem_from_frozen_source": "下列關於「人類活動與水域環境之間關係」的敘述，正確畫○，不正確打〤。\n人類過度開發森林，遇上豪大雨，容易造成具有潛在危機的堰(  )塞湖。",
+      "firstpass_proposed_kp_id": "sci_g04s1_01_07",
+      "legacy_hold_category": "SOURCE_OR_SCIENCE_KP_HOLD",
+      "legacy_frozen_flags": [
+        "FOREST_CLEARANCE_DOES_NOT_SUFFICE_FOR_LANDSLIDE_DAM"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_EXCEPTION_UNCHANGED",
+      "last_independent_review_ref": "data/review/p12-e01-post43-sciencekp26-two-source-exact-review-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": null,
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "開發森林/豪雨可能促進崩塌，但形成堰塞湖需要阻斷河道等特定條件，不是普遍「容易造成」，且原卷含未整理注音符號。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_002|S2|TF|007",
+      "priority_order": 29,
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "original_source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "exact_original_scoreless_stem_from_frozen_source": "水生動物和水生植物生活在同一個水域不會互相影響。",
+      "firstpass_proposed_kp_id": "sci_g04s1_02_02",
+      "legacy_hold_category": "RASTER_BBOX_RECOVERED_SEMANTIC_OR_KP_HOLD",
+      "legacy_frozen_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "last_independent_review_status": "HOLD_KP_NOT_DIRECT",
+      "last_independent_review_ref": "data/review/p12-e01-post45-scan9-source-pixelbbox-science-kp-selective-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": [
+        35,
+        1483,
+        96,
+        1520
+      ],
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "Animal/plant mutual influence in one habitat is not a direct test of canonical 02_02 'water-habitat environmental differences'; do not force-fit to 02_11 pollution.",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_002|S2|TF|011",
+      "priority_order": 30,
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "original_source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "exact_original_scoreless_stem_from_frozen_source": "一天中太陽的位置貼水面置隨時間而變化，中午的影子最長。",
+      "firstpass_proposed_kp_id": "sci_g04s1_03_06",
+      "legacy_hold_category": "RASTER_BBOX_RECOVERED_SEMANTIC_OR_KP_HOLD",
+      "legacy_frozen_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "last_independent_review_status": "HOLD_ORIGINAL_PRINTED_TEXT_CORRUPTION",
+      "last_independent_review_ref": "data/review/p12-e01-post45-scan9-source-pixelbbox-science-kp-selective-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": [
+        589,
+        242,
+        651,
+        274
+      ],
+      "current_authority_disposition": "EXCLUDE_ORIGINAL_PRINT_TEXT_UNRELIABLE",
+      "why_not_eligible": "Original print mixes solar position with nonsensical '平貼水面置'; frozen archive omits 平; must not silently repair/normalize printed science stem or certify a unique question.",
+      "reopen_trigger": "Only a substantively different legally published school question or verified revised original; no automatic re-admission.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S1|TF|007",
+      "priority_order": 31,
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "exact_original_scoreless_stem_from_frozen_source": "就算電線和電池都接好了，如果燈泡不會發光，這樣的電路可以稱為「通路」。",
+      "firstpass_proposed_kp_id": "sci_g04s1_04_08",
+      "legacy_hold_category": "SCAN_SECONDARY_DUPLICATE_OR_SEMANTIC_HOLD",
+      "legacy_frozen_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "AMBIGUOUS_CIRCUIT_DEFINITION",
+        "CANONICAL_KP_PROPOSAL_MISMATCH"
+      ],
+      "last_independent_review_status": "HOLD_AMBIGUOUS",
+      "last_independent_review_ref": "data/review/p12-e01-post41-scansecondary6-source-science-kp-dedup-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": [
+        36,
+        560,
+        110,
+        604
+      ],
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "燈泡不亮不保證是否通路；可能壞燈泡、接觸不良等。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|003",
+      "priority_order": 32,
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "exact_original_scoreless_stem_from_frozen_source": "下列哪些不會運用到太陽的光與熱？",
+      "firstpass_proposed_kp_id": "sci_g04s1_03_04",
+      "legacy_hold_category": "RASTER_BBOX_RECOVERED_SEMANTIC_OR_KP_HOLD",
+      "legacy_frozen_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "last_independent_review_status": "HOLD_KP_NOT_DIRECT",
+      "last_independent_review_ref": "data/review/p12-e01-post45-scan9-source-pixelbbox-science-kp-selective-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": [
+        37,
+        1230,
+        101,
+        1268
+      ],
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "Battery-powered bulb vs sunlight/solar heat is not a direct assessment of 03_04 'seeing requires light entering the eyes'; answer ② independently reasoned, no exact existing KP.",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|013",
+      "priority_order": 33,
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "exact_original_scoreless_stem_from_frozen_source": "下列哪個使用電池的方式是錯誤的？",
+      "firstpass_proposed_kp_id": "sci_g04s1_04_11",
+      "legacy_hold_category": "RASTER_BBOX_RECOVERED_SEMANTIC_OR_KP_HOLD",
+      "legacy_frozen_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "last_independent_review_status": "HOLD_KP_NOT_DIRECT",
+      "last_independent_review_ref": "data/review/p12-e01-post45-scan9-source-pixelbbox-science-kp-selective-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": [
+        515,
+        998,
+        577,
+        1035
+      ],
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "New/old battery mixed use is a handling-safety rule, not direct 'waste-battery recycling' 04_11; cannot force-fit because other distractors discuss recycling.",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|015",
+      "priority_order": 34,
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "exact_original_scoreless_stem_from_frozen_source": "教室裡的日光燈管壞了一個，其他的還是會發光，表示日光燈管是利用下列哪一種方法連接的？",
+      "firstpass_proposed_kp_id": "sci_g04s1_04_09",
+      "legacy_hold_category": "SCAN_SECONDARY_DUPLICATE_OR_SEMANTIC_HOLD",
+      "legacy_frozen_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "CROSS_SOURCE_SAME_STEM_DUPLICATE_HOLD"
+      ],
+      "last_independent_review_status": "HOLD_EXACT_STEM_DUPLICATE",
+      "last_independent_review_ref": "data/review/p12-e01-post41-scansecondary6-source-science-kp-dedup-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": [
+        584,
+        1082,
+        655,
+        1121
+      ],
+      "current_authority_disposition": "EXCLUDE_ALREADY_PUBLISHED_EXACT_STEM",
+      "why_not_eligible": "已公開P12_B04_G04S1_B01_MC_009，相同題幹但選項順序不同；舊題並聯答案①，本題並聯答案②。",
+      "reopen_trigger": "Only a substantively different legally published school question or verified revised original; no automatic re-admission.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|001",
+      "priority_order": 35,
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "exact_original_scoreless_stem_from_frozen_source": "下列哪個因素並不會讓大塊岩石碎裂成礫石？",
+      "firstpass_proposed_kp_id": "sci_g04s1_01_05",
+      "legacy_hold_category": "RASTER_BBOX_RECOVERED_SEMANTIC_OR_KP_HOLD",
+      "legacy_frozen_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "last_independent_review_status": "HOLD_KP_NOT_DIRECT",
+      "last_independent_review_ref": "data/review/p12-e01-post45-scan9-source-pixelbbox-science-kp-selective-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": [
+        80,
+        190,
+        136,
+        224
+      ],
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "Causes of rock fragmentation/weathering not directly assessed by 01_05 running-water transport; do not misclassify as river transport.",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|002",
+      "priority_order": 36,
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "exact_original_scoreless_stem_from_frozen_source": "地震震源釋放出的能量大小稱為",
+      "firstpass_proposed_kp_id": "sci_g04s1_01_08",
+      "legacy_hold_category": "RASTER_BBOX_RECOVERED_SEMANTIC_OR_KP_HOLD",
+      "legacy_frozen_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "last_independent_review_status": "HOLD_KP_NOT_DIRECT",
+      "last_independent_review_ref": "data/review/p12-e01-post45-scan9-source-pixelbbox-science-kp-selective-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": [
+        80,
+        279,
+        136,
+        314
+      ],
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "Earthquake magnitude measures released energy; 01_08 is ground changes/disaster consequences, not magnitude terminology.",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|004",
+      "priority_order": 37,
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "exact_original_scoreless_stem_from_frozen_source": "下列哪一組水生生物不太可能出現在同一個水域環境？",
+      "firstpass_proposed_kp_id": "sci_g04s1_02_02",
+      "legacy_hold_category": "SCAN_SECONDARY_DUPLICATE_OR_SEMANTIC_HOLD",
+      "legacy_frozen_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "CROSS_SOURCE_SAME_STEM_DUPLICATE_HOLD"
+      ],
+      "last_independent_review_status": "HOLD_EXACT_STEM_DUPLICATE",
+      "last_independent_review_ref": "data/review/p12-e01-post41-scansecondary6-source-science-kp-dedup-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": [
+        79,
+        493,
+        140,
+        538
+      ],
+      "current_authority_disposition": "EXCLUDE_ALREADY_PUBLISHED_EXACT_STEM",
+      "why_not_eligible": "已公開P12_B04_G04S1_B03_MC_039，相同題幹但選項不同；舊題④，本題③。",
+      "reopen_trigger": "Only a substantively different legally published school question or verified revised original; no automatic re-admission.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|011",
+      "priority_order": 38,
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "exact_original_scoreless_stem_from_frozen_source": "下列哪一項不是水生植物的特徵？",
+      "firstpass_proposed_kp_id": "sci_g04s1_02_03",
+      "legacy_hold_category": "RASTER_BBOX_RECOVERED_SEMANTIC_OR_KP_HOLD",
+      "legacy_frozen_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "last_independent_review_status": "HOLD_KP_NOT_DIRECT",
+      "last_independent_review_ref": "data/review/p12-e01-post45-scan9-source-pixelbbox-science-kp-selective-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": [
+        80,
+        1290,
+        136,
+        1326
+      ],
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "General aquatic plant traits and fish eating flowers are not direct assessment of 02_03 four aquatic plant growth types; not a one-KP form-category item.",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|012",
+      "priority_order": 39,
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_source_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "exact_original_scoreless_stem_from_frozen_source": "下列哪一個環境是淡水和鹹水的交界處，水中鹽分含量的變化很大？",
+      "firstpass_proposed_kp_id": "sci_g04s1_02_02",
+      "legacy_hold_category": "SCAN_SECONDARY_DUPLICATE_OR_SEMANTIC_HOLD",
+      "legacy_frozen_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "NO_EXACT_SCIENCE_ANSWER_TIDAL_ZONE_VS_ESTUARY"
+      ],
+      "last_independent_review_status": "HOLD_NO_UNIQUE_SCIENCE",
+      "last_independent_review_ref": "data/review/p12-e01-post41-scansecondary6-source-science-kp-dedup-v1.json",
+      "source_pixel_bbox_candidate_from_prior_review": [
+        85,
+        1438,
+        143,
+        1477
+      ],
+      "current_authority_disposition": "DEFER_SCIENCE_UNIQUE_ANSWER_OR_DIRECT_KP_GATE",
+      "why_not_eligible": "淡水鹹水交界為河口而非所有潮間帶；③為原卷唯一沿海選項，無法驗證科學唯一答案。",
+      "reopen_trigger": "New directly applicable official curriculum KP or stronger original science-context/unique-answer proof; rerun full PDF-source and public dedup gates.",
+      "school_original_question_rewording_permitted": false,
+      "current_learner_release_eligible": false,
+      "student_bank_source_geometry_not_deployed": true
+    }
+  ]
+}

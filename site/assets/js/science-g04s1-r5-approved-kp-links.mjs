@@ -1,3 +1,4 @@
+import {validateAuthority} from "./authority-adapter.mjs";
 // R5: preserve frozen V1 source certification, attach independently reviewed V2 KP links only.
 // Never mutate original source/answer/primary KP nor create another student question.
 export const R5_G04S1_OVERLAY_REVISION="SCIENCE_G04S1_R5_APPROVED_ADDITIVE_KP_LINKS_V1";
@@ -11,6 +12,7 @@ export function applyG04S1R5ApprovedKPLinks(blocks,authority){
  // Legacy 187-KP contract must remain exactly unchanged.
  if(authority.schema_version==="SCIENCE_G03_G04_PUBLIC_SELECTOR_V2")return blocks;
  gate(authority.schema_version==="SCIENCE_G03_G04_PUBLIC_SELECTOR_V3","expected 190-KP selector");
+ validateAuthority(authority);
  const encountered=new Set();
  const converted=blocks.map(block=>{
   const link=links.find(x=>x.id===block.id||x.source_slot_id===block.source_slot_id);

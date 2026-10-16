@@ -1,0 +1,88 @@
+{
+  "schema_version": "P12_E01_POST47_DONGGUANG_STREAM_RELATIVE_LIKELIHOOD_MC1_REVIEW_V1",
+  "main_baseline": "6a0deae3da2ed8cc71c31a39ebe497a4c3d90aab",
+  "reviewed_total_positions": 47,
+  "selective_admission_candidate_count": 1,
+  "remaining_source_exceptions_after_all_public_gates_success": 46,
+  "student_public_answer_slots_before": 628,
+  "student_public_answer_slots_after_success": 629,
+  "original_teacher_answer_key_authenticated": false,
+  "original_source_image_publication": false,
+  "source_question_parent_shared_image_dependency": false,
+  "source_exact_cross_site_stem_duplicates": 0,
+  "student_release_gate": "PASS_SCIENCE_KP_SOURCE_NATIVE_BBOX_RIGHTS_DUPLICATE_PR_CI_MAIN_PAGES",
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|004",
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "original_source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_frozen_semantic_hold_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "remaining47_lineage_ref": "data/review/p12-e01-postcloseout-remaining47-complete-exception-reroute-v1.json",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_bytes": 496028,
+      "source_drive_file_id": "1g0ld_8TiIqt_UrtNRFZx_VqlZzKOx8D5",
+      "source_pdf_page_1_based": 1,
+      "source_pdf_pages_total": 3,
+      "source_pdf_page_rotation_degrees": 0,
+      "source_pdf_page_size_pts_top_left": [
+        728.64,
+        1032
+      ],
+      "original_raster_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False)",
+      "original_page_raster_size_px": [
+        1166,
+        1652
+      ],
+      "original_page_rgb_sha256": "449dba44a37925774abd3e7de58251ec7a4e946adf4d5a41c5ca745d547fe710",
+      "native_pdf_glyph_bbox_pts_top_left": [
+        413.23,
+        233.57,
+        455.29,
+        247.61
+      ],
+      "native_answer_marker_glyph_visible": "(  )",
+      "native_text_glyph_same_line_starts_at_x": 413.23,
+      "source_question_stem_exact": "進行溪流調查時，比較不可能觀察到下列哪一種水生生物？",
+      "source_options_exact": [
+        {
+          "label": "①",
+          "text": "龜"
+        },
+        {
+          "label": "②",
+          "text": "蟹"
+        },
+        {
+          "label": "③",
+          "text": "睡蓮"
+        },
+        {
+          "label": "④",
+          "text": "蝦"
+        }
+      ],
+      "original_question_number": "4",
+      "question_type": "SINGLE_CHOICE",
+      "independent_unique_answer": "③",
+      "independent_science_reasoning": "題目問的是「比較不可能」，不是絕對不可能。龜、蟹和蝦可在溪流環境出現；睡蓮通常適合水流緩慢或靜止的水域，因此在一般溪流調查中相對較不常見。緩流區仍可能有睡蓮，不應解釋成溪流絕不可能看見睡蓮。",
+      "original_provisional_answer": "③",
+      "primary_existing_canonical_kp_id": "sci_g04s1_02_02",
+      "canonical_kp_title": "水域環境條件差異",
+      "original_exception_flag": "STREAM_SLOW_WATER_LOTUS_AMBIGUITY",
+      "explicit_resolved_scope": "relative_likelihood_not_absolute_absence",
+      "cannot_claim_water_lilies_never_in_streams": true,
+      "do_not_rewrite_student_original_stem": true,
+      "source_native_bbox_sha_and_original_text_verified": true,
+      "student_no_images_or_pdf_uploaded": true,
+      "regulatory_public_scope": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "school_teacher_key_authenticated": false,
+      "student_public_admission_only_after_ci_main_pages": true
+    }
+  ],
+  "review_only": true,
+  "formal_public_admission_completed": false,
+  "student_public_answer_slots_current_verified": 628,
+  "source_exception_count_current_verified": 47,
+  "requires_operator_exception_review": true,
+  "status": "SOURCE_SCANNED_CHECKED_RELATIVE_LIKELIHOOD_CONDITIONAL_UNRELEASED"
+}

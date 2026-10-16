@@ -109,6 +109,47 @@ test("All remaining 16 original PDF section scoring totals reconcile to 100 with
  const wende=score.records.find(r=>r.source_id==="SCI_G04_S1_113_MID_001");
  assert.equal(wende.scoring_derived_response_count_not_final,55);
 });
+test("Remaining16 corrected scoring proof is anchored in original SHA and remains strictly non-release",()=>{
+ const score=read("data/review/p12-g04s1-113-remaining16-printed-score-proof-v2.json");
+ assert.equal(score.paper_count,16);
+ assert.equal(score.original_printed_score_total_verified_each_100,true);
+ assert.equal(score.updated_unverified_score_derived_estimate,934);
+ assert.equal(score.previous_unverified_score_derived_estimate,929);
+ assert.equal(score.estimated_correction_delta,5);
+ assert.equal(score.all29_response_positions_planning_estimate_not_actual_exact,1755);
+ const pending=new Set(review.records.filter(r=>r.original_visual_section_answer_positions===null).map(r=>r.source_id));
+ assert.equal(pending.size,16);
+ assert.equal(new Set(score.records.map(r=>r.source_id)).size,16);
+ let positions=0;
+ for(const r of score.records){
+  const baseline=review.records.find(x=>x.source_id===r.source_id);
+  assert.ok(baseline);
+  assert.ok(pending.has(r.source_id));
+  assert.equal(r.source_original_pdf_sha256,baseline.source_pdf_sha256);
+  assert.equal(r.printed_scoring_total_points,100);
+  assert.equal(r.original_section_score_proofs.reduce((s,x)=>s+x.printed_score_points,0),100);
+  assert.equal(r.original_section_score_proofs.reduce((s,x)=>s+x.scoring_derived_response_count_not_final,0),r.scoring_derived_response_count_not_final);
+  assert.equal(r.per_mark_original_pdf_bbox_confirmed,false);
+  assert.equal(r.student_bank_admission_permitted,false);
+  positions+=r.scoring_derived_response_count_not_final;
+ }
+ assert.equal(positions,934);
+ assert.equal(score.records.find(x=>x.source_id==="SCI_G04_S1_113_MID_001").scoring_derived_response_count_not_final,55);
+});
+test("550 native source text-phrase positions must not be confused with 934 real student answer-marker coordinates",()=>{
+ const anchor=read("data/review/p12-g04s1-113-remaining16-pdf-native-text-firstphrase-geometry-qa-v1.json");
+ assert.equal(anchor.native_pdf_text_candidate_starts_examined,550);
+ assert.equal(anchor.single_matching_source_phrase_bbox,542);
+ assert.equal(anchor.source_phrase_bbox_unlocatable,8);
+ assert.equal(anchor.single_matching_source_phrase_bbox+anchor.source_phrase_bbox_unlocatable,550);
+ assert.equal(anchor.source_start_counts_by_exam.length,16);
+ assert.equal(anchor.source_start_counts_by_exam.reduce((s,x)=>s+x.native_candidate_starts,0),550);
+ assert.equal(anchor.unlocated_native_anchor_ids.length,8);
+ assert.equal(anchor.exact_student_original_answer_markers_verified_by_this_stage,0);
+ assert.equal(anchor.fully_source_verified_exact_answer_slots_this_stage,0);
+ assert.equal(anchor.public_student_answer_slots_unchanged,636);
+ assert.equal(anchor.all_113_114_semantic_dedup_still_pending,true);
+});
 test("One-batch 29 remaining source work must not misstate 771 candidate starts or the 636 public baseline",()=>{
  assert.equal(review.original_response_positions_section_reconciled,821);
  assert.equal(review.section_reconciled_source_papers,13);

@@ -1,0 +1,288 @@
+{
+  "schema_version": "P12_E01_POST41_SCANSECONDARY6_SOURCE_PIXEL_SCIENCE_KP_DEDUP_V1",
+  "baseline_main_sha": "7c0898010e2c77e4b8fe1f16358025d3012bda3b",
+  "public_before": 634,
+  "exception_before": 41,
+  "source_reviewed": 6,
+  "formally_admissible": 2,
+  "held": 4,
+  "duplicate_held": 2,
+  "conditional_public_after": 636,
+  "conditional_exception_after": 39,
+  "original_teacher_keys_authenticated": 0,
+  "source_scan_native_glyph_bbox_available": false,
+  "source_pdf_sha256_reverified": true,
+  "three_raster_image_sha256_reverified": true,
+  "source_pixel_bbox_visually_verified": true,
+  "prior_archive_geometry_approximations_not_reused": true,
+  "old_archives_immutable": true,
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_002|S2|TF|013",
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "original_pdf_bytes": 1071058,
+      "original_source_drive_id": "1UxbTZOQo6gMXexzs57V26ycUmcSwjcaO",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "page_pdf_1_based": 1,
+      "original_stem": "睡蓮的葉背有氣孔可以輸送空氣。",
+      "original_options": [],
+      "prior_proposed_kp": "sci_g04s1_02_04",
+      "previous_visual_bbox_estimate_pts": [
+        373.75,
+        217.5,
+        422.5,
+        234.38
+      ],
+      "exact_upright_source_marker_pixel_bbox": [
+        586,
+        335,
+        644,
+        370
+      ],
+      "certified_bbox_pts_top_left": [
+        366.25,
+        209.375,
+        402.5,
+        231.25
+      ],
+      "upright_rgb_sha256": "3fdba6bdca23ca017da18f19a3267543c9f7abe02e1b67f36d62a313228c5ff0",
+      "upright_page_size_px": [
+        1166,
+        1650
+      ],
+      "source_rotation_to_upright_degrees": 270,
+      "independent_answer": "X",
+      "approved_primary_kp": "sci_g04s1_02_06",
+      "decision": "ADMIT",
+      "decision_reason": "睡蓮成熟浮葉的氣孔在上表面，不是葉背。",
+      "teacher_key_authenticated": false,
+      "image_publicly_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S1|TF|007",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "original_pdf_bytes": 351361,
+      "original_source_drive_id": "1iZisyIpcQ0b_TzEue8YA2h_TRyc6GLJ9",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "page_pdf_1_based": 1,
+      "original_stem": "就算電線和電池都接好了，如果燈泡不會發光，這樣的電路可以稱為「通路」。",
+      "original_options": [],
+      "prior_proposed_kp": "sci_g04s1_04_08",
+      "previous_visual_bbox_estimate_pts": [
+        26,
+        290,
+        77,
+        307.37
+      ],
+      "exact_upright_source_marker_pixel_bbox": [
+        36,
+        560,
+        110,
+        604
+      ],
+      "certified_bbox_pts_top_left": [
+        22.5,
+        350,
+        68.75,
+        377.5
+      ],
+      "upright_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "source_rotation_to_upright_degrees": 90,
+      "independent_answer": null,
+      "approved_primary_kp": null,
+      "decision": "HOLD_AMBIGUOUS",
+      "decision_reason": "燈泡不亮不保證是否通路；可能壞燈泡、接觸不良等。",
+      "teacher_key_authenticated": false,
+      "image_publicly_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S1|TF|011",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "original_pdf_bytes": 351361,
+      "original_source_drive_id": "1iZisyIpcQ0b_TzEue8YA2h_TRyc6GLJ9",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "page_pdf_1_based": 1,
+      "original_stem": "相同數量的電池和燈泡，在電池接法相同但燈泡接法不同的情況下，單個燈泡的亮度仍然會相同。",
+      "original_options": [],
+      "prior_proposed_kp": "sci_g04s1_04_06",
+      "previous_visual_bbox_estimate_pts": [
+        26,
+        442.63,
+        77,
+        460
+      ],
+      "exact_upright_source_marker_pixel_bbox": [
+        36,
+        837,
+        110,
+        879
+      ],
+      "certified_bbox_pts_top_left": [
+        22.5,
+        523.125,
+        68.75,
+        549.375
+      ],
+      "upright_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "source_rotation_to_upright_degrees": 90,
+      "independent_answer": "X",
+      "approved_primary_kp": "sci_g04s1_04_08",
+      "decision": "ADMIT",
+      "decision_reason": "相同電池與燈泡，串聯及並聯時亮度通常不同；並以04_09作次KP。",
+      "teacher_key_authenticated": false,
+      "image_publicly_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|015",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "original_pdf_bytes": 351361,
+      "original_source_drive_id": "1iZisyIpcQ0b_TzEue8YA2h_TRyc6GLJ9",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "page_pdf_1_based": 1,
+      "original_stem": "教室裡的日光燈管壞了一個，其他的還是會發光，表示日光燈管是利用下列哪一種方法連接的？",
+      "original_options": [
+        "①串聯",
+        "②並聯",
+        "③通聯",
+        "④亂聯"
+      ],
+      "prior_proposed_kp": "sci_g04s1_04_09",
+      "previous_visual_bbox_estimate_pts": [
+        370,
+        666.32,
+        417,
+        683.68
+      ],
+      "exact_upright_source_marker_pixel_bbox": [
+        584,
+        1082,
+        655,
+        1121
+      ],
+      "certified_bbox_pts_top_left": [
+        365,
+        676.25,
+        409.375,
+        700.625
+      ],
+      "upright_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "source_rotation_to_upright_degrees": 90,
+      "independent_answer": "②",
+      "approved_primary_kp": "sci_g04s1_04_09",
+      "decision": "HOLD_EXACT_STEM_DUPLICATE",
+      "decision_reason": "已公開P12_B04_G04S1_B01_MC_009，相同題幹但選項順序不同；舊題並聯答案①，本題並聯答案②。",
+      "teacher_key_authenticated": false,
+      "image_publicly_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|004",
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_pdf_bytes": 1166576,
+      "original_source_drive_id": "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "page_pdf_1_based": 1,
+      "original_stem": "下列哪一組水生生物不太可能出現在同一個水域環境？",
+      "original_options": [
+        "①蛙、布袋蓮",
+        "②浮萍、布袋蓮",
+        "③鯉魚、海龜",
+        "④蟹、蝦"
+      ],
+      "prior_proposed_kp": "sci_g04s1_02_02",
+      "previous_visual_bbox_estimate_pts": [
+        33,
+        203.48,
+        82,
+        216.52
+      ],
+      "exact_upright_source_marker_pixel_bbox": [
+        79,
+        493,
+        140,
+        538
+      ],
+      "certified_bbox_pts_top_left": [
+        49.375,
+        308.125,
+        87.5,
+        336.25
+      ],
+      "upright_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "source_rotation_to_upright_degrees": 0,
+      "independent_answer": "③",
+      "approved_primary_kp": "sci_g04s1_02_02",
+      "decision": "HOLD_EXACT_STEM_DUPLICATE",
+      "decision_reason": "已公開P12_B04_G04S1_B03_MC_039，相同題幹但選項不同；舊題④，本題③。",
+      "teacher_key_authenticated": false,
+      "image_publicly_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|012",
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "original_pdf_bytes": 1166576,
+      "original_source_drive_id": "10wbO1FxnIVWaP-jLyivsV6vzOxhkzUPG",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "page_pdf_1_based": 1,
+      "original_stem": "下列哪一個環境是淡水和鹹水的交界處，水中鹽分含量的變化很大？",
+      "original_options": [
+        "①溪流",
+        "②高山湖泊",
+        "③潮間帶",
+        "④公園水池"
+      ],
+      "prior_proposed_kp": "sci_g04s1_02_02",
+      "previous_visual_bbox_estimate_pts": [
+        33,
+        581.74,
+        82,
+        594.78
+      ],
+      "exact_upright_source_marker_pixel_bbox": [
+        85,
+        1438,
+        143,
+        1477
+      ],
+      "certified_bbox_pts_top_left": [
+        53.125,
+        898.75,
+        89.375,
+        923.125
+      ],
+      "upright_rgb_sha256": "0c3ec6dd81476068b43d7844697c480e1364bbf0456482d5d64ac7b7f41b0bb9",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "source_rotation_to_upright_degrees": 0,
+      "independent_answer": null,
+      "approved_primary_kp": null,
+      "decision": "HOLD_NO_UNIQUE_SCIENCE",
+      "decision_reason": "淡水鹹水交界為河口而非所有潮間帶；③為原卷唯一沿海選項，無法驗證科學唯一答案。",
+      "teacher_key_authenticated": false,
+      "image_publicly_published": false
+    }
+  ]
+}

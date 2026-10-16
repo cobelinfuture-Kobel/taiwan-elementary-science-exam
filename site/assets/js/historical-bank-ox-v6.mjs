@@ -19,6 +19,7 @@ import {validateAndConvertP12B04ChongdeMid6,P12_B04_CHONGDE_MID6_PATH} from "./p
 import {validateAndConvertP12B04YonganMid9,P12_B04_YONGAN_MID9_PATH} from "./p12-b04-yongan-mid-release.mjs";
 import {validateAndConvertP12E01Post47Dongguang1,P12_E01_POST47_DONGGUANG1_PATH} from "./p12-e01-post47-dongguang1-release.mjs";
 import {resolveUnit} from "./authority-adapter.mjs";
+import {applyG04S1R5ApprovedKPLinks} from "./science-g04s1-r5-approved-kp-links.mjs";
 export const EMBEDDED_BANK_SCHEMA="SCIENCE_S3_P10_CUMULATIVE_EXAM_BANK_V1";
 export const EMBEDDED_BANK_PATH="../data/question-bank/approved-historical-ox-v4.json";
 const normalizedAnswers={"O":"TRUE","X":"FALSE"};
@@ -153,7 +154,8 @@ export async function loadEmbeddedHistoricalBank(authority,url=EMBEDDED_BANK_PAT
  const post47Dongguang=validateAndConvertP12E01Post47Dongguang1(await post47DongguangBank.json(),authority);
  const combined=[...singles.blocks,...groups.blocks,...supplement.blocks,...admitted.blocks,...final46.blocks,...b04.blocks,...chongde.blocks,...b01.blocks,...b02.blocks,...b03.blocks,...b04batch.blocks,...b05.blocks,...b06.blocks,...b07.blocks,...e01.blocks,...e01Mid.blocks,...e01HeshunMid.blocks,...e01HeshunFinal.blocks,...post52Anhe.blocks,...post49Source2.blocks,...post47Dongguang.blocks];
  if(new Set(combined.map(b=>b.id)).size!==combined.length)throw Error("累積題庫出現重複 ID");
- return {admission:"EMBEDDED_CERTIFIED_HISTORICAL",blocks:combined,
+ const mapped=applyG04S1R5ApprovedKPLinks(combined,authority);
+ return {admission:"EMBEDDED_CERTIFIED_HISTORICAL",blocks:mapped,
   certifiedTrueFalse:singles.blocks.length+supplement.blocks.filter(b=>b.type==="tf").length+admitted.standaloneTf+final46.standaloneTf+b04.standaloneTf+chongde.standaloneTf+b01.standaloneTf+b02.standaloneTf+b03.standaloneTf+b04batch.standaloneTf+b05.standaloneTf+b06.standaloneTf+b07.standaloneTf+e01.standaloneTf+e01Mid.standaloneTf+e01HeshunMid.standaloneTf+e01HeshunFinal.standaloneTf+post52Anhe.standaloneTf+post49Source2.standaloneTf+post47Dongguang.standaloneTf,
   certifiedGroupCount:groups.blocks.length+supplement.contextGroups+admitted.contextGroups+final46.contextGroups+b04.contextGroups+chongde.contextGroups+b01.contextGroups+b02.contextGroups+b03.contextGroups+b04batch.contextGroups+b05.contextGroups+b06.contextGroups+b07.contextGroups+e01.contextGroups+e01Mid.contextGroups+e01HeshunMid.contextGroups+e01HeshunFinal.contextGroups+post52Anhe.contextGroups+post49Source2.contextGroups+post47Dongguang.contextGroups,
   certifiedStandaloneChoice:supplement.blocks.filter(b=>b.type==="mcq").length+admitted.standaloneChoice+final46.standaloneChoice+b04.standaloneChoice+chongde.standaloneChoice+b01.standaloneChoice+b02.standaloneChoice+b03.standaloneChoice+b04batch.standaloneChoice+b05.standaloneChoice+b06.standaloneChoice+b07.standaloneChoice+e01.standaloneChoice+e01Mid.standaloneChoice+e01HeshunMid.standaloneChoice+e01HeshunFinal.standaloneChoice+post52Anhe.standaloneChoice+post49Source2.standaloneChoice+post47Dongguang.standaloneChoice,

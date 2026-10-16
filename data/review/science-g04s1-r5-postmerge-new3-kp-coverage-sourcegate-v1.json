@@ -1,0 +1,361 @@
+{
+  "schema_version": "SCIENCE_G04S1_R5_POSTMERGE_3KP_COVERAGE_REMAP_GATE_V1",
+  "review_scope": {
+    "authority": "SCIENCE_G03_G04_PUBLIC_SELECTOR_V3",
+    "g04s1_counts": {
+      "U01": 12,
+      "U02": 14,
+      "U03": 10,
+      "U04": 12
+    },
+    "total_kps": 190,
+    "source_archive_papers_screened": 25,
+    "source_archive_answer_positions_screened": 717,
+    "purpose": "New 3 KP preliminary topic-level screen followed by exact-source verification on selected candidates",
+    "screen_is_complete_source_stem_inventory": true,
+    "source_semantic_review_is_not_exhaustive": true
+  },
+  "verified_postmerge": {
+    "r5_pr": 113,
+    "r5_merge_sha": "294003b21ed76f0008c5277712dc36484b6e9723",
+    "r5_ci_run": 38845962232,
+    "r5_ci_conclusion": "success",
+    "r5_pages_run": 38845962243,
+    "r5_pages_conclusion": "failure",
+    "later_current_main_at_review": "896eea811914a00fa331835d5fd46f2f5192e2ef",
+    "later_pages_run": 38847233100,
+    "later_pages_conclusion": "success",
+    "later_actual_browser_exam_verification": "PASS_FOR_629_ANSWER_SLOTS_AND_GENERAL_KP_SELECTOR_NOT_EXPLICIT_NEW3",
+    "new_r5_live_browser_gate": "ADDED_IN_SEPARATE_PR_CI_PENDING"
+  },
+  "current_public_source_positions": 629,
+  "public_question_bank_files_mutated_in_this_task": 0,
+  "student_question_count_increment": 0,
+  "kp_coverage": [
+    {
+      "canonical_kp_id": "sci_g04s1_01_12",
+      "title": "風的作用搬運並堆積地表物質",
+      "direct_published_source_slots": 1,
+      "public_selector_new_link_source_slot_ids": [
+        "SCI_G04_S1_114_MID_007|S01|TF|003"
+      ],
+      "other_reinspection_candidates": 1,
+      "notes": "Published Mingyi source tests the false exclusivity of wind versus rain on sand dunes; original water-KP remains primary to preserve frozen lineage"
+    },
+    {
+      "canonical_kp_id": "sci_g04s1_02_13",
+      "title": "水域環境實地調查的準備、觀察與紀錄",
+      "direct_published_source_slots": 1,
+      "public_selector_new_link_source_slot_ids": [
+        "SCI_G04_S1_114_MID_002|S1|MC|010"
+      ],
+      "other_reinspection_candidates": 3,
+      "notes": "Published Heshun water-survey required recorded information, original scanned pixel BBox certification subsequently completed in E01, contrary to old R4 held snapshot"
+    },
+    {
+      "canonical_kp_id": "sci_g04s1_02_14",
+      "title": "水域調查安全與尊重水生生物",
+      "direct_published_source_slots": 0,
+      "public_selector_new_link_source_slot_ids": [],
+      "other_reinspection_candidates": 8,
+      "notes": "No certified public learner item mapped to this new KP at this checkpoint; request must fail closed"
+    }
+  ],
+  "policies": {
+    "legacy_primary_kp_stays_unchanged": true,
+    "original_r4_hold_snapshots_immutable": true,
+    "new_links_additive_secondary_only": true,
+    "already_published_question_never_duplicate": true,
+    "school_answer_keys_not_authenticated": true,
+    "unpublished_source_requires_formal_science_qa_and_rights_gate": true,
+    "source_png_crops_not_published": true,
+    "worksheet_same_fact_repeats_forbidden": true,
+    "question_bank_auto_admission_forbidden": true
+  },
+  "candidates": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|003",
+      "name": "明義｜風吹砂",
+      "new_kps": [
+        "sci_g04s1_01_12"
+      ],
+      "old_kps": [
+        "sci_g04s1_01_05"
+      ],
+      "provisional_answer": "X",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_page": 1,
+      "source_bbox": [
+        54.6,
+        267.65,
+        108.39,
+        281.69
+      ],
+      "source_pdf_sha_independently_rechecked": true,
+      "geometry_evidence": "data/review/p12-e01-post49-mingyi-taozijiao-two-source-exact-science-kp-acceptance-v1.json",
+      "source_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "status": "PUBLISHED_SOURCE_ADD_KP_ASSOCIATION_ONLY"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_002|S1|MC|010",
+      "name": "和順｜水域調查紀錄內容",
+      "new_kps": [
+        "sci_g04s1_02_13"
+      ],
+      "old_kps": [
+        "sci_g04s1_02_02"
+      ],
+      "provisional_answer": "④",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_page": 1,
+      "source_bbox": [
+        21.875,
+        586.875,
+        60,
+        605.625
+      ],
+      "source_pdf_sha_independently_rechecked": false,
+      "geometry_evidence": "data/review/p12-e01-heshun-mid17-pixel-bbox-15accept-2hold-v1.json",
+      "source_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "status": "PUBLISHED_SOURCE_ADD_KP_ASSOCIATION_ONLY_R4_HOLD_OBSOLETE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|004",
+      "name": "安和｜風力與流水搬運",
+      "new_kps": [
+        "sci_g04s1_01_12"
+      ],
+      "old_kps": [
+        "sci_g04s1_01_06"
+      ],
+      "provisional_answer": "O",
+      "source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_page": 1,
+      "source_bbox": [
+        33.6,
+        317.72,
+        61.46,
+        331.64
+      ],
+      "source_pdf_sha_independently_rechecked": true,
+      "source_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "status": "HOLD_FORMAL_UNIQUE_SCIENCE_AND_ADMISSION"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_005|S02|MC|001",
+      "name": "民權｜水域調查器材",
+      "new_kps": [
+        "sci_g04s1_02_13"
+      ],
+      "old_kps": [],
+      "provisional_answer": "②",
+      "source_pdf_sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+      "source_page": 1,
+      "source_bbox": [
+        42.12,
+        617.85,
+        90.14,
+        629.85
+      ],
+      "source_pdf_sha_independently_rechecked": true,
+      "source_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "status": "HOLD_OPERATOR_PUBLIC_ADMISSION_GATE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_004|S02|MC|004",
+      "name": "大墩｜水域調查安全",
+      "new_kps": [
+        "sci_g04s1_02_14",
+        "sci_g04s1_02_13"
+      ],
+      "old_kps": [],
+      "provisional_answer": "②",
+      "source_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "source_page": 1,
+      "source_bbox": [
+        42.6,
+        744.34,
+        81.56,
+        758.38
+      ],
+      "source_pdf_sha_independently_rechecked": true,
+      "source_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "status": "HOLD_OPERATOR_PUBLIC_ADMISSION_GATE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S02|MC|008",
+      "name": "明義｜拜訪水域安全",
+      "new_kps": [
+        "sci_g04s1_02_14"
+      ],
+      "old_kps": [],
+      "provisional_answer": "④",
+      "source_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_page": 1,
+      "source_bbox": [
+        443.71,
+        591.68,
+        497.5,
+        605.72
+      ],
+      "source_pdf_sha_independently_rechecked": true,
+      "source_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "status": "HOLD_OPERATOR_PUBLIC_ADMISSION_GATE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_001|MC|S02|005",
+      "name": "永安｜水域調查不要單獨偏僻",
+      "new_kps": [
+        "sci_g04s1_02_14",
+        "sci_g04s1_02_13"
+      ],
+      "old_kps": [],
+      "provisional_answer": "③",
+      "source_pdf_sha256": "4d924c412166812557793cc43b62b02f6ce4da2539e9ddcf165e2faf456251fe",
+      "source_page": 1,
+      "source_bbox": [
+        42.48,
+        683.58,
+        74.44,
+        696.86
+      ],
+      "source_pdf_sha_independently_rechecked": true,
+      "source_ref": "data/source-archive/p12-art9-114-yongan-g04s1-mid20-original-questions-v1.json",
+      "status": "HOLD_OPERATOR_PUBLIC_ADMISSION_GATE",
+      "similarity_group": "G04S1_WATER_SURVEY_ALONE_DEEP_WATER"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|003",
+      "name": "東光｜採集生物異地放生",
+      "new_kps": [
+        "sci_g04s1_02_14"
+      ],
+      "old_kps": [],
+      "provisional_answer": "X",
+      "source_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_page": 1,
+      "source_pdf_sha_independently_rechecked": false,
+      "source_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "status": "HOLD_ORIGINAL_PDF_READBACK_AND_OPERATOR_GATE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_012|S1|TF|007",
+      "name": "獅湖｜觀察後帶走水生生物",
+      "new_kps": [
+        "sci_g04s1_02_14"
+      ],
+      "old_kps": [
+        "sci_g04s1_02_09"
+      ],
+      "provisional_answer": "X",
+      "source_pdf_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "source_page": 1,
+      "source_pdf_sha_independently_rechecked": false,
+      "source_ref": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "status": "HOLD_ORIGINAL_PDF_READBACK_AND_OPERATOR_GATE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_005|S02|MC|002",
+      "name": "民權｜保護水域不任意捕捉",
+      "new_kps": [
+        "sci_g04s1_02_14"
+      ],
+      "old_kps": [],
+      "provisional_answer": "③",
+      "source_pdf_sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+      "source_page": 1,
+      "source_bbox": [
+        42.12,
+        665.85,
+        90.14,
+        677.85
+      ],
+      "source_pdf_sha_independently_rechecked": true,
+      "source_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "status": "HOLD_KP_SCOPE_DUAL_02_11_VS_02_14"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|011",
+      "name": "安和｜隨意放生水生動物",
+      "new_kps": [
+        "sci_g04s1_02_14"
+      ],
+      "old_kps": [],
+      "provisional_answer": "X",
+      "source_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_page": 1,
+      "source_bbox": [
+        33.6,
+        609.15,
+        61.46,
+        623.07
+      ],
+      "source_pdf_sha_independently_rechecked": true,
+      "source_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "status": "HOLD_SCOPE_02_11_AND_OPERATOR_GATE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_001|TF|S01|005",
+      "name": "永安｜家庭寵物不任意放生",
+      "new_kps": [
+        "sci_g04s1_02_14"
+      ],
+      "old_kps": [],
+      "provisional_answer": "X",
+      "source_pdf_sha256": "4d924c412166812557793cc43b62b02f6ce4da2539e9ddcf165e2faf456251fe",
+      "source_page": 1,
+      "source_bbox": [
+        42.48,
+        235.09,
+        74.44,
+        248.37
+      ],
+      "source_pdf_sha_independently_rechecked": true,
+      "source_ref": "data/source-archive/p12-art9-114-yongan-g04s1-mid20-original-questions-v1.json",
+      "status": "HOLD_SCOPE_02_11_AND_OPERATOR_GATE"
+    }
+  ],
+  "negative_controls": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_010|S01|TF|007",
+      "reason": "a water-habitat inference from species seen in a notebook, not assessment of record keeping",
+      "keep_canonical_kp_id": "sci_g04s1_02_02"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|014",
+      "reason": "infer freshwater habitat from species, not survey methods",
+      "keep_canonical_kp_id": "sci_g04s1_02_02"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_004|S01|TF|003",
+      "reason": "流水 transport, not wind transport",
+      "keep_canonical_kp_id": "sci_g04s1_01_05"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|012",
+      "reason": "fixed rock weathering sequence is scientifically unsafe even under newly defined wind KP",
+      "keep_status": "SCIENCE_HOLD"
+    }
+  ],
+  "duplicate_policy": {
+    "already_published_slots_must_retain_exact_ID_and_no_second_block": true,
+    "similarity_pairs": [
+      {
+        "a": "SCI_G04_S1_114_MID_004|S02|MC|004",
+        "b": "SCI_G04_S1_114_MID_001|MC|S02|005",
+        "type": "SEMANTIC_OVERLAP_WATER_SURVEY_ALONE_DEEP_WATER_NOT_EXACT_STEM",
+        "same_worksheet_policy": "REVIEW_BEFORE_BOTH_ADMITTED"
+      }
+    ],
+    "cross_source_exact_duplicate_found_among_12": false,
+    "exact_source_id_duplicates_among_12": false
+  },
+  "admission_gate": {
+    "new_independent_public_admission_approved": 0,
+    "source_comparisons_cannot_replace_formal_review": true,
+    "pending_nonpublished_candidates": 10,
+    "remap_existing_published": 2,
+    "source_paper_visual_identity_unverified_certain_held": 2,
+    "requires": "Formal source/answer/KP/scan geometry/dedup/rights/operator publication gate. Source review objects unchanged."
+  }
+}

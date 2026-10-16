@@ -164,6 +164,28 @@ try {
   assert.match(answerText,/3\. X/,"third source fishbowl must be marked X on answer page");
   await page.screenshot({path:"artifacts/deployed-browser/p12-g03s2final-46-fishbowl-live.png",fullPage:true});
   const screen=await page.screenshot({path:"artifacts/deployed-browser/p12-remaining51-live.png",fullPage:true});
+  // R5 exact deployed 190-KP selector and source-safe nonduplicating KP overlays.
+  const r5response=await page.request.get(base+"/data/authority/science-g03-g04-selector-v3.json",{cache:"no-cache"});
+  assert.equal(r5response.status(),200,"R5 public 190-KP selector HTTP 200");
+  const r5auth=await r5response.json();
+  assert.equal(r5auth.counts.knowledge_points,190,"actual Pages serves V3, not cached legacy V2");
+  assert.deepEqual(r5auth.units.filter(x=>x.grade===4&&x.semester===1).map(x=>x.knowledge_points.length),[12,14,10,12]);
+  await page.selectOption("#grade","4");await page.selectOption("#semester","S1");
+  await page.selectOption("#unit","4-S1-U01");await page.selectOption("#mode","single_kp");
+  await page.selectOption("#kp","sci_g04s1_01_12");await page.fill("#count","1");
+  await page.locator("#generate").click();
+  assert.equal(await page.locator("#status").getAttribute("data-error"),"false","live R5 wind KP must select existing certified source once");
+  assert.ok((await page.locator(".paper:not([data-answer='true'])").innerText()).includes("風吹砂"),"R5 wind KP binds existing Mingyi source");
+  await page.selectOption("#unit","4-S1-U02");await page.selectOption("#mode","single_kp");
+  await page.selectOption("#kp","sci_g04s1_02_13");await page.fill("#count","1");
+  await page.locator("#generate").click();
+  assert.equal(await page.locator("#status").getAttribute("data-error"),"false","live R5 survey-record KP must select existing certified source once");
+  assert.ok((await page.locator(".paper:not([data-answer='true'])").innerText()).includes("哪些資料是進行水域環境調查"),"R5 survey-record KP binds existing Heshun source");
+  await page.selectOption("#kp","sci_g04s1_02_14");await page.fill("#count","1");
+  await page.locator("#generate").click();
+  assert.equal(await page.locator("#status").getAttribute("data-error"),"true","R5 water-safety KP has no certified item; refuse substitute");
+  assert.ok((await page.locator("#status").textContent()).includes("題庫不足：可用 0 小題"),"R5 empty KP must fail closed with zero");
+  await page.screenshot({path:"artifacts/deployed-browser/r5-190kp-new3-failclosed.png",fullPage:true});
   console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 629 slots (628 prior + 1 Dongguang original exact MC)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);

@@ -118,7 +118,7 @@ try {
   const liveErrors=[];live.on("pageerror",e=>liveErrors.push(String(e)));
   await live.goto("http://127.0.0.1:"+server.address().port+"/exam/",{waitUntil:"networkidle"});
   try{
-    await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 636 小題（313 題是非＋188 題單選＋36 組情境）"),{timeout:15000});
+    await live.waitForFunction(()=>document.querySelector("#bank-info")?.textContent?.includes("已載入內建考古題 663 小題（328 題是非＋200 題單選＋36 組情境）"),{timeout:15000});
   }catch(error){
     const details=await live.evaluate(()=>({
       bankInfo:document.querySelector("#bank-info")?.textContent,

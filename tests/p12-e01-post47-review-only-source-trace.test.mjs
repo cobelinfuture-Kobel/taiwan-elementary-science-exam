@@ -41,7 +41,7 @@ test("P12 E01 conditional Dongguang native PDF evidence is traceable but unadmit
  assert.deepEqual(orig.full_original_options_in_order,e.source_options_exact);
  assert.deepEqual(orig.answer_marker_pdf_bbox_pts_top_left,e.native_pdf_glyph_bbox_pts_top_left);
  assert.equal(e.original_page_rgb_sha256,"449dba44a37925774abd3e7de58251ec7a4e946adf4d5a41c5ca745d547fe710");
- assert.equal(e.original_pdf_page_rotation_degrees,0);
+ assert.equal(e.source_pdf_page_rotation_degrees,0);
  assert.deepEqual(e.original_page_raster_size_px,[1166,1652]);
  assert.equal(e.independent_unique_answer,"③");
  assert.equal(e.explicit_resolved_scope,"relative_likelihood_not_absolute_absence");

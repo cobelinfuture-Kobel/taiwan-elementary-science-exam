@@ -1,0 +1,8 @@
+# Remaining47 vs G04-S1 R4 KP Authority — source-exact shadow comparison
+Baseline `294003b21ed76f0008c5277712dc36484b6e9723` (2026-10-16); 47 frozen exception source slots fully enumerated in the accompanying JSON.
+
+**Shadow comparison**: 47/47 reviewed; only `SCI_G04_S1_114_MID_006|S01|TF|004` is a direct *conceptual* candidate for newly approved wind transport/deposition `sci_g04s1_01_12`. This is **not** a formal remap: its generalizing science wording and original answer-marker PDF geometry need independent adjudication. No other position directly tests the newly created `sci_g04s1_02_13` water survey procedure/recording or `sci_g04s1_02_14` aquatic survey safety/animal protection. Water-environment identification and organism relative likelihood do not automatically become survey-procedure questions, and weathering by wind does not automatically become wind deposition.
+
+Only `SCI_G04_S1_114_MID_008|S02|MC|004` has the upstream PR #112 native-glyph PDF proof and independently reasoned candidate answer ③ (sleeping water lily); **keep existing** `sci_g04s1_02_02`, do not remap to R4's `02_13`. The statement asks which organism is *relatively less likely* to occur in a stream—not which organism is impossible in every stream. Original answer key unauthenticated. Candidate is separate from new-KP shadow.
+
+The existing 47 held records remain unchanged; no original source file, published question, or selector metadata changes in this shadow stage. A formal single-question release requires Source/Science/KP/rights/dedup, a dedicated fail-closed runtime contract, CI and actual Pages readback. Baseline public 628 answer slots; unadmitted 47.

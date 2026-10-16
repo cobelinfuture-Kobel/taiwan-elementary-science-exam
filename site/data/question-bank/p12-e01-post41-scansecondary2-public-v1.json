@@ -1,0 +1,94 @@
+{
+  "schema_version": "SCIENCE_P12_E01_POST41_SCANSECONDARY_TWO_PUBLIC_V1",
+  "public_site_integrated": true,
+  "expected_blocks": 2,
+  "expected_answer_slots": 2,
+  "expected_standalone_true_false": 2,
+  "expected_standalone_choice": 0,
+  "expected_context_groups": 0,
+  "original_teacher_answer_key_authenticated": false,
+  "original_cropped_images_included": false,
+  "source_image_geometry_verified": "DIRECT_RASTER_SOURCE_PIXEL_BBOX",
+  "evidence_ref": "data/review/p12-e01-post41-scansecondary6-source-science-kp-dedup-v1.json",
+  "blocks": [
+    {
+      "id": "P12_E01_POST41_HESHUN_MID_TF_013",
+      "source_id": "SCI_G04_S1_114_MID_002",
+      "source_slot_id": "SCI_G04_S1_114_MID_002|S2|TF|013",
+      "source_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        366.25,
+        209.375,
+        402.5,
+        231.25
+      ],
+      "source_image_answer_marker_pixel_bbox_upright": [
+        586,
+        335,
+        644,
+        370
+      ],
+      "original_question_number": "013",
+      "grade": 4,
+      "semester": 1,
+      "unit": "4-S1-U02",
+      "canonical_kp_id": "sci_g04s1_02_06",
+      "type": "tf",
+      "stem": "睡蓮的葉背有氣孔可以輸送空氣。",
+      "answer": "X",
+      "answer_explanation": "睡蓮成熟浮葉的氣孔在上表面，不是葉背。",
+      "answer_assumption": "模型獨立科學判讀，非原校教師標準答案；以常見國小教材之成熟睡蓮浮葉構造或同規格燈泡正常串並聯比較為判斷前提。",
+      "source": "P12_OPERATOR_APPROVED_QUESTION",
+      "certification_status": "OPERATOR_APPROVED_PUBLIC",
+      "operator_publication_approval": true,
+      "original_teacher_answer_key_authenticated": false,
+      "original_cropped_assets_included": false,
+      "dependency_review_verified": true,
+      "copyright_path": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "evidence_ref": "data/review/p12-e01-post41-scansecondary6-source-science-kp-dedup-v1.json",
+      "source_bbox_raster_proof_ref": "data/review/p12-e01-post41-scansecondary6-source-science-kp-dedup-v1.json"
+    },
+    {
+      "id": "P12_E01_POST41_HESHUN_FINAL_TF_011",
+      "source_id": "SCI_G04_S1_114_FINAL_002",
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S1|TF|011",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        22.5,
+        523.125,
+        68.75,
+        549.375
+      ],
+      "source_image_answer_marker_pixel_bbox_upright": [
+        36,
+        837,
+        110,
+        879
+      ],
+      "original_question_number": "011",
+      "grade": 4,
+      "semester": 1,
+      "unit": "4-S1-U04",
+      "canonical_kp_id": "sci_g04s1_04_08",
+      "secondary_canonical_kp_ids": [
+        "sci_g04s1_04_09"
+      ],
+      "type": "tf",
+      "stem": "相同數量的電池和燈泡，在電池接法相同但燈泡接法不同的情況下，單個燈泡的亮度仍然會相同。",
+      "answer": "X",
+      "answer_explanation": "相同電池與燈泡，串聯及並聯時亮度通常不同；並以04_09作次KP。",
+      "answer_assumption": "模型獨立科學判讀，非原校教師標準答案；以常見國小教材之成熟睡蓮浮葉構造或同規格燈泡正常串並聯比較為判斷前提。",
+      "source": "P12_OPERATOR_APPROVED_QUESTION",
+      "certification_status": "OPERATOR_APPROVED_PUBLIC",
+      "operator_publication_approval": true,
+      "original_teacher_answer_key_authenticated": false,
+      "original_cropped_assets_included": false,
+      "dependency_review_verified": true,
+      "copyright_path": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "evidence_ref": "data/review/p12-e01-post41-scansecondary6-source-science-kp-dedup-v1.json",
+      "source_bbox_raster_proof_ref": "data/review/p12-e01-post41-scansecondary6-source-science-kp-dedup-v1.json"
+    }
+  ]
+}

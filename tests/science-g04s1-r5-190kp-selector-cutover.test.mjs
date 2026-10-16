@@ -50,11 +50,22 @@ test("R5 fail-closed when new KP missing or duplicated",()=>{
  wrongSource.sources.find(x=>x.grade===4&&x.semester===1).sha256="b".repeat(64);
  assert.throws(()=>validateAuthority(wrongSource));
 });
-test("new KPs appear in selectors but no certified public questions are automatically added",()=>{
+test("original R5 selector auto-admission remains forbidden; only independently certified Anhe wind is later admitted",()=>{
  const sourceFiles=readdirSync("site/data/question-bank").filter(name=>name.endsWith(".json"));
+ const approved="p12-e01-post46-anhe-wind1-public-v1.json";
+ assert.ok(sourceFiles.includes(approved),"explicit operator release record required");
  for(const name of sourceFiles){
    const bytes=readFileSync("site/data/question-bank/"+name,"utf8");
-   for(const id of newIds)assert.equal(bytes.includes(id),false,name+" must not auto-admit "+id);
+   if(name===approved){
+     const wind=read("site/data/question-bank/"+name);
+     assert.equal(wind.blocks.length,1);
+     assert.equal(wind.blocks[0].source_slot_id,"SCI_G04_S1_114_MID_006|S01|TF|004");
+     assert.equal(wind.blocks[0].canonical_kp_id,"sci_g04s1_01_12");
+     assert.equal(wind.blocks[0].operator_publication_approval,true);
+     assert.equal(wind.blocks[0].original_teacher_answer_key_authenticated,false);
+     assert.equal(bytes.includes("sci_g04s1_02_13"),false);
+     assert.equal(bytes.includes("sci_g04s1_02_14"),false);
+   } else for(const id of newIds)assert.equal(bytes.includes(id),false,name+" must not auto-admit "+id);
  }
  assert.equal(remap.public_admission_count,0);
  assert.equal(remap.published_question_changes,0);

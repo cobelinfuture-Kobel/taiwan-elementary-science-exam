@@ -29,7 +29,7 @@ assert.equal(proof.original_pdf_raw_size_bytes,archive.original_raw_pdf_size_byt
 assert.deepEqual(q.answer_marker_pdf_bbox_pts_top_left,proof.original_pdf_native_answer_marker_bbox_pts_top_left);
 assert.deepEqual(proof.pdf_native_glyphs_intersecting_bbox,["("," ",")"]);
 assert.deepEqual(proof.original_page_raster_size_px,[1166,1651]);
-assert.equal(proof.original_pdf_page_rotation_degrees,0);
+assert.equal(proof.original_page_rotation_degrees,0);
 assert.match(proof.original_page_rgb_samples_sha256,/^[a-f0-9]{64}$/);
 assert.equal(proof.original_pdf_sha256_independently_recomputed_in_this_task,true);
 assert.equal(proof.source_is_independent_without_shared_figure,true);

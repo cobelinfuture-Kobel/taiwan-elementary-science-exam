@@ -31,7 +31,7 @@ try {
   await page.fill("#count","4");
   await page.locator("#generate").click();
   await page.waitForSelector(".paper:not([data-answer='true']) .group svg.diagram", { timeout: 15000 });
-  const expectedCount = {"3-S1":[14,12,11,10],"3-S2":[12,12,12,13],"4-S1":[11,12,10,12],"4-S2":[12,11,12,11]};
+  const expectedCount = {"3-S1":[14,12,11,10],"3-S2":[12,12,12,13],"4-S1":[12,14,10,12],"4-S2":[12,11,12,11]};
   for(const [scope,nums] of Object.entries(expectedCount)){
     const [g,s]=scope.split("-");
     await page.selectOption("#grade",g);
@@ -47,8 +47,8 @@ try {
   await page.selectOption("#grade","4");
   await page.selectOption("#semester","S1");
   await page.selectOption("#mode","cross_unit");
-  assert.equal(await page.locator("#cross-kps input").count(),23,"cross-unit KP options should be 11+12");
-  assert.equal(await page.locator("#cross-kps input:checked").count(),23,"cross-unit KP default selection");
+  assert.equal(await page.locator("#cross-kps input").count(),26,"cross-unit KP options should be 12+14");
+  assert.equal(await page.locator("#cross-kps input:checked").count(),26,"cross-unit KP default selection");
   await page.evaluate(()=>{
     const options=[...document.querySelectorAll("#cross-kps input")];
     for(const el of options) if(el.value.startsWith("sci_g04s1_01_")) el.checked=false;

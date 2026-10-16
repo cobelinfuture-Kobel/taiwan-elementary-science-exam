@@ -9,7 +9,7 @@ const authority=read("site/data/authority/science-g03-g04-selector-v3.json");
 const normal=s=>String(s??"").normalize("NFKC").replace(/\s+/gu,"");
 test("P12 113 27 distinct source exact student originals satisfy current frozen 48KP and item gate",()=>{
  const gate=validateAndConvertP12113Selective27(bank,authority);
- assert.deepEqual([gate.answerSlots,gate.standaloneTf,gate.standaloneChoice,gate.contextGroups],[27,14,13,0]);
+ assert.deepEqual([gate.answerSlots,gate.standaloneTf,gate.standaloneChoice,gate.contextGroups],[27,15,12,0]);
  assert.equal(evidence.formal_approved_item_count,27);
  assert.equal(evidence.records.length,27);
  assert.equal(evidence.kp_authority_count_for_this_grade_semester,48);

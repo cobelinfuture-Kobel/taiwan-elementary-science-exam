@@ -80,6 +80,35 @@ test("Remaining16 header quantities are speculative and must never satisfy 29-pa
    assert.equal(current.source_pdf_sha256,x.pdf_sha256);
  }
 });
+test("All remaining 16 original PDF section scoring totals reconcile to 100 without certifying original answer slots",()=>{
+ const score=read("data/review/p12-g04s1-113-remaining16-printed-score-proof-v2.json");
+ const prior=read("data/review/p12-g04s1-113-remaining16-header-estimate-only-v1.json");
+ assert.equal(score.paper_count,16);
+ assert.equal(score.records.length,16);
+ assert.equal(new Set(score.records.map(x=>x.source_id)).size,16);
+ assert.equal(score.original_printed_score_total_verified_each_100,true);
+ assert.equal(score.previous_unverified_score_derived_estimate,929);
+ assert.equal(score.updated_unverified_score_derived_estimate,934);
+ assert.equal(prior.unverified_estimated_source_answer_positions,929);
+ assert.equal(score.estimated_correction_delta,5);
+ assert.equal(score.all29_response_positions_planning_estimate_not_actual_exact,1755);
+ let inferred=0;
+ for(const x of score.records){
+  const old=review.records.find(r=>r.source_id===x.source_id);
+  assert.ok(old,x.source_id);
+  assert.equal(old.source_pdf_sha256,x.source_original_pdf_sha256);
+  assert.equal(old.original_visual_section_answer_positions,null,"do not misrepresent header estimate as exact verified positions");
+  assert.equal(x.original_section_score_proofs.reduce((n,s)=>n+s.printed_score_points,0),100);
+  assert.equal(x.original_section_score_proofs.reduce((n,s)=>n+s.scoring_derived_response_count_not_final,0),x.scoring_derived_response_count_not_final);
+  assert.ok(x.original_section_score_proofs.every(s=>s.actual_marker_bbox_certified===false));
+  assert.equal(x.student_bank_admission_permitted,false);
+  assert.equal(x.cross_year_113_114_dedup_complete,false);
+  inferred+=x.scoring_derived_response_count_not_final;
+ }
+ assert.equal(inferred,934);
+ const wende=score.records.find(r=>r.source_id==="SCI_G04_S1_113_MID_001");
+ assert.equal(wende.scoring_derived_response_count_not_final,55);
+});
 test("One-batch 29 remaining source work must not misstate 771 candidate starts or the 636 public baseline",()=>{
  assert.equal(review.original_response_positions_section_reconciled,821);
  assert.equal(review.section_reconciled_source_papers,13);

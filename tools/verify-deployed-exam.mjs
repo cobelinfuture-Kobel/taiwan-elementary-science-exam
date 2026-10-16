@@ -17,7 +17,7 @@ try {
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 628 小題（307 題是非＋186 題單選＋36 組情境）"),"Live site must load current pinned assets: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 629 小題（307 題是非＋187 題單選＋36 組情境）"),"Live site must load current pinned assets: "+info+"; status="+status);
   assert.equal(await page.locator("#unit option").count(),4,"live unit selector present");
   assert.ok(await page.locator("#kp option").count()>0,"live KP selector populated");
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","public default question can generate: "+status);
@@ -164,7 +164,7 @@ try {
   assert.match(answerText,/3\. X/,"third source fishbowl must be marked X on answer page");
   await page.screenshot({path:"artifacts/deployed-browser/p12-g03s2final-46-fishbowl-live.png",fullPage:true});
   const screen=await page.screenshot({path:"artifacts/deployed-browser/p12-remaining51-live.png",fullPage:true});
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 628 slots (626 prior + 2 Mingyi/Taozijiao direct KP original source rechecks)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 629 slots (628 prior + 1 Dongguang original exact MC)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

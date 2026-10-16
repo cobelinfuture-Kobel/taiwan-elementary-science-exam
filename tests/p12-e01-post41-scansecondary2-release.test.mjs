@@ -16,10 +16,10 @@ test("formal two exact original full text science answers direct canonical KP",(
  assert.deepEqual(bank.blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
  for(const b of bank.blocks){const x=proof.records.find(x=>x.source_slot_id===b.source_slot_id);
  const origin=read(x.source_archive_ref).original_question_records.find(q=>q.source_id===b.source_slot_id);
- assert.equal(origin.full_original_stem,b.stem);assert.equal(b.source_pdf_sha256,x.original_pdf_sha256);}
+ assert.equal(origin.full_original_stem,b.stem);assert.equal(b.source_pdf_sha256,x.original_pdf_sha256);assert.equal(Object.hasOwn(b,"source_image_answer_marker_pixel_bbox_upright"),false,"pixel evidence must remain in source audit, not public global schema");}
 });
 test("fail closed tampered provenance answer KP or source geometry",()=>{
- for(const change of [v=>v.blocks[0].answer="O",v=>v.blocks[0].source_pdf_sha256="wrong",v=>v.blocks[0].source_image_answer_marker_pixel_bbox_upright[0]++,v=>v.blocks[1].canonical_kp_id="sci_g04s1_04_06",v=>v.blocks[1].stem="changed",v=>v.blocks[0].original_cropped_assets_included=true]){
+ for(const change of [v=>v.blocks[0].answer="O",v=>v.blocks[0].source_pdf_sha256="wrong",v=>v.blocks[0].source_image_answer_marker_pixel_bbox_upright=[586,335,644,370],v=>v.blocks[1].canonical_kp_id="sci_g04s1_04_06",v=>v.blocks[1].stem="changed",v=>v.blocks[0].original_cropped_assets_included=true]){
  const copy=structuredClone(bank);change(copy);assert.throws(()=>validate(copy,auth));}
 });
 test("both exact same-stem held sources already present",()=>{

@@ -28,7 +28,18 @@ test("R5 each source candidate keeps its original PDF, answer position, science 
   assert.ok(orig,row.source_slot_id);
   assert.equal(doc.original_pdf_sha256,row.source_pdf_sha256,row.source_slot_id);
   assert.equal(row.source_page,orig.answer_marker_pdf_page??row.source_page);
-  if(row.source_bbox)assert.deepEqual(row.source_bbox,orig.answer_marker_pdf_bbox_pts_top_left,row.source_slot_id);
+  if(row.source_bbox){
+   if(Array.isArray(orig.answer_marker_pdf_bbox_pts_top_left))
+     assert.deepEqual(row.source_bbox,orig.answer_marker_pdf_bbox_pts_top_left,row.source_slot_id);
+   else {
+     // Scanned originals have no native glyph bbox. Certified pixel-recovery evidence
+     // is recorded in the *later* public release, not retroactively in the old archive.
+     const verified=published.find(x=>x.source_slot_id===row.source_slot_id);
+     assert.ok(verified&&row.geometry_evidence,row.source_slot_id+" needs later exact raster provenance");
+     assert.deepEqual(row.source_bbox,verified.source_pdf_bbox_pts_top_left,row.source_slot_id);
+     assert.equal(verified.source_bbox_raster_proof_ref,row.geometry_evidence);
+   }
+  }
   assert.ok(row.new_kps.length>=1&&row.new_kps.every(x=>newIds.includes(x)));
   assert.ok(row.provisional_answer);
   assert.equal(orig.site_question_bank_admitted,false,"Frozen source archive snapshot retained as originally archived");

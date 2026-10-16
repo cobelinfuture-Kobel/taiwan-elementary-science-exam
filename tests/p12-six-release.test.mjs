@@ -75,9 +75,9 @@ test("P12 addition does not alter frozen 72 OX and 20 context group assets",asyn
   assert.equal(all.admission,"EMBEDDED_CERTIFIED_HISTORICAL");
   assert.equal(all.certifiedAnswerSlots,629);
   assert.equal(all.certifiedTrueFalse,307);
-  assert.equal(all.certifiedStandaloneChoice,186);
+  assert.equal(all.certifiedStandaloneChoice,187);
   assert.equal(all.certifiedGroupCount,36);
-  assert.equal(all.blocks.length,72+20+5+27+28+9+6+47+41+41+47+40+47+31+16+13+15+19+3+2);
+  assert.equal(all.blocks.length,72+20+5+27+28+9+6+47+41+41+47+40+47+31+16+13+15+19+3+2+1);
   assert.equal(new Set(all.blocks.map(b=>b.id)).size,all.blocks.length);
  }finally{globalThis.fetch=oldFetch}
 });

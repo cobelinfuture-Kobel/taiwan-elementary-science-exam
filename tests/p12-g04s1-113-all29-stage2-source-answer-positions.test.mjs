@@ -188,6 +188,24 @@ test("Wende all 27 actual printed page1 markers have independent model prelimina
  assert.equal(w.cross_period_direct_KP03_source_midterm_count,1);
  assert.equal(w.student_public_admissions,0);
 });
+test("Wende 11 preliminary direct KP firstphrase public dedup is explicitly not the all-636 or semantic duplicate certification",()=>{
+ const d=read("data/review/p12-g04s1-113-wende-mid11-public-firstphrase-dedup-preflight-v1.json");
+ const s=read("data/review/p12-g04s1-113-wende-mid27-science-kp48-preliminary-v1.json");
+ assert.equal(d.total_distinct_public_annual_bank_json_assets_inspected,30);
+ assert.equal(d.candidate_preliminary_source_ref,"data/review/p12-g04s1-113-wende-mid27-science-kp48-preliminary-v1.json");
+ assert.equal(d.original_27_source_phrases_considered,11);
+ assert.equal(d.candidate_source_ids.length,11);
+ assert.equal(new Set(d.candidate_source_ids).size,11);
+ assert.equal(d.literal_source_firstphrase_overlap_count,0);
+ assert.equal(d.full_original_source_stem_exact_match_certified,false);
+ assert.equal(d.all_636_student_answer_slots_semantic_near_duplicate_certified,false);
+ assert.equal(d.student_question_admission_count,0);
+ for(const id of d.candidate_source_ids){
+  const a=s.records.find(x=>x.source_slot_id===id);
+  assert.ok(a && ["PROVISIONAL_DIRECT","PROVISIONAL_CROSS_PERIOD"].includes(a.science_decision));
+  assert.equal(a.public_release_permitted,false);
+ }
+});
 test("One-batch 29 remaining source work must not misstate 771 candidate starts or the 636 public baseline",()=>{
  assert.equal(review.original_response_positions_section_reconciled,821);
  assert.equal(review.section_reconciled_source_papers,13);

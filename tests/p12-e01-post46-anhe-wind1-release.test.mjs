@@ -75,9 +75,9 @@ test("active V3 ScienceKP26 two more original TF while frozen V2 excludes only R
  };
  try{
   const v3=await loadEmbeddedHistoricalBank(authority);
-  assert.equal(v3.certifiedAnswerSlots,679); // 636 baseline + 27 prior 113 + 16 new verified 113 final source items
+  assert.equal(v3.certifiedAnswerSlots,690); // existing 679 + 11 original 113 midterm MC; frozen V2 baseline remains 635
   assert.equal(v3.certifiedTrueFalse,344); // 313 baseline + 15 prior 113 + 16 new final TF
-  assert.equal(v3.certifiedStandaloneChoice,200); // 188 prior + 12 113 MC
+  assert.equal(v3.certifiedStandaloneChoice,211); // existing 200 plus 11 new original 113 MC
   assert.equal(v3.certifiedGroupCount,36);
   assert.equal(v3.blocks.filter(x=>x.source_slot_id===proof.source_slot_id).length,1);
   const wind=v3.blocks.filter(x=>x.canonical_kp_id==="sci_g04s1_01_12"||x.secondary_canonical_kp_ids?.includes("sci_g04s1_01_12"));

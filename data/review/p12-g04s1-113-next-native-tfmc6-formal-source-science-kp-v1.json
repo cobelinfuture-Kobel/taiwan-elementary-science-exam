@@ -1,0 +1,280 @@
+{
+  "schema_version": "P12_G04S1_113_NEXT_NATIVE_TFMC6_FORMAL_SOURCE_SCIENCE_KP_V1",
+  "scope": "113 fourth grade first-semester Kanghsuan frozen 48-KP alignment; Native PDF originals Zhongxiao MID and Dongguang FINAL; original school exam texts only",
+  "frozen_main_before": "5a9343dfc6da26901d83566ebe675321f5ebdceb",
+  "pre_public_answer_slots": 724,
+  "pre_113_published_source_positions": 88,
+  "prior_suppression_ref": "data/review/p12-g04s1-113-main-published88-source-suppression-readback-v2.json",
+  "source_pdfs": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_003",
+      "pdf": "113_南一_四上_自然_期中評量卷_忠孝國小.pdf",
+      "sha": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "drive_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "pdf": "113_南一_四上_自然_期末評量卷_東光國小.pdf",
+      "sha": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "drive_id": "1zXzobPos2iCmWco5dk7xnqq2OIbLKphN"
+    }
+  ],
+  "original_pdfs_sha256_verified": true,
+  "original_pdfs_visual_page1_compared": true,
+  "original_pdf_rawdict_exact_printed_parenthesis_bboxes_verified": 6,
+  "source_stem_and_full_ordered_options_checked": 6,
+  "science_not_original_teacher_key": true,
+  "formal_science_kp_approved_new": 6,
+  "admission_ready_new": 6,
+  "published_new_after_pages_success": 6,
+  "original_third_party_images_included": false,
+  "source_rights": "ART9_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+  "source_scope_operator_approval": "P12_113_G04S1_KP48_WHOLE_CORPUS_SELECTIVE_ADMISSION_PREVIOUSLY_APPROVED",
+  "duplicate_protocol": "CURRENT_MAIN_724_ALL_PUBLIC_SOURCE_BANKS_EXACT_STEM_AND_SEMANTIC;_114_SAME_SEMESTER_25_SOURCE_ARCHIVES_CONTEXT_CHECK;_113_PUBLISHED88_SOURCE_ID_SUPPRESSION;_NO_KP_ONLY_DEDUP",
+  "dedup_notes": "Crossyear archived unadmitted instances do not become additional student public rows. All six have distinct assessable original question wording and answer paths compared with active public bank. Published 114 small fish freshwater TF and mirror angle are not imported.",
+  "references": [
+    "README.md",
+    "docs/QUESTION_ADMISSION_GOVERNANCE.md",
+    "site/data/authority/science-g03-g04-selector-v3.json"
+  ],
+  "excluded_examples": [
+    {
+      "id": "SCI_G04_S1_113_MID_003|S1|TF|007",
+      "reason": "PUBLISHED_114_SEMANTIC_DUPLICATE_CLOWNFISH_SALTWATER_TO_POND"
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_003|S1|TF|009",
+      "reason": "LOW_WATER_LEVEL_SUBMERGED_ELodea_CONTEXT_NONUNIQUE"
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_003|S2|MC|006",
+      "reason": "PUBLISHED_113_FISH_FIN_SWIMMING_SEMANTIC_DUPLICATE"
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_003|S2|MC|004",
+      "reason": "DIRECT_KP_OF_WATER_PROTECTION_BEHAVIOR_NOT_JUSTIFIED_UNDER_FROZEN_48KP"
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_003|S1|MC|004",
+      "reason": "ALARM_CLOCK_POWER_SUPPLY_CONTEXT_NONUNIQUE"
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_003|S1|MC|003",
+      "reason": "BATTERY_SERIES_POLARITY_NOT_DIRECT_KP06_BRIGHTNESS"
+    }
+  ],
+  "records": [
+    {
+      "id": "P12_113_G04S1_ZHONGXIAO_MID_TF_008",
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|008",
+      "source_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_name": "113_南一_四上_自然_期中評量卷_忠孝國小.pdf",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "printed_section": "S1",
+      "printed_question_number": 8,
+      "original_answer_parenthesis_pdf_bbox_pts_top_left": [
+        42.48,
+        312.97,
+        79.91,
+        327.01
+      ],
+      "bbox_method": "ORIGINAL_PDF_NATIVE_RAWDICT_OPEN_CLOSE_GLYPH_NOT_TEXT_SEARCH",
+      "original_parent_instruction": "是非題：每題2分，共18分／30分（印刷配分僅存原始證據）",
+      "original_stem": "水黽是利用腳在水面划行。",
+      "original_options_in_order": null,
+      "model_independently_reasoned_answer": "O",
+      "model_answer_assumption": null,
+      "model_science_reason": "水黽以適應水面的長足支撐身體，利用腳的動作在水面移動；與水生動物適應水域生活的構造相關。",
+      "canonical_direct_kp_id": "sci_g04s1_02_09",
+      "unit": "4-S1-U02",
+      "rights": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "teacher_original_answer_key_verified": false,
+      "direct_frozen_kp_verified": true,
+      "public_duplicate_absent": true,
+      "operator_bulk_scope_authorized": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_ZHONGXIAO_MID_MC_005",
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|005",
+      "source_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_name": "113_南一_四上_自然_期中評量卷_忠孝國小.pdf",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "printed_section": "S2",
+      "printed_question_number": 5,
+      "original_answer_parenthesis_pdf_bbox_pts_top_left": [
+        42.48,
+        694.74,
+        79.91,
+        708.78
+      ],
+      "bbox_method": "ORIGINAL_PDF_NATIVE_RAWDICT_OPEN_CLOSE_GLYPH_NOT_TEXT_SEARCH",
+      "original_parent_instruction": "選擇題：每題2分（印刷配分僅存原始證據）",
+      "original_stem": "下列關於「埤塘」的敘述哪一項錯誤？",
+      "original_options_in_order": [
+        "①是水流靜止的水域",
+        "②通常沒有水生植物生長在此處",
+        "③屬於淡水水域",
+        "④有時可以發現水棲昆蟲的蹤跡"
+      ],
+      "model_independently_reasoned_answer": "②",
+      "model_answer_assumption": null,
+      "model_science_reason": "埤塘一般屬水流較緩慢的淡水水域，可能生長多種水生植物，亦可見水棲昆蟲。",
+      "canonical_direct_kp_id": "sci_g04s1_02_02",
+      "unit": "4-S1-U02",
+      "rights": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "teacher_original_answer_key_verified": false,
+      "direct_frozen_kp_verified": true,
+      "public_duplicate_absent": true,
+      "operator_bulk_scope_authorized": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_ZHONGXIAO_MID_MC_007",
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|007",
+      "source_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_name": "113_南一_四上_自然_期中評量卷_忠孝國小.pdf",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "printed_section": "S2",
+      "printed_question_number": 7,
+      "original_answer_parenthesis_pdf_bbox_pts_top_left": [
+        42.48,
+        844.5,
+        79.91,
+        858.54
+      ],
+      "bbox_method": "ORIGINAL_PDF_NATIVE_RAWDICT_OPEN_CLOSE_GLYPH_NOT_TEXT_SEARCH",
+      "original_parent_instruction": "選擇題：每題2分（印刷配分僅存原始證據）",
+      "original_stem": "臺灣萍蓬草是臺灣原生特有種植物，根長在水底土裡，葉子浮在水面，表示臺灣萍蓬草是下列哪一種植物？",
+      "original_options_in_order": [
+        "①漂葉性水生植物",
+        "②浮葉性水生植物",
+        "③挺水性水生植物",
+        "④沉水性水生植物"
+      ],
+      "model_independently_reasoned_answer": "②",
+      "model_answer_assumption": null,
+      "model_science_reason": "根固定在水底土中而葉片浮在水面上，是浮葉性水生植物的典型構造。",
+      "canonical_direct_kp_id": "sci_g04s1_02_06",
+      "unit": "4-S1-U02",
+      "rights": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "teacher_original_answer_key_verified": false,
+      "direct_frozen_kp_verified": true,
+      "public_duplicate_absent": true,
+      "operator_bulk_scope_authorized": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_DONGGUANG_FINAL_MC_001",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|001",
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "source_pdf_name": "113_南一_四上_自然_期末評量卷_東光國小.pdf",
+      "source_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "source_page_pdf_1_based": 1,
+      "printed_section": "S1",
+      "printed_question_number": 1,
+      "original_answer_parenthesis_pdf_bbox_pts_top_left": [
+        28.44,
+        99.73,
+        60.4,
+        113.01
+      ],
+      "bbox_method": "ORIGINAL_PDF_NATIVE_RAWDICT_OPEN_CLOSE_GLYPH_NOT_TEXT_SEARCH",
+      "original_parent_instruction": "選擇題：每題2分（印刷配分僅存原始證據）",
+      "original_stem": "「點燃的蠟燭、用過的衛生紙、全新的木頭筷子、透明的塑膠尺」以上幾項物品是光源？",
+      "original_options_in_order": [
+        "①4項",
+        "②3項",
+        "③2",
+        "④1項"
+      ],
+      "model_independently_reasoned_answer": "④",
+      "model_answer_assumption": null,
+      "model_science_reason": "只有點燃的蠟燭本身發光；衛生紙、木筷子及透明塑膠尺不會自行發光。",
+      "canonical_direct_kp_id": "sci_g04s1_03_05",
+      "unit": "4-S1-U03",
+      "rights": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "teacher_original_answer_key_verified": false,
+      "direct_frozen_kp_verified": true,
+      "public_duplicate_absent": true,
+      "operator_bulk_scope_authorized": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_DONGGUANG_FINAL_MC_005",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|005",
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "source_pdf_name": "113_南一_四上_自然_期末評量卷_東光國小.pdf",
+      "source_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "source_page_pdf_1_based": 1,
+      "printed_section": "S1",
+      "printed_question_number": 5,
+      "original_answer_parenthesis_pdf_bbox_pts_top_left": [
+        28.44,
+        323.92,
+        60.4,
+        337.2
+      ],
+      "bbox_method": "ORIGINAL_PDF_NATIVE_RAWDICT_OPEN_CLOSE_GLYPH_NOT_TEXT_SEARCH",
+      "original_parent_instruction": "選擇題：每題2分（印刷配分僅存原始證據）",
+      "original_stem": "在下列哪一個環境中，無法看到物體？",
+      "original_options_in_order": [
+        "①日出時的海邊",
+        "②中午的操場上",
+        "③漆黑的地下室",
+        "④日光燈打開後的教室裡"
+      ],
+      "model_independently_reasoned_answer": "③",
+      "model_answer_assumption": "「漆黑」表示環境中沒有足以使物體可見的光。",
+      "model_science_reason": "在完全漆黑且沒有光進入眼睛的地下室，無法靠視覺看見物體。",
+      "canonical_direct_kp_id": "sci_g04s1_03_04",
+      "unit": "4-S1-U03",
+      "rights": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "teacher_original_answer_key_verified": false,
+      "direct_frozen_kp_verified": true,
+      "public_duplicate_absent": true,
+      "operator_bulk_scope_authorized": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_DONGGUANG_FINAL_TF_006",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|006",
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "source_pdf_name": "113_南一_四上_自然_期末評量卷_東光國小.pdf",
+      "source_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "source_page_pdf_1_based": 1,
+      "printed_section": "S2",
+      "printed_question_number": 6,
+      "original_answer_parenthesis_pdf_bbox_pts_top_left": [
+        371.35,
+        154.33,
+        403.31,
+        167.61
+      ],
+      "bbox_method": "ORIGINAL_PDF_NATIVE_RAWDICT_OPEN_CLOSE_GLYPH_NOT_TEXT_SEARCH",
+      "original_parent_instruction": "是非題：每題2分，共18分／30分（印刷配分僅存原始證據）",
+      "original_stem": "如果將已形成通路的電路中，其中一段線換成色紙，燈泡就不會發光了。",
+      "original_options_in_order": null,
+      "model_independently_reasoned_answer": "O",
+      "model_answer_assumption": "以一般乾燥色紙替代金屬導線，並未另有導體旁路。",
+      "model_science_reason": "一般色紙是電的不良導體，不能像金屬電線一樣形成導電路徑，因此燈泡無法正常發光。",
+      "canonical_direct_kp_id": "sci_g04s1_04_05",
+      "unit": "4-S1-U04",
+      "rights": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "teacher_original_answer_key_verified": false,
+      "direct_frozen_kp_verified": true,
+      "public_duplicate_absent": true,
+      "operator_bulk_scope_authorized": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    }
+  ]
+}

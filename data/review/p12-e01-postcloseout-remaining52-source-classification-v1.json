@@ -1,0 +1,1350 @@
+{
+  "schema_version": "P12_E01_POST_CLOSEOUT_REMAINING52_SOURCE_EXACT_CLASSIFICATION_V1",
+  "main_baseline": "9e1d8dd17e275749cd02dca61b2c82df1cc4fd27",
+  "previous_exception_snapshot": "data/review/p12-b04-auto-batch50-final-closeout-115-exceptions-v1.json",
+  "source_exception_count_initial": 115,
+  "e01_source_positions_formally_published": 63,
+  "e01_published_source_id_references": [
+    "site/data/question-bank/p12-e01-puren-final16-public-v1.json",
+    "data/review/p12-e01-puren-mid18-raster-pixelbbox-13accept-5hold-v1.json",
+    "data/review/p12-e01-heshun-mid17-pixel-bbox-15accept-2hold-v1.json",
+    "data/review/p12-e01-heshun-final21-raster-pixelbbox-science-kp-admission-v2.json"
+  ],
+  "source_count_remaining_initial": 52,
+  "remaining_by_previous_route": {
+    "DEDUP_LINEAGE_ONLY": 3,
+    "SCIENCE_KP_SEMANTIC_REVIEW": 33,
+    "ORIGINAL_PRINTED_OPTIONS_REVIEW": 1,
+    "SCAN_PDF_BBOX_RECOVERY": 9,
+    "SCAN_WITH_SECONDARY_HOLDS": 6
+  },
+  "remaining_by_new_route": {
+    "DUPLICATE_LINEAGE_ONLY_NO_PUBLIC_SECOND_COPY": 3,
+    "SCIENCE_OR_KP_SEMANTIC_HOLD": 30,
+    "SOURCE_PRINTED_OPTION_LABEL_ANOMALY_HOLD": 1,
+    "DIRECT_KP_03_09_SOURCE_PDF_REVIEW_RELEASE_CANDIDATE": 3,
+    "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD": 9,
+    "SCAN_AND_SECONDARY_SEMANTIC_OR_DUPLICATE_HOLD": 6
+  },
+  "recovery_nine_source_geometry_already_reviewed_and_semantics_hold": 9,
+  "secondary_scan_six_remain_held": 6,
+  "three_direct_kp_03_09_candidates_in_separate_pr_gate": 3,
+  "immutable_original_ledgers": true,
+  "no_school_teacher_key_authenticated": true,
+  "no_student_bank_publication_by_classification_itself": true,
+  "post_candidate_admission_if_three_pass": 49,
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_004|S02|MC|006",
+      "original_batch": "B01",
+      "original_batch_ordinal": 32,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_004",
+      "original_frozen_route": "DEDUP_LINEAGE_ONLY",
+      "latest_route": "DUPLICATE_LINEAGE_ONLY_NO_PUBLIC_SECOND_COPY",
+      "original_flags": [
+        "DUPLICATE_EXACT_STEM_ACROSS_SCHOOLS"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_09",
+      "source_archive_ref": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b01-first50-science-review-v1.json",
+      "original_pdf_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_004|S01|TF|008",
+      "original_batch": "B01",
+      "original_batch_ordinal": 42,
+      "source_paper_id": "SCI_G04_S1_114_MID_004",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "AMBIGUOUS_HABITAT_SCOPE"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_02",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b01-first50-science-review-v1.json",
+      "original_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_004|S02|MC|009",
+      "original_batch": "B01",
+      "original_batch_ordinal": 48,
+      "source_paper_id": "SCI_G04_S1_114_MID_004",
+      "original_frozen_route": "ORIGINAL_PRINTED_OPTIONS_REVIEW",
+      "latest_route": "SOURCE_PRINTED_OPTION_LABEL_ANOMALY_HOLD",
+      "original_flags": [
+        "PRINTED_DUPLICATE_②_CHOICE_LABEL",
+        "SOURCE_PRINTED_OPTIONS_HOLD"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_01",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b01-first50-science-review-v1.json",
+      "original_pdf_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_005|S01|TF|014",
+      "original_batch": "B02",
+      "original_batch_ordinal": 18,
+      "source_paper_id": "SCI_G04_S1_114_MID_005",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "LOTUS_FLOATING_JUVENILE_LEAF_AMBIGUITY"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_07",
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_005|S02|MC|010",
+      "original_batch": "B02",
+      "original_batch_ordinal": 26,
+      "source_paper_id": "SCI_G04_S1_114_MID_005",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "FLOATING_VS_FLOATING_LEAF_WATER_LEVEL_AMBIGUITY"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|003",
+      "original_batch": "B02",
+      "original_batch_ordinal": 29,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "CONTINUOUS_GROUND_INSTABILITY_OVERGENERALIZATION"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_05",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|004",
+      "original_batch": "B02",
+      "original_batch_ordinal": 30,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "WIND_PROCESS_NOT_DIRECT_FLOWING_WATER_KP_MATCH"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|005",
+      "original_batch": "B02",
+      "original_batch_ordinal": 31,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SEISMIC_MAGNITUDE_OUTSIDE_CURRENT_CANONICAL_KP"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_08",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|006",
+      "original_batch": "B02",
+      "original_batch_ordinal": 32,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "EARTHQUAKE_REPORT_DAMAGE_DETAILS_NOT_UNIVERSAL"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_08",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|007",
+      "original_batch": "B02",
+      "original_batch_ordinal": 33,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "AQUATIC_HABITAT_DEFINITION_OVERBROAD"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_01",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S02|MC|002",
+      "original_batch": "B02",
+      "original_batch_ordinal": 41,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SAFE_SCIENCE_OBSERVATION_OUTSIDE_KP_GRAIN_SIZE_SCOPE"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_006|S02|MC|005",
+      "original_batch": "B02",
+      "original_batch_ordinal": 44,
+      "source_paper_id": "SCI_G04_S1_114_MID_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SEISMIC_MAGNITUDE_OUTSIDE_CURRENT_CANONICAL_KP"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_08",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b02-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|003",
+      "original_batch": "B03",
+      "original_batch_ordinal": 4,
+      "source_paper_id": "SCI_G04_S1_114_MID_007",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "WIND_AND_WATER_GEOMORPHOLOGY_KP_SCOPE"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_05",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|005",
+      "original_batch": "B03",
+      "original_batch_ordinal": 5,
+      "source_paper_id": "SCI_G04_S1_114_MID_007",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "EARTHQUAKE_NATURAL_ORIGIN_NOT_MATCH_DEVELOPMENT_KP"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_07",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_007|S01|TF|012",
+      "original_batch": "B03",
+      "original_batch_ordinal": 10,
+      "source_paper_id": "SCI_G04_S1_114_MID_007",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "WASTEWATER_NOT_ALWAYS_THERMAL"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_12",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|004",
+      "original_batch": "B03",
+      "original_batch_ordinal": 20,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SUBMERGED_VS_FLOATING_LEAF_ADAPTATION_SCOPE"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_05",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|005",
+      "original_batch": "B03",
+      "original_batch_ordinal": 21,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "FREE_HANGING_ROOT_VS_FLOATING_SEMANTICS"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_04",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|011",
+      "original_batch": "B03",
+      "original_batch_ordinal": 26,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SOIL_FORMATION_OVERGENERALIZATION"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|012",
+      "original_batch": "B03",
+      "original_batch_ordinal": 27,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "ROCK_TO_SOIL_FIXED_SEQUENCE_UNJUSTIFIED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_05",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S01|TF|013",
+      "original_batch": "B03",
+      "original_batch_ordinal": 28,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "FLOATING_LEAF_LOW_WATER_CONDITIONAL"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_008|S02|MC|004",
+      "original_batch": "B03",
+      "original_batch_ordinal": 32,
+      "source_paper_id": "SCI_G04_S1_114_MID_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "STREAM_SLOW_WATER_LOTUS_AMBIGUITY"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_02",
+      "source_archive_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b03-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|003",
+      "original_batch": "B04",
+      "original_batch_ordinal": 28,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "VACUUM_VS_SPACECRAFT_SOUND_SCOPE_AMBIGUOUS"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b04-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_006|S2|MC|011",
+      "original_batch": "B04",
+      "original_batch_ordinal": 35,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "CONDUCTIVE_SWITCH_ALTERNATE_ASSEMBLY_MULTIPLE_CORRECT"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_05",
+      "source_archive_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b04-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|002",
+      "original_batch": "B04",
+      "original_batch_ordinal": 41,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "DIRECT_KP_03_09_SOURCE_PDF_REVIEW_RELEASE_CANDIDATE",
+      "original_flags": [
+        "CO_ALARM_WARNING_FUNCTION_VS_LIGHT_ONLY_KP_MISMATCH"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_09",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b04-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": true,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|014",
+      "original_batch": "B05",
+      "original_batch_ordinal": 1,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "DIRECT_KP_03_09_SOURCE_PDF_REVIEW_RELEASE_CANDIDATE",
+      "original_flags": [
+        "SOUND_WARNING_QUESTION_MAPPED_TO_LIGHT_WARNING_KP"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_09",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": true,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|002",
+      "original_batch": "B05",
+      "original_batch_ordinal": 3,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "DIRECT_KP_03_09_SOURCE_PDF_REVIEW_RELEASE_CANDIDATE",
+      "original_flags": [
+        "BICYCLE_BELL_LIGHT_REFLECTOR_MIXED_MODALITY_KP"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_09",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": true,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_007|S02|MC|011",
+      "original_batch": "B05",
+      "original_batch_ordinal": 9,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "ASTRONAUT_SOUND_VACUUM_CONTEXT_UNSPECIFIED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|004",
+      "original_batch": "B05",
+      "original_batch_ordinal": 16,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SHADOW_BEHIND_OBJECT_RELATIVE_TO_LIGHT_SOURCE_UNSTATED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|005",
+      "original_batch": "B05",
+      "original_batch_ordinal": 17,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "CONCERT_LIGHTS_WARNING_FUNCTION_NOT_UNIVERSAL"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_09",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|006",
+      "original_batch": "B05",
+      "original_batch_ordinal": 18,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "SPACE_EXPLOSION_NO_MEDIUM_CONTEXT_UNSTATED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S01|TF|012",
+      "original_batch": "B05",
+      "original_batch_ordinal": 23,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "original_frozen_route": "DEDUP_LINEAGE_ONLY",
+      "latest_route": "DUPLICATE_LINEAGE_ONLY_NO_PUBLIC_SECOND_COPY",
+      "original_flags": [
+        "SOURCE_EXACT_DUPLICATE_PREVIOUSLY_PUBLISHED_B04_TF"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_01",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_008|S02|MC|007",
+      "original_batch": "B05",
+      "original_batch_ordinal": 33,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_008",
+      "original_frozen_route": "DEDUP_LINEAGE_ONLY",
+      "latest_route": "DUPLICATE_LINEAGE_ONLY_NO_PUBLIC_SECOND_COPY",
+      "original_flags": [
+        "SOURCE_EXACT_PUBLISHED_114_FINAL_003_S02_MC_001"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S2|MC|002",
+      "original_batch": "B05",
+      "original_batch_ordinal": 43,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_009",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "DOLPHIN_ECHOLOCATION_NOT_DIRECT_SOUND_GENERATION_KP"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_01",
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_009|S2|MC|007",
+      "original_batch": "B05",
+      "original_batch_ordinal": 46,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_009",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "BATTERY_SERIES_PARALLEL_NOT_DIRECT_BRIGHTNESS_KP"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b05-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q01|007",
+      "original_batch": "B06",
+      "original_batch_ordinal": 5,
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "CORAL_REEF_HISTORICAL_USE_VS_CURRENT_PROTECTION_AMBIGUITY"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_10",
+      "source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b06-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_011|Q01|008",
+      "original_batch": "B06",
+      "original_batch_ordinal": 6,
+      "source_paper_id": "SCI_G04_S1_114_MID_011",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "FOREST_CLEARANCE_DOES_NOT_SUFFICE_FOR_LANDSLIDE_DAM"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_07",
+      "source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b06-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_012|Q06|001",
+      "original_batch": "B06",
+      "original_batch_ordinal": 50,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_012",
+      "original_frozen_route": "SCIENCE_KP_SEMANTIC_REVIEW",
+      "latest_route": "SCIENCE_OR_KP_SEMANTIC_HOLD",
+      "original_flags": [
+        "KALEIDOSCOPE_MIRROR_REFLECTION_KP_03_07_NOT_03_08"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_08",
+      "source_archive_ref": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b06-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_002|S2|TF|007",
+      "original_batch": "B07",
+      "original_batch_ordinal": 39,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_02",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-heshun-mid17-pixel-bbox-15accept-2hold-v1.json",
+      "e01_independently_identified_blocker": "AQUATIC_ORGANISM_INTERACTION_NOT_DIRECT_WATER_CONDITIONS_KP_02_02",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_002|S2|TF|011",
+      "original_batch": "B07",
+      "original_batch_ordinal": 41,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-heshun-mid17-pixel-bbox-15accept-2hold-v1.json",
+      "e01_independently_identified_blocker": "SOURCE_PDF_VISUAL_CONFLICT_ARCHIVED_TF11_STEM_TRANSCRIPTION",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_002|S2|TF|013",
+      "original_batch": "B07",
+      "original_batch_ordinal": 42,
+      "source_paper_id": "SCI_G04_S1_114_MID_002",
+      "original_frozen_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "latest_route": "SCAN_AND_SECONDARY_SEMANTIC_OR_DUPLICATE_HOLD",
+      "original_flags": [
+        "ORIGINAL_BBOX_MISSING",
+        "SCANNED_PDF_VISUAL_ESTIMATE_BBOX_REQUIRES_MANUAL_PIXEL_EXACT_ACCEPTANCE",
+        "FLOATING_LEAVED_LILY_KP_MISMAPPED_AS_FREE_FLOATING_PLANT"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_04",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b07-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S1|TF|007",
+      "original_batch": "B08",
+      "original_batch_ordinal": 2,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_frozen_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "latest_route": "SCAN_AND_SECONDARY_SEMANTIC_OR_DUPLICATE_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "AMBIGUOUS_CIRCUIT_DEFINITION",
+        "CANONICAL_KP_PROPOSAL_MISMATCH"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_08",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S1|TF|011",
+      "original_batch": "B08",
+      "original_batch_ordinal": 5,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_frozen_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "latest_route": "SCAN_AND_SECONDARY_SEMANTIC_OR_DUPLICATE_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "CANONICAL_KP_PROPOSAL_MISMATCH"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_06",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|003",
+      "original_batch": "B08",
+      "original_batch_ordinal": 8,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_03_04",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-heshun-final21-raster-pixelbbox-science-kp-admission-v2.json",
+      "e01_independently_identified_blocker": "NO_DIRECT_CANONICAL_KP_FOR_SOLAR_LIGHT_HEAT_VS_BATTERY_POWER",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|013",
+      "original_batch": "B08",
+      "original_batch_ordinal": 14,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_11",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-heshun-final21-raster-pixelbbox-science-kp-admission-v2.json",
+      "e01_independently_identified_blocker": "BATTERY_MIX_NEW_OLD_NO_DIRECT_CANONICAL_KP_IN_G04S1_U04",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|015",
+      "original_batch": "B08",
+      "original_batch_ordinal": 15,
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_frozen_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "latest_route": "SCAN_AND_SECONDARY_SEMANTIC_OR_DUPLICATE_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "CROSS_SOURCE_SAME_STEM_DUPLICATE_HOLD"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_04_09",
+      "source_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|001",
+      "original_batch": "B08",
+      "original_batch_ordinal": 24,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_05",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-puren-mid18-raster-pixelbbox-13accept-5hold-v1.json",
+      "e01_independently_identified_blocker": "WEATHERING_NOT_DIRECT_KP_01_05",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|002",
+      "original_batch": "B08",
+      "original_batch_ordinal": 25,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_08",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-puren-mid18-raster-pixelbbox-13accept-5hold-v1.json",
+      "e01_independently_identified_blocker": "MAGNITUDE_OUTSIDE_KP_01_08",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|004",
+      "original_batch": "B08",
+      "original_batch_ordinal": 27,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "latest_route": "SCAN_AND_SECONDARY_SEMANTIC_OR_DUPLICATE_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "CROSS_SOURCE_SAME_STEM_DUPLICATE_HOLD"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_02",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|011",
+      "original_batch": "B08",
+      "original_batch_ordinal": 33,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-puren-mid18-raster-pixelbbox-13accept-5hold-v1.json",
+      "e01_independently_identified_blocker": "WATER_PLANT_UNIVERSAL_TRAIT_MULTIPLE_POSSIBLE",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|012",
+      "original_batch": "B08",
+      "original_batch_ordinal": 34,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_WITH_SECONDARY_HOLDS",
+      "latest_route": "SCAN_AND_SECONDARY_SEMANTIC_OR_DUPLICATE_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "NO_EXACT_SCIENCE_ANSWER_TIDAL_ZONE_VS_ESTUARY"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_02_02",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": null,
+      "e01_independently_identified_blocker": null,
+      "pdf_text_source_rescreen_required": true,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S1|MC|013",
+      "original_batch": "B08",
+      "original_batch_ordinal": 35,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_03",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        1
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-puren-mid18-raster-pixelbbox-13accept-5hold-v1.json",
+      "e01_independently_identified_blocker": "SOIL_TEXTURE_MATERIAL_CONDITIONS_UNSTATED",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_MID_009|S3|G01|005",
+      "original_batch": "B08",
+      "original_batch_ordinal": 42,
+      "source_paper_id": "SCI_G04_S1_114_MID_009",
+      "original_frozen_route": "SCAN_PDF_BBOX_RECOVERY",
+      "latest_route": "SCAN_IMAGE_BBOX_RECOVERED_SCIENCE_KP_HOLD",
+      "original_flags": [
+        "SCAN_ONLY_PDF_NO_NATIVE_GLYPH_BBOX_PIXEL_EXACT_RECONFIRMATION_REQUIRED",
+        "ORIGINAL_PARENT_SCORE_ANNOTATION_PRESERVED_SCORELESS_PROJECTION_VERIFIED"
+      ],
+      "canonical_kp_id_previous_proposal": "sci_g04s1_01_10",
+      "source_archive_ref": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "original_review_ref": "data/review/p12-b04-auto-batch50-b08-first50-science-kp-review-v1.json",
+      "original_pdf_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "source_pdf_pages": [
+        2
+      ],
+      "existing_e01_exception_proof_ref": "data/review/p12-e01-puren-mid18-raster-pixelbbox-13accept-5hold-v1.json",
+      "e01_independently_identified_blocker": "SCREAM_TO_RELIEVE_STRESS_NOT_UNIQUE_SAFETY_JUDGMENT",
+      "pdf_text_source_rescreen_required": false,
+      "science_answer_not_overridden": true,
+      "public_bank_admitted": false,
+      "priority_for_direct_review": false,
+      "does_not_change_original_frozen_row": true
+    }
+  ]
+}

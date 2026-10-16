@@ -1,0 +1,1284 @@
+{
+  "schema_version": "P12_E01_HESHUN_FINAL21_ORIGINAL_SCAN_PIXEL_BBOX_SCIENCE_KP_ACCEPTANCE_V1",
+  "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+  "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+  "source_binary_size_bytes": 351361,
+  "source_original_drive_file_id": "1iZisyIpcQ0b_TzEue8YA2h_TRyc6GLJ9",
+  "source_pdf_sha256_verified": true,
+  "source_pdf_scan_only": true,
+  "native_pdf_glyph_bbox_certified": false,
+  "original_source_images_publicly_included": false,
+  "reviewed_source_count": 21,
+  "formally_admitted_candidate_count": 20,
+  "teacher_answer_key_authenticated": false,
+  "cumulative_public_pre_release": 604,
+  "cumulative_public_post_success": 624,
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S1|TF|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        26,
+        136.84,
+        77,
+        154.21
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        37,
+        247,
+        99,
+        282
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        23.125,
+        154.375,
+        61.875,
+        176.25
+      ],
+      "full_original_stem_exact": "當光照在光滑的物體上時會產生反射，被反射的光會以曲線前進。",
+      "all_original_options_exact": [],
+      "model_unique_science_answer": "X",
+      "model_science_reasoning": "反射改變光的方向，並不使光在均勻介質中改成曲線傳播。",
+      "certified_canonical_kp_id": "sci_g04s1_03_07",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_TF_001",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S1|TF|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        26,
+        166.32,
+        77,
+        183.68
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        37,
+        310,
+        99,
+        343
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        23.125,
+        193.75,
+        61.875,
+        214.375
+      ],
+      "full_original_stem_exact": "在太陽下，利用鏡子調整光的行進方向，可以使光照進陰暗的角落。",
+      "all_original_options_exact": [],
+      "model_unique_science_answer": "O",
+      "model_science_reasoning": "鏡面改變反射光行進方向，可以把日光照到陰暗處。",
+      "certified_canonical_kp_id": "sci_g04s1_03_07",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_TF_002",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S1|TF|008",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        26,
+        327.89,
+        77,
+        345.26
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        37,
+        617,
+        99,
+        654
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        23.125,
+        385.625,
+        61.875,
+        408.75
+      ],
+      "full_original_stem_exact": "在通路的電路中加入連接物，燈泡仍然可以發亮，則這個連接物就稱為電的良導體。",
+      "all_original_options_exact": [],
+      "model_unique_science_answer": "O",
+      "model_science_reasoning": "連接物接入原先斷開的電路而使燈泡發亮，表示它可導電。",
+      "certified_canonical_kp_id": "sci_g04s1_04_05",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_TF_003",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S1|TF|009",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        26,
+        366.84,
+        77,
+        384.21
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        37,
+        683,
+        99,
+        713
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        23.125,
+        426.875,
+        61.875,
+        445.625
+      ],
+      "full_original_stem_exact": "在燈泡串聯的情況下，如果其中一個燈泡故障了，其他的燈泡仍然會發光。",
+      "all_original_options_exact": [],
+      "model_unique_science_answer": "X",
+      "model_science_reasoning": "燈泡串聯電路中任一處斷路，正常情況下其他燈泡也不會亮。",
+      "certified_canonical_kp_id": "sci_g04s1_04_08",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_TF_004",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        26,
+        571.58,
+        77,
+        588.95
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        37,
+        1020,
+        101,
+        1055
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        23.125,
+        637.5,
+        63.125,
+        659.375
+      ],
+      "full_original_stem_exact": "關於光源的描述，哪一項敘述是正確的？",
+      "all_original_options_exact": [
+        {
+          "label": "①",
+          "text": "會發出聲音"
+        },
+        {
+          "label": "②",
+          "text": "必須是黃色的"
+        },
+        {
+          "label": "③",
+          "text": "只有在夜晚看得到"
+        },
+        {
+          "label": "④",
+          "text": "會發光"
+        }
+      ],
+      "model_unique_science_answer": "④",
+      "model_science_reasoning": "光源的定義是本身能發出光的物體。",
+      "certified_canonical_kp_id": "sci_g04s1_03_05",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_MC_001",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        26,
+        629.47,
+        77,
+        646.84
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        37,
+        1137,
+        101,
+        1169
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        23.125,
+        710.625,
+        63.125,
+        730.625
+      ],
+      "full_original_stem_exact": "光照在下列哪一種物品上無法形成清楚的影像？",
+      "all_original_options_exact": [
+        {
+          "label": "①",
+          "text": "大樓的玻璃"
+        },
+        {
+          "label": "②",
+          "text": "光滑的不鏽鋼餐具"
+        },
+        {
+          "label": "③",
+          "text": "柔軟的窗簾"
+        },
+        {
+          "label": "④",
+          "text": "平靜的湖泊水面"
+        }
+      ],
+      "model_unique_science_answer": "③",
+      "model_science_reasoning": "柔軟窗簾表面通常形成散射而非鏡面反射，難以映出清楚影像。",
+      "certified_canonical_kp_id": "sci_g04s1_03_07",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_MC_002",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true,
+      "kp_change_from_preliminary": "sci_g04s1_03_06",
+      "kp_change_reason": "Original question tests clear mirror-like image versus diffuse reflection on a curtain; sci_g04s1_03_07 covers light reflection, while original 03_06 is light's straight-line travel and shadows. Explicit source-grounded semantic correction."
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|006",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        370,
+        111.58,
+        417,
+        128.95
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        515,
+        163,
+        577,
+        194
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        321.875,
+        101.875,
+        360.625,
+        121.25
+      ],
+      "full_original_stem_exact": "下列哪個現象主要是和光的反射現象有關？",
+      "all_original_options_exact": [
+        {
+          "label": "①",
+          "text": "蠟燭點燃後會發光"
+        },
+        {
+          "label": "②",
+          "text": "從靜止的水面看見倒影"
+        },
+        {
+          "label": "③",
+          "text": "陽光照進房間後，房間會變亮"
+        },
+        {
+          "label": "④",
+          "text": "打開檯燈可以照亮環境"
+        }
+      ],
+      "model_unique_science_answer": "②",
+      "model_science_reasoning": "平靜水面可以反射光形成倒影。",
+      "certified_canonical_kp_id": "sci_g04s1_03_07",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_MC_004",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|008",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        370,
+        246.32,
+        417,
+        263.68
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        515,
+        407,
+        577,
+        438
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        321.875,
+        254.375,
+        360.625,
+        273.75
+      ],
+      "full_original_stem_exact": "下列有關電池的敘述，哪一項是錯誤的？",
+      "all_original_options_exact": [
+        {
+          "label": "①",
+          "text": "凸的那一端稱為正極"
+        },
+        {
+          "label": "②",
+          "text": "平的那一端稱為負極"
+        },
+        {
+          "label": "③",
+          "text": "正極代表符號為「＋」"
+        },
+        {
+          "label": "④",
+          "text": "負極代表符號為「＝」"
+        }
+      ],
+      "model_unique_science_answer": "④",
+      "model_science_reasoning": "一般乾電池負極標記是負號「－」，不是等號「＝」。",
+      "certified_canonical_kp_id": "sci_g04s1_04_01",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_MC_005",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|009",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        370,
+        303.16,
+        417,
+        320.53
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        515,
+        529,
+        577,
+        564
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        321.875,
+        330.625,
+        360.625,
+        352.5
+      ],
+      "full_original_stem_exact": "處理「沒有電的廢電池」方式，哪個不適當？",
+      "all_original_options_exact": [
+        {
+          "label": "①",
+          "text": "拿到超商回收"
+        },
+        {
+          "label": "②",
+          "text": "直接丟一般垃圾桶"
+        },
+        {
+          "label": "③",
+          "text": "拿給資源回收車回收"
+        },
+        {
+          "label": "④",
+          "text": "丟到學校的電池回收筒"
+        }
+      ],
+      "model_unique_science_answer": "②",
+      "model_science_reasoning": "廢電池應分類回收，不應丟一般垃圾。",
+      "certified_canonical_kp_id": "sci_g04s1_04_11",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_MC_006",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|010",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        370,
+        354.74,
+        417,
+        372.11
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        515,
+        629,
+        577,
+        661
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        321.875,
+        393.125,
+        360.625,
+        413.125
+      ],
+      "full_original_stem_exact": "電路接好後，發現燈泡不亮，下列哪一項不可能是燈泡不亮的原因？",
+      "all_original_options_exact": [
+        {
+          "label": "①",
+          "text": "電池連接方式"
+        },
+        {
+          "label": "②",
+          "text": "燈泡連接方式"
+        },
+        {
+          "label": "③",
+          "text": "電池顏色"
+        },
+        {
+          "label": "④",
+          "text": "電池電力"
+        }
+      ],
+      "model_unique_science_answer": "③",
+      "model_science_reasoning": "電池的顏色通常不影響燈泡是否發亮。",
+      "certified_canonical_kp_id": "sci_g04s1_04_04",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_MC_007",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|012",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        370,
+        477.89,
+        417,
+        495.26
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        515,
+        806,
+        577,
+        842
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        321.875,
+        503.75,
+        360.625,
+        526.25
+      ],
+      "full_original_stem_exact": "有關用電的敘述，哪一項正確？",
+      "all_original_options_exact": [
+        {
+          "label": "①",
+          "text": "用插座防護塞蓋住不用的插座"
+        },
+        {
+          "label": "②",
+          "text": "用潮溼的手插電器插座"
+        },
+        {
+          "label": "③",
+          "text": "延長線同時接上好幾種電器並同時使用"
+        },
+        {
+          "label": "④",
+          "text": "利用拉電線拔插頭"
+        }
+      ],
+      "model_unique_science_answer": "①",
+      "model_science_reasoning": "未使用的插座以防護塞隔離，能降低幼兒觸電風險。",
+      "certified_canonical_kp_id": "sci_g04s1_04_12",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_MC_008",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|013",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        370,
+        544.21,
+        417,
+        561.58
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        515,
+        930,
+        577,
+        964
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        321.875,
+        581.25,
+        360.625,
+        602.5
+      ],
+      "full_original_stem_exact": "下列哪個使用電池的方式是錯誤的？",
+      "all_original_options_exact": [
+        {
+          "label": "①",
+          "text": "要買有回收標誌的電池"
+        },
+        {
+          "label": "②",
+          "text": "新舊電池一起使用"
+        },
+        {
+          "label": "③",
+          "text": "剩餘電量要利用"
+        },
+        {
+          "label": "④",
+          "text": "電量用完要回收"
+        }
+      ],
+      "model_unique_science_answer": "②",
+      "model_science_reasoning": "不建議把新電池與舊電池混合使用。",
+      "certified_canonical_kp_id": "sci_g04s1_04_11",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_MC_009",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S5|G01|001",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 2,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "bfe6e03f8c9aa1ca1ed7e31010cd72631e06c4128927772d168484924775777d",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        32,
+        361.05,
+        83,
+        378.42
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        75,
+        710,
+        135,
+        748
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        46.875,
+        443.75,
+        84.375,
+        467.5
+      ],
+      "full_original_stem_exact": "五、若電路的電線斷裂了，連接哪些物品可再形成通路使燈泡發光？可以的請打ˇ，不可以的打╳。\n鐵製螺絲釘",
+      "all_original_options_exact": [],
+      "model_unique_science_answer": "O",
+      "model_science_reasoning": "鐵製螺絲釘可導電並接通電路。",
+      "certified_canonical_kp_id": "sci_g04s1_04_05",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_TF_005",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S5|G01|002",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 2,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "bfe6e03f8c9aa1ca1ed7e31010cd72631e06c4128927772d168484924775777d",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        291,
+        361.05,
+        342,
+        378.42
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        306,
+        710,
+        368,
+        748
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        191.25,
+        443.75,
+        230,
+        467.5
+      ],
+      "full_original_stem_exact": "五、若電路的電線斷裂了，連接哪些物品可再形成通路使燈泡發光？可以的請打ˇ，不可以的打╳。\n木製免洗筷",
+      "all_original_options_exact": [],
+      "model_unique_science_answer": "X",
+      "model_science_reasoning": "乾木筷通常是電的不良導體。",
+      "certified_canonical_kp_id": "sci_g04s1_04_05",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_TF_006",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S5|G01|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 2,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "bfe6e03f8c9aa1ca1ed7e31010cd72631e06c4128927772d168484924775777d",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        32,
+        396.32,
+        83,
+        413.68
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        75,
+        747,
+        135,
+        782
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        46.875,
+        466.875,
+        84.375,
+        488.75
+      ],
+      "full_original_stem_exact": "五、若電路的電線斷裂了，連接哪些物品可再形成通路使燈泡發光？可以的請打ˇ，不可以的打╳。\n橡皮擦",
+      "all_original_options_exact": [],
+      "model_unique_science_answer": "X",
+      "model_science_reasoning": "一般橡皮擦不易導電。",
+      "certified_canonical_kp_id": "sci_g04s1_04_05",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_TF_007",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S5|G01|004",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 2,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "bfe6e03f8c9aa1ca1ed7e31010cd72631e06c4128927772d168484924775777d",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        291,
+        396.32,
+        342,
+        413.68
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        306,
+        747,
+        368,
+        782
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        191.25,
+        466.875,
+        230,
+        488.75
+      ],
+      "full_original_stem_exact": "五、若電路的電線斷裂了，連接哪些物品可再形成通路使燈泡發光？可以的請打ˇ，不可以的打╳。\n鐵製便當盒",
+      "all_original_options_exact": [],
+      "model_unique_science_answer": "O",
+      "model_science_reasoning": "鐵製便當盒的裸露金屬部分可導電。",
+      "certified_canonical_kp_id": "sci_g04s1_04_05",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_TF_008",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S5|G01|005",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 2,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "bfe6e03f8c9aa1ca1ed7e31010cd72631e06c4128927772d168484924775777d",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        32,
+        431.58,
+        83,
+        448.95
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        75,
+        781,
+        135,
+        817
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        46.875,
+        488.125,
+        84.375,
+        510.625
+      ],
+      "full_original_stem_exact": "五、若電路的電線斷裂了，連接哪些物品可再形成通路使燈泡發光？可以的請打ˇ，不可以的打╳。\n長尾夾",
+      "all_original_options_exact": [],
+      "model_unique_science_answer": "O",
+      "model_science_reasoning": "一般長尾夾的金屬部分可以導電，須確保導電接觸面不是絕緣塗層。",
+      "certified_canonical_kp_id": "sci_g04s1_04_05",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_TF_009",
+      "model_semantic_qualifier": "原卷『長尾夾』按一般金屬長尾夾可接觸裸露金屬部位導電，塑膠或絕緣塗層未當作導電接觸。",
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S5|G01|006",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 2,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "bfe6e03f8c9aa1ca1ed7e31010cd72631e06c4128927772d168484924775777d",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        291,
+        431.58,
+        342,
+        448.95
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        306,
+        781,
+        368,
+        817
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        191.25,
+        488.125,
+        230,
+        510.625
+      ],
+      "full_original_stem_exact": "五、若電路的電線斷裂了，連接哪些物品可再形成通路使燈泡發光？可以的請打ˇ，不可以的打╳。\n塑膠牙刷",
+      "all_original_options_exact": [],
+      "model_unique_science_answer": "X",
+      "model_science_reasoning": "塑膠牙刷柄通常是電的不良導體。",
+      "certified_canonical_kp_id": "sci_g04s1_04_05",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_TF_010",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S5|G01|007",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 2,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "bfe6e03f8c9aa1ca1ed7e31010cd72631e06c4128927772d168484924775777d",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        32,
+        466.84,
+        83,
+        484.21
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        75,
+        816,
+        135,
+        852
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        46.875,
+        510,
+        84.375,
+        532.5
+      ],
+      "full_original_stem_exact": "五、若電路的電線斷裂了，連接哪些物品可再形成通路使燈泡發光？可以的請打ˇ，不可以的打╳。\n錫箔紙",
+      "all_original_options_exact": [],
+      "model_unique_science_answer": "O",
+      "model_science_reasoning": "錫箔紙屬金屬材料，可以導電。",
+      "certified_canonical_kp_id": "sci_g04s1_04_05",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_TF_011",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S5|G01|008",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 2,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "bfe6e03f8c9aa1ca1ed7e31010cd72631e06c4128927772d168484924775777d",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        291,
+        466.84,
+        342,
+        484.21
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        306,
+        816,
+        368,
+        852
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        191.25,
+        510,
+        230,
+        532.5
+      ],
+      "full_original_stem_exact": "五、若電路的電線斷裂了，連接哪些物品可再形成通路使燈泡發光？可以的請打ˇ，不可以的打╳。\n鐵製迴紋針",
+      "all_original_options_exact": [],
+      "model_unique_science_answer": "O",
+      "model_science_reasoning": "鐵製迴紋針的裸露金屬部分能導電。",
+      "certified_canonical_kp_id": "sci_g04s1_04_05",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_TF_012",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true
+    }
+  ],
+  "held_items": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|003",
+      "source_paper_id": "SCI_G04_S1_114_FINAL_002",
+      "original_archive_ref": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_pdf_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "pdf_page_1_based": 1,
+      "original_pdf_page_rotation_degrees": 90,
+      "unrotated_page_render_size_px": [
+        1651,
+        1166
+      ],
+      "raster_upright_rotation": "PIL_ROTATE_90_COUNTERCLOCKWISE",
+      "upright_page_size_px": [
+        1166,
+        1651
+      ],
+      "upright_page_rgb_sha256": "7a6677faafa73e58110a89462af361a89ad9710d08845acfc3fe9822aaf9935a",
+      "render_method": "fitz.get_pixmap(Matrix(1.6,1.6),alpha=False); PIL.Image.rotate(90,expand=True)",
+      "source_scan_only_no_native_text_glyph_bbox": true,
+      "original_visual_estimate_not_certified": [
+        26,
+        687.37,
+        77,
+        704.74
+      ],
+      "answer_marker_original_image_pixel_bbox_upright": [
+        37,
+        1225,
+        101,
+        1259
+      ],
+      "answer_marker_bbox_upright_top_left_points": [
+        23.125,
+        765.625,
+        63.125,
+        786.875
+      ],
+      "full_original_stem_exact": "下列哪些不會運用到太陽的光與熱？",
+      "all_original_options_exact": [
+        {
+          "label": "①",
+          "text": "動植物生長"
+        },
+        {
+          "label": "②",
+          "text": "連接電池讓燈泡發光"
+        },
+        {
+          "label": "③",
+          "text": "白天感覺到溫暖"
+        },
+        {
+          "label": "④",
+          "text": "白天可清楚看見環境與景物"
+        }
+      ],
+      "model_unique_science_answer": "②",
+      "model_science_reasoning": "電池讓燈泡發光不必依賴太陽的光與熱。",
+      "certified_canonical_kp_id": "sci_g04s1_03_04",
+      "no_shared_media_dependency": true,
+      "article9_regulated_school_exam_question_text_only": true,
+      "original_teacher_answer_key_authenticated": false,
+      "student_site_image_assets_published": false,
+      "source_quality_status": "MANUAL_VISUAL_SOURCE_BBOX_AND_TEXT_REVIEWED",
+      "science_key_source": "MODEL_INDEPENDENT_REASONING_NOT_TEACHER_KEY",
+      "public_block_id": "P12_E01_HESHUN_FINAL_MC_003",
+      "model_semantic_qualifier": null,
+      "accepted_if_pr_ci_pages_pass": true,
+      "admission_state": "SCIENCE_KP_EXCEPTION_HOLD",
+      "primary_blocker": "NO_DIRECT_CANONICAL_KP_FOR_SOLAR_LIGHT_HEAT_VS_BATTERY_POWER",
+      "unapproved_mapping": "sci_g04s1_03_04",
+      "hold_reason": "The original asks which use does not rely on solar light/heat; sci_g04s1_03_04 concerns light reaching eyes, not solar heat versus independent battery circuit. Correct answer ② alone is insufficient for public admission without a directly taught canonical KP.",
+      "public_admitted": false,
+      "source_image_pixel_geometry_recovered": true
+    }
+  ],
+  "quarantined_count": 1,
+  "kp_reassessed_corrections": [
+    {
+      "source_slot_id": "SCI_G04_S1_114_FINAL_002|S2|MC|002",
+      "from": "sci_g04s1_03_06",
+      "to": "sci_g04s1_03_07",
+      "reason": "Original question tests clear mirror-like image versus diffuse reflection on a curtain; sci_g04s1_03_07 covers light reflection, while original 03_06 is light's straight-line travel and shadows. Explicit source-grounded semantic correction."
+    }
+  ],
+  "student_publication_gate": "ONLY_AFTER_PR_CI_AND_PAGES_E2E_SUCCESS",
+  "original_21_positions_all_image_geometry_recovered": true
+}

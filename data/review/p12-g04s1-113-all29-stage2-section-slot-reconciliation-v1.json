@@ -8,9 +8,9 @@
   "scan_pdf_visual_exam_pages_recovered": 5,
   "scan_pdf_section_response_positions": 262,
   "one_native_original_exam_printed_section_response_positions": 64,
-  "section_reconciled_source_papers": 6,
-  "original_response_positions_section_reconciled": 326,
-  "remaining_native_source_papers_to_exactly_count": 23,
+  "section_reconciled_source_papers": 9,
+  "original_response_positions_section_reconciled": 526,
+  "remaining_native_source_papers_to_exactly_count": 20,
   "one_native_paper_independently_provisional_science_answer_count": 54,
   "one_native_paper_answer_or_picture_hold_count": 10,
   "one_native_paper_corrected_native_numbered_start_count": 31,
@@ -393,9 +393,90 @@
       "publisher_from_filename": "康軒",
       "original_exam_type": "MID",
       "scan_only": false,
-      "original_visual_section_answer_positions": null,
-      "visually_counted_source_sections": null,
-      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "original_visual_section_answer_positions": 100,
+      "visually_counted_source_sections": [
+        {
+          "section": "G01",
+          "printed_section": "原卷問題1",
+          "answer_positions": 6
+        },
+        {
+          "section": "G02",
+          "printed_section": "原卷問題2",
+          "answer_positions": 4
+        },
+        {
+          "section": "G03",
+          "printed_section": "原卷問題3",
+          "answer_positions": 6
+        },
+        {
+          "section": "G04",
+          "printed_section": "原卷問題4",
+          "answer_positions": 6
+        },
+        {
+          "section": "G05",
+          "printed_section": "原卷問題5",
+          "answer_positions": 8
+        },
+        {
+          "section": "G06",
+          "printed_section": "原卷問題6",
+          "answer_positions": 6
+        },
+        {
+          "section": "G07",
+          "printed_section": "原卷問題7",
+          "answer_positions": 6
+        },
+        {
+          "section": "G08",
+          "printed_section": "原卷問題8",
+          "answer_positions": 6
+        },
+        {
+          "section": "G09",
+          "printed_section": "原卷問題9",
+          "answer_positions": 8
+        },
+        {
+          "section": "G10",
+          "printed_section": "原卷問題10",
+          "answer_positions": 8
+        },
+        {
+          "section": "G11",
+          "printed_section": "原卷問題11",
+          "answer_positions": 6
+        },
+        {
+          "section": "G12",
+          "printed_section": "原卷問題12",
+          "answer_positions": 6
+        },
+        {
+          "section": "G13",
+          "printed_section": "原卷問題13",
+          "answer_positions": 7
+        },
+        {
+          "section": "G14",
+          "printed_section": "原卷問題14",
+          "answer_positions": 6
+        },
+        {
+          "section": "G15",
+          "printed_section": "原卷問題15",
+          "answer_positions": 6
+        },
+        {
+          "section": "G16",
+          "printed_section": "原卷問題16",
+          "answer_positions": 5
+        }
+      ],
+      "section_count_status": "ORIGINAL_NATIVE_TEXT_SOURCE_SECTION_SUBRESPONSE_COUNT_RECONCILED__BBOX_AND_SCIENCE_KP_PENDING",
       "direct_current48kp_and_unique_science_completed": false,
       "site_admission_eligible_now": false,
       "prior_provisional_native_candidate_starts": 16
@@ -408,9 +489,45 @@
       "publisher_from_filename": "康軒",
       "original_exam_type": "MID",
       "scan_only": false,
-      "original_visual_section_answer_positions": null,
-      "visually_counted_source_sections": null,
-      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "original_visual_section_answer_positions": 50,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "是非題",
+          "answer_positions": 15
+        },
+        {
+          "section": "S2",
+          "printed_section": "選擇題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S3",
+          "printed_section": "填填看",
+          "answer_positions": 7
+        },
+        {
+          "section": "S4",
+          "printed_section": "連連看",
+          "answer_positions": 3
+        },
+        {
+          "section": "S5",
+          "printed_section": "活用題",
+          "answer_positions": 4
+        },
+        {
+          "section": "S6",
+          "printed_section": "水生植物辨識",
+          "answer_positions": 5
+        },
+        {
+          "section": "S7",
+          "printed_section": "科學閱讀",
+          "answer_positions": 6
+        }
+      ],
+      "section_count_status": "ORIGINAL_NATIVE_TEXT_SOURCE_SECTION_SUBRESPONSE_COUNT_RECONCILED__BBOX_AND_SCIENCE_KP_PENDING",
       "direct_current48kp_and_unique_science_completed": false,
       "site_admission_eligible_now": false,
       "prior_provisional_native_candidate_starts": 33
@@ -423,9 +540,55 @@
       "publisher_from_filename": "康軒",
       "original_exam_type": "MID",
       "scan_only": false,
-      "original_visual_section_answer_positions": null,
-      "visually_counted_source_sections": null,
-      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "original_visual_section_answer_positions": 50,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "是非題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S2",
+          "printed_section": "選擇題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S3_G01",
+          "printed_section": "做一做第1組",
+          "answer_positions": 6
+        },
+        {
+          "section": "S3_G02",
+          "printed_section": "做一做第2組",
+          "answer_positions": 6
+        },
+        {
+          "section": "S3_G03",
+          "printed_section": "做一做第3組",
+          "answer_positions": 4
+        },
+        {
+          "section": "S3_G04",
+          "printed_section": "做一做第4組",
+          "answer_positions": 4
+        },
+        {
+          "section": "S3_G05",
+          "printed_section": "做一做第5組",
+          "answer_positions": 3
+        },
+        {
+          "section": "S3_G06",
+          "printed_section": "做一做第6組",
+          "answer_positions": 4
+        },
+        {
+          "section": "S3_G07",
+          "printed_section": "做一做第7組",
+          "answer_positions": 3
+        }
+      ],
+      "section_count_status": "ORIGINAL_NATIVE_TEXT_SOURCE_SECTION_SUBRESPONSE_COUNT_RECONCILED__BBOX_AND_SCIENCE_KP_PENDING",
       "direct_current48kp_and_unique_science_completed": false,
       "site_admission_eligible_now": false,
       "prior_provisional_native_candidate_starts": 27
@@ -626,5 +789,7 @@
       "site_admission_eligible_now": false,
       "prior_provisional_native_candidate_starts": 23
     }
-  ]
+  ],
+  "native_additional_113_mid_reconciled_papers": 3,
+  "native_additional_answer_positions": 200
 }

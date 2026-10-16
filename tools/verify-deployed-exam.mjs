@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-e01-post45-scan9-two-live632-20261016",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-e01-post43-sciencekp-two-live634-20261016",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 632 小題（309 題是非＋188 題單選＋36 組情境）"),"Live site must load current pinned assets: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 634 小題（311 題是非＋188 題單選＋36 組情境）"),"Live site must load current pinned assets: "+info+"; status="+status);
   assert.equal(await page.locator("#unit option").count(),4,"live unit selector present");
   assert.ok(await page.locator("#kp option").count()>0,"live KP selector populated");
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","public default question can generate: "+status);
@@ -198,7 +198,17 @@ try {
   assert.deepEqual(scan9bank.blocks.map(x=>x.answer),["④","X"]);
   assert.deepEqual(scan9bank.blocks.map(x=>x.canonical_kp_id),["sci_g04s1_01_03","sci_g04s1_01_10"]);
   assert.ok(scan9bank.blocks.every(x=>x.original_cropped_assets_included===false));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 632 slots (630 prior + 1 Puren original MC + 1 Puren original TF)");
+  const science26Response=await page.request.get(base+"/data/question-bank/p12-e01-post43-sciencekp2-public-v1.json",{cache:"no-cache"});
+  assert.equal(science26Response.status(),200,"Pages serves exact ScienceKP26 2-source selective file");
+  const science26Blocks=(await science26Response.json()).blocks;
+  assert.deepEqual(science26Blocks.map(x=>x.source_slot_id),[
+    "SCI_G04_S1_114_MID_008|S01|TF|004",
+    "SCI_G04_S1_114_FINAL_008|S01|TF|005"
+  ]);
+  assert.deepEqual(science26Blocks.map(x=>x.answer),["O","X"]);
+  assert.deepEqual(science26Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_05","sci_g04s1_03_10"]);
+  assert.ok(science26Blocks.every(x=>!x.original_cropped_assets_included));
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 634 slots (632 prior + 2 ScienceKP26 original TF)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

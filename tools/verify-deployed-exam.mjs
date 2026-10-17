@@ -12,12 +12,21 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-taozijiao-final-remaining8-live724-20261017",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-next-native6-live730-20261017",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 724 小題（369 題是非＋220 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 730 小題（371 題是非＋224 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  const native6Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-next-native-tfmc6-public-v1.json",{cache:"no-cache"});
+  assert.equal(native6Response.status(),200,"Live Pages delivers 113 next native six new source bank");
+  const native6=await native6Response.json();
+  assert.deepEqual([native6.expected_blocks,native6.expected_answer_slots,native6.expected_standalone_true_false,native6.expected_standalone_choice],[6,6,2,4]);
+  assert.deepEqual(native6.blocks.map(b=>b.source_slot_id),[
+   "SCI_G04_S1_113_MID_003|S1|TF|008","SCI_G04_S1_113_MID_003|S2|MC|005","SCI_G04_S1_113_MID_003|S2|MC|007",
+   "SCI_G04_S1_113_FINAL_003|S1|MC|001","SCI_G04_S1_113_FINAL_003|S1|MC|005","SCI_G04_S1_113_FINAL_003|S2|TF|006"]);
+  assert.deepEqual(native6.blocks.map(b=>b.answer),["O","②","②","④","③","O"]);
+  assert.ok(native6.blocks.every(b=>b.source_page_pdf_1_based===1&&b.source_pdf_bbox_pts_top_left?.length===4&&b.grade===4&&b.semester===1&&b.original_cropped_assets_included===false));
   const remaining8Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-taozijiao-final-remaining8-public-v1.json",{cache:"no-cache"});
   assert.equal(remaining8Response.status(),200,"Pages must deploy eight additional original TF");
   const remaining8Bank=await remaining8Response.json();
@@ -266,7 +275,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 724 slots (636 baseline + 27 first 113 + 16 final TF + 11 midterm MC + 9 final MC + 17 Taizijiao first TF + 8 remaining TF)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 730 slots (724 prior main + 2 new TF + 4 new MC native-source entries)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

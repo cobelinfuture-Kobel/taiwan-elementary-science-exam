@@ -7,7 +7,7 @@ const load=p=>JSON.parse(readFileSync(p,"utf8"));
 const bank=load("site/data/question-bank/p12-g04s1-113-wende-mid-native2-after111-public-v1.json");
 const evidence=load("data/review/p12-g04s1-113-wende-mid-native2-after111-formal-evidence-v1.json");
 const authority=load("site/data/authority/science-g03-g04-selector-v3.json");
-const norm=s=>String(s??"").normalize("NFKC").replace(/\\s+/gu,"");
+const norm=s=>String(s??"").normalize("NFKC").replace(/\s+/gu,"");
 
 test("Wende after111 both native page1 original source glyph, unique science, KP48 and rights parity",()=>{
  const accepted=validateAndConvertP12113WendeNative2(bank,authority);

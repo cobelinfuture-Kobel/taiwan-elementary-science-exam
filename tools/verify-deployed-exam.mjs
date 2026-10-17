@@ -271,10 +271,14 @@ try {
   assert.ok(windPageText.includes("風力的作用與流水一樣"),"R5 wind KP adds source-exact Anhe TF4");
   assert.equal(await page.locator(".paper:not([data-answer='true']) .question").count(),2,"two wind KP source positions without duplication");
   await page.selectOption("#unit","4-S1-U02");await page.selectOption("#mode","single_kp");
-  await page.selectOption("#kp","sci_g04s1_02_13");await page.fill("#count","1");
+  await page.selectOption("#kp","sci_g04s1_02_13");await page.fill("#count","3");
   await page.locator("#generate").click();
-  assert.equal(await page.locator("#status").getAttribute("data-error"),"false","live R5 survey-record KP must select existing certified source once");
-  assert.ok((await page.locator(".paper:not([data-answer='true'])").innerText()).includes("哪些資料是進行水域環境調查"),"R5 survey-record KP binds existing Heshun source");
+  assert.equal(await page.locator("#status").getAttribute("data-error"),"false","live R5 survey-record KP must select all three independently certified source positions");
+   const surveyPaper=await page.locator(".paper:not([data-answer='true'])").innerText();
+   assert.ok(surveyPaper.includes("哪些資料是進行水域環境調查"),"R5 survey KP preserves existing Heshun source");
+   assert.ok(surveyPaper.includes("將水生動物適應環境的資料用圖形或表格整理時"),"R5 survey KP includes Dongguang exact TF002");
+   assert.ok(surveyPaper.includes("如果想知道埤塘內有什麼水生生物"),"R5 survey KP includes Dongguang exact TF015");
+   assert.equal(await page.locator(".paper:not([data-answer='true']) .question").count(),3,"three exact independently certified R5 survey source positions");
   await page.selectOption("#kp","sci_g04s1_02_14");await page.fill("#count","1");
   await page.locator("#generate").click();
   assert.equal(await page.locator("#status").getAttribute("data-error"),"true","R5 water-safety KP has no certified item; refuse substitute");

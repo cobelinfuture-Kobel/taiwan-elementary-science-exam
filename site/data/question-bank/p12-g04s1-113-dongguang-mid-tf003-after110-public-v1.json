@@ -1,0 +1,45 @@
+{
+  "schema_version": "SCIENCE_P12_113_DONGGUANG_MID_TF003_AFTER110_PUBLIC_V1",
+  "public_site_integrated": true,
+  "expected_blocks": 1,
+  "expected_answer_slots": 1,
+  "expected_standalone_true_false": 1,
+  "expected_standalone_choice": 0,
+  "original_teacher_answer_key_authenticated": false,
+  "original_cropped_images_included": false,
+  "source_image_geometry_verified": "NATIVE_PDF_RAWDICT_PRINTED_BRACKET_SHA256_VERIFIED",
+  "evidence_ref": "data/review/p12-g04s1-113-dongguang-mid-tf003-after110-exact-source-science-kp-v1.json",
+  "blocks": [
+    {
+      "id": "P12_113_G04S1_DONGGUANG_MID_TF_003",
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S02|TF|003",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        371.35,
+        190.81,
+        403.31,
+        204.09
+      ],
+      "original_question_number": "003",
+      "grade": 4,
+      "semester": 1,
+      "unit": "4-S1-U02",
+      "canonical_kp_id": "sci_g04s1_02_02",
+      "type": "tf",
+      "stem": "埤塘是淡水水域，而且水流速度非常快。",
+      "answer": "X",
+      "answer_explanation": "埤塘通常是人工建造、流速緩慢或水流近乎靜止的淡水水域；原題稱水流速度「非常快」，因此整句錯誤。",
+      "answer_assumption": "依原校113年期中原題與一般埤塘水流條件獨立科學判答，並非原校教師標準答案。",
+      "source": "P12_OPERATOR_APPROVED_QUESTION",
+      "certification_status": "OPERATOR_APPROVED_PUBLIC",
+      "operator_publication_approval": true,
+      "original_teacher_answer_key_authenticated": false,
+      "original_cropped_assets_included": false,
+      "dependency_review_verified": true,
+      "copyright_path": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "evidence_ref": "data/review/p12-g04s1-113-dongguang-mid-tf003-after110-exact-source-science-kp-v1.json"
+    }
+  ]
+}

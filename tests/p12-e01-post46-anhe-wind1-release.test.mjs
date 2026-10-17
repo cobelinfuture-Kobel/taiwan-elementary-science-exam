@@ -75,9 +75,9 @@ test("active V3 ScienceKP26 two more original TF while frozen V2 excludes only R
  };
  try{
   const v3=await loadEmbeddedHistoricalBank(authority);
-  assert.equal(v3.certifiedAnswerSlots,730); // 724 published baseline + six 113 native text TF/MC; frozen V2 remains 635
-  assert.equal(v3.certifiedTrueFalse,371); // existing 369 + 2 native original TF
-  assert.equal(v3.certifiedStandaloneChoice,224); // existing 220 + 4 native original MC
+  assert.equal(v3.certifiedAnswerSlots,736); // 730 baseline + six 113 Minquan/Yongan native source items; V2 frozen 635
+  assert.equal(v3.certifiedTrueFalse,376); // existing 371 + 5 new original TF
+  assert.equal(v3.certifiedStandaloneChoice,225); // existing 224 + 1 new original MC
   assert.equal(v3.certifiedGroupCount,36);
   assert.equal(v3.blocks.filter(x=>x.source_slot_id===proof.source_slot_id).length,1);
   const wind=v3.blocks.filter(x=>x.canonical_kp_id==="sci_g04s1_01_12"||x.secondary_canonical_kp_ids?.includes("sci_g04s1_01_12"));

@@ -34,6 +34,6 @@ test('B01 21 Wende BBoxes are inherited unmodified from existing accepted eviden
  assert.equal(wende.length,21);
  for(const row of wende)assert.deepEqual(row.original_printed_answer_parenthesis_bbox_pts_top_left,
   originById.get(row.source_slot_id).printed_answer_marker_parenthesis_pdf_bbox_pts_top_left);
- assert.deepEqual(wende.find(x=>x.source_slot_id.endsWith('|S1|TF|6'))?.original_printed_answer_parenthesis_bbox_pts_top_left,
+ assert.deepEqual(wende.find(x=>x.source_slot_id.endsWith('|S1|TF|006'))?.original_printed_answer_parenthesis_bbox_pts_top_left,
  [28.56,366.42,60.52,379.37]);
 });

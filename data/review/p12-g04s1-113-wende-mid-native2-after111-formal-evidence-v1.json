@@ -1,0 +1,111 @@
+{
+  "schema_version": "P12_113_G04S1_WENDE_MID_NATIVE2_AFTER111_FORMAL_SOURCE_SCIENCE_KP_V1",
+  "scope": "113 academic G04-S1 original 29-paper corpus; two independent 113 Nanyi Wende MID source texts direct to frozen Kanghsuan 48KP U02; source selective admission, no source PDF or image republished",
+  "base_main_sha": "d204895a548973581fb5f7739bbaffbf9e493365",
+  "pre_existing_public_answer_slots": 747,
+  "pre_existing_113_published_sources": 111,
+  "current_published111_suppression": "Draft PR #124 data/review/p12-g04s1-113-main-published111-source-suppression-readback-v7.json (source-only, not merged)",
+  "preexisting_public_batches_count": 11,
+  "suppressed_source_slot_count": 111,
+  "source_id": "SCI_G04_S1_113_MID_001",
+  "original_pdf_file": "113_南一_四上_自然_期中評量卷_文德國小.pdf",
+  "original_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+  "original_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+  "original_pdf_pages": 2,
+  "original_pdf_text_layer": true,
+  "source_native_text_proof": "Original Drive PDF native extract per-item full-text comparison; no OCR, reconstructed/truncated options, figures, or non-school content.",
+  "native_pdf_bbox_existing_evidence": "Draft PR #124 data/review/p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json, original PDF RAWDICT page1 exact printed response parentheses",
+  "source_geometry_proven_count": 2,
+  "original_teacher_answer_key_authenticated": false,
+  "source_rights": "Taiwan Copyright Act Article 9 school exam question text only, consistent with existing S3-P03 review; no original PDF, original teacher keys, image crops or third-party material",
+  "same_batch_published_duplicate_check": "Against all 111 exact published source_slot_id from Draft PR #124 V7 suppression and all main original 113 public JSONs: no duplicate source slot.",
+  "public_and_crossyear_dedup_review": {
+    "method": "Compared public site original 113+114 released banks and 114 25-original-paper source metadata / summary maps; comparison based on original proposition and answer event, not merely shared KP. Available 114 source maps can be preliminary summaries, so ambiguous substantive near-equivalents are excluded.",
+    "related_114": "114 Hanlin Shihu MID012 original fish mouth / gill motion assesses breathing mechanics, not fish thirst; 114 Kanghsuan Dadun MID004 G04 017 studies fish mouth and operculum gas exchange, also not thirst. 114 Nanyi Heshun MID002 G07 031 describes free-floating water hyacinth (布袋蓮), not rooted floating-leaved water lily (睡蓮). Existing 114 texts on lily stalk adjusting with water level do not assert whole-plant drifting.",
+    "prior_113": "Wende TF014 equivalent to already published 113 Dongguang MID004 TF002 (graphs/tables for aquatic observation) held; Wende MC007 amphibian lung equivalent to 114 archive held; Wende MC011 water protection overlaps 114 public bank and held."
+  },
+  "operator_scope": "Existing operator authorized 113_G04S1_29PDF_KANGHSUAN_48KP_SELECTIVE_ADMISSION and existing frozen Admission Gate; no new gate or new KP",
+  "frozen_authority": "site/data/authority/science-g03-g04-selector-v3.json; grade4 semester1 existing 48 canonical KP untouched",
+  "formal_science_kp_approved_new": 2,
+  "admission_ready_new": 2,
+  "published_new_before_merge_main_and_live_pages_e2e": 0,
+  "expected_public_total_after_live_e2e": 749,
+  "expected_113_published_after_live_e2e": 113,
+  "paper_scope_exceptions": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|012",
+      "status": "HOLD",
+      "reason": "Wastewater can sometimes change nutrient levels and species growth; no blanket positive science answer"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|014",
+      "status": "HOLD_DUPLICATE",
+      "reason": "Already published Dongguang MID004 TF002 table / chart comparison event"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|007",
+      "status": "HOLD_DUPLICATE",
+      "reason": "Frog lung answer event already seen in public 114 originals"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|012",
+      "status": "HOLD_WRONG_EXAM_PERIOD",
+      "reason": "U03 shadow sunlight direction belongs FINAL, original school is MID"
+    }
+  ],
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|006",
+      "question_number": 6,
+      "source_page_pdf_1_based": 1,
+      "printed_answer_parenthesis_pdf_bbox_pts_top_left": [
+        28.56,
+        366.42,
+        60.52,
+        379.37
+      ],
+      "original_full_stem": "品欣和千宸在公園裡發現一朵超美的睡蓮！品欣靈機一動，對千宸說：「嘿！你知道嗎？睡蓮的葉柄像是內建了一個小氣球，可以讓睡蓮全株飄在水面上四處遊蕩呢！」。",
+      "ordered_options": null,
+      "independent_science_answer": "X",
+      "independent_science_reason": "睡蓮通常根固定泥底、葉貼水面，題意稱整株游移是把浮葉性和漂浮性植物混同，故錯。",
+      "canonical_direct_kp_id": "sci_g04s1_02_06",
+      "unit": "4-S1-U02",
+      "same_source_id_already_published": false,
+      "source_bbox_geometry_verified": true,
+      "full_original_stem_verified": true,
+      "unique_model_science_answer": true,
+      "direct_kp_verified": true,
+      "semantic_duplicate_screen": "DISTINCT from water hyacinth whole plant drifting and water lily stalk bending/extension; no same answer event identified",
+      "rights_gate": "TEXT_ONLY",
+      "operator_gate": "EXISTING_SCOPE_APPROVAL",
+      "formal_gate": "ADMISSION_READY"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|010",
+      "question_number": 10,
+      "source_page_pdf_1_based": 1,
+      "printed_answer_parenthesis_pdf_bbox_pts_top_left": [
+        28.56,
+        652.39,
+        60.52,
+        665.34
+      ],
+      "original_full_stem": "幼偉家裡有一個水族箱，他發現魚的嘴巴常常一開一合，於是猜想這是因為魚口渴想喝水的原因。",
+      "ordered_options": null,
+      "independent_science_answer": "X",
+      "independent_science_reason": "魚嘴張合通常是使水流通過鰓進行呼吸，不是因為口渴。",
+      "canonical_direct_kp_id": "sci_g04s1_02_08",
+      "unit": "4-S1-U02",
+      "same_source_id_already_published": false,
+      "source_bbox_geometry_verified": true,
+      "full_original_stem_verified": true,
+      "unique_model_science_answer": true,
+      "direct_kp_verified": true,
+      "semantic_duplicate_screen": "DISTINCT misconception fish drinking when thirsty vs previous fish gill identification or mouth/operculum mechanics",
+      "rights_gate": "TEXT_ONLY",
+      "operator_gate": "EXISTING_SCOPE_APPROVAL",
+      "formal_gate": "ADMISSION_READY"
+    }
+  ],
+  "publish_gate": "Do not record PUBLISHED until focused CI + A4 + merged main exact readback + real production Pages Chromium E2E pass"
+}

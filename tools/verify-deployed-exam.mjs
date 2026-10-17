@@ -18,6 +18,15 @@ try {
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
   assert.ok(info.includes("已載入內建考古題 730 小題（371 題是非＋224 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  const native6Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-next-native-tfmc6-public-v1.json",{cache:"no-cache"});
+  assert.equal(native6Response.status(),200,"Live Pages delivers 113 next native six new source bank");
+  const native6=await native6Response.json();
+  assert.deepEqual([native6.expected_blocks,native6.expected_answer_slots,native6.expected_standalone_true_false,native6.expected_standalone_choice],[6,6,2,4]);
+  assert.deepEqual(native6.blocks.map(b=>b.source_slot_id),[
+   "SCI_G04_S1_113_MID_003|S1|TF|008","SCI_G04_S1_113_MID_003|S2|MC|005","SCI_G04_S1_113_MID_003|S2|MC|007",
+   "SCI_G04_S1_113_FINAL_003|S1|MC|001","SCI_G04_S1_113_FINAL_003|S1|MC|005","SCI_G04_S1_113_FINAL_003|S2|TF|006"]);
+  assert.deepEqual(native6.blocks.map(b=>b.answer),["O","②","②","④","③","O"]);
+  assert.ok(native6.blocks.every(b=>b.source_page_pdf_1_based===1&&b.source_pdf_bbox_pts_top_left?.length===4&&b.grade===4&&b.semester===1&&b.original_cropped_assets_included===false));
   const remaining8Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-taozijiao-final-remaining8-public-v1.json",{cache:"no-cache"});
   assert.equal(remaining8Response.status(),200,"Pages must deploy eight additional original TF");
   const remaining8Bank=await remaining8Response.json();

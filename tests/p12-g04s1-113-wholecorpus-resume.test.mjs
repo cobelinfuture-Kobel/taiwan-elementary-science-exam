@@ -56,8 +56,25 @@ test('all pending entries remain source-only, never certified or published', () 
   for (const item of r.lanes.flatMap(l => l.batches).flatMap(b => b.source_slots)) {
     assert.equal(item.queue_status, 'NEEDS_EXISTING_GATE_EVIDENCE');
     assert.ok(item.source_pdf_sha256?.match(/^[0-9a-f]{64}$/));
-    assert.ok(item.mandatory_unverified_before_admission.includes('CROSSYEAR_SEMANTIC_DEDUP'));
-    assert.ok(item.mandatory_unverified_before_admission.includes('SCIENCE_UNIQUE_ANSWER'));
+    assert.ok(item.existing_gate_evidence_to_inherit_or_complete.includes('CROSSYEAR_SEMANTIC_DEDUP'));
+    assert.ok(item.existing_gate_evidence_to_inherit_or_complete.includes('SCIENCE_UNIQUE_ANSWER'));
   }
   assert.equal(r.purpose, 'SOURCE_ONLY_CONTINUATION_NOT_RELEASE_NOT_NEW_ADMISSION_GATE');
+});
+
+test('durable B01 50-slot checkpoint matches generated original source IDs and order', () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const checkpoint = JSON.parse(fs.readFileSync(path.resolve('data/review/p12-g04s1-113-native-tfmc-b01-50-source-checkpoint-v1.json'), 'utf8'));
+  const b01 = build().lanes.find(x => x.name === 'NATIVE_TFMC').batches[0];
+  assert.equal(checkpoint.source_position_count, 50);
+  assert.equal(checkpoint.new_formal_science_kp_approved, 0);
+  assert.equal(checkpoint.new_admission_ready, 0);
+  assert.equal(checkpoint.new_published, 0);
+  assert.equal(checkpoint.no_automatic_release, true);
+  assert.deepEqual(
+    checkpoint.source_position_records.map(x => x.normalized_source_slot_id),
+    b01.source_slots.map(x => x.normalized_source_slot_id)
+  );
+  assert.ok(checkpoint.source_position_records.every(x => x.publication_permitted === false));
 });

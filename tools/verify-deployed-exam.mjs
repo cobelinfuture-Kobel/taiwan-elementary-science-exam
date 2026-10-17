@@ -27,6 +27,16 @@ try {
    "SCI_G04_S1_113_FINAL_003|S1|MC|001","SCI_G04_S1_113_FINAL_003|S1|MC|005","SCI_G04_S1_113_FINAL_003|S2|TF|006"]);
   assert.deepEqual(native6.blocks.map(b=>b.answer),["O","②","②","④","③","O"]);
   assert.ok(native6.blocks.every(b=>b.source_page_pdf_1_based===1&&b.source_pdf_bbox_pts_top_left?.length===4&&b.grade===4&&b.semester===1&&b.original_cropped_assets_included===false));
+  const after94Resp=await page.request.get(base+"/data/question-bank/p12-g04s1-113-native6-after94-public-v1.json",{cache:"no-cache"});
+  assert.equal(after94Resp.status(),200,"Live Pages must serve six original Minquan/Yongan school slots");
+  const after94=await after94Resp.json();
+  assert.deepEqual([after94.expected_blocks,after94.expected_answer_slots,after94.expected_standalone_true_false,after94.expected_standalone_choice],[6,6,5,1]);
+  assert.deepEqual(after94.blocks.map(b=>b.source_slot_id),[
+   "SCI_G04_S1_113_MID_007|S01|TF|001","SCI_G04_S1_113_MID_007|S01|TF|003","SCI_G04_S1_113_MID_007|S01|TF|012",
+   "SCI_G04_S1_113_MID_007|S02|MC|009","SCI_G04_S1_113_MID_008|S01|TF|002","SCI_G04_S1_113_MID_008|S01|TF|007"]);
+  assert.deepEqual(after94.blocks.map(b=>b.answer),["X","X","X","④","X","X"]);
+  assert.deepEqual(after94.blocks.map(b=>b.canonical_kp_id),["sci_g04s1_01_01","sci_g04s1_01_02","sci_g04s1_02_11","sci_g04s1_02_07","sci_g04s1_01_07","sci_g04s1_01_02"]);
+  assert.ok(after94.blocks.every(b=>b.grade===4&&b.semester===1&&b.source_page_pdf_1_based===1&&b.source_pdf_bbox_pts_top_left?.length===4&&!b.original_cropped_assets_included));
   const remaining8Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-taozijiao-final-remaining8-public-v1.json",{cache:"no-cache"});
   assert.equal(remaining8Response.status(),200,"Pages must deploy eight additional original TF");
   const remaining8Bank=await remaining8Response.json();

@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-next-native6-live730-20261017",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-after94-live736-20261017",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 730 小題（371 題是非＋224 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 736 小題（376 題是非＋225 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
   const native6Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-next-native-tfmc6-public-v1.json",{cache:"no-cache"});
   assert.equal(native6Response.status(),200,"Live Pages delivers 113 next native six new source bank");
   const native6=await native6Response.json();
@@ -275,7 +275,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 730 slots (724 prior main + 2 new TF + 4 new MC native-source entries)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 736 slots (730 prior main + 5 TF + 1 MC from Minquan/Yongan)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

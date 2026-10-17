@@ -103,7 +103,7 @@ function build(root = ROOT, batchSize = 50) {
     queued.push({
       ...item,
       queue_status: 'NEEDS_EXISTING_GATE_EVIDENCE',
-      mandatory_unverified_before_admission: [
+      existing_gate_evidence_to_inherit_or_complete: [
         'SOURCE_EXACT_AND_CONTEXT', 'PDF_PAGE_BBOX', 'SCIENCE_UNIQUE_ANSWER',
         'CANONICAL_KP', 'CROSSYEAR_SEMANTIC_DEDUP', 'RIGHTS', 'OPERATOR_GATE'
       ]

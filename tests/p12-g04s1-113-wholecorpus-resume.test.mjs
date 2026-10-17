@@ -78,3 +78,20 @@ test('durable B01 50-slot checkpoint matches generated original source IDs and o
   );
   assert.ok(checkpoint.source_position_records.every(x => x.publication_permitted === false));
 });
+
+test('B02 next 50-source checkpoint is contiguous with B01 and never publishes itself', () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const b01 = JSON.parse(fs.readFileSync(path.resolve('data/review/p12-g04s1-113-native-tfmc-b01-50-source-checkpoint-v1.json'),'utf8'));
+  const b02 = JSON.parse(fs.readFileSync(path.resolve('data/review/p12-g04s1-113-native-tfmc-b02-50-source-checkpoint-v1.json'),'utf8'));
+  const planned = build().lanes[0].batches[1];
+  assert.equal(b02.source_position_count,50);
+  assert.equal(b02.new_formal_science_kp_approved,0);
+  assert.equal(b02.new_admission_ready,0);
+  assert.equal(b02.new_published,0);
+  assert.deepEqual(b02.source_position_records.map(x=>x.normalized_source_slot_id),planned.source_slots.map(x=>x.normalized_source_slot_id));
+  assert.equal(b01.source_position_records.at(-1).worklist_number,50);
+  assert.equal(b02.source_position_records[0].worklist_number,51);
+  assert.equal(b02.source_position_records.at(-1).worklist_number,100);
+  assert.ok(b02.source_position_records.every(x=>x.publication_permitted===false));
+});

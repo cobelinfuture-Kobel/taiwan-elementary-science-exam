@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-after94-live736-20261017",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-hanlin-after100-live741-20261017",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 736 小題（376 題是非＋225 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 741 小題（380 題是非＋226 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
   const native6Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-next-native-tfmc6-public-v1.json",{cache:"no-cache"});
   assert.equal(native6Response.status(),200,"Live Pages delivers 113 next native six new source bank");
   const native6=await native6Response.json();
@@ -37,6 +37,17 @@ try {
   assert.deepEqual(after94.blocks.map(b=>b.answer),["X","X","X","④","X","X"]);
   assert.deepEqual(after94.blocks.map(b=>b.canonical_kp_id),["sci_g04s1_01_01","sci_g04s1_01_02","sci_g04s1_02_11","sci_g04s1_02_07","sci_g04s1_01_07","sci_g04s1_01_02"]);
   assert.ok(after94.blocks.every(b=>b.grade===4&&b.semester===1&&b.source_page_pdf_1_based===1&&b.source_pdf_bbox_pts_top_left?.length===4&&!b.original_cropped_assets_included));
+  const hanlin5Resp=await page.request.get(base+"/data/question-bank/p12-g04s1-113-hanlin-native5-after100-public-v1.json",{cache:"no-cache"});
+  assert.equal(hanlin5Resp.status(),200,"Live Pages must deliver Hanlin native original five");
+  const hanlin5=await hanlin5Resp.json();
+  assert.deepEqual([hanlin5.expected_blocks,hanlin5.expected_answer_slots,hanlin5.expected_standalone_true_false,hanlin5.expected_standalone_choice],[5,5,4,1]);
+  assert.deepEqual(hanlin5.blocks.map(b=>b.source_slot_id),[
+   "SCI_G04_S1_113_MID_016|S01|TF|007","SCI_G04_S1_113_MID_016|S02|MC|014",
+   "SCI_G04_S1_113_MID_017|S01|TF|009","SCI_G04_S1_113_MID_017|S01|TF|015",
+   "SCI_G04_S1_113_MID_018|S01|TF|008"]);
+  assert.deepEqual(hanlin5.blocks.map(b=>b.answer),["O","②","X","O","O"]);
+  assert.deepEqual(hanlin5.blocks.map(b=>b.canonical_kp_id),["sci_g04s1_02_11","sci_g04s1_02_10","sci_g04s1_02_03","sci_g04s1_02_01","sci_g04s1_02_02"]);
+  assert.ok(hanlin5.blocks.every(b=>b.grade===4&&b.semester===1&&b.unit==="4-S1-U02"&&b.source_page_pdf_1_based===1&&b.source_pdf_bbox_pts_top_left?.length===4&&!b.original_cropped_assets_included));
   const remaining8Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-taozijiao-final-remaining8-public-v1.json",{cache:"no-cache"});
   assert.equal(remaining8Response.status(),200,"Pages must deploy eight additional original TF");
   const remaining8Bank=await remaining8Response.json();
@@ -285,7 +296,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 736 slots (730 prior main + 5 TF + 1 MC from Minquan/Yongan)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 741 slots (736 prior main + 4 TF + 1 MC Hanlin native)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

@@ -37,6 +37,17 @@ try {
   assert.deepEqual(after94.blocks.map(b=>b.answer),["X","X","X","④","X","X"]);
   assert.deepEqual(after94.blocks.map(b=>b.canonical_kp_id),["sci_g04s1_01_01","sci_g04s1_01_02","sci_g04s1_02_11","sci_g04s1_02_07","sci_g04s1_01_07","sci_g04s1_01_02"]);
   assert.ok(after94.blocks.every(b=>b.grade===4&&b.semester===1&&b.source_page_pdf_1_based===1&&b.source_pdf_bbox_pts_top_left?.length===4&&!b.original_cropped_assets_included));
+  const hanlin5Resp=await page.request.get(base+"/data/question-bank/p12-g04s1-113-hanlin-native5-after100-public-v1.json",{cache:"no-cache"});
+  assert.equal(hanlin5Resp.status(),200,"Live Pages must deliver Hanlin native original five");
+  const hanlin5=await hanlin5Resp.json();
+  assert.deepEqual([hanlin5.expected_blocks,hanlin5.expected_answer_slots,hanlin5.expected_standalone_true_false,hanlin5.expected_standalone_choice],[5,5,4,1]);
+  assert.deepEqual(hanlin5.blocks.map(b=>b.source_slot_id),[
+   "SCI_G04_S1_113_MID_016|S01|TF|007","SCI_G04_S1_113_MID_016|S02|MC|014",
+   "SCI_G04_S1_113_MID_017|S01|TF|009","SCI_G04_S1_113_MID_017|S01|TF|015",
+   "SCI_G04_S1_113_MID_018|S01|TF|008"]);
+  assert.deepEqual(hanlin5.blocks.map(b=>b.answer),["O","②","X","O","O"]);
+  assert.deepEqual(hanlin5.blocks.map(b=>b.canonical_kp_id),["sci_g04s1_02_11","sci_g04s1_02_10","sci_g04s1_02_03","sci_g04s1_02_01","sci_g04s1_02_02"]);
+  assert.ok(hanlin5.blocks.every(b=>b.grade===4&&b.semester===1&&b.unit==="4-S1-U02"&&b.source_page_pdf_1_based===1&&b.source_pdf_bbox_pts_top_left?.length===4&&!b.original_cropped_assets_included));
   const remaining8Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-taozijiao-final-remaining8-public-v1.json",{cache:"no-cache"});
   assert.equal(remaining8Response.status(),200,"Pages must deploy eight additional original TF");
   const remaining8Bank=await remaining8Response.json();

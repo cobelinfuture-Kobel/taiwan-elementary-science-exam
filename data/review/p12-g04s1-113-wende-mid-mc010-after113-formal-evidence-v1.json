@@ -1,0 +1,72 @@
+{
+  "schema_version": "P12_113_G04S1_WENDE_MID_MC010_AFTER113_FORMAL_V1",
+  "scope": "113 school paper original text; 4-S1-U02 within frozen 48 Kanghsuan KP; one independent multiple-choice item",
+  "base_main_sha": "f70580f532d205cbbc49e492cbb56a7770f36a86",
+  "prior_site_answer_slots": 749,
+  "prior_113_published_source_ids": 113,
+  "prior_suppression": "Draft PR #124 data/review/p12-g04s1-113-main-published113-source-suppression-readback-v8.json",
+  "source_pdf_drive_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+  "source_pdf_name": "113_南一_四上_自然_期中評量卷_文德國小.pdf",
+  "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+  "source_pdf_page_count": 2,
+  "native_text_source_verified": true,
+  "pdf_original_printed_answer_marker_bbox_source": "Draft PR #124 data/review/p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+  "source_rights": "School-administered original exam question text only; Taiwan Copyright Act Article 9 per existing S3-P03; no original PDF/crops/third-party images/teacher key",
+  "original_teacher_answer_key_authenticated": false,
+  "actual_science_answer_independent_not_teacher_key": true,
+  "frozen_authority": "site/data/authority/science-g03-g04-selector-v3.json",
+  "formal_science_kp_approved_new": 1,
+  "admission_ready_new": 1,
+  "published_new_before_main_pages_e2e": 0,
+  "expected_public_site_answer_slots_after_live_e2e": 750,
+  "expected_113_published_after_live_e2e": 114,
+  "dedup_screen": {
+    "against_113_published": "All 12 active 113 public batch assets from published113 suppression; 113 original source slots scanned; no source slot, exact stem or matching four-reporter answer event",
+    "against_114_original_archive": "All 25 archived original 114 G04S1 school exam sets (717 individual original source records) compared via water-body and report-proposition screening; no equivalent composite report-selection answer event identified",
+    "caveat": "Lexical comparison is not by itself proof of semantic uniqueness; manual option-level subject and correct/incorrect proposition comparison separately completed for water habitat and environment reports"
+  },
+  "held_related": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|004",
+      "status": "HOLD_DUPLICATE_RISK",
+      "reason": "Betta fish ocean environment closely overlaps 114 Heshun MID002 MC008 betta habitat identification"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|008",
+      "status": "HOLD_DUPLICATE_RISK",
+      "reason": "Similar aquatic plant wrong-statement decision to already published 113 Jiande MID011 MC003"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|012",
+      "status": "HOLD_SCIENCE_QUALIFICATION",
+      "reason": "Untreated wastewater assertion requires cautious interpretation and not forced exact independent science conclusion"
+    }
+  ],
+  "record": {
+    "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|010",
+    "original_page_pdf_1_based": 1,
+    "printed_answer_parenthesis_pdf_bbox_pts_top_left": [
+      428.04,
+      788.23,
+      460,
+      801.18
+    ],
+    "original_full_stem": "四年甲班在做水域環境的報告，下列哪一組報告的內容最正確？",
+    "original_ordered_options": [
+      "①億晨組:王功漁港可以看到許多紅樹林與招潮蟹，是因為這裡是屬於河流水域",
+      "②因任組:埤塘的水流靜止，所以水生植物的根要能固定才不會被水沖走",
+      "③麗貞組:海洋是世界上最大的水域環境，可以看到許多藻類與珊瑚",
+      "④紹唐組:臺灣的河流大又寬，可以在河流上看到許多遊輪航行。"
+    ],
+    "model_independently_reasoned_answer": "③",
+    "direct_canonical_kp": "sci_g04s1_02_02",
+    "direct_unit": "4-S1-U02",
+    "unique_answer": true,
+    "all_gate_pass": true,
+    "duplicate_source_id": false,
+    "rights_gate": "TEXT_ONLY",
+    "operator_gate": "EXISTING_113_BATCH_SCOPE_AUTHORIZATION",
+    "original_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56"
+  },
+  "publication_gate": "FOCUSED_CI_AND_A4_PASS_THEN_MAIN_AND_PAGES_REAL_CHROMIUM_E2E"
+}

@@ -48,6 +48,16 @@ try {
   assert.deepEqual(hanlin5.blocks.map(b=>b.answer),["O","②","X","O","O"]);
   assert.deepEqual(hanlin5.blocks.map(b=>b.canonical_kp_id),["sci_g04s1_02_11","sci_g04s1_02_10","sci_g04s1_02_03","sci_g04s1_02_01","sci_g04s1_02_02"]);
   assert.ok(hanlin5.blocks.every(b=>b.grade===4&&b.semester===1&&b.unit==="4-S1-U02"&&b.source_page_pdf_1_based===1&&b.source_pdf_bbox_pts_top_left?.length===4&&!b.original_cropped_assets_included));
+  const new5Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-dongguang-dahua-native5-after105-public-v1.json",{cache:"no-cache"});
+  assert.equal(new5Response.status(),200,"Live Pages must deliver 5 native standalone original school answer slots");
+  const new5=await new5Response.json();
+  assert.deepEqual([new5.expected_blocks,new5.expected_answer_slots,new5.expected_standalone_true_false,new5.expected_standalone_choice],[5,5,3,2]);
+  assert.deepEqual(new5.blocks.map(b=>b.source_slot_id),[
+   "SCI_G04_S1_113_MID_004|S02|TF|002","SCI_G04_S1_113_MID_004|S02|TF|012","SCI_G04_S1_113_MID_004|S02|TF|015",
+   "SCI_G04_S1_113_FINAL_010|S01|MC|016","SCI_G04_S1_113_FINAL_010|S01|MC|021"]);
+  assert.deepEqual(new5.blocks.map(b=>b.answer),["O","O","O","③","②"]);
+  assert.deepEqual(new5.blocks.map(b=>b.canonical_kp_id),["sci_g04s1_02_13","sci_g04s1_02_05","sci_g04s1_02_13","sci_g04s1_03_08","sci_g04s1_03_08"]);
+  assert.ok(new5.blocks.every(b=>b.grade===4&&b.semester===1&&b.source_pdf_bbox_pts_top_left?.length===4&&[1,2].includes(b.source_page_pdf_1_based)&&!b.original_cropped_assets_included));
   const remaining8Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-taozijiao-final-remaining8-public-v1.json",{cache:"no-cache"});
   assert.equal(remaining8Response.status(),200,"Pages must deploy eight additional original TF");
   const remaining8Bank=await remaining8Response.json();

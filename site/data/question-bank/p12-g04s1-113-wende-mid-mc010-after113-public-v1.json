@@ -1,0 +1,51 @@
+{
+  "schema_version": "SCIENCE_P12_113_G04S1_WENDE_MID_MC010_AFTER113_PUBLIC_V1",
+  "public_site_integrated": true,
+  "expected_blocks": 1,
+  "expected_answer_slots": 1,
+  "expected_standalone_true_false": 0,
+  "expected_standalone_choice": 1,
+  "original_teacher_answer_key_authenticated": false,
+  "original_cropped_images_included": false,
+  "source_image_geometry_verified": "NATIVE_PDF_RAWDICT_PRINTED_BRACKET_SHA256_VERIFIED",
+  "evidence_ref": "data/review/p12-g04s1-113-wende-mid-mc010-after113-formal-evidence-v1.json",
+  "blocks": [
+    {
+      "id": "P12_113_G04S1_WENDE_MID_MC_010",
+      "source_id": "SCI_G04_S1_113_MID_001",
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|010",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "source_pdf_bbox_pts_top_left": [
+        428.04,
+        788.23,
+        460,
+        801.18
+      ],
+      "original_question_number": "010",
+      "grade": 4,
+      "semester": 1,
+      "unit": "4-S1-U02",
+      "canonical_kp_id": "sci_g04s1_02_02",
+      "type": "mcq",
+      "stem": "四年甲班在做水域環境的報告，下列哪一組報告的內容最正確？",
+      "options": [
+        "①億晨組:王功漁港可以看到許多紅樹林與招潮蟹，是因為這裡是屬於河流水域",
+        "②因任組:埤塘的水流靜止，所以水生植物的根要能固定才不會被水沖走",
+        "③麗貞組:海洋是世界上最大的水域環境，可以看到許多藻類與珊瑚",
+        "④紹唐組:臺灣的河流大又寬，可以在河流上看到許多遊輪航行。"
+      ],
+      "answer": "③",
+      "answer_explanation": "海洋是地球上面積最大的水域環境，能見到多種藻類及珊瑚。王功漁港附近屬海岸／河海交界而非純河流；埤塘水流平緩不能用水流沖走解釋所有植物根部固定；臺灣河川普遍坡度較大、河道較短，不是適合大型遊輪航行的大河。",
+      "answer_assumption": "以四年級自然科學教材的一般水域分類與臺灣常見河流情況判斷，並非斷言全臺所有河道均不能行船。",
+      "source": "P12_OPERATOR_APPROVED_QUESTION",
+      "certification_status": "OPERATOR_APPROVED_PUBLIC",
+      "operator_publication_approval": true,
+      "original_teacher_answer_key_authenticated": false,
+      "original_cropped_assets_included": false,
+      "dependency_review_verified": true,
+      "copyright_path": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "evidence_ref": "data/review/p12-g04s1-113-wende-mid-mc010-after113-formal-evidence-v1.json"
+    }
+  ]
+}

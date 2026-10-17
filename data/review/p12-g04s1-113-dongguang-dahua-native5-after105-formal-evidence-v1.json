@@ -1,0 +1,258 @@
+{
+  "schema_version": "P12_G04S1_113_NATIVE5_AFTER105_FORMAL_SOURCE_SCIENCE_KP_V1",
+  "scope": "113 academic year four-up 29 original PDFs, 113 Kanghsuan frozen 48 canonical KPs: Dongguang South-One midterm U02 / Dahua Hanlin final U03; independent text-only source questions",
+  "base_main_sha": "202473388d2a62ca7fc7a17f216c19f56db3fba7",
+  "base_public_answer_slots": 741,
+  "published105_suppression": "data/review/p12-g04s1-113-main-published105-source-suppression-readback-v5.json",
+  "published_113_before": 105,
+  "publisher_distinction_kept": true,
+  "original_pdfs": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "pdf_filename": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+      "sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "drive_file_id": "1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_010",
+      "pdf_filename": "113_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "drive_file_id": "1GoIilzz3hFCOk56j6rwfOBWllEjnrlzr"
+    }
+  ],
+  "native_pdf_rawdict_bbox_proven_count": 5,
+  "source_exact_full_stem_choices_count": 5,
+  "parent_shared_story": "Only the 113 Dahua final uses surrounding school-composed story paragraphs; original context retained within evidence with layout location on PDF p.2. Both admitted questions independently answerable from their complete printed question and all four choices; page-scoped situation is not a prerequisite for selecting the sole answer.",
+  "duplicate_checked_against": "105 already published 113 source slots; active public question banks, 25 archived 114 originals; option reorder and semantic answer concept. Similar KP alone is NOT duplicate; same answering event is.",
+  "held_dedup": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S02|TF|017",
+      "reason": "114_YONGAN_MID_ORIGINAL_VERBATIM_TERRESTRIAL_ROOTS_WATER_ROT"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S02|TF|020",
+      "reason": "114_DONGGUANG_AND_PUREN_ORIGINAL_SEMANTIC_DUPLICATE_FLOATING_ROOTS"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S01|MC|015",
+      "reason": "114_SHIHU_AND_114_DADUN_ORIGINAL_DOOR_SOUND_SOLID_SEMANTIC_DUPLICATE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S01|MC|022",
+      "reason": "114_DAHUA_ORIGINAL_HAND_SHADOW_POSITION_SAME_QUESTION"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S01|MC|005",
+      "reason": "114_SHIHU_FROG_LUNG_RESPIRATION_SEMANTIC_OVERLAP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S01|MC|024",
+      "reason": "PRINTED_OPTION3_FLAW_TRAIN_CROSSING_FLASHING_BELL_PHRASE_UNRESOLVED"
+    }
+  ],
+  "no_teacher_original_answer_key_claimed": true,
+  "rights": "TAIWAN_ART9_SCHOOL_EXAM_QUESTION_TEXT_ONLY_WITHOUT_THIRD_PARTY_PDF_OR_IMAGES",
+  "operator_scope": "P12_113_G04S1_ALL29_48KP_SELECTIVE_ADMISSION_ALREADY_APPROVED",
+  "formal_science_kp_approved_new": 5,
+  "admission_ready_new": 5,
+  "published_new_before_main_and_pages": 0,
+  "expected_public_total_after_live_e2e": 746,
+  "expected_113_published_source_count_after_live_e2e": 110,
+  "records": [
+    {
+      "id": "P12_113_G04S1_DONGGUANG_MID_TF_002",
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S02|TF|002",
+      "pdf_filename": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+      "original_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_pdf_page_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        371.35,
+        136.21,
+        403.31,
+        149.49
+      ],
+      "original_native_bbox_method": "ORIGINAL_RAWDICT_GLYPH_OPEN_CLOSE_PARENTHESIS_TOP_LEFT_COORDINATES_ROUND_0.01_PT",
+      "original_section": "S02",
+      "question_number": 2,
+      "original_stem": "將水生動物適應環境的資料用圖形或表格整理時，會比較容易看出牠們之間的異同。",
+      "original_full_ordered_options": null,
+      "original_glyph_option_labels": null,
+      "normalized_option_labels": "○1/○2/○3/○4 -> ①/②/③/④",
+      "shared_parent_story_exact": null,
+      "shared_parent_story_aid_only": null,
+      "standalone_question_scientifically_independent": true,
+      "model_science_unique_answer": "O",
+      "model_science_reason": "將水域生物觀察紀錄整理為圖形或表格，便於比較不同生物的構造與適應特徵；屬觀察紀錄整理的方法。",
+      "model_reason_assumption": null,
+      "direct_canonical_kp_id": "sci_g04s1_02_13",
+      "unit": "4-S1-U02",
+      "crossyear_duplicate_absent": true,
+      "operator_scope_approved": true,
+      "teacher_answer_not_authenticated": true,
+      "school_text_only_rights_approved": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_DONGGUANG_MID_TF_012",
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S02|TF|012",
+      "pdf_filename": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+      "original_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_pdf_page_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        371.35,
+        500.44,
+        403.31,
+        513.72
+      ],
+      "original_native_bbox_method": "ORIGINAL_RAWDICT_GLYPH_OPEN_CLOSE_PARENTHESIS_TOP_LEFT_COORDINATES_ROUND_0.01_PT",
+      "original_section": "S02",
+      "question_number": 12,
+      "original_stem": "有些水生植物的莖和葉都沉在水裡。",
+      "original_full_ordered_options": null,
+      "original_glyph_option_labels": null,
+      "normalized_option_labels": "○1/○2/○3/○4 -> ①/②/③/④",
+      "shared_parent_story_exact": null,
+      "shared_parent_story_aid_only": null,
+      "standalone_question_scientifically_independent": true,
+      "model_science_unique_answer": "O",
+      "model_science_reason": "沉水性水生植物的莖葉可全部生長在水面下，例如水蘊草；原題說「有些」，科學上成立。",
+      "model_reason_assumption": null,
+      "direct_canonical_kp_id": "sci_g04s1_02_05",
+      "unit": "4-S1-U02",
+      "crossyear_duplicate_absent": true,
+      "operator_scope_approved": true,
+      "teacher_answer_not_authenticated": true,
+      "school_text_only_rights_approved": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_DONGGUANG_MID_TF_015",
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S02|TF|015",
+      "pdf_filename": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+      "original_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_pdf_page_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        371.35,
+        591.54,
+        403.31,
+        604.82
+      ],
+      "original_native_bbox_method": "ORIGINAL_RAWDICT_GLYPH_OPEN_CLOSE_PARENTHESIS_TOP_LEFT_COORDINATES_ROUND_0.01_PT",
+      "original_section": "S02",
+      "question_number": 15,
+      "original_stem": "如果想知道埤塘內有什麼水生生物，我們能在網路上利用關鍵字「埤塘」查資料。",
+      "original_full_ordered_options": null,
+      "original_glyph_option_labels": null,
+      "normalized_option_labels": "○1/○2/○3/○4 -> ①/②/③/④",
+      "shared_parent_story_exact": null,
+      "shared_parent_story_aid_only": null,
+      "standalone_question_scientifically_independent": true,
+      "model_science_unique_answer": "O",
+      "model_science_reason": "使用地點名稱作為網路搜尋關鍵字可事先蒐集該水域的生物資料；後續仍需透過可靠來源或實地觀察確認。",
+      "model_reason_assumption": null,
+      "direct_canonical_kp_id": "sci_g04s1_02_13",
+      "unit": "4-S1-U02",
+      "crossyear_duplicate_absent": true,
+      "operator_scope_approved": true,
+      "teacher_answer_not_authenticated": true,
+      "school_text_only_rights_approved": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_DAHUA_FINAL_MC_016",
+      "source_id": "SCI_G04_S1_113_FINAL_010",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S01|MC|016",
+      "pdf_filename": "113_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "original_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "source_pdf_page_1_based": 2,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        66.48,
+        187.75,
+        99.62,
+        198.79
+      ],
+      "original_native_bbox_method": "ORIGINAL_RAWDICT_GLYPH_OPEN_CLOSE_PARENTHESIS_TOP_LEFT_COORDINATES_ROUND_0.01_PT",
+      "original_section": "S01",
+      "question_number": 16,
+      "original_stem": "翊楷找尋屋內的物品試圖讓陽光照射進屋內，哪樣物品可以產生此作用？",
+      "original_full_ordered_options": [
+        "①木頭椅",
+        "②圍裙",
+        "③鋁箔紙",
+        "④抹布"
+      ],
+      "original_glyph_option_labels": [
+        "○1",
+        "○2",
+        "○3",
+        "○4"
+      ],
+      "normalized_option_labels": "○1/○2/○3/○4 -> ①/②/③/④",
+      "shared_parent_story_exact": "忽然木門板傳來急促的敲門聲，把大夥兒嚇了一跳，想開門查看卻發現門鎖住了，桌上有一組原先製作鑰匙的鑄鐵模具，只要將與鑰匙形狀相同的物品放入鑰匙孔，門便能打開，同時手電筒的電池剛好沒電，屋內頓時間又陷入一片漆黑……",
+      "shared_parent_story_aid_only": true,
+      "standalone_question_scientifically_independent": true,
+      "model_science_unique_answer": "③",
+      "model_science_reason": "鋁箔紙表面可反射日光，能在適當方向擺放時將陽光反射至屋內；其餘物品不適合充當反光板。",
+      "model_reason_assumption": "鋁箔紙的反光面朝向能將光反射至屋內的方向。",
+      "direct_canonical_kp_id": "sci_g04s1_03_08",
+      "unit": "4-S1-U03",
+      "crossyear_duplicate_absent": true,
+      "operator_scope_approved": true,
+      "teacher_answer_not_authenticated": true,
+      "school_text_only_rights_approved": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_DAHUA_FINAL_MC_021",
+      "source_id": "SCI_G04_S1_113_FINAL_010",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S01|MC|021",
+      "pdf_filename": "113_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "original_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "source_pdf_page_1_based": 2,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        66.48,
+        574.8,
+        99.62,
+        585.84
+      ],
+      "original_native_bbox_method": "ORIGINAL_RAWDICT_GLYPH_OPEN_CLOSE_PARENTHESIS_TOP_LEFT_COORDINATES_ROUND_0.01_PT",
+      "original_section": "S01",
+      "question_number": 21,
+      "original_stem": "眼前哪一個景象也是和光的反射有關？",
+      "original_full_ordered_options": [
+        "①樹林間灑下的陽光",
+        "②路邊汽車車身反光",
+        "③警車上的警示燈",
+        "④廟宇外高掛的紅燈籠"
+      ],
+      "original_glyph_option_labels": [
+        "○1",
+        "○2",
+        "○3",
+        "○4"
+      ],
+      "normalized_option_labels": "○1/○2/○3/○4 -> ①/②/③/④",
+      "shared_parent_story_exact": "順利將門打開後，脩恩與夥伴們繼續向溪洲山頂前進，終於登上了557公尺的山頂，邊休息邊品嘗著美味的麵包，一旁的樹梢還有烏鴉在發出「嘎嘎嘎」的叫聲，向下眺望則是整片大漢溪的自然美景……",
+      "shared_parent_story_aid_only": true,
+      "standalone_question_scientifically_independent": true,
+      "model_science_unique_answer": "②",
+      "model_science_reason": "汽車車身受光照後將部分入射光反射進入眼睛，形成可見的反光；其他選項主要描述光源或直接照明。",
+      "model_reason_assumption": null,
+      "direct_canonical_kp_id": "sci_g04s1_03_08",
+      "unit": "4-S1-U03",
+      "crossyear_duplicate_absent": true,
+      "operator_scope_approved": true,
+      "teacher_answer_not_authenticated": true,
+      "school_text_only_rights_approved": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    }
+  ]
+}

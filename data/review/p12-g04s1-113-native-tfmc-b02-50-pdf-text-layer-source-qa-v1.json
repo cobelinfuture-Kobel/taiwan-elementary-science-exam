@@ -1,0 +1,1001 @@
+{
+  "schema_version": "P12_G04S1_113_NATIVE_TFMC_B02_50_PDF_TEXT_LAYER_ORIGINAL_QUESTION_READBACK_V1",
+  "mode": "SOURCE_ONLY_NOT_ADMISSION",
+  "scope": "113 G04 S1 48KP, three verified original school papers / B02 50 positions",
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "source_pr": 124,
+  "prior_b02_checkpoint": "data/review/p12-g04s1-113-native-tfmc-b02-50-source-checkpoint-v1.json",
+  "bbox_ref": "data/review/p12-g04s1-113-native-tfmc-b02-50-original-native-glyph-bbox-readback-v1.json",
+  "paper_checks": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "expected": 17,
+      "recovered": 17,
+      "mc": 1,
+      "mc_full_choices": 1,
+      "mc_needs_figure_or_option_visual": 0
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "expected": 22,
+      "recovered": 22,
+      "mc": 12,
+      "mc_full_choices": 12,
+      "mc_needs_figure_or_option_visual": 0
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "expected": 11,
+      "recovered": 11,
+      "mc": 2,
+      "mc_full_choices": 2,
+      "mc_needs_figure_or_option_visual": 0
+    }
+  ],
+  "source_positions": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|15",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "「朔」會在哪一天出現？ ①農曆 1 日\r\n②農曆 8 日 ③農曆 15 日 ④農曆 26 日",
+      "pdf_text_layer_stem": "「朔」會在哪一天出現？",
+      "option_items": [
+        {
+          "original_label": "①",
+          "text": "農曆 1 日"
+        },
+        {
+          "original_label": "②",
+          "text": "農曆 8 日"
+        },
+        {
+          "original_label": "③",
+          "text": "農曆 15 日"
+        },
+        {
+          "original_label": "④",
+          "text": "農曆 26 日"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|1",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "每年的七夕情人節（農曆七月初七）當\r\n天，看到的月相都會一樣。",
+      "pdf_text_layer_stem": "每年的七夕情人節（農曆七月初七）當\r\n天，看到的月相都會一樣。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|4",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "在重陽節（農曆九月初九）當天，可能會\r\n觀察到半圓形的月相。",
+      "pdf_text_layer_stem": "在重陽節（農曆九月初九）當天，可能會\r\n觀察到半圓形的月相。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|5",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "天體的改變通常會影響人們的生活。",
+      "pdf_text_layer_stem": "天體的改變通常會影響人們的生活。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|6",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "一般來說，我們只能在生態池中看到一種\r\n水生動物。",
+      "pdf_text_layer_stem": "一般來說，我們只能在生態池中看到一種\r\n水生動物。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|7",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "有些原住民族會在朔的時候舉行驅蟲避邪\r\n的活動。",
+      "pdf_text_layer_stem": "有些原住民族會在朔的時候舉行驅蟲避邪\r\n的活動。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|8",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "一般來說，我們能看到不同種類的水生植\r\n物生長在生態池中。",
+      "pdf_text_layer_stem": "一般來說，我們能看到不同種類的水生植\r\n物生長在生態池中。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|9",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "因為空中的天體與我們之間的距離非常遙\r\n遠，所以跟我們的生活沒有關係。",
+      "pdf_text_layer_stem": "因為空中的天體與我們之間的距離非常遙\r\n遠，所以跟我們的生活沒有關係。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|10",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "小華在端午節（農曆五月初五）當天看到\r\n半圓形的月相，表示他在之後的端午節當\r\n天都會看到半圓形的月相。",
+      "pdf_text_layer_stem": "小華在端午節（農曆五月初五）當天看到\r\n半圓形的月相，表示他在之後的端午節當\r\n天都會看到半圓形的月相。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|11",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "為了讓水生生物能永續生存，我們應該要\r\n愛護水域環境。",
+      "pdf_text_layer_stem": "為了讓水生生物能永續生存，我們應該要\r\n愛護水域環境。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|13",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "在國曆 9 月 30 日的晚上，一定看不到月\r\n亮。",
+      "pdf_text_layer_stem": "在國曆 9 月 30 日的晚上，一定看不到月\r\n亮。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|14",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "牛郎與織女、玉兔搗藥和兩個太陽都是與\r\n月亮有關的傳說故事。",
+      "pdf_text_layer_stem": "牛郎與織女、玉兔搗藥和兩個太陽都是與\r\n月亮有關的傳說故事。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|16",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "愛護水域環境是每一個人應盡的責任。",
+      "pdf_text_layer_stem": "愛護水域環境是每一個人應盡的責任。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|17",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "陸生植物的構造和水生植物可能不大一\r\n樣，導致陸生植物的根泡在水中後可能會\r\n爛掉。",
+      "pdf_text_layer_stem": "陸生植物的構造和水生植物可能不大一\r\n樣，導致陸生植物的根泡在水中後可能會\r\n爛掉。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|18",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "有些水生動物會在水生植物的葉子上停\r\n留。",
+      "pdf_text_layer_stem": "有些水生動物會在水生植物的葉子上停\r\n留。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|19",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "有時候可以同時看到夕陽和月亮出現在天\r\n空中。",
+      "pdf_text_layer_stem": "有時候可以同時看到夕陽和月亮出現在天\r\n空中。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|20",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "pdf_text_layer_full_original_question": "部分水生植物的根會浮在水中，而其他構\r\n造則在水面上漂浮。 請翻面繼續作答",
+      "pdf_text_layer_stem": "部分水生植物的根會浮在水中，而其他構\r\n造則在水面上漂浮。 請翻面繼續作答",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S1|TF|2",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "適合生活在湖泊裡的生物，不一定適合生\r\n活在海洋中。",
+      "pdf_text_layer_stem": "適合生活在湖泊裡的生物，不一定適合生\r\n活在海洋中。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S1|TF|4",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "流水會把地表物質搬到其他地方，等地表\r\n環境產生新樣貌後，會暫時趨於穩定現象。",
+      "pdf_text_layer_stem": "流水會把地表物質搬到其他地方，等地表\r\n環境產生新樣貌後，會暫時趨於穩定現象。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S1|TF|5",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "地震報告：地震規模 6.6，最大震度 5 弱。\r\n「6.6」是指地震釋放能量的大小；「5 弱」\r\n是指人體感受到震動或是建築物受到破壞\r\n的程度，震度從 0 級到 7 級，共分十級。",
+      "pdf_text_layer_stem": "地震報告：地震規模 6.6，最大震度 5 弱。\r\n「6.6」是指地震釋放能量的大小；「5 弱」\r\n是指人體感受到震動或是建築物受到破壞\r\n的程度，震度從 0 級到 7 級，共分十級。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S1|TF|6",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "為了做保護環境，不要隨意丟棄垃圾，主\r\n動參與淨灘、淨溪活動。",
+      "pdf_text_layer_stem": "為了做保護環境，不要隨意丟棄垃圾，主\r\n動參與淨灘、淨溪活動。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S1|TF|7",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "如果地震發生時，我們所在的地方被預測\r\n震度達 4 級以上，手機會收到警報。",
+      "pdf_text_layer_stem": "如果地震發生時，我們所在的地方被預測\r\n震度達 4 級以上，手機會收到警報。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S1|TF|8",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "臺北市的水域環境除了基隆河、淡水河等\r\n溪流以外，市區裡沒有其他水域環境。",
+      "pdf_text_layer_stem": "臺北市的水域環境除了基隆河、淡水河等\r\n溪流以外，市區裡沒有其他水域環境。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S1|TF|9",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "進行水域環境調查時，可以帶圖鑑、紀錄\r\n表、撈網、水桶、望遠鏡，幫助觀察紀錄。",
+      "pdf_text_layer_stem": "進行水域環境調查時，可以帶圖鑑、紀錄\r\n表、撈網、水桶、望遠鏡，幫助觀察紀錄。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S1|TF|10",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "睡蓮和水蘊草，會隨著水位的高低而變\r\n化，來適應水域環境。",
+      "pdf_text_layer_stem": "睡蓮和水蘊草，會隨著水位的高低而變\r\n化，來適應水域環境。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S1|TF|11",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "森林裡有許多鳥類、松鼠，而栗喉蜂虎會\r\n在高高的樹上鑽洞棲息。",
+      "pdf_text_layer_stem": "森林裡有許多鳥類、松鼠，而栗喉蜂虎會\r\n在高高的樹上鑽洞棲息。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S1|TF|13",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "溪流是靜止且陽光充足的水域環境，適合\r\n臺灣萍蓬草、鯉魚等生物生存。",
+      "pdf_text_layer_stem": "溪流是靜止且陽光充足的水域環境，適合\r\n臺灣萍蓬草、鯉魚等生物生存。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S2|MC|1",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "下列何者是非生物？\r\n① 沙 ②苔蘚 ③榕樹 ④五色鳥。",
+      "pdf_text_layer_stem": "下列何者是非生物？",
+      "option_items": [
+        {
+          "original_label": "①",
+          "text": "沙"
+        },
+        {
+          "original_label": "②",
+          "text": "苔蘚"
+        },
+        {
+          "original_label": "③",
+          "text": "榕樹"
+        },
+        {
+          "original_label": "④",
+          "text": "五色鳥。"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S2|MC|2",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "鬆軟排水性好的土壤適合讓哪種生物生長？\r\n①小米 ②茶葉 ③西瓜 ④水稻。",
+      "pdf_text_layer_stem": "鬆軟排水性好的土壤適合讓哪種生物生長？",
+      "option_items": [
+        {
+          "original_label": "①",
+          "text": "小米"
+        },
+        {
+          "original_label": "②",
+          "text": "茶葉"
+        },
+        {
+          "original_label": "③",
+          "text": "西瓜"
+        },
+        {
+          "original_label": "④",
+          "text": "水稻。"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S2|MC|3",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "下列什麼因素會改變地表的樣貌呢? ①風\r\n②流水作用 ③人類開發 ④以上都會。",
+      "pdf_text_layer_stem": "下列什麼因素會改變地表的樣貌呢?",
+      "option_items": [
+        {
+          "original_label": "①",
+          "text": "風"
+        },
+        {
+          "original_label": "②",
+          "text": "流水作用"
+        },
+        {
+          "original_label": "③",
+          "text": "人類開發"
+        },
+        {
+          "original_label": "④",
+          "text": "以上都會。"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S2|MC|4",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "下列關於岩石的敘述，哪一項正確？\r\n①適合種植農作物 ②用來鋪設步道\r\n③摸起來細細軟軟 ④岩石裡有蟻窩。",
+      "pdf_text_layer_stem": "下列關於岩石的敘述，哪一項正確？",
+      "option_items": [
+        {
+          "original_label": "①",
+          "text": "適合種植農作物"
+        },
+        {
+          "original_label": "②",
+          "text": "用來鋪設步道"
+        },
+        {
+          "original_label": "③",
+          "text": "摸起來細細軟軟"
+        },
+        {
+          "original_label": "④",
+          "text": "岩石裡有蟻窩。"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S2|MC|5",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "招潮蟹喜歡棲息在哪種環境？\r\n①沙丘上鑽洞 ②廣闊的\r\n海洋 ③鬆軟泥灘地\r\n④排水性好的土壤。",
+      "pdf_text_layer_stem": "招潮蟹喜歡棲息在哪種環境？",
+      "option_items": [
+        {
+          "original_label": "①",
+          "text": "沙丘上鑽洞"
+        },
+        {
+          "original_label": "②",
+          "text": "廣闊的\r\n海洋"
+        },
+        {
+          "original_label": "③",
+          "text": "鬆軟泥灘地"
+        },
+        {
+          "original_label": "④",
+          "text": "排水性好的土壤。"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S2|MC|6",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "水中的魚如何呼吸獲得空氣，維持生存呢？\r\n①口和魚鰓一開一合 ②鬆擺動魚鰭\r\n③眼睛一開一合 ④張開鼻孔。",
+      "pdf_text_layer_stem": "水中的魚如何呼吸獲得空氣，維持生存呢？",
+      "option_items": [
+        {
+          "original_label": "①",
+          "text": "口和魚鰓一開一合"
+        },
+        {
+          "original_label": "②",
+          "text": "鬆擺動魚鰭"
+        },
+        {
+          "original_label": "③",
+          "text": "眼睛一開一合"
+        },
+        {
+          "original_label": "④",
+          "text": "張開鼻孔。"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S2|MC|7",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "觀察右圖魚的構\r\n造，鰓蓋附近的\r\n魚鰭是哪一種？\r\n①背鰭 ②尾鰭 ③臀鰭 ④胸鰭。",
+      "pdf_text_layer_stem": "觀察右圖魚的構\r\n造，鰓蓋附近的\r\n魚鰭是哪一種？",
+      "option_items": [
+        {
+          "original_label": "①",
+          "text": "背鰭"
+        },
+        {
+          "original_label": "②",
+          "text": "尾鰭"
+        },
+        {
+          "original_label": "③",
+          "text": "臀鰭"
+        },
+        {
+          "original_label": "④",
+          "text": "胸鰭。"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S2|MC|8",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "關於大萍的敘述，哪一項正確的？\r\n① 根長在水底泥土裡，而且有地下莖\r\n② 葉面上有細毛，幫助它漂浮在水面上\r\n③ 有明顯膨大的葉柄，可以儲存空氣\r\n④ 壓入水中再放開，它不會再浮到水面上。",
+      "pdf_text_layer_stem": "關於大萍的敘述，哪一項正確的？",
+      "option_items": [
+        {
+          "original_label": "①",
+          "text": "根長在水底泥土裡，而且有地下莖"
+        },
+        {
+          "original_label": "②",
+          "text": "葉面上有細毛，幫助它漂浮在水面上"
+        },
+        {
+          "original_label": "③",
+          "text": "有明顯膨大的葉柄，可以儲存空氣"
+        },
+        {
+          "original_label": "④",
+          "text": "壓入水中再放開，它不會再浮到水面上。"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S2|MC|10",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "哪一種水生植物的地下莖和葉柄切開後\r\n(如下圖)，可以看到裡面有中空的管道，而\r\n且能儲存空氣？\r\n①荷花 ②布袋蓮 \r\n③浮萍 ④水蘊草。",
+      "pdf_text_layer_stem": "哪一種水生植物的地下莖和葉柄切開後\r\n(如下圖)，可以看到裡面有中空的管道，而\r\n且能儲存空氣？",
+      "option_items": [
+        {
+          "original_label": "①",
+          "text": "荷花"
+        },
+        {
+          "original_label": "②",
+          "text": "布袋蓮"
+        },
+        {
+          "original_label": "③",
+          "text": "浮萍"
+        },
+        {
+          "original_label": "④",
+          "text": "水蘊草。"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S2|MC|11",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "平常我們吃的蓮藕(如右圖)\r\n是 荷 花 的 哪 一 個 部 位 呢 ？ \r\n○1 葉 ○2 果實 ○3 地下莖 ○4 地下根。",
+      "pdf_text_layer_stem": "平常我們吃的蓮藕(如右圖)\r\n是 荷 花 的 哪 一 個 部 位 呢 ？",
+      "option_items": [
+        {
+          "original_label": "○1",
+          "text": "葉"
+        },
+        {
+          "original_label": "○2",
+          "text": "果實"
+        },
+        {
+          "original_label": "○3",
+          "text": "地下莖"
+        },
+        {
+          "original_label": "○4",
+          "text": "地下根。"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S2|MC|12",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "小民在農場生態池裡看到有人坐在葉面上\r\n(右圖)。詢問後得知它叫\r\n「大王蓮」，葉面平貼水面，\r\n根生長在泥土裡，蓮葉體型\r\n大而圓，可承重 50~60 公\r\n斤。小民推測大王蓮是哪種\r\n類型的水生植物？ ①漂浮性 ②浮葉性\r\n③沉水性 ④挺水性。",
+      "pdf_text_layer_stem": "小民在農場生態池裡看到有人坐在葉面上\r\n(右圖)。詢問後得知它叫\r\n「大王蓮」，葉面平貼水面，\r\n根生長在泥土裡，蓮葉體型\r\n大而圓，可承重 50~60 公\r\n斤。小民推測大王蓮是哪種\r\n類型的水生植物？",
+      "option_items": [
+        {
+          "original_label": "①",
+          "text": "漂浮性"
+        },
+        {
+          "original_label": "②",
+          "text": "浮葉性"
+        },
+        {
+          "original_label": "③",
+          "text": "沉水性"
+        },
+        {
+          "original_label": "④",
+          "text": "挺水性。"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S2|MC|13",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj/view",
+      "pdf_text_layer_full_original_question": "下列哪一項行為會破壞水域環境？\r\n①河流上游做好水土保持 ②主動清理水\r\n域附近的垃圾 ③盡量捕捉、採摘水中生物\r\n④檢舉工廠排放廢水。\r\n臺北市民權國小 113 學年\r\n第一學期 期中評量 自然科學試題 四年( )班( )號姓名: 2",
+      "pdf_text_layer_stem": "下列哪一項行為會破壞水域環境？",
+      "option_items": [
+        {
+          "original_label": "①",
+          "text": "河流上游做好水土保持"
+        },
+        {
+          "original_label": "②",
+          "text": "主動清理水\r\n域附近的垃圾"
+        },
+        {
+          "original_label": "③",
+          "text": "盡量捕捉、採摘水中生物"
+        },
+        {
+          "original_label": "④",
+          "text": "檢舉工廠排放廢水。\r\n臺北市民權國小 113 學年\r\n第一學期 期中評量 自然科學試題 四年( )班( )號姓名: 2"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S1|TF|1",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "pdf_text_layer_full_original_question": "西瓜和水稻適合的生存環境相同。",
+      "pdf_text_layer_stem": "西瓜和水稻適合的生存環境相同。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S1|TF|3",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "pdf_text_layer_full_original_question": "地震發生時，所在地預測震度達 4 級，手機會收到\r\n地震警報通知。",
+      "pdf_text_layer_stem": "地震發生時，所在地預測震度達 4 級，手機會收到\r\n地震警報通知。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S1|TF|4",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "pdf_text_layer_full_original_question": "進行水域環境調查時，安全是最重要的，而且應該\r\n盡量維護景觀原貌。",
+      "pdf_text_layer_stem": "進行水域環境調查時，安全是最重要的，而且應該\r\n盡量維護景觀原貌。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S1|TF|5",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "pdf_text_layer_full_original_question": "「魚塭、溪流、海洋、高山湖泊、水田」以上五種\r\n水域環境，有三種是屬於天然形成的。",
+      "pdf_text_layer_stem": "「魚塭、溪流、海洋、高山湖泊、水田」以上五種\r\n水域環境，有三種是屬於天然形成的。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S1|TF|6",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "pdf_text_layer_full_original_question": "把荷花的地下莖和葉柄切開後，可以看到裡面有中\r\n空的管道，能儲存空氣。",
+      "pdf_text_layer_stem": "把荷花的地下莖和葉柄切開後，可以看到裡面有中\r\n空的管道，能儲存空氣。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S1|TF|8",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "pdf_text_layer_full_original_question": "強風或豪雨都無法移動岩石的位置。",
+      "pdf_text_layer_stem": "強風或豪雨都無法移動岩石的位置。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S1|TF|9",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "pdf_text_layer_full_original_question": "小愷舀出水族箱中一半的水量，會發現水族箱中的\r\n水蘊草莖和葉都挺出水面了。",
+      "pdf_text_layer_stem": "小愷舀出水族箱中一半的水量，會發現水族箱中的\r\n水蘊草莖和葉都挺出水面了。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S1|TF|10",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "pdf_text_layer_full_original_question": "在溪邊烤肉、露營很好玩，但也有可能會破壞水域\r\n環境。",
+      "pdf_text_layer_stem": "在溪邊烤肉、露營很好玩，但也有可能會破壞水域\r\n環境。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S1|TF|11",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "pdf_text_layer_full_original_question": "魚的外形通常是流線形，可以減少水的阻力，幫助\r\n牠們在水中運動。",
+      "pdf_text_layer_stem": "魚的外形通常是流線形，可以減少水的阻力，幫助\r\n牠們在水中運動。",
+      "option_items": null,
+      "option_count": 0,
+      "source_type": "TF",
+      "note": null,
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|1",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "pdf_text_layer_full_original_question": "招潮蟹、彈塗魚是哪一種環境中常見的生物呢？\r\n○1 沙漠 ○2 高山 ○3 海邊泥灘地 ○4 海洋。",
+      "pdf_text_layer_stem": "招潮蟹、彈塗魚是哪一種環境中常見的生物呢？",
+      "option_items": [
+        {
+          "original_label": "○1",
+          "text": "沙漠"
+        },
+        {
+          "original_label": "○2",
+          "text": "高山"
+        },
+        {
+          "original_label": "○3",
+          "text": "海邊泥灘地"
+        },
+        {
+          "original_label": "○4",
+          "text": "海洋。"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|2",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "pdf_text_layer_full_original_question": "下列哪一項不是改變地表樣貌的力量？ ○1 人類開\r\n發 ○2 流水作用 ○3 強烈地震 ○4 空氣污染。",
+      "pdf_text_layer_stem": "下列哪一項不是改變地表樣貌的力量？",
+      "option_items": [
+        {
+          "original_label": "○1",
+          "text": "人類開\r\n發"
+        },
+        {
+          "original_label": "○2",
+          "text": "流水作用"
+        },
+        {
+          "original_label": "○3",
+          "text": "強烈地震"
+        },
+        {
+          "original_label": "○4",
+          "text": "空氣污染。"
+        }
+      ],
+      "option_count": 4,
+      "source_type": "MC",
+      "note": "ALL_FOUR_ORDERED_CHOICES_TEXT_LAYER_RECOVERED",
+      "independent_science_kp_formal_approved": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "metrics": {
+    "source_full_question_text_layer_recovered": 50,
+    "original_four_choice_complete": 15,
+    "source_choice_visual_holds": 0,
+    "new_formal_science_kp": 0,
+    "new_admission_ready": 0,
+    "new_published": 0
+  },
+  "limitations": "Original PDF plain text layer can cross columns, footers and figures; this source-only evidence requires original-page visual source QA, scientific uniqueness, direct frozen KP, semantic duplicate, Article9 rights, existing operator Gate."
+}

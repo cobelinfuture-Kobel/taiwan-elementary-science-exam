@@ -1,0 +1,254 @@
+{
+  "schema_version": "P12_G04S1_113_HANLIN_NATIVE5_AFTER100_SOURCE_SCIENCE_KP_V1",
+  "scope": "113 Grade 4 Semester 1 MID original Hanlin papers screened only for direct Kanghsuan 48 KP U01/U02; cross-edition valid direct KPs, do not include lunar phases",
+  "frozen_baseline_main": "0f94f28599d2c180a1b7f00ce9611055fa646244",
+  "prior_source_suppression_ref": "data/review/p12-g04s1-113-main-published100-source-suppression-readback-v4.json",
+  "prior_suppressed_published_113": 100,
+  "prior_student_answer_slots": 736,
+  "original_pdf_verified": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_016",
+      "original_filename": "113_翰林_四上_自然_期中評量卷_大華國小.pdf",
+      "original_pdf_sha256": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1",
+      "drive_file_id": "1Qo0N1J75mHMBg-9udtoIos4xLSNW6SV2",
+      "original_pdf_native_page_count": 2,
+      "source_page_1_based": 1
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_017",
+      "original_filename": "113_翰林_四上_自然_期中評量卷_內湖國小.pdf",
+      "original_pdf_sha256": "e0ad91beef6d908d73cf7198769b844ce865cc00b66f5ab07bde1ea1ee9e4518",
+      "drive_file_id": "1OWVhOQkNJdWDsezggXjiHideEwRDgsMe",
+      "original_pdf_native_page_count": 3,
+      "source_page_1_based": 1
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_018",
+      "original_filename": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+      "original_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "drive_file_id": "1fYJ5QiOHyy5JhqQkGeqejTfF7FnSHL2n",
+      "original_pdf_native_page_count": 2,
+      "source_page_1_based": 1
+    }
+  ],
+  "full_original_stem_and_options_verified": 5,
+  "native_pdf_rawdict_printed_answer_bbox_verified": 5,
+  "source_screen": "3 native PDF first pages visually inspected, source UTF-8 original extracted, original answer glyph parenthesis BBoxes top-left points",
+  "teacher_original_answer_key_authenticated": false,
+  "science_answer_kind": "GPT6_INDEPENDENT_SCIENCE_NOT_SCHOOL_KEY",
+  "KP_authority": "site/data/authority/science-g03-g04-selector-v3.json",
+  "crossyear_semantic_dedup_evidence": "compared all active 113/114 student bank files, 100 source IDs, and 25 original 114 school-exam archives for exact, near, option reorder and semantically equivalent questions; no equivalent student answer event among the five retained",
+  "rights": "SCHOOL_EXAM_ORIGINAL_TEXT_ONLY_NOT_ENTIRE_PDF_NOT_THIRD_PARTY",
+  "existing_operator_scope_approval": "P12_G04S1_113_CORPUS_SELECTIVE_ADMISSION_ALREADY_APPROVED",
+  "excluded_same_scan": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_016|S01|TF|010",
+      "reason": "SEMANTIC_DUPLICATE_114_DAHUA_WATER_RICE_SNAIL_TF"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016|S02|MC|002",
+      "reason": "CROSSYEAR_NATURAL_ARTIFICIAL_WATER_BODY_SIMILARITY"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016|S02|MC|012",
+      "reason": "114_DAHUA_AND_TAOZIJIAO_LOTUS_PETIOLE_AIR_TRANSPORT_SEMANTIC_DUPLICATE"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_017|S02|MC|009",
+      "reason": "OTHER_SOURCE_AIR_OR_WEIGHT_WRONG_FUNCTION_OF_LOTUS_STEM_SEMANTIC_OVERLAP"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_018|S01|TF|009",
+      "reason": "114_SHIHU_RESPIRATION_TUBE_RED_BUG_TRUE_FALSE_SAME_CONCEPT"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_018|S02|MC|009",
+      "reason": "114_PUREN_PUBLISHED_FLOATING_PLANT_FEATURE_MC_SIMILAR"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_018|S02|MC|012",
+      "reason": "PRINTED_TRAILING_2_AFTER_OPTION4_SOURCE_TEXT_EXACTNESS_HOLD"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_018|S01|TF|002",
+      "reason": "LOTUS_FLOATING_VS_EMERGENT_ANSWER_SCOPE_CONTEXT_VERIFY_BEFORE_REVIEW"
+    }
+  ],
+  "formal_science_kp_approved": 5,
+  "admission_ready": 5,
+  "student_published_before_main_pages_e2e": 0,
+  "expected_published_if_main_pages_e2e_pass": 5,
+  "expected_total_if_pass": 741,
+  "records": [
+    {
+      "id": "P12_113_G04S1_DAHUA_MID_TF_007",
+      "source_id": "SCI_G04_S1_113_MID_016",
+      "source_slot_id": "SCI_G04_S1_113_MID_016|S01|TF|007",
+      "original_pdf_filename": "113_翰林_四上_自然_期中評量卷_大華國小.pdf",
+      "original_pdf_sha256": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1",
+      "original_pdf_page_1_based": 1,
+      "original_answer_parenthesis_bbox_pts_top_left": [
+        66.48,
+        347.72,
+        102.5,
+        359.72
+      ],
+      "bbox_method": "ORIGINAL_NATIVE_PDF_RAWDICT_GLYPH_CHARS_FIRST_PARENTHESIS_TO_CLOSING",
+      "parent_question_section": "S01",
+      "parent_question_type": "tf",
+      "original_question_number": 7,
+      "original_full_stem": "海洋垃圾會危害海洋生物的生命，像海龜就常被廢棄漁網纏住而死亡。",
+      "original_ordered_options": null,
+      "model_independently_reasoned_answer": "O",
+      "independent_science_explanation": "海洋廢棄漁網可能使海龜纏繞、受傷、無法順利浮出水面換氣，甚至死亡，屬水域污染危害生物。",
+      "answer_assumption": null,
+      "canonical_direct_kp_id": "sci_g04s1_02_11",
+      "unit": "4-S1-U02",
+      "duplicate_public_100_suppressed": true,
+      "semantic_duplicate_current_student_bank_absent": true,
+      "third_party_image_dependency": false,
+      "operator_scope_authorized": true,
+      "rights": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "teacher_original_answer_key_authenticated": false,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_DAHUA_MID_MC_014",
+      "source_id": "SCI_G04_S1_113_MID_016",
+      "source_slot_id": "SCI_G04_S1_113_MID_016|S02|MC|014",
+      "original_pdf_filename": "113_翰林_四上_自然_期中評量卷_大華國小.pdf",
+      "original_pdf_sha256": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1",
+      "original_pdf_page_1_based": 1,
+      "original_answer_parenthesis_bbox_pts_top_left": [
+        332.33,
+        752.04,
+        368.35,
+        764.04
+      ],
+      "bbox_method": "ORIGINAL_NATIVE_PDF_RAWDICT_GLYPH_CHARS_FIRST_PARENTHESIS_TO_CLOSING",
+      "parent_question_section": "S02",
+      "parent_question_type": "mcq",
+      "original_question_number": 14,
+      "original_full_stem": "人類可以利用海水提取哪一種生活所需的物質？",
+      "original_ordered_options": [
+        "①油",
+        "②鹽",
+        "③糖",
+        "④味精"
+      ],
+      "model_independently_reasoned_answer": "②",
+      "independent_science_explanation": "海水含有溶解的鹽類，可以利用蒸發結晶等方法取得食用鹽，與人類利用海洋環境獲取飲食資源直接相關。",
+      "answer_assumption": null,
+      "canonical_direct_kp_id": "sci_g04s1_02_10",
+      "unit": "4-S1-U02",
+      "duplicate_public_100_suppressed": true,
+      "semantic_duplicate_current_student_bank_absent": true,
+      "third_party_image_dependency": false,
+      "operator_scope_authorized": true,
+      "rights": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "teacher_original_answer_key_authenticated": false,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_NEIHU_MID_TF_009",
+      "source_id": "SCI_G04_S1_113_MID_017",
+      "source_slot_id": "SCI_G04_S1_113_MID_017|S01|TF|009",
+      "original_pdf_filename": "113_翰林_四上_自然_期中評量卷_內湖國小.pdf",
+      "original_pdf_sha256": "e0ad91beef6d908d73cf7198769b844ce865cc00b66f5ab07bde1ea1ee9e4518",
+      "original_pdf_page_1_based": 1,
+      "original_answer_parenthesis_bbox_pts_top_left": [
+        66.5,
+        424.12,
+        92.42,
+        437.4
+      ],
+      "bbox_method": "ORIGINAL_NATIVE_PDF_RAWDICT_GLYPH_CHARS_FIRST_PARENTHESIS_TO_CLOSING",
+      "parent_question_section": "S01",
+      "parent_question_type": "tf",
+      "original_question_number": 9,
+      "original_full_stem": "全株植物都要生長在水中才能稱為水生植物。",
+      "original_ordered_options": null,
+      "model_independently_reasoned_answer": "X",
+      "independent_science_explanation": "水生植物可依生長方式分為沉水性、浮葉性、漂浮性與挺水性，並非所有植株部位都要沉在水中。",
+      "answer_assumption": null,
+      "canonical_direct_kp_id": "sci_g04s1_02_03",
+      "unit": "4-S1-U02",
+      "duplicate_public_100_suppressed": true,
+      "semantic_duplicate_current_student_bank_absent": true,
+      "third_party_image_dependency": false,
+      "operator_scope_authorized": true,
+      "rights": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "teacher_original_answer_key_authenticated": false,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_NEIHU_MID_TF_015",
+      "source_id": "SCI_G04_S1_113_MID_017",
+      "source_slot_id": "SCI_G04_S1_113_MID_017|S01|TF|015",
+      "original_pdf_filename": "113_翰林_四上_自然_期中評量卷_內湖國小.pdf",
+      "original_pdf_sha256": "e0ad91beef6d908d73cf7198769b844ce865cc00b66f5ab07bde1ea1ee9e4518",
+      "original_pdf_page_1_based": 1,
+      "original_answer_parenthesis_bbox_pts_top_left": [
+        66.5,
+        658.17,
+        92.42,
+        671.45
+      ],
+      "bbox_method": "ORIGINAL_NATIVE_PDF_RAWDICT_GLYPH_CHARS_FIRST_PARENTHESIS_TO_CLOSING",
+      "parent_question_section": "S01",
+      "parent_question_type": "tf",
+      "original_question_number": 15,
+      "original_full_stem": "河、海交界的河口溼地上有各種水生生物生存，也屬於水域環境的一種。",
+      "original_ordered_options": null,
+      "model_independently_reasoned_answer": "O",
+      "independent_science_explanation": "河口溼地位於河川和海洋交界處，是水域環境的一種，具有可供各種適應當地環境的水生生物生存的棲地。",
+      "answer_assumption": null,
+      "canonical_direct_kp_id": "sci_g04s1_02_01",
+      "unit": "4-S1-U02",
+      "duplicate_public_100_suppressed": true,
+      "semantic_duplicate_current_student_bank_absent": true,
+      "third_party_image_dependency": false,
+      "operator_scope_authorized": true,
+      "rights": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "teacher_original_answer_key_authenticated": false,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_CHENGGONG_MID_TF_008",
+      "source_id": "SCI_G04_S1_113_MID_018",
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S01|TF|008",
+      "original_pdf_filename": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+      "original_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "original_pdf_page_1_based": 1,
+      "original_answer_parenthesis_bbox_pts_top_left": [
+        49.32,
+        403.94,
+        79.52,
+        419.48
+      ],
+      "bbox_method": "ORIGINAL_NATIVE_PDF_RAWDICT_GLYPH_CHARS_FIRST_PARENTHESIS_TO_CLOSING",
+      "parent_question_section": "S01",
+      "parent_question_type": "tf",
+      "original_question_number": 8,
+      "original_full_stem": "溪流是水域環境的一種，水流通常較水田湍急。",
+      "original_ordered_options": null,
+      "model_independently_reasoned_answer": "O",
+      "independent_science_explanation": "溪流通常有明顯流動的水，水田則多為水流較慢的人工水域，兩者水流條件不同。",
+      "answer_assumption": "以一般溪流與稻作水田常態水流作比較，並非任一時刻的絕對水流速度。",
+      "canonical_direct_kp_id": "sci_g04s1_02_02",
+      "unit": "4-S1-U02",
+      "duplicate_public_100_suppressed": true,
+      "semantic_duplicate_current_student_bank_absent": true,
+      "third_party_image_dependency": false,
+      "operator_scope_authorized": true,
+      "rights": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "teacher_original_answer_key_authenticated": false,
+      "formal_science_kp_approved": true,
+      "admission_ready": true
+    }
+  ]
+}

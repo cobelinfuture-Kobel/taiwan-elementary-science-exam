@@ -1,0 +1,2348 @@
+{
+  "schema_version": "P12_G04S1_113_B01_50_NATIVE_TFMC_EXACT_TEXT_AND_INHERITED_SCIENCE_PREFLIGHT_V1",
+  "scope": "113 G04 S1 all29 frozen 48KP, Draft PR124 source-only first 50 native TFMC",
+  "published_suppression": "p12-g04s1-113-main-published114-source-suppression-readback-v9.json",
+  "source_text_not_same_as_visual_validation": "Text extracted from original PDF via authenticated Drive; line wraps preserved. Final PDF-page visual text layout QA and source marker BBox still required where absent.",
+  "original_text_layer_section_counts": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "section": "S1",
+      "type": "TF",
+      "count": 15,
+      "pdf_text_title_verified": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "section": "S2",
+      "type": "MC",
+      "count": 12,
+      "pdf_text_title_verified": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "section": "S1",
+      "type": "TF",
+      "count": 9,
+      "pdf_text_title_verified": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "section": "S2",
+      "type": "MC",
+      "count": 9,
+      "pdf_text_title_verified": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "section": "S1",
+      "type": "MC",
+      "count": 15,
+      "pdf_text_title_verified": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "section": "S2",
+      "type": "TF",
+      "count": 20,
+      "pdf_text_title_verified": true
+    }
+  ],
+  "rows": [
+    {
+      "worklist_number": 1,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|1",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TRUE_FALSE|01",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "因為空中的天體與我們之間的距離非常遙遠，所以\r\n跟我們的生活沒有關係。",
+      "stem_pdf_text_layer": "因為空中的天體與我們之間的距離非常遙遠，所以\r\n跟我們的生活沒有關係。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        28.56,
+        124.39,
+        60.52,
+        137.34
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "OTHER_UNIT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "主要考察天體與生活，不對應康軒四上48 KP的直接標準。"
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 2,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|2",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TRUE_FALSE|02",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "下課時，恩少到校園中的生態池散步，發現裡面有\r\n許多不同種類的水生植物生長在生態池中。",
+      "stem_pdf_text_layer": "下課時，恩少到校園中的生態池散步，發現裡面有\r\n許多不同種類的水生植物生長在生態池中。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        28.56,
+        168.43,
+        60.52,
+        181.38
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "HOLD_CONTEXT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "描述實際校園生態池觀察，是否有多種植物不能只靠題幹獨立確認。"
+      },
+      "review_routing": "HOLD_EVIDENCE_OR_SCIENCE",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 3,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|3",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TRUE_FALSE|03",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "牛郎與織女、玉兔搗藥和兩個太陽都是與月亮有關\r\n的傳說故事。",
+      "stem_pdf_text_layer": "牛郎與織女、玉兔搗藥和兩個太陽都是與月亮有關\r\n的傳說故事。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        28.56,
+        212.47,
+        60.52,
+        225.42
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "OTHER_UNIT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "月亮傳說不是現行康軒四上48 KP的直接測點。"
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 4,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|5",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TRUE_FALSE|05",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "成恩要測量月亮的高度角，他可以用高度角測量器\r\n或拳頭來測量。",
+      "stem_pdf_text_layer": "成恩要測量月亮的高度角，他可以用高度角測量器\r\n或拳頭來測量。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        28.56,
+        322.39,
+        60.52,
+        335.34
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "OTHER_UNIT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "月亮高度角觀測，不是現行四上U01–U04的直接知識點。"
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 5,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|7",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TRUE_FALSE|07",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "萬聖節快到了，祥均在萬聖節想打扮成狼人，因為\r\n他說每年萬聖節都會是滿月，是個適合變身成狼人\r\n的日子，因此這種打扮最適合了!",
+      "stem_pdf_text_layer": "萬聖節快到了，祥均在萬聖節想打扮成狼人，因為\r\n他說每年萬聖節都會是滿月，是個適合變身成狼人\r\n的日子，因此這種打扮最適合了!",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        28.56,
+        454.39,
+        60.52,
+        467.34
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "OTHER_UNIT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "萬聖節與月相變化，不屬現行四上48 KP。"
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 6,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|8",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TRUE_FALSE|08",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "池塘裡的水生植物常常成為水生動物的「停機\r\n坪」，有些水生動物會直接停留在植物的葉子上，\r\n像是青蛙就很喜歡睡蓮葉！",
+      "stem_pdf_text_layer": "池塘裡的水生植物常常成為水生動物的「停機\r\n坪」，有些水生動物會直接停留在植物的葉子上，\r\n像是青蛙就很喜歡睡蓮葉！",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        28.56,
+        520.39,
+        60.52,
+        533.34
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "HOLD_CONTEXT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "敘述青蛙偏好的具體睡蓮葉行為，從題幹不能證實特定棲地觀察。"
+      },
+      "review_routing": "HOLD_EVIDENCE_OR_SCIENCE",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 7,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|9",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TRUE_FALSE|09",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "有些藝術家非常擅長觀察天上的星星和月亮，還會\r\n把天體和它們周圍的美麗景色畫進他們的畫作中，\r\n創作出讓人驚嘆的作品！",
+      "stem_pdf_text_layer": "有些藝術家非常擅長觀察天上的星星和月亮，還會\r\n把天體和它們周圍的美麗景色畫進他們的畫作中，\r\n創作出讓人驚嘆的作品！",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        28.56,
+        586.39,
+        60.52,
+        599.34
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "OTHER_UNIT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "天體藝術創作屬其他教學範圍，缺直接四上KP。"
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 8,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|11",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TRUE_FALSE|11",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "竹亭下課時常常在校園中仰望天空，她發現有時候\r\n可以同時看到夕陽和月亮出現在天空中。",
+      "stem_pdf_text_layer": "竹亭下課時常常在校園中仰望天空，她發現有時候\r\n可以同時看到夕陽和月亮出現在天空中。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        28.56,
+        696.42,
+        60.52,
+        709.37
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "OTHER_UNIT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "可在夕陽時看見月亮，屬月亮觀測範圍，未見現行四上直接KP。"
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 9,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|13",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TRUE_FALSE|13",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "每當早上，太陽總是從東邊升起，然後在西邊落\r\n下。根據丙修的觀察，月亮的運行卻是相反的，月\r\n亮是從西邊升起，然後在東邊落下。",
+      "stem_pdf_text_layer": "每當早上，太陽總是從東邊升起，然後在西邊落\r\n下。根據丙修的觀察，月亮的運行卻是相反的，月\r\n亮是從西邊升起，然後在東邊落下。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        28.56,
+        784.39,
+        60.52,
+        797.34
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "OTHER_UNIT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "月亮方位與運行方向，非現行四上48KP。"
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 10,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|14",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TRUE_FALSE|14",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "伊成在蒐集水生生物如何適應環境的相關資料，為\r\n了整理找到的資料，她可以使用圖形和表格，這樣\r\n能更清楚地理解水生生物的特性！",
+      "stem_pdf_text_layer": "伊成在蒐集水生生物如何適應環境的相關資料，為\r\n了整理找到的資料，她可以使用圖形和表格，這樣\r\n能更清楚地理解水生生物的特性！",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        28.56,
+        850.39,
+        60.52,
+        863.34
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "PROVISIONAL_DIRECT",
+        "model_answer": "O",
+        "model_kp": "sci_g04s1_02_13",
+        "rationale": "將水生生物適應環境的資料以圖形或表格整理，可比較不同構造的異同。"
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 11,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|15",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TRUE_FALSE|15",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "為了讓水生生物能永續生存，我們應該要愛護水域\r\n環境。",
+      "stem_pdf_text_layer": "為了讓水生生物能永續生存，我們應該要愛護水域\r\n環境。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        28.56,
+        916.39,
+        60.52,
+        929.34
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "PROVISIONAL_DIRECT",
+        "model_answer": "O",
+        "model_kp": "sci_g04s1_02_14",
+        "rationale": "主動愛護水域環境有助水生生物持續生存。"
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 12,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|1",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|SINGLE_CHOICE|01",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "哪一種曆制會與月相變化的週期互相配合？ ①國\r\n曆 ②農曆 ③太陽曆 ④新曆",
+      "stem_pdf_text_layer": "哪一種曆制會與月相變化的週期互相配合？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "國\r\n曆"
+        },
+        {
+          "label": "②",
+          "text": "農曆"
+        },
+        {
+          "label": "③",
+          "text": "太陽曆"
+        },
+        {
+          "label": "④",
+          "text": "新曆"
+        }
+      ],
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        28.56,
+        988.39,
+        60.52,
+        1001.34
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "OTHER_UNIT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "農曆與月相變化，非現行四上48 KP。"
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 13,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|2",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|SINGLE_CHOICE|02",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "晨雨在農曆九月初八和九月十五進行了月亮觀測並\r\n將結果記錄下來，比較兩日的紀錄表，可以發現下\r\n列哪項結果？ ①兩日的月相相同 ②兩日的移動\r\n路線大致相同 ③在兩日的 19:00 時，月亮的高度角\r\n相同 ④在兩日的 19:00 時，月亮的方位相同",
+      "stem_pdf_text_layer": "晨雨在農曆九月初八和九月十五進行了月亮觀測並\r\n將結果記錄下來，比較兩日的紀錄表，可以發現下\r\n列哪項結果？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "兩日的月相相同"
+        },
+        {
+          "label": "②",
+          "text": "兩日的移動\r\n路線大致相同"
+        },
+        {
+          "label": "③",
+          "text": "在兩日的 19:00 時，月亮的高度角\r\n相同"
+        },
+        {
+          "label": "④",
+          "text": "在兩日的 19:00 時，月亮的方位相同"
+        }
+      ],
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        28.56,
+        1032.43,
+        60.52,
+        1045.38
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "OTHER_UNIT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "兩日月亮高度角、方位與軌跡的觀測屬其他單元。"
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 14,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|3",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|SINGLE_CHOICE|03",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "「玉兔搗藥」的靈感來源較有可能是什麼？ ①在\r\n太陽的照射下，地面上出現了兔子的影子 ②天上\r\n的星星排列成兔子的形狀 ③月亮上看起來有兔子\r\n的形狀 ④在月亮上發現了兔子的蹤跡",
+      "stem_pdf_text_layer": "「玉兔搗藥」的靈感來源較有可能是什麼？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "在\r\n太陽的照射下，地面上出現了兔子的影子"
+        },
+        {
+          "label": "②",
+          "text": "天上\r\n的星星排列成兔子的形狀"
+        },
+        {
+          "label": "③",
+          "text": "月亮上看起來有兔子\r\n的形狀"
+        },
+        {
+          "label": "④",
+          "text": "在月亮上發現了兔子的蹤跡"
+        }
+      ],
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        428.04,
+        106.27,
+        460,
+        119.22
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "OTHER_UNIT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "月亮外觀傳說非現行四上直接KP。"
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 15,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|4",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|SINGLE_CHOICE|04",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "在國語課上，敏恩學習到許多有趣的成語。老師問\r\n他，下列哪個成語中出現的天體是無法在晚上看見\r\n的？ ①物換星移 ②鏡花水月 ③蜀犬吠日 ④\r\n閉月羞花",
+      "stem_pdf_text_layer": "在國語課上，敏恩學習到許多有趣的成語。老師問\r\n他，下列哪個成語中出現的天體是無法在晚上看見\r\n的？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "物換星移"
+        },
+        {
+          "label": "②",
+          "text": "鏡花水月"
+        },
+        {
+          "label": "③",
+          "text": "蜀犬吠日"
+        },
+        {
+          "label": "④",
+          "text": "閉月羞花"
+        }
+      ],
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        428.04,
+        194.23,
+        460,
+        207.18
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "OTHER_UNIT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "月亮與太陽相關成語屬其他單元。"
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 16,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|5",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|SINGLE_CHOICE|05",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "「月亮自己是不會發光的，在地球上看到月亮表面\r\n的亮光，其實是反射的太陽光。因為月亮以逆時針\r\n方向繞著地球轉；加上地球自轉，所以我們在不同\r\n的農曆日期看到的月相就會不一樣。」依據上文，\r\n下列哪一項敘述正確？ ①月亮和太陽都會自行發\r\n光 ②月亮會繞著地球轉動 ③地球是靜止不動的\r\n④在同一個農曆日期，不可能看到相同的月相",
+      "stem_pdf_text_layer": "「月亮自己是不會發光的，在地球上看到月亮表面\r\n的亮光，其實是反射的太陽光。因為月亮以逆時針\r\n方向繞著地球轉；加上地球自轉，所以我們在不同\r\n的農曆日期看到的月相就會不一樣。」依據上文，\r\n下列哪一項敘述正確？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "月亮和太陽都會自行發\r\n光"
+        },
+        {
+          "label": "②",
+          "text": "月亮會繞著地球轉動"
+        },
+        {
+          "label": "③",
+          "text": "地球是靜止不動的"
+        },
+        {
+          "label": "④",
+          "text": "在同一個農曆日期，不可能看到相同的月相"
+        }
+      ],
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        428.04,
+        282.19,
+        460,
+        295.14
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "OTHER_UNIT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "本題主要測月亮繞地球及月相，不能只憑光反射詞語強行套U03。"
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 17,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|6",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|SINGLE_CHOICE|06",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "在社會課，處威認識到一些原住民族的文化習俗。\r\n他發現有些原住民族會在月相為朔時舉辦驅蟲避邪\r\n的活動，這樣做的原因是什麼呢？ ①當天沒有月\r\n光 ②當天月光明亮 ③當天陽光很弱 ④當天陽\r\n光太強烈",
+      "stem_pdf_text_layer": "在社會課，處威認識到一些原住民族的文化習俗。\r\n他發現有些原住民族會在月相為朔時舉辦驅蟲避邪\r\n的活動，這樣做的原因是什麼呢？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "當天沒有月\r\n光"
+        },
+        {
+          "label": "②",
+          "text": "當天月光明亮"
+        },
+        {
+          "label": "③",
+          "text": "當天陽光很弱"
+        },
+        {
+          "label": "④",
+          "text": "當天陽\r\n光太強烈"
+        }
+      ],
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        428.04,
+        436.27,
+        460,
+        449.22
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "OTHER_UNIT",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "月朔與民俗活動，非現行四上48KP。"
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 18,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|7",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|SINGLE_CHOICE|07",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "放學後，佑麒在生態池邊看到了一隻青蛙。他好奇\r\n地想知道，青蛙通常用哪一種構造來呼吸呢？ ①\r\n鰓 ②肺 ③呼吸管 ④尾巴",
+      "stem_pdf_text_layer": "放學後，佑麒在生態池邊看到了一隻青蛙。他好奇\r\n地想知道，青蛙通常用哪一種構造來呼吸呢？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "鰓"
+        },
+        {
+          "label": "②",
+          "text": "肺"
+        },
+        {
+          "label": "③",
+          "text": "呼吸管"
+        },
+        {
+          "label": "④",
+          "text": "尾巴"
+        }
+      ],
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        428.04,
+        546.19,
+        460,
+        559.14
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "PROVISIONAL_DIRECT",
+        "model_answer": "②",
+        "model_kp": "sci_g04s1_02_09",
+        "rationale": "成年青蛙能以肺及潮濕皮膚呼吸，在所列選項中肺符合。"
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 19,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|9",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|SINGLE_CHOICE|09",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "當水域環境受到汙染時，通常不會發生下列哪種情\r\n況？ ①水生植物長的更茂盛 ②海鳥難以在海灘\r\n上覓食 ③鯨鯊誤食海中的垃圾 ④大量水生生物\r\n死亡",
+      "stem_pdf_text_layer": "當水域環境受到汙染時，通常不會發生下列哪種情\r\n況？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "水生植物長的更茂盛"
+        },
+        {
+          "label": "②",
+          "text": "海鳥難以在海灘\r\n上覓食"
+        },
+        {
+          "label": "③",
+          "text": "鯨鯊誤食海中的垃圾"
+        },
+        {
+          "label": "④",
+          "text": "大量水生生物\r\n死亡"
+        }
+      ],
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        428.04,
+        700.27,
+        460,
+        713.22
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "HOLD_UNIQUE_SCIENCE",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": "汙染可引發養分增加與藻類短期增生，選項①『水生植物長得更茂盛』並非無條件不可能；原題使用『通常』須獨立限定語意。"
+      },
+      "review_routing": "HOLD_EVIDENCE_OR_SCIENCE",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 20,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|11",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|SINGLE_CHOICE|11",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "愛護環境大家一起動起來，下列哪一項是愛護水域\r\n環境的做法？ ①在溪邊烤肉，將器具留在原地方\r\n便下次使用 ②將洗衣服的肥皂水直接倒入溪流中\r\n③去海邊遊玩時，將垃圾帶回家丟 ④將抓到的魚\r\n蝦帶回家飼養",
+      "stem_pdf_text_layer": "愛護環境大家一起動起來，下列哪一項是愛護水域\r\n環境的做法？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "在溪邊烤肉，將器具留在原地方\r\n便下次使用"
+        },
+        {
+          "label": "②",
+          "text": "將洗衣服的肥皂水直接倒入溪流中"
+        },
+        {
+          "label": "③",
+          "text": "去海邊遊玩時，將垃圾帶回家丟"
+        },
+        {
+          "label": "④",
+          "text": "將抓到的魚\r\n蝦帶回家飼養"
+        }
+      ],
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        428.04,
+        942.19,
+        460,
+        955.14
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "PROVISIONAL_DIRECT",
+        "model_answer": "③",
+        "model_kp": "sci_g04s1_02_14",
+        "rationale": "去海邊活動把垃圾帶回家正確，其他選項汙染或不當帶走水生動物。"
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 21,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|12",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|SINGLE_CHOICE|12",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "original_pdf_reference": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "四年甲班在操場上玩踩影子遊戲，當影子在西邊\r\n時，太陽會在哪一個方向呢？ ①北邊 ②西邊\r\n③南邊 ④東邊",
+      "stem_pdf_text_layer": "四年甲班在操場上玩踩影子遊戲，當影子在西邊\r\n時，太陽會在哪一個方向呢？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "北邊"
+        },
+        {
+          "label": "②",
+          "text": "西邊"
+        },
+        {
+          "label": "③",
+          "text": "南邊"
+        },
+        {
+          "label": "④",
+          "text": "東邊"
+        }
+      ],
+      "source_page_pdf_1_based": 1,
+      "source_answer_marker_bbox_pdf_pts_top_left": [
+        428.04,
+        1052.23,
+        460,
+        1065.18
+      ],
+      "bbox_evidence": "p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json",
+      "bbox_status": "INHERITED_EXACT_NATIVE_GLYPH_BBOX",
+      "historical_model_review": {
+        "review": "PROVISIONAL_CROSS_PERIOD",
+        "model_answer": "④",
+        "model_kp": "sci_g04s1_03_06",
+        "rationale": "日光在東方時影子向西，直接映射U03光直線行進與影子，但原卷列期中，需保留課程考試期間差異。"
+      },
+      "review_routing": "SCOPE_PERIOD_REVIEW_REQUIRED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 22,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|1",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S01|TRUE_FALSE|01",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "在日常生活，只有陽光才能讓物體產生清楚的影子。",
+      "stem_pdf_text_layer": "在日常生活，只有陽光才能讓物體產生清楚的影子。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "DIRECT_KP_PRELIMINARY",
+        "model_answer": "F",
+        "model_kp": "kx_g04s1_u03_kp06",
+        "rationale": null
+      },
+      "review_routing": "SCOPE_PERIOD_REVIEW_REQUIRED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 23,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|2",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S01|TRUE_FALSE|02",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "不只有在晚上才能看見月亮，白天也能看得到。",
+      "stem_pdf_text_layer": "不只有在晚上才能看見月亮，白天也能看得到。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "T",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 24,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|3",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S01|TRUE_FALSE|03",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "觀測月亮時，要記錄時間、雲的顏色、高度角與方位。",
+      "stem_pdf_text_layer": "觀測月亮時，要記錄時間、雲的顏色、高度角與方位。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "F",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 25,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|4",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S01|TRUE_FALSE|04",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "用拳頭疊加的方式測量月亮高度角時，當測量到的拳\r\n頭愈少，表示月亮的高度角愈小。",
+      "stem_pdf_text_layer": "用拳頭疊加的方式測量月亮高度角時，當測量到的拳\r\n頭愈少，表示月亮的高度角愈小。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "T",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 26,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|5",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S01|TRUE_FALSE|05",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "同一天中，月亮的位置會隨著時間而不同。",
+      "stem_pdf_text_layer": "同一天中，月亮的位置會隨著時間而不同。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "T",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 27,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|6",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S01|TRUE_FALSE|06",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "世界上所有的河流總加，是世界上最大的水域環境。",
+      "stem_pdf_text_layer": "世界上所有的河流總加，是世界上最大的水域環境。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "DIRECT_KP_PRELIMINARY",
+        "model_answer": "F",
+        "model_kp": "kx_g04s1_u02_kp01",
+        "rationale": null
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 28,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|7",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S01|TRUE_FALSE|07",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "將海中的小丑魚帶回家裡用淡水養殖，小丑魚依然可\r\n以生存。",
+      "stem_pdf_text_layer": "將海中的小丑魚帶回家裡用淡水養殖，小丑魚依然可\r\n以生存。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "DIRECT_KP_PRELIMINARY",
+        "model_answer": "F",
+        "model_kp": "kx_g04s1_u02_kp02",
+        "rationale": null
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 29,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|9",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S01|TRUE_FALSE|09",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "在水族箱中種植水蘊草，當水族箱水位較低時，水蘊\r\n草會挺出水面。",
+      "stem_pdf_text_layer": "在水族箱中種植水蘊草，當水族箱水位較低時，水蘊\r\n草會挺出水面。",
+      "options_pdf_text_layer": null,
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "DIRECT_KP_PRELIMINARY",
+        "model_answer": "F",
+        "model_kp": "kx_g04s1_u02_kp05",
+        "rationale": null
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 30,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|1",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S02|SINGLE_CHOICE|01",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "君君在教室用手電筒照射橡皮擦，且手電筒在橡皮擦\r\n的左前方，請問橡皮擦的影子會出現在橡皮擦的哪個\r\n位置？①左後方 ②正後方 ③右後方 ④左前方",
+      "stem_pdf_text_layer": "君君在教室用手電筒照射橡皮擦，且手電筒在橡皮擦\r\n的左前方，請問橡皮擦的影子會出現在橡皮擦的哪個\r\n位置？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "左後方"
+        },
+        {
+          "label": "②",
+          "text": "正後方"
+        },
+        {
+          "label": "③",
+          "text": "右後方"
+        },
+        {
+          "label": "④",
+          "text": "左前方"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "DIRECT_KP_PRELIMINARY",
+        "model_answer": "3",
+        "model_kp": "kx_g04s1_u03_kp06",
+        "rationale": null
+      },
+      "review_routing": "SCOPE_PERIOD_REVIEW_REQUIRED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 31,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|2",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S02|SINGLE_CHOICE|02",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "芳萍晚上和家人在公園散步，抬頭可以看到上弦月，\r\n請問大約再過幾天可以看到下弦月？ \r\n①8 天 ②15 天 ③30 天 ④50 天",
+      "stem_pdf_text_layer": "芳萍晚上和家人在公園散步，抬頭可以看到上弦月，\r\n請問大約再過幾天可以看到下弦月？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "8 天"
+        },
+        {
+          "label": "②",
+          "text": "15 天"
+        },
+        {
+          "label": "③",
+          "text": "30 天"
+        },
+        {
+          "label": "④",
+          "text": "50 天"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "2",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 32,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|3",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S02|SINGLE_CHOICE|03",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "每一年的哪個節日，在天氣晴朗的夜晚時都可以看見\r\n相同的月相？ \r\n①母親節 ②中元節 ③兒童節 ④清明節",
+      "stem_pdf_text_layer": "每一年的哪個節日，在天氣晴朗的夜晚時都可以看見\r\n相同的月相？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "母親節"
+        },
+        {
+          "label": "②",
+          "text": "中元節"
+        },
+        {
+          "label": "③",
+          "text": "兒童節"
+        },
+        {
+          "label": "④",
+          "text": "清明節"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "2",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 33,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|4",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S02|SINGLE_CHOICE|04",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "愛護環境大家一起動起來，下列哪一項是愛護水域環\r\n境的做法？ \r\n①在溪邊烤肉，將器具留在原地方便下次使用\r\n②將洗衣服的肥皂水直接倒入溪流中 ③去海邊遊\r\n玩時，將垃圾帶回家丟 ④將抓到的魚蝦帶回家飼養",
+      "stem_pdf_text_layer": "愛護環境大家一起動起來，下列哪一項是愛護水域環\r\n境的做法？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "在溪邊烤肉，將器具留在原地方便下次使用"
+        },
+        {
+          "label": "②",
+          "text": "將洗衣服的肥皂水直接倒入溪流中"
+        },
+        {
+          "label": "③",
+          "text": "去海邊遊\r\n玩時，將垃圾帶回家丟"
+        },
+        {
+          "label": "④",
+          "text": "將抓到的魚蝦帶回家飼養"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "DIRECT_KP_PRELIMINARY",
+        "model_answer": "3",
+        "model_kp": "kx_g04s1_u02_kp14",
+        "rationale": null
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 34,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|6",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S02|SINGLE_CHOICE|06",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "蓋斑鬥魚利用下列哪一種方式運動？ \r\n①擺動魚鰭游動 ②用胸足和腹足游泳及爬行\r\n③用腹足爬行 ④用腳在水面划行",
+      "stem_pdf_text_layer": "蓋斑鬥魚利用下列哪一種方式運動？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "擺動魚鰭游動"
+        },
+        {
+          "label": "②",
+          "text": "用胸足和腹足游泳及爬行"
+        },
+        {
+          "label": "③",
+          "text": "用腹足爬行"
+        },
+        {
+          "label": "④",
+          "text": "用腳在水面划行"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "DIRECT_KP_PRELIMINARY",
+        "model_answer": "1",
+        "model_kp": "kx_g04s1_u02_kp08",
+        "rationale": null
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 35,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|8",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S02|SINGLE_CHOICE|08",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "志婷假日出遊時，曾經看過水域環境被破壞。請問哪\r\n一項是破壞水域環境的行為？ \r\n①在河邊戲水後，隨手將垃圾帶走 ②利用假日做義\r\n工，撿拾沙灘上的垃圾 ③參與愛護水域環境的宣導\r\n活動 ④將不養的烏龜帶到湖邊放生",
+      "stem_pdf_text_layer": "志婷假日出遊時，曾經看過水域環境被破壞。請問哪\r\n一項是破壞水域環境的行為？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "在河邊戲水後，隨手將垃圾帶走"
+        },
+        {
+          "label": "②",
+          "text": "利用假日做義\r\n工，撿拾沙灘上的垃圾"
+        },
+        {
+          "label": "③",
+          "text": "參與愛護水域環境的宣導\r\n活動"
+        },
+        {
+          "label": "④",
+          "text": "將不養的烏龜帶到湖邊放生"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "DIRECT_KP_PRELIMINARY",
+        "model_answer": "4",
+        "model_kp": "kx_g04s1_u02_kp14",
+        "rationale": null
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 36,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|9",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_003|S02|SINGLE_CHOICE|09",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "original_pdf_reference": "https://drive.google.com/file/d/1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "水泥牆上出現籃球架的影子，那麼籃球架、路燈、水\r\n泥牆三者哪個在中間呢？\r\n①籃球架 ②路燈 ③水泥牆 ④無法判斷",
+      "stem_pdf_text_layer": "水泥牆上出現籃球架的影子，那麼籃球架、路燈、水\r\n泥牆三者哪個在中間呢？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "籃球架"
+        },
+        {
+          "label": "②",
+          "text": "路燈"
+        },
+        {
+          "label": "③",
+          "text": "水泥牆"
+        },
+        {
+          "label": "④",
+          "text": "無法判斷"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "DIRECT_KP_PRELIMINARY",
+        "model_answer": "1",
+        "model_kp": "kx_g04s1_u03_kp06",
+        "rationale": null
+      },
+      "review_routing": "SCOPE_PERIOD_REVIEW_REQUIRED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 37,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|1",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|01",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "下列哪一天通常能看到虧凸月①農曆二十\r\n②農曆十三 ③農曆十二④農曆十六",
+      "stem_pdf_text_layer": "下列哪一天通常能看到虧凸月",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "農曆二十"
+        },
+        {
+          "label": "②",
+          "text": "農曆十三"
+        },
+        {
+          "label": "③",
+          "text": "農曆十二"
+        },
+        {
+          "label": "④",
+          "text": "農曆十六"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "1",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 38,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|2",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|02",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "當水域環境受到汙染時，通常不會發生下\r\n列哪種情況？ ①水生植物長的更茂盛\r\n②海鳥難以在海灘上覓食 ③鯨鯊誤食海\r\n中的垃圾 ④大量水生生物死亡",
+      "stem_pdf_text_layer": "當水域環境受到汙染時，通常不會發生下\r\n列哪種情況？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "水生植物長的更茂盛"
+        },
+        {
+          "label": "②",
+          "text": "海鳥難以在海灘上覓食"
+        },
+        {
+          "label": "③",
+          "text": "鯨鯊誤食海\r\n中的垃圾"
+        },
+        {
+          "label": "④",
+          "text": "大量水生生物死亡"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "DIRECT_KP_PRELIMINARY",
+        "model_answer": "1",
+        "model_kp": "kx_g04s1_u02_kp11",
+        "rationale": null
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 39,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|3",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|03",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "為何有些原住民族在月相為朔時要舉辦驅\r\n蟲避邪的活動①當天沒有月光②當天月光\r\n明亮③當天陽光很弱 ④當天陽光太強烈",
+      "stem_pdf_text_layer": "為何有些原住民族在月相為朔時要舉辦驅\r\n蟲避邪的活動",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "當天沒有月光"
+        },
+        {
+          "label": "②",
+          "text": "當天月光\r\n明亮"
+        },
+        {
+          "label": "③",
+          "text": "當天陽光很弱"
+        },
+        {
+          "label": "④",
+          "text": "當天陽光太強烈"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "1",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 40,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|4",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|04",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "下列哪個成語中出現的天體無法在晚上看\r\n見①物換星移 ②鏡花水月 ③蜀犬吠日\r\n④閉月羞花",
+      "stem_pdf_text_layer": "下列哪個成語中出現的天體無法在晚上看\r\n見",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "物換星移"
+        },
+        {
+          "label": "②",
+          "text": "鏡花水月"
+        },
+        {
+          "label": "③",
+          "text": "蜀犬吠日"
+        },
+        {
+          "label": "④",
+          "text": "閉月羞花"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "3",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 41,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|5",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|05",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "蛙類通常會用下列哪一種構造來呼吸？\r\n①鰓 ②肺 ③呼吸管 ④尾巴",
+      "stem_pdf_text_layer": "蛙類通常會用下列哪一種構造來呼吸？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "鰓"
+        },
+        {
+          "label": "②",
+          "text": "肺"
+        },
+        {
+          "label": "③",
+          "text": "呼吸管"
+        },
+        {
+          "label": "④",
+          "text": "尾巴"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "DIRECT_KP_PRELIMINARY",
+        "model_answer": "2",
+        "model_kp": "kx_g04s1_u02_kp09",
+        "rationale": null
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 42,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|6",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|06",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "重陽節（農曆九月初九）當天可能會看到\r\n什麼形狀的月亮？ ①三角形 ②圓形\r\n③半圓形 ④眉形",
+      "stem_pdf_text_layer": "重陽節（農曆九月初九）當天可能會看到\r\n什麼形狀的月亮？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "三角形"
+        },
+        {
+          "label": "②",
+          "text": "圓形"
+        },
+        {
+          "label": "③",
+          "text": "半圓形"
+        },
+        {
+          "label": "④",
+          "text": "眉形"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "3",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 43,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|7",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|07",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "比較農曆初九和農曆二十的月亮觀測紀錄\r\n表時，可以發現什麼？ ①相同時刻的月\r\n亮高度角相同 ②相同時刻的月亮方位不\r\n同 ③月亮看起來的形狀相同 ④月亮落\r\n下的時刻相同",
+      "stem_pdf_text_layer": "比較農曆初九和農曆二十的月亮觀測紀錄\r\n表時，可以發現什麼？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "相同時刻的月\r\n亮高度角相同"
+        },
+        {
+          "label": "②",
+          "text": "相同時刻的月亮方位不\r\n同"
+        },
+        {
+          "label": "③",
+          "text": "月亮看起來的形狀相同"
+        },
+        {
+          "label": "④",
+          "text": "月亮落\r\n下的時刻相同"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "2",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 44,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|8",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|08",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "在原住民族「兩個太陽」的故事中，被射\r\n中的太陽最後變成了什麼？ ①月亮 ②\r\n夕陽 ③銀河 ④星星",
+      "stem_pdf_text_layer": "在原住民族「兩個太陽」的故事中，被射\r\n中的太陽最後變成了什麼？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "月亮"
+        },
+        {
+          "label": "②",
+          "text": "夕陽"
+        },
+        {
+          "label": "③",
+          "text": "銀河"
+        },
+        {
+          "label": "④",
+          "text": "星星"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "1",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 45,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|9",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|09",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "下列哪一項敘述正確？ ①月亮和太陽都\r\n會自行發光 ②月亮會繞著地球轉動\r\n③地球是靜止不動的 ④在同一個農曆日\r\n期，不可能看到相同的月相",
+      "stem_pdf_text_layer": "下列哪一項敘述正確？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "月亮和太陽都\r\n會自行發光"
+        },
+        {
+          "label": "②",
+          "text": "月亮會繞著地球轉動"
+        },
+        {
+          "label": "③",
+          "text": "地球是靜止不動的"
+        },
+        {
+          "label": "④",
+          "text": "在同一個農曆日\r\n期，不可能看到相同的月相"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "2",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 46,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|10",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|10",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "魚鰓是魚的什麼器官？ ①消化器官 ②\r\n運動器官 ③呼吸器官 ④感覺器官",
+      "stem_pdf_text_layer": "魚鰓是魚的什麼器官？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "消化器官"
+        },
+        {
+          "label": "②",
+          "text": "運動器官"
+        },
+        {
+          "label": "③",
+          "text": "呼吸器官"
+        },
+        {
+          "label": "④",
+          "text": "感覺器官"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "DIRECT_KP_PRELIMINARY",
+        "model_answer": "3",
+        "model_kp": "kx_g04s1_u02_kp08",
+        "rationale": null
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 47,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|11",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|11",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "農曆的哪一天一定看不到月亮①農曆 28 日\r\n②農曆 15 日 ③農曆 4 日 ④農曆 1 日",
+      "stem_pdf_text_layer": "農曆的哪一天一定看不到月亮",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "農曆 28 日"
+        },
+        {
+          "label": "②",
+          "text": "農曆 15 日"
+        },
+        {
+          "label": "③",
+          "text": "農曆 4 日"
+        },
+        {
+          "label": "④",
+          "text": "農曆 1 日"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "SCIENCE_HOLD",
+        "model_answer": null,
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "HOLD_EVIDENCE_OR_SCIENCE",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 48,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|12",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|12",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "「臺灣馬口魚」是臺灣特有種，牠在水中\r\n是如何運動和呼吸的呢？ ①利用尾鰭彈\r\n跳運動、利用肺呼吸 ②在水中滾動方式\r\n運動、利用皮膚呼吸 ③利用魚鰭擺動運\r\n動、利用鰓呼吸 ④利用胸鰭在水底的土\r\n上走動、利用呼吸管伸出水面呼吸",
+      "stem_pdf_text_layer": "「臺灣馬口魚」是臺灣特有種，牠在水中\r\n是如何運動和呼吸的呢？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "利用尾鰭彈\r\n跳運動、利用肺呼吸"
+        },
+        {
+          "label": "②",
+          "text": "在水中滾動方式\r\n運動、利用皮膚呼吸"
+        },
+        {
+          "label": "③",
+          "text": "利用魚鰭擺動運\r\n動、利用鰓呼吸"
+        },
+        {
+          "label": "④",
+          "text": "利用胸鰭在水底的土\r\n上走動、利用呼吸管伸出水面呼吸"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "DIRECT_KP_PRELIMINARY",
+        "model_answer": "3",
+        "model_kp": "kx_g04s1_u02_kp08",
+        "rationale": null
+      },
+      "review_routing": "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 49,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|13",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|13",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "觀測記錄月亮位置的移動情況時，通常不\r\n用記錄下列哪一個項目？ ①觀測時間\r\n②月亮方位 ③月亮高度角 ④當天風向",
+      "stem_pdf_text_layer": "觀測記錄月亮位置的移動情況時，通常不\r\n用記錄下列哪一個項目？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "觀測時間"
+        },
+        {
+          "label": "②",
+          "text": "月亮方位"
+        },
+        {
+          "label": "③",
+          "text": "月亮高度角"
+        },
+        {
+          "label": "④",
+          "text": "當天風向"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "4",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    },
+    {
+      "worklist_number": 50,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|14",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S01|SINGLE_CHOICE|14",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_reference": "https://drive.google.com/file/d/1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl/view",
+      "source_text_readback": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_FULL_STEM_AND_FOUR_OPTIONS_IF_MC",
+      "pdf_text_layer_original_with_linebreaks": "小強用拳頭測量月亮高度角，每增加一個\r\n拳頭，高度角大約增加幾度？ ①1 度 ②\r\n10 度 ③60 度 ④90 度",
+      "stem_pdf_text_layer": "小強用拳頭測量月亮高度角，每增加一個\r\n拳頭，高度角大約增加幾度？",
+      "options_pdf_text_layer": [
+        {
+          "label": "①",
+          "text": "1 度"
+        },
+        {
+          "label": "②",
+          "text": "10 度"
+        },
+        {
+          "label": "③",
+          "text": "60 度"
+        },
+        {
+          "label": "④",
+          "text": "90 度"
+        }
+      ],
+      "source_page_pdf_1_based": null,
+      "source_answer_marker_bbox_pdf_pts_top_left": null,
+      "bbox_evidence": "PR124_STAGE4_53_LOCAL_MARKER_DETAILS_NOT_GITHUB_PERSISTED_PER_SLOT",
+      "bbox_status": "PER_SLOT_EXACT_BBOX_EVIDENCE_TO_RECOVER",
+      "historical_model_review": {
+        "review": "OUTSIDE_DIRECT_KP",
+        "model_answer": "2",
+        "model_kp": null,
+        "rationale": null
+      },
+      "review_routing": "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP",
+      "published_this_round": false,
+      "admission_ready_this_round": false,
+      "unresolved_gate_checklist": [
+        "VISUAL_TEXT_OPTIONS_AND_PARENT_CONTEXT_WHERE_NEEDED",
+        "SOURCE_PAGE_AND_NATIVE_GLYPH_BBOX",
+        "INDEPENDENT_SCIENCE_KP_FORMAL_ACCEPTANCE_IF_NOT_ALREADY_CERTIFIED",
+        "CROSSYEAR_113_114_SEMANTIC_DEDUP",
+        "ARTICLE9_RIGHTS_IF_ELIGIBLE",
+        "ORIGINAL_OPERATOR_RELEASE_GATE"
+      ]
+    }
+  ],
+  "metrics": {
+    "target": 50,
+    "source_full_stem_text_layer_readback": 50,
+    "four_option_mc_full_readback": 31,
+    "tf_original_text_layer_readback": 19,
+    "exact_glyph_bbox_inherited": 21,
+    "per_slot_bbox_needed": 29,
+    "source_text_directly_crosschecked_with_original_pdf_page_visual": 0,
+    "formal_new_science_kp_approved_this_round": 0,
+    "new_admission_ready": 0,
+    "new_published": 0,
+    "model_review_routing": {
+      "PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP": 28,
+      "HOLD_EVIDENCE_OR_SCIENCE": 4,
+      "INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED": 14,
+      "SCOPE_PERIOD_REVIEW_REQUIRED": 4
+    },
+    "within_B01_exact_text_duplicates": 2
+  },
+  "within_B01_exact_source_text_duplicates": [
+    [
+      "SCI_G04_S1_113_MID_001|S2|MC|9",
+      "SCI_G04_S1_113_MID_004|S1|MC|2"
+    ],
+    [
+      "SCI_G04_S1_113_MID_001|S2|MC|11",
+      "SCI_G04_S1_113_MID_003|S2|MC|4"
+    ]
+  ],
+  "constraints": [
+    "Keep model provisional answer distinct from authenticated original school key",
+    "Do not reinterpret old KP candidate as frozen-direct certified",
+    "Source-only evidence does not release student bank",
+    "Do not add re-review rounds; inherit accepted prior Gate and fill evidence gaps only"
+  ]
+}

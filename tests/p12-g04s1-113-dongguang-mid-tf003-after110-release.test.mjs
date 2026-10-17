@@ -19,7 +19,7 @@ test("Dongguang original 113 native TF003 source science unique answer direct KP
  assert.equal(norm(evidence.original_full_stem),norm(b.stem));
  assert.equal(evidence.independent_model_science_answer,b.answer);
  assert.equal(evidence.teacher_original_answer_key_authenticated,false);
- assert.equal(evidence.baseline_113_published_source_count,110);
+ assert.equal(evidence.pre_existing_113_published,110);
  assert.equal(evidence.pre_existing_public_student_answer_slots,746);
  assert.equal(evidence.formal_science_kp_approved_new,1);
  assert.equal(evidence.admission_ready_new,1);

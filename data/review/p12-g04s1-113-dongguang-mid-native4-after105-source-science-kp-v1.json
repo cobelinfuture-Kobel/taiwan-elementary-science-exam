@@ -1,0 +1,195 @@
+{
+  "schema_version": "P12_G04S1_113_DONGGUANG_MID_NATIVE4_AFTER105_SOURCE_SCIENCE_KP_V1",
+  "scope": "113 G04-S1 Kanghsuan frozen 48KP U01/U02 direct alignment; original Nanyi Dongguang first-semester midterm 4 original standalone OX",
+  "frozen_main_sha": "202473388d2a62ca7fc7a17f216c19f56db3fba7",
+  "baseline_113_published_source_count": 105,
+  "baseline_public_answer_slots": 741,
+  "suppression_checkpoint": "data/review/p12-g04s1-113-main-published105-source-suppression-readback-v5.json",
+  "authority_ref": "site/data/authority/science-g03-g04-selector-v3.json",
+  "source_id": "SCI_G04_S1_113_MID_004",
+  "original_pdf_filename": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+  "original_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+  "original_pdf_page_count": 2,
+  "original_pdf_drive_file_id": "1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl",
+  "page1_native_source_OX_count": 20,
+  "page1_native_source_MC_count": 15,
+  "source_geometry_method": "pymupdf ORIGINAL PDF rawdict, verified first opening/closing printed answer glyph coordinates on page 1 (PDF points, top-left origin); not estimated text search bbox",
+  "original_pdf_visual_check": true,
+  "source_pdf_checksum_matches_29paper_registry": true,
+  "printed_answer_bbox_verified_new": 4,
+  "full_original_stem_verified_new": 4,
+  "teacher_original_answer_key_authenticated": false,
+  "model_independent_science_answer": true,
+  "already_authorized_operator_corpus_scope": "P12_G04S1_113_29PDF_KANGHSUAN48KP_SELECTIVE_ADMISSION",
+  "rights": "SCHOOL_ORIGINAL_EXAM_TEXT_ONLY_TAIWAN_ART9_WITHOUT_ORIGINAL_PDF_OR_THIRD_PARTY_IMAGES",
+  "duplicate_check": "Current public bank and 105 published 113 source slots, related 114 active public and 25 crossyear original archives; exact/near source text, same science event and option reorder",
+  "held_exception_examples": [
+    {
+      "slot": "SCI_G04_S1_113_MID_004|S01|MC|002",
+      "reason": "SCIENCE_NONUNIQUE_WATER_POLLUTION_MAY_CAUSE_ALGAL_OR_PLANT_GROWTH"
+    },
+    {
+      "slot": "SCI_G04_S1_113_MID_004|S01|MC|005",
+      "reason": "SEMANTIC_DUPLICATE_ACTIVE_PUBLIC_P12_B04_G04S1_B06_TF_026_ADULT_FROG_BREATHES_WITH_LUNG"
+    },
+    {
+      "slot": "SCI_G04_S1_113_MID_004|S01|MC|010",
+      "reason": "BASIC_FISH_GILLS_RESPIRATION_FACT_ALREADY_COVERED_IN_PUBLISHED_SCIENCE_FISH_TASKS; HOLD duplicate"
+    },
+    {
+      "slot": "SCI_G04_S1_113_MID_004|S01|MC|012",
+      "reason": "SEMANTIC_DUPLICATE_ACTIVE_PUBLIC_P12_B04_G04S1_CHONGDE_MID_MC_008_FISH_MOVEMENT_AND_GILLS"
+    },
+    {
+      "slot": "SCI_G04_S1_113_MID_004|S02|TF|020",
+      "reason": "NEAR_EXACT_114_DONGGUANG_MID_008_S01_TF_005_FLOATING_ROOT_PLANT_SEMANTICS"
+    },
+    {
+      "slot": "SCI_G04_S1_113_MID_004|S02|TF|017",
+      "reason": "OVERLAPS_PUBLISHED_113_YONGAN_MID_TF007_TERRESTRIAL_PLANTS_WATER_HABITAT"
+    },
+    {
+      "slot": "SCI_G04_S1_113_MID_004|S02|TF|006",
+      "reason": "BROAD_POND_BIODIVERSITY_NO_DIRECT_FROZEN_48KP_BETTER_THAN_HOLD"
+    },
+    {
+      "slot": "SCI_G04_S1_113_MID_004|S02|TF|008",
+      "reason": "POND_BIODIVERSITY_SEMANTIC_OVERLAP_TO_TF006_NO_EXTRA_STUDENT_ANSWER"
+    },
+    {
+      "slot": "SCI_G04_S1_113_MID_004|S02|TF|011",
+      "reason": "GENERAL_LOVE_ENVIRONMENT_NO_DIRECT_WATER_POLLUTION_SCIENCE_KP"
+    },
+    {
+      "slot": "SCI_G04_S1_113_MID_004|S02|TF|018",
+      "reason": "AQUATIC_ANIMALS_REST_ON_LEAVES_NO_DIRECT_KP"
+    }
+  ],
+  "formal_science_kp_approved_new": 4,
+  "admission_ready_new": 4,
+  "student_published_before_postmerge_pages_e2e": 0,
+  "expected_if_live_e2e_success": 4,
+  "expected_full_public_slots_after_live_e2e": 745,
+  "records": [
+    {
+      "id": "P12_113_G04S1_DONGGUANG_MID_TF_002",
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S02|TF|002",
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "source_original_pdf_filename": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+      "source_original_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_page_1_based": 1,
+      "printed_section": "二、是非題",
+      "original_question_number": 2,
+      "original_full_stem": "將水生動物適應環境的資料用圖形或表格整理時，會比較容易看出牠們之間的異同。",
+      "original_options": null,
+      "printed_answer_parenthesis_pdf_bbox_pts_top_left": [
+        371.35,
+        136.21,
+        403.31,
+        149.49
+      ],
+      "bbox_method": "NATIVE_PDF_RAWDICT_OPEN_CLOSE_PARENTHESES",
+      "model_science_answer_not_teacher_key": "O",
+      "model_science_reason": "將水生動物的構造與環境適應資料整理成表格或圖形，有利於比較不同對象的相同點與差異，屬水域調查紀錄與整理。",
+      "model_science_assumption": null,
+      "canonical_direct_kp_id": "sci_g04s1_02_13",
+      "unit": "4-S1-U02",
+      "source_duplicate_absent": true,
+      "semantic_duplicate_public_absent": true,
+      "third_party_assets_included": false,
+      "operator_scope_authorized": true,
+      "science_kp_formal_pass": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_DONGGUANG_MID_TF_003",
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S02|TF|003",
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "source_original_pdf_filename": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+      "source_original_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_page_1_based": 1,
+      "printed_section": "二、是非題",
+      "original_question_number": 3,
+      "original_full_stem": "埤塘是淡水水域，而且水流速度非常快。",
+      "original_options": null,
+      "printed_answer_parenthesis_pdf_bbox_pts_top_left": [
+        371.35,
+        190.81,
+        403.31,
+        204.09
+      ],
+      "bbox_method": "NATIVE_PDF_RAWDICT_OPEN_CLOSE_PARENTHESES",
+      "model_science_answer_not_teacher_key": "X",
+      "model_science_reason": "埤塘通常是水流緩慢或近乎靜止的人工淡水水域；原題說水流非常快，因此整句錯誤。",
+      "model_science_assumption": null,
+      "canonical_direct_kp_id": "sci_g04s1_02_02",
+      "unit": "4-S1-U02",
+      "source_duplicate_absent": true,
+      "semantic_duplicate_public_absent": true,
+      "third_party_assets_included": false,
+      "operator_scope_authorized": true,
+      "science_kp_formal_pass": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_DONGGUANG_MID_TF_012",
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S02|TF|012",
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "source_original_pdf_filename": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+      "source_original_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_page_1_based": 1,
+      "printed_section": "二、是非題",
+      "original_question_number": 12,
+      "original_full_stem": "有些水生植物的莖和葉都沉在水裡。",
+      "original_options": null,
+      "printed_answer_parenthesis_pdf_bbox_pts_top_left": [
+        371.35,
+        500.44,
+        403.31,
+        513.72
+      ],
+      "bbox_method": "NATIVE_PDF_RAWDICT_OPEN_CLOSE_PARENTHESES",
+      "model_science_answer_not_teacher_key": "O",
+      "model_science_reason": "沉水性植物（例如水蘊草）的莖與葉可以生長在水面下，適應水域環境。",
+      "model_science_assumption": null,
+      "canonical_direct_kp_id": "sci_g04s1_02_05",
+      "unit": "4-S1-U02",
+      "source_duplicate_absent": true,
+      "semantic_duplicate_public_absent": true,
+      "third_party_assets_included": false,
+      "operator_scope_authorized": true,
+      "science_kp_formal_pass": true,
+      "admission_ready": true
+    },
+    {
+      "id": "P12_113_G04S1_DONGGUANG_MID_TF_015",
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S02|TF|015",
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "source_original_pdf_filename": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+      "source_original_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_page_1_based": 1,
+      "printed_section": "二、是非題",
+      "original_question_number": 15,
+      "original_full_stem": "如果想知道埤塘內有什麼水生生物，我們能在網路上利用關鍵字「埤塘」查資料。",
+      "original_options": null,
+      "printed_answer_parenthesis_pdf_bbox_pts_top_left": [
+        371.35,
+        591.54,
+        403.31,
+        604.82
+      ],
+      "bbox_method": "NATIVE_PDF_RAWDICT_OPEN_CLOSE_PARENTHESES",
+      "model_science_answer_not_teacher_key": "O",
+      "model_science_reason": "水域調查前可用「埤塘」作為網路查詢關鍵字，蒐集埤塘生物的背景資料，再透過實地觀察確認。",
+      "model_science_assumption": "題目詢問能否利用關鍵字蒐集資料，不表示網路搜尋能直接證明某一座埤塘現場有哪些物種。",
+      "canonical_direct_kp_id": "sci_g04s1_02_13",
+      "unit": "4-S1-U02",
+      "source_duplicate_absent": true,
+      "semantic_duplicate_public_absent": true,
+      "third_party_assets_included": false,
+      "operator_scope_authorized": true,
+      "science_kp_formal_pass": true,
+      "admission_ready": true
+    }
+  ]
+}

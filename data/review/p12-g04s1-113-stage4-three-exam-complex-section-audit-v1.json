@@ -1,0 +1,104 @@
+{
+  "schema_version": "P12_G04S1_113_STAGE4_COMPLEX_SECTIONS_AUDIT_V1",
+  "scope": "Three exact original PDFs; sections requiring shared context and image/diagram matching",
+  "source_scoring_not_equivalent_to_answer_slot": true,
+  "records": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_003",
+      "original_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "sections": [
+        {
+          "id": "S6",
+          "printed_positions_estimate": 9,
+          "group": "camping story and 3x3 judgements",
+          "status": "HOLD_ILLUSTRATION_PAIRING"
+        },
+        {
+          "id": "S7",
+          "printed_positions_estimate": 5,
+          "group": "moon-position diagram 5 subquestions",
+          "status": "HOLD_DIAGRAM"
+        },
+        {
+          "id": "S8",
+          "printed_positions_estimate": 2,
+          "group": "fiddler crab reading passage",
+          "status": "HOLD_FULL_SOURCE"
+        }
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "original_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "sections": [
+        {
+          "id": "S3",
+          "printed_positions_estimate": 16,
+          "group": "cross-page tick or cross 3 groups",
+          "status": "HOLD_MARKER_PAIRING"
+        },
+        {
+          "id": "S4",
+          "printed_positions_estimate": 3,
+          "group": "sun waterweed moonphase drawing; moon phase has two requested figures",
+          "status": "HOLD_SUBSLOT_DEFINITION"
+        },
+        {
+          "id": "S5",
+          "printed_positions_estimate": 8,
+          "group": "4 water plant figure positions + 4 moon-chart responses",
+          "status": "HOLD_IMAGE_MATCH"
+        }
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "sections": [
+        {
+          "id": "S3",
+          "printed_positions_estimate": 3,
+          "group": "3 circuit figure decisions",
+          "status": "HOLD_DIAGRAM"
+        },
+        {
+          "id": "S4",
+          "printed_positions_estimate": 2,
+          "group": "one series bulb and one series battery drawing; spanning both pages",
+          "status": "HOLD_DRAWING"
+        },
+        {
+          "id": "S5",
+          "printed_positions_estimate": 5,
+          "group": "circle eligible energy sources",
+          "status": "HOLD_CHOICE_IMAGE"
+        },
+        {
+          "id": "S6",
+          "printed_positions_estimate": 8,
+          "group": "appliances and conductor circuit materials",
+          "status": "HOLD_FIGURE"
+        },
+        {
+          "id": "S7",
+          "printed_positions_estimate": 8,
+          "group": "2x4 device power source and circuit matching",
+          "status": "HOLD_FIGURE"
+        },
+        {
+          "id": "S8",
+          "printed_positions_estimate": null,
+          "points": 3,
+          "group": "battery troubleshooting requires verbal response plus drawing",
+          "status": "HOLD_POINTS_VS_SLOT"
+        }
+      ]
+    }
+  ],
+  "section_groups_reviewed": 12,
+  "original_answer_marker_bbox_new_certified": 0,
+  "science_kp_new_certified": 0,
+  "public_bank_unchanged": 636,
+  "release_gate": "BLOCKED",
+  "evidence_scope_note": "This is a source-driven section/figure dependency audit, NOT per-answer-slot BBox certification."
+}

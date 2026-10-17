@@ -1,0 +1,36 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url);
+const {build}=require('../scripts/review/p12-g04s1-113-wholecorpus-resume.cjs');
+const load=file=>JSON.parse(fs.readFileSync('data/review/'+file,'utf8'));
+const b02=load('p12-g04s1-113-native-tfmc-b02-50-source-checkpoint-v1.json');
+const native=load('p12-g04s1-113-native-tfmc-b02-50-original-native-glyph-bbox-readback-v1.json');
+const source=load('p12-g04s1-113-native-tfmc-b02-50-pdf-text-layer-source-qa-v2.json');
+test('B02 original three PDF page1 markers all have SHA-linked native glyph BBox',()=>{
+ const planned=build().lanes.find(x=>x.name==='NATIVE_TFMC').batches[1];
+ assert.equal(native.source_positions.length,50);
+ assert.deepEqual(native.source_positions.map(x=>x.source_slot_id),planned.source_slots.map(x=>x.normalized_source_slot_id));
+ assert.deepEqual(b02.source_position_records.map(x=>x.normalized_source_slot_id),native.source_positions.map(x=>x.source_slot_id));
+ assert.equal(native.matched_b02_worklist_count,50);
+ assert.deepEqual(native.paper_mix.map(x=>x.done),[17,22,11]);
+ assert.ok(native.source_positions.every(x=>x.source_page_pdf_1_based===1 && x.original_printed_answer_parenthesis_bbox_pts_top_left.length===4));
+ assert.ok(native.source_positions.every(x=>x.student_bank_admitted===false));
+});
+test('B02 50 complete original text-layer stems + choices and footer exception',()=>{
+ assert.equal(source.source_positions.length,50);
+ assert.equal(source.metrics.source_full_question_text_layer_recovered,50);
+ assert.equal(source.metrics.original_four_choice_complete,15);
+ assert.equal(source.metrics.source_choice_visual_holds,0);
+ assert.deepEqual(source.source_positions.map(x=>x.source_slot_id),native.source_positions.map(x=>x.source_slot_id));
+ assert.equal(source.source_positions.filter(x=>x.source_type==='MC').length,15);
+ assert.ok(source.source_positions.every(x=>x.pdf_text_layer_stem?.trim().length>0));
+ assert.ok(source.source_positions.filter(x=>x.source_type==='MC').every(x=>x.option_items.length===4&&x.option_items.every(o=>o.text.length>0)));
+ const fixed=source.source_positions.find(x=>x.source_slot_id==='SCI_G04_S1_113_MID_007|S2|MC|13');
+ assert.ok(fixed.original_pdf_header_footer_intrusion_removed);
+ assert.ok(!fixed.pdf_text_layer_full_original_question.includes('臺北市民權國小 113 學年'));
+ assert.ok(!fixed.option_items[3].text.includes('臺北市民權國小'));
+ assert.equal(source.figures_exact_source_visual_needed.length,4);
+ assert.ok(source.source_positions.every(x=>x.admission_ready===false&&x.published===false));
+});

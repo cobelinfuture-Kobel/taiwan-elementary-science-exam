@@ -1,0 +1,326 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_COMPLETE_ORIGINAL_RETRIEVAL_AND_82_EXACT_SOURCE_CORRECTION_V1",
+  "execution": "WHOLE_CORPUS_BATCH",
+  "source_reference": "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "evidence_type": "ACTUAL_ORIGINAL_PDF_BINARY_AND_FULL_PAGE_MATERIALIZATION",
+  "source_pdfs_original_count": 29,
+  "all_sha256_in_original_frozen_29_set": true,
+  "all_unique_sha256": true,
+  "source_page_count": 72,
+  "native_text_originals": 24,
+  "native_text_pages_materialized": 56,
+  "scan_only_originals": 5,
+  "scan_only_pages_rendered": 16,
+  "prior82_page1_full_text_exact_match_after_corrections": 82,
+  "prior82_contamination_corrections": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_003|S2|MC|009",
+      "removed_spurious_text": "1",
+      "reason": "Adjacent section page text intrusion beyond item 9 options"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|003",
+      "removed_spurious_text": "家長簽名",
+      "reason": "Page header unrelated to item 3 stem"
+    }
+  ],
+  "source_binary_records": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_001",
+      "filename": "113_南一_四上_自然_期中評量卷_文德國小.pdf",
+      "original_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_002",
+      "filename": "113_南一_四上_自然_期中評量卷_和順國小.pdf",
+      "original_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "page_count": 3,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "SCAN_PAGE_IMAGE_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_003",
+      "filename": "113_南一_四上_自然_期中評量卷_忠孝國小.pdf",
+      "original_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "filename": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+      "original_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "filename": "113_南一_四上_自然_期末評量卷_和順國小.pdf",
+      "original_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "SCAN_PAGE_IMAGE_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "filename": "113_南一_四上_自然_期末評量卷_忠孝國小.pdf",
+      "original_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "page_count": 4,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "SCAN_PAGE_IMAGE_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "filename": "113_南一_四上_自然_期末評量卷_東光國小.pdf",
+      "original_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_005",
+      "filename": "113_康軒_四上_自然_期中評量卷_大墩國小.pdf",
+      "original_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "filename": "113_康軒_四上_自然_期中評量卷_內安國小.pdf",
+      "original_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "page_count": 4,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "SCAN_PAGE_IMAGE_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007",
+      "filename": "113_康軒_四上_自然_期中評量卷_民權國小.pdf",
+      "original_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008",
+      "filename": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "original_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009",
+      "filename": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "original_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_010",
+      "filename": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "original_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_011",
+      "filename": "113_康軒_四上_自然_期中評量卷_建德國小.pdf",
+      "original_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_012",
+      "filename": "113_康軒_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "original_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013",
+      "filename": "113_康軒_四上_自然_期中評量卷_獅湖國小.pdf",
+      "original_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "page_count": 3,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_014",
+      "filename": "113_康軒_四上_自然_期中評量卷_路上國小.pdf",
+      "original_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "page_count": 3,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_015",
+      "filename": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "original_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "page_count": 3,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_004",
+      "filename": "113_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "original_sha256": "ee3847a2790d0f92f64ff2361003e6383364dd83d49797bacd3631cfe808768d",
+      "page_count": 3,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_005",
+      "filename": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_006",
+      "filename": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "original_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_007",
+      "filename": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "filename": "113_康軒_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "original_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "page_count": 3,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_009",
+      "filename": "113_康軒_四上_自然_期末評量卷_獅湖國小.pdf",
+      "original_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "page_count": 3,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "SCAN_PAGE_IMAGE_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016",
+      "filename": "113_翰林_四上_自然_期中評量卷_大華國小.pdf",
+      "original_sha256": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_017",
+      "filename": "113_翰林_四上_自然_期中評量卷_內湖國小.pdf",
+      "original_sha256": "e0ad91beef6d908d73cf7198769b844ce865cc00b66f5ab07bde1ea1ee9e4518",
+      "page_count": 3,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_018",
+      "filename": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+      "original_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_010",
+      "filename": "113_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "original_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "page_count": 2,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_011",
+      "filename": "113_翰林_四上_自然_期末評量卷_內湖國小.pdf",
+      "original_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+      "page_count": 4,
+      "source_binary_readback": "VERIFIED_IN_RAW_29_EXACT_SHA_SET",
+      "materialization": "FULL_NATIVE_TEXT_AND_SPAN_GEOMETRY_MATERIALIZED",
+      "original_question_full_science_kp": "UNVERIFIED",
+      "public_rights": "UNVERIFIED"
+    }
+  ],
+  "detailed_extracted_text_and_scan_images": "local user-downloadable P12_G04S1_113_ALL29_source_evidence_bundle_v1.zip (not put in public repository pending republication rights)",
+  "published_bank_count_unchanged": 636,
+  "full_science_answer_kp_semantic_dedup_rights_gate": "PENDING_NOT_CERTIFIED",
+  "admission_ready_count": 0,
+  "whole_paper_final_closeout_count": 0,
+  "release_gate": "BLOCKED",
+  "next_execution_mode": "Treat full source material as input to corpus-wide question reconstruction, independently validate science answers, exact canonical KP and cross-year duplicate; do not ask per-PDF confirmations."
+}

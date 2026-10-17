@@ -1,0 +1,690 @@
+{
+  "schema_version": "P12_G04S1_113_NATIVE_TFMC_B04_50_REAL_GLYPH_BBOX_V1",
+  "scope": "Source-only B04 positions 151-200, original printed native glyphs from five SHA verified 113-year PDF files",
+  "paper_mix": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "glyph_count": 1
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "original_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "glyph_count": 8
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "original_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "glyph_count": 25
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "original_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "glyph_count": 11
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "original_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "glyph_count": 5
+    }
+  ],
+  "raw_method": "PyMuPDF fitz.get_text('rawdict') chars; rectangle union from literal opening parenthesis through closing parenthesis; source section numbered sequence checked against first and second original section of each PDF, never inferred coordinates from neighboring question.",
+  "source_positions": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|10",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        368.95,
+        503.08,
+        416.95,
+        515.08
+      ],
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S1|TF|5",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        36,
+        315.11,
+        73.65,
+        330.11
+      ],
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S1|TF|6",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        36,
+        357.11,
+        73.65,
+        372.11
+      ],
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S1|TF|10",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        36,
+        546.11,
+        73.65,
+        561.11
+      ],
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S2|MC|4",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        36,
+        903.11,
+        73.65,
+        918.11
+      ],
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S2|MC|7",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        374.88,
+        294.11,
+        412.53,
+        309.11
+      ],
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S2|MC|8",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        374.88,
+        357.11,
+        412.53,
+        372.11
+      ],
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S2|MC|9",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        374.88,
+        420.11,
+        412.53,
+        435.11
+      ],
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S2|MC|10",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        382.38,
+        546.11,
+        419.88,
+        561.11
+      ],
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|1",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        33.48,
+        79.15,
+        65,
+        88.93
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|2",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        33.48,
+        115.65,
+        65,
+        125.43
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|3",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        33.48,
+        170.25,
+        65,
+        180.03
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|4",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        33.48,
+        206.73,
+        65,
+        216.51
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|5",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        33.48,
+        261.33,
+        65,
+        271.11
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|6",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        33.48,
+        297.72,
+        65,
+        307.5
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|7",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        33.48,
+        334.2,
+        65,
+        343.98
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|8",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        33.48,
+        388.8,
+        65,
+        398.58
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|9",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        33.48,
+        443.4,
+        65,
+        453.18
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|10",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        29.76,
+        479.9,
+        61.28,
+        489.68
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|11",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        29.76,
+        516.38,
+        61.28,
+        526.16
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|12",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        29.76,
+        570.98,
+        61.28,
+        580.76
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|13",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        29.76,
+        625.58,
+        61.28,
+        635.36
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|14",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        29.76,
+        662.09,
+        61.28,
+        671.87
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|15",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        29.76,
+        716.69,
+        61.28,
+        726.47
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|1",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        311.45,
+        111.57,
+        342.99,
+        121.35
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|2",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        311.45,
+        183.57,
+        342.99,
+        193.35
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|3",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        311.45,
+        309.6,
+        342.99,
+        319.38
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|4",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        311.45,
+        435.6,
+        342.99,
+        445.38
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|5",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        311.45,
+        525.62,
+        342.99,
+        535.4
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|6",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        311.45,
+        633.62,
+        342.99,
+        643.4
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|7",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        311.45,
+        669.65,
+        342.99,
+        679.43
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|8",
+      "pdf_page_1_based": 2,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        45.6,
+        50.71,
+        77.15,
+        60.49
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|9",
+      "pdf_page_1_based": 2,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        45.6,
+        130.77,
+        77.15,
+        140.55
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|10",
+      "pdf_page_1_based": 2,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        41.88,
+        250.77,
+        73.43,
+        260.55
+      ],
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|1",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        42.6,
+        150.8,
+        81.5,
+        163.76
+      ],
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|2",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        42.6,
+        189.92,
+        81.5,
+        202.88
+      ],
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|4",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        42.6,
+        268.43,
+        81.5,
+        281.39
+      ],
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|5",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        42.6,
+        307.67,
+        81.5,
+        320.63
+      ],
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|8",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        42.6,
+        425.29,
+        81.5,
+        438.25
+      ],
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|9",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        42.6,
+        498.37,
+        81.5,
+        511.33
+      ],
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|10",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        42.6,
+        554.53,
+        81.5,
+        567.49
+      ],
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S2|MC|1",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        42.6,
+        622,
+        81.5,
+        634.96
+      ],
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S2|MC|7",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        308.23,
+        462.49,
+        347.11,
+        475.45
+      ],
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S2|MC|8",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        308.23,
+        538.09,
+        347.11,
+        551.05
+      ],
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S2|MC|10",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        308.23,
+        653.32,
+        347.11,
+        666.28
+      ],
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|1",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        28.32,
+        100.09,
+        58.32,
+        112.09
+      ],
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|2",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        28.32,
+        136.09,
+        58.32,
+        148.09
+      ],
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|3",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        28.32,
+        154.09,
+        58.32,
+        166.09
+      ],
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|4",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        28.32,
+        172.09,
+        58.32,
+        184.09
+      ],
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|5",
+      "pdf_page_1_based": 1,
+      "printed_answer_parenthesis_bbox_pdf_pt_top_left": [
+        28.32,
+        190.09,
+        58.32,
+        202.09
+      ],
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "method": "ORIGINAL_SHA_VERIFIED_PDF_PYMUPDF_RAWDICT_CHAR_PARENTHESIS_UNION",
+      "student_admitted": false
+    }
+  ],
+  "count": 50,
+  "pdf_page2_count": 3,
+  "new_formal_science_kp": 0,
+  "new_admission_ready": 0,
+  "new_published": 0,
+  "limitation": "Page/BBox and PDF text source evidence only; semantic science, direct canonical KP, crossyear duplicate, rights, operator Gate remain."
+}

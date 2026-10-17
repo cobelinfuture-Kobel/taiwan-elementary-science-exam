@@ -1,0 +1,58 @@
+{
+  "schema_version": "P12_G04S1_113_NATIVE301_INTERNAL_FULL_ORIGINAL_EXACT_QUESTION_DEDUP_V1",
+  "scope": "All 301 frozen 113 G04S1 native TFMC source positions, exact question stem and ordered choices",
+  "algorithm": "Normalize whitespace/punctuation only. Different source IDs represent separately preserved original lineage; textual identity alone does not certify science answer, operator, or rights.",
+  "source_text_refs": [
+    "data/review/p12-g04s1-113-native-tfmc-b01-50-pdf-text-model-kp-preflight-v1.json",
+    "data/review/p12-g04s1-113-native-tfmc-b02-50-pdf-text-layer-source-qa-v2.json",
+    "data/review/p12-g04s1-113-native-tfmc-b03-50-original-pdf-text-preflight-v1.json",
+    "data/review/p12-g04s1-113-native-tfmc-b04-50-original-pdf-text-layer-v3.json",
+    "data/review/p12-g04s1-113-native-tfmc-b05-50-pdf-text-source-v2.json",
+    "data/review/p12-g04s1-113-native-tfmc-b06-50-pdf-text-source-v2.json",
+    "data/review/p12-g04s1-113-native-tfmc-b07-1-pdf-text-source-v1.json"
+  ],
+  "source_count": 301,
+  "unique_source_ids": 301,
+  "exact_pairs": 6,
+  "exact_duplicate_groups": [
+    {
+      "first": "SCI_G04_S1_113_MID_001|S2|MC|11",
+      "second": "SCI_G04_S1_113_MID_003|S2|MC|4",
+      "duplicate_type": "EXACT_ORIGINAL_STEM_AND_ORDERED_ALTERNATIVES",
+      "not_new_student_pool_item": true
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_001|S2|MC|9",
+      "second": "SCI_G04_S1_113_MID_004|S1|MC|2",
+      "duplicate_type": "EXACT_ORIGINAL_STEM_AND_ORDERED_ALTERNATIVES",
+      "not_new_student_pool_item": true
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_001|S1|TF|1",
+      "second": "SCI_G04_S1_113_MID_004|S2|TF|9",
+      "duplicate_type": "EXACT_ORIGINAL_STEM_AND_ORDERED_ALTERNATIVES",
+      "not_new_student_pool_item": true
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_001|S1|TF|15",
+      "second": "SCI_G04_S1_113_MID_004|S2|TF|11",
+      "duplicate_type": "EXACT_ORIGINAL_STEM_AND_ORDERED_ALTERNATIVES",
+      "not_new_student_pool_item": true
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_001|S1|TF|3",
+      "second": "SCI_G04_S1_113_MID_004|S2|TF|14",
+      "duplicate_type": "EXACT_ORIGINAL_STEM_AND_ORDERED_ALTERNATIVES",
+      "not_new_student_pool_item": true
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_008|S1|TF|8",
+      "second": "SCI_G04_S1_113_MID_011|S1|TF|10",
+      "duplicate_type": "EXACT_ORIGINAL_STEM_AND_ORDERED_ALTERNATIVES",
+      "not_new_student_pool_item": true
+    }
+  ],
+  "needs_full_public_bank_semantic_dedup": true,
+  "new_admission_ready": 0,
+  "new_published": 0
+}

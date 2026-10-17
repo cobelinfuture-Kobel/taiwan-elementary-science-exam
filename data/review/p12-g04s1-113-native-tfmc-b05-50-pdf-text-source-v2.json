@@ -1,0 +1,1828 @@
+{
+  "schema_version": "P12_G04S1_113_NATIVE_B05_50_PDF_TEXT_SOURCE_V2",
+  "stage": "SOURCE_EXACT_TEXT_LAYER_NOT_PDF_VISUAL_OR_ADMISSION",
+  "source_pr": 124,
+  "batch": "B05_50",
+  "source_record_count": 50,
+  "scope_routing": {
+    "midterm_source_items": 30,
+    "final_source_items": 20
+  },
+  "native_pdf_source_sha256_verified_in_operator_downloads": true,
+  "shared_parent_reading_material": [
+    {
+      "id": "SCI_G04_S1_113_MID_015|S6",
+      "original_source_text_layer_parent": "(每題 1 分，共 5 分) \r\n從陸地到海洋，鯨魚「斷捨離」了哪些基因適應？ \r\n大約五千萬年前，鯨類開始在水中生活。根據\r\n研究，鯨豚類很可能是由有蹄類動物演化而來。一\r\n般來說，學者傾向用「獲得新基因」來解釋生物如\r\n何在新環境下適應、進而繁衍後代，近來的研究卻\r\n表示：陸生動物為了適應水中環境既失去、也得到\r\n基因。也就是說失去特定基因與獲得同等重要。\r\n〈背面還有題目喔！〉 3\r\n基因損失在某些情況下，不僅是針對「已過時\r\n功能」所進行的隨機刪除，更可能是一種生物的適\r\n應機制。例如在陸地哺乳類動物身上負責調節熱量\r\n的體毛，在水中反而會產生阻力。沒有了體毛，鯨\r\n類就能夠提升游泳速率、減少被捕食的機會。此時，\r\n這類基因的丟失就有助於適應新環境。\r\n科學家發現 85 個在兩種現生鯨類（鬚鯨和齒\r\n鯨）演化史中因突變失去作用的基因。其中 8 個已\r\n經確定與水生生活的適應有關：比如負責生成陸地\r\n哺乳動物口水的基因。它能幫助分解澱粉和潤滑口\r\n腔，但這功能在水中顯然不太重要，加上唾液的分\r\n泌會加速體內淡水流失，對生活在海水中的鯨類來\r\n說十分危險。\r\n不只沒有口水，還可以用半個腦袋睡覺 \r\n作為海中哺乳類動物，鯨魚發展出「單側腦半\r\n球」的睡眠現象：讓一半的大腦睡覺、一半維持清\r\n醒，防止因深度睡眠而錯過換氣。為此，牠們失去\r\n了數個和睡眠有關的基因。\r\n另外，鯨類還失去了負責凝固血液的基因，避\r\n免血液在海裡凝固堵塞血管；牠們還失去了另外 2\r\n個基因，以防止肺臟失去彈性。喪失某些基因可以\r\n降低 DNA 修復機制下產生的基因突變，調整血液中\r\n因深度潛水所需之高氧對身體造成的損害。\r\n斷捨離，該丟的就丟吧 \r\n透過以上舉例，我們得以稍微理解水生哺乳類\r\n的演化史，對生物在適應上的演化機制也多了不同\r\n的思考方向。原本棲息在陸上的哺乳類，要想在完\r\n全不同的水生環境下生活就得做出必要的割捨；換\r\n個環境，原本有益的基因，反而有可能會產生致命\r\n傷害。\r\n(文章來源：泛科學)",
+      "context_required": true,
+      "parent_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "rights_status": "REQUIRES_EXISTING_RIGHTS_GATE_PARENT_TEXT_AND_ANY_VISUAL"
+    }
+  ],
+  "source_records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|6",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "發生地震時，為了更快逃生，可以搭乘電梯。",
+      "original_pdf_text_layer_stem": "發生地震時，為了更快逃生，可以搭乘電梯。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|7",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "荷花的葉柄是實心的，因此可以支撐葉子。",
+      "original_pdf_text_layer_stem": "荷花的葉柄是實心的，因此可以支撐葉子。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|8",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "震度是指地震的搖晃程度，共分成 7 級。",
+      "original_pdf_text_layer_stem": "震度是指地震的搖晃程度，共分成 7 級。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|9",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "地震的規模愈大，表示搖晃程度愈劇烈。",
+      "original_pdf_text_layer_stem": "地震的規模愈大，表示搖晃程度愈劇烈。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|10",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "我們無法預測地震的發生，但可以透過地\r\n震預警系統，在地震發生時盡快逃生。",
+      "original_pdf_text_layer_stem": "我們無法預測地震的發生，但可以透過地\r\n震預警系統，在地震發生時盡快逃生。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|11",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "海洋是世界上最大的淡水生態環境。",
+      "original_pdf_text_layer_stem": "海洋是世界上最大的淡水生態環境。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|1",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "下列哪一種水生動物是用鰓呼吸？\r\n①螃蟹 ②青蛙 ③紅娘華 ④斑龜",
+      "original_pdf_text_layer_stem": "下列哪一種水生動物是用鰓呼吸？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "螃蟹"
+        },
+        {
+          "original_marker": "②",
+          "text": "青蛙"
+        },
+        {
+          "original_marker": "③",
+          "text": "紅娘華"
+        },
+        {
+          "original_marker": "④",
+          "text": "斑龜"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|3",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "魚類的身體中間粗，頭尾細，有什麼功用\r\n呢？\r\n①減少在水中游泳的阻力\r\n②比較不容易被天敵發現\r\n③可以吸收更多氧氣\r\n④可以減少水分散失",
+      "original_pdf_text_layer_stem": "魚類的身體中間粗，頭尾細，有什麼功用\r\n呢？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "減少在水中游泳的阻力"
+        },
+        {
+          "original_marker": "②",
+          "text": "比較不容易被天敵發現"
+        },
+        {
+          "original_marker": "③",
+          "text": "可以吸收更多氧氣"
+        },
+        {
+          "original_marker": "④",
+          "text": "可以減少水分散失"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|4",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "關於水生動物的運動方式，下列何者錯誤？\r\n①魚類用擺動鰭游水\r\n②蝌蚪擺動尾鰭游水\r\n③螃蟹用八隻腳爬行\r\n④青蛙用後腳跳躍",
+      "original_pdf_text_layer_stem": "關於水生動物的運動方式，下列何者錯誤？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "魚類用擺動鰭游水"
+        },
+        {
+          "original_marker": "②",
+          "text": "蝌蚪擺動尾鰭游水"
+        },
+        {
+          "original_marker": "③",
+          "text": "螃蟹用八隻腳爬行"
+        },
+        {
+          "original_marker": "④",
+          "text": "青蛙用後腳跳躍"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|5",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "住在海岸地區的居民，最不可能以哪一種食\r\n物為主要食物？\r\n①飛魚 ②海帶 ③小米 ④牡蠣",
+      "original_pdf_text_layer_stem": "住在海岸地區的居民，最不可能以哪一種食\r\n物為主要食物？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "飛魚"
+        },
+        {
+          "original_marker": "②",
+          "text": "海帶"
+        },
+        {
+          "original_marker": "③",
+          "text": "小米"
+        },
+        {
+          "original_marker": "④",
+          "text": "牡蠣"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|7",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "觀察水域環境時，不需要攜帶下列何者？\r\n①水桶 ②圖鑑 ③撈網 ④墨鏡",
+      "original_pdf_text_layer_stem": "觀察水域環境時，不需要攜帶下列何者？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "水桶"
+        },
+        {
+          "original_marker": "②",
+          "text": "圖鑑"
+        },
+        {
+          "original_marker": "③",
+          "text": "撈網"
+        },
+        {
+          "original_marker": "④",
+          "text": "墨鏡"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|9",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "小米週末出遊時觀察到苔蘚、蝦子和螃蟹，\r\n他最有可能到哪一種環境？\r\n①溪流 ②海洋 ③潮間帶 ④森林",
+      "original_pdf_text_layer_stem": "小米週末出遊時觀察到苔蘚、蝦子和螃蟹，\r\n他最有可能到哪一種環境？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "溪流"
+        },
+        {
+          "original_marker": "②",
+          "text": "海洋"
+        },
+        {
+          "original_marker": "③",
+          "text": "潮間帶"
+        },
+        {
+          "original_marker": "④",
+          "text": "森林"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|10",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "下列哪一種植物的葉子表面有細毛，可以\r\n防水？\r\n①睡蓮 ②香蒲 ③大萍 ④浮萍",
+      "original_pdf_text_layer_stem": "下列哪一種植物的葉子表面有細毛，可以\r\n防水？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "睡蓮"
+        },
+        {
+          "original_marker": "②",
+          "text": "香蒲"
+        },
+        {
+          "original_marker": "③",
+          "text": "大萍"
+        },
+        {
+          "original_marker": "④",
+          "text": "浮萍"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|11",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "下列何者不是地震造成的？\r\n①地面隆起斷裂 ②堰塞湖\r\n③山坡地崩塌 ④學校的榕樹折斷",
+      "original_pdf_text_layer_stem": "下列何者不是地震造成的？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "地面隆起斷裂"
+        },
+        {
+          "original_marker": "②",
+          "text": "堰塞湖"
+        },
+        {
+          "original_marker": "③",
+          "text": "山坡地崩塌"
+        },
+        {
+          "original_marker": "④",
+          "text": "學校的榕樹折斷"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|12",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "關於地表的物質，下列何者顆粒最小？\r\n①沙 ②土壤 ③礫石 ④岩石",
+      "original_pdf_text_layer_stem": "關於地表的物質，下列何者顆粒最小？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "沙"
+        },
+        {
+          "original_marker": "②",
+          "text": "土壤"
+        },
+        {
+          "original_marker": "③",
+          "text": "礫石"
+        },
+        {
+          "original_marker": "④",
+          "text": "岩石"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|13",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "下列何者不是人類對地表的危害？\r\n①過度開發森林 ②開闢山坡地\r\n③在河川地開挖砂石 ④整治河川",
+      "original_pdf_text_layer_stem": "下列何者不是人類對地表的危害？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "過度開發森林"
+        },
+        {
+          "original_marker": "②",
+          "text": "開闢山坡地"
+        },
+        {
+          "original_marker": "③",
+          "text": "在河川地開挖砂石"
+        },
+        {
+          "original_marker": "④",
+          "text": "整治河川"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|14",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "關於震度分級，下列何者正確？\r\n①7 級：房屋損壞、山崩地裂\r\n②6 級：門窗扭曲變形\r\n③4 級：搖晃劇烈，無法走動\r\n④1 級：感覺不到。",
+      "original_pdf_text_layer_stem": "關於震度分級，下列何者正確？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "7 級：房屋損壞、山崩地裂"
+        },
+        {
+          "original_marker": "②",
+          "text": "6 級：門窗扭曲變形"
+        },
+        {
+          "original_marker": "③",
+          "text": "4 級：搖晃劇烈，無法走動"
+        },
+        {
+          "original_marker": "④",
+          "text": "1 級：感覺不到。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|15",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "下列何者不是地震前須做的防災準備？\r\n①準備避難包 ②進行防震演練\r\n③保護頭部 ④檢查房屋有無龜裂",
+      "original_pdf_text_layer_stem": "下列何者不是地震前須做的防災準備？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "準備避難包"
+        },
+        {
+          "original_marker": "②",
+          "text": "進行防震演練"
+        },
+        {
+          "original_marker": "③",
+          "text": "保護頭部"
+        },
+        {
+          "original_marker": "④",
+          "text": "檢查房屋有無龜裂"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|16",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "地震發生時，應該做什麼？\r\n①保護頭部 ②檢查瓦斯水電管線\r\n③進行防震演練 ④釘牢櫥櫃等家具",
+      "original_pdf_text_layer_stem": "地震發生時，應該做什麼？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "保護頭部"
+        },
+        {
+          "original_marker": "②",
+          "text": "檢查瓦斯水電管線"
+        },
+        {
+          "original_marker": "③",
+          "text": "進行防震演練"
+        },
+        {
+          "original_marker": "④",
+          "text": "釘牢櫥櫃等家具"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|17",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "下列何者環境較適合水稻生長？\r\n①海濱泥灘地 ②濕潤的土壤\r\n③低海拔森林 ④排水良好的沙地",
+      "original_pdf_text_layer_stem": "下列何者環境較適合水稻生長？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "海濱泥灘地"
+        },
+        {
+          "original_marker": "②",
+          "text": "濕潤的土壤"
+        },
+        {
+          "original_marker": "③",
+          "text": "低海拔森林"
+        },
+        {
+          "original_marker": "④",
+          "text": "排水良好的沙地"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|18",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "發生地震時，下列哪一個地方最安全？\r\n①班級的教室 ②空曠的操場\r\n③有許多商店的街道 ④老師辦公室",
+      "original_pdf_text_layer_stem": "發生地震時，下列哪一個地方最安全？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "班級的教室"
+        },
+        {
+          "original_marker": "②",
+          "text": "空曠的操場"
+        },
+        {
+          "original_marker": "③",
+          "text": "有許多商店的街道"
+        },
+        {
+          "original_marker": "④",
+          "text": "老師辦公室"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|19",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "過度開發森林，對環境會造成什麼影響？\r\n①下雨時容易發生土石流\r\n②河裡的魚蝦容易死亡\r\n③房屋容易倒塌\r\n④山坡地容易崩塌",
+      "original_pdf_text_layer_stem": "過度開發森林，對環境會造成什麼影響？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "下雨時容易發生土石流"
+        },
+        {
+          "original_marker": "②",
+          "text": "河裡的魚蝦容易死亡"
+        },
+        {
+          "original_marker": "③",
+          "text": "房屋容易倒塌"
+        },
+        {
+          "original_marker": "④",
+          "text": "山坡地容易崩塌"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "PDF_HEADER_FOOTER_OR_PARENT_CONTEXT_VISUAL_CHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|20",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "下列哪一種水生植物的根部是固定在水底\r\n的泥土裡？\r\n①荷花 ②浮萍 ③布袋蓮 ④大萍",
+      "original_pdf_text_layer_stem": "下列哪一種水生植物的根部是固定在水底\r\n的泥土裡？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "荷花"
+        },
+        {
+          "original_marker": "②",
+          "text": "浮萍"
+        },
+        {
+          "original_marker": "③",
+          "text": "布袋蓮"
+        },
+        {
+          "original_marker": "④",
+          "text": "大萍"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S6|MC|1",
+      "source_section": "S6",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "鯨魚生活在哪一種水域環境中？\r\n①海洋 ②生態池 ③溪流 ④湖泊",
+      "original_pdf_text_layer_stem": "鯨魚生活在哪一種水域環境中？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "海洋"
+        },
+        {
+          "original_marker": "②",
+          "text": "生態池"
+        },
+        {
+          "original_marker": "③",
+          "text": "溪流"
+        },
+        {
+          "original_marker": "④",
+          "text": "湖泊"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "SHARED_READING_PARENT",
+      "parent_ref": "SCI_G04_S1_113_MID_015|S6",
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S6|MC|2",
+      "source_section": "S6",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "為什麼鯨魚會失去某些基因？\r\n①為了幫助牠們繁殖\r\n②為了讓體型變得更大\r\n③為了在陸地上生存\r\n④為了在海水中生存",
+      "original_pdf_text_layer_stem": "為什麼鯨魚會失去某些基因？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "為了幫助牠們繁殖"
+        },
+        {
+          "original_marker": "②",
+          "text": "為了讓體型變得更大"
+        },
+        {
+          "original_marker": "③",
+          "text": "為了在陸地上生存"
+        },
+        {
+          "original_marker": "④",
+          "text": "為了在海水中生存"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "SHARED_READING_PARENT",
+      "parent_ref": "SCI_G04_S1_113_MID_015|S6",
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S6|MC|3",
+      "source_section": "S6",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "下列關於鯨魚的敘述，何者正確？\r\n①鯨魚沒有一半的大腦\r\n②鯨魚是從魚類演化而來的\r\n③鯨魚沒有口水\r\n④鯨魚的皮膚上有細毛",
+      "original_pdf_text_layer_stem": "下列關於鯨魚的敘述，何者正確？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "鯨魚沒有一半的大腦"
+        },
+        {
+          "original_marker": "②",
+          "text": "鯨魚是從魚類演化而來的"
+        },
+        {
+          "original_marker": "③",
+          "text": "鯨魚沒有口水"
+        },
+        {
+          "original_marker": "④",
+          "text": "鯨魚的皮膚上有細毛"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "SHARED_READING_PARENT",
+      "parent_ref": "SCI_G04_S1_113_MID_015|S6",
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S6|MC|4",
+      "source_section": "S6",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "下列何者不是鯨魚在演化過程中失去的基\r\n因？\r\n①生產口水的基因\r\n②強化肺臟的基因\r\n③凝固血液的基因\r\n④生成體毛的基因",
+      "original_pdf_text_layer_stem": "下列何者不是鯨魚在演化過程中失去的基\r\n因？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "生產口水的基因"
+        },
+        {
+          "original_marker": "②",
+          "text": "強化肺臟的基因"
+        },
+        {
+          "original_marker": "③",
+          "text": "凝固血液的基因"
+        },
+        {
+          "original_marker": "④",
+          "text": "生成體毛的基因"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "SHARED_READING_PARENT",
+      "parent_ref": "SCI_G04_S1_113_MID_015|S6",
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S6|MC|5",
+      "source_section": "S6",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "下列何者是鯨魚的呼吸器官？\r\n①肺 ②鰓 ③腹足 ④呼吸管",
+      "original_pdf_text_layer_stem": "下列何者是鯨魚的呼吸器官？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "肺"
+        },
+        {
+          "original_marker": "②",
+          "text": "鰓"
+        },
+        {
+          "original_marker": "③",
+          "text": "腹足"
+        },
+        {
+          "original_marker": "④",
+          "text": "呼吸管"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "SHARED_READING_PARENT",
+      "parent_ref": "SCI_G04_S1_113_MID_015|S6",
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|1",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "將左耳貼在桌面，再敲擊桌面時，兩耳\r\n聽到的聲音是來自一樣的介質。",
+      "original_pdf_text_layer_stem": "將左耳貼在桌面，再敲擊桌面時，兩耳\r\n聽到的聲音是來自一樣的介質。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|7",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "常見的乾電池有兩極，凸的一端是正\r\n極，用「－」表示；平的一端是負極，\r\n用「＋」表示。",
+      "original_pdf_text_layer_stem": "常見的乾電池有兩極，凸的一端是正\r\n極，用「－」表示；平的一端是負極，\r\n用「＋」表示。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|11",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "任何不同電池的電量用完後，都可以使\r\n用充電的方式繼續使用。",
+      "original_pdf_text_layer_stem": "任何不同電池的電量用完後，都可以使\r\n用充電的方式繼續使用。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|14",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "光線遇到無法穿透的物體時，會改變方\r\n向後再繼續行進，所以光的行進路線是\r\n可以彎曲的。",
+      "original_pdf_text_layer_stem": "光線遇到無法穿透的物體時，會改變方\r\n向後再繼續行進，所以光的行進路線是\r\n可以彎曲的。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|15",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "電線外面包覆一層塑膠皮是為了絕\r\n緣，裡面則是鐵線。",
+      "original_pdf_text_layer_stem": "電線外面包覆一層塑膠皮是為了絕\r\n緣，裡面則是鐵線。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|16",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "長期不使用的遙控器，要將電池取出，\r\n因為電池內的化學物質漏出來的話，遙\r\n控器會損壞。",
+      "original_pdf_text_layer_stem": "長期不使用的遙控器，要將電池取出，\r\n因為電池內的化學物質漏出來的話，遙\r\n控器會損壞。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|2",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "怎樣才能讓拉開後再放開的橡皮筋發出\r\n較大的聲音？ ①更小力拉橡皮筋\r\n②換一條粗的橡皮筋 ③換一條綠色的\r\n橡皮筋 ④更大力拉橡皮筋。",
+      "original_pdf_text_layer_stem": "怎樣才能讓拉開後再放開的橡皮筋發出\r\n較大的聲音？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "更小力拉橡皮筋"
+        },
+        {
+          "original_marker": "②",
+          "text": "換一條粗的橡皮筋"
+        },
+        {
+          "original_marker": "③",
+          "text": "換一條綠色的\r\n橡皮筋"
+        },
+        {
+          "original_marker": "④",
+          "text": "更大力拉橡皮筋。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|3",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "經由汽車後視鏡看到後面車子的情況，\r\n是因為光的何種現象？ ①光產生熱\r\n②反射 ③折射 ④直線行進。",
+      "original_pdf_text_layer_stem": "經由汽車後視鏡看到後面車子的情況，\r\n是因為光的何種現象？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "光產生熱"
+        },
+        {
+          "original_marker": "②",
+          "text": "反射"
+        },
+        {
+          "original_marker": "③",
+          "text": "折射"
+        },
+        {
+          "original_marker": "④",
+          "text": "直線行進。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|4",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "改變光線照射鏡子的角度，光線會有什\r\n麼情形？ ①反射光線位置會改變\r\n②反射光線位置不會改變 ③沒有反射\r\n光線 ④反射光線是曲線前進。",
+      "original_pdf_text_layer_stem": "改變光線照射鏡子的角度，光線會有什\r\n麼情形？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "反射光線位置會改變"
+        },
+        {
+          "original_marker": "②",
+          "text": "反射光線位置不會改變"
+        },
+        {
+          "original_marker": "③",
+          "text": "沒有反射\r\n光線"
+        },
+        {
+          "original_marker": "④",
+          "text": "反射光線是曲線前進。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|5",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "警車上面有警示功能的燈，是使用什麼\r\n顏色的燈光？ ①綠色 ②黃色 \r\n③紅色 ④白色。",
+      "original_pdf_text_layer_stem": "警車上面有警示功能的燈，是使用什麼\r\n顏色的燈光？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "綠色"
+        },
+        {
+          "original_marker": "②",
+          "text": "黃色"
+        },
+        {
+          "original_marker": "③",
+          "text": "紅色"
+        },
+        {
+          "original_marker": "④",
+          "text": "白色。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|7",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "燈泡會發亮是的哪一個構造？ ①導線\r\n②玻璃罩 ③螺紋金屬體 ④燈絲。",
+      "original_pdf_text_layer_stem": "燈泡會發亮是的哪一個構造？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "導線"
+        },
+        {
+          "original_marker": "②",
+          "text": "玻璃罩"
+        },
+        {
+          "original_marker": "③",
+          "text": "螺紋金屬體"
+        },
+        {
+          "original_marker": "④",
+          "text": "燈絲。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|8",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "下列何者不是使用電池座的原因 ？\r\n①方便使用 ②減少接觸不良 ③延長\r\n電池使用壽命 ④降低操作危險。",
+      "original_pdf_text_layer_stem": "下列何者不是使用電池座的原因 ？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "方便使用"
+        },
+        {
+          "original_marker": "②",
+          "text": "減少接觸不良"
+        },
+        {
+          "original_marker": "③",
+          "text": "延長\r\n電池使用壽命"
+        },
+        {
+          "original_marker": "④",
+          "text": "降低操作危險。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|9",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "下列何者是燈泡能發亮的原因？ ①電\r\n池顏色 ②形成通路 ③電池串聯\r\n④燈泡並聯。",
+      "original_pdf_text_layer_stem": "下列何者是燈泡能發亮的原因？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "電\r\n池顏色"
+        },
+        {
+          "original_marker": "②",
+          "text": "形成通路"
+        },
+        {
+          "original_marker": "③",
+          "text": "電池串聯"
+        },
+        {
+          "original_marker": "④",
+          "text": "燈泡並聯。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|10",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "同一組燈飾中的一個燈泡不亮了，其他\r\n燈泡也不亮，這組燈飾是下列哪一種連\r\n接方式？ ①電池並聯 ②電池串聯\r\n③燈泡串聯 ④燈泡並聯。",
+      "original_pdf_text_layer_stem": "同一組燈飾中的一個燈泡不亮了，其他\r\n燈泡也不亮，這組燈飾是下列哪一種連\r\n接方式？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "電池並聯"
+        },
+        {
+          "original_marker": "②",
+          "text": "電池串聯"
+        },
+        {
+          "original_marker": "③",
+          "text": "燈泡串聯"
+        },
+        {
+          "original_marker": "④",
+          "text": "燈泡並聯。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|11",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "小馬達逆時針轉動時，如果將電池正\r\n極、負極交換連接，轉動情形何者正確？\r\n①逆時針轉動 ②順時針轉動 ③先順\r\n時針轉動，再逆時針轉動 ④不會動了。",
+      "original_pdf_text_layer_stem": "小馬達逆時針轉動時，如果將電池正\r\n極、負極交換連接，轉動情形何者正確？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "逆時針轉動"
+        },
+        {
+          "original_marker": "②",
+          "text": "順時針轉動"
+        },
+        {
+          "original_marker": "③",
+          "text": "先順\r\n時針轉動，再逆時針轉動"
+        },
+        {
+          "original_marker": "④",
+          "text": "不會動了。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|12",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "接上一題，兩條電線要連接到馬達的哪\r\n一個構造？ ①軸心 ②兩側金屬片\r\n③外殼 ④任何部位都可以。",
+      "original_pdf_text_layer_stem": "接上一題，兩條電線要連接到馬達的哪\r\n一個構造？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "軸心"
+        },
+        {
+          "original_marker": "②",
+          "text": "兩側金屬片"
+        },
+        {
+          "original_marker": "③",
+          "text": "外殼"
+        },
+        {
+          "original_marker": "④",
+          "text": "任何部位都可以。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "PDF_HEADER_FOOTER_OR_PARENT_CONTEXT_VISUAL_CHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|13",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "雷射筆的光照射到鏡子後改變行進的方\r\n向，可以說明光的這是哪一種特性？\r\n①光的直線行進 ②光的斜射 ③光的\r\n反射 ④光的亂射。",
+      "original_pdf_text_layer_stem": "雷射筆的光照射到鏡子後改變行進的方\r\n向，可以說明光的這是哪一種特性？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "光的直線行進"
+        },
+        {
+          "original_marker": "②",
+          "text": "光的斜射"
+        },
+        {
+          "original_marker": "③",
+          "text": "光的\r\n反射"
+        },
+        {
+          "original_marker": "④",
+          "text": "光的亂射。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|14",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "下列何者不是光源？①太陽 ②反光的\r\n鏡子 ③燃燒的蠟燭 ④發亮的手電筒",
+      "original_pdf_text_layer_stem": "下列何者不是光源？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "太陽"
+        },
+        {
+          "original_marker": "②",
+          "text": "反光的\r\n鏡子"
+        },
+        {
+          "original_marker": "③",
+          "text": "燃燒的蠟燭"
+        },
+        {
+          "original_marker": "④",
+          "text": "發亮的手電筒"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|15",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "看起來接好的電路，燈泡卻不會亮，這\r\n代表這個電路是什麼情形？ ①斷路\r\n②通路 ③串路 ④並路。",
+      "original_pdf_text_layer_stem": "看起來接好的電路，燈泡卻不會亮，這\r\n代表這個電路是什麼情形？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "斷路"
+        },
+        {
+          "original_marker": "②",
+          "text": "通路"
+        },
+        {
+          "original_marker": "③",
+          "text": "串路"
+        },
+        {
+          "original_marker": "④",
+          "text": "並路。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|16",
+      "source_section": "S2",
+      "question_kind": "MC",
+      "original_pdf_text_layer_question": "有關電池串聯與並聯，下列哪一項是正\r\n確的？ ①並聯的其中一個電池壞了，\r\n燈泡也不會亮 ②串聯的其中一個電池\r\n沒電了，燈泡還是會亮 ③並聯的燈泡\r\n比串聯暗 ④串聯的燈泡比並聯暗。",
+      "original_pdf_text_layer_stem": "有關電池串聯與並聯，下列哪一項是正\r\n確的？",
+      "original_ordered_choices": [
+        {
+          "original_marker": "①",
+          "text": "並聯的其中一個電池壞了，\r\n燈泡也不會亮"
+        },
+        {
+          "original_marker": "②",
+          "text": "串聯的其中一個電池\r\n沒電了，燈泡還是會亮"
+        },
+        {
+          "original_marker": "③",
+          "text": "並聯的燈泡\r\n比串聯暗"
+        },
+        {
+          "original_marker": "④",
+          "text": "串聯的燈泡比並聯暗。"
+        }
+      ],
+      "printed_choice_marker_count": 4,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S1|TF|1",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "月亮看起來的形狀稱為月暈。",
+      "original_pdf_text_layer_stem": "月亮看起來的形狀稱為月暈。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "source_original_drive_url": "https://drive.google.com/file/d/1fYJ5QiOHyy5JhqQkGeqejTfF7FnSHL2n/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S1|TF|2",
+      "source_section": "S1",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "蓮的葉片可隨水位的高低漂浮，是一種浮葉\r\n性植物。",
+      "original_pdf_text_layer_stem": "蓮的葉片可隨水位的高低漂浮，是一種浮葉\r\n性植物。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "ORIGINAL_SINGLE_QUESTION_TEXT",
+      "parent_ref": null,
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "source_original_drive_url": "https://drive.google.com/file/d/1fYJ5QiOHyy5JhqQkGeqejTfF7FnSHL2n/view",
+      "source_scope": "MIDTERM_U01_U02",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "metrics": {
+    "original_stem_text_count": 50,
+    "ordered_MC_four_option_count": 36,
+    "original_TF_count": 14,
+    "shared_reading_parent_dependents": 5,
+    "figure_mention": 0,
+    "possible_footer_visual_review": 2,
+    "source_native_bbox_complete": 0,
+    "new_formal_science_KP_approved": 0,
+    "new_admission_ready": 0,
+    "new_published": 0
+  },
+  "source_records_lack_formal_page_bbox": "Unchanged PDF_PAGE_BBOX Gate remains; PDF text is not actual native glyph BBox and narrative/image sources must not be separated from children.",
+  "limitations": [
+    "Original school teacher keys unavailable; no model answer treated as official key",
+    "Review and strip interleaved page footers by original PDF visual before admission",
+    "Shared parent article may carry third-party rights restrictions; never publish raw parent content without rights clearance",
+    "FINAL U03/U04 and MIDTERM U01/U02 must use separate applicable KP periods"
+  ],
+  "previous_original_raw_evidence": "data/review/p12-g04s1-113-native-tfmc-b05-50-pdf-text-source-v1.json",
+  "source_text_corruptions_corrected": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|19",
+      "original_footer_or_header": "〈背面還有題目喔！〉",
+      "removed_text": "〈背面還有題目喔！〉 2",
+      "why": "Remove printed page-turn note and page number from source MC option4",
+      "source_v1_preserved": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S6|MC|5",
+      "original_footer_or_header": "〈題目到此結束，記得檢查！〉",
+      "removed_text": "〈題目到此結束，記得檢查！〉",
+      "why": "Remove end-of-paper instruction from shared reading child MC option4",
+      "source_v1_preserved": true
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|12",
+      "original_footer_or_header": "新北市",
+      "removed_text": "新北市\r\n土城區 安和國民小學 113 學年度第一學期 第二次定期考查試題\r\n100 分 人\r\n99-90 分 人\r\n89-80 分 人\r\n79-70 分 人\r\n69-60 分 人\r\n60 分以下 人\r\n家長簽章\r\n科\r\n目\r\n自然 年\r\n級\r\n四年 班\r\n座\r\n號\r\n姓\r\n名",
+      "why": "Separate school header, summary scores and student identification before MC13",
+      "source_v1_preserved": true
+    }
+  ]
+}

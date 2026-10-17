@@ -1,0 +1,40 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {createRequire} from 'node:module';
+const require = createRequire(import.meta.url);
+const {build,normalizeSlot} = require('../scripts/review/p12-g04s1-113-wholecorpus-resume.cjs');
+const data = JSON.parse(fs.readFileSync(path.resolve('data/review/p12-g04s1-113-native-tfmc-b01-50-pdf-text-model-kp-preflight-v1.json'), 'utf8'));
+test('B01 direct PDF text-layer readback covers all 50 fixed worklist sources', () => {
+  const b01=build().lanes[0].batches[0];
+  assert.equal(data.rows.length,50);
+  assert.deepEqual(data.rows.map(r=>normalizeSlot(r.normalized_source_slot_id)),b01.source_slots.map(r=>r.normalized_source_slot_id));
+  assert.equal(data.metrics.source_full_stem_text_layer_readback,50);
+  assert.equal(data.metrics.tf_original_text_layer_readback,19);
+  assert.equal(data.metrics.four_option_mc_full_readback,31);
+  assert.equal(data.rows.filter(x=>x.source_answer_marker_bbox_pdf_pts_top_left?.length===4).length,21);
+  assert.equal(data.rows.filter(x=>!x.source_answer_marker_bbox_pdf_pts_top_left).length,29);
+  assert.ok(data.rows.every(x=>x.stem_pdf_text_layer.trim().length>0&&x.original_pdf_reference.startsWith('https://drive.google.com/file/d/')));
+  assert.ok(data.rows.every(x=>!x.options_pdf_text_layer||x.options_pdf_text_layer.map(o=>o.label).join('')==='①②③④'));
+  assert.ok(data.rows.every(x=>x.published_this_round===false && x.admission_ready_this_round===false));
+});
+test('B01 retained model decisions are not authoritative or counted as released', () => {
+  const c=data.metrics.model_review_routing;
+  assert.equal(c.PROVISIONAL_OUTSIDE_DIRECT_FROZEN_KP,28);
+  assert.equal(c.HOLD_EVIDENCE_OR_SCIENCE,4);
+  assert.equal(c.INITIAL_SCIENCE_KP_CANDIDATE_NOT_FORMALLY_CERTIFIED,14);
+  assert.equal(c.SCOPE_PERIOD_REVIEW_REQUIRED,4);
+  assert.equal(data.metrics.formal_new_science_kp_approved_this_round,0);
+  assert.equal(data.metrics.new_admission_ready,0);
+  assert.equal(data.metrics.new_published,0);
+  assert.equal(data.metrics.source_text_directly_crosschecked_with_original_pdf_page_visual,0);
+});
+test('B01 exact duplicated original answering text is preserved without auto admission', () => {
+  const groups=data.within_B01_exact_source_text_duplicates;
+  assert.equal(groups.length,2);
+  const group=groups.find(g=>g.some(id=>id.endsWith('|S2|MC|11')));
+  assert.ok(group?.some(id=>id.endsWith('|S2|MC|4')));
+  const group2=groups.find(g=>g.some(id=>id.endsWith('|S2|MC|9')));
+  assert.ok(group2?.some(id=>id.endsWith('|S1|MC|2')));
+});

@@ -1,0 +1,23 @@
+{
+  "schema_version": "P12_113_B01B02_100_VS_114_25SOURCE_DEDUP_SHARD01_V1",
+  "purpose": "SOURCE_ONLY_BULK_CROSSYEAR_MATCH_CANDIDATES_NOT_AUTO_REJECT_OR_ADMIT",
+  "shard": 1,
+  "original114_papers_compared": [
+    "p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+    "p12-art9-114-anhe-g04s1-mid30-original-questions-v1-content-v1.json",
+    "p12-art9-114-chongde-g04s1-final19-original-questions-v1-content-v1.json",
+    "p12-art9-114-chongde-g04s1-mid16-original-questions-v1-content-v1.json",
+    "p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+    "p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+    "p12-art9-114-dahua-g04s1-final22-original-questions-v1-content-v1.json",
+    "p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json"
+  ],
+  "original114_source_rows_compared": 197,
+  "current113_source_positions": 100,
+  "threshold_stem_dice": 0.82,
+  "matches": [],
+  "exact_matches": 0,
+  "near_candidates": 0,
+  "scope_114_archive_only": "114 original content-only question archives; active published bank separate exact source suppression already applied; not full formal semantic dedup",
+  "new_admission_ready": 0
+}

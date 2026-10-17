@@ -48,6 +48,14 @@ try {
   assert.deepEqual(hanlin5.blocks.map(b=>b.answer),["O","②","X","O","O"]);
   assert.deepEqual(hanlin5.blocks.map(b=>b.canonical_kp_id),["sci_g04s1_02_11","sci_g04s1_02_10","sci_g04s1_02_03","sci_g04s1_02_01","sci_g04s1_02_02"]);
   assert.ok(hanlin5.blocks.every(b=>b.grade===4&&b.semester===1&&b.unit==="4-S1-U02"&&b.source_page_pdf_1_based===1&&b.source_pdf_bbox_pts_top_left?.length===4&&!b.original_cropped_assets_included));
+  const tf003Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-dongguang-mid-tf003-after110-public-v1.json",{cache:"no-cache"});
+  assert.equal(tf003Response.status(),200,"Live Pages serves distinct Dongguang MID004 TF003 after published110");
+  const tf003=await tf003Response.json();
+  assert.deepEqual([tf003.expected_blocks,tf003.expected_answer_slots,tf003.expected_standalone_true_false,tf003.expected_standalone_choice],[1,1,1,0]);
+  assert.equal(tf003.blocks[0].source_slot_id,"SCI_G04_S1_113_MID_004|S02|TF|003");
+  assert.deepEqual([tf003.blocks[0].stem,tf003.blocks[0].answer,tf003.blocks[0].canonical_kp_id],["埤塘是淡水水域，而且水流速度非常快。","X","sci_g04s1_02_02"]);
+  assert.deepEqual(tf003.blocks[0].source_pdf_bbox_pts_top_left,[371.35,190.81,403.31,204.09]);
+  assert.equal(tf003.blocks[0].source_page_pdf_1_based,1);
   const new5Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-dongguang-dahua-native5-after105-public-v1.json",{cache:"no-cache"});
   assert.equal(new5Response.status(),200,"Live Pages must deliver 5 native standalone original school answer slots");
   const new5=await new5Response.json();

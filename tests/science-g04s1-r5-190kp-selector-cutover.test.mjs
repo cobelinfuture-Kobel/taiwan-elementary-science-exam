@@ -50,10 +50,12 @@ test("R5 fail-closed when new KP missing or duplicated",()=>{
  wrongSource.sources.find(x=>x.grade===4&&x.semester===1).sha256="b".repeat(64);
  assert.throws(()=>validateAuthority(wrongSource));
 });
-test("original R5 selector auto-admission remains forbidden; only independently certified Anhe wind is later admitted",()=>{
+test("original R5 selector auto-admission forbidden; only exact independent source certifications can be newly admitted",()=>{
  const sourceFiles=readdirSync("site/data/question-bank").filter(name=>name.endsWith(".json"));
  const approved="p12-e01-post46-anhe-wind1-public-v1.json";
+ const certified113="p12-g04s1-113-dongguang-dahua-native5-after105-public-v1.json";
  assert.ok(sourceFiles.includes(approved),"explicit operator release record required");
+ assert.ok(sourceFiles.includes(certified113),"new 113 original source certification required");
  for(const name of sourceFiles){
    const bytes=readFileSync("site/data/question-bank/"+name,"utf8");
    if(name===approved){
@@ -64,6 +66,22 @@ test("original R5 selector auto-admission remains forbidden; only independently 
      assert.equal(wind.blocks[0].operator_publication_approval,true);
      assert.equal(wind.blocks[0].original_teacher_answer_key_authenticated,false);
      assert.equal(bytes.includes("sci_g04s1_02_13"),false);
+     assert.equal(bytes.includes("sci_g04s1_02_14"),false);
+   } else if(name===certified113){
+     const bank=read("site/data/question-bank/"+name);
+     const evidence=read("data/review/p12-g04s1-113-dongguang-dahua-native5-after105-formal-evidence-v1.json");
+     const exceptions=bank.blocks.filter(b=>b.canonical_kp_id==="sci_g04s1_02_13");
+     assert.deepEqual(exceptions.map(b=>b.source_slot_id),[
+       "SCI_G04_S1_113_MID_004|S02|TF|002",
+       "SCI_G04_S1_113_MID_004|S02|TF|015"
+     ]);
+     assert.equal(evidence.formal_science_kp_approved_new,5);
+     assert.equal(evidence.admission_ready_new,5);
+     assert.equal(evidence.published_new_before_main_and_pages,0);
+     assert.ok(exceptions.every(b=>b.operator_publication_approval===true&&b.original_teacher_answer_key_authenticated===false
+       &&b.source_pdf_sha256==="2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5"
+       &&b.source_page_pdf_1_based===1&&b.source_pdf_bbox_pts_top_left?.length===4));
+     assert.equal(bytes.includes("sci_g04s1_01_12"),false);
      assert.equal(bytes.includes("sci_g04s1_02_14"),false);
    } else for(const id of newIds)assert.equal(bytes.includes(id),false,name+" must not auto-admit "+id);
  }

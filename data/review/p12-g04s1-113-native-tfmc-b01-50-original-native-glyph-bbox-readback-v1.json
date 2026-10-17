@@ -1,0 +1,937 @@
+{
+  "schema_version": "P12_G04S1_113_B01_50_ORIGINAL_NATIVE_GLYPH_BBOX_RECOVERY_V1",
+  "scope": "Source-only B01 50 original independent TF/MC positions; original paper PDF glyph coords; no admissions",
+  "method": "Original SHA256-verified Drive raw PDF downloaded and inspected with PyMuPDF native RAWDICT chars; opening through closing bracket bbox union; all source section printed sequence counts checked (Wende15+12, Zhongxiao9+9, Dongguang15+20). Coordinates in PDF pt top-left.",
+  "visual_page_review": "Original three page1 renders inspected to verify two-column Wende/Dongguang layouts and serial printed numbering; not a replacement for question-level scientific/source acceptance.",
+  "three_original_pdf_sha256": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "page1_native_printed_markers": 27
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "page1_native_printed_markers": 18
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "page1_native_printed_markers": 35
+    }
+  ],
+  "parity_existing_wende": {
+    "SCI_G04_S1_113_MID_001|S1|TF|006": "Original RAWDICT fresh bbox upper y differed by 0.01 pt due rounding; preserved frozen prior bbox [28.56,366.42,60.52,379.37] not overwritten",
+    "SCI_G04_S1_113_MID_001|S1|TF|010": "[28.56,652.39,60.52,665.34] exact parity",
+    "SCI_G04_S1_113_MID_001|S2|MC|010": "[428.04,788.23,460,801.18] exact parity"
+  },
+  "b01_source_positions": 50,
+  "inherited_bbox_count": 21,
+  "new_bbox_recovered_from_original_pdfs": 29,
+  "source_text_evidence": "data/review/p12-g04s1-113-native-tfmc-b01-50-pdf-text-model-kp-preflight-v1.json",
+  "new_formal_science_kp_approved": 0,
+  "new_admission_ready": 0,
+  "new_published": 0,
+  "source_positions": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|1",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.56,
+        124.39,
+        60.52,
+        137.34
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 1,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|2",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.56,
+        168.43,
+        60.52,
+        181.38
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 2,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|3",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.56,
+        212.47,
+        60.52,
+        225.42
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 3,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|5",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.56,
+        322.39,
+        60.52,
+        335.34
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 5,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|7",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.56,
+        454.39,
+        60.52,
+        467.34
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 7,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|8",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.56,
+        520.39,
+        60.52,
+        533.34
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 8,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|9",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.56,
+        586.39,
+        60.52,
+        599.34
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 9,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|11",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.56,
+        696.42,
+        60.52,
+        709.37
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 11,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|13",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.56,
+        784.39,
+        60.52,
+        797.34
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 13,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|14",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.56,
+        850.39,
+        60.52,
+        863.34
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 14,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S1|TF|15",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.56,
+        916.39,
+        60.52,
+        929.34
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 15,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|1",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.56,
+        988.39,
+        60.52,
+        1001.34
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 1,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|2",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.56,
+        1032.43,
+        60.52,
+        1045.38
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 2,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|3",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        428.04,
+        106.27,
+        460,
+        119.22
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 3,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|4",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        428.04,
+        194.23,
+        460,
+        207.18
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 4,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|5",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        428.04,
+        282.19,
+        460,
+        295.14
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 5,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|6",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        428.04,
+        436.27,
+        460,
+        449.22
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 6,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|7",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        428.04,
+        546.19,
+        460,
+        559.14
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 7,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|9",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        428.04,
+        700.27,
+        460,
+        713.22
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 9,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|11",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        428.04,
+        942.19,
+        460,
+        955.14
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 11,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S2|MC|12",
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        428.04,
+        1052.23,
+        460,
+        1065.18
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 12,
+      "bbox_authority": "INHERIT_EXISTING_WENDE_NATIVE_GLYPH_EVIDENCE",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|1",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        123.76,
+        79.92,
+        138.49
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 1,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|2",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        144.76,
+        79.91,
+        159.49
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 2,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|3",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        165.64,
+        79.91,
+        180.37
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 3,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|4",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        186.64,
+        79.91,
+        201.37
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 4,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|5",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        228.52,
+        79.91,
+        243.25
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 5,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|6",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        249.4,
+        79.91,
+        264.13
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 6,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|7",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        270.4,
+        79.91,
+        285.13
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 7,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|9",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        333.16,
+        79.91,
+        347.89
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 9,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|1",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        396.07,
+        79.92,
+        410.8
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 1,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|2",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        459.67,
+        79.91,
+        474.4
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 2,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|3",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        523.27,
+        79.91,
+        538
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 3,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|4",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        586.99,
+        79.91,
+        601.72
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 4,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|6",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        779.37,
+        79.91,
+        794.1
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 6,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|8",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        950.16,
+        79.91,
+        964.89
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 8,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|9",
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        42.48,
+        1057.2,
+        79.91,
+        1071.93
+      ],
+      "original_printed_section": "S2",
+      "printed_number": 9,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|1",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        100.45,
+        60.4,
+        113.73
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 1,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|2",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        137.77,
+        60.4,
+        151.05
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 2,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|3",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        213.01,
+        60.4,
+        226.29
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 3,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|4",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        269.17,
+        60.4,
+        282.45
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 4,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|5",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        325.48,
+        60.4,
+        338.76
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 5,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|6",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        362.68,
+        60.4,
+        375.96
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 6,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|7",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        418.84,
+        60.4,
+        432.12
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 7,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|8",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        512.32,
+        60.4,
+        525.6
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 8,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|9",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        569.34,
+        60.4,
+        582.62
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 9,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|10",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        644.58,
+        60.4,
+        657.86
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 10,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|11",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        682.5,
+        60.4,
+        695.78
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 11,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|12",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        719.82,
+        60.4,
+        733.1
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 12,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|13",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        832.29,
+        60.4,
+        845.57
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 13,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|14",
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_page_pdf_1_based": 1,
+      "original_printed_answer_parenthesis_bbox_pts_top_left": [
+        28.44,
+        888.45,
+        60.4,
+        901.73
+      ],
+      "original_printed_section": "S1",
+      "printed_number": 14,
+      "bbox_authority": "DIRECT_ORIGINAL_PDF_NATIVE_RAWDICT_PARENTHESES_GLYPH_UNION_0_01_PT",
+      "source_original_filename_unchanged": true,
+      "admission_ready": false,
+      "published": false
+    }
+  ]
+}

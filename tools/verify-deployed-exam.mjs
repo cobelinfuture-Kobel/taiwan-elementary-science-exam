@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-dongguang-dahua-after105-live746-20261017",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-dongguang-tf003-after110-live747-20261017",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 746 小題（383 題是非＋228 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 747 小題（384 題是非＋228 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
   const native6Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-next-native-tfmc6-public-v1.json",{cache:"no-cache"});
   assert.equal(native6Response.status(),200,"Live Pages delivers 113 next native six new source bank");
   const native6=await native6Response.json();
@@ -48,6 +48,14 @@ try {
   assert.deepEqual(hanlin5.blocks.map(b=>b.answer),["O","②","X","O","O"]);
   assert.deepEqual(hanlin5.blocks.map(b=>b.canonical_kp_id),["sci_g04s1_02_11","sci_g04s1_02_10","sci_g04s1_02_03","sci_g04s1_02_01","sci_g04s1_02_02"]);
   assert.ok(hanlin5.blocks.every(b=>b.grade===4&&b.semester===1&&b.unit==="4-S1-U02"&&b.source_page_pdf_1_based===1&&b.source_pdf_bbox_pts_top_left?.length===4&&!b.original_cropped_assets_included));
+  const tf003Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-dongguang-mid-tf003-after110-public-v1.json",{cache:"no-cache"});
+  assert.equal(tf003Response.status(),200,"Live Pages serves distinct Dongguang MID004 TF003 after published110");
+  const tf003=await tf003Response.json();
+  assert.deepEqual([tf003.expected_blocks,tf003.expected_answer_slots,tf003.expected_standalone_true_false,tf003.expected_standalone_choice],[1,1,1,0]);
+  assert.equal(tf003.blocks[0].source_slot_id,"SCI_G04_S1_113_MID_004|S02|TF|003");
+  assert.deepEqual([tf003.blocks[0].stem,tf003.blocks[0].answer,tf003.blocks[0].canonical_kp_id],["埤塘是淡水水域，而且水流速度非常快。","X","sci_g04s1_02_02"]);
+  assert.deepEqual(tf003.blocks[0].source_pdf_bbox_pts_top_left,[371.35,190.81,403.31,204.09]);
+  assert.equal(tf003.blocks[0].source_page_pdf_1_based,1);
   const new5Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-dongguang-dahua-native5-after105-public-v1.json",{cache:"no-cache"});
   assert.equal(new5Response.status(),200,"Live Pages must deliver 5 native standalone original school answer slots");
   const new5=await new5Response.json();
@@ -310,7 +318,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 746 slots (741 prior main + 3 TF + 2 MC Dongguang/Dahua native)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 747 slots (746 prior main + one exact Dongguang MID004 TF003)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

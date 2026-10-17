@@ -75,8 +75,8 @@ test("active V3 ScienceKP26 two more original TF while frozen V2 excludes only R
  };
  try{
   const v3=await loadEmbeddedHistoricalBank(authority);
-  assert.equal(v3.certifiedAnswerSlots,746); // 741 published main + five verified native source entries
-  assert.equal(v3.certifiedTrueFalse,383); // existing 380 plus three native original TF
+  assert.equal(v3.certifiedAnswerSlots,747); // 746 prior published + one source exact Dongguang TF003
+  assert.equal(v3.certifiedTrueFalse,384); // 383 prior TF + one source exact Dongguang TF003
   assert.equal(v3.certifiedStandaloneChoice,228); // existing 226 plus two native original MC
   assert.equal(v3.certifiedGroupCount,36);
   assert.equal(v3.blocks.filter(x=>x.source_slot_id===proof.source_slot_id).length,1);

@@ -1,0 +1,71 @@
+{
+  "schema_version": "P12_113_G04S1_DONGGUANG_MID_TF003_AFTER110_EXACT_SOURCE_SCIENCE_KP_V1",
+  "original_source_id": "SCI_G04_S1_113_MID_004",
+  "original_source_slot_id": "SCI_G04_S1_113_MID_004|S02|TF|003",
+  "school": "基隆市東光國小",
+  "original_pdf_filename": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+  "original_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+  "original_pdf_page_count": 2,
+  "original_pdf_drive_file_id": "1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl",
+  "original_pdf_native_text_layer": true,
+  "original_pdf_page_1_based": 1,
+  "original_printed_section": "二、是非題",
+  "original_section_parent_instruction": "是非題：每格 2 分，共 40 分；原印刷配分僅作來源證據，不流入學生網站。",
+  "original_section_question_number": 3,
+  "original_full_stem": "埤塘是淡水水域，而且水流速度非常快。",
+  "original_ordered_options": null,
+  "printed_answer_parenthesis_pdf_bbox_pts_top_left": [
+    371.35,
+    190.81,
+    403.31,
+    204.09
+  ],
+  "geometry_provenance": "Original SHA-verified PDF native PyMuPDF rawdict open parenthesis (371.35,190.81) + close parenthesis (403.31,204.09), not text search, OCR, or estimated raster",
+  "original_pdf_visual_page1_verified": true,
+  "teacher_original_answer_key_authenticated": false,
+  "independent_model_science_answer": "X",
+  "independent_model_science_explanation": "埤塘通常是人工建造、流速緩慢或水流近乎靜止的淡水水域；原題稱水流速度「非常快」，因此整句錯誤。",
+  "science_answer_unique": true,
+  "canonical_direct_kp_id": "sci_g04s1_02_02",
+  "authority_reference": "site/data/authority/science-g03-g04-selector-v3.json",
+  "frozen_113_KP48_untouched": true,
+  "unit": "4-S1-U02",
+  "published110_suppression_checkpoint": "data/review/p12-g04s1-113-main-published110-source-suppression-readback-v6.json",
+  "main_before": "831e77d0006d2c593354942e692f53c0ff1f3a65",
+  "pre_existing_public_student_answer_slots": 746,
+  "pre_existing_113_published": 110,
+  "crossyear_dedup": "Checked active 113/114 student banks and 25 archived 114 source originals for same science answer event. Existing 113 Zhongxiao MID003 MC005 concerns pond aquatic PLANTS; new TF003 concerns pond WATER FLOW SPEED. Different testable concept. No equivalent public question identified.",
+  "excluded_neighbor_slots": [
+    {
+      "source_slot": "SCI_G04_S1_113_MID_004|S02|TF|002",
+      "reason": "ALREADY_PUBLISHED_PR136; DO_NOT_DUPLICATE"
+    },
+    {
+      "source_slot": "SCI_G04_S1_113_MID_004|S02|TF|012",
+      "reason": "ALREADY_PUBLISHED_PR136; DO_NOT_DUPLICATE"
+    },
+    {
+      "source_slot": "SCI_G04_S1_113_MID_004|S02|TF|015",
+      "reason": "ALREADY_PUBLISHED_PR136; DO_NOT_DUPLICATE"
+    },
+    {
+      "source_slot": "SCI_G04_S1_113_MID_004|S01|MC|005",
+      "reason": "ALREADY_PUBLIC_114_FROG_LUNG_DUPLICATE"
+    },
+    {
+      "source_slot": "SCI_G04_S1_113_MID_004|S01|MC|012",
+      "reason": "ALREADY_PUBLIC_114_FISH_GILLS_SWIMMING_DUPLICATE"
+    },
+    {
+      "source_slot": "SCI_G04_S1_113_MID_004|S01|MC|002",
+      "reason": "SCIENCE_NONUNIQUE_POLLUTION_CAN_LEAD_TO_EUTROPHICATION"
+    }
+  ],
+  "rights": "ARTICLE9_ORIGINAL_SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_PDF_NO_FIGURES_NO_TEACHER_KEY",
+  "pre_existing_operator_corpus_scope_approval": "113_G04S1_29PDF_KANGHSUAN_48KP_SELECTIVE_ADMISSION",
+  "formal_science_kp_approved_new": 1,
+  "admission_ready_new": 1,
+  "published_new_before_main_pages_e2e": 0,
+  "expected_public_answer_slots_after_e2e": 747,
+  "expected_year113_published_after_e2e": 111
+}

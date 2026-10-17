@@ -274,7 +274,16 @@ try {
   await page.selectOption("#kp","sci_g04s1_02_13");await page.fill("#count","1");
   await page.locator("#generate").click();
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","live R5 survey-record KP must select existing certified source once");
-  assert.ok((await page.locator(".paper:not([data-answer='true'])").innerText()).includes("哪些資料是進行水域環境調查"),"R5 survey-record KP binds existing Heshun source");
+  const surveyKP13Text=await page.locator(".paper:not([data-answer='true'])").innerText();
+  // U02-KP13 legitimately has three published source questions after PR #136.
+  // Random selection of one must be source-exact but must NOT be pinned to Heshun only.
+  const surveyKP13CurrentPublishedSourceStems=[
+   "哪些資料是進行水域環境調查",
+   "將水生動物適應環境的資料用圖形或表格整理時",
+   "如果想知道埤塘內有什麼水生生物"
+  ];
+  assert.ok(surveyKP13CurrentPublishedSourceStems.some(stem=>surveyKP13Text.includes(stem)),"R5 survey-record KP picks one of three valid published Heshun/Dongguang sources");
+  assert.equal(await page.locator(".paper:not([data-answer='true']) .question").count(),1,"R5 survey-record KP count=1 does not duplicate blocks");
   await page.selectOption("#kp","sci_g04s1_02_14");await page.fill("#count","1");
   await page.locator("#generate").click();
   assert.equal(await page.locator("#status").getAttribute("data-error"),"true","R5 water-safety KP has no certified item; refuse substitute");

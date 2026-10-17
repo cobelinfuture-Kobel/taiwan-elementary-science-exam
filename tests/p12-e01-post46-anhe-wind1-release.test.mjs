@@ -75,8 +75,8 @@ test("active V3 ScienceKP26 two more original TF while frozen V2 excludes only R
  };
  try{
   const v3=await loadEmbeddedHistoricalBank(authority);
-  assert.equal(v3.certifiedAnswerSlots,749); // 747 previously live + two Wende MID001 exact TF on this PR branch
-  assert.equal(v3.certifiedTrueFalse,386); // 384 previously live TF + two Wende original TF
+  assert.equal(v3.certifiedAnswerSlots,750); // 749 previously live + Wende MID001 MC010 on this PR branch
+  assert.equal(v3.certifiedTrueFalse,386); // unchanged by one new Wende MC010
   assert.equal(v3.certifiedStandaloneChoice,228); // existing 226 plus two native original MC
   assert.equal(v3.certifiedGroupCount,36);
   assert.equal(v3.blocks.filter(x=>x.source_slot_id===proof.source_slot_id).length,1);

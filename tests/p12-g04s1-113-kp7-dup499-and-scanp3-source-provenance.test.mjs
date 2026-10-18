@@ -28,7 +28,9 @@ test('confirmed semantic equivalents retain published original lineage but do no
  assert.equal(dup.records.length,10);
  assert.equal(new Set(dup.records.map(x=>x.unpublished_113_source_slot_id)).size,10);
  assert.equal(dup.records.filter(x=>x.status==='EXACT_SAME_ASSERTION').length,3);
- assert.equal(dup.records.filter(x=>x.status==='HIGH_SEMANTIC_RISK_REQUIRES_OPTION_COMPARISON').length,7);
+ assert.equal(dup.records.filter(x=>x.status.startsWith('HIGH_SEMANTIC_RISK_')).length,7);
+ assert.equal(dup.records.filter(x=>x.status==='HIGH_SEMANTIC_RISK_REQUIRES_OPTION_COMPARISON').length,6);
+ assert.equal(dup.records.filter(x=>x.status==='HIGH_SEMANTIC_RISK_REQUIRES_ANSWER_CONTEXT').length,1);
  assert.equal(dup.summary.matched_public_source_blocks_screened,499);
  assert.equal(dup.summary.all_750_student_bank_semantic_gate_complete,false);
  for(const x of dup.records){

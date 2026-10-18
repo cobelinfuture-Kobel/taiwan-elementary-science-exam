@@ -1,0 +1,112 @@
+{
+  "schema_version": "P12_G04S1_113_NATIVE5_EXACT_PDF_GLYPH_BBOX_107_V1",
+  "pdf_proof": "Original five Google Drive PDF binaries downloaded; all 5 source SHA256 matched original registry; PyMuPDF v1 rawdict physical source answer glyph BBox, page1 top-left PDF points. 107/107 matched source numbered markers. 19 already published glyph BBoxes parity checked ≤0.1pt against main; five annotated first-page render visual readback.",
+  "source_papers": [
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_005",
+      "original_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_005",
+      "original_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016",
+      "original_pdf_sha256": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_011",
+      "original_pdf_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a"
+    }
+  ],
+  "coordinate_encoding": {
+    "unit": "1/100 PDF point",
+    "base": 36,
+    "dimensions": "x0,y0,x1,y1",
+    "row_separator": ";",
+    "coordinate_separator": ".",
+    "question_numbers": "1-based ordinal for each group",
+    "bbox_scope": "printed answer parenthesis except Yongan FINAL_005 MC uses original printed answer parenthesis+ordinal per already published BBox convention",
+    "pdf_page_1_based": 1
+  },
+  "groups": [
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "section": "S1",
+      "type": "MC",
+      "count": 14,
+      "encoded_geometry": "270.7p1.4ns.8px;270.bz1.4ns.czx;270.eud.4ns.fv9;270.m41.4ns.n4x;270.ozs.4ns.q0o;270.tbs.4ns.uco;270.xo4.4ns.yp0;270.10jg.4ns.11kc;270.14vg.4ns.15wc;270.197u.4ns.1a8q;270.1c56.4ns.1d62;270.1f2u.4ns.1g3q;270.1jf6.4ns.1kg2;270.1p7x.4ns.1q8t"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "section": "S2",
+      "type": "TF",
+      "count": 15,
+      "encoded_geometry": "270.1uyx.4ns.1vzt;270.1xrx.4ns.1yst;270.20l8.4ns.21m5;snj.6ab.v4b.7b7;snj.93p.v4b.a4l;snj.bwp.v4b.cxl;snj.eq1.v4b.fqx;snj.hjd.v4b.ik9;snj.ixp.v4b.jyl;snj.lr1.v4b.mrx;snj.ok4.v4b.pl0;snj.rdg.v4b.sec;snj.u6g.v4b.v7c;snj.wzs.v4b.y0o;snj.zss.v4b.10to"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_005",
+      "section": "S1",
+      "type": "TF",
+      "count": 15,
+      "encoded_geometry": "39c.9kd.6yq.ahp;39c.cnp.6yq.dl1;39c.fqp.6yq.go1;39c.itp.6yq.jr1;39c.lx1.6yq.mud;39c.p04.6yq.pxg;39c.qjs.6yq.rh4;39c.tms.6yq.uk4;39c.wps.6yq.xn4;2to.zt4.6j2.10qg;2to.12w4.6j2.13tg;2to.14fs.6j2.15d4;2to.15z6.6j2.16wi;2to.192i.6j2.19zu;2to.1c5i.6j2.1d2u"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_005",
+      "section": "S2",
+      "type": "MC",
+      "count": 14,
+      "encoded_geometry": "39c.1gs6.6yq.1hpi;39c.1q1l.6yq.1qyx;39c.1w7x.6yq.1x59;t8j.fhd.wxv.gep;t8j.oa1.wxv.p7d;t8j.u5g.wxv.v2s;t8j.x2s.wxv.y04;t8j.11h4.wxv.12eg;t8j.17ci.wxv.189u;ssv.1bqu.wi7.1co6;ssv.1j2i.wi7.1jzu;ssv.1ngx.wi7.1oe9;ssv.1tc9.wi7.1u9l;ssv.1z78.wi7.204k"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_005",
+      "section": "S1",
+      "type": "TF",
+      "count": 10,
+      "encoded_geometry": "390.8w9.6yc.9v1;390.bux.6yc.ctp;390.esl.6yc.frd;390.hpx.6yc.iop;390.knl.6yc.lmd;390.nl9.6yc.ok1;390.qio.6yc.rhg;390.tgc.6yc.uf4;390.we0.6yc.xcs;2tc.zbc.6io.10a4"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_005",
+      "section": "S2",
+      "type": "MC",
+      "count": 10,
+      "encoded_geometry": "390.13po.7lw.14og;390.1840.7lw.192s;390.1b1q.7lw.1c0i;390.1fg2.7lw.1geu;390.1ms2.7lw.1nqu;390.1sn5.7lw.1tlx;390.1x1h.7lw.1y09;390.21ft.7lw.22el;390.27at.7lw.289l;2tc.2a8j.7m7.2b7b"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016",
+      "section": "S1",
+      "type": "TF",
+      "count": 10,
+      "encoded_geometry": "54o.7ft.7wq.8d5;54o.blh.7wq.cit;54c.fqt.7we.go5;54o.iih.7wq.jft;54o.lak.7wq.m7w;54o.o28.7wq.ozk;54o.qtw.7wq.rr8;54o.tlk.7wq.uiw;54o.wd8.7wq.xak;54c.10iy.7we.11ga"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016",
+      "section": "S2",
+      "type": "MC",
+      "count": 14,
+      "encoded_geometry": "54o.15iy.7wq.16ga;54o.1b2a.7wq.1bzm;54o.1fw1.7wq.1gtd;54o.1kpc.7wq.1lmo;pn5.68f.sf7.75r;pn5.c95.sf7.d6h;pn5.i9t.sf7.j75;pn5.oaw.sf7.p88;pn5.rww.sf7.su8;pn5.viw.sf7.wg8;pn5.12ra.sf7.13om;pn5.19za.sf7.1awm;pn5.1g0d.sf7.1gxp;pn5.1m10.sf7.1myc"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_011",
+      "section": "S1",
+      "type": "MC",
+      "count": 5,
+      "encoded_geometry": "340.bi1.5fc.cfd;340.l34.5fc.m0g;340.yvu.5fc.zt6;340.1c8l.5fc.1d5x;opv.9td.r17.aqp"
+    }
+  ],
+  "summary": {
+    "original_PDF_SHA_verified": 5,
+    "printed_native_glyph_bbox_evidence": 107,
+    "existing_main_same_bbox_parity": 19,
+    "unpublished_exact_marker_bbox_evidence": 88,
+    "new_formal_Science_KP_approved": 0,
+    "new_admission_ready": 0,
+    "new_published": 0
+  },
+  "warning": "This proves only original PDF answer-marker geometry. Complete original full stem/options/figure/parent source, science unique answer, direct 113 48 KP, semantic duplicate, rights and applicable operator release remain pending. No original PDF images or text uploaded.",
+  "next_resume_task": "P12_G04S1_113_PostBBox88_UnpublishedOriginalFullStemOptions_FigureDependency_ThenScienceKP_Dedup_Rights_ConsolidatedAdmission"
+}

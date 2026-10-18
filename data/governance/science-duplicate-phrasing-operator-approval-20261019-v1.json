@@ -1,0 +1,40 @@
+{
+  "schema_version": "SCIENCE_DUPLICATE_PHRASING_OPERATOR_APPROVAL_20261019_V1",
+  "approved_on": "2026-10-19",
+  "decision_scope": "All future student-bank candidate admissions, without retroactive changes to existing published data",
+  "operator_approved_text": "只要答案有正確，相同的知識點「換句話說」也可以入庫。核准同 KP、不同問法可分別收錄；完全同題及僅調換選項順序仍合併。",
+  "previous_frozen_duplicate_clause": "比對已公開題庫與相關跨校、跨年度原卷，包含選項重排與實質語意相同題；只新增一個學生抽題項，保留所有來源 lineage。",
+  "governance": "docs/QUESTION_ADMISSION_GOVERNANCE.md",
+  "rule": {
+    "do_not_merge_for": [
+      "SAME_KP_ONLY",
+      "SAME_CORRECT_ANSWER_ONLY",
+      "SAME_SCIENTIFIC_CONCLUSION_WITH_GENUINELY_DIFFERENT_STEM",
+      "SAME_KP_DIFFERENT_QUESTION_FORMAT",
+      "SAME_KP_DIFFERENT_REAL_LIFE_CONTEXT"
+    ],
+    "merge_with_source_lineage": [
+      "EXACT_SAME_QUESTION",
+      "ONLY_ANSWER_OPTION_ORDER_CHANGED",
+      "ONLY_QUESTION_NUMBER_CHANGED",
+      "ONLY_PUNCTUATION_OR_LAYOUT_CHANGED"
+    ],
+    "unresolved": "HOLD_DUPLICATE",
+    "eligibility_is_not_admission": true,
+    "preserve_existing_gates": [
+      "SOURCE_EXACT",
+      "PDF_PAGE_BBOX",
+      "SCIENCE_UNIQUE_ANSWER",
+      "CANONICAL_KP",
+      "DUPLICATE",
+      "RIGHTS",
+      "ADMISSION_GATE",
+      "PR_CI",
+      "MAIN_READBACK",
+      "PAGES_E2E"
+    ]
+  },
+  "no_teacher_answer_key_invented": true,
+  "original_authority_and_published_questions_unchanged": true,
+  "native59_effect": "Existing semantically-similar suppression signals cannot solely deny different-wording variants; remain candidates until original stem/option/other Gates. No automatic count added."
+}

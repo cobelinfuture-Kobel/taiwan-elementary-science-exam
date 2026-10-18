@@ -49,9 +49,9 @@ test('one Volta item has two scientifically false options and Taozi four old Sci
  assert.equal(x[0].student_admission,'SCIENCE_NON_UNIQUE_HOLD');
  assert.match(x[0].independent_science_issue,/TWO_FALSE_OPTIONS/);
  assert.equal(x.slice(1).filter(y=>y.prior_model_science_status==='SCIENCE_HOLD').length,4);
- assert.equal(exception.summary.new_formal_science_kp_approved,0);
- assert.equal(exception.summary.new_admission_ready,0);
- assert.equal(exception.summary.new_published,0);
+ assert.equal(exception.summary.formal_science_kp_approved_new,0);
+ assert.equal(exception.summary.admission_ready_new,0);
+ assert.equal(exception.summary.published_new,0);
  assert.equal(p.newly_published_113_slots,114);
  assert.equal(p.public_total_answer_slots,750);
 });

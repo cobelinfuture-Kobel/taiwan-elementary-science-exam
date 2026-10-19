@@ -26,11 +26,16 @@ test('P02 generator includes all 29 paper inventory gaps, not only historical 14
   assert.equal(res.metrics.registered_papers,29);
   assert.equal(res.metrics.published_113,178);
   assert.equal(res.metrics.papers_requiring_exact_inventory,29);
+  assert.equal(res.metrics.section_papers_with_source_response_region_recount,29);
+  assert.equal(res.metrics.source_section_response_region_count_NOT_EXACT,1762);
+  assert.equal(res.metrics.certified_full29_original_answer_slot_BBox_universe,false);
   assert.equal(res.metrics.ALL29_COMPLETE,false);
   assert.equal(res.metrics.PUBLISHED_NEW,0);
   const tasks=res.batches.flatMap(x=>x.tasks);
   assert.equal(tasks.length,res.metrics.deterministic_work_tasks);
   assert.equal(new Set(tasks.filter(x=>x.kind==='PAPER_INVENTORY_GAP').map(x=>x.paper_id)).size,29);
+  assert.equal(tasks.filter(x=>x.kind==='PAPER_INVENTORY_GAP').reduce((n,x)=>n+x.source_section_response_region_count_NOT_EXACT,0),1762);
+  assert.ok(tasks.filter(x=>x.kind==='PAPER_INVENTORY_GAP').every(x=>x.requires_unique_original_source_slot_and_pdf_page_marker_bbox===true));
   assert.ok(res.batches.every(x=>x.count<=50));
   assert.deepEqual(res,build());
 });

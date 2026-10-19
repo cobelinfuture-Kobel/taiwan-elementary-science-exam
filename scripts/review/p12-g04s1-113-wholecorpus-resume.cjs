@@ -140,19 +140,23 @@ function build(root=ROOT,batchSize=50,opts={}){
   }
   const p04bFiles=[
     'p12-g04s1-113-p04b-dongguang-mid-final-64-native-answer-marker-bbox-v1.json',
-    'p12-g04s1-113-p04b-dadun-mid29-native-answer-marker-bbox-v1.json'
+    'p12-g04s1-113-p04b-dadun-mid29-native-answer-marker-bbox-v1.json',
+    'p12-g04s1-113-p04b-dahua-mid24-native-marker-bbox-v1.json',
+    'p12-g04s1-113-p04b-neihu-final61-native-answer-marker-bbox-v1.json'
   ];
   const preP04bLegacyUniqueCount=known.size;
   let p04bAdded=0;
   for(const filename of p04bFiles){
-    for(const item of read(filename,root).records){
+    const nativeArtifact=read(filename,root);
+    for(const item of nativeArtifact.records){
       const key=normalizeSlot(item.source_slot_id);
       if(known.has(key))continue;
       const paper=item.source_slot_id.split('|')[0];
-      insist(validation.originals.get(paper)?.original_pdf_sha256===(item.source_pdf_sha256||item.original_pdf_sha256),'P04B SHA mismatch');
+      const nativeSha=item.source_pdf_sha256||item.original_pdf_sha256||nativeArtifact.original_pdf_sha256||nativeArtifact.source_pdf_sha256;
+      insist(validation.originals.get(paper)?.original_pdf_sha256===nativeSha,'P04B SHA mismatch');
       known.set(key,{kind:'SOURCE_GATE_EVIDENCE',source_slot_id:item.source_slot_id,
         normalized_source_slot_id:key,paper_id:paper,source_ledgers:[filename],
-        source_pdf_sha256:item.source_pdf_sha256||item.original_pdf_sha256,
+        source_pdf_sha256:nativeSha,
         native_answer_marker_geometry_ref:filename,
         queue_status:'NEEDS_SOURCE_AND_EXISTING_ADMISSION_EVIDENCE'});
       if(!validation.publishedIds.has(key))p04bAdded++;

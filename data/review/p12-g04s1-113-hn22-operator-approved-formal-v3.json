@@ -1,0 +1,433 @@
+{
+  "schema_version": "P12_G04S1_113_HN22_EXACT_OPERATOR_APPROVED_FORMAL_ADMISSION_V3",
+  "source_draft_PR": 124,
+  "source_draft_head_sha": "9ef8f866c846c63af9e44b6d7d847eec9e894941",
+  "operator_exact_request_ref": "data/review/p12-g04s1-113-hn22-operator-exact-cohort-release-request-v2.json",
+  "operator_approval_input_verbatim": "核准 V2 精確 22 題清冊正式發布，續跑 PR／CI／Pages 驗收。",
+  "operator_approval_date_local": "2026-10-19",
+  "operator_approval_timezone": "Asia/Taipei",
+  "approved_scope": "Exact immutable 22 source_slot_id entries in V2 source manifest; 11 TF + 11 MC; no original PDF images, exclude Neian MID MC002 reordered exact duplicate, keep 24 science/KP holds and 6 complex image holds.",
+  "original_source_scope": "113 G04S1 48 frozen canonical KP, original 29 school PDF sources; 114 all25 717 TFMC actual crossyear source verified",
+  "source_no_scoring": true,
+  "governance_ref": "docs/QUESTION_ADMISSION_GOVERNANCE.md",
+  "evidence_refs": [
+    "data/review/p12-g04s1-113-hn22-113all29-originalpdf-dedup-native24-raster5-v3.json",
+    "data/review/p12-g04s1-113-two-school22-114all25-717-fourquadrant-dedup-closeout-v2.json",
+    "data/review/p12-g04s1-113-two-school22-article9-textonly-component-precheck-v1.json"
+  ],
+  "original_school_teacher_key_authenticated": false,
+  "original_school_pdf_images_public": false,
+  "summary": {
+    "exact_source_approved": 22,
+    "approved_true_false": 11,
+    "approved_single_choice": 11,
+    "FORMAL_SCIENCE_KP_APPROVED_new": 22,
+    "ADMISSION_READY_new": 22,
+    "PUBLISHED_new_before_main_pages": 0,
+    "existing_student_site_slots": 788,
+    "expected_site_slots_after_live": 810,
+    "existing_113_slots": 152,
+    "expected_113_slots_after_live": 174
+  },
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|004",
+      "original_exam_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        58.05,
+        260.69,
+        90.43,
+        273.4
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_03_08",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|010",
+      "original_exam_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        57.33,
+        511.3,
+        89.47,
+        523.77
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_04_04",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|012",
+      "original_exam_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        57.33,
+        574.14,
+        89.47,
+        586.85
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_04_12",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|001",
+      "original_exam_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        56.85,
+        699.56,
+        89.23,
+        712.04
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_03_06",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|002",
+      "original_exam_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        56.61,
+        783.26,
+        88.75,
+        795.73
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_03_05",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|004",
+      "original_exam_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        56.13,
+        886.87,
+        88.51,
+        899.34
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|006",
+      "original_exam_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        393.86,
+        219.92,
+        426.25,
+        232.63
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_04_01",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|010",
+      "original_exam_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        393.14,
+        429.52,
+        425.53,
+        442.23
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_04_12",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|001",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        66.24,
+        95.76,
+        101.52,
+        109.44
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_02_07",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|002",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        66.24,
+        168.12,
+        101.16,
+        181.08
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_02_11",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|003",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        65.88,
+        216,
+        101.16,
+        229.32
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_01_08",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|004",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        65.88,
+        263.88,
+        101.16,
+        277.2
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_01_07",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|005",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        65.52,
+        311.76,
+        100.8,
+        324.72
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_02_14",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|007",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        65.52,
+        432,
+        100.44,
+        445.32
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_02_11",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|008",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        64.8,
+        479.88,
+        100.08,
+        493.2
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_01_06",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|009",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        65.52,
+        551.88,
+        100.44,
+        565.2
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_02_14",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|001",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        65.52,
+        648.36,
+        100.8,
+        661.68
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_01_02",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|003",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        66.24,
+        791.64,
+        101.16,
+        804.6
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_01_09",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|005",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        399.96,
+        75.96,
+        434.88,
+        89.28
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_02_09",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|006",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        398.88,
+        195.84,
+        433.8,
+        208.8
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_01_01",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|007",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        400.32,
+        243.72,
+        435.6,
+        256.68
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_01_12",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|014",
+      "original_exam_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page": 1,
+      "original_exact_bbox_pts": [
+        397.8,
+        906.12,
+        432.72,
+        918.72
+      ],
+      "science_unique_answer_and_direct_KP_formal_accepted": true,
+      "canonical_kp_id": "sci_g04s1_02_04",
+      "original_113_114_dedup_complete": true,
+      "rights_verified_for_article9_school_exam_question_text_only": true,
+      "operator_exact_cohort_release_approved": true,
+      "admission_ready": true,
+      "published": false
+    }
+  ],
+  "student_bank_loader_integrated_on_approval_artifact_write": false,
+  "site_published_only_after_main_and_pages_success": true,
+  "supersedes_only_release_flag_from_v2_not_mutating_original_source_text": true
+}

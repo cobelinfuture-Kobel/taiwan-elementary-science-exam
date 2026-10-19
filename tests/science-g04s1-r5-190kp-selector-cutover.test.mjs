@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import {readFileSync,readdirSync} from "node:fs";
 import {validateAuthority,unitsFor,resolveUnit} from "../site/assets/js/authority-adapter.mjs";
 import {validateAndConvertP12113Native38} from "../site/assets/js/p12-g04s1-113-native38-release.mjs";
+import {validateAndConvertP12113HN22} from "../site/assets/js/p12-g04s1-113-hn22-release.mjs";
 const read=p=>JSON.parse(readFileSync(p,"utf8"));
 const legacy=read("site/data/authority/science-g03-g04-selector-v2.json");
 const active=read("site/data/authority/science-g03-g04-selector-v3.json");
@@ -56,6 +57,7 @@ test("original R5 selector auto-admission forbidden; only exact independent sour
  const approved="p12-e01-post46-anhe-wind1-public-v1.json";
  const certified113="p12-g04s1-113-dongguang-dahua-native5-after105-public-v1.json";
  const certifiedNative38="p12-g04s1-113-native38-public-v1.json";
+ const certifiedHN22="p12-g04s1-113-hn22-public-v1.json";
  assert.ok(sourceFiles.includes(approved),"explicit operator release record required");
  assert.ok(sourceFiles.includes(certified113),"new 113 original source certification required");
  for(const name of sourceFiles){
@@ -98,6 +100,22 @@ test("original R5 selector auto-admission forbidden; only exact independent sour
      assert.ok(manifest.records.every(row=>row.operator_cohort_final_explicit_release_confirmation===true
        &&row.original_school_exam_header_visual_verified===true
        &&row.rights_verified===true));
+   } else if(name===certifiedHN22){
+     // Explicit original 113 source/answer/direct-KP/Article9/operator approval, not R5 selector-only auto-promotion.
+     const bank=read("site/data/question-bank/"+name);
+     const decision=read("data/review/p12-g04s1-113-hn22-operator-approved-formal-v3.json");
+     assert.equal(validateAndConvertP12113HN22(bank,active).answerSlots,22);
+     assert.equal(decision.summary.FORMAL_SCIENCE_KP_APPROVED_new,22);
+     assert.equal(decision.summary.ADMISSION_READY_new,22);
+     assert.equal(decision.summary.PUBLISHED_new_before_main_pages,0);
+     assert.equal(decision.records.length,22);
+     const supplemental=bank.blocks.filter(x=>x.canonical_kp_id==="sci_g04s1_01_12");
+     assert.deepEqual(supplemental.map(x=>x.source_slot_id),["SCI_G04_S1_113_MID_006|S2|MC|007"]);
+     assert.ok(supplemental.every(x=>x.operator_publication_approval===true
+        &&x.original_teacher_answer_key_authenticated===false
+        &&x.source_pdf_sha256?.length===64&&x.source_pdf_bbox_pts_top_left?.length===4));
+     assert.equal(bytes.includes("sci_g04s1_02_13"),false);
+     assert.deepEqual(bank.blocks.filter(x=>x.canonical_kp_id==="sci_g04s1_02_14").map(x=>x.source_slot_id),["SCI_G04_S1_113_MID_006|S1|TF|005","SCI_G04_S1_113_MID_006|S1|TF|009"]); // only operator-approved source, not R5 selector-based auto admission
    } else for(const id of newIds)assert.equal(bytes.includes(id),false,name+" must not auto-admit "+id);
  }
  assert.equal(remap.public_admission_count,0);

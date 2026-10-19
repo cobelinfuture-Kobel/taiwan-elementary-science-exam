@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import {createRequire} from 'node:module';
 
 const require = createRequire(import.meta.url);
-const {build, normalizeSlot} = require('../scripts/review/p12-g04s1-113-wholecorpus-resume.cjs');
+const {build, normalizeSlot} = require('../scripts/review/p12-g04s1-113-wholecorpus-legacy-snapshot.cjs');
 const read = file => JSON.parse(fs.readFileSync(new URL('../data/review/' + file, import.meta.url), 'utf8'));
 const review = read('p12-g04s1-113-other-dependent-b01-50-source-only-preflight-v1.json');
 const published = read('p12-g04s1-113-main-published114-source-suppression-readback-v9.json');

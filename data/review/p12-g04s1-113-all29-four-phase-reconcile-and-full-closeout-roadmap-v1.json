@@ -1,0 +1,337 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_COMPLETION_ROADMAP_4_PHASES_AFTER_ORIGINAL_SOURCE_REGISTRATION_V1",
+  "source_only_PR": 124,
+  "purpose": "Stop 2-4-item recurrent PR loops; derive a defensible all-paper completion denominator and run ordinary independent source review batches continuously, stopping only for exceptions or exact scope-specific operator approvals.",
+  "baseline_main_before_PR147": "e734c60948bac9aa5cc12c7519537f190f46b283",
+  "registered_original_school_papers": 29,
+  "source_page_registry_ref": "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "historical_original_native_numbered_blocks": 769,
+  "historical_411_independent_model_initial_science_review_rows": 411,
+  "historical_398_model_initial_science_pass_not_formal_gate": 398,
+  "historical_329_initial_directKP_candidates_not_formal_gate": 329,
+  "scan_only_papers": 5,
+  "scan_original_response_position_legacy_frozen": 262,
+  "scan_source_markers_anchored_including_partial": 256,
+  "scan_independent_printed_answer_bbox_certified": 250,
+  "scan_parent_or_complex_response_units_unresolved": 6,
+  "site_published_before_4_release": 810,
+  "school_113_published_before_4_release": 174,
+  "latest_PR147_operator_4_approved_merged_main_pending_or_passed_live_Pages_gate": "CHECK_LIVE_RUN_39215945127",
+  "full_29_paper_exact_printed_answer_slot_count_known": false,
+  "caution_about_denominators": "769 is native school original numbered BLOCKS not full answer slots; 411 is selected INITIAL MODEL QAs, 262 is scan printed response positions from older frozen ledger. Do not add/subtract against 174 published ID count or invent remaining total. One block may contain multiple independent student answers. Historical V4 411 model-status freeze predates later certified source PRs and cannot be presented as current admission-ready status.",
+  "papers_zero_published_before4": [
+    "SCI_G04_S1_113_MID_002",
+    "SCI_G04_S1_113_FINAL_002",
+    "SCI_G04_S1_113_MID_012",
+    "SCI_G04_S1_113_MID_013",
+    "SCI_G04_S1_113_FINAL_009",
+    "SCI_G04_S1_113_FINAL_011"
+  ],
+  "papers_with_model_initial_review_but_no_publication_before4": [
+    "SCI_G04_S1_113_MID_012",
+    "SCI_G04_S1_113_MID_013",
+    "SCI_G04_S1_113_FINAL_011"
+  ],
+  "school_source_29_snapshot_per_paper": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 20,
+      "formal_student_source_positions_published174_before_four": 3,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_002",
+      "pages": 3,
+      "scan_only": true,
+      "initial_model_science_rows_411_snapshot": 0,
+      "formal_student_source_positions_published174_before_four": 0,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 13,
+      "formal_student_source_positions_published174_before_four": 3,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 21,
+      "formal_student_source_positions_published174_before_four": 4,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_001",
+      "pages": 2,
+      "scan_only": true,
+      "initial_model_science_rows_411_snapshot": 0,
+      "formal_student_source_positions_published174_before_four": 8,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_002",
+      "pages": 4,
+      "scan_only": true,
+      "initial_model_science_rows_411_snapshot": 0,
+      "formal_student_source_positions_published174_before_four": 0,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_003",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 19,
+      "formal_student_source_positions_published174_before_four": 11,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_005",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 20,
+      "formal_student_source_positions_published174_before_four": 15,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_006",
+      "pages": 4,
+      "scan_only": true,
+      "initial_model_science_rows_411_snapshot": 0,
+      "formal_student_source_positions_published174_before_four": 14,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 18,
+      "formal_student_source_positions_published174_before_four": 4,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 11,
+      "formal_student_source_positions_published174_before_four": 2,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_009",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 12,
+      "formal_student_source_positions_published174_before_four": 5,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 10,
+      "formal_student_source_positions_published174_before_four": 3,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 16,
+      "formal_student_source_positions_published174_before_four": 12,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_012",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 100,
+      "formal_student_source_positions_published174_before_four": 0,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "pages": 3,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 19,
+      "formal_student_source_positions_published174_before_four": 0,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "pages": 3,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 20,
+      "formal_student_source_positions_published174_before_four": 9,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "pages": 3,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 16,
+      "formal_student_source_positions_published174_before_four": 3,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_004",
+      "pages": 3,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 5,
+      "formal_student_source_positions_published174_before_four": 2,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_005",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 10,
+      "formal_student_source_positions_published174_before_four": 14,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 18,
+      "formal_student_source_positions_published174_before_four": 12,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_007",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 19,
+      "formal_student_source_positions_published174_before_four": 8,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_008",
+      "pages": 3,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 4,
+      "formal_student_source_positions_published174_before_four": 27,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_009",
+      "pages": 3,
+      "scan_only": true,
+      "initial_model_science_rows_411_snapshot": 0,
+      "formal_student_source_positions_published174_before_four": 0,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_016",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 10,
+      "formal_student_source_positions_published174_before_four": 6,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_017",
+      "pages": 3,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 14,
+      "formal_student_source_positions_published174_before_four": 6,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 12,
+      "formal_student_source_positions_published174_before_four": 1,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "pages": 2,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 3,
+      "formal_student_source_positions_published174_before_four": 2,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_011",
+      "pages": 4,
+      "scan_only": false,
+      "initial_model_science_rows_411_snapshot": 1,
+      "formal_student_source_positions_published174_before_four": 0,
+      "exact_response_slot_denominator_certified": false,
+      "formal_full_paper_closeout": false
+    }
+  ],
+  "major_execution_phases": [
+    {
+      "phase": 1,
+      "title": "Exact4 already operator-authorized selective student release",
+      "deliverable": "PR147 CI + main readback + actual Pages test/deploy/verify-deployed; if all 4 live then 814 site answer positions / 178 certified 113 published source positions",
+      "requires_new_operator_ack": false,
+      "scope_changes": false
+    },
+    {
+      "phase": 2,
+      "title": "Unify the full 29-paper response-slot denominator",
+      "deliverable": "29 frozen original PDF identities, parent-group/answer-granularity ledger, native 769 numbered-block to independently answerable items reconciliation, five scanned 262 answer positions + six grouped figure parent cases. Every actually printed answer position gets explicit unique source ID and checked printed coordinates. No 411-minus-published shortcut.",
+      "requires_new_operator_ack": false,
+      "scope_changes": false
+    },
+    {
+      "phase": 3,
+      "title": "Continuous selective remaining original Science+directKP formal gate batches",
+      "deliverable": "Exclude all published source IDs, use existing prior native24 source Science/KP evidence + scanned5 source visually QA to complete original stems/options/answer/KP/duplicate/rights, batch eligibility without stopping every 2-4 questions. Give each non-admitted source item exact HOLD/REJECT or operator-signable eligible verdict.",
+      "requires_new_operator_ack": "ONLY_WHERE_EXACT_NEW_RELEASE_BATCH_SIGNOFF_IS_EXISTING_CONTRACT_REQUIREMENT",
+      "scope_changes": false
+    },
+    {
+      "phase": 4,
+      "title": "Exceptions and original 29-paper complete source admission closeout",
+      "deliverable": "Resolve or permanently HOLD/REJECT six science ambiguities, sixteen no-direct-frozenKP source items and six parent diagram groups where they remain relevant; settle other newly surfaced source exceptions, 29/29 paper per-slot classification and eligible selective public PR, CI, main Pages E2E. Mark completion only when each source answer slot has one grounded final disposition, not when all questions are published.",
+      "requires_new_operator_ack": "ONLY_IF_FINAL_COHORT_RELEASE_SIGNATURE_REQUIRED",
+      "scope_changes": false
+    }
+  ],
+  "measure_progress_by": [
+    "29_papers_exact_total_answer_positions_reconciled",
+    "formal_new_science_kp_approved",
+    "admission_ready_unique_new",
+    "published_new_after_main_and_pages",
+    "original_source_positions_with_final_publish_or_hold_or_reject_or_duplicate_disposition"
+  ],
+  "operator_rights_or_kp_rule_changes_not_approved": true,
+  "next_resume_task": "P12_G04S1_113_ALL29_PHASE2_EXACT_PRINTED_RESPONSE_SLOT_DENOMINATOR_NATIVE769_SCAN262_LINEAGE_LEDGER__THEN_PHASE3_CONTINUOUS_NEW_SOURCE_GATES_TO_ELIGIBLE_BATCH__PHASE4_EXCEPTIONS_AND_PER_PAPER_CLOSEOUT_MAIN_PAGES"
+}

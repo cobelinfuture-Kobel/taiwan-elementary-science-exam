@@ -1,0 +1,838 @@
+{
+  "schema_version": "P12_G04S1_113_NEIAN_MID006_LAST26_EXACT_ORIGINAL_RASTER_BBOX_V1",
+  "source_branch_pr": 124,
+  "scope": "113 G04S1 frozen 48 canonical KP, source-only evidence",
+  "source_id": "SCI_G04_S1_113_MID_006",
+  "source_school": "內安國小",
+  "original_pdf_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+  "source_pdf_pages": 4,
+  "source_images_private_no_public_pdf_or_clip": true,
+  "method": "Original SHA-matched PDF JPEG raster image page2 xref18 and page3 xref25, grayscale ink component pairs threshold<150, actual question-marker pair BBox manually overlaid on native page; original raw JPEG 2866x2023 is rotated +90 on page2 and -90 on page3, then converted to displayed PDF top-left points. No OCR and no interpolation. S3 table, S4 fish figure, S5 earthquake news report, S6 two reading passages remain dependent on original parent material.",
+  "prior_geometry_evidence": [
+    "data/review/p12-g04s1-113-neian-mid006-scan24-exact-raster-bbox-v1.json",
+    "data/review/p12-g04s1-113-neian-mid006-scan-page4-12-exact-raster-bbox-v1.json"
+  ],
+  "summary": {
+    "new_exact_source_answer_bbox_positions": 26,
+    "by_section": {
+      "S3": 6,
+      "S4": 6,
+      "S5": 5,
+      "S6": 9
+    },
+    "neian_prior_exact_bbox_positions": 36,
+    "neian_total_source_answer_bbox_positions": 62,
+    "neian_remaining_source_bbox_positions": 0,
+    "new_formal_science_kp_approved": 0,
+    "new_admission_ready": 0,
+    "new_published": 0
+  },
+  "records": [
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S3|GRID|001",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        1709,
+        226,
+        1744,
+        324
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        81.36,
+        403.92,
+        116.64,
+        416.52
+      ],
+      "original_parent_context": "WATER_PLANT_CLASSIFICATION_TABLE",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S3|GRID|002",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        1279,
+        221,
+        1315,
+        338
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        79.56,
+        558.36,
+        121.68,
+        571.32
+      ],
+      "original_parent_context": "WATER_PLANT_CLASSIFICATION_TABLE",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S3|GRID|003",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        1531,
+        469,
+        1567,
+        586
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        168.84,
+        467.64,
+        210.96,
+        480.6
+      ],
+      "original_parent_context": "WATER_PLANT_CLASSIFICATION_TABLE",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S3|GRID|004",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        1379,
+        469,
+        1415,
+        586
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        168.84,
+        522.36,
+        210.96,
+        535.32
+      ],
+      "original_parent_context": "WATER_PLANT_CLASSIFICATION_TABLE",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S3|GRID|005",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        1632,
+        732,
+        1668,
+        849
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        263.52,
+        431.28,
+        305.64,
+        444.24
+      ],
+      "original_parent_context": "WATER_PLANT_CLASSIFICATION_TABLE",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S3|GRID|006",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        1226,
+        737,
+        1262,
+        854
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        265.32,
+        577.44,
+        307.44,
+        590.4
+      ],
+      "original_parent_context": "WATER_PLANT_CLASSIFICATION_TABLE",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S4|FISH|001",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        732,
+        154,
+        762,
+        275
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        55.44,
+        757.44,
+        99,
+        768.24
+      ],
+      "original_parent_context": "FISH_IMAGE_BODY_PART_DIAGRAM",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S4|FISH|002",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        751,
+        676,
+        787,
+        796
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        243.36,
+        748.44,
+        286.56,
+        761.4
+      ],
+      "original_parent_context": "FISH_IMAGE_BODY_PART_DIAGRAM",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S4|FISH|003",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        447,
+        372,
+        476,
+        492
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        133.92,
+        860.4,
+        177.12,
+        870.84
+      ],
+      "original_parent_context": "FISH_IMAGE_BODY_PART_DIAGRAM",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S4|FISH|004",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        355,
+        698,
+        391,
+        795
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        251.28,
+        891,
+        286.2,
+        903.96
+      ],
+      "original_parent_context": "FISH_PART_FUNCTION",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S4|FISH|005",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        309,
+        269,
+        345,
+        367
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        96.84,
+        907.56,
+        132.12,
+        920.52
+      ],
+      "original_parent_context": "FISH_BREATHING_TWO_BLANKS",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S4|FISH|006",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        307,
+        445,
+        343,
+        542
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        160.2,
+        908.28,
+        195.12,
+        921.24
+      ],
+      "original_parent_context": "FISH_BREATHING_TWO_BLANKS",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S5|QUAKE|001",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        974,
+        1662,
+        1009,
+        1779
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        598.32,
+        668.52,
+        640.44,
+        681.12
+      ],
+      "original_parent_context": "CENTRAL_WEATHER_ADMINISTRATION_EARTHQUAKE_REPORT",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S5|QUAKE|002",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        907,
+        1507,
+        944,
+        1701
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        542.52,
+        691.92,
+        612.36,
+        705.24
+      ],
+      "original_parent_context": "CENTRAL_WEATHER_ADMINISTRATION_EARTHQUAKE_REPORT",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S5|QUAKE|003",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        777,
+        1234,
+        813,
+        1429
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        444.24,
+        739.08,
+        514.44,
+        752.04
+      ],
+      "original_parent_context": "CENTRAL_WEATHER_ADMINISTRATION_EARTHQUAKE_REPORT",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S5|QUAKE|004",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        707,
+        1545,
+        744,
+        1740
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        556.2,
+        763.92,
+        626.4,
+        777.24
+      ],
+      "original_parent_context": "CENTRAL_WEATHER_ADMINISTRATION_EARTHQUAKE_REPORT",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S5|QUAKE|005",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 2,
+      "source_embedded_image_xref": 18,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": 90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        646,
+        1075,
+        682,
+        1172
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        387,
+        786.24,
+        421.92,
+        799.2
+      ],
+      "original_parent_context": "CENTRAL_WEATHER_ADMINISTRATION_EARTHQUAKE_REPORT",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S6|READING|001",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 3,
+      "source_embedded_image_xref": 25,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": -90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        1600,
+        1730,
+        1637,
+        1848
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        63,
+        576,
+        105.48,
+        589.32
+      ],
+      "original_parent_context": "EARTHQUAKE_ARTICLE",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S6|READING|002",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 3,
+      "source_embedded_image_xref": 25,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": -90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        1868,
+        1130,
+        1907,
+        1812
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        75.96,
+        672.48,
+        321.48,
+        686.52
+      ],
+      "original_parent_context": "EARTHQUAKE_ARTICLE_OPEN_RESPONSE",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S6|READING|003",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 3,
+      "source_embedded_image_xref": 25,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": -90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        1935,
+        1715,
+        1971,
+        1833
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        68.4,
+        696.6,
+        110.88,
+        709.56
+      ],
+      "original_parent_context": "EARTHQUAKE_ARTICLE",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S6|READING|004",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 3,
+      "source_embedded_image_xref": 25,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": -90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        2199,
+        1716,
+        2236,
+        1833
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        68.4,
+        791.64,
+        110.52,
+        804.96
+      ],
+      "original_parent_context": "EARTHQUAKE_ARTICLE",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S6|READING|005",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 3,
+      "source_embedded_image_xref": 25,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": -90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        2398,
+        1717,
+        2435,
+        1834
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        68.04,
+        863.28,
+        110.16,
+        876.6
+      ],
+      "original_parent_context": "EARTHQUAKE_ARTICLE",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S6|READING|006",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 3,
+      "source_embedded_image_xref": 25,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": -90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        1074,
+        790,
+        1110,
+        907
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        401.76,
+        386.64,
+        443.88,
+        399.6
+      ],
+      "original_parent_context": "WATERLILY_ARTICLE",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S6|READING|007",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 3,
+      "source_embedded_image_xref": 25,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": -90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        1473,
+        790,
+        1509,
+        907
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        401.76,
+        530.28,
+        443.88,
+        543.24
+      ],
+      "original_parent_context": "WATERLILY_ARTICLE",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S6|READING|008",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 3,
+      "source_embedded_image_xref": 25,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": -90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        2071,
+        516,
+        2107,
+        887
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        408.96,
+        745.56,
+        542.52,
+        758.52
+      ],
+      "original_parent_context": "WATERLILY_ARTICLE_OPEN_RESPONSE_PART1",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_006|S6|READING|009",
+      "original_source_PDF_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_PDF_page_1_based": 3,
+      "source_embedded_image_xref": 25,
+      "original_source_image_size_px": [
+        2866,
+        2023
+      ],
+      "actual_embedded_image_rotation_to_display_degrees": -90,
+      "raw_exact_original_raster_ink_pair_union_bbox_px": [
+        2072,
+        144,
+        2107,
+        477
+      ],
+      "mapped_original_PDF_top_left_bbox_pts": [
+        556.56,
+        745.92,
+        676.44,
+        758.52
+      ],
+      "original_parent_context": "WATERLILY_ARTICLE_OPEN_RESPONSE_PART2",
+      "source_pixel_method": "SHA256_MATCHED_EMBEDDED_JPEG_GRAYSCALE_COMPONENT_PAIR_LT150_VISUAL_QA_NO_OCR",
+      "visual_source_answer_position_verified": true,
+      "full_original_parent_material_must_remain_linked": true,
+      "source_slot_id_still_provisional": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ]
+}

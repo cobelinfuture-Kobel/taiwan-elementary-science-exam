@@ -115,7 +115,7 @@ test("original R5 selector auto-admission forbidden; only exact independent sour
         &&x.original_teacher_answer_key_authenticated===false
         &&x.source_pdf_sha256?.length===64&&x.source_pdf_bbox_pts_top_left?.length===4));
      assert.equal(bytes.includes("sci_g04s1_02_13"),false);
-     assert.equal(bytes.includes("sci_g04s1_02_14"),false);
+     assert.deepEqual(bank.blocks.filter(x=>x.canonical_kp_id==="sci_g04s1_02_14").map(x=>x.source_slot_id),["SCI_G04_S1_113_MID_006|S1|TF|005","SCI_G04_S1_113_MID_006|S1|TF|009"]); // only operator-approved source, not R5 selector-based auto admission
    } else for(const id of newIds)assert.equal(bytes.includes(id),false,name+" must not auto-admit "+id);
  }
  assert.equal(remap.public_admission_count,0);

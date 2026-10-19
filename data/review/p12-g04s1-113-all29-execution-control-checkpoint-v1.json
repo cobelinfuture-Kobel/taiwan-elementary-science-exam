@@ -111,7 +111,7 @@
     "published178 as total original answer positions"
   ],
   "next_resume_task": "P12_G04S1_113_ALL29_P04B_NextOriginalSchoolPapers_FullPdfSourceMarkers_BBoxNativeOrVerifiedRaster_ParentGroupRefs_ThenP05Science48KP_UniqueAnswer_DedupRightsSelectiveAdmission_P06P08_MainPages_All29Closeout",
-  "last_execution_commit_before_final_audit": "00c6b61cf696a76ed5898609f66ec646c6b44f23",
+  "last_execution_commit_before_final_audit": "6672df7fccf6b952978dd6718df7b676732a894b",
   "p04_latest_ci_test_commit": "501dad525f47328215254754549abc0c6280079c",
   "p04_latest_reconciliation_commit": "28044051621973b4f2c317a89a29d25fdcc9fa95",
   "phase4b_native_source_marker": {
@@ -157,6 +157,10 @@
       "data/review/p12-g04s1-113-p04b-neihu-final61-native-answer-marker-bbox-v1.json",
       "data/review/p12-g04s1-113-p04b-neihu-final10-image-vector-response-regions-v1.json"
     ],
-    "original_school_paper_full_paper_closeout": 0
+    "original_school_paper_full_paper_closeout": 0,
+    "original_source_grouped_id_convention": "SCI_G04_S1_113_*|Snn|Gnn|TYPE|nnn where figure/group parent exists",
+    "grouped_source_identifiers_updated_without_original_source_change": 61,
+    "note_on_188": "188 independently documented original answer marker locations from 5 original PDFs; 178 native text marker boxes + 6 PDF vector drawn image-box rectangles +4 rendered-raster image boxes. Only 38 previously published source identities within this group; the other 150 do NOT have formal admission approval.",
+    "last_source_group_canonical_commit": "6672df7fccf6b952978dd6718df7b676732a894b"
   }
 }

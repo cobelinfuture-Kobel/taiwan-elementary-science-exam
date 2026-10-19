@@ -1,0 +1,130 @@
+{
+  "schema_version": "P12_G04S1_113_HN22_NATIVE_OTHER_12PDF_FULLTEXT_DUPLICATE_SCREEN_A_V1",
+  "original_scope": "113 G04S1 official corpus 29, 24 native text PDFs, segment first 12 native papers",
+  "source_registry": "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "target_exact_22_manifest": "data/review/p12-g04s1-113-heshun-neian22-operator-cohort-manifest-DRAFT-v1.json",
+  "source_method": "Direct connected original Google Drive PDF text extraction of frozen 113 source URLs; Unicode NFKC remove punctuation/whitespace, exact full candidate stem containment and 10-character shingle coverage >=70%. Approximate score only alerts, not a formal source choice+context duplicate certification; scans not converted to text.",
+  "source_papers_attempted": 12,
+  "readable_papers": 12,
+  "fully_identical_candidate_stem_hits": 1,
+  "records": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_001",
+      "title": "113_南一_四上_自然_期中評量卷_文德國小.pdf",
+      "original_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "raw_text_chars": 3408,
+      "readable": true,
+      "exact_target_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_003",
+      "title": "113_南一_四上_自然_期中評量卷_忠孝國小.pdf",
+      "original_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "raw_text_chars": 3341,
+      "readable": true,
+      "exact_target_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "title": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+      "original_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "raw_text_chars": 3189,
+      "readable": true,
+      "exact_target_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "title": "113_南一_四上_自然_期末評量卷_東光國小.pdf",
+      "original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "raw_text_chars": 2331,
+      "readable": true,
+      "exact_target_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_005",
+      "title": "113_康軒_四上_自然_期中評量卷_大墩國小.pdf",
+      "original_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "raw_text_chars": 3030,
+      "readable": true,
+      "exact_target_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007",
+      "title": "113_康軒_四上_自然_期中評量卷_民權國小.pdf",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "raw_text_chars": 2919,
+      "readable": true,
+      "exact_target_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008",
+      "title": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "raw_text_chars": 3909,
+      "readable": true,
+      "exact_target_stem_hits": 1,
+      "near_hits": [
+        {
+          "candidate": "SCI_G04_S1_113_MID_006|S2|MC|007",
+          "exact_whole_stem_normalized_present": true,
+          "ten_character_shingle_coverage": 1,
+          "context_normalized": "牠們在水中運動二選擇題:每題2分共28分1招潮蟹彈塗魚是哪一種環境中常見的生物呢○1沙漠○2高山○3海邊泥灘地○4海洋2下列哪一項不是改變地表樣貌的力量○1人類開發○2流水作用○3強烈地震○4空氣污染3下列哪一項做法無法保護我們的森林資源○1任意砍伐樹木○2定期巡守山林○3平時節約用紙○4少用免洗筷4下列哪一項不是構成地表的非生物"
+        }
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009",
+      "title": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "raw_text_chars": 2426,
+      "readable": true,
+      "exact_target_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_010",
+      "title": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "raw_text_chars": 2735,
+      "readable": true,
+      "exact_target_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_011",
+      "title": "113_康軒_四上_自然_期中評量卷_建德國小.pdf",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "raw_text_chars": 2919,
+      "readable": true,
+      "exact_target_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_012",
+      "title": "113_康軒_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
+      "raw_text_chars": 4062,
+      "readable": true,
+      "exact_target_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013",
+      "title": "113_康軒_四上_自然_期中評量卷_獅湖國小.pdf",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "raw_text_chars": 3542,
+      "readable": true,
+      "exact_target_stem_hits": 0,
+      "near_hits": []
+    }
+  ],
+  "formal_DUPLICATE_GATE_complete": false,
+  "ADMISSION_READY_new": 0,
+  "PUBLISHED_new": 0
+}

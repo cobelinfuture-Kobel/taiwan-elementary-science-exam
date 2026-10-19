@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
-const {build}=require('../scripts/review/p12-g04s1-113-wholecorpus-resume.cjs');
+const {build}=require('../scripts/review/p12-g04s1-113-wholecorpus-legacy-snapshot.cjs');
 const load=x=>JSON.parse(fs.readFileSync('data/review/'+x,'utf8'));
 const report=load('p12-g04s1-113-native-b01b02b03-150-source-closeout-checkpoint-v1.json');
 const suppression=load('p12-g04s1-113-main-published114-source-suppression-readback-v9.json');

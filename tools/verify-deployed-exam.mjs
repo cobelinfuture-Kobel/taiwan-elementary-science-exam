@@ -12,13 +12,30 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-wende-mc010-after113-live750-20261017",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-native38-live788-20261019",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 750 小題（386 題是非＋229 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
-  const native6Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-next-native-tfmc6-public-v1.json",{cache:"no-cache"});
+  assert.ok(info.includes("已載入內建考古題 788 小題（401 題是非＋252 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  const native38Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-native38-public-v1.json",{cache:"no-cache"});
+  assert.equal(native38Response.status(),200,"Published Pages must serve approved native38 original exam cohort");
+  const native38=await native38Response.json();
+  assert.deepEqual([native38.expected_blocks,native38.expected_answer_slots,native38.expected_standalone_true_false,native38.expected_standalone_choice],[38,38,15,23]);
+  assert.equal(new Set(native38.blocks.map(b=>b.source_slot_id)).size,38);
+  assert.equal(new Set(native38.blocks.map(b=>b.source_id)).size,8);
+  assert.ok(native38.blocks.every(b=>b.operator_publication_approval===true
+    &&b.certification_status==="OPERATOR_APPROVED_PUBLIC"
+    &&b.source_pdf_sha256.length===64&&b.source_page_pdf_1_based===1
+    &&b.source_pdf_bbox_pts_top_left.length===4
+    &&b.original_teacher_answer_key_authenticated===false
+    &&b.original_cropped_assets_included===false
+    &&b.copyright_path==="SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES"));
+  assert.ok(native38.blocks.filter(b=>b.type==="mcq").every(b=>b.options.length===4&&["①","②","③","④"].includes(b.answer)));
+  // Two prior wind KP questions persist alongside one directly operator-approved source.
+  const native38Wind=native38.blocks.filter(b=>b.canonical_kp_id==="sci_g04s1_01_12");
+  assert.equal(native38Wind.length,1);
+    const native6Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-next-native-tfmc6-public-v1.json",{cache:"no-cache"});
   assert.equal(native6Response.status(),200,"Live Pages delivers 113 next native six new source bank");
   const native6=await native6Response.json();
   assert.deepEqual([native6.expected_blocks,native6.expected_answer_slots,native6.expected_standalone_true_false,native6.expected_standalone_choice],[6,6,2,4]);

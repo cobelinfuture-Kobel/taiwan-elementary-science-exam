@@ -66,3 +66,20 @@ test('P04 negative missing one of sixteen original PDF source IDs fails closure-
  assert.notEqual(new Set(damaged.map(x=>x.paper_id)).size,16);
  assert.equal(master.paper_records.filter(x=>x.exact_total_slots!==null).length,0);
 });
+
+test('P04 Wende55 and Zhongxiao50 source text-layer itemization is exact within named section counts, but cannot bypass PDF page geometry',()=>{
+ const reread=read('p12-g04s1-113-p04-wende-zhongxiao-mid-textlayer-response-markers-v1.json');
+ assert.equal(reread.records.length,2);
+ assert.equal(reread.records.reduce((sum,p)=>sum+p.textlayer_answer_position_total,0),105);
+ assert.deepEqual(reread.records.map(x=>x.textlayer_answer_position_total),[55,50]);
+ for(const p of reread.records){
+   assert.equal(p.sections.reduce((sum,s)=>sum+s.count,0),p.textlayer_answer_position_total);
+   assert.equal(p.original_visual_pdf_bbox_complete,false);
+   const masterRow=records.get(p.paper_id);
+   assert.equal(masterRow.original_text_layer_answer_position_recount,p.textlayer_answer_position_total);
+   assert.equal(masterRow.exact_total_slots,null);
+   assert.equal(masterRow.inventory_certified,false);
+ }
+ assert.equal(master.p04_source_text_layer_recount_papers,2);
+ assert.equal(master.p04_source_text_layer_recount_response_positions,105);
+});

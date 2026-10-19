@@ -12,7 +12,7 @@
   "published_new": 0,
   "records": [
     {
-      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02_G04|MATCH|001",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02|G04|MATCH|001",
       "original_pdf_page": 2,
       "original_answer_marker_vector_bbox_pt": [
         343.7,
@@ -27,7 +27,7 @@
       "admission_ready": false
     },
     {
-      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02_G04|MATCH|002",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02|G04|MATCH|002",
       "original_pdf_page": 2,
       "original_answer_marker_vector_bbox_pt": [
         436.7,
@@ -42,7 +42,7 @@
       "admission_ready": false
     },
     {
-      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02_G04|MATCH|003",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02|G04|MATCH|003",
       "original_pdf_page": 2,
       "original_answer_marker_vector_bbox_pt": [
         343.7,
@@ -57,7 +57,7 @@
       "admission_ready": false
     },
     {
-      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02_G04|MATCH|004",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02|G04|MATCH|004",
       "original_pdf_page": 2,
       "original_answer_marker_vector_bbox_pt": [
         436.7,
@@ -72,7 +72,7 @@
       "admission_ready": false
     },
     {
-      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02_G04|MATCH|005",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02|G04|MATCH|005",
       "original_pdf_page": 2,
       "original_answer_marker_vector_bbox_pt": [
         343.7,
@@ -87,7 +87,7 @@
       "admission_ready": false
     },
     {
-      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02_G04|MATCH|006",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02|G04|MATCH|006",
       "original_pdf_page": 2,
       "original_answer_marker_vector_bbox_pt": [
         435.7,
@@ -102,7 +102,7 @@
       "admission_ready": false
     },
     {
-      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04_G07|TF|001",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04|G07|TF|001",
       "original_pdf_page": 3,
       "original_answer_marker_raster_render_bbox_px": [
         466,
@@ -127,7 +127,7 @@
       "admission_ready": false
     },
     {
-      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04_G07|TF|002",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04|G07|TF|002",
       "original_pdf_page": 3,
       "original_answer_marker_raster_render_bbox_px": [
         621,
@@ -152,7 +152,7 @@
       "admission_ready": false
     },
     {
-      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04_G07|TF|003",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04|G07|TF|003",
       "original_pdf_page": 3,
       "original_answer_marker_raster_render_bbox_px": [
         466,
@@ -177,7 +177,7 @@
       "admission_ready": false
     },
     {
-      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04_G07|TF|004",
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04|G07|TF|004",
       "original_pdf_page": 3,
       "original_answer_marker_raster_render_bbox_px": [
         621,
@@ -201,5 +201,6 @@
       "source_exact_ready": false,
       "admission_ready": false
     }
-  ]
+  ],
+  "original_source_id_grammar": "SCI_G04_S1_113_*|Snn|Gnn|TYPE|nnn (explicit parent group segments where a grouped source is present)"
 }

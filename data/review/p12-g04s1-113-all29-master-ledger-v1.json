@@ -118,7 +118,9 @@
         }
       ],
       "previous_unverified_score_derived_positions": 55,
-      "source_text_layout_exception": "Original year in text layer spaced as '1 13'; Section III header joined to prior question line, not detected by anchored heading lexer"
+      "source_text_layout_exception": "Original year in text layer spaced as '1 13'; Section III header joined to prior question line, not detected by anchored heading lexer",
+      "original_text_layer_answer_position_recount": 55,
+      "original_text_layer_answer_position_breakdown_ref": "data/review/p12-g04s1-113-p04-wende-zhongxiao-mid-textlayer-response-markers-v1.json"
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_002",
@@ -240,7 +242,9 @@
         }
       ],
       "previous_unverified_score_derived_positions": 50,
-      "source_text_layout_exception": null
+      "source_text_layout_exception": null,
+      "original_text_layer_answer_position_recount": 50,
+      "original_text_layer_answer_position_breakdown_ref": "data/review/p12-g04s1-113-p04-wende-zhongxiao-mid-textlayer-response-markers-v1.json"
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_004",
@@ -1553,5 +1557,8 @@
     "data/review/p12-g04s1-113-p04-remaining16-drive-pdf-textlayer-shard02-v1.json",
     "data/review/p12-g04s1-113-p04-all16-drive-text-vs-original-printed-section-proof-v1.json"
   ],
-  "note_on_934": "16 PDF source text-layer review and recorded section score proof readback are available. The old 934 score-derived slot estimate must not be promoted to 16 complete physical answer inventories; precise per-answer source page/BBox/parent remains pending."
+  "note_on_934": "16 PDF source text-layer review and recorded section score proof readback are available. The old 934 score-derived slot estimate must not be promoted to 16 complete physical answer inventories; precise per-answer source page/BBox/parent remains pending.",
+  "p04_source_text_layer_recount_papers": 2,
+  "p04_source_text_layer_recount_response_positions": 105,
+  "p04_source_text_layer_recount_status": "TEXTLAYER_PRINTED_SUBRESPONSES_RECONCILED_EXACT_ORIGINAL_VISUAL_MARKER_BBOX_PENDING"
 }

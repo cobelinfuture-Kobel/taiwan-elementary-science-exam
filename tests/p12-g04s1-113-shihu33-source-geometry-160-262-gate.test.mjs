@@ -20,7 +20,7 @@ test('Shihu 33 original physical markers are exact 180deg source JPEG component 
    assert.equal(r.source_pdf_rotation_degrees,180);
    assert.deepEqual(r.original_image_size_px,[3035,4299]);
    assert.equal(r.source_embedded_image_xref,({1:2,2:6,3:9})[r.source_pdf_page_1_based]);
-   const b=r.source_page_upright_display_component_bbox_px,orig=r.original_unrotated_source_image_pixel_component_bbox;
+   const b=r.source_display_upright_pixel_component_bbox,orig=r.original_unrotated_source_image_pixel_component_bbox;
    assert.deepEqual(orig,[3035-b[2],4299-b[3],3035-b[0],4299-b[1]]);
    assert.ok(b[0]>=0&&b[1]>=0&&b[2]<=3035&&b[3]<=4299&&b[0]<b[2]&&b[1]<b[3]);
    b.forEach((v,i)=>assert.ok(Math.abs(r.source_display_pdf_bbox_pts_top_left[i]-v*(i%2?1031.76/4299:728.4/3035))<0.03));

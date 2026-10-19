@@ -1,0 +1,373 @@
+{
+  "schema_version": "P12_G04S1_113_SCAN5_REMAINING6_ACTUAL_PARENT_FIGURE_ROI_V18",
+  "source_PR": 124,
+  "previous_source_marker_progress_ref": "data/review/p12-g04s1-113-scan5-source-marker-progress256-of262-v17.json",
+  "related_original_source_registry": "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "source_original_113_exam_pdf_SHA256_independently_reverified": true,
+  "source_originals": [
+    "SCI_G04_S1_113_FINAL_002",
+    "SCI_G04_S1_113_FINAL_009"
+  ],
+  "actual_original_pdf_source_files_checked": 2,
+  "actual_original_pdf_pages_with_unresolved_figures_checked": 3,
+  "original_pdf_image_xrefs": [
+    "FINAL_002 page1 xref8 page2 xref14",
+    "FINAL_009 page3 xref9"
+  ],
+  "scope": "Parent-figure geometries for the six previously unresolved *grouped positions* in five scanned school papers, not independent answer boxes nor count-equivalent actual printed response subitems.",
+  "coordinate_method": "Visually inspected original SHA256-matched raster images embedded in each school PDF. Manually localized figure/table outer envelope in upright pixel space at 1024px display proof; recorded full embedded-resolution upright boxes, inverse-rotated raw image boxes and converted to original 1190.52x841.8 (Zhongxiao) or 728.4x1031.76 (Shihu) PDF top-left page points. This is a parent/stimulus envelope only: it is not a physical separate answer-marker connected-component bbox and must never be counted as an independent certified answer region.",
+  "original_image_embedded_upright_rotation_rule": {
+    "FINAL_002_page1": "PIL image CCW270 from original JPEG; source PDF landscape page rotation0",
+    "FINAL_002_page2": "PIL image CCW90 from original JPEG; source PDF landscape page rotation0",
+    "FINAL_009_page3": "PIL image CCW180 from original JPEG; source PDF page rotation180"
+  },
+  "context_dependency_notice": "Zhongxiao four tasks draw responses onto source figures, so independent printed answer boxes do not exist. Shihu parent Q7 says four scoring parts but old source ledger treats two table row groups as two remaining positions; do not treat grouping as a certified count of unique student questions or invent four BBoxes. Preserve parent diagram/table child structures, source drawings and actual response shape.",
+  "source_figure_redrawn_or_republished": false,
+  "source_pdf_images_copied_into_student_site": false,
+  "possible_future_website_format": "New student-owned diagram reconstructed under an independently checked source-equivalent renderer only if school exam rights/third-party figure questions are resolved; drawing content to be evaluated by manual visual correctness, not fabricated O/X or scoring. No such student fixture admitted in this checkpoint.",
+  "current_source_marker_verified_including_6_partial_matching_dots": 256,
+  "previous_independent_answer_bboxes_verified": 250,
+  "unresolved_position_count_unchanged": 6,
+  "new_parent_figure_visual_ROIs_localized": 6,
+  "new_independent_printed_answer_bboxes_certified": 0,
+  "new_student_slot_count": 0,
+  "formal_progress": {
+    "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+    "ADMISSION_READY_new": 0,
+    "PUBLISHED_new": 0,
+    "PUBLISHED_total_113": 174,
+    "public_site_all_scopes_answer_slots": 810
+  },
+  "unresolved_original6_partition": {
+    "zhongxiao_4_drawing_on_original_figure": 4,
+    "shihu_parent7_two_table_row_units": 2
+  },
+  "all_six_parent_ROIs_are_HOLD": true,
+  "records": [
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S01|DRAW|003",
+      "section": "S01",
+      "printed_number": 3,
+      "page": 1,
+      "xref": 8,
+      "rotation": 270,
+      "upright_dimensions_px": [
+        3507,
+        4960
+      ],
+      "upright_parent_figure_bbox_px": [
+        445,
+        575,
+        1517,
+        1113
+      ],
+      "embedded_raw_figure_bbox_px": [
+        575,
+        1990,
+        1113,
+        3062
+      ],
+      "source_pdf_parent_roi_bbox_pts_top_left": [
+        138.01,
+        477.67,
+        267.15,
+        734.98
+      ],
+      "original_parent_task_type": "DRAW_REFLECTED_LIGHT_RAY_ON_SOURCE_MIRROR_DIAGRAM",
+      "original_response_mode": "DRAW_DIRECTLY_ON_SHARED_ORIGINAL_FIGURE",
+      "parent_prompt_paraphrase": "依原圖標示入射光、經鏡子反射後的光路",
+      "student_content_dependency": "TWO_REFLECTION_EXPERIMENT_PANELS",
+      "figure_rights_cleared_for_public_copy": false,
+      "original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_school": "忠孝國小",
+      "source_original_pdf_page_count": 4,
+      "source_pdf_page_size_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_raster_image_source_verified": true,
+      "parent_figure_roi_visually_grounded": true,
+      "parent_figure_roi_is_NOT_independent_answer_bbox": true,
+      "actual_drawn_answer_shape_not_visible_in_original_blank_template": true,
+      "source_ocr_used": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp_formal": false,
+      "third_party_figure_publication_cleared": false,
+      "formal_answer_bbox_certified": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S01|DRAW|006",
+      "section": "S01",
+      "printed_number": 6,
+      "page": 1,
+      "xref": 8,
+      "rotation": 270,
+      "upright_dimensions_px": [
+        3507,
+        4960
+      ],
+      "upright_parent_figure_bbox_px": [
+        510,
+        3806,
+        1702,
+        4385
+      ],
+      "embedded_raw_figure_bbox_px": [
+        3806,
+        1805,
+        4385,
+        2997
+      ],
+      "source_pdf_parent_roi_bbox_pts_top_left": [
+        913.53,
+        433.26,
+        1052.51,
+        719.38
+      ],
+      "original_parent_task_type": "DRAW_LED_POLARITY_BATTERY_CIRCUIT",
+      "original_response_mode": "DRAW_DIRECTLY_ON_SHARED_ORIGINAL_FIGURE",
+      "parent_prompt_paraphrase": "依 LED 長短腳與乾電池原圖畫出可導電之接線",
+      "student_content_dependency": "LED_AND_TWO_CELLS_SOURCE_PANEL",
+      "figure_rights_cleared_for_public_copy": false,
+      "original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_school": "忠孝國小",
+      "source_original_pdf_page_count": 4,
+      "source_pdf_page_size_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_raster_image_source_verified": true,
+      "parent_figure_roi_visually_grounded": true,
+      "parent_figure_roi_is_NOT_independent_answer_bbox": true,
+      "actual_drawn_answer_shape_not_visible_in_original_blank_template": true,
+      "source_ocr_used": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp_formal": false,
+      "third_party_figure_publication_cleared": false,
+      "formal_answer_bbox_certified": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S03|DRAW|001",
+      "section": "S03",
+      "printed_number": 1,
+      "page": 1,
+      "xref": 8,
+      "rotation": 270,
+      "upright_dimensions_px": [
+        3507,
+        4960
+      ],
+      "upright_parent_figure_bbox_px": [
+        1815,
+        3302,
+        3449,
+        4772
+      ],
+      "embedded_raw_figure_bbox_px": [
+        3302,
+        58,
+        4772,
+        1692
+      ],
+      "source_pdf_parent_roi_bbox_pts_top_left": [
+        792.56,
+        13.92,
+        1145.4,
+        406.14
+      ],
+      "original_parent_task_type": "DRAW_CHRISTMAS_TREE_THREE_BULBS_SERIES",
+      "original_response_mode": "DRAW_DIRECTLY_ON_SHARED_ORIGINAL_FIGURE",
+      "parent_prompt_paraphrase": "於原聖誕樹圖中畫出 3 顆燈泡與 1 顆電池串聯通路",
+      "student_content_dependency": "TREE_THREE_BULBS_AND_ONE_BATTERY_DIAGRAM",
+      "figure_rights_cleared_for_public_copy": false,
+      "original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_school": "忠孝國小",
+      "source_original_pdf_page_count": 4,
+      "source_pdf_page_size_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_raster_image_source_verified": true,
+      "parent_figure_roi_visually_grounded": true,
+      "parent_figure_roi_is_NOT_independent_answer_bbox": true,
+      "actual_drawn_answer_shape_not_visible_in_original_blank_template": true,
+      "source_ocr_used": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp_formal": false,
+      "third_party_figure_publication_cleared": false,
+      "formal_answer_bbox_certified": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S03|DRAW|002",
+      "section": "S03",
+      "printed_number": 2,
+      "page": 2,
+      "xref": 14,
+      "rotation": 90,
+      "upright_dimensions_px": [
+        3507,
+        4960
+      ],
+      "upright_parent_figure_bbox_px": [
+        199,
+        555,
+        1699,
+        1946
+      ],
+      "embedded_raw_figure_bbox_px": [
+        3014,
+        199,
+        4405,
+        1699
+      ],
+      "source_pdf_parent_roi_bbox_pts_top_left": [
+        723.43,
+        47.77,
+        1057.31,
+        407.82
+      ],
+      "original_parent_task_type": "DRAW_LANTERN_TWO_BULBS_PARALLEL",
+      "original_response_mode": "DRAW_DIRECTLY_ON_SHARED_ORIGINAL_FIGURE",
+      "parent_prompt_paraphrase": "於原元宵燈籠圖中畫出 2 顆燈泡與 1 顆電池並聯通路",
+      "student_content_dependency": "LANTERN_TWO_BULBS_AND_ONE_BATTERY_DIAGRAM",
+      "figure_rights_cleared_for_public_copy": false,
+      "original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_school": "忠孝國小",
+      "source_original_pdf_page_count": 4,
+      "source_pdf_page_size_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_raster_image_source_verified": true,
+      "parent_figure_roi_visually_grounded": true,
+      "parent_figure_roi_is_NOT_independent_answer_bbox": true,
+      "actual_drawn_answer_shape_not_visible_in_original_blank_template": true,
+      "source_ocr_used": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp_formal": false,
+      "third_party_figure_publication_cleared": false,
+      "formal_answer_bbox_certified": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_009",
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S02|PARENT07|ONE_BATTERY",
+      "section": "S02",
+      "printed_number": 7,
+      "page": 3,
+      "xref": 9,
+      "rotation": 180,
+      "upright_dimensions_px": [
+        3035,
+        4299
+      ],
+      "upright_parent_figure_bbox_px": [
+        379,
+        534,
+        1384,
+        1610
+      ],
+      "embedded_raw_figure_bbox_px": [
+        1651,
+        2689,
+        2656,
+        3765
+      ],
+      "source_pdf_parent_roi_bbox_pts_top_left": [
+        90.96,
+        128.16,
+        332.16,
+        386.4
+      ],
+      "original_parent_task_type": "MOTOR_CIRCUIT_TABLE_ONE_CELL_ROW_GROUP",
+      "original_response_mode": "PARENT_TABLE_CONTAINS_CIRCUIT_DRAWING_AND_WIND_STRENGTH",
+      "parent_prompt_paraphrase": "一顆電池連接小馬達電路、材料名稱及風力強弱相關表格",
+      "student_content_dependency": "ONE_CELL_MOTOR_TABLE_SHARED_PARENT",
+      "figure_rights_cleared_for_public_copy": false,
+      "original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_school": "獅湖國小",
+      "source_original_pdf_page_count": 3,
+      "source_pdf_page_size_pts": [
+        728.4,
+        1031.76
+      ],
+      "source_raster_image_source_verified": true,
+      "parent_figure_roi_visually_grounded": true,
+      "parent_figure_roi_is_NOT_independent_answer_bbox": true,
+      "actual_drawn_answer_shape_not_visible_in_original_blank_template": true,
+      "source_ocr_used": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp_formal": false,
+      "third_party_figure_publication_cleared": false,
+      "formal_answer_bbox_certified": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_009",
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S02|PARENT07|TWO_BATTERIES",
+      "section": "S02",
+      "printed_number": 7,
+      "page": 3,
+      "xref": 9,
+      "rotation": 180,
+      "upright_dimensions_px": [
+        3035,
+        4299
+      ],
+      "upright_parent_figure_bbox_px": [
+        237,
+        1746,
+        1449,
+        3125
+      ],
+      "embedded_raw_figure_bbox_px": [
+        1586,
+        1174,
+        2798,
+        2553
+      ],
+      "source_pdf_parent_roi_bbox_pts_top_left": [
+        56.88,
+        419.04,
+        347.76,
+        750
+      ],
+      "original_parent_task_type": "MOTOR_CIRCUIT_TABLE_TWO_CELLS_SERIES_ROW_GROUP",
+      "original_response_mode": "PARENT_TABLE_CONTAINS_CIRCUIT_DRAWING_AND_WIND_STRENGTH",
+      "parent_prompt_paraphrase": "兩顆電池串聯連接小馬達的線路與風力強弱比較",
+      "student_content_dependency": "TWO_CELLS_MOTOR_TABLE_SHARED_PARENT",
+      "figure_rights_cleared_for_public_copy": false,
+      "original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_school": "獅湖國小",
+      "source_original_pdf_page_count": 3,
+      "source_pdf_page_size_pts": [
+        728.4,
+        1031.76
+      ],
+      "source_raster_image_source_verified": true,
+      "parent_figure_roi_visually_grounded": true,
+      "parent_figure_roi_is_NOT_independent_answer_bbox": true,
+      "actual_drawn_answer_shape_not_visible_in_original_blank_template": true,
+      "source_ocr_used": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp_formal": false,
+      "third_party_figure_publication_cleared": false,
+      "formal_answer_bbox_certified": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    }
+  ],
+  "next_resume_task": "P12_G04S1_113_SCAN5_PARENT_ROI_SIX_V18__ORIGINAL_FIGURE_PUBLIC_RIGHTS_AND_MANUAL_DRAWING_RENDERER_ASSETS_HOLD_ZHONGXIAO4__SHIHU_MOTOR_PARENT7_CHILD_ACTUAL_RESPONSE_GRANULARITY_HOLD__THEN_SCIENCE_DIRECTKP_DUPLICATE_SELECTIVE_OPERATOR_APPROVAL_NOT_AUTO_PUBLICATION"
+}

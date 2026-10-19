@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import {createRequire} from 'node:module';
 
 const require=createRequire(import.meta.url);
-const {build,normalizeSlot}=require('../scripts/review/p12-g04s1-113-wholecorpus-resume.cjs');
+const {build,normalizeSlot}=require('../scripts/review/p12-g04s1-113-wholecorpus-legacy-snapshot.cjs');
 const load=x=>JSON.parse(fs.readFileSync('data/review/'+x,'utf8'));
 const b01=load('p12-g04s1-113-native-tfmc-b01-50-original-native-glyph-bbox-readback-v1.json');
 const origin=load('p12-g04s1-113-wende-mid27-real-original-answer-glyph-bbox-v1.json');

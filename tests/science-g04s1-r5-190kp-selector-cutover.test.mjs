@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {readFileSync,readdirSync} from "node:fs";
 import {validateAuthority,unitsFor,resolveUnit} from "../site/assets/js/authority-adapter.mjs";
+import {validateAndConvertP12113Native38} from "../site/assets/js/p12-g04s1-113-native38-release.mjs";
 const read=p=>JSON.parse(readFileSync(p,"utf8"));
 const legacy=read("site/data/authority/science-g03-g04-selector-v2.json");
 const active=read("site/data/authority/science-g03-g04-selector-v3.json");
@@ -54,6 +55,7 @@ test("original R5 selector auto-admission forbidden; only exact independent sour
  const sourceFiles=readdirSync("site/data/question-bank").filter(name=>name.endsWith(".json"));
  const approved="p12-e01-post46-anhe-wind1-public-v1.json";
  const certified113="p12-g04s1-113-dongguang-dahua-native5-after105-public-v1.json";
+ const certifiedNative38="p12-g04s1-113-native38-public-v1.json";
  assert.ok(sourceFiles.includes(approved),"explicit operator release record required");
  assert.ok(sourceFiles.includes(certified113),"new 113 original source certification required");
  for(const name of sourceFiles){
@@ -83,6 +85,19 @@ test("original R5 selector auto-admission forbidden; only exact independent sour
        &&b.source_page_pdf_1_based===1&&b.source_pdf_bbox_pts_top_left?.length===4));
      assert.equal(bytes.includes("sci_g04s1_01_12"),false);
      assert.equal(bytes.includes("sci_g04s1_02_14"),false);
+   } else if(name===certifiedNative38){
+     // Exact independent source and operator-signed approval, never selector-based KP auto-admission.
+     const bank=read("site/data/question-bank/"+name);
+     const manifest=read("data/review/p12-g04s1-113-native38-consolidated-admission-formal-v2.json");
+     const checked=validateAndConvertP12113Native38(bank,active);
+     assert.equal(checked.answerSlots,38);
+     assert.equal(manifest.summary.explicit_final_operator_cohort_manifest_release_signoff,true);
+     assert.equal(manifest.summary.admission_ready_new,38);
+     assert.equal(manifest.summary.published_new,0);
+     assert.equal(manifest.records.length,38);
+     assert.ok(manifest.records.every(row=>row.operator_cohort_final_explicit_release_confirmation===true
+       &&row.original_school_exam_header_visual_verified===true
+       &&row.rights_verified===true));
    } else for(const id of newIds)assert.equal(bytes.includes(id),false,name+" must not auto-admit "+id);
  }
  assert.equal(remap.public_admission_count,0);

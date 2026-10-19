@@ -1,0 +1,72 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_P01_P04_EXECUTION_CONTROL_CHECKPOINT_V1",
+  "scope": "113 G04 S1 all 29 original exam PDFs; 48 frozen Kang Hsuan KP",
+  "branch": "Draft PR #124 source-only; must not merge entire branch",
+  "current_main_sha": "efea07d2dc533ab29e6f2243cac7ebdce03cf862",
+  "source_authority_refs": [
+    "README.md",
+    "docs/QUESTION_ADMISSION_GOVERNANCE.md",
+    "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+    "data/review/p12-g04s1-113-all29-four-phase-reconcile-and-full-closeout-roadmap-v1.json"
+  ],
+  "single_master_ledger": "data/review/p12-g04s1-113-all29-master-ledger-v1.json",
+  "all29_runner": "scripts/review/p12-g04s1-113-wholecorpus-resume.cjs",
+  "separate_immutable_historical_fixture": "scripts/review/p12-g04s1-113-wholecorpus-legacy-snapshot.cjs",
+  "ci_tests": "tests/p12-g04s1-113-wholecorpus-resume.test.mjs",
+  "ci_workflow": ".github/workflows/p12-g04s1-113-all29-source-resume.yml",
+  "operator_frozen_scope_unchanged": true,
+  "phase1_master_ledger": {
+    "original_papers": 29,
+    "original_pages": 72,
+    "published_113_source_positions": 178,
+    "source_universe_complete": false,
+    "fully_certified_original_paper_slot_denominators": 0
+  },
+  "phase2_runner": {
+    "published_source_suppression": 178,
+    "prior_partial_legacy_source_rows": 775,
+    "partial_unpublished_legacy_rows": 712,
+    "whole_paper_inventory_gaps": 29,
+    "deterministic_work_items": 741,
+    "batches_at_50": 15,
+    "limitation": "741 includes 29 paper-level inventory gaps plus 712 unpublished known partial-ledger slots; not exhaustive original answer-slot population; no automatic Science/KP judgments or admission performed"
+  },
+  "phase3_ci": {
+    "negative_tests": "missing original, stale publication, falsified published, missing slot, PENDING treated done, missing gates, unsupported HOLD",
+    "historical114_regression_tests": "retained under explicit non-executable legacy snapshot; ALL29 programmatic build and CLI use new master ledger",
+    "positive_conclusion": "ALL29 routing is operational and fail-closed; NOT equivalent to ALL29 exam closeout",
+    "confirmed_workflow_run": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/39275033997"
+  },
+  "phase4_source_inventory": {
+    "papers_with_prior_printed_section_tallies": 13,
+    "section_positions_tallied_not_exact_certified": 821,
+    "papers_still_lacking_prior_section_count": 16,
+    "source_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
+    "exact_all29_answer_position_denominator": null,
+    "paper_closeouts_certified": 0
+  },
+  "formal_progress_new_this_fix": {
+    "FORMAL_SCIENCE_KP_APPROVED_NEW": 0,
+    "ADMISSION_READY_NEW": 0,
+    "PUBLISHED_NEW": 0,
+    "PUBLISHED_113_TOTAL": 178,
+    "PUBLISHED_SITE_TOTAL": 814
+  },
+  "unresolved_remaining_execution": [
+    "P04: reconstruct 16 remaining original school papers exact printed answer positions, then every paper full source-slot/BBox/parent audit",
+    "P05: entire unpublished original Science unique-answer and direct 48KP existing formal evidence",
+    "P05: exact 113 unpublished + all114 cross-paper full-stem/options/near duplicate confirmation and rights evidence",
+    "P06: selectively admit eligible cohort under existing operator gate, source-only PR124 never wholesale merge",
+    "P07: focused CI, official main readback and live Pages E2E",
+    "P08: 29/29 full original slots disposition and closure checks must be true"
+  ],
+  "do_not_repeat_as_primary_task": [
+    "NEXT15",
+    "NEXT21",
+    "NEXT35",
+    "new mandatory SECOND_PASS/THIRD_PASS Science-KP layer",
+    "partial ledger 775 as full universe",
+    "published178 as total original answer positions"
+  ],
+  "next_resume_task": "P12_G04S1_113_ALL29_P04_VerifyOriginal16PaperPrintedSlotDenominators_Then_All29SlotParentBBoxRegistry__P05ExistingScienceKP_DedupRightsSelectiveAdmission__P06P08_ConsolidatedRelease_CI_Main_Pages_All29Closeout"
+}

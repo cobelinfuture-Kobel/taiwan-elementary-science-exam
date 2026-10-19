@@ -71,7 +71,21 @@
       "data/review/p12-g04s1-113-p04-anhe-dahua-final-textlayer-response-markers-v1.json",
       "data/review/p12-g04s1-113-p04-anhe-mingyi-guangxing-mid-textlayer-response-markers-v1.json",
       "data/review/p12-g04s1-113-p04-chenggong-yongan-final-textlayer-position-correction-v1.json"
-    ]
+    ],
+    "source_papers_with_section_level_count_reconciled": 29,
+    "source_section_response_regions_working_count_noncertified": 1762,
+    "original13_paper_historical_section_regions": 821,
+    "additional11_pdf_native_textlayer_original_answer_positions": 629,
+    "additional_five_full_pdf_visual_answer_regions": 312,
+    "all16_remaining_source_exams_reconciled_section_count": true,
+    "original_five_pdf_file_binary_SHA256_reverified": true,
+    "original_five_full_pdf_pages_visually_read": 12,
+    "source_original_visual_pdf_counts_ref": "data/review/p12-g04s1-113-p04-five-original-sha-verified-pdf-page-visual-count-v1.json",
+    "old_all29_score_derived_planning_estimate": 1755,
+    "current_source_count_delta": 7,
+    "per_source_answer_identifier_and_PDF_bbox_formally_complete": false,
+    "all29_original_exact_independent_source_answer_slot_universe_certified": false,
+    "section_source_scope_name": "ORIGINAL_RESPONSE_REGION_COUNT_ONLY"
   },
   "formal_progress_new_this_fix": {
     "FORMAL_SCIENCE_KP_APPROVED_NEW": 0,
@@ -81,7 +95,7 @@
     "PUBLISHED_SITE_TOTAL": 814
   },
   "unresolved_remaining_execution": [
-    "P04: five native paper exact original graphical/grouped answer-slot denominators still unresolved, and all29 actual PDF page original printed answer marker BBoxes/parent contexts are not fully certified; first 11 native direct text-layer recounts=629, not ADMISSION_READY.",
+    "P04: now 29/29 source section-level response region counts reconciled to NONCERTIFIED 1762. Still establish each actual printed answer position's immutable unique source slot ID, original PDF page marker BBox or accepted raster geometry, parent group/figure asset dependencies and reconcile all slots without losing 1762 source region candidates. Final granularity is subject to original figure parent controls.",
     "P05: entire unpublished original Science unique-answer and direct 48KP existing formal evidence",
     "P05: exact 113 unpublished + all114 cross-paper full-stem/options/near duplicate confirmation and rights evidence",
     "P06: selectively admit eligible cohort under existing operator gate, source-only PR124 never wholesale merge",
@@ -96,7 +110,8 @@
     "partial ledger 775 as full universe",
     "published178 as total original answer positions"
   ],
-  "next_resume_task": "P12_G04S1_113_ALL29_P04_ResolveRemaining5GraphicalOriginalPdfAnswerGranularity_Then_All29ExactOriginalPageBBox_ParentSource_Ledger__P05_ExistingScienceKP_DedupRights_P06P08_Admission_Pages_FullPaperCloseout",
-  "last_execution_commit_before_final_audit": "52883f07d102652d8a9cb679b63c1931de3361bd",
-  "p04_latest_ci_test_commit": "501dad525f47328215254754549abc0c6280079c"
+  "next_resume_task": "P12_G04S1_113_ALL29_P04B_Full1762OriginalAnswerRegionSourceSlotIDs_PageBBox_ParentFigures_AuditAcross29_Then_P05_ExistingScienceKP_UniqueAnswer_KP48_Cross113114Dedup_Rights__P06P08_SelectiveAdmission_CI_Main_Pages_29PaperCloseout",
+  "last_execution_commit_before_final_audit": "28044051621973b4f2c317a89a29d25fdcc9fa95",
+  "p04_latest_ci_test_commit": "501dad525f47328215254754549abc0c6280079c",
+  "p04_latest_reconciliation_commit": "28044051621973b4f2c317a89a29d25fdcc9fa95"
 }

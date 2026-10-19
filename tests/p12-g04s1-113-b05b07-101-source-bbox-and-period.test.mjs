@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
-const {build}=require('../scripts/review/p12-g04s1-113-wholecorpus-resume.cjs');
+const {build}=require('../scripts/review/p12-g04s1-113-wholecorpus-legacy-snapshot.cjs');
 const read=n=>JSON.parse(fs.readFileSync('data/review/'+n,'utf8'));
 const paths=['b05-50','b06-50','b07-1'];
 const prefixes=paths.map(k=>'p12-g04s1-113-native-tfmc-'+k);

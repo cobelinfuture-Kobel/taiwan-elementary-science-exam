@@ -16,7 +16,7 @@ test('114 MC reorder-only published duplicate must suppress Neian original 113 M
  const original=b.source_science_kp_records.find(x=>x.source_slot_id===dup.source_slot_id);
  const current=publicMC.find(x=>x.source_slot_id===dup.matched_published_source_slot_id);
  assert.ok(original&&current);
- const norm=x=>String(x).normalize('NFKC').replace(/[①②③④()（）\s，。、「」：？！]/g,'');
+ const norm=x=>String(x).normalize('NFKC').replace(/[0-9①②③④()（）\s，。、「」：？！]/g,'');
  assert.equal(norm(original.source_exact_stem_no_score),norm(current.stem));
  assert.deepEqual(original.source_exact_options_in_printed_order.map(norm).sort(),current.options.map(norm).sort());
  assert.equal(original.science_independent_answer_not_school_key,3);

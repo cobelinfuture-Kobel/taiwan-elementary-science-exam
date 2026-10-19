@@ -138,6 +138,25 @@ function build(root=ROOT,batchSize=50,opts={}){
       else known.get(key).source_ledgers.push(file);
     }
   }
+  const p04bFiles=[
+    'p12-g04s1-113-p04b-dongguang-mid-final-64-native-answer-marker-bbox-v1.json',
+    'p12-g04s1-113-p04b-dadun-mid29-native-answer-marker-bbox-v1.json'
+  ];
+  let p04bAdded=0;
+  for(const filename of p04bFiles){
+    for(const item of read(filename,root).records){
+      const key=normalizeSlot(item.source_slot_id);
+      if(known.has(key))continue;
+      const paper=item.source_slot_id.split('|')[0];
+      insist(validation.originals.get(paper)?.original_pdf_sha256===(item.source_pdf_sha256||item.original_pdf_sha256),'P04B SHA mismatch');
+      known.set(key,{kind:'SOURCE_GATE_EVIDENCE',source_slot_id:item.source_slot_id,
+        normalized_source_slot_id:key,paper_id:paper,source_ledgers:[filename],
+        source_pdf_sha256:item.source_pdf_sha256||item.original_pdf_sha256,
+        native_answer_marker_geometry_ref:filename,
+        queue_status:'NEEDS_SOURCE_AND_EXISTING_ADMISSION_EVIDENCE'});
+      if(!validation.publishedIds.has(key))p04bAdded++;
+    }
+  }
   const unprocessed=[...known.values()].filter(x=>!validation.publishedIds.has(x.normalized_source_slot_id));
   const index=new Map(m.paper_records.map((x,i)=>[x.paper_id,i]));
   unprocessed.sort((a,b)=>index.get(a.paper_id)-index.get(b.paper_id)||
@@ -154,7 +173,8 @@ function build(root=ROOT,batchSize=50,opts={}){
       section_papers_with_source_response_region_recount:sectionReady.length,
       source_section_response_region_count_NOT_EXACT:m.section_positions_reconciled_noncertified_sum,
       certified_full29_original_answer_slot_BBox_universe:m.source_position_universe_certified,
-      ledger_source_rows:raw,unique_legacy_source_positions:known.size,
+      ledger_source_rows:raw,unique_legacy_source_positions:known.size-p04bAdded,
+      p04b_previously_unqueued_unpublished_source_positions:p04bAdded,
       papers_requiring_exact_inventory:inventories.length,unpublished_legacy_positions:unprocessed.length,
       deterministic_work_tasks:tasks.length,batch_size:batchSize,batch_count:batches.length,
       ALL29_COMPLETE:coverage.all29_complete,FORMAL_SCIENCE_KP_APPROVED_NEW:0,ADMISSION_READY_NEW:0,PUBLISHED_NEW:0},

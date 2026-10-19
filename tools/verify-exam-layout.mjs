@@ -307,13 +307,14 @@ try {
   // P12 E01: R5 primary wind KP admits one source-exact Anhe and preserves Mingyi secondary link.
   await live.selectOption("#grade","4");await live.selectOption("#semester","S1");
   await live.selectOption("#unit","4-S1-U01");await live.selectOption("#mode","single_kp");
-  await live.selectOption("#kp","sci_g04s1_01_12");await live.fill("#count","3");
+  await live.selectOption("#kp","sci_g04s1_01_12");await live.fill("#count","4");
   await live.locator("#generate").click();
-  assert.equal(await live.locator("#status").getAttribute("data-error"),"false","R5 wind KP includes two existing and one newly operator-approved independently certified source");
+  assert.equal(await live.locator("#status").getAttribute("data-error"),"false","R5 wind KP includes two existing and two separately operator-approved original exam sources");
   const windQuestions=await live.locator(".paper:not([data-answer='true']) .question").allInnerTexts();
-  assert.equal(windQuestions.length,3);assert.ok(windQuestions.some(x=>x.includes("風力的作用與流水一樣")));
+  assert.equal(windQuestions.length,4);assert.ok(windQuestions.some(x=>x.includes("風力的作用與流水一樣")));
   assert.ok(windQuestions.some(x=>x.includes("風吹砂")),"existing Mingyi secondary link stays available");
-  assert.ok(windQuestions.some(x=>x.includes("風會將沙或土壤搬到其他地方")),"new Dadun source item directly tests wind deposition");
+  assert.ok(windQuestions.some(x=>x.includes("風會將沙或土壤搬到其他地方")),"native38 approved Dadun source item directly tests wind deposition");
+   assert.ok(windQuestions.some(x=>x.includes("下列哪一項不是改變地表樣貌的力量")),"new HN22 original Neian source is independently operator-approved and selectable");
   await live.screenshot({path:output+"/p12-e01-anhe-wind-original-plus-mingyi-live-layout.png",fullPage:true});
   assert.deepEqual(liveErrors,[]);
   await live.screenshot({path:output+"/s3-p05-embedded-history-no-upload.png",fullPage:true});

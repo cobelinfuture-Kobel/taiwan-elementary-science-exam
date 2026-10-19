@@ -114,9 +114,15 @@ function build(root=ROOT,batchSize=50,opts={}){
   insist(m.all29_complete===coverage.all29_complete,'all29 completion claim conflicts with actual evidence');
   insist(m.formally_closed_papers===coverage.closed_papers,'closed count conflicts with evidence');
   // All 29 papers participate, even when some older partial ledgers omit all their original slots.
+  const sectionReady=m.paper_records.filter(p=>Number.isInteger(p.section_reconciled_positions)&&p.section_reconciled_positions>0);
+  insist(sectionReady.length===m.section_count_reconciled_papers,'source section count paper coverage must match master');
+  insist(sectionReady.reduce((n,p)=>n+p.section_reconciled_positions,0)===m.section_positions_reconciled_noncertified_sum,'source section response working denominator must match master');
   const inventories=m.paper_records.filter(p=>!p.inventory_certified).map(p=>({
     kind:'PAPER_INVENTORY_GAP',paper_id:p.paper_id,source_pdf_sha256:p.original_pdf_sha256,
-    status:'NEEDS_EXACT_PRINTED_RESPONSE_SLOT_DENOMINATOR_AND_PARENT_RECONCILIATION'
+    source_section_response_region_count_NOT_EXACT:p.section_reconciled_positions,
+    source_section_count_status:p.section_count_status,
+    requires_unique_original_source_slot_and_pdf_page_marker_bbox:true,
+    status:'NEEDS_EXACT_PRINTED_RESPONSE_SLOT_IDS_PAGE_BBOX_AND_PARENT_RECONCILIATION'
   }));
   const known=new Map();let raw=0;
   for(const [file,field] of LEGACY){
@@ -145,6 +151,9 @@ function build(root=ROOT,batchSize=50,opts={}){
   return {schema_version:'P12_G04S1_113_ALL29_RESUME_V2',purpose:'ALL29_SOURCE_COVERAGE_ROUTING_NO_NEW_ADMISSION_GATE',
     snapshot_main_sha:pub.public_main_commit,original_papers:29,
     metrics:{registered_papers:29,published_113:validation.publishedIds.size,
+      section_papers_with_source_response_region_recount:sectionReady.length,
+      source_section_response_region_count_NOT_EXACT:m.section_positions_reconciled_noncertified_sum,
+      certified_full29_original_answer_slot_BBox_universe:m.source_position_universe_certified,
       ledger_source_rows:raw,unique_legacy_source_positions:known.size,
       papers_requiring_exact_inventory:inventories.length,unpublished_legacy_positions:unprocessed.length,
       deterministic_work_tasks:tasks.length,batch_size:batchSize,batch_count:batches.length,

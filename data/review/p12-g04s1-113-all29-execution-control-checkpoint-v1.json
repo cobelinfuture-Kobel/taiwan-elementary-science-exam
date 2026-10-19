@@ -95,7 +95,7 @@
     "PUBLISHED_SITE_TOTAL": 814
   },
   "unresolved_remaining_execution": [
-    "P04: now 29/29 source section-level response region counts reconciled to NONCERTIFIED 1762. Still establish each actual printed answer position's immutable unique source slot ID, original PDF page marker BBox or accepted raster geometry, parent group/figure asset dependencies and reconcile all slots without losing 1762 source region candidates. Final granularity is subject to original figure parent controls.",
+    "P04B: all29 working source count 1762 is NOT individual source-ready; 93 native original question marker BBoxes from 3 school PDFs now documented; 1669 other source working regions lack this newly reviewed native-geometry evidence and/or equivalent accepted existing source proofs. Need inherit existing accepted BBoxes, then fill only missing positions, full context and rights. Do not count native boxes alone as Science/KP-approved.",
     "P05: entire unpublished original Science unique-answer and direct 48KP existing formal evidence",
     "P05: exact 113 unpublished + all114 cross-paper full-stem/options/near duplicate confirmation and rights evidence",
     "P06: selectively admit eligible cohort under existing operator gate, source-only PR124 never wholesale merge",
@@ -110,8 +110,38 @@
     "partial ledger 775 as full universe",
     "published178 as total original answer positions"
   ],
-  "next_resume_task": "P12_G04S1_113_ALL29_P04B_Full1762OriginalAnswerRegionSourceSlotIDs_PageBBox_ParentFigures_AuditAcross29_Then_P05_ExistingScienceKP_UniqueAnswer_KP48_Cross113114Dedup_Rights__P06P08_SelectiveAdmission_CI_Main_Pages_29PaperCloseout",
+  "next_resume_task": "P12_G04S1_113_ALL29_P04B_ContinueActualOriginalPDFNativeAndRasterSourceSlotBBox_ForAll29_ResolveFullOriginalParentAndFigures_ThenP05_ExistingScience48KPUniqueAnswerDedupRights_SelectivelyAdmit_P06P08_CI_Main_Pages_Closeout",
   "last_execution_commit_before_final_audit": "28044051621973b4f2c317a89a29d25fdcc9fa95",
   "p04_latest_ci_test_commit": "501dad525f47328215254754549abc0c6280079c",
-  "p04_latest_reconciliation_commit": "28044051621973b4f2c317a89a29d25fdcc9fa95"
+  "p04_latest_reconciliation_commit": "28044051621973b4f2c317a89a29d25fdcc9fa95",
+  "phase4b_native_source_marker": {
+    "original_pdf_count": 3,
+    "native_pdf_answer_marker_locations": 93,
+    "paper_markers": {
+      "SCI_G04_S1_113_MID_004": 35,
+      "SCI_G04_S1_113_FINAL_003": 29,
+      "SCI_G04_S1_113_MID_005": 29
+    },
+    "existing_published_source_positions_recognized": 32,
+    "source_positions_not_in_old_partial_775_ledgers": 58,
+    "unpublished_source_positions_previously_missing_queue_now_routed": 30,
+    "published_source_positions_missing_old_queue_preserved_suppressed": 28,
+    "old_legacy_source_unique_locations": 775,
+    "old_legacy_unpublished_positions": 712,
+    "source_positions_after_native_geometry_union": 833,
+    "full_pending_routable_source_positions": 742,
+    "original_paper_inventory_gap_tasks": 29,
+    "current_work_items": 771,
+    "batching_at_50": 16,
+    "provenance_refs": [
+      "data/review/p12-g04s1-113-p04b-dongguang-mid-final-64-native-answer-marker-bbox-v1.json",
+      "data/review/p12-g04s1-113-p04b-dadun-mid29-native-answer-marker-bbox-v1.json"
+    ],
+    "source_position_scope": "Native answer parentheses BBox + original SHA, without full original question/context/figures or formal admission.",
+    "all29_section_working_denominator_noncertified": 1762,
+    "formally_certified_full_source_id_BBox_parent_all29": false,
+    "formal_science_KP_approved_new": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  }
 }

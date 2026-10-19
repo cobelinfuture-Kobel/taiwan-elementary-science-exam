@@ -39,6 +39,7 @@ import {validateAndConvertP12113WendeNative2,P12_113_WENDE_NATIVE2_PATH} from ".
 import {validateAndConvertP12113WendeMC010After113,P12_113_WENDE_MC010_AFTER113_PATH} from "./p12-g04s1-113-wende-mid-mc010-after113-release.mjs";
 import {validateAndConvertP12113Native38,P12_113_NATIVE38_PATH} from "./p12-g04s1-113-native38-release.mjs";
 import {validateAndConvertP12113HN22,P12_113_HN22_PATH} from "./p12-g04s1-113-hn22-release.mjs";
+import {validateAndConvertP12113Exact4,P12_113_EXACT4_PATH} from "./p12-g04s1-113-exact4-release.mjs";
 export const EMBEDDED_BANK_SCHEMA="SCIENCE_S3_P10_CUMULATIVE_EXAM_BANK_V1";
 export const EMBEDDED_BANK_PATH="../data/question-bank/approved-historical-ox-v4.json";
 const normalizedAnswers={"O":"TRUE","X":"FALSE"};

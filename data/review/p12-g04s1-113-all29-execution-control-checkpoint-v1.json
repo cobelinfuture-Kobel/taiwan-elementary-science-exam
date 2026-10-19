@@ -43,7 +43,21 @@
     "papers_still_lacking_prior_section_count": 16,
     "source_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
     "exact_all29_answer_position_denominator": null,
-    "paper_closeouts_certified": 0
+    "paper_closeouts_certified": 0,
+    "direct_original_google_drive_pdf_text_layers_readback_of_remaining16": 16,
+    "original_pdf_title_source_id_and_registered_drive_id_checked_for_remaining16": true,
+    "original_pdf_textlayer_itemized_new_exams": 2,
+    "original_pdf_textlayer_itemized_positions": 105,
+    "original_pdf_textlayer_breakdown_ref": "data/review/p12-g04s1-113-p04-wende-zhongxiao-mid-textlayer-response-markers-v1.json",
+    "remaining_original_papers_not_textlayer_itemized_in_current16": 14,
+    "full29_original_page_answer_bbox_certification_complete": false,
+    "source_direct_readback_ref": "data/review/p12-g04s1-113-p04-all16-drive-text-vs-original-printed-section-proof-v1.json",
+    "anomalies_requiring_page_visual_review": [
+      "MID_001 113 scanned year text has split 1 13 and section III heading joined to body",
+      "FINAL_011 page break joins section II title to numeral 1",
+      "MID_018 original section number uses 二 twice"
+    ],
+    "all29_exact_answer_position_denominator": null
   },
   "formal_progress_new_this_fix": {
     "FORMAL_SCIENCE_KP_APPROVED_NEW": 0,
@@ -53,7 +67,7 @@
     "PUBLISHED_SITE_TOTAL": 814
   },
   "unresolved_remaining_execution": [
-    "P04: reconstruct 16 remaining original school papers exact printed answer positions, then every paper full source-slot/BBox/parent audit",
+    "P04: 14 original native source PDF papers still need independent text-layer sub-answer enumeration; then every paper full source-slot/BBox/parent visual verification. Do NOT mistake 934 score-derived slots for certified answers.",
     "P05: entire unpublished original Science unique-answer and direct 48KP existing formal evidence",
     "P05: exact 113 unpublished + all114 cross-paper full-stem/options/near duplicate confirmation and rights evidence",
     "P06: selectively admit eligible cohort under existing operator gate, source-only PR124 never wholesale merge",
@@ -68,5 +82,6 @@
     "partial ledger 775 as full universe",
     "published178 as total original answer positions"
   ],
-  "next_resume_task": "P12_G04S1_113_ALL29_P04_VerifyOriginal16PaperPrintedSlotDenominators_Then_All29SlotParentBBoxRegistry__P05ExistingScienceKP_DedupRightsSelectiveAdmission__P06P08_ConsolidatedRelease_CI_Main_Pages_All29Closeout"
+  "next_resume_task": "P12_G04S1_113_ALL29_P04_CompleteRemaining14_OriginalPDF_SubAnswerTextLayerPositionAudit_Then_All29ExactPdfPageMarkerBBox_ParentDependency_Reconciliation_Then_P05_ExistingScienceKP_DedupRights_P06P08_Admission_Pages_FullPaperCloseout",
+  "last_execution_commit_before_final_audit": "52883f07d102652d8a9cb679b63c1931de3361bd"
 }

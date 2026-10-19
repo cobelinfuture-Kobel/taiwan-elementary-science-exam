@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 const data=n=>JSON.parse(fs.readFileSync(new URL('../'+n,import.meta.url),'utf8'));
-const p=data('site/data/question-bank/p12-g04s1-113-native38-consolidated-prepublic-v1.json');
+const p=data('data/review/p12-g04s1-113-native38-consolidated-prepublic-v1.json');
 const m=data('data/review/p12-g04s1-113-native38-consolidated-operator-admission-manifest-v1.json');
 const auth=data('site/data/authority/science-g03-g04-selector-v3.json');
 const allowed=new Set(auth.units.filter(u=>u.grade===4&&u.semester===1).flatMap(u=>u.knowledge_points.map(k=>k.canonical_kp_id)));

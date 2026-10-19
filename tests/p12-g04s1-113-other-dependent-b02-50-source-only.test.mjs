@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createRequire} from 'node:module';
 const require = createRequire(import.meta.url);
-const {build, normalizeSlot} = require('../scripts/review/p12-g04s1-113-wholecorpus-resume.cjs');
+const {build, normalizeSlot} = require('../scripts/review/p12-g04s1-113-wholecorpus-legacy-snapshot.cjs');
 const read = file => JSON.parse(fs.readFileSync(new URL('../data/review/' + file, import.meta.url), 'utf8'));
 const d = read('p12-g04s1-113-other-dependent-b02-50-source-only-preflight-v1.json');
 test('B02 50 source positions exactly follow frozen 408 other/dependent queue', () => {

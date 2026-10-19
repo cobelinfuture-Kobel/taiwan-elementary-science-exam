@@ -24,7 +24,7 @@ test('all 38 visual-accepted independent answer + canonical KP item identities m
  assert.equal(new Set(kp).size,48);
  for(const row of x.records){
   assert.match(row.original_pdf_sha256,/^[a-f0-9]{64}$/);
-  assert.equal(row.original_pdf_page_pdf_1_based,1);
+  assert.equal(row.original_page_pdf_1_based,1);
   assert.deepEqual(row.exact_pdf_answer_glyph_bbox_top_left_pts.map(v=>Math.round(v*100)/100),
       g.get(row.source_slot_id).map(v=>Math.round(v*100)/100));
   assert.ok(kp.includes(row.direct_canonical_kp_id_verified));

@@ -83,3 +83,51 @@ test('P04 Wende55 and Zhongxiao50 source text-layer itemization is exact within 
  assert.equal(master.p04_source_text_layer_recount_papers,2);
  assert.equal(master.p04_source_text_layer_recount_response_positions,105);
 });
+
+test('P04 direct original source text itemizations cover eleven papers / 629 printed response locations, not scored points',()=>{
+ const docs=[
+  'p12-g04s1-113-p04-wende-zhongxiao-mid-textlayer-response-markers-v1.json',
+  'p12-g04s1-113-p04-minquan-yongan-mid-textlayer-response-markers-v1.json',
+  'p12-g04s1-113-p04-anhe-dahua-final-textlayer-response-markers-v1.json',
+  'p12-g04s1-113-p04-anhe-mingyi-guangxing-mid-textlayer-response-markers-v1.json',
+  'p12-g04s1-113-p04-chenggong-yongan-final-textlayer-position-correction-v1.json'
+ ];
+ const seen=new Set();let count=0,delta=0;
+ for(const name of docs){
+  const source=read(name);
+  for(const row of source.records){
+    assert.ok(!seen.has(row.paper_id));seen.add(row.paper_id);
+    const v=row.textlayer_answer_position_total??row.textlayer_original_answer_positions;
+    assert.equal(row.sections.reduce((n,s)=>n+(s.count??s.individual_source_answer_locations),0),v);
+    const current=records.get(row.paper_id);
+    assert.ok(current);
+    assert.equal(current.original_text_layer_answer_position_recount,v);
+    assert.equal(current.inventory_certified,false);
+    assert.equal(current.exact_total_slots,null);
+    assert.equal(current.paper_closed,false);
+    count+=v;
+    delta+=v-current.previous_unverified_score_derived_positions;
+  }
+ }
+ assert.equal(seen.size,11);
+ assert.equal(count,629);
+ assert.equal(delta,3);
+ assert.equal(master.p04_source_text_layer_recount_papers,11);
+ assert.equal(master.p04_source_text_layer_recount_response_positions,629);
+ assert.equal(master.p04_source_text_layer_recount_vs_score_estimate_delta,3);
+});
+test('P04 five still-graphical paper denominators stay HOLD, none scored-point-promoted',()=>{
+ const d=read('p12-g04s1-113-p04-five-original-visual-subanswer-denominator-exceptions-v1.json');
+ assert.equal(d.records.length,5);
+ for(const x of d.records){
+   const paper=records.get(x.paper_id);
+   assert.ok(paper);
+   assert.equal(paper.original_text_layer_answer_position_recount,null);
+   assert.equal(paper.inventory_certified,false);
+   assert.equal(paper.exact_total_slots,null);
+   assert.ok(paper.original_answer_position_uncertainty?.length);
+ }
+ assert.equal(master.p04_unresolved_visual_source_answer_denominator_papers,5);
+ assert.equal(master.formally_closed_papers,0);
+ assert.equal(master.all29_complete,false);
+});

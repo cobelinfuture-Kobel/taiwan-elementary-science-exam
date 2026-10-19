@@ -1,0 +1,71 @@
+{
+  "schema_version": "P12_G04S1_113_SCAN5_ORIGINAL_RASTER_BBOX_PROGRESS127_OF262_V13",
+  "original_source_scope": "113 G04S1 / five scanned school original PDFs / frozen 48 canonical KPs",
+  "source_draft_PR": 124,
+  "previous_progress_snapshot_append_only": "data/review/p12-g04s1-113-scan5-original-raster-bbox-progress100-of262-v12.json",
+  "prior_original_pixel_bbox_verified": 100,
+  "new_exact_original_pixel_bbox_verified": 27,
+  "current_original_pixel_bbox_verified": 127,
+  "source_section_answer_positions": 262,
+  "remaining_original_pixel_bbox_positions": 135,
+  "new_source_evidence": "data/review/p12-g04s1-113-heshun-mid002-last27-exact-original-raster-bbox-v1.json",
+  "source_papers": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_002",
+      "source_school": "和順國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 50,
+      "remaining": 0,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "和順國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 0,
+      "remaining": 50,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "source_school": "忠孝國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 0,
+      "remaining": 50,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "source_school": "內安國小",
+      "source_publisher": "康軒",
+      "source_positions": 62,
+      "verified_source_raster_pixel_bbox": 62,
+      "remaining": 0,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_009",
+      "source_school": "獅湖國小",
+      "source_publisher": "康軒",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 15,
+      "remaining": 35,
+      "source_image_only": true
+    }
+  ],
+  "original_scan_image_and_pdf_bytes_kept_private": true,
+  "scope_authority_untouched": true,
+  "source_geometry_not_formal_admission": true,
+  "main_unchanged": true,
+  "formal_status": {
+    "FORMAL_SCIENCE_KP_APPROVED_new_this_batch": 0,
+    "ADMISSION_READY_new_this_batch": 0,
+    "PUBLISHED_new_this_batch": 0,
+    "PUBLISHED_113_so_far": 152,
+    "student_site_all_scope_slots": 788
+  },
+  "priority_next": "P12_G04S1_113_Scan5_Remaining135_ShihuFINAL009_35_ThenHeshunFINAL001_50_ThenZhongxiaoFINAL002_50_OriginalPixelBBox_SourceScienceKP_DedupRights_SelectiveAdmission_ExistingOperatorGate_PR_CI_Pages"
+}

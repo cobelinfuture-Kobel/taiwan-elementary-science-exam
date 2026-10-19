@@ -112,3 +112,34 @@ test('P04B negative: figure-only missing original response regions remain unacce
  assert.equal(neihu.source_remaining_visual_figure_response_regions,10);
  assert.equal(master.paper_records.find(p=>p.paper_id===neihu.paper_id).inventory_certified,false);
 });
+
+test('P04B Neihu visual: six original vector drawn source boxes and four separate raster-shadow answers complete marker-location working count 71 without certifying full source admission',()=>{
+ const img=read('p12-g04s1-113-p04b-neihu-final10-image-vector-response-regions-v1.json');
+ const text=read('p12-g04s1-113-p04b-neihu-final61-native-answer-marker-bbox-v1.json');
+ assert.equal(img.records.length,10);
+ assert.equal(text.records.length+img.records.length,71);
+ assert.equal(img.source_page2_vector_bboxes,6);
+ assert.equal(img.source_page3_raster_bboxes,4);
+ const seen=new Set(text.records.map(x=>norm(x.source_slot_id)));
+ for(const x of img.records){
+  assert.ok(!seen.has(norm(x.source_slot_id)));
+  seen.add(norm(x.source_slot_id));
+  assert.ok([2,3].includes(x.original_pdf_page));
+  if(x.original_pdf_page===2){
+   assert.equal(x.pdf_coordinate_provenance,'SOURCE_PDF_VECTOR_DRAWING_RECT');
+   const [x0,y0,x1,y1]=x.original_answer_marker_vector_bbox_pt;
+   assert.ok(x0>=0&&y0>=0&&x1<=595&&y1<=842&&x0<x1&&y0<y1);
+  }else{
+   assert.ok(x.image_crop_visual_qa_pending,'raster box is not exact native geometry');
+   const [x0,y0,x1,y1]=x.original_answer_marker_raster_render_bbox_px;
+   assert.ok(x0>=0&&y0>=0&&x1<=893&&y1<=1263&&x0<x1&&y0<y1);
+  }
+  assert.equal(x.admission_ready,false);
+ }
+ assert.equal(seen.size,71);
+ assert.equal(master.p04b_original_pdf_visual_and_native_marker_total_located,188);
+ assert.equal(master.p04b_source_working_regions_not_yet_individually_geometry_anchored_NONCERTIFIED,1762-188);
+ assert.equal(master.p04b_original_figure_only_response_locations_derived,10);
+ assert.equal(master.source_position_universe_certified,false);
+ assert.equal(master.all29_complete,false);
+});

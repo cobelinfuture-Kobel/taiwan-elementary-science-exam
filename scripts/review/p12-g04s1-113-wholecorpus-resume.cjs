@@ -142,6 +142,7 @@ function build(root=ROOT,batchSize=50,opts={}){
     'p12-g04s1-113-p04b-dongguang-mid-final-64-native-answer-marker-bbox-v1.json',
     'p12-g04s1-113-p04b-dadun-mid29-native-answer-marker-bbox-v1.json'
   ];
+  const preP04bLegacyUniqueCount=known.size;
   let p04bAdded=0;
   for(const filename of p04bFiles){
     for(const item of read(filename,root).records){
@@ -173,7 +174,8 @@ function build(root=ROOT,batchSize=50,opts={}){
       section_papers_with_source_response_region_recount:sectionReady.length,
       source_section_response_region_count_NOT_EXACT:m.section_positions_reconciled_noncertified_sum,
       certified_full29_original_answer_slot_BBox_universe:m.source_position_universe_certified,
-      ledger_source_rows:raw,unique_legacy_source_positions:known.size-p04bAdded,
+      ledger_source_rows:raw,unique_legacy_source_positions:preP04bLegacyUniqueCount,
+      source_positions_after_native_p04b_union:known.size,
       p04b_previously_unqueued_unpublished_source_positions:p04bAdded,
       papers_requiring_exact_inventory:inventories.length,unpublished_legacy_positions:unprocessed.length,
       deterministic_work_tasks:tasks.length,batch_size:batchSize,batch_count:batches.length,

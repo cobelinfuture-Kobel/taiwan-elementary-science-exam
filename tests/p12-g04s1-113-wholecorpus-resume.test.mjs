@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
-const {build,normalizeSlot,validateMaster,assessCompletion}=require('../scripts/review/p12-g04s1-113-wholecorpus-resume.cjs');
+const {buildAll29:build,normalizeSlot,validateMaster,assessCompletion}=require('../scripts/review/p12-g04s1-113-wholecorpus-resume.cjs');
 const R='data/review/';
 const read=file=>JSON.parse(fs.readFileSync(path.resolve(R,file),'utf8'));
 const source=read('p12-g04s1-113-all29-kp48-source-firstpass-v1.json');

@@ -95,7 +95,7 @@
     "PUBLISHED_SITE_TOTAL": 814
   },
   "unresolved_remaining_execution": [
-    "P04B: all29 working source count 1762 is NOT individual source-ready; 93 native original question marker BBoxes from 3 school PDFs now documented; 1669 other source working regions lack this newly reviewed native-geometry evidence and/or equivalent accepted existing source proofs. Need inherit existing accepted BBoxes, then fill only missing positions, full context and rights. Do not count native boxes alone as Science/KP-approved.",
+    "P04B: 29 PDFs section-level 1762 working regions NOT certified full source slots; 178 original native text locations+10 original vector/raster figure answer locations in 5 papers; full original SOURCE_EXACT parent stem and options, other papers and full original-figure rights/QA remain. Source worklist now 831 unpublished native/legacy known IDs +29 unsatisfied paper inventory tasks. Do not claim formal admissions.",
     "P05: entire unpublished original Science unique-answer and direct 48KP existing formal evidence",
     "P05: exact 113 unpublished + all114 cross-paper full-stem/options/near duplicate confirmation and rights evidence",
     "P06: selectively admit eligible cohort under existing operator gate, source-only PR124 never wholesale merge",
@@ -110,29 +110,31 @@
     "partial ledger 775 as full universe",
     "published178 as total original answer positions"
   ],
-  "next_resume_task": "P12_G04S1_113_ALL29_P04B_ContinueActualOriginalPDFNativeAndRasterSourceSlotBBox_ForAll29_ResolveFullOriginalParentAndFigures_ThenP05_ExistingScience48KPUniqueAnswerDedupRights_SelectivelyAdmit_P06P08_CI_Main_Pages_Closeout",
-  "last_execution_commit_before_final_audit": "28044051621973b4f2c317a89a29d25fdcc9fa95",
+  "next_resume_task": "P12_G04S1_113_ALL29_P04B_NextOriginalSchoolPapers_FullPdfSourceMarkers_BBoxNativeOrVerifiedRaster_ParentGroupRefs_ThenP05Science48KP_UniqueAnswer_DedupRightsSelectiveAdmission_P06P08_MainPages_All29Closeout",
+  "last_execution_commit_before_final_audit": "00c6b61cf696a76ed5898609f66ec646c6b44f23",
   "p04_latest_ci_test_commit": "501dad525f47328215254754549abc0c6280079c",
   "p04_latest_reconciliation_commit": "28044051621973b4f2c317a89a29d25fdcc9fa95",
   "phase4b_native_source_marker": {
-    "original_pdf_count": 3,
-    "native_pdf_answer_marker_locations": 93,
+    "original_pdf_count": 5,
+    "native_pdf_answer_marker_locations": 178,
     "paper_markers": {
       "SCI_G04_S1_113_MID_004": 35,
       "SCI_G04_S1_113_FINAL_003": 29,
-      "SCI_G04_S1_113_MID_005": 29
+      "SCI_G04_S1_113_MID_005": 29,
+      "SCI_G04_S1_113_MID_016": 24,
+      "SCI_G04_S1_113_FINAL_011": 71
     },
-    "existing_published_source_positions_recognized": 32,
-    "source_positions_not_in_old_partial_775_ledgers": 58,
-    "unpublished_source_positions_previously_missing_queue_now_routed": 30,
-    "published_source_positions_missing_old_queue_preserved_suppressed": 28,
+    "existing_published_source_positions_recognized": 38,
+    "source_positions_not_in_old_partial_775_ledgers": 153,
+    "unpublished_source_positions_previously_missing_queue_now_routed": 119,
+    "published_source_positions_missing_old_queue_preserved_suppressed": 34,
     "old_legacy_source_unique_locations": 775,
     "old_legacy_unpublished_positions": 712,
-    "source_positions_after_native_geometry_union": 833,
-    "full_pending_routable_source_positions": 742,
+    "source_positions_after_native_geometry_union": 928,
+    "full_pending_routable_source_positions": 831,
     "original_paper_inventory_gap_tasks": 29,
-    "current_work_items": 771,
-    "batching_at_50": 16,
+    "current_work_items": 860,
+    "batching_at_50": 18,
     "provenance_refs": [
       "data/review/p12-g04s1-113-p04b-dongguang-mid-final-64-native-answer-marker-bbox-v1.json",
       "data/review/p12-g04s1-113-p04b-dadun-mid29-native-answer-marker-bbox-v1.json"
@@ -142,6 +144,19 @@
     "formally_certified_full_source_id_BBox_parent_all29": false,
     "formal_science_KP_approved_new": 0,
     "admission_ready_new": 0,
-    "published_new": 0
+    "published_new": 0,
+    "source_figure_only_vector_and_raster_locations": 10,
+    "original_geometry_anchored_working_region_total": 188,
+    "source_geometry_papers": 5,
+    "not_yet_individually_anchored_original_working_regions_noncertified": 1574,
+    "source_working_regions_noncertified": 1762,
+    "original_geometry_refs": [
+      "data/review/p12-g04s1-113-p04b-dongguang-mid-final-64-native-answer-marker-bbox-v1.json",
+      "data/review/p12-g04s1-113-p04b-dadun-mid29-native-answer-marker-bbox-v1.json",
+      "data/review/p12-g04s1-113-p04b-dahua-mid24-native-marker-bbox-v1.json",
+      "data/review/p12-g04s1-113-p04b-neihu-final61-native-answer-marker-bbox-v1.json",
+      "data/review/p12-g04s1-113-p04b-neihu-final10-image-vector-response-regions-v1.json"
+    ],
+    "original_school_paper_full_paper_closeout": 0
   }
 }

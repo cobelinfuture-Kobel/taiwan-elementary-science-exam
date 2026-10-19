@@ -21,7 +21,7 @@ test('Heshun FINAL 50 original black source markers map exact +90 rotated embedd
  const ids=new Set();
  for(const r of first.records){
   assert.equal(r.source_original_pdf_sha256,SHA);
-  assert.equal(r.source_image_xref,5);
+  assert.equal(r.source_embedded_image_xref,5);
   assert.equal(r.actual_pdf_page_rotation_degrees,90);
   assert.equal(r.original_teacher_answer_key_authenticated,false);
   assert.equal(r.source_exact_marker_bbox_verified,true);

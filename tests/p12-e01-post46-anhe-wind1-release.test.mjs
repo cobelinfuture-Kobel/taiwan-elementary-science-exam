@@ -75,13 +75,14 @@ test("active V3 ScienceKP26 two more original TF while frozen V2 excludes only R
  };
  try{
   const v3=await loadEmbeddedHistoricalBank(authority);
-  assert.equal(v3.certifiedAnswerSlots,750); // 749 previously live + Wende MID001 MC010 on this PR branch
-  assert.equal(v3.certifiedTrueFalse,386); // unchanged by one new Wende MC010
-  assert.equal(v3.certifiedStandaloneChoice,229); // 228 previously live MC + one Wende MID001 MC010 // existing 226 plus two native original MC
+  assert.equal(v3.certifiedAnswerSlots,788); // 750 frozen legacy + operator-approved Native38 consolidated release
+  assert.equal(v3.certifiedTrueFalse,401); // 386 legacy + 15 operator-approved Native38 TF
+  assert.equal(v3.certifiedStandaloneChoice,252); // 229 legacy + 23 original Native38 MC
   assert.equal(v3.certifiedGroupCount,36);
   assert.equal(v3.blocks.filter(x=>x.source_slot_id===proof.source_slot_id).length,1);
   const wind=v3.blocks.filter(x=>x.canonical_kp_id==="sci_g04s1_01_12"||x.secondary_canonical_kp_ids?.includes("sci_g04s1_01_12"));
-  assert.equal(wind.length,2);
+  assert.equal(wind.filter(x=>!x.source_slot_id?.startsWith("SCI_G04_S1_113_")).length,2); // original two pre-approved R5 admissions unchanged
+   assert.equal(wind.filter(x=>x.source_slot_id?.startsWith("SCI_G04_S1_113_")).length,1); // separately approved new original direct-KP source
   const v2=await loadEmbeddedHistoricalBank(read("site/data/authority/science-g03-g04-selector-v2.json"));
   assert.equal(v2.certifiedAnswerSlots,635);
   assert.equal(v2.blocks.some(x=>x.source_slot_id===proof.source_slot_id),false);

@@ -168,21 +168,8 @@ function build(root = ROOT, batchSize = 50) {
   };
 }
 
+// Frozen historical fixture, never an executable source-work routing entrypoint.
 if (require.main === module) {
-  const args = process.argv.slice(2);
-  const size = Number((args.find(x => x.startsWith('--size=')) || '--size=50').split('=')[1]);
-  const result = build(ROOT, size);
-  const target = args.find(x => x.startsWith('--batch='));
-  if (target) {
-    const name = target.split('=')[1];
-    const item = result.lanes.flatMap(x => x.batches).find(x => x.batch === name);
-    assert(item, 'unknown batch ' + name);
-    process.stdout.write(JSON.stringify(item, null, 2) + '\n');
-  } else if (args.includes('--summary')) {
-    process.stdout.write(JSON.stringify({metrics: result.metrics,
-      batches: result.lanes.map(x => ({lane: x.name, sizes: x.batches.map(b => b.count)}))}, null, 2) + '\n');
-  } else {
-    process.stdout.write(JSON.stringify(result, null, 2) + '\n');
-  }
+  throw new Error('LEGACY_REVIEW_ONLY: run p12-g04s1-113-wholecorpus-resume.cjs for ALL29 current routing');
 }
 module.exports = {build, normalizeSlot};

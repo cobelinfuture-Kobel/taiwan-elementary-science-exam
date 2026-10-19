@@ -174,7 +174,5 @@ function main(){
   process.stdout.write(JSON.stringify(args.includes('--summary')?{metrics:result.metrics,completion:result.completion}:result,null,2)+'\n');
 }
 if(require.main===module)main();
-// Historical build() is retained ONLY for earlier source-fixture tests; CLI is ALL29.
-// No new source routing or publication may consume this obsolete snapshot.
-const {build:legacySourceFixtureBuild}=require('./p12-g04s1-113-wholecorpus-legacy-snapshot.cjs');
-module.exports={build:legacySourceFixtureBuild,buildAll29:build,normalizeSlot,validateMaster,assessCompletion};
+// Public build()/CLI both use ALL29. Historical regression tests import the explicit legacy-snapshot module.
+module.exports={build,buildAll29:build,normalizeSlot,validateMaster,assessCompletion};

@@ -329,7 +329,11 @@
       "source_original_full_pdf_pages_visually_counted_at_p04": true,
       "source_original_visual_section_answer_regions": 63,
       "original_visual_source_count_ref": "data/review/p12-g04s1-113-p04-five-original-sha-verified-pdf-page-visual-count-v1.json",
-      "source_visual_question_granularity_caveat": "Two separately printed moon-phase drawing frames under one numbered task, causing +1 compared with dividing section's six printed points by two. Do not flatten figure groups."
+      "source_visual_question_granularity_caveat": "Two separately printed moon-phase drawing frames under one numbered task, causing +1 compared with dividing section's six printed points by two. Do not flatten figure groups.",
+      "p04b_native_original_pdf_marker_positions": 35,
+      "p04b_native_original_pdf_marker_bbox_source_ref": "data/review/p12-g04s1-113-p04b-dongguang-mid-final-64-native-answer-marker-bbox-v1.json",
+      "p04b_exact_original_source_parent_and_figure_dependency_certified": false,
+      "p04b_all_individual_source_positions_geometry_certified": false
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_001",
@@ -484,7 +488,11 @@
       "source_original_full_pdf_pages_visually_counted_at_p04": true,
       "source_original_visual_section_answer_regions": 59,
       "original_visual_source_count_ref": "data/review/p12-g04s1-113-p04-five-original-sha-verified-pdf-page-visual-count-v1.json",
-      "source_visual_question_granularity_caveat": "S05 is seven physical candidate circles within two question prompts, not seven standalone MCs; parent group and scoring granularity need final source contract confirmation. S08 three printed points correspond to two physically distinct answer areas."
+      "source_visual_question_granularity_caveat": "S05 is seven physical candidate circles within two question prompts, not seven standalone MCs; parent group and scoring granularity need final source contract confirmation. S08 three printed points correspond to two physically distinct answer areas.",
+      "p04b_native_original_pdf_marker_positions": 29,
+      "p04b_native_original_pdf_marker_bbox_source_ref": "data/review/p12-g04s1-113-p04b-dongguang-mid-final-64-native-answer-marker-bbox-v1.json",
+      "p04b_exact_original_source_parent_and_figure_dependency_certified": false,
+      "p04b_all_individual_source_positions_geometry_certified": false
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_005",
@@ -565,7 +573,11 @@
       "source_original_full_pdf_pages_visually_counted_at_p04": true,
       "source_original_visual_section_answer_regions": 66,
       "original_visual_source_count_ref": "data/review/p12-g04s1-113-p04-five-original-sha-verified-pdf-page-visual-count-v1.json",
-      "source_visual_question_granularity_caveat": "Original section S03 header prints 17 points but only 16 separately printed response regions visible; its score is NOT original answer count."
+      "source_visual_question_granularity_caveat": "Original section S03 header prints 17 points but only 16 separately printed response regions visible; its score is NOT original answer count.",
+      "p04b_native_original_pdf_marker_positions": 29,
+      "p04b_native_original_pdf_marker_bbox_source_ref": "data/review/p12-g04s1-113-p04b-dadun-mid29-native-answer-marker-bbox-v1.json",
+      "p04b_exact_original_source_parent_and_figure_dependency_certified": false,
+      "p04b_all_individual_source_positions_geometry_certified": false
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_006",
@@ -1652,5 +1664,16 @@
   "p04_prior_29_source_scoring_derived_estimate": 1755,
   "p04_corrected_source_region_delta_vs_prior_planning": 7,
   "p04_source_original_section_region_coverage_complete": true,
-  "p04_all29_original_independent_slot_ids_and_bbox_certified": false
+  "p04_all29_original_independent_slot_ids_and_bbox_certified": false,
+  "p04b_native_original_pdf_marker_bbox_count": 93,
+  "p04b_original_school_papers_with_native_marker_positions": 3,
+  "p04b_original_pdf_native_marker_evidence_refs": [
+    "data/review/p12-g04s1-113-p04b-dongguang-mid-final-64-native-answer-marker-bbox-v1.json",
+    "data/review/p12-g04s1-113-p04b-dadun-mid29-native-answer-marker-bbox-v1.json"
+  ],
+  "p04b_nonnative_or_other_unresolved_original_answer_region_count_NOT_CERTIFIED": 1669,
+  "p04b_original_source_bbox_gates_passed_new": 0,
+  "p04b_formal_science_kp_approved_new": 0,
+  "p04b_admission_ready_new": 0,
+  "p04b_published_new": 0
 }

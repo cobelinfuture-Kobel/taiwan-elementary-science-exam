@@ -142,7 +142,8 @@ function build(root=ROOT,batchSize=50,opts={}){
     'p12-g04s1-113-p04b-dongguang-mid-final-64-native-answer-marker-bbox-v1.json',
     'p12-g04s1-113-p04b-dadun-mid29-native-answer-marker-bbox-v1.json',
     'p12-g04s1-113-p04b-dahua-mid24-native-marker-bbox-v1.json',
-    'p12-g04s1-113-p04b-neihu-final61-native-answer-marker-bbox-v1.json'
+    'p12-g04s1-113-p04b-neihu-final61-native-answer-marker-bbox-v1.json',
+    'p12-g04s1-113-p04b-neihu-final10-image-vector-response-regions-v1.json'
   ];
   const preP04bLegacyUniqueCount=known.size;
   let p04bAdded=0;

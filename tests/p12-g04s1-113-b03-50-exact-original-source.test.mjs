@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
-const {build}=require('../scripts/review/p12-g04s1-113-wholecorpus-resume.cjs');
+const {build}=require('../scripts/review/p12-g04s1-113-wholecorpus-legacy-snapshot.cjs');
 const read=f=>JSON.parse(fs.readFileSync('data/review/'+f,'utf8'));
 const checkpoint=read('p12-g04s1-113-native-tfmc-b03-50-source-checkpoint-v1.json');
 const source=read('p12-g04s1-113-native-tfmc-b03-50-original-pdf-text-preflight-v1.json');

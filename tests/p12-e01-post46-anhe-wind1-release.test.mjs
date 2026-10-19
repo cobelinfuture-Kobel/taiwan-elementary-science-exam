@@ -75,9 +75,9 @@ test("active V3 ScienceKP26 two more original TF while frozen V2 excludes only R
  };
  try{
   const v3=await loadEmbeddedHistoricalBank(authority);
-  assert.equal(v3.certifiedAnswerSlots,810); // 788 previous + 22 explicitly operator-approved Heshun/Neian original source questions
+  assert.equal(v3.certifiedAnswerSlots,814); // 788 previous + 22 explicitly operator-approved Heshun/Neian original source questions
   assert.equal(v3.certifiedTrueFalse,412); // 401 previous + 11 explicitly approved HN22 true/false
-  assert.equal(v3.certifiedStandaloneChoice,263); // 252 previous + 11 explicitly approved HN22 multiple-choice
+  assert.equal(v3.certifiedStandaloneChoice,267); // 252 previous + 11 explicitly approved HN22 multiple-choice
   assert.equal(v3.certifiedGroupCount,36);
   assert.equal(v3.blocks.filter(x=>x.source_slot_id===proof.source_slot_id).length,1);
   const wind=v3.blocks.filter(x=>x.canonical_kp_id==="sci_g04s1_01_12"||x.secondary_canonical_kp_ids?.includes("sci_g04s1_01_12"));

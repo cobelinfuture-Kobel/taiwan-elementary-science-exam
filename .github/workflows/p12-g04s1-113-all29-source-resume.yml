@@ -1,0 +1,40 @@
+name: P12 113 G04S1 ALL29 Original Source Resume
+on:
+  pull_request:
+    paths:
+      - 'scripts/review/p12-g04s1-113-wholecorpus-resume.cjs'
+      - 'tests/p12-g04s1-113-wholecorpus-resume.test.mjs'
+      - 'data/review/p12-g04s1-113-all29-master-ledger-v1.json'
+      - 'data/review/p12-g04s1-113-main-published178-source-suppression-readback-v12.json'
+      - '.github/workflows/p12-g04s1-113-all29-source-resume.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: p12-g04s1-113-all29-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  assert-and-route-all29:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Refresh main ref for fail-closed 178-source snapshot test
+        run: git fetch --no-tags --depth=1 origin main:refs/remotes/origin/main
+      - name: CI: all29 completion lock and negative fixtures
+        run: node --test tests/p12-g04s1-113-wholecorpus-resume.test.mjs
+      - name: Create every remaining original-source review shard (never mark admitted)
+        run: |
+          node scripts/review/p12-g04s1-113-wholecorpus-resume.cjs --check-main --size=50 --out-dir=artifacts/p12-all29-source-pending --summary
+      - name: Upload complete resumable work routing and genuine pending issues
+        uses: actions/upload-artifact@v4
+        with:
+          name: p12-g04s1-113-all29-29paper-pending-batches
+          path: artifacts/p12-all29-source-pending/
+          if-no-files-found: error
+          retention-days: 90
+# This workflow materializes all tasks and enforces truthful source coverage.
+# It does not turn original-school examination answers into AI-certified Science/KP
+# evidence and does not bypass existing Operator/Admission/CI/Pages gates.

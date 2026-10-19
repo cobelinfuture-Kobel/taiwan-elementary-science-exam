@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createRequire} from 'node:module';
 const require = createRequire(import.meta.url);
-const {build,normalizeSlot} = require('../scripts/review/p12-g04s1-113-wholecorpus-resume.cjs');
+const {build,normalizeSlot} = require('../scripts/review/p12-g04s1-113-wholecorpus-legacy-snapshot.cjs');
 const data = JSON.parse(fs.readFileSync(path.resolve('data/review/p12-g04s1-113-native-tfmc-b01-50-pdf-text-model-kp-preflight-v1.json'), 'utf8'));
 test('B01 direct PDF text-layer readback covers all 50 fixed worklist sources', () => {
   const b01=build().lanes[0].batches[0];

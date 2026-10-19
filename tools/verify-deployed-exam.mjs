@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-hn22-live810-20261019",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-exact4-live814-20261019",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 810 小題（412 題是非＋263 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 814 小題（412 題是非＋267 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
   const native38Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-native38-public-v1.json",{cache:"no-cache"});
   assert.equal(native38Response.status(),200,"Published Pages must serve approved native38 original exam cohort");
   const native38=await native38Response.json();
@@ -53,6 +53,18 @@ try {
   assert.ok(hn22.blocks.every(x=>x.type==="tf"&&["O","X"].includes(x.answer)
      ||x.type==="mcq"&&["①","②","③","④"].includes(x.answer)&&x.options?.length===4));
   assert.ok(!hn22.blocks.some(x=>x.source_slot_id==="SCI_G04_S1_113_MID_006|S2|MC|002"),"Reordered 114 duplicate must remain excluded");
+  const exact4Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-exact4-public-v1.json",{cache:"no-cache"});
+  assert.equal(exact4Response.status(),200,"Live Pages must serve all 4 original school operator-approved exam question texts");
+  const exact4=await exact4Response.json();
+  assert.deepEqual([exact4.expected_blocks,exact4.expected_answer_slots,exact4.expected_standalone_true_false,exact4.expected_standalone_choice],[4,4,0,4]);
+  assert.equal(exact4.public_site_integrated,true);
+  assert.equal(exact4.requires_operator_batch_manifest_approval,false);
+  assert.equal(new Set(exact4.blocks.map(x=>x.source_slot_id)).size,4);
+  assert.deepEqual(exact4.blocks.map(x=>x.answer),["④","①","③","④"]);
+  assert.ok(exact4.blocks.every(x=>x.operator_publication_approval===true&&x.certification_status==="OPERATOR_APPROVED_PUBLIC"
+    &&x.original_teacher_answer_key_authenticated===false&&x.original_cropped_assets_included===false
+    &&x.public_material_scope==="EXAM_QUESTION_TEXT_ONLY"&&x.source_pdf_sha256?.length===64
+    &&x.source_pdf_bbox_pts_top_left?.length===4&&x.options?.length===4));
   const native6Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-next-native-tfmc6-public-v1.json",{cache:"no-cache"});
   assert.equal(native6Response.status(),200,"Live Pages delivers 113 next native six new source bank");
   const native6=await native6Response.json();

@@ -1,0 +1,72 @@
+{
+  "schema_version": "P12_G04S1_113_SCAN5_ORIGINAL_RASTER_BBOX_PROGRESS100_OF262_V12",
+  "draft_pr": 124,
+  "authority": "113 G04S1 frozen 48 canonical KP",
+  "supersedes_snapshot_append_only": "data/review/p12-g04s1-113-scan5-original-raster-bbox-progress74-of262-v11.json",
+  "original_scan_count": 5,
+  "original_scan_answer_positions_section_reconciled": 262,
+  "source_exact_original_raster_pixel_bbox_previous_verified": 74,
+  "source_exact_original_raster_pixel_bbox_added": 26,
+  "source_exact_original_raster_pixel_bbox_current": 100,
+  "source_exact_original_raster_pixel_bbox_remaining": 162,
+  "new_verified_source_ref": "data/review/p12-g04s1-113-neian-mid006-last26-exact-raster-bbox-v1.json",
+  "scanned_papers": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_002",
+      "source_school": "和順國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 23,
+      "remaining": 27,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "和順國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 0,
+      "remaining": 50,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "source_school": "忠孝國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 0,
+      "remaining": 50,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "source_school": "內安國小",
+      "source_publisher": "康軒",
+      "source_positions": 62,
+      "verified_source_raster_pixel_bbox": 62,
+      "remaining": 0,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_009",
+      "source_school": "獅湖國小",
+      "source_publisher": "康軒",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 15,
+      "remaining": 35,
+      "source_image_only": true
+    }
+  ],
+  "source_G04_113_full_29_paper_provisional_1755_not_final_exact_count": true,
+  "source_only_not_admission": true,
+  "student_site_788_unchanged": true,
+  "formal_progress": {
+    "FORMAL_SCIENCE_KP_APPROVED_existing_published_lower_bound": 152,
+    "additional_Mingyi_science_kp_source_formal_documented": 1,
+    "ADMISSION_READY_new_this_run": 0,
+    "PUBLISHED_113_prior": 152,
+    "PUBLISHED_113_new_this_run": 0,
+    "student_site_all_scopes": 788
+  },
+  "next_resume_task": "P12_G04S1_113_SCAN5_Remaining162_OriginalRasterPixelBBox_HeshunMID002_27_ThenShihuFINAL009_35_ThenHeshunFINAL001_50_ZhongxiaoFINAL002_50_ExactPDF_SourceScienceKP_Dedup_Rights_EligibleAdmission_PR_CI_Main_PagesE2E"
+}

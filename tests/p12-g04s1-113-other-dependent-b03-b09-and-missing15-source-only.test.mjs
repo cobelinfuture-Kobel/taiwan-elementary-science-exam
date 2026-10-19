@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import {createRequire} from 'node:module';
 
 const require = createRequire(import.meta.url);
-const {build, normalizeSlot} = require('../scripts/review/p12-g04s1-113-wholecorpus-resume.cjs');
+const {build, normalizeSlot} = require('../scripts/review/p12-g04s1-113-wholecorpus-legacy-snapshot.cjs');
 const read = name => JSON.parse(fs.readFileSync(new URL('../data/review/' + name, import.meta.url), 'utf8'));
 const lane = build().lanes.find(l => l.name === 'OTHER_OR_DEPENDENT');
 const suffix = 'source-parent-preflight-v1.json';

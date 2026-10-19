@@ -1,0 +1,157 @@
+{
+  "schema_version": "P12_G04S1_113_P04_CHENGGONG_53_YONGAN_FINAL80_SOURCE_SUBRESPONSES_V1",
+  "method": "Original connected Google Drive PDF readable-text direct recount of individual printed answer slots, not printed-score dividing. Source IDs original SHA inherited from firstpass; actual PDF image/BBox remains pending.",
+  "source_papers": 2,
+  "textlayer_slots_total": 133,
+  "prior_2paper_score_derived": 130,
+  "source_slot_count_correction_versus_unverified_score_heuristic": 3,
+  "actual_source_answer_position_bbox_certified": false,
+  "formal_new_public": 0,
+  "records": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "school": "成功國小",
+      "drive_file_id": "1fYJ5QiOHyy5JhqQkGeqejTfF7FnSHL2n",
+      "prior_score_division_estimate": 50,
+      "textlayer_original_answer_positions": 53,
+      "delta_textlayer_vs_score_division": 3,
+      "sections": [
+        {
+          "id": "S01",
+          "label": "是非題",
+          "count": 12
+        },
+        {
+          "id": "S02",
+          "label": "選擇題",
+          "count": 13
+        },
+        {
+          "id": "S03.1",
+          "label": "樹影與太陽方向三個空格",
+          "count": 3
+        },
+        {
+          "id": "S03.2",
+          "label": "四個月相對應日期圖",
+          "count": 4
+        },
+        {
+          "id": "S03.3",
+          "label": "月亮看不見可能原因",
+          "count": 6,
+          "basis": "6 independent physical checkboxes, explicitly printed (1 答 1 分), not 3 two-point tasks"
+        },
+        {
+          "id": "S03.4",
+          "label": "水域調查第一組第二組判讀",
+          "count": 3
+        },
+        {
+          "id": "S03.5",
+          "label": "水生動物敘述判讀",
+          "count": 4
+        },
+        {
+          "id": "S04.1",
+          "label": "水域生物環境配對",
+          "count": 4
+        },
+        {
+          "id": "S04.2",
+          "label": "月亮觀測圖四個勾選",
+          "count": 4
+        }
+      ],
+      "source_scope_exception": "Original paper prints 二 twice as major section heading: second 二 is 綜合題, must not silently renumber source. Diagram marker exact positions still require page-image review.",
+      "visual_bbox_certified": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_005",
+      "school": "永安國小",
+      "drive_file_id": "1hIaCCE1nkD-CoH8G2TF8yMgvFakV2amv",
+      "prior_score_division_estimate": 80,
+      "textlayer_original_answer_positions": 80,
+      "delta_textlayer_vs_score_division": 0,
+      "sections": [
+        {
+          "id": "S01",
+          "label": "是非題",
+          "count": 10
+        },
+        {
+          "id": "S02",
+          "label": "選擇題",
+          "count": 10
+        },
+        {
+          "id": "S03.1",
+          "label": "燈泡亮燈圖四個選項",
+          "count": 4
+        },
+        {
+          "id": "S03.2",
+          "label": "材料導電六格",
+          "count": 6
+        },
+        {
+          "id": "S03.3",
+          "label": "兩電路各兩個分類",
+          "count": 4
+        },
+        {
+          "id": "S03.4",
+          "label": "燈泡亮度四項排序及兩變化",
+          "count": 6
+        },
+        {
+          "id": "S03.5",
+          "label": "聖誕燈串並聯四格",
+          "count": 4
+        },
+        {
+          "id": "S04",
+          "label": "光的特性五格",
+          "count": 5
+        },
+        {
+          "id": "S05.1",
+          "label": "用電安全六格",
+          "count": 6
+        },
+        {
+          "id": "S05.2",
+          "label": "光的反射七格",
+          "count": 7
+        },
+        {
+          "id": "S05.3",
+          "label": "聲光警示六格",
+          "count": 6
+        },
+        {
+          "id": "S05.4",
+          "label": "聲音振動五格",
+          "count": 5
+        },
+        {
+          "id": "S06.1",
+          "label": "皮影戲光的特性兩格",
+          "count": 2
+        },
+        {
+          "id": "S06.2",
+          "label": "皮影戲影子方向兩格",
+          "count": 2
+        },
+        {
+          "id": "S06.3",
+          "label": "光的原理三格",
+          "count": 3
+        }
+      ],
+      "source_scope_exception": "Original circuit/diagram multiple items and shared Christmas/skin shadow text depend on parent image/context. Text-only marker enumeration is not final visual acceptance.",
+      "visual_bbox_certified": false
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": "P12_G04S1_113_P04_FIVE_REMAINING_VISUAL_DENOMINATOR_EXCEPTIONS_V1",
+  "scope": "11 of remaining16 native original PDFs have separate text-layer answer position recounts; these five retain unresolved graphical/answer-granularity ambiguities. Hold original exact source denominator; no bogus score conversion.",
+  "unresolved_papers": 5,
+  "source_reference": "data/review/p12-g04s1-113-p04-all16-drive-text-vs-original-printed-section-proof-v1.json",
+  "student_publication_new": 0,
+  "records": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "school": "東光國小",
+      "old_provisional_score_derived_positions": 62,
+      "textlayer_certain_sections": [
+        {
+          "label": "選擇題",
+          "count": 15
+        },
+        {
+          "label": "是非題",
+          "count": 20
+        },
+        {
+          "label": "勾選題",
+          "count": 16
+        },
+        {
+          "label": "看圖回答",
+          "count": 8
+        }
+      ],
+      "uncertain_section": "畫畫看",
+      "uncertainty": "Printed section claims three 2-point drawing tasks, but third instruction requests TWO separate moon phases (下弦月/眉形新月). Need inspect number of distinct original drawing answer regions; score-derived 62 may undercount actual physical slots.",
+      "source_text_explicitly_lists_two_moon_shapes": true,
+      "possible_position_count_if_two_distinct_moon_drawings": 63,
+      "not_approved_exact_count": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_003",
+      "school": "東光國小",
+      "old_provisional_score_derived_positions": 58,
+      "textlayer_certain_sections": [
+        {
+          "label": "選擇題",
+          "count": 14
+        },
+        {
+          "label": "是非題",
+          "count": 15
+        },
+        {
+          "label": "生活運用題",
+          "count": 3
+        },
+        {
+          "label": "電路設計畫圖",
+          "count": 2
+        }
+      ],
+      "uncertain_section": "觀念圈選與最後3分挑戰題",
+      "uncertainty": "Last three-point challenge requests circuit choice PLUS drawn circuit; score-point-derived three answers may not be physical answer-box count. Section-five circle per selected energy item also requires original marker review.",
+      "not_approved_exact_count": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_005",
+      "school": "大墩國小",
+      "old_provisional_score_derived_positions": 67,
+      "textlayer_certain_sections": [
+        {
+          "label": "是非題",
+          "count": 15
+        },
+        {
+          "label": "選擇題",
+          "count": 14
+        },
+        {
+          "label": "勾選題",
+          "count": 17
+        },
+        {
+          "label": "活用題",
+          "count": 4
+        }
+      ],
+      "uncertain_section": "填填看十七格",
+      "uncertainty": "Text displays species-classification table and earthquake labels; some original photo/table answer boxes are not individually visible in reading text. Cannot confirm all 17 fill positions by PDF text alone.",
+      "not_approved_exact_count": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_016",
+      "school": "大華國小",
+      "old_provisional_score_derived_positions": 50,
+      "textlayer_certain_sections": [
+        {
+          "label": "是非題",
+          "count": 10
+        },
+        {
+          "label": "選擇題",
+          "count": 14
+        },
+        {
+          "label": "科普閱讀",
+          "count": 3
+        }
+      ],
+      "uncertain_section": "配合題二十三格",
+      "uncertainty": "Source text shows 8 plant matching,4 animal matching,8 fish structure labels, but additional moon-phase graphic fill positions cannot be confidently enumerated from PDF text; inspect original page graphic markers.",
+      "not_approved_exact_count": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_011",
+      "school": "內湖國小",
+      "old_provisional_score_derived_positions": 71,
+      "textlayer_certain_sections": [
+        {
+          "label": "選擇題",
+          "count": 5
+        },
+        {
+          "label": "簡答題",
+          "count": 2
+        },
+        {
+          "label": "科學閱讀",
+          "count": 3
+        }
+      ],
+      "uncertain_section": "配合題十七格與回答問題四十四格",
+      "uncertainty": "Source major section II heading appears attached to page suffix; multi-part diagram and source image shadow answer areas are hidden by text extraction. Original paper includes content outside current 48KP, must not force match.",
+      "not_approved_exact_count": true
+    }
+  ]
+}

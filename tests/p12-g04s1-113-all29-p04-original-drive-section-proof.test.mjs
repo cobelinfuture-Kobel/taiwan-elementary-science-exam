@@ -43,10 +43,10 @@ test('P04 previous per-section printed score proofs align with readback, and sum
  }
  assert.equal(evidence.records.reduce((s,x)=>s+x.provisional_score_derived_total,0),934);
 });
-test('P04 actual full paper status remains uncompleted; 13 older section tallies sum 821, 16 source text scans not silently promoted',()=>{
+test('P04 full29 section counts sum 1762 but none of the exact original marker/BBox Admission Gates is prematurely certified',()=>{
  const counted=master.paper_records.filter(x=>x.section_reconciled_positions!==null);
- assert.equal(counted.length,13);
- assert.equal(counted.reduce((s,x)=>s+x.section_reconciled_positions,0),821);
+ assert.equal(counted.length,29);
+ assert.equal(counted.reduce((s,x)=>s+x.section_reconciled_positions,0),1762);
  assert.equal(prior.original_response_positions_section_reconciled,821);
  assert.equal(master.p04_remaining16_original_pdf_textlayer_readback,16);
  assert.equal(master.formally_closed_papers,0);
@@ -116,7 +116,7 @@ test('P04 direct original source text itemizations cover eleven papers / 629 pri
  assert.equal(master.p04_source_text_layer_recount_response_positions,629);
  assert.equal(master.p04_source_text_layer_recount_vs_score_estimate_delta,3);
 });
-test('P04 five still-graphical paper denominators stay HOLD, none scored-point-promoted',()=>{
+test('P04 five original SHA-verified visual page counts supersede score-derived estimates, but none is per-item BBox certified',()=>{
  const d=read('p12-g04s1-113-p04-five-original-visual-subanswer-denominator-exceptions-v1.json');
  assert.equal(d.records.length,5);
  for(const x of d.records){
@@ -125,9 +125,36 @@ test('P04 five still-graphical paper denominators stay HOLD, none scored-point-p
    assert.equal(paper.original_text_layer_answer_position_recount,null);
    assert.equal(paper.inventory_certified,false);
    assert.equal(paper.exact_total_slots,null);
-   assert.ok(paper.original_answer_position_uncertainty?.length);
+   assert.ok(paper.original_visual_source_count_ref?.length);
+   assert.equal(typeof paper.section_reconciled_positions,'number');
  }
- assert.equal(master.p04_unresolved_visual_source_answer_denominator_papers,5);
+ assert.equal(master.p04_unresolved_visual_source_answer_denominator_papers,0);
  assert.equal(master.formally_closed_papers,0);
+ assert.equal(master.all29_complete,false);
+});
+
+test('P04 five original source-PDF binary SHA reverified and every page visually counted, with +4 source scoring-heuristic correction',()=>{
+ const proof=read('p12-g04s1-113-p04-five-original-sha-verified-pdf-page-visual-count-v1.json');
+ assert.equal(proof.source_papers,5);
+ assert.equal(proof.full_pdf_binary_SHA_reverified_files,5);
+ assert.equal(proof.original_pdf_pages_visually_read,12);
+ assert.equal(proof.original_five_visual_answer_regions_sum,312);
+ assert.equal(proof.source_original_section_response_count_correction_total,4);
+ assert.deepEqual(proof.records.map(x=>x.printed_answer_regions_from_full_pdf_page_visual),[63,59,66,53,71]);
+ const all=master.paper_records;
+ for(const x of proof.records){
+   const source=snapshot.get(x.paper_id),m=all.find(z=>z.paper_id===x.paper_id);
+   assert.equal(x.original_pdf_sha256_binary_reverified,source.original_pdf_sha256);
+   assert.equal(x.pdf_page_count_original_file_binary_verified,source.original_pdf_page_count);
+   assert.equal(x.source_section_physical_response_groups.reduce((n,z)=>n+z.printed_answer_regions,0),x.printed_answer_regions_from_full_pdf_page_visual);
+   assert.equal(m.section_reconciled_positions,x.printed_answer_regions_from_full_pdf_page_visual);
+   assert.equal(m.exact_total_slots,null);
+   assert.equal(m.inventory_certified,false);
+   assert.equal(m.paper_closed,false);
+ }
+ assert.equal(master.p04_all29_revised_section_response_region_count_NONCERTIFIED,1762);
+ assert.equal(master.p04_prior_29_source_scoring_derived_estimate,1755);
+ assert.equal(master.p04_corrected_source_region_delta_vs_prior_planning,7);
+ assert.equal(master.source_position_universe_certified,false);
  assert.equal(master.all29_complete,false);
 });

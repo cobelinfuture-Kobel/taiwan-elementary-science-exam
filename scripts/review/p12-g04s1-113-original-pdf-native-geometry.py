@@ -74,13 +74,49 @@ def extract(pdf, paper_id):
     return records
 
 
+def page_vector_and_raster_diagnostics(page):
+    """Return source PDF shapes; NONE are accepted response boxes by geometry alone."""
+    rects, used = [], set()
+    for drawing in page.get_drawings():
+        r = drawing["rect"]
+        if not (7 <= r.width <= 110 and 7 <= r.height <= 110
+                and 0.3 <= r.width / r.height <= 4):
+            continue
+        rect = [float(r.x0), float(r.y0), float(r.x1), float(r.y1)]
+        key = tuple(round(v * 2) / 2 for v in rect)
+        if key in used:
+            continue
+        used.add(key)
+        rects.append([round(v, 2) for v in rect])
+    rects.sort(key=lambda v: (v[1], v[0]))
+    return {
+        "page_size_pt": [round(page.rect.width, 2), round(page.rect.height, 2)],
+        "source_page_rotation_degrees": page.rotation,
+        "native_text_character_count": len(page.get_text("text")),
+        "extra_vector_rectangle_candidates_NOT_RESPONSE_ACCEPTED": rects,
+        "scan_full_page_image_source_bbox_NOT_INDIVIDUAL_ANSWER_BOX": (
+            [0, 0, round(page.rect.width, 2), round(page.rect.height, 2)]
+            if not page.get_text("text").strip() else None),
+        "every_actual_original_subanswer_bbox_gate_accepted": False,
+    }
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--pdf-dir", type=pathlib.Path, required=True)
     parser.add_argument("--out", type=pathlib.Path, required=True)
+    parser.add_argument("--only-unitemized", action="store_true",
+                        help="Skip original papers whose entire source-response ID list is already itemized; "
+                             "never counts such source-only itemization as formal Admission.")
     args = parser.parse_args()
     registered = json.loads(REGISTRY.read_text(encoding="utf-8"))["original_source_records"]
-    assert len(registered) == 29, "ALL29 registry must have 29 papers"
+    if args.only_unitemized:
+        master_path = ROOT / "data/review/p12-g04s1-113-all29-master-ledger-v1.json"
+        master = json.loads(master_path.read_text(encoding="utf-8"))
+        completed_identity = {p["paper_id"] for p in master["paper_records"]
+                              if p.get("p04b_source_unique_slot_identifiers_itemized", 0) > 0}
+        registered = [p for p in registered if p["source_id"] not in completed_identity]
+    assert len(registered) in (25, 29), "ALL29 registry must have 29 papers or current 25-pending subcorpus"
     report = []
     for paper in registered:
         source = args.pdf_dir / paper["source_title"]
@@ -97,15 +133,18 @@ def main():
                        "original_pdf_pages": len(doc), "native_source_marker_candidates": len(records),
                        "source_slots_fully_accepted": 0,
                        "geometry_status": "NATIVE_CANDIDATE_ONLY" if records else "NEEDS_ORIGINAL_IMAGE_VISUAL_ANNOTATION",
+                       "page_vector_and_raster_source_diagnostics": [
+                           dict(original_pdf_page=n+1, **page_vector_and_raster_diagnostics(page))
+                           for n, page in enumerate(doc)],
                        "records": records})
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps({
         "schema_version": "P12_113_G04S1_P04B_NATIVE_SOURCE_GEOMETRY_CANDIDATES_V1",
-        "papers": 29, "full_original_slot_closeout": False,
+        "papers": len(report), "full_original_slot_closeout": False,
         "warning": "The marker candidates may overlap already published and previously proven source identities. Never sum into published counts. Native characters do not certify parent graphics or source exact options. Scan-only requires separately accepted raster evidence.",
         "records": report
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print("ORIGINAL_SHA_PASS=29; NATIVE_CANDIDATE_PAPERS=" +
+    print("ORIGINAL_SHA_PASS=" + str(len(report)) + "; NATIVE_CANDIDATE_PAPERS=" +
           str(sum(bool(x["native_source_marker_candidates"]) for x in report)) +
           "; FULL_PAPER_SOURCE_ACCEPTED=0")
 

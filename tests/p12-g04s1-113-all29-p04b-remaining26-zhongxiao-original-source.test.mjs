@@ -55,8 +55,8 @@ test('P04B remaining26 all original PDF SHA and pages are reconciled, but candid
  }
 });
 test('P04B 2+1 full original independent source-id lists do NOT grant all29 closure',()=>{
- assert.equal(master.p04b_papers_with_fully_itemized_original_source_slot_ids,7);
- assert.equal(master.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,361);
+ assert.equal(master.p04b_papers_with_fully_itemized_original_source_slot_ids,10);
+ assert.equal(master.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,535);
  assert.equal(master.source_position_universe_certified,false);
  assert.equal(master.formally_closed_papers,0);
  assert.equal(master.all29_complete,false);

@@ -1,0 +1,60 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+const read=f=>JSON.parse(fs.readFileSync(path.resolve('data/review',f),'utf8'));
+const m=read('p12-g04s1-113-all29-master-ledger-v1.json');
+const frozen=read('p12-g04s1-113-all29-kp48-source-firstpass-v1.json');
+const exact=read('p12-g04s1-113-p04b-mingyi-final54-source-decisions-and-native-vector-answer-bbox-v1.json');
+const todo=read('p12-g04s1-113-p04b-remaining25-64page-original-source-geometry-gap-v1.json');
+const origin=new Map(frozen.original_source_records.map(x=>[x.source_id,x]));
+test('Mingyi FINAL: 54 actually distinct printed answer decisions, not 61 raw glyph markers',()=>{
+ assert.equal(exact.paper_id,'SCI_G04_S1_113_FINAL_007');
+ assert.equal(exact.original_pdf_sha256,origin.get(exact.paper_id).original_pdf_sha256);
+ assert.equal(exact.original_answer_decisions_itemized,54);
+ assert.equal(exact.records.length,54);
+ assert.equal(new Set(exact.records.map(x=>x.source_slot_id)).size,54);
+ assert.deepEqual(exact.printed_source_sections,[10,10,26,5,1,2]);
+ assert.equal(exact.original_native_single_answer_marker_count,52);
+ assert.equal(exact.original_grouped_four_squares_single_choice_decisions,1);
+ assert.equal(exact.original_pdf_vector_single_circuit_drawing_frames,1);
+ assert.equal(exact.instruction_bracket_false_positives_removed,5);
+ const types=exact.records.reduce((o,x)=>(o[x.geometry_provenance]=(o[x.geometry_provenance]||0)+1,o),{});
+ assert.equal(types.ORIGINAL_PDF_NATIVE_ANSWER_BRACKET,52);
+ assert.equal(types.GROUPED_FOUR_PRINTED_SQUARES_ONE_SINGLE_CHOICE,1);
+ assert.equal(types.ORIGINAL_PDF_VECTOR_DRAWING_FRAME,1);
+ for(const q of exact.records){
+  const [x0,y0,x1,y1]=q.original_answer_marker_or_decision_bbox_pt;
+  assert.ok([x0,y0,x1,y1].every(Number.isFinite));
+  assert.ok(x0>=0&&x0<x1&&x1<=595.32&&y0>=0&&y0<y1&&y1<=841.92);
+  assert.equal(q.admission_ready,false);
+  assert.equal(q.full_stem_parent_figure_rights_accepted,false);
+ }
+});
+test('P04B after four source list proofs still 25 original PDFs / 64 pages / 5 scan-only sources NOT admission-ready',()=>{
+ assert.equal(m.paper_records.length,29);
+ assert.equal(m.p04b_papers_with_fully_itemized_original_source_slot_ids,4);
+ assert.equal(m.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,197);
+ assert.equal(m.formally_closed_papers,0);
+ assert.equal(m.source_position_universe_certified,false);
+ assert.equal(m.all29_complete,false);
+ assert.equal(todo.source_original_pdfs_rechecked_binary_SHA256,25);
+ assert.equal(todo.source_original_pdf_pages_rechecked,64);
+ assert.equal(todo.papers.length,25);
+ assert.equal(todo.original_section_working_response_regions_NONCERTIFIED,1565);
+ assert.equal(todo.native_or_prior_visual_marker_candidate_count_NOT_CERTIFIED,1130);
+ assert.equal(todo.additional_pdf_vector_rectangle_candidates_NOT_CONFIRMED,237);
+ assert.equal(todo.original_scan_only_papers,5);
+ assert.equal(todo.original_scan_pages_requiring_individual_marker_raster_qa,16);
+ assert.ok(todo.papers.every(x=>x.exact_all_original_subanswer_ID_and_parent_Certified===false));
+ assert.ok(!todo.papers.some(x=>x.original_paper_id===exact.paper_id));
+ assert.equal(todo.formal_admission_ready_new,0);
+ assert.equal(todo.formal_published_new,0);
+});
+test('P04B negative: four checkboxes for one single-choice subquestion cannot multiply source answer decisions',()=>{
+ const grouped=exact.records.filter(x=>x.geometry_provenance==='GROUPED_FOUR_PRINTED_SQUARES_ONE_SINGLE_CHOICE');
+ assert.equal(grouped.length,1);
+ assert.equal(grouped[0].one_source_response_decision,true);
+ assert.equal(exact.raw_marker_candidates_61_not_equal_real_source_decisions,true);
+ assert.notEqual(61,exact.records.length);
+});

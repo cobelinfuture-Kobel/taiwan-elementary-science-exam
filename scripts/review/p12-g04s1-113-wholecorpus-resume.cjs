@@ -118,6 +118,18 @@ function build(root=ROOT,batchSize=50,opts={}){
   insist(sectionReady.length===m.section_count_reconciled_papers,'source section count paper coverage must match master');
   insist(sectionReady.reduce((n,p)=>n+p.section_reconciled_positions,0)===m.section_positions_reconciled_noncertified_sum,'source section response working denominator must match master');
   // P04B minimum original geometry source coverage is not full answer-slot certification.
+  // Original remaining26 source binaries reviewed page-by-page: raw marker counts, drawing
+  // boxes and scan image pages are review-only, never promoted into source identities.
+  const remaining26=read('p12-g04s1-113-p04b-remaining26-66page-original-source-geometry-gap-v1.json',root);
+  insist(remaining26.papers.length===26&&remaining26.source_original_pdf_pages_rechecked===66,
+    'ALL29 source P04B remaining26 paper/page coverage missing');
+  for(const paper of remaining26.papers){
+    const source=validation.originals.get(paper.original_paper_id);
+    insist(source?.original_pdf_sha256===paper.source_pdf_sha256,
+      'original PDF SHA changed in remaining26 '+paper.original_paper_id);
+    insist(!paper.exact_all_original_subanswer_ID_and_parent_Certified,
+      'raw remaining26 geometry cannot be called accepted');
+  }
   const partialGeometry=read('p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json',root);
   insist(partialGeometry.papers.length===29 &&
     m.p04b_first_answer_area_geometry_candidate_papers===29,'ALL29 first source geometry proof incomplete');
@@ -159,15 +171,17 @@ function build(root=ROOT,batchSize=50,opts={}){
     'p12-g04s1-113-p04b-neihu-final10-image-vector-response-regions-v1.json',
     // Fully itemized original paper source IDs, but picture/drawing/source-rights gates still HOLD.
     'p12-g04s1-113-p04b-wende-mid55-exact-source-subanswers-and-geometry-v1.json',
-    'p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json'
+    'p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json',
+    'p12-g04s1-113-p04b-zhongxiao-mid50-source-markers-parent-figure-v1.json'
   ];
   const detailedSourceRecords=[
     read('p12-g04s1-113-p04b-wende-mid55-exact-source-subanswers-and-geometry-v1.json',root),
-    read('p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json',root)
+    read('p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json',root),
+    read('p12-g04s1-113-p04b-zhongxiao-mid50-source-markers-parent-figure-v1.json',root)
   ];
-  insist(detailedSourceRecords.length===2 &&
+  insist(detailedSourceRecords.length===m.p04b_papers_with_fully_itemized_original_source_slot_ids &&
     detailedSourceRecords.reduce((n,x)=>n+x.records.length,0)===m.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,
-    'P04B per-paper original source slot conservation 55+38 required');
+    'P04B per-paper original source slot conservation 55+38+50 required');
   for(const doc of detailedSourceRecords){
     const rootPaper=m.paper_records.find(p=>p.paper_id===doc.paper_id);
     insist(rootPaper && rootPaper.section_reconciled_positions===doc.records.length,

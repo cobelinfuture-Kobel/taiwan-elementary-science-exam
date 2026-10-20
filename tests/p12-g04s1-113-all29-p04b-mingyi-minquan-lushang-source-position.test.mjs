@@ -20,8 +20,8 @@ test('Original P04B three further school source response identity lists are SHA/
  for(const d of docs){
    const orig=byBase.get(d.paper_id),row=byMaster.get(d.paper_id);
    assert.ok(orig && row);
-   assert.equal(orig.original_pdf_sha256,d.source_pdf_sha256);
-   assert.equal(row.original_pdf_sha256,d.source_pdf_sha256);
+   assert.equal(orig.original_pdf_sha256,d.source_pdf_sha256||d.original_pdf_sha256);
+   assert.equal(row.original_pdf_sha256,d.source_pdf_sha256||d.original_pdf_sha256);
    assert.equal(row.section_reconciled_positions,d.records.length);
    assert.equal(row.p04b_source_unique_slot_identifiers_itemized,d.records.length);
    assert.equal(row.inventory_certified,false);
@@ -29,7 +29,7 @@ test('Original P04B three further school source response identity lists are SHA/
    for(const x of d.records){
      assert.ok(!global.has(x.source_slot_id),'no duplicate original source ID');
      global.add(x.source_slot_id);
-     assert.equal(x.source_pdf_sha256,d.source_pdf_sha256);
+     assert.equal(x.source_pdf_sha256||x.original_pdf_sha256,d.source_pdf_sha256||d.original_pdf_sha256);
      assert.ok(x.original_pdf_page>=1&&x.original_pdf_page<=orig.original_pdf_page_count);
      const box=x.original_source_anchor_bbox_pt||x.original_printed_marker_bbox_pt||x.original_source_marker_bbox_pt;
      assert.equal(box?.length,4);
@@ -47,7 +47,7 @@ test('Printed choice boxes differ from matching-source endpoints; keep original 
  assert.equal(m.original_native_PDF_answer_bracket_geometry,24);
  assert.equal(m.original_native_PDF_square_checkbox_geometry,6);
  assert.equal(m.original_matching_source_label_anchors_not_full_response_bbox,20);
- assert.equal(m.records.filter(x=>x.source_answer_area_exact_geometry_accepted).length,30);
+ assert.equal(m.records.filter(x=>x.original_answer_location_exact_bbox_accepted).length,30);
  assert.equal(q.native_PDF_printed_answer_bracket_locations,64);
  assert.equal(q.original_matching_source_label_anchor_not_answer_line_bbox_count,10);
  assert.equal(q.records.filter(x=>x.source_answer_area_exact_geometry_accepted).length,64);

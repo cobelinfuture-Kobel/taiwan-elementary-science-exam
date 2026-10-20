@@ -64,5 +64,5 @@ test('P04B remaining 12 / 32-page source papers equal prior 15 minus scanned thr
  assert.equal(rows.reduce((a,x)=>a+x.original_pdf_pages,0),32);
  assert.equal(rows.reduce((a,x)=>a+x.working_section_response_regions_NONCERTIFIED,0),808);
  assert.equal(v3.source_itemized_response_ids_current+v3.remaining_working_section_response_regions_NONCERTIFIED,1762);
- assert.equal(v3.all29_exact_independent_answer_universe_certified,false);
+ assert.equal(v3.full_original_answers_denominator_certified,false);
 });

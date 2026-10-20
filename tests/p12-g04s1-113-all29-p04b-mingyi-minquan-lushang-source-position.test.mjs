@@ -62,8 +62,8 @@ test('Printed choice boxes differ from matching-source endpoints; keep original 
 });
 test('ALL29 P04B 10/29 complete semantic source-ID lists do not close formal original figure/rights/answer Gate',()=>{
  assert.equal(master.paper_records.length,29);
- assert.equal(master.p04b_papers_with_fully_itemized_original_source_slot_ids,10);
- assert.equal(master.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,535);
+ assert.equal(master.p04b_papers_with_fully_itemized_original_source_slot_ids,12);
+ assert.equal(master.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,639);
  assert.equal(todo.papers.length,19);
  assert.equal(todo.source_original_pdf_pages_rechecked,51);
  assert.equal(todo.original_section_working_response_regions_NONCERTIFIED,1227);

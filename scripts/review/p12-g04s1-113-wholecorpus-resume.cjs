@@ -120,9 +120,9 @@ function build(root=ROOT,batchSize=50,opts={}){
   // P04B minimum original geometry source coverage is not full answer-slot certification.
   // Original remaining26 source binaries reviewed page-by-page: raw marker counts, drawing
   // boxes and scan image pages are review-only, never promoted into source identities.
-  const remaining26=read('p12-g04s1-113-p04b-remaining26-66page-original-source-geometry-gap-v1.json',root);
-  insist(remaining26.papers.length===26&&remaining26.source_original_pdf_pages_rechecked===66,
-    'ALL29 source P04B remaining26 paper/page coverage missing');
+  const remaining26=read('p12-g04s1-113-p04b-remaining25-64page-original-source-geometry-gap-v1.json',root);
+  insist(remaining26.papers.length===25&&remaining26.source_original_pdf_pages_rechecked===64,
+    'ALL29 source P04B remaining25 paper/page coverage missing');
   for(const paper of remaining26.papers){
     const source=validation.originals.get(paper.original_paper_id);
     insist(source?.original_pdf_sha256===paper.source_pdf_sha256,
@@ -172,16 +172,18 @@ function build(root=ROOT,batchSize=50,opts={}){
     // Fully itemized original paper source IDs, but picture/drawing/source-rights gates still HOLD.
     'p12-g04s1-113-p04b-wende-mid55-exact-source-subanswers-and-geometry-v1.json',
     'p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json',
-    'p12-g04s1-113-p04b-zhongxiao-mid50-source-markers-parent-figure-v1.json'
+    'p12-g04s1-113-p04b-zhongxiao-mid50-source-markers-parent-figure-v1.json',
+    'p12-g04s1-113-p04b-mingyi-final54-source-decisions-and-native-vector-answer-bbox-v1.json'
   ];
   const detailedSourceRecords=[
     read('p12-g04s1-113-p04b-wende-mid55-exact-source-subanswers-and-geometry-v1.json',root),
     read('p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json',root),
-    read('p12-g04s1-113-p04b-zhongxiao-mid50-source-markers-parent-figure-v1.json',root)
+    read('p12-g04s1-113-p04b-zhongxiao-mid50-source-markers-parent-figure-v1.json',root),
+    read('p12-g04s1-113-p04b-mingyi-final54-source-decisions-and-native-vector-answer-bbox-v1.json',root)
   ];
   insist(detailedSourceRecords.length===m.p04b_papers_with_fully_itemized_original_source_slot_ids &&
     detailedSourceRecords.reduce((n,x)=>n+x.records.length,0)===m.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,
-    'P04B per-paper original source slot conservation 55+38+50 required');
+    'P04B per-paper original source slot conservation 55+38+50+54 required');
   for(const doc of detailedSourceRecords){
     const rootPaper=m.paper_records.find(p=>p.paper_id===doc.paper_id);
     insist(rootPaper && rootPaper.section_reconciled_positions===doc.records.length,

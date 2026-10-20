@@ -52,3 +52,11 @@ SOURCE_EXACT → PDF_PAGE_BBOX → SCIENCE_UNIQUE_ANSWER → CANONICAL_KP → DU
 - Source identity itemized does **not** mean full source text/options, shared reading/figure/rights, Science/KP, duplicate, or Admission gate accepted. Formal complete-papers **0/29**. This step has **FORMAL_SCIENCE_KP_APPROVED_new=0; ADMISSION_READY_new=0; PUBLISHED_new=0**. Previously published 113 source positions 178 remain unchanged.
 - Next: continue the 15 per-original-PDF source proofs; inherit available native or raster answer-marker geometry and only fill missing identities and parent/dependency evidence. Keep formal Gate and operator cohort authorization unchanged; do not return to small ad hoc student releases.
 
+### DaDun source-only continuation (still in remaining15)
+
+- Connected original 113 康軒大墩期中 PDF text was checked against the already SHA-verified original school-paper registry. Section-level working positions: S01 TF15; S02 MC14; S03 16; S04 17; S05 dependent table4 = **66 noncertified working response regions**.
+- Preserve 29 existing **actual original-PDF native answer bracket BBoxes** (15 TF, 14 MC). Route the other **37** planned regions into the missing geometry/parent evidence checklist: S03 4 plant classification + 4 earthquake concepts + 8 original-figure landform response regions; S04 6 habitat + 6 earthquake safety + 5 forest; S05 4 dependent original aquatic observation table MC.
+- Source S03 prints 17 score points but contains 16 **working** answer regions; never manufacture an additional seventeenth answer solely to balance score. The eight S03 figure answer positions still require original PDF visual verification.
+- Durable partial worklist: `data/review/p12-g04s1-113-p04b-dadun-mid66-partial-source-id-parent-geometry-gap-v1.json`; regression: `tests/p12-g04s1-113-p04b-dadun-mid66-partial-source-gap.test.mjs`.
+- This **does not promote 大墩** into the 14 itemized source papers, does not certify any answer or Admission, and does not alter 178 already published source positions.
+

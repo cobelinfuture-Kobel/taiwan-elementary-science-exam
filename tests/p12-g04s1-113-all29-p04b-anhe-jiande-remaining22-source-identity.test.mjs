@@ -54,6 +54,8 @@ test('ALL29 original Jiande 7 printed two-option circles must remain seven decis
  assert.equal(d.records.filter(x=>x.geometry_provenance==='ORIGINAL_PDF_NATIVE_CIRCLE_OPTION_PAIR_REGION').length,7);
  assert.equal(d.records.filter(x=>x.source_slot_id.includes('|S05|G01|')).length,6);
  assert.equal(d.records.filter(x=>x.source_slot_id.includes('|S05|G02|')).length,2);
+ assert.ok(d.records.every(x=>x.published_identity_needs_lookup_in_existing_Published178_snapshot===true));
+ assert.ok(d.records.every(x=>x.source_lineage_already_published_to_be_suppressed===undefined));
 });
 test('ALL29 source original Anhe final circuit shows printed check glyph ambiguity, NOT a teacher answer',()=>{
  const d=papers[0];

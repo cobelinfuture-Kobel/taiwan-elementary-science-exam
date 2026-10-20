@@ -71,3 +71,11 @@ SOURCE_EXACT → PDF_PAGE_BBOX → SCIENCE_UNIQUE_ANSWER → CANONICAL_KP → DU
 - The remaining two scan-only school papers include dependent drawings and composite table tasks: **忠孝 FINAL002 four direct-on-figure drawings** and **獅湖 FINAL009 two grouped motor-circuit composite answer units** from pre-existing v18. The six are HOLD (parent figure ROI is not an individual student-answer BBox). Avoid manufacturing 6 physical answers. Continue them as parent-aware response formats.
 - There remain 12 papers whose full itemized original answer identities/BBox-parent relationship are not closed; formal full original source gate paper closeout **0/29**, FORMAL_SCIENCE_KP_APPROVED_new **0**, ADMISSION_READY_new **0**, PUBLISHED_new **0**. Existing admission path unchanged, no forced extra second passes, no ad-hoc 1-3 item public releases.
 
+
+### P04B remaining12 original connected Drive document preflight
+
+- The currently remaining 12 school original PDFs are now fully identifiable by frozen source ID, original PDF registry SHA and accessible Google Drive file ID; all **10 native-text documents** were directly read from connected original Drive PDFs, with verified readable original major-section headings and a school-specific source/text-only preflight. The **other two are scan-only school PDFs** (忠孝期末 FINAL002, 獅湖期末 FINAL009) and must use inherited raster BBox/parent-figure visual evidence.
+- This preflight is evidence of **document/readable text**, not of exact independent answer positions, full original answer ID + parent, image BBox, science unique answers, KP, cross-year duplicate or publication Rights. Earlier SHA was inherited from checked original PDF ledger; no claim the PDFs were re-downloaded or SHA-recomputed in this step.
+- Nonpublic metadata-only checkpoint: `data/review/p12-g04s1-113-p04b-remaining12-original-drive-text-preflight-v1.json`; regression: `tests/p12-g04s1-113-p04b-remaining12-original-drive-text-preflight.test.mjs`.
+- The priority missing-gate cases remain 東光 MID004 28 visual BBox/parent holds; 大墩 MID005 37; scan FINAL002 figure drawing4 and FINAL009 motor table composite2; all other original text papers require per-answer position map. Nothing may be marked formally admitted from these working records.
+

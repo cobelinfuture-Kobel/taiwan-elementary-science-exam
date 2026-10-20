@@ -25,6 +25,8 @@ test('P02 generator includes all 29 paper inventory gaps, not only historical 14
   const res=build();
   assert.equal(res.metrics.registered_papers,29);
   assert.equal(res.metrics.published_113,178);
+  assert.equal(res.metrics.original_papers_with_any_initial_geometry_candidate,29);
+  assert.equal(res.metrics.original_papers_with_full_answer_slot_geometry_certified,0);
   assert.equal(res.metrics.unique_legacy_source_positions,775);
   assert.equal(res.metrics.source_positions_after_native_p04b_union,928);
   assert.equal(res.metrics.p04b_previously_unqueued_unpublished_source_positions,119);

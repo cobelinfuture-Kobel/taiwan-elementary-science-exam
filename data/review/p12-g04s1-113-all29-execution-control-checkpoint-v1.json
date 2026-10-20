@@ -95,7 +95,7 @@
     "PUBLISHED_SITE_TOTAL": 814
   },
   "unresolved_remaining_execution": [
-    "P04B ALL29: original 29 binary SHA locked. Ten of29 original papers now have complete *semantic response identity* lists, 535 unique source IDs, none formally full SOURCE_EXACT+picture-parent+Rights accepted. Other19 original PDFs /51 pages/1227 provisional working answer regions still require original source response IDs and page bbox. Five scan-only PDFs /16 pages require per-answer original raster geometry (no OCR/estimation as exact). Mingyi/Minquan/Lushang original matching source anchors are not actual drawn connection-line answer BBoxes. 1762 is a provisional source-region working total, not certified exact universe. Preserve Published178 lineage, no P05 publishing before full existing Admission.",
+    "ALL29 P04B current: 12 original school exam papers fully itemized as SEMANTIC source-response identities 639, not formal admission. Remaining17 PDFs/45 pages/1123 unverified section-level working positions require original answer-slot ID + source exact page/geometry and parent/rights mapping. Shihu matching source dots 3 not student-drawn lines; Guangxing essay3 have true source-PDF vector response rectangles but whale science reading/photo third-party rights HOLD. Five scanned originals/16 pages all individual raster answer markers pending. Previously published178 must not be reinserted. The full29 estimated1762 is a working count, not guaranteed certified response slots.",
     "P05: entire unpublished original Science unique-answer and direct 48KP existing formal evidence",
     "P05: exact 113 unpublished + all114 cross-paper full-stem/options/near duplicate confirmation and rights evidence",
     "P06: selectively admit eligible cohort under existing operator gate, source-only PR124 never wholesale merge",
@@ -110,7 +110,7 @@
     "partial ledger 775 as full universe",
     "published178 as total original answer positions"
   ],
-  "next_resume_task": "P12_G04S1_113_ALL29_P04B_Remaining19OriginalExams_FullPrintedSemanticSubAnswerIDs_OriginalPdfNativeOrRasterAnswerBBox_ParentFigures_Rights_Then_All29SourceCloseout_ExistingScience48KPAdmission",
+  "next_resume_task": "P12_G04S1_113_ALL29_P04B_Remaining17OriginalExams_FullSemanticSourceAnswerIDs_OriginalPdfNativeOrRasterBBox_ParentReadingFigure_Rights_Then_All29SourceCloseout_ExistingScience48KPAdmission",
   "last_execution_commit_before_final_audit": "6672df7fccf6b952978dd6718df7b676732a894b",
   "p04_latest_ci_test_commit": "501dad525f47328215254754549abc0c6280079c",
   "p04_latest_reconciliation_commit": "28044051621973b4f2c317a89a29d25fdcc9fa95",
@@ -194,7 +194,7 @@
     "all29_original_source_pages": 72,
     "all29_original_source_page_candidate_geometry_audited": 72,
     "scan_source_pages_requiring_individual_visual_slot_bbox_review": 16,
-    "original_school_papers_with_complete_subanswer_id_list": 10,
+    "original_school_papers_with_complete_subanswer_id_list": 12,
     "original_source_subanswer_ids_itemized_from_Wende55_and_DahuaFinal38": 93,
     "Wende_MID001": {
       "working_count": 55,
@@ -229,10 +229,10 @@
     "original29_fullpaper_gap_tasks": 29,
     "total_source_work_items": 902,
     "internal_batch_size": 50,
-    "internal_batch_count": 24,
+    "internal_batch_count": 25,
     "no_new_formal_review_round": true,
     "no_original_or_approved_sources_modified": true,
-    "original_source_subanswer_IDs_itemized": 535,
+    "original_source_subanswer_IDs_itemized": 639,
     "individual_source_list_details": [
       {
         "paper_id": "SCI_G04_S1_113_MID_001",
@@ -260,18 +260,18 @@
         "evidence": "data/review/p12-g04s1-113-p04b-mingyi-final54-source-decisions-and-native-vector-answer-bbox-v1.json"
       }
     ],
-    "original_school_papers_requiring_complete_unique_subanswer_identification": 19,
-    "remaining_source_original_pdf_pages": 51,
+    "original_school_papers_requiring_complete_unique_subanswer_identification": 17,
+    "remaining_source_original_pdf_pages": 45,
     "remaining25_source_raw_candidates_NOT_CERTIFIED": 1130,
     "remaining25_PDF_vector_shape_candidates_NOT_CONFIRMED": 237,
     "remaining25_original_section_working_response_regions_NOT_CERTIFIED": 1565,
     "scan_original_source_pages_requiring_all_response_visual_geometry": 16,
     "all29_working_region_count_NOT_FORMAL": 1762,
     "old_legacy_source_universe_and_P04B_known_source_slots": 1056,
-    "distinct_original_unpublished_missing_prior_source_queue_recovered_total": 432,
-    "unpublished_source_identity_review_queue": 1144,
+    "distinct_original_unpublished_missing_prior_source_queue_recovered_total": 480,
+    "unpublished_source_identity_review_queue": 1192,
     "original_fullpaper_inventory_gap_tasks": 29,
-    "total_deterministic_source_and_paper_gap_tasks": 1173,
+    "total_deterministic_source_and_paper_gap_tasks": 1221,
     "four_full_source_itemized_papers_complete_full_Admission_Gate": 0,
     "original29_full_source_context_parent_picture_and_bbox_formal_closeout": 0,
     "source_original_teacher_answer_keys_new": 0,
@@ -287,7 +287,7 @@
     ],
     "previous_source_ID_lists_complete": 4,
     "newly_itemized_source_ID_records": 164,
-    "known_source_IDs_after_original_union": 1249,
+    "known_source_IDs_after_original_union": 1297,
     "rescued_original_unpublished_IDs_this_approval": 108,
     "new_original_school_source_ID_lists_in_this_round": 3,
     "new_semantic_original_source_IDs_itemized_in_this_round": 174,
@@ -299,14 +299,28 @@
       "data/review/p12-g04s1-113-p04b-mingyi-mid50-original-answer-ids-native-checkbox-matching-anchor-v1.json",
       "data/review/p12-g04s1-113-p04b-minquan-mid74-native-source-marker-matching-parent-v1.json",
       "data/review/p12-g04s1-113-p04b-lushang-mid50-native-answer-and-matching-bbox-v1.json"
-    ]
+    ],
+    "previous_original_source_ID_lists_complete": 10,
+    "new_semantic_original_source_IDs_itemized_in_this_turn": 104,
+    "new_original_school_source_ID_lists_in_this_turn": 2,
+    "remaining17_source_original_geometry_gap_ref": "data/review/p12-g04s1-113-p04b-remaining17-45page-original-source-geometry-gap-v1.json",
+    "remaining17_original_section_working_response_regions_NONCERTIFIED": 1123,
+    "remaining17_source_raw_candidates_NOT_CERTIFIED": 744,
+    "remaining17_PDF_vector_shape_candidates_NOT_CONFIRMED": 159,
+    "original_scan_only_original_papers_pending": 5,
+    "latest_source_identity_evidence_refs": [
+      "data/review/p12-g04s1-113-p04b-shihu-mid50-native-original-source-bbox-v1.json",
+      "data/review/p12-g04s1-113-p04b-guangxing-mid54-original-native-plus-vector-answer-frames-v1.json"
+    ],
+    "rescued_original_unpublished_IDs_this_turn": 48,
+    "source_original_PDF_binary_sha_revalidated_for_new_papers": 2
   },
   "p04b_working_denominator_identity_conservation": {
     "all29_preliminary_regions": 1762,
-    "itemized_ten_original_papers": 535,
-    "remaining19_preliminary_regions": 1227,
+    "itemized_twelve_original_papers": 639,
+    "remaining17_preliminary_regions": 1123,
     "arithmetic_check": true,
-    "meaning": "section-level working denominator, NOT formally certified school original answer position universe"
+    "meaning": "Only work allocation, NOT formal response count; some source options share one answer decision or nonresponse markers appear in PDF"
   },
   "latest_source_identity_audit_git_commit": "b899eaafd77b5c52bb1faaaa7160e38deaf716b9"
 }

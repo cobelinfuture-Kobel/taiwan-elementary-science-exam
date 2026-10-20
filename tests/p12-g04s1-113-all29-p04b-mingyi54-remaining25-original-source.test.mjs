@@ -33,8 +33,8 @@ test('Mingyi FINAL: 54 actually distinct printed answer decisions, not 61 raw gl
 });
 test('P04B after four source list proofs still 25 original PDFs / 64 pages / 5 scan-only sources NOT admission-ready',()=>{
  assert.equal(m.paper_records.length,29);
- assert.equal(m.p04b_papers_with_fully_itemized_original_source_slot_ids,10);
- assert.equal(m.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,535);
+ assert.equal(m.p04b_papers_with_fully_itemized_original_source_slot_ids,12);
+ assert.equal(m.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,639);
  assert.equal(m.formally_closed_papers,0);
  assert.equal(m.source_position_universe_certified,false);
  assert.equal(m.all29_complete,false);

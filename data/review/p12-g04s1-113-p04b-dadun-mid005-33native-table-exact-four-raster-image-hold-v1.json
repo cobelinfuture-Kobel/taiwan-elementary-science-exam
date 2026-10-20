@@ -1,0 +1,647 @@
+{
+  "schema_version": "P12_G04S1_113_P04B_DADUN_MID005_37_REGION_SEMANTIC_GRANULARITY_REPAIR_33EXACT_4IMAGEHOLD_V1",
+  "scope": "113 G04S1 original DaDun MID005 66 section working source answers, frozen 48KP; supplementary nonpublic correction only.",
+  "old_provisional_4_4_8_section3_ref": "data/review/p12-g04s1-113-p04b-dadun-mid66-partial-source-id-parent-geometry-gap-v1.json",
+  "original_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+  "original_pdf_binary_SHA256_verified_direct": true,
+  "original_pdf_page_for_new_locations": 2,
+  "prior_29_original_native_pdf_exact_tfmc_source_bboxes_preserved": 29,
+  "corrected_original_section3_16_answers_8PLANTcells_4EARTHterms_4LANDFORMpicture_slots": true,
+  "reason": "Original PDF clearly prints four water-plant rows with 2 distinct blank cells each (growth-feature code + plant example code); old 4/4/8 working grouping had the same subtotal 16 but represented wrong actual source child identity. Four original landform picture panel label parentheses are image, not 8 different student answer regions. Original printed 17 scoring points must NOT manufacture a seventeenth independent response slot.",
+  "original_table_8_cells_pdf_vector_exact": 8,
+  "earthquake_native_printed_parens_exact": 4,
+  "original_four_landform_photo_label_parentheses_raster_source_img_HOLD": 4,
+  "original_s04_native_17_check_exact": 17,
+  "original_s05_native_4_mc_exact": 4,
+  "original_this_cycle_new_exact_physical_original_source_region_bboxes": 33,
+  "original_this_cycle_remaining_fig_label_ink_bbox_HOLD": 4,
+  "recovered_source_marker_or_exact_table_answer_regions_total_out_of66": 62,
+  "source_ids_full_66_final_accepted": false,
+  "no_immutable_frozen_master_historical_region_counts_changed": true,
+  "source_images_or_scanned_images_republished": false,
+  "science_uniqueness_frozen48KP_semantic_dedup_rights_operator_unchecked": true,
+  "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+  "ADMISSION_READY_new": 0,
+  "PUBLISHED_new": 0,
+  "verified_original_source_response_regions": [
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G01|GROWTH_FEATURE|001",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        147.38,
+        257.54,
+        233.805,
+        279.5
+      ],
+      "source_geometry_kind": "SOURCE_ORIGINAL_PDF_VECTOR_TABLE_EMPTY_RESPONSE_CELL",
+      "original_parent_group": "S03_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "4 plant classification table rows each with two separately drawn answer columns",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G01|PLANT_EXAMPLE|001",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        234.29,
+        257.54,
+        340.13,
+        279.5
+      ],
+      "source_geometry_kind": "SOURCE_ORIGINAL_PDF_VECTOR_TABLE_EMPTY_RESPONSE_CELL",
+      "original_parent_group": "S03_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "4 plant classification table rows each with two separately drawn answer columns",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G01|GROWTH_FEATURE|002",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        147.38,
+        279.98,
+        233.805,
+        302.06
+      ],
+      "source_geometry_kind": "SOURCE_ORIGINAL_PDF_VECTOR_TABLE_EMPTY_RESPONSE_CELL",
+      "original_parent_group": "S03_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "4 plant classification table rows each with two separately drawn answer columns",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G01|PLANT_EXAMPLE|002",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        234.29,
+        279.98,
+        340.13,
+        302.06
+      ],
+      "source_geometry_kind": "SOURCE_ORIGINAL_PDF_VECTOR_TABLE_EMPTY_RESPONSE_CELL",
+      "original_parent_group": "S03_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "4 plant classification table rows each with two separately drawn answer columns",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G01|GROWTH_FEATURE|003",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        147.38,
+        302.54,
+        233.805,
+        324.5
+      ],
+      "source_geometry_kind": "SOURCE_ORIGINAL_PDF_VECTOR_TABLE_EMPTY_RESPONSE_CELL",
+      "original_parent_group": "S03_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "4 plant classification table rows each with two separately drawn answer columns",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G01|PLANT_EXAMPLE|003",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        234.29,
+        302.54,
+        340.13,
+        324.5
+      ],
+      "source_geometry_kind": "SOURCE_ORIGINAL_PDF_VECTOR_TABLE_EMPTY_RESPONSE_CELL",
+      "original_parent_group": "S03_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "4 plant classification table rows each with two separately drawn answer columns",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G01|GROWTH_FEATURE|004",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        147.38,
+        324.986,
+        233.805,
+        347.09
+      ],
+      "source_geometry_kind": "SOURCE_ORIGINAL_PDF_VECTOR_TABLE_EMPTY_RESPONSE_CELL",
+      "original_parent_group": "S03_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "4 plant classification table rows each with two separately drawn answer columns",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G01|PLANT_EXAMPLE|004",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        234.29,
+        324.986,
+        340.13,
+        347.09
+      ],
+      "source_geometry_kind": "SOURCE_ORIGINAL_PDF_VECTOR_TABLE_EMPTY_RESPONSE_CELL",
+      "original_parent_group": "S03_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "4 plant classification table rows each with two separately drawn answer columns",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G02|EARTH_TERM|001",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        54.6,
+        423.924,
+        110.784,
+        437.964
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S03_G02",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "original earthquake term legend 4 contexts",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G02|EARTH_TERM|002",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        54.6,
+        446.004,
+        110.784,
+        460.044
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S03_G02",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "original earthquake term legend 4 contexts",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G02|EARTH_TERM|003",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        54.6,
+        467.964,
+        110.784,
+        482.004
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S03_G02",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "original earthquake term legend 4 contexts",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G02|EARTH_TERM|004",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        54.6,
+        489.924,
+        110.784,
+        503.964
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S03_G02",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "original earthquake term legend 4 contexts",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G01|CHECK|001",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        56.76,
+        906.322,
+        95.507,
+        922.777
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G01|CHECK|002",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        56.76,
+        927.318,
+        95.507,
+        943.773
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G01|CHECK|003",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        56.76,
+        948.318,
+        95.507,
+        964.773
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G01|CHECK|004",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        34.662,
+        432.153,
+        51.117
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G01|CHECK|005",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        55.662,
+        432.153,
+        72.117
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G01|CHECK|006",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        76.662,
+        432.153,
+        93.117
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G02|CHECK|001",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        160.682,
+        432.153,
+        177.137
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G02",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G02|CHECK|002",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        181.682,
+        432.153,
+        198.137
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G02",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G02|CHECK|003",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        202.682,
+        432.153,
+        219.137
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G02",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G02|CHECK|004",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        223.682,
+        432.153,
+        240.137
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G02",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G02|CHECK|005",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        244.682,
+        432.153,
+        261.137
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G02",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G02|CHECK|006",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        265.682,
+        432.153,
+        282.137
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G02",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G03|CHECK|001",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        307.682,
+        432.153,
+        324.137
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G03",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G03|CHECK|002",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        328.712,
+        432.153,
+        345.167
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G03",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G03|CHECK|003",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        349.712,
+        432.153,
+        366.167
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G03",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G03|CHECK|004",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        370.712,
+        432.153,
+        387.167
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G03",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S04|G03|CHECK|005",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        393.43,
+        391.712,
+        432.153,
+        408.167
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S04_G03",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "animal habitat 6; earthquake safety 6; forest benefits 5",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S05|G01|MC|001",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        379.27,
+        720.824,
+        426.85,
+        734.864
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S05_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "original school wetland observation table and four dependent MC items",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S05|G01|MC|002",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        379.27,
+        762.824,
+        426.85,
+        776.864
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S05_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "original school wetland observation table and four dependent MC items",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S05|G01|MC|003",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        379.27,
+        825.854,
+        426.85,
+        839.894
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S05_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "original school wetland observation table and four dependent MC items",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S05|G01|MC|004",
+      "original_pdf_page": 2,
+      "original_source_answer_or_table_cell_bbox_pdf_pt": [
+        379.27,
+        888.854,
+        426.85,
+        902.894
+      ],
+      "source_geometry_kind": "NATIVE_PDF_PRINTED_ANSWER_PARENTHESIS",
+      "original_parent_group": "S05_G01",
+      "original_pdf_SHA256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "dependent_original_figure_or_table": "original school wetland observation table and four dependent MC items",
+      "full_original_question_science_directKP_duplicates_rights_gate_accepted": false,
+      "admission_ready": false
+    }
+  ],
+  "figure_label_raster_4_provisional_holds": [
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G03|LANDFORM_IMAGE_CODE|001",
+      "original_pdf_page": 2,
+      "original_source_PDF_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "original_embedded_figure_xref": 41,
+      "original_image_size_px": [
+        265,
+        341
+      ],
+      "original_image_placement_pdf_bbox": [
+        42.55,
+        598.3,
+        227.5,
+        836.25
+      ],
+      "original_answer_ink_bbox_pdf_pt": null,
+      "source_figure_contains_four_individually_printed_answer_pairs": true,
+      "original_figure_parent_rights_and_raster_component_geometry_pending": true,
+      "previous_eight_image_regions_source_working_estimate_not_formally_counted": true,
+      "source_geometry_kind": "HOLD_EXACT_RASTER_ANSWER_MARKER_IN_SOURCE_FIGURE",
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G03|LANDFORM_IMAGE_CODE|002",
+      "original_pdf_page": 2,
+      "original_source_PDF_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "original_embedded_figure_xref": 41,
+      "original_image_size_px": [
+        265,
+        341
+      ],
+      "original_image_placement_pdf_bbox": [
+        42.55,
+        598.3,
+        227.5,
+        836.25
+      ],
+      "original_answer_ink_bbox_pdf_pt": null,
+      "source_figure_contains_four_individually_printed_answer_pairs": true,
+      "original_figure_parent_rights_and_raster_component_geometry_pending": true,
+      "previous_eight_image_regions_source_working_estimate_not_formally_counted": true,
+      "source_geometry_kind": "HOLD_EXACT_RASTER_ANSWER_MARKER_IN_SOURCE_FIGURE",
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G03|LANDFORM_IMAGE_CODE|003",
+      "original_pdf_page": 2,
+      "original_source_PDF_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "original_embedded_figure_xref": 41,
+      "original_image_size_px": [
+        265,
+        341
+      ],
+      "original_image_placement_pdf_bbox": [
+        42.55,
+        598.3,
+        227.5,
+        836.25
+      ],
+      "original_answer_ink_bbox_pdf_pt": null,
+      "source_figure_contains_four_individually_printed_answer_pairs": true,
+      "original_figure_parent_rights_and_raster_component_geometry_pending": true,
+      "previous_eight_image_regions_source_working_estimate_not_formally_counted": true,
+      "source_geometry_kind": "HOLD_EXACT_RASTER_ANSWER_MARKER_IN_SOURCE_FIGURE",
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G03|LANDFORM_IMAGE_CODE|004",
+      "original_pdf_page": 2,
+      "original_source_PDF_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "original_embedded_figure_xref": 41,
+      "original_image_size_px": [
+        265,
+        341
+      ],
+      "original_image_placement_pdf_bbox": [
+        42.55,
+        598.3,
+        227.5,
+        836.25
+      ],
+      "original_answer_ink_bbox_pdf_pt": null,
+      "source_figure_contains_four_individually_printed_answer_pairs": true,
+      "original_figure_parent_rights_and_raster_component_geometry_pending": true,
+      "previous_eight_image_regions_source_working_estimate_not_formally_counted": true,
+      "source_geometry_kind": "HOLD_EXACT_RASTER_ANSWER_MARKER_IN_SOURCE_FIGURE",
+      "admission_ready": false
+    }
+  ],
+  "next_required": "Verify actual original image xref41 raster four printed parenthesis ink components and page2 source affine. Then reconcile all66 source identity geometries; formal source+Science+KP+Rights+Operator still separate."
+}

@@ -137,7 +137,17 @@
       "p04b_native_unnumbered_blank_candidate_count": 28,
       "p04b_native_square_candidate_count": 0,
       "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
-      "p04b_candidate_not_formal_full_answer_slot_bbox": true
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true,
+      "p04b_source_unique_slot_identifiers_itemized": 55,
+      "p04b_source_unique_slot_id_and_geometry_ref": "data/review/p12-g04s1-113-p04b-wende-mid55-exact-source-subanswers-and-geometry-v1.json",
+      "p04b_source_original_native_exact_answer_marker_bbox_count": 52,
+      "p04b_source_original_nonparenthesis_answer_anchor_count": 3,
+      "p04b_source_full_exact_answer_geometry_and_parent_accepted": false,
+      "p04b_source_itemized_unresolved_context_and_geometry": [
+        "2 original figure precise answer area crops pending",
+        "complete exact stem/choice/parent and admission gates pending"
+      ],
+      "p04b_source_slot_count_frozen_original_paper_reconciled": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_002",
@@ -1977,7 +1987,17 @@
       "p04b_native_unnumbered_blank_candidate_count": 0,
       "p04b_native_square_candidate_count": 0,
       "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
-      "p04b_candidate_not_formal_full_answer_slot_bbox": true
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true,
+      "p04b_source_unique_slot_identifiers_itemized": 38,
+      "p04b_source_unique_slot_id_and_geometry_ref": "data/review/p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json",
+      "p04b_source_original_native_exact_answer_marker_bbox_count": 31,
+      "p04b_source_original_nonparenthesis_answer_anchor_count": 7,
+      "p04b_source_full_exact_answer_geometry_and_parent_accepted": false,
+      "p04b_source_itemized_unresolved_context_and_geometry": [
+        "7 matching source anchor→destination lines full figure parent pending",
+        "reading source parent and rights pending"
+      ],
+      "p04b_source_slot_count_frozen_original_paper_reconciled": true
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_011",
@@ -2142,5 +2162,16 @@
   "p04b_native_source_other_empty_brackets_candidates_NOT_CERTIFIED": 729,
   "p04b_native_source_square_glyph_candidates_NOT_CERTIFIED": 38,
   "p04b_binary_and_initial_geometry_coverage_evidence_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
-  "p04b_every_original_paper_all_answer_position_BBox_parent_certified": false
+  "p04b_every_original_paper_all_answer_position_BBox_parent_certified": false,
+  "p04b_papers_with_fully_itemized_original_source_slot_ids": 2,
+  "p04b_unique_original_source_slot_id_records_in_new_source_only_proofs": 93,
+  "p04b_additional_original_source_answer_anchor_provenance_refs": [
+    "data/review/p12-g04s1-113-p04b-wende-mid55-exact-source-subanswers-and-geometry-v1.json",
+    "data/review/p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json"
+  ],
+  "p04b_native_answer_brackets_in_new_itemized_proofs": 83,
+  "p04b_special_response_anchor_records_in_new_itemized_proofs": 10,
+  "p04b_perpaper_section_working_sum_is_not_formal_source_universe": true,
+  "p04b_formal_new_completed_original_papers": 0,
+  "p04b_all29_source_itemization_complete": false
 }

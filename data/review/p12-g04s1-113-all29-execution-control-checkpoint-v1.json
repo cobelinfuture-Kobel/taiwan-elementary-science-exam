@@ -95,7 +95,7 @@
     "PUBLISHED_SITE_TOTAL": 814
   },
   "unresolved_remaining_execution": [
-    "ALL29 P04B: 29 PDFs 72 pages verified, all72 page-level source marker-vs-section-region gap proof durable. 2 exam original per-slot source lists itemized 55+38=93 (not 93 formal admission ready); 27 more source files require complete individually mapped subanswer identities. Wende2 image exact crop HOLD; Dahua7 drawn match line and reading parent/rights HOLD. 16 scan-only pages need all original visual answer areas; other native candidate count false positives require visual semantic dedup. Source original section working regions1762 NOT fully certified. Continue whole29 across source groups without inserting new Science/KP layers.",
+    "P04B ALL29: four complete original source response identifier lists 55+38+50+54=197, not Science/KP/Admission complete. Remaining25 original PDFs 64 pages, actual source binary SHA 25/25; 1565 provisional section response regions require real semantic answer identity and page geometry; 1130 raw source marker candidates and 237 vector rectangles are NOT additive unique answers. Scan-only 5 papers/16 pages require raster precise response bbox. Preserve parent figure/rights exceptions and source already published lineage; no forced annual 1762 exact denominator.",
     "P05: entire unpublished original Science unique-answer and direct 48KP existing formal evidence",
     "P05: exact 113 unpublished + all114 cross-paper full-stem/options/near duplicate confirmation and rights evidence",
     "P06: selectively admit eligible cohort under existing operator gate, source-only PR124 never wholesale merge",
@@ -110,7 +110,7 @@
     "partial ledger 775 as full universe",
     "published178 as total original answer positions"
   ],
-  "next_resume_task": "P12_G04S1_113_ALL29_P04B_Remaining27FullOriginalPaperSubAnswerIdentityAndBBox_ReuseAlreadyKnownProvenSource_NativeAndRaster_ThenCloseAll29ExactSourceSlotConservation_ThenExistingScience48KP_DedupRights_SelectiveAdmission_Pages",
+  "next_resume_task": "P12_G04S1_113_ALL29_P04B_Remaining25OriginalExam_FullSourceAnswerIDs_OriginalPageNativeOrRasterBBox_GroupParents_FigureContext_Then_All29_SourceCloseout_ExistingScience48KP_DedupRightsAdmission",
   "last_execution_commit_before_final_audit": "6672df7fccf6b952978dd6718df7b676732a894b",
   "p04_latest_ci_test_commit": "501dad525f47328215254754549abc0c6280079c",
   "p04_latest_reconciliation_commit": "28044051621973b4f2c317a89a29d25fdcc9fa95",
@@ -194,7 +194,7 @@
     "all29_original_source_pages": 72,
     "all29_original_source_page_candidate_geometry_audited": 72,
     "scan_source_pages_requiring_individual_visual_slot_bbox_review": 16,
-    "original_school_papers_with_complete_subanswer_id_list": 2,
+    "original_school_papers_with_complete_subanswer_id_list": 4,
     "original_source_subanswer_ids_itemized_from_Wende55_and_DahuaFinal38": 93,
     "Wende_MID001": {
       "working_count": 55,
@@ -229,8 +229,61 @@
     "original29_fullpaper_gap_tasks": 29,
     "total_source_work_items": 902,
     "internal_batch_size": 50,
-    "internal_batch_count": 19,
+    "internal_batch_count": 20,
     "no_new_formal_review_round": true,
-    "no_original_or_approved_sources_modified": true
-  }
+    "no_original_or_approved_sources_modified": true,
+    "original_source_subanswer_IDs_itemized": 197,
+    "individual_source_list_details": [
+      {
+        "paper_id": "SCI_G04_S1_113_MID_001",
+        "original_positions": 55,
+        "evidence": "data/review/p12-g04s1-113-p04b-wende-mid55-exact-source-subanswers-and-geometry-v1.json"
+      },
+      {
+        "paper_id": "SCI_G04_S1_113_FINAL_010",
+        "original_positions": 38,
+        "evidence": "data/review/p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json"
+      },
+      {
+        "paper_id": "SCI_G04_S1_113_MID_003",
+        "original_positions": 50,
+        "original_native_pdf_answer_brackets": 42,
+        "original_pdf_vector_answer_boxes": 8,
+        "evidence": "data/review/p12-g04s1-113-p04b-zhongxiao-mid50-source-markers-parent-figure-v1.json"
+      },
+      {
+        "paper_id": "SCI_G04_S1_113_FINAL_007",
+        "original_positions": 54,
+        "original_native_pdf_answer_fields": 52,
+        "grouped_four_single_choice_squares": 1,
+        "original_circuit_drawing_frame": 1,
+        "evidence": "data/review/p12-g04s1-113-p04b-mingyi-final54-source-decisions-and-native-vector-answer-bbox-v1.json"
+      }
+    ],
+    "original_school_papers_requiring_complete_unique_subanswer_identification": 25,
+    "remaining_source_original_pdf_pages": 64,
+    "remaining25_source_geometry_and_source_gap_proof_ref": "data/review/p12-g04s1-113-p04b-remaining25-64page-original-source-geometry-gap-v1.json",
+    "remaining25_source_raw_candidates_NOT_CERTIFIED": 1130,
+    "remaining25_PDF_vector_shape_candidates_NOT_CONFIRMED": 237,
+    "remaining25_original_section_working_response_regions_NOT_CERTIFIED": 1565,
+    "scan_original_source_pages_requiring_all_response_visual_geometry": 16,
+    "all29_working_region_count_NOT_FORMAL": 1762,
+    "old_legacy_source_universe_and_P04B_known_source_slots": 1056,
+    "distinct_original_unpublished_missing_prior_source_queue_recovered_total": 239,
+    "unpublished_source_identity_review_queue": 951,
+    "original_fullpaper_inventory_gap_tasks": 29,
+    "total_deterministic_source_and_paper_gap_tasks": 980,
+    "four_full_source_itemized_papers_complete_full_Admission_Gate": 0,
+    "original29_full_source_context_parent_picture_and_bbox_formal_closeout": 0,
+    "source_original_teacher_answer_keys_new": 0,
+    "historical_113_main_published_source_positions_unchanged": 178
+  },
+  "p04b_working_denominator_identity_conservation": {
+    "all29_preliminary_regions": 1762,
+    "itemized_four_original_papers": 197,
+    "remaining25_preliminary_regions": 1565,
+    "arithmetic_check": true,
+    "meaning": "working region arithmetic only, NOT certified original question universe; may change after original PDF semantic response counting"
+  },
+  "latest_source_identity_audit_git_commit": "046e2961113dd6692f2efe0101476145fc543e8b"
 }

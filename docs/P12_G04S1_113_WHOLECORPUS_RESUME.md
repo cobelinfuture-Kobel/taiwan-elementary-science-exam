@@ -42,3 +42,13 @@ SOURCE_EXACT → PDF_PAGE_BBOX → SCIENCE_UNIQUE_ANSWER → CANONICAL_KP → DU
 ## 第一批斷點
 
 從 NATIVE_TFMC_B01 的 50 個原生編號來源位置開始，對照完整原卷、既有 operator ZIP、真實 PDF BBox、科學唯一答案、直接 48 KP、跨 113／114 年語意去重和權利。已認證的項目繼承證據；有缺口的只記缺口。第一批完成後順序處理下一批，直到全卷集中入庫。
+
+## P04B 2026-10-20 inherited source-ID checkpoint (active)
+
+- **Active source-ID enumeration: 14/29 source school papers, 792 original response IDs**. Previous master v1 `12/29 / 639` remains a historical checkpoint; do not silently alter its frozen tests.
+- Two already extracted and SHA-matched original PDF proofs newly reconciled into the operational count: `SCI_G04_S1_113_MID_012` (桃子腳 MID, 100 child IDs = 86 native answer bracket glyphs plus 14 original PDF vector cells) and `SCI_G04_S1_113_MID_018` (成功 MID, 53 child IDs = 45 native printed bracket plus 8 vector cells). This is **inheritance, not new source extraction**.
+- Active remaining work: **15 papers / 41 original PDF pages / 970 section-level working response regions**, all still NONCERTIFIED; five scan-only papers and 16 scan pages still require complete original visual answer-position and parent checks. Working section 1762 is *not* a certified independent answer-slot denominator.
+- New durable resume snapshot: `data/review/p12-g04s1-113-p04b-inherited2-itemized14-remaining15-source-resume-v2.json`, protected by `tests/p12-g04s1-113-p04b-inherited2-source-resume-v2.test.mjs`.
+- Source identity itemized does **not** mean full source text/options, shared reading/figure/rights, Science/KP, duplicate, or Admission gate accepted. Formal complete-papers **0/29**. This step has **FORMAL_SCIENCE_KP_APPROVED_new=0; ADMISSION_READY_new=0; PUBLISHED_new=0**. Previously published 113 source positions 178 remain unchanged.
+- Next: continue the 15 per-original-PDF source proofs; inherit available native or raster answer-marker geometry and only fill missing identities and parent/dependency evidence. Keep formal Gate and operator cohort authorization unchanged; do not return to small ad hoc student releases.
+

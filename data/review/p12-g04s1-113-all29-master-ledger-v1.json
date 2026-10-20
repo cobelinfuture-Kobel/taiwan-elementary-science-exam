@@ -122,7 +122,22 @@
       "original_text_layer_answer_position_recount": 55,
       "original_text_layer_answer_position_breakdown_ref": "data/review/p12-g04s1-113-p04-wende-zhongxiao-mid-textlayer-response-markers-v1.json",
       "original_text_layer_breakdown_section_count": 10,
-      "original_text_layer_count_difference_from_prior_score_heuristic": 0
+      "original_text_layer_count_difference_from_prior_score_heuristic": 0,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        428.04,
+        106.27,
+        460,
+        119.22
+      ],
+      "p04b_native_numbered_marker_candidate_count": 27,
+      "p04b_native_unnumbered_blank_candidate_count": 28,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_002",
@@ -147,7 +162,22 @@
       "section_reconciled_positions": 50,
       "section_count_status": "NATIVE_EXACT_PRINTED_POSITION_INVENTORY_WITH_LOCAL_64_POSITION_QA",
       "section_count_evidence_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
-      "section_count_is_full_certified_original_slot_inventory": false
+      "section_count_is_full_certified_original_slot_inventory": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "scan_visual",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        463.75,
+        539.38,
+        494.38,
+        557.5
+      ],
+      "p04b_native_numbered_marker_candidate_count": 0,
+      "p04b_native_unnumbered_blank_candidate_count": 0,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": true,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_003",
@@ -248,7 +278,22 @@
       "original_text_layer_answer_position_recount": 50,
       "original_text_layer_answer_position_breakdown_ref": "data/review/p12-g04s1-113-p04-wende-zhongxiao-mid-textlayer-response-markers-v1.json",
       "original_text_layer_breakdown_section_count": 8,
-      "original_text_layer_count_difference_from_prior_score_heuristic": 0
+      "original_text_layer_count_difference_from_prior_score_heuristic": 0,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        42.48,
+        123.76,
+        79.92,
+        138.49
+      ],
+      "p04b_native_numbered_marker_candidate_count": 18,
+      "p04b_native_unnumbered_blank_candidate_count": 28,
+      "p04b_native_square_candidate_count": 2,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_004",
@@ -333,7 +378,22 @@
       "p04b_native_original_pdf_marker_positions": 35,
       "p04b_native_original_pdf_marker_bbox_source_ref": "data/review/p12-g04s1-113-p04b-dongguang-mid-final-64-native-answer-marker-bbox-v1.json",
       "p04b_exact_original_source_parent_and_figure_dependency_certified": false,
-      "p04b_all_individual_source_positions_geometry_certified": false
+      "p04b_all_individual_source_positions_geometry_certified": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        371.35,
+        99.73,
+        403.31,
+        113.01
+      ],
+      "p04b_native_numbered_marker_candidate_count": 35,
+      "p04b_native_unnumbered_blank_candidate_count": 24,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_001",
@@ -358,7 +418,22 @@
       "section_reconciled_positions": 50,
       "section_count_status": "NATIVE_EXACT_PRINTED_POSITION_INVENTORY_WITH_LOCAL_64_POSITION_QA",
       "section_count_evidence_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
-      "section_count_is_full_certified_original_slot_inventory": false
+      "section_count_is_full_certified_original_slot_inventory": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "scan_visual",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        50,
+        115.62,
+        77.5,
+        135
+      ],
+      "p04b_native_numbered_marker_candidate_count": 0,
+      "p04b_native_unnumbered_blank_candidate_count": 0,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": true,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_002",
@@ -383,7 +458,22 @@
       "section_reconciled_positions": 50,
       "section_count_status": "NATIVE_EXACT_PRINTED_POSITION_INVENTORY_WITH_LOCAL_64_POSITION_QA",
       "section_count_evidence_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
-      "section_count_is_full_certified_original_slot_inventory": false
+      "section_count_is_full_certified_original_slot_inventory": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "scan_rotated_visual",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        228.2,
+        761.84,
+        242.09,
+        798.88
+      ],
+      "p04b_native_numbered_marker_candidate_count": 0,
+      "p04b_native_unnumbered_blank_candidate_count": 0,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": true,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_003",
@@ -492,7 +582,22 @@
       "p04b_native_original_pdf_marker_positions": 29,
       "p04b_native_original_pdf_marker_bbox_source_ref": "data/review/p12-g04s1-113-p04b-dongguang-mid-final-64-native-answer-marker-bbox-v1.json",
       "p04b_exact_original_source_parent_and_figure_dependency_certified": false,
-      "p04b_all_individual_source_positions_geometry_certified": false
+      "p04b_all_individual_source_positions_geometry_certified": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        371.35,
+        81.47,
+        403.31,
+        94.75
+      ],
+      "p04b_native_numbered_marker_candidate_count": 29,
+      "p04b_native_unnumbered_blank_candidate_count": 5,
+      "p04b_native_square_candidate_count": 2,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_005",
@@ -577,7 +682,22 @@
       "p04b_native_original_pdf_marker_positions": 29,
       "p04b_native_original_pdf_marker_bbox_source_ref": "data/review/p12-g04s1-113-p04b-dadun-mid29-native-answer-marker-bbox-v1.json",
       "p04b_exact_original_source_parent_and_figure_dependency_certified": false,
-      "p04b_all_individual_source_positions_geometry_certified": false
+      "p04b_all_individual_source_positions_geometry_certified": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        42.24,
+        123.97,
+        90.26,
+        135.97
+      ],
+      "p04b_native_numbered_marker_candidate_count": 29,
+      "p04b_native_unnumbered_blank_candidate_count": 25,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_006",
@@ -602,7 +722,22 @@
       "section_reconciled_positions": 62,
       "section_count_status": "NATIVE_EXACT_PRINTED_POSITION_INVENTORY_WITH_LOCAL_64_POSITION_QA",
       "section_count_evidence_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
-      "section_count_is_full_certified_original_slot_inventory": false
+      "section_count_is_full_certified_original_slot_inventory": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "scan_visual",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        55.62,
+        81.25,
+        92.5,
+        101.25
+      ],
+      "p04b_native_numbered_marker_candidate_count": 0,
+      "p04b_native_unnumbered_blank_candidate_count": 0,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": true,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_007",
@@ -671,7 +806,22 @@
       "original_text_layer_answer_position_recount": 74,
       "original_text_layer_answer_position_breakdown_ref": "data/review/p12-g04s1-113-p04-minquan-yongan-mid-textlayer-response-markers-v1.json",
       "original_text_layer_breakdown_section_count": 11,
-      "original_text_layer_count_difference_from_prior_score_heuristic": 0
+      "original_text_layer_count_difference_from_prior_score_heuristic": 0,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        375.1,
+        104.15,
+        412.51,
+        119.64
+      ],
+      "p04b_native_numbered_marker_candidate_count": 26,
+      "p04b_native_unnumbered_blank_candidate_count": 21,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_008",
@@ -764,7 +914,22 @@
       "original_text_layer_answer_position_recount": 75,
       "original_text_layer_answer_position_breakdown_ref": "data/review/p12-g04s1-113-p04-minquan-yongan-mid-textlayer-response-markers-v1.json",
       "original_text_layer_breakdown_section_count": 13,
-      "original_text_layer_count_difference_from_prior_score_heuristic": 0
+      "original_text_layer_count_difference_from_prior_score_heuristic": 0,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        425.93,
+        112.29,
+        473.95,
+        124.81
+      ],
+      "p04b_native_numbered_marker_candidate_count": 25,
+      "p04b_native_unnumbered_blank_candidate_count": 44,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_009",
@@ -825,7 +990,22 @@
       "original_text_layer_answer_position_recount": 50,
       "original_text_layer_answer_position_breakdown_ref": "data/review/p12-g04s1-113-p04-anhe-mingyi-guangxing-mid-textlayer-response-markers-v1.json",
       "original_text_layer_breakdown_section_count": 8,
-      "original_text_layer_count_difference_from_prior_score_heuristic": 0
+      "original_text_layer_count_difference_from_prior_score_heuristic": 0,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        381.41,
+        564.82,
+        409.45,
+        578.86
+      ],
+      "p04b_native_numbered_marker_candidate_count": 18,
+      "p04b_native_unnumbered_blank_candidate_count": 27,
+      "p04b_native_square_candidate_count": 9,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_010",
@@ -894,7 +1074,22 @@
       "original_text_layer_answer_position_recount": 50,
       "original_text_layer_answer_position_breakdown_ref": "data/review/p12-g04s1-113-p04-anhe-mingyi-guangxing-mid-textlayer-response-markers-v1.json",
       "original_text_layer_breakdown_section_count": 8,
-      "original_text_layer_count_difference_from_prior_score_heuristic": 0
+      "original_text_layer_count_difference_from_prior_score_heuristic": 0,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        374.59,
+        111.97,
+        422.59,
+        123.97
+      ],
+      "p04b_native_numbered_marker_candidate_count": 24,
+      "p04b_native_unnumbered_blank_candidate_count": 0,
+      "p04b_native_square_candidate_count": 7,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_011",
@@ -919,7 +1114,22 @@
       "section_reconciled_positions": 64,
       "section_count_status": "NATIVE_EXACT_PRINTED_POSITION_INVENTORY_WITH_LOCAL_64_POSITION_QA",
       "section_count_evidence_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
-      "section_count_is_full_certified_original_slot_inventory": false
+      "section_count_is_full_certified_original_slot_inventory": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        374.88,
+        105.11,
+        412.53,
+        120.11
+      ],
+      "p04b_native_numbered_marker_candidate_count": 20,
+      "p04b_native_unnumbered_blank_candidate_count": 38,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_012",
@@ -944,7 +1154,22 @@
       "section_reconciled_positions": 100,
       "section_count_status": "ORIGINAL_NATIVE_TEXT_SOURCE_SECTION_SUBRESPONSE_COUNT_RECONCILED__BBOX_AND_SCIENCE_KP_PENDING",
       "section_count_evidence_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
-      "section_count_is_full_certified_original_slot_inventory": false
+      "section_count_is_full_certified_original_slot_inventory": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_blank_unbound",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        51,
+        181.23,
+        79.1,
+        194.19
+      ],
+      "p04b_native_numbered_marker_candidate_count": 0,
+      "p04b_native_unnumbered_blank_candidate_count": 86,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_013",
@@ -969,7 +1194,22 @@
       "section_reconciled_positions": 50,
       "section_count_status": "ORIGINAL_NATIVE_TEXT_SOURCE_SECTION_SUBRESPONSE_COUNT_RECONCILED__BBOX_AND_SCIENCE_KP_PENDING",
       "section_count_evidence_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
-      "section_count_is_full_certified_original_slot_inventory": false
+      "section_count_is_full_certified_original_slot_inventory": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        33.48,
+        79.15,
+        65,
+        88.93
+      ],
+      "p04b_native_numbered_marker_candidate_count": 31,
+      "p04b_native_unnumbered_blank_candidate_count": 17,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_014",
@@ -994,7 +1234,22 @@
       "section_reconciled_positions": 50,
       "section_count_status": "ORIGINAL_NATIVE_TEXT_SOURCE_SECTION_SUBRESPONSE_COUNT_RECONCILED__BBOX_AND_SCIENCE_KP_PENDING",
       "section_count_evidence_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
-      "section_count_is_full_certified_original_slot_inventory": false
+      "section_count_is_full_certified_original_slot_inventory": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        308.23,
+        142.04,
+        347.11,
+        155
+      ],
+      "p04b_native_numbered_marker_candidate_count": 20,
+      "p04b_native_unnumbered_blank_candidate_count": 29,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_015",
@@ -1079,7 +1334,22 @@
       "original_text_layer_answer_position_recount": 54,
       "original_text_layer_answer_position_breakdown_ref": "data/review/p12-g04s1-113-p04-anhe-mingyi-guangxing-mid-textlayer-response-markers-v1.json",
       "original_text_layer_breakdown_section_count": 6,
-      "original_text_layer_count_difference_from_prior_score_heuristic": 0
+      "original_text_layer_count_difference_from_prior_score_heuristic": 0,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        297.77,
+        82.09,
+        327.77,
+        94.09
+      ],
+      "p04b_native_numbered_marker_candidate_count": 36,
+      "p04b_native_unnumbered_blank_candidate_count": 15,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_004",
@@ -1104,7 +1374,22 @@
       "section_reconciled_positions": 81,
       "section_count_status": "NATIVE_SOURCE_TEXT_PRINTED_SUBRESPONSE_INVENTORY_RECONCILED__ORIGINAL_PAGE_GEOMETRY_PENDING",
       "section_count_evidence_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
-      "section_count_is_full_certified_original_slot_inventory": false
+      "section_count_is_full_certified_original_slot_inventory": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        28.32,
+        117.92,
+        60.72,
+        130.88
+      ],
+      "p04b_native_numbered_marker_candidate_count": 19,
+      "p04b_native_unnumbered_blank_candidate_count": 50,
+      "p04b_native_square_candidate_count": 1,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_005",
@@ -1189,7 +1474,22 @@
       "original_text_layer_answer_position_recount": 80,
       "original_text_layer_answer_position_breakdown_ref": "data/review/p12-g04s1-113-p04-chenggong-yongan-final-textlayer-position-correction-v1.json",
       "original_text_layer_breakdown_section_count": 15,
-      "original_text_layer_count_difference_from_prior_score_heuristic": 0
+      "original_text_layer_count_difference_from_prior_score_heuristic": 0,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        42.12,
+        115.29,
+        90.12,
+        127.81
+      ],
+      "p04b_native_numbered_marker_candidate_count": 20,
+      "p04b_native_unnumbered_blank_candidate_count": 59,
+      "p04b_native_square_candidate_count": 6,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_006",
@@ -1250,7 +1550,22 @@
       "original_text_layer_answer_position_recount": 50,
       "original_text_layer_answer_position_breakdown_ref": "data/review/p12-g04s1-113-p04-anhe-dahua-final-textlayer-response-markers-v1.json",
       "original_text_layer_breakdown_section_count": 5,
-      "original_text_layer_count_difference_from_prior_score_heuristic": 0
+      "original_text_layer_count_difference_from_prior_score_heuristic": 0,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        377.83,
+        189.41,
+        412.93,
+        203.45
+      ],
+      "p04b_native_numbered_marker_candidate_count": 29,
+      "p04b_native_unnumbered_blank_candidate_count": 19,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_007",
@@ -1275,7 +1590,22 @@
       "section_reconciled_positions": 54,
       "section_count_status": "NATIVE_SOURCE_TEXT_PRINTED_SUBRESPONSE_INVENTORY_RECONCILED__ORIGINAL_PAGE_GEOMETRY_PENDING",
       "section_count_evidence_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
-      "section_count_is_full_certified_original_slot_inventory": false
+      "section_count_is_full_certified_original_slot_inventory": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        308.33,
+        62.16,
+        337.71,
+        74.38
+      ],
+      "p04b_native_numbered_marker_candidate_count": 22,
+      "p04b_native_unnumbered_blank_candidate_count": 35,
+      "p04b_native_square_candidate_count": 4,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_008",
@@ -1300,7 +1630,22 @@
       "section_reconciled_positions": 92,
       "section_count_status": "NATIVE_SOURCE_TEXT_PRINTED_SUBRESPONSE_INVENTORY_RECONCILED__ORIGINAL_PAGE_GEOMETRY_PENDING",
       "section_count_evidence_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
-      "section_count_is_full_certified_original_slot_inventory": false
+      "section_count_is_full_certified_original_slot_inventory": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_left",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        45.08,
+        143.14,
+        71.33,
+        156.22
+      ],
+      "p04b_native_numbered_marker_candidate_count": 11,
+      "p04b_native_unnumbered_blank_candidate_count": 62,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_009",
@@ -1325,7 +1670,22 @@
       "section_reconciled_positions": 50,
       "section_count_status": "NATIVE_EXACT_PRINTED_POSITION_INVENTORY_WITH_LOCAL_64_POSITION_QA",
       "section_count_evidence_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
-      "section_count_is_full_certified_original_slot_inventory": false
+      "section_count_is_full_certified_original_slot_inventory": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "scan_visual",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        55,
+        82.5,
+        93.75,
+        100.62
+      ],
+      "p04b_native_numbered_marker_candidate_count": 0,
+      "p04b_native_unnumbered_blank_candidate_count": 0,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": true,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_016",
@@ -1402,7 +1762,22 @@
       "p04b_native_original_pdf_marker_positions": 24,
       "p04b_native_original_pdf_marker_bbox_source_ref": "data/review/p12-g04s1-113-p04b-dahua-mid24-native-marker-bbox-v1.json",
       "p04b_exact_original_source_parent_and_figure_dependency_certified": false,
-      "p04b_all_individual_source_positions_geometry_certified": false
+      "p04b_all_individual_source_positions_geometry_certified": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_right",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        332.33,
+        80.79,
+        368.35,
+        92.79
+      ],
+      "p04b_native_numbered_marker_candidate_count": 26,
+      "p04b_native_unnumbered_blank_candidate_count": 5,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_017",
@@ -1427,7 +1802,22 @@
       "section_reconciled_positions": 68,
       "section_count_status": "NATIVE_SOURCE_TEXT_PRINTED_SUBRESPONSE_INVENTORY_RECONCILED__ORIGINAL_PAGE_GEOMETRY_PENDING",
       "section_count_evidence_ref": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
-      "section_count_is_full_certified_original_slot_inventory": false
+      "section_count_is_full_certified_original_slot_inventory": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_right",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        66.5,
+        136.09,
+        92.46,
+        149.37
+      ],
+      "p04b_native_numbered_marker_candidate_count": 24,
+      "p04b_native_unnumbered_blank_candidate_count": 29,
+      "p04b_native_square_candidate_count": 4,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_018",
@@ -1496,7 +1886,22 @@
       "original_text_layer_answer_position_recount": 53,
       "original_text_layer_answer_position_breakdown_ref": "data/review/p12-g04s1-113-p04-chenggong-yongan-final-textlayer-position-correction-v1.json",
       "original_text_layer_breakdown_section_count": 9,
-      "original_text_layer_count_difference_from_prior_score_heuristic": 3
+      "original_text_layer_count_difference_from_prior_score_heuristic": 3,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_right",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        395.83,
+        65.61,
+        426.03,
+        81.15
+      ],
+      "p04b_native_numbered_marker_candidate_count": 25,
+      "p04b_native_unnumbered_blank_candidate_count": 20,
+      "p04b_native_square_candidate_count": 1,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_010",
@@ -1557,7 +1962,22 @@
       "original_text_layer_answer_position_recount": 38,
       "original_text_layer_answer_position_breakdown_ref": "data/review/p12-g04s1-113-p04-anhe-dahua-final-textlayer-response-markers-v1.json",
       "original_text_layer_breakdown_section_count": 3,
-      "original_text_layer_count_difference_from_prior_score_heuristic": 0
+      "original_text_layer_count_difference_from_prior_score_heuristic": 0,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_right",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        328.01,
+        145.99,
+        361.15,
+        157.03
+      ],
+      "p04b_native_numbered_marker_candidate_count": 31,
+      "p04b_native_unnumbered_blank_candidate_count": 0,
+      "p04b_native_square_candidate_count": 0,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_011",
@@ -1644,7 +2064,22 @@
       "p04b_all_individual_source_positions_geometry_certified": false,
       "p04b_source_figure_only_answer_regions_visual_located": 10,
       "p04b_source_figure_only_answer_evidence_ref": "data/review/p12-g04s1-113-p04b-neihu-final10-image-vector-response-regions-v1.json",
-      "p04b_full_original_figure_dependencies_and_rights_certified": false
+      "p04b_full_original_figure_dependencies_and_rights_certified": false,
+      "p04b_actual_original_pdf_binary_sha256_verification": "PASS",
+      "p04b_first_answer_area_geometry_candidate_provenance_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+      "p04b_at_least_one_answer_marker_candidate": true,
+      "p04b_first_marker_kind": "native_number_right",
+      "p04b_first_marker_bbox_example_pdf_pt": [
+        320.35,
+        127.21,
+        350.35,
+        139.21
+      ],
+      "p04b_native_numbered_marker_candidate_count": 8,
+      "p04b_native_unnumbered_blank_candidate_count": 63,
+      "p04b_native_square_candidate_count": 2,
+      "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true
     }
   ],
   "section_count_reconciled_papers": 29,
@@ -1697,5 +2132,15 @@
   "p04b_source_figure_geometry_evidence_ref": "data/review/p12-g04s1-113-p04b-neihu-final10-image-vector-response-regions-v1.json",
   "p04b_source_working_regions_not_yet_individually_geometry_anchored_NONCERTIFIED": 1574,
   "p04b_existing_public_source_marker_identity_counts": 38,
-  "p04b_unpublished_locations_with_source_geometry": 150
+  "p04b_unpublished_locations_with_source_geometry": 150,
+  "p04b_source_original_binary_sha256_verified_papers": 29,
+  "p04b_original_source_pdf_pages_verified_from_binaries": 72,
+  "p04b_first_answer_area_geometry_candidate_papers": 29,
+  "p04b_source_papers_with_native_answer_markers": 24,
+  "p04b_scan_only_source_papers_with_first_approx_visual_answer_marker": 5,
+  "p04b_native_source_numbered_marker_candidates_NOT_CERTIFIED": 553,
+  "p04b_native_source_other_empty_brackets_candidates_NOT_CERTIFIED": 729,
+  "p04b_native_source_square_glyph_candidates_NOT_CERTIFIED": 38,
+  "p04b_binary_and_initial_geometry_coverage_evidence_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+  "p04b_every_original_paper_all_answer_position_BBox_parent_certified": false
 }

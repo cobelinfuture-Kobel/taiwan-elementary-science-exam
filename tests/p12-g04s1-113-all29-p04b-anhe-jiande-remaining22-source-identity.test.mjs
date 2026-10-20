@@ -80,8 +80,8 @@ test('ALL29 source original Anhe mid keeps 4 plant picture +4 fish labels + 3 qu
 });
 test('ALL29 P04B verified scope shifts from 4/29 to 7/29 complete original response-ID lists, but formal 29 original source gates remain unclosed',()=>{
  assert.equal(m.paper_records.length,29);
- assert.equal(m.p04b_papers_with_fully_itemized_original_source_slot_ids,10);
- assert.equal(m.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,535);
+ assert.equal(m.p04b_papers_with_fully_itemized_original_source_slot_ids,12);
+ assert.equal(m.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,639);
  assert.equal(m.formally_closed_papers,0);
  assert.equal(m.all29_complete,false);
  assert.equal(m.source_position_universe_certified,false);

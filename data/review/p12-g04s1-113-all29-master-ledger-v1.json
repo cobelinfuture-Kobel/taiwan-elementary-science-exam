@@ -1268,7 +1268,17 @@
       "p04b_native_unnumbered_blank_candidate_count": 17,
       "p04b_native_square_candidate_count": 0,
       "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
-      "p04b_candidate_not_formal_full_answer_slot_bbox": true
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true,
+      "p04b_source_unique_slot_identifiers_itemized": 50,
+      "p04b_source_unique_slot_id_and_geometry_ref": "data/review/p12-g04s1-113-p04b-shihu-mid50-native-original-source-bbox-v1.json",
+      "p04b_source_original_native_exact_answer_marker_bbox_count": 47,
+      "p04b_source_original_nonparenthesis_answer_anchor_count": 3,
+      "p04b_source_slot_count_frozen_original_paper_reconciled": true,
+      "p04b_source_full_exact_answer_geometry_and_parent_accepted": false,
+      "p04b_source_itemized_unresolved_context_and_geometry": [
+        "3 matched action source dots do not constitute student's drawn answer paths",
+        "2 source reading parents, external illustration/article rights and original source options still require admission gates"
+      ]
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_014",
@@ -1417,7 +1427,17 @@
       "p04b_native_unnumbered_blank_candidate_count": 15,
       "p04b_native_square_candidate_count": 0,
       "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
-      "p04b_candidate_not_formal_full_answer_slot_bbox": true
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true,
+      "p04b_source_unique_slot_identifiers_itemized": 54,
+      "p04b_source_unique_slot_id_and_geometry_ref": "data/review/p12-g04s1-113-p04b-guangxing-mid54-original-native-plus-vector-answer-frames-v1.json",
+      "p04b_source_original_native_exact_answer_marker_bbox_count": 51,
+      "p04b_source_original_nonparenthesis_answer_anchor_count": 3,
+      "p04b_source_slot_count_frozen_original_paper_reconciled": true,
+      "p04b_source_full_exact_answer_geometry_and_parent_accepted": false,
+      "p04b_source_itemized_unresolved_context_and_geometry": [
+        "3 original large vector-drawn freehand writing/drawing answer frames are actual source region rectangles",
+        "third-party whale article/photographs require source context and rights; cannot auto-publish"
+      ]
     },
     {
       "paper_id": "SCI_G04_S1_113_FINAL_004",
@@ -2242,8 +2262,8 @@
   "p04b_native_source_square_glyph_candidates_NOT_CERTIFIED": 38,
   "p04b_binary_and_initial_geometry_coverage_evidence_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
   "p04b_every_original_paper_all_answer_position_BBox_parent_certified": false,
-  "p04b_papers_with_fully_itemized_original_source_slot_ids": 10,
-  "p04b_unique_original_source_slot_id_records_in_new_source_only_proofs": 535,
+  "p04b_papers_with_fully_itemized_original_source_slot_ids": 12,
+  "p04b_unique_original_source_slot_id_records_in_new_source_only_proofs": 639,
   "p04b_additional_original_source_answer_anchor_provenance_refs": [
     "data/review/p12-g04s1-113-p04b-wende-mid55-exact-source-subanswers-and-geometry-v1.json",
     "data/review/p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json",
@@ -2254,10 +2274,12 @@
     "data/review/p12-g04s1-113-p04b-jiande-mid64-original-source-answer-ids-bbox-v1.json",
     "data/review/p12-g04s1-113-p04b-mingyi-mid50-original-answer-ids-native-checkbox-matching-anchor-v1.json",
     "data/review/p12-g04s1-113-p04b-minquan-mid74-native-source-marker-matching-parent-v1.json",
-    "data/review/p12-g04s1-113-p04b-lushang-mid50-native-answer-and-matching-bbox-v1.json"
+    "data/review/p12-g04s1-113-p04b-lushang-mid50-native-answer-and-matching-bbox-v1.json",
+    "data/review/p12-g04s1-113-p04b-shihu-mid50-native-original-source-bbox-v1.json",
+    "data/review/p12-g04s1-113-p04b-guangxing-mid54-original-native-plus-vector-answer-frames-v1.json"
   ],
-  "p04b_native_answer_brackets_in_new_itemized_proofs": 468,
-  "p04b_special_response_anchor_records_in_new_itemized_proofs": 67,
+  "p04b_native_answer_brackets_in_new_itemized_proofs": 566,
+  "p04b_special_response_anchor_records_in_new_itemized_proofs": 73,
   "p04b_perpaper_section_working_sum_is_not_formal_source_universe": true,
   "p04b_formal_new_completed_original_papers": 0,
   "p04b_all29_source_itemization_complete": false,

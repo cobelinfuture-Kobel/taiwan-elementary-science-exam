@@ -117,6 +117,19 @@ function build(root=ROOT,batchSize=50,opts={}){
   const sectionReady=m.paper_records.filter(p=>Number.isInteger(p.section_reconciled_positions)&&p.section_reconciled_positions>0);
   insist(sectionReady.length===m.section_count_reconciled_papers,'source section count paper coverage must match master');
   insist(sectionReady.reduce((n,p)=>n+p.section_reconciled_positions,0)===m.section_positions_reconciled_noncertified_sum,'source section response working denominator must match master');
+  // P04B minimum original geometry source coverage is not full answer-slot certification.
+  const partialGeometry=read('p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json',root);
+  insist(partialGeometry.papers.length===29 &&
+    m.p04b_first_answer_area_geometry_candidate_papers===29,'ALL29 first source geometry proof incomplete');
+  for(const paper of partialGeometry.papers){
+    const reg=validation.originals.get(paper.paper_id);
+    insist(reg && reg.original_pdf_sha256===paper.source_pdf_sha256_verified_against_original_file,
+      'P04B direct original PDF SHA mismatch '+paper.paper_id);
+    insist(reg.original_pdf_page_count===paper.original_pdf_page_count,
+      'P04B original PDF page count mismatch '+paper.paper_id);
+    insist(Array.isArray(paper.first_page_geometry_example_bbox_pt)&&
+      paper.first_page_geometry_example_bbox_pt.length===4,'P04B absent initial source marker '+paper.paper_id);
+  }
   const inventories=m.paper_records.filter(p=>!p.inventory_certified).map(p=>({
     kind:'PAPER_INVENTORY_GAP',paper_id:p.paper_id,source_pdf_sha256:p.original_pdf_sha256,
     source_section_response_region_count_NOT_EXACT:p.section_reconciled_positions,
@@ -176,6 +189,8 @@ function build(root=ROOT,batchSize=50,opts={}){
   return {schema_version:'P12_G04S1_113_ALL29_RESUME_V2',purpose:'ALL29_SOURCE_COVERAGE_ROUTING_NO_NEW_ADMISSION_GATE',
     snapshot_main_sha:pub.public_main_commit,original_papers:29,
     metrics:{registered_papers:29,published_113:validation.publishedIds.size,
+      original_papers_with_any_initial_geometry_candidate:partialGeometry.papers.length,
+      original_papers_with_full_answer_slot_geometry_certified:m.formally_closed_papers,
       section_papers_with_source_response_region_recount:sectionReady.length,
       source_section_response_region_count_NOT_EXACT:m.section_positions_reconciled_noncertified_sum,
       certified_full29_original_answer_slot_BBox_universe:m.source_position_universe_certified,

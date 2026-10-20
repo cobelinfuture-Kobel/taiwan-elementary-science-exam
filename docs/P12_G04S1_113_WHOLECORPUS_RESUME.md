@@ -79,3 +79,10 @@ SOURCE_EXACT → PDF_PAGE_BBOX → SCIENCE_UNIQUE_ANSWER → CANONICAL_KP → DU
 - Nonpublic metadata-only checkpoint: `data/review/p12-g04s1-113-p04b-remaining12-original-drive-text-preflight-v1.json`; regression: `tests/p12-g04s1-113-p04b-remaining12-original-drive-text-preflight.test.mjs`.
 - The priority missing-gate cases remain 東光 MID004 28 visual BBox/parent holds; 大墩 MID005 37; scan FINAL002 figure drawing4 and FINAL009 motor table composite2; all other original text papers require per-answer position map. Nothing may be marked formally admitted from these working records.
 
+
+### Neihu FINAL011 semantic source identity consolidation — 2026-10-20
+
+- Existing original source proofs reconcile **71 exact semantic response IDs**: 61 original PDF text answer marker BBoxes + 6 exact original PDF vector response rectangles + 4 **approximate** raster-rendered image marker rectangles. The four approximate rectangles are NOT original independently accepted PDF answer BBoxes: HOLD original source raster pixel/figure geometry.
+- Nonpublic source itemization proof `data/review/p12-g04s1-113-p04b-neihu-final71-source-identity-67exact-4approx-hold-v1.json` and test `tests/p12-g04s1-113-p04b-neihu-final71-67exact4approx.test.mjs`.
+- Neihu FINAL011 remains among **12 source geometry-incomplete papers**; the active **17/29 complete response-ID + source geometry proof** count remains unchanged. There is no new Science/KP/Admission/PUBLISHED approval.
+

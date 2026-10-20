@@ -66,8 +66,8 @@ test('P04B first actual two school source inventories preserve exact 55 and 38 c
  }
  assert.equal(n,93);
  assert.equal(unique.size,93);
- assert.equal(m.p04b_papers_with_fully_itemized_original_source_slot_ids,7);
- assert.equal(m.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,361);
+ assert.equal(m.p04b_papers_with_fully_itemized_original_source_slot_ids,10);
+ assert.equal(m.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,535);
  assert.equal(m.p04b_formal_new_completed_original_papers,0);
 });
 test('P04B Wende: 3 false positives excluded and 3 missed nonbracket replies restored, including drawings',()=>{

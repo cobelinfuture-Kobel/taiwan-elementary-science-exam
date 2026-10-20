@@ -24,7 +24,7 @@ test('ALL29 P04B 3 more original semantic paper inventories conserve true source
   const originalRow=baseline.get(item.paper_id), row=master.get(item.paper_id);
   assert.ok(originalRow&&row);
   assert.equal(item.original_pdf_sha256,originalRow.original_pdf_sha256);
-  assert.equal(item.original_pdf_pages,originalRow.original_pdf_page_count);
+  assert.equal(item.original_pdf_pages??item.original_pages,originalRow.original_pdf_page_count);
   assert.equal(item.records.length,row.section_reconciled_positions);
   assert.equal(item.records.length,row.p04b_source_unique_slot_identifiers_itemized);
   assert.equal(row.inventory_certified,false);

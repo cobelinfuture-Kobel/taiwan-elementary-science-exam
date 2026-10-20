@@ -80,9 +80,9 @@ test('Whole corpus source only completion 20/29 = 1154 original response region 
   assert.ok(b.length===4&&b[0]>=0&&b[1]>=0&&b[2]>b[0]&&b[3]>b[1]);
   assert.equal(row.full_source_and_science_KP_dup_rights_admission_pending,true);
  }
- assert.equal(d66.original_29_fully_formal_source_rights_science_admission_paper_closeout,0);
+ assert.equal(d66.all29_full_source_stem_options_figures_rights_science_KP_operator_admission_formal_complete_papers,0);
  assert.equal(d66.FORMAL_SCIENCE_KP_APPROVED_new,0);
  assert.equal(d66.ADMISSION_READY_new,0);
  assert.equal(d66.PUBLISHED_new,0);
- assert.equal(d66.existing_main_published_113_source_positions_unchanged,178);
+ assert.equal(d66.main_113_already_published_source_positions_unchanged,178);
 });

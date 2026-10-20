@@ -95,7 +95,7 @@
     "PUBLISHED_SITE_TOTAL": 814
   },
   "unresolved_remaining_execution": [
-    "P04B: all29 actual PDFs SHA verified and each has at least one answer marker geometry CANDIDATE; 24 original native text PDFs yield 553 numbered +729 unbound brackets+38 square glyph candidate locations, five scanned PDFs have one visually approximate original first marker each. NOT 29 full exam source/BBox acceptance; full original 1,762 working source-region denominator must be itemized by canonical source IDs with actual PDF page, parent and figure; align/dedup with pre-existing 188 before any formal approval.",
+    "ALL29 P04B: 29 PDFs 72 pages verified, all72 page-level source marker-vs-section-region gap proof durable. 2 exam original per-slot source lists itemized 55+38=93 (not 93 formal admission ready); 27 more source files require complete individually mapped subanswer identities. Wende2 image exact crop HOLD; Dahua7 drawn match line and reading parent/rights HOLD. 16 scan-only pages need all original visual answer areas; other native candidate count false positives require visual semantic dedup. Source original section working regions1762 NOT fully certified. Continue whole29 across source groups without inserting new Science/KP layers.",
     "P05: entire unpublished original Science unique-answer and direct 48KP existing formal evidence",
     "P05: exact 113 unpublished + all114 cross-paper full-stem/options/near duplicate confirmation and rights evidence",
     "P06: selectively admit eligible cohort under existing operator gate, source-only PR124 never wholesale merge",
@@ -110,7 +110,7 @@
     "partial ledger 775 as full universe",
     "published178 as total original answer positions"
   ],
-  "next_resume_task": "P12_G04S1_113_ALL29_P04B_UpgradeAll29_GeometryCandidatesTo_ExactOriginalSourceSlotIDs_PageBBox_ParentFigureVisualQA_Conserve1762_ByPaper_ThenExistingScience48KP_DedupRights_SelectivelyAdmit_And_Pages_All29Closeout",
+  "next_resume_task": "P12_G04S1_113_ALL29_P04B_Remaining27FullOriginalPaperSubAnswerIdentityAndBBox_ReuseAlreadyKnownProvenSource_NativeAndRaster_ThenCloseAll29ExactSourceSlotConservation_ThenExistingScience48KP_DedupRights_SelectiveAdmission_Pages",
   "last_execution_commit_before_final_audit": "6672df7fccf6b952978dd6718df7b676732a894b",
   "p04_latest_ci_test_commit": "501dad525f47328215254754549abc0c6280079c",
   "p04_latest_reconciliation_commit": "28044051621973b4f2c317a89a29d25fdcc9fa95",
@@ -187,5 +187,50 @@
     "admission_ready_new": 0,
     "published_new": 0
   },
-  "last_original_binary_coverage_commit": "446b7bc5f7c2b0f944a1b4bb94db9c7b834a6bf7"
+  "last_original_binary_coverage_commit": "446b7bc5f7c2b0f944a1b4bb94db9c7b834a6bf7",
+  "p04b_full29_per_original_slot_execution": {
+    "current_phase": "FULL29_ORIGINAL_SOURCE_SUBANSWER_IDENTIFICATION_WITH_FROZEN_EXISTING_ADMISSION_GATES",
+    "all29_original_source_PDFs_sha_verified": 29,
+    "all29_original_source_pages": 72,
+    "all29_original_source_page_candidate_geometry_audited": 72,
+    "scan_source_pages_requiring_individual_visual_slot_bbox_review": 16,
+    "original_school_papers_with_complete_subanswer_id_list": 2,
+    "original_source_subanswer_ids_itemized_from_Wende55_and_DahuaFinal38": 93,
+    "Wende_MID001": {
+      "working_count": 55,
+      "printed_source_ids": 55,
+      "native_original_pdf_exact_answer_marker_boxes": 52,
+      "vector_original_answer_writing_lines": 1,
+      "parent_diagram_bboxes_NOT_exact_response_crop": 2,
+      "raw_instruction_false_positive_brackets_rejected": 3,
+      "remaining_exact_figure_crop": 2,
+      "source_evidence_ref": "data/review/p12-g04s1-113-p04b-wende-mid55-exact-source-subanswers-and-geometry-v1.json"
+    },
+    "Dahua_FINAL010": {
+      "working_count": 38,
+      "printed_source_ids": 38,
+      "native_original_pdf_exact_answer_marker_boxes": 31,
+      "matching_orig_source_dots": 7,
+      "match_line_destination_and_parent_pending": 7,
+      "source_evidence_ref": "data/review/p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json"
+    },
+    "all29_original_other_papers_requiring_complete_individual_slot_identity_lists": 27,
+    "per_original_page_full_gap_audit_ref": "data/review/p12-g04s1-113-p04b-all29-all72pages-original-source-slot-conservation-gap-audit-v1.json",
+    "prior_29_source_working_section_positions_NON_CERTIFIED": 1762,
+    "original_fullpaper_PDF_PAGE_BBOX_and_parent_source_gate_closed_papers": 0,
+    "formal_Science_KP_approved_new": 0,
+    "admission_ready_new": 0,
+    "published_new": 0,
+    "original_existing_published_source_positions_unchanged": 178,
+    "old_known_source_locations": 928,
+    "newly_recovered_unpublished_distinct_source_ids": 42,
+    "known_source_locations_after_Wende_Dahua_source_ledger_union": 970,
+    "unpublished_source_work_tasks": 873,
+    "original29_fullpaper_gap_tasks": 29,
+    "total_source_work_items": 902,
+    "internal_batch_size": 50,
+    "internal_batch_count": 19,
+    "no_new_formal_review_round": true,
+    "no_original_or_approved_sources_modified": true
+  }
 }

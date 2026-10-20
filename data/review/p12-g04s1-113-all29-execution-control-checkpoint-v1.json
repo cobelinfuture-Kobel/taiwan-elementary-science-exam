@@ -95,7 +95,7 @@
     "PUBLISHED_SITE_TOTAL": 814
   },
   "unresolved_remaining_execution": [
-    "P04B: 29 PDFs section-level 1762 working regions NOT certified full source slots; 178 original native text locations+10 original vector/raster figure answer locations in 5 papers; full original SOURCE_EXACT parent stem and options, other papers and full original-figure rights/QA remain. Source worklist now 831 unpublished native/legacy known IDs +29 unsatisfied paper inventory tasks. Do not claim formal admissions.",
+    "P04B: all29 actual PDFs SHA verified and each has at least one answer marker geometry CANDIDATE; 24 original native text PDFs yield 553 numbered +729 unbound brackets+38 square glyph candidate locations, five scanned PDFs have one visually approximate original first marker each. NOT 29 full exam source/BBox acceptance; full original 1,762 working source-region denominator must be itemized by canonical source IDs with actual PDF page, parent and figure; align/dedup with pre-existing 188 before any formal approval.",
     "P05: entire unpublished original Science unique-answer and direct 48KP existing formal evidence",
     "P05: exact 113 unpublished + all114 cross-paper full-stem/options/near duplicate confirmation and rights evidence",
     "P06: selectively admit eligible cohort under existing operator gate, source-only PR124 never wholesale merge",
@@ -110,7 +110,7 @@
     "partial ledger 775 as full universe",
     "published178 as total original answer positions"
   ],
-  "next_resume_task": "P12_G04S1_113_ALL29_P04B_NextOriginalSchoolPapers_FullPdfSourceMarkers_BBoxNativeOrVerifiedRaster_ParentGroupRefs_ThenP05Science48KP_UniqueAnswer_DedupRightsSelectiveAdmission_P06P08_MainPages_All29Closeout",
+  "next_resume_task": "P12_G04S1_113_ALL29_P04B_UpgradeAll29_GeometryCandidatesTo_ExactOriginalSourceSlotIDs_PageBBox_ParentFigureVisualQA_Conserve1762_ByPaper_ThenExistingScience48KP_DedupRights_SelectivelyAdmit_And_Pages_All29Closeout",
   "last_execution_commit_before_final_audit": "6672df7fccf6b952978dd6718df7b676732a894b",
   "p04_latest_ci_test_commit": "501dad525f47328215254754549abc0c6280079c",
   "p04_latest_reconciliation_commit": "28044051621973b4f2c317a89a29d25fdcc9fa95",
@@ -161,6 +161,31 @@
     "original_source_grouped_id_convention": "SCI_G04_S1_113_*|Snn|Gnn|TYPE|nnn where figure/group parent exists",
     "grouped_source_identifiers_updated_without_original_source_change": 61,
     "note_on_188": "188 independently documented original answer marker locations from 5 original PDFs; 178 native text marker boxes + 6 PDF vector drawn image-box rectangles +4 rendered-raster image boxes. Only 38 previously published source identities within this group; the other 150 do NOT have formal admission approval.",
-    "last_source_group_canonical_commit": "6672df7fccf6b952978dd6718df7b676732a894b"
-  }
+    "last_source_group_canonical_commit": "6672df7fccf6b952978dd6718df7b676732a894b",
+    "initial_geometry_candidate_papers": 29,
+    "full_original_answer_slot_source_gate_closed_papers": 0,
+    "total_prior_unique_source_geometry_with_CI_candidate_ids": 188
+  },
+  "p04b_all29_binary_original_and_geometry_candidate_audit": {
+    "actual_original_PDF_binary_SHA_verified_papers": 29,
+    "original_PDF_pages_verified": 72,
+    "original_papers_with_at_least_one_geometry_candidate": 29,
+    "original_papers_with_native_text_layer": 24,
+    "scan_only_original_papers_with_first_visual_marker_APPROX": 5,
+    "native_numbered_answer_marker_candidates_not_admitted": 553,
+    "native_unbound_blank_marker_candidates_not_admitted": 729,
+    "native_square_marker_candidates_not_admitted": 38,
+    "full_original_paper_exact_source_slot_BBox_parent_inventory_accepted": 0,
+    "full_original_29_original_slot_universe_certified": false,
+    "previous_source_bboxes_before_this_run": 188,
+    "counts_cannot_be_added_to_existing_geometry_without_canonical_ID_dedup": true,
+    "repo_summary": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
+    "reproducible_extraction_script": "scripts/review/p12-g04s1-113-original-pdf-native-geometry.py",
+    "validation_test": "tests/p12-g04s1-113-all29-original-binary-and-geometry-candidates.test.mjs",
+    "original_pdfs_copied_to_git": false,
+    "formal_science_KP_approved_new": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "last_original_binary_coverage_commit": "446b7bc5f7c2b0f944a1b4bb94db9c7b834a6bf7"
 }

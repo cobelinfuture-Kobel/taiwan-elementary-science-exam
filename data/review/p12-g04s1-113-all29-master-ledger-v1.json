@@ -842,7 +842,16 @@
       "p04b_native_unnumbered_blank_candidate_count": 21,
       "p04b_native_square_candidate_count": 0,
       "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
-      "p04b_candidate_not_formal_full_answer_slot_bbox": true
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true,
+      "p04b_source_unique_slot_identifiers_itemized": 74,
+      "p04b_source_unique_slot_id_and_geometry_ref": "data/review/p12-g04s1-113-p04b-minquan-mid74-native-source-marker-matching-parent-v1.json",
+      "p04b_source_original_native_exact_answer_marker_bbox_count": 64,
+      "p04b_source_original_nonparenthesis_answer_anchor_count": 10,
+      "p04b_source_slot_count_frozen_original_paper_reconciled": true,
+      "p04b_source_full_exact_answer_geometry_and_parent_accepted": false,
+      "p04b_source_itemized_unresolved_context_and_geometry": [
+        "10 matching source labels not student-drawn lines, printed (2) repeated for aquatic plant group, picture parent and rights hold"
+      ]
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_008",
@@ -1120,7 +1129,16 @@
       "p04b_native_unnumbered_blank_candidate_count": 0,
       "p04b_native_square_candidate_count": 7,
       "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
-      "p04b_candidate_not_formal_full_answer_slot_bbox": true
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true,
+      "p04b_source_unique_slot_identifiers_itemized": 50,
+      "p04b_source_unique_slot_id_and_geometry_ref": "data/review/p12-g04s1-113-p04b-mingyi-mid50-original-answer-ids-native-checkbox-matching-anchor-v1.json",
+      "p04b_source_original_native_exact_answer_marker_bbox_count": 30,
+      "p04b_source_original_nonparenthesis_answer_anchor_count": 20,
+      "p04b_source_slot_count_frozen_original_paper_reconciled": true,
+      "p04b_source_full_exact_answer_geometry_and_parent_accepted": false,
+      "p04b_source_itemized_unresolved_context_and_geometry": [
+        "20 original matching source labels cannot verify a student's actual drawn line; shared source contexts and science passage Rights hold"
+      ]
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_011",
@@ -1290,7 +1308,16 @@
       "p04b_native_unnumbered_blank_candidate_count": 29,
       "p04b_native_square_candidate_count": 0,
       "p04b_is_scan_original_requiring_visual_full_slot_acceptance": false,
-      "p04b_candidate_not_formal_full_answer_slot_bbox": true
+      "p04b_candidate_not_formal_full_answer_slot_bbox": true,
+      "p04b_source_unique_slot_identifiers_itemized": 50,
+      "p04b_source_unique_slot_id_and_geometry_ref": "data/review/p12-g04s1-113-p04b-lushang-mid50-native-answer-and-matching-bbox-v1.json",
+      "p04b_source_original_native_exact_answer_marker_bbox_count": 47,
+      "p04b_source_original_nonparenthesis_answer_anchor_count": 3,
+      "p04b_source_slot_count_frozen_original_paper_reconciled": true,
+      "p04b_source_full_exact_answer_geometry_and_parent_accepted": false,
+      "p04b_source_itemized_unresolved_context_and_geometry": [
+        "3 matching source labels not drawn paths, fish anatomy and earthquake report images/source reading rights hold"
+      ]
     },
     {
       "paper_id": "SCI_G04_S1_113_MID_015",
@@ -2215,8 +2242,8 @@
   "p04b_native_source_square_glyph_candidates_NOT_CERTIFIED": 38,
   "p04b_binary_and_initial_geometry_coverage_evidence_ref": "data/review/p12-g04s1-113-p04b-all29-binary-sha-and-geometry-candidate-coverage-v1.json",
   "p04b_every_original_paper_all_answer_position_BBox_parent_certified": false,
-  "p04b_papers_with_fully_itemized_original_source_slot_ids": 7,
-  "p04b_unique_original_source_slot_id_records_in_new_source_only_proofs": 361,
+  "p04b_papers_with_fully_itemized_original_source_slot_ids": 10,
+  "p04b_unique_original_source_slot_id_records_in_new_source_only_proofs": 535,
   "p04b_additional_original_source_answer_anchor_provenance_refs": [
     "data/review/p12-g04s1-113-p04b-wende-mid55-exact-source-subanswers-and-geometry-v1.json",
     "data/review/p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json",
@@ -2224,10 +2251,13 @@
     "data/review/p12-g04s1-113-p04b-mingyi-final54-source-decisions-and-native-vector-answer-bbox-v1.json",
     "data/review/p12-g04s1-113-p04b-anhe-final50-original-source-slot-ids-native-bbox-v1.json",
     "data/review/p12-g04s1-113-p04b-anhe-mid50-original-source-slot-ids-native-pdf-bbox-v1.json",
-    "data/review/p12-g04s1-113-p04b-jiande-mid64-original-source-answer-ids-bbox-v1.json"
+    "data/review/p12-g04s1-113-p04b-jiande-mid64-original-source-answer-ids-bbox-v1.json",
+    "data/review/p12-g04s1-113-p04b-mingyi-mid50-original-answer-ids-native-checkbox-matching-anchor-v1.json",
+    "data/review/p12-g04s1-113-p04b-minquan-mid74-native-source-marker-matching-parent-v1.json",
+    "data/review/p12-g04s1-113-p04b-lushang-mid50-native-answer-and-matching-bbox-v1.json"
   ],
-  "p04b_native_answer_brackets_in_new_itemized_proofs": 327,
-  "p04b_special_response_anchor_records_in_new_itemized_proofs": 34,
+  "p04b_native_answer_brackets_in_new_itemized_proofs": 468,
+  "p04b_special_response_anchor_records_in_new_itemized_proofs": 67,
   "p04b_perpaper_section_working_sum_is_not_formal_source_universe": true,
   "p04b_formal_new_completed_original_papers": 0,
   "p04b_all29_source_itemization_complete": false,

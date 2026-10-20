@@ -10,7 +10,7 @@ const reg=j('p12-g04s1-113-all29-kp48-source-firstpass-v1.json');
 test('Dongguang original S05 has TWO multi-select parent prompts, 7 native selection option anchors, and no false standalone boxes',()=>{
  assert.equal(d.original_two_group_questions_NOT_seven_independent_questions,2);
  assert.equal(d.original_printed_circle_option_targets,7);
- assert.equal(d.original_direct_draw_full_parent_questions_three,3);
+ assert.equal(d.original_source_drawing_parent_regions_without_physical_printed_answer_frame,3);
  assert.equal(d.original_independent_printed_answer_marker_BBoxes_elsewhere_in_this_paper,49);
  assert.equal(d.original_mixed_working_response_target_anchors_provisional_total,59);
  assert.equal(d.S05_multi_select_groups.length,2);

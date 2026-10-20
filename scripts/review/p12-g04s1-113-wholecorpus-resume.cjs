@@ -156,8 +156,25 @@ function build(root=ROOT,batchSize=50,opts={}){
     'p12-g04s1-113-p04b-dadun-mid29-native-answer-marker-bbox-v1.json',
     'p12-g04s1-113-p04b-dahua-mid24-native-marker-bbox-v1.json',
     'p12-g04s1-113-p04b-neihu-final61-native-answer-marker-bbox-v1.json',
-    'p12-g04s1-113-p04b-neihu-final10-image-vector-response-regions-v1.json'
+    'p12-g04s1-113-p04b-neihu-final10-image-vector-response-regions-v1.json',
+    // Fully itemized original paper source IDs, but picture/drawing/source-rights gates still HOLD.
+    'p12-g04s1-113-p04b-wende-mid55-exact-source-subanswers-and-geometry-v1.json',
+    'p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json'
   ];
+  const detailedSourceRecords=[
+    read('p12-g04s1-113-p04b-wende-mid55-exact-source-subanswers-and-geometry-v1.json',root),
+    read('p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json',root)
+  ];
+  insist(detailedSourceRecords.length===2 &&
+    detailedSourceRecords.reduce((n,x)=>n+x.records.length,0)===m.p04b_unique_original_source_slot_id_records_in_new_source_only_proofs,
+    'P04B per-paper original source slot conservation 55+38 required');
+  for(const doc of detailedSourceRecords){
+    const rootPaper=m.paper_records.find(p=>p.paper_id===doc.paper_id);
+    insist(rootPaper && rootPaper.section_reconciled_positions===doc.records.length,
+      'P04B individual original source slots do not reconcile '+doc.paper_id);
+    insist(!rootPaper.inventory_certified && !rootPaper.paper_closed,
+      'P04B source-only paper unexpectedly certified '+doc.paper_id);
+  }
   const preP04bLegacyUniqueCount=known.size;
   let p04bAdded=0;
   for(const filename of p04bFiles){

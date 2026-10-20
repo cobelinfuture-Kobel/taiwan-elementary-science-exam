@@ -80,8 +80,9 @@ test('P04 Wende55 and Zhongxiao50 source text-layer itemization is exact within 
    assert.equal(masterRow.exact_total_slots,null);
    assert.equal(masterRow.inventory_certified,false);
  }
- assert.equal(master.p04_source_text_layer_recount_papers,2);
- assert.equal(master.p04_source_text_layer_recount_response_positions,105);
+ // The two-paper frozen source proof remains 55+50; the accumulated master now covers eleven text-layer papers.
+ assert.equal(master.p04_source_text_layer_recount_papers,11);
+ assert.equal(master.p04_source_text_layer_recount_response_positions,629);
 });
 
 test('P04 direct original source text itemizations cover eleven papers / 629 printed response locations, not scored points',()=>{

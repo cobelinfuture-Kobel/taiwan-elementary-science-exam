@@ -1,0 +1,195 @@
+{
+  "schema_version": "P12_G04S1_113_B01_WENDE7_OPERATOR_APPROVED_FORMAL_V1",
+  "source_draft_PR124_stays_unmerged": true,
+  "source_draft_HEAD_sha": "16fbb51aa4c9288eb496ba6242a94017a00f6899",
+  "operator_input_verbatim": "核准, 續跑",
+  "operator_input_interpreted_precisely": "Response to immediately preceding B01 7Standalone_ExistingFormalAdmission_Then_SelectiveRelease task. Authorizes only seven precisely prelisted standalone school questions, not either of two parent groups or HOLD records, preserving all existing frozen Admission gates.",
+  "operator_approval_scope": "7 original B01 文德 113 四上 MID001 standalone TF004 TF012 TF014 TF015 MC007 MC008 MC011; four TF and three MC; question original printed source, unique science answer, direct 113 frozen48 KP, and Article9 school examination question TEXT ONLY accepted for selective public release. No additional science model pass.",
+  "user_request_not_teacher_answer_key": true,
+  "source_school": "彰化縣芬園鄉文德國民小學",
+  "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+  "source_pdf_pages_verified": 2,
+  "source_native_bbox_geometry_verified": true,
+  "original_question_text_and_all_options_verified": true,
+  "scan5_targeted_16pages_visual_checked": true,
+  "published_113_baseline_before_this_release": 178,
+  "site_public_answer_slots_baseline_before_this_release": 814,
+  "distinct_7_student_questions": 7,
+  "source_positions_7": 7,
+  "original_same_question_unpublished_aliases": [
+    {
+      "owner": "SCI_G04_S1_113_MID_001|S01|TF|015",
+      "alias": "SCI_G04_S1_113_MID_004|S02|TF|011"
+    },
+    {
+      "owner": "SCI_G04_S1_113_MID_001|S02|MC|011",
+      "alias": "SCI_G04_S1_113_MID_003|S02|MC|004"
+    }
+  ],
+  "original_school_teacher_answer_text_excluded": true,
+  "school_PDF_and_crop_figures_excluded": true,
+  "original_question_rights_path": "TAIWAN_COPYRIGHT_ARTICLE9_REGULATED_SCHOOL_EXAM_TEXT_ONLY",
+  "no_printed_scoring_in_public_site": true,
+  "source_verified_against_all29_targeted_originals": true,
+  "public814_exact_duplicate_suppression_verified": true,
+  "unrelated_31_HOLD_unchanged": true,
+  "parent_S03G05_4slots": "HOLD_SEPARATE_ATOMIC_PARENT",
+  "parent_S03G06_5slots": "HOLD_SEPARATE_ATOMIC_PARENT",
+  "records": [
+    {
+      "original_source_id": "SCI_G04_S1_113_MID_001|S01|TF|004",
+      "correct_answer": "X",
+      "canonical_kp_id": "sci_g04s1_02_02",
+      "source_page": 1,
+      "source_bbox": [
+        28.56,
+        256.39,
+        60.52,
+        269.34
+      ],
+      "science_unique_and_direct_kp_formal_accepted": true,
+      "article9_scope_text_only": true,
+      "operator_exact_7_subset_acceptance": true,
+      "admission_ready": true,
+      "duplicate_lineage": [
+        "SCI_G04_S1_113_MID_001|S01|TF|004"
+      ],
+      "fingerprint_FNV1a64": "3e3543c205ce8c5f"
+    },
+    {
+      "original_source_id": "SCI_G04_S1_113_MID_001|S01|TF|012",
+      "correct_answer": "X",
+      "canonical_kp_id": "sci_g04s1_02_11",
+      "source_page": 1,
+      "source_bbox": [
+        28.56,
+        740.47,
+        60.52,
+        753.4200000000001
+      ],
+      "science_unique_and_direct_kp_formal_accepted": true,
+      "article9_scope_text_only": true,
+      "operator_exact_7_subset_acceptance": true,
+      "admission_ready": true,
+      "duplicate_lineage": [
+        "SCI_G04_S1_113_MID_001|S01|TF|012"
+      ],
+      "fingerprint_FNV1a64": "d9080ed4b9b42a28"
+    },
+    {
+      "original_source_id": "SCI_G04_S1_113_MID_001|S01|TF|014",
+      "correct_answer": "O",
+      "canonical_kp_id": "sci_g04s1_02_13",
+      "source_page": 1,
+      "source_bbox": [
+        28.56,
+        850.39,
+        60.52,
+        863.34
+      ],
+      "science_unique_and_direct_kp_formal_accepted": true,
+      "article9_scope_text_only": true,
+      "operator_exact_7_subset_acceptance": true,
+      "admission_ready": true,
+      "duplicate_lineage": [
+        "SCI_G04_S1_113_MID_001|S01|TF|014"
+      ],
+      "fingerprint_FNV1a64": "d6b89156c045242e"
+    },
+    {
+      "original_source_id": "SCI_G04_S1_113_MID_001|S01|TF|015",
+      "correct_answer": "O",
+      "canonical_kp_id": "sci_g04s1_02_14",
+      "source_page": 1,
+      "source_bbox": [
+        28.56,
+        916.39,
+        60.52,
+        929.34
+      ],
+      "science_unique_and_direct_kp_formal_accepted": true,
+      "article9_scope_text_only": true,
+      "operator_exact_7_subset_acceptance": true,
+      "admission_ready": true,
+      "duplicate_lineage": [
+        "SCI_G04_S1_113_MID_001|S01|TF|015",
+        "SCI_G04_S1_113_MID_004|S02|TF|011"
+      ],
+      "fingerprint_FNV1a64": "5763f836b4deae4e"
+    },
+    {
+      "original_source_id": "SCI_G04_S1_113_MID_001|S02|MC|007",
+      "correct_answer": "②",
+      "canonical_kp_id": "sci_g04s1_02_09",
+      "source_page": 1,
+      "source_bbox": [
+        428.04,
+        546.19,
+        460,
+        559.1400000000001
+      ],
+      "science_unique_and_direct_kp_formal_accepted": true,
+      "article9_scope_text_only": true,
+      "operator_exact_7_subset_acceptance": true,
+      "admission_ready": true,
+      "duplicate_lineage": [
+        "SCI_G04_S1_113_MID_001|S02|MC|007"
+      ],
+      "fingerprint_FNV1a64": "61f626271a2fb7a8"
+    },
+    {
+      "original_source_id": "SCI_G04_S1_113_MID_001|S02|MC|008",
+      "correct_answer": "②",
+      "canonical_kp_id": "sci_g04s1_02_05",
+      "source_page": 1,
+      "source_bbox": [
+        428.04,
+        612.19,
+        460,
+        625.1400000000001
+      ],
+      "science_unique_and_direct_kp_formal_accepted": true,
+      "article9_scope_text_only": true,
+      "operator_exact_7_subset_acceptance": true,
+      "admission_ready": true,
+      "duplicate_lineage": [
+        "SCI_G04_S1_113_MID_001|S02|MC|008"
+      ],
+      "fingerprint_FNV1a64": "665950ed826c4625"
+    },
+    {
+      "original_source_id": "SCI_G04_S1_113_MID_001|S02|MC|011",
+      "correct_answer": "③",
+      "canonical_kp_id": "sci_g04s1_02_14",
+      "source_page": 1,
+      "source_bbox": [
+        428.04,
+        942.19,
+        460,
+        955.1400000000001
+      ],
+      "science_unique_and_direct_kp_formal_accepted": true,
+      "article9_scope_text_only": true,
+      "operator_exact_7_subset_acceptance": true,
+      "admission_ready": true,
+      "duplicate_lineage": [
+        "SCI_G04_S1_113_MID_001|S02|MC|011",
+        "SCI_G04_S1_113_MID_003|S02|MC|004"
+      ],
+      "fingerprint_FNV1a64": "9b6782a77c77f20a"
+    }
+  ],
+  "formal_before_merge": {
+    "FORMAL_SCIENCE_KP_APPROVED_new": 7,
+    "ADMISSION_READY_new": 7,
+    "PUBLISHED_new": 0
+  },
+  "release_acceptance_requirements": [
+    "Separate focused public PR CI PASS",
+    "Confirm public site A4 question display and answer same, no original scoring",
+    "Merge to main only with successful GitHub checks",
+    "Main and live Pages E2E verified before PUBLISHED increases"
+  ],
+  "B01_50_position_closed": false,
+  "B02_NOT_STARTED": true
+}

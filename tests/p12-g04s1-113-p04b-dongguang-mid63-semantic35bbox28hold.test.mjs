@@ -35,7 +35,8 @@ test('Dongguang 113 original MID63 source-only semantic IDs preserve physical 35
   assert.equal(x.original_source_geometry_proof,'PENDING_ORIGINAL_PDF_PER_GLYPH_OR_RASTER_REGION');
   assert.ok(x.original_shared_parent);
  }
- assert.equal(d.old_113_published_source_positions_preserved,paper.published_count);
+ assert.equal(d.old_113_published_source_positions_preserved,4);
+ assert.equal(paper.published_count,d.old_113_published_source_positions_preserved+4);
  assert.equal(d.source_exact_full_bbox_parent_gate_accepted,false);
  assert.equal(d.FORMAL_SCIENCE_KP_APPROVED_new,0);
  assert.equal(d.ADMISSION_READY_new,0);

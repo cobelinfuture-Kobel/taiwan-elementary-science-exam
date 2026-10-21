@@ -15,13 +15,32 @@ function build(){
  const published=ctrl.papers.reduce((n,p)=>n+p.main_published_count,0);
  if(published!==178||ctrl.exactly_ten_previously_triaged_unpublished_firstpage_original_source_IDs.length!==10)
   throw new Error('Existing public-lineage or reviewed10 baseline drift: fail-closed');
+ const fullyIdentified=new Map();
+ for(const paper of ctrl.papers){
+  const ref=paper.source_exact_native_slot_evidence_ref;
+  if(!ref)continue;
+  const proof=read(ref);
+  const exact=proof.records;
+  if(!Array.isArray(exact)||exact.length!==paper.noncertified_source_work_position_budget)
+   throw new Error('Proven source ID coverage changed: '+paper.original_paper_id);
+  const ids=new Set();
+  for(const x of exact){
+   if(!x.source_slot_id||!x.source_slot_id.startsWith(paper.original_paper_id+'|'))
+    throw new Error('Source slot provenance mismatched: '+paper.original_paper_id);
+   if(ids.has(x.source_slot_id))throw new Error('Duplicate provenance ID: '+x.source_slot_id);
+   ids.add(x.source_slot_id);
+  }
+  fullyIdentified.set(paper.original_paper_id,{ref,records:exact});
+ }
+ if(fullyIdentified.size!==12)throw new Error('12 fully source-ID itemized paper evidence baseline changed');
  const rows=[];
  let workOrdinal=0;
  for(const p of ctrl.papers){
+  const proven=fullyIdentified.get(p.original_paper_id);
   for(let i=0;i<p.noncertified_source_work_position_budget;i++){
-   const source =p.original_paper_id===wende.paper_id?wende.records[i] : null;
-   if(p.original_paper_id===wende.paper_id && !source)throw new Error('Missing Wende originally verified source identity');
-   if(source && source.original_pdf_sha256!==p.source_pdf_sha256)throw new Error('Original PDF mismatch');
+   const source =proven?proven.records[i]:null;
+   const sourceHash=source&&(source.original_pdf_sha256||source.source_pdf_sha256||source.registered_original_pdf_sha256);
+   if(sourceHash&&sourceHash!==p.source_pdf_sha256)throw new Error('Original PDF mismatch');
    workOrdinal++;
    rows.push({
     routing_work_pointer:'P12_G04S1_113_WORK_'+String(workOrdinal).padStart(4,'0'),
@@ -31,8 +50,8 @@ function build(){
     paper_work_position_index:i+1,
     exact_original_source_slot_id_or_null:source?source.source_slot_id:null,
     source_ID_verification:source?'ORIGINAL_PDF_PROOF_CONFIRMED':'WORKING_BUDGET_ONLY_NOT_A_SOURCE_SLOT_ID',
-    original_pdf_page_or_null:source?source.original_pdf_page:null,
-    source_geometry_evidence_ref_or_null:source?wendePath:null,
+    original_pdf_page_or_null:source?(source.original_pdf_page??source.page??null):null,
+    source_geometry_evidence_ref_or_null:proven?proven.ref:null,
     existing_published_lineage_is_separately_preserved:true,
     admission_disposition:'NOT_FORMALLY_ADMITTED_FROM_ROUTING',
     science_KP_formal_accepted:false,
@@ -40,7 +59,7 @@ function build(){
    });
   }
  }
- if(rows.length!==1762||new Set(rows.map(x=>x.routing_work_pointer)).size!==1762)
+ if(rows.length!==1762||new Set(rows.map(x=>x.routing_work_pointer)).size!==1762||rows.filter(x=>x.exact_original_source_slot_id_or_null).length!==639)
   throw new Error('Routing not source-work budget complete');
  const batches=[];
  for(let start=0;start<rows.length;start+=50){

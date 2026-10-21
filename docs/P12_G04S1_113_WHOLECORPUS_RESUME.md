@@ -170,3 +170,8 @@ SOURCE_EXACT → PDF_PAGE_BBOX → SCIENCE_UNIQUE_ANSWER → CANONICAL_KP → DU
 - TF003 mirrors object-image count, TF005 broad energy consumption and TF006 battery mixing: HOLD no direct currently frozen KP; TF006 original '始用' typo preserved, no silent source repair.
 - Evidence `data/review/p12-g04s1-113-existingformal-minquan-final004-tf3to6-sciencekp-1candidate-3hold-v1.json`. Test `tests/p12-g04s1-113-existingformal-minquan-final004-tf4-kp3-direct-context.test.mjs`.
 - Combined YongAn6+Minquan4 = 10 original still unpublished: 4 science/direct KP CANDIDATES (not approvals), two public duplicate suppressions, four direct KP/scope HOLD. New formal approvals0, admission ready0, published0, main113 source ID count178 unchanged; source Draft PR124.
+
+### Taozijiao original MC002 lexical option difference HOLD — 2026-10-21
+- Exact original v1 and main public 114 B04 MC003 comparison: stem identical, but only 3 of 4 choice TEXT values match; source says `改變電池品牌`, published says `更換電池品牌`. This is NOT only option reordering. Under approved 2026-10-19 rule preserve HOLD_DUPLICATE until item wording adjudication. Do not auto merge/re-publish.
+- This clarification supersedes any earlier model shorthand describing Taozijiao Q2 as a confirmed reorder-only duplicate. Original school text unchanged. Prior Q3/Q4 already main 113 suppress, Q5 science nonunique, Q1 lacks direct motor-polarity frozen KP.
+- Exact v2 evidence `data/review/p12-g04s1-113-p04b-taozijiao-s01-mc5-option-wording-duplicate-hold-v2.json` with deterministic test `tests/p12-g04s1-113-p04b-taozijiao-mc002-one-distractor-wording-hold.test.mjs`. No formal approvals or new publication.

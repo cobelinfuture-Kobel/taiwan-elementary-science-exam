@@ -1,0 +1,416 @@
+{
+  "schema_version": "P12_G04S1_113_B01_MAIN7_MERGED_EXACT50_PAGES_PENDING_V1",
+  "date_taiwan": "2026-10-21",
+  "batch": "B01",
+  "scope": "113 四上自然 48 KP 文德MID001 首50來源位置",
+  "source_draft_PR124_unmerged": true,
+  "student_PR148": {
+    "url": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/pull/148",
+    "merge_sha": "67a3140130bcdb2e835f5e5e53903db008f815ee",
+    "merged": true,
+    "SCIENCE_CI": "PASS",
+    "A4_Acceptance": "PASS"
+  },
+  "main_readback": {
+    "student_bank_path": "site/data/question-bank/p12-g04s1-113-b01-wende7-standalone-public-v1.json",
+    "main_blob_sha": "a860964605ba586283e9e3b9a7389cd7fe5c12bf",
+    "student_loader_contains_seven": true,
+    "exact_sixteen_positions_vs_learner_blocks": "seven standalone + two atomic parents=16 original answer positions in nine question blocks",
+    "currently_new_113_main_source_7": 7,
+    "previous_113_public_source_ids": 178,
+    "potential_113_main_source_ids": 185,
+    "previous_site_answer_slots": 814,
+    "potential_site_slots": 821
+  },
+  "original_50_dispositions": {
+    "HOLD_EXISTING_EXCEPTION": 31,
+    "FORMAL_APPROVED_ADMITTED_MAIN_PAGES_LIVE_PENDING": 7,
+    "PREEXISTING_MAIN_PUBLIC_SUPPRESSED": 3,
+    "HOLD_ATOMIC_PARENT_DEPENDENCY": 9
+  },
+  "rows": [
+    {
+      "ordinal": 1,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|001",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 2,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|002",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 3,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|003",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 4,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|004",
+      "disposition": "FORMAL_APPROVED_ADMITTED_MAIN_PAGES_LIVE_PENDING",
+      "reason": "Exact operator approval and PR #148 merged; not PUBLISHED until actual Pages live E2E",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 5,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|005",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 6,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|006",
+      "disposition": "PREEXISTING_MAIN_PUBLIC_SUPPRESSED",
+      "reason": "Already public before B01, preserve exact source lineage",
+      "source_original_status": "ALREADY_MAIN_PUBLISHED"
+    },
+    {
+      "ordinal": 7,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|007",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 8,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|008",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 9,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|009",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 10,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|010",
+      "disposition": "PREEXISTING_MAIN_PUBLIC_SUPPRESSED",
+      "reason": "Already public before B01, preserve exact source lineage",
+      "source_original_status": "ALREADY_MAIN_PUBLISHED"
+    },
+    {
+      "ordinal": 11,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|011",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 12,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|012",
+      "disposition": "FORMAL_APPROVED_ADMITTED_MAIN_PAGES_LIVE_PENDING",
+      "reason": "Exact operator approval and PR #148 merged; not PUBLISHED until actual Pages live E2E",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 13,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|013",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 14,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|014",
+      "disposition": "FORMAL_APPROVED_ADMITTED_MAIN_PAGES_LIVE_PENDING",
+      "reason": "Exact operator approval and PR #148 merged; not PUBLISHED until actual Pages live E2E",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 15,
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|015",
+      "disposition": "FORMAL_APPROVED_ADMITTED_MAIN_PAGES_LIVE_PENDING",
+      "reason": "Exact operator approval and PR #148 merged; not PUBLISHED until actual Pages live E2E",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 16,
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|001",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 17,
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|002",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 18,
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|003",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 19,
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|004",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 20,
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|005",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 21,
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|006",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 22,
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|007",
+      "disposition": "FORMAL_APPROVED_ADMITTED_MAIN_PAGES_LIVE_PENDING",
+      "reason": "Exact operator approval and PR #148 merged; not PUBLISHED until actual Pages live E2E",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 23,
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|008",
+      "disposition": "FORMAL_APPROVED_ADMITTED_MAIN_PAGES_LIVE_PENDING",
+      "reason": "Exact operator approval and PR #148 merged; not PUBLISHED until actual Pages live E2E",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 24,
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|009",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 25,
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|010",
+      "disposition": "PREEXISTING_MAIN_PUBLIC_SUPPRESSED",
+      "reason": "Already public before B01, preserve exact source lineage",
+      "source_original_status": "ALREADY_MAIN_PUBLISHED"
+    },
+    {
+      "ordinal": 26,
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|011",
+      "disposition": "FORMAL_APPROVED_ADMITTED_MAIN_PAGES_LIVE_PENDING",
+      "reason": "Exact operator approval and PR #148 merged; not PUBLISHED until actual Pages live E2E",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 27,
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|012",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 28,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G01|FILL|001",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 29,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G01|FILL|002",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 30,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G01|FILL|003",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 31,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G02|FILL|001",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 32,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G02|FILL|002",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 33,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G02|FILL|003",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 34,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G02|FILL|004",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 35,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G02|FILL|005",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 36,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G02|FILL|006",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 37,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G03|DRAW|001",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 38,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G04|DRAW|001",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 39,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G05|MATCH|001",
+      "disposition": "HOLD_ATOMIC_PARENT_DEPENDENCY",
+      "reason": "Two original shared parent groups (4+5 child answer locations), not part of explicitly released 7 standalone; preserve full parent and child dependency, no split or false release",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 40,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G05|MATCH|002",
+      "disposition": "HOLD_ATOMIC_PARENT_DEPENDENCY",
+      "reason": "Two original shared parent groups (4+5 child answer locations), not part of explicitly released 7 standalone; preserve full parent and child dependency, no split or false release",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 41,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G05|MATCH|003",
+      "disposition": "HOLD_ATOMIC_PARENT_DEPENDENCY",
+      "reason": "Two original shared parent groups (4+5 child answer locations), not part of explicitly released 7 standalone; preserve full parent and child dependency, no split or false release",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 42,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G05|MATCH|004",
+      "disposition": "HOLD_ATOMIC_PARENT_DEPENDENCY",
+      "reason": "Two original shared parent groups (4+5 child answer locations), not part of explicitly released 7 standalone; preserve full parent and child dependency, no split or false release",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 43,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G06|TF|001",
+      "disposition": "HOLD_ATOMIC_PARENT_DEPENDENCY",
+      "reason": "Two original shared parent groups (4+5 child answer locations), not part of explicitly released 7 standalone; preserve full parent and child dependency, no split or false release",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 44,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G06|TF|002",
+      "disposition": "HOLD_ATOMIC_PARENT_DEPENDENCY",
+      "reason": "Two original shared parent groups (4+5 child answer locations), not part of explicitly released 7 standalone; preserve full parent and child dependency, no split or false release",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 45,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G06|TF|003",
+      "disposition": "HOLD_ATOMIC_PARENT_DEPENDENCY",
+      "reason": "Two original shared parent groups (4+5 child answer locations), not part of explicitly released 7 standalone; preserve full parent and child dependency, no split or false release",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 46,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G06|TF|004",
+      "disposition": "HOLD_ATOMIC_PARENT_DEPENDENCY",
+      "reason": "Two original shared parent groups (4+5 child answer locations), not part of explicitly released 7 standalone; preserve full parent and child dependency, no split or false release",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 47,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G06|TF|005",
+      "disposition": "HOLD_ATOMIC_PARENT_DEPENDENCY",
+      "reason": "Two original shared parent groups (4+5 child answer locations), not part of explicitly released 7 standalone; preserve full parent and child dependency, no split or false release",
+      "source_original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE"
+    },
+    {
+      "ordinal": 48,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G07|FILL|001",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 49,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G07|FILL|002",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    },
+    {
+      "ordinal": 50,
+      "source_id": "SCI_G04_S1_113_MID_001|S03|G07|FILL|003",
+      "disposition": "HOLD_EXISTING_EXCEPTION",
+      "reason": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_original_status": "HOLD"
+    }
+  ],
+  "parent_disposition": [
+    {
+      "original_parent_id": "SCI_G04_S1_113_MID_001|S03-G05",
+      "original_child_answer_locations": 4,
+      "status": "HOLD_ATOMIC_PARENT_DEPENDENCY",
+      "why": "Keep whole 4-child matching question; parent not in explicitly approved 7-item release."
+    },
+    {
+      "original_parent_id": "SCI_G04_S1_113_MID_001|S03-G06",
+      "original_child_answer_locations": 5,
+      "status": "HOLD_ATOMIC_PARENT_DEPENDENCY",
+      "why": "Keep whole 5-child field survey question; parent not in explicitly approved 7-item release."
+    }
+  ],
+  "main_release_admission_receipt": {
+    "FORMAL_SCIENCE_KP_APPROVED_new": 7,
+    "ADMISSION_READY_new": 7,
+    "PUBLISHED_new_awaiting_live_pages_e2e": 0,
+    "main_merged_is_not_PAGES_LIVE": true,
+    "Pages_live_site_binary_seven_verification": "NOT_VERIFIED_IN_THIS_SESSION",
+    "status": "MERGED_MAIN_PAGES_E2E_PENDING"
+  },
+  "no_B02": "B02 MUST NOT START UNTIL B01 live seven verified and original50 formal closure receipt accepted, not until mere PR merge",
+  "unmodified": [
+    "Original Wende PDF and source SHA/BBoxes",
+    "31 original HOLD",
+    "Two atomic parent science candidates",
+    "Kanghsuan 48 KP Frozen Authority",
+    "113 old 178 source IDs",
+    "S3/P12 governance",
+    "source Draft PR124 not merged"
+  ],
+  "next_existing_short_step": "P12_G04S1_113_B01_PR148_Main67a314_Pages_RealLive7_E2E_Then_B01_50Position_Closeout_NoB02Before"
+}

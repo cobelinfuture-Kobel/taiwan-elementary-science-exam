@@ -1,0 +1,27 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const load=p=>JSON.parse(readFileSync(new URL('../data/review/'+p,import.meta.url),'utf8'));
+const ref=load('p12-g04s1-113-p04b-taozijiao-s01-mc5-option-wording-duplicate-hold-v2.json');
+const v1=load('p12-g04s1-113-p04b-formal-existing-gate-taozijiao-s01-mc5-science-nonunique-suppression-v1.json');
+const b4=JSON.parse(readFileSync(new URL('../site/data/question-bank/p12-b04-b04-47-public-v1.json',import.meta.url),'utf8'));
+const norm=s=>s.replace(/^[①②③④]|^\([1-4]\)/,'').replace(/[。．\s]/g,'');
+test('Source exact Taozijiao Q2 and existing published 114 MC003 compare exact choices: 3/4, not reorder-only duplicate',()=>{
+ const q=v1.rows[1],p=b4.blocks.find(x=>x.id==='P12_B04_G04S1_B04_MC_003');
+ assert.ok(q&&p);
+ assert.equal(q.original_stem,p.stem);
+ const a=q.original_options_ordered_1to4.map(norm);
+ const b=p.options.map(norm);
+ assert.equal(a.filter(x=>b.includes(x)).length,3);
+ assert.equal(ref.Q2_exact_choices_regardless_of_order_count,3);
+ assert.equal(ref.Q2_all_four_options_exact_identical_under_reorder,false);
+ assert.deepEqual(ref.Q2_one_different_distractor_surface_wording,['改變電池品牌','更換電池品牌']);
+ assert.equal(ref.Q2_status,'HOLD_DUPLICATE_SAME_STEM_ONE_CHOICE_LEXICAL_DIFFERENCE_NOT_ONLY_REORDER');
+ assert.equal(ref.Q2_admission_ready,false);
+ assert.equal(ref.Q2_frozen48KP_candidate,'sci_g04s1_04_10');
+ assert.equal(ref.source_original_text_not_rewritten,true);
+ assert.equal(ref.operator_duplicate_contract_date,'2026-10-19');
+ assert.deepEqual(ref.revised_per_item_statuses,['HOLD_DIRECT_KP','HOLD_DUPLICATE_WORDING_UNRESOLVED','SUPPRESS_ALREADY_113_MAIN','SUPPRESS_ALREADY_113_MAIN','HOLD_SCIENCE_NON_UNIQUE']);
+ assert.equal(ref.previous_main113_published_source_IDs_unchanged,178);
+ for(const k of ['NEW_FORMAL_SCIENCE_KP_APPROVED','NEW_ADMISSION_READY','NEW_PUBLISHED'])assert.equal(ref[k],0);
+});

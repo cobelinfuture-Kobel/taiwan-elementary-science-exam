@@ -58,7 +58,7 @@ test('every original exact marker has physical positive BBox, original SHA/1-bas
   assert.equal(p.original_pdf_sha256,papers.get(p.paper_id).original_pdf_sha256);
   assert.equal(p.unique_original_physical_marker_IDs_recovered_exact_source_geometry,counts.get(p.paper_id)||0);
   assert.equal(p.original_answer_and_parent_gate_closed,false);
-  assert.equal(p.original_public_published_source_count_unchanged,papers.get(p.paper_id).published_count);
+  assert.equal(p.original_public_published_source_count_unchanged,published.all_unique_published_source_slot_ids.filter(id=>id.startsWith(p.paper_id+'|')).length);
  }
  assert.equal(x.paper_summary.reduce((n,p)=>n+p.repeated_proof_rows_reconciled,0),109);
  assert.equal(x.paper_summary.reduce((n,p)=>n+p.matching_source_dots_partial_not_independent_answer_bboxes,0),6);

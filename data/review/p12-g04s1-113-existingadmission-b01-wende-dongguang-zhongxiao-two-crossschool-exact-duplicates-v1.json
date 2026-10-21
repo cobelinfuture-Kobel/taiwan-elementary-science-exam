@@ -1,0 +1,84 @@
+{
+  "schema_version": "P12_113_G04S1_B01_WENDE_TWO_EXACT_UNPUBLISHED_CROSS_SCHOOL_SOURCE_LINEAGE_PAIRS_V1",
+  "current_first_batch": "B01",
+  "original_paper": "SCI_G04_S1_113_MID_001",
+  "actual_original_source_PDFs_native_text_loaded": 3,
+  "native_original_exam_sources": [
+    "SCI_G04_S1_113_MID_001",
+    "SCI_G04_S1_113_MID_003",
+    "SCI_G04_S1_113_MID_004"
+  ],
+  "source_stem_and_complete_options_verified_equal_after_lossless_whitespace_punctuation_normalization": true,
+  "duplication_contract_date": "2026-10-19",
+  "original_source_group_pair_count": 2,
+  "original_B01_model_candidate_source_positions_with_OTHER_unpublished_original_identical_question": 2,
+  "original_113_main_published_178_snapshot_no_match_for_four_source_IDs": true,
+  "no_current_113_student_duplicated_public_item_created": true,
+  "paired_source_provenance_must_be_saved_at_admission": true,
+  "two_pairs_already_main_published_any": false,
+  "exact_original_pdf_SHA_and_original_printed_answer_marker_bbox_for_both_originals_preserved": true,
+  "classification": "UNPUBLISHED_ORIGINAL_EXACT_DUPLICATE_SOURCE_LINEAGE_PAIR_FOR_EACH_CANDIDATE_NOT_AUTOMATIC_PUBLIC_SUPPRESS",
+  "meaning": "Two B01 original candidates are word-for-word identical to one other unissued school original each. They remain possible as ONE NEW learner question each if all exact Gate criteria pass, with TWO original source IDs credited in lineage. No extra student question is generated from the matching school source; no one is already main published.",
+  "original_student_question_candidate_count_reduction_due_to_existing_public_item": 0,
+  "new_FORMAL_SCIENCE_KP_APPROVED": 0,
+  "new_ADMISSION_READY": 0,
+  "new_PUBLISHED": 0,
+  "related_review": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-onegate-7standalone-2parents16positions-rights-dedup-v3.json",
+  "groups": [
+    {
+      "owner_source_id": "SCI_G04_S1_113_MID_001|S01|TF|015",
+      "other_source_id": "SCI_G04_S1_113_MID_004|S02|TF|011",
+      "owner_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "other_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "owner_page": 1,
+      "other_page": 1,
+      "owner_answer_bbox_pdf_pts_top_left": [
+        28.56,
+        916.39,
+        60.52,
+        929.34
+      ],
+      "other_answer_bbox_pdf_pts_top_left": [
+        371.35,
+        463.96,
+        403.31,
+        477.24
+      ],
+      "exact_normalized_original_source_question": "為了讓水生生物能永續生存,我們應該要愛護水域環境",
+      "answer_candidate_not_school_teacher_key": "O",
+      "exact_comparison": "SAME_SOURCE_STEM_TF_PUNCTUATION_LAYOUT_ONLY",
+      "source_evidence": [
+        "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+        "data/review/p12-g04s1-113-p04b-dongguang-mid63-semantic-source-ids-35bbox-28hold-v1.json"
+      ]
+    },
+    {
+      "owner_source_id": "SCI_G04_S1_113_MID_001|S02|MC|011",
+      "other_source_id": "SCI_G04_S1_113_MID_003|S02|MC|004",
+      "owner_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "other_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "owner_page": 1,
+      "other_page": 1,
+      "owner_answer_bbox_pdf_pts_top_left": [
+        428.04,
+        942.19,
+        460,
+        955.1400000000001
+      ],
+      "other_answer_bbox_pdf_pts_top_left": [
+        42.48,
+        586.99,
+        79.92,
+        601.72
+      ],
+      "exact_normalized_original_source_question": "愛護環境大家一起動起來,下列哪一項是愛護水域環境的做法1在溪邊烤肉,將器具留在原地方便下次使用2將洗衣服的肥皂水直接倒入溪流中3去海邊遊玩時,將垃圾帶回家丟4將抓到的魚蝦帶回家飼養",
+      "answer_candidate_not_school_teacher_key": 3,
+      "exact_comparison": "SAME_PRINTED_MC_STEM_AND_ALL_FOUR_OPTIONS_IN_SAME_ORDER",
+      "source_evidence": [
+        "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+        "data/review/p12-g04s1-113-p04b-zhongxiao-mid50-source-markers-parent-figure-v1.json"
+      ]
+    }
+  ],
+  "next_gate": "Propagate duplicate lineage onto B01 proposed public cohort, continue original scan-only and crossyear public corpus comparison, complete rights and existing operator cohort signoff before release."
+}

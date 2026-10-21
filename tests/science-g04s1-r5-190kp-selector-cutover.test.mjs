@@ -4,6 +4,7 @@ import {readFileSync,readdirSync} from "node:fs";
 import {validateAuthority,unitsFor,resolveUnit} from "../site/assets/js/authority-adapter.mjs";
 import {validateAndConvertP12113Native38} from "../site/assets/js/p12-g04s1-113-native38-release.mjs";
 import {validateAndConvertP12113HN22} from "../site/assets/js/p12-g04s1-113-hn22-release.mjs";
+import {validateAndConvertP12113B01Wende7} from "../site/assets/js/p12-g04s1-113-b01-wende7-standalone-release.mjs";
 const read=p=>JSON.parse(readFileSync(p,"utf8"));
 const legacy=read("site/data/authority/science-g03-g04-selector-v2.json");
 const active=read("site/data/authority/science-g03-g04-selector-v3.json");
@@ -58,6 +59,7 @@ test("original R5 selector auto-admission forbidden; only exact independent sour
  const certified113="p12-g04s1-113-dongguang-dahua-native5-after105-public-v1.json";
  const certifiedNative38="p12-g04s1-113-native38-public-v1.json";
  const certifiedHN22="p12-g04s1-113-hn22-public-v1.json";
+ const certifiedWendeB01Seven="p12-g04s1-113-b01-wende7-standalone-public-v1.json";
  assert.ok(sourceFiles.includes(approved),"explicit operator release record required");
  assert.ok(sourceFiles.includes(certified113),"new 113 original source certification required");
  for(const name of sourceFiles){
@@ -116,6 +118,21 @@ test("original R5 selector auto-admission forbidden; only exact independent sour
         &&x.source_pdf_sha256?.length===64&&x.source_pdf_bbox_pts_top_left?.length===4));
      assert.equal(bytes.includes("sci_g04s1_02_13"),false);
      assert.deepEqual(bank.blocks.filter(x=>x.canonical_kp_id==="sci_g04s1_02_14").map(x=>x.source_slot_id),["SCI_G04_S1_113_MID_006|S1|TF|005","SCI_G04_S1_113_MID_006|S1|TF|009"]); // only operator-approved source, not R5 selector-based auto admission
+   } else if(name===certifiedWendeB01Seven){
+     // Only the seven exactly named, individually authorized original questions; no R5 selector auto-admission.
+     const bank=read("site/data/question-bank/"+name);
+     const proof=read("data/review/p12-g04s1-113-b01-7standalone-operator-approved-formal-v1.json");
+     const checked=validateAndConvertP12113B01Wende7(bank,active);
+     assert.equal(checked.answerSlots,7);
+     assert.equal(proof.records.length,7);
+     assert.equal(proof.formal_before_merge.FORMAL_SCIENCE_KP_APPROVED_new,7);
+     assert.equal(proof.formal_before_merge.ADMISSION_READY_new,7);
+     assert.equal(proof.formal_before_merge.PUBLISHED_new,0);
+     assert.deepEqual(bank.blocks.map(b=>b.source_slot_id),proof.records.map(r=>r.original_source_id));
+     assert.ok(bank.blocks.every(b=>b.operator_publication_approval===true&&b.original_teacher_answer_key_authenticated===false&&b.source_pdf_sha256==="7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56"&&b.source_pdf_bbox_pts_top_left?.length===4));
+     assert.deepEqual(bank.blocks.filter(b=>b.canonical_kp_id==="sci_g04s1_02_13").map(b=>b.source_slot_id),["SCI_G04_S1_113_MID_001|S01|TF|014"]);
+     assert.deepEqual(bank.blocks.filter(b=>b.canonical_kp_id==="sci_g04s1_02_14").map(b=>b.source_slot_id),["SCI_G04_S1_113_MID_001|S01|TF|015","SCI_G04_S1_113_MID_001|S02|MC|011"]);
+     assert.equal(bytes.includes("sci_g04s1_01_12"),false);
    } else for(const id of newIds)assert.equal(bytes.includes(id),false,name+" must not auto-admit "+id);
  }
  assert.equal(remap.public_admission_count,0);

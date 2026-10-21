@@ -100,6 +100,27 @@ if(require.main===module){
  const batchArg=process.argv.find(x=>x.startsWith('--batch='));
  const selected=batchArg?batches.filter(x=>Number(batchArg.slice(8))===Number(x.batch.slice(1))):batches;
  if(batchArg&&selected.length!==1)throw new Error('Unknown batch');
+ // A 50-position SOURCE/MODEL screen is not a BATCH CLOSEOUT. The operator
+ // explicitly requires existing Admission, selective release and Pages acceptance
+ // for each previous batch before beginning the next batch. This is execution
+ // sequencing, NOT a new Science/KP gate. A default --out-dir inventory can still
+ // generate all future work-shards, but --batch=N may not execute the next shard.
+ if(batchArg){
+  const n=Number(batchArg.slice(8));
+  for(let prior=1;prior<n;prior++){
+   const key='B'+String(prior).padStart(2,'0');
+   const relative='data/review/p12-g04s1-113-existingadmission-fixed29-'+key.toLowerCase()+'-formal-admission-closeout-v1.json';
+   const absolute=path.join(ROOT,relative);
+   if(!fs.existsSync(absolute))throw new Error(key+'_NOT_FORMALLY_CLOSED: no existing Admission and main/Pages release receipt; do not start B'+String(n).padStart(2,'0'));
+   const receipt=read(relative);
+   if(receipt.batch!==key||receipt.source_work_positions_total!==batches[prior-1].source_work_pointer_count||
+      receipt.all_source_positions_final_disposition_complete!==true||
+      receipt.existing_operator_admission_gate_accepted!==true||
+      receipt.selective_release_main_and_live_pages_verified_or_no_eligible_items!==true||
+      receipt.batch_formal_closeout_verified!==true)
+    throw new Error(key+'_NOT_FORMALLY_CLOSED: source work-only or incomplete Admission/Pages receipt');
+  }
+ }
  if(arg){
   const out=path.resolve(arg.slice(10));
   fs.mkdirSync(out,{recursive:true});

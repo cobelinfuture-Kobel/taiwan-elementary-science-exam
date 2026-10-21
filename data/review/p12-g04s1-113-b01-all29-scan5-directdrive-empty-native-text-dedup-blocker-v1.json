@@ -1,0 +1,72 @@
+{
+  "schema_version": "P12_G04S1_113_B01_EXISTING_ALL29_SCAN5_LIVE_DRIVE_ZERO_NATIVE_TEXT_BLOCKER_V1",
+  "date": "2026-10-21",
+  "scope": "B01 Wende first50 last incomplete original29 crossschool full text/option/parent duplicate check",
+  "original_school_scan_only_papers": 5,
+  "source_pages": 16,
+  "source_work_positions_noncertified": 262,
+  "scans": [
+    {
+      "id": "SCI_G04_S1_113_MID_002",
+      "label": "和順期中",
+      "pages": 3,
+      "positions": 50,
+      "connected_drive_pdf_plaintext_extraction_characters": 0,
+      "duplicate_verification_of_complete_source_stem_options_or_parent": false,
+      "existing_source_marker_geometry_is_not_full_question_text": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_001",
+      "label": "和順期末",
+      "pages": 2,
+      "positions": 50,
+      "connected_drive_pdf_plaintext_extraction_characters": 0,
+      "duplicate_verification_of_complete_source_stem_options_or_parent": false,
+      "existing_source_marker_geometry_is_not_full_question_text": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_002",
+      "label": "忠孝期末",
+      "pages": 4,
+      "positions": 50,
+      "connected_drive_pdf_plaintext_extraction_characters": 0,
+      "duplicate_verification_of_complete_source_stem_options_or_parent": false,
+      "existing_source_marker_geometry_is_not_full_question_text": true
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_006",
+      "label": "內安期中",
+      "pages": 4,
+      "positions": 62,
+      "connected_drive_pdf_plaintext_extraction_characters": 0,
+      "duplicate_verification_of_complete_source_stem_options_or_parent": false,
+      "existing_source_marker_geometry_is_not_full_question_text": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009",
+      "label": "獅湖期末",
+      "pages": 3,
+      "positions": 50,
+      "connected_drive_pdf_plaintext_extraction_characters": 0,
+      "duplicate_verification_of_complete_source_stem_options_or_parent": false,
+      "existing_source_marker_geometry_is_not_full_question_text": true
+    }
+  ],
+  "method": "Used connected Google Drive original five PDFs' best-effort extracted text response, each returned empty text; prior registered actual original SHA/rotation/page pixel-geometry evidence remains valid but does not supply exact complete full question content for duplicate decisions.",
+  "evidence_ref": "data/review/p12-g04s1-113-scan5-16page-rotation-source-preflight-v1.json",
+  "implication": "Not a duplicate finding and not a basis to force-release. Actual five scan page figures / complete question stems and all options must be read from original paper at original raster level before all29 dedup certified. Do not invent OCR or treat 262 positions as 262 readable questions.",
+  "b01_current": {
+    "public_113_main_source_ids": 178,
+    "site_all_scopes_answer_slots": 814,
+    "existing_public_bank_asset_exact_text_reviewed": 41,
+    "exact_standalone_candidates_from_wende": 7,
+    "intact_parent_candidates_from_wende": 2,
+    "known_unissued_source_duplicate_alias_pairs": 2,
+    "original_five_scan_full_source_duplicate_closure": false,
+    "operator_exact_cohort_signoff": false,
+    "ADMISSION_READY_new": 0,
+    "PUBLISHED_new": 0,
+    "B02_STARTED": false
+  },
+  "do_not_escalate": "Keep precise nine proposed cohort as PENDING, do not modify Frozen Authority and do not publish student question bank until all applicable existing gates signed."
+}

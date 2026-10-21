@@ -1,0 +1,52 @@
+{
+  "schema_version": "P12_G04S1_113_P04B_TAOZIJIAO_S01_MC5_EXISTING_GATE_OPTION_WORDING_V2",
+  "original_review_ref": "data/review/p12-g04s1-113-p04b-formal-existing-gate-taozijiao-s01-mc5-science-nonunique-suppression-v1.json",
+  "original_PDF_SHA256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+  "operator_duplicate_contract_date": "2026-10-19",
+  "rule": "Identical question and reordered options merge; different actually asked wording may enter independent Gate; uncertainty must HOLD, not auto admit or auto suppress.",
+  "Q2_original_source_slot": "SCI_G04_S1_113_FINAL_008|S1|MC|002",
+  "Q2_existing_public_block": "P12_B04_G04S1_B04_MC_003",
+  "Q2_full_stem_exactly_equal_to_public": true,
+  "Q2_113_original_choices": [
+    "增加電線長度",
+    "改變電池品牌",
+    "增加電池數量",
+    "改變電池的正負極方向"
+  ],
+  "Q2_114_public_choices": [
+    "(1)更換電池品牌",
+    "(2)增加電線長度",
+    "(3)改變電池的正負極方向",
+    "(4)增加電池數量。"
+  ],
+  "Q2_exact_choices_regardless_of_order_count": 3,
+  "Q2_all_four_options_exact_identical_under_reorder": false,
+  "Q2_one_different_distractor_surface_wording": [
+    "改變電池品牌",
+    "更換電池品牌"
+  ],
+  "Q2_status": "HOLD_DUPLICATE_SAME_STEM_ONE_CHOICE_LEXICAL_DIFFERENCE_NOT_ONLY_REORDER",
+  "Q2_science_answer_candidate": 4,
+  "Q2_frozen48KP_candidate": "sci_g04s1_04_10",
+  "Q2_admission_ready": false,
+  "Q1_original_option4": "吹風機",
+  "Q1_114_near_match_option4": "教室裡的電風扇",
+  "Q1_existing_public_near_match_block": "P12_B04_G04S1_B05_MC_012",
+  "Q1_status": "HOLD_NO_DIRECT_FROZEN48KP_MOTOR_DEVICE_CATEGORY",
+  "Q3_Q4_original_already_113_main_published": true,
+  "Q5_original_single_choice_with_two_scientifically_wrong_answers_HOLD": true,
+  "revised_per_item_statuses": [
+    "HOLD_DIRECT_KP",
+    "HOLD_DUPLICATE_WORDING_UNRESOLVED",
+    "SUPPRESS_ALREADY_113_MAIN",
+    "SUPPRESS_ALREADY_113_MAIN",
+    "HOLD_SCIENCE_NON_UNIQUE"
+  ],
+  "previous_main113_published_source_IDs_unchanged": 178,
+  "NEW_FORMAL_SCIENCE_KP_APPROVED": 0,
+  "NEW_ADMISSION_READY": 0,
+  "NEW_PUBLISHED": 0,
+  "teacher_original_answer_key_not_authenticated": true,
+  "source_original_text_not_rewritten": true,
+  "next_needed": "Actual one-option lexical difference requires operator/wording-sensitive duplicate evidence, and full question rights; no source release or silent option normalization."
+}

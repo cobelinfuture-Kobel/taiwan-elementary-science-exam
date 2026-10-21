@@ -28,9 +28,10 @@ test('113 29-paper immutable work budget and publication-lineage conservation; n
   assert.equal(a.original_paper_id,b.paper_id);
   assert.equal(a.source_pdf_sha256,b.original_pdf_sha256);
   assert.equal(a.noncertified_source_work_position_budget,b.section_reconciled_positions);
-  // Immutable 178-position routing controller remains historical; current 185-position
-  // main master adds exactly seven B01 Wende school source identities, not a rewritten old controller.
-  assert.equal(b.published_count,a.main_published_count+(a.original_paper_id==='SCI_G04_S1_113_MID_001'?7:0));
+  // Frozen old 178-source controller stays historical; current main appends B01 Wende7,
+  // B02 Dongguang4 Minquan11 Yongan6 without rewriting that old controller.
+  const delta={SCI_G04_S1_113_MID_001:7,SCI_G04_S1_113_MID_004:4,SCI_G04_S1_113_MID_007:11,SCI_G04_S1_113_MID_008:6};
+  assert.equal(b.published_count,a.main_published_count+(delta[a.original_paper_id]||0));
   assert.equal(a.full_formal_admission_paper_closeout,false);
   assert.equal(a.active_admission_disposition,'PAPER_OPEN_NOT_COMPLETE');
   assert.equal(a.unresolved_question_count,null);

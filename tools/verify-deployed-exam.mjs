@@ -388,12 +388,22 @@ try {
   await page.selectOption("#kp","sci_g04s1_02_14");await page.fill("#count","4");
   await page.locator("#generate").click();
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","two Native38 original water-safety questions were explicitly certified and admitted");
-  const waterPaper=await page.locator(".paper:not([data-answer='true'])").innerText();
-   assert.ok(waterPaper.includes("捕捉了幾隻魚"),"original Dadun water investigation handling question");
-   assert.ok(waterPaper.includes("不是保護水域環境的行為"),"original Dadun water protection item");
-   assert.ok(waterPaper.includes("為了讓水生生物能永續生存"),"B01 Wende TF015 adds independent original water protection proposition");
-   assert.ok(waterPaper.includes("愛護環境大家一起動起來"),"B01 Wende MC011 adds original four-choice environmental protection question");
-   assert.equal(await page.locator(".paper:not([data-answer='true']) .question").count(),4,"four independently certified water safety original sources, two previous and two B01 Wende");
+  // Existing KP now contains multiple independent school sources; a 4-item randomized
+  // selection is NOT guaranteed to contain specific source stems. Verify all four
+  // immutable original source stems in their actual LIVE fetched school-bank assets
+  // (native38 and B01), then separately verify the browser generated four items.
+  assert.ok(native38.blocks.some(x=>x.canonical_kp_id==="sci_g04s1_02_14"&&x.stem.includes("捕捉了幾隻魚")),
+    "actual Pages native38 keeps original Dadun water investigation item");
+  assert.ok(native38.blocks.some(x=>x.canonical_kp_id==="sci_g04s1_02_14"&&x.stem.includes("不是保護水域環境的行為")),
+    "actual Pages native38 keeps original Dadun water protection item");
+  assert.ok(b01.blocks.some(x=>x.source_slot_id==="SCI_G04_S1_113_MID_001|S01|TF|015"
+    &&x.canonical_kp_id==="sci_g04s1_02_14"&&x.stem.includes("為了讓水生生物能永續生存")),
+    "actual Pages B01 keeps new Wende TF015");
+  assert.ok(b01.blocks.some(x=>x.source_slot_id==="SCI_G04_S1_113_MID_001|S02|MC|011"
+    &&x.canonical_kp_id==="sci_g04s1_02_14"&&x.stem.includes("愛護環境大家一起動起來")),
+    "actual Pages B01 keeps new Wende MC011");
+  assert.equal(await page.locator(".paper:not([data-answer='true']) .question").count(),4,
+    "real Pages browser generates four valid water-safety questions from the expanded independently accepted pool");
   await page.screenshot({path:"artifacts/deployed-browser/r5-190kp-explicit-native38-water-safety-success.png",fullPage:true});
   const scan9resp=await page.request.get(base+"/data/question-bank/p12-e01-post45-puren2-public-v1.json",{cache:"no-cache"});
   assert.equal(scan9resp.status(),200,"actual Pages serves Scan9 2-source selective bank");

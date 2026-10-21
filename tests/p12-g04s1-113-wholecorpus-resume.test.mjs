@@ -8,15 +8,15 @@ const {buildAll29:build,normalizeSlot,validateMaster,assessCompletion}=require('
 const R='data/review/';
 const read=file=>JSON.parse(fs.readFileSync(path.resolve(R,file),'utf8'));
 const source=read('p12-g04s1-113-all29-kp48-source-firstpass-v1.json');
-const pub=read('p12-g04s1-113-main-published178-source-suppression-readback-v12.json');
+const pub=read('p12-g04s1-113-main-published185-source-suppression-readback-v13.json');
 const master=read('p12-g04s1-113-all29-master-ledger-v1.json');
 const clone=x=>structuredClone(x);
 const normSet=new Set(pub.all_unique_published_source_slot_ids.map(normalizeSlot));
 
-test('P01 all29 original PDFs and 178 source positions match current main snapshot',()=>{
+test('P01 all29 original PDFs and 185 published source positions match current main snapshot',()=>{
   const v=validateMaster(master,source,pub,{requiredMainSha:pub.public_main_commit});
   assert.equal(v.paperIds.size,29);
-  assert.equal(v.publishedIds.size,178);
+  assert.equal(v.publishedIds.size,185);
   assert.equal(master.original_pdf_page_count,72);
   assert.equal(master.paper_records.filter(x=>x.paper_closed).length,0);
   assert.equal(master.paper_records.filter(x=>x.inventory_certified).length,0);
@@ -24,7 +24,7 @@ test('P01 all29 original PDFs and 178 source positions match current main snapsh
 test('P02 generator includes all 29 paper inventory gaps, not only historical 14',()=>{
   const res=build();
   assert.equal(res.metrics.registered_papers,29);
-  assert.equal(res.metrics.published_113,178);
+  assert.equal(res.metrics.published_113,185);
   assert.equal(res.metrics.original_papers_with_any_initial_geometry_candidate,29);
   assert.equal(res.metrics.original_papers_with_full_answer_slot_geometry_certified,0);
   assert.equal(res.metrics.unique_legacy_source_positions,775);

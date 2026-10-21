@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b01-wende7-live821-20261021",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b02-native21-live842-20261021",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 821 小題（416 題是非＋270 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 842 小題（431 題是非＋276 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
   const native38Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-native38-public-v1.json",{cache:"no-cache"});
   assert.equal(native38Response.status(),200,"Published Pages must serve approved native38 original exam cohort");
   const native38=await native38Response.json();
@@ -90,11 +90,41 @@ try {
   assert.equal(b01.blocks.filter(x=>x.type==="tf").length,4);
   assert.equal(b01.blocks.filter(x=>x.source_lineage_ids?.length===2).length,2,
    "exact identical unpublished cross-school question retains two source lineages, one student question");
+  // B02: only 21 precisely operator-approved original native school texts, no 28 HOLD, no duplicate B01 source release.
+  const b02Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-b02-native21-standalone-public-v1.json",{cache:"no-cache"});
+  assert.equal(b02Response.status(),200,"Published Pages must serve approved B02 21 exact school exam texts");
+  const b02=await b02Response.json();
+  assert.equal(b02.schema_version,"SCIENCE_P12_G04S1_113_B02_NATIVE21_STANDALONE_PUBLIC_V1");
+  assert.deepEqual([b02.expected_blocks,b02.expected_answer_slots,b02.expected_standalone_true_false,b02.expected_standalone_choice],[21,21,15,6]);
+  assert.equal(new Set(b02.blocks.map(x=>x.source_slot_id)).size,21);
+  assert.deepEqual(b02.blocks.map(x=>x.source_id).reduce((counts,key)=>(counts[key]=(counts[key]||0)+1,counts),{}),{
+    "SCI_G04_S1_113_MID_004":4,
+    "SCI_G04_S1_113_MID_007":11,
+    "SCI_G04_S1_113_MID_008":6
+  },"Dongguang4 Minquan11 Yongan6 exact original source identities");
+  assert.deepEqual(b02.blocks.map(x=>x.answer),["X","O","O","O","O","O","X","O","X","①","②","③","①","②","③","X","O","O","O","O","O"]);
+  assert.ok(b02.blocks.every(x=>x.operator_publication_approval===true
+    &&x.certification_status==="OPERATOR_APPROVED_PUBLIC"
+    &&x.grade===4&&x.semester===1&&["4-S1-U01","4-S1-U02"].includes(x.unit)
+    &&x.source_pdf_sha256?.length===64&&x.source_page_pdf_1_based===1
+    &&x.source_pdf_bbox_pts_top_left?.length===4
+    &&x.canonical_kp_id?.startsWith("sci_g04s1_0")
+    &&x.rights_license_status==="REGULATED_EXAM_QUESTION_ART9"
+    &&x.public_material_scope==="EXAM_QUESTION_TEXT_ONLY"
+    &&x.original_cropped_assets_included===false
+    &&x.original_teacher_answer_key_authenticated===false
+    &&x.dependency_review_verified===true));
+  assert.ok(b02.blocks.filter(x=>x.type==="mcq").every(x=>x.options?.length===4&&["①","②","③","④"].includes(x.answer)));
+  assert.equal(b02.blocks.filter(x=>x.type==="tf").length,15);
+  assert.ok(!b02.blocks.some(x=>x.source_slot_id==="SCI_G04_S1_113_MID_004|S2|TF|11"),
+    "B01 already published exact identical Dongguang crossschool lineage not added twice");
   const loaderResponse=await page.request.get(base+"/assets/js/historical-bank-ox-v6.mjs",{cache:"no-cache"});
   assert.equal(loaderResponse.status(),200,"live Pages serves cumulative historical loader");
   const liveLoader=await loaderResponse.text();
   assert.ok(liveLoader.includes("...b01Wende7.blocks")&&liveLoader.includes("b01Wende7.answerSlots"),
    "live loader must actually integrate seven new B01 items, not merely upload their JSON asset");
+  assert.ok(liveLoader.includes("...b02Native21.blocks")&&liveLoader.includes("b02Native21.answerSlots"),
+    "actual cumulative public Pages loader must include 21 B02 approved source questions");
   const native6Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-next-native-tfmc6-public-v1.json",{cache:"no-cache"});
   assert.equal(native6Response.status(),200,"Live Pages delivers 113 next native six new source bank");
   const native6=await native6Response.json();
@@ -376,7 +406,7 @@ try {
    assert.ok(windPageText.includes("風會將沙或土壤搬到其他地方"),"native38 wind deposition original source remains selectable");
    assert.ok(windPageText.includes("下列哪一項不是改變地表樣貌的力量"),"HN22 Neian source originally printed wind/earth alteration source remains selectable");
   await page.selectOption("#unit","4-S1-U02");await page.selectOption("#mode","single_kp");
-  await page.selectOption("#kp","sci_g04s1_02_13");await page.fill("#count","4");
+  await page.selectOption("#kp","sci_g04s1_02_13");await page.fill("#count","5");
   await page.locator("#generate").click();
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","live R5 survey-record KP must select all four independently certified original source positions");
    const surveyPaper=await page.locator(".paper:not([data-answer='true'])").innerText();
@@ -384,7 +414,8 @@ try {
    assert.ok(surveyPaper.includes("將水生動物適應環境的資料用圖形或表格整理時"),"R5 survey KP includes Dongguang exact TF002");
    assert.ok(surveyPaper.includes("如果想知道埤塘內有什麼水生生物"),"R5 survey KP includes Dongguang exact TF015");
    assert.ok(surveyPaper.includes("伊成在蒐集水生生物如何適應環境"),"B01 Wende survey KP adds independently operator-approved original TF014");
-   assert.equal(await page.locator(".paper:not([data-answer='true']) .question").count(),4,"four exact independently certified R5 survey source positions including B01 Wende");
+   assert.ok(surveyPaper.includes("進行水域環境調查時，可以帶圖鑑"),"B02 Minquan original survey equipment record source newly available");
+   assert.equal(await page.locator(".paper:not([data-answer='true']) .question").count(),5,"five independent frozen R5 survey source positions, including B02 Minquan");
   await page.selectOption("#kp","sci_g04s1_02_14");await page.fill("#count","4");
   await page.locator("#generate").click();
   assert.equal(await page.locator("#status").getAttribute("data-error"),"false","two Native38 original water-safety questions were explicitly certified and admitted");
@@ -431,7 +462,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B01 seven exact Wende standalone LIVE, total 821 answer slots (416 TF, 270 MC, 36 context groups)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B02 21 original exact standalone LIVE, total 842 answer slots (431 TF, 276 MC, 36 context groups)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

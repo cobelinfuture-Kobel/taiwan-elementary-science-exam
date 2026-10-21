@@ -1,0 +1,666 @@
+{
+  "schema_version": "P12_G04S1_113_B02_NATIVE21_OPERATOR_APPROVED_FORMAL_V1",
+  "operator_input_verbatim": "核准, 下一步",
+  "operator_input_interpreted_precisely": "Approval of the preceding precise 21 original source IDs, exact O/X and MC science answers, direct 113 frozen48 KP, and school examination text-only Article9 scope; not the retained 28 HOLD or one previously published duplicate.",
+  "source_draft_PR124_unmerged": true,
+  "source_draft_HEAD_evidence_raster": "38ce183620240844ab36cd188d23968af3f68eed",
+  "source_draft_evidence_ref": "data/review/p12-g04s1-113-b02-21visual-original-source-science-kp-dedup-rights-operator-PENDING-v1.json",
+  "source_papers": [
+    "SCI_G04_S1_113_MID_004",
+    "SCI_G04_S1_113_MID_007",
+    "SCI_G04_S1_113_MID_008"
+  ],
+  "source_original_pdf_SHA256_verified": true,
+  "source_original_pdf_visual_pages_checked": 6,
+  "source_exact_full_original_question_PDF_text_layer_verified": true,
+  "source_native_real_answer_bbox_verified": true,
+  "answers_independent_not_original_teacher_key": true,
+  "canonical_KP_direct_frozen48": true,
+  "exam_scope": "113 四上 MID U01+U02",
+  "duplicate_checked_against_113_published185_and_114_published356_plus_114_all25_original717": true,
+  "source_same_KP_different_original_question_allowed": true,
+  "rights_scope": "TAIWAN_ARTICLE9_SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_PDF_CROPS_THIRD_PARTY_IMAGES_NO_PRINTED_SCORE",
+  "original_school_teacher_answer_text_excluded": true,
+  "source_pdf_images_excluded": true,
+  "counts": {
+    "B02_source_positions": 50,
+    "exact_operator_approved_student_blocks": 21,
+    "TF": 15,
+    "MC": 6,
+    "HOLD_original_26": 26,
+    "HOLD_specific_new_2": 2,
+    "duplicate_B01_source_only": 1,
+    "FORMAL_SCIENCE_KP_APPROVED_new": 21,
+    "ADMISSION_READY_new": 21,
+    "PUBLISHED_new_prePR_and_Pages": 0,
+    "preexisting_113_published_source_count": 185,
+    "preexisting_student_site_total_answer_slots": 821
+  },
+  "formal_before_merge": {
+    "FORMAL_SCIENCE_KP_APPROVED_new": 21,
+    "ADMISSION_READY_new": 21,
+    "PUBLISHED_new": 0
+  },
+  "original_B01_DUPLICATE_lineage_only": {
+    "source_id": "SCI_G04_S1_113_MID_004|S2|TF|11",
+    "main_b01": "SCI_G04_S1_113_MID_001|S01|TF|015",
+    "second_copy_added": false
+  },
+  "B02_28_HOLD_unmodified": true,
+  "B01_closeout_preserved": true,
+  "records": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_004|S2|TF|6",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S02|TRUE_FALSE|06",
+      "original_school_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        371.35,
+        263.65,
+        403.31,
+        276.93
+      ],
+      "original_full_question_PDF_text_layer": "一般來說，我們只能在生態池中看到一種\r\n水生動物。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "X",
+      "unique_science_explanation": "生態池可容納多種類水生動物，並非只能看到一種。",
+      "canonical_frozen_KP": "sci_g04s1_02_02",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_001",
+      "immutable_student_block_hash_FNV1a64": "fc672e1239785e7b",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_004|S2|TF|8",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S02|TRUE_FALSE|08",
+      "original_school_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        371.35,
+        336.52,
+        403.31,
+        349.8
+      ],
+      "original_full_question_PDF_text_layer": "一般來說，我們能看到不同種類的水生植\r\n物生長在生態池中。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "O",
+      "unique_science_explanation": "生態池可供不同種類水生植物生長。",
+      "canonical_frozen_KP": "sci_g04s1_02_02",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_002",
+      "immutable_student_block_hash_FNV1a64": "e37d09cee9b3112e",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_004|S2|TF|16",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S02|TRUE_FALSE|16",
+      "original_school_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        371.35,
+        627.9,
+        403.31,
+        641.18
+      ],
+      "original_full_question_PDF_text_layer": "愛護水域環境是每一個人應盡的責任。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "O",
+      "unique_science_explanation": "愛護水域行為應避免損害生態；需檢查廣泛命題是否已公開。",
+      "canonical_frozen_KP": "sci_g04s1_02_14",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_003",
+      "immutable_student_block_hash_FNV1a64": "b787579a412025ca",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_004|S2|TF|18",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_004|S02|TRUE_FALSE|18",
+      "original_school_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        371.35,
+        700.74,
+        403.31,
+        714.02
+      ],
+      "original_full_question_PDF_text_layer": "有些水生動物會在水生植物的葉子上停\r\n留。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "O",
+      "unique_science_explanation": "部分水生動物確可停留在水生植物葉面；仍需檢查與B01文德TF8科學疑義及語意重複。",
+      "canonical_frozen_KP": "sci_g04s1_02_09",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_004",
+      "immutable_student_block_hash_FNV1a64": "ccaa3f11aaf2ded7",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007|S1|TF|2",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_007|S01|TRUE_FALSE|02",
+      "original_school_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.6,
+        155.62,
+        87.74,
+        169.62
+      ],
+      "original_full_question_PDF_text_layer": "適合生活在湖泊裡的生物，不一定適合生\r\n活在海洋中。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "O",
+      "unique_science_explanation": "淡水湖與海洋的鹽度等條件不同，生物不一定可互相適應。",
+      "canonical_frozen_KP": "sci_g04s1_02_02",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_005",
+      "immutable_student_block_hash_FNV1a64": "070fbf9ab138be7a",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007|S1|TF|6",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_007|S01|TRUE_FALSE|06",
+      "original_school_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.6,
+        381.46,
+        87.74,
+        395.46
+      ],
+      "original_full_question_PDF_text_layer": "為了做保護環境，不要隨意丟棄垃圾，主\r\n動參與淨灘、淨溪活動。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "O",
+      "unique_science_explanation": "避免亂丟垃圾，參與淨灘淨溪有助保護水域。",
+      "canonical_frozen_KP": "sci_g04s1_02_14",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_006",
+      "immutable_student_block_hash_FNV1a64": "983b096a2aa097c5",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007|S1|TF|8",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_007|S01|TRUE_FALSE|08",
+      "original_school_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.6,
+        472.49,
+        87.74,
+        486.49
+      ],
+      "original_full_question_PDF_text_layer": "臺北市的水域環境除了基隆河、淡水河等\r\n溪流以外，市區裡沒有其他水域環境。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "X",
+      "unique_science_explanation": "臺北市還有池塘等人工水域，不只有河流溪流。",
+      "canonical_frozen_KP": "sci_g04s1_02_02",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_007",
+      "immutable_student_block_hash_FNV1a64": "2d4a781d80fdbfc8",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007|S1|TF|9",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_007|S01|TRUE_FALSE|09",
+      "original_school_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.6,
+        518.09,
+        87.74,
+        532.09
+      ],
+      "original_full_question_PDF_text_layer": "進行水域環境調查時，可以帶圖鑑、紀錄\r\n表、撈網、水桶、望遠鏡，幫助觀察紀錄。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "O",
+      "unique_science_explanation": "調查前備妥圖鑑、紀錄表與合宜觀察工具，有利觀察及資料紀錄。",
+      "canonical_frozen_KP": "sci_g04s1_02_13",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_008",
+      "immutable_student_block_hash_FNV1a64": "25be7194aca8a300",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007|S1|TF|13",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_007|S01|TRUE_FALSE|13",
+      "original_school_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.6,
+        700.12,
+        84.6,
+        714.12
+      ],
+      "original_full_question_PDF_text_layer": "溪流是靜止且陽光充足的水域環境，適合\r\n臺灣萍蓬草、鯉魚等生物生存。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "X",
+      "unique_science_explanation": "溪流為流動水體，不可概稱為靜止水域。",
+      "canonical_frozen_KP": "sci_g04s1_02_02",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_009",
+      "immutable_student_block_hash_FNV1a64": "f703aeb8e206451b",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007|S2|MC|1",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_007|S02|SINGLE_CHOICE|01",
+      "original_school_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.6,
+        777.28,
+        80.01,
+        792.77
+      ],
+      "original_full_question_PDF_text_layer": "下列何者是非生物？\r\n① 沙 ②苔蘚 ③榕樹 ④五色鳥。",
+      "original_choices_PDF_text_layer": [
+        {
+          "original_label": "①",
+          "original_text": "沙"
+        },
+        {
+          "original_label": "②",
+          "original_text": "苔蘚"
+        },
+        {
+          "original_label": "③",
+          "original_text": "榕樹"
+        },
+        {
+          "original_label": "④",
+          "original_text": "五色鳥。"
+        }
+      ],
+      "original_mode": "MC",
+      "accepted_science_answer": "①",
+      "unique_science_explanation": "沙為非生物成分，苔蘚、榕樹、五色鳥均為生物。",
+      "canonical_frozen_KP": "sci_g04s1_01_01",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_010",
+      "immutable_student_block_hash_FNV1a64": "eb5599e960b1963f",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007|S2|MC|4",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_007|S02|SINGLE_CHOICE|04",
+      "original_school_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.6,
+        919.31,
+        80.01,
+        934.8
+      ],
+      "original_full_question_PDF_text_layer": "下列關於岩石的敘述，哪一項正確？\r\n①適合種植農作物 ②用來鋪設步道\r\n③摸起來細細軟軟 ④岩石裡有蟻窩。",
+      "original_choices_PDF_text_layer": [
+        {
+          "original_label": "①",
+          "original_text": "適合種植農作物"
+        },
+        {
+          "original_label": "②",
+          "original_text": "用來鋪設步道"
+        },
+        {
+          "original_label": "③",
+          "original_text": "摸起來細細軟軟"
+        },
+        {
+          "original_label": "④",
+          "original_text": "岩石裡有蟻窩。"
+        }
+      ],
+      "original_mode": "MC",
+      "accepted_science_answer": "②",
+      "unique_science_explanation": "岩石可以鋪設步道；其他選項不是岩石的一般特徵或直接用途。",
+      "canonical_frozen_KP": "sci_g04s1_01_04",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_011",
+      "immutable_student_block_hash_FNV1a64": "52fe127d8e437130",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007|S2|MC|5",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_007|S02|SINGLE_CHOICE|05",
+      "original_school_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        375.1,
+        104.15,
+        412.51,
+        119.64
+      ],
+      "original_full_question_PDF_text_layer": "招潮蟹喜歡棲息在哪種環境？\r\n①沙丘上鑽洞 ②廣闊的\r\n海洋 ③鬆軟泥灘地\r\n④排水性好的土壤。",
+      "original_choices_PDF_text_layer": [
+        {
+          "original_label": "①",
+          "original_text": "沙丘上鑽洞"
+        },
+        {
+          "original_label": "②",
+          "original_text": "廣闊的\r\n海洋"
+        },
+        {
+          "original_label": "③",
+          "original_text": "鬆軟泥灘地"
+        },
+        {
+          "original_label": "④",
+          "original_text": "排水性好的土壤。"
+        }
+      ],
+      "original_mode": "MC",
+      "accepted_science_answer": "③",
+      "unique_science_explanation": "招潮蟹多見於河口海岸潮間帶鬆軟泥灘地。",
+      "canonical_frozen_KP": "sci_g04s1_02_02",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_012",
+      "immutable_student_block_hash_FNV1a64": "455925cf4d8a0a21",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007|S2|MC|6",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_007|S02|SINGLE_CHOICE|06",
+      "original_school_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        375.1,
+        191.58,
+        412.51,
+        207.07
+      ],
+      "original_full_question_PDF_text_layer": "水中的魚如何呼吸獲得空氣，維持生存呢？\r\n①口和魚鰓一開一合 ②鬆擺動魚鰭\r\n③眼睛一開一合 ④張開鼻孔。",
+      "original_choices_PDF_text_layer": [
+        {
+          "original_label": "①",
+          "original_text": "口和魚鰓一開一合"
+        },
+        {
+          "original_label": "②",
+          "original_text": "鬆擺動魚鰭"
+        },
+        {
+          "original_label": "③",
+          "original_text": "眼睛一開一合"
+        },
+        {
+          "original_label": "④",
+          "original_text": "張開鼻孔。"
+        }
+      ],
+      "original_mode": "MC",
+      "accepted_science_answer": "①",
+      "unique_science_explanation": "魚張口並透過鰓進行氣體交換。",
+      "canonical_frozen_KP": "sci_g04s1_02_08",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_013",
+      "immutable_student_block_hash_FNV1a64": "7d07784c5256a8e6",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007|S2|MC|8",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_007|S02|SINGLE_CHOICE|08",
+      "original_school_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        375.1,
+        351.81,
+        412.51,
+        367.3
+      ],
+      "original_full_question_PDF_text_layer": "關於大萍的敘述，哪一項正確的？\r\n① 根長在水底泥土裡，而且有地下莖\r\n② 葉面上有細毛，幫助它漂浮在水面上\r\n③ 有明顯膨大的葉柄，可以儲存空氣\r\n④ 壓入水中再放開，它不會再浮到水面上。",
+      "original_choices_PDF_text_layer": [
+        {
+          "original_label": "①",
+          "original_text": "根長在水底泥土裡，而且有地下莖"
+        },
+        {
+          "original_label": "②",
+          "original_text": "葉面上有細毛，幫助它漂浮在水面上"
+        },
+        {
+          "original_label": "③",
+          "original_text": "有明顯膨大的葉柄，可以儲存空氣"
+        },
+        {
+          "original_label": "④",
+          "original_text": "壓入水中再放開，它不會再浮到水面上。"
+        }
+      ],
+      "original_mode": "MC",
+      "accepted_science_answer": "②",
+      "unique_science_explanation": "大萍葉面細毛及表面特性有助拒水與漂浮。",
+      "canonical_frozen_KP": "sci_g04s1_02_04",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_014",
+      "immutable_student_block_hash_FNV1a64": "e287e676ee9dc1cd",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007|S2|MC|13",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_007|S02|SINGLE_CHOICE|13",
+      "original_school_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        382.3,
+        899.7,
+        419.5,
+        915.19
+      ],
+      "original_full_question_PDF_text_layer": "下列哪一項行為會破壞水域環境？\r\n①河流上游做好水土保持 ②主動清理水\r\n域附近的垃圾 ③盡量捕捉、採摘水中生物\r\n④檢舉工廠排放廢水。",
+      "original_choices_PDF_text_layer": [
+        {
+          "original_label": "①",
+          "original_text": "河流上游做好水土保持"
+        },
+        {
+          "original_label": "②",
+          "original_text": "主動清理水\r\n域附近的垃圾"
+        },
+        {
+          "original_label": "③",
+          "original_text": "盡量捕捉、採摘水中生物"
+        },
+        {
+          "original_label": "④",
+          "original_text": "檢舉工廠排放廢水。"
+        }
+      ],
+      "original_mode": "MC",
+      "accepted_science_answer": "③",
+      "unique_science_explanation": "大量捕捉及採摘水中生物可能破壞水域環境。",
+      "canonical_frozen_KP": "sci_g04s1_02_14",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_015",
+      "immutable_student_block_hash_FNV1a64": "70e24a5b1e6253e5",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S1|TF|1",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S01|TRUE_FALSE|01",
+      "original_school_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.36,
+        114.45,
+        90.36,
+        126.97
+      ],
+      "original_full_question_PDF_text_layer": "西瓜和水稻適合的生存環境相同。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "X",
+      "unique_science_explanation": "西瓜需較乾燥排水環境，水稻通常需供水較充足的水田。",
+      "canonical_frozen_KP": "sci_g04s1_01_02",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_016",
+      "immutable_student_block_hash_FNV1a64": "47c7cbd3d485380f",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S1|TF|4",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S01|TRUE_FALSE|04",
+      "original_school_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.36,
+        205.53,
+        90.36,
+        218.05
+      ],
+      "original_full_question_PDF_text_layer": "進行水域環境調查時，安全是最重要的，而且應該\r\n盡量維護景觀原貌。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "O",
+      "unique_science_explanation": "水域調查需注意安全並尊重保護環境。",
+      "canonical_frozen_KP": "sci_g04s1_02_14",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_017",
+      "immutable_student_block_hash_FNV1a64": "ae1ad580a0dfb8ae",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S1|TF|5",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S01|TRUE_FALSE|05",
+      "original_school_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.36,
+        241.89,
+        90.36,
+        254.41
+      ],
+      "original_full_question_PDF_text_layer": "「魚塭、溪流、海洋、高山湖泊、水田」以上五種\r\n水域環境，有三種是屬於天然形成的。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "O",
+      "unique_science_explanation": "五種水域中的溪流、海洋、高山湖泊一般天然形成；魚塭、水田為人工。",
+      "canonical_frozen_KP": "sci_g04s1_02_02",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_018",
+      "immutable_student_block_hash_FNV1a64": "74ca94d35d2d70c0",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S1|TF|6",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S01|TRUE_FALSE|06",
+      "original_school_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.36,
+        278.37,
+        90.36,
+        290.89
+      ],
+      "original_full_question_PDF_text_layer": "把荷花的地下莖和葉柄切開後，可以看到裡面有中\r\n空的管道，能儲存空氣。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "O",
+      "unique_science_explanation": "荷花地下莖與葉柄有中空通氣構造。",
+      "canonical_frozen_KP": "sci_g04s1_02_07",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_019",
+      "immutable_student_block_hash_FNV1a64": "20fcc12f320412a9",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S1|TF|10",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S01|TRUE_FALSE|10",
+      "original_school_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        36.72,
+        387.6,
+        84.72,
+        400.12
+      ],
+      "original_full_question_PDF_text_layer": "在溪邊烤肉、露營很好玩，但也有可能會破壞水域\r\n環境。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "O",
+      "unique_science_explanation": "溪流附近烤肉露營若不當處理垃圾或污染物可能傷害水域。",
+      "canonical_frozen_KP": "sci_g04s1_02_14",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_020",
+      "immutable_student_block_hash_FNV1a64": "ce427fe6e0485699",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S1|TF|11",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S01|TRUE_FALSE|11",
+      "original_school_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        36.72,
+        424.08,
+        84.72,
+        436.6
+      ],
+      "original_full_question_PDF_text_layer": "魚的外形通常是流線形，可以減少水的阻力，幫助\r\n牠們在水中運動。",
+      "original_choices_PDF_text_layer": null,
+      "original_mode": "TF",
+      "accepted_science_answer": "O",
+      "unique_science_explanation": "流線型體型有助減少水阻力。",
+      "canonical_frozen_KP": "sci_g04s1_02_08",
+      "student_item_id": "P12_113_G04S1_B02_NATIVE21_021",
+      "immutable_student_block_hash_FNV1a64": "a145a76d778fea29",
+      "source_gate": true,
+      "science_kp_gate": true,
+      "rights_gate": true,
+      "operator_exact_cohort_approved": true
+    }
+  ],
+  "release_acceptance": [
+    "Focused S1 CI and A4 pass",
+    "Main exact bank readback + cumulative loader",
+    "Live Pages + Chromium E2E + source 21 and total 842",
+    "B02 closeout only after E2E verified"
+  ],
+  "B02_first50_closed": false
+}

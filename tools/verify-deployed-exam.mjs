@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-exact4-live814-20261019",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b01-wende7-live821-20261021",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 814 小題（412 題是非＋267 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 821 小題（416 題是非＋270 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
   const native38Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-native38-public-v1.json",{cache:"no-cache"});
   assert.equal(native38Response.status(),200,"Published Pages must serve approved native38 original exam cohort");
   const native38=await native38Response.json();
@@ -65,6 +65,36 @@ try {
     &&x.original_teacher_answer_key_authenticated===false&&x.original_cropped_assets_included===false
     &&x.public_material_scope==="EXAM_QUESTION_TEXT_ONLY"&&x.source_pdf_sha256?.length===64
     &&x.source_pdf_bbox_pts_top_left?.length===4&&x.options?.length===4));
+  // B01 Wende MID001 selective 7 original source questions, Article9 text-only, per-asset live Pages check.
+  const b01Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-b01-wende7-standalone-public-v1.json",{cache:"no-cache"});
+  assert.equal(b01Response.status(),200,"Live Pages delivers seven original B01 Wende standalone questions");
+  const b01=await b01Response.json();
+  assert.equal(b01.schema_version,"SCIENCE_P12_G04S1_113_B01_WENDE7_STANDALONE_PUBLIC_V1");
+  assert.deepEqual([b01.expected_blocks,b01.expected_answer_slots,b01.expected_standalone_true_false,b01.expected_standalone_choice],[7,7,4,3]);
+  const source="SCI_G04_S1_113_MID_001";
+  assert.deepEqual(b01.blocks.map(x=>x.source_slot_id),[
+   source+"|S01|TF|004",source+"|S01|TF|012",source+"|S01|TF|014",source+"|S01|TF|015",
+   source+"|S02|MC|007",source+"|S02|MC|008",source+"|S02|MC|011"]);
+  assert.deepEqual(b01.blocks.map(x=>x.answer),["X","X","O","O","②","②","③"]);
+  assert.deepEqual(b01.blocks.map(x=>x.canonical_kp_id),[
+   "sci_g04s1_02_02","sci_g04s1_02_11","sci_g04s1_02_13","sci_g04s1_02_14",
+   "sci_g04s1_02_09","sci_g04s1_02_05","sci_g04s1_02_14"]);
+  assert.ok(b01.blocks.every(x=>x.source_id===source&&x.unit==="4-S1-U02"&&x.grade===4&&x.semester===1
+   &&x.source_pdf_sha256==="7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56"
+   &&x.source_page_pdf_1_based===1&&x.source_pdf_bbox_pts_top_left?.length===4
+   &&x.certification_status==="OPERATOR_APPROVED_PUBLIC"&&x.operator_publication_approval===true
+   &&x.rights_license_status==="REGULATED_EXAM_QUESTION_ART9"
+   &&x.public_material_scope==="EXAM_QUESTION_TEXT_ONLY"&&x.original_cropped_assets_included===false
+   &&x.original_teacher_answer_key_authenticated===false&&x.dependency_review_verified===true));
+  assert.ok(b01.blocks.filter(x=>x.type==="mcq").every(x=>x.options?.length===4&&["①","②","③","④"].includes(x.answer)));
+  assert.equal(b01.blocks.filter(x=>x.type==="tf").length,4);
+  assert.equal(b01.blocks.filter(x=>x.source_lineage_ids?.length===2).length,2,
+   "exact identical unpublished cross-school question retains two source lineages, one student question");
+  const loaderResponse=await page.request.get(base+"/assets/js/historical-bank-ox-v6.mjs",{cache:"no-cache"});
+  assert.equal(loaderResponse.status(),200,"live Pages serves cumulative historical loader");
+  const liveLoader=await loaderResponse.text();
+  assert.ok(liveLoader.includes("...b01Wende7.blocks")&&liveLoader.includes("b01Wende7.answerSlots"),
+   "live loader must actually integrate seven new B01 items, not merely upload their JSON asset");
   const native6Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-next-native-tfmc6-public-v1.json",{cache:"no-cache"});
   assert.equal(native6Response.status(),200,"Live Pages delivers 113 next native six new source bank");
   const native6=await native6Response.json();
@@ -388,7 +418,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; 750 slots (749 prior main + one exact Wende MID001 MC010)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B01 seven exact Wende standalone LIVE, total 821 answer slots (416 TF, 270 MC, 36 context groups)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

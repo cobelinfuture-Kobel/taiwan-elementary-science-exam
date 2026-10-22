@@ -1,0 +1,1046 @@
+{
+  "schema_version": "P12_G04S1_113_B04_NATIVE50_FINAL_CLOSEOUT_36PUBLISHED_13HOLD_1ALIAS_V1",
+  "batch": "P12_G04S1_113_B04",
+  "status": "CLOSED",
+  "source_positions_frozen": 50,
+  "operator_approval_scope": "B04 exact36 original text+choices/science unique answer/direct 113 frozen KP/Article9 text-only admission",
+  "closed_first50_original_positions": true,
+  "existing_B01_B02_B03_closed_unchanged": true,
+  "B05_not_started": true,
+  "ALL29_source_papers_not_all_closed": true,
+  "source_branch_PR124_still_DRAFT": true,
+  "source_review_ref": "data/review/p12-g04s1-113-b04-native50-post233-legacy7-36candidates-13hold-1duplicate-v1.json",
+  "exact_operator_approval_ref": "data/review/p12-g04s1-113-b04-exact36-operator-approved-formal-v1.json",
+  "student_bank_main_ref": "site/data/question-bank/p12-g04s1-113-b04-native36-standalone-public-v1.json",
+  "student_bank_blob_sha": "3e3e34671539998a9eafcd902df5afefa9bb6de5",
+  "student_release_PR": 157,
+  "live_E2E_fix_PR": 158,
+  "live_final_main_sha": "754ec0df02c08b7712f9f03ced06c6d3430df41e",
+  "original_student_release_merge_sha": "5985a6058c53c493cc398c88727c6f1b544d38b7",
+  "pages_live_run_id": 39771361871,
+  "pages_url": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/39771361871",
+  "pages_CI": "PASS",
+  "pages_deploy": "PASS",
+  "pages_real_browser_E2E": "PASS",
+  "PUBLISHED_gate_checked_only_after_actual_E2E": true,
+  "before_113_canonical_source_count": 233,
+  "after_113_canonical_source_count_expected": 269,
+  "before_site_answer_slots": 869,
+  "after_live_site_answer_slots": 905,
+  "after_live_site_TF": 463,
+  "after_live_site_MC": 307,
+  "after_live_context_groups": 36,
+  "count_unit_note": "36 new student-source answer slots; 13 previously held sources; 1 exact published alias. Seven Mingyi early public sources already represented separately, no additional student questions.",
+  "formal_metrics": {
+    "FORMAL_SCIENCE_KP_APPROVED_new": 36,
+    "ADMISSION_READY_new": 36,
+    "PUBLISHED_new": 36
+  },
+  "original_50_dispositions": {
+    "HOLD_ORIGINAL_SCIENCE_OR_KP": 12,
+    "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED": 36,
+    "SUPPRESSED_ALREADY_PUBLIC_ALIAS": 1,
+    "HOLD_SCIENCE_QUALIFIER": 1
+  },
+  "all_13_HOLD_retained": true,
+  "one_legacy_source_alias_retained": true,
+  "student_source_36_ids": [
+    "SCI_G04_S1_113_MID_011|S1|TF|6",
+    "SCI_G04_S1_113_MID_011|S1|TF|10",
+    "SCI_G04_S1_113_MID_011|S2|MC|7",
+    "SCI_G04_S1_113_MID_011|S2|MC|9",
+    "SCI_G04_S1_113_MID_011|S2|MC|10",
+    "SCI_G04_S1_113_MID_013|S1|TF|1",
+    "SCI_G04_S1_113_MID_013|S1|TF|2",
+    "SCI_G04_S1_113_MID_013|S1|TF|3",
+    "SCI_G04_S1_113_MID_013|S1|TF|5",
+    "SCI_G04_S1_113_MID_013|S1|TF|7",
+    "SCI_G04_S1_113_MID_013|S1|TF|9",
+    "SCI_G04_S1_113_MID_013|S1|TF|10",
+    "SCI_G04_S1_113_MID_013|S1|TF|11",
+    "SCI_G04_S1_113_MID_013|S1|TF|12",
+    "SCI_G04_S1_113_MID_013|S1|TF|13",
+    "SCI_G04_S1_113_MID_013|S1|TF|14",
+    "SCI_G04_S1_113_MID_013|S1|TF|15",
+    "SCI_G04_S1_113_MID_013|S2|MC|1",
+    "SCI_G04_S1_113_MID_013|S2|MC|4",
+    "SCI_G04_S1_113_MID_013|S2|MC|5",
+    "SCI_G04_S1_113_MID_013|S2|MC|6",
+    "SCI_G04_S1_113_MID_013|S2|MC|7",
+    "SCI_G04_S1_113_MID_013|S2|MC|8",
+    "SCI_G04_S1_113_MID_013|S2|MC|9",
+    "SCI_G04_S1_113_MID_013|S2|MC|10",
+    "SCI_G04_S1_113_MID_014|S1|TF|4",
+    "SCI_G04_S1_113_MID_014|S1|TF|5",
+    "SCI_G04_S1_113_MID_014|S1|TF|9",
+    "SCI_G04_S1_113_MID_014|S1|TF|10",
+    "SCI_G04_S1_113_MID_014|S2|MC|1",
+    "SCI_G04_S1_113_MID_014|S2|MC|7",
+    "SCI_G04_S1_113_MID_014|S2|MC|8",
+    "SCI_G04_S1_113_MID_015|S1|TF|1",
+    "SCI_G04_S1_113_MID_015|S1|TF|2",
+    "SCI_G04_S1_113_MID_015|S1|TF|3",
+    "SCI_G04_S1_113_MID_015|S1|TF|4"
+  ],
+  "source_alias_to_prior": {
+    "source": "SCI_G04_S1_113_MID_014|S1|TF|2",
+    "already_public": "SCI_G04_S1_113_MID_005|S1|TF|010"
+  },
+  "B04_no_scanned_original_PDF_or_third_party_figure_published": true,
+  "original_teacher_answer_not_authenticated": true,
+  "existing_frozen_113_48KP_not_modified": true,
+  "source_snapshot233_append_only_refresh269_required": true,
+  "next_fixed_task": "P12_G04S1_113_ALL29_Published269_SourceSuppressionV16_MasterLedgerReconcile_Then_B05_Native50_ExistingAdmissionGates_NoB01B02B03B04Reopen",
+  "rows": [
+    {
+      "ordinal": 151,
+      "source_id": "SCI_G04_S1_113_MID_010|S2|MC|10",
+      "original_source_id": "SCI_G04_S1_113_MID_010|S02|SINGLE_CHOICE|10",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        368.95,
+        503.08,
+        416.95,
+        515.08
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_010",
+      "source_disposition": "HOLD_ORIGINAL_SCIENCE_OR_KP",
+      "prior_evidence_route": "HOLD_DIRECT_KP",
+      "source_science_answer": "③",
+      "source_canonical_KP": null,
+      "hold_reason": "震度與規模不同，但震度名詞不屬四上U01已凍結直接KP"
+    },
+    {
+      "ordinal": 152,
+      "source_id": "SCI_G04_S1_113_MID_011|S1|TF|5",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S01|TRUE_FALSE|05",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        36,
+        315.11,
+        73.65,
+        330.11
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_011",
+      "source_disposition": "HOLD_ORIGINAL_SCIENCE_OR_KP",
+      "prior_evidence_route": "HOLD_DIRECT_KP",
+      "source_science_answer": "X",
+      "source_canonical_KP": null,
+      "hold_reason": "水可經蒸發、滲透等循環，臺灣水域不保證全部入海；缺直接U01/U02 KP"
+    },
+    {
+      "ordinal": 153,
+      "source_id": "SCI_G04_S1_113_MID_011|S1|TF|6",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S01|TRUE_FALSE|06",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        36,
+        357.11,
+        73.65,
+        372.11
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_011",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "O",
+      "source_canonical_KP": "sci_g04s1_01_06",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 154,
+      "source_id": "SCI_G04_S1_113_MID_011|S1|TF|10",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S01|TRUE_FALSE|10",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        36,
+        546.11,
+        73.65,
+        561.11
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_011",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "X",
+      "source_canonical_KP": "sci_g04s1_01_05",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 155,
+      "source_id": "SCI_G04_S1_113_MID_011|S2|MC|4",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|04",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        36,
+        903.11,
+        73.65,
+        918.11
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_011",
+      "source_disposition": "HOLD_ORIGINAL_SCIENCE_OR_KP",
+      "prior_evidence_route": "HOLD_SCIENCE_UNIQUE",
+      "source_science_answer": null,
+      "source_canonical_KP": "sci_g04s1_01_07",
+      "hold_reason": "整治河川亦可能傷害棲地，『不會破壞環境』缺條件不能唯一"
+    },
+    {
+      "ordinal": 156,
+      "source_id": "SCI_G04_S1_113_MID_011|S2|MC|7",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|07",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        374.88,
+        294.11,
+        412.53,
+        309.11
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_011",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "①",
+      "source_canonical_KP": "sci_g04s1_02_07",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 157,
+      "source_id": "SCI_G04_S1_113_MID_011|S2|MC|8",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|08",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        374.88,
+        357.11,
+        412.53,
+        372.11
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_011",
+      "source_disposition": "HOLD_ORIGINAL_SCIENCE_OR_KP",
+      "prior_evidence_route": "HOLD_DIRECT_KP",
+      "source_science_answer": "④",
+      "source_canonical_KP": null,
+      "hold_reason": "舔嘗岩石與土壤不安全，但現行KP03聚焦顆粒差異，非明列觀察安全行為"
+    },
+    {
+      "ordinal": 158,
+      "source_id": "SCI_G04_S1_113_MID_011|S2|MC|9",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|09",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        374.88,
+        420.11,
+        412.53,
+        435.11
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_011",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "①",
+      "source_canonical_KP": "sci_g04s1_01_02",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 159,
+      "source_id": "SCI_G04_S1_113_MID_011|S2|MC|10",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|10",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        382.38,
+        546.11,
+        419.88,
+        561.11
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_011",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "②",
+      "source_canonical_KP": "sci_g04s1_01_01",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 160,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|1",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|01",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        33.48,
+        79.15,
+        65,
+        88.93
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "O",
+      "source_canonical_KP": "sci_g04s1_01_02",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 161,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|2",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|02",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        33.48,
+        115.65,
+        65,
+        125.43
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "X",
+      "source_canonical_KP": "sci_g04s1_01_02",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 162,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|3",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|03",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        33.48,
+        170.25,
+        65,
+        180.03
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "O",
+      "source_canonical_KP": "sci_g04s1_01_02",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 163,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|4",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|04",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        33.48,
+        206.73,
+        65,
+        216.51
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "HOLD_ORIGINAL_SCIENCE_OR_KP",
+      "prior_evidence_route": "HOLD_SCIENCE_QUALIFIER",
+      "source_science_answer": null,
+      "source_canonical_KP": "sci_g04s1_01_03",
+      "hold_reason": "岩石風化可產生礫石與更細材料，非必然依此順序最後形成土壤"
+    },
+    {
+      "ordinal": 164,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|5",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|05",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        33.48,
+        261.33,
+        65,
+        271.11
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "O",
+      "source_canonical_KP": "sci_g04s1_01_07",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 165,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|6",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|06",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        33.48,
+        297.72,
+        65,
+        307.5
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "HOLD_ORIGINAL_SCIENCE_OR_KP",
+      "prior_evidence_route": "HOLD_SCIENCE_QUALIFIER",
+      "source_science_answer": null,
+      "source_canonical_KP": "sci_g04s1_01_03",
+      "hold_reason": "岩石表面觸感依種類不同，非普遍粗糙或都有斑點"
+    },
+    {
+      "ordinal": 166,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|7",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|07",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        33.48,
+        334.2,
+        65,
+        343.98
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "O",
+      "source_canonical_KP": "sci_g04s1_01_07",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 167,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|8",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|08",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        33.48,
+        388.8,
+        65,
+        398.58
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "HOLD_ORIGINAL_SCIENCE_OR_KP",
+      "prior_evidence_route": "HOLD_EARTHQUAKE_SAFETY_QUALIFIER",
+      "source_science_answer": null,
+      "source_canonical_KP": "sci_g04s1_01_10",
+      "hold_reason": "趴下掩護穩住適切，但把牆角和堅固桌下並列成安全位置須依場域"
+    },
+    {
+      "ordinal": 168,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|9",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|09",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        33.48,
+        443.4,
+        65,
+        453.18
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "O",
+      "source_canonical_KP": "sci_g04s1_02_07",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 169,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|10",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|10",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        29.76,
+        479.9,
+        61.28,
+        489.68
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "X",
+      "source_canonical_KP": "sci_g04s1_02_05",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 170,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|11",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|11",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        29.76,
+        516.38,
+        61.28,
+        526.16
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "X",
+      "source_canonical_KP": "sci_g04s1_02_02",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 171,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|12",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|12",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        29.76,
+        570.98,
+        61.28,
+        580.76
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "O",
+      "source_canonical_KP": "sci_g04s1_02_02",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 172,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|13",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|13",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        29.76,
+        625.58,
+        61.28,
+        635.36
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "X",
+      "source_canonical_KP": "sci_g04s1_02_09",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 173,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|14",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|14",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        29.76,
+        662.09,
+        61.28,
+        671.87
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "X",
+      "source_canonical_KP": "sci_g04s1_01_03",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 174,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|15",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|15",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        29.76,
+        716.69,
+        61.28,
+        726.47
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "O",
+      "source_canonical_KP": "sci_g04s1_01_05",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 175,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|1",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|01",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        311.45,
+        111.57,
+        342.99,
+        121.35
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "②",
+      "source_canonical_KP": "sci_g04s1_02_13",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 176,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|2",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|02",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        311.45,
+        183.57,
+        342.99,
+        193.35
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "HOLD_ORIGINAL_SCIENCE_OR_KP",
+      "prior_evidence_route": "HOLD_DIRECT_KP",
+      "source_science_answer": "①",
+      "source_canonical_KP": null,
+      "hold_reason": "震央不是震源，但地震名詞非現有地表變動直接KP"
+    },
+    {
+      "ordinal": 177,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|3",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|03",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        311.45,
+        309.6,
+        342.99,
+        319.38
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "HOLD_ORIGINAL_SCIENCE_OR_KP",
+      "prior_evidence_route": "HOLD_SCIENCE_UNIQUE",
+      "source_science_answer": null,
+      "source_canonical_KP": null,
+      "hold_reason": "現在世界規模通用Mw矩震級，芮氏規模『世界通用』命題有科學年代問題"
+    },
+    {
+      "ordinal": 178,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|4",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|04",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        311.45,
+        435.6,
+        342.99,
+        445.38
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "②",
+      "source_canonical_KP": "sci_g04s1_02_11",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 179,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|5",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|05",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        311.45,
+        525.62,
+        342.99,
+        535.4
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "②",
+      "source_canonical_KP": "sci_g04s1_01_02",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 180,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|6",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|06",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        311.45,
+        633.62,
+        342.99,
+        643.4
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "①",
+      "source_canonical_KP": "sci_g04s1_02_09",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 181,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|7",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|07",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        311.45,
+        669.65,
+        342.99,
+        679.43
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "③",
+      "source_canonical_KP": "sci_g04s1_02_09",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 182,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|8",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|08",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 2,
+      "original_native_bbox": [
+        45.6,
+        50.71,
+        77.15,
+        60.49
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "④",
+      "source_canonical_KP": "sci_g04s1_02_02",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 183,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|9",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|09",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 2,
+      "original_native_bbox": [
+        45.6,
+        130.77,
+        77.15,
+        140.55
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "②",
+      "source_canonical_KP": "sci_g04s1_02_14",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 184,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|10",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|10",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 2,
+      "original_native_bbox": [
+        41.88,
+        250.77,
+        73.43,
+        260.55
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "④",
+      "source_canonical_KP": "sci_g04s1_01_09",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 185,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|1",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|01",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        42.6,
+        150.8,
+        81.5,
+        163.76
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_014",
+      "source_disposition": "HOLD_ORIGINAL_SCIENCE_OR_KP",
+      "prior_evidence_route": "HOLD_LOCALITY_UNVERIFIED",
+      "source_science_answer": null,
+      "source_canonical_KP": "sci_g04s1_01_02",
+      "hold_reason": "臺灣東北角海邊可能有森林，但須明確地點才能獨立判定『可看到茂密森林』。"
+    },
+    {
+      "ordinal": 186,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|2",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|02",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        42.6,
+        189.92,
+        81.5,
+        202.88
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_014",
+      "source_disposition": "SUPPRESSED_ALREADY_PUBLIC_ALIAS",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "X",
+      "source_canonical_KP": "sci_g04s1_02_12",
+      "alias_to": "SCI_G04_S1_113_MID_005|S1|TF|010"
+    },
+    {
+      "ordinal": 187,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|4",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|04",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        42.6,
+        268.43,
+        81.5,
+        281.39
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_014",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "O",
+      "source_canonical_KP": "sci_g04s1_02_05",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 188,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|5",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|05",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        42.6,
+        307.67,
+        81.5,
+        320.63
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_014",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "O",
+      "source_canonical_KP": "sci_g04s1_02_09",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 189,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|8",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|08",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        42.6,
+        425.29,
+        81.5,
+        438.25
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_014",
+      "source_disposition": "HOLD_ORIGINAL_SCIENCE_OR_KP",
+      "prior_evidence_route": "HOLD_DIRECT_KP",
+      "source_science_answer": null,
+      "source_canonical_KP": null,
+      "hold_reason": "較強搖晃與震度2級不符，但震度分級非U01直接KP"
+    },
+    {
+      "ordinal": 190,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|9",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|09",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        42.6,
+        498.37,
+        81.5,
+        511.33
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_014",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "O",
+      "source_canonical_KP": "sci_g04s1_02_02",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 191,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|10",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|10",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        42.6,
+        554.53,
+        81.5,
+        567.49
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_014",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "X",
+      "source_canonical_KP": "sci_g04s1_02_10",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 192,
+      "source_id": "SCI_G04_S1_113_MID_014|S2|MC|1",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|01",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        42.6,
+        622,
+        81.5,
+        634.96
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_014",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "③",
+      "source_canonical_KP": "sci_g04s1_01_07",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 193,
+      "source_id": "SCI_G04_S1_113_MID_014|S2|MC|7",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|07",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        308.23,
+        462.49,
+        347.11,
+        475.45
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_014",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "②",
+      "source_canonical_KP": "sci_g04s1_01_04",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 194,
+      "source_id": "SCI_G04_S1_113_MID_014|S2|MC|8",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|08",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        308.23,
+        538.09,
+        347.11,
+        551.05
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_014",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "④",
+      "source_canonical_KP": "sci_g04s1_02_07",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 195,
+      "source_id": "SCI_G04_S1_113_MID_014|S2|MC|10",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|10",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        308.23,
+        653.32,
+        347.11,
+        666.28
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_014",
+      "source_disposition": "HOLD_ORIGINAL_SCIENCE_OR_KP",
+      "prior_evidence_route": "HOLD_DIRECT_KP",
+      "source_science_answer": "④",
+      "source_canonical_KP": null,
+      "hold_reason": "多數生物利用空氣氧氣但非Frozen KP直接教學目標"
+    },
+    {
+      "ordinal": 196,
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|1",
+      "original_source_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|01",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        28.32,
+        100.09,
+        58.32,
+        112.09
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_015",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "X",
+      "source_canonical_KP": "sci_g04s1_02_03",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 197,
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|2",
+      "original_source_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|02",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        28.32,
+        136.09,
+        58.32,
+        148.09
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_015",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "X",
+      "source_canonical_KP": "sci_g04s1_02_04",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 198,
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|3",
+      "original_source_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|03",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        28.32,
+        154.09,
+        58.32,
+        166.09
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_015",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "X",
+      "source_canonical_KP": "sci_g04s1_02_09",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 199,
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|4",
+      "original_source_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|04",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        28.32,
+        172.09,
+        58.32,
+        184.09
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_015",
+      "source_disposition": "PUBLISHED_B04_EXACT36_MAIN_PAGES_VERIFIED",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "X",
+      "source_canonical_KP": "sci_g04s1_02_02",
+      "release_evidence": "PR157_S1CI_A4_PASS_PR158_E2E_FIX_PAGES39771361871_PASS"
+    },
+    {
+      "ordinal": 200,
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|5",
+      "original_source_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|05",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_bbox": [
+        28.32,
+        190.09,
+        58.32,
+        202.09
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_015",
+      "source_disposition": "HOLD_SCIENCE_QUALIFIER",
+      "prior_evidence_route": "DIRECT",
+      "source_science_answer": "O",
+      "source_canonical_KP": "sci_g04s1_02_12",
+      "hold_reason": "Absolute wording implies thermal discharge necessarily bleaches and kills nearby corals, while inherited reasoning establishes only possible risk, not unconditional outcome; original science answer not uniquely defensible."
+    }
+  ]
+}

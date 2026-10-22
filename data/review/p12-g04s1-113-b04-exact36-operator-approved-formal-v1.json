@@ -1,0 +1,1042 @@
+{
+  "schema_version": "P12_G04S1_113_B04_EXACT36_OPERATOR_APPROVED_FORMAL_V1",
+  "operator_input_verbatim": "P12_G04S1_113_B04_Exact36_OperatorApproval_Then_SelectiveStudentPR_CI_Main_PagesE2E_Closeout_13HOLD_1AlreadyPublic；請核准這份 B04 精確 36 題清冊",
+  "operator_scope": "Operator accepts the preceding exact B04 36 original source items, complete printed original question+MC choices, independent science answer and direct frozen 113 Kanghsuan G04 S1 MID U01/U02 KP and Article9 school exam text-only rights; expressly excludes 13 HOLD and one previously public exact source alias.",
+  "source_PR124_draft_unmerged": true,
+  "source_exact36_manifest": "data/review/p12-g04s1-113-b04-exact36-source-science-kp-rights-operator-pending-v1.json",
+  "source_worklist": "data/review/p12-g04s1-113-b04-native50-post233-legacy7-36candidates-13hold-1duplicate-v1.json",
+  "original_school_PDF_SHA256_native_answer_BBox_text_preserved": true,
+  "independent_science_answers_not_teacher_key": true,
+  "frozen_113_canonical_KP_unmodified": true,
+  "rights_scope": "TAIWAN_ARTICLE9_LAWFULLY_HELD_SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_SOURCE_PDF_OR_THIRD_PARTY_IMAGES_OR_PRINTED_SCORES",
+  "prior_main_source_published233": 233,
+  "prior_site_answer_slots": 869,
+  "counts": {
+    "source_work_positions": 50,
+    "operator_approved_questions": 36,
+    "TF": 22,
+    "MC": 14,
+    "prior_HOLD": 12,
+    "new_science_qualifier_HOLD": 1,
+    "total_HOLD": 13,
+    "already_public_exact_duplicate_suppressed": 1,
+    "FORMAL_SCIENCE_KP_APPROVED_new": 36,
+    "ADMISSION_READY_new": 36,
+    "PUBLISHED_new_before_main_and_pages": 0
+  },
+  "formal_before_live": {
+    "FORMAL_SCIENCE_KP_APPROVED_new": 36,
+    "ADMISSION_READY_new": 36,
+    "PUBLISHED_new": 0
+  },
+  "excluded_exact_duplicate": {
+    "source_id": "SCI_G04_S1_113_MID_014|S1|TF|2",
+    "already_public": "SCI_G04_S1_113_MID_005|S1|TF|010"
+  },
+  "excluded_science_qualifier_HOLD": "SCI_G04_S1_113_MID_015|S1|TF|5",
+  "excluded_prior_12_HOLD_and_legacy7": true,
+  "B01_B02_B03_closed_unchanged": true,
+  "records": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_011|S1|TF|6",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_011|S01|TRUE_FALSE|06",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_001",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        36,
+        357.11,
+        73.65,
+        372.11
+      ],
+      "full_original_PDF_text": "進行「雨水大小對地表的影響」實驗時 \r\n ，可以發現顆粒較小的物質比較容易被 \r\n 水沖走。",
+      "original_exact_stem": "進行「雨水大小對地表的影響」實驗時 \r\n ，可以發現顆粒較小的物質比較容易被 \r\n 水沖走。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "O",
+      "science_reason": "細小顆粒通常較易由流水搬運，仍需原本實驗條件",
+      "canonical_frozen_kp": "sci_g04s1_01_06",
+      "immutable_student_block_hash_fnv1a64": "ab53192eeac5956d",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_011|S1|TF|10",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_011|S01|TRUE_FALSE|10",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_002",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        36,
+        546.11,
+        73.65,
+        561.11
+      ],
+      "full_original_PDF_text": "強風或豪雨都無法移動岩石的位置。",
+      "original_exact_stem": "強風或豪雨都無法移動岩石的位置。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "X",
+      "science_reason": "流水與豪雨可搬動岩石，並非完全無法",
+      "canonical_frozen_kp": "sci_g04s1_01_05",
+      "immutable_student_block_hash_fnv1a64": "8876503aafa15a0e",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_011|S2|MC|7",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|07",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_003",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        374.88,
+        294.11,
+        412.53,
+        309.11
+      ],
+      "full_original_PDF_text": "下列哪一種水生植物屬於挺水性水生植 \r\n 物？ ①香蒲 ②台灣萍蓬草 ③大萍 \r\n ④水蘊草。",
+      "original_exact_stem": "下列哪一種水生植物屬於挺水性水生植 \r\n 物？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "香蒲"
+        },
+        {
+          "original_label": "②",
+          "text": "台灣萍蓬草"
+        },
+        {
+          "original_label": "③",
+          "text": "大萍"
+        },
+        {
+          "original_label": "④",
+          "text": "水蘊草。"
+        }
+      ],
+      "independent_answer": "①",
+      "science_reason": "香蒲為挺水性植物",
+      "canonical_frozen_kp": "sci_g04s1_02_07",
+      "immutable_student_block_hash_fnv1a64": "e785c284d06772a3",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_011|S2|MC|9",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|09",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_004",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        374.88,
+        420.11,
+        412.53,
+        435.11
+      ],
+      "full_original_PDF_text": "下列關於各種環境的敘述，哪一個是錯\r\n 誤的？ ①森林風大且寒冷，生物種類\r\n 稀少②生態池，水深通常較淺，陽光可\r\n 以照到水底③溪流水流動較快，常有溪 \r\n 魚、蝦、蟹及植物等 ④海洋是最大的 \r\n 水域環境，生物種類很多。",
+      "original_exact_stem": "下列關於各種環境的敘述，哪一個是錯\r\n 誤的？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "森林風大且寒冷，生物種類\r\n 稀少"
+        },
+        {
+          "original_label": "②",
+          "text": "生態池，水深通常較淺，陽光可\r\n 以照到水底"
+        },
+        {
+          "original_label": "③",
+          "text": "溪流水流動較快，常有溪 \r\n 魚、蝦、蟹及植物等"
+        },
+        {
+          "original_label": "④",
+          "text": "海洋是最大的 \r\n 水域環境，生物種類很多。"
+        }
+      ],
+      "independent_answer": "①",
+      "science_reason": "森林不能概稱風大寒冷且生物種類稀少",
+      "canonical_frozen_kp": "sci_g04s1_01_02",
+      "immutable_student_block_hash_fnv1a64": "ff7267b7a4124e05",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_011|S2|MC|10",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|10",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_005",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        382.38,
+        546.11,
+        419.88,
+        561.11
+      ],
+      "full_original_PDF_text": "地表除了生物，還有非生物，下列哪 \r\n 一項屬於地表的「非生物」物質？ \r\n ①苔癬 ②水 ③螞蟻 ④貂。",
+      "original_exact_stem": "地表除了生物，還有非生物，下列哪 \r\n 一項屬於地表的「非生物」物質？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "苔癬"
+        },
+        {
+          "original_label": "②",
+          "text": "水"
+        },
+        {
+          "original_label": "③",
+          "text": "螞蟻"
+        },
+        {
+          "original_label": "④",
+          "text": "貂。"
+        }
+      ],
+      "independent_answer": "②",
+      "science_reason": "水是非生物，其餘為生物",
+      "canonical_frozen_kp": "sci_g04s1_01_01",
+      "immutable_student_block_hash_fnv1a64": "7ba1469195a3afab",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|1",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|01",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_006",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        33.48,
+        79.15,
+        65,
+        88.93
+      ],
+      "full_original_PDF_text": "森林中有各種大型樹木，生物種類\r\n豐富，有鳥類、松鼠、蜥蜴等。",
+      "original_exact_stem": "森林中有各種大型樹木，生物種類\r\n豐富，有鳥類、松鼠、蜥蜴等。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "O",
+      "science_reason": "森林環境可有大樹及多類動物",
+      "canonical_frozen_kp": "sci_g04s1_01_02",
+      "immutable_student_block_hash_fnv1a64": "1b3aa9b68519d664",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|2",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|02",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_007",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        33.48,
+        115.65,
+        65,
+        125.43
+      ],
+      "full_original_PDF_text": "不同的生物都適合生存在同樣的\r\n地表環境，例如生物都適合生存在\r\n陸地。",
+      "original_exact_stem": "不同的生物都適合生存在同樣的\r\n地表環境，例如生物都適合生存在\r\n陸地。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "X",
+      "science_reason": "生物有各自適合環境，並非全部適合陸地",
+      "canonical_frozen_kp": "sci_g04s1_01_02",
+      "immutable_student_block_hash_fnv1a64": "bbe180b11e86ae44",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|3",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|03",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_008",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        33.48,
+        170.25,
+        65,
+        180.03
+      ],
+      "full_original_PDF_text": "肥沃的土壤中含有養分，能讓農作\r\n物生長良好。",
+      "original_exact_stem": "肥沃的土壤中含有養分，能讓農作\r\n物生長良好。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "O",
+      "science_reason": "土壤養分有助農作物生長",
+      "canonical_frozen_kp": "sci_g04s1_01_02",
+      "immutable_student_block_hash_fnv1a64": "8ab62e75972d706a",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|5",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|05",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_009",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        33.48,
+        261.33,
+        65,
+        271.11
+      ],
+      "full_original_PDF_text": "長期濫採河川砂石，容易危害橋梁\r\n的安全。",
+      "original_exact_stem": "長期濫採河川砂石，容易危害橋梁\r\n的安全。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "O",
+      "science_reason": "濫採河川砂石可能危及橋梁基礎",
+      "canonical_frozen_kp": "sci_g04s1_01_07",
+      "immutable_student_block_hash_fnv1a64": "2a806a813d76914d",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|7",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|07",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_010",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        33.48,
+        334.2,
+        65,
+        343.98
+      ],
+      "full_original_PDF_text": "開發山坡地，不只可能會造成土石\r\n流，也有可能會影響到該區河流內\r\n的水域環境和水生生物。",
+      "original_exact_stem": "開發山坡地，不只可能會造成土石\r\n流，也有可能會影響到該區河流內\r\n的水域環境和水生生物。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "O",
+      "science_reason": "坡地開發造成沖蝕且影響下游水域",
+      "canonical_frozen_kp": "sci_g04s1_01_07",
+      "immutable_student_block_hash_fnv1a64": "fef93bea0a9376e7",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|9",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|09",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_011",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        33.48,
+        443.4,
+        65,
+        453.18
+      ],
+      "full_original_PDF_text": "蓮藕是蓮的地下莖，裡面有許多中\r\n空的構造通氣組，可以儲存空氣。。",
+      "original_exact_stem": "蓮藕是蓮的地下莖，裡面有許多中\r\n空的構造通氣組，可以儲存空氣。。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "O",
+      "science_reason": "蓮藕地下莖含通氣空隙有利儲存空氣",
+      "canonical_frozen_kp": "sci_g04s1_02_07",
+      "immutable_student_block_hash_fnv1a64": "a093fbc4dc562f5f",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|10",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|10",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_012",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        29.76,
+        479.9,
+        61.28,
+        489.68
+      ],
+      "full_original_PDF_text": "水蘊草的葉面有細毛，漂浮在水面\r\n上，屬於漂浮性水生植物。",
+      "original_exact_stem": "水蘊草的葉面有細毛，漂浮在水面\r\n上，屬於漂浮性水生植物。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "X",
+      "science_reason": "水蘊草為沉水性，非漂浮且非靠葉細毛漂浮",
+      "canonical_frozen_kp": "sci_g04s1_02_05",
+      "immutable_student_block_hash_fnv1a64": "36056edc7c253b6a",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|11",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|11",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_013",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        29.76,
+        516.38,
+        61.28,
+        526.16
+      ],
+      "full_original_PDF_text": "一般而言，在淡水的水域環境和海\r\n水的水域環境中，水生生物的種類\r\n都不相同。",
+      "original_exact_stem": "一般而言，在淡水的水域環境和海\r\n水的水域環境中，水生生物的種類\r\n都不相同。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "X",
+      "science_reason": "淡海水生物群落不同，但不能絕對說都不同，部分種類可耐鹽度變化",
+      "canonical_frozen_kp": "sci_g04s1_02_02",
+      "immutable_student_block_hash_fnv1a64": "36cb344a8cbdf4e1",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|12",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|12",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_014",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        29.76,
+        570.98,
+        61.28,
+        580.76
+      ],
+      "full_original_PDF_text": "生態池的水通常比較淺，陽光可以\r\n照射到池底，常有睡蓮、鯉魚和龜\r\n等生物生存。。",
+      "original_exact_stem": "生態池的水通常比較淺，陽光可以\r\n照射到池底，常有睡蓮、鯉魚和龜\r\n等生物生存。。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "O",
+      "science_reason": "生態池可能適合睡蓮、鯉魚或龜類生存",
+      "canonical_frozen_kp": "sci_g04s1_02_02",
+      "immutable_student_block_hash_fnv1a64": "d908853ef71baa46",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|13",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|13",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_015",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        29.76,
+        625.58,
+        61.28,
+        635.36
+      ],
+      "full_original_PDF_text": "龜和蟹都可以在陸地或水中爬\r\n行，用肺呼吸。",
+      "original_exact_stem": "龜和蟹都可以在陸地或水中爬\r\n行，用肺呼吸。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "X",
+      "science_reason": "龜用肺，蟹主要用鰓呼吸",
+      "canonical_frozen_kp": "sci_g04s1_02_09",
+      "immutable_student_block_hash_fnv1a64": "b0aa21bf2008705b",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|14",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|14",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_016",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        29.76,
+        662.09,
+        61.28,
+        671.87
+      ],
+      "full_original_PDF_text": "用放大鏡觀察，可以發現礫石、沙\r\n和土壤的顆粒大小都一樣，只是顏\r\n色不同。。",
+      "original_exact_stem": "用放大鏡觀察，可以發現礫石、沙\r\n和土壤的顆粒大小都一樣，只是顏\r\n色不同。。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "X",
+      "science_reason": "礫石沙土的顆粒大小不一",
+      "canonical_frozen_kp": "sci_g04s1_01_03",
+      "immutable_student_block_hash_fnv1a64": "be0e7347afd45d05",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|15",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|15",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_017",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        29.76,
+        716.69,
+        61.28,
+        726.47
+      ],
+      "full_original_PDF_text": "下過雨後，土壤被沖刷流進河川，\r\n會讓河水變得混濁。",
+      "original_exact_stem": "下過雨後，土壤被沖刷流進河川，\r\n會讓河水變得混濁。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "O",
+      "science_reason": "雨水沖刷土壤入河可使水體混濁",
+      "canonical_frozen_kp": "sci_g04s1_01_05",
+      "immutable_student_block_hash_fnv1a64": "93c35657ba38eb3e",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|1",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|01",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_018",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        311.45,
+        111.57,
+        342.99,
+        121.35
+      ],
+      "full_original_PDF_text": "拜訪水域環境時，攜帶下列哪一\r\n物品可以幫助我們對照水生生物\r\n的資料？ ①撈網 ②水生生物\r\n圖鑑 ③水桶 ④望遠鏡。",
+      "original_exact_stem": "拜訪水域環境時，攜帶下列哪一\r\n物品可以幫助我們對照水生生物\r\n的資料？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "撈網"
+        },
+        {
+          "original_label": "②",
+          "text": "水生生物\r\n圖鑑"
+        },
+        {
+          "original_label": "③",
+          "text": "水桶"
+        },
+        {
+          "original_label": "④",
+          "text": "望遠鏡。"
+        }
+      ],
+      "independent_answer": "②",
+      "science_reason": "水生生物圖鑑有助對照辨識調查生物",
+      "canonical_frozen_kp": "sci_g04s1_02_13",
+      "immutable_student_block_hash_fnv1a64": "78bb1508e39ede7f",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|4",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|04",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_019",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        311.45,
+        435.6,
+        342.99,
+        445.38
+      ],
+      "full_original_PDF_text": "人類經常把下列哪一種物品隨意\r\n拋棄，而這個物品流入海洋後，\r\n常讓海龜誤以為是水母而誤食死\r\n亡？ ①鋁箔包 ②塑膠袋③吸\r\n管④寶特瓶。",
+      "original_exact_stem": "人類經常把下列哪一種物品隨意\r\n拋棄，而這個物品流入海洋後，\r\n常讓海龜誤以為是水母而誤食死\r\n亡？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "鋁箔包"
+        },
+        {
+          "original_label": "②",
+          "text": "塑膠袋"
+        },
+        {
+          "original_label": "③",
+          "text": "吸\r\n管"
+        },
+        {
+          "original_label": "④",
+          "text": "寶特瓶。"
+        }
+      ],
+      "independent_answer": "②",
+      "science_reason": "漂流塑膠袋可能被海龜誤食為水母",
+      "canonical_frozen_kp": "sci_g04s1_02_11",
+      "immutable_student_block_hash_fnv1a64": "6721e16b998d17df",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|5",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|05",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_020",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        311.45,
+        525.62,
+        342.99,
+        535.4
+      ],
+      "full_original_PDF_text": "下列生物和生長環境的配對，哪\r\n一組是不正確的？ ①西瓜：鬆\r\n散、排水性良好的土壤 ②栗喉\r\n蜂虎：堅硬的岩石縫隙 ③招潮\r\n蟹：鬆軟的海濱泥灘地 ④水\r\n稻：有點黏性的溼潤土壤。",
+      "original_exact_stem": "下列生物和生長環境的配對，哪\r\n一組是不正確的？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "西瓜：鬆\r\n散、排水性良好的土壤"
+        },
+        {
+          "original_label": "②",
+          "text": "栗喉\r\n蜂虎：堅硬的岩石縫隙"
+        },
+        {
+          "original_label": "③",
+          "text": "招潮\r\n蟹：鬆軟的海濱泥灘地"
+        },
+        {
+          "original_label": "④",
+          "text": "水\r\n稻：有點黏性的溼潤土壤。"
+        }
+      ],
+      "independent_answer": "②",
+      "science_reason": "栗喉蜂虎築巢用砂質土崖，並非堅硬岩縫",
+      "canonical_frozen_kp": "sci_g04s1_01_02",
+      "immutable_student_block_hash_fnv1a64": "e131210b3b5e035d",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|6",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|06",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_021",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        311.45,
+        633.62,
+        342.99,
+        643.4
+      ],
+      "full_original_PDF_text": "蝦是利用哪一個構造呼吸？\r\n① 鰓 ②肺③呼吸管④氣孔。",
+      "original_exact_stem": "蝦是利用哪一個構造呼吸？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "鰓"
+        },
+        {
+          "original_label": "②",
+          "text": "肺"
+        },
+        {
+          "original_label": "③",
+          "text": "呼吸管"
+        },
+        {
+          "original_label": "④",
+          "text": "氣孔。"
+        }
+      ],
+      "independent_answer": "①",
+      "science_reason": "蝦主要以鰓呼吸",
+      "canonical_frozen_kp": "sci_g04s1_02_09",
+      "immutable_student_block_hash_fnv1a64": "285dbd2cd7f56bc2",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|7",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|07",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_022",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        311.45,
+        669.65,
+        342.99,
+        679.43
+      ],
+      "full_original_PDF_text": "下列水生動物的敘述，哪一項是\r\n正確的？ ①蛙的前腳粗壯，能\r\n夠在陸地上跳躍 ②蝦的腳上有\r\n蹼，能夠在水中游水 ③蝌蚪用\r\n尾巴在水中游水 ④螺有殼，利\r\n用胸足爬行。",
+      "original_exact_stem": "下列水生動物的敘述，哪一項是\r\n正確的？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "蛙的前腳粗壯，能\r\n夠在陸地上跳躍"
+        },
+        {
+          "original_label": "②",
+          "text": "蝦的腳上有\r\n蹼，能夠在水中游水"
+        },
+        {
+          "original_label": "③",
+          "text": "蝌蚪用\r\n尾巴在水中游水"
+        },
+        {
+          "original_label": "④",
+          "text": "螺有殼，利\r\n用胸足爬行。"
+        }
+      ],
+      "independent_answer": "③",
+      "science_reason": "蝌蚪擺動尾部游泳，不是以胸足或蹼游",
+      "canonical_frozen_kp": "sci_g04s1_02_09",
+      "immutable_student_block_hash_fnv1a64": "96b8b38176df3acb",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|8",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|08",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_023",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 2,
+      "original_native_answer_bbox": [
+        45.6,
+        50.71,
+        77.15,
+        60.49
+      ],
+      "full_original_PDF_text": "下列水生生物和生存環境的組\r\n合，哪一項是不正確的？ ①海\r\n豚：海洋 ②溪魚：河流 ③睡\r\n蓮：生態池 ④鯉魚：潮間帶。",
+      "original_exact_stem": "下列水生生物和生存環境的組\r\n合，哪一項是不正確的？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "海\r\n豚：海洋"
+        },
+        {
+          "original_label": "②",
+          "text": "溪魚：河流"
+        },
+        {
+          "original_label": "③",
+          "text": "睡\r\n蓮：生態池"
+        },
+        {
+          "original_label": "④",
+          "text": "鯉魚：潮間帶。"
+        }
+      ],
+      "independent_answer": "④",
+      "science_reason": "鯉魚多為淡水魚，不能與潮間帶作一般棲地配對",
+      "canonical_frozen_kp": "sci_g04s1_02_02",
+      "immutable_student_block_hash_fnv1a64": "9554889442b9a012",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|9",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|09",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_024",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 2,
+      "original_native_answer_bbox": [
+        45.6,
+        130.77,
+        77.15,
+        140.55
+      ],
+      "full_original_PDF_text": "我們可以採取什麼行動，來保護\r\n水域環境？ ①將家庭廢水直接\r\n排入河中 ②主動清理水域環境\r\n附近的垃圾 ③將水生生物帶回\r\n家飼養 ④砍伐河流上游的森\r\n林。",
+      "original_exact_stem": "我們可以採取什麼行動，來保護\r\n水域環境？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "將家庭廢水直接\r\n排入河中"
+        },
+        {
+          "original_label": "②",
+          "text": "主動清理水域環境\r\n附近的垃圾"
+        },
+        {
+          "original_label": "③",
+          "text": "將水生生物帶回\r\n家飼養"
+        },
+        {
+          "original_label": "④",
+          "text": "砍伐河流上游的森\r\n林。"
+        }
+      ],
+      "independent_answer": "②",
+      "science_reason": "清理垃圾有助維護水域，不宜放生或任意捕撈",
+      "canonical_frozen_kp": "sci_g04s1_02_14",
+      "immutable_student_block_hash_fnv1a64": "f7058b336987cc22",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|10",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|10",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_025",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_page": 2,
+      "original_native_answer_bbox": [
+        41.88,
+        250.77,
+        73.43,
+        260.55
+      ],
+      "full_original_PDF_text": "在學校可以做的地震防災準備不\r\n包含下列哪一項？ ①防震演練\r\n②熟悉逃生路線 ③進行防災教\r\n育 ④舉辦運動會。",
+      "original_exact_stem": "在學校可以做的地震防災準備不\r\n包含下列哪一項？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "防震演練"
+        },
+        {
+          "original_label": "②",
+          "text": "熟悉逃生路線"
+        },
+        {
+          "original_label": "③",
+          "text": "進行防災教\r\n育"
+        },
+        {
+          "original_label": "④",
+          "text": "舉辦運動會。"
+        }
+      ],
+      "independent_answer": "④",
+      "science_reason": "運動會不是既有防震演練、避難路線或防災教育",
+      "canonical_frozen_kp": "sci_g04s1_01_09",
+      "immutable_student_block_hash_fnv1a64": "bd5b9fd157f4364c",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|4",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|04",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_026",
+      "original_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        42.6,
+        268.43,
+        81.5,
+        281.39
+      ],
+      "full_original_PDF_text": "水蘊草的根生長在泥土裡面，莖\r\n和葉會隨著水流擺動。",
+      "original_exact_stem": "水蘊草的根生長在泥土裡面，莖\r\n和葉會隨著水流擺動。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "O",
+      "science_reason": "水蘊草莖葉可在水中隨水流擺動",
+      "canonical_frozen_kp": "sci_g04s1_02_05",
+      "immutable_student_block_hash_fnv1a64": "2a7131d572da46bc",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|5",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|05",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_027",
+      "original_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        42.6,
+        307.67,
+        81.5,
+        320.63
+      ],
+      "full_original_PDF_text": "蟹具有八隻腳及一對螯，能在水\r\n中爬行。",
+      "original_exact_stem": "蟹具有八隻腳及一對螯，能在水\r\n中爬行。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "O",
+      "science_reason": "蟹有四對步足和一對螯足，可在水中爬行",
+      "canonical_frozen_kp": "sci_g04s1_02_09",
+      "immutable_student_block_hash_fnv1a64": "4e96a979d07ff3b4",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|9",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|09",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_028",
+      "original_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        42.6,
+        498.37,
+        81.5,
+        511.33
+      ],
+      "full_original_PDF_text": "婷婷一家人到花蓮搭船賞鯨，除\r\n了有機會看到鯨之外，也有可能\r\n看到海豚。",
+      "original_exact_stem": "婷婷一家人到花蓮搭船賞鯨，除\r\n了有機會看到鯨之外，也有可能\r\n看到海豚。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "O",
+      "science_reason": "花蓮近海可觀察鯨與海豚",
+      "canonical_frozen_kp": "sci_g04s1_02_02",
+      "immutable_student_block_hash_fnv1a64": "a7cbcd2a2df8c611",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|10",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|10",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_029",
+      "original_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        42.6,
+        554.53,
+        81.5,
+        567.49
+      ],
+      "full_original_PDF_text": "臺灣的茶葉適合在海邊生長，烘\r\n乾後可以做成飲品。",
+      "original_exact_stem": "臺灣的茶葉適合在海邊生長，烘\r\n乾後可以做成飲品。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "X",
+      "science_reason": "茶葉主要適合山坡與適當氣候土壤，非一般海邊",
+      "canonical_frozen_kp": "sci_g04s1_02_10",
+      "immutable_student_block_hash_fnv1a64": "f277019abf0b6f5f",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_014|S2|MC|1",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|01",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_030",
+      "original_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        42.6,
+        622,
+        81.5,
+        634.96
+      ],
+      "full_original_PDF_text": "下列人類對環境的使用方式，哪\r\n一種比較不容易產生土石流呢？\r\n①大量砍伐山上的樹林 ②開發\r\n山坡地，種植高冷蔬菜 ③在裸\r\n露的山坡地上種植植物，避免地\r\n表物質流失 ④在山坡地上建築\r\n房屋。",
+      "original_exact_stem": "下列人類對環境的使用方式，哪\r\n一種比較不容易產生土石流呢？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "大量砍伐山上的樹林"
+        },
+        {
+          "original_label": "②",
+          "text": "開發\r\n山坡地，種植高冷蔬菜"
+        },
+        {
+          "original_label": "③",
+          "text": "在裸\r\n露的山坡地上種植植物，避免地\r\n表物質流失"
+        },
+        {
+          "original_label": "④",
+          "text": "在山坡地上建築\r\n房屋。"
+        }
+      ],
+      "independent_answer": "③",
+      "science_reason": "種植植物可減少裸露坡面土壤沖蝕",
+      "canonical_frozen_kp": "sci_g04s1_01_07",
+      "immutable_student_block_hash_fnv1a64": "ac36a8bc3dc36667",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_014|S2|MC|7",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|07",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_031",
+      "original_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        308.23,
+        462.49,
+        347.11,
+        475.45
+      ],
+      "full_original_PDF_text": "下列哪一項是岩石在生活上的應\r\n用？ ①耕種農作物 ②鋪設步\r\n道 ③飼養蚯蚓 ④切割後作為\r\n食材。",
+      "original_exact_stem": "下列哪一項是岩石在生活上的應\r\n用？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "耕種農作物"
+        },
+        {
+          "original_label": "②",
+          "text": "鋪設步\r\n道"
+        },
+        {
+          "original_label": "③",
+          "text": "飼養蚯蚓"
+        },
+        {
+          "original_label": "④",
+          "text": "切割後作為\r\n食材。"
+        }
+      ],
+      "independent_answer": "②",
+      "science_reason": "岩石可鋪設步道",
+      "canonical_frozen_kp": "sci_g04s1_01_04",
+      "immutable_student_block_hash_fnv1a64": "7fa114fd1738aec0",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_014|S2|MC|8",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|08",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_032",
+      "original_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        308.23,
+        538.09,
+        347.11,
+        551.05
+      ],
+      "full_original_PDF_text": "生活中常見的蓮藕，是荷花的哪\r\n一個構造？ ①根 ②葉 ③葉\r\n柄 ④地下莖。",
+      "original_exact_stem": "生活中常見的蓮藕，是荷花的哪\r\n一個構造？",
+      "original_printed_option_labels_and_text": [
+        {
+          "original_label": "①",
+          "text": "根"
+        },
+        {
+          "original_label": "②",
+          "text": "葉"
+        },
+        {
+          "original_label": "③",
+          "text": "葉\r\n柄"
+        },
+        {
+          "original_label": "④",
+          "text": "地下莖。"
+        }
+      ],
+      "independent_answer": "④",
+      "science_reason": "蓮藕是地下莖",
+      "canonical_frozen_kp": "sci_g04s1_02_07",
+      "immutable_student_block_hash_fnv1a64": "900b0d25138cadab",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|1",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|01",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_033",
+      "original_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        28.32,
+        100.09,
+        58.32,
+        112.09
+      ],
+      "full_original_PDF_text": "水生植物依生長方式可以分為漂浮性、浮游\r\n性、沉水性和挺水性。",
+      "original_exact_stem": "水生植物依生長方式可以分為漂浮性、浮游\r\n性、沉水性和挺水性。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "X",
+      "science_reason": "水生植物生長型含浮葉性，非題幹『浮游性』",
+      "canonical_frozen_kp": "sci_g04s1_02_03",
+      "immutable_student_block_hash_fnv1a64": "75e656b15e1c45bb",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|2",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|02",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_034",
+      "original_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        28.32,
+        136.09,
+        58.32,
+        148.09
+      ],
+      "full_original_PDF_text": "布袋蓮的葉柄膨大，可以儲存養分。",
+      "original_exact_stem": "布袋蓮的葉柄膨大，可以儲存養分。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "X",
+      "science_reason": "布袋蓮葉柄膨大主要通氣儲存空氣非養分",
+      "canonical_frozen_kp": "sci_g04s1_02_04",
+      "immutable_student_block_hash_fnv1a64": "5464718e37149b73",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|3",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|03",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_035",
+      "original_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        28.32,
+        154.09,
+        58.32,
+        166.09
+      ],
+      "full_original_PDF_text": "水生動物都是用鰓呼吸，如魚、蝌蚪、青蛙。",
+      "original_exact_stem": "水生動物都是用鰓呼吸，如魚、蝌蚪、青蛙。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "X",
+      "science_reason": "成年蛙以肺及皮膚呼吸，非所有水生動物用鰓",
+      "canonical_frozen_kp": "sci_g04s1_02_09",
+      "immutable_student_block_hash_fnv1a64": "c9ebd726ebe4118c",
+      "operator_approved_exact36": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|4",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|04",
+      "student_question_id": "P12_113_G04S1_B04_NATIVE36_036",
+      "original_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox": [
+        28.32,
+        172.09,
+        58.32,
+        184.09
+      ],
+      "full_original_PDF_text": "水域環境都是天然形成的。",
+      "original_exact_stem": "水域環境都是天然形成的。",
+      "original_printed_option_labels_and_text": null,
+      "independent_answer": "X",
+      "science_reason": "水田、魚塭等是人造水域",
+      "canonical_frozen_kp": "sci_g04s1_02_02",
+      "immutable_student_block_hash_fnv1a64": "66fa25917bcdbd2b",
+      "operator_approved_exact36": true
+    }
+  ],
+  "release_acceptance": [
+    "Focused S1 CI + A4 tests green",
+    "merge PR and read exact main bank and cumulative loader",
+    "GitHub Pages deploy and real Chromium E2E exact source IDs, answers, direct KPs and total905",
+    "post-live B04 closeout: 36 published,13 HOLD,1 prior public"
+  ],
+  "batch_closed_before_Pages": false
+}

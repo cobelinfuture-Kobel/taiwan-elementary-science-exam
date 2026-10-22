@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b03-native27-live869-20261022",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b04-native36-live905-20261022",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 869 小題（441 題是非＋293 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 905 小題（463 題是非＋307 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
   const native38Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-native38-public-v1.json",{cache:"no-cache"});
   assert.equal(native38Response.status(),200,"Published Pages must serve approved native38 original exam cohort");
   const native38=await native38Response.json();
@@ -146,6 +146,32 @@ try {
     "Already-public legacy Mingyi seven must not be republished");
   assert.ok(!b03.blocks.some(x=>x.source_slot_id==="SCI_G04_S1_113_MID_009|S2|MC|15"),
     "Anhe near duplicate remains HOLD");
+  // B04 exact original 36: full list, independently reasoned answers, direct frozen KP and Article9.
+  const b04R=await page.request.get(base+"/data/question-bank/p12-g04s1-113-b04-native36-standalone-public-v1.json",{cache:"no-cache"});
+  assert.equal(b04R.status(),200,"Live public Pages must serve exact36 approved B04 school questions");
+  const b04=await b04R.json();
+  assert.equal(b04.schema_version,"SCIENCE_P12_G04S1_113_B04_NATIVE36_STANDALONE_PUBLIC_V1");
+  assert.deepEqual([b04.expected_blocks,b04.expected_answer_slots,b04.expected_standalone_true_false,b04.expected_standalone_choice],[36,36,22,14]);
+  assert.deepEqual(b04.blocks.map(x=>x.source_slot_id),["SCI_G04_S1_113_MID_011|S1|TF|6","SCI_G04_S1_113_MID_011|S1|TF|10","SCI_G04_S1_113_MID_011|S2|MC|7","SCI_G04_S1_113_MID_011|S2|MC|9","SCI_G04_S1_113_MID_011|S2|MC|10","SCI_G04_S1_113_MID_013|S1|TF|1","SCI_G04_S1_113_MID_013|S1|TF|2","SCI_G04_S1_113_MID_013|S1|TF|3","SCI_G04_S1_113_MID_013|S1|TF|5","SCI_G04_S1_113_MID_013|S1|TF|7","SCI_G04_S1_113_MID_013|S1|TF|9","SCI_G04_S1_113_MID_013|S1|TF|10","SCI_G04_S1_113_MID_013|S1|TF|11","SCI_G04_S1_113_MID_013|S1|TF|12","SCI_G04_S1_113_MID_013|S1|TF|13","SCI_G04_S1_113_MID_013|S1|TF|14","SCI_G04_S1_113_MID_013|S1|TF|15","SCI_G04_S1_113_MID_013|S2|MC|1","SCI_G04_S1_113_MID_013|S2|MC|4","SCI_G04_S1_113_MID_013|S2|MC|5","SCI_G04_S1_113_MID_013|S2|MC|6","SCI_G04_S1_113_MID_013|S2|MC|7","SCI_G04_S1_113_MID_013|S2|MC|8","SCI_G04_S1_113_MID_013|S2|MC|9","SCI_G04_S1_113_MID_013|S2|MC|10","SCI_G04_S1_113_MID_014|S1|TF|4","SCI_G04_S1_113_MID_014|S1|TF|5","SCI_G04_S1_113_MID_014|S1|TF|9","SCI_G04_S1_113_MID_014|S1|TF|10","SCI_G04_S1_113_MID_014|S2|MC|1","SCI_G04_S1_113_MID_014|S2|MC|7","SCI_G04_S1_113_MID_014|S2|MC|8","SCI_G04_S1_113_MID_015|S1|TF|1","SCI_G04_S1_113_MID_015|S1|TF|2","SCI_G04_S1_113_MID_015|S1|TF|3","SCI_G04_S1_113_MID_015|S1|TF|4"]);
+  assert.deepEqual(b04.blocks.map(x=>x.answer),["O","X","①","①","②","O","X","O","O","O","O","X","X","O","X","X","O","②","②","②","①","③","④","②","④","O","O","O","X","③","②","④","X","X","X","X"]);
+  assert.deepEqual(b04.blocks.map(x=>x.canonical_kp_id),["sci_g04s1_01_06","sci_g04s1_01_05","sci_g04s1_02_07","sci_g04s1_01_02","sci_g04s1_01_01","sci_g04s1_01_02","sci_g04s1_01_02","sci_g04s1_01_02","sci_g04s1_01_07","sci_g04s1_01_07","sci_g04s1_02_07","sci_g04s1_02_05","sci_g04s1_02_02","sci_g04s1_02_02","sci_g04s1_02_09","sci_g04s1_01_03","sci_g04s1_01_05","sci_g04s1_02_13","sci_g04s1_02_11","sci_g04s1_01_02","sci_g04s1_02_09","sci_g04s1_02_09","sci_g04s1_02_02","sci_g04s1_02_14","sci_g04s1_01_09","sci_g04s1_02_05","sci_g04s1_02_09","sci_g04s1_02_02","sci_g04s1_02_10","sci_g04s1_01_07","sci_g04s1_01_04","sci_g04s1_02_07","sci_g04s1_02_03","sci_g04s1_02_04","sci_g04s1_02_09","sci_g04s1_02_02"]);
+  assert.equal(new Set(b04.blocks.map(x=>x.source_slot_id)).size,36);
+  assert.ok(b04.blocks.every(x=>x.grade===4&&x.semester===1
+    &&["4-S1-U01","4-S1-U02"].includes(x.unit)
+    &&x.source_pdf_sha256?.length===64&&x.source_page_pdf_1_based>=1
+    &&x.source_pdf_bbox_pts_top_left?.length===4
+    &&x.operator_publication_approval===true
+    &&x.certification_status==="OPERATOR_APPROVED_PUBLIC"
+    &&x.rights_license_status==="REGULATED_EXAM_QUESTION_ART9"
+    &&x.public_material_scope==="EXAM_QUESTION_TEXT_ONLY"
+    &&x.original_teacher_answer_key_authenticated===false
+    &&x.original_cropped_assets_included===false
+    &&x.dependency_review_verified===true));
+  assert.equal(b04.blocks.filter(x=>x.type==="tf").length,22);
+  assert.ok(b04.blocks.filter(x=>x.type==="mcq").length===14
+    &&b04.blocks.filter(x=>x.type==="mcq").every(x=>x.options?.length===4&&["①","②","③","④"].includes(x.answer)));
+  assert.ok(!b04.blocks.some(x=>x.source_slot_id==="SCI_G04_S1_113_MID_014|S1|TF|2"),"already-public duplicate suppressed");
+  assert.ok(!b04.blocks.some(x=>x.source_slot_id==="SCI_G04_S1_113_MID_015|S1|TF|5"),"science qualifier HOLD retained");
   const loaderResponse=await page.request.get(base+"/assets/js/historical-bank-ox-v6.mjs",{cache:"no-cache"});
   assert.equal(loaderResponse.status(),200,"live Pages serves cumulative historical loader");
   const liveLoader=await loaderResponse.text();
@@ -155,6 +181,7 @@ try {
     "actual cumulative public Pages loader must include 21 B02 approved source questions");
   assert.ok(liveLoader.includes("...b03Native27.blocks")&&liveLoader.includes("b03Native27.answerSlots"),
     "Actual live cumulative loader must include exact B03 27 operator-approved items");
+  assert.ok(liveLoader.includes("...b04Native36.blocks")&&liveLoader.includes("b04Native36.answerSlots"),"real live cumulative loader must include approved B04 36");
   const native6Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-next-native-tfmc6-public-v1.json",{cache:"no-cache"});
   assert.equal(native6Response.status(),200,"Live Pages delivers 113 next native six new source bank");
   const native6=await native6Response.json();
@@ -492,7 +519,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B03 exact 27 originals LIVE, 869 answer slots (441 TF, 293 MC, 36 context groups)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B04 exact36 originals LIVE, 905 answer slots (463 TF, 307 MC, 36 context groups)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

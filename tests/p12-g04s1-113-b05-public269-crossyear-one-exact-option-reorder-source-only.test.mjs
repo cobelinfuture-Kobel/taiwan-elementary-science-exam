@@ -47,7 +47,7 @@ test('B05 MC10 already public 114: exact same stem and four choices only reorder
   const original=source.source_records.find(r=>r.source_slot_id===alias.original_source_id);
   const published=public114.blocks.find(r=>r.source_slot_id===alias.already_public_source_id);
   assert.ok(original && published);
-  const norm=s=>String(s??'').normalize('NFKC').replace(/\\s+/g,'').replace(/[，。！？]/g,'');
+  const norm=s=>String(s??'').normalize('NFKC').replace(/\s+/g,'').replace(/[，。！？]/g,'');
   const option=s=>norm(s).replace(/^[①②③④1234]/,'');
   assert.equal(norm(original.original_pdf_text_layer_stem),norm(published.stem));
   assert.deepEqual(original.original_ordered_choices.map(x=>option(x.text)).sort(),published.options.map(option).sort());

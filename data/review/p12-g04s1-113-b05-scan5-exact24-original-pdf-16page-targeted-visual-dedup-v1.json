@@ -1,0 +1,702 @@
+{
+  "schema_version": "P12_G04S1_113_B05_EXACT24_SCAN5_16P_ORIGINAL_PDF_TARGETED_VISUAL_DEDUP_V1",
+  "goal": "Complete existing frozen DUPLICATE gate targeted only for the exact24 B05 independent source items. Not a new Science/KP review.",
+  "source_draft_PR": 124,
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "existing_exact24_manifest": "data/review/p12-g04s1-113-b05-exact24-source-science-kp-rights-operator-PENDING-v1.json",
+  "prior_main": "a160156e5d6e3c39a3089101751226ba23d68153",
+  "original_pdf_access": "Authenticated connected Google Drive original PDF binary, locally rendered with PyMuPDF; visually inspected paper by paper; no OCR and no simulated searchable PDF text",
+  "original_pdf_sha256_method": "SHA-256 over full original downloaded binary, exact match with frozen registered SHA",
+  "scope": {
+    "scan_original_papers": 5,
+    "original_pdf_pages": 16,
+    "individual_B05_existing_exact24_proposal_items_compared": 24,
+    "exact_verbatim_or_choice_reordered_matches_found_in_scan5": 0,
+    "similar_but_distinct_actual_original_questions": 5,
+    "scan_papers_full_independent_source_question_transcription_completed": false,
+    "main_public_question_slots_added": 0
+  },
+  "scanned_source_papers": [
+    {
+      "id": "SCI_G04_S1_113_MID_002",
+      "sha": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "pages": 3,
+      "downloaded_original_full_binary": true,
+      "registered_sha256_verified": true,
+      "actual_original_pages_rendered_and_visually_viewed": [
+        1,
+        2,
+        3
+      ],
+      "full_native_text_layer_available": false,
+      "b05_exact24_targeted_visual_comparison": "COMPLETE_NO_EXACT_FULL_QUESTION_OR_ONLY_CHOICES_REORDERED_DUPLICATE",
+      "not_exam_wide_exact_every_response_slot_transcription": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_001",
+      "sha": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "pages": 2,
+      "downloaded_original_full_binary": true,
+      "registered_sha256_verified": true,
+      "actual_original_pages_rendered_and_visually_viewed": [
+        1,
+        2
+      ],
+      "full_native_text_layer_available": false,
+      "b05_exact24_targeted_visual_comparison": "COMPLETE_NO_EXACT_FULL_QUESTION_OR_ONLY_CHOICES_REORDERED_DUPLICATE",
+      "not_exam_wide_exact_every_response_slot_transcription": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_002",
+      "sha": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "pages": 4,
+      "downloaded_original_full_binary": true,
+      "registered_sha256_verified": true,
+      "actual_original_pages_rendered_and_visually_viewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "full_native_text_layer_available": false,
+      "b05_exact24_targeted_visual_comparison": "COMPLETE_NO_EXACT_FULL_QUESTION_OR_ONLY_CHOICES_REORDERED_DUPLICATE",
+      "not_exam_wide_exact_every_response_slot_transcription": true
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_006",
+      "sha": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "pages": 4,
+      "downloaded_original_full_binary": true,
+      "registered_sha256_verified": true,
+      "actual_original_pages_rendered_and_visually_viewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "full_native_text_layer_available": false,
+      "b05_exact24_targeted_visual_comparison": "COMPLETE_NO_EXACT_FULL_QUESTION_OR_ONLY_CHOICES_REORDERED_DUPLICATE",
+      "not_exam_wide_exact_every_response_slot_transcription": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009",
+      "sha": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "pages": 3,
+      "downloaded_original_full_binary": true,
+      "registered_sha256_verified": true,
+      "actual_original_pages_rendered_and_visually_viewed": [
+        1,
+        2,
+        3
+      ],
+      "full_native_text_layer_available": false,
+      "b05_exact24_targeted_visual_comparison": "COMPLETE_NO_EXACT_FULL_QUESTION_OR_ONLY_CHOICES_REORDERED_DUPLICATE",
+      "not_exam_wide_exact_every_response_slot_transcription": true
+    }
+  ],
+  "relevant_visual_comparison_examples": [
+    {
+      "original_scan_paper_id": "SCI_G04_S1_113_MID_002",
+      "original_scan_page": 2,
+      "scan_actual_stem": "關於池塘中的水生植物，下列哪一項敘述錯誤？",
+      "b05_comparison_group": "SCI_G04_S1_113_MID_015 aquatic plant candidates",
+      "difference": "Question asks to select incorrect statement about pond plants; B05 items specify plant morphology, leaf hairs, lotus root or vegetation type and different complete choices",
+      "decision": "DIFFERENT_QUESTION_NOT_ALIAS"
+    },
+    {
+      "original_scan_paper_id": "SCI_G04_S1_113_MID_006",
+      "original_scan_page": 1,
+      "scan_actual_stem": "下列何者是平時就應做好的地震防災準備？",
+      "b05_comparison_source_id": "SCI_G04_S1_113_MID_015|S2|MC|15",
+      "difference": "Original scan asks positive disaster-preparedness action with alternate complete choices; B05 asks which is NOT prior-earthquake preparedness; full choice sets differ",
+      "decision": "DIFFERENT_QUESTION_NOT_ALIAS"
+    },
+    {
+      "original_scan_paper_id": "SCI_G04_S1_113_FINAL_001",
+      "original_scan_page": 1,
+      "scan_actual_stem": "電路連接成功使燈泡發光可做什麼",
+      "b05_comparison_source_id": "SCI_G04_S1_113_FINAL_006|S2|MC|9",
+      "difference": "Scan tests correct versus incorrect circuit or series/parallel arrangements and includes distinct answer options and question constructions; B05 independently asks why a bulb lights",
+      "decision": "DIFFERENT_QUESTION_NOT_ALIAS"
+    },
+    {
+      "original_scan_paper_id": "SCI_G04_S1_113_FINAL_002",
+      "original_scan_page": 2,
+      "scan_actual_stem": "下列何者不是光源？",
+      "b05_comparison_source_id": "SCI_G04_S1_113_FINAL_006|S2|MC|14",
+      "difference": "Exact stem but all-four-option sets different: scan 月球/太陽/燭火/通電的電燈 vs B05 太陽/反光的鏡子/燃燒的蠟燭/發亮的手電筒. Reordering is NOT sufficient to reproduce the other actual original MC item.",
+      "decision": "SAME_STEM_DIFFERENT_ACTUAL_OPTIONS_NOT_EXACT_ALIAS"
+    },
+    {
+      "original_scan_paper_id": "SCI_G04_S1_113_FINAL_009",
+      "original_scan_page": 1,
+      "scan_actual_stem": "雷射筆的光照到鏡子時會反射，如果改變光照射在鏡子上的位置，會有什麼現象發生？",
+      "b05_comparison_source_id": "SCI_G04_S1_113_FINAL_006|S2|MC|4",
+      "difference": "Scan varies incident position and asks resulting position/path; B05 varies incidence angle and asks reflection change. Different original stem and alternatives",
+      "decision": "DIFFERENT_QUESTION_NOT_ALIAS"
+    }
+  ],
+  "source_item_decisions": [
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|6",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        28.32,
+        226.09,
+        58.32,
+        238.09
+      ],
+      "original_registered_exam_scope": "MIDTERM_U01_U02",
+      "comparison_papers": [
+        "SCI_G04_S1_113_MID_002",
+        "SCI_G04_S1_113_MID_006"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|7",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        28.32,
+        244.09,
+        58.32,
+        256.09
+      ],
+      "original_registered_exam_scope": "MIDTERM_U01_U02",
+      "comparison_papers": [
+        "SCI_G04_S1_113_MID_002",
+        "SCI_G04_S1_113_MID_006"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|11",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        28.32,
+        334.12,
+        58.32,
+        346.12
+      ],
+      "original_registered_exam_scope": "MIDTERM_U01_U02",
+      "comparison_papers": [
+        "SCI_G04_S1_113_MID_002",
+        "SCI_G04_S1_113_MID_006"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|1",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        28.32,
+        370.12,
+        58.32,
+        382.12
+      ],
+      "original_registered_exam_scope": "MIDTERM_U01_U02",
+      "comparison_papers": [
+        "SCI_G04_S1_113_MID_002",
+        "SCI_G04_S1_113_MID_006"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|3",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        28.32,
+        442.12,
+        58.32,
+        454.12
+      ],
+      "original_registered_exam_scope": "MIDTERM_U01_U02",
+      "comparison_papers": [
+        "SCI_G04_S1_113_MID_002",
+        "SCI_G04_S1_113_MID_006"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|9",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        297.77,
+        136.09,
+        327.77,
+        148.09
+      ],
+      "original_registered_exam_scope": "MIDTERM_U01_U02",
+      "comparison_papers": [
+        "SCI_G04_S1_113_MID_002",
+        "SCI_G04_S1_113_MID_006"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|10",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        297.77,
+        190.09,
+        327.77,
+        202.09
+      ],
+      "original_registered_exam_scope": "MIDTERM_U01_U02",
+      "comparison_papers": [
+        "SCI_G04_S1_113_MID_002",
+        "SCI_G04_S1_113_MID_006"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|15",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        297.77,
+        478.14,
+        327.77,
+        490.14
+      ],
+      "original_registered_exam_scope": "MIDTERM_U01_U02",
+      "comparison_papers": [
+        "SCI_G04_S1_113_MID_002",
+        "SCI_G04_S1_113_MID_006"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|16",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        297.77,
+        532.14,
+        327.77,
+        544.14
+      ],
+      "original_registered_exam_scope": "MIDTERM_U01_U02",
+      "comparison_papers": [
+        "SCI_G04_S1_113_MID_002",
+        "SCI_G04_S1_113_MID_006"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|17",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        297.77,
+        586.14,
+        327.77,
+        598.14
+      ],
+      "original_registered_exam_scope": "MIDTERM_U01_U02",
+      "comparison_papers": [
+        "SCI_G04_S1_113_MID_002",
+        "SCI_G04_S1_113_MID_006"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|20",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_page": 2,
+      "original_native_answer_bbox_pdf_pt": [
+        28.32,
+        31.31,
+        58.32,
+        43.31
+      ],
+      "original_registered_exam_scope": "MIDTERM_U01_U02",
+      "comparison_papers": [
+        "SCI_G04_S1_113_MID_002",
+        "SCI_G04_S1_113_MID_006"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|1",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        30.12,
+        189.41,
+        65.22,
+        203.45
+      ],
+      "original_registered_exam_scope": "FINAL_U03_U04",
+      "comparison_papers": [
+        "SCI_G04_S1_113_FINAL_001",
+        "SCI_G04_S1_113_FINAL_002",
+        "SCI_G04_S1_113_FINAL_009"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|7",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        30.12,
+        426.2,
+        65.22,
+        440.24
+      ],
+      "original_registered_exam_scope": "FINAL_U03_U04",
+      "comparison_papers": [
+        "SCI_G04_S1_113_FINAL_001",
+        "SCI_G04_S1_113_FINAL_002",
+        "SCI_G04_S1_113_FINAL_009"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|14",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        30.12,
+        735.82,
+        65.22,
+        749.86
+      ],
+      "original_registered_exam_scope": "FINAL_U03_U04",
+      "comparison_papers": [
+        "SCI_G04_S1_113_FINAL_001",
+        "SCI_G04_S1_113_FINAL_002",
+        "SCI_G04_S1_113_FINAL_009"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|15",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        30.12,
+        790.45,
+        65.22,
+        804.49
+      ],
+      "original_registered_exam_scope": "FINAL_U03_U04",
+      "comparison_papers": [
+        "SCI_G04_S1_113_FINAL_001",
+        "SCI_G04_S1_113_FINAL_002",
+        "SCI_G04_S1_113_FINAL_009"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|3",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        377.83,
+        335.12,
+        412.93,
+        349.16
+      ],
+      "original_registered_exam_scope": "FINAL_U03_U04",
+      "comparison_papers": [
+        "SCI_G04_S1_113_FINAL_001",
+        "SCI_G04_S1_113_FINAL_002",
+        "SCI_G04_S1_113_FINAL_009"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|4",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        377.83,
+        389.72,
+        412.93,
+        403.76
+      ],
+      "original_registered_exam_scope": "FINAL_U03_U04",
+      "comparison_papers": [
+        "SCI_G04_S1_113_FINAL_001",
+        "SCI_G04_S1_113_FINAL_002",
+        "SCI_G04_S1_113_FINAL_009"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|5",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        377.83,
+        462.56,
+        412.93,
+        476.6
+      ],
+      "original_registered_exam_scope": "FINAL_U03_U04",
+      "comparison_papers": [
+        "SCI_G04_S1_113_FINAL_001",
+        "SCI_G04_S1_113_FINAL_002",
+        "SCI_G04_S1_113_FINAL_009"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|7",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        377.83,
+        590.14,
+        412.93,
+        604.18
+      ],
+      "original_registered_exam_scope": "FINAL_U03_U04",
+      "comparison_papers": [
+        "SCI_G04_S1_113_FINAL_001",
+        "SCI_G04_S1_113_FINAL_002",
+        "SCI_G04_S1_113_FINAL_009"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|9",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        377.83,
+        681.1,
+        412.93,
+        695.14
+      ],
+      "original_registered_exam_scope": "FINAL_U03_U04",
+      "comparison_papers": [
+        "SCI_G04_S1_113_FINAL_001",
+        "SCI_G04_S1_113_FINAL_002",
+        "SCI_G04_S1_113_FINAL_009"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|11",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        377.83,
+        808.69,
+        412.93,
+        822.73
+      ],
+      "original_registered_exam_scope": "FINAL_U03_U04",
+      "comparison_papers": [
+        "SCI_G04_S1_113_FINAL_001",
+        "SCI_G04_S1_113_FINAL_002",
+        "SCI_G04_S1_113_FINAL_009"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|13",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_source_pdf_page": 2,
+      "original_native_answer_bbox_pdf_pt": [
+        36.84,
+        58.23,
+        71.94,
+        72.27
+      ],
+      "original_registered_exam_scope": "FINAL_U03_U04",
+      "comparison_papers": [
+        "SCI_G04_S1_113_FINAL_001",
+        "SCI_G04_S1_113_FINAL_002",
+        "SCI_G04_S1_113_FINAL_009"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|14",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_source_pdf_page": 2,
+      "original_native_answer_bbox_pdf_pt": [
+        36.84,
+        131.09,
+        71.94,
+        145.13
+      ],
+      "original_registered_exam_scope": "FINAL_U03_U04",
+      "comparison_papers": [
+        "SCI_G04_S1_113_FINAL_001",
+        "SCI_G04_S1_113_FINAL_002",
+        "SCI_G04_S1_113_FINAL_009"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_018|S1|TF|2",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "original_source_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        49.32,
+        101.99,
+        79.52,
+        117.53
+      ],
+      "original_registered_exam_scope": "MIDTERM_U01_U02",
+      "comparison_papers": [
+        "SCI_G04_S1_113_MID_002",
+        "SCI_G04_S1_113_MID_006"
+      ],
+      "scan5_targeted_duplicate_decision": "NO_IDENTICAL_FULL_ITEM_OR_ONLY_CHOICE_ORDER_CHANGE_IN_VISUALLY_INSPECTED_SCAN5",
+      "actual_original_text_and_choices_carried_from_existing_exact24_manifest": true,
+      "formal_unique_science_answer_decision": "INHERIT_EXISTING_PROPOSAL_NOT_NEW_FORMAL_APPROVAL",
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "other_gate_coverage": {
+    "existing_114_25_source_content_only_full_text_717": "previous crossyear comparison",
+    "existing_113_24_native_source_papers_text_layer": "previous crossyear comparison",
+    "existing_public_bank_49_json": "previous published bank comparison",
+    "visual_scan5_gap_for_B05_24": "CLOSED_BY_THIS_RECORD",
+    "third_party_original_exam_passage_rights_for_scan5": "NOT_USED_FOR_STUDENT_PUBLICATION",
+    "new_FORMAL_SCIENCE_KP_APPROVED": 0,
+    "new_ADMISSION_READY": 0,
+    "new_PUBLISHED": 0
+  },
+  "duplicate_application": "Only identical full original question including all ordered original options, or merely choice order/number/punctuation changes, merge. Same stem different actual options is not automatically a full duplicate; same KP distinct question wording allowed by 2026-10-19 operator rule.",
+  "exclusions_unchanged": {
+    "prior24HOLD": [
+      "SCI_G04_S1_113_MID_015|S1|TF|8",
+      "SCI_G04_S1_113_MID_015|S1|TF|9",
+      "SCI_G04_S1_113_MID_015|S1|TF|10",
+      "SCI_G04_S1_113_MID_015|S2|MC|4",
+      "SCI_G04_S1_113_MID_015|S2|MC|7",
+      "SCI_G04_S1_113_MID_015|S2|MC|11",
+      "SCI_G04_S1_113_MID_015|S2|MC|12",
+      "SCI_G04_S1_113_MID_015|S2|MC|13",
+      "SCI_G04_S1_113_MID_015|S2|MC|14",
+      "SCI_G04_S1_113_MID_015|S2|MC|18",
+      "SCI_G04_S1_113_MID_015|S2|MC|19",
+      "SCI_G04_S1_113_MID_015|S6|MC|1",
+      "SCI_G04_S1_113_MID_015|S6|MC|2",
+      "SCI_G04_S1_113_MID_015|S6|MC|3",
+      "SCI_G04_S1_113_MID_015|S6|MC|4",
+      "SCI_G04_S1_113_MID_015|S6|MC|5",
+      "SCI_G04_S1_113_FINAL_006|S1|TF|11",
+      "SCI_G04_S1_113_FINAL_006|S1|TF|16",
+      "SCI_G04_S1_113_FINAL_006|S2|MC|2",
+      "SCI_G04_S1_113_FINAL_006|S2|MC|8",
+      "SCI_G04_S1_113_FINAL_006|S2|MC|12",
+      "SCI_G04_S1_113_FINAL_006|S2|MC|15",
+      "SCI_G04_S1_113_FINAL_006|S2|MC|16",
+      "SCI_G04_S1_113_MID_018|S1|TF|1"
+    ],
+    "science_qualifier_new_hold": "SCI_G04_S1_113_MID_015|S2|MC|5",
+    "one_114_already_public_alias": "SCI_G04_S1_113_FINAL_006|S2|MC|10"
+  },
+  "rights": "Original independent school exam question TEXT can follow existing Taiwan Art9 path subject to exact scope; original scanned PDF, original scans, photographs, external reading passages, whole teacher keys excluded",
+  "operator_exact24_approval_received": false,
+  "selective_publication_allowed": false,
+  "next": "OPERATOR_EXACT24_LIST_APPROVAL_REQUIRED_PER_113_SCOPE_THEN_SELECTIVE_STUDENT_PR_CI_MAIN_PAGES_E2E_NO_B01_B04_REOPEN"
+}

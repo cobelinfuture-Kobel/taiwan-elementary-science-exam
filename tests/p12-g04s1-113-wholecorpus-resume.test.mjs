@@ -8,15 +8,15 @@ const {buildAll29:build,normalizeSlot,validateMaster,assessCompletion}=require('
 const R='data/review/';
 const read=file=>JSON.parse(fs.readFileSync(path.resolve(R,file),'utf8'));
 const source=read('p12-g04s1-113-all29-kp48-source-firstpass-v1.json');
-const pub=read('p12-g04s1-113-main-published233-source-suppression-readback-v15.json');
+const pub=read('p12-g04s1-113-main-published269-source-suppression-readback-v16.json');
 const master=read('p12-g04s1-113-all29-master-ledger-v1.json');
 const clone=x=>structuredClone(x);
 const normSet=new Set(pub.all_unique_published_source_slot_ids.map(normalizeSlot));
 
-test('P01 all29 original PDFs and 233 published source positions match current main snapshot',()=>{
+test('P01 all29 original PDFs and 269 published source positions match current main snapshot',()=>{
   const v=validateMaster(master,source,pub,{requiredMainSha:pub.public_main_commit});
   assert.equal(v.paperIds.size,29);
-  assert.equal(v.publishedIds.size,233);
+  assert.equal(v.publishedIds.size,269);
   assert.equal(master.original_pdf_page_count,72);
   assert.equal(master.paper_records.filter(x=>x.paper_closed).length,0);
   assert.equal(master.paper_records.filter(x=>x.inventory_certified).length,0);
@@ -24,14 +24,14 @@ test('P01 all29 original PDFs and 233 published source positions match current m
 test('P02 generator includes all 29 paper inventory gaps, not only historical 14',()=>{
   const res=build();
   assert.equal(res.metrics.registered_papers,29);
-  assert.equal(res.metrics.published_113,233);
+  assert.equal(res.metrics.published_113,269);
   assert.equal(res.metrics.original_papers_with_any_initial_geometry_candidate,29);
   assert.equal(res.metrics.original_papers_with_full_answer_slot_geometry_certified,0);
   assert.equal(res.metrics.unique_legacy_source_positions,775);
   assert.equal(res.metrics.source_positions_after_native_p04b_union,1297);
   assert.equal(res.metrics.p04b_previously_unqueued_unpublished_source_positions,480);
-  assert.equal(res.metrics.unpublished_legacy_positions,1137);
-  assert.equal(res.metrics.deterministic_work_tasks,1166);
+  assert.equal(res.metrics.unpublished_legacy_positions,1101);
+  assert.equal(res.metrics.deterministic_work_tasks,1130);
   assert.equal(res.metrics.papers_requiring_exact_inventory,29);
   assert.equal(res.metrics.section_papers_with_source_response_region_recount,29);
   assert.equal(res.metrics.source_section_response_region_count_NOT_EXACT,1762);

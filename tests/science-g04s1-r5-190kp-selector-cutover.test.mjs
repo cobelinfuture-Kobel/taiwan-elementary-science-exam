@@ -8,6 +8,7 @@ import {validateAndConvertP12113B01Wende7} from "../site/assets/js/p12-g04s1-113
 import {validateAndConvertP12113B02Native21} from "../site/assets/js/p12-g04s1-113-b02-native21-standalone-release.mjs";
 import {validateAndConvertP12113B03Native27} from "../site/assets/js/p12-g04s1-113-b03-native27-standalone-release.mjs";
 import {validateAndConvertP12113B04Native36} from "../site/assets/js/p12-g04s1-113-b04-native36-standalone-release.mjs";
+import {validateAndConvertP12113B06Native16} from "../site/assets/js/p12-g04s1-113-b06-native16-standalone-release.mjs";
 const read=p=>JSON.parse(readFileSync(p,"utf8"));
 const legacy=read("site/data/authority/science-g03-g04-selector-v2.json");
 const active=read("site/data/authority/science-g03-g04-selector-v3.json");
@@ -66,6 +67,7 @@ test("original R5 selector auto-admission forbidden; only exact independent sour
  const certifiedB02Native21="p12-g04s1-113-b02-native21-standalone-public-v1.json";
  const certifiedB03Native27="p12-g04s1-113-b03-native27-standalone-public-v1.json";
  const certifiedB04Native36="p12-g04s1-113-b04-native36-standalone-public-v1.json";
+ const certifiedB06Native16="p12-g04s1-113-b06-native16-standalone-public-v1.json";
  assert.ok(sourceFiles.includes(approved),"explicit operator release record required");
  assert.ok(sourceFiles.includes(certified113),"new 113 original source certification required");
  for(const name of sourceFiles){
@@ -182,6 +184,23 @@ test("original R5 selector auto-admission forbidden; only exact independent sour
         &&x.original_cropped_assets_included===false));
      assert.ok(!bank.blocks.some(x=>x.source_slot_id==="SCI_G04_S1_113_MID_014|S1|TF|2"));
      assert.ok(!bank.blocks.some(x=>x.source_slot_id==="SCI_G04_S1_113_MID_015|S1|TF|5"));
+   } else if(name===certifiedB06Native16){
+     // Independent B06 precise 16-source operator admission. Not an automatic R5 KP selector remap.
+     const bank=read("site/data/question-bank/"+name);
+     const approval=read("data/review/p12-g04s1-113-b06-exact16-operator-approved-formal-v1.json");
+     const admitted=validateAndConvertP12113B06Native16(bank,active);
+     assert.deepEqual([admitted.answerSlots,admitted.standaloneTf,admitted.standaloneChoice],[16,5,11]);
+     assert.deepEqual(approval.formal_before_live,{FORMAL_SCIENCE_KP_APPROVED_new:16,ADMISSION_READY_new:16,PUBLISHED_new:0});
+     assert.equal(approval.operator_approved_exact16,true);
+     assert.deepEqual(bank.blocks.map(x=>x.source_slot_id),approval.records.map(x=>x.original_source_slot_id));
+     assert.deepEqual(bank.blocks.filter(x=>x.canonical_kp_id==="sci_g04s1_02_14").map(x=>x.source_slot_id),
+       ["SCI_G04_S1_113_MID_018|S2|MC|11"]);
+     assert.equal(bank.blocks.some(x=>x.canonical_kp_id==="sci_g04s1_01_12"||x.canonical_kp_id==="sci_g04s1_02_13"),false);
+     assert.ok(bank.blocks.every(x=>x.operator_publication_approval===true
+       &&x.original_teacher_answer_key_authenticated===false
+       &&x.original_cropped_assets_included===false
+       &&x.rights_license_status==="REGULATED_EXAM_QUESTION_ART9"
+       &&x.source_pdf_sha256?.length===64&&x.source_pdf_bbox_pts_top_left?.length===4));
    } else for(const id of newIds)assert.equal(bytes.includes(id),false,name+" must not auto-admit "+id);
  }
  assert.equal(remap.public_admission_count,0);

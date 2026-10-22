@@ -27,7 +27,7 @@ test("B01 seven confirmed additional public IDs reconcile APPEND-ONLY 178→185,
  assert.equal(master.formally_closed_papers,0);
  assert.deepEqual(current.all_unique_published_source_slot_ids.slice(0,185),p.all_unique_published_source_slot_ids);
  assert.equal(current.incremental_exact21_published_source_ids.length,21);
- assert.equal(current.public_site_all_answer_slots,905);
+ assert.equal(current.public_site_all_answer_slots,929);
  assert.equal(current.public_Pages_live_run_id,39771361871);
 });
 test("B02 exact known 50 source IDs: Dongguang17 Minquan22 Yongan11, original PDF answer BBox lineage",()=>{

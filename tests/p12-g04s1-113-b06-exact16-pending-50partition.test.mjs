@@ -80,6 +80,6 @@ test('No previous public or operator gate changes; pending is not ADMISSION_READ
  assert.deepEqual(exact.formal_metrics_this_turn,{FORMAL_SCIENCE_KP_APPROVED_new:0,ADMISSION_READY_new:0,PUBLISHED_new:0});
  assert.equal(exact.five_113_original_scan_pages_visual_targeted_examined,16);
  assert.equal(exact.source_114_original_25_papers_717_question_records_checked,true);
- assert.equal(exact.published_113_293_original_stems_checked,true);
+ assert.equal(exact.published_113_293_bank_original_stems_checked,true);
  assert.equal(exact.other_113_22_native_exam_original_PDF_text_read,true);
 });

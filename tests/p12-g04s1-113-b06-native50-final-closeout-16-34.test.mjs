@@ -1,0 +1,38 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const read=p=>JSON.parse(readFileSync(new URL(p,import.meta.url),'utf8'));
+const ledger=read('../data/review/p12-g04s1-113-b06-native50-final-closeout-16published-34hold-v1.json');
+const bank=read('../site/data/question-bank/p12-g04s1-113-b06-native16-standalone-public-v1.json');
+const admission=read('../data/review/p12-g04s1-113-b06-exact16-operator-approved-formal-v1.json');
+test('B06 frozen original 50 slots 251–300 conserved and exactly 16 published + 34 held',()=>{
+ assert.equal(ledger.status,'CLOSED');
+ assert.equal(ledger.rows.length,50);
+ assert.deepEqual(ledger.rows.map(x=>x.worklist_number),Array.from({length:50},(_,i)=>251+i));
+ assert.equal(new Set(ledger.rows.map(x=>x.source_slot_id)).size,50);
+ assert.deepEqual(ledger.source_dispositions,{PUBLISHED_B06_EXACT16_MAIN_PAGES_VERIFIED:16,HOLD_B06_EXISTING_GATES:34});
+ assert.deepEqual(ledger.rows.filter(x=>x.main_pages_verified).map(x=>x.source_slot_id),bank.blocks.map(x=>x.source_slot_id));
+ assert.deepEqual(ledger.rows.filter(x=>!x.main_pages_verified).map(x=>x.source_slot_id),admission.excluded_hold_34_original_source_rows.map(x=>x.source_id));
+ assert.ok(ledger.rows.filter(x=>!x.main_pages_verified).every(x=>x.student_question_id===null&&x.operator_publication_approval===false));
+ assert.ok(ledger.rows.filter(x=>x.main_pages_verified).every(x=>x.student_question_id&&x.operator_publication_approval===true&&x.original_pdf_sha256.length===64));
+});
+test('B06 formal admission vs publication PASS is tied to exact release main and real live Chromium evidence',()=>{
+ assert.deepEqual(ledger.formal_metrics,{FORMAL_SCIENCE_KP_APPROVED_new:16,ADMISSION_READY_new:16,PUBLISHED_new:16});
+ assert.equal(ledger.focused_ci,'PASS');
+ assert.equal(ledger.pages_a4_two_column_test,'PASS');
+ assert.equal(ledger.pages_deploy,'PASS');
+ assert.equal(ledger.pages_real_browser_E2E,'PASS');
+ assert.equal(ledger.formal_release_pr,162);
+ assert.equal(ledger.formal_release_pr_merged_main_sha,'cd494c0ab1eb3fb1ead6f50893fa4d6f039ec2b1');
+ assert.equal(ledger.pages_live_run,39820693602);
+ assert.deepEqual([ledger.prior_113_published_original_source_positions,ledger.now_113_published_original_source_positions],[293,309]);
+ assert.deepEqual([ledger.prior_all_site_answer_slots,ledger.now_all_site_answer_slots,ledger.now_all_site_tf,ledger.now_all_site_mc,ledger.now_all_site_context_groups],[929,945,476,334,36]);
+ assert.equal(ledger.source_teacher_key_not_authenticated,true);
+ assert.equal(ledger.original_scans_PDFs_third_party_assets_not_student_public,true);
+ assert.equal(ledger.prior_B01_to_B05_closed_not_reopened,true);
+ assert.equal(ledger.all29_original_papers_NOT_closed,true);
+ assert.equal(ledger.B07_not_started,true);
+ const h=ledger.rows.filter(x=>!x.main_pages_verified);
+ assert.equal(h.filter(x=>x.source_original_hold_reason==='HOLD_CROSSYEAR_114_UNPUBLISHED_NEAR_SAME_STEM_CHOICES_NAME_ONLY').length,1);
+ assert.equal(h.filter(x=>x.source_original_hold_reason==='HOLD_ORIGINAL_OPTION_SEMANTIC_UNCLEAR_SOUND_LIGHT').length,1);
+});

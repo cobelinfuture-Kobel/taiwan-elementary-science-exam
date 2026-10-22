@@ -30,7 +30,7 @@ test('113 29-paper immutable work budget and publication-lineage conservation; n
   assert.equal(a.noncertified_source_work_position_budget,b.section_reconciled_positions);
   // Frozen old 178-source controller stays historical; current main appends B01 Wende7,
   // B02 Dongguang4 Minquan11 Yongan6 without rewriting that old controller.
-  const delta={SCI_G04_S1_113_MID_001:7,SCI_G04_S1_113_MID_004:4,SCI_G04_S1_113_MID_007:11,SCI_G04_S1_113_MID_008:6};
+  const delta={SCI_G04_S1_113_MID_001:7,SCI_G04_S1_113_MID_004:4,SCI_G04_S1_113_MID_007:11,SCI_G04_S1_113_MID_008:14,SCI_G04_S1_113_MID_009:14,SCI_G04_S1_113_MID_010:5};
   assert.equal(b.published_count,a.main_published_count+(delta[a.original_paper_id]||0));
   assert.equal(a.full_formal_admission_paper_closeout,false);
   assert.equal(a.active_admission_disposition,'PAPER_OPEN_NOT_COMPLETE');

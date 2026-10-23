@@ -32,7 +32,7 @@ const candidates=[
 [336,'下列哪一種生物會利用羽毛狀的觸手捕食？'],
 [337,'哪一種環境在海水中的時間最長，有許多不能承受乾燥與高溫的生物生存？']
 ];
-const N=s=>String(s??'').normalize('NFKC').toLowerCase().replace(/[\\s\\r\\n、，,。．.！!？?；;：（）()「」『』％%\\-—_]/g,'');
+const N=s=>String(s??'').normalize('NFKC').toLowerCase().replace(/[\s\r\n、，,。．.！!？?；;：（）()「」『』％%\-—_]/g,'');
 function dice(a,b){
  if(a===b)return 1;if(a.length<2||b.length<2)return 0;
  const m=new Map();for(let i=0;i<a.length-1;i++){const z=a.slice(i,i+2);m.set(z,(m.get(z)||0)+1)}
@@ -84,5 +84,5 @@ function build(){
   PUBLISHED_NEW:0
  };
 }
-if(require.main===module){const d=build();const arg=process.argv.find(x=>x.startsWith('--out='));if(arg)fs.writeFileSync(path.resolve(ROOT,arg.slice(6)),JSON.stringify(d,null,2)+'\\n');console.log(JSON.stringify({source114:d.comparison_114_original_positions,publicRows:d.comparison_public_g04s1_module_rows,candidates:d.candidate_excerpt_rows,possibleNear:d.exact_or_near_rows,hits:d.rows.filter(x=>x.exact_or_high_near_stem_hits.length).map(x=>({ordinal:x.ordinal,hits:x.exact_or_high_near_stem_hits}))},null,2))}
+if(require.main===module){const d=build();const arg=process.argv.find(x=>x.startsWith('--out='));if(arg)fs.writeFileSync(path.resolve(ROOT,arg.slice(6)),JSON.stringify(d,null,2)+'\n');console.log(JSON.stringify({source114:d.comparison_114_original_positions,publicRows:d.comparison_public_g04s1_module_rows,candidates:d.candidate_excerpt_rows,possibleNear:d.exact_or_near_rows,hits:d.rows.filter(x=>x.exact_or_high_near_stem_hits.length).map(x=>({ordinal:x.ordinal,hits:x.exact_or_high_near_stem_hits}))},null,2))}
 module.exports={build,N,dice,candidates};

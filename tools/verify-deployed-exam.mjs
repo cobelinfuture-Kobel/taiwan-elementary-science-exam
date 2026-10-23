@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b07-lushang-exact3-live948-20261023",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b07-exact4-live952-20261023",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 948 小題（476 題是非＋337 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 952 小題（476 題是非＋341 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
   const native38Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-native38-public-v1.json",{cache:"no-cache"});
   assert.equal(native38Response.status(),200,"Published Pages must serve approved native38 original exam cohort");
   const native38=await native38Response.json();
@@ -228,12 +228,39 @@ try {
     &&x.public_material_scope==="EXAM_QUESTION_TEXT_ONLY"
     &&x.original_cropped_assets_included===false&&x.original_teacher_answer_key_authenticated===false));
   assert.ok(!b07Lushang.blocks.some(x=>x.source_original_slot_id==="SCI_G04_S1_113_MID_014|S03|G04|MC|002"),"parent-dependent Q325 excluded");
+  // B07 exact four original school child-only exam MCs; parent reading passage and third party assets are not published.
+  const b07Exact4Resp=await page.request.get(base+"/data/question-bank/p12-g04s1-113-b07-exact4-standalone-public-v1.json",{cache:"no-cache"});
+  assert.equal(b07Exact4Resp.status(),200,"live Pages serves exactly B07 original four child text MCs");
+  const exact4=await b07Exact4Resp.json();
+  assert.deepEqual([exact4.expected_blocks,exact4.expected_answer_slots,exact4.expected_standalone_true_false,exact4.expected_standalone_choice],[4,4,0,4]);
+  assert.deepEqual(exact4.blocks.map(x=>x.source_original_slot_id),[
+    "SCI_G04_S1_113_MID_013|S07|G02|MC|002",
+    "SCI_G04_S1_113_MID_014|S03|G07|MC|001",
+    "SCI_G04_S1_113_MID_014|S03|G07|MC|002",
+    "SCI_G04_S1_113_MID_014|S03|G07|MC|003"]);
+  assert.deepEqual(exact4.blocks.map(x=>x.answer),["②","④","③","①"]);
+  assert.deepEqual(exact4.blocks.map(x=>x.canonical_kp_id),[
+    "sci_g04s1_02_04","sci_g04s1_02_02","sci_g04s1_02_09","sci_g04s1_02_02"]);
+  assert.deepEqual(exact4.blocks.map(x=>x.options.length),[3,4,4,4]);
+  assert.deepEqual(exact4.blocks.map(x=>x.stem),[
+    "布袋蓮的氣室可以幫助葉片漂浮，與下列哪一種水生植物的構造類似？",
+    "玉黍螺適合在哪一種環境生存？",
+    "下列哪一種生物會利用羽毛狀的觸手捕食？",
+    "哪一種環境在海水中的時間最長，有許多不能承受乾燥與高溫的生物生存？"]);
+  assert.ok(exact4.blocks.every(x=>x.source_pdf_bbox_pts_top_left?.length===4
+    &&x.operator_publication_approval===true&&x.rights_license_status==="REGULATED_EXAM_QUESTION_ART9"
+    &&x.public_material_scope==="EXAM_QUESTION_TEXT_ONLY"&&x.original_cropped_assets_included===false
+    &&x.original_teacher_answer_key_authenticated===false
+    &&!Object.hasOwn(x,"reading_parent")&&!Object.hasOwn(x,"original_parent_text")));
+  const excluded=["SCI_G04_S1_113_MID_013|S07|G02|MC|001","SCI_G04_S1_113_MID_014|S03|G04|MC|002"];
+  assert.ok(!exact4.blocks.some(x=>excluded.includes(x.source_original_slot_id)),"Q305/Q325 stay HOLD");
   const loaderResponse=await page.request.get(base+"/assets/js/historical-bank-ox-v6.mjs",{cache:"no-cache"});
   assert.equal(loaderResponse.status(),200,"live Pages serves cumulative historical loader");
   const liveLoader=await loaderResponse.text();
   assert.ok(liveLoader.includes("...b05Native24.blocks")&&liveLoader.includes("+b05Native24.answerSlots"),"live loader must retain B05");
   assert.ok(liveLoader.includes("...b06Native16.blocks")&&liveLoader.includes("+b06Native16.answerSlots"),"live loader must integrate B06 approved 16, not just serve its JSON file");
   assert.ok(liveLoader.includes("...b07LushangExact3.blocks")&&liveLoader.includes("+b07LushangExact3.answerSlots"),"live loader must integrate 3 B07 original questions, not just their JSON");
+  assert.ok(liveLoader.includes("...b07Exact4.blocks")&&liveLoader.includes("+b07Exact4.answerSlots"),"live loader integrates exactly 4 new B07 original child-only MCs");
   assert.ok(liveLoader.includes("...b01Wende7.blocks")&&liveLoader.includes("b01Wende7.answerSlots"),
    "live loader must actually integrate seven new B01 items, not merely upload their JSON asset");
   assert.ok(liveLoader.includes("...b02Native21.blocks")&&liveLoader.includes("b02Native21.answerSlots"),
@@ -579,7 +606,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B07 Lushang exact3 LIVE; 948 answer slots (476 TF, 337 MC, 36 context groups)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B07 exact4 + Lushang exact3 LIVE; 952 answer slots (476 TF, 341 MC, 36 context groups)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

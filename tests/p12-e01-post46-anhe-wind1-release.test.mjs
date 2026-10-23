@@ -75,11 +75,12 @@ test("active V3 ScienceKP26 two more original TF while frozen V2 excludes only R
  };
  try{
   const v3=await loadEmbeddedHistoricalBank(authority);
-  assert.equal(v3.certifiedAnswerSlots,948); // previous 945 + B07 Lushang 3 newly approved text-only MC source questions
+  assert.equal(v3.certifiedAnswerSlots,952); // previous 948 + 4 B07 exact4, no B01–B06 reprocessing
   assert.equal(v3.certifiedTrueFalse,476); // prior 471 + 5 B06 TF
-  assert.equal(v3.certifiedStandaloneChoice,337); // previous 334 + B07 3 MC; original E01 evidence is unchanged
+  assert.equal(v3.certifiedStandaloneChoice,341); // previous 337 + B07 exact4 4 MC; original E01 evidence unchanged
   assert.equal(v3.certifiedGroupCount,36);
-  assert.equal(v3.blocks.filter(x=>x.id?.startsWith('P12_113_G04S1_B07_LUSHANG_TEXT3_')).length,3); // only precise B07 released
+  assert.equal(v3.blocks.filter(x=>x.id?.startsWith('P12_113_G04S1_B07_LUSHANG_TEXT3_')).length,3);
+  assert.equal(v3.blocks.filter(x=>x.id?.startsWith('P12_113_G04S1_B07_EXACT4_TEXT_')).length,4); // only precise B07 released
   assert.equal(v3.blocks.filter(x=>x.source_slot_id===proof.source_slot_id).length,1);
   const wind=v3.blocks.filter(x=>x.canonical_kp_id==="sci_g04s1_01_12"||x.secondary_canonical_kp_ids?.includes("sci_g04s1_01_12"));
   assert.equal(wind.filter(x=>!x.source_slot_id?.startsWith("SCI_G04_S1_113_")).length,2); // original two pre-approved R5 admissions unchanged

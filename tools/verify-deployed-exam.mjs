@@ -231,29 +231,29 @@ try {
   // B07 exact four original school child-only exam MCs; parent reading passage and third party assets are not published.
   const b07Exact4Resp=await page.request.get(base+"/data/question-bank/p12-g04s1-113-b07-exact4-standalone-public-v1.json",{cache:"no-cache"});
   assert.equal(b07Exact4Resp.status(),200,"live Pages serves exactly B07 original four child text MCs");
-  const exact4=await b07Exact4Resp.json();
-  assert.deepEqual([exact4.expected_blocks,exact4.expected_answer_slots,exact4.expected_standalone_true_false,exact4.expected_standalone_choice],[4,4,0,4]);
-  assert.deepEqual(exact4.blocks.map(x=>x.source_original_slot_id),[
+  const b07NewExact4=await b07Exact4Resp.json();
+  assert.deepEqual([b07NewExact4.expected_blocks,b07NewExact4.expected_answer_slots,b07NewExact4.expected_standalone_true_false,b07NewExact4.expected_standalone_choice],[4,4,0,4]);
+  assert.deepEqual(b07NewExact4.blocks.map(x=>x.source_original_slot_id),[
     "SCI_G04_S1_113_MID_013|S07|G02|MC|002",
     "SCI_G04_S1_113_MID_014|S03|G07|MC|001",
     "SCI_G04_S1_113_MID_014|S03|G07|MC|002",
     "SCI_G04_S1_113_MID_014|S03|G07|MC|003"]);
-  assert.deepEqual(exact4.blocks.map(x=>x.answer),["②","④","③","①"]);
-  assert.deepEqual(exact4.blocks.map(x=>x.canonical_kp_id),[
+  assert.deepEqual(b07NewExact4.blocks.map(x=>x.answer),["②","④","③","①"]);
+  assert.deepEqual(b07NewExact4.blocks.map(x=>x.canonical_kp_id),[
     "sci_g04s1_02_04","sci_g04s1_02_02","sci_g04s1_02_09","sci_g04s1_02_02"]);
-  assert.deepEqual(exact4.blocks.map(x=>x.options.length),[3,4,4,4]);
-  assert.deepEqual(exact4.blocks.map(x=>x.stem),[
+  assert.deepEqual(b07NewExact4.blocks.map(x=>x.options.length),[3,4,4,4]);
+  assert.deepEqual(b07NewExact4.blocks.map(x=>x.stem),[
     "布袋蓮的氣室可以幫助葉片漂浮，與下列哪一種水生植物的構造類似？",
     "玉黍螺適合在哪一種環境生存？",
     "下列哪一種生物會利用羽毛狀的觸手捕食？",
     "哪一種環境在海水中的時間最長，有許多不能承受乾燥與高溫的生物生存？"]);
-  assert.ok(exact4.blocks.every(x=>x.source_pdf_bbox_pts_top_left?.length===4
+  assert.ok(b07NewExact4.blocks.every(x=>x.source_pdf_bbox_pts_top_left?.length===4
     &&x.operator_publication_approval===true&&x.rights_license_status==="REGULATED_EXAM_QUESTION_ART9"
     &&x.public_material_scope==="EXAM_QUESTION_TEXT_ONLY"&&x.original_cropped_assets_included===false
     &&x.original_teacher_answer_key_authenticated===false
     &&!Object.hasOwn(x,"reading_parent")&&!Object.hasOwn(x,"original_parent_text")));
   const excluded=["SCI_G04_S1_113_MID_013|S07|G02|MC|001","SCI_G04_S1_113_MID_014|S03|G04|MC|002"];
-  assert.ok(!exact4.blocks.some(x=>excluded.includes(x.source_original_slot_id)),"Q305/Q325 stay HOLD");
+  assert.ok(!b07NewExact4.blocks.some(x=>excluded.includes(x.source_original_slot_id)),"Q305/Q325 stay HOLD");
   const loaderResponse=await page.request.get(base+"/assets/js/historical-bank-ox-v6.mjs",{cache:"no-cache"});
   assert.equal(loaderResponse.status(),200,"live Pages serves cumulative historical loader");
   const liveLoader=await loaderResponse.text();

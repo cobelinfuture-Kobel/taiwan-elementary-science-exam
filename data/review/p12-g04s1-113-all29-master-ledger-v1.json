@@ -4,16 +4,16 @@
   "status": "IN_PROGRESS_NOT_ALL29_CERTIFIED",
   "source_firstpass_ref": "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
   "source_roadmap_ref": "data/review/p12-g04s1-113-all29-four-phase-reconcile-and-full-closeout-roadmap-v1.json",
-  "published_snapshot_ref": "data/review/p12-g04s1-113-main-published293-source-suppression-readback-v17.json",
-  "published_main_sha": "280e69f070f38538bfbb7beee0060097ec8cd618",
+  "published_snapshot_ref": "data/review/p12-g04s1-113-main-published309-source-suppression-readback-v18.json",
+  "published_main_sha": "3e721d14713102e0f9e878889b9cbed99cdd7cb8",
   "original_pdf_count": 29,
   "original_pdf_page_count": 72,
   "source_position_universe_certified": false,
   "exact_total_slots": null,
-  "known_published_source_positions": 293,
+  "known_published_source_positions": 309,
   "formally_closed_papers": 0,
   "all29_complete": false,
-  "interpretation": "Source rows, model reviewed rows, and printed answer-slot totals are different units. Null = no certified full original-answer-position denominator. 178 is published source positions, not full corpus total. This is planning/evidence routing, not formal new admission. As of B01 seven new source positions are Pages verified; 185 site source positions, while B01 first50 closed selectively and 40 HOLD retained. ALL29 not closed.\nB02 native50 independently operator approved exact21 student positions published via PR153 main09d6 and public Pages #39627974319; final closeout PR154 main d4dec, 28 HOLD + 1 already B01 duplicate alias remain. 113 published source count 206; 842 total site answer positions. All29 original papers remain open.\nB03 exact27 Pages-verified on run #39722474838, closeout PR#156 main53ed49, 113 direct new source IDs233; 7 legacy Mingyi existing public school original outside newer canonical source ID scheme not re-added. ALL29 remains IN_PROGRESS.\nB04 original native50 user-approved exact36 publicly verified Pages #39771361871 (after PR158 surveyKP6 test fix); closeout PR159 main a160156, 13 retained HOLD and one exact already-public duplicate alias; current 113 source count269, live site905. Not all29 school paper closeouts certified.\nB05 operator-approved exact24 release PR#160 main927e and closeout PR#161 main280e; live 39803370304 all three jobs PASS. 113 published source positions 293, entire site 929. B01–B05 remain closed. B06 source-only 251–300 not yet operator scope approved or published.",
+  "interpretation": "Source rows, model reviewed rows, and printed answer-slot totals are different units. Null = no certified full original-answer-position denominator. 178 is published source positions, not full corpus total. This is planning/evidence routing, not formal new admission. As of B01 seven new source positions are Pages verified; 185 site source positions, while B01 first50 closed selectively and 40 HOLD retained. ALL29 not closed.\nB02 native50 independently operator approved exact21 student positions published via PR153 main09d6 and public Pages #39627974319; final closeout PR154 main d4dec, 28 HOLD + 1 already B01 duplicate alias remain. 113 published source count 206; 842 total site answer positions. All29 original papers remain open.\nB03 exact27 Pages-verified on run #39722474838, closeout PR#156 main53ed49, 113 direct new source IDs233; 7 legacy Mingyi existing public school original outside newer canonical source ID scheme not re-added. ALL29 remains IN_PROGRESS.\nB04 original native50 user-approved exact36 publicly verified Pages #39771361871 (after PR158 surveyKP6 test fix); closeout PR159 main a160156, 13 retained HOLD and one exact already-public duplicate alias; current 113 source count269, live site905. Not all29 school paper closeouts certified.\nB05 operator-approved exact24 release PR#160 main927e and closeout PR#161 main280e; live 39803370304 all three jobs PASS. 113 published source positions 293, entire site 929. B01–B05 remain closed. B06 source-only 251–300 not yet operator scope approved or published (historical B05-stage note; superseded by B06 closeout below).\nB06 exact16 operator-approved and merged PR162; post-live closeout PR163 main 3e721d14713102e0f9e878889b9cbed99cdd7cb8, Pages 39822880188 PASS, site945, 113 canonical published309, original B06 34 HOLD preserved. B07 pending; no 29-paper full inventory closeout claim.",
   "paper_records": [
     {
       "paper_id": "SCI_G04_S1_113_MID_001",
@@ -1939,7 +1939,7 @@
       "exact_total_slots": null,
       "inventory_certified": false,
       "slots_classified_final_count": null,
-      "published_count": 2,
+      "published_count": 13,
       "admission_ready_count": null,
       "hold_count": null,
       "reject_count": null,
@@ -2023,7 +2023,7 @@
       "exact_total_slots": null,
       "inventory_certified": false,
       "slots_classified_final_count": null,
-      "published_count": 2,
+      "published_count": 7,
       "admission_ready_count": null,
       "hold_count": null,
       "reject_count": null,
@@ -2286,5 +2286,15 @@
   "p04b_source_full_exact_answer_geometry_and_parent_accepted_new": 0,
   "note_on_842": "B02 exact21 15 TF +6 MC added to earlier 821 =842; all29 not fully analyzed. Source master published counts sum from 29 school papers.",
   "note_on_869": "B01 7 + B02 21 + B03 27 approved original TF/MC publications, live site 869 total answer positions; seven legacy Mingyi original TF previously public and suppressed in B03.",
-  "note_on_905": "Exact B04 36 standalone school source items (22 TF+14 MC) added to prior 869, live 905; old Mingyi7 already public separate; B01-B04 CLOSED."
+  "note_on_905": "Exact B04 36 standalone school source items (22 TF+14 MC) added to prior 869, live 905; old Mingyi7 already public separate; B01-B04 CLOSED.",
+  "last_public_closeout": {
+    "batch": "B06",
+    "release_pr": 162,
+    "closeout_pr": 163,
+    "main_sha": "3e721d14713102e0f9e878889b9cbed99cdd7cb8",
+    "public_pages_run": 39822880188,
+    "new_113_sources": 16,
+    "retained_hold": 34,
+    "all29_full_papers_certified": 0
+  }
 }

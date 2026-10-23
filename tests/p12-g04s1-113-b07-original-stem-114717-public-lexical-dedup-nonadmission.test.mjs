@@ -6,9 +6,10 @@ const {build}=require('../scripts/review/p12-g04s1-113-b07-original-stem-dedup-p
 test('B07 candidate excerpt lexical preflight covers 114/717 and published G04S1, never certifies semantic duplicate or admission',()=>{
  const r=build();
  assert.equal(r.comparison_114_original_positions,717);
- assert.equal(r.candidate_excerpt_rows,30);
- assert.equal(r.rows.length,30);
+ assert.equal(r.candidate_excerpt_rows,33);
+ assert.equal(r.rows.length,33);
  assert.ok(r.comparison_public_g04s1_module_rows>=309);
+ assert.deepEqual(r.rows.filter(x=>[320,321,322,323,328,329,330].includes(x.ordinal)).map(x=>x.ordinal),[320,321,322,323,328,329,330]);
  assert.equal(r.semantic_duplicate_certified,false);
  assert.equal(r.FORMAL_SCIENCE_KP_APPROVED_NEW,0);
  assert.equal(r.ADMISSION_READY_NEW,0);

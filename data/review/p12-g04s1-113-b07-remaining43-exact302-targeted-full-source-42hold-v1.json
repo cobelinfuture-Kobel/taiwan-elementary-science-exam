@@ -66,7 +66,31 @@
     "PUBLISHED": false,
     "disposition": "HOLD_EXACT302_OPERATOR_SCOPE_AND_FULL_APPLICABLE_GATE_ACCEPTANCE",
     "next_action": "Exact operator candidate 302 only; no student PR until governing operator requirement met and parent-free independence/right-to-publish accepted.",
-    "frozen113_direct_kp_name": "地震造成地表變動與災害"
+    "frozen113_direct_kp_name": "地震造成地表變動與災害",
+    "independent_science_official_evidence": {
+      "official_guide": "https://scweb.cwa.gov.tw/zh-TW/Guidance/FAQdetail/36",
+      "official_title": "交通部中央氣象署地震震度分級",
+      "intensity": "6強",
+      "human_experience": "搖晃劇烈以致無法站穩",
+      "indoor_and_outdoor": "部分耐震較差房屋可能損壞或倒塌；部分地面出現裂痕",
+      "choice_support": "①",
+      "model_inference_not_teacher_key": true
+    },
+    "rights_official_basis": {
+      "official_interpretation": "https://www.tipo.gov.tw/tw/copyright/692-16754.html",
+      "official_exam_questions_guidance": "https://www.tipo.gov.tw/tw/copyright/773-4954.html",
+      "allowed_condition": "National elementary school examination questions under Taiwan Copyright Act Article9(1)(5), question text only, applicable to lawfully held school examinations",
+      "not_covered": "third party reading article/photo/diagram; standalone explanatory prose; original teacher solution",
+      "actual_parent_provenance_unknown": true
+    },
+    "crossyear_dedup_existing_CI_evidence": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/39937278324",
+    "full_113_native24_exact_same_stem_hits_excluding_own_school": 0,
+    "existing_original_and_public_corpus_counts": {
+      "original_114": 717,
+      "existing_public_g04s1": 749,
+      "normalized_high_near_threshold": 0.78,
+      "exact_or_near_hits": 0
+    }
   },
   "other_42_HOLD_by_existing_gate": {
     "IMAGE_OR_PARENT_DEPENDENCE": [

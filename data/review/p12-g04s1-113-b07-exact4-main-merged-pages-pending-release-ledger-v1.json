@@ -1,0 +1,40 @@
+{
+  "schema_version": "P12_G04S1_113_B07_EXACT4_MAIN_MERGED_PAGES_E2E_PENDING_V1",
+  "source_review_PR124_draft_unmerged": true,
+  "frozen_original_worklist_remaining47_before_this_release": true,
+  "scope": "Only four original B07 MC306/335/336/337; child text only no third party parent",
+  "operator_user_task_scope": "P12_G04S1_113_B07_EXACT4_306_335_336_337_ParentExcluded_ScienceUnique_Frozen48KP_FinalDuplicateRightsEvidence_ExactOperatorApproval_ThenSelectiveStudentPR_FocusedCI_MainReadback_PagesLiveE2E_Keep305_325_G02Six_TFMC1_HOLD_NoB01ToB06Reopen",
+  "original_source_slots_selected": [
+    "SCI_G04_S1_113_MID_013|S07|G02|MC|002",
+    "SCI_G04_S1_113_MID_014|S03|G07|MC|001",
+    "SCI_G04_S1_113_MID_014|S03|G07|MC|002",
+    "SCI_G04_S1_113_MID_014|S03|G07|MC|003"
+  ],
+  "pr166": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/pull/166",
+  "pr166_merged_sha": "1532c6b1b0651d2fd7c6209a67378614e2f3459b",
+  "pr167_e2e_script_fix": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/pull/167",
+  "main_SHA_after_e2e_fix": "feacc1c031f0c5edd73c7cd1e7954ecad355ee2f",
+  "pr166_student_science_CI": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/39931111500",
+  "pr166_student_A4_CI": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/39931112092",
+  "pr167_syntax_CI": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/39931740504",
+  "main_science_CI": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/39931840965",
+  "pages_live_run_under_review": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/39931840976",
+  "live_Pages_E2E_result_at_checkpoint": "PENDING_NOT_SUCCESS",
+  "DO_NOT_MARK_PUBLISHED_BEFORE_LIVE_E2E": true,
+  "published_113_origin_source_count_frozen_until_e2e": 312,
+  "published_public_answer_slots_frozen_until_e2e": 948,
+  "expected_after_validated_live": {
+    "published_113_origin_source_count": 316,
+    "answer_slots": 952,
+    "TF": 476,
+    "MC": 341,
+    "groups": 36
+  },
+  "Q305_HOLD": true,
+  "Q325_HOLD": true,
+  "G02_six_HOLD": true,
+  "independent_TFMC1_HOLD": true,
+  "B01_to_B06_no_reopen": true,
+  "source_original_frozen_50_unmodified": true,
+  "NEXT_RESUME_TASK": "P12_G04S1_113_B07_EXACT4_PR166_167_PostMerge_PagesChromiumE2EThen_316SourceSuppressionSnapshot_43HOLD_SourcePR124CI_NoB01ToB06Reopen"
+}

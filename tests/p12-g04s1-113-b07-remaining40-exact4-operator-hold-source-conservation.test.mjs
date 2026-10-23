@@ -58,7 +58,7 @@ test('B07 original exact4 question identity/answers/geometry/direct frozen48KP f
  }
  assert.equal(exact.excluded_from_exact4.some(x=>x.ordinal===305),true);
  assert.equal(exact.excluded_from_exact4.some(x=>x.ordinal===325),true);
- assert.equal(exact.independent_B07_TFMC1_not_part_of50_remains_HOLD,true);
+ assert.ok(exact.excluded_from_exact4.some(x=>x.source==='SCI_G04_S1_113_FINAL_010|S3|TF|7'));
  assert.equal(exact.B01_to_B06_not_reopened,true);
 });
 test('G03 4 and G05 3 remain held with no retroactive certification',()=>{

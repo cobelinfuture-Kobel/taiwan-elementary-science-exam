@@ -9,7 +9,7 @@ const ROOT=path.resolve(__dirname,'../..');
 const R='data/review/';
 const MANIFEST='p12-g04s1-113-all29-master-ledger-v1.json';
 const REGISTRY='p12-g04s1-113-all29-kp48-source-firstpass-v1.json';
-const PUBLISHED='p12-g04s1-113-main-published309-source-suppression-readback-v18.json';
+const PUBLISHED='p12-g04s1-113-main-published312-source-suppression-readback-v19.json';
 const LEGACY=[
   ['p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json','rows'],
   ['p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json','source_scored_tasks'],

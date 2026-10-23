@@ -17,6 +17,10 @@ const candidates=[
 [314,'橋梁斷裂'],[315,'鐵軌扭曲'],[316,'水壩破裂'],
 [317,'空氣汙染'],[318,'淹水'],[319,'物品散落'],
 [320,'震源在地表的投影，是最靠近震源的地點。'],
+[328,'5. 請將下面不同環境和對應的保護方法連起來。(1)山坡地裸露 A.整治河川 B.在裸露的山坡地種植植物 C.避免砍伐森林，維持森林生態的完整性。'],
+[329,'5. 請將下面不同環境和對應的保護方法連起來。(2)砍伐森林 A.整治河川 B.在裸露的山坡地種植植物 C.避免砍伐森林，維持森林生態的完整性。'],
+[330,'5. 請將下面不同環境和對應的保護方法連起來。(3)開挖砂石 A.整治河川 B.在裸露的山坡地種植植物 C.避免砍伐森林，維持森林生態的完整性。'],
+
 [321,'引發地震的位置'],
 [322,'該次地震震源所釋放出的能量大小，目前世界通用的為芮氏規模。'],
 [323,'人體感受地面搖動、建築物受破壞的程度。'],
@@ -70,13 +74,13 @@ function build(){
    student_admission_allowed:false};
  });
  return {
-  schema_version:'P12_G04S1_113_B07_30_QUESTION_EXCERPT_LEXICAL_DEDUP_PREFLIGHT_V1',
+  schema_version:'P12_G04S1_113_B07_33_QUESTION_EXCERPT_LEXICAL_DEDUP_PREFLIGHT_V2',
   comparison_114_original_positions:original114.length,
   comparison_public_g04s1_module_rows:publicG04.length,
   comparison_student_bank_files:publicFiles.length,
   candidate_excerpt_rows:rows.length,
   semantic_duplicate_certified:false,
-  note:'Original school text excerpts for search; the complete original question, parent story, all ordered options, graphics and crossschool semantics must be reviewed under existing Gate. This is NOT a duplicate acceptance/rejection or operator cohort.',
+  note:'Original school text excerpts for search, including G05 synthetic child+unchanged codebank concatenation without rewriting any original question; short individual label matches are not semantic dedup; the complete original question, parent story, all ordered options, graphics and crossschool semantics must be reviewed under existing Gate. This is NOT a duplicate acceptance/rejection or operator cohort.',
   exact_or_near_rows:rows.filter(x=>x.exact_or_high_near_stem_hits.length).length,
   rows,
   FORMAL_SCIENCE_KP_APPROVED_NEW:0,

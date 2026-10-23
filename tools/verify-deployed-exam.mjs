@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b06-native16-live945-20261023",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b07-lushang-exact3-live948-20261023",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 945 小題（476 題是非＋334 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 948 小題（476 題是非＋337 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
   const native38Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-native38-public-v1.json",{cache:"no-cache"});
   assert.equal(native38Response.status(),200,"Published Pages must serve approved native38 original exam cohort");
   const native38=await native38Response.json();
@@ -207,11 +207,33 @@ try {
   assert.ok(b06.blocks.filter(x=>x.type==="mcq").every(x=>x.options?.length===4&&["①","②","③","④"].includes(x.answer)));
   assert.ok(!b06.blocks.some(x=>x.source_slot_id==="SCI_G04_S1_113_FINAL_010|S1|MC|22"),"B06 114-year name-only near match retained HOLD");
   assert.ok(!b06.blocks.some(x=>x.source_slot_id==="SCI_G04_S1_113_FINAL_010|S1|MC|24"),"B06 semantic-ambiguous school question retained HOLD");
+  // B07 Lushang exact3 original subquestions only. G04 #2 and G02 image-dependent set remain HOLD.
+  const b07LushangResponse=await page.request.get(base+"/data/question-bank/p12-g04s1-113-b07-lushang-exact3-standalone-public-v1.json",{cache:"no-cache"});
+  assert.equal(b07LushangResponse.status(),200,"actual Pages serves B07 exact3 approved original exam MCs");
+  const b07Lushang=await b07LushangResponse.json();
+  assert.deepEqual([b07Lushang.expected_blocks,b07Lushang.expected_answer_slots,b07Lushang.expected_standalone_true_false,b07Lushang.expected_standalone_choice],[3,3,0,3]);
+  assert.deepEqual(b07Lushang.blocks.map(x=>x.source_original_slot_id),[
+    "SCI_G04_S1_113_MID_014|S03|G04|MC|001",
+    "SCI_G04_S1_113_MID_014|S03|G04|MC|003",
+    "SCI_G04_S1_113_MID_014|S03|G04|MC|004"]);
+  assert.deepEqual(b07Lushang.blocks.map(x=>x.answer),["③","①","④"]);
+  assert.deepEqual(b07Lushang.blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_08","sci_g04s1_02_09","sci_g04s1_02_09"]);
+  assert.deepEqual(b07Lushang.blocks.map(x=>x.stem),[
+    "魚的鰓位於身體的哪一個部位呢？",
+    "在蝌蚪變成蛙的過程中，從來沒有使用下列哪一種構造呼吸呢？",
+    "浮潛使用的呼吸管，和下列哪一種動物的呼吸構造相似？"]);
+  assert.ok(b07Lushang.blocks.every(x=>x.options?.length===4
+    &&x.source_pdf_bbox_pts_top_left?.length===4
+    &&x.operator_publication_approval===true&&x.rights_license_status==="REGULATED_EXAM_QUESTION_ART9"
+    &&x.public_material_scope==="EXAM_QUESTION_TEXT_ONLY"
+    &&x.original_cropped_assets_included===false&&x.original_teacher_answer_key_authenticated===false));
+  assert.ok(!b07Lushang.blocks.some(x=>x.source_original_slot_id==="SCI_G04_S1_113_MID_014|S03|G04|MC|002"),"parent-dependent Q325 excluded");
   const loaderResponse=await page.request.get(base+"/assets/js/historical-bank-ox-v6.mjs",{cache:"no-cache"});
   assert.equal(loaderResponse.status(),200,"live Pages serves cumulative historical loader");
   const liveLoader=await loaderResponse.text();
   assert.ok(liveLoader.includes("...b05Native24.blocks")&&liveLoader.includes("+b05Native24.answerSlots"),"live loader must retain B05");
   assert.ok(liveLoader.includes("...b06Native16.blocks")&&liveLoader.includes("+b06Native16.answerSlots"),"live loader must integrate B06 approved 16, not just serve its JSON file");
+  assert.ok(liveLoader.includes("...b07LushangExact3.blocks")&&liveLoader.includes("+b07LushangExact3.answerSlots"),"live loader must integrate 3 B07 original questions, not just their JSON");
   assert.ok(liveLoader.includes("...b01Wende7.blocks")&&liveLoader.includes("b01Wende7.answerSlots"),
    "live loader must actually integrate seven new B01 items, not merely upload their JSON asset");
   assert.ok(liveLoader.includes("...b02Native21.blocks")&&liveLoader.includes("b02Native21.answerSlots"),
@@ -557,7 +579,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B06 exact16 originals LIVE, 945 answer slots (476 TF, 334 MC, 36 context groups)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B07 Lushang exact3 LIVE; 948 answer slots (476 TF, 337 MC, 36 context groups)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

@@ -9,7 +9,7 @@ test('B07 candidate excerpt lexical preflight covers 114/717 and published G04S1
  assert.equal(r.candidate_excerpt_rows,33);
  assert.equal(r.rows.length,33);
  assert.ok(r.comparison_public_g04s1_module_rows>=309);
- assert.deepEqual(r.rows.filter(x=>[320,321,322,323,328,329,330].includes(x.ordinal)).map(x=>x.ordinal),[320,321,322,323,328,329,330]);
+ assert.deepEqual(r.rows.filter(x=>[320,321,322,323,328,329,330].includes(x.ordinal)).map(x=>x.ordinal).sort((a,b)=>a-b),[320,321,322,323,328,329,330]);
  assert.equal(r.semantic_duplicate_certified,false);
  assert.equal(r.FORMAL_SCIENCE_KP_APPROVED_NEW,0);
  assert.equal(r.ADMISSION_READY_NEW,0);

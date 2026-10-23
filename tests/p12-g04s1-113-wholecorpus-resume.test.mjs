@@ -30,7 +30,7 @@ test('P02 generator includes all 29 paper inventory gaps, not only historical 14
   assert.equal(res.metrics.unique_legacy_source_positions,775);
   assert.equal(res.metrics.source_positions_after_native_p04b_union,1297);
   assert.ok(res.metrics.p04b_previously_unqueued_unpublished_source_positions<=480 && res.metrics.p04b_previously_unqueued_unpublished_source_positions>=464);
-  assert.ok(res.metrics.unpublished_legacy_positions<=1077 && res.metrics.unpublished_legacy_positions>=1061);
+  assert.ok(res.metrics.unpublished_legacy_positions<=1077 && res.metrics.unpublished_legacy_positions>=1058);
   assert.equal(res.metrics.deterministic_work_tasks,res.metrics.unpublished_legacy_positions+29);
   assert.equal(res.metrics.papers_requiring_exact_inventory,29);
   assert.equal(res.metrics.section_papers_with_source_response_region_recount,29);

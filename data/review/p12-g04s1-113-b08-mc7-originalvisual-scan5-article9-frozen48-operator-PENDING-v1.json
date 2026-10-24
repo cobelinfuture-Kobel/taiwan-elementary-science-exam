@@ -1,0 +1,376 @@
+{
+  "schema_version": "P12_G04S1_113_B08_MC7_FORMAL_SCIENCEKP_SCAN5_VISUAL_RIGHTS_OPERATOR_PENDING_V1",
+  "batch": "B08",
+  "scope": "MC7 ordinals387-393 only",
+  "source_pdf": {
+    "id": "SCI_G04_S1_113_MID_018",
+    "name": "彰化縣成功國小113學年度四年級自然科學期中評量",
+    "sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+    "pdf_pages": 2,
+    "source_page": 2,
+    "page2_render_pixelsha_prefix": "9be7ef52d6d779b9",
+    "school_exam_printed_header_accepted": true
+  },
+  "parent_visual": {
+    "status": "PASS_RENDERED_SOURCE_PAGE",
+    "table_group": "CHENGGONG_S03_G04",
+    "table_ordinals": [
+      387,
+      388,
+      389
+    ],
+    "first_group": [
+      "水淺",
+      "水流緩慢",
+      "有浮萍"
+    ],
+    "second_group": [
+      "水深",
+      "廣闊無邊",
+      "有海藻"
+    ],
+    "table_column_alignment_accepted": true,
+    "speaker_group": "CHENGGONG_S03_G05",
+    "speaker_ordinals": [
+      390,
+      391,
+      392,
+      393
+    ],
+    "speaker_order": [
+      "書鴻",
+      "友佳",
+      "阿力",
+      "雅萍"
+    ],
+    "speaker_text_alignment_accepted": true,
+    "original_image_not_needed_for_either_parent": true
+  },
+  "scan5": {
+    "method": "Full actual source PDF byte hash, each page visually rendered and inspected against seven child stems/options and both complete parent question contexts; no OCR",
+    "pages_visited": 16,
+    "papers": [
+      {
+        "source_id": "SCI_G04_S1_113_MID_002",
+        "pages": 3,
+        "sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+        "exact_child_with_equivalent_parent_and_options_found": false
+      },
+      {
+        "source_id": "SCI_G04_S1_113_FINAL_001",
+        "pages": 2,
+        "sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+        "exact_child_with_equivalent_parent_and_options_found": false
+      },
+      {
+        "source_id": "SCI_G04_S1_113_FINAL_002",
+        "pages": 4,
+        "sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+        "exact_child_with_equivalent_parent_and_options_found": false
+      },
+      {
+        "source_id": "SCI_G04_S1_113_MID_006",
+        "pages": 4,
+        "sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+        "exact_child_with_equivalent_parent_and_options_found": false
+      },
+      {
+        "source_id": "SCI_G04_S1_113_FINAL_009",
+        "pages": 3,
+        "sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+        "exact_child_with_equivalent_parent_and_options_found": false
+      }
+    ],
+    "scope_result": "NO_EXACT_OR_OPTION_REORDER_DUPLICATES_OF_MC7_IN_SCANNED_FIVE",
+    "not_full_scan_paper_admission": true
+  },
+  "inherited_duplicate": {
+    "native_113_papers_with_normalized_exact_stem_screening": 24,
+    "original_114_source_occurrences_screened": 717,
+    "public_113_114_rows_screened": 749,
+    "full_original_parent_and_option_reorder_gate_scope": "MC7",
+    "same_KP_different_wording_allowed": true,
+    "duplicate_result": "NO_COMPLETE_SAME_OR_OPTION_ONLY_REORDERED_QUESTION_FOUND_IN_REVIEWED_CORPUS"
+  },
+  "rights": {
+    "classification": "REGULATED_EXAM_QUESTION_ART9",
+    "eligible_component": "SCHOOL_QUESTION_TEXT_ONLY",
+    "school_regular_exam_identity_verified_by_page1": true,
+    "seven_required_thirdparty_images": 0,
+    "red_source_annotations_or_separate_teacher_key_excluded": true,
+    "source_pdf_or_images_release_forbidden": true,
+    "guidance": [
+      "https://www.tipo.gov.tw/tw/copyright/694-17733.html",
+      "https://www.tipo.gov.tw/tw/copyright/773-4954.html",
+      "https://www.tipo.gov.tw/tw/copyright/692-16754.html"
+    ]
+  },
+  "authority": {
+    "projection": "site/data/authority/science-g03-g04-selector-v3.json",
+    "authority_year": 113,
+    "frozen_kp_count": 48,
+    "unit": "U02",
+    "period": "MIDTERM",
+    "canonical_kp_titles": {
+      "sci_g04s1_02_02": "水域環境條件差異",
+      "sci_g04s1_02_09": "水生動物的構造與環境適應",
+      "sci_g04s1_02_14": "水域調查安全與尊重水生生物"
+    }
+  },
+  "records": [
+    {
+      "ordinal": 387,
+      "source_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|001",
+      "page": 2,
+      "bbox": [
+        30.24,
+        697.18,
+        72.36,
+        711.22
+      ],
+      "parent_id": "CHENGGONG_S03_G04",
+      "original_stem": "石田螺可以在哪一組的水域環境中生存？",
+      "original_choices": [
+        "第一組",
+        "第二組",
+        "兩者皆可"
+      ],
+      "independent_science_answer_proposal_not_teacher_key": "①",
+      "science_unique_reason": "第一組水淺、水流緩慢且有浮萍，為淡水水域，適合一般石田螺；第二組為有海藻的廣闊海域",
+      "canonical_kp": "sci_g04s1_02_02",
+      "canonical_kp_title": "水域環境條件差異",
+      "source_exact": true,
+      "source_native_bbox": true,
+      "parent_visual": true,
+      "unique_science_answer": true,
+      "direct_frozen_kp": true,
+      "focused_duplicate_pass": true,
+      "rights_text_only_eligible": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 388,
+      "source_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|002",
+      "page": 2,
+      "bbox": [
+        30.24,
+        734.62,
+        72.36,
+        748.66
+      ],
+      "parent_id": "CHENGGONG_S03_G04",
+      "original_stem": "小丑魚可以在哪一組的水域環境中生存？",
+      "original_choices": [
+        "第一組",
+        "第二組",
+        "兩者皆可"
+      ],
+      "independent_science_answer_proposal_not_teacher_key": "②",
+      "science_unique_reason": "小丑魚為海洋生物，符合第二組水深、廣闊且有海藻的水域",
+      "canonical_kp": "sci_g04s1_02_02",
+      "canonical_kp_title": "水域環境條件差異",
+      "source_exact": true,
+      "source_native_bbox": true,
+      "parent_visual": true,
+      "unique_science_answer": true,
+      "direct_frozen_kp": true,
+      "focused_duplicate_pass": true,
+      "rights_text_only_eligible": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 389,
+      "source_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|003",
+      "page": 2,
+      "bbox": [
+        28.32,
+        772.09,
+        70.44,
+        786.13
+      ],
+      "parent_id": "CHENGGONG_S03_G04",
+      "original_stem": "到哪一組調查的水域環境觀察時需要將撈起來觀察的水生生物放回原來的環境？",
+      "original_choices": [
+        "第一組",
+        "第二組",
+        "兩組都需要"
+      ],
+      "independent_science_answer_proposal_not_teacher_key": "③",
+      "science_unique_reason": "水域實地調查不應任意帶走生物，淡水與海洋兩組都應尊重原生環境",
+      "canonical_kp": "sci_g04s1_02_14",
+      "canonical_kp_title": "水域調查安全與尊重水生生物",
+      "source_exact": true,
+      "source_native_bbox": true,
+      "parent_visual": true,
+      "unique_science_answer": true,
+      "direct_frozen_kp": true,
+      "focused_duplicate_pass": true,
+      "rights_text_only_eligible": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 390,
+      "source_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|001",
+      "page": 2,
+      "bbox": [
+        40.32,
+        957.13,
+        82.46,
+        971.17
+      ],
+      "parent_id": "CHENGGONG_S03_G05",
+      "original_stem": "書鴻觀察的水生動物可能是",
+      "original_choices": [
+        "紅娘華",
+        "青蛙",
+        "蟹",
+        "石田螺"
+      ],
+      "independent_science_answer_proposal_not_teacher_key": "③",
+      "science_unique_reason": "能利用腳爬行與游泳、以鰓呼吸者符合蟹",
+      "canonical_kp": "sci_g04s1_02_09",
+      "canonical_kp_title": "水生動物的構造與環境適應",
+      "source_exact": true,
+      "source_native_bbox": true,
+      "parent_visual": true,
+      "unique_science_answer": true,
+      "direct_frozen_kp": true,
+      "focused_duplicate_pass": true,
+      "rights_text_only_eligible": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 391,
+      "source_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|002",
+      "page": 2,
+      "bbox": [
+        386.83,
+        31.35,
+        428.95,
+        45.39
+      ],
+      "parent_id": "CHENGGONG_S03_G05",
+      "original_stem": "友佳觀察的水生動物可能是",
+      "original_choices": [
+        "紅娘華",
+        "青蛙",
+        "蟹",
+        "石田螺"
+      ],
+      "independent_science_answer_proposal_not_teacher_key": "②",
+      "science_unique_reason": "青蛙幼體主要用鰓呼吸，成體以肺與潮溼皮膚交換氣體",
+      "canonical_kp": "sci_g04s1_02_09",
+      "canonical_kp_title": "水生動物的構造與環境適應",
+      "source_exact": true,
+      "source_native_bbox": true,
+      "parent_visual": true,
+      "unique_science_answer": true,
+      "direct_frozen_kp": true,
+      "focused_duplicate_pass": true,
+      "rights_text_only_eligible": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 392,
+      "source_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|003",
+      "page": 2,
+      "bbox": [
+        386.83,
+        69.75,
+        428.95,
+        83.79
+      ],
+      "parent_id": "CHENGGONG_S03_G05",
+      "original_stem": "阿力觀察的水生動物可能是",
+      "original_choices": [
+        "紅娘華",
+        "青蛙",
+        "蟹",
+        "石田螺"
+      ],
+      "independent_science_answer_proposal_not_teacher_key": "④",
+      "science_unique_reason": "石田螺用腹足爬行，水生螺類利用鰓呼吸",
+      "canonical_kp": "sci_g04s1_02_09",
+      "canonical_kp_title": "水生動物的構造與環境適應",
+      "source_exact": true,
+      "source_native_bbox": true,
+      "parent_visual": true,
+      "unique_science_answer": true,
+      "direct_frozen_kp": true,
+      "focused_duplicate_pass": true,
+      "rights_text_only_eligible": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 393,
+      "source_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|004",
+      "page": 2,
+      "bbox": [
+        386.83,
+        108.29,
+        428.95,
+        122.33
+      ],
+      "parent_id": "CHENGGONG_S03_G05",
+      "original_stem": "雅萍觀察的水生動物可能是",
+      "original_choices": [
+        "紅娘華",
+        "青蛙",
+        "蟹",
+        "石田螺"
+      ],
+      "independent_science_answer_proposal_not_teacher_key": "①",
+      "science_unique_reason": "紅娘華腹端具呼吸管並用足游泳與攀爬",
+      "canonical_kp": "sci_g04s1_02_09",
+      "canonical_kp_title": "水生動物的構造與環境適應",
+      "source_exact": true,
+      "source_native_bbox": true,
+      "parent_visual": true,
+      "unique_science_answer": true,
+      "direct_frozen_kp": true,
+      "focused_duplicate_pass": true,
+      "rights_text_only_eligible": true,
+      "formal_science_kp_approved": true,
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "formal_metrics_new": {
+    "FORMAL_SCIENCE_KP_APPROVED": 7,
+    "ADMISSION_READY": 0,
+    "PUBLISHED": 0
+  },
+  "operator": {
+    "exact_cohort": [
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393
+    ],
+    "status": "PENDING_FINAL_OPERATOR_ELIGIBLE_COHORT_SIGNOFF",
+    "student_renderer": "PENDING_TWO_INTACT_PARENT_GROUPS",
+    "student_PR": "NOT_STARTED",
+    "focused_CI": "NOT_RUN",
+    "main_readback": "NOT_STARTED",
+    "PagesE2E": "NOT_STARTED"
+  },
+  "matching10_unchanged": true,
+  "hold33_unchanged": true,
+  "B01_to_B07_unchanged": true,
+  "original_pdf_image_not_committed": true
+}

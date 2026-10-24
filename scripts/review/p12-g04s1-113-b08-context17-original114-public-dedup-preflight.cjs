@@ -5,7 +5,7 @@
 const fs=require('node:fs'),path=require('node:path');
 const ROOT=path.resolve(__dirname,'../..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(ROOT,p),'utf8'));
-const N=s=>String(s??'').normalize('NFKC').toLowerCase().replace(/[\\s\\r\\n、，,。．.！!？?；;：（）()「」『』％%\\-—_①②③④○１２３４]/g,'');
+const N=s=>String(s??'').normalize('NFKC').toLowerCase().replace(/[\s\r\n、，,。．.！!？?；;：（）()「」『』％%\-—_①②③④○１２３４]/g,'');
 function dice(a,b) {
  if(a===b)return 1;if(a.length<2||b.length<2)return 0;
  const m=new Map();for(let i=0;i<a.length-1;i++){const v=a.slice(i,i+2);m.set(v,(m.get(v)||0)+1)}

@@ -1,0 +1,253 @@
+{
+  "schema_version": "P12_G04S1_113_HESHUN_MID002_SCAN_ORIGINAL8_TF_PIXEL_BBOX_V1",
+  "source_pr": 124,
+  "source_original_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+  "section_title": "三、是非題",
+  "original_section_questions": 8,
+  "original_pixel_raster_source_image_size": [
+    4960,
+    3507
+  ],
+  "original_source_pdf_page_points": [
+    1190,
+    841
+  ],
+  "method": "Eight real scan-image printed answer parenthesis pairs on original page2 individually segmented at threshold175, their original raster components individually visually verified with printed item numbers; source image xref14, actual PDF image/page coordinate transform; no OCR and no estimated/interpolated BBox.",
+  "previous_six_MC_source": "data/review/p12-g04s1-113-heshun-mid002-scanned-sixmc-actual-pixel-geometry-v1.json",
+  "summary": {
+    "newly_exact_raster_tf_slots": 8,
+    "previous_exact_raster_mc_slots": 6,
+    "total_original_scan_answer_pixel_bboxes_now": 14,
+    "frozen_scans_five_prior_section_positions": 262,
+    "remaining_original_scan_answer_positions_without_exact_bbox": 248,
+    "formal_science_kp_approved_new": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S03|TF|001",
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 2,
+      "raster_image_size_px": [
+        4960,
+        3507
+      ],
+      "source_original_image_xref": 14,
+      "actual_open_and_close_parenthesis_union_pixel_bbox": [
+        170,
+        888,
+        335,
+        940
+      ],
+      "mapped_pdf_page_bbox_pts_topleft": [
+        40.79,
+        212.95,
+        80.37,
+        225.42
+      ],
+      "source_raster_pixel_method": "ORIGINAL_SCAN_COMPONENT_PAIR_THRESHOLD_175_VISUALLY_READBACK",
+      "no_ocr": true,
+      "source_and_parent_rights_unverified": true,
+      "science_kp_formal_accepted": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S03|TF|002",
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 2,
+      "raster_image_size_px": [
+        4960,
+        3507
+      ],
+      "source_original_image_xref": 14,
+      "actual_open_and_close_parenthesis_union_pixel_bbox": [
+        169,
+        992,
+        335,
+        1045
+      ],
+      "mapped_pdf_page_bbox_pts_topleft": [
+        40.55,
+        237.89,
+        80.37,
+        250.6
+      ],
+      "source_raster_pixel_method": "ORIGINAL_SCAN_COMPONENT_PAIR_THRESHOLD_175_VISUALLY_READBACK",
+      "no_ocr": true,
+      "source_and_parent_rights_unverified": true,
+      "science_kp_formal_accepted": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S03|TF|003",
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 2,
+      "raster_image_size_px": [
+        4960,
+        3507
+      ],
+      "source_original_image_xref": 14,
+      "actual_open_and_close_parenthesis_union_pixel_bbox": [
+        169,
+        1096,
+        334,
+        1149
+      ],
+      "mapped_pdf_page_bbox_pts_topleft": [
+        40.55,
+        262.83,
+        80.13,
+        275.54
+      ],
+      "source_raster_pixel_method": "ORIGINAL_SCAN_COMPONENT_PAIR_THRESHOLD_175_VISUALLY_READBACK",
+      "no_ocr": true,
+      "source_and_parent_rights_unverified": true,
+      "science_kp_formal_accepted": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S03|TF|004",
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 2,
+      "raster_image_size_px": [
+        4960,
+        3507
+      ],
+      "source_original_image_xref": 14,
+      "actual_open_and_close_parenthesis_union_pixel_bbox": [
+        169,
+        1200,
+        334,
+        1253
+      ],
+      "mapped_pdf_page_bbox_pts_topleft": [
+        40.55,
+        287.77,
+        80.13,
+        300.48
+      ],
+      "source_raster_pixel_method": "ORIGINAL_SCAN_COMPONENT_PAIR_THRESHOLD_175_VISUALLY_READBACK",
+      "no_ocr": true,
+      "source_and_parent_rights_unverified": true,
+      "science_kp_formal_accepted": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S03|TF|005",
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 2,
+      "raster_image_size_px": [
+        4960,
+        3507
+      ],
+      "source_original_image_xref": 14,
+      "actual_open_and_close_parenthesis_union_pixel_bbox": [
+        169,
+        1304,
+        334,
+        1357
+      ],
+      "mapped_pdf_page_bbox_pts_topleft": [
+        40.55,
+        312.71,
+        80.13,
+        325.42
+      ],
+      "source_raster_pixel_method": "ORIGINAL_SCAN_COMPONENT_PAIR_THRESHOLD_175_VISUALLY_READBACK",
+      "no_ocr": true,
+      "source_and_parent_rights_unverified": true,
+      "science_kp_formal_accepted": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S03|TF|006",
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 2,
+      "raster_image_size_px": [
+        4960,
+        3507
+      ],
+      "source_original_image_xref": 14,
+      "actual_open_and_close_parenthesis_union_pixel_bbox": [
+        168,
+        1408,
+        333,
+        1461
+      ],
+      "mapped_pdf_page_bbox_pts_topleft": [
+        40.31,
+        337.65,
+        79.89,
+        350.36
+      ],
+      "source_raster_pixel_method": "ORIGINAL_SCAN_COMPONENT_PAIR_THRESHOLD_175_VISUALLY_READBACK",
+      "no_ocr": true,
+      "source_and_parent_rights_unverified": true,
+      "science_kp_formal_accepted": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S03|TF|007",
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 2,
+      "raster_image_size_px": [
+        4960,
+        3507
+      ],
+      "source_original_image_xref": 14,
+      "actual_open_and_close_parenthesis_union_pixel_bbox": [
+        168,
+        1512,
+        333,
+        1565
+      ],
+      "mapped_pdf_page_bbox_pts_topleft": [
+        40.31,
+        362.59,
+        79.89,
+        375.3
+      ],
+      "source_raster_pixel_method": "ORIGINAL_SCAN_COMPONENT_PAIR_THRESHOLD_175_VISUALLY_READBACK",
+      "no_ocr": true,
+      "source_and_parent_rights_unverified": true,
+      "science_kp_formal_accepted": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S03|TF|008",
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 2,
+      "raster_image_size_px": [
+        4960,
+        3507
+      ],
+      "source_original_image_xref": 14,
+      "actual_open_and_close_parenthesis_union_pixel_bbox": [
+        168,
+        1617,
+        333,
+        1669
+      ],
+      "mapped_pdf_page_bbox_pts_topleft": [
+        40.31,
+        387.77,
+        79.89,
+        400.24
+      ],
+      "source_raster_pixel_method": "ORIGINAL_SCAN_COMPONENT_PAIR_THRESHOLD_175_VISUALLY_READBACK",
+      "no_ocr": true,
+      "source_and_parent_rights_unverified": true,
+      "science_kp_formal_accepted": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ]
+}

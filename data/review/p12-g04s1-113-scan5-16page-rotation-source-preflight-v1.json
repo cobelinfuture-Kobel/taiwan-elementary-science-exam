@@ -1,0 +1,78 @@
+{
+  "schema_version": "P12_113_G04S1_SCANS_16_PAGES_TRANSFORM_PREFLIGHT_V1",
+  "source_pr": 124,
+  "scope": "113 G04S1 48 KP",
+  "scope_kind": "ORIGINAL_SCAN_IMAGE_COORDINATES_ONLY",
+  "verified_original_pdf_sha_count": 5,
+  "verified_original_page_count": 16,
+  "original_pdf_native_char_count": 0,
+  "prior_section_count": 262,
+  "new_individual_raster_bbox_verified": 0,
+  "scan_source_groups": [
+    [
+      "SCI_G04_S1_113_MID_002",
+      "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      3,
+      50,
+      0,
+      [
+        4960,
+        3507
+      ]
+    ],
+    [
+      "SCI_G04_S1_113_FINAL_001",
+      "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      2,
+      50,
+      90,
+      [
+        4299,
+        3035
+      ]
+    ],
+    [
+      "SCI_G04_S1_113_FINAL_002",
+      "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      4,
+      50,
+      0,
+      [
+        4960,
+        3507
+      ]
+    ],
+    [
+      "SCI_G04_S1_113_MID_006",
+      "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      4,
+      62,
+      0,
+      [
+        2866,
+        2023
+      ]
+    ],
+    [
+      "SCI_G04_S1_113_FINAL_009",
+      "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      3,
+      50,
+      180,
+      [
+        3035,
+        4299
+      ]
+    ]
+  ],
+  "rotation_gates": [
+    "FINAL_001 PDF page rotated 90 degrees",
+    "MID_006 embedded images alternate 90-degree transform per page",
+    "FINAL_009 original PDF pages rotated 180 degrees"
+  ],
+  "mapping_rule": "Raster pixel geometry requires page-specific image transform and page.rotation; no naive scaling or OCR.",
+  "formal_science_kp_approved_new": 0,
+  "admission_ready_new": 0,
+  "published_new": 0,
+  "next": "SCAN5 individual source answer raster pixel rectangles and parent figures, then existing science KP dedup rights"
+}

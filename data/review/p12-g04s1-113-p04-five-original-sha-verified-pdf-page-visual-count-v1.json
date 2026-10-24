@@ -1,0 +1,225 @@
+{
+  "schema_version": "P12_113_G04S1_P04_FIVE_SOURCE_PDF_SHA_MATCH_ALL_PAGE_VISUAL_RESPONSE_REGION_COUNTS_V1",
+  "purpose": "Actual source PDF binary downloaded from matching Drive file, SHA256 recomputed, every source original page rendered and human visually checked. Original printed separate answer regions reconciled at SECTION granularity. This is not a per-source answer ID/BBox or publisher figure rights certificate.",
+  "source_papers": 5,
+  "full_pdf_binary_SHA_reverified_files": 5,
+  "original_pdf_pages_visually_read": 12,
+  "old_five_score_heuristic_sum": 308,
+  "original_five_visual_answer_regions_sum": 312,
+  "source_original_section_response_count_correction_total": 4,
+  "source_individual_bbox_certified_new": 0,
+  "source_final_admitted_new": 0,
+  "source_published_new": 0,
+  "records": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "school": "東光國小",
+      "original_pdf_sha256_binary_reverified": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "pdf_page_count_original_file_binary_verified": 2,
+      "prior_score_derived_count_unverified": 62,
+      "printed_answer_regions_from_full_pdf_page_visual": 63,
+      "difference": 1,
+      "source_section_physical_response_groups": [
+        {
+          "section_id": "S01",
+          "source_visual_description": "15 single choices",
+          "printed_answer_regions": 15
+        },
+        {
+          "section_id": "S02",
+          "source_visual_description": "20 true/false",
+          "printed_answer_regions": 20
+        },
+        {
+          "section_id": "S03",
+          "source_visual_description": "16 checkboxes (3 page1 +13 page2)",
+          "printed_answer_regions": 16
+        },
+        {
+          "section_id": "S04",
+          "source_visual_description": "one shadow drawing + one waterplant drawing + TWO distinct moon phase boxes",
+          "printed_answer_regions": 4
+        },
+        {
+          "section_id": "S05",
+          "source_visual_description": "4 aquatic plant classification + 4 lunar chart responses",
+          "printed_answer_regions": 8
+        }
+      ],
+      "source_visual_caveat": "Two separately printed moon-phase drawing frames under one numbered task, causing +1 compared with dividing section's six printed points by two. Do not flatten figure groups.",
+      "individual_marker_pdf_bbox_and_context_contract_certified": false,
+      "science_or_kp_newly_certified": false,
+      "admission_ready": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_003",
+      "school": "東光國小",
+      "original_pdf_sha256_binary_reverified": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "pdf_page_count_original_file_binary_verified": 2,
+      "prior_score_derived_count_unverified": 58,
+      "printed_answer_regions_from_full_pdf_page_visual": 59,
+      "difference": 1,
+      "source_section_physical_response_groups": [
+        {
+          "section_id": "S01",
+          "source_visual_description": "14 single choices",
+          "printed_answer_regions": 14
+        },
+        {
+          "section_id": "S02",
+          "source_visual_description": "15 true/false",
+          "printed_answer_regions": 15
+        },
+        {
+          "section_id": "S03",
+          "source_visual_description": "3 circuit figure checkboxes",
+          "printed_answer_regions": 3
+        },
+        {
+          "section_id": "S04",
+          "source_visual_description": "2 separate circuit drawing answer frames",
+          "printed_answer_regions": 2
+        },
+        {
+          "section_id": "S05",
+          "source_visual_description": "7 selectable energy circle regions (4 renewable +3 finite), keep TWO question parents",
+          "printed_answer_regions": 7
+        },
+        {
+          "section_id": "S06",
+          "source_visual_description": "8 separate appliance/circuit answer markers",
+          "printed_answer_regions": 8
+        },
+        {
+          "section_id": "S07",
+          "source_visual_description": "4 circuit matching frames +4 appliance matching frames",
+          "printed_answer_regions": 8
+        },
+        {
+          "section_id": "S08",
+          "source_visual_description": "one circuit-type blank and one drawn circuit response",
+          "printed_answer_regions": 2
+        }
+      ],
+      "source_visual_caveat": "S05 is seven physical candidate circles within two question prompts, not seven standalone MCs; parent group and scoring granularity need final source contract confirmation. S08 three printed points correspond to two physically distinct answer areas.",
+      "individual_marker_pdf_bbox_and_context_contract_certified": false,
+      "science_or_kp_newly_certified": false,
+      "admission_ready": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_005",
+      "school": "大墩國小",
+      "original_pdf_sha256_binary_reverified": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "pdf_page_count_original_file_binary_verified": 2,
+      "prior_score_derived_count_unverified": 67,
+      "printed_answer_regions_from_full_pdf_page_visual": 66,
+      "difference": -1,
+      "source_section_physical_response_groups": [
+        {
+          "section_id": "S01",
+          "source_visual_description": "15 T/F",
+          "printed_answer_regions": 15
+        },
+        {
+          "section_id": "S02",
+          "source_visual_description": "14 MC",
+          "printed_answer_regions": 14
+        },
+        {
+          "section_id": "S03",
+          "source_visual_description": "8 aquatic-plant table cells +4 earthquake description answers +4 scene image answers",
+          "printed_answer_regions": 16
+        },
+        {
+          "section_id": "S04",
+          "source_visual_description": "17 binary checkboxes (6+6+5)",
+          "printed_answer_regions": 17
+        },
+        {
+          "section_id": "S05",
+          "source_visual_description": "4 independent water-environment applications",
+          "printed_answer_regions": 4
+        }
+      ],
+      "source_visual_caveat": "Original section S03 header prints 17 points but only 16 separately printed response regions visible; its score is NOT original answer count.",
+      "individual_marker_pdf_bbox_and_context_contract_certified": false,
+      "science_or_kp_newly_certified": false,
+      "admission_ready": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_016",
+      "school": "大華國小",
+      "original_pdf_sha256_binary_reverified": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1",
+      "pdf_page_count_original_file_binary_verified": 2,
+      "prior_score_derived_count_unverified": 50,
+      "printed_answer_regions_from_full_pdf_page_visual": 53,
+      "difference": 3,
+      "source_section_physical_response_groups": [
+        {
+          "section_id": "S01",
+          "source_visual_description": "10 T/F",
+          "printed_answer_regions": 10
+        },
+        {
+          "section_id": "S02",
+          "source_visual_description": "14 MC",
+          "printed_answer_regions": 14
+        },
+        {
+          "section_id": "S03",
+          "source_visual_description": "6 lunar-phase sequence squares +8 waterplant picture labels +4 aquatic-animal statements +8 fish anatomy diagram labels",
+          "printed_answer_regions": 26
+        },
+        {
+          "section_id": "S04",
+          "source_visual_description": "3 reading choices",
+          "printed_answer_regions": 3
+        }
+      ],
+      "source_visual_caveat": "S03 lunar-phase sequence has six separate empty squares with one-point marking, not three two-point items. Source fish anatomical diagram has eight answer boxes.",
+      "individual_marker_pdf_bbox_and_context_contract_certified": false,
+      "science_or_kp_newly_certified": false,
+      "admission_ready": false
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_011",
+      "school": "內湖國小",
+      "original_pdf_sha256_binary_reverified": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+      "pdf_page_count_original_file_binary_verified": 4,
+      "prior_score_derived_count_unverified": 71,
+      "printed_answer_regions_from_full_pdf_page_visual": 71,
+      "difference": 0,
+      "source_section_physical_response_groups": [
+        {
+          "section_id": "S01",
+          "source_visual_description": "5 MC",
+          "printed_answer_regions": 5
+        },
+        {
+          "section_id": "S02",
+          "source_visual_description": "17 matching/figure cells (3+2+6+6)",
+          "printed_answer_regions": 17
+        },
+        {
+          "section_id": "S03",
+          "source_visual_description": "2 short answer blanks",
+          "printed_answer_regions": 2
+        },
+        {
+          "section_id": "S04",
+          "source_visual_description": "44 response locations (5+6+7+5+4+5+4 figure boxes+4+4)",
+          "printed_answer_regions": 44
+        },
+        {
+          "section_id": "S05",
+          "source_visual_description": "3 reading questions",
+          "printed_answer_regions": 3
+        }
+      ],
+      "source_visual_caveat": "Page-break text layer shows section II as '1二、'; visual paper confirms it. Many original questions about acidity, heat and sound are not direct Kanghsuan current 48KP; do not force-match.",
+      "individual_marker_pdf_bbox_and_context_contract_certified": false,
+      "science_or_kp_newly_certified": false,
+      "admission_ready": false
+    }
+  ]
+}

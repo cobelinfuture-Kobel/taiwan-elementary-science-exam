@@ -1,0 +1,797 @@
+{
+  "schema_version": "P12_G04S1_113_FIXED29_ADMISSION_B01_50_ORIGINAL_SOURCE_INTEGRATED_MODEL_TRIAGE_V2",
+  "source_only_pr": 124,
+  "source_paper": "SCI_G04_S1_113_MID_001",
+  "source_school": "文德國小",
+  "original_PDF_SHA256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+  "former_source50_geometry_checkpoint": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende50-sourceID-reconciliation-v1.json",
+  "independent_TFMC27_science_KP_initial_review": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+  "group_parent23_science_KP_initial_review": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+  "B01_exact_original_source_positions_processed_MODEL_INITIAL_SCREEN": 50,
+  "B01_already_published_on_main_suppress": 3,
+  "B01_new_model_science_directKP_source_response_positions_NOT_student_unique_question_count": 16,
+  "B01_HOLD_scope_or_figure_or_science_uniqueness_source_response_positions": 31,
+  "B01_formal_accepted_science_unique_and_KP_new": 0,
+  "B01_formal_ADMISSION_READY_new": 0,
+  "B01_PUBLISHED_new": 0,
+  "first_school_original_work_target_count": 55,
+  "first_school_five_remaining_work_positions_carried_to_B02": 5,
+  "first_school_formal_complete": false,
+  "B01_qualifiers": "This is only a model initial Science/KP disposition of all 50 source work positions. Nine candidate positions are under two shared parent groups, not nine standalone original paper questions. Full SourceExact visual/figure rights, crossoriginal dedup, final operator Gate pending for all not-already-published positions. The 5 remaining Wende source positions stay at front of B02; don't mark paper closed.",
+  "source_work_positions": [
+    {
+      "ordinal": 1,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|001",
+      "status": "HOLD",
+      "source_determination": "HOLD_OUTSIDE_FROZEN48_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 2,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|002",
+      "status": "HOLD",
+      "source_determination": "HOLD_WEAK_DIRECT_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 3,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|003",
+      "status": "HOLD",
+      "source_determination": "HOLD_OUTSIDE_FROZEN48_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 4,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|004",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_KP_CANDIDATE",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 5,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|005",
+      "status": "HOLD",
+      "source_determination": "HOLD_OUTSIDE_FROZEN48_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 6,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|006",
+      "status": "ALREADY_MAIN_PUBLISHED",
+      "source_determination": "MODEL_SCIENCE_KP_CANDIDATE",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 7,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|007",
+      "status": "HOLD",
+      "source_determination": "HOLD_OUTSIDE_FROZEN48_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 8,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|008",
+      "status": "HOLD",
+      "source_determination": "HOLD_WEAK_DIRECT_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 9,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|009",
+      "status": "HOLD",
+      "source_determination": "HOLD_OUTSIDE_FROZEN48_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 10,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|010",
+      "status": "ALREADY_MAIN_PUBLISHED",
+      "source_determination": "MODEL_SCIENCE_KP_CANDIDATE",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 11,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|011",
+      "status": "HOLD",
+      "source_determination": "HOLD_OUTSIDE_FROZEN48_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 12,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|012",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_KP_CANDIDATE",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 13,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|013",
+      "status": "HOLD",
+      "source_determination": "HOLD_OUTSIDE_FROZEN48_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 14,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|014",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_KP_CANDIDATE",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 15,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S01|TF|015",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_KP_CANDIDATE",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 16,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|MC|001",
+      "status": "HOLD",
+      "source_determination": "HOLD_OUTSIDE_FROZEN48_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 17,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|MC|002",
+      "status": "HOLD",
+      "source_determination": "HOLD_OUTSIDE_FROZEN48_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 18,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|MC|003",
+      "status": "HOLD",
+      "source_determination": "HOLD_OUTSIDE_FROZEN48_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 19,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|MC|004",
+      "status": "HOLD",
+      "source_determination": "HOLD_OUTSIDE_FROZEN48_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 20,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|MC|005",
+      "status": "HOLD",
+      "source_determination": "HOLD_OUTSIDE_FROZEN48_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 21,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|MC|006",
+      "status": "HOLD",
+      "source_determination": "HOLD_OUTSIDE_FROZEN48_KP",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 22,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|MC|007",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_KP_CANDIDATE",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 23,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|MC|008",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_KP_CANDIDATE",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 24,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|MC|009",
+      "status": "HOLD",
+      "source_determination": "HOLD_SCIENCE_UNIQUE_ANSWER",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 25,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|MC|010",
+      "status": "ALREADY_MAIN_PUBLISHED",
+      "source_determination": "MODEL_SCIENCE_KP_CANDIDATE",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 26,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|MC|011",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_KP_CANDIDATE",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 27,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S02|MC|012",
+      "status": "HOLD",
+      "source_determination": "HOLD_MIDTERM_SCOPE_OUTSIDE_U01_U02",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 28,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G01|FILL|001",
+      "status": "HOLD",
+      "source_determination": "HOLD_NO_DIRECT_FROZEN48KP_AND_DIAGRAM_RIGHTS",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G01",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 29,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G01|FILL|002",
+      "status": "HOLD",
+      "source_determination": "HOLD_NO_DIRECT_FROZEN48KP_AND_DIAGRAM_RIGHTS",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G01",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 30,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G01|FILL|003",
+      "status": "HOLD",
+      "source_determination": "HOLD_NO_DIRECT_FROZEN48KP_AND_DIAGRAM_RIGHTS",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G01",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 31,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G02|FILL|001",
+      "status": "HOLD",
+      "source_determination": "HOLD_NO_DIRECT_FROZEN48KP_AND_DIAGRAM_RIGHTS",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G02",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 32,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G02|FILL|002",
+      "status": "HOLD",
+      "source_determination": "HOLD_NO_DIRECT_FROZEN48KP_AND_DIAGRAM_RIGHTS",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G02",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 33,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G02|FILL|003",
+      "status": "HOLD",
+      "source_determination": "HOLD_NO_DIRECT_FROZEN48KP_AND_DIAGRAM_RIGHTS",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G02",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 34,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G02|FILL|004",
+      "status": "HOLD",
+      "source_determination": "HOLD_NO_DIRECT_FROZEN48KP_AND_DIAGRAM_RIGHTS",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G02",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 35,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G02|FILL|005",
+      "status": "HOLD",
+      "source_determination": "HOLD_NO_DIRECT_FROZEN48KP_AND_DIAGRAM_RIGHTS",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G02",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 36,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G02|FILL|006",
+      "status": "HOLD",
+      "source_determination": "HOLD_NO_DIRECT_FROZEN48KP_AND_DIAGRAM_RIGHTS",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G02",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 37,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G03|DRAW|001",
+      "status": "HOLD",
+      "source_determination": "HOLD_DRAW_FIGURE_RIGHTS_AND_MANUAL_RENDERER",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G03",
+      "prior_geometry_verified": false,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 38,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G04|DRAW|001",
+      "status": "HOLD",
+      "source_determination": "HOLD_MIDTERM_U03_SHADOW_AND_DRAW_FIGURE_RIGHTS",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G04",
+      "prior_geometry_verified": false,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 39,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G05|MATCH|001",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE_PENDING_RIGHTS_DUP_OPERATOR",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G05",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 40,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G05|MATCH|002",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE_PENDING_RIGHTS_DUP_OPERATOR",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G05",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 41,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G05|MATCH|003",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE_PENDING_RIGHTS_DUP_OPERATOR",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G05",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 42,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G05|MATCH|004",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE_PENDING_RIGHTS_DUP_OPERATOR",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G05",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 43,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G06|TF|001",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE_PENDING_RIGHTS_DUP_OPERATOR",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G06",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 44,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G06|TF|002",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE_PENDING_RIGHTS_DUP_OPERATOR",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G06",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 45,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G06|TF|003",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE_PENDING_RIGHTS_DUP_OPERATOR",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G06",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 46,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G06|TF|004",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE_PENDING_RIGHTS_DUP_OPERATOR",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G06",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 47,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G06|TF|005",
+      "status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "source_determination": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE_PENDING_RIGHTS_DUP_OPERATOR",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G06",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 48,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G07|FILL|001",
+      "status": "HOLD",
+      "source_determination": "HOLD_MIDTERM_U03_SHADOW_FIGURE_AND_PARENT",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G07",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 49,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G07|FILL|002",
+      "status": "HOLD",
+      "source_determination": "HOLD_MIDTERM_U03_SHADOW_FIGURE_AND_PARENT",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G07",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    },
+    {
+      "ordinal": 50,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_001|S03|G07|FILL|003",
+      "status": "HOLD",
+      "source_determination": "HOLD_MIDTERM_U03_SHADOW_FIGURE_AND_PARENT",
+      "evidence": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+      "parent": "S03-G07",
+      "prior_geometry_verified": true,
+      "needs_missing_formal_gates": [
+        "SOURCE_EXACT_VISUAL_AND_PARENT",
+        "SCIENCE_AND_KP_FORMAL_ACCEPTANCE",
+        "DUPLICATE_RIGHTS_OPERATOR_ADMISSION"
+      ],
+      "admission_ready": false,
+      "has_new_published_question": false
+    }
+  ],
+  "next_execution": "B02 begins first school's Wende last5 (group7 final one, group8 four), then Heshun MID002 45 processing work slots which currently lack independently verified original per-answer source IDs in fixed queue. Keep sourcing then Science and 48 KP checks, do not assert 45 completed source questions."
+}

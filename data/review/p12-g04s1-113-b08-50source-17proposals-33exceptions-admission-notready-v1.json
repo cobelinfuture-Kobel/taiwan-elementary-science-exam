@@ -1,0 +1,898 @@
+{
+  "schema_version": "P12_G04S1_113_B08_SOURCE50_BBOX50_CONTEXT17_33EXCEPTION_CHECKPOINT_V1",
+  "source_batch": "OTHER_OR_DEPENDENT_B08",
+  "source_PR124": "Draft unmerged",
+  "operator_instruction": "續跑B08",
+  "authority": "113 Kang Hsuan G04S1 Frozen 48 KP",
+  "original_worklist_positions": 50,
+  "original_school_exam_papers": 3,
+  "original_PDF_answer_BBox_verified": 50,
+  "source_position_ordinal_start": 351,
+  "source_position_ordinal_end": 400,
+  "original_full_wording_parent_rights_and_format_gate_complete": false,
+  "original_native_113_exam_text_screened": 24,
+  "original_113_scanned_5_visual_semantic_dedup_gate_complete": false,
+  "original_114_source_question_occurrences_screened": 717,
+  "public_113_114_G04S1_records_screened": 749,
+  "lexical_stem_ge_078_hits_in17": 0,
+  "full_original_options_parent_semantic_duplicate_certified": false,
+  "priority_MC7_not_formal": [
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393
+  ],
+  "matching10_source_only": [
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    394,
+    395,
+    396,
+    397
+  ],
+  "other_33_HOLD_including_2_multiple_plausible_light_answer_codes": [
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    398,
+    399,
+    400
+  ],
+  "original_ANHE_ambiguous_matches": [
+    368,
+    369
+  ],
+  "B08_newly_student_published": 0,
+  "B08_ADMISSION_READY_new": 0,
+  "B08_FORMAL_SCIENCE_KP_APPROVED_new": 0,
+  "current_113_approved_published_original_sourceIDs": 316,
+  "current_site_answer_slots": 952,
+  "prior_B01_B07_closeouts_unmodified": true,
+  "original_school_teacher_key_unverified": true,
+  "source_PDF_or_thirdparty_illustrations_not_student_published": true,
+  "has_user_exact_operator_approval_for_a_verified_final_B08_candidate_group": false,
+  "source_evidence_refs": [
+    "data/review/p12-g04s1-113-b08-native50-original-bbox-id-crosswalk-v1.json",
+    "data/review/p12-g04s1-113-b08-context17-original-parent-science-kp-triage-v1.json",
+    "data/review/p12-g04s1-113-b08-native24-crossyear114-public749-dedup-bounded-v1.json"
+  ],
+  "status": "B08_SOURCE_PREFLIGHT_NativeBBox_CANDIDATES_IN_PROGRESS__NOT_FORMAL_STUDENT_BATCH_CLOSEOUT",
+  "not_student_PR_or_Pages_E2E_for_new_B08": true,
+  "next_fixed_task": "P12_G04S1_113_B08_ContextMC7_OriginalSchoolParentTableVisual_SourceExact7_113114Dedup_Rights_Frozen48KP_ThenExactOperatorEligible7_SelectiveStudentPR_CI_Main_PagesE2E_10MatchingRendererAnd33HOLD_NoB01ToB07Reopen",
+  "records": [
+    {
+      "ordinal": 351,
+      "original_source_id": "SCI_G04_S1_113_MID_015|S04|G01|FILL|004",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        76.34,
+        432.28,
+        124.34,
+        444.28
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 352,
+      "original_source_id": "SCI_G04_S1_113_MID_015|S04|G02|FILL|001",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        418.87,
+        49.31,
+        484.78,
+        61.31
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 353,
+      "original_source_id": "SCI_G04_S1_113_MID_015|S05|G01|SHORT|001",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        316.13,
+        118.34,
+        570.58,
+        173.42
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 354,
+      "original_source_id": "SCI_G04_S1_113_MID_015|S05|G01|SHORT|002",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        316.13,
+        209.42,
+        572.62,
+        282.41
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 355,
+      "original_source_id": "SCI_G04_S1_113_MID_015|S05|G01|SHORT|003",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        316.13,
+        318.41,
+        572.62,
+        373.37
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 356,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G01|TF|001",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        84.6,
+        410.4,
+        149.2,
+        424.4
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 357,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G01|TF|002",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        237.9,
+        410.4,
+        302.4,
+        424.4
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 358,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G01|TF|003",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        84.6,
+        523.2,
+        149.2,
+        537.2
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 359,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G01|TF|004",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        237.9,
+        523.2,
+        302.4,
+        537.2
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 360,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G01|TF|005",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        84.6,
+        654.6,
+        149.2,
+        668.6
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 361,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G01|TF|006",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        237.9,
+        654.6,
+        302.4,
+        668.6
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 362,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|001",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        371.1,
+        233.3,
+        406.2,
+        247.4
+      ],
+      "status": "CANDIDATE_10_ORIGINAL_MATCHING_WITH_FORMAT_AND_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 363,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|002",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        371.1,
+        251.4,
+        406.2,
+        265.5
+      ],
+      "status": "CANDIDATE_10_ORIGINAL_MATCHING_WITH_FORMAT_AND_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 364,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|003",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        371.1,
+        269.7,
+        406.2,
+        283.8
+      ],
+      "status": "CANDIDATE_10_ORIGINAL_MATCHING_WITH_FORMAT_AND_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 365,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|004",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        371.1,
+        287.9,
+        406.2,
+        302
+      ],
+      "status": "CANDIDATE_10_ORIGINAL_MATCHING_WITH_FORMAT_AND_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 366,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|005",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        371.1,
+        306.2,
+        406.2,
+        320.3
+      ],
+      "status": "CANDIDATE_10_ORIGINAL_MATCHING_WITH_FORMAT_AND_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 367,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|006",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        371.1,
+        324.3,
+        406.2,
+        338.4
+      ],
+      "status": "CANDIDATE_10_ORIGINAL_MATCHING_WITH_FORMAT_AND_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 368,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|007",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        371.1,
+        342.6,
+        406.2,
+        356.7
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 369,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|008",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        371.1,
+        360.8,
+        406.2,
+        374.9
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 370,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G03|ORDER|001",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        443.2,
+        492.1,
+        502.5,
+        506.8
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 371,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G03|ORDER|002",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        542.3,
+        494.2,
+        600.8,
+        506.2
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 372,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G03|ORDER|003",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        443.2,
+        655.7,
+        502.5,
+        670.4
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 373,
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G03|ORDER|004",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        542.3,
+        655.7,
+        601.5,
+        670.4
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 374,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G01|FILL|001",
+      "source_pdf_page": 1,
+      "native_bbox_pdf_pts": [
+        414.79,
+        852.79,
+        526.78,
+        868.33
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 375,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G01|FILL|002",
+      "source_pdf_page": 1,
+      "native_bbox_pdf_pts": [
+        456.91,
+        908.65,
+        526.9,
+        922.69
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 376,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G01|FILL|003",
+      "source_pdf_page": 1,
+      "native_bbox_pdf_pts": [
+        554.85,
+        908.65,
+        624.94,
+        922.69
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 377,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G02|FILL|001",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        171.8,
+        105.3,
+        192.3,
+        126.2
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 378,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G02|FILL|002",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        302.9,
+        105.3,
+        323.4,
+        126.2
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 379,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G02|FILL|003",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        171.8,
+        205.5,
+        192.3,
+        226.4
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 380,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G02|FILL|004",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        302.9,
+        205.5,
+        323.4,
+        226.4
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 381,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G03|CHECK|001",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        40.32,
+        366.56,
+        82.46,
+        380.6
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 382,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G03|CHECK|002",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        40.32,
+        384.8,
+        82.46,
+        398.84
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 383,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G03|CHECK|003",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        40.32,
+        403.04,
+        82.46,
+        417.08
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 384,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G03|CHECK|004",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        40.32,
+        421.28,
+        82.46,
+        435.32
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 385,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G03|CHECK|005",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        40.32,
+        439.4,
+        82.46,
+        453.44
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 386,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G03|CHECK|006",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        40.32,
+        457.64,
+        82.46,
+        471.68
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 387,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|001",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        30.24,
+        697.18,
+        72.36,
+        711.22
+      ],
+      "status": "CANDIDATE_7_ORIGINAL_MC_WITH_SHARED_TEXT_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 388,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|002",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        30.24,
+        734.62,
+        72.36,
+        748.66
+      ],
+      "status": "CANDIDATE_7_ORIGINAL_MC_WITH_SHARED_TEXT_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 389,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|003",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        28.32,
+        772.09,
+        70.44,
+        786.13
+      ],
+      "status": "CANDIDATE_7_ORIGINAL_MC_WITH_SHARED_TEXT_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 390,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|001",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        40.32,
+        957.13,
+        82.46,
+        971.17
+      ],
+      "status": "CANDIDATE_7_ORIGINAL_MC_WITH_SHARED_TEXT_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 391,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|002",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        386.83,
+        31.35,
+        428.95,
+        45.39
+      ],
+      "status": "CANDIDATE_7_ORIGINAL_MC_WITH_SHARED_TEXT_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 392,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|003",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        386.83,
+        69.75,
+        428.95,
+        83.79
+      ],
+      "status": "CANDIDATE_7_ORIGINAL_MC_WITH_SHARED_TEXT_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 393,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|004",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        386.83,
+        108.29,
+        428.95,
+        122.33
+      ],
+      "status": "CANDIDATE_7_ORIGINAL_MC_WITH_SHARED_TEXT_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 394,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S04|G01|MATCH|001",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        517.83,
+        222.3,
+        538.88,
+        234.21
+      ],
+      "status": "CANDIDATE_10_ORIGINAL_MATCHING_WITH_FORMAT_AND_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 395,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S04|G01|MATCH|002",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        652.22,
+        222.3,
+        673.28,
+        234.21
+      ],
+      "status": "CANDIDATE_10_ORIGINAL_MATCHING_WITH_FORMAT_AND_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 396,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S04|G01|MATCH|003",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        517.83,
+        290.51,
+        538.88,
+        302.38
+      ],
+      "status": "CANDIDATE_10_ORIGINAL_MATCHING_WITH_FORMAT_AND_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 397,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S04|G01|MATCH|004",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        652.22,
+        290.51,
+        673.28,
+        302.38
+      ],
+      "status": "CANDIDATE_10_ORIGINAL_MATCHING_WITH_FORMAT_AND_PARENT_GATE",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 398,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S04|G02|CHECK|001",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        410.83,
+        829.21,
+        452.95,
+        843.25
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 399,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S04|G02|CHECK|002",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        410.83,
+        866.65,
+        452.95,
+        880.69
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 400,
+      "original_source_id": "SCI_G04_S1_113_MID_018|S04|G02|CHECK|003",
+      "source_pdf_page": 2,
+      "native_bbox_pdf_pts": [
+        410.83,
+        904.09,
+        452.95,
+        918.13
+      ],
+      "status": "HOLD_ORIGINAL_EXISTING_EXCEPTION",
+      "pending_original_context_and_figure_or_response_format_gate": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ]
+}

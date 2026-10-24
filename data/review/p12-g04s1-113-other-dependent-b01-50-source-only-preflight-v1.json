@@ -1,0 +1,1248 @@
+{
+  "schema_version": "P12_G04S1_113_OTHER_DEPENDENT_B01_SOURCE_ONLY_PREFLIGHT_V1",
+  "authority": "113 G04S1 Frozen 48 KP",
+  "draft_source_pr": 124,
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "batch": "OTHER_OR_DEPENDENT_B01",
+  "source_registry": "p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "published_suppression": "p12-g04s1-113-main-published114-source-suppression-readback-v9.json",
+  "source_batch_script": "scripts/review/p12-g04s1-113-wholecorpus-resume.cjs",
+  "original_drive_pdf_text_readback": [
+    "SCI_G04_S1_113_MID_001",
+    "SCI_G04_S1_113_MID_003"
+  ],
+  "metrics": {
+    "source_positions_preflighted": 50,
+    "wende": 28,
+    "zhongxiao": 22,
+    "moon_outside_scope_preliminary": 17,
+    "parent_or_graphic_dependent": 12,
+    "other_source_context_pending": 21,
+    "crosspaper_same_text_duplicate_pairs_preliminary": 4,
+    "other_lane_positions_remaining_for_pdf_gate": 358,
+    "papers_without_full_ledger": 15,
+    "FORMAL_SCIENCE_KP_APPROVED_NEW": 0,
+    "ADMISSION_READY_NEW": 0,
+    "PUBLISHED_NEW": 0,
+    "main_published_113": 114,
+    "main_total_public": 750
+  },
+  "crosspaper_duplicate_candidate_pairs": [
+    {
+      "wende": "SCI_G04_S1_113_MID_001|S3|G8|TRUE_FALSE_SUB|1",
+      "zhongxiao": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|1",
+      "semantic_key": "freshwater-goldfish-in-sea",
+      "proof": "Original PDF extracted text contains same four statements; no full BBox or public pool dedup yet"
+    },
+    {
+      "wende": "SCI_G04_S1_113_MID_001|S3|G8|TRUE_FALSE_SUB|2",
+      "zhongxiao": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|2",
+      "semantic_key": "mudskipper-estuary",
+      "proof": "Original PDF extracted text contains same four statements; no full BBox or public pool dedup yet"
+    },
+    {
+      "wende": "SCI_G04_S1_113_MID_001|S3|G8|TRUE_FALSE_SUB|3",
+      "zhongxiao": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|3",
+      "semantic_key": "pond-shrimp-water-scorpion-on-tree",
+      "proof": "Original PDF extracted text contains same four statements; no full BBox or public pool dedup yet"
+    },
+    {
+      "wende": "SCI_G04_S1_113_MID_001|S3|G8|TRUE_FALSE_SUB|4",
+      "zhongxiao": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|4",
+      "semantic_key": "habitat-dependent-appearance-and-habits",
+      "proof": "Original PDF extracted text contains same four statements; no full BBox or public pool dedup yet"
+    }
+  ],
+  "limitations": [
+    "Source preflight only, not an additional Admission Gate or approved Science/KP pass.",
+    "Original graphics are not preserved by Drive text extraction; authoritative figure, parent and native PDF glyph BBox checks pending.",
+    "Moon-figure outside-scope classification provisional and cannot substitute original visual/authoritative KP readback.",
+    "Cross-paper 4 pairs still require native source position and 114/current student-bank semantic duplicate gate.",
+    "Do not release 1-3 source slots; accumulate consolidated source-qualified cohort. Original public 750 and published 114 unchanged."
+  ],
+  "next_resume_task": "P12_G04S1_113_OTHER_OR_DEPENDENT_B01_ExactPDFVisualParentSourceBBox_ThenB02toB09_408Complete_Then15PapersWholeInventory_ConsolidatedSelectiveAdmission",
+  "records": [
+    {
+      "ordinal": 1,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G1|OBSERVATION_FIGURE_SHORT|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G01|OBSERVATION_FIGURE_SHORT|01"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 2,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G1|OBSERVATION_FIGURE_SHORT|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G01|OBSERVATION_FIGURE_SHORT|02"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 3,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G1|OBSERVATION_FIGURE_SHORT|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G01|OBSERVATION_FIGURE_SHORT|03"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 4,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G2|OBSERVATION_CHART_SHORT|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G02|OBSERVATION_CHART_SHORT|01"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 5,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G2|OBSERVATION_CHART_SHORT|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G02|OBSERVATION_CHART_SHORT|02"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 6,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G2|OBSERVATION_CHART_SHORT|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G02|OBSERVATION_CHART_SHORT|03"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 7,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G2|OBSERVATION_CHART_SHORT|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G02|OBSERVATION_CHART_SHORT|04"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 8,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G2|OBSERVATION_CHART_SHORT|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G02|OBSERVATION_CHART_SHORT|05"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 9,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G2|OBSERVATION_CHART_SHORT|6",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G02|OBSERVATION_CHART_SHORT|06"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 10,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G3|DRAWING|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G03|DRAWING|01"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "PARENT_OR_GRAPHIC_MATERIAL_REQUIRED",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 11,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G4|DRAWING|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G04|DRAWING|01"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "PARENT_OR_GRAPHIC_MATERIAL_REQUIRED",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 12,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G5|MATCHING|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G05|MATCHING|01"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 13,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G5|MATCHING|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G05|MATCHING|02"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 14,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G5|MATCHING|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G05|MATCHING|03"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 15,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G5|MATCHING|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G05|MATCHING|04"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 16,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G6|RECORD_TABLE_TF|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G06|RECORD_TABLE_TF|01"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 17,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G6|RECORD_TABLE_TF|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G06|RECORD_TABLE_TF|02"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 18,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G6|RECORD_TABLE_TF|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G06|RECORD_TABLE_TF|03"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 19,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G6|RECORD_TABLE_TF|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G06|RECORD_TABLE_TF|04"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 20,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G6|RECORD_TABLE_TF|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G06|RECORD_TABLE_TF|05"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 21,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G7|SHADOW_FIGURE_SHORT|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G07|SHADOW_FIGURE_SHORT|01"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "PARENT_OR_GRAPHIC_MATERIAL_REQUIRED",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 22,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G7|SHADOW_FIGURE_SHORT|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G07|SHADOW_FIGURE_SHORT|02"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "PARENT_OR_GRAPHIC_MATERIAL_REQUIRED",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 23,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G7|SHADOW_FIGURE_SHORT|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G07|SHADOW_FIGURE_SHORT|03"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "PARENT_OR_GRAPHIC_MATERIAL_REQUIRED",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 24,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G7|SHADOW_FIGURE_SHORT|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G07|SHADOW_FIGURE_SHORT|04"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "PARENT_OR_GRAPHIC_MATERIAL_REQUIRED",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 25,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G8|TRUE_FALSE_SUB|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G08|TRUE_FALSE_SUB|01"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": {
+        "counterpart": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|1",
+        "semantic_key": "freshwater-goldfish-in-sea",
+        "source": "MATCHING_EXTRACTED_PDF_TEXT_PENDING_VISUAL_AND_ACTIVE_BANK_CHECK"
+      },
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 26,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G8|TRUE_FALSE_SUB|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G08|TRUE_FALSE_SUB|02"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": {
+        "counterpart": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|2",
+        "semantic_key": "mudskipper-estuary",
+        "source": "MATCHING_EXTRACTED_PDF_TEXT_PENDING_VISUAL_AND_ACTIVE_BANK_CHECK"
+      },
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 27,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G8|TRUE_FALSE_SUB|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G08|TRUE_FALSE_SUB|03"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": {
+        "counterpart": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|3",
+        "semantic_key": "pond-shrimp-water-scorpion-on-tree",
+        "source": "MATCHING_EXTRACTED_PDF_TEXT_PENDING_VISUAL_AND_ACTIVE_BANK_CHECK"
+      },
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 28,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_001|S3|G8|TRUE_FALSE_SUB|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G08|TRUE_FALSE_SUB|04"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_pdf_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "evidence_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": {
+        "counterpart": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|4",
+        "semantic_key": "habitat-dependent-appearance-and-habits",
+        "source": "MATCHING_EXTRACTED_PDF_TEXT_PENDING_VISUAL_AND_ACTIVE_BANK_CHECK"
+      },
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 29,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S03|TICK_CROSS|01"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": {
+        "counterpart": "SCI_G04_S1_113_MID_001|S3|G8|TRUE_FALSE_SUB|1",
+        "semantic_key": "freshwater-goldfish-in-sea",
+        "source": "MATCHING_EXTRACTED_PDF_TEXT_PENDING_VISUAL_AND_ACTIVE_BANK_CHECK"
+      },
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 30,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S03|TICK_CROSS|02"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": {
+        "counterpart": "SCI_G04_S1_113_MID_001|S3|G8|TRUE_FALSE_SUB|2",
+        "semantic_key": "mudskipper-estuary",
+        "source": "MATCHING_EXTRACTED_PDF_TEXT_PENDING_VISUAL_AND_ACTIVE_BANK_CHECK"
+      },
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 31,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S03|TICK_CROSS|03"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": {
+        "counterpart": "SCI_G04_S1_113_MID_001|S3|G8|TRUE_FALSE_SUB|3",
+        "semantic_key": "pond-shrimp-water-scorpion-on-tree",
+        "source": "MATCHING_EXTRACTED_PDF_TEXT_PENDING_VISUAL_AND_ACTIVE_BANK_CHECK"
+      },
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 32,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S03|TICK_CROSS|04"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": {
+        "counterpart": "SCI_G04_S1_113_MID_001|S3|G8|TRUE_FALSE_SUB|4",
+        "semantic_key": "habitat-dependent-appearance-and-habits",
+        "source": "MATCHING_EXTRACTED_PDF_TEXT_PENDING_VISUAL_AND_ACTIVE_BANK_CHECK"
+      },
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 33,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S03|TICK_CROSS|05"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 34,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|6",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S03|TICK_CROSS|06"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 35,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|7",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S03|TICK_CROSS|07"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 36,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S3|TICK_CROSS|8",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S03|TICK_CROSS|08"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SOURCE_CONTEXT_AND_ANSWER_GATES_PENDING",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 37,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S4|MOON_FIGURE_DATE|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S04|MOON_FIGURE_DATE|01"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 38,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S4|MOON_FIGURE_DATE|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S04|MOON_FIGURE_DATE|02"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 39,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S4|MOON_FIGURE_DATE|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S04|MOON_FIGURE_DATE|03"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 40,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S4|MOON_FIGURE_DATE|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S04|MOON_FIGURE_DATE|04"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 41,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S5|MOON_FIGURE_MATCH|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S05|MOON_FIGURE_MATCH|01"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 42,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S5|MOON_FIGURE_MATCH|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S05|MOON_FIGURE_MATCH|02"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 43,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S5|MOON_FIGURE_MATCH|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S05|MOON_FIGURE_MATCH|03"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 44,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S5|MOON_FIGURE_MATCH|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S05|MOON_FIGURE_MATCH|04"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "SCOPE_PRELIMINARY_OUTSIDE_113_G04S1_KP48_MOON",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 45,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S6|GROUP_TRUE_FALSE|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S06|GROUP_TRUE_FALSE|01"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "PARENT_OR_GRAPHIC_MATERIAL_REQUIRED",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 46,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S6|GROUP_TRUE_FALSE|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S06|GROUP_TRUE_FALSE|02"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "PARENT_OR_GRAPHIC_MATERIAL_REQUIRED",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 47,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S6|GROUP_TRUE_FALSE|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S06|GROUP_TRUE_FALSE|03"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "PARENT_OR_GRAPHIC_MATERIAL_REQUIRED",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 48,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S6|GROUP_TRUE_FALSE|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S06|GROUP_TRUE_FALSE|04"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "PARENT_OR_GRAPHIC_MATERIAL_REQUIRED",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 49,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S6|GROUP_TRUE_FALSE|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S06|GROUP_TRUE_FALSE|05"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "PARENT_OR_GRAPHIC_MATERIAL_REQUIRED",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 50,
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_003|S6|GROUP_TRUE_FALSE|6",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S06|GROUP_TRUE_FALSE|06"
+      ],
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_pdf_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "evidence_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "evidence": "ORIGINAL_DRIVE_PDF_TEXT_READ_FOR_PARENT_CONTENT_NOT_YET_VISUAL_BBOX",
+      "preliminary_route": "PARENT_OR_GRAPHIC_MATERIAL_REQUIRED",
+      "intrabatch_duplicate_candidate": null,
+      "exact_source_pdf_visual_and_answer_glyph_bbox_certified": false,
+      "science_unique_answer_certified": false,
+      "direct_kp48_certified": false,
+      "active_bank_semantic_dedup_certified": false,
+      "rights_certified": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ]
+}

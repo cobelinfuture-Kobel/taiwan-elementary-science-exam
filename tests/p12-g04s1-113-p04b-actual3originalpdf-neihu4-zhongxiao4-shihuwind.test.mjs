@@ -1,0 +1,63 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const read=n=>JSON.parse(readFileSync(new URL('../data/review/'+n,import.meta.url),'utf8'));
+const n=read('p12-g04s1-113-p04b-neihu-final011-four-original-raster-ink-bboxes-v1.json');
+const z=read('p12-g04s1-113-p04b-zhongxiao-final002-four-draws-original-page-qa-led-canvas-bbox-v1.json');
+const s=read('p12-g04s1-113-p04b-shihu-final009-parent07-two-batteries-wind-original-raster-bbox-v1.json');
+const v4=read('p12-g04s1-113-p04b-neihu71-upgrade-active18-remaining11-resume-v4.json');
+const v5=read('p12-g04s1-113-p04b-source18-remaining11-shihu-wind295-anchors-v5.json');
+const master=read('p12-g04s1-113-all29-master-ledger-v1.json');
+test('Neihu 4 actual original PDF embedded raster source boxes allow 18 paper source marker identity complete but not admission',()=>{
+ assert.equal(n.records.length,4);
+ assert.equal(n.original_raw_pdf_sha256_local_readback_verified,true);
+ assert.equal(n.original_image_native_width_px,262);
+ assert.equal(n.original_image_native_height_px,130);
+ assert.equal(n.formal_full_paper_gate_closed,false);
+ assert.equal(n.ADMISSION_READY_new,0);
+ assert.equal(n.original_semantic_source_IDs_with_exact_physical_answer_marker_geometry,71);
+ assert.equal(v4.original_paper_source_response_IDs_and_actual_source_marker_BBoxes_complete,18);
+ assert.equal(v4.original_source_ID_records_itemized_at_original_physical_marker_geometry_level,1025);
+ assert.equal(v4.remaining_original_papers_needing_all_exact_source_marker_ID_BBoxes,11);
+ assert.equal(v4.remaining_original_pdf_pages,28);
+ assert.equal(v4.remaining_NONCERTIFIED_working_section_regions,737);
+ assert.equal(v4.completed_new_paper.actual_original_source_bbox_records.length,71);
+ assert.equal(new Set(v4.completed_new_paper.actual_original_source_bbox_records.map(x=>x.source_slot_id)).size,71);
+ for(let i=0;i<4;i++){
+  const x=n.records[i],b=x.original_pixel_ink_component_bbox_px,t=x.original_embed_image_transform_pdf_points;
+  const ex=[t[4]+b[0]*t[0]/262,t[5]+b[1]*t[3]/130,t[4]+b[2]*t[0]/262,t[5]+b[3]*t[3]/130];
+  assert.ok(ex.every((c,k)=>Math.abs(c-x.actual_original_pdf_page_answer_bbox_pts_top_left[k])<0.003));
+  const y=v4.completed_new_paper.actual_original_source_bbox_records.find(y=>y.source_slot_id===x.source_slot_id);
+  assert.deepEqual(y.original_actual_answer_bbox_pdf_pts_top_left,x.actual_original_pdf_page_answer_bbox_pts_top_left);
+ }
+ assert.equal(v4.formal_full_exam_admission_closeout_count,0);
+ for(let k of ['FORMAL_SCIENCE_KP_APPROVED_new','ADMISSION_READY_new','PUBLISHED_new'])assert.equal(v4[k],0);
+});
+test('Zhongxiao drawing subjects preserve figure response format and only LED has independent bordered canvas geometry',()=>{
+ assert.equal(z.verified_original_draw_parent_count,4);
+ assert.equal(z.figure_child_rows.length,4);
+ assert.equal(z.exactly_bordered_source_response_canvas_newly_verified,1);
+ assert.equal(z.exact_new_separate_printed_answer_brackets,0);
+ assert.equal(z.all_4_source_parent_diagrams_original_visually_readback,true);
+ const led=z.figure_child_rows.filter(x=>x.exact_bordered_canvas_source_original_pixel_geometry);
+ assert.equal(led.length,1);
+ assert.ok(led[0].source_slot_id_provisional.endsWith('|DRAW|006'));
+ assert.deepEqual(led[0].exact_bordered_canvas_source_original_pixel_geometry.source_pdf_page_original_canvas_bbox_pt_top_left,[930,434.88,1049.52,713.76]);
+ assert.ok(z.figure_child_rows.every(x=>x.admission_ready===false&&x.physically_separate_printed_answer_parentheses_exist===false));
+});
+test('Shihu Q7 printed two-cell wind response recovered as native original raster BBox; no invented drawing slot or release',()=>{
+ assert.equal(s.new_original_independent_physical_printed_answer_marker_evidence,1);
+ assert.deepEqual(s.original_PDF_physical_printed_answer_marker_bbox_pts_top_left,[239.52,686.64,324.48,714.48]);
+ assert.equal(s.answer_slot_granularity_derived_from_printed_points_NOT_APPROVED,true);
+ assert.equal(s.two_battery_row_circuit_drawing_uses_blank_original_figure_field_without_separate_answer_parentheses,true);
+ assert.equal(s.original_question_full_independent_answer_count_source_gate_certified,false);
+ assert.equal(v5.remaining_original_papers,11);
+ assert.equal(v5.verified_exact_physical_source_marker_or_dot_ids_in_remaining11,295);
+ assert.equal(v5.actual_original_independent_printed_answer_marker_bbox_source_only,289);
+ assert.equal(v5.matching_start_dots_partial_not_independent_answer_boxes,6);
+ assert.equal(v5.remaining_11_original_marker_source_records.length,295);
+ assert.ok(v5.remaining_11_original_marker_source_records.some(x=>x.id===s.original_printed_response_id_provisional));
+ assert.equal(v5.FORMAL_SCIENCE_KP_APPROVED_new,0);
+ assert.equal(v5.ADMISSION_READY_new,0);
+ assert.equal(v5.PUBLISHED_new,0);
+});

@@ -1,0 +1,76 @@
+{
+  "schema_version": "P12_G04S1_113_SCAN5_ORIGINAL_RASTER_PIXEL_BBOX_APPENDONLY_PROGRESS_V11",
+  "draft_pr": 124,
+  "scope": "113 G04S1 frozen 48 canonical KP. Five original scanned school exam PDFs. Source-only pixel bbox progress, NOT public admissibility.",
+  "prior_checkpoint_ref": "data/review/p12-g04s1-113-heshun-mid002-p3-moonchart4-exact-raster-bboxes-holdscope-v1.json",
+  "additional_existing_proof_before_this_execution": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
+  "new_evidence": [
+    "data/review/p12-g04s1-113-neian-mid006-scan24-exact-raster-bbox-v1.json",
+    "data/review/p12-g04s1-113-neian-mid006-scan-page4-12-exact-raster-bbox-v1.json"
+  ],
+  "registered_source_section_slots": 262,
+  "original_exact_scan_parentheses_BBox_prior_breakpoint": 23,
+  "pre_existing_shihu_new_after_that_breakpoint": 15,
+  "new_neian_source_BBox_this_run": 36,
+  "current_all_5_scan_original_exact_individual_BBox_verified": 74,
+  "current_remaining_original_scanned_source_positions_without_individual_exact_bbox": 188,
+  "scanned_papers": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_002",
+      "source_school": "和順國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 23,
+      "remaining": 27,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "和順國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 0,
+      "remaining": 50,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "source_school": "忠孝國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 0,
+      "remaining": 50,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "source_school": "內安國小",
+      "source_publisher": "康軒",
+      "source_positions": 62,
+      "verified_source_raster_pixel_bbox": 36,
+      "remaining": 26,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_009",
+      "source_school": "獅湖國小",
+      "source_publisher": "康軒",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 15,
+      "remaining": 35,
+      "source_image_only": true
+    }
+  ],
+  "meaning": "Original source image pixel components and exact affine mapped coordinates. Counts measure certified source answer marker pixel BBox evidence, not formally certified full questions or eligible student items. S7 Neian six figure-dependent items remain children with required original context and rights HOLD.",
+  "frozen_legacy_estimate_29_papers_1755_not_exact": true,
+  "formal_progress": {
+    "FORMAL_SCIENCE_KP_APPROVED_at_least_published_plus_new_mingyi": 153,
+    "ADMISSION_READY_new_this_run": 0,
+    "PUBLISHED_new_this_run": 0,
+    "PUBLISHED_113_verified_current": 152,
+    "all_scope_site_published_answer_slots": 788
+  },
+  "immutable_prior_snapshots": true,
+  "new_source_pdf_files_republished": false,
+  "next_resume_task": "P12_G04S1_113_SCAN5_Remaining188_ExactOriginalPixelBBox_SourceOCRProhibited_ThenSourceScienceKP_DupRights_EligibleBatchOperatorManifest"
+}

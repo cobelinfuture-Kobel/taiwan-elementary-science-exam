@@ -1,0 +1,77 @@
+{
+  "schema_version": "P12_113_G04S1_NATIVE_EXCEPTIONS_VOLTA_DOUBLE_FALSE_AND_TAOZI4_V1",
+  "original_48kp_scope": true,
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "draft_pr": 124,
+  "selected_science_casework": "data/review/p12-g04s1-113-native137-science-kp59-evidence-only-v1.json",
+  "exceptions": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S1|MC|005",
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "original_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "source_page_pdf_1_based": 1,
+      "source_original_answer_bbox_pts_top_left": [
+        45.08,
+        435.46,
+        71.33,
+        448.54
+      ],
+      "original_ask": "Identify the false description about Volta cell",
+      "independent_science_issue": "TWO_FALSE_OPTIONS: A Volta pile uses two different metals rather than the same metal (option 1 wrong), and was not the first DRY cell (option 2 wrong). One-best-answer item is not uniquely answerable.",
+      "direct_kp_issue": "Volta historical chronology is not directly identified by 113 G04S1 frozen 48 KP; do not force-map as battery polarity.",
+      "science_unique_answer_formal": false,
+      "canonical_kp_direct_formal": false,
+      "student_admission": "SCIENCE_NON_UNIQUE_HOLD"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S06|SUB03",
+      "prior_model_science_status": "SCIENCE_HOLD",
+      "prior_answer_not_accepted_as_unique": true,
+      "prior_kp_candidate": "kx_g04s1_u02_kp09",
+      "source_original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
+      "source_original_geometry_present": true,
+      "reason": "INHERITED_HOLD_SOURCE_SCIENCE_OR_PARENT_CONTEXT_NEEDS_SPECIFIC_RECHECK",
+      "safe_handling": "DO_NOT_PROMOTE_TO_ADMISSION"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S12|SUB04",
+      "prior_model_science_status": "SCIENCE_HOLD",
+      "prior_answer_not_accepted_as_unique": true,
+      "prior_kp_candidate": "kx_g04s1_u01_kp07",
+      "source_original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
+      "source_original_geometry_present": true,
+      "reason": "INHERITED_HOLD_SOURCE_SCIENCE_OR_PARENT_CONTEXT_NEEDS_SPECIFIC_RECHECK",
+      "safe_handling": "DO_NOT_PROMOTE_TO_ADMISSION"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S13|SUB03",
+      "prior_model_science_status": "SCIENCE_HOLD",
+      "prior_answer_not_accepted_as_unique": true,
+      "prior_kp_candidate": "kx_g04s1_u01_kp10",
+      "source_original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
+      "source_original_geometry_present": true,
+      "reason": "INHERITED_HOLD_SOURCE_SCIENCE_OR_PARENT_CONTEXT_NEEDS_SPECIFIC_RECHECK",
+      "safe_handling": "DO_NOT_PROMOTE_TO_ADMISSION"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_012|S14|SUB03",
+      "prior_model_science_status": "SCIENCE_HOLD",
+      "prior_answer_not_accepted_as_unique": true,
+      "prior_kp_candidate": "kx_g04s1_u01_kp08",
+      "source_original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
+      "source_original_geometry_present": true,
+      "reason": "INHERITED_HOLD_SOURCE_SCIENCE_OR_PARENT_CONTEXT_NEEDS_SPECIFIC_RECHECK",
+      "safe_handling": "DO_NOT_PROMOTE_TO_ADMISSION"
+    }
+  ],
+  "summary": {
+    "science_nonunique_two_bad_choices_new": 1,
+    "historical_taozijiao_science_holds_preserved": 4,
+    "total_exception_records": 5,
+    "formal_science_kp_approved_new": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "rights": "No third-party diagrams or verbatim full exam questions republished; original question text retained in source PDF registry.",
+  "next_task": "Preserve Volta double-false Science HOLD and Taozi historical holds; proceed with independent original-source science review and public semantic duplicate checks."
+}

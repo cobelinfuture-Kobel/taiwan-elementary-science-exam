@@ -1,0 +1,20 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const read=n=>JSON.parse(fs.readFileSync(new URL('../data/review/'+n,import.meta.url),'utf8'));
+const rights=read('p12-g04s1-113-native46-tipo-art9-school-exam-text-rights-evidence-v1.json');
+const src=read('p12-g04s1-113-native46-post750-source-originaltext-options-gate-v1.json');
+test('registered original46 school exams may use official Article9 exam-text preflight, not teacher answer keys or extracted third-party images',()=>{
+ assert.equal(rights.records.length,46);
+ assert.deepEqual(new Set(rights.records.map(x=>x.source_slot_id)),new Set(src.records.map(x=>x.source_slot_id)));
+ assert.equal(rights.summary.printed_school_native_header_confirmed_items,38);
+ assert.equal(rights.summary.source_school_native_header_requires_original_PDF_visual_evidence,8);
+ assert.equal(rights.summary.original_school_regular_exam_text_art9_potentially_applicable,46);
+ assert.equal(rights.official_guidance.length,3);
+ assert.ok(rights.official_guidance.every(x=>x.url.startsWith('https://www.tipo.gov.tw/')));
+ assert.ok(rights.records.every(x=>x.source_original_figure_component_still_requires_classification));
+ assert.ok(rights.records.every(x=>x.original_teacher_answer_not_licensed_by_article9));
+ assert.equal(rights.summary.formal_rights_gate_cleared_new,0);
+ assert.equal(rights.summary.admission_ready_new,0);
+ assert.equal(rights.summary.published_new,0);
+});

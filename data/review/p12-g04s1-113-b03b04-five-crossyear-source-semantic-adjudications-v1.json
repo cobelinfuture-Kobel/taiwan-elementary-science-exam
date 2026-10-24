@@ -1,0 +1,76 @@
+{
+  "schema_version": "P12_113_B03_B04_114_NEAR_EXACT_5_SEMANTIC_ANSWER_EVENT_ADJUDICATION_V1",
+  "scope": "113 source position 101–200 vs 114 original archive, existing same Science/KP/Dedup Gate, not new review round",
+  "original_114_reference": [
+    "data/content-only/p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+    "data/content-only/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json"
+  ],
+  "original_113_reference": [
+    "data/review/p12-g04s1-113-native-tfmc-b03-50-original-pdf-text-preflight-v1.json",
+    "data/review/p12-g04s1-113-native-tfmc-b04-50-original-pdf-text-layer-v3.json"
+  ],
+  "model_semantic_gate_applied": true,
+  "model_semantic_gate_is_not_operator_or_full_public_pool_validation": true,
+  "exact_114_source_matches": 2,
+  "near_114_source_matches": 3,
+  "candidates": [
+    {
+      "source_slot_id_113": "SCI_G04_S1_113_MID_008|S2|MC|11",
+      "source_slot_id_114": "SCI_G04_S1_114_MID_004|S02|MC|012",
+      "answer_event_comparison": "RELATED_KP_DIFFERENT_OPTION_ANSWER_OBJECT",
+      "rationale": "113選項大萍、浮萍、布袋蓮、睡蓮；114則以水蘊草取代睡蓮。兩題均辨識不同水生植物生長型，但被問出的例外植物不同，不能僅憑相似題幹刪掉任一題。",
+      "provisional_frozen_kp": "sci_g04s1_02_03",
+      "route": "SOURCE_SEMANTIC_VARIANT_CONDITIONAL",
+      "requires_active_113_114_student_bank_dedup_before_admission": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_113": "SCI_G04_S1_113_MID_010|S1|TF|1",
+      "source_slot_id_114": "SCI_G04_S1_114_MID_008|S01|TF|001",
+      "answer_event_comparison": "EXACT_SOURCE_ANSWER_EVENT",
+      "rationale": "原題是非全文一致。沿用來源 lineage，不能同時加入兩個學生抽題項；尚須核對已公開題庫。",
+      "provisional_frozen_kp": "sci_g04s1_01_03",
+      "route": "HOLD_DUPLICATE_ORIGINAL",
+      "requires_active_113_114_student_bank_dedup_before_admission": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_113": "SCI_G04_S1_113_MID_010|S1|TF|9",
+      "source_slot_id_114": "SCI_G04_S1_114_MID_008|S01|TF|012",
+      "answer_event_comparison": "EXACT_SOURCE_ANSWER_EVENT",
+      "rationale": "『岩石受風或雨水作用，先碎裂成小礫石最後變成土壤』原文一致；該絕對化風化敘述亦已有 Science qualifier 風險。",
+      "provisional_frozen_kp": "sci_g04s1_01_03",
+      "route": "HOLD_DUPLICATE_AND_SCIENCE_QUALIFIER",
+      "requires_active_113_114_student_bank_dedup_before_admission": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_113": "SCI_G04_S1_113_MID_013|S1|TF|4",
+      "source_slot_id_114": "SCI_G04_S1_114_MID_008|S01|TF|012",
+      "answer_event_comparison": "SEMANTIC_SAME_ANSWER_EVENT",
+      "rationale": "113 獅湖題只增加『長時間』條件，仍同樣要求判別岩石必先碎成礫石、最後變土壤的命題；不構成新穎獨立題。",
+      "provisional_frozen_kp": "sci_g04s1_01_03",
+      "route": "HOLD_SEMANTIC_DUPLICATE_AND_QUALIFIER",
+      "requires_active_113_114_student_bank_dedup_before_admission": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_113": "SCI_G04_S1_113_MID_008|S2|MC|6",
+      "source_slot_id_114": "SCI_G04_S1_114_MID_008|S02|MC|002",
+      "answer_event_comparison": "SAME_STEM_DIFFERENT_DISTRACTOR_NONUNIQUE",
+      "rationale": "問法『哪一項不是地震造成的地表改變』一樣，113末選為堰塞湖，114末選為斷層瀑布。地震間接可能造成淹水，不能僅按模型指定唯一答案；保留 Science HOLD。",
+      "provisional_frozen_kp": "sci_g04s1_01_08",
+      "route": "HOLD_SCIENCE_UNIQUE",
+      "requires_active_113_114_student_bank_dedup_before_admission": true,
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "new_formal_science_kp_approved": 0,
+  "new_admission_ready": 0,
+  "new_published": 0
+}

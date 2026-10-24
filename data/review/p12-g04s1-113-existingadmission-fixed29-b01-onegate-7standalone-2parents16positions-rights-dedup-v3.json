@@ -1,0 +1,928 @@
+{
+  "schema_version": "P12_G04S1_113_B01_EXISTING_FORMAL_GATE_50_WENDE_SOURCE_CANDIDATE_RIGHTS_DUPLICATE_REVIEW_V3",
+  "source_branch_PR": 124,
+  "frozen_scope": "113 G04S1 U01-U02 MID, current 48 KP authority unmodified",
+  "review_original_pdf": {
+    "id": "SCI_G04_S1_113_MID_001",
+    "sha": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+    "title_from_original_pdf_text": "彰化縣芬園鄉文德國民小學 113 學年度第一學期四年級第一次段考自然試卷",
+    "school_exam_identity_native_text_layer": true,
+    "original_question_text_rights_route_candidate": "REGULATED_EXAM_QUESTION_ART9",
+    "original_teacher_answer_excluded": true,
+    "original_publisher_thirdparty_images_excluded": true
+  },
+  "reference_original_50_positions": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-50-modeltriage-closeout-nonformal-v2.json",
+  "reference_tf15_mc12": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json",
+  "reference_parent_23": "data/review/p12-g04s1-113-existingadmission-fixed29-b01-wende-s03-g01-g07-23-parent-model-triage-v1.json",
+  "main_113_original_published_refs": "data/review/p12-g04s1-113-main-published178-source-suppression-readback-v12.json",
+  "main_113_published_source_IDs_preexisting_retained": 178,
+  "regulatory_rights_authority": "docs/S3_P03_ANSWER_KP_AND_TAIWAN_ART9_RIGHTS.md",
+  "reviewed_current_existing_Admission_without_new_gates": [
+    "SOURCE_EXACT_NATIVE_TEXT",
+    "PDF_NATIVE_ANSWER_BBOX",
+    "INDEPENDENT_SCIENCE_AND_FROZEN_KP_MODEL_TRIAGE",
+    "PUBLISHED_SOURCE_SUPPRESSION",
+    "PUBLIC_114_B04_294_STEM_NEAR_MATCH_PREFLIGHT",
+    "SCHOOL_EXAM_TEXT_ONLY_ART9_ELIGIBILITY_PREFLIGHT"
+  ],
+  "public_114_B04_data_files_looked_up": 7,
+  "public_114_B04_student_blocks_screened": 294,
+  "public_113_exam_student_question_shards_spot_screened_16": true,
+  "cross_original_29_school_exact_option_duplicate_entire_corpus_formal_finished": false,
+  "all_student_main_public_113_114_question_content_final_fingerprint_comparison_formal_finished": false,
+  "original_PDF_school_regular_assessment_header_NATIVE_TEXT_VERIFIED": true,
+  "original_PDF_school_header_VISUAL_BBOX_RENDER_VERIFIED_NOT_SIGNED": true,
+  "B01_original_source_work_positions": 50,
+  "B01_existing_main_published_suppressed": 3,
+  "B01_proposed_independent_TFMC_question_bodies": 7,
+  "B01_proposed_shared_parent_questions": 2,
+  "B01_proposed_parent_child_response_marks": 9,
+  "B01_proposed_source_response_target_positions_NOT_student_questions": 16,
+  "B01_exception_HOLD_source_work_positions": 31,
+  "B01_eligible_for_new_formal_Admission_approved_now": 0,
+  "B01_eligible_for_public_release_now": 0,
+  "B01_NEW_FORMAL_SCIENCE_KP_APPROVED": 0,
+  "B01_NEW_ADMISSION_READY": 0,
+  "B01_NEW_PUBLISHED": 0,
+  "B01_STILL_OPEN": true,
+  "DO_NOT_PROCEED_B02_UNTIL_B01_OPERATOR_AND_SELECTIVE_RELEASE_FINISHED": true,
+  "candidate_independent_tfmc_items": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|004",
+      "question_type": "TF",
+      "original_question_native_text": "禮拜六，芸佳的家人帶她去台東玩，看看蔚藍的大\r\n平洋，在海洋裡，她可以發現蓋斑鬥魚以及青蛙等\r\n生物。",
+      "choices_original_native_text": [],
+      "original_bbox_pdf_pts_top_left": [
+        28.56,
+        256.39,
+        60.52,
+        269.34
+      ],
+      "original_pdf_page": 1,
+      "model_answer_not_teacher_key": "X",
+      "model_science_reason": "淡水魚與青蛙一般不能視為海洋水域生物；與水域條件差異直接相關",
+      "canonical_direct_KP_candidate": "sci_g04s1_02_02",
+      "direct_KP_title": "水域環境條件差異",
+      "candidate_unit": "U02",
+      "source_exact_native_text_status": "CONFIRMED_BY_REGISTERED_DRIVE_ORIGINAL_TEXT_LAYER",
+      "geometry_status": "CONFIRMED_ORIGINAL_NATIVE_ANSWER_INK",
+      "rights_status": "ART9_SCHOOL_EXAM_TEXT_ONLY_PRELIMINARY_IDENTITY_HEADER_TEXT_VERIFIED_VISUAL_NOT_SIGNED",
+      "dup_status": "PRELIM_PUBLIC_114_B04_BATCH01_B07_294_BLOCKS_AND_SAMPLED_113_SHARDS_NO_VERBATIM_MATCH_NOT_CLOSED_ALL29",
+      "science_status": "ONE_MODEL_INDEPENDENT_SCIENCE_ANSWER_KP_PROPOSAL_NOT_FORMALLY_ACCEPTED",
+      "operator_admission_ready": false,
+      "student_published": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|012",
+      "question_type": "TF",
+      "original_question_native_text": "工廠將未經處理的汙水排放到水域環境時，會讓裡\r\n面的水生生物長得更好。",
+      "choices_original_native_text": [],
+      "original_bbox_pdf_pts_top_left": [
+        28.56,
+        740.47,
+        60.52,
+        753.4200000000001
+      ],
+      "original_pdf_page": 1,
+      "model_answer_not_teacher_key": "X",
+      "model_science_reason": "排放未處理汙水不會普遍令水生生物長得更好，通常危害水域生態",
+      "canonical_direct_KP_candidate": "sci_g04s1_02_11",
+      "direct_KP_title": "水域污染對生物的影響",
+      "candidate_unit": "U02",
+      "source_exact_native_text_status": "CONFIRMED_BY_REGISTERED_DRIVE_ORIGINAL_TEXT_LAYER",
+      "geometry_status": "CONFIRMED_ORIGINAL_NATIVE_ANSWER_INK",
+      "rights_status": "ART9_SCHOOL_EXAM_TEXT_ONLY_PRELIMINARY_IDENTITY_HEADER_TEXT_VERIFIED_VISUAL_NOT_SIGNED",
+      "dup_status": "PRELIM_PUBLIC_114_B04_BATCH01_B07_294_BLOCKS_AND_SAMPLED_113_SHARDS_NO_VERBATIM_MATCH_NOT_CLOSED_ALL29",
+      "science_status": "ONE_MODEL_INDEPENDENT_SCIENCE_ANSWER_KP_PROPOSAL_NOT_FORMALLY_ACCEPTED",
+      "operator_admission_ready": false,
+      "student_published": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|014",
+      "question_type": "TF",
+      "original_question_native_text": "伊成在蒐集水生生物如何適應環境的相關資料，為\r\n了整理找到的資料，她可以使用圖形和表格，這樣\r\n能更清楚地理解水生生物的特性！",
+      "choices_original_native_text": [],
+      "original_bbox_pdf_pts_top_left": [
+        28.56,
+        850.39,
+        60.52,
+        863.34
+      ],
+      "original_pdf_page": 1,
+      "model_answer_not_teacher_key": "O",
+      "model_science_reason": "利用圖形和表格記錄水生生物特性，符合水域調查觀察與紀錄",
+      "canonical_direct_KP_candidate": "sci_g04s1_02_13",
+      "direct_KP_title": "水域環境實地調查的準備、觀察與紀錄",
+      "candidate_unit": "U02",
+      "source_exact_native_text_status": "CONFIRMED_BY_REGISTERED_DRIVE_ORIGINAL_TEXT_LAYER",
+      "geometry_status": "CONFIRMED_ORIGINAL_NATIVE_ANSWER_INK",
+      "rights_status": "ART9_SCHOOL_EXAM_TEXT_ONLY_PRELIMINARY_IDENTITY_HEADER_TEXT_VERIFIED_VISUAL_NOT_SIGNED",
+      "dup_status": "PRELIM_PUBLIC_114_B04_BATCH01_B07_294_BLOCKS_AND_SAMPLED_113_SHARDS_NO_VERBATIM_MATCH_NOT_CLOSED_ALL29",
+      "science_status": "ONE_MODEL_INDEPENDENT_SCIENCE_ANSWER_KP_PROPOSAL_NOT_FORMALLY_ACCEPTED",
+      "operator_admission_ready": false,
+      "student_published": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_001|S01|TF|015",
+      "question_type": "TF",
+      "original_question_native_text": "為了讓水生生物能永續生存，我們應該要愛護水域\r\n環境。",
+      "choices_original_native_text": [],
+      "original_bbox_pdf_pts_top_left": [
+        28.56,
+        916.39,
+        60.52,
+        929.34
+      ],
+      "original_pdf_page": 1,
+      "model_answer_not_teacher_key": "O",
+      "model_science_reason": "尊重並愛護水域及生物符合水域調查安全與保護",
+      "canonical_direct_KP_candidate": "sci_g04s1_02_14",
+      "direct_KP_title": "水域調查安全與尊重水生生物",
+      "candidate_unit": "U02",
+      "source_exact_native_text_status": "CONFIRMED_BY_REGISTERED_DRIVE_ORIGINAL_TEXT_LAYER",
+      "geometry_status": "CONFIRMED_ORIGINAL_NATIVE_ANSWER_INK",
+      "rights_status": "ART9_SCHOOL_EXAM_TEXT_ONLY_PRELIMINARY_IDENTITY_HEADER_TEXT_VERIFIED_VISUAL_NOT_SIGNED",
+      "dup_status": "PRELIM_PUBLIC_114_B04_BATCH01_B07_294_BLOCKS_AND_SAMPLED_113_SHARDS_NO_VERBATIM_MATCH_NOT_CLOSED_ALL29",
+      "science_status": "ONE_MODEL_INDEPENDENT_SCIENCE_ANSWER_KP_PROPOSAL_NOT_FORMALLY_ACCEPTED",
+      "operator_admission_ready": false,
+      "student_published": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|007",
+      "question_type": "MC",
+      "original_question_native_text": "放學後，佑麒在生態池邊看到了一隻青蛙。他好奇\r\n地想知道，青蛙通常用哪一種構造來呼吸呢？ ①\r\n鰓 ②肺 ③呼吸管 ④尾巴",
+      "choices_original_native_text": [
+        "鰓",
+        "肺",
+        "呼吸管",
+        "尾巴"
+      ],
+      "original_bbox_pdf_pts_top_left": [
+        428.04,
+        546.19,
+        460,
+        559.1400000000001
+      ],
+      "original_pdf_page": 1,
+      "model_answer_not_teacher_key": 2,
+      "model_science_reason": "青蛙屬兩生類，成體通常以肺和皮膚呼吸；給定選項中肺是唯一適當構造",
+      "canonical_direct_KP_candidate": "sci_g04s1_02_09",
+      "direct_KP_title": "水生動物的構造與環境適應",
+      "candidate_unit": "U02",
+      "source_exact_native_text_status": "CONFIRMED_BY_REGISTERED_DRIVE_ORIGINAL_TEXT_LAYER",
+      "geometry_status": "CONFIRMED_ORIGINAL_NATIVE_ANSWER_INK",
+      "rights_status": "ART9_SCHOOL_EXAM_TEXT_ONLY_PRELIMINARY_IDENTITY_HEADER_TEXT_VERIFIED_VISUAL_NOT_SIGNED",
+      "dup_status": "PRELIM_PUBLIC_114_B04_BATCH01_B07_294_BLOCKS_AND_SAMPLED_113_SHARDS_NO_VERBATIM_MATCH_NOT_CLOSED_ALL29",
+      "science_status": "ONE_MODEL_INDEPENDENT_SCIENCE_ANSWER_KP_PROPOSAL_NOT_FORMALLY_ACCEPTED",
+      "operator_admission_ready": false,
+      "student_published": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|008",
+      "question_type": "MC",
+      "original_question_native_text": "關於水生植物，下列哪一項敘述錯誤？ ①睡蓮的\r\n葉子會平貼在水面上 ②水蘊草的莖跟葉會挺出水\r\n面上 ③布袋蓮是漂浮性植物，根沒有長在土裡面\r\n④荷花的葉柄有通氣組織，可以幫助適應環境",
+      "choices_original_native_text": [
+        "睡蓮的\r\n葉子會平貼在水面上",
+        "水蘊草的莖跟葉會挺出水\r\n面上",
+        "布袋蓮是漂浮性植物，根沒有長在土裡面",
+        "荷花的葉柄有通氣組織，可以幫助適應環境"
+      ],
+      "original_bbox_pdf_pts_top_left": [
+        428.04,
+        612.19,
+        460,
+        625.1400000000001
+      ],
+      "original_pdf_page": 1,
+      "model_answer_not_teacher_key": 2,
+      "model_science_reason": "水蘊草是沉水植物，不是莖葉挺出水面的挺水植物",
+      "canonical_direct_KP_candidate": "sci_g04s1_02_05",
+      "direct_KP_title": "沉水性植物的適應",
+      "candidate_unit": "U02",
+      "source_exact_native_text_status": "CONFIRMED_BY_REGISTERED_DRIVE_ORIGINAL_TEXT_LAYER",
+      "geometry_status": "CONFIRMED_ORIGINAL_NATIVE_ANSWER_INK",
+      "rights_status": "ART9_SCHOOL_EXAM_TEXT_ONLY_PRELIMINARY_IDENTITY_HEADER_TEXT_VERIFIED_VISUAL_NOT_SIGNED",
+      "dup_status": "PRELIM_PUBLIC_114_B04_BATCH01_B07_294_BLOCKS_AND_SAMPLED_113_SHARDS_NO_VERBATIM_MATCH_NOT_CLOSED_ALL29",
+      "science_status": "ONE_MODEL_INDEPENDENT_SCIENCE_ANSWER_KP_PROPOSAL_NOT_FORMALLY_ACCEPTED",
+      "operator_admission_ready": false,
+      "student_published": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_001|S02|MC|011",
+      "question_type": "MC",
+      "original_question_native_text": "愛護環境大家一起動起來，下列哪一項是愛護水域\r\n環境的做法？ ①在溪邊烤肉，將器具留在原地方\r\n便下次使用 ②將洗衣服的肥皂水直接倒入溪流中\r\n③去海邊遊玩時，將垃圾帶回家丟 ④將抓到的魚\r\n蝦帶回家飼養",
+      "choices_original_native_text": [
+        "在溪邊烤肉，將器具留在原地方\r\n便下次使用",
+        "將洗衣服的肥皂水直接倒入溪流中",
+        "去海邊遊玩時，將垃圾帶回家丟",
+        "將抓到的魚\r\n蝦帶回家飼養"
+      ],
+      "original_bbox_pdf_pts_top_left": [
+        428.04,
+        942.19,
+        460,
+        955.1400000000001
+      ],
+      "original_pdf_page": 1,
+      "model_answer_not_teacher_key": 3,
+      "model_science_reason": "將垃圾帶離海灘可減少汙染，其他選項對水域環境不友善",
+      "canonical_direct_KP_candidate": "sci_g04s1_02_14",
+      "direct_KP_title": "水域調查安全與尊重水生生物",
+      "candidate_unit": "U02",
+      "source_exact_native_text_status": "CONFIRMED_BY_REGISTERED_DRIVE_ORIGINAL_TEXT_LAYER",
+      "geometry_status": "CONFIRMED_ORIGINAL_NATIVE_ANSWER_INK",
+      "rights_status": "ART9_SCHOOL_EXAM_TEXT_ONLY_PRELIMINARY_IDENTITY_HEADER_TEXT_VERIFIED_VISUAL_NOT_SIGNED",
+      "dup_status": "PRELIM_PUBLIC_114_B04_BATCH01_B07_294_BLOCKS_AND_SAMPLED_113_SHARDS_NO_VERBATIM_MATCH_NOT_CLOSED_ALL29",
+      "science_status": "ONE_MODEL_INDEPENDENT_SCIENCE_ANSWER_KP_PROPOSAL_NOT_FORMALLY_ACCEPTED",
+      "operator_admission_ready": false,
+      "student_published": false
+    }
+  ],
+  "candidate_shared_parent_question_groups": [
+    {
+      "original_parent_id": "S03-G05",
+      "original_parent_raw_native_text": "5.下列敘述，分別是指哪一種水生植物？請將適當的代號\r\n填入（ ）裡：(8 分) \r\n \r\nㄅ.會隨著水流到流動\r\nㄆ.根、莖、葉都在水面下\r\nㄇ.根長在水底土裡，但是葉子漂\r\n浮在水面上\r\nㄈ.根長在水底土裡，但是葉子挺\r\n出水面\r\n( )(１)睡蓮。 \r\n( )(２)水蘊草。\r\n( )(３)大萍。 \r\n( )(４)荷花。",
+      "original_child_source_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G05|MATCH|001",
+        "SCI_G04_S1_113_MID_001|S03|G05|MATCH|002",
+        "SCI_G04_S1_113_MID_001|S03|G05|MATCH|003",
+        "SCI_G04_S1_113_MID_001|S03|G05|MATCH|004"
+      ],
+      "original_per_child_answer_candidate": [
+        "ㄇ",
+        "ㄆ",
+        "ㄅ",
+        "ㄈ"
+      ],
+      "per_child_direct_KP_candidates": [
+        "sci_g04s1_02_06",
+        "sci_g04s1_02_05",
+        "sci_g04s1_02_04",
+        "sci_g04s1_02_07"
+      ],
+      "original_pdf_page": 2,
+      "actual_original_answer_ink_bboxes_pdf_pts_top_left": [
+        [
+          441.96,
+          226.71,
+          479.39,
+          241.74
+        ],
+        [
+          441.96,
+          244.95,
+          479.39,
+          259.98
+        ],
+        [
+          441.94,
+          263.19,
+          479.37,
+          278.22
+        ],
+        [
+          441.94,
+          281.31,
+          479.37,
+          296.34
+        ]
+      ],
+      "shared_parent_question_count": 1,
+      "NOT_a_number_of_independent_student_questions": 4,
+      "source_exact_native_text_status": "CONFIRMED_PARENT_TEXT_ORIGINAL_NATIVE",
+      "bbox_status": "CONFIRMED_4_OR_5_REAL_NATIVE_PARENT_CHILD_PRINTED_ANSWER_MARKERS",
+      "science_status": "MODEL_PARENT_AWARE_ANSWER_PROPOSAL_NOT_FORMALLY_ACCEPTED",
+      "rights_status": "ART9_SCHOOL_EXAM_QUESTION_TEXT_PRELIMINARY_NO_EXTERNAL_FIGURE_IN_CHILD_TEXT",
+      "dup_status": "CROSS_29_SCHOOL_AND_ALL_113_114_PUBLIC_CONTENT_PENDING",
+      "operator_admission_ready": false,
+      "student_published": false
+    },
+    {
+      "original_parent_id": "S03-G06",
+      "original_parent_raw_native_text": "6.探索水域環境時，紀錄表中須包含哪些項目？請在\r\n（ ）裡打ˇ，不須的打╳：(5 分) \r\n( )(１)水域類型\r\n( )(２)月亮方位\r\n( )(３)水質情況\r\n( )(４)水流速度\r\n( )(５)太陽高度",
+      "original_child_source_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G06|TF|001",
+        "SCI_G04_S1_113_MID_001|S03|G06|TF|002",
+        "SCI_G04_S1_113_MID_001|S03|G06|TF|003",
+        "SCI_G04_S1_113_MID_001|S03|G06|TF|004",
+        "SCI_G04_S1_113_MID_001|S03|G06|TF|005"
+      ],
+      "original_per_child_answer_candidate": [
+        "✓",
+        "╳",
+        "✓",
+        "✓",
+        "╳"
+      ],
+      "per_child_direct_KP_candidates": [
+        "sci_g04s1_02_13",
+        "sci_g04s1_02_13",
+        "sci_g04s1_02_13",
+        "sci_g04s1_02_13",
+        "sci_g04s1_02_13"
+      ],
+      "original_pdf_page": 2,
+      "actual_original_answer_ink_bboxes_pdf_pts_top_left": [
+        [
+          441.95,
+          361.71,
+          479.38,
+          376.74
+        ],
+        [
+          441.93,
+          383.67,
+          479.36,
+          398.7
+        ],
+        [
+          441.92,
+          405.75,
+          479.35,
+          420.78
+        ],
+        [
+          441.9,
+          427.71,
+          479.34,
+          442.74
+        ],
+        [
+          441.89,
+          449.67,
+          479.32,
+          464.7
+        ]
+      ],
+      "shared_parent_question_count": 1,
+      "NOT_a_number_of_independent_student_questions": 5,
+      "source_exact_native_text_status": "CONFIRMED_PARENT_TEXT_ORIGINAL_NATIVE",
+      "bbox_status": "CONFIRMED_4_OR_5_REAL_NATIVE_PARENT_CHILD_PRINTED_ANSWER_MARKERS",
+      "science_status": "MODEL_PARENT_AWARE_ANSWER_PROPOSAL_NOT_FORMALLY_ACCEPTED",
+      "rights_status": "ART9_SCHOOL_EXAM_QUESTION_TEXT_PRELIMINARY_NO_EXTERNAL_FIGURE_IN_CHILD_TEXT",
+      "dup_status": "CROSS_29_SCHOOL_AND_ALL_113_114_PUBLIC_CONTENT_PENDING",
+      "operator_admission_ready": false,
+      "student_published": false
+    }
+  ],
+  "source_work_position_status_rows": [
+    {
+      "ordinal": 1,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|001",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 2,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|002",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 3,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|003",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 4,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|004",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 5,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|005",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 6,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|006",
+      "original_status": "ALREADY_MAIN_PUBLISHED",
+      "pending_component": "ALREADY_PUBLIC_LINEAGE_NO_NEW_RELEASE",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SUPPRESS_ALREADY_MAIN_PUBLISHED",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 7,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|007",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 8,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|008",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 9,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|009",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 10,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|010",
+      "original_status": "ALREADY_MAIN_PUBLISHED",
+      "pending_component": "ALREADY_PUBLIC_LINEAGE_NO_NEW_RELEASE",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SUPPRESS_ALREADY_MAIN_PUBLISHED",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 11,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|011",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 12,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|012",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 13,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|013",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 14,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|014",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 15,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S01|TF|015",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 16,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S02|MC|001",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 17,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S02|MC|002",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 18,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S02|MC|003",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 19,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S02|MC|004",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 20,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S02|MC|005",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 21,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S02|MC|006",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 22,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S02|MC|007",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 23,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S02|MC|008",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 24,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S02|MC|009",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 25,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S02|MC|010",
+      "original_status": "ALREADY_MAIN_PUBLISHED",
+      "pending_component": "ALREADY_PUBLIC_LINEAGE_NO_NEW_RELEASE",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SUPPRESS_ALREADY_MAIN_PUBLISHED",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 26,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S02|MC|011",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 27,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S02|MC|012",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 28,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G01|FILL|001",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 29,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G01|FILL|002",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 30,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G01|FILL|003",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 31,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G02|FILL|001",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 32,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G02|FILL|002",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 33,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G02|FILL|003",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 34,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G02|FILL|004",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 35,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G02|FILL|005",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 36,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G02|FILL|006",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 37,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G03|DRAW|001",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 38,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G04|DRAW|001",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 39,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G05|MATCH|001",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 40,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G05|MATCH|002",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 41,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G05|MATCH|003",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 42,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G05|MATCH|004",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 43,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G06|TF|001",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 44,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G06|TF|002",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 45,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G06|TF|003",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 46,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G06|TF|004",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 47,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G06|TF|005",
+      "original_status": "MODEL_SCIENCE_DIRECT_KP_CANDIDATE",
+      "pending_component": "DUPLICATE_ALL_REGISTERED_ORIGINALS_RIGHTS_VISUAL_OPERATOR_EXACT_COHORT",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "SOURCE_SCIENCE_KP_MODEL_CANDIDATE_NOT_ADMITTED",
+      "formally_closed_for_batch": false,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 48,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G07|FILL|001",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 49,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G07|FILL|002",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    },
+    {
+      "ordinal": 50,
+      "source_original_ID": "SCI_G04_S1_113_MID_001|S03|G07|FILL|003",
+      "original_status": "HOLD",
+      "pending_component": "SOURCE_AUTHORITATIVE_SCOPE_OR_SCIENCE_OR_PARENT_EXCEPTION",
+      "source_full_answer_and_option_original_page_retained": true,
+      "final_disposition": "HOLD_WITH_SOURCE_REASON",
+      "formally_closed_for_batch": true,
+      "formal_ADMISSION_READY": false,
+      "released_now": false
+    }
+  ],
+  "admission_blocking_remaining_requirements": [
+    "Complete actual source item full-image visual/readback as applicable; site item must include full original parent and no publisher original figures when not rights-cleared",
+    "Complete dedup against all existing public 113/114 and exact original29 corpus, preserve nuanced different question wording rule",
+    "Document final text-only Article 9 regulated school exam eligibility/thirdparty exclusions at each released item",
+    "Existing scope-specific exact source operator final cohort admission signoff before release",
+    "For accepted candidate only: separate selective PR, focused CI, main readback, Pages live E2E"
+  ],
+  "next_action": "Finish missing existing gates for seven standalone and two complete parent groups without touching 31 separately held work locations. Preserve B01 as OPEN and do not initiate B02."
+}

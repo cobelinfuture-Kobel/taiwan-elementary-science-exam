@@ -1,0 +1,78 @@
+{
+  "schema_version": "P12_G04S1_113_POST88_BBOX_NATIVE_FULL_SOURCE_TEXT_PREFLIGHT_V1",
+  "draft_pr": 124,
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "original_five_pdf_sha_verified": 5,
+  "source_geom_ref": "data/review/p12-g04s1-113-native5-originalpdf107-glyph-bbox-proof-v1.json",
+  "source_gate_note": "Source text cropped directly from original connected Drive PDF native page glyphs between physical question markers, both columns and section headers preserved. Printed TF/MC numbering exact. 57 of 57 multiple-choice questions have four visible textual option labels, but 4 final-011 questions require original option/diagram figures; no image rights asserted. No complete all-rights article source published.",
+  "rights_boundary": "Only counts and proof indices in public GitHub; original unpublished question/full text and third-party diagrams stay private. Presence of 4 labels does NOT certify that the choices are self-contained or images licensed.",
+  "summary": {
+    "paper_count": 5,
+    "physical_answer_markers": 107,
+    "previously_published_source_bbox_matches": 19,
+    "remaining_unpublished_source_bbox_matches": 88,
+    "unpublished_TF": 38,
+    "unpublished_MC": 50,
+    "native_pdf_mc_questions_all_four_labels_seen": 57,
+    "unpublished_MC_must_keep_parent_figure": 4,
+    "unpublished_no_identified_figure_dependency_native_text": 84,
+    "candidate_original_text_machine_extraction_completed": 107,
+    "full_original_stem_options_manual_PDF_acceptance_new": 0,
+    "formal_science_kp_approved_new": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "records": [
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "physical_original_answer_markers": 29,
+      "source_not_published": 26,
+      "existing_published_suppressed": 3,
+      "unpublished_true_false": 14,
+      "unpublished_single_choice": 12,
+      "original_native_MC_all_four_option_labels_detected": 14,
+      "unpublished_mc_original_figure_option_dependency": 0
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_005",
+      "physical_original_answer_markers": 29,
+      "source_not_published": 23,
+      "existing_published_suppressed": 6,
+      "unpublished_true_false": 10,
+      "unpublished_single_choice": 13,
+      "original_native_MC_all_four_option_labels_detected": 14,
+      "unpublished_mc_original_figure_option_dependency": 0
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_005",
+      "physical_original_answer_markers": 20,
+      "source_not_published": 12,
+      "existing_published_suppressed": 8,
+      "unpublished_true_false": 5,
+      "unpublished_single_choice": 7,
+      "original_native_MC_all_four_option_labels_detected": 10,
+      "unpublished_mc_original_figure_option_dependency": 0
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016",
+      "physical_original_answer_markers": 24,
+      "source_not_published": 22,
+      "existing_published_suppressed": 2,
+      "unpublished_true_false": 9,
+      "unpublished_single_choice": 13,
+      "original_native_MC_all_four_option_labels_detected": 14,
+      "unpublished_mc_original_figure_option_dependency": 0
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_011",
+      "physical_original_answer_markers": 5,
+      "source_not_published": 5,
+      "existing_published_suppressed": 0,
+      "unpublished_true_false": 0,
+      "unpublished_single_choice": 5,
+      "original_native_MC_all_four_option_labels_detected": 5,
+      "unpublished_mc_original_figure_option_dependency": 4
+    }
+  ],
+  "next_resume_task": "P12_G04S1_113_Native84_FullStem_Options_OriginalVisualQA_ScienceUniqueKP48_Dedup_Rights;Final011_4FigureDependent_HOLD;RemainingNative5_AndScan5OriginalSlotInventory"
+}

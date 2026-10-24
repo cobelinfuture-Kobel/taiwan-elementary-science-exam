@@ -1,0 +1,74 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const read=n=>JSON.parse(readFileSync(new URL('../data/review/'+n,import.meta.url),'utf8'));
+const mid=read('p12-g04s1-113-two-school-114-12mid351-verbatim-option-dedup-v1.json');
+const final=read('p12-g04s1-113-two-school-114-13final366-verbatim-option-dedup-v1.json');
+const crossH=read('p12-g04s1-113-heshun8-vs-114mid351-crossperiod-dedup-v1.json');
+const crossN=read('p12-g04s1-113-neian15-vs-114final366-crossperiod-dedup-v1.json');
+const partial113=read('p12-g04s1-113-two-school22-other113-native100-partial-text-dedup-v1.json');
+const manifest=read('p12-g04s1-113-heshun-neian22-operator-cohort-manifest-DRAFT-v1.json');
+const union=read('p12-g04s1-113-two-school22-114all25-717-fourquadrant-dedup-closeout-v2.json');
+const pub=read('p12-g04s1-113-main-published152-source-suppression-readback-v10.json');
+
+test('all 25 registered 114 original MID and FINAL archived TF/MC source records compared across all four exam-period quadrants',()=>{
+ assert.equal(mid.total_114_mid_originals,351);
+ assert.equal(final.total_114_final_originals,366);
+ assert.equal(mid.total_114_mid_original_exam_papers,12);
+ assert.equal(final.total_114_final_original_exam_papers,13);
+ assert.equal(crossH.original_114_mid_standalone_verbatim,351);
+ assert.equal(crossN.original_114_final_TFMC_verbatim_source_records,366);
+ assert.equal(mid.target_science_kp_candidates,15);
+ assert.equal(final.target_science_kp_candidates,8);
+ assert.equal(crossH.target_113_Heshun_FINAL_candidates,8);
+ assert.equal(crossN.target_113_Neian_MID_supported_including_reordered_mid_MC002,15);
+ assert.equal(union.summary.original_114_all25_original_TFMC_records,717);
+ assert.equal(union.summary.original_114_papers,25);
+ assert.equal(union.four_quadrants_refs.length,4);
+ assert.equal(mid.confirmed_identical_or_reordered_duplicate_pairs.length,1);
+ assert.equal(final.confirmed_identical_or_reordered_duplicate_pairs.length,0);
+ assert.equal(crossH.exact_full_stem_and_four_options_or_truefalse_identity_pairs.length,0);
+ assert.equal(crossN.new_exact_duplicate_pairs.length,0);
+ assert.equal(mid.confirmed_identical_or_reordered_duplicate_pairs[0].target_source_id,'SCI_G04_S1_113_MID_006|S2|MC|002');
+ assert.equal(union.summary.exact_or_option_reordered_114_duplicate_original_source_pairs,1);
+});
+
+test('all 22 distinct source cohorts stay unadmitted until full unpublished-113 text and exact operator batch signoff; duplicate has zero new site slots',()=>{
+ assert.equal(manifest.cohort_records.length,22);
+ assert.equal(manifest.summary.original_tf,11);
+ assert.equal(manifest.summary.original_mc,11);
+ assert.equal(manifest.summary.standalone_original_source_reviewed,47);
+ assert.equal(manifest.summary.science_direct_kp_evidence_supported,23);
+ assert.equal(manifest.summary.science_direct_kp_HOLD,24);
+ assert.equal(manifest.summary.already_public_114_exact_option_reorder_duplicate_suppressed,1);
+ assert.equal(manifest.operator_approval_stage,'DRAFT_EXACT_22_LIST_NOT_SIGNED');
+ assert.equal(manifest.one_reordered_duplicate_lineage_only.new_student_answer_slot,0);
+ assert.equal(manifest.one_reordered_duplicate_lineage_only.unpublished_original_source_slot_id,'SCI_G04_S1_113_MID_006|S2|MC|002');
+ const sourceIds=new Set();
+ const publishedIds=new Set(pub.all_unique_published_source_slot_ids);
+ for(const row of manifest.cohort_records){
+  assert.ok(!sourceIds.has(row.source_slot_id));sourceIds.add(row.source_slot_id);
+  assert.ok(!publishedIds.has(row.source_slot_id));
+  assert.match(row.canonical_kp_id,/^sci_g04s1_0[1-4]_[0-9]{2}$/);
+  assert.equal(row.source_pdf_bbox_pts_top_left.length,4);
+  assert.equal(row.article9_exam_text_only_component_preflight,true);
+  assert.equal(row.duplicate_114_all25_717_archive_no_identical_source_question,true);
+  assert.equal(row.full_113_other_unpublished_original_question_text_dedup_complete,false);
+  assert.equal(row.final_operator_manifest_approved,false);
+  assert.equal(row.admission_ready,false);
+  assert.equal(row.published,false);
+  if(row.type==='mcq')assert.equal(row.original_options_in_printed_order.length,4);
+  if(row.type==='tf')assert.ok(['O','X'].includes(row.science_proposed_answer_not_original_teacher_key));
+ }
+ assert.equal(sourceIds.size,22);
+ assert.equal(partial113.screened_113_other_native_preflight_source_rows,100);
+ assert.equal(partial113.exact_source_text_option_identity_detected,0);
+ assert.equal(partial113.full_other_113_all29_corpus_compare_complete,false);
+ assert.equal(union.summary.source_113_unpublished_native_pdf_partial_original_text_records_screened,100);
+ assert.equal(union.summary.source_113_all29_original_question_text_full_corpus_screen_completed,false);
+ assert.equal(union.summary.source_113_prior_native_411_review_records_full_text_zip_obtained,false);
+ assert.equal(union.summary.operator_exact_final_22_cohort_release_approved,false);
+ assert.equal(union.summary.ADMISSION_READY,0);
+ assert.equal(union.summary.PUBLISHED,0);
+ assert.equal(pub.all_unique_published_source_slot_ids.length,152);
+});

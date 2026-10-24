@@ -1,0 +1,396 @@
+{
+  "schema_version": "P12_G04S1_113_NEXT21_TARGETED_SCIENCE_KP_CHECK_V1",
+  "source": "data/review/p12-g04s1-113-next35-science-directkp-triage-DRAFT-v1.json",
+  "basis": "Manually transcribed original scan page; frozen 113 G04S1 48KP; all prior source exams/checkpoints inherited",
+  "main_baseline": "efea07d2dc533ab29e6f2243cac7ebdce03cf862",
+  "status": "EVIDENCE_ONLY_NO_ADMISSION",
+  "note": "Existing user-approved process: no additional mandatory rounds; this record corrects unsafe preflight classification and records missing evidence. Distinguishes preliminary model inference from verified source statement. No answer or KP formal approval.",
+  "summary": {
+    "prior_candidate_count": 21,
+    "still_preliminary_count": 15,
+    "context_hold": 2,
+    "science_hold": 2,
+    "kp_hold": 1,
+    "parent_hold": 1,
+    "original_14_hold_unchanged": 14,
+    "published_source_id_intersections": 0,
+    "formally_admitted_new": 0,
+    "published_new": 0
+  },
+  "rows": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S02|MC|003",
+      "stem": "當水域環境受到污染時，通常會發生下列哪種情況？",
+      "choices": [
+        "水生植物長得更茂盛",
+        "鯨魚誤食海中的垃圾",
+        "海鳥容易在海灘上覓食",
+        "水生生物順利繁衍下一代"
+      ],
+      "provisional_answer": 2,
+      "provisional_kp": "sci_g04s1_02_11",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|002",
+      "stem": "為什麼有光我們才能看見物體？",
+      "choices": [
+        "因為物體的形狀各不相同",
+        "因為物體的材質各不相同",
+        "因為物體的顏色各不相同",
+        "因為物體反射光線進入我們的眼睛，我們才能看見物體"
+      ],
+      "provisional_answer": 4,
+      "provisional_kp": "sci_g04s1_03_04",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|003",
+      "stem": "下列關於聲音傳播的敘述，哪一項不正確？",
+      "choices": [
+        "可以在外太空傳播",
+        "可以透過液體傳播",
+        "可以透過氣體傳播",
+        "可以透過固體傳播"
+      ],
+      "provisional_answer": 1,
+      "provisional_kp": "sci_g04s1_03_03",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|004",
+      "stem": "「利用鏡子可以改變雷射筆的光的行進路徑」，這個現象的原理和下列哪一個相同？",
+      "choices": [
+        "舞台上使用的燈光",
+        "雲層透出的陽光直直的、亮亮的",
+        "靜止水面有岸邊山的倒影",
+        "陽光下的物體有影子"
+      ],
+      "provisional_answer": 3,
+      "provisional_kp": "sci_g04s1_03_08",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|005",
+      "stem": "電器用品中的開關，是怎樣控制電器用品啟動或關閉的？",
+      "choices": [
+        "打開開關時，形成斷路",
+        "打開開關時，形成短路",
+        "打開開關時，形成通路",
+        "關上開關時，形成通路"
+      ],
+      "provisional_answer": 3,
+      "provisional_kp": "sci_g04s1_04_04",
+      "case": "CONTEXT_HOLD",
+      "evidence_gap": "「打開開關」口語可指切換電源開啟，或物理開路；原卷選項④與③需依原始用語/教科書慣例驗明",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|006",
+      "stem": "下列有關電的導體與開關的敘述，哪一項正確？",
+      "choices": [
+        "開關可以讓電路成為通路或斷路",
+        "鐵湯匙、鋁罐、橡皮擦、迴紋針都是良導體",
+        "連接在斷掉的電路中，能使燈泡發亮者，稱為電的不良導體",
+        "大多數電器是沒有開關的"
+      ],
+      "provisional_answer": 1,
+      "provisional_kp": "sci_g04s1_04_04",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|007",
+      "stem": "雷射筆的光照到鏡子時會反射，如果改變光照射在鏡子上的位置，會有什麼現象發生？",
+      "choices": [
+        "反射光消失不見",
+        "反射光呈S形行進",
+        "反射光的行進方向會改變",
+        "反射光的位罝不變，顏色改變"
+      ],
+      "provisional_answer": 3,
+      "provisional_kp": "sci_g04s1_03_07",
+      "case": "SCIENCE_HOLD",
+      "evidence_gap": "改變入射位置不必然改變入射角與反射方向，須檢視原圖/反射幾何條件",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|009",
+      "stem": "下列哪一個物體可以稱為光源？",
+      "choices": [
+        "衣櫃上的鏡子",
+        "點燃的蠟燭",
+        "平靜的水面",
+        "不鏽鋼杯"
+      ],
+      "provisional_answer": 2,
+      "provisional_kp": "sci_g04s1_03_05",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|010",
+      "stem": "下列關於電路的敘述，哪一項不正確？",
+      "choices": [
+        "電線沒有接好時，會使電路形成斷路",
+        "電流不能通過時燈泡不會發亮，稱為斷路",
+        "電流通過時燈泡會發亮，稱為通路",
+        "當電路形成通路時，電線上的電流方向是從電池的負極流向正極"
+      ],
+      "provisional_answer": 4,
+      "provisional_kp": "sci_g04s1_04_04",
+      "case": "CONTEXT_HOLD",
+      "evidence_gap": "選項④傳統電流方向與電子流方向易混，題文未明確限定；現有摘要只支持模型初判",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|012",
+      "stem": "下列日常生活現象中，哪一項不是光的直線行進形成的？",
+      "choices": [
+        "車燈射出的燈光",
+        "玩手影遊戲",
+        "燈塔指引船隻的探照燈",
+        "道路上的反光桿"
+      ],
+      "provisional_answer": 4,
+      "provisional_kp": "sci_g04s1_03_06",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|013",
+      "stem": "下列有關電的敘述，哪一項是錯誤的？",
+      "choices": [
+        "臺灣目前家裡用的大型電器，電源最主要都來自電池",
+        "小智將媽媽的金戒指連接在電路中，發現金戒指可以讓電流通過",
+        "電器不使用時，要將插頭拔除",
+        "夏天如果要開冷氣，最好定溫在26～28℃，可以節能省電"
+      ],
+      "provisional_answer": 1,
+      "provisional_kp": "sci_g04s1_04_12",
+      "case": "SCIENCE_HOLD",
+      "evidence_gap": "家用大型電器『主要都來自電池』屬常識錯誤，但其它選項26～28℃建議是情境性節能指引；確認唯一錯項所涉來源用語",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|014",
+      "stem": "下列有關各種物品在生活中應用的敘述，哪一項正確？",
+      "choices": [
+        "直笛是光的應用",
+        "哨子是聲音的應用",
+        "手機只有聲音的應用",
+        "電視只有光的應用"
+      ],
+      "provisional_answer": 2,
+      "provisional_kp": "sci_g04s1_03_09",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|015",
+      "stem": "下列關於電池的敘述，哪一項不正確？",
+      "choices": [
+        "長期不使用的電器，應該把裡面的電池拿出來",
+        "電池適合存放在潮濕、炎熱的地方",
+        "電量耗盡的電池應放入電池回收桶回收",
+        "圓柱形的乾電池，凸起的一端是電池的正極"
+      ],
+      "provisional_answer": 2,
+      "provisional_kp": "sci_g04s1_04_11",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|002",
+      "stem": "下列何者不是光源？",
+      "choices": [
+        "月球",
+        "太陽",
+        "燭火",
+        "通電的電燈"
+      ],
+      "provisional_answer": 1,
+      "provisional_kp": "sci_g04s1_03_05",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|003",
+      "stem": "在樹林間能看見陽光照射的光束，是因為樹林間有什麼物質？",
+      "choices": [
+        "芬多精",
+        "塵埃",
+        "氧氣",
+        "綠色植物"
+      ],
+      "provisional_answer": 2,
+      "provisional_kp": "sci_g04s1_03_06",
+      "case": "KP_HOLD",
+      "evidence_gap": "可見光束是懸浮微粒散射，不直接等同凍結 KP03_06「光直線行進與影子」",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|008",
+      "stem": "當電路形成□□時，電器才能順利運作？□□中應填入？",
+      "choices": [
+        "斷路",
+        "短路",
+        "長路",
+        "通路"
+      ],
+      "provisional_answer": 4,
+      "provisional_kp": "sci_g04s1_04_04",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|009",
+      "stem": "下列何者材質屬於容易導電的材質？",
+      "choices": [
+        "塑膠",
+        "金屬",
+        "木頭",
+        "陶瓷"
+      ],
+      "provisional_answer": 2,
+      "provisional_kp": "sci_g04s1_04_05",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|010",
+      "stem": "下列何者屬於不良導體？",
+      "choices": [
+        "銅線",
+        "鐵絲",
+        "鑽石",
+        "鋁箔紙"
+      ],
+      "provisional_answer": 3,
+      "provisional_kp": "sci_g04s1_04_05",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|011",
+      "stem": "電池串聯時，其中一個電池沒有和電線接好，此時的燈泡會如何？",
+      "choices": [
+        "燈泡發光",
+        "燈泡不會發光"
+      ],
+      "provisional_answer": 2,
+      "provisional_kp": "sci_g04s1_04_04",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|012",
+      "stem": "電池並聯時，其中一個電池沒有和電線接好，此時的燈泡會如何？",
+      "choices": [
+        "燈泡發光",
+        "燈泡不會發光"
+      ],
+      "provisional_answer": 1,
+      "provisional_kp": "sci_g04s1_04_04",
+      "case": "PARENT_HOLD",
+      "evidence_gap": "電池並聯一支路未接好是否能亮，需確認兩支路的完整接線原圖與回路，不能脫離原卷電路圖作答",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|014",
+      "stem": "下列有關電池的敘述何者正確？",
+      "choices": [
+        "廢電池可以拿到便利商店回收",
+        "所有電池都可以反覆充電使用",
+        "安裝電池時，電池正、負極方向不需要固定",
+        "可以將同品牌型號的新舊電池混用"
+      ],
+      "provisional_answer": 1,
+      "provisional_kp": "sci_g04s1_04_11",
+      "case": "PRELIMINARY_CONDITIONAL",
+      "evidence_gap": "來源原卷二次逐字校對、全部選項逐項科學核驗、113/114 全庫語意去重、權利與適用操作人正式核准未完成",
+      "source_exact": "DRAFT",
+      "operator_approved": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema": "P12_G04S1_113_MID005_MC3_MC14_NATIVE_TEXT_CONTAMINATION_VISUAL_SOURCE_REPAIR_V1",
+  "draft_source_pr": 124,
+  "school": "臺中市南屯區大墩國民小學",
+  "original_source_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+  "page_pdf_1_based": 1,
+  "source_pdf_visual_confirmation": "Original school-administered first semester midterm PDF rendered from exact source bytes; left MC003 and right MC014 source regions re-inspected with original printed answer bracket, all four options and printed column separation. NO_OCR. Original visual geometry confirms no third-party drawings required.",
+  "rights_path": {
+    "regulated_exam_identity_verified": true,
+    "license_status": "REGULATED_EXAM_QUESTION_ART9",
+    "third_party_content_clearance": "NO_THIRD_PARTY_COPY",
+    "scope": "EXAM_QUESTION_TEXT_ONLY",
+    "teacher_key_copy": false
+  },
+  "dedup": "Full prior 750 original item fingerprint audit shows no exact pre-existing student item for these two source slots; alternate wording admitted under 2026-10-19 operator approved rule.",
+  "prior_first38": "data/review/p12-g04s1-113-native38-originalpdf-visual-rights-formal-science-kp-v1.json",
+  "original_exception_queue": "data/review/p12-g04s1-113-native46-next11-science-kp-source-evidence-plus8-exceptions-v1.json",
+  "summary": {
+    "previous_formal_38": 38,
+    "new_original_source_visual_repairs": 2,
+    "new_formal_science_direct_kp_verified": 2,
+    "remaining_exception_count": 6,
+    "cumulative_formal_science_kp_verified": 40,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S2|MC|003",
+      "original_pdf_source_bbox": [
+        42.24,
+        884.13,
+        90.26,
+        896.13
+      ],
+      "correct_science_choice": 4,
+      "kp": "sci_g04s1_01_01",
+      "source_science_reason": "高山和森林都有不同生物；山林環境有眾多生物，並非地表只有生物或沙丘不受風影響。",
+      "original_pdf_printed_options_count": 4,
+      "native_text_artifact": "RIGHT_COLUMN_SCORING_TABLE_INTERLEAVES_IN_EXTRACTED_TEXT_ONLY",
+      "image_repair": "Rendered left-column question 3 contains all 4 options; right-column statistics chart not part of question.",
+      "original_pdf_page_1_based": 1,
+      "science_unique_answer_verified": true,
+      "direct_frozen48_canonical_kp_verified": true,
+      "rights_school_exam_text_component_verified": true,
+      "operator_final_release_batch_approval": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S2|MC|014",
+      "original_pdf_source_bbox": [
+        373.27,
+        922.76,
+        421.27,
+        934.76
+      ],
+      "correct_science_choice": 1,
+      "kp": "sci_g04s1_01_07",
+      "source_science_reason": "過度開發森林使坡地植被和土壤穩定性降低，大雨下容易引發土石流。",
+      "original_pdf_printed_options_count": 4,
+      "native_text_artifact": "EXTRACTED_FOOTER_PAGE_NUMBER_APPENDED_AFTER_FOURTH_CHOICE",
+      "image_repair": "Rendered original right-column question 14 has all 4 options; trailing '2' from page/column flow is not option content.",
+      "original_pdf_page_1_based": 1,
+      "science_unique_answer_verified": true,
+      "direct_frozen48_canonical_kp_verified": true,
+      "rights_school_exam_text_component_verified": true,
+      "operator_final_release_batch_approval": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "next_resume_task": "P12_G04S1_113_Native40_FormalSourceScienceKP_38BatchManifest_PR143And2IncrementalEvidence_ThenRemaining6_ScienceKPExceptions_And_FinalOperatorConsolidatedRelease"
+}

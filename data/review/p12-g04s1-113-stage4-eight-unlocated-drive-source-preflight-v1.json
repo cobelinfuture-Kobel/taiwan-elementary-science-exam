@@ -1,0 +1,76 @@
+{
+  "schema_version": "P12_G04S1_113_STAGE4_EIGHT_UNLOCATED_ORIGINAL_PDF_RESOLUTION_PREFLIGHT_V1",
+  "stage": "STAGE4_SOURCE_IDENTITY_PREFLIGHT_ONLY",
+  "pr": 124,
+  "branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "source": "Connected Google Drive exact filename metadata matched to draft PR124 authoritative source IDs; PDF image/BBox not independently re-read in this step",
+  "source_anchor_ledger": "data/review/p12-g04s1-113-remaining16-pdf-native-text-firstphrase-geometry-qa-v1.json",
+  "printed_score_ledger": "data/review/p12-g04s1-113-remaining16-printed-score-proof-v2.json",
+  "source_files_found": 3,
+  "unresolved_anchor_count": 8,
+  "documents": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_009",
+      "filename": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "drive_file_id": "1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu",
+      "pdf_page_1_based": 2,
+      "anchors": [
+        "LEFT|SEQ031",
+        "RIGHT|SEQ037",
+        "RIGHT|SEQ038"
+      ],
+      "estimated_slots_not_exact": 50,
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "original_pdf_sha256_revalidation": "PENDING",
+      "page_image_visual_readback": "PENDING",
+      "original_answer_marker_bbox": "PENDING",
+      "complete_stem_options_context": "PENDING",
+      "independent_science_kp48": "PENDING",
+      "admission": "BLOCKED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_010",
+      "filename": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "drive_file_id": "1gij8o2dledUTcxvF1DvWr-22lKOvI67O",
+      "pdf_page_1_based": 2,
+      "anchors": [
+        "RIGHT|SEQ029",
+        "RIGHT|SEQ030"
+      ],
+      "estimated_slots_not_exact": 50,
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "original_pdf_sha256_revalidation": "PENDING",
+      "page_image_visual_readback": "PENDING",
+      "original_answer_marker_bbox": "PENDING",
+      "complete_stem_options_context": "PENDING",
+      "independent_science_kp48": "PENDING",
+      "admission": "BLOCKED"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_006",
+      "filename": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "drive_file_id": "1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr",
+      "pdf_page_1_based": 2,
+      "anchors": [
+        "LEFT|SEQ033",
+        "LEFT|SEQ034",
+        "LEFT|SEQ035"
+      ],
+      "estimated_slots_not_exact": 50,
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "original_pdf_sha256_revalidation": "PENDING",
+      "page_image_visual_readback": "PENDING",
+      "original_answer_marker_bbox": "PENDING",
+      "complete_stem_options_context": "PENDING",
+      "independent_science_kp48": "PENDING",
+      "admission": "BLOCKED"
+    }
+  ],
+  "eight_unlocated_source_text_anchors_recovered": 0,
+  "eight_exact_answer_marker_bboxes_certified": 0,
+  "remaining16_exact_original_answer_slots_completed": false,
+  "scan5_262_exact_bbox_completed": false,
+  "public_bank_answer_positions_unchanged": 636,
+  "release_allowed": false,
+  "next_gate": "Download/read the 3 exact original PDFs, SHA check versus 113 all29 source ledger, inspect page2 visual and reconstruct actual student response marker positions; only then clear anchors. Continue other remaining16 answer-slot reconstruction and scan5."
+}

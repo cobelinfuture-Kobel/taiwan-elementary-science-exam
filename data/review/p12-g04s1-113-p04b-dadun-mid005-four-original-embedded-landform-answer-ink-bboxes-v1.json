@@ -1,0 +1,254 @@
+{
+  "schema_version": "P12_G04S1_113_P04B_DADUN_MID005_ORIGINAL_LANDFORM_FOUR_EMBEDDED_IMAGE_EXACT_BBOX_V1",
+  "source_PR": 124,
+  "original_paper_id": "SCI_G04_S1_113_MID_005",
+  "original_school": "大墩國小",
+  "original_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+  "original_pdf_pages": 2,
+  "original_pdf_SHA256_locally_reverified": true,
+  "previous_33_native_plus_table_exact_and_four_hold_ref": "data/review/p12-g04s1-113-p04b-dadun-mid005-33native-table-exact-four-raster-image-hold-v1.json",
+  "original_image_xref": 41,
+  "original_image_pixels": [
+    265,
+    341
+  ],
+  "original_image_paper_rect_pdf_points": [
+    42.55,
+    598.3,
+    227.5,
+    836.25
+  ],
+  "newly_certified_exact_original_printed_image_ink_parenthesis_pairs": 4,
+  "four_original_raster_box_regions_are_NOT_parent_ROIs": true,
+  "original_ink_component_extraction_procedure": "Inspect exact source PDF SHA using PyMuPDF original page2 xref41 RGB embedded raster; original xref image 265x341 px and placement matrix returned by page.get_image_rects(41,transform=True). Visually verified printed four separate empty answer parenthesis pairs at TL,TR,BL,BR, separated physical connected components with mean RGB intensity >45 in each 17x24 ROI, took left/right glyph union pixel bounds and affine mapped from native image pixel space to PDF source top-left points. No OCR. Image and original third-party picture not republished.",
+  "source_geometry_29_prior_native_plus_33_new_native_vector_plus_4_actual_raster_complete": 66,
+  "original_S03_grouping_corrected_from_old_working4_4_8_to_actual8plant_4quake_4landform": true,
+  "original_full_source_parent_rights_science_admission_NOT_complete": true,
+  "original_113_frozen48KP_unchanged": true,
+  "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+  "ADMISSION_READY_new": 0,
+  "PUBLISHED_new": 0,
+  "source_only_markers": [
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G03|LANDFORM_IMAGE_CODE|001",
+      "source_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_original_pdf_page_1_based": 2,
+      "original_image_xref": 41,
+      "original_image_native_size_px": [
+        265,
+        341
+      ],
+      "original_image_bbox_pdf_pts_top_left": [
+        42.55,
+        598.3,
+        227.5,
+        836.25
+      ],
+      "original_image_transform_pdf_points": [
+        184.9499969482422,
+        0,
+        0,
+        237.9499969482422,
+        42.54999923706055,
+        598.2999877929688
+      ],
+      "original_component_left_parenthesis_bbox_px": [
+        13,
+        3,
+        20,
+        21
+      ],
+      "original_component_right_parenthesis_bbox_px": [
+        44,
+        3,
+        51,
+        21
+      ],
+      "original_answer_ink_pixel_bbox_px": [
+        13,
+        3,
+        51,
+        21
+      ],
+      "original_pdf_page_answer_bbox_pt_top_left": [
+        51.623,
+        600.393,
+        78.144,
+        612.954
+      ],
+      "original_parent": "S03_G03_ORIGINAL_FOUR_LANDFORM_PHOTOS",
+      "geometry_method": "ORIGINAL_IMAGE_XREF41_RGB_GRAY_MEAN_GT45_COMPONENT_ROI_PHYSICALLY_VISUALLY_CONFIRMED",
+      "original_response_type": "SINGLE_SHORT_ANSWER_LANDFORM_PHOTO_CODE",
+      "original_image_copyright_rights_cleared": false,
+      "student_site_source_image_copied": false,
+      "original_science_direct48KP_semantic_duplicate_rights_gate_passed": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G03|LANDFORM_IMAGE_CODE|002",
+      "source_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_original_pdf_page_1_based": 2,
+      "original_image_xref": 41,
+      "original_image_native_size_px": [
+        265,
+        341
+      ],
+      "original_image_bbox_pdf_pts_top_left": [
+        42.55,
+        598.3,
+        227.5,
+        836.25
+      ],
+      "original_image_transform_pdf_points": [
+        184.9499969482422,
+        0,
+        0,
+        237.9499969482422,
+        42.54999923706055,
+        598.2999877929688
+      ],
+      "original_component_left_parenthesis_bbox_px": [
+        142,
+        3,
+        149,
+        21
+      ],
+      "original_component_right_parenthesis_bbox_px": [
+        173,
+        3,
+        180,
+        21
+      ],
+      "original_answer_ink_pixel_bbox_px": [
+        142,
+        3,
+        180,
+        21
+      ],
+      "original_pdf_page_answer_bbox_pt_top_left": [
+        141.655,
+        600.393,
+        168.176,
+        612.954
+      ],
+      "original_parent": "S03_G03_ORIGINAL_FOUR_LANDFORM_PHOTOS",
+      "geometry_method": "ORIGINAL_IMAGE_XREF41_RGB_GRAY_MEAN_GT45_COMPONENT_ROI_PHYSICALLY_VISUALLY_CONFIRMED",
+      "original_response_type": "SINGLE_SHORT_ANSWER_LANDFORM_PHOTO_CODE",
+      "original_image_copyright_rights_cleared": false,
+      "student_site_source_image_copied": false,
+      "original_science_direct48KP_semantic_duplicate_rights_gate_passed": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G03|LANDFORM_IMAGE_CODE|003",
+      "source_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_original_pdf_page_1_based": 2,
+      "original_image_xref": 41,
+      "original_image_native_size_px": [
+        265,
+        341
+      ],
+      "original_image_bbox_pdf_pts_top_left": [
+        42.55,
+        598.3,
+        227.5,
+        836.25
+      ],
+      "original_image_transform_pdf_points": [
+        184.9499969482422,
+        0,
+        0,
+        237.9499969482422,
+        42.54999923706055,
+        598.2999877929688
+      ],
+      "original_component_left_parenthesis_bbox_px": [
+        13,
+        166,
+        20,
+        184
+      ],
+      "original_component_right_parenthesis_bbox_px": [
+        44,
+        166,
+        51,
+        184
+      ],
+      "original_answer_ink_pixel_bbox_px": [
+        13,
+        166,
+        51,
+        184
+      ],
+      "original_pdf_page_answer_bbox_pt_top_left": [
+        51.623,
+        714.135,
+        78.144,
+        726.695
+      ],
+      "original_parent": "S03_G03_ORIGINAL_FOUR_LANDFORM_PHOTOS",
+      "geometry_method": "ORIGINAL_IMAGE_XREF41_RGB_GRAY_MEAN_GT45_COMPONENT_ROI_PHYSICALLY_VISUALLY_CONFIRMED",
+      "original_response_type": "SINGLE_SHORT_ANSWER_LANDFORM_PHOTO_CODE",
+      "original_image_copyright_rights_cleared": false,
+      "student_site_source_image_copied": false,
+      "original_science_direct48KP_semantic_duplicate_rights_gate_passed": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_005|S03|G03|LANDFORM_IMAGE_CODE|004",
+      "source_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_original_pdf_page_1_based": 2,
+      "original_image_xref": 41,
+      "original_image_native_size_px": [
+        265,
+        341
+      ],
+      "original_image_bbox_pdf_pts_top_left": [
+        42.55,
+        598.3,
+        227.5,
+        836.25
+      ],
+      "original_image_transform_pdf_points": [
+        184.9499969482422,
+        0,
+        0,
+        237.9499969482422,
+        42.54999923706055,
+        598.2999877929688
+      ],
+      "original_component_left_parenthesis_bbox_px": [
+        142,
+        166,
+        149,
+        184
+      ],
+      "original_component_right_parenthesis_bbox_px": [
+        173,
+        166,
+        180,
+        184
+      ],
+      "original_answer_ink_pixel_bbox_px": [
+        142,
+        166,
+        180,
+        184
+      ],
+      "original_pdf_page_answer_bbox_pt_top_left": [
+        141.655,
+        714.135,
+        168.176,
+        726.695
+      ],
+      "original_parent": "S03_G03_ORIGINAL_FOUR_LANDFORM_PHOTOS",
+      "geometry_method": "ORIGINAL_IMAGE_XREF41_RGB_GRAY_MEAN_GT45_COMPONENT_ROI_PHYSICALLY_VISUALLY_CONFIRMED",
+      "original_response_type": "SINGLE_SHORT_ANSWER_LANDFORM_PHOTO_CODE",
+      "original_image_copyright_rights_cleared": false,
+      "student_site_source_image_copied": false,
+      "original_science_direct48KP_semantic_duplicate_rights_gate_passed": false,
+      "admission_ready": false
+    }
+  ],
+  "next_required_evidence": "For every original response: full source school stem, exact complete choices and parent photos, independent unique science decision, direct frozen48KP, duplicate, third-party photo rights, original existing operator Gate. Image/source geometry alone does not authorize publication."
+}

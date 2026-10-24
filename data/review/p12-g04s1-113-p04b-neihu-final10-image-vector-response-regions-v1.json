@@ -1,0 +1,206 @@
+{
+  "schema_version": "P12_G04S1_113_P04B_NEIHU_FINAL_TEN_FIGURE_ONLY_ANSWER_MARKERS_V1",
+  "original_paper": "SCI_G04_S1_113_FINAL_011",
+  "source_pdf_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+  "source_original_pdf_pages": 4,
+  "source_page2_vector_bboxes": 6,
+  "source_page3_raster_bboxes": 4,
+  "provenance_note": "Page2 six exact PDF vector drawn answer rectangles; page3 four visibly located boxes inside embedded diagram image with 893x1263 rendered pixel reference. Raster rectangles are visual geometry, NOT native text or final exact parent/rights admission.",
+  "full_parent_figure_rights_verified": false,
+  "science_kp_unique_answer_approved_new": 0,
+  "admission_ready_new": 0,
+  "published_new": 0,
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02|G04|MATCH|001",
+      "original_pdf_page": 2,
+      "original_answer_marker_vector_bbox_pt": [
+        343.7,
+        95.5,
+        359.6,
+        114.6
+      ],
+      "pdf_coordinate_provenance": "SOURCE_PDF_VECTOR_DRAWING_RECT",
+      "parent_group": "S02_G04",
+      "visual_image_dependency": true,
+      "source_exact_ready": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02|G04|MATCH|002",
+      "original_pdf_page": 2,
+      "original_answer_marker_vector_bbox_pt": [
+        436.7,
+        95.5,
+        452.5,
+        114.6
+      ],
+      "pdf_coordinate_provenance": "SOURCE_PDF_VECTOR_DRAWING_RECT",
+      "parent_group": "S02_G04",
+      "visual_image_dependency": true,
+      "source_exact_ready": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02|G04|MATCH|003",
+      "original_pdf_page": 2,
+      "original_answer_marker_vector_bbox_pt": [
+        343.7,
+        229.3,
+        359.6,
+        248.4
+      ],
+      "pdf_coordinate_provenance": "SOURCE_PDF_VECTOR_DRAWING_RECT",
+      "parent_group": "S02_G04",
+      "visual_image_dependency": true,
+      "source_exact_ready": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02|G04|MATCH|004",
+      "original_pdf_page": 2,
+      "original_answer_marker_vector_bbox_pt": [
+        436.7,
+        229.3,
+        452.5,
+        248.4
+      ],
+      "pdf_coordinate_provenance": "SOURCE_PDF_VECTOR_DRAWING_RECT",
+      "parent_group": "S02_G04",
+      "visual_image_dependency": true,
+      "source_exact_ready": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02|G04|MATCH|005",
+      "original_pdf_page": 2,
+      "original_answer_marker_vector_bbox_pt": [
+        343.7,
+        365,
+        359.6,
+        384.1
+      ],
+      "pdf_coordinate_provenance": "SOURCE_PDF_VECTOR_DRAWING_RECT",
+      "parent_group": "S02_G04",
+      "visual_image_dependency": true,
+      "source_exact_ready": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S02|G04|MATCH|006",
+      "original_pdf_page": 2,
+      "original_answer_marker_vector_bbox_pt": [
+        435.7,
+        365.3,
+        451.5,
+        384.4
+      ],
+      "pdf_coordinate_provenance": "SOURCE_PDF_VECTOR_DRAWING_RECT",
+      "parent_group": "S02_G04",
+      "visual_image_dependency": true,
+      "source_exact_ready": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04|G07|TF|001",
+      "original_pdf_page": 3,
+      "original_answer_marker_raster_render_bbox_px": [
+        466,
+        909,
+        488,
+        942
+      ],
+      "rendered_original_page_dimensions_px": [
+        893,
+        1263
+      ],
+      "source_image_pdf_placement_bbox_pt": [
+        308.51,
+        601.625,
+        514.8,
+        788.82
+      ],
+      "pdf_coordinate_provenance": "PDF_EMBEDDED_IMAGE_150_PERCENT_RENDER_VISUAL_MARKER_RECT_APPROX",
+      "parent_group": "S04_G07",
+      "image_crop_visual_qa_pending": true,
+      "source_exact_ready": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04|G07|TF|002",
+      "original_pdf_page": 3,
+      "original_answer_marker_raster_render_bbox_px": [
+        621,
+        909,
+        642,
+        942
+      ],
+      "rendered_original_page_dimensions_px": [
+        893,
+        1263
+      ],
+      "source_image_pdf_placement_bbox_pt": [
+        308.51,
+        601.625,
+        514.8,
+        788.82
+      ],
+      "pdf_coordinate_provenance": "PDF_EMBEDDED_IMAGE_150_PERCENT_RENDER_VISUAL_MARKER_RECT_APPROX",
+      "parent_group": "S04_G07",
+      "image_crop_visual_qa_pending": true,
+      "source_exact_ready": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04|G07|TF|003",
+      "original_pdf_page": 3,
+      "original_answer_marker_raster_render_bbox_px": [
+        466,
+        1047,
+        488,
+        1078
+      ],
+      "rendered_original_page_dimensions_px": [
+        893,
+        1263
+      ],
+      "source_image_pdf_placement_bbox_pt": [
+        308.51,
+        601.625,
+        514.8,
+        788.82
+      ],
+      "pdf_coordinate_provenance": "PDF_EMBEDDED_IMAGE_150_PERCENT_RENDER_VISUAL_MARKER_RECT_APPROX",
+      "parent_group": "S04_G07",
+      "image_crop_visual_qa_pending": true,
+      "source_exact_ready": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04|G07|TF|004",
+      "original_pdf_page": 3,
+      "original_answer_marker_raster_render_bbox_px": [
+        621,
+        1047,
+        642,
+        1078
+      ],
+      "rendered_original_page_dimensions_px": [
+        893,
+        1263
+      ],
+      "source_image_pdf_placement_bbox_pt": [
+        308.51,
+        601.625,
+        514.8,
+        788.82
+      ],
+      "pdf_coordinate_provenance": "PDF_EMBEDDED_IMAGE_150_PERCENT_RENDER_VISUAL_MARKER_RECT_APPROX",
+      "parent_group": "S04_G07",
+      "image_crop_visual_qa_pending": true,
+      "source_exact_ready": false,
+      "admission_ready": false
+    }
+  ],
+  "original_source_id_grammar": "SCI_G04_S1_113_*|Snn|Gnn|TYPE|nnn (explicit parent group segments where a grouped source is present)"
+}

@@ -1,0 +1,34 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const read=n=>JSON.parse(fs.readFileSync(new URL('../data/review/'+n,import.meta.url),'utf8'));
+const work=read('p12-g04s1-113-native5-unpublished88-source-gate-worklist-v1.json');
+const textEvidence=read('p12-g04s1-113-missing15-native5-107-tfmc-text-anchor-readback-v1.json');
+const previous=read('p12-g04s1-113-all29-411-unique-question-review-union-v4.json');
+const published=read('p12-g04s1-113-main-published114-source-suppression-readback-v9.json');
+test('unpublished88 exactly covers remaining printed marker IDs once, not previously published',()=>{
+  const old=textEvidence.records.flatMap(p=>p.sections.flatMap(s=>s.markers));
+  const unpublished=old.filter(x=>!x.is_published_already).map(x=>x.normalized_id);
+  assert.equal(old.length,107);
+  assert.equal(unpublished.length,88);
+  assert.deepEqual(new Set(work.records.map(x=>x.normalized_id)),new Set(unpublished));
+  assert.equal(new Set(work.records.map(x=>x.normalized_id)).size,88);
+  assert.ok(work.records.every(x=>x.status==='HOLD_SOURCE_AND_FORMAL_ADMISSION_GATES'));
+  assert.ok(work.records.every(x=>!x.formal_science_kp_approved&&!x.admission_ready&&!x.published));
+});
+test('44 prior model review links and two prior Science HOLDs are provenance not approval',()=>{
+  assert.equal(work.summary.pending_native_tfmc,88);
+  assert.equal(work.records.filter(x=>x.historical_review_id!==null).length,44);
+  assert.equal(work.records.filter(x=>x.historical_review_id===null).length,44);
+  assert.equal(work.records.filter(x=>x.historical_model_science_status==='SCIENCE_HOLD').length,2);
+  assert.equal(work.records.filter(x=>x.historical_review_id!==null&&!x.historical_model_kp_candidate).length,17);
+  const priorIds=new Set(previous.rows.map(x=>x.review_id));
+  assert.ok(work.records.filter(x=>x.historical_review_id).every(x=>priorIds.has(x.historical_review_id)));
+  assert.ok(work.records.every(x=>x.gate_open.includes('PDF_ORIGINAL_GLYPH_BBOX')));
+  assert.ok(work.records.every(x=>x.gate_open.includes('PUBLIC_AND_114_SEMANTIC_DEDUP')));
+  assert.equal(work.summary.formal_science_kp_approved_new,0);
+  assert.equal(work.summary.admission_ready_new,0);
+  assert.equal(work.summary.published_new,0);
+  assert.equal(published.newly_published_113_slots,114);
+  assert.equal(published.public_total_answer_slots,750);
+});

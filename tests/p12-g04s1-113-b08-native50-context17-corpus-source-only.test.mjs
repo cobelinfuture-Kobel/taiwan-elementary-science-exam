@@ -68,6 +68,11 @@ test('B08 exact 7 grouped MC + 10 original codebank matching remain proposals on
 });
 test('B08 114/717 plus all current G04 public records lexical preflight never silently certifies duplicates or admission',()=>{
  const d=dedup.build();
+ console.log('B08_CONTEXT17_LEXICAL_CORPUS_EVIDENCE '+JSON.stringify({
+   original114:d.original_114_source_occurrences,publicG04:d.public_G04S1_records,
+   candidateRows:d.original_B08_candidate_rows,highNearRows:d.detected_lexical_high_near_rows,
+   hits:d.rows.filter(x=>x.lexical_hits_ge_078.length>0).map(x=>({ordinal:x.ordinal,matches:x.lexical_hits_ge_078}))
+ }));
  assert.equal(d.original_114_source_occurrences,717);
  assert.ok(d.public_G04S1_records>=749);
  assert.equal(d.original_B08_candidate_rows,17);

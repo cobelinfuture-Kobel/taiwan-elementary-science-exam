@@ -45,14 +45,14 @@ function build(){
    operator_admission_ready:false};
  });
  return {schema_version:'P12_G04S1_113_B08_CONTEXT17_114717_PUBLIC_LEXICAL_PREFLIGHT_V1',
-  114_original_source_occurrences:original.length,public_G04S1_records:publicRows.length,
+  original_114_source_occurrences:original.length,public_G04S1_records:publicRows.length,
   student_bank_module_file_count:files.length,original_B08_candidate_rows:rows.length,
   detected_lexical_high_near_rows:rows.filter(x=>x.lexical_hits_ge_078.length).length,
   scope_limits:'Short source excerpt is NOT the original independent question without shared codebank or speaker/table context. No semantic duplicate certification by lexical score.',
   semantic_duplicate_certified:false,FORMAL_SCIENCE_KP_APPROVED_NEW:0,ADMISSION_READY_NEW:0,PUBLISHED_NEW:0,rows};
 }
 if(require.main===module){const d=build();console.log('B08_DUPLICATE_PREFLIGHT_SUMMARY '+JSON.stringify({
- original114:d['114_original_source_occurrences'],publicG04:d.public_G04S1_records,
+ original114:d.original_114_source_occurrences,publicG04:d.public_G04S1_records,
  candidates:d.original_B08_candidate_rows,highNearRows:d.detected_lexical_high_near_rows,
  hits:d.rows.filter(x=>x.lexical_hits_ge_078.length).map(x=>({ordinal:x.ordinal,near:x.lexical_hits_ge_078}))
  }))}

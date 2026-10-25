@@ -23,6 +23,7 @@ test("B08 two original source parents and seven MC children are inseparable",()=
  assert.equal(result.blocks.length,2);assert.deepEqual(result.blocks.map(g=>g.items.length),[3,4]);
  assert.deepEqual([result.contextGroups,result.answerSlots,result.standaloneChoice],[2,7,0]);
  assert.deepEqual(result.blocks.map(g=>g.shared.table?.rows?.length??0),[3,0]);
+ assert.deepEqual(result.blocks[0].secondary_canonical_kp_ids,["sci_g04s1_02_14"]);
  assert.ok(result.blocks[1].shared.passage.includes("書鴻"));
  assert.ok(result.blocks[1].shared.passage.includes("雅萍"));
  assert.ok(children.every(c=>c.type==="mcq"&&c.source_page_pdf_1_based===2));

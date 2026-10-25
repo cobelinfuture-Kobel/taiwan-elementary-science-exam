@@ -1,0 +1,607 @@
+{
+  "schema_version": "P12_G04S1_113_B08_MATCHING10_TWO_PARENTS_EXACT_OPERATOR_ELIGIBLE_V1",
+  "operator_input_verbatim": "P12_G04S1_113_B08_Matching10_OriginalParentCodebank_ScienceUnique_KP48_Dedup_Rights_ExactOperatorEligibleOnly_ThenSelectivePR_CI_Main_PagesE2E_33HOLD_NoB01ToB07Reopen",
+  "authority": "113 KANGHSUAN G04S1 FROZEN48",
+  "source_review_pr": 124,
+  "source_review_pr_draft_unmerged": true,
+  "main_before": "b1663cd451bf6d1e5294dbfd4ce130c2633fe5df",
+  "prior_live_published_source_slots": 323,
+  "prior_live_answer_slots": 959,
+  "prior_live_context_groups": 38,
+  "original_source_position_count": 50,
+  "already_published_MC7": [
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393
+  ],
+  "eligible_matching10": [
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    394,
+    395,
+    396,
+    397
+  ],
+  "separate_HOLD33": [
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    398,
+    399,
+    400
+  ],
+  "source_exams": [
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_006",
+      "school": "安和國小",
+      "name": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "pdf_page_1based": 2,
+      "original_parent_id": "ANHE_S03_G02",
+      "question_section": "三、綜合題（二）",
+      "original_parent_text": "(二) 下列有關光線的作用與現象，請填入正確的代號。",
+      "codebank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "pdf_page_visually_checked": true,
+      "original_figures_needed": false,
+      "rights_route": "TAIWAN_REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_CAPTION_TEXT_ONLY_NO_THIRD_PARTY_PICTURE"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_018",
+      "school": "成功國小",
+      "name": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+      "pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "pdf_page_1based": 2,
+      "original_parent_id": "CHENGGONG_S04_G01",
+      "question_section": "四、配合題（一）",
+      "original_parent_text": "1.下列的水生生物一般是生活在哪種水域環境裡？填入正確代號。",
+      "codebank": [
+        [
+          "A",
+          "河川"
+        ],
+        [
+          "B",
+          "海洋"
+        ]
+      ],
+      "pdf_page_visually_checked": true,
+      "original_figures_needed_in_original": true,
+      "original_caption_text_sufficient_for_science_matching": true,
+      "original_figures_not_public": true,
+      "rights_route": "TAIWAN_REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_CAPTION_TEXT_ONLY_NO_THIRD_PARTY_PICTURE"
+    }
+  ],
+  "dedup": {
+    "source_scope": "original113 24 native PDFs + 5 scan PDFs/16 pages manually compared to matching parent phrases/options + inherited cross-year original114 717 occurrences and published main749 rows",
+    "source_113_24_native_checked_inherited": true,
+    "scan5_pages_visited": 16,
+    "scan5_same_complete_parent_and_child_match_found": 0,
+    "source_114_items_prior_screened": 717,
+    "previous_public_records_prior_screened": 749,
+    "full_original_or_option_reorder_dup_detected_in_focused10": 0,
+    "sameKP_different_question_allowed": true
+  },
+  "records": [
+    {
+      "ordinal": 362,
+      "source_original_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|001",
+      "source_alias_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|1",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "original_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page_1based": 2,
+      "source_original_answer_bbox_pdf_pts": [
+        371.1,
+        233.3,
+        406.2,
+        247.4
+      ],
+      "bbox_provenance": "ORIGINAL_PDF_NATIVE_TEXT_CHARS",
+      "original_parent_id": "ANHE_S03_G02",
+      "original_child_caption_or_text": "兩面鏡子中的橡皮擦。",
+      "original_ordered_codebank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "science_unique_answer_not_school_key": "C",
+      "science_independent_explanation": "兩面鏡子會將橡皮擦的光反射到觀察者眼睛，屬於光的反射現象。",
+      "direct_frozen48kp": "sci_g04s1_03_07",
+      "rights_route": "TAIWAN_REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_CAPTION_TEXT_ONLY_NO_THIRD_PARTY_PICTURE",
+      "rights_figure_excluded": true,
+      "source_exact_parent_accepted": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "crossyear_focused_dedup_accepted": true,
+      "article9_school_question_text_only_accepted": true,
+      "formal_science_kp_approved": true,
+      "exact_operator_conditional_eligible": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "ordinal": 363,
+      "source_original_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|002",
+      "source_alias_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|2",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "original_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page_1based": 2,
+      "source_original_answer_bbox_pdf_pts": [
+        371.1,
+        251.4,
+        406.2,
+        265.5
+      ],
+      "bbox_provenance": "ORIGINAL_PDF_NATIVE_TEXT_CHARS",
+      "original_parent_id": "ANHE_S03_G02",
+      "original_child_caption_or_text": "救護車上的閃燈。",
+      "original_ordered_codebank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "science_unique_answer_not_school_key": "B",
+      "science_independent_explanation": "救護車的閃燈用來提醒與警示其他用路人，屬光的指示與警示。",
+      "direct_frozen48kp": "sci_g04s1_03_09",
+      "rights_route": "TAIWAN_REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_CAPTION_TEXT_ONLY_NO_THIRD_PARTY_PICTURE",
+      "rights_figure_excluded": true,
+      "source_exact_parent_accepted": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "crossyear_focused_dedup_accepted": true,
+      "article9_school_question_text_only_accepted": true,
+      "formal_science_kp_approved": true,
+      "exact_operator_conditional_eligible": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "ordinal": 364,
+      "source_original_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|003",
+      "source_alias_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|3",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "original_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page_1based": 2,
+      "source_original_answer_bbox_pdf_pts": [
+        371.1,
+        269.7,
+        406.2,
+        283.8
+      ],
+      "bbox_provenance": "ORIGINAL_PDF_NATIVE_TEXT_CHARS",
+      "original_parent_id": "ANHE_S03_G02",
+      "original_child_caption_or_text": "月光下的人影。",
+      "original_ordered_codebank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "science_unique_answer_not_school_key": "D",
+      "science_independent_explanation": "月光照射人體時，光沿直線傳播並受人體遮擋，在地面形成影子。",
+      "direct_frozen48kp": "sci_g04s1_03_06",
+      "rights_route": "TAIWAN_REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_CAPTION_TEXT_ONLY_NO_THIRD_PARTY_PICTURE",
+      "rights_figure_excluded": true,
+      "source_exact_parent_accepted": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "crossyear_focused_dedup_accepted": true,
+      "article9_school_question_text_only_accepted": true,
+      "formal_science_kp_approved": true,
+      "exact_operator_conditional_eligible": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "ordinal": 365,
+      "source_original_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|004",
+      "source_alias_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|4",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "original_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page_1based": 2,
+      "source_original_answer_bbox_pdf_pts": [
+        371.1,
+        287.9,
+        406.2,
+        302
+      ],
+      "bbox_provenance": "ORIGINAL_PDF_NATIVE_TEXT_CHARS",
+      "original_parent_id": "ANHE_S03_G02",
+      "original_child_caption_or_text": "歡樂耶誕城的燈飾。",
+      "original_ordered_codebank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "science_unique_answer_not_school_key": "A",
+      "science_independent_explanation": "歡樂耶誕城的燈飾主要用於裝飾與娛樂。",
+      "direct_frozen48kp": "sci_g04s1_03_10",
+      "rights_route": "TAIWAN_REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_CAPTION_TEXT_ONLY_NO_THIRD_PARTY_PICTURE",
+      "rights_figure_excluded": true,
+      "source_exact_parent_accepted": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "crossyear_focused_dedup_accepted": true,
+      "article9_school_question_text_only_accepted": true,
+      "formal_science_kp_approved": true,
+      "exact_operator_conditional_eligible": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "ordinal": 366,
+      "source_original_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|005",
+      "source_alias_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|5",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "original_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page_1based": 2,
+      "source_original_answer_bbox_pdf_pts": [
+        371.1,
+        306.2,
+        406.2,
+        320.3
+      ],
+      "bbox_provenance": "ORIGINAL_PDF_NATIVE_TEXT_CHARS",
+      "original_parent_id": "ANHE_S03_G02",
+      "original_child_caption_or_text": "街角轉彎處的反光鏡。",
+      "original_ordered_codebank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "science_unique_answer_not_school_key": "C",
+      "science_independent_explanation": "街角轉彎處的反光鏡透過反射改變光線方向，讓轉彎處的人看見另一側。",
+      "direct_frozen48kp": "sci_g04s1_03_08",
+      "rights_route": "TAIWAN_REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_CAPTION_TEXT_ONLY_NO_THIRD_PARTY_PICTURE",
+      "rights_figure_excluded": true,
+      "source_exact_parent_accepted": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "crossyear_focused_dedup_accepted": true,
+      "article9_school_question_text_only_accepted": true,
+      "formal_science_kp_approved": true,
+      "exact_operator_conditional_eligible": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "ordinal": 367,
+      "source_original_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|006",
+      "source_alias_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|6",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "original_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page_1based": 2,
+      "source_original_answer_bbox_pdf_pts": [
+        371.1,
+        324.3,
+        406.2,
+        338.4
+      ],
+      "bbox_provenance": "ORIGINAL_PDF_NATIVE_TEXT_CHARS",
+      "original_parent_id": "ANHE_S03_G02",
+      "original_child_caption_or_text": "行人穿越號誌燈。",
+      "original_ordered_codebank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "science_unique_answer_not_school_key": "B",
+      "science_independent_explanation": "行人穿越號誌燈用不同燈號傳達行人通行資訊，屬指示與警示。",
+      "direct_frozen48kp": "sci_g04s1_03_09",
+      "rights_route": "TAIWAN_REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_CAPTION_TEXT_ONLY_NO_THIRD_PARTY_PICTURE",
+      "rights_figure_excluded": true,
+      "source_exact_parent_accepted": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "crossyear_focused_dedup_accepted": true,
+      "article9_school_question_text_only_accepted": true,
+      "formal_science_kp_approved": true,
+      "exact_operator_conditional_eligible": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "ordinal": 394,
+      "source_original_id": "SCI_G04_S1_113_MID_018|S04|G01|MATCH|001",
+      "source_alias_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|1",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "original_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "original_pdf_page_1based": 2,
+      "source_original_answer_bbox_pdf_pts": [
+        517.83,
+        222.3,
+        538.88,
+        234.21
+      ],
+      "bbox_provenance": "ORIGINAL_PDF_VECTOR_AQUATIC_FIGURE_LABEL_BOX",
+      "original_parent_id": "CHENGGONG_S04_G01",
+      "original_child_caption_or_text": "苦花魚",
+      "original_ordered_codebank": [
+        [
+          "A",
+          "河川"
+        ],
+        [
+          "B",
+          "海洋"
+        ]
+      ],
+      "science_unique_answer_not_school_key": "A",
+      "science_independent_explanation": "苦花魚通常棲息於淡水溪流、河川，對應 A 河川。",
+      "direct_frozen48kp": "sci_g04s1_02_02",
+      "rights_route": "TAIWAN_REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_CAPTION_TEXT_ONLY_NO_THIRD_PARTY_PICTURE",
+      "rights_figure_excluded": true,
+      "source_exact_parent_accepted": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "crossyear_focused_dedup_accepted": true,
+      "article9_school_question_text_only_accepted": true,
+      "formal_science_kp_approved": true,
+      "exact_operator_conditional_eligible": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "ordinal": 395,
+      "source_original_id": "SCI_G04_S1_113_MID_018|S04|G01|MATCH|002",
+      "source_alias_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|2",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "original_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "original_pdf_page_1based": 2,
+      "source_original_answer_bbox_pdf_pts": [
+        652.22,
+        222.3,
+        673.28,
+        234.21
+      ],
+      "bbox_provenance": "ORIGINAL_PDF_VECTOR_AQUATIC_FIGURE_LABEL_BOX",
+      "original_parent_id": "CHENGGONG_S04_G01",
+      "original_child_caption_or_text": "小丑魚",
+      "original_ordered_codebank": [
+        [
+          "A",
+          "河川"
+        ],
+        [
+          "B",
+          "海洋"
+        ]
+      ],
+      "science_unique_answer_not_school_key": "B",
+      "science_independent_explanation": "小丑魚為海水魚，通常生活於海洋，對應 B 海洋。",
+      "direct_frozen48kp": "sci_g04s1_02_02",
+      "rights_route": "TAIWAN_REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_CAPTION_TEXT_ONLY_NO_THIRD_PARTY_PICTURE",
+      "rights_figure_excluded": true,
+      "source_exact_parent_accepted": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "crossyear_focused_dedup_accepted": true,
+      "article9_school_question_text_only_accepted": true,
+      "formal_science_kp_approved": true,
+      "exact_operator_conditional_eligible": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "ordinal": 396,
+      "source_original_id": "SCI_G04_S1_113_MID_018|S04|G01|MATCH|003",
+      "source_alias_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|3",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "original_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "original_pdf_page_1based": 2,
+      "source_original_answer_bbox_pdf_pts": [
+        517.83,
+        290.51,
+        538.88,
+        302.38
+      ],
+      "bbox_provenance": "ORIGINAL_PDF_VECTOR_AQUATIC_FIGURE_LABEL_BOX",
+      "original_parent_id": "CHENGGONG_S04_G01",
+      "original_child_caption_or_text": "海藻",
+      "original_ordered_codebank": [
+        [
+          "A",
+          "河川"
+        ],
+        [
+          "B",
+          "海洋"
+        ]
+      ],
+      "science_unique_answer_not_school_key": "B",
+      "science_independent_explanation": "本題的海藻以一般海洋棲地判斷，對應 B 海洋；不作所有藻類只存活海水的絕對主張。",
+      "direct_frozen48kp": "sci_g04s1_02_02",
+      "rights_route": "TAIWAN_REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_CAPTION_TEXT_ONLY_NO_THIRD_PARTY_PICTURE",
+      "rights_figure_excluded": true,
+      "source_exact_parent_accepted": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "crossyear_focused_dedup_accepted": true,
+      "article9_school_question_text_only_accepted": true,
+      "formal_science_kp_approved": true,
+      "exact_operator_conditional_eligible": true,
+      "admission_ready": true,
+      "published": false
+    },
+    {
+      "ordinal": 397,
+      "source_original_id": "SCI_G04_S1_113_MID_018|S04|G01|MATCH|004",
+      "source_alias_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|4",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "original_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "original_pdf_page_1based": 2,
+      "source_original_answer_bbox_pdf_pts": [
+        652.22,
+        290.51,
+        673.28,
+        302.38
+      ],
+      "bbox_provenance": "ORIGINAL_PDF_VECTOR_AQUATIC_FIGURE_LABEL_BOX",
+      "original_parent_id": "CHENGGONG_S04_G01",
+      "original_child_caption_or_text": "臺灣水龍",
+      "original_ordered_codebank": [
+        [
+          "A",
+          "河川"
+        ],
+        [
+          "B",
+          "海洋"
+        ]
+      ],
+      "science_unique_answer_not_school_key": "A",
+      "science_independent_explanation": "臺灣水龍為生長於淡水水域的水生植物，對應 A 河川；不把原卷植物圖當成已授權插畫。",
+      "direct_frozen48kp": "sci_g04s1_02_02",
+      "rights_route": "TAIWAN_REGULATED_SCHOOL_EXAM_ARTICLE9_QUESTION_CAPTION_TEXT_ONLY_NO_THIRD_PARTY_PICTURE",
+      "rights_figure_excluded": true,
+      "source_exact_parent_accepted": true,
+      "science_unique_answer_accepted": true,
+      "direct_kp_accepted": true,
+      "crossyear_focused_dedup_accepted": true,
+      "article9_school_question_text_only_accepted": true,
+      "formal_science_kp_approved": true,
+      "exact_operator_conditional_eligible": true,
+      "admission_ready": true,
+      "published": false
+    }
+  ],
+  "metrics_before_live": {
+    "FORMAL_SCIENCE_KP_APPROVED_new": 10,
+    "ADMISSION_READY_new": 10,
+    "PUBLISHED_new": 0
+  },
+  "student_representation": "2 atomic source context groups with original code bank, child type short each one A-D or A-B code blank; NOT converted to multiple choice; original caption-only text without PDF images",
+  "original_school_teacher_key_authenticated": false,
+  "authority_or_rules_changed": false,
+  "operator_approval": "EXACT_ELIGIBLE_ONLY_PRESERVING_SOURCE10",
+  "next_live_gate": "focused CI → selective main PR merge → main readback → live Pages E2E",
+  "excluded_priorB01_B07": true
+}

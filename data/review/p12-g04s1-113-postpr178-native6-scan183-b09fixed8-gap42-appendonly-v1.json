@@ -17,9 +17,11 @@
     "scanned_original_papers_without_native_full_semantic_check": 5,
     "source_exact_bbox_from_prior_PR178": 155,
     "source_exact_bbox_added_now_HeshunMID002": 28,
-    "source_exact_bbox_cumulative": 183,
+    "source_exact_bbox_cumulative": 188,
     "previous_section_planning262_not_final_exact_child_count": 262,
-    "planning_count_difference_not_accepted_as_exact_remaining": 79
+    "planning_count_difference_not_accepted_as_exact_remaining": 74,
+    "Zhongxiao_FINAL002_page1_rotation_aware_MC_positions_added": 5,
+    "shiHu_parent_matching_line_draw_no_child_brackets": 1
   },
   "B09": {
     "existing_exact_frozen_source_lane_ordinals": [
@@ -41,7 +43,7 @@
   },
   "remaining_Gates": {
     "Native6": "Five scanned 113 originals to source-semantic visually compare; source component rights and exact operator roster final approval still pending",
-    "Scan5": "Heshun MID002 still has graph/table source parents beyond 28 source brackets; Zhongxiao FINAL002 and ShiHu drawing/matching unverified",
+    "Scan5": "Heshun MID 28 + Zhongxiao FINAL 5 source boxes accepted; remaining 74 is planning difference only, including Heshun table/moon figure, Zhongxiao remaining 4-page groups, ShiHu drawn-line matching dependency.",
     "B09": "No extra 42 source IDs in frozen batch authority; operator must provide an accepted authority expansion or release scope still eight"
   },
   "official_new_metrics": {
@@ -52,5 +54,7 @@
   "student_bank_files_modified": 0,
   "no_B01_to_B08_reopen": true,
   "no_Frozen_48_KP_modified": true,
-  "source_only_append_no_source_PDF_student_publish": true
+  "source_only_append_no_source_PDF_student_publish": true,
+  "ZhongxiaoFINAL5_source_checkpoint": "data/review/p12-g04s1-113-postpr178-zhongxiao-final-page1-5MC-rotation-aware-exact-raster-bbox-v1.json",
+  "ShiHu_matching_parent_hold": "data/review/p12-g04s1-113-postpr178-shihu-page1-original-line-matching-parent-hold-v1.json"
 }

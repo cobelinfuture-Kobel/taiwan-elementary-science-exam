@@ -26,7 +26,7 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 .group-context{font-size:9pt;line-height:1.35;padding:2mm;letter-spacing:0}
 .group-context h4{font-size:10pt;line-height:1.4;margin:0 0 2mm}
 .group-context .group-instructions{font-weight:600;margin:1mm 0}
-.group-context .group-passage{font-size:8.5pt;line-height:1.42;margin:2mm 0}
+.group-context .group-passage{font-size:8.5pt;line-height:1.42;margin:2mm 0;white-space:pre-line}
 .group-context .choice-bank{font-size:8.5pt;display:grid;grid-template-columns:1fr;gap:.5mm;margin:2mm 0;padding:1mm 2mm;background:#f8f8f8}
 .group-context .question{font-size:9pt;line-height:1.3;margin:1.5mm 0;break-inside:avoid}
 .group-context .science-diagram{display:block;width:100%;max-width:100%;height:auto;max-height:49mm;margin:1.5mm auto;object-fit:contain}
@@ -65,7 +65,7 @@ button:disabled{opacity:.45;cursor:not-allowed}.buttons{display:flex;gap:8px;mar
 <script type="module">
 import { loadAuthority, unitsFor, resolveUnit } from "../assets/js/authority-adapter.mjs";
 import { assertScorelessMetadata, removePrintedScoringInstructions } from "../assets/js/scoreless-contract.mjs";
-import { loadEmbeddedHistoricalBank } from "../assets/js/historical-bank-ox-v6.mjs?v=20261023-p12-113-b06-exact16-release";
+import { loadEmbeddedHistoricalBank } from "../assets/js/historical-bank-ox-v6.mjs?v=20261025-p12-113-b08-mc7-two-parent-release";
  import { chooseExactBlocks } from "../assets/js/worksheet-nonrepeat-selection.mjs?v=20261012-p12remaining51v1";
 import { renderScienceDiagram } from "../assets/js/science-diagrams-p09.mjs?v=20261012-p09v1";
 import { renderP12G03FinalFigure } from "../assets/js/p12-g03final-figure-reconstruction.mjs?v=20261012-g03finalv1";

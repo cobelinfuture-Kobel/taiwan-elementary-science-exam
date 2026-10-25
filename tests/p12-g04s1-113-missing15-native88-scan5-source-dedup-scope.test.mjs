@@ -55,7 +55,9 @@ test("Unpublished native88 original source IDs have no exact collision with any 
     inspected++; (doc.blocks??[]).forEach(accept);(doc.groups??[]).forEach(accept);
   }
   assert.ok(inspected>25,"published bank reads");
-  for(const q of target)assert.equal(published.has(q.source_slot_id)||published.has(q.source_alias_id),false,"source already released "+q.source_slot_id);
+  const overlap=target.filter(q=>published.has(q.source_slot_id)||published.has(q.source_alias_id));
+  console.log("MISSING15_NATIVE88_MAIN_EXACT_SOURCE_CROSSOVER",JSON.stringify(overlap.map(q=>({source_slot_id:q.source_slot_id,alias:q.source_alias_id}))));
+  assert.equal(overlap.length,0,"Native88 current main published source-ID crossovers");
 });
 
 test("No B09 frozen8 scope inflation, no Frozen48 modification and no B01 to B08 publication change",()=>{

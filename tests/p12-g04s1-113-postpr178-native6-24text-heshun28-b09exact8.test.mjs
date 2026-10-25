@@ -47,3 +47,25 @@ test("B09 remains eight exact source positions; 42 not invented",()=>{
  assert.equal(authority.units.filter(x=>x.grade===4&&x.semester===1).reduce((a,x)=>a+x.knowledge_points.length,0),48);
  assert.deepEqual(rec.official_new_metrics,{FORMAL_SCIENCE_KP_APPROVED:0,ADMISSION_READY:0,PUBLISHED:0});
 });
+
+
+test("Zhongxiao rotated original PDF BBox and ShiHu line-matching parent are fail-closed",()=>{
+ const z=load(root+"p12-g04s1-113-postpr178-zhongxiao-final-page1-5MC-rotation-aware-exact-raster-bbox-v1.json");
+ const sh=load(root+"p12-g04s1-113-postpr178-shihu-page1-original-line-matching-parent-hold-v1.json");
+ assert.equal(z.original_MC_printed_answer_blank_boxes.length,5);
+ assert.deepEqual(z.original_MC_printed_answer_blank_boxes.map(x=>x[0]),[1,2,4,5,7]);
+ const orig=old.papers.find(x=>x.original_paper_id==="SCI_G04_S1_113_FINAL_002");
+ assert.equal(z.original_pdf_sha256,orig.original_pdf_sha256);
+ assert.equal(z.source_original_raster_rgb_sha256,orig.pages[0].original_raster_rgb_sha256);
+ for(const [num,rot,src] of z.original_MC_printed_answer_blank_boxes){
+  assert.equal(rot.length,4);
+  assert.deepEqual(src,[rot[1],1684-rot[2],rot[3],1684-rot[0]]);
+  assert.ok(src[0]>=0&&src[2]<=2382&&src[1]>=0&&src[3]<=1684);
+ }
+ assert.equal(sh.source_exact_child_raster_bbox_accepted,0);
+ assert.equal(sh.source_answer_line_slots_no_distinct_parentheses,true);
+ assert.equal(sh.ADMISSION_READY_new,0);
+ assert.equal(rec.source_global_statistics.source_exact_bbox_cumulative,188);
+ assert.equal(rec.source_global_statistics.planning_count_difference_not_accepted_as_exact_remaining,74);
+ assert.equal(z.PUBLISHED_new,0);
+});

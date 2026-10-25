@@ -1,0 +1,341 @@
+{
+  "schema_version": "SCIENCE_P12_G04S1_113_B08_MC7_TWO_PARENT_PUBLIC_V1",
+  "public_site_integrated": true,
+  "operator_instruction_verbatim": "P12_G04S1_113_B08_MC7_ExactOperatorCohort387to393_TwoParentStudentRenderer_ThenSelectiveStudentPR_FocusedCI_MainReadback_PagesLiveE2E_Matching10Separate_33HOLD_NoB01ToB07Reopen",
+  "operator_scope_ordinals": [
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393
+  ],
+  "requires_operator_batch_manifest_approval": false,
+  "expected_blocks": 2,
+  "expected_answer_slots": 7,
+  "expected_standalone_true_false": 0,
+  "expected_standalone_choice": 0,
+  "expected_context_groups": 2,
+  "original_teacher_answer_key_authenticated": false,
+  "original_cropped_images_included": false,
+  "source_image_geometry_verified": "ORIGINAL_CHENGGONG_P2_7_NATIVE_ANSWER_BBOX_AND_TWO_PARENT_VISUAL_SCAN5_DEDUP",
+  "source_evidence_ref": "data/review/p12-g04s1-113-b08-mc7-originalvisual-scan5-article9-frozen48-operator-PENDING-v1.json",
+  "source_review_pr": 124,
+  "blocks": [
+    {
+      "type": "group",
+      "id": "P12_113_G04S1_B08_CHENGGONG_PARENT_G04",
+      "source": "CERTIFIED_CONTEXT_RECONSTRUCTED",
+      "title": "水域環境調查結果",
+      "unit": "4-S1-U02",
+      "canonical_kp_id": "sci_g04s1_02_02",
+      "grade": 4,
+      "semester": 1,
+      "source_id": "SCI_G04_S1_113_MID_018",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "source_page_pdf_1_based": 2,
+      "source_parent_original_id": "CHENGGONG_S03_G04",
+      "source_review_status": "GPT6_SCIENCE_CONTEXT_REVIEWED",
+      "certification_status": "OPERATOR_APPROVED_PUBLIC",
+      "operator_publication_approval": true,
+      "source_image_geometry_verified": true,
+      "dependencies_complete": true,
+      "original_cropped_assets_included": false,
+      "teacher_answer_key_authenticated": false,
+      "copyright_path": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "rights_license_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_material_scope": "EXAM_QUESTION_TEXT_ONLY",
+      "shared": {
+        "instructions": "賈老師的自然課，要同學們把假日到水域環境調查的結果寫在黑板上，請你依據他們的報告來回答下列問題。",
+        "passage": "",
+        "choiceBank": [],
+        "table": {
+          "headers": [
+            "觀察項目",
+            "第一組",
+            "第二組"
+          ],
+          "rows": [
+            [
+              "水的深度",
+              "水淺",
+              "水深"
+            ],
+            [
+              "水域情形",
+              "水流緩慢",
+              "廣闊無邊"
+            ],
+            [
+              "觀察到的生物",
+              "有浮萍",
+              "有海藻"
+            ]
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "P12_113_G04S1_B08_CHENGGONG_MC_387",
+          "source_slot_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|001",
+          "source_original_slot_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|001",
+          "source_pdf_bbox_pts_top_left": [
+            30.24,
+            697.18,
+            72.36,
+            711.22
+          ],
+          "source_page_pdf_1_based": 2,
+          "original_question_number": "001",
+          "type": "mcq",
+          "stem": "石田螺可以在哪一組的水域環境中生存？",
+          "options": [
+            "①第一組",
+            "②第二組",
+            "③兩者皆可"
+          ],
+          "answer": "①",
+          "answer_explanation": "第一組水淺、水流緩慢且有浮萍，為淡水水域，適合一般石田螺；第二組為有海藻的廣闊海域",
+          "answer_assumption": "依原卷題文、選項與共用情境獨立科學判答，非原校教師答案表。",
+          "canonical_kp_id": "sci_g04s1_02_02",
+          "grade": 4,
+          "semester": 1,
+          "unit": "4-S1-U02",
+          "operator_publication_approval": true,
+          "rights_license_status": "REGULATED_EXAM_QUESTION_ART9",
+          "public_material_scope": "EXAM_QUESTION_TEXT_ONLY",
+          "original_teacher_answer_key_authenticated": false,
+          "source": "P12_113_B08_MC7_EXACT_OPERATOR_APPROVED_TEXT_ONLY"
+        },
+        {
+          "id": "P12_113_G04S1_B08_CHENGGONG_MC_388",
+          "source_slot_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|002",
+          "source_original_slot_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|002",
+          "source_pdf_bbox_pts_top_left": [
+            30.24,
+            734.62,
+            72.36,
+            748.66
+          ],
+          "source_page_pdf_1_based": 2,
+          "original_question_number": "002",
+          "type": "mcq",
+          "stem": "小丑魚可以在哪一組的水域環境中生存？",
+          "options": [
+            "①第一組",
+            "②第二組",
+            "③兩者皆可"
+          ],
+          "answer": "②",
+          "answer_explanation": "小丑魚為海洋生物，符合第二組水深、廣闊且有海藻的水域",
+          "answer_assumption": "依原卷題文、選項與共用情境獨立科學判答，非原校教師答案表。",
+          "canonical_kp_id": "sci_g04s1_02_02",
+          "grade": 4,
+          "semester": 1,
+          "unit": "4-S1-U02",
+          "operator_publication_approval": true,
+          "rights_license_status": "REGULATED_EXAM_QUESTION_ART9",
+          "public_material_scope": "EXAM_QUESTION_TEXT_ONLY",
+          "original_teacher_answer_key_authenticated": false,
+          "source": "P12_113_B08_MC7_EXACT_OPERATOR_APPROVED_TEXT_ONLY"
+        },
+        {
+          "id": "P12_113_G04S1_B08_CHENGGONG_MC_389",
+          "source_slot_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|003",
+          "source_original_slot_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|003",
+          "source_pdf_bbox_pts_top_left": [
+            28.32,
+            772.09,
+            70.44,
+            786.13
+          ],
+          "source_page_pdf_1_based": 2,
+          "original_question_number": "003",
+          "type": "mcq",
+          "stem": "到哪一組調查的水域環境觀察時需要將撈起來觀察的水生生物放回原來的環境？",
+          "options": [
+            "①第一組",
+            "②第二組",
+            "③兩組都需要"
+          ],
+          "answer": "③",
+          "answer_explanation": "水域實地調查不應任意帶走生物，淡水與海洋兩組都應尊重原生環境",
+          "answer_assumption": "依原卷題文、選項與共用情境獨立科學判答，非原校教師答案表。",
+          "canonical_kp_id": "sci_g04s1_02_14",
+          "grade": 4,
+          "semester": 1,
+          "unit": "4-S1-U02",
+          "operator_publication_approval": true,
+          "rights_license_status": "REGULATED_EXAM_QUESTION_ART9",
+          "public_material_scope": "EXAM_QUESTION_TEXT_ONLY",
+          "original_teacher_answer_key_authenticated": false,
+          "source": "P12_113_B08_MC7_EXACT_OPERATOR_APPROVED_TEXT_ONLY"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "id": "P12_113_G04S1_B08_CHENGGONG_PARENT_G05",
+      "source": "CERTIFIED_CONTEXT_RECONSTRUCTED",
+      "title": "水生動物觀察紀錄",
+      "unit": "4-S1-U02",
+      "canonical_kp_id": "sci_g04s1_02_09",
+      "grade": 4,
+      "semester": 1,
+      "source_id": "SCI_G04_S1_113_MID_018",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "source_page_pdf_1_based": 2,
+      "source_parent_original_id": "CHENGGONG_S03_G05",
+      "source_review_status": "GPT6_SCIENCE_CONTEXT_REVIEWED",
+      "certification_status": "OPERATOR_APPROVED_PUBLIC",
+      "operator_publication_approval": true,
+      "source_image_geometry_verified": true,
+      "dependencies_complete": true,
+      "original_cropped_assets_included": false,
+      "teacher_answer_key_authenticated": false,
+      "copyright_path": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "rights_license_status": "REGULATED_EXAM_QUESTION_ART9",
+      "public_material_scope": "EXAM_QUESTION_TEXT_ONLY",
+      "shared": {
+        "instructions": "根據紀錄回答問題。",
+        "passage": "書鴻：「利用腳爬行和游泳，用鰓呼吸。」\n友佳：「幼體用鰓呼吸，長大後會變成用肺和潮溼的皮膚呼吸。」\n阿力：「沒有腳，利用腹足爬行，以鰓呼吸。」\n雅萍：「腹部末端有呼吸管，中、後腳細長，可以游泳、爬行。」",
+        "choiceBank": []
+      },
+      "items": [
+        {
+          "id": "P12_113_G04S1_B08_CHENGGONG_MC_390",
+          "source_slot_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|001",
+          "source_original_slot_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|001",
+          "source_pdf_bbox_pts_top_left": [
+            40.32,
+            957.13,
+            82.46,
+            971.17
+          ],
+          "source_page_pdf_1_based": 2,
+          "original_question_number": "001",
+          "type": "mcq",
+          "stem": "書鴻觀察的水生動物可能是",
+          "options": [
+            "①紅娘華",
+            "②青蛙",
+            "③蟹",
+            "④石田螺"
+          ],
+          "answer": "③",
+          "answer_explanation": "能利用腳爬行與游泳、以鰓呼吸者符合蟹",
+          "answer_assumption": "依原卷題文、選項與共用情境獨立科學判答，非原校教師答案表。",
+          "canonical_kp_id": "sci_g04s1_02_09",
+          "grade": 4,
+          "semester": 1,
+          "unit": "4-S1-U02",
+          "operator_publication_approval": true,
+          "rights_license_status": "REGULATED_EXAM_QUESTION_ART9",
+          "public_material_scope": "EXAM_QUESTION_TEXT_ONLY",
+          "original_teacher_answer_key_authenticated": false,
+          "source": "P12_113_B08_MC7_EXACT_OPERATOR_APPROVED_TEXT_ONLY"
+        },
+        {
+          "id": "P12_113_G04S1_B08_CHENGGONG_MC_391",
+          "source_slot_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|002",
+          "source_original_slot_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|002",
+          "source_pdf_bbox_pts_top_left": [
+            386.83,
+            31.35,
+            428.95,
+            45.39
+          ],
+          "source_page_pdf_1_based": 2,
+          "original_question_number": "002",
+          "type": "mcq",
+          "stem": "友佳觀察的水生動物可能是",
+          "options": [
+            "①紅娘華",
+            "②青蛙",
+            "③蟹",
+            "④石田螺"
+          ],
+          "answer": "②",
+          "answer_explanation": "青蛙幼體主要用鰓呼吸，成體以肺與潮溼皮膚交換氣體",
+          "answer_assumption": "依原卷題文、選項與共用情境獨立科學判答，非原校教師答案表。",
+          "canonical_kp_id": "sci_g04s1_02_09",
+          "grade": 4,
+          "semester": 1,
+          "unit": "4-S1-U02",
+          "operator_publication_approval": true,
+          "rights_license_status": "REGULATED_EXAM_QUESTION_ART9",
+          "public_material_scope": "EXAM_QUESTION_TEXT_ONLY",
+          "original_teacher_answer_key_authenticated": false,
+          "source": "P12_113_B08_MC7_EXACT_OPERATOR_APPROVED_TEXT_ONLY"
+        },
+        {
+          "id": "P12_113_G04S1_B08_CHENGGONG_MC_392",
+          "source_slot_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|003",
+          "source_original_slot_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|003",
+          "source_pdf_bbox_pts_top_left": [
+            386.83,
+            69.75,
+            428.95,
+            83.79
+          ],
+          "source_page_pdf_1_based": 2,
+          "original_question_number": "003",
+          "type": "mcq",
+          "stem": "阿力觀察的水生動物可能是",
+          "options": [
+            "①紅娘華",
+            "②青蛙",
+            "③蟹",
+            "④石田螺"
+          ],
+          "answer": "④",
+          "answer_explanation": "石田螺用腹足爬行，水生螺類利用鰓呼吸",
+          "answer_assumption": "依原卷題文、選項與共用情境獨立科學判答，非原校教師答案表。",
+          "canonical_kp_id": "sci_g04s1_02_09",
+          "grade": 4,
+          "semester": 1,
+          "unit": "4-S1-U02",
+          "operator_publication_approval": true,
+          "rights_license_status": "REGULATED_EXAM_QUESTION_ART9",
+          "public_material_scope": "EXAM_QUESTION_TEXT_ONLY",
+          "original_teacher_answer_key_authenticated": false,
+          "source": "P12_113_B08_MC7_EXACT_OPERATOR_APPROVED_TEXT_ONLY"
+        },
+        {
+          "id": "P12_113_G04S1_B08_CHENGGONG_MC_393",
+          "source_slot_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|004",
+          "source_original_slot_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|004",
+          "source_pdf_bbox_pts_top_left": [
+            386.83,
+            108.29,
+            428.95,
+            122.33
+          ],
+          "source_page_pdf_1_based": 2,
+          "original_question_number": "004",
+          "type": "mcq",
+          "stem": "雅萍觀察的水生動物可能是",
+          "options": [
+            "①紅娘華",
+            "②青蛙",
+            "③蟹",
+            "④石田螺"
+          ],
+          "answer": "①",
+          "answer_explanation": "紅娘華腹端具呼吸管並用足游泳與攀爬",
+          "answer_assumption": "依原卷題文、選項與共用情境獨立科學判答，非原校教師答案表。",
+          "canonical_kp_id": "sci_g04s1_02_09",
+          "grade": 4,
+          "semester": 1,
+          "unit": "4-S1-U02",
+          "operator_publication_approval": true,
+          "rights_license_status": "REGULATED_EXAM_QUESTION_ART9",
+          "public_material_scope": "EXAM_QUESTION_TEXT_ONLY",
+          "original_teacher_answer_key_authenticated": false,
+          "source": "P12_113_B08_MC7_EXACT_OPERATOR_APPROVED_TEXT_ONLY"
+        }
+      ]
+    }
+  ]
+}

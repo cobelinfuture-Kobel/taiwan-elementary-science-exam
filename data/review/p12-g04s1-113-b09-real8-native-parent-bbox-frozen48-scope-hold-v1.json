@@ -1,0 +1,436 @@
+{
+  "schema_version": "P12_G04S1_113_B09_ACTUAL8_SOURCE_PARENT_NATIVE_GEOMETRY_SCOPE_GATES_V1",
+  "frozen_source_registry": "data/review/p12-g04s1-113-other-dependent-b09-source-parent-preflight-v1.json",
+  "current_source_review_pr": 124,
+  "source_review_draft_unmerged": true,
+  "requested_resume_label_B09_50": "USER_LABEL_ONLY_NOT_A_FROZEN_POSITION_COUNT",
+  "frozen_ledger_actual_position_count": 8,
+  "verified_ordinals": [
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408
+  ],
+  "shortfall_to_requested_50": 42,
+  "do_not_invent_new_source_ids": true,
+  "paper_files": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "school": "成功國小",
+      "file": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+      "sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "page": 2,
+      "positions": 1,
+      "original_pdf_source_page_and_native_answer_bbox_checked": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "school": "大華國小",
+      "file": "113_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "page": 1,
+      "positions": 7,
+      "original_pdf_source_page_labels_checked": true,
+      "original_pdf_child_answer_line_bbox_recoverable_by_native_text": false
+    }
+  ],
+  "source_visual_verification": "The real source PDFs were retrieved from connected Google Drive, byte SHA256 checked by fitz and native PDF text/label positions inspected; not OCR",
+  "scope_authority": "113 KANGHSUAN G04S1 FROZEN48; MID U01-U02, FINAL U03-U04",
+  "authority_diff": "Moon rise/moon observations do not have direct canonical KP in 113 G04S1 Frozen48. Acids/bases indicators and solution properties have no G04S1 FINAL U03 sound/light or U04 electric circuits KP.",
+  "rights": "School exam question text only eligible after gate; do not publish the full source PDFs, copyrighted chart/figures or third-party textual excerpt; all held so rights does not imply admission.",
+  "source_B09_scores": {
+    "SOURCE_IDENTITIES_CONFIRMED": 8,
+    "PDF_PAGE_CONFIRMED": 8,
+    "NATIVE_ORIGINAL_ANSWER_BBOX_CONFIRMED": 1,
+    "ORIGINAL_PARENT_TEXT_ANCHOR_ONLY": 7,
+    "FORMAL_SCIENCE_KP_APPROVED_NEW": 0,
+    "ADMISSION_READY_NEW": 0,
+    "PUBLISHED_NEW": 0,
+    "HOLD_SOURCE_KP_OR_GEOMETRY": 8
+  },
+  "records": [
+    {
+      "ordinal": 401,
+      "source_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|8",
+      "original_source_aliases": [
+        "SCI_G04_S1_113_MID_018|S04|MATCH_AND_TRUE_FALSE|08"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "registered_original_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "source_kind": "MATCH_AND_TRUE_FALSE",
+      "source_parent_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE",
+      "original_pdf_page_1_based": 2,
+      "parent_exam_verification": "Chenggong original 113 Hanlin G04S1 MID exam, page2 S4 Moon observation comparison four true/false",
+      "original_question_source_text": "（ ）○４每一天月亮升起的時刻都相同。",
+      "source_parent_text_exact": "2.下圖是大雄連續兩週在週六晚上觀測月亮移動時所做的紀錄表，請根據紀錄表回答下列問題。比較兩張紀錄表會發現什麼？請打ˇ。",
+      "native_pdf_geometry": {
+        "answer_bbox_pdf_pts": [
+          410.83,
+          923.29,
+          452.95,
+          937.33
+        ],
+        "answer_bbox_provenance": "PDF_NATIVE_TEXT_CHARSPAN_PARENTHESES_ON_ORIGINAL_PAGE2",
+        "answer_bbox_certified": true,
+        "answer_line_or_diagram_bbox": null
+      },
+      "provisional_science": {
+        "answer": "X",
+        "basis": "Moonrise time varies across successive days; a statement asserting same moonrise time every day is false",
+        "source_school_answer_key_authenticated": false
+      },
+      "direct_113_frozen48_KP_id": null,
+      "operator_eligibility": false,
+      "hold_reason": "HOLD_OUT_OF_113_G04S1_MIDTERM_FROZEN48_MOON_KP; parent moon chart also required",
+      "science_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 402,
+      "source_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|1",
+      "original_source_aliases": [
+        "SCI_G04_S1_113_FINAL_010|S02|MATCHING|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "registered_original_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "source_kind": "MATCHING",
+      "source_parent_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING",
+      "original_pdf_page_1_based": 1,
+      "parent_exam_verification": "Dahua original 113 Hanlin G04S1 FINAL exam, page1 S2 printed 7-line acid/base matching",
+      "original_question_source_text": "二、用尺連連看：蘋果醋、小蘇打水、橘子汁、檸檬汁、鹼水 → 紅色系／藍綠色系 → 鹼性／酸性，共七條原卷連線",
+      "source_parent_text_exact": "二、用尺連連看（一條2分／共14分）；原卷左列5種液體、中列2個指示劑顏色系、右列鹼性與酸性。印刷配分僅作來源證據，不流入學生內容題庫。",
+      "native_pdf_geometry": {
+        "parent_text_anchor_bbox_pdf_pts": [
+          308.33,
+          350.17,
+          559.96,
+          473.97
+        ],
+        "anchor_kind": "PDF_NATIVE_LABEL_TEXT_ENVELOPE_NOT_ANSWER_LINE",
+        "child_line_bbox_pdf_pts": null,
+        "answer_bbox_certified": false,
+        "reason": "Seven actual answer connections are hand-drawn lines with no original native answer-marker BBox; original label text rectangle cannot be misrepresented as seven answer BBoxes"
+      },
+      "provisional_science": {
+        "original_labels": [
+          "蘋果醋",
+          "小蘇打水",
+          "橘子汁",
+          "檸檬汁",
+          "鹼水",
+          "紅色系",
+          "藍綠色系",
+          "鹼性",
+          "酸性"
+        ],
+        "candidate_fact_only": "Fruit vinegar, orange juice, lemon juice acidic; baking-soda solution and 鹼水 alkaline; red vs blue-green indicator-color groups. Per-connection source identity requires figure geometry",
+        "original_single_school_answer_line_approved": false
+      },
+      "direct_113_frozen48_KP_id": null,
+      "operator_eligibility": false,
+      "hold_reason": "HOLD_OUT_OF_113_G04S1_FINAL_FROZEN48_ACID_BASE_KP_AND_PER_LINE_ANSWER_GEOMETRY",
+      "science_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 403,
+      "source_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|2",
+      "original_source_aliases": [
+        "SCI_G04_S1_113_FINAL_010|S02|MATCHING|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "registered_original_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "source_kind": "MATCHING",
+      "source_parent_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING",
+      "original_pdf_page_1_based": 1,
+      "parent_exam_verification": "Dahua original 113 Hanlin G04S1 FINAL exam, page1 S2 printed 7-line acid/base matching",
+      "original_question_source_text": "二、用尺連連看：蘋果醋、小蘇打水、橘子汁、檸檬汁、鹼水 → 紅色系／藍綠色系 → 鹼性／酸性，共七條原卷連線",
+      "source_parent_text_exact": "二、用尺連連看（一條2分／共14分）；原卷左列5種液體、中列2個指示劑顏色系、右列鹼性與酸性。印刷配分僅作來源證據，不流入學生內容題庫。",
+      "native_pdf_geometry": {
+        "parent_text_anchor_bbox_pdf_pts": [
+          308.33,
+          350.17,
+          559.96,
+          473.97
+        ],
+        "anchor_kind": "PDF_NATIVE_LABEL_TEXT_ENVELOPE_NOT_ANSWER_LINE",
+        "child_line_bbox_pdf_pts": null,
+        "answer_bbox_certified": false,
+        "reason": "Seven actual answer connections are hand-drawn lines with no original native answer-marker BBox; original label text rectangle cannot be misrepresented as seven answer BBoxes"
+      },
+      "provisional_science": {
+        "original_labels": [
+          "蘋果醋",
+          "小蘇打水",
+          "橘子汁",
+          "檸檬汁",
+          "鹼水",
+          "紅色系",
+          "藍綠色系",
+          "鹼性",
+          "酸性"
+        ],
+        "candidate_fact_only": "Fruit vinegar, orange juice, lemon juice acidic; baking-soda solution and 鹼水 alkaline; red vs blue-green indicator-color groups. Per-connection source identity requires figure geometry",
+        "original_single_school_answer_line_approved": false
+      },
+      "direct_113_frozen48_KP_id": null,
+      "operator_eligibility": false,
+      "hold_reason": "HOLD_OUT_OF_113_G04S1_FINAL_FROZEN48_ACID_BASE_KP_AND_PER_LINE_ANSWER_GEOMETRY",
+      "science_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 404,
+      "source_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|3",
+      "original_source_aliases": [
+        "SCI_G04_S1_113_FINAL_010|S02|MATCHING|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "registered_original_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "source_kind": "MATCHING",
+      "source_parent_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING",
+      "original_pdf_page_1_based": 1,
+      "parent_exam_verification": "Dahua original 113 Hanlin G04S1 FINAL exam, page1 S2 printed 7-line acid/base matching",
+      "original_question_source_text": "二、用尺連連看：蘋果醋、小蘇打水、橘子汁、檸檬汁、鹼水 → 紅色系／藍綠色系 → 鹼性／酸性，共七條原卷連線",
+      "source_parent_text_exact": "二、用尺連連看（一條2分／共14分）；原卷左列5種液體、中列2個指示劑顏色系、右列鹼性與酸性。印刷配分僅作來源證據，不流入學生內容題庫。",
+      "native_pdf_geometry": {
+        "parent_text_anchor_bbox_pdf_pts": [
+          308.33,
+          350.17,
+          559.96,
+          473.97
+        ],
+        "anchor_kind": "PDF_NATIVE_LABEL_TEXT_ENVELOPE_NOT_ANSWER_LINE",
+        "child_line_bbox_pdf_pts": null,
+        "answer_bbox_certified": false,
+        "reason": "Seven actual answer connections are hand-drawn lines with no original native answer-marker BBox; original label text rectangle cannot be misrepresented as seven answer BBoxes"
+      },
+      "provisional_science": {
+        "original_labels": [
+          "蘋果醋",
+          "小蘇打水",
+          "橘子汁",
+          "檸檬汁",
+          "鹼水",
+          "紅色系",
+          "藍綠色系",
+          "鹼性",
+          "酸性"
+        ],
+        "candidate_fact_only": "Fruit vinegar, orange juice, lemon juice acidic; baking-soda solution and 鹼水 alkaline; red vs blue-green indicator-color groups. Per-connection source identity requires figure geometry",
+        "original_single_school_answer_line_approved": false
+      },
+      "direct_113_frozen48_KP_id": null,
+      "operator_eligibility": false,
+      "hold_reason": "HOLD_OUT_OF_113_G04S1_FINAL_FROZEN48_ACID_BASE_KP_AND_PER_LINE_ANSWER_GEOMETRY",
+      "science_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 405,
+      "source_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|4",
+      "original_source_aliases": [
+        "SCI_G04_S1_113_FINAL_010|S02|MATCHING|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "registered_original_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "source_kind": "MATCHING",
+      "source_parent_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING",
+      "original_pdf_page_1_based": 1,
+      "parent_exam_verification": "Dahua original 113 Hanlin G04S1 FINAL exam, page1 S2 printed 7-line acid/base matching",
+      "original_question_source_text": "二、用尺連連看：蘋果醋、小蘇打水、橘子汁、檸檬汁、鹼水 → 紅色系／藍綠色系 → 鹼性／酸性，共七條原卷連線",
+      "source_parent_text_exact": "二、用尺連連看（一條2分／共14分）；原卷左列5種液體、中列2個指示劑顏色系、右列鹼性與酸性。印刷配分僅作來源證據，不流入學生內容題庫。",
+      "native_pdf_geometry": {
+        "parent_text_anchor_bbox_pdf_pts": [
+          308.33,
+          350.17,
+          559.96,
+          473.97
+        ],
+        "anchor_kind": "PDF_NATIVE_LABEL_TEXT_ENVELOPE_NOT_ANSWER_LINE",
+        "child_line_bbox_pdf_pts": null,
+        "answer_bbox_certified": false,
+        "reason": "Seven actual answer connections are hand-drawn lines with no original native answer-marker BBox; original label text rectangle cannot be misrepresented as seven answer BBoxes"
+      },
+      "provisional_science": {
+        "original_labels": [
+          "蘋果醋",
+          "小蘇打水",
+          "橘子汁",
+          "檸檬汁",
+          "鹼水",
+          "紅色系",
+          "藍綠色系",
+          "鹼性",
+          "酸性"
+        ],
+        "candidate_fact_only": "Fruit vinegar, orange juice, lemon juice acidic; baking-soda solution and 鹼水 alkaline; red vs blue-green indicator-color groups. Per-connection source identity requires figure geometry",
+        "original_single_school_answer_line_approved": false
+      },
+      "direct_113_frozen48_KP_id": null,
+      "operator_eligibility": false,
+      "hold_reason": "HOLD_OUT_OF_113_G04S1_FINAL_FROZEN48_ACID_BASE_KP_AND_PER_LINE_ANSWER_GEOMETRY",
+      "science_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 406,
+      "source_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|5",
+      "original_source_aliases": [
+        "SCI_G04_S1_113_FINAL_010|S02|MATCHING|05"
+      ],
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "registered_original_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "source_kind": "MATCHING",
+      "source_parent_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING",
+      "original_pdf_page_1_based": 1,
+      "parent_exam_verification": "Dahua original 113 Hanlin G04S1 FINAL exam, page1 S2 printed 7-line acid/base matching",
+      "original_question_source_text": "二、用尺連連看：蘋果醋、小蘇打水、橘子汁、檸檬汁、鹼水 → 紅色系／藍綠色系 → 鹼性／酸性，共七條原卷連線",
+      "source_parent_text_exact": "二、用尺連連看（一條2分／共14分）；原卷左列5種液體、中列2個指示劑顏色系、右列鹼性與酸性。印刷配分僅作來源證據，不流入學生內容題庫。",
+      "native_pdf_geometry": {
+        "parent_text_anchor_bbox_pdf_pts": [
+          308.33,
+          350.17,
+          559.96,
+          473.97
+        ],
+        "anchor_kind": "PDF_NATIVE_LABEL_TEXT_ENVELOPE_NOT_ANSWER_LINE",
+        "child_line_bbox_pdf_pts": null,
+        "answer_bbox_certified": false,
+        "reason": "Seven actual answer connections are hand-drawn lines with no original native answer-marker BBox; original label text rectangle cannot be misrepresented as seven answer BBoxes"
+      },
+      "provisional_science": {
+        "original_labels": [
+          "蘋果醋",
+          "小蘇打水",
+          "橘子汁",
+          "檸檬汁",
+          "鹼水",
+          "紅色系",
+          "藍綠色系",
+          "鹼性",
+          "酸性"
+        ],
+        "candidate_fact_only": "Fruit vinegar, orange juice, lemon juice acidic; baking-soda solution and 鹼水 alkaline; red vs blue-green indicator-color groups. Per-connection source identity requires figure geometry",
+        "original_single_school_answer_line_approved": false
+      },
+      "direct_113_frozen48_KP_id": null,
+      "operator_eligibility": false,
+      "hold_reason": "HOLD_OUT_OF_113_G04S1_FINAL_FROZEN48_ACID_BASE_KP_AND_PER_LINE_ANSWER_GEOMETRY",
+      "science_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 407,
+      "source_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|6",
+      "original_source_aliases": [
+        "SCI_G04_S1_113_FINAL_010|S02|MATCHING|06"
+      ],
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "registered_original_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "source_kind": "MATCHING",
+      "source_parent_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING",
+      "original_pdf_page_1_based": 1,
+      "parent_exam_verification": "Dahua original 113 Hanlin G04S1 FINAL exam, page1 S2 printed 7-line acid/base matching",
+      "original_question_source_text": "二、用尺連連看：蘋果醋、小蘇打水、橘子汁、檸檬汁、鹼水 → 紅色系／藍綠色系 → 鹼性／酸性，共七條原卷連線",
+      "source_parent_text_exact": "二、用尺連連看（一條2分／共14分）；原卷左列5種液體、中列2個指示劑顏色系、右列鹼性與酸性。印刷配分僅作來源證據，不流入學生內容題庫。",
+      "native_pdf_geometry": {
+        "parent_text_anchor_bbox_pdf_pts": [
+          308.33,
+          350.17,
+          559.96,
+          473.97
+        ],
+        "anchor_kind": "PDF_NATIVE_LABEL_TEXT_ENVELOPE_NOT_ANSWER_LINE",
+        "child_line_bbox_pdf_pts": null,
+        "answer_bbox_certified": false,
+        "reason": "Seven actual answer connections are hand-drawn lines with no original native answer-marker BBox; original label text rectangle cannot be misrepresented as seven answer BBoxes"
+      },
+      "provisional_science": {
+        "original_labels": [
+          "蘋果醋",
+          "小蘇打水",
+          "橘子汁",
+          "檸檬汁",
+          "鹼水",
+          "紅色系",
+          "藍綠色系",
+          "鹼性",
+          "酸性"
+        ],
+        "candidate_fact_only": "Fruit vinegar, orange juice, lemon juice acidic; baking-soda solution and 鹼水 alkaline; red vs blue-green indicator-color groups. Per-connection source identity requires figure geometry",
+        "original_single_school_answer_line_approved": false
+      },
+      "direct_113_frozen48_KP_id": null,
+      "operator_eligibility": false,
+      "hold_reason": "HOLD_OUT_OF_113_G04S1_FINAL_FROZEN48_ACID_BASE_KP_AND_PER_LINE_ANSWER_GEOMETRY",
+      "science_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "ordinal": 408,
+      "source_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|7",
+      "original_source_aliases": [
+        "SCI_G04_S1_113_FINAL_010|S02|MATCHING|07"
+      ],
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "registered_original_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "source_kind": "MATCHING",
+      "source_parent_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING",
+      "original_pdf_page_1_based": 1,
+      "parent_exam_verification": "Dahua original 113 Hanlin G04S1 FINAL exam, page1 S2 printed 7-line acid/base matching",
+      "original_question_source_text": "二、用尺連連看：蘋果醋、小蘇打水、橘子汁、檸檬汁、鹼水 → 紅色系／藍綠色系 → 鹼性／酸性，共七條原卷連線",
+      "source_parent_text_exact": "二、用尺連連看（一條2分／共14分）；原卷左列5種液體、中列2個指示劑顏色系、右列鹼性與酸性。印刷配分僅作來源證據，不流入學生內容題庫。",
+      "native_pdf_geometry": {
+        "parent_text_anchor_bbox_pdf_pts": [
+          308.33,
+          350.17,
+          559.96,
+          473.97
+        ],
+        "anchor_kind": "PDF_NATIVE_LABEL_TEXT_ENVELOPE_NOT_ANSWER_LINE",
+        "child_line_bbox_pdf_pts": null,
+        "answer_bbox_certified": false,
+        "reason": "Seven actual answer connections are hand-drawn lines with no original native answer-marker BBox; original label text rectangle cannot be misrepresented as seven answer BBoxes"
+      },
+      "provisional_science": {
+        "original_labels": [
+          "蘋果醋",
+          "小蘇打水",
+          "橘子汁",
+          "檸檬汁",
+          "鹼水",
+          "紅色系",
+          "藍綠色系",
+          "鹼性",
+          "酸性"
+        ],
+        "candidate_fact_only": "Fruit vinegar, orange juice, lemon juice acidic; baking-soda solution and 鹼水 alkaline; red vs blue-green indicator-color groups. Per-connection source identity requires figure geometry",
+        "original_single_school_answer_line_approved": false
+      },
+      "direct_113_frozen48_KP_id": null,
+      "operator_eligibility": false,
+      "hold_reason": "HOLD_OUT_OF_113_G04S1_FINAL_FROZEN48_ACID_BASE_KP_AND_PER_LINE_ANSWER_GEOMETRY",
+      "science_formal": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "published_B08_17_untouched": true,
+  "hold_B08_33_untouched": true,
+  "do_not_reopen_B01_B07": true,
+  "no_student_bank_change": true,
+  "no_student_PR_or_Pages_needed_for_zero_admission": true,
+  "next_task": "Reconcile corpus authority for any additional 42 distinct sources before labeling B09 as 50; do not auto-widen B09 scope; keep exact eight source positions held pending applicable curriculum authority and native matching answer geometry"
+}

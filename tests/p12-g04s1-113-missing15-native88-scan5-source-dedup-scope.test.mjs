@@ -11,6 +11,7 @@ const scans=read("data/review/p12-g04s1-113-missing15-scan5-original16page-raste
 const B09=read("data/review/p12-g04s1-113-b09-real8-native-parent-bbox-frozen48-scope-hold-v1.json");
 const B08=read("data/review/p12-g04s1-113-b08-source50-17published-33hold-complete-closeout-v1.json");
 const auth=read("site/data/authority/science-g03-g04-selector-v3.json");
+const crossover=read("data/review/p12-g04s1-113-missing15-native107-current-public29-extra-59distinct-source-suppression-v1.json");
 
 test("Native88 original source positions recover 38 TF / 50 MC, 47 proposals remain nonformal",()=>{
   assert.deepEqual([native.summary.unpublished_native_original_positions,native.summary.unpublished_tf,native.summary.unpublished_mc],[88,38,50]);
@@ -56,8 +57,13 @@ test("Unpublished native88 original source IDs have no exact collision with any 
   }
   assert.ok(inspected>25,"published bank reads");
   const overlap=target.filter(q=>published.has(q.source_slot_id)||published.has(q.source_alias_id));
-  console.log("MISSING15_NATIVE88_MAIN_EXACT_SOURCE_CROSSOVER",JSON.stringify(overlap.map(q=>({source_slot_id:q.source_slot_id,alias:q.source_alias_id}))));
-  assert.equal(overlap.length,0,"Native88 current main published source-ID crossovers");
+  assert.equal(overlap.length,29,"Current public bank includes 29 additional source-ID crossovers missing from frozen historical suppression");
+  assert.deepEqual(overlap.map(x=>x.source_slot_id).sort(),crossover.newly_found_public_source_IDs.map(x=>x.source_slot_id).sort());
+  const pending=target.filter(q=>!overlap.includes(q));
+  assert.equal(pending.length,59);
+  assert.deepEqual(pending.map(q=>q.source_slot_id).sort(),crossover.remaining_unique_original_source_IDs.slice().sort());
+  assert.equal(crossover.summary.actual_unpublished_science_and_KP_proposals_NOT_FORMAL,18);
+  assert.equal(crossover.summary.NEW_PUBLISHED,0);
 });
 
 test("No B09 frozen8 scope inflation, no Frozen48 modification and no B01 to B08 publication change",()=>{

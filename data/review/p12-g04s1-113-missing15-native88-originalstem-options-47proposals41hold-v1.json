@@ -16,9 +16,14 @@
     "remaining_without_safe_science_KP_proposal": 41,
     "new_formal_science_KP_approved": 0,
     "new_admission_ready": 0,
-    "new_published": 0
+    "new_published": 0,
+    "previous_native5_stage_unpublished_positions_before_current_public_crossover": 88,
+    "existing_public_source_ids_discovered_by_current_main_crosscheck": 29,
+    "current_main_source_distinct_unpublished_positions": 59,
+    "remaining_science_direct_KP_proposals_NOT_FORMAL_after_29_crossover": 18,
+    "unresolved_outofscope_or_figures_after_current_main_dedup": 41
   },
-  "evidence_status": "Native original PDF per-question stems and options transcribed to user-visible private source review artifact; proposals are NOT formal KP nor school teacher keys. Two image-choice items need original visual; 4 source items reference figures. Existing original per-question native answer glyph BBoxes reused, not changed.",
+  "evidence_status": "88 is historical preliminary source subset; 29 more are currently public according to student-bank exact-source-ID check; only 59 current-original source IDs remain. Private source text reviewed; 18 science/KP proposals remain, no formal approvals.",
   "papers": [
     {
       "paper_id": "SCI_G04_S1_113_FINAL_003",
@@ -79,5 +84,6 @@
   "B01_to_B08_published_unmodified": true,
   "B09_original_frozen8_unmodified": true,
   "no_983_planning_denominator_inflation": true,
-  "no_source_pdf_published": true
+  "no_source_pdf_published": true,
+  "source_id_suppression_update_ref": "data/review/p12-g04s1-113-missing15-native107-current-public29-extra-59distinct-source-suppression-v1.json"
 }

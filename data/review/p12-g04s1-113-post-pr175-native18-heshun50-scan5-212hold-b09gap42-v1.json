@@ -1,0 +1,46 @@
+{
+  "schema_version": "P12_G04S1_113_MISSING15_POST_PR175_NATIVE18_HESHUN50_SCAN5_212_REMAIN_B09_AUTHORITY_V1",
+  "source_review_scope": "Exactly 18 independent Science/KP proposals from current native59; source scan Heshun FINAL001 50 original printed response pixels; no student publication",
+  "source_original_pdf_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+  "source_backing_files": [
+    "data/review/p12-g04s1-113-heshunfinal-page1-pixelbbox-checkpoint-v1.json",
+    "data/review/p12-g04s1-113-heshunfinal-page2-14-printed-bbox-visualqa-v1.json",
+    "data/review/p12-g04s1-113-heshunfinal-scan-page1-9-page2-circuit4-source-bbox-v1.json"
+  ],
+  "native18_review_ref": "data/review/p12-g04s1-113-native59-18-candidate-113114-public717-dedup-rights-gates-v1.json",
+  "status": {
+    "Native59_remaining_source_unpublished": 59,
+    "Native18_reviewed": 18,
+    "Native18_PUBLIC_ALIASES": 5,
+    "Native18_NEAR_OR_CHANGED_OPTION_HOLD": 2,
+    "Native18_SCIENCE_UNIQUE_HOLD": 2,
+    "Native18_FURTHER_GATE_CANDIDATES": 9,
+    "Heshun_FINAL001_original_source_positions_raster_bbox_verified": 50,
+    "Heshun_page1_source_slots": 32,
+    "Heshun_page2_source_slots": 18,
+    "scan5_frozen_prior_section_planning_positions": 262,
+    "scan5_remaining_four_school_scan_section_planning_positions_NOT_CERTIFIED": 212,
+    "scan5_other_four_school_original_PDF_pages": 14,
+    "B09_frozen_original_source_positions": 8,
+    "B09_requested_extra_sources_not_in_frozen_ledger": 42,
+    "B09_new_authorized_extra_original_source_IDs": 0,
+    "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+    "ADMISSION_READY_new": 0,
+    "PUBLISHED_new": 0
+  },
+  "scope_notes": [
+    "113 current public 26 source banks + 114 public nine source banks and 25 original 717 TF/MC rows compared to 18 native candidates; 113 unpublished other original source records and third-party images not fully cleared",
+    "The 50 Heshun original response pixels are geometry/source-only, not 50 Science/KP approved student questions",
+    "All page2 circuit figure panels have geometry but still depend on copyrighted source drawings; remain HOLD",
+    "Original source manuscript/historical teacher handwritten markings are never used as authenticated key",
+    "Remaining 212 is section-planning count, not full native pixel-slot certified inventory",
+    "Unidentified B09 42 are not relabeled from Native59 or scan5 212"
+  ],
+  "freeze": {
+    "no_B01_B08_public_reopen": true,
+    "no_original_pdf_upload": true,
+    "no_frozen48_KP_modification": true,
+    "source_PR124_remains_unmerged": true
+  },
+  "next": "Move 9 source candidates through outstanding full 113 source and rights gates; continue exact other four scanned originals rather than redoing 50 Heshun raster slots; maintain B09 missing42 source authority separately; release eligible only."
+}

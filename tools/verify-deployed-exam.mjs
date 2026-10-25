@@ -274,6 +274,20 @@ try {
   assert.deepEqual(b08.blocks.flatMap(g=>g.items.map(x=>x.answer)),["①","②","③","③","②","④","①"]);
   assert.ok(liveLoader.includes("...b08ChenggongMC7.blocks")&&liveLoader.includes("+b08ChenggongMC7.contextGroups")&&liveLoader.includes("+b08ChenggongMC7.answerSlots"),"B08 is integrated into live loader rather than JSON-only");
 
+  const matchResp=await page.request.get(base+"/data/question-bank/p12-g04s1-113-b08-matching10-two-parent-public-v1.json",{cache:"no-cache"});
+  assert.equal(matchResp.status(),200,"Live Pages publishes B08 original matching codebank source JSON");
+  const matching10=await matchResp.json();
+  assert.deepEqual([matching10.expected_blocks,matching10.expected_context_groups,matching10.expected_answer_slots],[2,2,10]);
+  assert.deepEqual(matching10.blocks.map(x=>x.items.length),[6,4]);
+  assert.deepEqual(matching10.blocks.map(x=>x.shared.choiceBank.length),[4,2]);
+  assert.deepEqual(matching10.blocks.flatMap(x=>x.items.map(q=>q.answer)),["C","B","D","A","C","B","A","B","B","A"]);
+  assert.ok(matching10.blocks.flatMap(x=>x.items).every(q=>q.type==="short"&&!Object.hasOwn(q,"options")));
+  assert.ok(matching10.blocks.every(x=>x.original_cropped_assets_included===false&&x.operator_publication_approval===true));
+  assert.ok(liveLoader.includes("...b08Matching10.blocks")
+    &&liveLoader.includes("+b08Matching10.answerSlots")
+    &&liveLoader.includes("+b08Matching10.contextGroups"),"Matching10 must load as 2 atomic public groups");
+
+
   assert.ok(liveLoader.includes("...b01Wende7.blocks")&&liveLoader.includes("b01Wende7.answerSlots"),
    "live loader must actually integrate seven new B01 items, not merely upload their JSON asset");
   assert.ok(liveLoader.includes("...b02Native21.blocks")&&liveLoader.includes("b02Native21.answerSlots"),

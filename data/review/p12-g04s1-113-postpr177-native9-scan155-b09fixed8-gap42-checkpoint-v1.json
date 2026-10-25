@@ -1,0 +1,66 @@
+{
+  "schema_version": "P12_G04S1_113_POST_PR177_NATIVE9_SCAN5_155_B09_42_AUTHORITY_READBACK_V1",
+  "scope": "Resume post #177, no B01-B08 student bank changes, source evidence only",
+  "source_main_base": "ace8721ebe42a51a78b40c263fa48d413eab8926",
+  "native9": {
+    "exact_original_source_cases": 9,
+    "independent_science_direct_kp_supported": 6,
+    "science_context_held": 1,
+    "kp_direct_held": 2,
+    "remaining_duplicate_rights_operator_release_gates": 9,
+    "release_ready": 0,
+    "review_ref": "data/review/p12-g04s1-113-postpr177-native9-science-directkp-rights-exception-by-source-v1.json"
+  },
+  "scan5": {
+    "original_scanned_PDFs": 5,
+    "original_PDF_pages": 16,
+    "per_original_paper_answer_pixel_bbox_certified": {
+      "SCI_G04_S1_113_FINAL_001": 50,
+      "SCI_G04_S1_113_FINAL_009": 43,
+      "SCI_G04_S1_113_MID_006": 62
+    },
+    "total_source_answer_pixel_BBoxes_in_this_and_previous_PRs": 155,
+    "original_section_plan_total_NOT_true_slot_denominator": 262,
+    "remaining_section_plan_positions_NOT_exact_answer_bbox": 107,
+    "remaining_school_paper_ids": [
+      "SCI_G04_S1_113_MID_002",
+      "SCI_G04_S1_113_FINAL_002"
+    ],
+    "shihu_page1_line_matching_and_open_drawing_unverified_separately": true,
+    "visual_original_QA_and_pixel_source_ledger_files": [
+      "data/review/p12-g04s1-113-shihu-final-p2-24-p3-4-original-raster-bbox-sourceonly-v1.json",
+      "data/review/p12-g04s1-113-neianmid-original-page1-tf9-mc14-raster-source23-v1.json",
+      "data/review/p12-g04s1-113-neianmid-original-page2-18-source-parent-raster-bbox-v1.json",
+      "data/review/p12-g04s1-113-neianmid-p3-9-p4-12-original-raster-answer-bbox-v1.json"
+    ]
+  },
+  "b09_authority": {
+    "PR124_frozen_b09_source_positions": 8,
+    "original_ordinals": [
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408
+    ],
+    "requested_target": 50,
+    "missing_extra_source_IDs_not_authorized": 42,
+    "new_exact_source_authority_cleared": 0,
+    "prohibition": "Do not rename other 113 papers Native59 or Scan5 into B09 to fill missing 42. No acceptance or PR for an invented source.",
+    "source_authority_branch_ref": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+    "source_provenance_doc": "data/review/p12-g04s1-113-other-dependent-b09-source-parent-preflight-v1.json"
+  },
+  "formal_metrics_new": {
+    "FORMAL_SCIENCE_KP_APPROVED": 0,
+    "ADMISSION_READY": 0,
+    "PUBLISHED": 0
+  },
+  "no_frozen48_modification": true,
+  "no_B01_to_B08_reopen": true,
+  "no_original_PDF_or_thirdparty_diagram_student_publish": true,
+  "source_PR124_draft_unmerged": true,
+  "next": "Heshun MID002 and Zhongxiao FINAL002 original source-page bracket BBoxes, ShiHu line-connecting parent dependence, then the 9 Native Science/KP candidates' FULL_113 dedup/operator exact approval; keep B09 42 unresolved until authoritative IDs exist."
+}

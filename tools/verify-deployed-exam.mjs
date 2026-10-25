@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b07-exact4-live952-20261023",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b08-mc7-two-parent-live959-20261025",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 952 小題（476 題是非＋341 題單選＋36 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 959 小題（476 題是非＋341 題單選＋38 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
   const native38Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-native38-public-v1.json",{cache:"no-cache"});
   assert.equal(native38Response.status(),200,"Published Pages must serve approved native38 original exam cohort");
   const native38=await native38Response.json();
@@ -261,6 +261,19 @@ try {
   assert.ok(liveLoader.includes("...b06Native16.blocks")&&liveLoader.includes("+b06Native16.answerSlots"),"live loader must integrate B06 approved 16, not just serve its JSON file");
   assert.ok(liveLoader.includes("...b07LushangExact3.blocks")&&liveLoader.includes("+b07LushangExact3.answerSlots"),"live loader must integrate 3 B07 original questions, not just their JSON");
   assert.ok(liveLoader.includes("...b07Exact4.blocks")&&liveLoader.includes("+b07Exact4.answerSlots"),"live loader integrates exactly 4 new B07 original child-only MCs");
+
+  const b08Resp=await page.request.get(base+"/data/question-bank/p12-g04s1-113-b08-chenggong-mc7-two-parent-public-v1.json",{cache:"no-cache"});
+  assert.equal(b08Resp.status(),200,"B08 live MC7 two parents must be on deployed Pages");
+  const b08=await b08Resp.json();
+  assert.deepEqual([b08.expected_blocks,b08.expected_context_groups,b08.expected_answer_slots],[2,2,7]);
+  assert.deepEqual(b08.blocks.map(g=>g.items.length),[3,4]);
+  assert.deepEqual(b08.blocks.map(g=>g.source_parent_original_id),["CHENGGONG_S03_G04","CHENGGONG_S03_G05"]);
+  assert.ok(b08.blocks[0].shared.table.rows[0].includes("水淺"));
+  assert.ok(b08.blocks[1].shared.passage.includes("雅萍"));
+  assert.ok(b08.blocks.every(g=>g.operator_publication_approval===true&&g.original_cropped_assets_included===false));
+  assert.deepEqual(b08.blocks.flatMap(g=>g.items.map(x=>x.answer)),["①","②","③","③","②","④","①"]);
+  assert.ok(liveLoader.includes("...b08ChenggongMC7.blocks")&&liveLoader.includes("+b08ChenggongMC7.contextGroups")&&liveLoader.includes("+b08ChenggongMC7.answerSlots"),"B08 is integrated into live loader rather than JSON-only");
+
   assert.ok(liveLoader.includes("...b01Wende7.blocks")&&liveLoader.includes("b01Wende7.answerSlots"),
    "live loader must actually integrate seven new B01 items, not merely upload their JSON asset");
   assert.ok(liveLoader.includes("...b02Native21.blocks")&&liveLoader.includes("b02Native21.answerSlots"),
@@ -606,7 +619,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B07 exact4 + Lushang exact3 LIVE; 952 answer slots (476 TF, 341 MC, 36 context groups)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B08 Chenggong two original parents and seven MCs LIVE; 959 answer slots (476 TF, 341 MC, 38 context groups)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

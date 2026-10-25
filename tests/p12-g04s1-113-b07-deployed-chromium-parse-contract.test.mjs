@@ -10,5 +10,5 @@ test('B07 live Pages Chromium E2E has valid Node ESM syntax and two separately n
  assert.equal((c.match(/const exact4=/g)||[]).length,1);
  assert.equal((c.match(/const b07NewExact4=/g)||[]).length,1);
  assert.ok(c.includes('b07NewExact4.blocks.map(x=>x.source_original_slot_id)'));
- assert.ok(c.includes('已載入內建考古題 952 小題'));
+ assert.ok(c.includes('已載入內建考古題 959 小題'));
 });

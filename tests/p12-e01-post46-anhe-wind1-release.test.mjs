@@ -75,10 +75,10 @@ test("active V3 ScienceKP26 two more original TF while frozen V2 excludes only R
  };
  try{
   const v3=await loadEmbeddedHistoricalBank(authority);
-  assert.equal(v3.certifiedAnswerSlots,952); // previous 948 + 4 B07 exact4, no B01–B06 reprocessing
+  assert.equal(v3.certifiedAnswerSlots,959); // B08 +7 in two indivisible source parents
   assert.equal(v3.certifiedTrueFalse,476); // prior 471 + 5 B06 TF
   assert.equal(v3.certifiedStandaloneChoice,341); // previous 337 + B07 exact4 4 MC; original E01 evidence unchanged
-  assert.equal(v3.certifiedGroupCount,36);
+  assert.equal(v3.certifiedGroupCount,38);
   assert.equal(v3.blocks.filter(x=>x.id?.startsWith('P12_113_G04S1_B07_LUSHANG_TEXT3_')).length,3);
   assert.equal(v3.blocks.filter(x=>x.id?.startsWith('P12_113_G04S1_B07_EXACT4_TEXT_')).length,4); // only precise B07 released
   assert.equal(v3.blocks.filter(x=>x.source_slot_id===proof.source_slot_id).length,1);

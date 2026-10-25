@@ -9,6 +9,7 @@ import {validateAndConvertP12113B02Native21} from "../site/assets/js/p12-g04s1-1
 import {validateAndConvertP12113B03Native27} from "../site/assets/js/p12-g04s1-113-b03-native27-standalone-release.mjs";
 import {validateAndConvertP12113B04Native36} from "../site/assets/js/p12-g04s1-113-b04-native36-standalone-release.mjs";
 import {validateAndConvertP12113B06Native16} from "../site/assets/js/p12-g04s1-113-b06-native16-standalone-release.mjs";
+import {validateAndConvertP12113B08ChenggongMC7} from "../site/assets/js/p12-g04s1-113-b08-chenggong-mc7-two-parent-release.mjs";
 const read=p=>JSON.parse(readFileSync(p,"utf8"));
 const legacy=read("site/data/authority/science-g03-g04-selector-v2.json");
 const active=read("site/data/authority/science-g03-g04-selector-v3.json");
@@ -68,6 +69,7 @@ test("original R5 selector auto-admission forbidden; only exact independent sour
  const certifiedB03Native27="p12-g04s1-113-b03-native27-standalone-public-v1.json";
  const certifiedB04Native36="p12-g04s1-113-b04-native36-standalone-public-v1.json";
  const certifiedB06Native16="p12-g04s1-113-b06-native16-standalone-public-v1.json";
+ const certifiedB08MC7="p12-g04s1-113-b08-chenggong-mc7-two-parent-public-v1.json";
  assert.ok(sourceFiles.includes(approved),"explicit operator release record required");
  assert.ok(sourceFiles.includes(certified113),"new 113 original source certification required");
  for(const name of sourceFiles){
@@ -201,6 +203,19 @@ test("original R5 selector auto-admission forbidden; only exact independent sour
        &&x.original_cropped_assets_included===false
        &&x.rights_license_status==="REGULATED_EXAM_QUESTION_ART9"
        &&x.source_pdf_sha256?.length===64&&x.source_pdf_bbox_pts_top_left?.length===4));
+   } else if(name===certifiedB08MC7){
+     // A separately operator-authorized original source MC7 cohort: R5 selector remap remains zero.
+     const batch=read("site/data/question-bank/"+name);
+     const receipt=read("data/review/p12-g04s1-113-b08-chenggong-mc7-exact7-operator-approved-formal-v1.json");
+     const admitted=validateAndConvertP12113B08ChenggongMC7(batch,active);
+     assert.deepEqual([admitted.answerSlots,admitted.contextGroups,admitted.standaloneChoice],[7,2,0]);
+     assert.deepEqual(receipt.official_metrics_before_live,
+       {FORMAL_SCIENCE_KP_APPROVED_new:7,ADMISSION_READY_new:7,PUBLISHED_new:0});
+     assert.deepEqual(receipt.eligible_source_positions,[387,388,389,390,391,392,393]);
+     assert.equal(batch.blocks[0].items[2].canonical_kp_id,"sci_g04s1_02_14");
+     assert.deepEqual(batch.blocks[0].secondary_canonical_kp_ids,["sci_g04s1_02_14"]);
+     assert.equal(batch.blocks[0].operator_publication_approval,true);
+     assert.equal(bytes.includes("sci_g04s1_02_13")||bytes.includes("sci_g04s1_01_12"),false);
    } else for(const id of newIds)assert.equal(bytes.includes(id),false,name+" must not auto-admit "+id);
  }
  assert.equal(remap.public_admission_count,0);

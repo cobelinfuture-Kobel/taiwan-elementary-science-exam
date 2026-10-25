@@ -12,12 +12,12 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b08-mc7-two-parent-live959-20261025",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b08-matching10-two-parent-live969-20261025",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 959 小題（476 題是非＋341 題單選＋38 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 969 小題（476 題是非＋341 題單選＋40 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
   const native38Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-native38-public-v1.json",{cache:"no-cache"});
   assert.equal(native38Response.status(),200,"Published Pages must serve approved native38 original exam cohort");
   const native38=await native38Response.json();
@@ -273,6 +273,20 @@ try {
   assert.ok(b08.blocks.every(g=>g.operator_publication_approval===true&&g.original_cropped_assets_included===false));
   assert.deepEqual(b08.blocks.flatMap(g=>g.items.map(x=>x.answer)),["①","②","③","③","②","④","①"]);
   assert.ok(liveLoader.includes("...b08ChenggongMC7.blocks")&&liveLoader.includes("+b08ChenggongMC7.contextGroups")&&liveLoader.includes("+b08ChenggongMC7.answerSlots"),"B08 is integrated into live loader rather than JSON-only");
+
+  const matchResp=await page.request.get(base+"/data/question-bank/p12-g04s1-113-b08-matching10-two-parent-public-v1.json",{cache:"no-cache"});
+  assert.equal(matchResp.status(),200,"Live Pages publishes B08 original matching codebank source JSON");
+  const matching10=await matchResp.json();
+  assert.deepEqual([matching10.expected_blocks,matching10.expected_context_groups,matching10.expected_answer_slots],[2,2,10]);
+  assert.deepEqual(matching10.blocks.map(x=>x.items.length),[6,4]);
+  assert.deepEqual(matching10.blocks.map(x=>x.shared.choiceBank.length),[4,2]);
+  assert.deepEqual(matching10.blocks.flatMap(x=>x.items.map(q=>q.answer)),["C","B","D","A","C","B","A","B","B","A"]);
+  assert.ok(matching10.blocks.flatMap(x=>x.items).every(q=>q.type==="short"&&!Object.hasOwn(q,"options")));
+  assert.ok(matching10.blocks.every(x=>x.original_cropped_assets_included===false&&x.operator_publication_approval===true));
+  assert.ok(liveLoader.includes("...b08Matching10.blocks")
+    &&liveLoader.includes("+b08Matching10.answerSlots")
+    &&liveLoader.includes("+b08Matching10.contextGroups"),"Matching10 must load as 2 atomic public groups");
+
 
   assert.ok(liveLoader.includes("...b01Wende7.blocks")&&liveLoader.includes("b01Wende7.answerSlots"),
    "live loader must actually integrate seven new B01 items, not merely upload their JSON asset");
@@ -619,7 +633,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B08 Chenggong two original parents and seven MCs LIVE; 959 answer slots (476 TF, 341 MC, 38 context groups)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B08 Chenggong MC7 + original matching10 in four atomic source parents LIVE; 969 answer slots (476 TF, 341 MC, 40 context groups)");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

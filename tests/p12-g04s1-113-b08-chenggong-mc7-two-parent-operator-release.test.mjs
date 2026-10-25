@@ -52,5 +52,5 @@ test("B08 Exam loader and A4 grouped renderer preserve both groups and exactly s
  assert.ok(html.includes("b.shared.table.rows.forEach"));
  assert.ok(html.includes("b.items.forEach((item,i)=>"));
  assert.ok(html.includes("if(!mounted)throw Error('題目內容過高，拒絕裁切')"));
- assert.ok(html.includes("20261025-p12-113-b08-mc7-two-parent-release"));
+ assert.ok(html.includes("20261025-p12-113-b08-matching10-two-parent-release"));
 });

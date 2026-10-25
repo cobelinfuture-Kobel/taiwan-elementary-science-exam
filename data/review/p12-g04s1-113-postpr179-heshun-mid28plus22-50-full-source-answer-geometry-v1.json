@@ -1,0 +1,307 @@
+{
+  "schema_version": "P12_G04S1_113_HESHUNMID002_REMAINING22_SOURCE_TABLE_AND_MOON_RASTER_BBOX_V1",
+  "original_paper": "SCI_G04_S1_113_MID_002",
+  "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+  "page_1based": 1,
+  "original_raster_dpi": 144,
+  "original_page_pixel_size": [
+    2380,
+    1682
+  ],
+  "original_page_rgb_sha256": "de20c8568b0e6cac4bc04a42229ec7faa6c1e894fc9ce3729f4360eade0057fe",
+  "source_original_raster_bbox_type": "Exact original response TABLE CELL boundary rectangles for 15 blank cells; printed parenthesis glyph union for seven lunar answers, no OCR, visual source raster QA.",
+  "row_fields": [
+    "section",
+    "parent_number",
+    "child_original_position",
+    "source_kind",
+    "x0y0x1y1_in_original_pdf_raster"
+  ],
+  "source_original_response_locations": [
+    [
+      "S1",
+      1,
+      1,
+      "ANIMAL_MOVEMENT_CELL",
+      [
+        288,
+        638,
+        498,
+        688
+      ]
+    ],
+    [
+      "S1",
+      1,
+      2,
+      "ANIMAL_MOVEMENT_CELL",
+      [
+        498,
+        638,
+        706,
+        688
+      ]
+    ],
+    [
+      "S1",
+      1,
+      3,
+      "ANIMAL_MOVEMENT_CELL",
+      [
+        706,
+        638,
+        914,
+        688
+      ]
+    ],
+    [
+      "S1",
+      1,
+      4,
+      "ANIMAL_MOVEMENT_CELL",
+      [
+        914,
+        638,
+        1122,
+        688
+      ]
+    ],
+    [
+      "S1",
+      1,
+      6,
+      "ANIMAL_RESPIRATION_CELL",
+      [
+        498,
+        688,
+        706,
+        739
+      ]
+    ],
+    [
+      "S1",
+      1,
+      7,
+      "ANIMAL_RESPIRATION_CELL",
+      [
+        706,
+        688,
+        914,
+        739
+      ]
+    ],
+    [
+      "S1",
+      1,
+      8,
+      "ANIMAL_RESPIRATION_CELL",
+      [
+        914,
+        688,
+        1122,
+        739
+      ]
+    ],
+    [
+      "S1",
+      2,
+      1,
+      "AQUATIC_PLANT_TYPE_CELL",
+      [
+        272,
+        1316,
+        485,
+        1366
+      ]
+    ],
+    [
+      "S1",
+      2,
+      2,
+      "AQUATIC_PLANT_TYPE_CELL",
+      [
+        485,
+        1316,
+        697,
+        1366
+      ]
+    ],
+    [
+      "S1",
+      2,
+      3,
+      "AQUATIC_PLANT_TYPE_CELL",
+      [
+        697,
+        1316,
+        909,
+        1366
+      ]
+    ],
+    [
+      "S1",
+      2,
+      4,
+      "AQUATIC_PLANT_TYPE_CELL",
+      [
+        909,
+        1316,
+        1121,
+        1366
+      ]
+    ],
+    [
+      "S1",
+      2,
+      5,
+      "AQUATIC_PLANT_GROWTH_CELL",
+      [
+        272,
+        1366,
+        485,
+        1417
+      ]
+    ],
+    [
+      "S1",
+      2,
+      6,
+      "AQUATIC_PLANT_GROWTH_CELL",
+      [
+        485,
+        1366,
+        697,
+        1417
+      ]
+    ],
+    [
+      "S1",
+      2,
+      7,
+      "AQUATIC_PLANT_GROWTH_CELL",
+      [
+        697,
+        1366,
+        909,
+        1417
+      ]
+    ],
+    [
+      "S1",
+      2,
+      8,
+      "AQUATIC_PLANT_GROWTH_CELL",
+      [
+        909,
+        1366,
+        1121,
+        1417
+      ]
+    ],
+    [
+      "S1",
+      3,
+      1,
+      "LUNAR_SEQUENCE_BLANK",
+      [
+        1462,
+        727,
+        1545,
+        752
+      ]
+    ],
+    [
+      "S1",
+      3,
+      2,
+      "LUNAR_SEQUENCE_BLANK",
+      [
+        1601,
+        728,
+        1684,
+        753
+      ]
+    ],
+    [
+      "S1",
+      3,
+      3,
+      "LUNAR_SEQUENCE_BLANK",
+      [
+        1740,
+        729,
+        1824,
+        754
+      ]
+    ],
+    [
+      "S1",
+      3,
+      4,
+      "LUNAR_PHASE_BLANK",
+      [
+        1860,
+        780,
+        1944,
+        804
+      ]
+    ],
+    [
+      "S1",
+      3,
+      5,
+      "LUNAR_PHASE_BLANK",
+      [
+        1692,
+        828,
+        1776,
+        853
+      ]
+    ],
+    [
+      "S1",
+      3,
+      6,
+      "LUNAR_PHASE_BLANK",
+      [
+        2108,
+        881,
+        2192,
+        905
+      ]
+    ],
+    [
+      "S1",
+      3,
+      7,
+      "LUNAR_PHASE_BLANK",
+      [
+        1950,
+        929,
+        2033,
+        954
+      ]
+    ]
+  ],
+  "pre_filled_school_example_suppression": "Source S1 parent 1 animal respiratory row first column is filled with sample printed symbol; excluded and not counted as student blank",
+  "new_original_response_locations_verified": 22,
+  "section_counts": {
+    "ANIMAL_BLANK_TABLE_CELLS": 7,
+    "AQUATIC_PLANT_BLANK_TABLE_CELLS": 8,
+    "LUNAR_QUESTION_ORIGINAL_PRINTED_RESPONSE_GLYPHS": 7
+  },
+  "previous_HeshunMID_verified_source_positions": 28,
+  "fully_itemized_original_HeshunMID_answer_positions": 50,
+  "previous_scan5_cumulative_original_answer_bbox": 188,
+  "new_scan5_cumulative_original_answer_bbox": 210,
+  "old_scan5_262_section_planning_difference_remaining_NONCERTIFIED": 52,
+  "rights_original_lunar_pictures_NOT_cleared_for_student_site": true,
+  "science_answer_and_direct_frozen48_kp_pending": true,
+  "all_original_sharing_context_and_figure_dependency_gate_pending": true,
+  "original_source_PDF_not_republished": true,
+  "full_duplicate_operator_release_gate_pending": true,
+  "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+  "ADMISSION_READY_new": 0,
+  "PUBLISHED_new": 0,
+  "no_B01_B08_reopen": true
+}

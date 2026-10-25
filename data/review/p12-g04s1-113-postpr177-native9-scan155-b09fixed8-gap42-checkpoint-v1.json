@@ -37,19 +37,21 @@
   "b09_authority": {
     "PR124_frozen_b09_source_positions": 8,
     "original_ordinals": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408
     ],
     "requested_target": 50,
     "missing_extra_source_IDs_not_authorized": 42,
     "new_exact_source_authority_cleared": 0,
-    "prohibition": "Do not rename other 113 papers Native59 or Scan5 into B09 to fill missing 42. No acceptance or PR for an invented source."
+    "prohibition": "Do not rename other 113 papers Native59 or Scan5 into B09 to fill missing 42. No acceptance or PR for an invented source.",
+    "source_authority_branch_ref": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+    "source_provenance_doc": "data/review/p12-g04s1-113-other-dependent-b09-source-parent-preflight-v1.json"
   },
   "formal_metrics_new": {
     "FORMAL_SCIENCE_KP_APPROVED": 0,

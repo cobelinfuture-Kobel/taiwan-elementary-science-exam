@@ -40,6 +40,7 @@ export function validateAndConvertP12113B08ChenggongMC7(d,authority){
     &&g.copyright_path==="SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES"
     &&Array.isArray(g.items)&&g.items.length===ORIGINAL_GROUP_SIZES[gi],
     "original school exam parent provenance and rights "+gi);
+  fail(gi===0?JSON.stringify(g.secondary_canonical_kp_ids)==="[\"sci_g04s1_02_14\"]":!g.secondary_canonical_kp_ids?.length,"group contains exactly the original child KP links");
   fail(fnv(JSON.stringify([g.shared,g.title,g.source_parent_original_id]))===ORIGINAL_PARENT_HASHES[gi],
    "parent text, group-4 exact table or group-5 speaker descriptions changed");
   fail(unit.knowledge_points.some(k=>k.canonical_kp_id===g.canonical_kp_id),"group canonical 48 KP");

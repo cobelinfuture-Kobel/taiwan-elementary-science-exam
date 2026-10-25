@@ -14,7 +14,7 @@ const fnv=s=>{let h=0xcbf29ce484222325n;for(const c of s)h=((h^BigInt(c.codePoin
 export function validateAndConvertP12113B08ChenggongMC7(d,authority){
  fail(d?.schema_version===P12_113_B08_MC7_SCHEMA&&d.public_site_integrated===true
   &&d.requires_operator_batch_manifest_approval===false
-  &&d.operator_instruction_verbatim==="P12_G04S1_113_B08_MC7_ExactOperatorCohort387to393_TwoParentStudentRenderer_ThenSelectiveStudentPR_FocusedCI_MainReadback_PagesE2E_Matching10Separate_33HOLD_NoB01ToB07Reopen"
+  &&d.operator_instruction_verbatim==="P12_G04S1_113_B08_MC7_ExactOperatorCohort387to393_TwoParentStudentRenderer_ThenSelectiveStudentPR_FocusedCI_MainReadback_PagesLiveE2E_Matching10Separate_33HOLD_NoB01ToB07Reopen"
   &&JSON.stringify(d.operator_scope_ordinals)==="[387,388,389,390,391,392,393]"
   &&d.expected_blocks===2&&d.expected_answer_slots===7
   &&d.expected_standalone_true_false===0&&d.expected_standalone_choice===0&&d.expected_context_groups===2

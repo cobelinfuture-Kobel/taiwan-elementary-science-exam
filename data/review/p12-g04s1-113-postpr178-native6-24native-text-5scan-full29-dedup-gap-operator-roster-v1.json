@@ -1,0 +1,118 @@
+{
+  "schema_version": "P12_G04S1_113_POST_PR178_NATIVE6_29PAPER_24TEXT_5SCAN_DEDUP_GAP_AND_OPERATOR_COHORT_V1",
+  "authority": "README.md;docs/QUESTION_ADMISSION_GOVERNANCE.md; site/data/authority/science-g03-g04-selector-v3.json",
+  "source_checkpoint": "data/review/p12-g04s1-113-postpr177-native9-science-directkp-rights-exception-by-source-v1.json",
+  "old_main": "e5f33b0c0bd947fa37642080f3e4ca065bfdc880",
+  "source_coverage": {
+    "frozen_113_school_original_pdf_count": 29,
+    "original_local_byteSHA_verified_pdf_count": 19,
+    "local_native_text_origins": 14,
+    "additional_ten_original_files_found_by_exact_filename_in_connected_Drive": 10,
+    "additional_ten_provider_text_readback_count": 10,
+    "accessible_original_text_corpus_count": 24,
+    "scan_only_PDFs_without_native_text_or_individual_semantic_coverage": 5,
+    "all29_original_binary_sha_reverified_this_turn": false,
+    "full29_semantic_duplicate_formal_gate_complete": false
+  },
+  "analysis_method": "Whitespace/punctuation/options-marker normalized full original stem/option strings checked against 14 locally byte SHA verified native school PDFs; no other exact normalized match for Native6 in those 14 PDFs. Also read current text of remaining 10 exact-title Drive source papers; no Native6 identical target question stem matched. Prior PR176 covered 26 current113 public bank shards (333 items), nine 114 public bank shards (309 items), and 114 original 25 source files (717 TF/MC occurrences). Exact source/text match absence does NOT imply full semantic duplicate absence; scan-only five remain visually uncovered, option-reordered aliases in non-public 113 sources still require comparative review.",
+  "proposed_exact_operator_cohort_status": "SOURCE_IDENTIFIED_ONLY_NOT_RELEASE_APPROVED",
+  "proposed_six_source_id_rows": [
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|003",
+      "independent_science_answer_NOT_SCHOOL_KEY": "3",
+      "proposed_direct_113_frozen_kp_id": "sci_g04s1_04_01",
+      "source_exact_native_bbox_inherited": true,
+      "source_text_and_ordered_options_available_in_private_handoff": true,
+      "source_exam_Art9_component_path_preliminarily_applicable": true,
+      "full_113_semantic_dedup_gate_accepted": false,
+      "source_rights_component_cleared_for_student": false,
+      "operator_explicit_exact_cohort_publication_approval": false,
+      "FORMAL_SCIENCE_KP_APPROVED": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|001",
+      "independent_science_answer_NOT_SCHOOL_KEY": "O",
+      "proposed_direct_113_frozen_kp_id": "sci_g04s1_04_04",
+      "source_exact_native_bbox_inherited": true,
+      "source_text_and_ordered_options_available_in_private_handoff": true,
+      "source_exam_Art9_component_path_preliminarily_applicable": true,
+      "full_113_semantic_dedup_gate_accepted": false,
+      "source_rights_component_cleared_for_student": false,
+      "operator_explicit_exact_cohort_publication_approval": false,
+      "FORMAL_SCIENCE_KP_APPROVED": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_005|S1|TF|001",
+      "independent_science_answer_NOT_SCHOOL_KEY": "X",
+      "proposed_direct_113_frozen_kp_id": "sci_g04s1_02_01",
+      "source_exact_native_bbox_inherited": true,
+      "source_text_and_ordered_options_available_in_private_handoff": true,
+      "source_exam_Art9_component_path_preliminarily_applicable": true,
+      "full_113_semantic_dedup_gate_accepted": false,
+      "source_rights_component_cleared_for_student": false,
+      "operator_explicit_exact_cohort_publication_approval": false,
+      "FORMAL_SCIENCE_KP_APPROVED": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016|S2|MC|001",
+      "independent_science_answer_NOT_SCHOOL_KEY": "4",
+      "proposed_direct_113_frozen_kp_id": "sci_g04s1_02_13",
+      "source_exact_native_bbox_inherited": true,
+      "source_text_and_ordered_options_available_in_private_handoff": true,
+      "source_exam_Art9_component_path_preliminarily_applicable": true,
+      "full_113_semantic_dedup_gate_accepted": false,
+      "source_rights_component_cleared_for_student": false,
+      "operator_explicit_exact_cohort_publication_approval": false,
+      "FORMAL_SCIENCE_KP_APPROVED": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016|S2|MC|012",
+      "independent_science_answer_NOT_SCHOOL_KEY": "4",
+      "proposed_direct_113_frozen_kp_id": "sci_g04s1_02_07",
+      "source_exact_native_bbox_inherited": true,
+      "source_text_and_ordered_options_available_in_private_handoff": true,
+      "source_exam_Art9_component_path_preliminarily_applicable": true,
+      "full_113_semantic_dedup_gate_accepted": false,
+      "source_rights_component_cleared_for_student": false,
+      "operator_explicit_exact_cohort_publication_approval": false,
+      "FORMAL_SCIENCE_KP_APPROVED": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016|S2|MC|013",
+      "independent_science_answer_NOT_SCHOOL_KEY": "3",
+      "proposed_direct_113_frozen_kp_id": "sci_g04s1_02_08",
+      "source_exact_native_bbox_inherited": true,
+      "source_text_and_ordered_options_available_in_private_handoff": true,
+      "source_exam_Art9_component_path_preliminarily_applicable": true,
+      "full_113_semantic_dedup_gate_accepted": false,
+      "source_rights_component_cleared_for_student": false,
+      "operator_explicit_exact_cohort_publication_approval": false,
+      "FORMAL_SCIENCE_KP_APPROVED": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    }
+  ],
+  "B01_B08_published_unchanged": true,
+  "prohibited_inferences": [
+    "user authorized continue-work is not exact operator signoff for this six-source roster",
+    "do not count the five scan-only papers as exact-text compared",
+    "do not claim new public question on source text result only",
+    "do not extend B09 eight frozen source IDs"
+  ],
+  "formal_metrics_new": {
+    "FORMAL_SCIENCE_KP_APPROVED": 0,
+    "ADMISSION_READY": 0,
+    "PUBLISHED": 0
+  },
+  "next_gate": "Complete 113 five scanned original visual semantic duplicates and original source parent/integrated-rights checks; if all gates pass request applicable exact source roster signoff once, then selectively release without reopen."
+}

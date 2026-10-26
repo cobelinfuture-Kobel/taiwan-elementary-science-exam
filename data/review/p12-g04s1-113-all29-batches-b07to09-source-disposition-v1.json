@@ -1,0 +1,928 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_BATCH_B07_TO_B09_EXACT_SOURCE_DISPOSITION_V1",
+  "source_branch_review_only_unmerged": true,
+  "source_batch_files": {
+    "B07": {
+      "source_file": "data/review/p12-g04s1-113-other-dependent-b07-source-parent-preflight-v1.json",
+      "sha": "83d5ebd7c972ac361fa3b428ff51e69066717210",
+      "positions": 50,
+      "published": 7,
+      "hold": 43
+    },
+    "B08": {
+      "source_file": "data/review/p12-g04s1-113-other-dependent-b08-source-parent-preflight-v1.json",
+      "sha": "ea202fefc3af15b2e2c96357a5a4b833744c453e",
+      "positions": 50,
+      "published": 17,
+      "hold": 33
+    },
+    "B09": {
+      "source_file": "data/review/p12-g04s1-113-other-dependent-b09-source-parent-preflight-v1.json",
+      "sha": "46246df2adc2d0c2f612648cb2cd7997891d69b5",
+      "positions": 8,
+      "published": 0,
+      "hold": 8
+    }
+  },
+  "operator_pub_B07_ordinals": [
+    306,
+    324,
+    326,
+    327,
+    335,
+    336,
+    337
+  ],
+  "operator_pub_B08_ordinals": [
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397
+  ],
+  "frozen_B09_eight_only": true,
+  "source_rows": [
+    {
+      "batch": "B07",
+      "ordinal": 301,
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S6|PLANT_DIAGRAM_CHOICE|5",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 302,
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G1|READING_SINGLE_CHOICE|1",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 303,
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G1|READING_SINGLE_CHOICE|2",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 304,
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G1|READING_SINGLE_CHOICE|3",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 305,
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE|1",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 306,
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE|2",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 307,
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE|3",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 308,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|1",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 309,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|2",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 310,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|3",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 311,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|4",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 312,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|5",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 313,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|6",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 314,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|1",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 315,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|2",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 316,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|3",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 317,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|4",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 318,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|5",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 319,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|6",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 320,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING|1",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 321,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING|2",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 322,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING|3",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 323,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING|4",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 324,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|1",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 325,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|2",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 326,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|3",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 327,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|4",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 328,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G5|MATCHING|1",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 329,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G5|MATCHING|2",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 330,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G5|MATCHING|3",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 331,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB|1",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 332,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB|2",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 333,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB|3",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 334,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB|4",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 335,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|1",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 336,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|2",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 337,
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|3",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 338,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|1",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 339,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|2",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 340,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|3",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 341,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|4",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 342,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|5",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 343,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|6",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 344,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|7",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 345,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|8",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 346,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|9",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 347,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|10",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 348,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER|1",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 349,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER|2",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B07",
+      "ordinal": 350,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER|3",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 351,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER|4",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 352,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER|5",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 353,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S5|OPEN_RESPONSE|1",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 354,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S5|OPEN_RESPONSE|2",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 355,
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S5|OPEN_RESPONSE|3",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 356,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G1|CIRCUIT_FIGURE_TF|1",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 357,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G1|CIRCUIT_FIGURE_TF|2",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 358,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G1|CIRCUIT_FIGURE_TF|3",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 359,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G1|CIRCUIT_FIGURE_TF|4",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 360,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G1|CIRCUIT_FIGURE_TF|5",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 361,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G1|CIRCUIT_FIGURE_TF|6",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 362,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|1",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 363,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|2",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 364,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|3",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 365,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|4",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 366,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|5",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 367,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|6",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 368,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|7",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 369,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|8",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 370,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G3|CIRCUIT_RANK|1",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 371,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G3|CIRCUIT_RANK|2",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 372,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G3|CIRCUIT_RANK|3",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 373,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G3|CIRCUIT_RANK|4",
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 374,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G1|FIGURE_AND_SHORT_ANSWER|1",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 375,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G1|FIGURE_AND_SHORT_ANSWER|2",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 376,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G1|FIGURE_AND_SHORT_ANSWER|3",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 377,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G2|MOON_FIGURE_MATCH|1",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 378,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G2|MOON_FIGURE_MATCH|2",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 379,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G2|MOON_FIGURE_MATCH|3",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 380,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G2|MOON_FIGURE_MATCH|4",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 381,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G3|GROUP_TICK|1",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 382,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G3|GROUP_TICK|2",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 383,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G3|GROUP_TICK|3",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 384,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G3|GROUP_TICK|4",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 385,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G3|GROUP_TICK|5",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 386,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G3|GROUP_TICK|6",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 387,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G4|GROUP_MC|1",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 388,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G4|GROUP_MC|2",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 389,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G4|GROUP_MC|3",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 390,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G5|GROUP_MC|1",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 391,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G5|GROUP_MC|2",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 392,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G5|GROUP_MC|3",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 393,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S3|G5|GROUP_MC|4",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 394,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|1",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 395,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|2",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 396,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|3",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 397,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|4",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "PUBLISHED",
+      "original_disposition": "PUBLISHED_MAIN_LIVE"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 398,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|5",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 399,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|6",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B08",
+      "ordinal": 400,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|7",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_PARENT_SCIENCE_KP_RIGHTS"
+    },
+    {
+      "batch": "B09",
+      "ordinal": 401,
+      "source_slot_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|8",
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "status": "HOLD",
+      "original_disposition": "HOLD_SOURCE_KP_OR_GEOMETRY"
+    },
+    {
+      "batch": "B09",
+      "ordinal": 402,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|1",
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "status": "HOLD",
+      "original_disposition": "HOLD_SOURCE_KP_OR_GEOMETRY"
+    },
+    {
+      "batch": "B09",
+      "ordinal": 403,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|2",
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "status": "HOLD",
+      "original_disposition": "HOLD_SOURCE_KP_OR_GEOMETRY"
+    },
+    {
+      "batch": "B09",
+      "ordinal": 404,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|3",
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "status": "HOLD",
+      "original_disposition": "HOLD_SOURCE_KP_OR_GEOMETRY"
+    },
+    {
+      "batch": "B09",
+      "ordinal": 405,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|4",
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "status": "HOLD",
+      "original_disposition": "HOLD_SOURCE_KP_OR_GEOMETRY"
+    },
+    {
+      "batch": "B09",
+      "ordinal": 406,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|5",
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "status": "HOLD",
+      "original_disposition": "HOLD_SOURCE_KP_OR_GEOMETRY"
+    },
+    {
+      "batch": "B09",
+      "ordinal": 407,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|6",
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "status": "HOLD",
+      "original_disposition": "HOLD_SOURCE_KP_OR_GEOMETRY"
+    },
+    {
+      "batch": "B09",
+      "ordinal": 408,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|7",
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "status": "HOLD",
+      "original_disposition": "HOLD_SOURCE_KP_OR_GEOMETRY"
+    }
+  ],
+  "totals": {
+    "positions": 108,
+    "published": 24,
+    "hold": 84,
+    "alias": 0
+  }
+}

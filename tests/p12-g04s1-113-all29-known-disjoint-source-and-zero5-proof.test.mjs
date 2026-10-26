@@ -7,7 +7,7 @@ const source=read(prefix+'known-atomic-disjoint-source-ledger-v1.json');
 const zero=read(prefix+'zero5-321-atomic-source-disposition-v1.json');
 const join=read(prefix+'b08-published17-original-parent-sourceid-crosswalk-v1.json');
 const master=read(prefix+'paper-level-admission-master-v1.json');
-const normalize=id=>id.split('|').map(s=>/^[SG]\\d+$/.test(s)?s[0]+Number(s.slice(1)):/^\\d+$/.test(s)?String(Number(s)):s).join('|');
+const normalize=id=>id.split('|').map(s=>/^[SG]\d+$/.test(s)?s[0]+Number(s.slice(1)):/^\d+$/.test(s)?String(Number(s)):s).join('|');
 test('all29 known positions are disjoint and never presented as certified full question denominator',()=>{
  assert.equal(source.original_papers.length,29);
  assert.equal(source.source_position_count_distinct_known,904);

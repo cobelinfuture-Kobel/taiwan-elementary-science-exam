@@ -1,0 +1,995 @@
+{
+  "schema_version": "P12_G04S1_113_P04_ALL16_DIRECT_DRIVE_PDF_TEXT_AND_PRINTED_SCORE_CROSSCHECK_V1",
+  "scope": "16 native PDF source papers in the remaining all29 full-source inventory",
+  "source_refs": [
+    "data/review/p12-g04s1-113-p04-remaining16-drive-pdf-textlayer-shard01-v1.json",
+    "data/review/p12-g04s1-113-p04-remaining16-drive-pdf-textlayer-shard02-v1.json",
+    "data/review/p12-g04s1-113-remaining16-printed-score-proof-v2.json",
+    "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json"
+  ],
+  "source_pdf_text_layer_readback": 16,
+  "original_school_papers": 16,
+  "printed_score_proof_points_each_paper": 100,
+  "previous_16_provisional_score_derived_slots": 934,
+  "all29_exact_total_slots": null,
+  "important": "Printed score and source text accessible does NOT certify complete physical answer slots, true parent/figure dependency, original raster/native BBoxes, or Science/KP. 934 is the old, unverified denominator, not accepted as formal.",
+  "new_admission_ready": 0,
+  "new_published": 0,
+  "records": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_001",
+      "school": "文德國小",
+      "source_pdf_sha256_from_prior_registry": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_drive_file_id": "1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5",
+      "title": "113_南一_四上_自然_期中評量卷_文德國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 3408,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": false,
+      "extracted_major_section_headers": [
+        "一、是非題：每題 2 分、共 30 分",
+        "二、選擇題：每題 2 分、共 24 分"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 30,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 15,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 24,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 12,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "高度角觀測器",
+          "printed_score_points_from_prior_source_proof": 6,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 3,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S4",
+          "original_label": "月亮觀測圖表",
+          "printed_score_points_from_prior_source_proof": 9,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 6,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S5",
+          "original_label": "水蘊草畫圖",
+          "printed_score_points_from_prior_source_proof": 3,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 1,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S6",
+          "original_label": "影子畫圖",
+          "printed_score_points_from_prior_source_proof": 3,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 1,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S7",
+          "original_label": "水生植物配對",
+          "printed_score_points_from_prior_source_proof": 8,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 4,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S8",
+          "original_label": "觀察紀錄勾選",
+          "printed_score_points_from_prior_source_proof": 5,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 5,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S9",
+          "original_label": "手電筒影子圖",
+          "printed_score_points_from_prior_source_proof": 8,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 4,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S10",
+          "original_label": "水域保護勾選",
+          "printed_score_points_from_prior_source_proof": 4,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 4,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 55,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": "Original year in text layer spaced as '1 13'; Section III header joined to prior question line, not detected by anchored heading lexer"
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_003",
+      "school": "忠孝國小",
+      "source_pdf_sha256_from_prior_registry": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_drive_file_id": "1ZjaiQsn-isRQXPST3l3cQNuYYAfxGx5N",
+      "title": "113_南一_四上_自然_期中評量卷_忠孝國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 3341,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": true,
+      "extracted_major_section_headers": [
+        "一、是非題：每題 2 分、共 18 分",
+        "二、選擇題：每題 2 分、共 18 分",
+        "三、勾選題：每格 2 分、共 16 分",
+        "四、填填看：每格 2 分、共 8 分",
+        "五、配合題：每題 2 分、共 8 分",
+        "六、題組：每題 2 分、共 18 分",
+        "七、看圖回答問題：每題 2 分、共 10 分",
+        "八、科學閱讀素養題：每題 2 分、共 4 分"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 18,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 9,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 18,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 9,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "勾選題",
+          "printed_score_points_from_prior_source_proof": 16,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 8,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S4",
+          "original_label": "填填看",
+          "printed_score_points_from_prior_source_proof": 8,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 4,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S5",
+          "original_label": "配合題",
+          "printed_score_points_from_prior_source_proof": 8,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 4,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S6",
+          "original_label": "題組",
+          "printed_score_points_from_prior_source_proof": 18,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 9,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S7",
+          "original_label": "看圖回答問題",
+          "printed_score_points_from_prior_source_proof": 10,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 5,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S8",
+          "original_label": "科學閱讀素養題",
+          "printed_score_points_from_prior_source_proof": 4,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 2,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 50,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_004",
+      "school": "東光國小",
+      "source_pdf_sha256_from_prior_registry": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_drive_file_id": "1I0vUMPbv5HyZB6TjSdlRNsXFbRZ4eSzl",
+      "title": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 3189,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": true,
+      "extracted_major_section_headers": [
+        "一、選擇題：每格 2 分、共 30 分",
+        "二、是非題：每格 2 分、共 40 分",
+        "三、勾選題 每格 1 分、共 16 分",
+        "四、畫畫看：每題 2 分、共 6 分",
+        "五、看圖回答問題：每格 1 分、共 8 分"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 30,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 15,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 40,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 20,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "勾選題",
+          "printed_score_points_from_prior_source_proof": 16,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 16,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S4",
+          "original_label": "畫畫看",
+          "printed_score_points_from_prior_source_proof": 6,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 3,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S5",
+          "original_label": "看圖回答問題",
+          "printed_score_points_from_prior_source_proof": 8,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 8,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 62,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_003",
+      "school": "東光國小",
+      "source_pdf_sha256_from_prior_registry": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "source_drive_file_id": "1zXzobPos2iCmWco5dk7xnqq2OIbLKphN",
+      "title": "113_南一_四上_自然_期末評量卷_東光國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 2331,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": true,
+      "extracted_major_section_headers": [
+        "一、選擇題：每格 2 分、共 28 分",
+        "二、是非題：每格 2 分、共 30 分",
+        "三、生活運用題：每格 2 分、共 6 分",
+        "四、電路設計題：畫畫看每題 2 分、共 4 分",
+        "五、觀念記憶圈圈看：共 5 分",
+        "六、日常生活圖片運用題：每格 2 分 共 16 分",
+        "七、配對題(圖片)：每格 1 分、共 8 分",
+        "八、挑戰題 共 3 分"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 28,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 14,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 30,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 15,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "生活運用題",
+          "printed_score_points_from_prior_source_proof": 6,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 3,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S4",
+          "original_label": "電路設計題",
+          "printed_score_points_from_prior_source_proof": 4,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 2,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S5",
+          "original_label": "觀念記憶圈圈看",
+          "printed_score_points_from_prior_source_proof": 5,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 5,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S6",
+          "original_label": "日常生活圖片運用題",
+          "printed_score_points_from_prior_source_proof": 16,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 8,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S7",
+          "original_label": "配對題圖片",
+          "printed_score_points_from_prior_source_proof": 8,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 8,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S8",
+          "original_label": "挑戰題",
+          "printed_score_points_from_prior_source_proof": 3,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 3,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 58,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_005",
+      "school": "大墩國小",
+      "source_pdf_sha256_from_prior_registry": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_drive_file_id": "1HyJVVQMzrpB7CrIclz2wbss_C_yYb7UW",
+      "title": "113_康軒_四上_自然_期中評量卷_大墩國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 3030,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": true,
+      "extracted_major_section_headers": [
+        "一、是非題；每題 2 分，共 30 分",
+        "二、選擇題；每題 2 分 共 28 分",
+        "三、填填看：每格 1 分，共 17 分",
+        "四、勾選題；每格 1 分，共 17 分",
+        "五、活用題；每題 2 分，共 8 分"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 30,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 15,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 28,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 14,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "填填看",
+          "printed_score_points_from_prior_source_proof": 17,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 17,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S4",
+          "original_label": "勾選題",
+          "printed_score_points_from_prior_source_proof": 17,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 17,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S5",
+          "original_label": "活用題",
+          "printed_score_points_from_prior_source_proof": 8,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 4,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 67,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "school": "民權國小",
+      "source_pdf_sha256_from_prior_registry": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_drive_file_id": "1akljKsxYcCcB4H_PYma8gIaHQbQvBzPj",
+      "title": "113_康軒_四上_自然_期中評量卷_民權國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 2919,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": true,
+      "extracted_major_section_headers": [
+        "一、是非題（每題 2 分，共 26 分）",
+        "二、選擇題（每題 2 分，共 26 分）",
+        "三、做做看（每答 1 分，共 38 分）",
+        "四、連連看（每答 1 分，共 10 分）"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 26,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 13,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 26,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 13,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "做做看",
+          "printed_score_points_from_prior_source_proof": 38,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 38,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S4",
+          "original_label": "連連看",
+          "printed_score_points_from_prior_source_proof": 10,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 10,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 74,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "school": "永安國小",
+      "source_pdf_sha256_from_prior_registry": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_drive_file_id": "1fRdHgW26615qQv9-7rw_cthbGBXfPl75",
+      "title": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 3909,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": false,
+      "extracted_major_section_headers": [
+        "一、是非題：(每題 2 分，共 22 分)",
+        "二、選擇題：(每題 2 分，共 28 分)",
+        "三、連連看：(每個答案 1 分，共 7 分)",
+        "四、看圖回答問題：(每個答案 1 分，共 6 分)",
+        "五、回答問題：(每個答案 1 分，共 6 分)",
+        "六、勾選題：(每個答案 1 分，共 27 分)",
+        "七、活用題：(每個答案 1 分，共 4 分)"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 22,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 11,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 28,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 14,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "連連看",
+          "printed_score_points_from_prior_source_proof": 7,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 7,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S4",
+          "original_label": "看圖回答問題",
+          "printed_score_points_from_prior_source_proof": 6,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 6,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S5",
+          "original_label": "回答問題",
+          "printed_score_points_from_prior_source_proof": 6,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 6,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S6",
+          "original_label": "勾選題",
+          "printed_score_points_from_prior_source_proof": 27,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 27,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S7",
+          "original_label": "活用題",
+          "printed_score_points_from_prior_source_proof": 4,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 4,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 75,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_009",
+      "school": "安和國小",
+      "source_pdf_sha256_from_prior_registry": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "source_drive_file_id": "1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu",
+      "title": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 2426,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": true,
+      "extracted_major_section_headers": [
+        "一、是非題：(每題 2 分，共 24 分)",
+        "二、選擇題：(每題 2 分，共 30 分)",
+        "三、綜合題(每個答案 2 分，共 46 分)"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 24,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 12,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 30,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 15,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "綜合題",
+          "printed_score_points_from_prior_source_proof": 46,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 23,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 50,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "school": "明義國小",
+      "source_pdf_sha256_from_prior_registry": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_drive_file_id": "1gij8o2dledUTcxvF1DvWr-22lKOvI67O",
+      "title": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 2735,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": true,
+      "extracted_major_section_headers": [
+        "一、是非題（每題 2 分，共 20 分）",
+        "二、選擇題（每題 2 分，共 20 分）",
+        "三、綜合題（共 52 分）",
+        "四、科學閱讀（每答 2 分，共 8 分）"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 20,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 10,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 20,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 10,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "綜合題",
+          "printed_score_points_from_prior_source_proof": 52,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 26,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S4",
+          "original_label": "科學閱讀",
+          "printed_score_points_from_prior_source_proof": 8,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 4,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 50,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "school": "廣興國小",
+      "source_pdf_sha256_from_prior_registry": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_drive_file_id": "1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v",
+      "title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "pdf_pages": 3,
+      "source_extracted_text_chars": 3415,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": false,
+      "extracted_major_section_headers": [
+        "一、是非題(每題 2 分，共 22 分)",
+        "二、選擇題(每題 2 分，共 40 分)",
+        "三、填充題(每格 2 分，共 20 分)",
+        "四、題組(每格 2 分，共 10 分)",
+        "五、簡答題(每題 1 分，共 3 分)",
+        "六、素養閱讀(每題 1 分，共 5 分)"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 22,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 11,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 40,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 20,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "填充題",
+          "printed_score_points_from_prior_source_proof": 20,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 10,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S4",
+          "original_label": "地震報告題組",
+          "printed_score_points_from_prior_source_proof": 10,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 5,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S5",
+          "original_label": "簡答題",
+          "printed_score_points_from_prior_source_proof": 3,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 3,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S6",
+          "original_label": "素養閱讀",
+          "printed_score_points_from_prior_source_proof": 5,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 5,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 54,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_005",
+      "school": "永安國小",
+      "source_pdf_sha256_from_prior_registry": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_drive_file_id": "1hIaCCE1nkD-CoH8G2TF8yMgvFakV2amv",
+      "title": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 3612,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": true,
+      "extracted_major_section_headers": [
+        "一、是非題：(每題 2 分，共 20 分)",
+        "二、選擇題：(每題 2 分，共 20 分)",
+        "三、看圖回答問題：(每個答案 1 分，共 24 分)",
+        "四、回答問題：(每個答案 1 分，共 5 分)",
+        "五、勾選題：(每個答案 1 分，共 24 分)",
+        "六、活用題：(每個答案 1 分，共 7 分)"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 20,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 10,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 20,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 10,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "看圖回答問題",
+          "printed_score_points_from_prior_source_proof": 24,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 24,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S4",
+          "original_label": "回答問題",
+          "printed_score_points_from_prior_source_proof": 5,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 5,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S5",
+          "original_label": "勾選題",
+          "printed_score_points_from_prior_source_proof": 24,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 24,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S6",
+          "original_label": "活用題",
+          "printed_score_points_from_prior_source_proof": 7,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 7,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 80,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "school": "安和國小",
+      "source_pdf_sha256_from_prior_registry": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_drive_file_id": "1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr",
+      "title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 2359,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": true,
+      "extracted_major_section_headers": [
+        "一、是非題：(每題 2 分，共 32 分)",
+        "二、選擇題：(每題 2 分，共 32 分)",
+        "三、綜合題(每個答案 2 分，共 36 分)"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 32,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 16,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 32,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 16,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "綜合題",
+          "printed_score_points_from_prior_source_proof": 36,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 18,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 50,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_016",
+      "school": "大華國小",
+      "source_pdf_sha256_from_prior_registry": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1",
+      "source_drive_file_id": "1Qo0N1J75mHMBg-9udtoIos4xLSNW6SV2",
+      "title": "113_翰林_四上_自然_期中評量卷_大華國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 3244,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": true,
+      "extracted_major_section_headers": [
+        "一、是非題 (一題 2 分/共 20 分)",
+        "二、選擇題 (一題 2 分/共 28 分)",
+        "三、配合題 (共 46 分)",
+        "四、科普閱讀題(一題 2 分/共 6 分)"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 20,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 10,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 28,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 14,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "配合題",
+          "printed_score_points_from_prior_source_proof": 46,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 23,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S4",
+          "original_label": "科普閱讀題",
+          "printed_score_points_from_prior_source_proof": 6,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 3,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 50,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "school": "成功國小",
+      "source_pdf_sha256_from_prior_registry": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "source_drive_file_id": "1fYJ5QiOHyy5JhqQkGeqejTfF7FnSHL2n",
+      "title": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 2883,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": true,
+      "extracted_major_section_headers": [
+        "一、 是非題 （每題 2 分，共 24 分）",
+        "二．選擇題 （每題 2 分，共 26 分）",
+        "二、 綜合題 （每格 2 分，共 34 分）",
+        "四．配合題（每題 2 分，共 16 分）"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "是非題",
+          "printed_score_points_from_prior_source_proof": 24,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 12,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 26,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 13,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "綜合題",
+          "printed_score_points_from_prior_source_proof": 34,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 17,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S4",
+          "original_label": "配合題",
+          "printed_score_points_from_prior_source_proof": 16,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 8,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 50,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": "Original source has duplicate 二 major section label rather than 三; do not renumber source"
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "school": "大華國小",
+      "source_pdf_sha256_from_prior_registry": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "source_drive_file_id": "1GoIilzz3hFCOk56j6rwfOBWllEjnrlzr",
+      "title": "113_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "pdf_pages": 2,
+      "source_extracted_text_chars": 3639,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": true,
+      "extracted_major_section_headers": [
+        "一、選擇題(一題 3 分/共 72 分)",
+        "二、用尺連連看(一條 2 分/共 14 分)",
+        "三、科普閱讀素養(一格 2 分/共 14 分)"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 72,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 24,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "用尺連連看",
+          "printed_score_points_from_prior_source_proof": 14,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 7,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "科普閱讀素養",
+          "printed_score_points_from_prior_source_proof": 14,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 7,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 38,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": null
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_011",
+      "school": "內湖國小",
+      "source_pdf_sha256_from_prior_registry": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+      "source_drive_file_id": "1nszbrrI0Ym9bW14EpIJUtrdsApAQ02uS",
+      "title": "113_翰林_四上_自然_期末評量卷_內湖國小.pdf",
+      "pdf_pages": 4,
+      "source_extracted_text_chars": 3666,
+      "direct_pdf_text_layer_accessed": true,
+      "year_marker_113_literal_present": true,
+      "extracted_major_section_headers": [
+        "一、選擇題 (每題 3 分，共 15 分)",
+        "三、簡答題：(每格 2 分，共 4 分)",
+        "四、回答問題：(每格 1 分，共 44 分)",
+        "五、科學閱讀：(每題 1 分，共 3 分)"
+      ],
+      "source_proof_section_detail": [
+        {
+          "section_id": "S1",
+          "original_label": "選擇題",
+          "printed_score_points_from_prior_source_proof": 15,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 5,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S2",
+          "original_label": "配合題",
+          "printed_score_points_from_prior_source_proof": 34,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 17,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S3",
+          "original_label": "簡答題",
+          "printed_score_points_from_prior_source_proof": 4,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 2,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S4",
+          "original_label": "回答問題",
+          "printed_score_points_from_prior_source_proof": 44,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 44,
+          "individual_answer_marker_visual_qa_completed": false
+        },
+        {
+          "section_id": "S5",
+          "original_label": "科學閱讀",
+          "printed_score_points_from_prior_source_proof": 3,
+          "prior_score_derived_response_count_NOT_CERTIFIED": 3,
+          "individual_answer_marker_visual_qa_completed": false
+        }
+      ],
+      "provisional_score_derived_total": 71,
+      "full_exact_answer_position_count": null,
+      "all_pdf_answer_marker_bbox_certified": false,
+      "source_text_layout_exception": "Source section II joined to previous page suffix '1二、', not detected by anchored heading lexer"
+    }
+  ]
+}

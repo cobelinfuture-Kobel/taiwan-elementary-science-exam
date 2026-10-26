@@ -1,0 +1,73 @@
+{
+  "schema_version": "P12_G04S1_113_SCAN5_SOURCE_MARKER_PIXEL_PROGRESS160_OF262_V14",
+  "draft_pr": 124,
+  "prior_exact_original_source_bbox_checkpoint": "data/review/p12-g04s1-113-scan5-original-raster-bbox-progress127-of262-v13.json",
+  "scope": "five 113 G04S1 original scan paper section positions; frozen 48 KP; source-marker geometry is auxiliary not Science/KP/Admission",
+  "prior_position_marker_evidence": 127,
+  "new_exact_printed_answer_parentheses": 27,
+  "new_matching_start_dot_anchors_only": 6,
+  "current_source_positions_with_exact_physical_marker_or_start_dot_evidence": 160,
+  "among_current_new_source_anchor_only_pending_full_line_response_and_target_gate": 6,
+  "current_original_source_position_legacy_section_slots": 262,
+  "current_unlocated_or_granularity_hold_positions": 102,
+  "paper_counts": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_002",
+      "source_school": "和順國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 50,
+      "remaining": 0,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "和順國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 0,
+      "remaining": 50,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "source_school": "忠孝國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 0,
+      "remaining": 50,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "source_school": "內安國小",
+      "source_publisher": "康軒",
+      "source_positions": 62,
+      "verified_source_raster_pixel_bbox": 62,
+      "remaining": 0,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_009",
+      "source_school": "獅湖國小",
+      "source_publisher": "康軒",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 48,
+      "remaining": 2,
+      "source_image_only": true,
+      "marker_geometry_characterization": "15 MC complete; 27 printed answer pair complete; 6 matching source endpoints only (requires target context); 2 Q7 composite units HOLD"
+    }
+  ],
+  "source_addition_ref": "data/review/p12-g04s1-113-shihu-final009-33-exact-original-raster-marker-geometry-v1.json",
+  "caveat": "Do not conflate all 160 source physical markers with 160 complete printable student answer regions; 6 are exact physical matching source dot anchors with unfinished target/line geometry. 2 Shihu parent7 composite response units remain HOLD. All shared text/image parent rights and science KP gates open.",
+  "formal_progress": {
+    "FORMAL_SCIENCE_KP_APPROVED_new_this_batch": 0,
+    "ADMISSION_READY_new_this_batch": 0,
+    "PUBLISHED_new_this_batch": 0,
+    "PUBLISHED_113_so_far": 152,
+    "student_site_all_scopes": 788
+  },
+  "original_source_images_not_public": true,
+  "original_frozen_authority_not_modified": true,
+  "next_resume_task": "P12_G04S1_113_Scan5_102RemainingMarkers_ShiHuParent7_2HOLD_Matching6Targets_Preserve_Then_HeshunFINAL001_50_ZhongxiaoFINAL002_50_ExactRasterPixelBBox_ThenSourceScienceKP_DedupRights_EligibleAdmission_OperatorGate_PR_CI_Pages"
+}

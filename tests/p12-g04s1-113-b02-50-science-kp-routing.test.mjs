@@ -1,0 +1,35 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const read=x=>JSON.parse(fs.readFileSync('data/review/'+x,'utf8'));
+const source=read('p12-g04s1-113-native-tfmc-b02-50-pdf-text-layer-source-qa-v2.json');
+const review=read('p12-g04s1-113-native-tfmc-b02-50-science-kp-exception-routing-v1.json');
+const authority=JSON.parse(fs.readFileSync('site/data/authority/science-g03-g04-selector-v3.json','utf8'));
+const kp=new Set(authority.units.filter(x=>x.grade===4&&x.semester===1).flatMap(x=>x.knowledge_points.map(k=>k.canonical_kp_id)));
+test('B02 50 science/KP queue exactly mirrors source evidence, all KP within frozen48',()=>{
+ assert.equal(review.records.length,50);
+ assert.equal(review.new_formal_science_kp_approved,0);
+ assert.equal(review.new_admission_ready,0);
+ assert.equal(review.new_published,0);
+ assert.deepEqual(review.records.map(x=>x.source_slot_id),source.source_positions.map(x=>x.source_slot_id));
+ assert.equal(review.count_50,50);
+ assert.equal(review.source_text_science_answers_proposed,36);
+ assert.equal(review.frozen_kp_candidates,34);
+ assert.equal(kp.size,48);
+ assert.ok(review.records.every(x=>!x.direct_frozen_kp_candidate||kp.has(x.direct_frozen_kp_candidate)));
+ assert.ok(review.records.every(x=>x.formal_science_kp_approved===false&&x.admission_ready===false&&x.published===false));
+ assert.equal(Object.values(review.classification_counts).reduce((s,n)=>s+n,0),50);
+});
+test('B02 scoped science, image, duplicate, and nonunique holds are not admitted',()=>{
+ assert.equal(review.classification_counts.DIRECT_TEXT_SCIENCE_KP_CANDIDATE,23);
+ assert.equal(review.classification_counts.OUTSIDE_CURRENT_FROZEN_DIRECT_SCOPE,10);
+ assert.equal(review.classification_counts.HOLD_ORIGINAL_FIGURE_DEPENDENCY,4);
+ assert.equal(review.classification_counts.HOLD_SCIENCE_NONUNIQUE,1);
+ assert.equal(review.classification_counts.HOLD_SCIENCE_QUALIFIER,2);
+ const figure=review.records.filter(x=>x.existing_gate_routing==='HOLD_ORIGINAL_FIGURE_DEPENDENCY').map(x=>x.source_slot_id);
+ assert.deepEqual(figure,source.figures_exact_source_visual_needed);
+ const plant=review.records.find(x=>x.source_slot_id==='SCI_G04_S1_113_MID_007|S2|MC|2');
+ assert.equal(plant.independent_source_text_science_answer,null);
+ const moon=review.records.find(x=>x.source_slot_id==='SCI_G04_S1_113_MID_004|S2|TF|1');
+ assert.equal(moon.existing_gate_routing,'OUTSIDE_CURRENT_FROZEN_DIRECT_SCOPE');
+});

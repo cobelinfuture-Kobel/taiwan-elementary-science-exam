@@ -1,0 +1,142 @@
+{
+  "schema_version": "P12_G04S1_113_NATIVE59_CROSSYEAR_SEMANTIC_DEDUP_WATCH_V1",
+  "draft_pr": 124,
+  "scope": "113 G04 S1 frozen48 and 114/current main student bank",
+  "search_coverage": "Exact current main 113 published original 114 answer blocks in 13 files, and 114 B04 309 blocks in nine files, plus 114 E01 76 blocks in eleven files; 499 published answer blocks screened; full active main corpus 750 not exhaustively semantically certified.",
+  "search_method": "Cross-paper original source meaning + published actual stems/options; paraphrase bi/tri-gram ranking used to find possible similar items but never as automatic duplicate authority. Mark same assertion only when original printed meaning and published test statement are equivalent; cross-type / different distractor items remain HOLD.",
+  "source_questions": "data/review/p12-g04s1-113-native137-science-kp59-evidence-only-v1.json",
+  "summary": {
+    "native59_scope": 59,
+    "matched_public_source_blocks_screened": 499,
+    "confirmed_same_assertion_and_suppress_from_new_pool": 3,
+    "high_risk_meaning_overlaps_require_complete_option_comparison": 7,
+    "unlisted_59_not_cleared_by_heuristic": 49,
+    "all_750_student_bank_semantic_gate_complete": false,
+    "admission_ready_new": 0,
+    "published_new": 0,
+    "formal_science_kp_approved_new": 0
+  },
+  "records": [
+    {
+      "unpublished_113_source_slot_id": "SCI_G04_S1_113_MID_017|S1|TF|012",
+      "already_public_block_id": "P12_E01_HESHUN_MID_TF_005",
+      "already_public_source_slot_id": "SCI_G04_S1_114_MID_002|S3|G05|022",
+      "main_question_bank_json": "site/data/question-bank/p12-e01-heshun-mid15-public-v1.json",
+      "status": "EXACT_SAME_ASSERTION",
+      "comparison_reason": "淨灘保護水域是同一正確行動，已公開是非題有相同敘述",
+      "original_113_paper_wording_inspected": true,
+      "student_bank_semantic_gate_complete_for_all_59": false,
+      "create_new_public_item": false,
+      "retained_source_lineage": true
+    },
+    {
+      "unpublished_113_source_slot_id": "SCI_G04_S1_113_FINAL_005|S1|TF|008",
+      "already_public_block_id": "P12_B04_G04S1_B04_TF_049",
+      "already_public_source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|012",
+      "main_question_bank_json": "site/data/question-bank/p12-b04-b04-47-public-v1.json",
+      "status": "EXACT_SAME_ASSERTION",
+      "comparison_reason": "廢電池化學物質具環境風險並須回收，已公開是非敘述包含同一命題",
+      "original_113_paper_wording_inspected": true,
+      "student_bank_semantic_gate_complete_for_all_59": false,
+      "create_new_public_item": false,
+      "retained_source_lineage": true
+    },
+    {
+      "unpublished_113_source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|015",
+      "already_public_block_id": "P12_B04_G04S1_B01_TF_001",
+      "already_public_source_slot_id": "SCI_G04_S1_114_FINAL_001|TF|S01|002",
+      "main_question_bank_json": "site/data/question-bank/p12-b04-b01-47-public-v1.json",
+      "status": "EXACT_SAME_ASSERTION",
+      "comparison_reason": "燈泡及點燃蠟燭本身發光屬光源，同一科學真假命題",
+      "original_113_paper_wording_inspected": true,
+      "student_bank_semantic_gate_complete_for_all_59": false,
+      "create_new_public_item": false,
+      "retained_source_lineage": true
+    },
+    {
+      "unpublished_113_source_slot_id": "SCI_G04_S1_113_MID_016|S1|TF|006",
+      "already_public_block_id": "P12_B04_G04S1_B01_TF_041",
+      "already_public_source_slot_id": "SCI_G04_S1_114_MID_004|S01|TF|007",
+      "main_question_bank_json": "site/data/question-bank/p12-b04-b01-47-public-v1.json",
+      "status": "HIGH_SEMANTIC_RISK_REQUIRES_ANSWER_CONTEXT",
+      "comparison_reason": "海洋小丑魚與校園淡水生態池的不當配對，涉及相同迷思；原題另提海葵",
+      "original_113_paper_wording_inspected": true,
+      "student_bank_semantic_gate_complete_for_all_59": false,
+      "create_new_public_item": false,
+      "retained_source_lineage": true
+    },
+    {
+      "unpublished_113_source_slot_id": "SCI_G04_S1_113_MID_017|S2|MC|006",
+      "already_public_block_id": "P12_B04_G04S1_B02_TF_036",
+      "already_public_source_slot_id": "SCI_G04_S1_114_MID_006|S01|TF|010",
+      "main_question_bank_json": "site/data/question-bank/p12-b04-b02-41-public-v1.json",
+      "status": "HIGH_SEMANTIC_RISK_REQUIRES_OPTION_COMPARISON",
+      "comparison_reason": "水蘊草莖葉柔軟順應水流，單選與是非跨題型",
+      "original_113_paper_wording_inspected": true,
+      "student_bank_semantic_gate_complete_for_all_59": false,
+      "create_new_public_item": false,
+      "retained_source_lineage": true
+    },
+    {
+      "unpublished_113_source_slot_id": "SCI_G04_S1_113_MID_005|S2|MC|007",
+      "already_public_block_id": "P12_B04_G04S1_B06_TF_008",
+      "already_public_source_slot_id": "SCI_G04_S1_114_MID_011|Q03|002",
+      "main_question_bank_json": "site/data/question-bank/p12-b04-b06-47-public-v1.json",
+      "status": "HIGH_SEMANTIC_RISK_REQUIRES_OPTION_COMPARISON",
+      "comparison_reason": "睡蓮葉柄隨水位變化彎曲伸展，單選與是非跨題型",
+      "original_113_paper_wording_inspected": true,
+      "student_bank_semantic_gate_complete_for_all_59": false,
+      "create_new_public_item": false,
+      "retained_source_lineage": true
+    },
+    {
+      "unpublished_113_source_slot_id": "SCI_G04_S1_113_MID_017|S1|TF|010",
+      "already_public_block_id": "P12_113_G04S1_MINGYI_MID_MC_007",
+      "already_public_source_slot_id": "SCI_G04_S1_113_MID_010|S02|MC|007",
+      "main_question_bank_json": "site/data/question-bank/p12-g04s1-113-mid11-selective-public-v1.json",
+      "status": "HIGH_SEMANTIC_RISK_REQUIRES_OPTION_COMPARISON",
+      "comparison_reason": "布袋蓮膨大部位有空氣孔洞，與已發布的橫切觀察單選題同概念",
+      "original_113_paper_wording_inspected": true,
+      "student_bank_semantic_gate_complete_for_all_59": false,
+      "create_new_public_item": false,
+      "retained_source_lineage": true
+    },
+    {
+      "unpublished_113_source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|012",
+      "already_public_block_id": "P12_B04_G04S1_B04_TF_049",
+      "already_public_source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|012",
+      "main_question_bank_json": "site/data/question-bank/p12-b04-b04-47-public-v1.json",
+      "status": "HIGH_SEMANTIC_RISK_REQUIRES_OPTION_COMPARISON",
+      "comparison_reason": "廢電池回收原因，與已發布的危害及回收命題同概念",
+      "original_113_paper_wording_inspected": true,
+      "student_bank_semantic_gate_complete_for_all_59": false,
+      "create_new_public_item": false,
+      "retained_source_lineage": true
+    },
+    {
+      "unpublished_113_source_slot_id": "SCI_G04_S1_113_MID_005|S2|MC|005",
+      "already_public_block_id": "P12_B04_G04S1_B03_MC_018",
+      "already_public_source_slot_id": "SCI_G04_S1_114_MID_007|S02|MC|012",
+      "main_question_bank_json": "site/data/question-bank/p12-b04-b03-41-public-v1.json",
+      "status": "HIGH_SEMANTIC_RISK_REQUIRES_OPTION_COMPARISON",
+      "comparison_reason": "捕捉採摘是否保護水域與如何保護水域的選項比較",
+      "original_113_paper_wording_inspected": true,
+      "student_bank_semantic_gate_complete_for_all_59": false,
+      "create_new_public_item": false,
+      "retained_source_lineage": true
+    },
+    {
+      "unpublished_113_source_slot_id": "SCI_G04_S1_113_FINAL_007|S1|TF|008",
+      "already_public_block_id": "P12_E01_HESHUN_FINAL_MC_007",
+      "already_public_source_slot_id": null,
+      "main_question_bank_json": "site/data/question-bank/p12-e01-heshun-final21-public-v1.json",
+      "status": "HIGH_SEMANTIC_RISK_REQUIRES_OPTION_COMPARISON",
+      "comparison_reason": "燈泡不亮原因檢查，須比對原本所有選項與問法",
+      "original_113_paper_wording_inspected": true,
+      "student_bank_semantic_gate_complete_for_all_59": false,
+      "create_new_public_item": false,
+      "retained_source_lineage": true
+    }
+  ],
+  "next_task": "Finish source-full-text/option images for 59 and cross-year semantic review of remaining public source blocks; preserve 3 confirmed matches as provenance only; 7 contested near matches HOLD. Resolve Rights and applicable operator gate before any consolidated release."
+}

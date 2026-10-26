@@ -1,0 +1,51 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const d=n=>JSON.parse(readFileSync(new URL('../data/review/'+n,import.meta.url),'utf8'));
+const prior=d('p12-g04s1-113-p04b-24papers-1391-remaining5-sourcegroup-v10.json');
+const cur=d('p12-g04s1-113-p04b-25papers-1459-sourcegroup-remaining4-v11.json');
+const n=d('p12-g04s1-113-p04b-neihu-mid017-p2p3-native28-imageparents15-source43-v1.json');
+const registry=d('p12-g04s1-113-all29-kp48-source-firstpass-v1.json');
+const master=d('p12-g04s1-113-all29-master-ledger-v1.json');
+test('Neihu MID017 source response-mode map has 25 proven p1 native TF/MC and 43 new p2/p3 source positions, but 15 are only original image parent placements',()=>{
+ assert.equal(n.original_43_new_source_response_mode_position_records,43);
+ assert.equal(n.original_28_new_physically_printed_native_answer_glyphs_exact,28);
+ assert.equal(n.original_15_picture_parent_BBoxes_NOT_certified_exact_child_printed_answer_marker_BBox,15);
+ assert.equal(n.original_page2_S03_eight_picture_checkbox_targets_four_plus_four,8);
+ assert.equal(n.original_page2_S03_seventeen_native_parenthesis_glyph_markers_7_5_5,17);
+ assert.equal(n.original_page2_S04_four_moon_diagram_sorting_parent_targets,4);
+ assert.equal(n.original_page3_S04_three_procedure_order_image_parent_targets,3);
+ assert.equal(n.original_page3_S04_six_original_moon_sequence_native_glyph_markers,6);
+ assert.equal(n.original_page3_S04_five_observation_check_native_glyph_markers,5);
+ assert.equal(n.records.length,43);
+ assert.equal(new Set(n.records.map(x=>x.source_original_id)).size,43);
+ assert.equal(n.records.filter(x=>x.original_printed_independent_answer_box_exact).length,28);
+ assert.equal(n.records.filter(x=>!x.original_printed_independent_answer_box_exact).length,15);
+ assert.equal(n.registered_original_pdf_sha256,registry.original_source_records.find(x=>x.source_id===n.original_paper_id).original_pdf_sha256);
+ for(const x of n.records){
+   const b=x.source_bbox_pdf_pts_top_left;
+   assert.equal(b.length,4);
+   assert.ok(b.every(Number.isFinite)&&b[2]>b[0]&&b[3]>b[1]);
+   assert.equal(x.student_bank_admission_ready,false);
+ }
+ assert.equal(n.original_total_working_68_response_targets_resolved_at_response_mode_or_original_figure_parent,68);
+ assert.equal(master.paper_records.find(x=>x.paper_id===n.original_paper_id).section_reconciled_positions,68);
+ for(const k of ['NEW_FORMAL_SCIENCE_KP_APPROVED','NEW_ADMISSION_READY','NEW_PUBLISHED'])assert.equal(n[k],0);
+});
+test('25/29 source-only 1459 response working IDs and remaining four papers; no new student publication',()=>{
+ assert.equal(prior.original_school_papers_with_per_source_response_location_or_parent_mode_reconciled,24);
+ assert.equal(prior.original_source_answer_target_working_IDENTITIES_not_unique_student_question_denominator,1391);
+ assert.equal(cur.original_papers_with_source_answer_marker_or_visual_parent_response_mode_reconciled,25);
+ assert.equal(cur.original_source_working_answer_target_IDs_NOT_student_bank_questions,1459);
+ assert.equal(cur.newly_reconciled_Neihu_MID017_source_working_targets,68);
+ assert.equal(cur.remaining_original_school_papers,4);
+ assert.equal(cur.remaining_original_pdf_pages,11);
+ assert.equal(cur.remaining_working_source_positions_NONCERTIFIED,303);
+ assert.equal(cur.remaining_inherited_original_printed_markers_and_partial_matching_dots,105);
+ assert.equal(cur.remaining_actual_printed_source_answer_BBoxes,99);
+ assert.equal(cur.remaining_partial_matching_start_dots_no_independent_answer_line,6);
+ assert.equal(cur.remaining_school_original_paper_ids.length,4);
+ assert.equal(cur.existing_main_113_published_source_position_count_untouched,178);
+ assert.equal(cur.formal_original_29_papers_full_SOURCE_EXACT_science_KP48_dup_rights_Admission_closeout,0);
+ for(const k of ['NEW_FORMAL_SCIENCE_KP_APPROVED','NEW_ADMISSION_READY','NEW_PUBLISHED'])assert.equal(cur[k],0);
+});

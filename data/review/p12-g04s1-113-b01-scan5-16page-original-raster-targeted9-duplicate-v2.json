@@ -1,0 +1,234 @@
+{
+  "schema_version": "P12_G04S1_113_B01_SCAN5_ORIGINAL_RASTER_16P_TARGETED_EXACT9_DEDUP_V2",
+  "scope": "113 G04S1 B01 文德MID001 nine candidate full question bodies against original five scan-only school PDFs",
+  "date_taiwan": "2026-10-21",
+  "original_pdf": {
+    "source_id": "SCI_G04_S1_113_MID_001",
+    "sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+    "pages": 2,
+    "source": "connected original Google Drive full PDF binary",
+    "original_school_exam_title_image_verified": true,
+    "seven_standalone_and_two_parent_original_visual_verified": true
+  },
+  "source_pdf_method": "Downloaded full original PDF bytes via authenticated user Google Drive connector, compared exact SHA-256 against preserved original registry, rendered every PDF page, inspected page content visually without OCR. All five sha match original registered IDs; original school images never published. Three final-term papers cover U03/U04 sound/light/circuits/energy and were visually checked for exact B01 U02 question matches.",
+  "scanned_papers": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_002",
+      "school": "和順",
+      "period": "MID",
+      "pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "pages": 3,
+      "verified_original_pdf_sha": true,
+      "all_pages_visually_inspected": true,
+      "review_scope": "ALL_PRINTED_PAGES_VISIBLE_TARGETED_B01_COMPARISON",
+      "relevant_pages": [
+        1,
+        2,
+        3
+      ],
+      "notable_distinct_originals": [
+        {
+          "page": 1,
+          "section": "填填看1(2)",
+          "original_lexical_anchor": "關於下列水生植物的類別和特徵，請將符合的代號填入表格中",
+          "actual_choices_or_context": "蓮花、睡蓮、布袋蓮、水蘊草之類別、生長方式配對",
+          "compared_to": "S03-G05",
+          "result": "DIFFERENT_PLANT_EXAMPLES_AND_SHARED_TABLE_STRUCTURE"
+        },
+        {
+          "page": 2,
+          "section": "選擇題6",
+          "original_lexical_anchor": "關於池塘中的水生植物，下列哪一項敘述錯誤？",
+          "actual_choices_or_context": "蓮花葉柄通氣、水蘊草莖隨水流擺動、大萍根隨流水移動、睡蓮膨大地下莖",
+          "compared_to": "S02 MC008",
+          "result": "GENERAL_TEMPLATE_SIMILAR_BUT_ALL_FOUR_ACTUAL_OPTIONS_DIFFER"
+        },
+        {
+          "page": 3,
+          "section": "題組1",
+          "original_lexical_anchor": "阿峰想要觀察水域環境，他準備的紀錄表需要記錄哪些項目？",
+          "actual_choices_or_context": "天氣狀況／相機型號／撈網材質／水流速度／水生生物",
+          "compared_to": "S03-G06",
+          "result": "ACTUAL_FIVE_SELECTIONS_DIFFER_FROM_WENDE"
+        }
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "school": "和順",
+      "period": "FINAL",
+      "pdf_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "pages": 2,
+      "verified_original_pdf_sha": true,
+      "all_pages_visually_inspected": true,
+      "review_scope": "ALL_PRINTED_PAGES_VISIBLE_TARGETED_B01_COMPARISON",
+      "relevant_pages": [],
+      "subject_note": "光源、光反射、電路、能源、空氣汙染、暖化；無與B01 U02水域九區塊相同的完整題文及選項"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "school": "忠孝",
+      "period": "FINAL",
+      "pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "pages": 4,
+      "verified_original_pdf_sha": true,
+      "all_pages_visually_inspected": true,
+      "review_scope": "ALL_PRINTED_PAGES_VISIBLE_TARGETED_B01_COMPARISON",
+      "blank_last_page": true,
+      "original_page2_image_orientation_corrected_for_visual_check": true,
+      "relevant_pages": [],
+      "subject_note": "光的行進／反射／電路／LED／能源與用電安全；與B01 U02九區塊未見原題同文"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "school": "內安",
+      "period": "MID",
+      "pdf_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "pages": 4,
+      "verified_original_pdf_sha": true,
+      "all_pages_visually_inspected": true,
+      "review_scope": "ALL_PRINTED_PAGES_VISIBLE_TARGETED_B01_COMPARISON",
+      "relevant_pages": [
+        1,
+        2,
+        4
+      ],
+      "notable_distinct_originals": [
+        {
+          "page": 1,
+          "section": "是非2",
+          "original_lexical_anchor": "將廚餘直接倒入河川裡，可以增加水中的養分，使水生植物長得更好",
+          "compared_to": "S01 TF012",
+          "result": "DIFFERENT_POLLUTANT_SOURCE_AND_ORGANISM_CLAIM__NOT_EXACT_SAME_QUESTION"
+        },
+        {
+          "page": 1,
+          "section": "選擇10",
+          "original_lexical_anchor": "進行水域環境調查時，哪一項不是必須紀錄的項目？",
+          "actual_choices_or_context": "水生生物種類／方位／水流情形／水域類型",
+          "compared_to": "S03-G06",
+          "result": "DIFFERENT_SINGLE_CHOICE_AND_PARENT_CHECK_LIST_ITEMS"
+        },
+        {
+          "page": 2,
+          "section": "填表3",
+          "original_lexical_anchor": "小炘的學習筆記／水生植物類型、代表植物、生長特徵",
+          "compared_to": "S03-G05",
+          "result": "DIFFERENT_TABLE_PARENT_AND_SUBQUESTIONS"
+        },
+        {
+          "page": 4,
+          "section": "是非作法8",
+          "original_lexical_anchor": "下列做法中，能保護水域環境的，請在（）中畫O，不能的請打X",
+          "actual_choices_or_context": "定期清理生態池／大量開挖砂石／參與淨灘淨溪／工廠廢水入河／隨意捕捉／不在上游濫墾濫伐",
+          "compared_to": "S01 TF015;S02 MC011",
+          "result": "DIFFERENT_PARENT_AND_ACTUAL_SIX_RESPONSES"
+        }
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_009",
+      "school": "獅湖",
+      "period": "FINAL",
+      "pdf_sha256": "0501c6a3157a6759a0e2ef8c3944917f2b6d58d1033d04751034f22f",
+      "pages": 3,
+      "verified_original_pdf_sha": true,
+      "all_pages_visually_inspected": true,
+      "review_scope": "ALL_PRINTED_PAGES_VISIBLE_TARGETED_B01_COMPARISON",
+      "relevant_pages": [],
+      "subject_note": "聲音、光、反射、電路、LED、皮影戲；未見B01 U02九區塊相同的完整題文及選項"
+    }
+  ],
+  "all_scanned_original_pdf_sha_match": true,
+  "original_scanned_pdf_page_count": 16,
+  "original_scanned_pages_visual_inspection_count": 16,
+  "original_scanned_262_source_response_work_targets_FULL_TRANSCRIBED": false,
+  "b01_candidate_exact9_visual_duplicate_decisions": [
+    {
+      "source_owner_id": "SCI_G04_S1_113_MID_001|S01|TF|004",
+      "question_type": "TF",
+      "matched_exactly_in_five_scanned_papers": false,
+      "identical_choice_set_or_actual_question": false,
+      "other_true_identical_unpublished_native_source_lineage": null,
+      "decision": "NO_EXACT_DUPLICATE_IN_SCAN5__KEEP_EXISTING_NATIVE_LINEAGE"
+    },
+    {
+      "source_owner_id": "SCI_G04_S1_113_MID_001|S01|TF|012",
+      "question_type": "TF",
+      "matched_exactly_in_five_scanned_papers": false,
+      "identical_choice_set_or_actual_question": false,
+      "other_true_identical_unpublished_native_source_lineage": null,
+      "decision": "NO_EXACT_DUPLICATE_IN_SCAN5__KEEP_EXISTING_NATIVE_LINEAGE"
+    },
+    {
+      "source_owner_id": "SCI_G04_S1_113_MID_001|S01|TF|014",
+      "question_type": "TF",
+      "matched_exactly_in_five_scanned_papers": false,
+      "identical_choice_set_or_actual_question": false,
+      "other_true_identical_unpublished_native_source_lineage": null,
+      "decision": "NO_EXACT_DUPLICATE_IN_SCAN5__KEEP_EXISTING_NATIVE_LINEAGE"
+    },
+    {
+      "source_owner_id": "SCI_G04_S1_113_MID_001|S01|TF|015",
+      "question_type": "TF",
+      "matched_exactly_in_five_scanned_papers": false,
+      "identical_choice_set_or_actual_question": false,
+      "other_true_identical_unpublished_native_source_lineage": "SCI_G04_S1_113_MID_004|S02|TF|011",
+      "decision": "NO_EXACT_DUPLICATE_IN_SCAN5__KEEP_EXISTING_NATIVE_LINEAGE"
+    },
+    {
+      "source_owner_id": "SCI_G04_S1_113_MID_001|S02|MC|007",
+      "question_type": "MC",
+      "matched_exactly_in_five_scanned_papers": false,
+      "identical_choice_set_or_actual_question": false,
+      "other_true_identical_unpublished_native_source_lineage": null,
+      "decision": "NO_EXACT_DUPLICATE_IN_SCAN5__KEEP_EXISTING_NATIVE_LINEAGE"
+    },
+    {
+      "source_owner_id": "SCI_G04_S1_113_MID_001|S02|MC|008",
+      "question_type": "MC",
+      "matched_exactly_in_five_scanned_papers": false,
+      "identical_choice_set_or_actual_question": false,
+      "other_true_identical_unpublished_native_source_lineage": null,
+      "decision": "NO_EXACT_DUPLICATE_IN_SCAN5__KEEP_EXISTING_NATIVE_LINEAGE"
+    },
+    {
+      "source_owner_id": "SCI_G04_S1_113_MID_001|S02|MC|011",
+      "question_type": "MC",
+      "matched_exactly_in_five_scanned_papers": false,
+      "identical_choice_set_or_actual_question": false,
+      "other_true_identical_unpublished_native_source_lineage": "SCI_G04_S1_113_MID_003|S02|MC|004",
+      "decision": "NO_EXACT_DUPLICATE_IN_SCAN5__KEEP_EXISTING_NATIVE_LINEAGE"
+    },
+    {
+      "source_owner_id": "SCI_G04_S1_113_MID_001|S03-G05",
+      "question_type": "INTACT_SHARED_PARENT",
+      "children": 4,
+      "matched_exact_full_parent_and_all_options_in_five_scanned_papers": false,
+      "decision": "DISTINCT_FULL_PARENT__NO_SPLIT_INTO_INDEPENDENT_STUDENT_BLOCKS"
+    },
+    {
+      "source_owner_id": "SCI_G04_S1_113_MID_001|S03-G06",
+      "question_type": "INTACT_SHARED_PARENT",
+      "children": 5,
+      "matched_exact_full_parent_and_all_options_in_five_scanned_papers": false,
+      "decision": "DISTINCT_FULL_PARENT__NO_SPLIT_INTO_INDEPENDENT_STUDENT_BLOCKS"
+    }
+  ],
+  "original29_conclusion_for_only_b01_exact9": "24 native text registered originals preflight + five actual SHA-matched scanned original visual source pages; no newly found exactly identical B01 source question among scan five. Two already detected exact UNPUBLISHED native cross-school aliases remain linked; zero new public-bank source collision based on the separate existing 814-slot inventory. Nine candidates proceed to existing rights/operator disposition, NOT auto-publication.",
+  "governance_scope": "Only same complete item or simple choice reordered duplicates collapse; shared KPs or general template do not. This is targeted nine-block duplicate evidence, NOT all 262 scanned response-positions fully transcribed or formal closeout of all 29 exams.",
+  "admission": {
+    "operator_exact_list_approval_received": false,
+    "public_bank_unchanged": true,
+    "new_FORMAL_SCIENCE_KP_APPROVED": 0,
+    "new_ADMISSION_READY": 0,
+    "new_PUBLISHED": 0,
+    "B01_formal_closed": false,
+    "B02_started": false
+  },
+  "evidence_inherits": [
+    "data/review/p12-g04s1-113-b01-existinggate-public814-rights-exact9-operator-pending-v1.json",
+    "data/review/p12-g04s1-113-existingadmission-b01-wende-dongguang-zhongxiao-two-crossschool-exact-duplicates-v1.json",
+    "data/review/p12-g04s1-113-scan5-16page-rotation-source-preflight-v1.json"
+  ]
+}

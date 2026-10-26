@@ -1,0 +1,405 @@
+{
+  "schema_version": "P12_G04S1_113_HESHUN_FINAL001_STANDALONE23_SOURCE_SCIENCE_DIRECTKP_V1",
+  "source_pr": 124,
+  "scope": "113 G04 S1 frozen canonical 48KP, original Heshun FINAL001 13 TF +10 MC, only paper page1 independent questions",
+  "source_geometry_ref": "data/review/p12-g04s1-113-heshun-final001-first23-exact-original-raster-bbox-v1.json",
+  "source_pdf_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+  "original_teacher_key_authenticated": false,
+  "red_pen_written_marks_used_as_teacher_key": false,
+  "review_method": "Independently read SHA-verified source PDF page1 rendered student text + complete options, original printed answer marker exact raster BBox already certified. Independently evaluated scientific answer and strictly matched 113 G04 S1 frozen direct KP; scanned question wording is never silently corrected.",
+  "known_public_source_suppression_ref": "data/review/p12-g04s1-113-main-published152-source-suppression-readback-v10.json",
+  "publication_policy": "2026-10-19 difference in real question wording allowed; exact same wording or option order/format-only suppressed.",
+  "public_duplicate_preliminary_screen": {
+    "latest_113_published_source_ids": 152,
+    "individual_student_public_stems_scanned_from_available_public_bank_shards": 707,
+    "certified_context_additional_student_slots_identified": 76,
+    "remaining_site_answer_slots_not_individually_reconciled_here": 5,
+    "exact_source_slot_reimport_checked_against_published152": true,
+    "near_identical_stem_minimal_threshold": 0.54,
+    "screened_8_high_confidence_candidate_stems_above_threshold": 0,
+    "formal_complete_crossyear_and_788_dedup": false,
+    "warning": "Source stem similarity screening is NOT formal duplicate clearance; MC generic stems require full ordered options and meaning comparison."
+  },
+  "rights_preflight": "Original school regular exam printed name/date/source SHA and text-only questions; third-party figure/public PDF not republished. Formal Rights Gate and applicable final operator manifest still pending.",
+  "summary": {
+    "source_independent_slots_targeted": 23,
+    "source_stem_options_and_science_directkp_clear_this_batch": 8,
+    "science_kp_holds": 15,
+    "direct_KP_holds": 12,
+    "science_uniqueness_holds": 3,
+    "new_formal_admission_ready": 0,
+    "new_published": 0,
+    "formally_accepted_science_direct_kp_record_state": "SCIENCE_KP_EVIDENCE_REVIEWED_PENDING_EXISTING_GATES"
+  },
+  "source_science_directkp_evidence_records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|004",
+      "paper_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "臺南市和順國小",
+      "source_original_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "pdf_page_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        58.05,
+        260.69,
+        90.43,
+        273.4
+      ],
+      "source_exact_printed_stem_no_scoring": "媽媽用鏡子畫妝，這是應用了光的反射現象。",
+      "science_answer_not_teacher_key": "O",
+      "science_reason": "鏡面把光反射到眼睛，才能利用鏡中像整理儀容。屬反射的生活應用。",
+      "canonical_kp_id": "sci_g04s1_03_08",
+      "science_unique_answer_and_direct_kp_evidence_reviewed": true,
+      "full_student_question_without_figure_dependency": true,
+      "source_question_visual_exact_reviewed": true,
+      "original_teacher_key_not_authenticated": true,
+      "school_exam_text_only_article9_rights_preflight": true,
+      "final_duplicate_full_gate_complete": false,
+      "final_rights_gate_complete": false,
+      "operator_batch_manifest_final_approval": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|010",
+      "paper_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "臺南市和順國小",
+      "source_original_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "pdf_page_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        57.33,
+        511.3,
+        89.47,
+        523.77
+      ],
+      "source_exact_printed_stem_no_scoring": "電路連接成功使燈泡發光叫做「通路」。",
+      "science_answer_not_teacher_key": "O",
+      "science_reason": "電流有完整閉合的通路時燈泡才能亮，原題描述的是通路。",
+      "canonical_kp_id": "sci_g04s1_04_04",
+      "science_unique_answer_and_direct_kp_evidence_reviewed": true,
+      "full_student_question_without_figure_dependency": true,
+      "source_question_visual_exact_reviewed": true,
+      "original_teacher_key_not_authenticated": true,
+      "school_exam_text_only_article9_rights_preflight": true,
+      "final_duplicate_full_gate_complete": false,
+      "final_rights_gate_complete": false,
+      "operator_batch_manifest_final_approval": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|012",
+      "paper_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "臺南市和順國小",
+      "source_original_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "pdf_page_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        57.33,
+        574.14,
+        89.47,
+        586.85
+      ],
+      "source_exact_printed_stem_no_scoring": "拔電器插頭時不好拔，可以用手拉電線比較方便。",
+      "science_answer_not_teacher_key": "X",
+      "science_reason": "拔插頭應握住插頭本體，拉扯電線容易造成導線受損或接點鬆脫。",
+      "canonical_kp_id": "sci_g04s1_04_12",
+      "science_unique_answer_and_direct_kp_evidence_reviewed": true,
+      "full_student_question_without_figure_dependency": true,
+      "source_question_visual_exact_reviewed": true,
+      "original_teacher_key_not_authenticated": true,
+      "school_exam_text_only_article9_rights_preflight": true,
+      "final_duplicate_full_gate_complete": false,
+      "final_rights_gate_complete": false,
+      "operator_batch_manifest_final_approval": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|001",
+      "paper_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "臺南市和順國小",
+      "source_original_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "pdf_page_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        56.85,
+        699.56,
+        89.23,
+        712.04
+      ],
+      "source_exact_printed_stem_no_scoring": "我們做實驗時，如何做才可以看見光的行進路徑？",
+      "original_choice_text_in_printed_order": [
+        "在盒子裡裝入沙子",
+        "用手把雷射光擋住",
+        "用線香讓盒子裡充滿煙霧",
+        "以上皆是"
+      ],
+      "science_answer_not_teacher_key": 3,
+      "science_reason": "線香煙霧中的微粒可散射光，使光束在路徑上的形狀較容易被觀察；其他選項不能以同樣方式呈現整段光路。",
+      "canonical_kp_id": "sci_g04s1_03_06",
+      "science_unique_answer_and_direct_kp_evidence_reviewed": true,
+      "full_student_question_without_figure_dependency": true,
+      "source_question_visual_exact_reviewed": true,
+      "original_teacher_key_not_authenticated": true,
+      "school_exam_text_only_article9_rights_preflight": true,
+      "final_duplicate_full_gate_complete": false,
+      "final_rights_gate_complete": false,
+      "operator_batch_manifest_final_approval": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|002",
+      "paper_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "臺南市和順國小",
+      "source_original_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "pdf_page_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        56.61,
+        783.26,
+        88.75,
+        795.73
+      ],
+      "source_exact_printed_stem_no_scoring": "會發光的物體稱為什麼？",
+      "original_choice_text_in_printed_order": [
+        "太陽",
+        "月亮",
+        "光源",
+        "以上皆是"
+      ],
+      "science_answer_not_teacher_key": 3,
+      "science_reason": "會自行發光的物體稱為光源；太陽是光源實例，月亮主要反射太陽光，故③是正確名詞。",
+      "canonical_kp_id": "sci_g04s1_03_05",
+      "science_unique_answer_and_direct_kp_evidence_reviewed": true,
+      "full_student_question_without_figure_dependency": true,
+      "source_question_visual_exact_reviewed": true,
+      "original_teacher_key_not_authenticated": true,
+      "school_exam_text_only_article9_rights_preflight": true,
+      "final_duplicate_full_gate_complete": false,
+      "final_rights_gate_complete": false,
+      "operator_batch_manifest_final_approval": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|004",
+      "paper_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "臺南市和順國小",
+      "source_original_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "pdf_page_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        56.13,
+        886.87,
+        88.51,
+        899.34
+      ],
+      "source_exact_printed_stem_no_scoring": "下列敘述哪一個是對的？",
+      "original_choice_text_in_printed_order": [
+        "光線反射之前是直線前進，反射之後不是直線前進",
+        "光線反射之前不是直線前進，反射之後也不是",
+        "光線反射之前是直線前進，反射之後也是直線前進",
+        "光線反射之前不是直線前進，反射之後是直線前進"
+      ],
+      "science_answer_not_teacher_key": 3,
+      "science_reason": "光在均勻介質中，入射與反射各自沿直線行進；鏡面使光改變方向，並非反射後曲線傳播。",
+      "canonical_kp_id": "sci_g04s1_03_07",
+      "science_unique_answer_and_direct_kp_evidence_reviewed": true,
+      "full_student_question_without_figure_dependency": true,
+      "source_question_visual_exact_reviewed": true,
+      "original_teacher_key_not_authenticated": true,
+      "school_exam_text_only_article9_rights_preflight": true,
+      "final_duplicate_full_gate_complete": false,
+      "final_rights_gate_complete": false,
+      "operator_batch_manifest_final_approval": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|006",
+      "paper_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "臺南市和順國小",
+      "source_original_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "pdf_page_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        393.86,
+        219.92,
+        426.25,
+        232.63
+      ],
+      "source_exact_printed_stem_no_scoring": "乾電池凸出來的一端叫什麼？",
+      "original_choice_text_in_printed_order": [
+        "負極",
+        "＋極",
+        "－極",
+        "北極"
+      ],
+      "science_answer_not_teacher_key": 2,
+      "science_reason": "一般圓柱型乾電池凸起端標示為正極（＋）；另一端平坦為負極。",
+      "canonical_kp_id": "sci_g04s1_04_01",
+      "science_unique_answer_and_direct_kp_evidence_reviewed": true,
+      "full_student_question_without_figure_dependency": true,
+      "source_question_visual_exact_reviewed": true,
+      "original_teacher_key_not_authenticated": true,
+      "school_exam_text_only_article9_rights_preflight": true,
+      "final_duplicate_full_gate_complete": false,
+      "final_rights_gate_complete": false,
+      "operator_batch_manifest_final_approval": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|010",
+      "paper_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "臺南市和順國小",
+      "source_original_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "pdf_page_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        393.14,
+        429.52,
+        425.53,
+        442.23
+      ],
+      "source_exact_printed_stem_no_scoring": "關於用電安全哪一個正確？",
+      "original_choice_text_in_printed_order": [
+        "潮濕的手碰電器",
+        "延長線同時接好幾種電器並同時使用",
+        "用防護塞蓋住不用的插座",
+        "插頭壞了直接把電線去塑膠皮插入插座"
+      ],
+      "science_answer_not_teacher_key": 3,
+      "science_reason": "以合適的插座防護塞防止誤觸；其他選項涉及觸電或過載風險。",
+      "canonical_kp_id": "sci_g04s1_04_12",
+      "science_unique_answer_and_direct_kp_evidence_reviewed": true,
+      "full_student_question_without_figure_dependency": true,
+      "source_question_visual_exact_reviewed": true,
+      "original_teacher_key_not_authenticated": true,
+      "school_exam_text_only_article9_rights_preflight": true,
+      "final_duplicate_full_gate_complete": false,
+      "final_rights_gate_complete": false,
+      "operator_batch_manifest_final_approval": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "individual_holds": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|001",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_DIRECT_KP_AND_DISTANCE",
+      "science_kp_hold_reason": "臺南看到臺北101的陳述混合光源與遠距離視線／地理因素，不能直接測量單一凍結KP",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|002",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_DIRECT_KP",
+      "science_kp_hold_reason": "沒有太陽與動植物生長健康，超出本學期已凍結之光源／反射考點",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|003",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_DIRECT_KP",
+      "science_kp_hold_reason": "太陽造成天氣變化，非U03光源、反射或直進之直接KP",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|005",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_DIRECT_KP",
+      "science_kp_hold_reason": "不同能源是否可相互轉換，本學期沒有直接KP",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|006",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_DIRECT_KP",
+      "science_kp_hold_reason": "燃料種類混入太陽與電能，與凍結KP不直接對應",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|007",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_DIRECT_KP",
+      "science_kp_hold_reason": "鏡子及雷射光照眼睛的安全規範雖正確，但不等於反射方向的直接KP",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|008",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_DIRECT_KP",
+      "science_kp_hold_reason": "長期不用照相機是否取出電池不屬廢電池回收／市電的明確KP",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|009",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_DIRECT_KP",
+      "science_kp_hold_reason": "LED長短腳正負極連接與凍結KP04_01乾電池正負極或燈泡構造不完全等同",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|011",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_DIRECT_KP",
+      "science_kp_hold_reason": "串／並聯兩燈的存在性，非04_08或04_09亮度影響的直接測試",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|013",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_DIRECT_KP",
+      "science_kp_hold_reason": "家用電器串並聯斷言，非04_09並聯亮度或04_12用電安全的直接對應",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|003",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_DIRECT_KP",
+      "science_kp_hold_reason": "空氣汙染來源超出本學期凍結48 KP",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|005",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_DIRECT_KP",
+      "science_kp_hold_reason": "兩電池正負極相接的接線術語，非04_06電池串聯對燈泡亮度之直接測試",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|007",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_SCIENCE_UNIQUE",
+      "science_kp_hold_reason": "鋰電池有一次型和可充電型，原卷未限定鋰離子充電池類別",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|008",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_SCIENCE_UNIQUE",
+      "science_kp_hold_reason": "LED省電及顏色種類多均為好處，選項未提供清楚唯一答案",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|009",
+      "source_geometry_exist": true,
+      "disposition": "HOLD_SCIENCE_UNIQUE_AND_DIRECT_KP",
+      "science_kp_hold_reason": "一個並聯燈泡不亮時的「幾個通路」可能依閉合通路或物理分支定義而異，且未直接比較亮度",
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "next_resume_task": "P12_G04S1_113_HeshunFINAL001_EightSourceScienceKP_FinishFullOriginalOptions_GatedDup_All788AndCrossyear_SourceRights_FinalOperatorManifest_ThenScan5_NeianTFMCAndShihuMC_ReuseBBox_SelectiveAdmission"
+}

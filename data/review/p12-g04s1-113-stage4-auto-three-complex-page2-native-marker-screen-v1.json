@@ -1,0 +1,32 @@
+{
+  "schema_version": "P12_113_G04S1_STAGE4_AUTO_THREE_COMPLEX_PAGE2_NATIVE_MARKER_SCREEN_V1",
+  "scope": "Zhongxiao 113 MID, Dongguang 113 MID/FINAL",
+  "source_evidence_method": "Original downloaded PDF page2 native rawdict character BBoxes; candidate printed bracket/box/fill text; unpaired to visual actual answer positions",
+  "source_sha_verified": true,
+  "source_records": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_003",
+      "page2_native_marker_candidates": 18,
+      "source_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "page2_native_marker_candidates": 25,
+      "source_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "page2_native_marker_candidates": 7,
+      "source_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc"
+    }
+  ],
+  "total_page2_native_glyph_candidates": 50,
+  "local_full_candidate_file": "p12-g04s1-113-stage4-complex-page2-glyph-evidence-v1.json",
+  "actual_student_response_slots_newly_certified": 0,
+  "science_answer_kp_newly_certified": 0,
+  "public_admissions": 0,
+  "public_bank_unchanged": 636,
+  "exception": "Some source PDF markers are group instruction glyphs or shared-material labels; they cannot be admitted as standalone student answer slots without original page image matching.",
+  "next_gate": "Visually pair candidate glyphs with actual original student response slots, including drawing/line matching/figure tasks, and preserve original grouping; then score/section reconciliation.",
+  "release_gate": "BLOCKED_SOURCE_ONLY"
+}

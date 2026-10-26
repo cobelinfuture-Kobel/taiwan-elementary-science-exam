@@ -1,0 +1,130 @@
+{
+  "schema_version": "P12_113_TWO_SCHOOL_114_ALL25_FINAL_ORIGINAL366_TEXT_OPTION_COMPARE_V1",
+  "source_pr": 124,
+  "source_corpus_index": "data/source-archive/p12-art9-114-g04s1-public-original-source-corpus-current-v25.json",
+  "scope": "114 four-upper FINAL 13 original school exam PDFs, 366 true/false and single choice verbatim question archive; compared with 113 Heshun final supported 8 candidates",
+  "method": "Original source full stems and all printed MC options (order-insensitive only for duplicate testing), Unicode NFKC and whitespace punctuation normalization, bigram stem similarity >=0.46 to identify possible collisions. Actual different question wording/contexts remain distinct even when KP/conclusion is same; no automatic promotion to formal duplicate or admission.",
+  "source_papers": [
+    {
+      "paper": "SCI_G04_S1_114_FINAL_007",
+      "file": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "source_sha256": "5be04233c46409c4b2c7161b4ea10feaec4e290ee0e6723cbf8bcbda30fe79a2",
+      "count": 35
+    },
+    {
+      "paper": "SCI_G04_S1_114_FINAL_004",
+      "file": "data/source-archive/p12-art9-114-chongde-g04s1-final19-original-questions-v1.json",
+      "source_sha256": "8d7331a0839031ad150ba0dea9eba672d96e368d453251f3c3934bb4aac4df84",
+      "count": 19
+    },
+    {
+      "paper": "SCI_G04_S1_114_FINAL_005",
+      "file": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "source_sha256": "7a02cb1c21c27fa4ef795c38e5023619c5f0f6b45dfd145eab7da18077987542",
+      "count": 28
+    },
+    {
+      "paper": "SCI_G04_S1_114_FINAL_011",
+      "file": "data/source-archive/p12-art9-114-dahua-g04s1-final22-original-questions-v1.json",
+      "source_sha256": "41206d81b2a7620143fe2b772ce27b77b85a5193b8a81284e69bcde53df0beb0",
+      "count": 22
+    },
+    {
+      "paper": "SCI_G04_S1_114_FINAL_003",
+      "file": "data/source-archive/p12-art9-114-dongguang-g04s1-final19-original-questions-v1.json",
+      "source_sha256": "147e2442528e681dc2e7a121ada8fbea532107d89673029c4bc5b1ac52a1e819",
+      "count": 19
+    },
+    {
+      "paper": "SCI_G04_S1_114_FINAL_002",
+      "file": "data/source-archive/p12-art9-114-heshun-g04s1-final35-original-questions-v1.json",
+      "source_sha256": "b899662eb8c535d56b2b1464f47b891403aeb966d6574be4c38da3a990139b5e",
+      "count": 35
+    },
+    {
+      "paper": "SCI_G04_S1_114_FINAL_008",
+      "file": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "source_sha256": "023ccfc808efbff873545efeae9b70ef4ce90ff3f5b55b1f94edcc81ca831fdd",
+      "count": 28
+    },
+    {
+      "paper": "SCI_G04_S1_114_FINAL_006",
+      "file": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "source_sha256": "04069880c0f3985d7ad2c30ae643e649b3fe4eef1282e156dbd6ef623023fc1f",
+      "count": 31
+    },
+    {
+      "paper": "SCI_G04_S1_114_FINAL_010",
+      "file": "data/source-archive/p12-art9-114-puren-g04s1-final18-original-questions-v1.json",
+      "source_sha256": "2c74d5994ee670d3bb3594c12023a67058693fd154c1acc69092d6ad07d47690",
+      "count": 18
+    },
+    {
+      "paper": "SCI_G04_S1_114_FINAL_013",
+      "file": "data/source-archive/p12-art9-114-shihu-g04s1-final34-original-questions-v1.json",
+      "source_sha256": "f380d19120002698a9ccc4e71a41d31867cba9d9fb00669af8b290c81f233764",
+      "count": 34
+    },
+    {
+      "paper": "SCI_G04_S1_114_FINAL_012",
+      "file": "data/source-archive/p12-art9-114-taozijiao-g04s1-final60-original-questions-v1.json",
+      "source_sha256": "1cd2ec1143be44955d938efbbbdc20471258139a3a4e5eb6565fa43d9cdcf987",
+      "count": 60
+    },
+    {
+      "paper": "SCI_G04_S1_114_FINAL_009",
+      "file": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "source_sha256": "0b7bdaee9630a557fbe72a5fdb1039b661905e1634884e73803e4365f41b4049",
+      "count": 15
+    },
+    {
+      "paper": "SCI_G04_S1_114_FINAL_001",
+      "file": "data/source-archive/p12-art9-114-yongan-g04s1-final22-original-questions-v1.json",
+      "source_sha256": "88263e6dd1f40e8445127ef45a2741003395107486fd9d2e65e48d5fdbcde0bf",
+      "count": 22
+    }
+  ],
+  "total_114_final_originals": 366,
+  "total_114_final_original_exam_papers": 13,
+  "target_science_kp_candidates": 8,
+  "near_text_matches": [
+    {
+      "target_source_id": "SCI_G04_S1_113_FINAL_001|S02|MC|010",
+      "matched_original_source_id": "SCI_G04_S1_114_FINAL_008|S02|MC|015",
+      "stem_similarity": 0.5185,
+      "full_four_options_equal_if_MC": false,
+      "target_stem": "關於用電安全哪一個正確？",
+      "matched_114_stem": "下列關於用電安全的敘述，哪一項是正確的？",
+      "matched_114_options": [
+        {
+          "label": "①",
+          "text": "隨時檢查電線的塑膠皮是否完整"
+        },
+        {
+          "label": "②",
+          "text": "使用電器時，電線捲在一起才可以省空間"
+        },
+        {
+          "label": "③",
+          "text": "可以直接用潮溼的手碰觸插座"
+        },
+        {
+          "label": "④",
+          "text": "使用電器時，插頭不需要插好，可以用就好。"
+        }
+      ],
+      "decision": "SIMILAR_BUT_MATERIALLY_DIFFERENT_ORIGINAL_WORDING_OR_OPTIONS"
+    }
+  ],
+  "confirmed_identical_or_reordered_duplicate_pairs": [],
+  "summary": {
+    "source_final_papers_read": 13,
+    "all_original_questions_compared": 366,
+    "source_113_Heshun_final_targets": 8,
+    "confirmed_exact_or_reordered_choice_duplicates": 0,
+    "remaining_unique_supported_heshun_candidates": 8,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "operator_manifest_and_113_unpublished_original_source_corpus_screen_still_needed": true
+}

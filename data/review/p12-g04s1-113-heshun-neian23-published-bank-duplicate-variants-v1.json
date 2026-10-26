@@ -1,0 +1,84 @@
+{
+  "schema_version": "P12_G04S1_113_23_SCIENCE_DIRECTKP_DUPLICATE_VARIANT_DECISIONS_V1",
+  "source_branch_pr": 124,
+  "source_reviews": [
+    "data/review/p12-g04s1-113-heshun-final001-standalone23-science-directkp-screen-v1.json",
+    "data/review/p12-g04s1-113-neian-mid006-standalone24-science-directkp-screen-v1.json"
+  ],
+  "main_confirmed": "2229627cf5aa5acc395ef47f66cddbe8c5da2e5e",
+  "main_113_published_source_slot_count": 152,
+  "main_all_site_answer_slots": 788,
+  "frozen_policy": "2026-10-19 operator-approved: same KP or correct conclusion alone never causes suppression; identical full question with only option permutation must be suppressed and all original source lineages preserved.",
+  "source_science_direct_kp_candidates_before_duplicate": 23,
+  "verified_exact_duplicate_suppressions": 1,
+  "source_science_directkp_candidates_after_exact_duplicate_suppression": 22,
+  "full_original_113_114_unpublished_crossyear_and_all_788_final_comparison_completed": false,
+  "reviewed_public_bank_files_distinct_current_version_for_stem_screen": 39,
+  "duplicate_stem_screen_includes_113_and_114_published_b04_batches": true,
+  "rights_formal_complete": false,
+  "operator_final_eligible_cohort_signoff": false,
+  "decisions": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|002",
+      "matched_published_source_slot_id": "SCI_G04_S1_114_MID_004|S02|MC|002",
+      "main_public_ref": "site/data/question-bank/p12-b04-b01-47-public-v1.json",
+      "same_normalized_stem": true,
+      "same_full_four_options_ignoring_order": true,
+      "original_113_answer_choice": 3,
+      "published_114_answer_choice": "④",
+      "same_science_conclusion": true,
+      "decision": "SUPPRESS_PUBLIC_DUPLICATE_RETAIN_SOURCE_LINEAGE",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|003",
+      "matched_published_source_slot_id": "SCI_G04_S1_113_MID_014|S02|MC|003",
+      "main_public_ref": "site/data/question-bank/p12-g04s1-113-selective27-public-v1.json",
+      "same_stem_near": true,
+      "materially_different_four_options": true,
+      "materially_different_correct_choice_wording": true,
+      "decision": "RETAIN_DISTINCT_WORDING_OPTIONS_CANDIDATE",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|001",
+      "matched_published_source_slot_id": "SCI_G04_S1_114_MID_005|S01|TF|009",
+      "main_public_ref": "site/data/question-bank/p12-b04-b02-41-public-v1.json",
+      "same_kp_or_science_conclusion": true,
+      "materially_different_original_wording_and_narrative": true,
+      "decision": "RETAIN_DIFFERENT_ORIGINAL_WORDING_CANDIDATE",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|008",
+      "matched_published_source_slot_ids": [
+        "SCI_G04_S1_114_MID_005|S01|TF|007",
+        "SCI_G04_S1_114_MID_004|S01|TF|003"
+      ],
+      "main_public_refs": [
+        "site/data/question-bank/p12-b04-b02-41-public-v1.json",
+        "site/data/question-bank/p12-b04-b01-47-public-v1.json"
+      ],
+      "similar_KP_or_conclusion": true,
+      "actual_specific_materials_and_question_wording_differ": true,
+      "decision": "RETAIN_REAL_SOURCE_WORDING_VARIANT_CANDIDATE",
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "other_nineteen_eligible_stems_screened_with_no_obvious_near_equal_public_match": true,
+  "explanation": "One original 113 MC matches 114 original exactly after choice permutation; it is not a new student bank item. Three others have materially different wording or choice sets, so preserve as distinct science/KP candidates, not yet ADMISSION_READY. Compare other source raw across years and full options/rights before applicable operator manifest.",
+  "source_lineage_register_instruction": "When admitting and/or merging the existing published 114 item, append original 113 source slot, SHA and exact BBox as lineage to the existing public item; never add a duplicate answer position or edit the original choices/answer in main without a separate approved change.",
+  "summary": {
+    "formal_science_directKP_candidate_evidence_source_positions": 23,
+    "identical_existing_public_questions_to_suppress": 1,
+    "distinct_remaining_source_scienceKP_candidates": 22,
+    "operator_manifest_approved": 0,
+    "new_admission_ready": 0,
+    "new_published": 0
+  },
+  "next_resume_task": "P12_G04S1_113_ScienceCandidate22_PublishedQuestion_OneLineageDuplicate_OriginalAllPaperCrossyearDedup_Article9Rights_OperatorFinalManifest_BeforeSelectiveAdmission"
+}

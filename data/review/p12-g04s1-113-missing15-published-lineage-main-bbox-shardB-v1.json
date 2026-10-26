@@ -1,0 +1,113 @@
+{
+  "schema_version": "P12_G04S1_113_MISSING15_PUBLISHED_LINEAGE_SHARD_B_V1",
+  "draft_pr": 124,
+  "purpose": "Main-published exact per-source-page BBox and frozen Science/KP source lineage inherited for all 15-paper-gap published releases.",
+  "source_batch_prs": [
+    134,
+    135,
+    136,
+    139,
+    140,
+    141
+  ],
+  "rows": [
+    {
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_016|S1|TF|7",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_016|S01|TF|007",
+      "source_paper_id": "SCI_G04_S1_113_MID_016",
+      "source_pdf_sha256": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1",
+      "source_page_pdf_1_based": 1,
+      "actual_source_pdf_bbox_pts_top_left": [
+        66.48,
+        347.72,
+        102.5,
+        359.72
+      ],
+      "canonical_kp_id": "sci_g04s1_02_11",
+      "science_answer_present": true,
+      "origin_release_pr": 135,
+      "verified_main_student_bank_path": "site/data/question-bank/p12-g04s1-113-hanlin-native5-after100-public-v1.json",
+      "source_evidence_ref": "data/review/p12-g04s1-113-hanlin-native5-after100-formal-source-science-kp-v1.json",
+      "certification_status": "OPERATOR_APPROVED_PUBLIC",
+      "rights_path": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "rights_original_image_included": false,
+      "source_blocks_on_main": true,
+      "retain_only_no_new_release": true
+    },
+    {
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_016|S2|MC|14",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_016|S02|MC|014",
+      "source_paper_id": "SCI_G04_S1_113_MID_016",
+      "source_pdf_sha256": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1",
+      "source_page_pdf_1_based": 1,
+      "actual_source_pdf_bbox_pts_top_left": [
+        332.33,
+        752.04,
+        368.35,
+        764.04
+      ],
+      "canonical_kp_id": "sci_g04s1_02_10",
+      "science_answer_present": true,
+      "origin_release_pr": 135,
+      "verified_main_student_bank_path": "site/data/question-bank/p12-g04s1-113-hanlin-native5-after100-public-v1.json",
+      "source_evidence_ref": "data/review/p12-g04s1-113-hanlin-native5-after100-formal-source-science-kp-v1.json",
+      "certification_status": "OPERATOR_APPROVED_PUBLIC",
+      "rights_path": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "rights_original_image_included": false,
+      "source_blocks_on_main": true,
+      "retain_only_no_new_release": true
+    },
+    {
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_017|S1|TF|9",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_017|S01|TF|009",
+      "source_paper_id": "SCI_G04_S1_113_MID_017",
+      "source_pdf_sha256": "e0ad91beef6d908d73cf7198769b844ce865cc00b66f5ab07bde1ea1ee9e4518",
+      "source_page_pdf_1_based": 1,
+      "actual_source_pdf_bbox_pts_top_left": [
+        66.5,
+        424.12,
+        92.42,
+        437.4
+      ],
+      "canonical_kp_id": "sci_g04s1_02_03",
+      "science_answer_present": true,
+      "origin_release_pr": 135,
+      "verified_main_student_bank_path": "site/data/question-bank/p12-g04s1-113-hanlin-native5-after100-public-v1.json",
+      "source_evidence_ref": "data/review/p12-g04s1-113-hanlin-native5-after100-formal-source-science-kp-v1.json",
+      "certification_status": "OPERATOR_APPROVED_PUBLIC",
+      "rights_path": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "rights_original_image_included": false,
+      "source_blocks_on_main": true,
+      "retain_only_no_new_release": true
+    },
+    {
+      "normalized_source_slot_id": "SCI_G04_S1_113_MID_017|S1|TF|15",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_017|S01|TF|015",
+      "source_paper_id": "SCI_G04_S1_113_MID_017",
+      "source_pdf_sha256": "e0ad91beef6d908d73cf7198769b844ce865cc00b66f5ab07bde1ea1ee9e4518",
+      "source_page_pdf_1_based": 1,
+      "actual_source_pdf_bbox_pts_top_left": [
+        66.5,
+        658.17,
+        92.42,
+        671.45
+      ],
+      "canonical_kp_id": "sci_g04s1_02_01",
+      "science_answer_present": true,
+      "origin_release_pr": 135,
+      "verified_main_student_bank_path": "site/data/question-bank/p12-g04s1-113-hanlin-native5-after100-public-v1.json",
+      "source_evidence_ref": "data/review/p12-g04s1-113-hanlin-native5-after100-formal-source-science-kp-v1.json",
+      "certification_status": "OPERATOR_APPROVED_PUBLIC",
+      "rights_path": "SCHOOL_EXAM_QUESTION_TEXT_ONLY_NO_THIRD_PARTY_IMAGES",
+      "rights_original_image_included": false,
+      "source_blocks_on_main": true,
+      "retain_only_no_new_release": true
+    }
+  ],
+  "rows_count": 4,
+  "unique_source_id_count": 4,
+  "provenance_note": "Confirmed already-published site blocks; not newly approved.",
+  "formal_new_approved": 0,
+  "admission_ready_new": 0,
+  "published_new": 0
+}

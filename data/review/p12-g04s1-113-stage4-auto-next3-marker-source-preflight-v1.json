@@ -1,0 +1,36 @@
+{
+  "schema_version": "P12_G04S1_113_STAGE4_AUTO_NEXT3_SOURCE_MARKER_PREFLIGHT_V1",
+  "frozen_source_ledger": "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "source_method": "Original Google Drive PDF raw download, SHA256 exact match, full 2-page native text glyph candidate extraction; potential printed answer prefixes only, not student response-slot certification",
+  "documents": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_003",
+      "pages": 2,
+      "original_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "glyph_candidates": 42,
+      "printed_score_estimate": 50
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "pages": 2,
+      "original_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "glyph_candidates": 51,
+      "printed_score_estimate": 62
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "pages": 2,
+      "original_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "glyph_candidates": 29,
+      "printed_score_estimate": 58
+    }
+  ],
+  "total_glyph_candidates": 122,
+  "source_score_estimate_not_exact": 170,
+  "formal_exact_response_slots_added": 0,
+  "science_kp_approvals_added": 0,
+  "public_admissions_added": 0,
+  "public_bank_slots": 636,
+  "local_evidence_file": "p12-g04s1-113-stage4-next3-original-marker-prefight-v1.json",
+  "next_step": "Visual page-by-page pair each marker candidate with full original stem/options/diagram; reconstruct grouped and non-text answer slots missed by glyph extraction. Continue other sources without pausing on held 8 legacy SEQ."
+}

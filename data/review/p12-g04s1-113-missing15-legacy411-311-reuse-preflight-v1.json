@@ -1,0 +1,1738 @@
+{
+  "schema_version": "P12_G04S1_113_MISSING15_LEGACY_411_311_REUSE_SOURCE_LINEAGE_V1",
+  "scope": "29 original PDF 113 G04S1 / 48KP",
+  "draft_pr": 124,
+  "source_only": true,
+  "missing15_paper_inventory": "p12-g04s1-113-missing15-paper-inventory-gap-checkpoint-v1.json",
+  "legacy_review_union": "p12-g04s1-113-all29-411-unique-question-review-union-v4.json",
+  "legacy_model_standalone": "p12-g04s1-113-wholecorpus-311standalone-science-kp-source-rows-v3.json",
+  "published_suppression": "p12-g04s1-113-main-published114-source-suppression-readback-v9.json",
+  "summary": {
+    "paper_count": 15,
+    "source_review_identities_recovered_from_legacy_411": 202,
+    "model_standalone_review_rows_reusable_from_311": 102,
+    "legacy_review_rows_newly_certified_exact_slot": 0,
+    "legacy_review_rows_newly_formal_science_kp": 0,
+    "previously_published113_source_ids_in_missing15": 51,
+    "missing15_scan_only_papers_without_text": 5,
+    "remaining_paper_full_exact_response_slots_certified": 0
+  },
+  "priority": "Use existing 202 source review identities and 102 standalone model notes to locate original source; never treat raw legacy review_id as final source_slot_id or infer full PDF BBox from question number.",
+  "next": "15 paper exact original answer-slot inventory; recover 5 scan PDFs from already-rendered source evidence and 10 native text PDFs; map 51 published slots and 202 legacy review IDs without duplicates; preserve rights, KP and final operator admission",
+  "records": [
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_002",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "scan_only": true,
+      "published_source_ids_count": 0,
+      "preexisting_411_paper_review_rows": 0,
+      "preexisting_311_standalone_model_rows": 0,
+      "model_source_type_counts": {},
+      "preexisting_review_identity_keys": [],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_001",
+      "original_pdf_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "scan_only": true,
+      "published_source_ids_count": 0,
+      "preexisting_411_paper_review_rows": 0,
+      "preexisting_311_standalone_model_rows": 0,
+      "model_source_type_counts": {},
+      "preexisting_review_identity_keys": [],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_002",
+      "original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "scan_only": true,
+      "published_source_ids_count": 0,
+      "preexisting_411_paper_review_rows": 0,
+      "preexisting_311_standalone_model_rows": 0,
+      "model_source_type_counts": {},
+      "preexisting_review_identity_keys": [],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_003",
+      "original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "scan_only": false,
+      "published_source_ids_count": 3,
+      "preexisting_411_paper_review_rows": 19,
+      "preexisting_311_standalone_model_rows": 19,
+      "model_source_type_counts": {
+        "TRUE_FALSE": 14,
+        "SINGLE_CHOICE": 5
+      },
+      "preexisting_review_identity_keys": [
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|001",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 1,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|002",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 2,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|003",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 3,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|004",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 4,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|005",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 5,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|006",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 6,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|007",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 7,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|008",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 8,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|009",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 9,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|010",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 10,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|011",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 11,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|012",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 12,
+          "science_status": "SCIENCE_HOLD",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|013",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 13,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|014",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 14,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|SINGLE_CHOICE|001",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 1,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|SINGLE_CHOICE|003",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 3,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|SINGLE_CHOICE|005",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 5,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|SINGLE_CHOICE|006",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 6,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_003|SINGLE_CHOICE|007",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 7,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        }
+      ],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "original_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "scan_only": false,
+      "published_source_ids_count": 6,
+      "preexisting_411_paper_review_rows": 20,
+      "preexisting_311_standalone_model_rows": 20,
+      "model_source_type_counts": {
+        "TRUE_FALSE": 15,
+        "SINGLE_CHOICE": 5
+      },
+      "preexisting_review_identity_keys": [
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|001",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 1,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|002",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 2,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|003",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 3,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|004",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 4,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|005",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 5,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|006",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 6,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|007",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 7,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|008",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 8,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|009",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 9,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|010",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 10,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|011",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 11,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|012",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 12,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|013",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 13,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|014",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 14,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|TRUE_FALSE|015",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 15,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|SINGLE_CHOICE|002",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 2,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|SINGLE_CHOICE|003",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 3,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|SINGLE_CHOICE|004",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 4,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|SINGLE_CHOICE|011",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 11,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_005|SINGLE_CHOICE|012",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 12,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        }
+      ],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_006",
+      "original_pdf_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "scan_only": true,
+      "published_source_ids_count": 0,
+      "preexisting_411_paper_review_rows": 0,
+      "preexisting_311_standalone_model_rows": 0,
+      "model_source_type_counts": {},
+      "preexisting_review_identity_keys": [],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_012",
+      "original_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
+      "scan_only": false,
+      "published_source_ids_count": 0,
+      "preexisting_411_paper_review_rows": 100,
+      "preexisting_311_standalone_model_rows": 0,
+      "model_source_type_counts": {
+        "GROUP_SUBITEM": 100
+      },
+      "preexisting_review_identity_keys": [
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S01|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S01|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S01|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S01|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S01|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S01|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S02|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S02|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S02|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S02|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S03|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S03|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S03|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S03|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S03|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S03|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S04|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S04|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S04|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S04|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S04|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S04|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S05|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S05|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S05|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S05|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S05|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S05|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S05|SUB07",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S05|SUB08",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S06|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S06|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S06|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "SCIENCE_HOLD",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S06|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S06|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S06|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S07|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S07|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S07|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S07|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S07|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S07|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S08|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S08|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S08|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S08|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S08|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S08|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S09|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S09|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S09|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S09|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S09|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S09|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S09|SUB07",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S09|SUB08",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S10|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S10|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S10|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S10|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S10|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S10|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S10|SUB07",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S10|SUB08",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S11|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S11|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S11|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S11|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S11|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S11|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S12|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S12|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S12|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S12|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "SCIENCE_HOLD",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S12|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S12|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S13|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S13|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S13|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "SCIENCE_HOLD",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S13|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S13|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S13|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S13|SUB07",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S14|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S14|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S14|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "SCIENCE_HOLD",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S14|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S14|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S14|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S15|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S15|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S15|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S15|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S15|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S15|SUB06",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S16|SUB01",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S16|SUB02",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S16|SUB03",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S16|SUB04",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_012|S16|SUB05",
+          "source_type": "GROUP_SUBITEM",
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_TAOZIJIAO_MID_100_EXACT_SCIENCE_QA_V1.zip",
+          "student_admitted_in_legacy_snapshot": false
+        }
+      ],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_004",
+      "original_pdf_sha256": "ee3847a2790d0f92f64ff2361003e6383364dd83d49797bacd3631cfe808768d",
+      "scan_only": false,
+      "published_source_ids_count": 1,
+      "preexisting_411_paper_review_rows": 5,
+      "preexisting_311_standalone_model_rows": 5,
+      "model_source_type_counts": {
+        "TRUE_FALSE": 5
+      },
+      "preexisting_review_identity_keys": [
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_004|TRUE_FALSE|001",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 1,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_004|TRUE_FALSE|002",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 2,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_004|TRUE_FALSE|003",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 3,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_004|TRUE_FALSE|004",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 4,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_004|TRUE_FALSE|005",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 5,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        }
+      ],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_005",
+      "original_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "scan_only": false,
+      "published_source_ids_count": 8,
+      "preexisting_411_paper_review_rows": 10,
+      "preexisting_311_standalone_model_rows": 10,
+      "model_source_type_counts": {
+        "TRUE_FALSE": 10
+      },
+      "preexisting_review_identity_keys": [
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|001",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 1,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|002",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 2,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|003",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 3,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|004",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 4,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|005",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 5,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|006",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 6,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|007",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 7,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|008",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 8,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|009",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 9,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|010",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 10,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        }
+      ],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_007",
+      "original_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "scan_only": false,
+      "published_source_ids_count": 4,
+      "preexisting_411_paper_review_rows": 19,
+      "preexisting_311_standalone_model_rows": 19,
+      "model_source_type_counts": {
+        "TRUE_FALSE": 10,
+        "SINGLE_CHOICE": 9
+      },
+      "preexisting_review_identity_keys": [
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|TRUE_FALSE|001",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 1,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|TRUE_FALSE|002",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 2,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|TRUE_FALSE|003",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 3,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|TRUE_FALSE|004",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 4,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|TRUE_FALSE|005",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 5,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|TRUE_FALSE|006",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 6,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|TRUE_FALSE|007",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 7,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|TRUE_FALSE|008",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 8,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|TRUE_FALSE|009",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 9,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|TRUE_FALSE|010",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 10,
+          "science_status": "SCIENCE_HOLD",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|SINGLE_CHOICE|001",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 1,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|SINGLE_CHOICE|002",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 2,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|SINGLE_CHOICE|003",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 3,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|SINGLE_CHOICE|004",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 4,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|SINGLE_CHOICE|005",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 5,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|SINGLE_CHOICE|007",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 7,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|SINGLE_CHOICE|008",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 8,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|SINGLE_CHOICE|009",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 9,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_007|SINGLE_CHOICE|010",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 10,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        }
+      ],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_008",
+      "original_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "scan_only": false,
+      "published_source_ids_count": 25,
+      "preexisting_411_paper_review_rows": 4,
+      "preexisting_311_standalone_model_rows": 4,
+      "model_source_type_counts": {
+        "SINGLE_CHOICE": 4
+      },
+      "preexisting_review_identity_keys": [
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_008|SINGLE_CHOICE|001",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 1,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_008|SINGLE_CHOICE|002",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 2,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_008|SINGLE_CHOICE|003",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 3,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_008|SINGLE_CHOICE|004",
+          "source_type": "SINGLE_CHOICE",
+          "printed_number": 4,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        }
+      ],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_009",
+      "original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "scan_only": true,
+      "published_source_ids_count": 0,
+      "preexisting_411_paper_review_rows": 0,
+      "preexisting_311_standalone_model_rows": 0,
+      "model_source_type_counts": {},
+      "preexisting_review_identity_keys": [],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_016",
+      "original_pdf_sha256": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1",
+      "scan_only": false,
+      "published_source_ids_count": 2,
+      "preexisting_411_paper_review_rows": 10,
+      "preexisting_311_standalone_model_rows": 10,
+      "model_source_type_counts": {
+        "TRUE_FALSE": 10
+      },
+      "preexisting_review_identity_keys": [
+        {
+          "review_id": "SCI_G04_S1_113_MID_016|TRUE_FALSE|001",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 1,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_016|TRUE_FALSE|002",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 2,
+          "science_status": "SCIENCE_HOLD",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_016|TRUE_FALSE|003",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 3,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_016|TRUE_FALSE|004",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 4,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_016|TRUE_FALSE|005",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 5,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_016|TRUE_FALSE|006",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 6,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_016|TRUE_FALSE|007",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 7,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_016|TRUE_FALSE|008",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 8,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_016|TRUE_FALSE|009",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 9,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_016|TRUE_FALSE|010",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 10,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        }
+      ],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_017",
+      "original_pdf_sha256": "e0ad91beef6d908d73cf7198769b844ce865cc00b66f5ab07bde1ea1ee9e4518",
+      "scan_only": false,
+      "published_source_ids_count": 2,
+      "preexisting_411_paper_review_rows": 14,
+      "preexisting_311_standalone_model_rows": 14,
+      "model_source_type_counts": {
+        "TRUE_FALSE": 14
+      },
+      "preexisting_review_identity_keys": [
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|001",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 1,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|002",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 2,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|003",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 3,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|005",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 5,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|006",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 6,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|007",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 7,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|008",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 8,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|009",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 9,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|010",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 10,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|011",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 11,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|012",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 12,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|013",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 13,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|014",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 14,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        },
+        {
+          "review_id": "SCI_G04_S1_113_MID_017|TRUE_FALSE|015",
+          "source_type": "TRUE_FALSE",
+          "printed_number": 15,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        }
+      ],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_011",
+      "original_pdf_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+      "scan_only": false,
+      "published_source_ids_count": 0,
+      "preexisting_411_paper_review_rows": 1,
+      "preexisting_311_standalone_model_rows": 1,
+      "model_source_type_counts": {
+        "SHORT_ANSWER": 1
+      },
+      "preexisting_review_identity_keys": [
+        {
+          "review_id": "SCI_G04_S1_113_FINAL_011|SHORT_ANSWER|002",
+          "source_type": "SHORT_ANSWER",
+          "printed_number": 2,
+          "science_status": "MODEL_INITIAL_PASS",
+          "source_full_text_location": "P12_G04S1_113_WHOLECORPUS_ITEM_QA_360_V3.zip",
+          "student_admitted_in_legacy_snapshot": false
+        }
+      ],
+      "certification_note": "Legacy 411/311 review rows are prior candidate and model notes. They lack complete original answer glyph/figure BBox and do not establish finished all-paper inventory."
+    }
+  ]
+}

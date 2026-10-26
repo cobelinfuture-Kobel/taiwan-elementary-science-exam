@@ -1,0 +1,90 @@
+{
+  "schema_version": "P12_G04S1_113_WHOLECORPUS_POST200_SCIENCE_KP_EXCEPTIONS_DEDUP_READBACK_V1",
+  "draft_pr": 124,
+  "authority": "frozen G04-S1 48 KP, same existing Admission Gate",
+  "scope": "113 original 29 school paper worklist native independent first four source batches (B01 to B04) + all original 114 source records",
+  "counting": "SOURCE_SLOT, not formally published original unique science question",
+  "current_source_progress": {
+    "source_exact_text_and_native_bbox": 200,
+    "native_queue_total": 301,
+    "native_pending": 101,
+    "other_source_lanes_not_yet_completed": 408,
+    "corpus_papers_total": 29,
+    "B03_source_science_unique_direct_KP_text_candidates": 35,
+    "B03_science_or_KP_holds": 15,
+    "B04_full_original_four_choice_items": 20,
+    "B04_native_bbox_items": 50,
+    "B04_page2_items": 3
+  },
+  "crossyear_114_all_sources_check": {
+    "original_papers_total": 25,
+    "original_question_rows_total": 717,
+    "compared_113_source_positions": 200,
+    "B01B02_exact": 4,
+    "B01B02_near": 2,
+    "B03B04_exact": 2,
+    "B03B04_near": 3,
+    "total_exact_pairs": 6,
+    "total_near_candidates": 5
+  },
+  "within113_first200_exact_text_duplicates": 6,
+  "new_114_crossyear_B03B04_exact_cases": [
+    {
+      "source113": "SCI_G04_S1_113_MID_010|S1|TF|1",
+      "source114": "SCI_G04_S1_114_MID_008|S01|TF|001",
+      "archive": "p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+      "match": "EXACT_STEM_ORDERED_OPTIONS",
+      "score": 1
+    },
+    {
+      "source113": "SCI_G04_S1_113_MID_010|S1|TF|9",
+      "source114": "SCI_G04_S1_114_MID_008|S01|TF|012",
+      "archive": "p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+      "match": "EXACT_STEM_ORDERED_OPTIONS",
+      "score": 1
+    }
+  ],
+  "new_114_crossyear_B03B04_near_cases": [
+    {
+      "source113": "SCI_G04_S1_113_MID_008|S2|MC|11",
+      "source114": "SCI_G04_S1_114_MID_004|S02|MC|012",
+      "archive": "p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+      "match": "NEAR_STEM_REVIEW",
+      "score": 0.933
+    },
+    {
+      "source113": "SCI_G04_S1_113_MID_013|S1|TF|4",
+      "source114": "SCI_G04_S1_114_MID_008|S01|TF|012",
+      "archive": "p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+      "match": "NEAR_STEM_REVIEW",
+      "score": 0.906
+    },
+    {
+      "source113": "SCI_G04_S1_113_MID_008|S2|MC|6",
+      "source114": "SCI_G04_S1_114_MID_008|S02|MC|002",
+      "archive": "p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+      "match": "NEAR_STEM_REVIEW",
+      "score": 1
+    }
+  ],
+  "holds": "Exact same original source content retains both archive lineages; semantic match needs answer-event comparison. Archive matches not equal already admitted public bank duplicates.",
+  "finished_gate_evidence": "Full question text/PDF native marker glyphs stored for source positions 1–200; proposed unique scientific answers for B03 50 and B02 50; 114 source archive automatic comparison for 200",
+  "pending_gate_evidence": "Per-item full semantic match against currently published 113/114 student question bank, B04 Science/KP, any original figure/teacher-key ambiguity, Article9 rights/operator release Gate, other 29-school corpus positions",
+  "release_stats": {
+    "FORMAL_SCIENCE_KP_APPROVED_NEW": 0,
+    "ADMISSION_READY_NEW": 0,
+    "PUBLISHED_NEW": 0
+  },
+  "public_bank_unchanged": true,
+  "source_files": [
+    "data/review/p12-g04s1-113-b03b04-100-vs114-archive-shard01-v1.json",
+    "data/review/p12-g04s1-113-b03b04-100-vs114-archive-shard02-v1.json",
+    "data/review/p12-g04s1-113-b03b04-100-vs114-archive-shard03-v1.json",
+    "data/review/p12-g04s1-113-b01b02-100-vs114-all25-717-source-duplicate-readback-v1.json",
+    "data/review/p12-g04s1-113-b01b04-200-internal-exact-source-duplicates-v1.json",
+    "data/review/p12-g04s1-113-native-tfmc-b03-50-science-kp-consolidated-v1.json",
+    "data/review/p12-g04s1-113-native-tfmc-b04-50-original-pdf-text-layer-v2.json",
+    "data/review/p12-g04s1-113-native-tfmc-b04-50-original-real-glyph-bbox-v1.json"
+  ],
+  "next": "B04 50 science/direct KP Gate → native B05 next50 → all29 corpus exact source + dedup + rights → consolidated admission PR, focused CI, merged main and live Pages E2E."
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": "P12_113_G04S1_OTHER_NATIVE4_EXACTPDF_GLYPH_BBOX56_V1",
+  "original_authority": "113 frozen KP48",
+  "draft_pr": 124,
+  "original_pdf_binary_sha256_verified": 4,
+  "proof": "All 56 page1 original printed independent TF/MC answer marker glyph BBoxes read directly from original PDF rawdict (not estimated). Four original source binary SHA matches frozen registry; seven existing main-PUBLISHED glyph BBoxes match to 0.1pt. First-page annotations rendered for visual geometry proof.",
+  "coordinates": "Base36 integer hundredth of PDF point, top-left PDF coordinates [x0,y0,x1,y1], individual source ID ordinal by each group. Decoding uses Number.parseInt(z,36)/100. For Mingyi FINAL_007 MC, BBox includes bracket plus original number/punctuation, matching previously published canonical geometry; others preserve original bracket glyph.",
+  "original_pdfs": [
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_004",
+      "source_pdf_sha256": "ee3847a2790d0f92f64ff2361003e6383364dd83d49797bacd3631cfe808768d"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_007",
+      "source_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "source_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_017",
+      "source_pdf_sha256": "e0ad91beef6d908d73cf7198769b844ce865cc00b66f5ab07bde1ea1ee9e4518"
+    }
+  ],
+  "groups": [
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_004",
+      "section": "S1",
+      "type": "TF",
+      "count": 6,
+      "encoded_geometry": "26o.93k.4oo.a3k;26o.bpk.4oo.cpk;26o.gx8.4oo.hx8;26o.jj8.4oo.kj8;26o.m5b.4oo.n5b;26o.orb.4oo.prb",
+      "pdf_page_1_based": 1
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_007",
+      "section": "S1",
+      "type": "TF",
+      "count": 10,
+      "encoded_geometry": "2s0.644.5c2.6ys;2s0.976.5c2.a1u;2s0.ca6.5c2.d4u;2s0.fdi.5c0.g86;2s0.igi.5c2.jb6;2s0.ljl.5c0.me9;2s0.omx.5c0.phl;2s0.rpx.5c0.skl;2s0.usx.5c2.vnl;2s0.xw9.5kv.yqx",
+      "pdf_page_1_based": 1
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_007",
+      "section": "S2",
+      "type": "MC",
+      "count": 10,
+      "encoded_geometry": "2s0.1327.63q.1405;2s0.165j.63q.173h;2s0.198j.63q.1a6h;2s0.1fey.63q.1gcw;2s0.1k1m.63q.1kzk;nsh.4so.r47.5qm;nsh.az2.r27.bx0;nsh.h5e.r47.i3c;nsh.ls5.r47.mq3;nsh.qet.r4j.rcr",
+      "pdf_page_1_based": 1
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "section": "S1",
+      "type": "MC",
+      "count": 5,
+      "encoded_geometry": "3h8.b1m.5i5.c1y;3h8.esy.5i5.fta;3h8.ijm.5i5.jjy;3h8.qnm.5i5.rny;3h8.xlm.5i5.yly",
+      "pdf_page_1_based": 1
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_017",
+      "section": "S1",
+      "type": "TF",
+      "count": 15,
+      "encoded_geometry": "54q.ai1.74u.bix;54q.da1.74q.eax;54q.g21.74q.h2x;54q.hg1.74q.igx;54q.lm4.74q.mn0;54q.n04.74q.o10;54q.r64.74q.s70;54q.ty4.74q.uz0;54q.wq4.74q.xr0;54q.zi6.74q.10j2;54q.12a6.74q.13b2;54q.1526.74q.1632;54q.17u6.74q.18v2;54q.1am6.74q.1bn2;54q.1es9.74q.1ft5",
+      "pdf_page_1_based": 1
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_017",
+      "section": "S2",
+      "type": "MC",
+      "count": 10,
+      "encoded_geometry": "54q.1k5l.74q.1l6h;pn7.aop.rn7.bpl;pn7.eup.rn7.fvl;pn7.lss.rn7.mto;pn7.pys.rn7.qzo;pn7.vis.rn7.wjo;pn7.112u.rn7.123q;pn7.16mu.rn7.17nq;pn7.1c6u.rn7.1d7q;pfj.1gcx.rfj.1hdt",
+      "pdf_page_1_based": 1
+    }
+  ],
+  "summary": {
+    "original_pdf_verified": 4,
+    "original_pdf_markers_bbox": 56,
+    "published_main_bbox_parity": 7,
+    "source_glyph_bbox_new_unpublished": 49,
+    "formal_new_science_kp": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "rights": "No full original texts, original images or copyrighted source PDF binaries uploaded to GitHub. Original figure/parent question, Science, 113 KP48, semantic dedup and Article9/third party image rights remain original existing Gate.",
+  "next_resume_task": "P12_113_G04S1_AfterNative163BBox_RemainingNativeMID012_FullChild100_TFMC_GroupSlots_OtherNativePDFs_ThenScan5Raster262_AndScienceKP48DedupRights"
+}

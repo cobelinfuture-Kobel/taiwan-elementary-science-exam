@@ -1,0 +1,123 @@
+{
+  "schema_version": "P12_113_G04S1_HN22_113ALL29_RELEVANT_NATIVE_RASTER_ORIGINAL_SOURCE_DEDUP_V3",
+  "source_pr": 124,
+  "original_scope": "113 G04S1 frozen 29 original school PDF sources (24 text-layer; 5 raster) plus 114 G04S1 25 original school TFMC archive (717 questions)",
+  "registrar_ref": "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "prior_but_superseded_113_private_zip_blocker_ref": "data/review/p12-g04s1-113-two-school22-114all25-717-fourquadrant-dedup-closeout-v2.json",
+  "legal_policy": "docs/QUESTION_ADMISSION_GOVERNANCE.md 2026-10-19 approved: only truly identical full questions or mere option/punctuation permutations suppressed; real wording, choice, context and question-format changes preserved.",
+  "original_113_native_source_text_download_ref": [
+    "data/review/p12-g04s1-113-hn22-other113-native12pdf-fulltext-source-dedup-a-v1.json",
+    "data/review/p12-g04s1-113-hn22-other113-native12pdf-fulltext-source-dedup-b-v1.json"
+  ],
+  "original_113_other_native_papers_full_text_extracted": 24,
+  "original_113_native_readable": 24,
+  "original_113_other_raster_scan_papers_page_visual_inspected": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_002",
+      "source_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "original_pdf_pages": 3,
+      "source_title": "113_南一_四上_自然_期中評量卷_和順國小.pdf",
+      "original_visual_method": "SHA256 verified original full PDF rendered and manually inspected for exact stem and option identity against relevant 113 source cohort; no OCR or synthesized options",
+      "original_original_pdf_scans_not_published": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "source_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "original_pdf_pages": 4,
+      "source_title": "113_南一_四上_自然_期末評量卷_忠孝國小.pdf",
+      "original_visual_method": "SHA256 verified original full PDF rendered and manually inspected for exact stem and option identity against relevant 113 source cohort; no OCR or synthesized options",
+      "original_original_pdf_scans_not_published": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_009",
+      "source_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_pdf_pages": 3,
+      "source_title": "113_康軒_四上_自然_期末評量卷_獅湖國小.pdf",
+      "original_visual_method": "SHA256 verified original full PDF rendered and manually inspected for exact stem and option identity against relevant 113 source cohort; no OCR or synthesized options",
+      "original_original_pdf_scans_not_published": true
+    }
+  ],
+  "target_raster_source_papers_evidence_reused": [
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "original_page_count": 2,
+      "source_reviews": [
+        "data/review/p12-g04s1-113-heshun-final001-standalone23-science-directkp-screen-v1.json",
+        "data/review/p12-g04s1-113-neian-mid006-standalone24-science-directkp-screen-v1.json"
+      ]
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_page_count": 4,
+      "source_reviews": [
+        "data/review/p12-g04s1-113-heshun-final001-standalone23-science-directkp-screen-v1.json",
+        "data/review/p12-g04s1-113-neian-mid006-standalone24-science-directkp-screen-v1.json"
+      ]
+    }
+  ],
+  "full_113_other_papers_direct_original_pdf_source_crosscheck_by_candidate": true,
+  "exact_identical_full_question_and_full_choices_other113_matched": 0,
+  "same_stem_but_materially_distinct_candidate_cases": [
+    {
+      "candidate": "SCI_G04_S1_113_MID_006|S2|MC|007",
+      "same_stem_other_source": "SCI_G04_S1_113_MID_008|S2|MC|002",
+      "other_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_original_candidate_answer_choice": 2,
+      "other_original_answer_concept": "空氣污染（④）",
+      "candidate_choice_text": [
+        "人類破壞",
+        "靜止的空氣",
+        "發生地震",
+        "水流力量"
+      ],
+      "other_school_actual_choice_text": [
+        "人類開發",
+        "流水作用",
+        "強烈地震",
+        "空氣污染"
+      ],
+      "new_student_bank_duplication": false,
+      "disposition": "DISTINCT_ORIGINAL_OPTIONS_RETAIN",
+      "reason": "Exact stem but materially different distractors and correct answer wording; not merely option permutation."
+    },
+    {
+      "candidate": "SCI_G04_S1_113_FINAL_001|S02|MC|002",
+      "same_core_question_other_source": "SCI_G04_S1_113_FINAL_011|P2|SECTION3_SHORT_ANSWER|002",
+      "other_pdf_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+      "other_question_type": "SHORT_ANSWER",
+      "target_question_type": "MC",
+      "target_original_four_choices": [
+        "太陽",
+        "月亮",
+        "光源",
+        "以上皆是"
+      ],
+      "other_short_answer_context": "太陽、明亮的電燈、燭火等，都是能發出光的物體，讓我們可以看到周圍的物品，請問這種會發光的物體稱為什麼？",
+      "disposition": "DISTINCT_QUESTION_TYPE_AND_CONTEXT_RETAIN",
+      "reason": "MC and descriptive written completion differ substantially in form and source stimulus; retained under operator 2026-10-19 policy."
+    }
+  ],
+  "original_114_717_quadrant_dedup_result_ref": "data/review/p12-g04s1-113-two-school22-114all25-717-fourquadrant-dedup-closeout-v2.json",
+  "original_114_identical_reordered_options_already_suppressed_one": "SCI_G04_S1_113_MID_006|S2|MC|002",
+  "historical_private_ZIP_original_text_handoff_obtained": false,
+  "historical_private_ZIP_is_new_required_gate": false,
+  "scope_warning": "Checking a candidate's full actual exam PDF and relevant answer choices for a duplicate is the required DUPLICATE Gate; it is not equivalent to separate formal Science, KP, publication rights or operator approval. Prior 411 item model QA ZIP is useful historical evidence but not a new compulsory third-pass.",
+  "summary": {
+    "original_113_registered_exam_papers": 29,
+    "native_text_original_pdf_papers": 24,
+    "scan_only_original_pdf_papers": 5,
+    "other_raster_scans_visually_reviewed": 3,
+    "other_scan_original_pdf_pages_visually_reviewed": 10,
+    "source_candidate_supported_prior_23": 23,
+    "confirmed_114_exact_permuted_duplicate_suppressed": 1,
+    "confirmed_new_113_internal_identical_questions_in_target22": 0,
+    "same_stem_substantially_different_other113_question_variants": 2,
+    "eligible_DISTINCT_cohort_DRAFT": 22,
+    "formal_rights_operator_release_signed": false,
+    "ADMISSION_READY_new": 0,
+    "PUBLISHED_new": 0
+  },
+  "next_resume_task": "P12_G04S1_113_HN22_ALL29_113_ORIGINAL_PDF_AND_114_ALL25_717_DUPLICATE_CHECK_COMPLETED__OPERATOR_EXACT_COHORT_MANIFEST_FINAL_SIGNOFF_THEN_PREPUBLIC_QA_PR_CI_MAIN_PAGESLIVE_IF_RIGHTS_AND_RENDERING_PASSED"
+}

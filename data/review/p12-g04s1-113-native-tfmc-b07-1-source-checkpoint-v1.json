@@ -1,0 +1,41 @@
+{
+  "schema_version": "P12_G04S1_113_NATIVE_TFMC_B07_SOURCE_WORKLIST_V1",
+  "source_scope": "113 G04S1 all29 frozen 48KP, exact source-only deterministic 301 positions after full published114 suppression",
+  "draft_pr": 124,
+  "batch": "B07",
+  "source_positions": 1,
+  "source_queue_ordinal_range": [
+    301,
+    301
+  ],
+  "paper_mix": [
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "school": "大華國小",
+      "source_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "drive_source_url": "https://drive.google.com/file/d/1GoIilzz3hFCOk56j6rwfOBWllEjnrlzr/view",
+      "source_positions": 1
+    }
+  ],
+  "records": [
+    {
+      "worklist_number": 301,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S3|TF|7",
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_010|S03|TRUE_FALSE|07",
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "original_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "original_pdf_drive_url": "https://drive.google.com/file/d/1GoIilzz3hFCOk56j6rwfOBWllEjnrlzr/view",
+      "prior_ledger": "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json",
+      "source_text_status": "PENDING_ORIGINAL_PDF_READBACK",
+      "pdf_bbox_status": "PENDING_ORIGINAL_PDF_NATIVE_GLYPH",
+      "science_kp_status": "PENDING_EXISTING_GATE",
+      "duplicate_status": "PENDING_ALL_PUBLISHED_AND_113_114_SEMANTIC_MATCH",
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "gate_not_modified": true,
+  "new_formal_science_kp_approved": 0,
+  "new_admission_ready": 0,
+  "new_published": 0
+}

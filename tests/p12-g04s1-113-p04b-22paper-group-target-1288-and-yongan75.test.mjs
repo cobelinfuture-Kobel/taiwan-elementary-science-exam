@@ -1,0 +1,60 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const rd=n=>JSON.parse(readFileSync(new URL('../data/review/'+n,import.meta.url),'utf8'));
+const v=rd('p12-g04s1-113-p04b-22papers-1288-sourcegroup-7remaining-v8.json');
+const p=rd('p12-g04s1-113-p04b-dadun66-active20-remaining9-resume-v7.json');
+const a=rd('p12-g04s1-113-p04b-yongan-mid008-page1-native-tf11-mc14-exact-25-v1.json');
+const b=rd('p12-g04s1-113-p04b-yongan-mid008-page2-native-s05six-s06twentyseven-s07four-v1.json');
+const c=rd('p12-g04s1-113-p04b-yongan-mid008-match7-and-image6-original-source-geometry-v1.json');
+const d=rd('p12-g04s1-113-p04b-dongguang-final003-circle2groups7targets-draw3-original-parent-v2.json');
+const e=rd('p12-g04s1-113-p04b-dongguang-final003-remaining26-native16-circle7-draw3-holds-v1.json');
+const pub=rd('p12-g04s1-113-main-published178-source-suppression-readback-v12.json');
+test('P04B source-only 22/29 original PDFs and 1288 work target IDs, never 1288 admitted student questions',()=>{
+ assert.equal(p.original_papers_with_complete_source_ID_and_exact_original_answer_glyph_table_photo_box_or_drawing_geometry,20);
+ assert.equal(p.original_response_ID_records_with_per_source_physical_geometry_total,1154);
+ assert.equal(v.completed_original_papers_source_target_and_response_mode_reconciled,22);
+ assert.equal(v.completed_source_response_target_IDs_not_student_question_count,1288);
+ assert.equal(v.additional_Dongguang_final_group_aware_59,59);
+ assert.equal(v.additional_Yongan_mid_group_aware_75,75);
+ assert.equal(v.remaining_original_papers,7);
+ assert.equal(v.remaining_original_pdf_pages,20);
+ assert.equal(v.remaining_NONCERTIFIED_section_working_response_regions,474);
+ assert.equal(v.remaining7_existing_exact_original_marker_or_partial_dot_anchor_count,200);
+ assert.equal(v.remaining7_independent_printed_answer_source_boxes,194);
+ assert.equal(v.remaining7_partial_matching_start_dots,6);
+ assert.deepEqual(v.remaining_paper_ids,p.remaining_original_paper_ids.filter(id=>!['SCI_G04_S1_113_FINAL_003','SCI_G04_S1_113_MID_008'].includes(id)));
+ assert.equal(v.main_113_published_source_ids_untouched,178);
+ assert.equal(pub.all_unique_published_source_slot_ids.length,178);
+ for(const k of ['formal_science_KP_approved_NEW','admission_ready_NEW','published_NEW'])assert.equal(v[k],0);
+});
+test('Yongan 75 actual original per-target source modes: 68 printed boxes + 7 paired line dots (NOT certified finished lines)',()=>{
+ assert.equal(a.records.length,25); assert.equal(b.original_source_records.length,37);
+ assert.equal(c.parent_group_records.length,7);assert.equal(c.grouped_diagram_response_records.length,6);
+ assert.equal(a.records.filter(z=>z.already_main_published_suppress_duplicate).length,2);
+ assert.equal(c.source_actual_independent_printed_answer_glyph_bbox_count,68);
+ assert.equal(c.source_matching_line_with_2_ends_but_no_printed_complete_line_count,7);
+ assert.equal(c.source_original_75_working_positions_now_reconciled_geometry_or_parent_response_mode,75);
+ const rows=[...a.records.map(x=>x.source_original_id),...b.original_source_records.map(x=>x.source_slot_id_provisional),...c.parent_group_records.map(x=>x.provisional_original_source_response_id),...c.grouped_diagram_response_records.map(x=>x.provisional_original_source_response_id)];
+ assert.equal(rows.length,75); assert.equal(new Set(rows).size,75);
+ assert.deepEqual(c.parent_group_records.reduce((acc,x)=>(acc[x.original_line_parent_group]=(acc[x.original_line_parent_group]||0)+1,acc),{}),{S03_G01:4,S03_G02:3});
+ for(const x of c.parent_group_records){
+  assert.equal(x.independent_printed_answer_bbox_exists,false);
+  assert.equal(x.student_done_answer_line_is_NOT_on_unfilled_source_exam,true);
+  assert.equal(x.original_source_left_response_start_native_dot_bbox_pts_top_left.length,4);
+  assert.equal(x.original_target_right_available_dot_native_bbox_same_row_pts_top_left.length,4);
+  assert.equal(x.admission_ready,false);
+ }
+ for(const k of ['FORMAL_SCIENCE_KP_APPROVED_new','ADMISSION_READY_new','PUBLISHED_new'])assert.equal(c[k],0);
+});
+test('Dongguang 59 physical work targets are 49 printed source marks plus TWO multi-select parent questions with 7 targets plus 3 freehand parents',()=>{
+ assert.equal(d.original_two_group_questions_NOT_seven_independent_questions,2);
+ assert.deepEqual(d.S05_multi_select_groups.map(x=>x.original_option_targets.length),[4,3]);
+ assert.equal(d.S04_S08_drawing_parents.length,3);
+ assert.equal(e.records.length,26);
+ assert.equal(e.records.filter(x=>x.physical_independent_printed_answer_bbox_certified).length,16);
+ assert.equal(e.records.filter(x=>x.original_option_text_source_anchor_NOT_independent_answer_bbox).length,7);
+ assert.equal(e.records.filter(x=>x.source_figure_parent_only_NOT_independent_response_bbox).length,3);
+ assert.ok(d.S04_S08_drawing_parents.every(x=>x.physical_independent_answer_marker_does_not_exist));
+ assert.equal(d.new_PUBLISHED,0);
+});

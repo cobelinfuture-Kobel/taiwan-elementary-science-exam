@@ -1,0 +1,214 @@
+{
+  "schema_version": "P12_G04S1_113_HESHUN_MID002_SCAN_P3_PARENT_TICK5_RASTER_BBOX_V1",
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "draft_pr": 124,
+  "source_name": "113 Heshun four upper science mid original scan PDF",
+  "registered_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+  "source_image_matrix": [
+    1190,
+    0,
+    0,
+    841,
+    0,
+    0
+  ],
+  "source_image_dims_pixels": [
+    4960,
+    3507
+  ],
+  "original_section": "五、題組",
+  "parent_subquestion": 1,
+  "method": "Each physical answer opening and closing parenthesis component segmented independently on original page3 grayscale raster threshold 180, checked visually with printed (1)-(5) numbered subitems. Raw exact source pixel rectangle to PDF top-left points via registered original image matrix. No OCR or interpolated locations.",
+  "semantics": "These are children of one five-item parent question, not five standalone source questions. Provisional identity requires alignment with already frozen section/parent contract before admission.",
+  "prior_scan_pixel_proofs": [
+    "data/review/p12-g04s1-113-heshun-mid002-scanned-sixmc-actual-pixel-geometry-v1.json",
+    "data/review/p12-g04s1-113-heshun-mid002-scan-eightTF-actual-pixel-geometry-v1.json"
+  ],
+  "summary": {
+    "new_original_raster_bbox_children": 5,
+    "prior_individual_scan_mc_tf_bboxes": 14,
+    "combined_verified_raster_answer_positions": 19,
+    "prior_five_scan_section_positions": 262,
+    "remaining_original_scan_section_positions_without_individual_bbox": 243,
+    "new_formal_science_kp_approved": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "records": [
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_MID_002|SECTION_05|PARENT_01|TICK_CROSS|001",
+      "raw_original_section": "五、題組",
+      "raw_parent_question": 1,
+      "source_subitem_ordinal": 1,
+      "paper_id": "SCI_G04_S1_113_MID_002",
+      "source_page_pdf_1_based": 3,
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_raster_xref": 20,
+      "source_raster_pixel_dims": [
+        4960,
+        3507
+      ],
+      "printed_answer_parentheses_union_pixels": [
+        318,
+        474,
+        481,
+        527
+      ],
+      "mapped_original_pdf_bbox_pts_top_left": [
+        76.29,
+        113.67,
+        115.4,
+        126.38
+      ],
+      "source_technique": "ORIGINAL_RASTER_GRAYSCALE_THRESHOLD180_OPEN_CLOSE_COMPONENTS_VISUALLY_CHECKED",
+      "original_parent_context_requires_preservation": true,
+      "original_figure_dependency": false,
+      "explicit_source_slot_id_final_certified": false,
+      "source_geometry_certified": true,
+      "science_answer_unique_formal": false,
+      "kp_direct_formal": false,
+      "rights_gate": false,
+      "admission_ready": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_MID_002|SECTION_05|PARENT_01|TICK_CROSS|002",
+      "raw_original_section": "五、題組",
+      "raw_parent_question": 1,
+      "source_subitem_ordinal": 2,
+      "paper_id": "SCI_G04_S1_113_MID_002",
+      "source_page_pdf_1_based": 3,
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_raster_xref": 20,
+      "source_raster_pixel_dims": [
+        4960,
+        3507
+      ],
+      "printed_answer_parentheses_union_pixels": [
+        317,
+        578,
+        481,
+        631
+      ],
+      "mapped_original_pdf_bbox_pts_top_left": [
+        76.05,
+        138.61,
+        115.4,
+        151.32
+      ],
+      "source_technique": "ORIGINAL_RASTER_GRAYSCALE_THRESHOLD180_OPEN_CLOSE_COMPONENTS_VISUALLY_CHECKED",
+      "original_parent_context_requires_preservation": true,
+      "original_figure_dependency": false,
+      "explicit_source_slot_id_final_certified": false,
+      "source_geometry_certified": true,
+      "science_answer_unique_formal": false,
+      "kp_direct_formal": false,
+      "rights_gate": false,
+      "admission_ready": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_MID_002|SECTION_05|PARENT_01|TICK_CROSS|003",
+      "raw_original_section": "五、題組",
+      "raw_parent_question": 1,
+      "source_subitem_ordinal": 3,
+      "paper_id": "SCI_G04_S1_113_MID_002",
+      "source_page_pdf_1_based": 3,
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_raster_xref": 20,
+      "source_raster_pixel_dims": [
+        4960,
+        3507
+      ],
+      "printed_answer_parentheses_union_pixels": [
+        317,
+        682,
+        481,
+        736
+      ],
+      "mapped_original_pdf_bbox_pts_top_left": [
+        76.05,
+        163.55,
+        115.4,
+        176.5
+      ],
+      "source_technique": "ORIGINAL_RASTER_GRAYSCALE_THRESHOLD180_OPEN_CLOSE_COMPONENTS_VISUALLY_CHECKED",
+      "original_parent_context_requires_preservation": true,
+      "original_figure_dependency": false,
+      "explicit_source_slot_id_final_certified": false,
+      "source_geometry_certified": true,
+      "science_answer_unique_formal": false,
+      "kp_direct_formal": false,
+      "rights_gate": false,
+      "admission_ready": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_MID_002|SECTION_05|PARENT_01|TICK_CROSS|004",
+      "raw_original_section": "五、題組",
+      "raw_parent_question": 1,
+      "source_subitem_ordinal": 4,
+      "paper_id": "SCI_G04_S1_113_MID_002",
+      "source_page_pdf_1_based": 3,
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_raster_xref": 20,
+      "source_raster_pixel_dims": [
+        4960,
+        3507
+      ],
+      "printed_answer_parentheses_union_pixels": [
+        317,
+        786,
+        480,
+        840
+      ],
+      "mapped_original_pdf_bbox_pts_top_left": [
+        76.05,
+        188.49,
+        115.16,
+        201.44
+      ],
+      "source_technique": "ORIGINAL_RASTER_GRAYSCALE_THRESHOLD180_OPEN_CLOSE_COMPONENTS_VISUALLY_CHECKED",
+      "original_parent_context_requires_preservation": true,
+      "original_figure_dependency": false,
+      "explicit_source_slot_id_final_certified": false,
+      "source_geometry_certified": true,
+      "science_answer_unique_formal": false,
+      "kp_direct_formal": false,
+      "rights_gate": false,
+      "admission_ready": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_MID_002|SECTION_05|PARENT_01|TICK_CROSS|005",
+      "raw_original_section": "五、題組",
+      "raw_parent_question": 1,
+      "source_subitem_ordinal": 5,
+      "paper_id": "SCI_G04_S1_113_MID_002",
+      "source_page_pdf_1_based": 3,
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_raster_xref": 20,
+      "source_raster_pixel_dims": [
+        4960,
+        3507
+      ],
+      "printed_answer_parentheses_union_pixels": [
+        316,
+        890,
+        480,
+        944
+      ],
+      "mapped_original_pdf_bbox_pts_top_left": [
+        75.81,
+        213.43,
+        115.16,
+        226.38
+      ],
+      "source_technique": "ORIGINAL_RASTER_GRAYSCALE_THRESHOLD180_OPEN_CLOSE_COMPONENTS_VISUALLY_CHECKED",
+      "original_parent_context_requires_preservation": true,
+      "original_figure_dependency": false,
+      "explicit_source_slot_id_final_certified": false,
+      "source_geometry_certified": true,
+      "science_answer_unique_formal": false,
+      "kp_direct_formal": false,
+      "rights_gate": false,
+      "admission_ready": false
+    }
+  ]
+}

@@ -1,0 +1,712 @@
+{
+  "schema_version": "P12_G04S1_113_NEXT35_SCIENCE_DIRECTKP_TRIAGE_DRAFT_V1",
+  "source_text": "data/review/p12-g04s1-113-next35-manual-original-stems-options-DRAFT-v1.json",
+  "authority": "site/data/authority/science-g03-g04-selector-v3.json",
+  "warning": "Manual transcript and independent reasoned Science/KP routing remain preliminary until exact scan second read, entire choices, parent and correct answer independently accepted. KP relevance is not formal. Do not publish.",
+  "summary": {
+    "total": 35,
+    "preliminary": 21,
+    "kp_hold": 12,
+    "science_hold": 2,
+    "new_approved": 0,
+    "new_published": 0
+  },
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S02|MC|001",
+      "original_stem": "下列哪個成語中出現的天體無法在晚上看見？",
+      "original_choices": [
+        "物換星移",
+        "鏡花水月",
+        "撥雲見日",
+        "閉月羞花"
+      ],
+      "model_independent_answer_choice_1based": 3,
+      "canonical_kp_candidate": null,
+      "triage": "KP_HOLD",
+      "reason": "月相成語不屬直接48KP",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "KP_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S02|MC|002",
+      "original_stem": "為何有些原住民族在月相為朔時要舉辦驅逐邪祟的活動？",
+      "original_choices": [
+        "當天沒有月光",
+        "當天月光明亮",
+        "當天陽光很弱",
+        "當天陽光太強烈"
+      ],
+      "model_independent_answer_choice_1based": 1,
+      "canonical_kp_candidate": null,
+      "triage": "KP_HOLD",
+      "reason": "農曆民俗及月相不在直接48KP",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "KP_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S02|MC|003",
+      "original_stem": "當水域環境受到污染時，通常會發生下列哪種情況？",
+      "original_choices": [
+        "水生植物長得更茂盛",
+        "鯨魚誤食海中的垃圾",
+        "海鳥容易在海灘上覓食",
+        "水生生物順利繁衍下一代"
+      ],
+      "model_independent_answer_choice_1based": 2,
+      "canonical_kp_candidate": "sci_g04s1_02_11",
+      "triage": "PRELIMINARY",
+      "reason": "汙染水域可能造成動物誤食垃圾",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S02|MC|004",
+      "original_stem": "孔雀魚、紅蟲、紅娘華、水黽，有幾種生物的棲息環境通常在水邊或水裡？",
+      "original_choices": [
+        "1種",
+        "2種",
+        "3種",
+        "4種"
+      ],
+      "model_independent_answer_choice_1based": 4,
+      "canonical_kp_candidate": null,
+      "triage": "KP_HOLD",
+      "reason": "需要確認四種動物皆屬水邊水中，且題目只計種類非明確適應",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "KP_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S02|MC|005",
+      "original_stem": "下列哪一天通常能看到虧月？",
+      "original_choices": [
+        "農曆二十",
+        "農曆十三",
+        "農曆初二",
+        "農曆十五"
+      ],
+      "model_independent_answer_choice_1based": 1,
+      "canonical_kp_candidate": null,
+      "triage": "KP_HOLD",
+      "reason": "月相屬本範圍之外",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "KP_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S02|MC|006",
+      "original_stem": "關於池塘中的水生植物，下列哪一項敘述錯誤？",
+      "original_choices": [
+        "蓮花的葉柄有通氣組織",
+        "水蘊草的莖會隨著水流擺動",
+        "大萍的根會跟著流水移動",
+        "睡蓮有膨大的地下莖"
+      ],
+      "model_independent_answer_choice_1based": null,
+      "canonical_kp_candidate": null,
+      "triage": "SCIENCE_HOLD",
+      "reason": "四個敘述依字面均可能成立，無法確定唯一錯項",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "SCIENCE_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|001",
+      "original_stem": "下列關於動物利用不同方式發聲溝通的敘述，哪一項不正確？",
+      "original_choices": [
+        "海豚在水中也能發出聲音",
+        "雄蟋蟀會利用摩擦觸角發聲",
+        "狗會利用叫聲發聲",
+        "鳥類會利用鳴叫發聲"
+      ],
+      "model_independent_answer_choice_1based": 2,
+      "canonical_kp_candidate": null,
+      "triage": "KP_HOLD",
+      "reason": "動物發聲方式未直接落入聲音由振動產生的KP",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "KP_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|002",
+      "original_stem": "為什麼有光我們才能看見物體？",
+      "original_choices": [
+        "因為物體的形狀各不相同",
+        "因為物體的材質各不相同",
+        "因為物體的顏色各不相同",
+        "因為物體反射光線進入我們的眼睛，我們才能看見物體"
+      ],
+      "model_independent_answer_choice_1based": 4,
+      "canonical_kp_candidate": "sci_g04s1_03_04",
+      "triage": "PRELIMINARY",
+      "reason": "看見物體須有光進入眼睛",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|003",
+      "original_stem": "下列關於聲音傳播的敘述，哪一項不正確？",
+      "original_choices": [
+        "可以在外太空傳播",
+        "可以透過液體傳播",
+        "可以透過氣體傳播",
+        "可以透過固體傳播"
+      ],
+      "model_independent_answer_choice_1based": 1,
+      "canonical_kp_candidate": "sci_g04s1_03_03",
+      "triage": "PRELIMINARY",
+      "reason": "聲音在真空不能傳播",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|004",
+      "original_stem": "「利用鏡子可以改變雷射筆的光的行進路徑」，這個現象的原理和下列哪一個相同？",
+      "original_choices": [
+        "舞台上使用的燈光",
+        "雲層透出的陽光直直的、亮亮的",
+        "靜止水面有岸邊山的倒影",
+        "陽光下的物體有影子"
+      ],
+      "model_independent_answer_choice_1based": 3,
+      "canonical_kp_candidate": "sci_g04s1_03_08",
+      "triage": "PRELIMINARY",
+      "reason": "鏡面反射和水中倒影皆反射生活例",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|005",
+      "original_stem": "電器用品中的開關，是怎樣控制電器用品啟動或關閉的？",
+      "original_choices": [
+        "打開開關時，形成斷路",
+        "打開開關時，形成短路",
+        "打開開關時，形成通路",
+        "關上開關時，形成通路"
+      ],
+      "model_independent_answer_choice_1based": 3,
+      "canonical_kp_candidate": "sci_g04s1_04_04",
+      "triage": "PRELIMINARY",
+      "reason": "開關接通形成通路",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|006",
+      "original_stem": "下列有關電的導體與開關的敘述，哪一項正確？",
+      "original_choices": [
+        "開關可以讓電路成為通路或斷路",
+        "鐵湯匙、鋁罐、橡皮擦、迴紋針都是良導體",
+        "連接在斷掉的電路中，能使燈泡發亮者，稱為電的不良導體",
+        "大多數電器是沒有開關的"
+      ],
+      "model_independent_answer_choice_1based": 1,
+      "canonical_kp_candidate": "sci_g04s1_04_04",
+      "triage": "PRELIMINARY",
+      "reason": "開關可切換通路與斷路",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|007",
+      "original_stem": "雷射筆的光照到鏡子時會反射，如果改變光照射在鏡子上的位置，會有什麼現象發生？",
+      "original_choices": [
+        "反射光消失不見",
+        "反射光呈S形行進",
+        "反射光的行進方向會改變",
+        "反射光的位罝不變，顏色改變"
+      ],
+      "model_independent_answer_choice_1based": 3,
+      "canonical_kp_candidate": "sci_g04s1_03_07",
+      "triage": "PRELIMINARY",
+      "reason": "反射方向依入射條件變",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|008",
+      "original_stem": "下列哪一種製作簡易電風扇的方式，可以讓風扇轉得更快？",
+      "original_choices": [
+        "改變電路中電池的連接方向",
+        "在電路中多串聯一個燈泡",
+        "將電路中簡易開關的迴紋針換成橡皮擦",
+        "在電路中多串聯一個電池"
+      ],
+      "model_independent_answer_choice_1based": 4,
+      "canonical_kp_candidate": null,
+      "triage": "KP_HOLD",
+      "reason": "增加電池使馬達風扇轉速上升未直接符合燈泡亮度KP",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "KP_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|009",
+      "original_stem": "下列哪一個物體可以稱為光源？",
+      "original_choices": [
+        "衣櫃上的鏡子",
+        "點燃的蠟燭",
+        "平靜的水面",
+        "不鏽鋼杯"
+      ],
+      "model_independent_answer_choice_1based": 2,
+      "canonical_kp_candidate": "sci_g04s1_03_05",
+      "triage": "PRELIMINARY",
+      "reason": "點燃蠟燭自行發光",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|010",
+      "original_stem": "下列關於電路的敘述，哪一項不正確？",
+      "original_choices": [
+        "電線沒有接好時，會使電路形成斷路",
+        "電流不能通過時燈泡不會發亮，稱為斷路",
+        "電流通過時燈泡會發亮，稱為通路",
+        "當電路形成通路時，電線上的電流方向是從電池的負極流向正極"
+      ],
+      "model_independent_answer_choice_1based": 4,
+      "canonical_kp_candidate": "sci_g04s1_04_04",
+      "triage": "PRELIMINARY",
+      "reason": "傳統電流方向為正極到負極的約定方向",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|011",
+      "original_stem": "電池並聯的數量越多，燈泡的亮度會有什麼變化？",
+      "original_choices": [
+        "越暗",
+        "越亮",
+        "沒有影響",
+        "一下亮一下暗"
+      ],
+      "model_independent_answer_choice_1based": 3,
+      "canonical_kp_candidate": null,
+      "triage": "KP_HOLD",
+      "reason": "電池並聯數量與燈泡亮度不一定增加，需確認與04_07精確概念",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "KP_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|012",
+      "original_stem": "下列日常生活現象中，哪一項不是光的直線行進形成的？",
+      "original_choices": [
+        "車燈射出的燈光",
+        "玩手影遊戲",
+        "燈塔指引船隻的探照燈",
+        "道路上的反光桿"
+      ],
+      "model_independent_answer_choice_1based": 4,
+      "canonical_kp_candidate": "sci_g04s1_03_06",
+      "triage": "PRELIMINARY",
+      "reason": "反光桿由反射顯現而非光直進形成",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|013",
+      "original_stem": "下列有關電的敘述，哪一項是錯誤的？",
+      "original_choices": [
+        "臺灣目前家裡用的大型電器，電源最主要都來自電池",
+        "小智將媽媽的金戒指連接在電路中，發現金戒指可以讓電流通過",
+        "電器不使用時，要將插頭拔除",
+        "夏天如果要開冷氣，最好定溫在26～28℃，可以節能省電"
+      ],
+      "model_independent_answer_choice_1based": 1,
+      "canonical_kp_candidate": "sci_g04s1_04_12",
+      "triage": "PRELIMINARY",
+      "reason": "大型家電用市電不主要來自電池",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|014",
+      "original_stem": "下列有關各種物品在生活中應用的敘述，哪一項正確？",
+      "original_choices": [
+        "直笛是光的應用",
+        "哨子是聲音的應用",
+        "手機只有聲音的應用",
+        "電視只有光的應用"
+      ],
+      "model_independent_answer_choice_1based": 2,
+      "canonical_kp_candidate": "sci_g04s1_03_09",
+      "triage": "PRELIMINARY",
+      "reason": "哨子屬聲音警示用途",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|015",
+      "original_stem": "下列關於電池的敘述，哪一項不正確？",
+      "original_choices": [
+        "長期不使用的電器，應該把裡面的電池拿出來",
+        "電池適合存放在潮濕、炎熱的地方",
+        "電量耗盡的電池應放入電池回收桶回收",
+        "圓柱形的乾電池，凸起的一端是電池的正極"
+      ],
+      "model_independent_answer_choice_1based": 2,
+      "canonical_kp_candidate": "sci_g04s1_04_11",
+      "triage": "PRELIMINARY",
+      "reason": "電池不宜存放在潮濕高溫環境",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|001",
+      "original_stem": "下列何者不是常見的太陽能發電產品？",
+      "original_choices": [
+        "計算機",
+        "熱水器",
+        "汽車",
+        "路燈"
+      ],
+      "model_independent_answer_choice_1based": null,
+      "canonical_kp_candidate": null,
+      "triage": "SCIENCE_HOLD",
+      "reason": "熱水器與汽車的太陽能發電適用情境未清楚限定，可能不唯一",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "SCIENCE_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|002",
+      "original_stem": "下列何者不是光源？",
+      "original_choices": [
+        "月球",
+        "太陽",
+        "燭火",
+        "通電的電燈"
+      ],
+      "model_independent_answer_choice_1based": 1,
+      "canonical_kp_candidate": "sci_g04s1_03_05",
+      "triage": "PRELIMINARY",
+      "reason": "月球不自行發光",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|003",
+      "original_stem": "在樹林間能看見陽光照射的光束，是因為樹林間有什麼物質？",
+      "original_choices": [
+        "芬多精",
+        "塵埃",
+        "氧氣",
+        "綠色植物"
+      ],
+      "model_independent_answer_choice_1based": 2,
+      "canonical_kp_candidate": "sci_g04s1_03_06",
+      "triage": "PRELIMINARY",
+      "reason": "懸浮塵埃散射使光束可見；與光直線行進KP是否直接仍需核對",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|004",
+      "original_stem": "所有動植物生長的能量來源，都來自於？",
+      "original_choices": [
+        "石油",
+        "土壤",
+        "海洋",
+        "太陽"
+      ],
+      "model_independent_answer_choice_1based": 4,
+      "canonical_kp_candidate": null,
+      "triage": "KP_HOLD",
+      "reason": "太陽能為生物能量來源未列直接KP",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "KP_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|005",
+      "original_stem": "用瓦斯爐煮火鍋，是利用瓦斯燃燒產生的□□來煮熱食物。□□中應填入？",
+      "original_choices": [
+        "電能",
+        "熱能",
+        "動能",
+        "生物能"
+      ],
+      "model_independent_answer_choice_1based": 2,
+      "canonical_kp_candidate": null,
+      "triage": "KP_HOLD",
+      "reason": "能量形式轉換超出本學期凍結KP",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "KP_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|006",
+      "original_stem": "水車發電，是用水流動產生的□□，再轉換成電能？□□中應填入？",
+      "original_choices": [
+        "電能",
+        "熱能",
+        "動能",
+        "生物能"
+      ],
+      "model_independent_answer_choice_1based": 3,
+      "canonical_kp_candidate": null,
+      "triage": "KP_HOLD",
+      "reason": "水車發電能量轉換超出48KP",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "KP_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|007",
+      "original_stem": "下列何者不是「綠色能源」？",
+      "original_choices": [
+        "核能",
+        "生質能",
+        "海洋能",
+        "地熱能"
+      ],
+      "model_independent_answer_choice_1based": 1,
+      "canonical_kp_candidate": null,
+      "triage": "KP_HOLD",
+      "reason": "綠色能源分類超出48KP",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "KP_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|008",
+      "original_stem": "當電路形成□□時，電器才能順利運作？□□中應填入？",
+      "original_choices": [
+        "斷路",
+        "短路",
+        "長路",
+        "通路"
+      ],
+      "model_independent_answer_choice_1based": 4,
+      "canonical_kp_candidate": "sci_g04s1_04_04",
+      "triage": "PRELIMINARY",
+      "reason": "通路可使電器正常運作",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|009",
+      "original_stem": "下列何者材質屬於容易導電的材質？",
+      "original_choices": [
+        "塑膠",
+        "金屬",
+        "木頭",
+        "陶瓷"
+      ],
+      "model_independent_answer_choice_1based": 2,
+      "canonical_kp_candidate": "sci_g04s1_04_05",
+      "triage": "PRELIMINARY",
+      "reason": "金屬通常為良導體",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|010",
+      "original_stem": "下列何者屬於不良導體？",
+      "original_choices": [
+        "銅線",
+        "鐵絲",
+        "鑽石",
+        "鋁箔紙"
+      ],
+      "model_independent_answer_choice_1based": 3,
+      "canonical_kp_candidate": "sci_g04s1_04_05",
+      "triage": "PRELIMINARY",
+      "reason": "鑽石在一般條件下為不良導體",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|011",
+      "original_stem": "電池串聯時，其中一個電池沒有和電線接好，此時的燈泡會如何？",
+      "original_choices": [
+        "燈泡發光",
+        "燈泡不會發光"
+      ],
+      "model_independent_answer_choice_1based": 2,
+      "canonical_kp_candidate": "sci_g04s1_04_04",
+      "triage": "PRELIMINARY",
+      "reason": "電池串聯單一連接點斷開形成斷路",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|012",
+      "original_stem": "電池並聯時，其中一個電池沒有和電線接好，此時的燈泡會如何？",
+      "original_choices": [
+        "燈泡發光",
+        "燈泡不會發光"
+      ],
+      "model_independent_answer_choice_1based": 1,
+      "canonical_kp_candidate": "sci_g04s1_04_04",
+      "triage": "PRELIMINARY",
+      "reason": "電池並聯仍可由另一支路供電，但需按原圖確認",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|013",
+      "original_stem": "發光二極體的優點不包含下列哪一項？",
+      "original_choices": [
+        "用電省",
+        "發光效能高",
+        "體積大",
+        "使用壽命長"
+      ],
+      "model_independent_answer_choice_1based": 3,
+      "canonical_kp_candidate": null,
+      "triage": "KP_HOLD",
+      "reason": "LED優點沒有獨立直接KP",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "KP_HOLD",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|014",
+      "original_stem": "下列有關電池的敘述何者正確？",
+      "original_choices": [
+        "廢電池可以拿到便利商店回收",
+        "所有電池都可以反覆充電使用",
+        "安裝電池時，電池正、負極方向不需要固定",
+        "可以將同品牌型號的新舊電池混用"
+      ],
+      "model_independent_answer_choice_1based": 1,
+      "canonical_kp_candidate": "sci_g04s1_04_11",
+      "triage": "PRELIMINARY",
+      "reason": "廢電池可至回收據點",
+      "source_exact_status": "DRAFT_PENDING_VERBATIM_SECOND_READ",
+      "answer_status": "MODEL_ONLY_NOT_FORMAL",
+      "rights_status": "UNREVIEWED",
+      "semantic_duplicate_status": "UNREVIEWED",
+      "admission_ready": false,
+      "published": false
+    }
+  ]
+}

@@ -32,6 +32,21 @@ test('all 182 original scan4 positions have disjoint proof IDs, existing parent 
   assert.ok(Array.isArray(rect)&&rect.length===4&&rect.every(Number.isFinite),r.source_slot_id);
   assert.ok(rect[0]>=0&&rect[1]>=0&&rect[2]>rect[0]&&rect[3]>rect[1]);
   assert.match(r.pdf_sha256,/^[a-f0-9]{64}$/);
+  const dims={
+   SCI_G04_S1_113_MID_002:[1190.52,841.8],
+   SCI_G04_S1_113_FINAL_002:[1190.52,841.8],
+   SCI_G04_S1_113_MID_006:[728.28,1031.76],
+   SCI_G04_S1_113_FINAL_009:[728.4,1031.76]
+  };
+  const [w,h]=dims[r.source_paper_id];
+  assert.ok(rect[2]<=w+3&&rect[3]<=h+3,r.source_slot_id);
+  const xrefs={
+   SCI_G04_S1_113_MID_002:{1:8,2:14,3:20},
+   SCI_G04_S1_113_FINAL_002:{1:8,2:14,3:20,4:26},
+   SCI_G04_S1_113_MID_006:{1:8,2:18,3:25,4:31},
+   SCI_G04_S1_113_FINAL_009:{1:2,2:6,3:9}
+  };
+  assert.equal(r.source_original_page_image_xref,xrefs[r.source_paper_id][r.source_pdf_page_1based],r.source_slot_id);
   assert.equal(r.full_original_stem_options_accepted,false);
   assert.equal(r.science_unique_answer_formal,false);
   assert.equal(r.direct_frozen48kp_formal,false);

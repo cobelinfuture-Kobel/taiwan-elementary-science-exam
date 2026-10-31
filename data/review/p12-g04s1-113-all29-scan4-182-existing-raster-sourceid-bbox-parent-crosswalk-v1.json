@@ -41,7 +41,8 @@
         "data/review/p12-g04s1-113-heshun-mid002-scan-eightTF-actual-pixel-geometry-v1.json",
         "data/review/p12-g04s1-113-heshun-mid002-scanned-sixmc-actual-pixel-geometry-v1.json"
       ],
-      "original_source_response_bbox_complete": true
+      "original_source_response_bbox_complete": true,
+      "source_pdf_embedded_image_xrefs": null
     },
     {
       "paper": "SCI_G04_S1_113_FINAL_002",
@@ -58,7 +59,8 @@
         "data/review/p12-g04s1-113-zhongxiao-final002-s05s06-22-exact-raster-bbox-v1.json",
         "data/review/p12-g04s1-113-p04b-zhongxiao-final002-four-draws-original-page-qa-led-canvas-bbox-v1.json"
       ],
-      "original_source_response_bbox_complete": true
+      "original_source_response_bbox_complete": true,
+      "source_pdf_embedded_image_xrefs": null
     },
     {
       "paper": "SCI_G04_S1_113_MID_006",
@@ -74,7 +76,13 @@
         "data/review/p12-g04s1-113-neian-mid006-scan-page4-12-exact-raster-bbox-v1.json",
         "data/review/p12-g04s1-113-neian-mid006-scan24-exact-raster-bbox-v1.json"
       ],
-      "original_source_response_bbox_complete": true
+      "original_source_response_bbox_complete": true,
+      "source_pdf_embedded_image_xrefs": {
+        "1": 8,
+        "2": 18,
+        "3": 25,
+        "4": 31
+      }
     },
     {
       "paper": "SCI_G04_S1_113_FINAL_009",
@@ -90,7 +98,12 @@
         "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
-      "original_source_response_bbox_complete": true
+      "original_source_response_bbox_complete": true,
+      "source_pdf_embedded_image_xrefs": {
+        "1": 2,
+        "2": 6,
+        "3": 9
+      }
     }
   ],
   "rows": [
@@ -3325,7 +3338,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3362,7 +3375,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3399,7 +3412,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3436,7 +3449,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3473,7 +3486,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3510,7 +3523,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3547,7 +3560,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3584,7 +3597,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3621,7 +3634,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3658,7 +3671,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3695,7 +3708,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3732,7 +3745,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3769,7 +3782,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3806,7 +3819,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -3843,7 +3856,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "5cf00ee016a0bde1a00bd833f62d3b2df55e7805",
       "geometry_proof_field": "source_page_pdf_bbox_after_rotation_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 2,
       "other_existing_geometry_proof_refs": [
         "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json"
       ],
@@ -4879,7 +4892,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-p04b-shihu-final009-50-source-response-mode-43printed-6dots-1draw-v1.json",
       "geometry_proof_blob_sha": "b3ced73fd79bba2c4076c79b3069bb236220d891",
       "geometry_proof_field": "original_source_bbox_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 9,
       "other_existing_geometry_proof_refs": [],
       "source_question_mode": "PARENT_DEPENDENT",
       "original_source_group": "S02|PARENT07|TWO_BATTERIES",
@@ -4914,7 +4927,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-neian-mid006-scan24-exact-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "afbb5a884ffa47419b28fcc12c341faef4bd733b",
       "geometry_proof_field": "mapped_pdf_page_bbox_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 8,
       "other_existing_geometry_proof_refs": [],
       "source_question_mode": "TRUE_FALSE",
       "original_source_group": "S1|TF",
@@ -4949,7 +4962,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-neian-mid006-scan24-exact-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "afbb5a884ffa47419b28fcc12c341faef4bd733b",
       "geometry_proof_field": "mapped_pdf_page_bbox_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 8,
       "other_existing_geometry_proof_refs": [],
       "source_question_mode": "SINGLE_CHOICE",
       "original_source_group": "S2|MC",
@@ -4984,7 +4997,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-neian-mid006-scan24-exact-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "afbb5a884ffa47419b28fcc12c341faef4bd733b",
       "geometry_proof_field": "mapped_pdf_page_bbox_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 8,
       "other_existing_geometry_proof_refs": [],
       "source_question_mode": "SINGLE_CHOICE",
       "original_source_group": "S2|MC",
@@ -5019,7 +5032,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-neian-mid006-scan24-exact-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "afbb5a884ffa47419b28fcc12c341faef4bd733b",
       "geometry_proof_field": "mapped_pdf_page_bbox_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 8,
       "other_existing_geometry_proof_refs": [],
       "source_question_mode": "SINGLE_CHOICE",
       "original_source_group": "S2|MC",
@@ -5054,7 +5067,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-neian-mid006-scan24-exact-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "afbb5a884ffa47419b28fcc12c341faef4bd733b",
       "geometry_proof_field": "mapped_pdf_page_bbox_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 8,
       "other_existing_geometry_proof_refs": [],
       "source_question_mode": "SINGLE_CHOICE",
       "original_source_group": "S2|MC",
@@ -5089,7 +5102,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-neian-mid006-scan24-exact-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "afbb5a884ffa47419b28fcc12c341faef4bd733b",
       "geometry_proof_field": "mapped_pdf_page_bbox_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 8,
       "other_existing_geometry_proof_refs": [],
       "source_question_mode": "SINGLE_CHOICE",
       "original_source_group": "S2|MC",
@@ -5124,7 +5137,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-neian-mid006-scan24-exact-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "afbb5a884ffa47419b28fcc12c341faef4bd733b",
       "geometry_proof_field": "mapped_pdf_page_bbox_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 8,
       "other_existing_geometry_proof_refs": [],
       "source_question_mode": "SINGLE_CHOICE",
       "original_source_group": "S2|MC",
@@ -5159,7 +5172,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-neian-mid006-scan24-exact-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "afbb5a884ffa47419b28fcc12c341faef4bd733b",
       "geometry_proof_field": "mapped_pdf_page_bbox_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 8,
       "other_existing_geometry_proof_refs": [],
       "source_question_mode": "SINGLE_CHOICE",
       "original_source_group": "S2|MC",
@@ -5194,7 +5207,7 @@
       "geometry_proof_file": "data/review/p12-g04s1-113-neian-mid006-scan24-exact-raster-bbox-v1.json",
       "geometry_proof_blob_sha": "afbb5a884ffa47419b28fcc12c341faef4bd733b",
       "geometry_proof_field": "mapped_pdf_page_bbox_pts_top_left",
-      "source_original_page_image_xref": null,
+      "source_original_page_image_xref": 18,
       "other_existing_geometry_proof_refs": [],
       "source_question_mode": "SINGLE_CHOICE",
       "original_source_group": "S2|MC",
@@ -6557,5 +6570,11 @@
     "ORIGINAL_PRINTED_RESPONSE_BRACKET": 138,
     "ORIGINAL_READING_CHILD_RESPONSE_MARKER": 17,
     "ORIGINAL_PARENT_DEPENDENT_RESPONSE_MARKER": 6
+  },
+  "additional_original_pdf_binary_verified_image_xref_repair": {
+    "filled_from_original_pdf_page_image_inventory": 25,
+    "original_pdf_inventory_source": "Previously raw-fetched Google Drive original PDFs, inspected with PyMuPDF page.get_images(full=True); no OCR.",
+    "final009_p1_xref2": true,
+    "neian_page1_xref8": true
   }
 }

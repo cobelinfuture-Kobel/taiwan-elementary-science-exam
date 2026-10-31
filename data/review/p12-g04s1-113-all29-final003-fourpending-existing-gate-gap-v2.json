@@ -1,0 +1,157 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_FINAL003_FOUR_PENDING_EXISTING_GATE_GAP_EVIDENCE_V2",
+  "date_utc": "2026-10-31",
+  "scope": "SCI_G04_S1_113_FINAL_003 four exact remaining unreviewed source candidates, not a new mandatory review stage",
+  "baselines": {
+    "pr": 183,
+    "source_review": "data/review/p12-g04s1-113-all29-final003-18-onegate-science-kp-source-scope-v1.json",
+    "source_native_readback": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+    "authority": "site/data/authority/science-g03-g04-selector-v3.json",
+    "main_sha": "d7f909327771dc309dd324bcc81d1165de454003"
+  },
+  "no_policy_change": true,
+  "candidate_count": 4,
+  "scientific_reasoning_supported_under_original_statement_count": 3,
+  "science_context_conditional_count": 1,
+  "full_source_visual_final_acceptance_count": 0,
+  "exact_whole_11329_semantic_dedup_verified_count": 0,
+  "exact_component_rights_accepted_count": 0,
+  "exact_operator_eligible_count": 0,
+  "new_formal_science_kp_approved": 0,
+  "new_admission_ready": 0,
+  "new_published": 0,
+  "existing_draft_v8_dispositions_unchanged": true,
+  "previously_published_333_unchanged": true,
+  "existing_14_hold_untouched": true,
+  "reasons_for_no_publication": "Four remaining sources have inherited native text and answer-glyph BBoxes but lack final parent/full visual acceptance, full 113 original 29 paper dedup, direct frozen KPI acceptance, individual question component rights and exact operator admission eligibility. One answer additionally depends on an unstated appliance-power assumption.",
+  "rows": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|003",
+      "original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1based": 1,
+      "inherited_exact_answer_bbox_pdf_points": [
+        28.44,
+        192.37,
+        60.4,
+        205.65
+      ],
+      "inherited_parent_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC",
+      "original_readback_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "figure_dependency_in_existing_text_inventory": false,
+      "original_visual_context_final_acceptance": false,
+      "independent_science_explanation_NOT_TEACHER_KEY": "In a two-cell series connection the positive terminal of one cell is connected to the negative terminal of the other; ordered option 3 states this.",
+      "independent_science_candidate_answer_NOT_FORMAL": "3",
+      "science_answer_scope_diagnostic": "SCIENCE_DETERMINATE",
+      "frozen_kp_proposal_only": {
+        "canonical_kp_id": "sci_g04s1_04_01",
+        "title": "電池正負極"
+      },
+      "direct_kp_gate_issue": "Frozen 04_01 is titled cell polarity. Identifying series wiring may be prerequisite knowledge, not automatically a directly evidenced assessment of that whole canonical point. Do not promote on title similarity alone.",
+      "existing_gate_next_evidence": "Confirm approved original-source context and direct 04_01 skill scope; complete 29-paper semantic and rights checks.",
+      "public_match_status": "NO_PUBLIC_EXACT_OR_REORDER_ALIAS_VERIFIED_IN_EXISTING_REVIEW",
+      "inherited_113114_public_and_114_717_screen_not_full_11329_source_dedup": true,
+      "formal_full_113_29_semantic_dedup_closed": false,
+      "individual_rights_acceptance": false,
+      "exact_operator_eligible": false,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|004",
+      "original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1based": 1,
+      "inherited_exact_answer_bbox_pdf_points": [
+        28.44,
+        286.57,
+        60.4,
+        299.85
+      ],
+      "inherited_parent_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC",
+      "original_readback_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "figure_dependency_in_existing_text_inventory": false,
+      "original_visual_context_final_acceptance": false,
+      "independent_science_explanation_NOT_TEACHER_KEY": "Option 2 describes an alarm clock, normally battery-operated in the assumed schoolbook comparison, but mains-powered alarm clocks also exist. No battery-only premise appears in the original question text.",
+      "independent_science_candidate_answer_NOT_FORMAL": "2",
+      "science_answer_scope_diagnostic": "SCIENCE_CONTEXT_CONDITIONAL",
+      "frozen_kp_proposal_only": {
+        "canonical_kp_id": "sci_g04s1_04_12",
+        "title": "市電與用電安全"
+      },
+      "direct_kp_gate_issue": "Frozen 04_12 concerns mains and safe electricity use; direct applicability to the specific clock power assumption needs confirmation. A similar 114 public stem with a different option set is NOT an alias.",
+      "existing_gate_next_evidence": "Resolve the original question's intended appliance assumption without editing it. If no unique original-text answer, retain HOLD rather than infer a teacher answer.",
+      "public_match_status": "NO_PUBLIC_EXACT_OR_REORDER_ALIAS_VERIFIED_IN_EXISTING_REVIEW",
+      "inherited_113114_public_and_114_717_screen_not_full_11329_source_dedup": true,
+      "formal_full_113_29_semantic_dedup_closed": false,
+      "individual_rights_acceptance": false,
+      "exact_operator_eligible": false,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|006",
+      "original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1based": 1,
+      "inherited_exact_answer_bbox_pdf_points": [
+        28.44,
+        380.08,
+        60.4,
+        393.36
+      ],
+      "inherited_parent_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC",
+      "original_readback_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "figure_dependency_in_existing_text_inventory": false,
+      "original_visual_context_final_acceptance": false,
+      "independent_science_explanation_NOT_TEACHER_KEY": "Positive-to-positive and negative-to-negative battery connections are parallel battery wiring; ordered option 2 names the connection.",
+      "independent_science_candidate_answer_NOT_FORMAL": "2",
+      "science_answer_scope_diagnostic": "SCIENCE_DETERMINATE",
+      "frozen_kp_proposal_only": {
+        "canonical_kp_id": "sci_g04s1_04_07",
+        "title": "電池並聯對燈泡亮度的影響"
+      },
+      "direct_kp_gate_issue": "Frozen 04_07 is specifically effects of parallel batteries on bulb brightness. The source question asks connection topology, not a brightness change; direct KP must not be inferred solely from overlap in the word parallel.",
+      "existing_gate_next_evidence": "Check the complete frozen 04_07 accepted skill scope; if no directly assessed KPI, leave HOLD instead of remapping authority.",
+      "public_match_status": "NO_PUBLIC_EXACT_OR_REORDER_ALIAS_VERIFIED_IN_EXISTING_REVIEW",
+      "inherited_113114_public_and_114_717_screen_not_full_11329_source_dedup": true,
+      "formal_full_113_29_semantic_dedup_closed": false,
+      "individual_rights_acceptance": false,
+      "exact_operator_eligible": false,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|001",
+      "original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1based": 1,
+      "inherited_exact_answer_bbox_pdf_points": [
+        28.44,
+        867.93,
+        60.4,
+        881.21
+      ],
+      "inherited_parent_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF",
+      "original_readback_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "figure_dependency_in_existing_text_inventory": false,
+      "original_visual_context_final_acceptance": false,
+      "independent_science_explanation_NOT_TEACHER_KEY": "Even with a continuous electrical path, a depleted battery may provide insufficient energy for a bulb to light; the proposition only states a possible cause.",
+      "independent_science_candidate_answer_NOT_FORMAL": "O",
+      "science_answer_scope_diagnostic": "SCIENCE_DETERMINATE",
+      "frozen_kp_proposal_only": {
+        "canonical_kp_id": "sci_g04s1_04_04",
+        "title": "通路與斷路"
+      },
+      "direct_kp_gate_issue": "Frozen 04_04 explicitly names closed vs open circuit. The battery-energy failure premise may be adjacent rather than directly evaluating the distinction. Verify exact frozen skill before formal KP promotion.",
+      "existing_gate_next_evidence": "Confirm original context and whether this reasoning directly matches frozen 04_04; otherwise HOLD pending direct KPI.",
+      "public_match_status": "NO_PUBLIC_EXACT_OR_REORDER_ALIAS_VERIFIED_IN_EXISTING_REVIEW",
+      "inherited_113114_public_and_114_717_screen_not_full_11329_source_dedup": true,
+      "formal_full_113_29_semantic_dedup_closed": false,
+      "individual_rights_acceptance": false,
+      "exact_operator_eligible": false,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    }
+  ]
+}

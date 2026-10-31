@@ -1,0 +1,819 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_FINAL003_18_ORIGINALTFMC_EXISTING_FORMAL_GATE_SOURCE_KP_SCOPE_V1",
+  "source_paper": "SCI_G04_S1_113_FINAL_003",
+  "registered_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+  "baseline_main_sha": "d7f909327771dc309dd324bcc81d1165de454003",
+  "baseline_draft_ledger": "data/review/p12-g04s1-113-all29-known-atomic-disjoint-source-ledger-v7.json",
+  "previously_113_original_public8_untouched": true,
+  "original_unpublished_tfmc_count": 18,
+  "screening_only_existing_gate_not_added_reviews": true,
+  "original_source_native_full_stems_and_options_present": 18,
+  "original_glyph_bbox_records_present": 18,
+  "direct_kp_model_candidates_not_formal": 4,
+  "hold_by_source_kp_or_science": 14,
+  "hold_breakdown": {
+    "HOLD_SCIENCE_CONTEXT": 3,
+    "DIRECT_KP_CANDIDATE_PENDING_FULL_GATE": 4,
+    "HOLD_NO_DIRECT_FROZEN48KP": 10,
+    "HOLD_DIRECT_KP_SCOPE": 1
+  },
+  "current_113_student_bank_26_public_files_320_top_blocks_screened": true,
+  "current_114_student_bank_9_public_files_309_top_blocks_screened": true,
+  "public_high_similarity_stem_results": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|004",
+      "match_public_student_id": "P12_B04_G04S1_B01_MC_034",
+      "status": "NEAR_STEM_DIFFERENT_OPTION_SET_NOT_PUBLIC_ALIAS"
+    }
+  ],
+  "source_114_25_papers_717_occurrences_screened": true,
+  "source_114_duplicate_stem_cases_by_source_only_archive": 3,
+  "direct_113_frozen48_kp_evidence_refs": [
+    "site/data/authority/science-g03-g04-selector-v3.json",
+    "docs/QUESTION_ADMISSION_GOVERNANCE.md"
+  ],
+  "unchanged_formal_science_kp_new": 0,
+  "unchanged_admission_ready_new": 0,
+  "unchanged_published_new": 0,
+  "no_333_student_item_reopen": true,
+  "source_work_identity_count_unchanged": true,
+  "original_full_113_29_semantic_dedup_formal_not_closed": true,
+  "rows": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|002",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        28.44,
+        155.17,
+        60.4,
+        168.45
+      ],
+      "printed_section": "S1",
+      "original_question_number": 2,
+      "original_type": "MC",
+      "original_text_readback_raw": "( )2. 廢電池通常不能拿到下列哪個地方回收？\r\n①學校②超市③便利超商④傳統市場",
+      "original_all_options_ordered": [
+        {
+          "source_option_label": 1,
+          "source_option_marker": "①",
+          "source_option_text": "學校"
+        },
+        {
+          "source_option_label": 2,
+          "source_option_marker": "②",
+          "source_option_text": "超市"
+        },
+        {
+          "source_option_label": 3,
+          "source_option_marker": "③",
+          "source_option_text": "便利超商"
+        },
+        {
+          "source_option_label": 4,
+          "source_option_marker": "④",
+          "source_option_text": "傳統市場"
+        }
+      ],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "PRELIMINARY_VARIANT_NEEDS_RIGHTS_AND_SEMANTIC_COMPLETION",
+      "model_science_candidate_NOT_FORMAL": "4",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": "sci_g04s1_04_11",
+      "direct_kp_title_if_proposed": "廢電池回收",
+      "source_only_disposition": "HOLD_SCIENCE_CONTEXT",
+      "reason": "Traditional market vs school/supermarket/convenience-store battery recycling varies by locale and current collection program; original asks 通常 cannot; no stable unique answer verified.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|003",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        28.44,
+        192.37,
+        60.4,
+        205.65
+      ],
+      "printed_section": "S1",
+      "original_question_number": 3,
+      "original_type": "MC",
+      "original_text_readback_raw": "( )3. 將電池串聯時，電池之間要怎麼連接？\r\n①1 個電池的正極連接另 1 個電池的正極\r\n②1 個電池的負極連接另 1 個電池的負極\r\n③1 個電池的正極連接另 1 個電池的負極\r\n④沒有特定的接法",
+      "original_all_options_ordered": [
+        {
+          "source_option_label": 1,
+          "source_option_marker": "①",
+          "source_option_text": "1 個電池的正極連接另 1 個電池的正極"
+        },
+        {
+          "source_option_label": 2,
+          "source_option_marker": "②",
+          "source_option_text": "1 個電池的負極連接另 1 個電池的負極"
+        },
+        {
+          "source_option_label": 3,
+          "source_option_marker": "③",
+          "source_option_text": "1 個電池的正極連接另 1 個電池的負極"
+        },
+        {
+          "source_option_label": 4,
+          "source_option_marker": "④",
+          "source_option_text": "沒有特定的接法"
+        }
+      ],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "PRELIMINARY_VARIANT_NEEDS_RIGHTS_AND_SEMANTIC_COMPLETION",
+      "model_science_candidate_NOT_FORMAL": "3",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": "sci_g04s1_04_01",
+      "direct_kp_title_if_proposed": "電池正負極",
+      "source_only_disposition": "DIRECT_KP_CANDIDATE_PENDING_FULL_GATE",
+      "reason": "Correct series wiring joins + of one cell to - of another; candidate direct polarity KPI but series circuit wiring vs title must be accepted under existing Frozen scope.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|004",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        28.44,
+        286.57,
+        60.4,
+        299.85
+      ],
+      "printed_section": "S1",
+      "original_question_number": 4,
+      "original_type": "MC",
+      "original_text_readback_raw": "( )4. 哪一項物品的電力來源不是電力公司？\r\n①冰箱②鬧鐘③微波爐④電視機",
+      "original_all_options_ordered": [
+        {
+          "source_option_label": 1,
+          "source_option_marker": "①",
+          "source_option_text": "冰箱"
+        },
+        {
+          "source_option_label": 2,
+          "source_option_marker": "②",
+          "source_option_text": "鬧鐘"
+        },
+        {
+          "source_option_label": 3,
+          "source_option_marker": "③",
+          "source_option_text": "微波爐"
+        },
+        {
+          "source_option_label": 4,
+          "source_option_marker": "④",
+          "source_option_text": "電視機"
+        }
+      ],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": "2",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": "sci_g04s1_04_12",
+      "direct_kp_title_if_proposed": "市電與用電安全",
+      "source_only_disposition": "DIRECT_KP_CANDIDATE_PENDING_FULL_GATE",
+      "reason": "Typical alarm clock uses battery rather than mains; different answer options from 114 similar stem; city mains scope directly tied to Frozen U04_12 still needs approval and appliance assumption.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [
+        {
+          "original_source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|011",
+          "status": "SIMILAR_STEM_DIFFERENT_OPTIONS_NOT_ALIAS_OR_PUBLIC_MATCH"
+        }
+      ],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|006",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        28.44,
+        380.08,
+        60.4,
+        393.36
+      ],
+      "printed_section": "S1",
+      "original_question_number": 6,
+      "original_type": "MC",
+      "original_text_readback_raw": "( )6. 用電線將每個電池的正極連正極、負極連\r\n負極後，再相連燈泡的接法稱？①電池串\r\n聯②電池並聯③燈泡串聯④燈泡並聯",
+      "original_all_options_ordered": [
+        {
+          "source_option_label": 1,
+          "source_option_marker": "①",
+          "source_option_text": "電池串\r\n聯"
+        },
+        {
+          "source_option_label": 2,
+          "source_option_marker": "②",
+          "source_option_text": "電池並聯"
+        },
+        {
+          "source_option_label": 3,
+          "source_option_marker": "③",
+          "source_option_text": "燈泡串聯"
+        },
+        {
+          "source_option_label": 4,
+          "source_option_marker": "④",
+          "source_option_text": "燈泡並聯"
+        }
+      ],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": "2",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": "sci_g04s1_04_07",
+      "direct_kp_title_if_proposed": "電池並聯對燈泡亮度的影響",
+      "source_only_disposition": "DIRECT_KP_CANDIDATE_PENDING_FULL_GATE",
+      "reason": "Positive to positive and negative to negative wiring denotes battery parallel; directness to KPI on parallel batteries and bulb brightness requires exact source evidence.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|008",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        28.44,
+        473.56,
+        60.4,
+        486.84
+      ],
+      "printed_section": "S1",
+      "original_question_number": 8,
+      "original_type": "MC",
+      "original_text_readback_raw": "( )8. 哪一種能源屬於「可以被不斷取用、不會\r\n耗竭且可以持續補充」的能源？①核能②\r\n天然氣③石油④太陽能",
+      "original_all_options_ordered": [
+        {
+          "source_option_label": 1,
+          "source_option_marker": "①",
+          "source_option_text": "核能"
+        },
+        {
+          "source_option_label": 2,
+          "source_option_marker": "②",
+          "source_option_text": "天然氣"
+        },
+        {
+          "source_option_label": 3,
+          "source_option_marker": "③",
+          "source_option_text": "石油"
+        },
+        {
+          "source_option_label": 4,
+          "source_option_marker": "④",
+          "source_option_text": "太陽能"
+        }
+      ],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": "4",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": null,
+      "direct_kp_title_if_proposed": null,
+      "source_only_disposition": "HOLD_NO_DIRECT_FROZEN48KP",
+      "reason": "Renewable energy definition/type belongs to energy resources content, not directly among fixed 48 G04S1 KPI titles.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|009",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        28.44,
+        529.72,
+        60.4,
+        543
+      ],
+      "printed_section": "S1",
+      "original_question_number": 9,
+      "original_type": "MC",
+      "original_text_readback_raw": "( )9. 「節能減碳」中的「減碳」是指什麼意\r\n思？①減少二氧化碳排放量②節約能源③\r\n避免發出噪音④進行火力發電",
+      "original_all_options_ordered": [
+        {
+          "source_option_label": 1,
+          "source_option_marker": "①",
+          "source_option_text": "減少二氧化碳排放量"
+        },
+        {
+          "source_option_label": 2,
+          "source_option_marker": "②",
+          "source_option_text": "節約能源"
+        },
+        {
+          "source_option_label": 3,
+          "source_option_marker": "③",
+          "source_option_text": "避免發出噪音"
+        },
+        {
+          "source_option_label": 4,
+          "source_option_marker": "④",
+          "source_option_text": "進行火力發電"
+        }
+      ],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": "1",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": null,
+      "direct_kp_title_if_proposed": null,
+      "source_only_disposition": "HOLD_NO_DIRECT_FROZEN48KP",
+      "reason": "Carbon emission reduction not directly in fixed 48 KPI; two verbatim 114 school source occurrences are not proof of existing student publication.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [
+        {
+          "original_source_id": "SCI_G04_S1_114_FINAL_001|MC|S02|006",
+          "status": "IDENTICAL_ORIGINAL_STEM_OPTIONS_ARCHIVE_ONLY"
+        },
+        {
+          "original_source_id": "SCI_G04_S1_114_FINAL_004|S02|MC|010",
+          "status": "IDENTICAL_STEM_ALL_OPTIONS_REORDERED_ORIGINAL_ARCHIVE_ONLY"
+        }
+      ],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|011",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        28.44,
+        623.94,
+        60.4,
+        637.22
+      ],
+      "printed_section": "S1",
+      "original_question_number": 11,
+      "original_type": "MC",
+      "original_text_readback_raw": "( )11. 下列哪一項是「不可再生能源」？①核能\r\n②太陽能③地熱能④生質能",
+      "original_all_options_ordered": [
+        {
+          "source_option_label": 1,
+          "source_option_marker": "①",
+          "source_option_text": "核能"
+        },
+        {
+          "source_option_label": 2,
+          "source_option_marker": "②",
+          "source_option_text": "太陽能"
+        },
+        {
+          "source_option_label": 3,
+          "source_option_marker": "③",
+          "source_option_text": "地熱能"
+        },
+        {
+          "source_option_label": 4,
+          "source_option_marker": "④",
+          "source_option_text": "生質能"
+        }
+      ],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": "1",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": null,
+      "direct_kp_title_if_proposed": null,
+      "source_only_disposition": "HOLD_NO_DIRECT_FROZEN48KP",
+      "reason": "Nonrenewable nuclear energy classification outside direct Frozen48KP; do not force mains power safety.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|013",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        28.44,
+        718.26,
+        60.4,
+        731.54
+      ],
+      "printed_section": "S1",
+      "original_question_number": 13,
+      "original_type": "MC",
+      "original_text_readback_raw": "( )13. 當輪胎工廠發生大火時，較不可能對周圍\r\n環境造成什麼影響？①產生大量濃煙②產\r\n生影響人體健康的有害物質③空氣品質變\r\n得更好④空氣中散發出難聞的氣味",
+      "original_all_options_ordered": [
+        {
+          "source_option_label": 1,
+          "source_option_marker": "①",
+          "source_option_text": "產生大量濃煙"
+        },
+        {
+          "source_option_label": 2,
+          "source_option_marker": "②",
+          "source_option_text": "產\r\n生影響人體健康的有害物質"
+        },
+        {
+          "source_option_label": 3,
+          "source_option_marker": "③",
+          "source_option_text": "空氣品質變\r\n得更好"
+        },
+        {
+          "source_option_label": 4,
+          "source_option_marker": "④",
+          "source_option_text": "空氣中散發出難聞的氣味"
+        }
+      ],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": "3",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": null,
+      "direct_kp_title_if_proposed": null,
+      "source_only_disposition": "HOLD_NO_DIRECT_FROZEN48KP",
+      "reason": "Factory tire fire air pollution and health outside explicit Frozen48KP direct U01/U02/U03/U04 scope.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|001",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        28.44,
+        867.93,
+        60.4,
+        881.21
+      ],
+      "printed_section": "S2",
+      "original_question_number": 1,
+      "original_type": "TF",
+      "original_text_readback_raw": "( )1. 連接完整的電路中，燈泡不會發光的原因\r\n可能是因為電池沒電。",
+      "original_all_options_ordered": [],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "PRELIMINARY_VARIANT_NEEDS_RIGHTS_AND_SEMANTIC_COMPLETION",
+      "model_science_candidate_NOT_FORMAL": "O",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": "sci_g04s1_04_04",
+      "direct_kp_title_if_proposed": "通路與斷路",
+      "source_only_disposition": "DIRECT_KP_CANDIDATE_PENDING_FULL_GATE",
+      "reason": "A closed circuit can fail to light when the battery is exhausted; distinguish circuit continuity from energy provision.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|002",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        28.44,
+        904.29,
+        60.4,
+        917.57
+      ],
+      "printed_section": "S2",
+      "original_question_number": 2,
+      "original_type": "TF",
+      "original_text_readback_raw": "( )2. 家裡烹煮食物時使用到的能源主要以煤炭\r\n為主。",
+      "original_all_options_ordered": [],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": "X",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": null,
+      "direct_kp_title_if_proposed": null,
+      "source_only_disposition": "HOLD_NO_DIRECT_FROZEN48KP",
+      "reason": "Household cooking-fuel composition/coal not explicit Frozen48KP.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|003",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        28.44,
+        940.76,
+        60.4,
+        954.05
+      ],
+      "printed_section": "S2",
+      "original_question_number": 3,
+      "original_type": "TF",
+      "original_text_readback_raw": "( )3. 地球能量的主要來源是太陽。",
+      "original_all_options_ordered": [],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": "O",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": null,
+      "direct_kp_title_if_proposed": null,
+      "source_only_disposition": "HOLD_NO_DIRECT_FROZEN48KP",
+      "reason": "Solar energy as primary Earth energy is outside direct currently frozen light-source/reflection knowledge points.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|004",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        371.35,
+        81.47,
+        403.31,
+        94.75
+      ],
+      "printed_section": "S2",
+      "original_question_number": 4,
+      "original_type": "TF",
+      "original_text_readback_raw": "( )4. 「節能減碳」中的「減碳」是指減少煤炭\r\n的使用量。",
+      "original_all_options_ordered": [],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": "X",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": null,
+      "direct_kp_title_if_proposed": null,
+      "source_only_disposition": "HOLD_NO_DIRECT_FROZEN48KP",
+      "reason": "Carbon reduction cannot be equated with lowering coal usage alone; out of direct Frozen48KP.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|005",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        371.35,
+        117.97,
+        403.31,
+        131.25
+      ],
+      "printed_section": "S2",
+      "original_question_number": 5,
+      "original_type": "TF",
+      "original_text_readback_raw": "( )5. 除了植物以外，其他生物都不能利用太陽\r\n提供的能量。",
+      "original_all_options_ordered": [],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": "X",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": null,
+      "direct_kp_title_if_proposed": null,
+      "source_only_disposition": "HOLD_NO_DIRECT_FROZEN48KP",
+      "reason": "Solar energy trophic flow and food chains are not direct Frozen48KP titles.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|008",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        371.35,
+        227.29,
+        403.31,
+        240.57
+      ],
+      "printed_section": "S2",
+      "original_question_number": 8,
+      "original_type": "TF",
+      "original_text_readback_raw": "( )8. 可以提供能量的資源稱為「能源」。",
+      "original_all_options_ordered": [],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": "O",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": null,
+      "direct_kp_title_if_proposed": null,
+      "source_only_disposition": "HOLD_NO_DIRECT_FROZEN48KP",
+      "reason": "Definition of energy resources not a direct 113 G04S1 Frozen48KP item.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|009",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        371.35,
+        245.41,
+        403.31,
+        258.69
+      ],
+      "printed_section": "S2",
+      "original_question_number": 9,
+      "original_type": "TF",
+      "original_text_readback_raw": "( )9. 利用鏡子反射光時，反射的光不可以對準\r\n他人的眼睛。",
+      "original_all_options_ordered": [],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": "O",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": null,
+      "direct_kp_title_if_proposed": null,
+      "source_only_disposition": "HOLD_DIRECT_KP_SCOPE",
+      "reason": "Reflected light eye safety is not automatically direct reflected-light direction/application KPI despite related topic.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|012",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        371.35,
+        354.76,
+        403.31,
+        368.04
+      ],
+      "printed_section": "S2",
+      "original_question_number": 12,
+      "original_type": "TF",
+      "original_text_readback_raw": "( )12. 裝置在相機裡的鋰電池屬於電池耗盡後就\r\n無法再充電使用的電池。",
+      "original_all_options_ordered": [],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": null,
+      "direct_frozen48_kp_proposed_NOT_FORMAL": null,
+      "direct_kp_title_if_proposed": null,
+      "source_only_disposition": "HOLD_SCIENCE_CONTEXT",
+      "reason": "Lithium battery is a category covering rechargeable lithium-ion and primary lithium battery chemistries; camera usage alone does not unambiguously determine rechargeability.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|013",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        371.35,
+        391.12,
+        403.31,
+        404.4
+      ],
+      "printed_section": "S2",
+      "original_question_number": 13,
+      "original_type": "TF",
+      "original_text_readback_raw": "( )13. 風力是目前發展中的綠色能源，對環境造\r\n成的汙染比較少。",
+      "original_all_options_ordered": [],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "NO_EXISTING_SOURCE_SCIENCE_KP_REVIEW",
+      "model_science_candidate_NOT_FORMAL": "O",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": null,
+      "direct_kp_title_if_proposed": null,
+      "source_only_disposition": "HOLD_NO_DIRECT_FROZEN48KP",
+      "reason": "Wind power as green energy and pollution effects outside direct Frozen48KP; don't convert to wind sediment movement KPI.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|014",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_page_1_based": 1,
+      "exact_source_answer_bbox_pdf_points": [
+        371.35,
+        427.6,
+        403.31,
+        440.88
+      ],
+      "printed_section": "S2",
+      "original_question_number": 14,
+      "original_type": "TF",
+      "original_text_readback_raw": "( )14. 打開手電筒的開關後，手電筒內部會形成\r\n通路，燈泡便會發光。",
+      "original_all_options_ordered": [],
+      "full_original_text_evidence_ref": "data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json",
+      "original_pdf_native_answer_marker_evidence_ref": "data/review/p12-g04s1-113-missing15-native5-107-original-glyph-bbox-19suppressed-88hold-v1.json",
+      "inherited_science_kp_old_status": "HOLD_SCIENCE_UNSTATED_OPERATING_ASSUMPTION",
+      "model_science_candidate_NOT_FORMAL": "O_under_intact_cell_bulb",
+      "direct_frozen48_kp_proposed_NOT_FORMAL": "sci_g04s1_04_04",
+      "direct_kp_title_if_proposed": "通路與斷路",
+      "source_only_disposition": "HOLD_SCIENCE_CONTEXT",
+      "reason": "Switch closed alone does not guarantee light without working battery and bulb; preserved existing source-review conditional hold.",
+      "duplicate_public_exact_or_option_reorder_verified": false,
+      "verified_114_717_original_source_similar": [],
+      "source_full_visual_context_accepted": false,
+      "science_unique_formally_approved": false,
+      "kp_direct_formally_approved": false,
+      "full_semantic_113_29_papers_done": false,
+      "right_to_use_question_text_formally_accepted": false,
+      "operator_eligible": false,
+      "student_bank_admission_ready": false
+    }
+  ]
+}

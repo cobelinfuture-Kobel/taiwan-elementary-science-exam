@@ -1,0 +1,763 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_PAPER_13_BTOUCHED_16_NONB_COVERAGE_V1",
+  "source_refs": [
+    "data/review/p12-g04s1-113-all29-known-atomic-disjoint-source-ledger-v1.json",
+    "data/review/p12-g04s1-113-all29-paper-level-admission-master-v1.json",
+    "PR124:data/review/p12-g04s1-113-existingadmission-fixed29-all1762-control-v1.json"
+  ],
+  "classification_scope": "Known source ID dispositions only. No additional authorizations or inferred unreviewed question counts.",
+  "totals": {
+    "batch_touched_13": {
+      "papers": 13,
+      "known_source_identity_positions": 465,
+      "known_disjoint": {
+        "PUBLISHED": 215,
+        "HOLD": 240,
+        "ALIAS": 10,
+        "UNREVIEWED": 0
+      },
+      "provisional_source_work_positions_noncertified": 726
+    },
+    "nonbatch_16": {
+      "papers": 16,
+      "known_source_identity_positions": 439,
+      "known_disjoint": {
+        "PUBLISHED": 118,
+        "HOLD": 29,
+        "ALIAS": 0,
+        "UNREVIEWED": 292
+      },
+      "provisional_source_work_positions_noncertified": 1036
+    },
+    "nonbatch_legacy_public_11": {
+      "papers": 11,
+      "known_source_identity_positions": 118,
+      "known_disjoint": {
+        "PUBLISHED": 118,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "provisional_source_work_positions_noncertified": 715
+    },
+    "nonbatch_zero_public_5": {
+      "papers": 5,
+      "known_source_identity_positions": 321,
+      "known_disjoint": {
+        "PUBLISHED": 0,
+        "HOLD": 29,
+        "ALIAS": 0,
+        "UNREVIEWED": 292
+      },
+      "provisional_source_work_positions_noncertified": 321
+    }
+  },
+  "papers": [
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "school": "文德國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 55,
+      "B01_B09_touched": true,
+      "B_batches": [
+        "B01"
+      ],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 10,
+        "HOLD": 40,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 50,
+      "source_identity_coverage_status": "B_TOUCHED_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": "data/review/p12-g04s1-113-p04b-wende-mid55-exact-source-subanswers-and-geometry-v1.json",
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_002",
+      "school": "和順國小",
+      "exam_type": "MID",
+      "native_text_pdf": false,
+      "original_pdf_pages": 3,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 50,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 0,
+        "HOLD": 4,
+        "ALIAS": 0,
+        "UNREVIEWED": 46
+      },
+      "known_classified_source_positions": 50,
+      "source_identity_coverage_status": "NO_B_ZERO_PUBLISHED_SOURCE_IDENTIFIED",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "school": "忠孝國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 50,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 3,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 3,
+      "source_identity_coverage_status": "NO_B_HISTORICAL_PUBLIC_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": "data/review/p12-g04s1-113-p04b-zhongxiao-mid50-source-markers-parent-figure-v1.json",
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_004",
+      "school": "東光國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 63,
+      "B01_B09_touched": true,
+      "B_batches": [
+        "B02"
+      ],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 8,
+        "HOLD": 12,
+        "ALIAS": 1,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 21,
+      "source_identity_coverage_status": "B_TOUCHED_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_001",
+      "school": "和順國小",
+      "exam_type": "FINAL",
+      "native_text_pdf": false,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 50,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 9,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 9,
+      "source_identity_coverage_status": "NO_B_HISTORICAL_PUBLIC_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_002",
+      "school": "忠孝國小",
+      "exam_type": "FINAL",
+      "native_text_pdf": false,
+      "original_pdf_pages": 4,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 50,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 0,
+        "HOLD": 4,
+        "ALIAS": 0,
+        "UNREVIEWED": 46
+      },
+      "known_classified_source_positions": 50,
+      "source_identity_coverage_status": "NO_B_ZERO_PUBLISHED_SOURCE_IDENTIFIED",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_003",
+      "school": "東光國小",
+      "exam_type": "FINAL",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 59,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 11,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 11,
+      "source_identity_coverage_status": "NO_B_HISTORICAL_PUBLIC_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "school": "大墩國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 66,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 17,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 17,
+      "source_identity_coverage_status": "NO_B_HISTORICAL_PUBLIC_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_006",
+      "school": "內安國小",
+      "exam_type": "MID",
+      "native_text_pdf": false,
+      "original_pdf_pages": 4,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 62,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 15,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 15,
+      "source_identity_coverage_status": "NO_B_HISTORICAL_PUBLIC_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_007",
+      "school": "民權國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 74,
+      "B01_B09_touched": true,
+      "B_batches": [
+        "B02"
+      ],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 15,
+        "HOLD": 11,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 26,
+      "source_identity_coverage_status": "B_TOUCHED_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": "data/review/p12-g04s1-113-p04b-minquan-mid74-native-source-marker-matching-parent-v1.json",
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_008",
+      "school": "永安國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 75,
+      "B01_B09_touched": true,
+      "B_batches": [
+        "B02",
+        "B03"
+      ],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 16,
+        "HOLD": 9,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 25,
+      "source_identity_coverage_status": "B_TOUCHED_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_009",
+      "school": "安和國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 50,
+      "B01_B09_touched": true,
+      "B_batches": [
+        "B03"
+      ],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 19,
+        "HOLD": 8,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 27,
+      "source_identity_coverage_status": "B_TOUCHED_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": "data/review/p12-g04s1-113-p04b-anhe-mid50-original-source-slot-ids-native-pdf-bbox-v1.json",
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_010",
+      "school": "明義國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 50,
+      "B01_B09_touched": true,
+      "B_batches": [
+        "B03",
+        "B04"
+      ],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 8,
+        "HOLD": 5,
+        "ALIAS": 7,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 20,
+      "source_identity_coverage_status": "B_TOUCHED_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": "data/review/p12-g04s1-113-p04b-mingyi-mid50-original-answer-ids-native-checkbox-matching-anchor-v1.json",
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_011",
+      "school": "建德國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 64,
+      "B01_B09_touched": true,
+      "B_batches": [
+        "B04"
+      ],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 17,
+        "HOLD": 3,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 20,
+      "source_identity_coverage_status": "B_TOUCHED_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": "data/review/p12-g04s1-113-p04b-jiande-mid64-original-source-answer-ids-bbox-v1.json",
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_012",
+      "school": "桃子腳國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 100,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 0,
+        "HOLD": 14,
+        "ALIAS": 0,
+        "UNREVIEWED": 86
+      },
+      "known_classified_source_positions": 100,
+      "source_identity_coverage_status": "NO_B_ZERO_PUBLISHED_SOURCE_IDENTIFIED",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "school": "獅湖國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 3,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 50,
+      "B01_B09_touched": true,
+      "B_batches": [
+        "B04",
+        "B07"
+      ],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 21,
+        "HOLD": 11,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 32,
+      "source_identity_coverage_status": "B_TOUCHED_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": "data/review/p12-g04s1-113-p04b-shihu-mid50-native-original-source-bbox-v1.json",
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_014",
+      "school": "路上國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 3,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 50,
+      "B01_B09_touched": true,
+      "B_batches": [
+        "B04",
+        "B07"
+      ],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 22,
+        "HOLD": 27,
+        "ALIAS": 1,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 50,
+      "source_identity_coverage_status": "B_TOUCHED_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": "data/review/p12-g04s1-113-p04b-lushang-mid50-native-answer-and-matching-bbox-v1.json",
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_015",
+      "school": "廣興國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 3,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 54,
+      "B01_B09_touched": true,
+      "B_batches": [
+        "B04",
+        "B05",
+        "B07",
+        "B08"
+      ],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 18,
+        "HOLD": 36,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 54,
+      "source_identity_coverage_status": "B_TOUCHED_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": "data/review/p12-g04s1-113-p04b-guangxing-mid54-original-native-plus-vector-answer-frames-v1.json",
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_004",
+      "school": "民權國小",
+      "exam_type": "FINAL",
+      "native_text_pdf": true,
+      "original_pdf_pages": 3,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 81,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 2,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 2,
+      "source_identity_coverage_status": "NO_B_HISTORICAL_PUBLIC_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_005",
+      "school": "永安國小",
+      "exam_type": "FINAL",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 80,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 14,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 14,
+      "source_identity_coverage_status": "NO_B_HISTORICAL_PUBLIC_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_006",
+      "school": "安和國小",
+      "exam_type": "FINAL",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 50,
+      "B01_B09_touched": true,
+      "B_batches": [
+        "B05",
+        "B08"
+      ],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 30,
+        "HOLD": 19,
+        "ALIAS": 1,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 50,
+      "source_identity_coverage_status": "B_TOUCHED_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": "data/review/p12-g04s1-113-p04b-anhe-final50-original-source-slot-ids-native-bbox-v1.json",
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_007",
+      "school": "明義國小",
+      "exam_type": "FINAL",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 54,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 8,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 8,
+      "source_identity_coverage_status": "NO_B_HISTORICAL_PUBLIC_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": "data/review/p12-g04s1-113-p04b-mingyi-final54-source-decisions-and-native-vector-answer-bbox-v1.json",
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_008",
+      "school": "桃子腳國小",
+      "exam_type": "FINAL",
+      "native_text_pdf": true,
+      "original_pdf_pages": 3,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 92,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 27,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 27,
+      "source_identity_coverage_status": "NO_B_HISTORICAL_PUBLIC_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_009",
+      "school": "獅湖國小",
+      "exam_type": "FINAL",
+      "native_text_pdf": false,
+      "original_pdf_pages": 3,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 50,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 0,
+        "HOLD": 7,
+        "ALIAS": 0,
+        "UNREVIEWED": 43
+      },
+      "known_classified_source_positions": 50,
+      "source_identity_coverage_status": "NO_B_ZERO_PUBLISHED_SOURCE_IDENTIFIED",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_016",
+      "school": "大華國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 53,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 6,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 6,
+      "source_identity_coverage_status": "NO_B_HISTORICAL_PUBLIC_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_017",
+      "school": "內湖國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 3,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 68,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 6,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 6,
+      "source_identity_coverage_status": "NO_B_HISTORICAL_PUBLIC_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_018",
+      "school": "成功國小",
+      "exam_type": "MID",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 53,
+      "B01_B09_touched": true,
+      "B_batches": [
+        "B05",
+        "B06",
+        "B08",
+        "B09"
+      ],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 24,
+        "HOLD": 29,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 53,
+      "source_identity_coverage_status": "B_TOUCHED_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_010",
+      "school": "大華國小",
+      "exam_type": "FINAL",
+      "native_text_pdf": true,
+      "original_pdf_pages": 2,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 38,
+      "B01_B09_touched": true,
+      "B_batches": [
+        "B06",
+        "B09"
+      ],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 7,
+        "HOLD": 30,
+        "ALIAS": 0,
+        "UNREVIEWED": 0
+      },
+      "known_classified_source_positions": 37,
+      "source_identity_coverage_status": "B_TOUCHED_PARTIAL_ORIGINAL_PAPER",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": "data/review/p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json",
+      "operator_formal_complete": false
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_011",
+      "school": "內湖國小",
+      "exam_type": "FINAL",
+      "native_text_pdf": true,
+      "original_pdf_pages": 4,
+      "provisional_source_work_mode_budget_NOT_CERTIFIED": 71,
+      "B01_B09_touched": false,
+      "B_batches": [],
+      "known_disjoint_source_position_identity_counts": {
+        "PUBLISHED": 0,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 71
+      },
+      "known_classified_source_positions": 71,
+      "source_identity_coverage_status": "NO_B_ZERO_PUBLISHED_SOURCE_IDENTIFIED",
+      "exact_independent_source_questions_total": null,
+      "exact_unreviewed_questions_total": null,
+      "unverified_work_gap_position_total": null,
+      "existing_proof_source_ref": null,
+      "operator_formal_complete": false
+    }
+  ],
+  "continuation": "Among B-touched 13, check source identities outside B and verified source-slot texts, preserving prior HOLD. Among nonB 16, source PDF mode known and 11 already have 118 historic released position IDs. Continue original Source Exact, canonical KP48, dedup/rights; no 333 reopening."
+}

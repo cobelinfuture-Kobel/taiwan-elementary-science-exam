@@ -1,0 +1,285 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_FINAL003_FOURPENDING_ORIGINAL29_TEXTLAYER_DEDUP_RIGHTS_GAP_V1",
+  "scope": "113 G04S1 29 matched Drive PDFs, four original FINAL003 source-position candidates; bounded readable-text cross-paper anchor screening, NOT full independent semantic dedup",
+  "baseline_main_sha": "d7f909327771dc309dd324bcc81d1165de454003",
+  "baseline_draft_previous_evidence": "data/review/p12-g04s1-113-all29-final003-fourpending-existing-gate-gap-v2.json",
+  "source_29_paper_identity": "Exact Drive PDF filename matched school, edition, year, semester, MID/FINAL; source readback through connected Drive, no live binary SHA re-verification in this pass",
+  "public_repo_security": "No private Drive file IDs, original full examination question stems/options, raw PDFs, original teacher answers, or restricted figures included in this public evidence",
+  "source_pdf_count": 29,
+  "source_text_fetch_attempted": 29,
+  "source_text_fetch_succeeded": 29,
+  "source_readable_pdf_count": 24,
+  "source_scan_no_text_count": 5,
+  "scan_paper_ids": [
+    "SCI_G04_S1_113_MID_002",
+    "SCI_G04_S1_113_FINAL_001",
+    "SCI_G04_S1_113_FINAL_002",
+    "SCI_G04_S1_113_MID_006",
+    "SCI_G04_S1_113_FINAL_009"
+  ],
+  "source_extract_only_not_pdf_visual": true,
+  "original_pdf_visual_parent_exact_accepted_in_this_pass": 0,
+  "text_mode_anchors_normalization": "Unicode NFKC, strip whitespace and selected punctuation; only positive lexical indicators, not full option-preserving semantic identity",
+  "original29_target_fullsource_semantic_dedup_formally_accepted": false,
+  "source_extraction_full_corpus_limitation": "Five raster-only PDF papers yield zero extractable text. For 24 readable PDFs this is lexical anchor screening, not complete item boundary/option-context normalization or visual parent context validation; no source full-semantic PASS.",
+  "original_paper_text_screen": [
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_001",
+      "raw_extracted_text_character_count": 3408,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_002",
+      "raw_extracted_text_character_count": 0,
+      "readable_text": false,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_003",
+      "raw_extracted_text_character_count": 3341,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_004",
+      "raw_extracted_text_character_count": 3189,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_001",
+      "raw_extracted_text_character_count": 0,
+      "readable_text": false,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_002",
+      "raw_extracted_text_character_count": 0,
+      "readable_text": false,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_003",
+      "raw_extracted_text_character_count": 2331,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": [
+        "MC003",
+        "MC004",
+        "MC006",
+        "TF001"
+      ]
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "raw_extracted_text_character_count": 3030,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_006",
+      "raw_extracted_text_character_count": 0,
+      "readable_text": false,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_007",
+      "raw_extracted_text_character_count": 2919,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_008",
+      "raw_extracted_text_character_count": 3909,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_009",
+      "raw_extracted_text_character_count": 2426,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_010",
+      "raw_extracted_text_character_count": 2735,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_011",
+      "raw_extracted_text_character_count": 2919,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_012",
+      "raw_extracted_text_character_count": 4062,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_013",
+      "raw_extracted_text_character_count": 3542,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_014",
+      "raw_extracted_text_character_count": 2969,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_015",
+      "raw_extracted_text_character_count": 3415,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_004",
+      "raw_extracted_text_character_count": 3225,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_005",
+      "raw_extracted_text_character_count": 3612,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": [
+        "MC004",
+        "TF001"
+      ]
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_006",
+      "raw_extracted_text_character_count": 2359,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": [
+        "TF001"
+      ]
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_007",
+      "raw_extracted_text_character_count": 2746,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": [
+        "TF001"
+      ]
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_008",
+      "raw_extracted_text_character_count": 5292,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": [
+        "TF001"
+      ]
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_009",
+      "raw_extracted_text_character_count": 0,
+      "readable_text": false,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_016",
+      "raw_extracted_text_character_count": 3244,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_017",
+      "raw_extracted_text_character_count": 2884,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_018",
+      "raw_extracted_text_character_count": 2883,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_010",
+      "raw_extracted_text_character_count": 3639,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": []
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_011",
+      "raw_extracted_text_character_count": 3666,
+      "readable_text": true,
+      "source_keyword_probe_hit_ids": [
+        "MC004"
+      ]
+    }
+  ],
+  "target_candidate_lexical_findings": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|003",
+      "selected_anchor_only_original_paper_ids": [
+        "SCI_G04_S1_113_FINAL_003"
+      ],
+      "possible_semantic_equivalents_not_ruled_out": true,
+      "original_29_semantic_duplicate_gate": "PENDING_FULL_SEMANTIC_VISUAL_SCAN5"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|004",
+      "selected_anchor_only_original_paper_ids": [
+        "SCI_G04_S1_113_FINAL_003"
+      ],
+      "additional_generic_token_papers": [
+        "SCI_G04_S1_113_FINAL_005",
+        "SCI_G04_S1_113_FINAL_011"
+      ],
+      "generic_token_nonidentical_context": "FINAL005 clock appears in sound and battery-powered-appliance questions; FINAL011 in sound transmission; none is an exact source-question proof for MC004.",
+      "source_science_context": "A mains-powered alarm clock is possible. Typical school comparison assumes battery-powered alarm clock but source question does not say battery only.",
+      "original_29_semantic_duplicate_gate": "PENDING_FULL_SEMANTIC_VISUAL_SCAN5"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|006",
+      "selected_anchor_only_original_paper_ids": [
+        "SCI_G04_S1_113_FINAL_003"
+      ],
+      "possible_semantic_equivalents_not_ruled_out": true,
+      "original_29_semantic_duplicate_gate": "PENDING_FULL_SEMANTIC_VISUAL_SCAN5"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|001",
+      "selected_anchor_only_original_paper_ids": [
+        "SCI_G04_S1_113_FINAL_003"
+      ],
+      "additional_generic_token_papers": [
+        "SCI_G04_S1_113_FINAL_005",
+        "SCI_G04_S1_113_FINAL_006",
+        "SCI_G04_S1_113_FINAL_007",
+        "SCI_G04_S1_113_FINAL_008"
+      ],
+      "generic_token_nonidentical_context": "Other papers mention batteries failing within apparatus troubleshooting or specific circuit, LED, battery branches; same topic/wording alone is not exact or reorder alias.",
+      "original_29_semantic_duplicate_gate": "PENDING_FULL_SEMANTIC_VISUAL_SCAN5"
+    }
+  ],
+  "source_exam_identity_evidence": {
+    "original_113_final003_header_readback": "Keelung Dongguang elementary school, 113 academic year, semester 1, Grade 4 natural science second periodic assessment",
+    "right_path": "Taiwan school-regulated exam question text Article 9 route subject to per-item source identity and component scope verification",
+    "original_images_reused": false,
+    "teacher_solution_reused": false,
+    "rights_formally_accepted_new": 0
+  },
+  "governance_unchanged": true,
+  "original_frozen48_unchanged": true,
+  "original_333_published_unchanged": true,
+  "original_29_paper_closeout_new": 0,
+  "metrics_this_pass": {
+    "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+    "ADMISSION_READY_new": 0,
+    "PUBLISHED_new": 0
+  },
+  "next_exact_existing_gates": [
+    "Original PDF visual and full context acceptance for four candidates (not text extraction alone)",
+    "Resolve MC004 unstated alarm-clock power source assumption without rewriting source",
+    "Verify direct Frozen48KP with actual source skill, not nearest topic",
+    "Complete full 29 originals including Scan5 and picture parents, and 114 source corpus, option-preserving semantic identity check",
+    "Individually accept Article9 exam question text/component rights and applicable precise operator eligible roster before student PR"
+  ]
+}

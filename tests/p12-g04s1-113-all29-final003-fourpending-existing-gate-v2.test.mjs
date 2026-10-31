@@ -9,7 +9,7 @@ const first = read(base + 'final003-18-onegate-science-kp-source-scope-v1.json')
 const native = read('data/review/p12-g04s1-113-missing15-native88-original-text-sci-g04-s1-113-final-003-v1.json');
 const frozen = read('site/data/authority/science-g03-g04-selector-v3.json');
 const current = read(base + 'known-atomic-disjoint-source-ledger-v8.json');
-const norm = s => s.split('|').map(v => /^[SG]\\d+$/.test(v) ? v[0] + Number(v.slice(1)) : /^\\d+$/.test(v) ? String(Number(v)) : v).join('|');
+const norm = s => s.split('|').map(v => /^[SG]\d+$/.test(v) ? v[0] + Number(v.slice(1)) : /^\d+$/.test(v) ? String(Number(v)) : v).join('|');
 const byId = new Map(first.rows.map(v => [norm(v.source_slot_id), v]));
 const byNative = new Map(native.source_questions.map(v => [norm(v.source_slot_id), v]));
 const byDisjoint = new Map(current.known_atomic_source_dispositions.map(v => [norm(v.source_slot_id), v]));

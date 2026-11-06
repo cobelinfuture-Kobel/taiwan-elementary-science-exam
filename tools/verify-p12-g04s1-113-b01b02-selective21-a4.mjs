@@ -35,11 +35,15 @@ try {
  for(const original of data.blocks) {
   const block=structuredClone(original);
   if(block.type==="group")block.source="CERTIFIED_CONTEXT_RECONSTRUCTED";
+  // DEMO_ONLY fixture expects Chinese TF truth labels, unlike the certified O/X public bank.
+  // This conversion is QA-local; the candidate source and its independent O/X answer are unchanged.
+  const fixtureBlock=structuredClone(block);
+  if(fixtureBlock.type==="tf")fixtureBlock.answer=block.answer==="O"?"正確":"錯誤";
   const page=await browser.newPage({viewport:{width:1440,height:950}});
   const errors=[];
   page.on("pageerror",e=>errors.push(String(e)));
   await page.route("**/data/layout-demo.json",route=>route.fulfill({
-   status:200,contentType:"application/json",body:JSON.stringify({admission:"DEMO_ONLY",blocks:[block]})
+   status:200,contentType:"application/json",body:JSON.stringify({admission:"DEMO_ONLY",blocks:[fixtureBlock]})
   }));
   await page.goto(host+"/exam/?qa=p12-51-layout",{waitUntil:"networkidle",timeout:40000});
   await page.selectOption("#grade","4");

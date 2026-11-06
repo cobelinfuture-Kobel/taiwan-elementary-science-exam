@@ -23,6 +23,7 @@ const D4 = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao4-wende-exact
 const L19 = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao19-lunar-no-direct-frozen48KP-HOLD-overlay-v1.json');
 const PUBLIC_ALIAS = read('data/review/p12-g04s1-113-all29-b01b02-fullfix-zhongxiao-mc004-existing-published-lineage-alias-overlay-v1.json');
 const SCIENCE70 = read('data/review/p12-g04s1-113-b01b02-fullfix-science-directKP-existing-gate70-accepted-4specific-hold-v1.json');
+const RIGHTS61 = read('data/review/p12-g04s1-113-b01b02-fullfix-article9-exam-text61-rights-component-9storyparent-hold-v1.json');
 const a = read('site/data/authority/science-g03-g04-selector-v3.json');
 const kps = a.units.filter(x => x.grade === 4 && x.semester === 1)
   .flatMap(x => x.knowledge_points.map(k => k.canonical_kp_id));
@@ -126,6 +127,11 @@ const b02Rows = Z24.rows.filter(q => q.source_slot_id !== PUBLIC_ALIAS.exact_sou
 assert.equal(b01Rows.length + b02Rows.length, 83);
 assert.equal(SCIENCE70.rows_accepted.length, 70);
 assert.equal(SCIENCE70.rows_unaccepted_gated.length, 4);
+assert.equal(RIGHTS61.rows_rights_accepted.length, 61);
+assert.equal(RIGHTS61.rows_rights_parent_hold.length, 9);
+const scienceIds70 = new Set(SCIENCE70.rows_accepted.map(x => x.source_slot_id));
+assert.ok([...RIGHTS61.rows_rights_accepted, ...RIGHTS61.rows_rights_parent_hold].every(x => scienceIds70.has(x.source_slot_id)));
+assert.equal(new Set([...RIGHTS61.rows_rights_accepted, ...RIGHTS61.rows_rights_parent_hold].map(x => x.source_slot_id)).size, 70);
 assert.equal(SCIENCE70.operator_exact_release_signature_present, false);
 const pendingTextIds = new Set([...b01Rows, ...b02Rows].map(x => x.source_slot_id));
 assert.ok([...SCIENCE70.rows_accepted, ...SCIENCE70.rows_unaccepted_gated].every(x => pendingTextIds.has(x.source_slot_id)));
@@ -189,6 +195,8 @@ const counts = {
   B01_science_kp_components_accepted: 56,
   B02_science_kp_components_accepted: 14,
   B01_specific_science_or_source_context_risks_held: 4,
+  article9_original_school_exam_question_text_rights_components_accepted: 61,
+  original_parent_story_rights_held: 9,
   original114_papers: 25, original114_answer_occurrences: originals.length,
   source_stem_exact114_hits: evaluated.filter(x => x.original114_same_stem.length).length,
   source_stem_exact_live_bank_hits: evaluated.filter(x => x.main_site_same_stem.length).length,
@@ -217,6 +225,7 @@ const report = {
 if (process.argv.includes('--check')) {
   assert.equal(report.rows.length, 83);
   assert.equal(report.counts.source_level_science_and_directkp_components_explicitly_accepted, 70);
+  assert.equal(report.counts.article9_original_school_exam_question_text_rights_components_accepted,61);
   assert.equal(report.counts.source_stem_exact114_hits, 0);
   assert.equal(report.counts.source_stem_exact_live_bank_hits, 0);
   assert.equal(report.counts.B02_scan_source_work_still_visual_semantic_pending, 86);

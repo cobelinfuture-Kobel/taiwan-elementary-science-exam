@@ -1,0 +1,100 @@
+{
+  "schema_version": "P12_G04S1_113_B01_CROSS_ORIGINAL_EXACT2_DUPLICATE_CHILDREN_HOLD_AFTER_EXISTING_GATE_V1",
+  "date": "2026-11-06",
+  "scope": "Within same B01 114-source roster, exact identical original stem and equivalent tick-correct parent instruction; retain one canonical candidate in Yongan, hold overlapping Mingyi source until source lineage can be aliased to a formally published canonical item.",
+  "cross_source_113_original_PDF_text_corpus_29_visited": true,
+  "cross_source_113_original_PDF_text_search_24_readable_5_scan_not_equivalent": false,
+  "source_nonpublic_primary_count": 2,
+  "source_original_duplicate_child_HOLD_count": 2,
+  "source_new_ALIASES_count": 0,
+  "previous_effective_all29": {
+    "PUBLISHED": 333,
+    "HOLD": 292,
+    "ALIAS": 25,
+    "UNREVIEWED": 1112
+  },
+  "current_effective_all29": {
+    "PUBLISHED": 333,
+    "HOLD": 294,
+    "ALIAS": 25,
+    "UNREVIEWED": 1110
+  },
+  "B01_prior_114": 114,
+  "B01_previously_source_disposition_closed": 10,
+  "B01_new_duplicate_HOLD": 2,
+  "B01_remaining_UNREVIEWED": 102,
+  "previous_exact62_preliminary": 62,
+  "duplicate_secondary_sources_removed_from_operator_queue": 2,
+  "distinct_pending_exact60": 60,
+  "legacy_student_answers_unchanged": true,
+  "operator_exact_source_approval": false,
+  "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+  "ADMISSION_READY_new": 0,
+  "PUBLISHED_new": 0,
+  "source_proof_refs": [
+    "data/review/p12-g04s1-113-all29-bulk-b01-62-cross29-papers-exact-duplicate-consolidated-v1.json",
+    "data/review/p12-g04s1-113-all29-bulk-b01-114-original-content-and-gate-routing-v1.json"
+  ],
+  "records": [
+    {
+      "source_slot_id_to_hold": "SCI_G04_S1_113_FINAL_007|S03|G05|TF|005",
+      "canonical_source_slot_id_to_retain_preliminary": "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|005",
+      "held_source_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "canonical_source_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "held_native_bbox": [
+        36,
+        445.53,
+        69.12,
+        456.57
+      ],
+      "canonical_native_bbox": [
+        56.64,
+        920.89,
+        98.78,
+        935.42
+      ],
+      "original_school_stem_full_verbatim": "使用電器時，要將插頭插好。",
+      "original_school_parent_YONGAN": "下列有關用電安全的敘述，哪些是正確的？請打。",
+      "original_school_parent_MINGYI": "下列有關用電安全的敘述，正確的請打勾。",
+      "science_model_candidate_answer_not_school_key": "O",
+      "frozen_kp_direct_candidate": "sci_g04s1_04_12",
+      "source_stems_identical": true,
+      "original_parent_instructions_equivalent_for_correct_statement_check": true,
+      "student_question_canonical_NOT_YET_PUBLIC": true,
+      "reason": "HOLD_DUPLICATE_IN_B01_UNTIL_CANONICAL_ADMITTED_OR_OPERATOR_DECIDES; do not declare existing published ALIAS",
+      "held_source_original_status": "UNREVIEWED",
+      "held_source_effective_status": "HOLD",
+      "student_bank_modifications": 0
+    },
+    {
+      "source_slot_id_to_hold": "SCI_G04_S1_113_FINAL_007|S03|G05|TF|006",
+      "canonical_source_slot_id_to_retain_preliminary": "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|006",
+      "held_source_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "canonical_source_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "held_native_bbox": [
+        36,
+        465.59,
+        69.12,
+        476.63
+      ],
+      "canonical_native_bbox": [
+        56.64,
+        940.93,
+        98.78,
+        955.46
+      ],
+      "original_school_stem_full_verbatim": "使用電器時，電線不要捲在一起。",
+      "original_school_parent_YONGAN": "下列有關用電安全的敘述，哪些是正確的？請打。",
+      "original_school_parent_MINGYI": "下列有關用電安全的敘述，正確的請打勾。",
+      "science_model_candidate_answer_not_school_key": "O",
+      "frozen_kp_direct_candidate": "sci_g04s1_04_12",
+      "source_stems_identical": true,
+      "original_parent_instructions_equivalent_for_correct_statement_check": true,
+      "student_question_canonical_NOT_YET_PUBLIC": true,
+      "reason": "HOLD_DUPLICATE_IN_B01_UNTIL_CANONICAL_ADMITTED_OR_OPERATOR_DECIDES; do not declare existing published ALIAS",
+      "held_source_original_status": "UNREVIEWED",
+      "held_source_effective_status": "HOLD",
+      "student_bank_modifications": 0
+    }
+  ]
+}

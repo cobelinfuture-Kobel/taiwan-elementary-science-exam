@@ -1,0 +1,72 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_FULLFIX_B01_ORIGINAL114_CONTENT_ADMISSION_CHECKPOINT_V1",
+  "date": "2026-11-06",
+  "main_unchanged_sha": "d7f909327771dc309dd324bcc81d1165de454003",
+  "scope": "B01 114 source-work positions; three original papers, 94 source PDF text child items, 20 original dependent figure/drawing items; no student release",
+  "source_work_input": 114,
+  "source_work_B01_papers": {
+    "SCI_G04_S1_113_MID_001": 5,
+    "SCI_G04_S1_113_FINAL_005": 63,
+    "SCI_G04_S1_113_FINAL_007": 46
+  },
+  "original_text_original_stem_child_items_screened": 94,
+  "original_figure_or_drawing_positions_remaining": 20,
+  "original_physical_source_response_bboxes_present": 113,
+  "original_pdf_answer_bbox_missing_source_ids": [
+    "SCI_G04_S1_113_FINAL_005|S03|G05|CHRISTMAS_CIRCUIT|004"
+  ],
+  "initial_model_science_and_direct48KP_candidates": 67,
+  "exact_11425_source_archive_papers_compared": 25,
+  "exact_11425_source_archive_slots_compared": 717,
+  "exact_published_or_archived_stem_match_positions_total": 12,
+  "same_old_school_PDF_SHA_stem_answer_gate_alias_source_count": 9,
+  "same_old_school_PDF_source_conflicting_published_answer_HOLD_count": 1,
+  "published_old_student_item_answer_contested_source_id": "SCI_G04_S1_113_FINAL_007|S01|TF|010",
+  "published_old_student_item_answer_stored_O_cannot_rewrite": true,
+  "independent_model_answer_X_not_formal": true,
+  "B01_preliminary_distinct_exact_source_operator_roster_source_count": 62,
+  "B01_operator_exact_source_roster_path": "data/review/p12-g04s1-113-all29-bulk-b01-exact62-preliminary-operator-cohort-roster-PENDING-v1.json",
+  "operator_exact_source_approval": false,
+  "original_11329_11425_final_semantic_duplicate_gate_closed": false,
+  "rights_article9_component_gate_final_closed": false,
+  "formal_science_kp_approved_new": 0,
+  "admission_ready_new": 0,
+  "published_new": 0,
+  "source_work_before": {
+    "PUBLISHED": 333,
+    "HOLD": 291,
+    "ALIAS": 16,
+    "UNREVIEWED": 1122
+  },
+  "source_work_effective_after_B01": {
+    "PUBLISHED": 333,
+    "HOLD": 292,
+    "ALIAS": 25,
+    "UNREVIEWED": 1112
+  },
+  "remaining_B01_source_work_UNREVIEWED": 104,
+  "previous_original_333_published_source_work_unchanged": true,
+  "previous_113_frozen_48KP_unchanged": true,
+  "all29_original_papers_formally_closed": 0,
+  "frozen_batch_workplan_B01_114_not_modified": true,
+  "B01_run_id": 42213891998,
+  "B01_run_url": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/42213891998",
+  "B01_run_status": "SUCCESS",
+  "B01_artifact_id": 13500775436,
+  "B01_artifact_contents": "B01 content-dedup JSON; B01 unsigned 62 exact ID roster; nine frozen 100-150 batch original provenance JSON plus summary.",
+  "NEXT_RESUME_TASK": "P12_G04S1_113_B01_FULLFIX_PostAlias9ScienceHold1_104Unreviewed_62ExactPendingOperator_CrossFull11329SemanticParents11425Rights_SourceFigure20SelectiveStudentPR_AfterOperatorOnly_Then_B02_133",
+  "provenance": [
+    {
+      "path": "data/review/p12-g04s1-113-all29-bulk-b01-114-original-content-and-gate-routing-v1.json",
+      "sha": "36ceccf6a896227e28192a447d1872fc2b63639c"
+    },
+    {
+      "path": "data/review/p12-g04s1-113-all29-bulk-b01-mingyi10-existing-legacy-exact9alias1science-hold-overlay-v1.json",
+      "sha": "f6141ed1a681379fc29712c30c30c1980d490576"
+    },
+    {
+      "path": "data/review/p12-g04s1-113-all29-bulk-b01-exact62-preliminary-operator-cohort-roster-PENDING-v1.json",
+      "sha": "d4b1e592db3656aa0f5e1444112f02aeff7524c1"
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "schema_version": "P12_G04S1_113_B01_EXACT62_COMPLETE_29_PAPER_EXACT_TEXT_CROSSWALK_V1",
+  "date": "2026-11-06",
+  "original_exam_pdf_files_visited": 29,
+  "original_exam_pdf_with_text": 24,
+  "original_exam_pdf_scan_only": [
+    "113_康軒_四上_自然_期中評量卷_內安國小.pdf",
+    "113_康軒_四上_自然_期末評量卷_獅湖國小.pdf",
+    "113_南一_四上_自然_期中評量卷_和順國小.pdf",
+    "113_南一_四上_自然_期末評量卷_忠孝國小.pdf",
+    "113_南一_四上_自然_期末評量卷_和順國小.pdf"
+  ],
+  "exact_source_items": 62,
+  "original_pdf_own_verbatim_found": 62,
+  "original_exact_stem_other_paper_candidate_count": 40,
+  "short_child_substring_matches_requiring_parent_check": 11,
+  "full_semantic_duplicate_accepted": false,
+  "operator_approved": false,
+  "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+  "ADMISSION_READY_new": 0,
+  "PUBLISHED_new": 0,
+  "footnote": "Exact stem substring across whole source PDF is candidate detection only; 5 source PDF have no text layer and need native raster visual review; identical stems in different shared parent instructions are not automatically ALIAS.",
+  "source_result_files": [
+    "data/review/p12-g04s1-113-all29-bulk-b01-cross113-kxmid11-exact-stem-research-v1.json",
+    "data/review/p12-g04s1-113-all29-bulk-b01-cross113-kxfinal6-nanyimid4-exact-stem-research-v1.json",
+    "data/review/p12-g04s1-113-all29-bulk-b01-cross113-nanyifinal3-hanlin5-exact-stem-research-v1.json"
+  ],
+  "rows": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S03|G08|TF|001",
+      "original_paper": "113_南一_四上_自然_期中評量卷_文德國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_南一_四上_自然_期中評量卷_忠孝國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "關於水域環境和水生生物的敘述，下列哪些正確？請在（ ）裡打ˇ。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S03|G08|TF|002",
+      "original_paper": "113_南一_四上_自然_期中評量卷_文德國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_南一_四上_自然_期中評量卷_忠孝國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "關於水域環境和水生生物的敘述，下列哪些正確？請在（ ）裡打ˇ。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S03|G08|TF|003",
+      "original_paper": "113_南一_四上_自然_期中評量卷_文德國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_南一_四上_自然_期中評量卷_忠孝國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "關於水域環境和水生生物的敘述，下列哪些正確？請在（ ）裡打ˇ。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_001|S03|G08|TF|004",
+      "original_paper": "113_南一_四上_自然_期中評量卷_文德國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_南一_四上_自然_期中評量卷_忠孝國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "關於水域環境和水生生物的敘述，下列哪些正確？請在（ ）裡打ˇ。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S03|G02|MATERIAL_CHECK|001",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 3,
+      "other_source_pdf_names": [
+        "113_康軒_四上_自然_期末評量卷_民權國小.pdf",
+        "113_康軒_四上_自然_期末評量卷_桃子腳國小.pdf",
+        "113_南一_四上_自然_期末評量卷_東光國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列物品接在電路的缺口，可以使燈泡發亮的請打√，不能使燈泡發亮的請打╳。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S03|G02|MATERIAL_CHECK|002",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 4,
+      "other_source_pdf_names": [
+        "113_康軒_四上_自然_期末評量卷_民權國小.pdf",
+        "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+        "113_南一_四上_自然_期中評量卷_忠孝國小.pdf",
+        "113_南一_四上_自然_期末評量卷_東光國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列物品接在電路的缺口，可以使燈泡發亮的請打√，不能使燈泡發亮的請打╳。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S03|G02|MATERIAL_CHECK|003",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_南一_四上_自然_期末評量卷_東光國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列物品接在電路的缺口，可以使燈泡發亮的請打√，不能使燈泡發亮的請打╳。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S03|G02|MATERIAL_CHECK|004",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_康軒_四上_自然_期末評量卷_民權國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列物品接在電路的缺口，可以使燈泡發亮的請打√，不能使燈泡發亮的請打╳。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S03|G02|MATERIAL_CHECK|005",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_南一_四上_自然_期末評量卷_東光國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列物品接在電路的缺口，可以使燈泡發亮的請打√，不能使燈泡發亮的請打╳。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S03|G02|MATERIAL_CHECK|006",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_康軒_四上_自然_期末評量卷_民權國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列物品接在電路的缺口，可以使燈泡發亮的請打√，不能使燈泡發亮的請打╳。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S03|G05|CHRISTMAS_CIRCUIT|001",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "聖誕節到了，小婷將去年收起來的燈飾再拿出來裝飾在聖誕樹上。電源接上後，小婷發現大多數的燈泡會亮，只有幾顆燈泡不亮了。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|001",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列關於光的特性，哪些敘述是正確的？請在（ ）中打○，不正確的請打╳。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|002",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列關於光的特性，哪些敘述是正確的？請在（ ）中打○，不正確的請打╳。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|003",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列關於光的特性，哪些敘述是正確的？請在（ ）中打○，不正確的請打╳。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|004",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列關於光的特性，哪些敘述是正確的？請在（ ）中打○，不正確的請打╳。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|005",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列關於光的特性，哪些敘述是正確的？請在（ ）中打○，不正確的請打╳。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|001",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列有關用電安全的敘述，哪些是正確的？請打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|002",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列有關用電安全的敘述，哪些是正確的？請打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|003",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列有關用電安全的敘述，哪些是正確的？請打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|004",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列有關用電安全的敘述，哪些是正確的？請打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|005",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_康軒_四上_自然_期末評量卷_明義國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列有關用電安全的敘述，哪些是正確的？請打。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|006",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_康軒_四上_自然_期末評量卷_明義國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列有關用電安全的敘述，哪些是正確的？請打。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|001",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_南一_四上_自然_期末評量卷_東光國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "日常生活中，哪些現象是因為光的反射造成的？請打。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|002",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "日常生活中，哪些現象是因為光的反射造成的？請打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|003",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "日常生活中，哪些現象是因為光的反射造成的？請打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|004",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "日常生活中，哪些現象是因為光的反射造成的？請打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|005",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "日常生活中，哪些現象是因為光的反射造成的？請打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|006",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "日常生活中，哪些現象是因為光的反射造成的？請打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|007",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "日常生活中，哪些現象是因為光的反射造成的？請打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G03|LIGHT_SOUND_APP|002",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列哪些聲音、光的應用具有指示、警示的功能？請在（ ）中打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G03|LIGHT_SOUND_APP|003",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 5,
+      "other_source_pdf_names": [
+        "113_康軒_四上_自然_期末評量卷_民權國小.pdf",
+        "113_康軒_四上_自然_期末評量卷_桃子腳國小.pdf",
+        "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+        "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+        "113_翰林_四上_自然_期末評量卷_內湖國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列哪些聲音、光的應用具有指示、警示的功能？請在（ ）中打。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G03|LIGHT_SOUND_APP|004",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 2,
+      "other_source_pdf_names": [
+        "113_康軒_四上_自然_期末評量卷_民權國小.pdf",
+        "113_康軒_四上_自然_期末評量卷_明義國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列哪些聲音、光的應用具有指示、警示的功能？請在（ ）中打。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G03|LIGHT_SOUND_APP|005",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_康軒_四上_自然_期末評量卷_桃子腳國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列哪些聲音、光的應用具有指示、警示的功能？請在（ ）中打。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G03|LIGHT_SOUND_APP|006",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列哪些聲音、光的應用具有指示、警示的功能？請在（ ）中打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G04|SOUND_STUDENT_CLAIMS|001",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "上課時老師請同學們進行分組討論，主題是探討聲音的產生與聲音的大小。以下是小宥這組同學們的看法，哪些同學發表的看法是對的？請在（ ）中打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G04|SOUND_STUDENT_CLAIMS|002",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "上課時老師請同學們進行分組討論，主題是探討聲音的產生與聲音的大小。以下是小宥這組同學們的看法，哪些同學發表的看法是對的？請在（ ）中打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G04|SOUND_STUDENT_CLAIMS|005",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "上課時老師請同學們進行分組討論，主題是探討聲音的產生與聲音的大小。以下是小宥這組同學們的看法，哪些同學發表的看法是對的？請在（ ）中打。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S02|MC|009",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": null,
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G01|FILL|001",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "甲、鐵尺 乙、美工刀片 丙、橡皮筋 丁、保麗龍 戊、不鏽鋼筷子",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G03|TF|001",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列哪些是生活中光的反射現象或應用?請在( )中打勾。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G03|TF|002",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列哪些是生活中光的反射現象或應用?請在( )中打勾。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G03|TF|003",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_康軒_四上_自然_期末評量卷_永安國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列哪些是生活中光的反射現象或應用?請在( )中打勾。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G03|TF|004",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列哪些是生活中光的反射現象或應用?請在( )中打勾。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G03|TF|005",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列哪些是生活中光的反射現象或應用?請在( )中打勾。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G03|TF|006",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列哪些是生活中光的反射現象或應用?請在( )中打勾。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G04|FILL|001",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列哪些聲音是經由什麼來傳播，請在（ ）中填入正確的代號。 A 氣體 B 固體 C 液體",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G04|FILL|002",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列哪些聲音是經由什麼來傳播，請在（ ）中填入正確的代號。 A 氣體 B 固體 C 液體",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G04|FILL|003",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列哪些聲音是經由什麼來傳播，請在（ ）中填入正確的代號。 A 氣體 B 固體 C 液體",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G04|FILL|004",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列哪些聲音是經由什麼來傳播，請在（ ）中填入正確的代號。 A 氣體 B 固體 C 液體",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G04|FILL|005",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列哪些聲音是經由什麼來傳播，請在（ ）中填入正確的代號。 A 氣體 B 固體 C 液體",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G04|FILL|006",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": true,
+      "full_parent_original_text": "下列哪些聲音是經由什麼來傳播，請在（ ）中填入正確的代號。 A 氣體 B 固體 C 液體",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G05|TF|001",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列有關用電安全的敘述，正確的請打勾。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G05|TF|002",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列有關用電安全的敘述，正確的請打勾。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G05|TF|003",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列有關用電安全的敘述，正確的請打勾。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G05|TF|004",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列有關用電安全的敘述，正確的請打勾。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G05|TF|005",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_康軒_四上_自然_期末評量卷_永安國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列有關用電安全的敘述，正確的請打勾。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S03|G05|TF|006",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 1,
+      "other_source_pdf_names": [
+        "113_康軒_四上_自然_期末評量卷_永安國小.pdf"
+      ],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "下列有關用電安全的敘述，正確的請打勾。",
+      "dupe_status": "OTHER_ORIGINAL_PAPER_SAME_STEM_PARENT_REVIEW_PENDING"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S04|G01|SINGLE_CHOICE|001",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "小萱和家人決定在周末假期出門遊玩，他們選擇到湖邊觀光，當他們走在環湖的步道上時，發現平靜的湖面上映照著附近的山景和天空，遠方的湖面因為倒映著陽光，所以看起來也閃閃亮亮的。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S04|G02|CHECK|001",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "小萱和家人決定在周末假期出門遊玩，他們選擇到湖邊觀光，當他們走在環湖的步道上時，發現平靜的湖面上映照著附近的山景和天空，遠方的湖面因為倒映著陽光，所以看起來也閃閃亮亮的。 生活中，下列哪些情況也屬於上述光的特性呢？請在正確的（ ）中打勾。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S04|G02|CHECK|002",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "小萱和家人決定在周末假期出門遊玩，他們選擇到湖邊觀光，當他們走在環湖的步道上時，發現平靜的湖面上映照著附近的山景和天空，遠方的湖面因為倒映著陽光，所以看起來也閃閃亮亮的。 生活中，下列哪些情況也屬於上述光的特性呢？請在正確的（ ）中打勾。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S04|G02|CHECK|003",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "小萱和家人決定在周末假期出門遊玩，他們選擇到湖邊觀光，當他們走在環湖的步道上時，發現平靜的湖面上映照著附近的山景和天空，遠方的湖面因為倒映著陽光，所以看起來也閃閃亮亮的。 生活中，下列哪些情況也屬於上述光的特性呢？請在正確的（ ）中打勾。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S04|G02|CHECK|004",
+      "original_paper": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_text_exact_own_PDF": true,
+      "exact_stem_found_other_source_pdf_count": 0,
+      "other_source_pdf_names": [],
+      "short_child_requiring_parent_to_disambiguate": false,
+      "full_parent_original_text": "小萱和家人決定在周末假期出門遊玩，他們選擇到湖邊觀光，當他們走在環湖的步道上時，發現平靜的湖面上映照著附近的山景和天空，遠方的湖面因為倒映著陽光，所以看起來也閃閃亮亮的。 生活中，下列哪些情況也屬於上述光的特性呢？請在正確的（ ）中打勾。",
+      "dupe_status": "NO_OTHER_READABLE_PAPER_STEM_EXACT_RASTER_FIVE_UNSEARCHABLE"
+    }
+  ],
+  "corrected_from": "P12 B01 FullFix source paper owner parser did not match original ID prefix. Corrected each owner by exact SCI_G04_S1_113_<PAPER>| prefix; previous cross-paper hit counts were invalid and replaced.",
+  "all62_original_schools_present_in_source": true,
+  "exact_cross_school_occurrences": 19
+}

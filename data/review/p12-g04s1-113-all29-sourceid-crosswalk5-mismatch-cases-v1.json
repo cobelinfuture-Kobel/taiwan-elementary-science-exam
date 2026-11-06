@@ -1,0 +1,607 @@
+{
+  "schema_version": "P12_G04S1_113_SOURCEID_CROSSWALK_FIVE_ORIGINAL_PAPERS_PENDING_V1",
+  "scope": "Five papers with source-ID differences between historical original-PDF geometry proofs and latest B/public ledgers",
+  "normalization": "Only zero padding of numeric, S and G index segments; preserve all other parent group/task tags",
+  "independent_B08_published_join": "data/review/p12-g04s1-113-all29-b08-published17-original-parent-sourceid-crosswalk-v1.json",
+  "historical_PDF_proof_source_ids": 242,
+  "totals": {
+    "B_missing": 91,
+    "pub_missing": 7,
+    "proof_unrouted": 104
+  },
+  "per_paper": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_proof": "data/review/p12-g04s1-113-p04b-shihu-mid50-native-original-source-bbox-v1.json",
+      "historical_proof_source_ids": 50,
+      "current_B_positions": 32,
+      "current_public_source_positions": 21,
+      "current_B_positions_unmatched_by_exact_legacy_source_id": 7,
+      "current_public_positions_unmatched_by_exact_legacy_source_id": 1,
+      "known_B08_published_id_crosswalked_to_main": 0,
+      "proof_source_ids_not_in_B_or_public": 25,
+      "batch_ID_mismatches": [
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S6|PLANT_DIAGRAM_CHOICE|5",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G1|READING_SINGLE_CHOICE|1",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G1|READING_SINGLE_CHOICE|2",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G1|READING_SINGLE_CHOICE|3",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE|1",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE|2",
+          "batch": "B07",
+          "status": "PUBLISHED"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE|3",
+          "batch": "B07",
+          "status": "HOLD"
+        }
+      ],
+      "published_ID_mismatches": [
+        "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE|2"
+      ],
+      "unrouted_source_proof_ID_samples": [
+        "SCI_G04_S1_113_MID_013|S03|G01|FILL|001",
+        "SCI_G04_S1_113_MID_013|S03|G01|FILL|002",
+        "SCI_G04_S1_113_MID_013|S03|G01|FILL|003",
+        "SCI_G04_S1_113_MID_013|S03|G02|FILL|001",
+        "SCI_G04_S1_113_MID_013|S03|G02|FILL|002",
+        "SCI_G04_S1_113_MID_013|S03|G02|FILL|003",
+        "SCI_G04_S1_113_MID_013|S03|G02|FILL|004",
+        "SCI_G04_S1_113_MID_013|S04|G01|MATCH|001"
+      ],
+      "interpretation": "Structural source-ID join gap only. No automatic equality for unmatched grouped source IDs; no new admissions."
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "source_proof": "data/review/p12-g04s1-113-p04b-lushang-mid50-native-answer-and-matching-bbox-v1.json",
+      "historical_proof_source_ids": 50,
+      "current_B_positions": 41,
+      "current_public_source_positions": 22,
+      "current_B_positions_unmatched_by_exact_legacy_source_id": 30,
+      "current_public_positions_unmatched_by_exact_legacy_source_id": 6,
+      "known_B08_published_id_crosswalked_to_main": 0,
+      "proof_source_ids_not_in_B_or_public": 30,
+      "batch_ID_mismatches": [
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|1",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|2",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|3",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|4",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|5",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|6",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|1",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|2",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|3",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|4",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|5",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|6",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING|1",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING|2",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING|3",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING|4",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|1",
+          "batch": "B07",
+          "status": "PUBLISHED"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|2",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|3",
+          "batch": "B07",
+          "status": "PUBLISHED"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|4",
+          "batch": "B07",
+          "status": "PUBLISHED"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G5|MATCHING|1",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G5|MATCHING|2",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G5|MATCHING|3",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB|1",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB|2",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB|3",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB|4",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|1",
+          "batch": "B07",
+          "status": "PUBLISHED"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|2",
+          "batch": "B07",
+          "status": "PUBLISHED"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|3",
+          "batch": "B07",
+          "status": "PUBLISHED"
+        }
+      ],
+      "published_ID_mismatches": [
+        "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|1",
+        "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|2",
+        "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|3",
+        "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|1",
+        "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|3",
+        "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|4"
+      ],
+      "unrouted_source_proof_ID_samples": [
+        "SCI_G04_S1_113_MID_014|S03|G01|FILL|001",
+        "SCI_G04_S1_113_MID_014|S03|G01|FILL|002",
+        "SCI_G04_S1_113_MID_014|S03|G01|FILL|003",
+        "SCI_G04_S1_113_MID_014|S03|G01|FILL|004",
+        "SCI_G04_S1_113_MID_014|S03|G01|FILL|005",
+        "SCI_G04_S1_113_MID_014|S03|G01|FILL|006",
+        "SCI_G04_S1_113_MID_014|S03|G02|TF|001",
+        "SCI_G04_S1_113_MID_014|S03|G02|TF|002"
+      ],
+      "interpretation": "Structural source-ID join gap only. No automatic equality for unmatched grouped source IDs; no new admissions."
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "source_proof": "data/review/p12-g04s1-113-p04b-guangxing-mid54-original-native-plus-vector-answer-frames-v1.json",
+      "historical_proof_source_ids": 54,
+      "current_B_positions": 51,
+      "current_public_source_positions": 18,
+      "current_B_positions_unmatched_by_exact_legacy_source_id": 23,
+      "current_public_positions_unmatched_by_exact_legacy_source_id": 0,
+      "known_B08_published_id_crosswalked_to_main": 0,
+      "proof_source_ids_not_in_B_or_public": 23,
+      "batch_ID_mismatches": [
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S6|MC|1",
+          "batch": "B05",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S6|MC|2",
+          "batch": "B05",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S6|MC|3",
+          "batch": "B05",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S6|MC|4",
+          "batch": "B05",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S6|MC|5",
+          "batch": "B05",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|1",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|2",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|3",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|4",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|5",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|6",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|7",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|8",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|9",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|10",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER|1",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER|2",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER|3",
+          "batch": "B07",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER|4",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER|5",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S5|OPEN_RESPONSE|1",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S5|OPEN_RESPONSE|2",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S5|OPEN_RESPONSE|3",
+          "batch": "B08",
+          "status": "HOLD"
+        }
+      ],
+      "published_ID_mismatches": [],
+      "unrouted_source_proof_ID_samples": [
+        "SCI_G04_S1_113_MID_015|S03|G01|FILL|001",
+        "SCI_G04_S1_113_MID_015|S03|G01|FILL|002",
+        "SCI_G04_S1_113_MID_015|S03|G01|FILL|003",
+        "SCI_G04_S1_113_MID_015|S03|G01|FILL|004",
+        "SCI_G04_S1_113_MID_015|S03|G02|FILL|001",
+        "SCI_G04_S1_113_MID_015|S03|G02|FILL|002",
+        "SCI_G04_S1_113_MID_015|S03|G02|FILL|003",
+        "SCI_G04_S1_113_MID_015|S03|G02|FILL|004"
+      ],
+      "interpretation": "Structural source-ID join gap only. No automatic equality for unmatched grouped source IDs; no new admissions."
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "source_proof": "data/review/p12-g04s1-113-p04b-anhe-final50-original-source-slot-ids-native-bbox-v1.json",
+      "historical_proof_source_ids": 50,
+      "current_B_positions": 38,
+      "current_public_source_positions": 30,
+      "current_B_positions_unmatched_by_exact_legacy_source_id": 18,
+      "current_public_positions_unmatched_by_exact_legacy_source_id": 0,
+      "known_B08_published_id_crosswalked_to_main": 6,
+      "proof_source_ids_not_in_B_or_public": 12,
+      "batch_ID_mismatches": [
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G1|CIRCUIT_FIGURE_TF|1",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G1|CIRCUIT_FIGURE_TF|2",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G1|CIRCUIT_FIGURE_TF|3",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G1|CIRCUIT_FIGURE_TF|4",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G1|CIRCUIT_FIGURE_TF|5",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G1|CIRCUIT_FIGURE_TF|6",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|1",
+          "batch": "B08",
+          "status": "PUBLISHED"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|2",
+          "batch": "B08",
+          "status": "PUBLISHED"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|3",
+          "batch": "B08",
+          "status": "PUBLISHED"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|4",
+          "batch": "B08",
+          "status": "PUBLISHED"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|5",
+          "batch": "B08",
+          "status": "PUBLISHED"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|6",
+          "batch": "B08",
+          "status": "PUBLISHED"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|7",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|8",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G3|CIRCUIT_RANK|1",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G3|CIRCUIT_RANK|2",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G3|CIRCUIT_RANK|3",
+          "batch": "B08",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_006|S3|G3|CIRCUIT_RANK|4",
+          "batch": "B08",
+          "status": "HOLD"
+        }
+      ],
+      "published_ID_mismatches": [],
+      "unrouted_source_proof_ID_samples": [
+        "SCI_G04_S1_113_FINAL_006|S03|G01|TF|001",
+        "SCI_G04_S1_113_FINAL_006|S03|G01|TF|002",
+        "SCI_G04_S1_113_FINAL_006|S03|G01|TF|003",
+        "SCI_G04_S1_113_FINAL_006|S03|G01|TF|004",
+        "SCI_G04_S1_113_FINAL_006|S03|G01|TF|005",
+        "SCI_G04_S1_113_FINAL_006|S03|G01|TF|006",
+        "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|007",
+        "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|008"
+      ],
+      "interpretation": "Structural source-ID join gap only. No automatic equality for unmatched grouped source IDs; no new admissions."
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "source_proof": "data/review/p12-g04s1-113-p04b-dahua-final38-source-slots-native-marker-matching-anchors-v1.json",
+      "historical_proof_source_ids": 38,
+      "current_B_positions": 35,
+      "current_public_source_positions": 7,
+      "current_B_positions_unmatched_by_exact_legacy_source_id": 13,
+      "current_public_positions_unmatched_by_exact_legacy_source_id": 0,
+      "known_B08_published_id_crosswalked_to_main": 0,
+      "proof_source_ids_not_in_B_or_public": 14,
+      "batch_ID_mismatches": [
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_010|S3|TF|1",
+          "batch": "B06",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_010|S3|TF|2",
+          "batch": "B06",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_010|S3|TF|3",
+          "batch": "B06",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_010|S3|TF|4",
+          "batch": "B06",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_010|S3|TF|5",
+          "batch": "B06",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_010|S3|TF|6",
+          "batch": "B06",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|1",
+          "batch": "B09",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|2",
+          "batch": "B09",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|3",
+          "batch": "B09",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|4",
+          "batch": "B09",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|5",
+          "batch": "B09",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|6",
+          "batch": "B09",
+          "status": "HOLD"
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_010|S2|MATCHING|7",
+          "batch": "B09",
+          "status": "HOLD"
+        }
+      ],
+      "published_ID_mismatches": [],
+      "unrouted_source_proof_ID_samples": [
+        "SCI_G04_S1_113_FINAL_010|S02|G01|MATCH|001",
+        "SCI_G04_S1_113_FINAL_010|S02|G01|MATCH|002",
+        "SCI_G04_S1_113_FINAL_010|S02|G01|MATCH|003",
+        "SCI_G04_S1_113_FINAL_010|S02|G01|MATCH|004",
+        "SCI_G04_S1_113_FINAL_010|S02|G01|MATCH|005",
+        "SCI_G04_S1_113_FINAL_010|S02|G02|MATCH|006",
+        "SCI_G04_S1_113_FINAL_010|S02|G02|MATCH|007",
+        "SCI_G04_S1_113_FINAL_010|S03|G01|TF|001"
+      ],
+      "interpretation": "Structural source-ID join gap only. No automatic equality for unmatched grouped source IDs; no new admissions."
+    }
+  ],
+  "do_not_reopen_published333": true,
+  "do_not_auto_promote_OR_REJECT_unmatched": true,
+  "unreviewed_certified_question_total": null,
+  "next_required": "Compare actual original parent/child, page and native/scan geometry for mismatched source-ID paths; then record one-to-one equivalence only with exact proof."
+}

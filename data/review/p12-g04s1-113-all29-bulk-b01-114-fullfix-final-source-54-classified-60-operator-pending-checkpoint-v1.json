@@ -1,0 +1,88 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_FULLFIX_B01_114_COMPLETE_CONTENT_DISPOSITION_AND_EXACT60_PENDING_GATE_CHECKPOINT_V1",
+  "date": "2026-11-06",
+  "scope": "FullFix nine original 113 G04S1 paper-complete batches, B01 114 source work positions content triage checkpoint",
+  "original_B01_papers": [
+    "SCI_G04_S1_113_MID_001",
+    "SCI_G04_S1_113_FINAL_005",
+    "SCI_G04_S1_113_FINAL_007"
+  ],
+  "B01_source_work_initial_frozen": 114,
+  "B01_source_examination_source_ids_covered": 114,
+  "B01_original_question_or_child_text_verified_from_connected_PDF": 94,
+  "B01_original_diagram_drawing_source_regions_without_complete_visual_gate": 20,
+  "B01_original_native_answer_BBox_traced": 113,
+  "B01_missing_original_native_BBox_positions": 1,
+  "B01_overlays": [
+    {
+      "path": "data/review/p12-g04s1-113-all29-bulk-b01-mingyi10-existing-legacy-exact9alias1science-hold-overlay-v1.json",
+      "positions": 10,
+      "ALIAS": 9,
+      "HOLD": 1,
+      "reason": "Nine original Mingyi TF share same original PDF SHA, item and stem as already published original student bank; TF010 already-public O and independent model X conflict"
+    },
+    {
+      "path": "data/review/p12-g04s1-113-all29-bulk-b01-crossoriginal-two-duplicate-safety-children-HOLD-overlay-v1.json",
+      "positions": 2,
+      "ALIAS": 0,
+      "HOLD": 2,
+      "reason": "Yongan and Mingyi have two identical safety child statements with equivalent shared parent, hold Mingyi secondary while retain Yongan canonical not yet public"
+    },
+    {
+      "path": "data/review/p12-g04s1-113-all29-bulk-b01-existing-gate-42-source-hold-exception-overlay-v1.json",
+      "positions": 42,
+      "ALIAS": 0,
+      "HOLD": 42,
+      "reason": "21 original figure/parent visual dependency, 10 Frozen48 direct KP not proven, 9 source parent Article9 component rights unknown, 2 science unique answer ambiguous"
+    }
+  ],
+  "B01_effective_status": {
+    "PUBLISHED": 0,
+    "HOLD": 45,
+    "ALIAS": 9,
+    "UNREVIEWED": 60
+  },
+  "B01_source_positions_disposition_classified": 54,
+  "B01_source_positions_still_pending_formal_Gates": 60,
+  "B01_exact_source_operator_roster_still_unsigned": "data/review/p12-g04s1-113-all29-bulk-b01-exact60-after-cross113-duplicate-operator-review-PENDING-v1.json",
+  "B01_exact60_by_school": {
+    "SCI_G04_S1_113_MID_001": 4,
+    "SCI_G04_S1_113_FINAL_005": 33,
+    "SCI_G04_S1_113_FINAL_007": 23
+  },
+  "cross113_original_school_papers_total": 29,
+  "cross113_source_PDFs_with_text_search": 24,
+  "cross113_scanned_only_not_exact_dedup_concluded": 5,
+  "cross113_candidate_same_text_different_paper_count": 19,
+  "quantifier_note": "19 substring matches include unrelated shared-parent short labels and are not 19 aliases; only 2 actual matched child+parent original source duplicates held this round",
+  "cross114_original_papers": 25,
+  "cross114_original_source_positions": 717,
+  "cross_year_original_stem_and_options_preflight_complete": true,
+  "full_11329_semantic_parent_figure_rights_not_final_accepted": true,
+  "effective_all29_status": {
+    "PUBLISHED": 333,
+    "HOLD": 336,
+    "ALIAS": 25,
+    "UNREVIEWED": 1068
+  },
+  "total_original_source_work": 1762,
+  "total_original_exam_PDFs": 29,
+  "whole_29_exam_papers_formally_admission_closed": 0,
+  "B02_initial_frozen_work_positions_next": 133,
+  "B02_not_started_original_content": true,
+  "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+  "ADMISSION_READY_new": 0,
+  "PUBLISHED_new": 0,
+  "main_student_site_new_items": 0,
+  "operator_exact_ID_release_authorized": false,
+  "original_333_published_source_work_not_reopened": true,
+  "frozen_113_G4S1_KP48_unchanged": true,
+  "verified_ci": {
+    "source_branch_sha": "3f42740b8daf958d4ebdfc933338232a88e143b0",
+    "full_Science_Exam_CI_run": 1385,
+    "full_Science_Exam_CI_status": "SUCCESS",
+    "FullFix_bounded_Actions_run": 33,
+    "FullFix_bounded_Actions_status": "SUCCESS"
+  },
+  "NEXT_RESUME_TASK": "P12_G04S1_113_ALL29_FULLFIX_B01_Exact60_ExistingScienceKP_Direct_Rights_SemanticScan5_OperatorExactConsentOnly_SelectiveStudentPR_CI_Main_Pages_No333Reopen_ThenB02_133"
+}

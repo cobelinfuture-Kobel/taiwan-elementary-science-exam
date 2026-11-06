@@ -1,0 +1,114 @@
+name: P12 113 G4S1 ALL29 FullFix Bulk Admission
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "Run all nine frozen 100-150 source-work batches or resume one"
+        type: choice
+        required: true
+        default: all
+        options:
+          - all
+          - B01
+          - B02
+          - B03
+          - B04
+          - B05
+          - B06
+          - B07
+          - B08
+          - B09
+  pull_request:
+    paths:
+      - ".github/workflows/p12-g04s1-113-all29-bulk-admission-fullfix.yml"
+      - "scripts/review/p12-g04s1-113-all29-bulk-admission-fullfix.mjs"
+      - "tests/p12-g04s1-113-all29-bulk1122-fullfix-gate-workflow.test.mjs"
+      - "data/review/p12-g04s1-113-all29-bulk-admission-fullfix-1122-nine-batch-frozen-plan-v1.json"
+      - "data/review/p12-g04s1-113-all29-exact7-item-gate-operator-approval-roster-PENDING-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-114-original-content-and-gate-routing-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-authored-original-text-item-science-kp-v1.json"
+      - "scripts/review/p12-g04s1-113-all29-bulk-b01-original-content-dedup.mjs"
+      - "tests/p12-g04s1-113-all29-bulk-b01-114-real-content-admission-source-guards.test.mjs"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-mingyi10-existing-legacy-exact9alias1science-hold-overlay-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-exact62-preliminary-operator-cohort-roster-PENDING-v1.json"
+      - "tests/p12-g04s1-113-all29-bulk-b01-exact62-operator-pending-and-postcontent1112.test.mjs"
+      - "tests/p12-g04s1-113-all29-bulk-b01-mingyi10-legacy-public9alias1science-hold.test.mjs"
+      - "tests/p12-g04s1-113-all29-bulk-b01-exact60-cross29-fullfix.test.mjs"
+      - "scripts/review/p12-g04s1-113-b01-b02-formal-admission-fullfix.mjs"
+      - "tests/p12-g04s1-113-b01-b02-formal-admission-fullfix-e2e.test.mjs"
+      - "data/review/p12-g04s1-113-all29-bulk-b02-133-original-text-raster-source-gate-evidence-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao24-original-science-directKP-model-prelim-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao19-lunar-no-direct-frozen48KP-HOLD-overlay-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao4-wende-exact-child-parent-duplicate-HOLD-overlay-v1.json"
+      - "data/review/p12-g04s1-113-all29-b01b02-fullfix-zhongxiao-mc004-existing-published-lineage-alias-overlay-v1.json"
+      - "data/review/p12-g04s1-113-b01b02-fullfix-science-directKP-existing-gate70-accepted-4specific-hold-v1.json"
+      - "tests/p12-g04s1-113-b01b02-science-directkp-existing-gate70-accepted.test.mjs"
+      - "data/review/p12-g04s1-113-b01b02-fullfix-article9-exam-text61-rights-component-9storyparent-hold-v1.json"
+      - "tests/p12-g04s1-113-b01b02-article9-rights-text61-9parent-hold.test.mjs"
+      - "data/review/p12-g04s1-113-b01-b02-formal-admission-fullfix-mainline-checkpoint-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-exact60-after-cross113-duplicate-operator-review-PENDING-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-existing-gate-42-source-hold-exception-overlay-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-crossoriginal-two-duplicate-safety-children-HOLD-overlay-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-62-cross29-papers-exact-duplicate-consolidated-v1.json"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/p12-g04s1-113-all29-bulk-admission-fullfix.yml"
+      - "scripts/review/p12-g04s1-113-all29-bulk-admission-fullfix.mjs"
+      - "data/review/p12-g04s1-113-all29-bulk-admission-fullfix-1122-nine-batch-frozen-plan-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-114-original-content-and-gate-routing-v1.json"
+      - "scripts/review/p12-g04s1-113-all29-bulk-b01-original-content-dedup.mjs"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: p12-g04s1-113-bulk-fullfix-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  read-only-bulk-admission:
+    name: Source evidence gates (never auto-publish)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: FullFix plan and invariant regressions
+        run: |
+          node --test tests/p12-g04s1-113-all29-bulk1122-fullfix-gate-workflow.test.mjs
+          node scripts/review/p12-g04s1-113-all29-bulk-admission-fullfix.mjs --all --check
+      - name: Run nine paper-complete batches or one selected resume batch
+        shell: bash
+        env:
+          SELECTED_BATCH: ${{ inputs.batch || 'all' }}
+        run: |
+          if [[ "$SELECTED_BATCH" == "all" ]]; then
+            node scripts/review/p12-g04s1-113-all29-bulk-admission-fullfix.mjs --all --out-dir=artifacts/p12-g04s1-113-bulk1122-fullfix
+          else
+            node scripts/review/p12-g04s1-113-all29-bulk-admission-fullfix.mjs --batch="$SELECTED_BATCH" --out-dir=artifacts/p12-g04s1-113-bulk1122-fullfix
+          fi
+      - name: B01 original question text and source duplicate screening, 114 source-work IDs
+        if: ${{ inputs.batch == 'B01' || inputs.batch == 'all' || github.event_name != 'workflow_dispatch' }}
+        run: |
+          node --test tests/p12-g04s1-113-all29-bulk-b01-114-real-content-admission-source-guards.test.mjs
+          node --test tests/p12-g04s1-113-all29-bulk-b01-mingyi10-legacy-public9alias1science-hold.test.mjs tests/p12-g04s1-113-all29-bulk-b01-exact62-operator-pending-and-postcontent1112.test.mjs tests/p12-g04s1-113-all29-bulk-b01-exact60-cross29-fullfix.test.mjs
+          node scripts/review/p12-g04s1-113-all29-bulk-b01-original-content-dedup.mjs --out-dir=artifacts/p12-g04s1-113-bulk1122-fullfix
+      - name: B01+B02 existing formal Admission evidence and 114 original717 exact dedup preflight
+        if: ${{ inputs.batch == 'B01' || inputs.batch == 'B02' || inputs.batch == 'all' || github.event_name != 'workflow_dispatch' }}
+        run: |
+          node --test tests/p12-g04s1-113-b01-b02-formal-admission-fullfix-e2e.test.mjs
+          node --test tests/p12-g04s1-113-b01b02-science-directkp-existing-gate70-accepted.test.mjs
+          node --test tests/p12-g04s1-113-b01b02-article9-rights-text61-9parent-hold.test.mjs
+          node scripts/review/p12-g04s1-113-b01-b02-formal-admission-fullfix.mjs --check --out-dir=artifacts/p12-g04s1-113-bulk1122-fullfix
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: p12-113-bulk-admission-gate-report-${{ github.run_id }}
+          path: artifacts/p12-g04s1-113-bulk1122-fullfix/
+          retention-days: 14
+          if-no-files-found: warn

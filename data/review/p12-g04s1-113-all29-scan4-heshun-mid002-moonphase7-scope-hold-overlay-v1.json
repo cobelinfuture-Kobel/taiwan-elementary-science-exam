@@ -1,0 +1,171 @@
+{
+  "schema_version": "P12_G04S1_113_SCAN4_HESHUN_MID002_SEVEN_MOON_PHASE_ORIGINAL_PARENT_HOLD_SCOPE_V1",
+  "baseline_main_sha": "d7f909327771dc309dd324bcc81d1165de454003",
+  "date": "2026-11-01",
+  "original_paper": "SCI_G04_S1_113_MID_002",
+  "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+  "source_proof": "data/review/p12-g04s1-113-heshun-mid002-last27-exact-original-raster-bbox-v1.json",
+  "source_work_crosswalk": "data/review/p12-g04s1-113-all29-scan4-182-existing-raster-sourceid-bbox-parent-crosswalk-v1.json",
+  "prior_hold_overlay": "data/review/p12-g04s1-113-all29-scan5-heshun-final001-mc008-unique-answer-hold-overlay-v1.json",
+  "scope_authority_source": "site/data/authority/science-g03-g04-selector-v3.json",
+  "authority_revision": {
+    "kind": "R5_ADDITIVE_PUBLIC_SELECTOR_190",
+    "legacy_selector": "science-g03-g04-selector-v2.json",
+    "legacy_sha256": "ac2122b09caa56afec373303c8a6169b57353bff06794831b508c3a3f5b5e4d5",
+    "operator_approved_added_kps": 3,
+    "activation_level": "EXAM_SELECTOR_ONLY_NO_QUESTION_REMAP",
+    "new_question_admission_count": 0
+  },
+  "frozen_48_g4_s1_kp_titles_count": 48,
+  "lunar_phase_specific_direct_kp_titles": 0,
+  "judgement": "Original page1 parent question asks the seven independent answer locations in moon-phase ordering/recognition from a shared eight-phase photograph plate. This assesses lunar phases/temporal lunar-cycle sequence, not one of 113 G4S1 frozen 48 KP. 'Moon' or light source references cannot be used to reassign to U03 light source by topic proximity. Source answers need not be invented or scored when directly out of scope.",
+  "original_parent_required": true,
+  "original_external_figure_rights_not_accepted": true,
+  "original_question_figure_preserved_only_in_private_source": true,
+  "source_stems_rewritten_or_scoring_invented": false,
+  "exact_seven_original_source_slots": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S01|MOON|001",
+      "source_pdf_page_1based": 1,
+      "original_source_response_region_bbox_pdf_points_top_left": [
+        730.79,
+        363.31,
+        772.78,
+        376.26
+      ],
+      "original_parent_group": "S01|MOON",
+      "old_status": "UNREVIEWED",
+      "new_effective_status": "HOLD",
+      "existing_gate_failure": "NO_DIRECT_FROZEN48KP_LUNAR_PHASE",
+      "prior_proof_ref": "data/review/p12-g04s1-113-heshun-mid002-last27-exact-original-raster-bbox-v1.json"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S01|MOON|002",
+      "source_pdf_page_1based": 1,
+      "original_source_response_region_bbox_pdf_points_top_left": [
+        800.37,
+        363.79,
+        842.12,
+        376.5
+      ],
+      "original_parent_group": "S01|MOON",
+      "old_status": "UNREVIEWED",
+      "new_effective_status": "HOLD",
+      "existing_gate_failure": "NO_DIRECT_FROZEN48KP_LUNAR_PHASE",
+      "prior_proof_ref": "data/review/p12-g04s1-113-heshun-mid002-last27-exact-original-raster-bbox-v1.json"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S01|MOON|003",
+      "source_pdf_page_1based": 1,
+      "original_source_response_region_bbox_pdf_points_top_left": [
+        869.95,
+        364.03,
+        911.93,
+        376.98
+      ],
+      "original_parent_group": "S01|MOON",
+      "old_status": "UNREVIEWED",
+      "new_effective_status": "HOLD",
+      "existing_gate_failure": "NO_DIRECT_FROZEN48KP_LUNAR_PHASE",
+      "prior_proof_ref": "data/review/p12-g04s1-113-heshun-mid002-last27-exact-original-raster-bbox-v1.json"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S01|MOON|004",
+      "source_pdf_page_1based": 1,
+      "original_source_response_region_bbox_pdf_points_top_left": [
+        930.17,
+        389.45,
+        971.91,
+        402.39
+      ],
+      "original_parent_group": "S01|MOON",
+      "old_status": "UNREVIEWED",
+      "new_effective_status": "HOLD",
+      "existing_gate_failure": "NO_DIRECT_FROZEN48KP_LUNAR_PHASE",
+      "prior_proof_ref": "data/review/p12-g04s1-113-heshun-mid002-last27-exact-original-raster-bbox-v1.json"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S01|MOON|005",
+      "source_pdf_page_1based": 1,
+      "original_source_response_region_bbox_pdf_points_top_left": [
+        846.2,
+        413.91,
+        887.94,
+        426.85
+      ],
+      "original_parent_group": "S01|MOON",
+      "old_status": "UNREVIEWED",
+      "new_effective_status": "HOLD",
+      "existing_gate_failure": "NO_DIRECT_FROZEN48KP_LUNAR_PHASE",
+      "prior_proof_ref": "data/review/p12-g04s1-113-heshun-mid002-last27-exact-original-raster-bbox-v1.json"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S01|MOON|006",
+      "source_pdf_page_1based": 1,
+      "original_source_response_region_bbox_pdf_points_top_left": [
+        1053.97,
+        440.28,
+        1095.95,
+        452.99
+      ],
+      "original_parent_group": "S01|MOON",
+      "old_status": "UNREVIEWED",
+      "new_effective_status": "HOLD",
+      "existing_gate_failure": "NO_DIRECT_FROZEN48KP_LUNAR_PHASE",
+      "prior_proof_ref": "data/review/p12-g04s1-113-heshun-mid002-last27-exact-original-raster-bbox-v1.json"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S01|MOON|007",
+      "source_pdf_page_1based": 1,
+      "original_source_response_region_bbox_pdf_points_top_left": [
+        975.03,
+        464.5,
+        1016.3,
+        477.45
+      ],
+      "original_parent_group": "S01|MOON",
+      "old_status": "UNREVIEWED",
+      "new_effective_status": "HOLD",
+      "existing_gate_failure": "NO_DIRECT_FROZEN48KP_LUNAR_PHASE",
+      "prior_proof_ref": "data/review/p12-g04s1-113-heshun-mid002-last27-exact-original-raster-bbox-v1.json"
+    }
+  ],
+  "status_scope": "ADMISSION_HOLD_DISJOINT_OVERLAY_ONLY_WITH_ORIGINAL_V8_AND_PREVIOUS_1_HOLD_UNMODIFIED",
+  "before_effective_disjoint": {
+    "PUBLISHED": 333,
+    "HOLD": 284,
+    "ALIAS": 15,
+    "UNREVIEWED": 1130
+  },
+  "after_effective_disjoint": {
+    "PUBLISHED": 333,
+    "HOLD": 291,
+    "ALIAS": 15,
+    "UNREVIEWED": 1123
+  },
+  "scan5_after_effective_disjoint": {
+    "PUBLISHED": 24,
+    "HOLD": 23,
+    "ALIAS": 0,
+    "UNREVIEWED": 215
+  },
+  "scan4_after_effective_disjoint": {
+    "PUBLISHED": 15,
+    "HOLD": 22,
+    "ALIAS": 0,
+    "UNREVIEWED": 175
+  },
+  "mid002_after_effective_disjoint": {
+    "PUBLISHED": 0,
+    "HOLD": 11,
+    "ALIAS": 0,
+    "UNREVIEWED": 39
+  },
+  "no_new_formal_science_kp_approved": 0,
+  "no_new_admission_ready": 0,
+  "no_new_published": 0,
+  "previous_published_333_untouched": true,
+  "authority_unchanged": true,
+  "source_pdf_unchanged": true,
+  "conservation_1762": true
+}

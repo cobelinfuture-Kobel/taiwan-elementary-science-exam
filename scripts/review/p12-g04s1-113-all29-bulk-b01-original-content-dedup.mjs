@@ -121,6 +121,7 @@ export function main(args=process.argv.slice(2)){
    actual_student_publication_count:0
   },null,2)+'\n');
  }
+ console.log('B01_CROSS_SOURCE_EXACT_MATCH_DETAILS '+JSON.stringify(result.rows.filter(r=>r.current_public_exact_stem_matches.length||r.original_114_25_exact_stem_matches.length).map(r=>({source_slot_id:r.source_slot_id,published:r.current_public_exact_stem_matches,archive114:r.original_114_25_exact_stem_matches}))));
  console.log('B01_ORIGINAL_CONTENT_ROUTING '+JSON.stringify({
   source_positions:result.total_original_source_work,source_text_rows:result.source_text_evidence_rows,
   figure_or_drawing_parent_pending:result.no_full_original_child_text_pending_figure_or_draw,

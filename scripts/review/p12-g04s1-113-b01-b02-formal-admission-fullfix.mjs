@@ -21,6 +21,7 @@ const B02 = read('data/review/p12-g04s1-113-all29-bulk-b02-133-original-text-ras
 const Z24 = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao24-original-science-directKP-model-prelim-v1.json');
 const D4 = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao4-wende-exact-child-parent-duplicate-HOLD-overlay-v1.json');
 const L19 = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao19-lunar-no-direct-frozen48KP-HOLD-overlay-v1.json');
+const PUBLIC_ALIAS = read('data/review/p12-g04s1-113-all29-b01b02-fullfix-zhongxiao-mc004-existing-published-lineage-alias-overlay-v1.json');
 const a = read('site/data/authority/science-g03-g04-selector-v3.json');
 const kps = a.units.filter(x => x.grade === 4 && x.semester === 1)
   .flatMap(x => x.knowledge_points.map(k => k.canonical_kp_id));
@@ -35,6 +36,9 @@ assert.equal(Z24.rows.length, 24);
 assert.equal(new Set(Z24.rows.map(x => x.source_slot_id)).size, 24);
 assert.equal(D4.rows.length, 4);
 assert.equal(L19.rows.length, 19);
+assert.equal(PUBLIC_ALIAS.disposition_after, 'ALIAS');
+assert.deepEqual(PUBLIC_ALIAS.after_all29, {PUBLISHED:333,HOLD:359,ALIAS:26,UNREVIEWED:1044});
+assert.deepEqual(PUBLIC_ALIAS.after_B02, {PUBLISHED:0,HOLD:23,ALIAS:1,UNREVIEWED:109});
 assert.equal(B02.records.filter(x => x.source_disposition_effective === 'HOLD').length, 23);
 assert.equal(B02.records.filter(x => x.source_disposition_effective === 'UNREVIEWED').length, 110);
 assert.deepEqual(B02.admission_checkpoint.all29, {
@@ -79,10 +83,18 @@ for (const file of pubFiles) {
         id: item.id, source_slot_id: item.source_slot_id || null,
         file, stem: item.stem, options: item.options || [],
         parent: block.type === 'group' ? (block.shared?.instructions || block.title || '') : '',
+        source_lineage_ids: item.source_lineage_ids || [],
       });
     }
   }
 }
+const aliasPub = published.find(x => x.id === PUBLIC_ALIAS.already_public_student_id);
+assert.ok(aliasPub, 'already published canonical Wende item missing');
+assert.ok(aliasPub.source_lineage_ids.includes(PUBLIC_ALIAS.exact_source_slot_id), 'existing public lineage does not contain exact B02 secondary source');
+const aliasChild = Z24.rows.find(x => x.source_slot_id === PUBLIC_ALIAS.exact_source_slot_id);
+assert.ok(aliasChild, 'B02 exact alias does not match its original source-work row');
+assert.equal(norm(aliasPub.stem), norm(aliasChild.original_child_text_layer_joined));
+assert.equal(setOfOptions(aliasPub.options), setOfOptions(aliasChild.original_ordered_options_text_layer));
 const publicByStem = new Map();
 for (const q of published) {
   const key = norm(q.stem);
@@ -100,7 +112,7 @@ const b01Rows = B01.records.map(q => ({
   kp: q.model_direct_kp_id, answer: q.independent_model_science_answer_NOT_TEACHER_KEY,
   type: 'EXACT60_TEXT_MODEL_SUPPORTED',
 }));
-const b02Rows = Z24.rows.map(q => ({
+const b02Rows = Z24.rows.filter(q => q.source_slot_id !== PUBLIC_ALIAS.exact_source_slot_id).map(q => ({
   batch: 'B02', source_slot_id: q.source_slot_id, paper_id: q.original_paper_id,
   stem: q.original_child_text_layer_joined,
   parent: q.original_parent_text_layer_joined || '',
@@ -110,7 +122,7 @@ const b02Rows = Z24.rows.map(q => ({
   answer: q.model_answer_not_teacher_key,
   type: q.source_stage,
 }));
-assert.equal(b01Rows.length + b02Rows.length, 84);
+assert.equal(b01Rows.length + b02Rows.length, 83);
 const candidateIds = new Set();
 for (const c of [...b01Rows, ...b02Rows]) {
   assert.ok(!candidateIds.has(c.source_slot_id), 'repeated source slot ' + c.source_slot_id);
@@ -160,13 +172,15 @@ const counts = {
   source_work_all29: 1762, previously_published_113_source_work_unchanged: 333,
   B01_exact_candidate_rows: 60, B02_source_work_rows: 133,
   B02_new_existing_disposition_hold_rows: 23,
-  B02_remaining_source_work_rows: 110, B02_text_children_assessed: 24,
+  B02_remaining_source_work_rows: 109, B02_text_children_assessed: 23,
+  B02_published_lineage_alias_from_previous_unreviewed: 1,
   B02_scan_source_work_still_visual_semantic_pending: 86,
   B01_B02_current_candidate_text_rows_for_exact_dedup: evaluated.length,
   candidate_model_science_kp_positive_not_formal: evaluated.filter(x => x.previously_model_supported_science_kp).length,
   original114_papers: 25, original114_answer_occurrences: originals.length,
   source_stem_exact114_hits: evaluated.filter(x => x.original114_same_stem.length).length,
   source_stem_exact_live_bank_hits: evaluated.filter(x => x.main_site_same_stem.length).length,
+  previously_resolved_published_lineage_alias_count: 1,
   actual_live_bank_text_entries_seen_not_student_113_source_count: published.length,
   FORMAL_SCIENCE_KP_APPROVED_new: 0, ADMISSION_READY_new: 0, PUBLISHED_new: 0,
 };
@@ -175,7 +189,7 @@ const report = {
   date: '2026-11-06', existing_gate_only: true, creates_new_gate: false,
   frozen_113_g04s1_kp48_unchanged: true,
   original_333_published_unchanged: true,
-  all29_work_disjoint: B02.admission_checkpoint.all29,
+  all29_work_disjoint: PUBLIC_ALIAS.after_all29,
   evidence_scope: 'Current PR185 B01 exact60 + B02 Zhongxiao24, cross114 25 original PDFs text corpus and public site visible bank JSON; does not replace raster-only five source exams or operator signature',
   important_limitations: [
     'A zero exact normalized stem match is not a full semantic / parent-dependent duplicate acceptance.',
@@ -189,7 +203,9 @@ const report = {
   rows: evaluated,
 };
 if (process.argv.includes('--check')) {
-  assert.equal(report.rows.length, 84);
+  assert.equal(report.rows.length, 83);
+  assert.equal(report.counts.source_stem_exact114_hits, 0);
+  assert.equal(report.counts.source_stem_exact_live_bank_hits, 0);
   assert.equal(report.counts.B02_scan_source_work_still_visual_semantic_pending, 86);
 }
 const arg = process.argv.find(x => x.startsWith('--out-dir='));

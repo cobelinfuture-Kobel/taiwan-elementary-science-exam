@@ -44,6 +44,8 @@ on:
       - "data/review/p12-g04s1-113-all29-b01b02-fullfix-zhongxiao-mc004-existing-published-lineage-alias-overlay-v1.json"
       - "data/review/p12-g04s1-113-b01b02-fullfix-science-directKP-existing-gate70-accepted-4specific-hold-v1.json"
       - "tests/p12-g04s1-113-b01b02-science-directkp-existing-gate70-accepted.test.mjs"
+      - "data/review/p12-g04s1-113-b01b02-fullfix-article9-exam-text61-rights-component-9storyparent-hold-v1.json"
+      - "tests/p12-g04s1-113-b01b02-article9-rights-text61-9parent-hold.test.mjs"
       - "data/review/p12-g04s1-113-b01-b02-formal-admission-fullfix-mainline-checkpoint-v1.json"
       - "data/review/p12-g04s1-113-all29-bulk-b01-exact60-after-cross113-duplicate-operator-review-PENDING-v1.json"
       - "data/review/p12-g04s1-113-all29-bulk-b01-existing-gate-42-source-hold-exception-overlay-v1.json"
@@ -101,6 +103,7 @@ jobs:
         run: |
           node --test tests/p12-g04s1-113-b01-b02-formal-admission-fullfix-e2e.test.mjs
           node --test tests/p12-g04s1-113-b01b02-science-directkp-existing-gate70-accepted.test.mjs
+          node --test tests/p12-g04s1-113-b01b02-article9-rights-text61-9parent-hold.test.mjs
           node scripts/review/p12-g04s1-113-b01-b02-formal-admission-fullfix.mjs --check --out-dir=artifacts/p12-g04s1-113-bulk1122-fullfix
       - uses: actions/upload-artifact@v4
         if: always()

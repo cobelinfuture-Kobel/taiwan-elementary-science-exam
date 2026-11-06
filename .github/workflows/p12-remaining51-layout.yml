@@ -40,6 +40,15 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Run actual A4 double-column and PDF check for all 51 staged slots
         run: node tools/verify-p12-remaining51-layout.mjs
+      - name: Render B01+B02 selective student release21 (16 blocks, 21 answer slots, A4 QA only)
+        run: node tools/verify-p12-g04s1-113-b01b02-selective21-a4.mjs
+      - name: Upload B01+B02 real browser A4 / PDF prepublication proof
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: science-p12-113-b01b02-selective21-localhost-layout
+          path: artifacts/p12-113-b01b02-selective21-a4/
+          if-no-files-found: ignore
       - name: Upload all 27 PDFs and screenshots as review evidence
         if: always()
         uses: actions/upload-artifact@v4

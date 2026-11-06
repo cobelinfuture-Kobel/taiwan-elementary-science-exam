@@ -68,11 +68,13 @@ test('new B01 unsigned source reviewer cohort reduced from 62 to 60, not a publi
  }
  const result=analyze({batch:'all'});
  assert.equal(result.this_run_scoped_source_work_positions,1122);
- assert.equal(result.post_B01_total_remaining_unreviewed,1110);
- assert.deepEqual(result.post_B01_content_evidence_projection,{PUBLISHED:333,HOLD:294,ALIAS:25,UNREVIEWED:1110});
+ assert.equal(result.post_B01_total_remaining_unreviewed,1068);
+ assert.deepEqual(events.current_effective_all29,{PUBLISHED:333,HOLD:294,ALIAS:25,UNREVIEWED:1110});
+ assert.deepEqual(result.post_B01_content_evidence_projection,{PUBLISHED:333,HOLD:336,ALIAS:25,UNREVIEWED:1068});
  const b=result.batches.find(x=>x.batch_id==='B01');
  assert.equal(b.input_source_work_positions,114);
- assert.equal(b.unresolved_existing_gates,102);
+ assert.equal(b.unresolved_existing_gates,60);
+ assert.equal(b.original_existing_gate_exception_source_HOLD,42);
  assert.equal(b.original_interpaper_duplicate_source_HOLD,2);
  assert.equal(result.FORMAL_SCIENCE_KP_APPROVED_new,undefined);
  assert.equal(result.formal_science_kp_approved_new,0);

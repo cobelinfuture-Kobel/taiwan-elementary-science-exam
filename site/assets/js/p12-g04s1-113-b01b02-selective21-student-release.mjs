@@ -1,7 +1,7 @@
 import { resolveUnit } from "./authority-adapter.mjs";
 
 export const SELECTIVE21_BANK_PATH="../data/question-bank/p12-g04s1-113-b01b02-selective21-prepublication-candidate-v1.json";
-export const SELECTIVE21_GATE_PATH="../../data/review/p12-g04s1-113-b01b02-selective21-exact-operator-release-gate-PENDING-v1.json";
+export const SELECTIVE21_GATE_PATH="../data/question-bank/p12-g04s1-113-b01b02-selective21-operator-release-gate-v1.json";
 export const SELECTIVE21_SCHEMA="SCIENCE_P12_G04S1_113_B01B02_SELECTIVE21_PREPUBLICATION_CANDIDATE_V1";
 export const SELECTIVE21_GATE_SCHEMA="P12_G04S1_113_B01_B02_SELECTIVE21_EXISTING_ADMISSION_GATE_RELEASE_APPROVAL_V1";
 export const SELECTIVE21_FROZEN_CONTENT_FINGERPRINT="692509b881a264dd";
@@ -70,19 +70,46 @@ export function inspectP12113B01B02Selective21Candidate(doc,authority){
     &&typeof b.stem==="string"&&b.stem.trim(), "Exam candidate block contract");
   blockIds.add(b.id);
   fail(distinct(b.source_lineage_ids)&&b.source_lineage_ids.length>=1,"source lineage disjoint");
+  const first=source.get(b.source_lineage_ids[0]);
+  fail(first?.source_slot_id===b.source_slot_id
+    &&first.original_source_paper===b.source_id
+    &&first.source_pdf_sha256===b.source_pdf_sha256
+    &&first.source_pdf_page_1based===b.source_page_pdf_1_based
+    &&JSON.stringify(first.source_answer_bbox_pts_top_left)===JSON.stringify(b.source_pdf_bbox_pts_top_left)
+    &&first.direct_frozen48kp_id===b.canonical_kp_id
+    &&b.unit==="4-S1-U"+b.canonical_kp_id.match(/^sci_g04s1_(\d{2})_/ )?.[1],
+    "full immutable original source identity and direct KP for rendered block");
+  const secondary=[...new Set(b.source_lineage_ids.map(id=>source.get(id)?.direct_frozen48kp_id))].filter(k=>k!==b.canonical_kp_id);
+  fail(JSON.stringify(secondary)===JSON.stringify(b.secondary_canonical_kp_ids),"every original child direct KP lineage preserved");
   for(const id of b.source_lineage_ids){
     fail(source.has(id)&&!represented.has(id),"all and only exact original 38 source IDs once");
     represented.add(id);
   }
-  if(b.type==="tf")fail(["O","X"].includes(b.answer),"TF answer");
-  if(b.type==="mcq")fail(Array.isArray(b.options)&&b.options.length===4&&["①","②","③","④"].includes(b.answer),"MC answer and options");
-  if(b.type==="multi")fail(b.source_lineage_ids.length===b.options?.length
-    &&[...b.answer].length>=1&&/^([①②③④⑤⑥⑦⑧⑨])+$/.test(b.answer),"checkbox source converted to exact multi");
+  if(b.type==="tf")fail(["O","X"].includes(b.answer)
+   &&b.source_lineage_ids.length===1
+   &&b.answer===first.independent_answer_not_school_key,
+    "original TF unique answer");
+  if(b.type==="mcq")fail(Array.isArray(b.options)&&b.options.length===4&&["①","②","③","④"].includes(b.answer)
+   &&b.answer===first.independent_answer_not_school_key
+   &&b.source_lineage_ids.length===1,
+    "original MC unique answer and full ordered options");
+  if(b.type==="multi"){
+    const d=["①","②","③","④","⑤","⑥","⑦","⑧","⑨"];
+    const expected=b.source_lineage_ids.map((id,i)=>source.get(id).independent_answer_not_school_key==="O"?d[i]:"").join("");
+    fail(b.source_lineage_ids.length===b.options?.length
+     &&[...b.answer].length>=1&&/^([①②③④⑤⑥⑦⑧⑨])+$/.test(b.answer)
+     &&b.answer===expected
+     &&b.source_lineage_ids.every(id=>source.get(id).original_parent_verbatim===first.original_parent_verbatim),
+     "all original positive-only checkbox answers and parent preserved");
+  }
   if(b.type==="group"){
     fail(b.items?.length===6&&b.shared?.instructions&&Array.isArray(b.shared.choiceBank),"original parent and six child short answer slots");
     for(const item of b.items){
+      const original=source.get(item.source_slot_id);
       fail(item.type==="short"&&["A","B","C"].includes(item.answer)&&
-       item.source_lineage_ids?.length===1&&item.operator_publication_approval===false,
+       item.source_lineage_ids?.length===1&&item.operator_publication_approval===false
+       &&item.answer===original?.independent_answer_not_school_key
+       &&item.canonical_kp_id===original?.direct_frozen48kp_id,
        "original code bank fill slots");
     }
   }

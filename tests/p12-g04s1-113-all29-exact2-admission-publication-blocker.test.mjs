@@ -8,7 +8,7 @@ const publicDir=new URL('../site/data/question-bank/',import.meta.url);
 const publicFiles=readdirSync(publicDir).filter(x=>x.endsWith('.json'));
 const publicBlocks=publicFiles.flatMap(f=>{
  let x=JSON.parse(readFileSync(new URL(f,publicDir),'utf8'));
- return Array.isArray(x.blocks)?x.blocks:[];
+ return Array.isArray(x.blocks)?x.blocks.map(b=>({...b,__file:f})):[];
 });
 const normalize=s=>String(s||'').normalize('NFKC').replace(/[\\s（）、，。！？：；「」『』()\\.,!?;:—-]/g,'');
 
@@ -50,7 +50,8 @@ test('already published 113+114 banks have no exact same original slots / identi
  assert.ok(publicFiles.length>=30);
  for(const x of proof.records){
   assert.ok(!publicBlocks.some(b=>b.source_slot_id===x.source_slot_id),x.source_slot_id);
-  assert.ok(!publicBlocks.some(b=>b.type==='tf'&&normalize(b.stem)===normalize(x.original_stem_verbatim)),x.source_slot_id);
+  const matches=publicBlocks.filter(b=>b.type==='tf'&&normalize(b.stem)===normalize(x.original_stem_verbatim));
+  assert.ok(matches.length===0,`${x.source_slot_id}: duplicate ${JSON.stringify(matches.map(b=>({file:b.__file,id:b.id,slot:b.source_slot_id,stem:b.stem})))}`);
  }
 });
 

@@ -30,6 +30,10 @@ on:
       - "data/review/p12-g04s1-113-all29-bulk-b01-authored-original-text-item-science-kp-v1.json"
       - "scripts/review/p12-g04s1-113-all29-bulk-b01-original-content-dedup.mjs"
       - "tests/p12-g04s1-113-all29-bulk-b01-114-real-content-admission-source-guards.test.mjs"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-mingyi10-existing-legacy-exact9alias1science-hold-overlay-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-exact62-preliminary-operator-cohort-roster-PENDING-v1.json"
+      - "tests/p12-g04s1-113-all29-bulk-b01-exact62-operator-pending-and-postcontent1112.test.mjs"
+      - "tests/p12-g04s1-113-all29-bulk-b01-mingyi10-legacy-public9alias1science-hold.test.mjs"
   push:
     branches:
       - main

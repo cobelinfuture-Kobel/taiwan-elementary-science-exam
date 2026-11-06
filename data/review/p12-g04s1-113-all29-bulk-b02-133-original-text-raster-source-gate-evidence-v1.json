@@ -15,7 +15,8 @@
     "raster_source_geometry_ref": "data/review/p12-g04s1-113-all29-scan4-182-existing-raster-sourceid-bbox-parent-crosswalk-v1.json",
     "Zhongxiao_source_marker_ref": "data/review/p12-g04s1-113-all29-original7-397-proof-residual-position-index-v1.json",
     "Neian_three_verbatim_existing_ref": "data/review/p12-g04s1-113-all29-neian-mid006-page1-three-scanned-exact-source-science-kp-gate-v1.json",
-    "new_duplicate_secondary_hold_overlay_ref": "data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao4-wende-exact-child-parent-duplicate-HOLD-overlay-v1.json"
+    "new_duplicate_secondary_hold_overlay_ref": "data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao4-wende-exact-child-parent-duplicate-HOLD-overlay-v1.json",
+    "lunar_scope_overlay_ref": "data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao19-lunar-no-direct-frozen48KP-HOLD-overlay-v1.json"
   },
   "summary": {
     "source_positions": 133,
@@ -30,20 +31,22 @@
     "scan_source_positions_with_original_geometry": 86,
     "neian_three_existing_original_visual_readback": 3,
     "duplicate_secondary_HOLD": 4,
-    "B02_UNREVIEWED_after_overlay": 129
+    "B02_UNREVIEWED_after_overlay": 110,
+    "frozen48_lunar_topic_scope_HOLD": 19,
+    "total_B02_source_work_HOLD": 23
   },
   "admission_checkpoint": {
     "B02": {
       "PUBLISHED": 0,
-      "HOLD": 4,
+      "HOLD": 23,
       "ALIAS": 0,
-      "UNREVIEWED": 129
+      "UNREVIEWED": 110
     },
     "all29": {
       "PUBLISHED": 333,
-      "HOLD": 340,
+      "HOLD": 359,
       "ALIAS": 25,
-      "UNREVIEWED": 1064
+      "UNREVIEWED": 1045
     },
     "formal_science_kp_approved_new": 0,
     "admission_ready_new": 0,
@@ -54,7 +57,7 @@
     "no_frozen48_change": true,
     "full_11329_11425_semantic_and_rights_not_passed": true
   },
-  "NEXT_RESUME_TASK": "P12_G04S1_113_B02_129Remaining_Heshun39Scan_InnerAn44Scan_Zhongxiao39FullChildText_KPScienceDedupRights_ExactOperatorConsentOnly_NoB01Or333Reopen_ThenB03_121",
+  "NEXT_RESUME_TASK": "P12_G04S1_113_B02_110Remaining_Heshun39_Neian47_Zhongxiao24_ExistingExactSourceVisualScienceFrozen48Direct_DedupRights_ExactOperatorApprovalOnly_NoB01Reopen_ThenB03_121",
   "records": [
     {
       "source_slot_id": "SCI_G04_S1_113_MID_002|S01|ANIMAL_TABLE|MOVEMENT|01",
@@ -1339,7 +1342,7 @@
       "source_slot_id": "SCI_G04_S1_113_MID_003|S01|TF|002",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -1358,19 +1361,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S01|TF|003",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -1389,19 +1388,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S01|TF|004",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -1420,19 +1415,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S01|TF|005",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -1451,13 +1442,9 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S01|TF|006",
@@ -1592,7 +1579,7 @@
       "source_slot_id": "SCI_G04_S1_113_MID_003|S02|MC|002",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -1616,19 +1603,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S02|MC|003",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -1652,13 +1635,9 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S02|MC|004",
@@ -2036,7 +2015,7 @@
       "source_slot_id": "SCI_G04_S1_113_MID_003|S04|G01|FILL|001",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -2055,19 +2034,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S04|G01|FILL|002",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -2086,19 +2061,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S04|G01|FILL|003",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -2117,19 +2088,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S04|G01|FILL|004",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -2148,19 +2115,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S05|G01|MATCH|001",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -2179,19 +2142,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S05|G01|MATCH|002",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -2210,19 +2169,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S05|G01|MATCH|003",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -2241,19 +2196,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S05|G01|MATCH|004",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -2272,13 +2223,9 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S06|G01|TF|001",
@@ -2563,7 +2510,7 @@
       "source_slot_id": "SCI_G04_S1_113_MID_003|S07|G01|MC|001",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -2587,19 +2534,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S07|G01|MC|002",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -2623,19 +2566,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S07|G01|MC|003",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -2659,19 +2598,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S07|G01|MC|004",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -2695,19 +2630,15 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S07|G01|MC|005",
       "original_source_paper_id": "SCI_G04_S1_113_MID_003",
       "frozen_batch": "B02",
-      "source_disposition_effective": "UNREVIEWED",
+      "source_disposition_effective": "HOLD",
       "formal_science_kp_approved": false,
       "admission_ready": false,
       "published": false,
@@ -2731,13 +2662,9 @@
       "reading_parent_component_rights_pending": false,
       "text_layer_visual_verbatim_readback_pending": true,
       "missing_existing_gates": [
-        "SOURCE_EXACT_IF_VISUAL_DEPENDENT",
-        "SCIENCE_UNIQUE_ANSWER_FORMAL",
-        "DIRECT_FROZEN48KP_FORMAL",
-        "DUPLICATE_11329_AND_11425_PARENT",
-        "RIGHTS_COMPONENT",
-        "EXACT_OPERATOR_SCOPE"
-      ]
+        "HOLD_CANONICAL_KP_DIRECT_SCOPE_MOON_TOPIC_NOT_IN_FROZEN48"
+      ],
+      "hold_reason": "HOLD_NO_DIRECT_113_G04S1_FROZEN48_KP_LUNAR_TOPIC"
     },
     {
       "source_slot_id": "SCI_G04_S1_113_MID_003|S08|G01|MC|001",

@@ -62,7 +62,9 @@
     "standalone_coverage_test": "tests/p12-g04s1-113-b01-b02-formal-admission-fullfix-e2e.test.mjs",
     "existing_read_only_workflow": ".github/workflows/p12-g04s1-113-all29-bulk-admission-fullfix.yml",
     "source_level_ScienceDirectKP_70_accepted": "data/review/p12-g04s1-113-b01b02-fullfix-science-directKP-existing-gate70-accepted-4specific-hold-v1.json",
-    "formal_scienceKP_component_test": "tests/p12-g04s1-113-b01b02-science-directkp-existing-gate70-accepted.test.mjs"
+    "formal_scienceKP_component_test": "tests/p12-g04s1-113-b01b02-science-directkp-existing-gate70-accepted.test.mjs",
+    "article9_scope_61_rights_accepted": "data/review/p12-g04s1-113-b01b02-fullfix-article9-exam-text61-rights-component-9storyparent-hold-v1.json",
+    "article9_scope_gate_guard_test": "tests/p12-g04s1-113-b01b02-article9-rights-text61-9parent-hold.test.mjs"
   },
   "evaluated_original_source_text": {
     "b01_60_plus_b02_zhongxiao_remaining23_candidate_text_rows": 83,
@@ -77,12 +79,12 @@
     "independent_original_source_parent_figure_visual_recovery": "B02 scan86 and B02 Zhongxiao source text visual requirements; B01 inherited exact source parent needs final applicable acceptance",
     "science_unique_answer_and_direct_113_frozen48kp_formal": "70 source components accepted, but complete distinct-question formal progress remains 0 pending other original Source/Duplicate scope and official admissions evidence.",
     "duplicate": "remaining 113 original five raster PDFs plus full parent/option meaning, and specific public/cross-original semantic collisions",
-    "rights": "school regulated-exam Article9 per original component; don't publish third-party scan/images/teacher key",
+    "rights": "Original school exam text-only Article9 rights components accepted for 61 source positions after verifying four regular-school-exam headers; nine story/diary parent source component rights withheld. Still requires all29 including scan5 duplicate and exact operator release.",
     "operator_exact_scope": "unsigned exact source roster; user task authorization is NOT exact release signature",
     "student_release": "No selective new student PR or main/Pages E2E until all applicable signed gates genuinely pass",
     "independent_science_and_direct_113_frozen48kp": "70 exact candidate source positions have an accepted Science/Direct KP component record. Four B01 risk sources remain specifically unresolved; nine B02 Zhongxiao source text positions have missing direct Science/KP or figure/rights Gate. B02 scanned other 86 need original PDF semantic image readback. None of the accepted source components is automatically a formal student admission."
   },
-  "next_short_step": "Finish only missing existing Gate evidence for 70 accepted Science/KP source components (B01 56 + B02 14), resolve B01 four distinct ambiguities and B02 nine text exceptions and scan86, complete five raster PDF semantic dedup and question-only Article9 rights; submit one exact operator consent for fully eligible source IDs and selective release; then B03 frozen 121.",
+  "next_short_step": "B01/B02: finish 113 original 5 raster-only PDF true parent+option semantic duplicate evidence for 61 text-only source candidates with accepted independent science/KP and Rights components; resolve 9 original story parent rights, 4 B01 specific science ambiguities, B02 remaining 9 text and 86 raster source items. Publish only an exact truly completed source ID cohort after operator approval, then B03 frozen121.",
   "expected_ci_readback_commit_prior": "b8ab1627735499704e8c972a9af2aa8c2063b3f5",
   "observed_CI": "Science Exam S1 CI #1403 success, FullFix Actions #51 success at prior HEAD; next commit needs fresh CI readback",
   "full_original_papers_formally_closed_new": 0,
@@ -96,5 +98,17 @@
     "linked_evidence": "data/review/p12-g04s1-113-b01b02-fullfix-science-directKP-existing-gate70-accepted-4specific-hold-v1.json",
     "not_full_distinct_student_formal_admission": true,
     "not_operator_release_consent": true
+  },
+  "b01b02_article9_rights_text_only_evidence": {
+    "school_regulated_exam_headers_confirmed_four_papers": 4,
+    "accepted_source_question_text_only": 61,
+    "B01_accepted": 51,
+    "B02_accepted": 10,
+    "story_parent_thirdparty_rights_hold": 9,
+    "B01_MingyiLake5_hold": 5,
+    "B02_ZhongxiaoCamping4_hold": 4,
+    "source": "data/review/p12-g04s1-113-b01b02-fullfix-article9-exam-text61-rights-component-9storyparent-hold-v1.json",
+    "excludes_school_PDF_third_party_figures_teacher_answer": true,
+    "no_operator_approval_or_student_publication": true
   }
 }

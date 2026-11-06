@@ -8,7 +8,7 @@ const b02 = plan.batches.find((b) => b.batch_id === 'B02');
 const evidence = read('data/review/p12-g04s1-113-all29-bulk-b02-133-original-text-raster-source-gate-evidence-v1.json');
 const overlay = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao4-wende-exact-child-parent-duplicate-HOLD-overlay-v1.json');
 const b01 = read('data/review/p12-g04s1-113-all29-bulk-b01-exact60-after-cross113-duplicate-operator-review-PENDING-v1.json');
-const normalize = (s) => (s || '').replace(/[\\s，。！？、：（）()：．.]/g, '');
+const normalize = (s) => (s || '').replace(/[\s，。！？、：（）()：．.]/g, '');
 
 test('B02 retains exactly 133 frozen source IDs and all three complete original paper groups', () => {
   assert.equal(b02.source_work_count, 133);

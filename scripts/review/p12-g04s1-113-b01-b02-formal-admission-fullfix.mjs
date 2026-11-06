@@ -199,7 +199,7 @@ if (arg) {
   writeFileSync(path.join(dir, 'b01-b02-formal-admission-fullfix-precheck.json'),
     JSON.stringify(report, null, 2) + '\n');
 }
-console.log(JSON.stringify({schema:report.schema_version,counts,unfinished:[
+console.log(JSON.stringify({schema:report.schema_version,counts,public_same_stem_items:evaluated.filter(r=>r.main_site_same_stem.length).map(r=>({source_slot_id:r.source_slot_id,public_ids:r.main_site_same_stem.map(q=>({id:q.id,source_slot_id:q.source_slot_id,file:q.file,same_options:q.same_options_ignoring_order}))})),unfinished:[
   'SCIENCE_DIRECT_KP_FORMAL', 'ORIGINAL113_RASTER5_SEMANTIC_DEDUP',
   'RIGHTS_COMPONENT', 'OPERATOR_EXACT_SCOPE',
 ], output:arg ? arg.slice('--out-dir='.length) : 'none'}, null, 2));

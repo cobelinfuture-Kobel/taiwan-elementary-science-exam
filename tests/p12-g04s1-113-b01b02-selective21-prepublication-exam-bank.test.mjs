@@ -11,7 +11,7 @@ import {
 } from "../site/assets/js/p12-g04s1-113-b01b02-selective21-student-release.mjs";
 const read=p=>JSON.parse(readFileSync(new URL(p,import.meta.url),"utf8"));
 const source=read("../site/data/question-bank/p12-g04s1-113-b01b02-selective21-prepublication-candidate-v1.json");
-const gate=read("../data/review/p12-g04s1-113-b01b02-selective21-exact-operator-release-gate-PENDING-v1.json");
+const gate=read("../site/data/question-bank/p12-g04s1-113-b01b02-selective21-operator-release-gate-v1.json");
 const authority=validateAuthority(read("../site/data/authority/science-g03-g04-selector-v3.json"));
 
 test("Actual source-backed student bank shape: 38 exact original sources -> 21 printable answer slots",()=>{
@@ -24,7 +24,7 @@ test("Actual source-backed student bank shape: 38 exact original sources -> 21 p
  assert.equal(source.source_slots_B02,10);
  assert.deepEqual(source.answer_types,{tf:8,mcq:3,multi:4,short:6});
  assert.equal(SELECTIVE21_BANK_PATH,"../data/question-bank/p12-g04s1-113-b01b02-selective21-prepublication-candidate-v1.json");
- assert.equal(SELECTIVE21_GATE_PATH,"../../data/review/p12-g04s1-113-b01b02-selective21-exact-operator-release-gate-PENDING-v1.json");
+ assert.equal(SELECTIVE21_GATE_PATH,"../data/question-bank/p12-g04s1-113-b01b02-selective21-operator-release-gate-v1.json");
 });
 test("Original checkboxes become multi-select with original parent; six sound-medium fill items keep parent",()=>{
  const multi=source.blocks.filter(b=>b.type==="multi");
@@ -75,10 +75,8 @@ test("Immutable original source+rendered answer fingerprint detects any stem, op
  for(const field of ["answer","stem","canonical_kp_id"]){
    const doc=structuredClone(source);doc.blocks[0][field]="TAMPERED";
    if(field==="canonical_kp_id"){
-      doc.source_evidence_rows[0].direct_frozen48kp_id="sci_g04s1_04_12";
-      // Rendered content fingerprint does not cover top-level kp; explicit lineage + source authority below.
+      doc.blocks[0][field]="sci_g04s1_04_12";
    }
-   if(field==="canonical_kp_id")continue;
    assert.throws(()=>inspectP12113B01B02Selective21Candidate(doc,authority),/FAIL_CLOSED/);
  }
 });

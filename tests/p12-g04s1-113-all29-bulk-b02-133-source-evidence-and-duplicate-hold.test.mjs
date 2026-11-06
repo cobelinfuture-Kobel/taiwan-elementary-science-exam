@@ -7,6 +7,7 @@ const plan = read('data/review/p12-g04s1-113-all29-bulk-admission-fullfix-1122-n
 const b02 = plan.batches.find((b) => b.batch_id === 'B02');
 const evidence = read('data/review/p12-g04s1-113-all29-bulk-b02-133-original-text-raster-source-gate-evidence-v1.json');
 const overlay = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao4-wende-exact-child-parent-duplicate-HOLD-overlay-v1.json');
+const preliminary24 = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao24-original-science-directKP-model-prelim-v1.json');
 const lunar = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao19-lunar-no-direct-frozen48KP-HOLD-overlay-v1.json');
 const b01 = read('data/review/p12-g04s1-113-all29-bulk-b01-exact60-after-cross113-duplicate-operator-review-PENDING-v1.json');
 const normalize = (s) => (s || '').replace(/[\s，。！？、：（）()：．.]/g, '');
@@ -83,4 +84,28 @@ test('Nineteen original Moon-topic source positions have no direct KP in frozen 
     assert.equal(linked?.admission_ready, false);
     assert.equal(linked?.published, false);
   }
+});
+
+test('Zhongxiao 24 remaining original items have bounded model-only Science/KP triage', () => {
+  const original = evidence.records.filter((r) =>
+    r.original_source_paper_id === 'SCI_G04_S1_113_MID_003' &&
+    r.source_disposition_effective === 'UNREVIEWED');
+  assert.equal(original.length, 24);
+  assert.equal(preliminary24.rows.length, 24);
+  assert.deepEqual(
+    [...preliminary24.rows.map((r) => r.source_slot_id)].sort(),
+    [...original.map((r) => r.source_slot_id)].sort());
+  assert.equal(new Set(preliminary24.rows.map((r) => r.source_slot_id)).size, 24);
+  assert.deepEqual(preliminary24.source_stage_counts, {
+    MODEL_SUPPORTED_SCIENCE_AND_DIRECT_KP_PRELIMINARY: 14,
+    SCIENCE_UNIQUE_ANSWER_UNRESOLVED: 3,
+    KP_DIRECT_SCOPE_UNRESOLVED: 4,
+    ORIGINAL_FIGURE_VISUAL_DEPENDENCE: 2,
+    READING_PARENT_RIGHTS_DEPENDENCE: 1,
+  });
+  assert.ok(preliminary24.rows.every((r) =>
+    !r.formal_science_kp_approved && !r.admission_ready && !r.published));
+  assert.equal(preliminary24.FORMAL_SCIENCE_KP_APPROVED_new, 0);
+  assert.equal(preliminary24.ADMISSION_READY_new, 0);
+  assert.equal(preliminary24.PUBLISHED_new, 0);
 });

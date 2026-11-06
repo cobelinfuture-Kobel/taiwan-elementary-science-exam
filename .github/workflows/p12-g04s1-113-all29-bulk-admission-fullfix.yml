@@ -42,6 +42,9 @@ on:
       - "data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao19-lunar-no-direct-frozen48KP-HOLD-overlay-v1.json"
       - "data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao4-wende-exact-child-parent-duplicate-HOLD-overlay-v1.json"
       - "data/review/p12-g04s1-113-all29-b01b02-fullfix-zhongxiao-mc004-existing-published-lineage-alias-overlay-v1.json"
+      - "data/review/p12-g04s1-113-b01b02-fullfix-science-directKP-existing-gate70-accepted-4specific-hold-v1.json"
+      - "tests/p12-g04s1-113-b01b02-science-directkp-existing-gate70-accepted.test.mjs"
+      - "data/review/p12-g04s1-113-b01-b02-formal-admission-fullfix-mainline-checkpoint-v1.json"
       - "data/review/p12-g04s1-113-all29-bulk-b01-exact60-after-cross113-duplicate-operator-review-PENDING-v1.json"
       - "data/review/p12-g04s1-113-all29-bulk-b01-existing-gate-42-source-hold-exception-overlay-v1.json"
       - "data/review/p12-g04s1-113-all29-bulk-b01-crossoriginal-two-duplicate-safety-children-HOLD-overlay-v1.json"
@@ -97,6 +100,7 @@ jobs:
         if: ${{ inputs.batch == 'B01' || inputs.batch == 'B02' || inputs.batch == 'all' || github.event_name != 'workflow_dispatch' }}
         run: |
           node --test tests/p12-g04s1-113-b01-b02-formal-admission-fullfix-e2e.test.mjs
+          node --test tests/p12-g04s1-113-b01b02-science-directkp-existing-gate70-accepted.test.mjs
           node scripts/review/p12-g04s1-113-b01-b02-formal-admission-fullfix.mjs --check --out-dir=artifacts/p12-g04s1-113-bulk1122-fullfix
       - uses: actions/upload-artifact@v4
         if: always()

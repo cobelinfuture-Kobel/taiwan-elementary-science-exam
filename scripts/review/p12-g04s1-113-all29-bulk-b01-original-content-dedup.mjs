@@ -104,6 +104,17 @@ const outcome={
  }])),
  rows
 };
+const content60=read(P+'bulk-b01-exact60-after-cross113-duplicate-operator-review-PENDING-v1.json');
+const held42=read(P+'bulk-b01-existing-gate-42-source-hold-exception-overlay-v1.json');
+assert.equal(content60.records.length,60,'B01 final content evidence should preserve 60 unsigned candidate originals');
+assert.equal(held42.records.length,42,'B01 exception HOLD 42 source positions must remain classified');
+assert.equal(content60.source_ids_exact.every(x=>resultPlaceholderOrPreliminaryContains(x)),true);
+function resultPlaceholderOrPreliminaryContains(id){return outcome.preliminary_shortlist_source_slot_ids.includes(id);}
+outcome.precise_operator_roster_after_B01_all_content_routing=content60.source_ids_exact;
+outcome.existing_gate_exceptions_source_positions_HOLD=held42.records.length;
+outcome.effective_29_disjoint_after_B01={PUBLISHED:333,HOLD:336,ALIAS:25,UNREVIEWED:1068};
+outcome.B01_source_positions_classified_this_batch=54;
+outcome.B01_frozen114_remaining_unsigned_candidates=60;
 export const result=outcome;
 export function main(args=process.argv.slice(2)){
  let dir=null;
@@ -115,7 +126,11 @@ export function main(args=process.argv.slice(2)){
   writeFileSync(path.join(dest,'B01-content-dedup-review.json'),JSON.stringify(result,null,2)+'\n');
   writeFileSync(path.join(dest,'B01-preliminary-operator-roster-PENDING.json'),JSON.stringify({
    schema_version:'P12_G04S1_113_B01_EXACT_SOURCE_OPERATOR_PRELIMINARY_ROSTER_NOT_APPROVED_V1',
-   source_slot_ids:result.preliminary_shortlist_source_slot_ids,
+   source_slot_ids:result.precise_operator_roster_after_B01_all_content_routing,
+   initial_model_preflight_count:result.preliminary_shortlist_source_slot_ids.length,
+   source_gate_exceptions_held:result.existing_gate_exceptions_source_positions_HOLD,
+   exact_operator_candidates_not_yet_signed:result.precise_operator_roster_after_B01_all_content_routing.length,
+   B01_remaining_original_work_positions:60,
    formal_11425_11329_duplicate_rights_and_operator_gates_not_closed:true,
    operator_authorized:false,
    actual_student_publication_count:0
@@ -128,6 +143,10 @@ export function main(args=process.argv.slice(2)){
   public_exact_stem_matches:result.public_exact_stem_match_source_positions,
   archive114_exact_matches:result.original114_exact_stem_match_source_positions,
   preliminary_distinct_science_directkp_roster:result.preliminary_original_text_science_directkp_no_exact_source_match,
+  source_exceptions_classified_HOLD:result.existing_gate_exceptions_source_positions_HOLD,
+  precise_original_source_operator_cohort_not_signed:result.precise_operator_roster_after_B01_all_content_routing.length,
+  B01_remaining_UNREVIEWED:60,
+  ALL29_remaining_UNREVIEWED:1068,
   possible_duplicate_ids:result.duplicate_manual_review_source_slot_ids,
   operator_signed:false,FORMAL_SCIENCE_KP_APPROVED_new:0,ADMISSION_READY_new:0,PUBLISHED_new:0
  }));

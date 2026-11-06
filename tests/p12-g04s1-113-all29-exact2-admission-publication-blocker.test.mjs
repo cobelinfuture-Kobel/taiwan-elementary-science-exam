@@ -12,8 +12,12 @@ const publicBlocks=publicFiles.flatMap(f=>{
 });
 const normalize=s=>String(s||'').normalize('NFKC').replace(/[\\s（）、，。！？：；「」『』()\\.,!?;:—-]/g,'');
 
-test('exact original 2 nonpublic-source positions, independent Science and direct authorized frozen48 KP',()=>{
- assert.equal(proof.records.length,2);
+test('one source-exact admission candidate and one already public exact alias, independent Science/direct Frozen48KP',()=>{
+ assert.equal(proof.records.length,1);
+ assert.equal(proof.public_exact_aliases.length,1);
+ assert.equal(proof.source_positions_screened,2);
+ assert.equal(proof.new_student_item_candidates,1);
+ assert.equal(proof.exact_public_alias_count,1);
  assert.equal(proof.original_paper_identity_matches_29,29);
  assert.equal(proof.original_readable_pdf_text_scans,24);
  assert.equal(proof.original_raster_papers_visually_sampled_for_exacts,5);
@@ -21,9 +25,9 @@ test('exact original 2 nonpublic-source positions, independent Science and direc
  const kps=authority.units.filter(x=>x.grade===4&&x.semester===1).flatMap(u=>u.knowledge_points);
  assert.equal(kps.length,48);
  const kpm=new Map(kps.map(k=>[k.canonical_kp_id,k.title]));
- const exactIds=['SCI_G04_S1_113_MID_005|S01|TF|002','SCI_G04_S1_113_FINAL_005|S01|TF|007'];
+ const exactIds=['SCI_G04_S1_113_MID_005|S01|TF|002'];
  assert.deepEqual(proof.records.map(x=>x.source_slot_id),exactIds);
- assert.equal(new Set(exactIds).size,2);
+ assert.equal(new Set(exactIds).size,1);
  for(const x of proof.records){
   assert.equal(x.original_type,'TF');
   assert.equal(x.original_pdf_page_1based,1);
@@ -43,16 +47,31 @@ test('exact original 2 nonpublic-source positions, independent Science and direc
   assert.equal(x.original_teacher_answer_not_authenticated,true);
   assert.match(x.student_item_content_fingerprint_fnv1a64,/^[a-f0-9]{16}$/);
  }
- assert.equal(proof.science_unique_and_direct_kp_independent_pass,2);
+ assert.equal(proof.science_unique_and_direct_kp_independent_pass,1);
 });
 
-test('already published 113+114 banks have no exact same original slots / identical standalone stem',()=>{
+test('main public bank contains exactly known 114 public alias; eligible 113 MID source is not already present',()=>{
  assert.ok(publicFiles.length>=30);
  for(const x of proof.records){
   assert.ok(!publicBlocks.some(b=>b.source_slot_id===x.source_slot_id),x.source_slot_id);
   const matches=publicBlocks.filter(b=>b.type==='tf'&&normalize(b.stem)===normalize(x.original_stem_verbatim));
   assert.ok(matches.length===0,`${x.source_slot_id}: duplicate ${JSON.stringify(matches.map(b=>({file:b.__file,id:b.id,slot:b.source_slot_id,stem:b.stem})))}`);
  }
+ const ali=proof.public_exact_aliases[0];
+ assert.equal(ali.source_slot_id,'SCI_G04_S1_113_FINAL_005|S01|TF|007');
+ assert.equal(ali.source_lineage_action,'ADD_113_SOURCE_ALIAS_ONLY_TO_REVIEW_LEDGER');
+ assert.equal(ali.eligible_for_new_student_publication,false);
+ assert.equal(ali.existing_public_student_id,'P12_B04_G04S1_B04_TF_050');
+ assert.equal(ali.existing_public_original_source_slot_id,'SCI_G04_S1_114_FINAL_007|S01|TF|013');
+ assert.equal(ali.existing_public_bank_path,'site/data/question-bank/p12-b04-b04-47-public-v1.json');
+ assert.equal(ali.existing_public_kp_id_frozen_unchanged,'sci_g04s1_04_05');
+ const exact114=publicBlocks.filter(b=>b.type==='tf'&&normalize(b.stem)===normalize(ali.original_stem_verbatim));
+ assert.equal(exact114.length,1);
+ assert.equal(exact114[0].id,ali.existing_public_student_id);
+ assert.equal(exact114[0].source_slot_id,ali.existing_public_original_source_slot_id);
+ assert.equal(exact114[0].__file,'p12-b04-b04-47-public-v1.json');
+ assert.equal(exact114[0].canonical_kp_id,'sci_g04s1_04_05');
+ assert.equal(ali.exact_original_stem_match_verified_by_CI,true);
 });
 
 test('two examined items are not auto-promoted to published without formal 29/114 dedup and exact operator approval',()=>{

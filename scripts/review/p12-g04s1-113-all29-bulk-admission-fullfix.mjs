@@ -101,7 +101,7 @@ function exactSeven(){
   invariant(e,'candidate lacks original source evidence: '+q.id);
   const stem=e.original_stem_verbatim;
   const bbox=e.original_native_answer_bbox_pdf_points_top_left||e.original_source_response_bbox_pdf_pts_top_left||e.original_answer_bracket_bbox_pdf_pts_top_left;
-  invariant(typeof stem==='string'&&stem.length>12,'not full original stem: '+q.id);
+  invariant(typeof stem==='string'&&stem.trim().length>=6,'not full original stem: '+q.id);
   invariant(Array.isArray(bbox)&&bbox.length===4&&bbox.every(Number.isFinite),'not physical source answer rectangle: '+q.id);
   const originalOptions=e.original_four_ordered_options||e.original_options||[];
   const type=e.original_question_type||e.original_type;

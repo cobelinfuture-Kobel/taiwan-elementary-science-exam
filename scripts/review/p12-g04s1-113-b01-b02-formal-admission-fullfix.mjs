@@ -22,6 +22,7 @@ const Z24 = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao24-original-
 const D4 = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao4-wende-exact-child-parent-duplicate-HOLD-overlay-v1.json');
 const L19 = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao19-lunar-no-direct-frozen48KP-HOLD-overlay-v1.json');
 const PUBLIC_ALIAS = read('data/review/p12-g04s1-113-all29-b01b02-fullfix-zhongxiao-mc004-existing-published-lineage-alias-overlay-v1.json');
+const SCIENCE70 = read('data/review/p12-g04s1-113-b01b02-fullfix-science-directKP-existing-gate70-accepted-4specific-hold-v1.json');
 const a = read('site/data/authority/science-g03-g04-selector-v3.json');
 const kps = a.units.filter(x => x.grade === 4 && x.semester === 1)
   .flatMap(x => x.knowledge_points.map(k => k.canonical_kp_id));
@@ -123,6 +124,13 @@ const b02Rows = Z24.rows.filter(q => q.source_slot_id !== PUBLIC_ALIAS.exact_sou
   type: q.source_stage,
 }));
 assert.equal(b01Rows.length + b02Rows.length, 83);
+assert.equal(SCIENCE70.rows_accepted.length, 70);
+assert.equal(SCIENCE70.rows_unaccepted_gated.length, 4);
+assert.equal(SCIENCE70.operator_exact_release_signature_present, false);
+const pendingTextIds = new Set([...b01Rows, ...b02Rows].map(x => x.source_slot_id));
+assert.ok([...SCIENCE70.rows_accepted, ...SCIENCE70.rows_unaccepted_gated].every(x => pendingTextIds.has(x.source_slot_id)));
+assert.equal(SCIENCE70.rows_accepted.filter(x => x.batch === 'B01').length, 56);
+assert.equal(SCIENCE70.rows_accepted.filter(x => x.batch === 'B02').length, 14);
 const candidateIds = new Set();
 for (const c of [...b01Rows, ...b02Rows]) {
   assert.ok(!candidateIds.has(c.source_slot_id), 'repeated source slot ' + c.source_slot_id);
@@ -177,6 +185,10 @@ const counts = {
   B02_scan_source_work_still_visual_semantic_pending: 86,
   B01_B02_current_candidate_text_rows_for_exact_dedup: evaluated.length,
   candidate_model_science_kp_positive_not_formal: evaluated.filter(x => x.previously_model_supported_science_kp).length,
+  source_level_science_and_directkp_components_explicitly_accepted: SCIENCE70.rows_accepted.length,
+  B01_science_kp_components_accepted: 56,
+  B02_science_kp_components_accepted: 14,
+  B01_specific_science_or_source_context_risks_held: 4,
   original114_papers: 25, original114_answer_occurrences: originals.length,
   source_stem_exact114_hits: evaluated.filter(x => x.original114_same_stem.length).length,
   source_stem_exact_live_bank_hits: evaluated.filter(x => x.main_site_same_stem.length).length,
@@ -194,7 +206,7 @@ const report = {
   important_limitations: [
     'A zero exact normalized stem match is not a full semantic / parent-dependent duplicate acceptance.',
     'The original 113 five raster-only exam source PDFs remain a full-semantic-text comparison gap.',
-    'B01 model Science/KP and B02 preliminary 14 are NOT automatically formal approval.',
+    'B01 56 and B02 14 have source-level independent Science/direct KP component acceptance, but not full distinct-question published Admission approval.',
     'No PDF scan, original image, external text or original teacher answers are published.',
     'No operator exact cohort signature was supplied by this batch-processing instruction.',
   ],
@@ -204,6 +216,7 @@ const report = {
 };
 if (process.argv.includes('--check')) {
   assert.equal(report.rows.length, 83);
+  assert.equal(report.counts.source_level_science_and_directkp_components_explicitly_accepted, 70);
   assert.equal(report.counts.source_stem_exact114_hits, 0);
   assert.equal(report.counts.source_stem_exact_live_bank_hits, 0);
   assert.equal(report.counts.B02_scan_source_work_still_visual_semantic_pending, 86);

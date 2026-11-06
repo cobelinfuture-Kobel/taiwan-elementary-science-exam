@@ -204,7 +204,7 @@ export function analyze({batch='all'}={}){
     ...source,
     post_B01_content_effective_disposition:event?.source_status_after||source.effective_disposition,
     existing_public_source_duplicate_suppressed:event?.source_status_after==='ALIAS'||false,
-    existing_public_science_answer_disagreement_HOLD:event?.source_status_after==='HOLD'&&event?.event_source_type!=='UNPUBLISHED_CANONICAL_DUPLICATE'||false,
+    existing_public_science_answer_disagreement_HOLD:event?.source_status_after==='HOLD'&&!event?.event_source_type||false,
     B01_unpublished_canonical_duplicate_HOLD:event?.event_source_type==='UNPUBLISHED_CANONICAL_DUPLICATE'||false,
     B01_existing_gate_exception_HOLD:event?.event_source_type==='B01_EXISTING_GATE_EXCEPTION'||false,
     post_content_source_disposition_evidence:event?.event_source_type==='B01_EXISTING_GATE_EXCEPTION'?'data/review/p12-g04s1-113-all29-bulk-b01-existing-gate-42-source-hold-exception-overlay-v1.json':event?.event_source_type==='UNPUBLISHED_CANONICAL_DUPLICATE'?'data/review/p12-g04s1-113-all29-bulk-b01-crossoriginal-two-duplicate-safety-children-HOLD-overlay-v1.json':event?'data/review/p12-g04s1-113-all29-bulk-b01-mingyi10-existing-legacy-exact9alias1science-hold-overlay-v1.json':null

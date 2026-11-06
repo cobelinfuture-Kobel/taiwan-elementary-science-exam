@@ -68,7 +68,23 @@
       "operator_eligible": false,
       "ADMISSION_READY": false,
       "PUBLISHED": false,
-      "original_disjoint_status_not_modified": "UNREVIEWED"
+      "original_disjoint_status_not_modified": "UNREVIEWED",
+      "crossyear_original_question_evidence": {
+        "original_114_source_paper": "SCI_G04_S1_114_MID_005",
+        "original_114_source_slot_id": "SCI_G04_S1_114_MID_005|S01|TF|008",
+        "original_114_archive_evidence_file": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+        "original_114_stem_verbatim": "蟹有八隻腳及一對螯，能在水中爬行，用鰓呼吸。",
+        "original_113_stem_verbatim": "螃蟹有八隻腳及一對螯，可以在水中爬行，用鰓呼吸。",
+        "two_original_stems_verbatim_equal": false,
+        "meaning_and_answer_near_equivalent": true,
+        "wording_variants": [
+          "蟹 → 螃蟹",
+          "能 → 可以"
+        ],
+        "source_114_not_automatically_already_public": true,
+        "dedup_rule": "On 2026-10-19 approved policy, same KP/scientific proposition with genuinely different actual wording or context may be separately admitted; fully identical and only punctuation/order changes must share student item. But final 11329+11425 full-semantic acceptance and exact operator remain open.",
+        "future_science_kp_scope": "113 original is direct 02_09, not teacher answer and not auto-public."
+      }
     }
   ],
   "source_positions_screened": 2,
@@ -130,5 +146,9 @@
       "eligible_for_new_student_publication": false
     }
   ],
-  "exact_public_alias_gate_closed_for_one": true
+  "exact_public_alias_gate_closed_for_one": true,
+  "original_114_source_files_reviewed": 25,
+  "original_114_source_positions_in_frozen_corpus": 717,
+  "original_114_near_different_wording_source_match_count": 1,
+  "original_114_exact_verbatim_same_stem_for_distinct_113_mid005": 0
 }

@@ -14,7 +14,9 @@ permissions:
   contents: read
 jobs:
   staging-a4-review:
-    runs-on: ubuntu-latest
+    # Playwright 1.55.0 Chromium dependencies are not supported on ubuntu-26.04.
+    # Pin the supported runner so A4 acceptance actually runs instead of stopping at browser install.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

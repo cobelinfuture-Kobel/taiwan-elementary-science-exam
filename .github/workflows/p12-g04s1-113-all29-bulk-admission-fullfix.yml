@@ -26,6 +26,10 @@ on:
       - "tests/p12-g04s1-113-all29-bulk1122-fullfix-gate-workflow.test.mjs"
       - "data/review/p12-g04s1-113-all29-bulk-admission-fullfix-1122-nine-batch-frozen-plan-v1.json"
       - "data/review/p12-g04s1-113-all29-exact7-item-gate-operator-approval-roster-PENDING-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-114-original-content-and-gate-routing-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-authored-original-text-item-science-kp-v1.json"
+      - "scripts/review/p12-g04s1-113-all29-bulk-b01-original-content-dedup.mjs"
+      - "tests/p12-g04s1-113-all29-bulk-b01-114-real-content-admission-source-guards.test.mjs"
   push:
     branches:
       - main
@@ -33,6 +37,8 @@ on:
       - ".github/workflows/p12-g04s1-113-all29-bulk-admission-fullfix.yml"
       - "scripts/review/p12-g04s1-113-all29-bulk-admission-fullfix.mjs"
       - "data/review/p12-g04s1-113-all29-bulk-admission-fullfix-1122-nine-batch-frozen-plan-v1.json"
+      - "data/review/p12-g04s1-113-all29-bulk-b01-114-original-content-and-gate-routing-v1.json"
+      - "scripts/review/p12-g04s1-113-all29-bulk-b01-original-content-dedup.mjs"
 
 permissions:
   contents: read
@@ -65,6 +71,11 @@ jobs:
           else
             node scripts/review/p12-g04s1-113-all29-bulk-admission-fullfix.mjs --batch="$SELECTED_BATCH" --out-dir=artifacts/p12-g04s1-113-bulk1122-fullfix
           fi
+      - name: B01 original question text and source duplicate screening, 114 source-work IDs
+        if: ${{ inputs.batch == 'B01' || inputs.batch == 'all' || github.event_name != 'workflow_dispatch' }}
+        run: |
+          node --test tests/p12-g04s1-113-all29-bulk-b01-114-real-content-admission-source-guards.test.mjs
+          node scripts/review/p12-g04s1-113-all29-bulk-b01-original-content-dedup.mjs --out-dir=artifacts/p12-g04s1-113-bulk1122-fullfix
       - uses: actions/upload-artifact@v4
         if: always()
         with:

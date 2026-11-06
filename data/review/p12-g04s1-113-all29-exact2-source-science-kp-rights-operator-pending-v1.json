@@ -1,5 +1,5 @@
 {
-  "schema_version": "P12_G04S1_113_ALL29_EXACT2_ORIGINAL_SCIENCE_KP_ART9_AND_PENDING_GATES_V1",
+  "schema_version": "P12_G04S1_113_ALL29_EXACT2_POST_LIVE_PUBLIC_STEM_DEDUP_ONE_CANDIDATE_ONE_ALIAS_V2",
   "date": "2026-11-06",
   "original_corpus_year": 113,
   "grade": 4,
@@ -10,8 +10,8 @@
   "original_readable_pdf_text_scans": 24,
   "original_raster_papers_visually_sampled_for_exacts": 5,
   "historical_113_published_source_slots_not_reopened": 333,
-  "previous_113_114_public_exact_stem_preflight": "Existing PR183 MID005/FINAL005 18-source preflight checked 113 publicly loaded 26 files/320 top-level blocks, 114 nine files/309 blocks and 114 full 717 original source records. These two have no confirmed exact published duplicates.",
-  "science_unique_and_direct_kp_independent_pass": 2,
+  "previous_113_114_public_exact_stem_preflight": "Superseded: cross-checked entire current main site/data/question-bank/*.json in live CI Run #1338; found literal exact existing 114 public item for original FINAL005 TF007. Prior PR183 scoped draft had a false negative; normalized and original stem string match exact.",
+  "science_unique_and_direct_kp_independent_pass": 1,
   "formally_accepted_science_kp_operator_status": "MODEL_REVIEWED_NOT_OPERATOR_SIGNED",
   "ADMISSION_READY_new": 0,
   "PUBLISHED_new": 0,
@@ -20,9 +20,9 @@
   "student_site_integration_allowed": false,
   "allowed_republication": "Individual official school regulated examination question text only; no original PDFs, printed scoring metadata, copied figures, or teacher explanations",
   "next_gates": [
-    "Finish 29 original papers and 114 25 originals option/parent-preserving semantic duplicate crosswalk, including five raster originals",
-    "Obtain exact original_source_slot_id cohort operator approval (the broad current admission-cleanup instruction is not an exact-two published roster approval)",
-    "Only then create activated student bank PR and verify CI/main/Pages E2E"
+    "Finish complete 113 29-paper/114 25-paper semantic duplicate and parent/option checking for one still-eligible MID005 TF002 candidate",
+    "Obtain exact MID005 source slot operator admission approval; broad 29-paper cleanup instruction is not source-ID cohort signoff",
+    "Only after both gates are valid create active student bank PR/focused CI/main and Pages E2E; never duplicate FINAL005 TF007"
   ],
   "records": [
     {
@@ -69,7 +69,13 @@
       "ADMISSION_READY": false,
       "PUBLISHED": false,
       "original_disjoint_status_not_modified": "UNREVIEWED"
-    },
+    }
+  ],
+  "source_positions_screened": 2,
+  "new_student_item_candidates": 1,
+  "exact_public_alias_count": 1,
+  "actual_new_published_students": 0,
+  "public_exact_aliases": [
     {
       "source_slot_id": "SCI_G04_S1_113_FINAL_005|S01|TF|007",
       "source_paper_id": "SCI_G04_S1_113_FINAL_005",
@@ -97,8 +103,8 @@
       "direct_113_frozen48kp_title": "市電與用電安全",
       "unit": "4-S1-U04",
       "direct_kp_independently_verified": true,
-      "current_113_114_public_exact_duplicate_in_prior_screen": false,
-      "crossyear_source_near_match_notes": "既有前次113及114公開題庫的全文去重未找到完全相同原文；早期來源審核另提04_05不良導體，因本題明確問避免觸電與開關外殼，primary direct KP 採 U04_12，科學機制仍是不良導體。",
+      "current_113_114_public_exact_duplicate_in_prior_screen": true,
+      "crossyear_source_near_match_notes": "CONFIRMED EXACT EXISTING STUDENT ITEM: identical original stem, not a near match. 114 FINAL007 TF013 public file p12-b04-b04-47-public-v1.json, ID P12_B04_G04S1_B04_TF_050. Do NOT create second student item; preserve 113 additional source lineage only. Published existing KP 04_05 vs 113 proposal 04_12 is source evidence difference; never alter already published public item or Frozen KP.",
       "original_29_readable24_verbatim_exact_stem_only_on_current_paper": true,
       "original_5_scan_raster_targeted_image_check_no_exact_positive": true,
       "full_29_source_semantic_and_114_25_semantic_closeout_verified": false,
@@ -107,13 +113,22 @@
       "rights_component_scope": "EXAM_QUESTION_TEXT_ONLY",
       "no_third_party_figure_or_cropped_pdf_in_student_content": true,
       "original_teacher_answer_not_authenticated": true,
-      "student_item_proposed_id": "P12_113_G04S1_ALL29_EXACT2_002",
-      "student_item_content_fingerprint_fnv1a64": "cd0b698aadb6e57c",
+      "student_item_proposed_id": null,
+      "student_item_content_fingerprint_fnv1a64": null,
       "exact_operator_cohort_approval": false,
       "operator_eligible": false,
       "ADMISSION_READY": false,
       "PUBLISHED": false,
-      "original_disjoint_status_not_modified": "UNREVIEWED"
+      "original_disjoint_status_not_modified": "UNREVIEWED",
+      "existing_public_student_id": "P12_B04_G04S1_B04_TF_050",
+      "existing_public_original_source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|013",
+      "existing_public_bank_path": "site/data/question-bank/p12-b04-b04-47-public-v1.json",
+      "existing_public_student_answer": "O",
+      "existing_public_kp_id_frozen_unchanged": "sci_g04s1_04_05",
+      "exact_original_stem_match_verified_by_CI": true,
+      "source_lineage_action": "ADD_113_SOURCE_ALIAS_ONLY_TO_REVIEW_LEDGER",
+      "eligible_for_new_student_publication": false
     }
-  ]
+  ],
+  "exact_public_alias_gate_closed_for_one": true
 }

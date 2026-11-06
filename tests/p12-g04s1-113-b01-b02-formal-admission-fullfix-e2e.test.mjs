@@ -24,6 +24,8 @@ test('FullFix B01 60 / B02 110 existing gate projection reads 717 original114 it
   assert.equal(out.counts.candidate_model_science_kp_positive_not_formal, 74);
   assert.equal(out.counts.source_level_science_and_directkp_components_explicitly_accepted, 70);
   assert.equal(out.counts.B01_science_kp_components_accepted, 56);
+  assert.equal(out.counts.article9_original_school_exam_question_text_rights_components_accepted, 61);
+  assert.equal(out.counts.original_parent_story_rights_held, 9);
   assert.equal(out.counts.B02_science_kp_components_accepted, 14);
   assert.equal(out.counts.source_stem_exact114_hits, 0);
   assert.equal(out.counts.source_stem_exact_live_bank_hits, 0);

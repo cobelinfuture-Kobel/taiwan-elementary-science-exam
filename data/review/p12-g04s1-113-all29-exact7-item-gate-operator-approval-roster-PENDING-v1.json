@@ -1,0 +1,113 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_EXACT7_ROSTER_SINGLE_OPERATOR_SIGNOFF_PUBLISH_PENDING_V1",
+  "date": "2026-11-06",
+  "main_frozen_before_113_source_published": 333,
+  "effective_29_paper_work_disjoint_before": {
+    "PUBLISHED": 333,
+    "HOLD": 291,
+    "ALIAS": 16,
+    "UNREVIEWED": 1122
+  },
+  "main_baseline_sha": "d7f909327771dc309dd324bcc81d1165de454003",
+  "purpose": "Single exact-source seven-item approval cohort, not a new Admission Gate nor permission to auto-publish. Only proven no-exact-or-option-reordered target sources are eligible for a requested explicit operator manifest signoff.",
+  "admission_gate_contract": "SOURCE_EXACT → PDF_PAGE_BBOX → SCIENCE_UNIQUE_ANSWER → CANONICAL_KP → DUPLICATE → RIGHTS → OPERATOR_EXACT_ROSTER → selective student PR/CI/main/Pages",
+  "source_corpus_113_papers_visited": 29,
+  "original_113_papers_with_text": 24,
+  "original_113_scan_only_papers_raster_readback": 5,
+  "source_29_textlayer_item_level_verbatim_duplicates": "ONLY_EACH_CANDIDATES_ORIGINAL_PAPER_HAS_EXACT_SOURCE_STEM_ACROSS_24_READABLE_TEXT_PAPERS",
+  "five_scan_papers_item_level_visual_scope": "Previous PR183 original scanned 16 pages reviewed and original parent contexts preserved; not an assertion that 215 remaining sources were fully admitted.",
+  "original_114_source_archive_papers_ci_checked": 25,
+  "original_114_source_works_ci_checked": 717,
+  "current_main_113114_public_student_bank_ci_checked": true,
+  "exact_identical_or_mc_option_reordered_duplicates_in_public_or_114source_for_selected_cohort": 0,
+  "near_distinct_question_cases_maintained": true,
+  "no_cross_question_kp_only_alias": true,
+  "excluded_cases_science_or_kp_ambiguous": [
+    "SCI_G04_S1_113_MID_006|S1|TF|006",
+    "SCI_G04_S1_113_MID_006|S2|MC|009"
+  ],
+  "operator_exact_7_source_ids_approved": false,
+  "public_student_bank_release_authorized": false,
+  "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+  "ADMISSION_READY_new": 0,
+  "PUBLISHED_new": 0,
+  "original_published_333_not_reopened": true,
+  "no_113_authority_48_KP_change": true,
+  "source_work_disposition_unchanged_in_this_pr": true,
+  "candidates_count": 7,
+  "sources": [
+    {
+      "id": "SCI_G04_S1_113_MID_005|S01|TF|002",
+      "origin": "DADUN_MID005",
+      "source": "data/review/p12-g04s1-113-all29-exact2-source-science-kp-rights-operator-pending-v1.json",
+      "kp": "sci_g04s1_02_09",
+      "answer": "O",
+      "source_kind": "NATIVE_TF_TEXT",
+      "known_near": [
+        "SCI_G04_S1_114_MID_005|S01|TF|008",
+        "SCI_G04_S1_113_MID_010 (蟹陸地或水中)",
+        "SCI_G04_S1_113_MID_014 (蟹腳但無鰓呼吸)"
+      ]
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_006|S2|MC|002",
+      "origin": "NEIAN_MID006",
+      "source": "data/review/p12-g04s1-113-all29-neian-mid006-page1-three-scanned-exact-source-science-kp-gate-v1.json",
+      "kp": "sci_g04s1_01_07",
+      "answer": "③",
+      "source_kind": "SCANNED_MC_TEXT_ONLY",
+      "known_near": [
+        "SCI_G04_S1_113_MID_010 (山坡開發情境多選)",
+        "SCI_G04_S1_113_MID_014 (山坡開發與土石流因果)"
+      ]
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|001",
+      "origin": "YONGAN_FINAL005",
+      "source": "data/review/p12-g04s1-113-all29-yongan-final005-five-lighttf-original-source-kp-dedup-v1.json",
+      "kp": "sci_g04s1_03_04",
+      "answer": "O",
+      "source_kind": "NATIVE_PARENT_TF_CHILD",
+      "known_near": []
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|002",
+      "origin": "YONGAN_FINAL005",
+      "source": "data/review/p12-g04s1-113-all29-yongan-final005-five-lighttf-original-source-kp-dedup-v1.json",
+      "kp": "sci_g04s1_03_06",
+      "answer": "O",
+      "source_kind": "NATIVE_PARENT_TF_CHILD",
+      "known_near": [
+        "SCI_G04_S1_113_FINAL_008 (從雲縫中透出的陽光屬光直線前進的現象；句型不同)"
+      ]
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|003",
+      "origin": "YONGAN_FINAL005",
+      "source": "data/review/p12-g04s1-113-all29-yongan-final005-five-lighttf-original-source-kp-dedup-v1.json",
+      "kp": "sci_g04s1_03_06",
+      "answer": "X",
+      "source_kind": "NATIVE_PARENT_TF_CHILD",
+      "known_near": []
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|004",
+      "origin": "YONGAN_FINAL005",
+      "source": "data/review/p12-g04s1-113-all29-yongan-final005-five-lighttf-original-source-kp-dedup-v1.json",
+      "kp": "sci_g04s1_03_07",
+      "answer": "O",
+      "source_kind": "NATIVE_PARENT_TF_CHILD",
+      "known_near": []
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|005",
+      "origin": "YONGAN_FINAL005",
+      "source": "data/review/p12-g04s1-113-all29-yongan-final005-five-lighttf-original-source-kp-dedup-v1.json",
+      "kp": "sci_g04s1_03_07",
+      "answer": "X",
+      "source_kind": "NATIVE_PARENT_TF_CHILD",
+      "known_near": []
+    }
+  ],
+  "next_action": "Operator to explicitly approve EXACT seven listed source_slot_id(s) for formal item-level Science/KP and Admission release, after acceptance of existing rights and duplicate evidence. Do not merge source Draft PR183/184 or write student bank until precise approval; then selective release PR, CI, main readback, Pages E2E."
+}

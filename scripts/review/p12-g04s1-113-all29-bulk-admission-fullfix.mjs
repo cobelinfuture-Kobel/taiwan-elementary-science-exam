@@ -177,6 +177,19 @@ export function analyze({batch='all'}={}){
   postContentCounts.HOLD++;
  }
  invariant(JSON.stringify(postContentCounts)===JSON.stringify(b01Interpaper.current_effective_all29),'post B01 cross-school 2 HOLD ledger not conserved');
+ const b01Exception42=readJson(P+'bulk-b01-existing-gate-42-source-hold-exception-overlay-v1.json');
+ invariant(JSON.stringify(b01Exception42.before_all29_effective)===JSON.stringify(postContentCounts),'B01 42 exception overlay predecessor drift');
+ invariant(b01Exception42.records.length===42&&b01Exception42.additional_existing_gate_exception_HOLD===42,'expected exactly 42 source-work documented blocker HOLDs');
+ for(const r of b01Exception42.records){
+  const id=r.source_slot_id;
+  invariant(!b01SourceEvents.has(id),'B01 42 exception source overlaps existing classification '+id);
+  invariant(s.byId.get(id)?.effective_disposition==='UNREVIEWED','B01 42 exception tried reopening previously completed source '+id);
+  invariant(r.source_status_after==='HOLD'&&r.hold_reason.startsWith('HOLD_')&&r.original_source_proof_ref,'unproven B01 source exception '+id);
+  b01SourceEvents.set(id,{source_slot_id:id,source_status_after:'HOLD',event_source_type:'B01_EXISTING_GATE_EXCEPTION'});
+  postContentCounts.UNREVIEWED--;
+  postContentCounts.HOLD++;
+ }
+ invariant(JSON.stringify(postContentCounts)===JSON.stringify(b01Exception42.after_all29_effective),'B01 completed exception disposition is not conserved');
  const scan4Rows=readJson(P+'scan4-182-existing-raster-sourceid-bbox-parent-crosswalk-v1.json').rows;
  const scan4=new Map(scan4Rows.map(x=>[x.source_slot_id,x]));
  invariant(scan4.size===182,'existing four scanned original PDF proof crosswalk drift');
@@ -193,7 +206,8 @@ export function analyze({batch='all'}={}){
     existing_public_source_duplicate_suppressed:event?.source_status_after==='ALIAS'||false,
     existing_public_science_answer_disagreement_HOLD:event?.source_status_after==='HOLD'&&event?.event_source_type!=='UNPUBLISHED_CANONICAL_DUPLICATE'||false,
     B01_unpublished_canonical_duplicate_HOLD:event?.event_source_type==='UNPUBLISHED_CANONICAL_DUPLICATE'||false,
-    post_content_source_disposition_evidence:event?.event_source_type==='UNPUBLISHED_CANONICAL_DUPLICATE'?'data/review/p12-g04s1-113-all29-bulk-b01-crossoriginal-two-duplicate-safety-children-HOLD-overlay-v1.json':event?'data/review/p12-g04s1-113-all29-bulk-b01-mingyi10-existing-legacy-exact9alias1science-hold-overlay-v1.json':null
+    B01_existing_gate_exception_HOLD:event?.event_source_type==='B01_EXISTING_GATE_EXCEPTION'||false,
+    post_content_source_disposition_evidence:event?.event_source_type==='B01_EXISTING_GATE_EXCEPTION'?'data/review/p12-g04s1-113-all29-bulk-b01-existing-gate-42-source-hold-exception-overlay-v1.json':event?.event_source_type==='UNPUBLISHED_CANONICAL_DUPLICATE'?'data/review/p12-g04s1-113-all29-bulk-b01-crossoriginal-two-duplicate-safety-children-HOLD-overlay-v1.json':event?'data/review/p12-g04s1-113-all29-bulk-b01-mingyi10-existing-legacy-exact9alias1science-hold-overlay-v1.json':null
    };
   });
   const nCandidate=rows.filter(r=>r.source_candidate_stage.startsWith('MODEL_SOURCE')).length;
@@ -210,6 +224,7 @@ export function analyze({batch='all'}={}){
    already_public_alias_sources_suppressed:rows.filter(r=>r.post_B01_content_effective_disposition==='ALIAS').length,
    original_answer_conflict_source_HOLD:rows.filter(r=>r.existing_public_science_answer_disagreement_HOLD).length,
    original_interpaper_duplicate_source_HOLD:rows.filter(r=>r.B01_unpublished_canonical_duplicate_HOLD).length,
+   original_existing_gate_exception_source_HOLD:rows.filter(r=>r.B01_existing_gate_exception_HOLD).length,
    changed_ledger_dispositions_by_this_automated_run:0,
    formal_science_kp_approved_new:0,ADMISSION_READY_new:0,PUBLISHED_new:0,
    original_paper_level_progress:reports,
@@ -229,6 +244,8 @@ export function analyze({batch='all'}={}){
   post_B01_total_remaining_unreviewed:postContentCounts.UNREVIEWED,
   B01_preexisting_public_exact_alias9_and_science_conflict_HOLD1_count:b01Resolution.records.length,
   B01_new_cross_school_same_parent_duplicate_HOLD_count:b01Interpaper.records.length,
+  B01_additional_exact_existing_gate_exception_HOLD_count:b01Exception42.records.length,
+  B01_final_preliminary_exact_source_operator_cohort_count:60,
   B01_source_dispositions_classified_total:b01SourceEvents.size,
   sourced_evidence_guide:'Existing Frozen PDF/SHA and PR124/PR183 geometry inherited; full original text, Science/KP, semantic duplicate, Article9 and exact operator acceptance are independent required Gate proofs.',
   candidate_exact7_model_stage_by_batch:batches.map(b=>({batch_id:b.batch_id,source_work:b.input_source_work_positions,candidates:b.model_supported_exact_source_candidates_pending_operator_and_full_duplicate})),

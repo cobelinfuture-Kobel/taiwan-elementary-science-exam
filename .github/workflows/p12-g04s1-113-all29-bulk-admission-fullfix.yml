@@ -1,0 +1,74 @@
+name: P12 113 G4S1 ALL29 FullFix Bulk Admission
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "Run all nine frozen 100-150 source-work batches or resume one"
+        type: choice
+        required: true
+        default: all
+        options:
+          - all
+          - B01
+          - B02
+          - B03
+          - B04
+          - B05
+          - B06
+          - B07
+          - B08
+          - B09
+  pull_request:
+    paths:
+      - ".github/workflows/p12-g04s1-113-all29-bulk-admission-fullfix.yml"
+      - "scripts/review/p12-g04s1-113-all29-bulk-admission-fullfix.mjs"
+      - "tests/p12-g04s1-113-all29-bulk1122-fullfix-gate-workflow.test.mjs"
+      - "data/review/p12-g04s1-113-all29-bulk-admission-fullfix-1122-nine-batch-frozen-plan-v1.json"
+      - "data/review/p12-g04s1-113-all29-exact7-item-gate-operator-approval-roster-PENDING-v1.json"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/p12-g04s1-113-all29-bulk-admission-fullfix.yml"
+      - "scripts/review/p12-g04s1-113-all29-bulk-admission-fullfix.mjs"
+      - "data/review/p12-g04s1-113-all29-bulk-admission-fullfix-1122-nine-batch-frozen-plan-v1.json"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: p12-g04s1-113-bulk-fullfix-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  read-only-bulk-admission:
+    name: Source evidence gates (never auto-publish)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: FullFix plan and invariant regressions
+        run: |
+          node --test tests/p12-g04s1-113-all29-bulk1122-fullfix-gate-workflow.test.mjs
+          node scripts/review/p12-g04s1-113-all29-bulk-admission-fullfix.mjs --all --check
+      - name: Run nine paper-complete batches or one selected resume batch
+        shell: bash
+        env:
+          SELECTED_BATCH: ${{ inputs.batch || 'all' }}
+        run: |
+          if [[ "$SELECTED_BATCH" == "all" ]]; then
+            node scripts/review/p12-g04s1-113-all29-bulk-admission-fullfix.mjs --all --out-dir=artifacts/p12-g04s1-113-bulk1122-fullfix
+          else
+            node scripts/review/p12-g04s1-113-all29-bulk-admission-fullfix.mjs --batch="$SELECTED_BATCH" --out-dir=artifacts/p12-g04s1-113-bulk1122-fullfix
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: p12-113-bulk-admission-gate-report-${{ github.run_id }}
+          path: artifacts/p12-g04s1-113-bulk1122-fullfix/
+          retention-days: 14
+          if-no-files-found: warn

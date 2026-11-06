@@ -7,6 +7,7 @@ const plan = read('data/review/p12-g04s1-113-all29-bulk-admission-fullfix-1122-n
 const b02 = plan.batches.find((b) => b.batch_id === 'B02');
 const evidence = read('data/review/p12-g04s1-113-all29-bulk-b02-133-original-text-raster-source-gate-evidence-v1.json');
 const overlay = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao4-wende-exact-child-parent-duplicate-HOLD-overlay-v1.json');
+const lunar = read('data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao19-lunar-no-direct-frozen48KP-HOLD-overlay-v1.json');
 const b01 = read('data/review/p12-g04s1-113-all29-bulk-b01-exact60-after-cross113-duplicate-operator-review-PENDING-v1.json');
 const normalize = (s) => (s || '').replace(/[\s，。！？、：（）()：．.]/g, '');
 
@@ -51,16 +52,35 @@ test('Four exact duplicate child+parent secondary Zhongxiao positions are HOLD n
     assert.equal(o.admission_ready, false);
     assert.equal(o.published, false);
   }
-  assert.equal(evidence.records.filter((r) => r.source_disposition_effective === 'HOLD').length, 4);
-  assert.equal(evidence.records.filter((r) => r.source_disposition_effective === 'UNREVIEWED').length, 129);
+  assert.equal(evidence.records.filter((r) => r.source_disposition_effective === 'HOLD').length, 23);
+  assert.equal(evidence.records.filter((r) => r.source_disposition_effective === 'UNREVIEWED').length, 110);
 });
 
 test('No B01 or frozen 333/KP48 or unsigned exact operator student release is reopened', () => {
-  assert.deepEqual(evidence.admission_checkpoint.B02, { PUBLISHED: 0, HOLD: 4, ALIAS: 0, UNREVIEWED: 129 });
-  assert.deepEqual(evidence.admission_checkpoint.all29, { PUBLISHED: 333, HOLD: 340, ALIAS: 25, UNREVIEWED: 1064 });
+  assert.deepEqual(evidence.admission_checkpoint.B02, { PUBLISHED: 0, HOLD: 23, ALIAS: 0, UNREVIEWED: 110 });
+  assert.deepEqual(evidence.admission_checkpoint.all29, { PUBLISHED: 333, HOLD: 359, ALIAS: 25, UNREVIEWED: 1045 });
   assert.equal(Object.values(evidence.admission_checkpoint.all29).reduce((a, b) => a + b, 0), 1762);
   assert.ok(evidence.records.every((r) => !r.formal_science_kp_approved && !r.admission_ready && !r.published));
   assert.equal(evidence.admission_checkpoint.operator_exact_approval, false);
   assert.equal(evidence.admission_checkpoint.no_333_public_change, true);
   assert.equal(evidence.admission_checkpoint.no_frozen48_change, true);
+});
+
+test('Nineteen original Moon-topic source positions have no direct KP in frozen 48 and are HOLD only', () => {
+  assert.equal(lunar.rows.length, 19);
+  assert.equal(new Set(lunar.original_source_IDs_exact).size, 19);
+  assert.equal(lunar.frozen_113_g04s1_kp_count, 48);
+  assert.equal(lunar.direct_lunar_phase_or_moon_position_or_angle_kp_count, 0);
+  const four = new Set(overlay.source_ids_exact);
+  for (const row of lunar.rows) {
+    assert.equal(four.has(row.source_slot_id), false);
+    assert.equal(row.new_effective_disposition, 'HOLD');
+    assert.equal(row.direct_frozen48kp_id, null);
+    assert.ok(row.source_child_text_layer_joined || row.source_parent_topic_text_layer_joined);
+    const linked = evidence.records.find((r) => r.source_slot_id === row.source_slot_id);
+    assert.equal(linked?.source_disposition_effective, 'HOLD');
+    assert.equal(linked?.formal_science_kp_approved, false);
+    assert.equal(linked?.admission_ready, false);
+    assert.equal(linked?.published, false);
+  }
 });

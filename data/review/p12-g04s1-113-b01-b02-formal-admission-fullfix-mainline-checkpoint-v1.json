@@ -1,0 +1,86 @@
+{
+  "schema_version": "P12_G04S1_113_B01_B02_FORMAL_ADMISSION_FULLFIX_MAINLINE_CHECKPOINT_V1",
+  "date": "2026-11-06",
+  "NEXT_RESUME_TASK": "B01_B02_FORMAL_ADMISSION_FULLFIX",
+  "task_status": "IN_PROGRESS_NOT_FULL_ADMISSION_CLOSEOUT",
+  "operator_user_instruction": "Concentrate on closing B01 60 and B02 remaining source work through already frozen original Science/KP, complete dedup and Rights, exact operator approval once, selective student PR/main/Pages, then B03 original 121. No 3-9-item handshake loops.",
+  "safeguards": {
+    "no_extra_science_review_round": true,
+    "no_admission_gate_change": true,
+    "source_frozen1122_ids_unchanged": true,
+    "no_original_paper_splitting": true,
+    "public333_and_original48KP_unchanged": true,
+    "publication_requires_existing_exact_operator_signature": true,
+    "no_automatic_student_publication": true
+  },
+  "batch_baselines": {
+    "B01": {
+      "original_work_positions": 114,
+      "classified_HOLD": 45,
+      "ALIAS": 9,
+      "remaining_UNREVIEWED": 60,
+      "model_science_directKP_candidate_source_ids": 60
+    },
+    "B02": {
+      "original_work_positions": 133,
+      "classified_HOLD": 23,
+      "ALIAS": 1,
+      "remaining_UNREVIEWED": 109,
+      "initial_113_scan_positions_without_text_semantic_readback": 86,
+      "zhongxiao_original_remaining_text_positions": 23,
+      "zhongxiao_model_science_directKP_supported_count": 14
+    },
+    "B03": {
+      "original_work_positions_frozen": 121,
+      "post_B01B02_formal_release_dependency": true,
+      "do_not_rebatch": true
+    }
+  },
+  "accounting_unit": "exact source-work positions, NOT certified distinct student questions",
+  "original_all29_source_positions": 1762,
+  "currently_effective_all29_disjoint": {
+    "PUBLISHED": 333,
+    "HOLD": 359,
+    "ALIAS": 26,
+    "UNREVIEWED": 1044
+  },
+  "B01_and_B02_remaining_source_work_total": 169,
+  "B01_B02_model_supported_science_kp_total_not_formal": 74,
+  "mainline_formal_new": {
+    "FORMAL_SCIENCE_KP_APPROVED": 0,
+    "ADMISSION_READY": 0,
+    "PUBLISHED": 0
+  },
+  "executed_evidence": {
+    "durable_new_original_B02_133": "data/review/p12-g04s1-113-all29-bulk-b02-133-original-text-raster-source-gate-evidence-v1.json",
+    "duplicate_B02_Zhongxiao_four_B01_Wende_HOLD": "data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao4-wende-exact-child-parent-duplicate-HOLD-overlay-v1.json",
+    "lunar_scope_19_HOLD": "data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao19-lunar-no-direct-frozen48KP-HOLD-overlay-v1.json",
+    "already_public_Zhongxiao_MC004_lineage_ALIAS": "data/review/p12-g04s1-113-all29-b01b02-fullfix-zhongxiao-mc004-existing-published-lineage-alias-overlay-v1.json",
+    "B01_exact60": "data/review/p12-g04s1-113-all29-bulk-b01-exact60-after-cross113-duplicate-operator-review-PENDING-v1.json",
+    "B02_Zhongxiao_24_preliminary": "data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao24-original-science-directKP-model-prelim-v1.json",
+    "executable_fullfix_preflight": "scripts/review/p12-g04s1-113-b01-b02-formal-admission-fullfix.mjs",
+    "standalone_coverage_test": "tests/p12-g04s1-113-b01-b02-formal-admission-fullfix-e2e.test.mjs",
+    "existing_read_only_workflow": ".github/workflows/p12-g04s1-113-all29-bulk-admission-fullfix.yml"
+  },
+  "evaluated_original_source_text": {
+    "b01_60_plus_b02_zhongxiao_remaining23_candidate_text_rows": 83,
+    "original_114_25_papers": 25,
+    "original_114_source_answer_occurrences_compared": 717,
+    "direct_normalized_same_stem_114_hits_remaining": 0,
+    "direct_normalized_same_stem_published_bank_hits_remaining": 0,
+    "caution": "Zero exact text matches does not establish the full semantic, parent context, option rearrangement, or 113 raster5 duplicate acceptance."
+  },
+  "actual_existing_gate_remaining": {
+    "independent_original_source_parent_figure_visual_recovery": "B02 scan86 and B02 Zhongxiao source text visual requirements; B01 inherited exact source parent needs final applicable acceptance",
+    "science_unique_answer_and_direct_113_frozen48kp_formal": "B01 60 & B02 text23 must receive actual formal acceptance, not automatically promote 74 model-support",
+    "duplicate": "remaining 113 original five raster PDFs plus full parent/option meaning, and specific public/cross-original semantic collisions",
+    "rights": "school regulated-exam Article9 per original component; don't publish third-party scan/images/teacher key",
+    "operator_exact_scope": "unsigned exact source roster; user task authorization is NOT exact release signature",
+    "student_release": "No selective new student PR or main/Pages E2E until all applicable signed gates genuinely pass"
+  },
+  "next_short_step": "Continue entire B01 60 and B02 109 as one continuous Admission workstream; close missing original raster/parent, Science/KP, Rights and semantic duplicate gates in place. Only if a concrete exact-source eligible list fully passes, request one operator signature and release in separate student PR; then proceed B03 121. Do not use 3-9 question review handshakes.",
+  "expected_ci_readback_commit_prior": "b8ab1627735499704e8c972a9af2aa8c2063b3f5",
+  "observed_CI": "Science Exam S1 CI #1403 success, FullFix Actions #51 success at prior HEAD; next commit needs fresh CI readback",
+  "full_original_papers_formally_closed_new": 0,
+  "raw_pdf_images_republished": false
+}

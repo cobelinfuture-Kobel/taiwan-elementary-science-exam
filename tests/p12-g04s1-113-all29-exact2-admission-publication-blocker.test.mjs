@@ -74,6 +74,35 @@ test('main public bank contains exactly known 114 public alias; eligible 113 MID
  assert.equal(ali.exact_original_stem_match_verified_by_CI,true);
 });
 
+test('114 year original 25-paper 717-source crosswalk distinguishes exact alias from distinct wording candidate',()=>{
+ const index=read('data/source-archive/p12-art9-114-g04s1-public-original-source-corpus-current-v25.json');
+ assert.equal(index.current_public_source_paper_count,25);
+ assert.equal(index.cumulative_original_source_question_occurrences,717);
+ assert.equal(proof.original_114_source_files_reviewed,25);
+ assert.equal(proof.original_114_source_positions_in_frozen_corpus,717);
+ assert.equal(proof.original_114_near_different_wording_source_match_count,1);
+ assert.equal(proof.original_114_exact_verbatim_same_stem_for_distinct_113_mid005,0);
+ const item=proof.records[0];
+ const near=item.crossyear_original_question_evidence;
+ assert.equal(near.original_114_source_slot_id,'SCI_G04_S1_114_MID_005|S01|TF|008');
+ assert.equal(near.original_114_archive_evidence_file,'data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json');
+ const minquan=read(near.original_114_archive_evidence_file);
+ const row=minquan.original_question_records.find(x=>x.source_id===near.original_114_source_slot_id);
+ assert.ok(row);
+ assert.equal(row.full_original_stem,near.original_114_stem_verbatim);
+ assert.equal(near.original_113_stem_verbatim,item.original_stem_verbatim);
+ assert.notEqual(row.full_original_stem,item.original_stem_verbatim);
+ assert.equal(row.site_question_bank_admitted,false);
+ assert.deepEqual(near.wording_variants,['蟹 → 螃蟹','能 → 可以']);
+ const all114=index.original_source_archive_evidence_refs.flatMap(file=>{
+  const archive=read(file);
+  const rs=archive.original_question_records || archive.source_questions || archive.questions || [];
+  return rs;
+ });
+ assert.ok(all114.length>=600);
+ assert.equal(all114.some(x=>normalize(x.full_original_stem||x.stem)===normalize(item.original_stem_verbatim)),false);
+});
+
 test('two examined items are not auto-promoted to published without formal 29/114 dedup and exact operator approval',()=>{
  assert.equal(proof.formal_semantic_gate_no_auto_release,undefined);
  assert.equal(proof.full_semantic_dedup_closed,false);

@@ -149,6 +149,21 @@ function evidenceFor(row,candidates,scan4){
 export function analyze({batch='all'}={}){
  const s=originalSourceStatus();
  const candidates=exactSeven();
+ const b01Resolution=readJson(P+'bulk-b01-mingyi10-existing-legacy-exact9alias1science-hold-overlay-v1.json');
+ invariant(b01Resolution.records.length===10,'B01 legacy-original source count unexpected');
+ invariant(b01Resolution.source_ALIASES_reconciled===9&&b01Resolution.source_SCIENCE_CONFLICT_HOLD_reconciled===1,'B01 alias and hold mismatch');
+ invariant(JSON.stringify(b01Resolution.prior_effective_all29)===JSON.stringify(s.counts),'B01 overlay previous effective snapshot is not frozen source ledger projection');
+ const b01SourceEvents=new Map();
+ const postContentCounts={...s.counts};
+ for(const e of b01Resolution.records){
+  invariant(!b01SourceEvents.has(e.source_slot_id),'duplicate B01 content event '+e.source_slot_id);
+  invariant(s.byId.get(e.source_slot_id)?.effective_disposition==='UNREVIEWED','B01 attempted to reopen already classified source '+e.source_slot_id);
+  invariant(e.source_status_after==='ALIAS'||e.source_status_after==='HOLD','bad B01 source post-disposition');
+  b01SourceEvents.set(e.source_slot_id,e);
+  postContentCounts.UNREVIEWED--;
+  postContentCounts[e.source_status_after]++;
+ }
+ invariant(JSON.stringify(postContentCounts)===JSON.stringify(b01Resolution.after_effective_all29),'B01 content disposition conservation failed');
  const scan4Rows=readJson(P+'scan4-182-existing-raster-sourceid-bbox-parent-crosswalk-v1.json').rows;
  const scan4=new Map(scan4Rows.map(x=>[x.source_slot_id,x]));
  invariant(scan4.size===182,'existing four scanned original PDF proof crosswalk drift');
@@ -156,7 +171,17 @@ export function analyze({batch='all'}={}){
  const selected=batch==='all'?s.plan.batches:s.plan.batches.filter(b=>b.batch_id===batch);
  invariant(selected.length>0,'unknown batch ID: '+batch);
  const batches=selected.map(b=>{
-  const rows=b.source_slot_ids.map(id=>evidenceFor(s.byId.get(id),candidates,scan4));
+  const rows=b.source_slot_ids.map(id=>{
+   const source=evidenceFor(s.byId.get(id),candidates,scan4);
+   const event=b01SourceEvents.get(id);
+   return {
+    ...source,
+    post_B01_content_effective_disposition:event?.source_status_after||source.effective_disposition,
+    existing_public_source_duplicate_suppressed:event?.source_status_after==='ALIAS'||false,
+    existing_public_science_answer_disagreement_HOLD:event?.source_status_after==='HOLD'||false,
+    post_content_source_disposition_evidence:event?'data/review/p12-g04s1-113-all29-bulk-b01-mingyi10-existing-legacy-exact9alias1science-hold-overlay-v1.json':null
+   };
+  });
   const nCandidate=rows.filter(r=>r.source_candidate_stage.startsWith('MODEL_SOURCE')).length;
   const nBbox=rows.filter(r=>r.source_geometry_kind==='EXACT_RASTER_BBOX_PROVENANCE'||r.source_geometry_kind==='EXACT_SOURCE_BBOX_PROVENANCE').length;
   const nGeometryRefs=rows.filter(r=>!!r.geometry_source_proof_ref).length;
@@ -167,7 +192,9 @@ export function analyze({batch='all'}={}){
    source_ids_evidence_gates_screened:rows.length,source_geometry_provenance_links:nGeometryRefs,
    exact_original_physical_bbox_evidence_attached:nBbox,
    model_supported_exact_source_candidates_pending_operator_and_full_duplicate:nCandidate,
-   unresolved_existing_gates:rows.length,
+   unresolved_existing_gates:rows.filter(r=>r.post_B01_content_effective_disposition==='UNREVIEWED').length,
+   already_public_alias_sources_suppressed:rows.filter(r=>r.post_B01_content_effective_disposition==='ALIAS').length,
+   original_answer_conflict_source_HOLD:rows.filter(r=>r.existing_public_science_answer_disagreement_HOLD).length,
    changed_ledger_dispositions_by_this_automated_run:0,
    formal_science_kp_approved_new:0,ADMISSION_READY_new:0,PUBLISHED_new:0,
    original_paper_level_progress:reports,
@@ -183,6 +210,9 @@ export function analyze({batch='all'}={}){
   whole_paper_not_split:true,
   all_29_original_papers_registered:29,
   original_disjoint_effective:s.counts,
+  post_B01_content_evidence_projection:postContentCounts,
+  post_B01_total_remaining_unreviewed:postContentCounts.UNREVIEWED,
+  B01_preexisting_public_exact_alias9_and_science_conflict_HOLD1_count:b01SourceEvents.size,
   sourced_evidence_guide:'Existing Frozen PDF/SHA and PR124/PR183 geometry inherited; full original text, Science/KP, semantic duplicate, Article9 and exact operator acceptance are independent required Gate proofs.',
   candidate_exact7_model_stage_by_batch:batches.map(b=>({batch_id:b.batch_id,source_work:b.input_source_work_positions,candidates:b.model_supported_exact_source_candidates_pending_operator_and_full_duplicate})),
   formal_science_kp_approved_new:0,ADMISSION_READY_new:0,PUBLISHED_new:0,
@@ -214,7 +244,7 @@ export function runCLI(args=process.argv.slice(2)){
   const summary={...result,batches:undefined};
   writeFileSync(path.join(dir,'summary.json'),JSON.stringify(summary,null,2)+'\n');
  }
- process.stdout.write(JSON.stringify({mode:options.check?'check':'emit',batches:result.selected_batches,source_work_scoped:result.this_run_scoped_source_work_positions,one_gate_model_candidates:result.candidate_exact7_model_stage_by_batch.reduce((x,b)=>x+b.candidates,0),FORMAL_SCIENCE_KP_APPROVED_new:result.formal_science_kp_approved_new,ADMISSION_READY_new:0,PUBLISHED_new:0})+'\n');
+ process.stdout.write(JSON.stringify({mode:options.check?'check':'emit',batches:result.selected_batches,source_work_scoped:result.this_run_scoped_source_work_positions,post_B01_remaining_unreviewed:result.post_B01_total_remaining_unreviewed,one_gate_model_candidates:result.candidate_exact7_model_stage_by_batch.reduce((x,b)=>x+b.candidates,0),FORMAL_SCIENCE_KP_APPROVED_new:result.formal_science_kp_approved_new,ADMISSION_READY_new:0,PUBLISHED_new:0})+'\n');
  return result;
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){

@@ -76,7 +76,7 @@ test("active V3 ScienceKP26 two more original TF while frozen V2 excludes only R
  try{
   const v3=await loadEmbeddedHistoricalBank(authority);
   assert.equal(v3.certifiedAnswerSlots,990); // B08 fixed source parents plus PR186 exactly 21 selected student positions
-  assert.equal(v3.certifiedTrueFalse,476); // prior 471 + 5 B06 TF
+  assert.equal(v3.certifiedTrueFalse,484); // previous 476 plus PR186 8 independently accepted original TF
   assert.equal(v3.certifiedStandaloneChoice,344); // + 3 PR186 standalone original MC
   assert.equal(v3.certifiedGroupCount,41); // + 1 PR186 six-original-child shared-parent sound context
   assert.equal(v3.certifiedStandaloneMulti,4); // exactly four original checkbox select-all groups

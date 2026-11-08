@@ -5,6 +5,8 @@ export const SELECTIVE21_GATE_PATH="../data/question-bank/p12-g04s1-113-b01b02-s
 export const SELECTIVE21_SCHEMA="SCIENCE_P12_G04S1_113_B01B02_SELECTIVE21_PREPUBLICATION_CANDIDATE_V1";
 export const SELECTIVE21_GATE_SCHEMA="P12_G04S1_113_B01_B02_SELECTIVE21_EXISTING_ADMISSION_GATE_RELEASE_APPROVAL_V1";
 export const SELECTIVE21_FROZEN_CONTENT_FINGERPRINT="692509b881a264dd";
+export const SELECTIVE21_APPROVAL_VERBATIM="直接收斂 PR #186 的 38 個來源 ID／21 個作答位置，完成最後原卷去重及一次精確發布簽核，接著合併 `main`、驗證 Pages 實站，再以真正增加的 `PUBLISHED` 結案；不再重新啟動 B01、B02 的初審。";
+export const SELECTIVE21_TARGET_DEDUP_EVIDENCE="data/review/p12-g04s1-113-b01b02-selective21-target-exact-source-11329-11425-full-semantic-dedup-v1.json";
 const fail=(ok,msg)=>{if(!ok)throw Error("P12_113_B01B02_SELECTIVE21_FAIL_CLOSED: "+msg);};
 const MASK=(1n<<64n)-1n;
 const fnv=s=>{let h=0xcbf29ce484222325n;for(const c of s)h=((h^BigInt(c.codePointAt(0)))*0x100000001b3n)&MASK;return h.toString(16).padStart(16,"0");};
@@ -147,13 +149,27 @@ export function validateAndConvertP12113B01B02Selective21(doc,authority,operator
    &&Array.isArray(operator.approved_source_slot_ids)
    &&JSON.stringify(operator.approved_source_slot_ids)===JSON.stringify(doc.exact_source_slot_ids)
    &&typeof operator.operator_approval_verbatim==="string"
-   &&operator.operator_approval_verbatim.includes("21")
-   &&operator.operator_approval_verbatim.includes("38")
-   &&operator.operator_approval_verbatim.includes("核准"),
+   &&operator.operator_approval_verbatim===SELECTIVE21_APPROVAL_VERBATIM
+   &&operator.reviewed_target_dedup_evidence===SELECTIVE21_TARGET_DEDUP_EVIDENCE
+   &&operator.reviewed_target_dedup_schema==="P12_G04S1_113_B01B02_SELECTIVE21_EXACT_TARGETED_SOURCE_11329_11425_DUPLICATE_GATE_V1"
+   &&operator.actual_admission_ready_new===21
+   &&[0,21].includes(operator.actual_published_new),
    "all already-frozen gate proofs and explicit 21 answer-slot / 38 source-slot operator approval");
+ const exactSecondary=[1,2,3,4].map(i=>({
+  secondary:"SCI_G04_S1_113_MID_003|S03|G01|TF|"+String(i).padStart(3,"0"),
+  canonical:"SCI_G04_S1_113_MID_001|S03|G08|TF|"+String(i).padStart(3,"0"),
+ }));
+ fail(JSON.stringify(operator.duplicate_secondary_alias_pairs)===JSON.stringify(exactSecondary),
+  "four original exact same-child-and-parent duplicate secondaries must be retained as source-only aliases");
  const blocks=doc.blocks.map(b=>{
   const newB={...b,certification_status:"OPERATOR_APPROVED_PUBLIC",operator_publication_approval:true,
     source:"P12_113_B01B02_SELECTIVE21_EXACT_OPERATOR_APPROVED"};
+  if(b.id==="P12_113_G04S1_B01B02_SEL21_001"){
+    fail(JSON.stringify(b.source_lineage_ids)===JSON.stringify(exactSecondary.map(x=>x.canonical)),
+      "Wende source order must bind exact four Zhongxiao secondary ALIAS IDs");
+    newB.source_lineage_ids=[...b.source_lineage_ids,...exactSecondary.map(x=>x.secondary)];
+    newB.secondary_source_only_alias_ids=exactSecondary.map(x=>x.secondary);
+  }
   if(b.type==="group"){
    newB.source="CERTIFIED_CONTEXT_RECONSTRUCTED";
    newB.source_review_status="GPT6_SCIENCE_CONTEXT_REVIEWED";
@@ -164,5 +180,5 @@ export function validateAndConvertP12113B01B02Selective21(doc,authority,operator
   return newB;
  });
  return {admission:"P12_113_B01_B02_SELECTIVE21_EXACT_OPERATOR_APPROVED",blocks,
- answerSlots:21,standaloneTf:8,standaloneChoice:3,contextGroups:1};
+ answerSlots:21,standaloneTf:8,standaloneChoice:3,contextGroups:1,secondaryAliasSourceOnly:4};
 }

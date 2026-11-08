@@ -10,8 +10,10 @@ assert.equal(data.source_slots_total,38);
 assert.equal(data.student_answer_slots_proposed,21);
 assert.equal(data.blocks.length,16);
 assert.equal(data.public_site_integrated,false);
-assert.equal(gate.public_student_release_allowed,false);
-assert.equal(gate.exact_operator_source_roster_approval,false);
+assert.equal(gate.public_student_release_allowed,true);
+assert.equal(gate.exact_operator_source_roster_approval,true);
+assert.equal(gate.actual_admission_ready_new,21);
+assert.equal(gate.actual_published_new,0);
 
 const root=resolve("site"),out=resolve("artifacts/p12-113-b01b02-selective21-a4");
 mkdirSync(out,{recursive:true});
@@ -99,14 +101,41 @@ try {
  assert.equal(report.length,16);
  assert.equal(report.reduce((n,x)=>n+x.answer_slots,0),21);
  assert.equal(report.reduce((n,x)=>n+x.source_lineage_ids.length,0),38);
+ // In addition to DEMO-only isolated A4 fixtures, verify the real signed loader
+ // actually delivers exactly 21 new learner slots on a localhost copy of the production site.
+ const live=await browser.newPage({viewport:{width:1440,height:1024}});
+ const liveErrors=[];
+ live.on("pageerror",e=>liveErrors.push(String(e)));
+ await live.goto(host+"/exam/?smoke=p12-113-b01b02-pr186-21-signed-readback",{waitUntil:"networkidle"});
+ const info=await live.locator("#bank-info").textContent();
+ assert.ok(info.includes("已載入內建考古題 990 小題（484 題是非＋344 題單選＋4 題複選＋41 組情境）"),
+  "Real signed Exam loader should show 990 including exactly 21 new answer slots: "+info);
+ const loaded=await live.evaluate(async()=>{
+   const authModule=await import("../assets/js/authority-adapter.mjs");
+   const module=await import("../assets/js/historical-bank-ox-v6.mjs");
+   const authority=await authModule.loadAuthority();
+   const bank=await module.loadEmbeddedHistoricalBank(authority);
+   const added=bank.blocks.filter(b=>b.id.startsWith("P12_113_G04S1_B01B02_SEL21_"));
+   return {blocks:added.length,answers:added.reduce((n,b)=>n+(b.type==="group"?b.items.length:1),0),
+    sourceLineages:added.reduce((n,b)=>n+b.source_lineage_ids.length,0),
+    aliases:added[0]?.secondary_source_only_alias_ids?.length||0,
+    approved:added.every(b=>b.operator_publication_approval===true&&b.certification_status==="OPERATOR_APPROVED_PUBLIC"),
+    total:bank.certifiedAnswerSlots};
+ });
+ assert.deepEqual([loaded.blocks,loaded.answers,loaded.sourceLineages,loaded.aliases,loaded.total],
+  [16,21,42,4,990],"localhost signed bank must contain exactly PR186 21 real learner positions");
+ assert.equal(loaded.approved,true);
+ assert.deepEqual(liveErrors,[],"local signed public loader runtime errors");
+ await live.screenshot({path:out+"/signed-localhost-990-loaded.png",fullPage:true});
+ await live.close();
  writeFileSync(out+"/acceptance.json",JSON.stringify({
   schema_version:"P12_113_B01B02_SELECTIVE21_STAGING_A4_BROWSER_REAL_RENDER_PASS_V1",
-  actual_published_new:0,operator_exact_release_gate_still_false:true,
-  original_source_slots:38,student_answer_slots:21,blocks:16,results:report
+  actual_published_new:0,operator_exact_release_gate_signed:true,live_localhost_signed_loader_proven:true,
+  original_source_slots:38,student_answer_slots:21,blocks:16,signed_localhost_readback:loaded,results:report
  },null,2)+"\n");
  console.log("P12_113_B01B02_SELECTIVE21_STAGING_A4_21PASS",JSON.stringify({
   renderedBlocks:report.length,sourceIds:38,answerSlots:21,allAnswers:true,
-  noScreenOverflow:true,noPrintOverflow:true,pdfOutputs:16,published:0
+  noScreenOverflow:true,noPrintOverflow:true,pdfOutputs:16,localhostSignedLoaded21:true,publishedOnGitHubPagesNotYet:0
  }));
 }finally{
  await browser?.close();

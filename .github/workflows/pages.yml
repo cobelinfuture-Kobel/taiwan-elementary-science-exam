@@ -12,7 +12,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   test:
-    runs-on: ubuntu-latest
+    # Playwright 1.55.0 Chromium is not supported on ubuntu-26.04 runner.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -79,7 +80,7 @@ jobs:
 
   verify-deployed:
     needs: deploy
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

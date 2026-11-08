@@ -12,12 +12,52 @@ try {
   const assetUrls=[];
   page.on("pageerror",e=>errors.push(String(e)));
   page.on("request",r=>{if(r.url().includes("historical-bank")||r.url().includes("approved-historical"))assetUrls.push(r.url());});
-  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b08-matching10-two-parent-live969-20261025",{waitUntil:"networkidle",timeout:45000});
+  const resp=await page.goto(base+"/exam/?smoke=p12-113-g04s1-b01b02-pr186-selective21-live20261108",{waitUntil:"networkidle",timeout:45000});
   assert.equal(resp?.status(),200,"public Exam HTTP response");
   await page.screenshot({path:"artifacts/deployed-browser/after-load.png",fullPage:true});
   const info=await page.locator("#bank-info").textContent();
   const status=await page.locator("#status").textContent();
-  assert.ok(info.includes("已載入內建考古題 969 小題（476 題是非＋341 題單選＋40 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  assert.ok(info.includes("已載入內建考古題 990 小題（484 題是非＋344 題單選＋4 題複選＋41 組情境）"),"Live site must load certified 113 G04S1 sources: "+info+"; status="+status);
+  // PR #186: live published 21 student answer positions from 38 exact original source slots.
+  const selectedUrl="/data/question-bank/p12-g04s1-113-b01b02-selective21-prepublication-candidate-v1.json";
+  const signedUrl="/data/question-bank/p12-g04s1-113-b01b02-selective21-operator-release-gate-v1.json";
+  const [selectResponse,signResponse]=await Promise.all([
+    page.request.get(base+selectedUrl,{cache:"no-cache"}),
+    page.request.get(base+signedUrl,{cache:"no-cache"})
+  ]);
+  assert.equal(selectResponse.status(),200,"PR186 selected source-backed candidate JSON deployed");
+  assert.equal(signResponse.status(),200,"PR186 one signed operator exact source release roster deployed");
+  const select=await selectResponse.json(),signed=await signResponse.json();
+  assert.deepEqual([select.source_slots_total,select.student_answer_slots_proposed,select.blocks.length],[38,21,16]);
+  assert.equal(new Set(select.exact_source_slot_ids).size,38);
+  assert.equal(signed.public_student_release_allowed,true);
+  assert.equal(signed.exact_operator_source_roster_approval,true);
+  assert.equal(signed.actual_admission_ready_new,21);
+  assert.equal(signed.candidate_source_and_render_fingerprint_fnv1a64,"692509b881a264dd");
+  assert.deepEqual(signed.approved_source_slot_ids,select.exact_source_slot_ids);
+  assert.equal(signed.duplicate_secondary_alias_pairs.length,4);
+  assert.equal(signed.reviewed_target_dedup_schema,"P12_G04S1_113_B01B02_SELECTIVE21_EXACT_TARGETED_SOURCE_11329_11425_DUPLICATE_GATE_V1");
+  const actual=await page.evaluate(async()=>{
+    const a=await import("../assets/js/authority-adapter.mjs");
+    const m=await import("../assets/js/historical-bank-ox-v6.mjs");
+    const authority=await a.loadAuthority();
+    const bank=await m.loadEmbeddedHistoricalBank(authority);
+    const chosen=bank.blocks.filter(b=>b.id.startsWith("P12_113_G04S1_B01B02_SEL21_"));
+    return {slots:chosen.reduce((n,b)=>n+(b.type==="group"?b.items.length:1),0),
+      blocks:chosen.length,sourceLineages:chosen.reduce((n,b)=>n+b.source_lineage_ids.length,0),
+      aliases:chosen[0]?.secondary_source_only_alias_ids||[],
+      approved:chosen.every(b=>b.operator_publication_approval===true&&b.certification_status==="OPERATOR_APPROVED_PUBLIC"),
+      types:Object.fromEntries(["tf","mcq","multi","group"].map(t=>[t,chosen.filter(b=>b.type===t).length])),
+      total:bank.certifiedAnswerSlots,tf:bank.certifiedTrueFalse,mc:bank.certifiedStandaloneChoice,
+      multi:bank.certifiedStandaloneMulti,groups:bank.certifiedGroupCount};
+  });
+  assert.deepEqual([actual.blocks,actual.slots,actual.sourceLineages,actual.aliases.length],[16,21,42,4],
+    "Live Exam must actually load 21 selected learner slots retaining all four duplicate lineage secondaries");
+  assert.deepEqual(actual.types,{tf:8,mcq:3,multi:4,group:1});
+  assert.deepEqual([actual.total,actual.tf,actual.mc,actual.multi,actual.groups],[990,484,344,4,41]);
+  assert.equal(actual.approved,true);
+  await page.screenshot({path:"artifacts/deployed-browser/pr186-21-learner-slots-live-verified.png",fullPage:true});
+  console.log("PR186_LIVE_21_PUBLISHED_READBACK_PASS",JSON.stringify(actual));
   const native38Response=await page.request.get(base+"/data/question-bank/p12-g04s1-113-native38-public-v1.json",{cache:"no-cache"});
   assert.equal(native38Response.status(),200,"Published Pages must serve approved native38 original exam cohort");
   const native38=await native38Response.json();
@@ -633,7 +673,7 @@ try {
   assert.deepEqual(scan6Blocks.map(x=>x.answer),["X","X"]);
   assert.deepEqual(scan6Blocks.map(x=>x.canonical_kp_id),["sci_g04s1_02_06","sci_g04s1_04_08"]);
   assert.ok(scan6Blocks.every(x=>!x.original_cropped_assets_included));
-  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; B08 Chenggong MC7 + original matching10 in four atomic source parents LIVE; 969 answer slots (476 TF, 341 MC, 40 context groups)");
+  console.log("PUBLIC_GITHUB_PAGES_LIVE_EXAM_PASS; existing 969 and PR186+21 = 990 answer slots (484 TF, 344 MC, 4 multi, 41 groups); exact PR186 source lineage42 including four ALIAS PASS");
 } catch(e) {
   console.error("PUBLIC_GITHUB_PAGES_LIVE_EXAM_FAILED:",e);
   throw e;

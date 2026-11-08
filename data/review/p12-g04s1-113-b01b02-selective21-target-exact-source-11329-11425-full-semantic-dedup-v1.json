@@ -1,0 +1,492 @@
+{
+  "schema_version": "P12_G04S1_113_B01B02_SELECTIVE21_EXACT_TARGETED_SOURCE_11329_11425_DUPLICATE_GATE_V1",
+  "date": "2026-11-08",
+  "project_scope": "113 grade4 semester1 Frozen48 KP",
+  "applies_to_exact_candidate_path": "site/data/question-bank/p12-g04s1-113-b01b02-selective21-prepublication-candidate-v1.json",
+  "immutable_candidate_fingerprint": "692509b881a264dd",
+  "auditor_scope": "ONLY 21 learner answer positions from exact 38 B01/B02 original source slots; does not claim that all 1762 original source positions are manually transcribed",
+  "source_pdf_actual_sha_verified_four_text_layer_exams": [
+    "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+    "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+    "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+    "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439"
+  ],
+  "full_source_corpus_11329": {
+    "papers": 29,
+    "text_layer_papers": 24,
+    "scanned_only_papers": 5,
+    "existing_exact_cross_proof": "PR185:data/review/p12-g04s1-113-all29-bulk-b01-62-cross29-papers-exact-duplicate-consolidated-v1.json",
+    "source_own_verbatim_count_this_selected": 38,
+    "manual_scan5_targeted_visual_paper_page_comparison_completed": true,
+    "scan5_all_source_positions_full_question_transcribed": false,
+    "scan5_visual_original_papers": [
+      {
+        "paper": "113_南一_四上_自然_期中評量卷_和順國小.pdf",
+        "pages": 3,
+        "sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+        "themes": "Moon phase illustrations, aquatic plant/animals matrix, ecological narratives, light/shadow demonstration; no identical selected whole exam block"
+      },
+      {
+        "paper": "113_南一_四上_自然_期末評量卷_和順國小.pdf",
+        "pages": 2,
+        "sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+        "themes": "Electrical light/reflection, battery, energy saving, climate; separate propositions or different group options"
+      },
+      {
+        "paper": "113_南一_四上_自然_期末評量卷_忠孝國小.pdf",
+        "pages": 4,
+        "sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+        "themes": "Circuit, light/shadow and reflection, electricity and environment MC/checkbox reading; different full parent and options from chosen 21"
+      },
+      {
+        "paper": "113_康軒_四上_自然_期中評量卷_內安國小.pdf",
+        "pages": 4,
+        "sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+        "themes": "Ground/earthquake, water organisms, aquatic-plant table, ecological protection; similar concepts but not identical whole waterplant four-option check"
+      },
+      {
+        "paper": "113_康軒_四上_自然_期末評量卷_獅湖國小.pdf",
+        "pages": 3,
+        "sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+        "themes": "Sound/light/electrical choice MC, reflection eight-option checklist, hand torch, LED/circuits; parent and option list not identical to Yongan/Yongan and Mingyi"
+      }
+    ],
+    "scanned_pages_total": 16,
+    "important": "Renders of five raster-only PDFs were examined as whole pages against the actual 16 student blocks. We did not transcribe/all-scan-slot-admit 262 source positions in these papers; this is bounded target-cohort duplicate comparison only."
+  },
+  "full_source_corpus_11425": {
+    "papers": 25,
+    "original_source_occurrences": 717,
+    "exact_normalized_selected_source_stem_matches": 0,
+    "source": "PR185: scripts/review/p12-g04s1-113-b01-b02-formal-admission-fullfix.mjs"
+  },
+  "main_public_bank": {
+    "original_113_existing_published_source_slots": 333,
+    "exact_normalized_selected_source_stem_matches": 0,
+    "source": "PR185: scripts/review/p12-g04s1-113-b01-b02-formal-admission-fullfix.mjs"
+  },
+  "original_113_secondary_exact_duplicate_children": {
+    "count": 4,
+    "secondary_school": "Zhongxiao MID003 S03 G01",
+    "canonical_school": "Wende MID001 S03 G08",
+    "same_four_child_and_whole_parent": true,
+    "status": "SECONDARY_LINEAGE_ONLY_DO_NOT_ADD_STUDENT_ITEM",
+    "evidence": "PR185:data/review/p12-g04s1-113-all29-bulk-b02-zhongxiao4-wende-exact-child-parent-duplicate-HOLD-overlay-v1.json",
+    "secondary_id_pairs": [
+      {
+        "secondary": "SCI_G04_S1_113_MID_003|S03|G01|TF|001",
+        "canonical": "SCI_G04_S1_113_MID_001|S03|G08|TF|001"
+      },
+      {
+        "secondary": "SCI_G04_S1_113_MID_003|S03|G01|TF|002",
+        "canonical": "SCI_G04_S1_113_MID_001|S03|G08|TF|002"
+      },
+      {
+        "secondary": "SCI_G04_S1_113_MID_003|S03|G01|TF|003",
+        "canonical": "SCI_G04_S1_113_MID_001|S03|G08|TF|003"
+      },
+      {
+        "secondary": "SCI_G04_S1_113_MID_003|S03|G01|TF|004",
+        "canonical": "SCI_G04_S1_113_MID_001|S03|G08|TF|004"
+      }
+    ]
+  },
+  "original_113_other_school_equal_single_child_but_distinct_full_parent_item": {
+    "observed_in_target_B01_from_24_readable_papers": 3,
+    "paper_overlap_types": [
+      "YONGAN_SAFETY_VS_MINGYI_OTHER_OPTIONS",
+      "YONGAN_REFLECTION_VS_DONGGUANG_OTHER_PARENT"
+    ],
+    "no_whole_question_student_duplicate": true
+  },
+  "formal_target_dedup_acceptance": true,
+  "source_original_and_pdf_page_bbox_for_selected_items": true,
+  "source_science_direct_frozen48kp_accepted_for_exact38": true,
+  "rights_article9_question_text_accepted_for_exact38": true,
+  "exact_operator_release_authorization_extracted_from_current_user_instruction": false,
+  "distinct_student_blocks": 16,
+  "distinct_student_answer_positions": 21,
+  "exact_original_source_slots": 38,
+  "duplicate_secondary_alias_positions_not_counted_as_student": 4,
+  "original_333_main_and_Frozen48_unchanged": true,
+  "teacher_answer_key_not_asserted": true,
+  "original_school_PDF_and_third_party_images_not_redistributed": true,
+  "reviewed_blocks": [
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_001",
+      "type": "multi",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G08|TF|001",
+        "SCI_G04_S1_113_MID_001|S03|G08|TF|002",
+        "SCI_G04_S1_113_MID_001|S03|G08|TF|003",
+        "SCI_G04_S1_113_MID_001|S03|G08|TF|004"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_001|S03|G08|TF|001",
+          "other_original_papers": [
+            "113_南一_四上_自然_期中評量卷_忠孝國小.pdf"
+          ]
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_001|S03|G08|TF|002",
+          "other_original_papers": [
+            "113_南一_四上_自然_期中評量卷_忠孝國小.pdf"
+          ]
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_001|S03|G08|TF|003",
+          "other_original_papers": [
+            "113_南一_四上_自然_期中評量卷_忠孝國小.pdf"
+          ]
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_MID_001|S03|G08|TF|004",
+          "other_original_papers": [
+            "113_南一_四上_自然_期中評量卷_忠孝國小.pdf"
+          ]
+        }
+      ],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "EXACT_IDENTICAL_PARENT_CHILD_WITH_FOUR_ZHONGXIAO_SECONDARY_SOURCE_ALIASES_NO_SECOND_STUDENT_BLOCK",
+      "four_secondary_exact_same_child_parent_alias_source_ids": [
+        "SCI_G04_S1_113_MID_003|S03|G01|TF|001",
+        "SCI_G04_S1_113_MID_003|S03|G01|TF|002",
+        "SCI_G04_S1_113_MID_003|S03|G01|TF|003",
+        "SCI_G04_S1_113_MID_003|S03|G01|TF|004"
+      ],
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_002",
+      "type": "tf",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|001"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "UNIQUE_LIGHT_TF_ORIGINAL_SINGLE_SOURCE_TEXT",
+      "source_visual_and_parent_reason": "Yongan LIGHT TF #1; separate affirmative judgment, not scan-only other exam single-choice discussion of seeing light",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_003",
+      "type": "tf",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|002"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "UNIQUE_LIGHT_TF_ORIGINAL_SINGLE_SOURCE_TEXT",
+      "source_visual_and_parent_reason": "Yongan LIGHT TF #2; other scans' straight-light questions have distinct stem or multiple-choice options",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_004",
+      "type": "tf",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|003"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "UNIQUE_SHADOW_TF_ORIGINAL_SINGLE_SOURCE_TEXT",
+      "source_visual_and_parent_reason": "Yongan LIGHT TF #3; distinct from Zhongsiao/Shihu shadow-context and other figure items",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_005",
+      "type": "tf",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|004"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "UNIQUE_REFLECTION_TF_ORIGINAL_SINGLE_SOURCE_TEXT",
+      "source_visual_and_parent_reason": "Yongan LIGHT TF #4, distinct from all reflection group options",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_006",
+      "type": "tf",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_FINAL_005|S04|G01|LIGHT_TF|005"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "UNIQUE_REFLECTION_TF_ORIGINAL_SINGLE_SOURCE_TEXT",
+      "source_visual_and_parent_reason": "Yongan LIGHT TF #5, different from scans' light-straight propagation and reflection single/multiple items",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_007",
+      "type": "multi",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|001",
+        "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|002",
+        "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|003",
+        "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|004",
+        "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|005",
+        "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|006"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|005",
+          "other_original_papers": [
+            "113_康軒_四上_自然_期末評量卷_明義國小.pdf"
+          ]
+        },
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G01|SAFETY_CHECK|006",
+          "other_original_papers": [
+            "113_康軒_四上_自然_期末評量卷_明義國小.pdf"
+          ]
+        }
+      ],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "OVERLAP_TWO_SHORT_CHILDREN_BUT_PARENT_OPTIONS_DIFFER_NOT_FULL_GROUP_DUPLICATE",
+      "source_visual_and_parent_reason": "Yongan six-option electrical safety check vs Mingyi separate parent and six-child list, two exact child clauses but four others differ and exam grouping differs; retain separate multi",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_008",
+      "type": "multi",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|001",
+        "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|002",
+        "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|003",
+        "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|004",
+        "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|005",
+        "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|006",
+        "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|007"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [
+        {
+          "source_slot_id": "SCI_G04_S1_113_FINAL_005|S05|G02|REFLECTION_CHECK|001",
+          "other_original_papers": [
+            "113_南一_四上_自然_期末評量卷_東光國小.pdf"
+          ]
+        }
+      ],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "OVERLAP_ONE_MIRROR_CHILD_BUT_OTHER_OPTIONS_AND_PARENT_DIFFER_NOT_FULL_GROUP_DUPLICATE",
+      "source_visual_and_parent_reason": "Yongan seven-option reflection check vs Dongguang mirrored item and Shihu scan eight-option reflection activity: different parent/options and source format",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_009",
+      "type": "group",
+      "printable_answer_positions": 6,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_FINAL_007|S03|G04|FILL|001",
+        "SCI_G04_S1_113_FINAL_007|S03|G04|FILL|002",
+        "SCI_G04_S1_113_FINAL_007|S03|G04|FILL|003",
+        "SCI_G04_S1_113_FINAL_007|S03|G04|FILL|004",
+        "SCI_G04_S1_113_FINAL_007|S03|G04|FILL|005",
+        "SCI_G04_S1_113_FINAL_007|S03|G04|FILL|006"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "UNIQUE_SIX_ITEM_SOUND_MEDIUM_PARENT_CODE_BANK",
+      "source_visual_and_parent_reason": "Mingyi original A gas B solid C liquid code-bank with six media observations; Shihu scan sound-science questions different single-choice and reading",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_016",
+      "type": "tf",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S01|TF|001"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "UNIQUE_ZHONGXIAO_MID_SHADOW_TF",
+      "source_visual_and_parent_reason": "Original Zhongxiao S01 TF #1; scan-only light questions are distinct wording",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_017",
+      "type": "tf",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S01|TF|006"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "UNIQUE_ZHONGXIAO_MID_RIVER_TF",
+      "source_visual_and_parent_reason": "Original Zhongxiao S01 TF #6; Neian/Heshun mid water habitats and river questions have different statements",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_018",
+      "type": "tf",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S01|TF|007"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "UNIQUE_ZHONGXIAO_MID_CLOWNFISH_TF",
+      "source_visual_and_parent_reason": "Original Zhongxiao S01 TF #7; Neian scan fish swimming/respiration questions differ",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_019",
+      "type": "mcq",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S02|MC|001"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "UNIQUE_ZHONGXIAO_MID_SHADOW_DIRECTION_MCQ",
+      "source_visual_and_parent_reason": "Original Zhongxiao S02 MC #1 positions hand torch relative to rubber; scan-only shadow questions have different objects or actual figures",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_020",
+      "type": "mcq",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S02|MC|006"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "UNIQUE_ZHONGXIAO_MID_BETTA_SWIM_MCQ",
+      "source_visual_and_parent_reason": "Original Zhongxiao S02 MC #6; Neian scan water animal comparison does not use same question/options",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_021",
+      "type": "mcq",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S02|MC|009"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "UNIQUE_ZHONGXIAO_MID_BASKETBALL_SHADOW_MCQ",
+      "source_visual_and_parent_reason": "Original Zhongxiao S02 MC #9; scan-only light questions do not have same wall/hoop/streetlight three-object option set",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    },
+    {
+      "student_block_id": "P12_113_G04S1_B01B02_SEL21_022",
+      "type": "multi",
+      "printable_answer_positions": 1,
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_003|S03|G02|CHECK|001",
+        "SCI_G04_S1_113_MID_003|S03|G02|CHECK|002",
+        "SCI_G04_S1_113_MID_003|S03|G02|CHECK|003",
+        "SCI_G04_S1_113_MID_003|S03|G02|CHECK|004"
+      ],
+      "original_pdf_original_stem_options_parent_page_and_answer_bbox_checked_against_verified_text_layer": true,
+      "model_independent_science_unique_answer_direct_frozen48_kp_existing_gate_accepted": true,
+      "article9_school_regulated_examination_question_text_existing_gate_accepted": true,
+      "other113_24_readable_original_papers_exact_stem_cases": [],
+      "scan5_16_page_targeted_manual_whole_question_visual_comparison": "NO_IDENTICAL_COMPLETE_PARENT_AND_ALL_ORDERED_CHILDREN_OR_OPTIONS",
+      "source_114_25_papers_717_original_text_exact_question_match_remaining": 0,
+      "active_public_333_full_stem_exact_matches_remaining": 0,
+      "full_student_question_duplicate_disposition": "UNIQUE_LEARNER_BLOCK",
+      "dedup_decision": "UNIQUE_ZHONGXIAO_MID_EMERGENT_PLANTS_4OPTION_CHECK",
+      "source_visual_and_parent_reason": "Original Zhongxiao S03 G02 4-plant check parent; Neian scan aquatic plant code-bank table is different assessment prompt and grouping",
+      "gate_applicable_to_exact_38_original_source_ids_only": true
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "P12_G04S1_113_B01_B02_SELECTIVE_STUDENT_RELEASE_FULLFIX_CLOSEOUT_V1",
+  "date": "2026-11-08",
+  "scope": "113 grade4 semester1 existing Frozen48, PR186 exact 38 source slots → 21 student answer positions",
+  "immutable_candidate_fingerprint": "692509b881a264dd",
+  "exact_publication_approval": {
+    "operator_verbatim": "直接收斂 PR #186 的 38 個來源 ID／21 個作答位置，完成最後原卷去重及一次精確發布簽核，接著合併 `main`、驗證 Pages 實站，再以真正增加的 `PUBLISHED` 結案；不再重新啟動 B01、B02 的初審。",
+    "operator_exact_source_roster_approved": true,
+    "source_id_count": 38,
+    "learner_answer_slot_count": 21,
+    "source": "site/data/question-bank/p12-g04s1-113-b01b02-selective21-operator-release-gate-v1.json"
+  },
+  "admission_evidence": {
+    "candidate": "site/data/question-bank/p12-g04s1-113-b01b02-selective21-prepublication-candidate-v1.json",
+    "reviewed_29pdf_25pdf_333_bank": "data/review/p12-g04s1-113-b01b02-selective21-target-exact-source-11329-11425-full-semantic-dedup-v1.json",
+    "source_science_kp_positive_38": "Existing PR185 exact source components 70 accepted, subset selected38",
+    "source_rights_textonly_positive_38": "Existing PR185 Article9 61 accepted, selected38",
+    "old_333_source_unchanged": true,
+    "source_secondaries_alias_not_student_items": 4
+  },
+  "student_answer_projection": {
+    "proposed_new": 21,
+    "source_locations_b01": 28,
+    "source_locations_b02": 10,
+    "new_learner_answer_blocks": 16,
+    "new_learner_answer_slots": 21,
+    "expected_existing_site_answer_slots": 969,
+    "expected_total_site_answer_slots_after_release": 990,
+    "new_tf": 8,
+    "new_mc": 3,
+    "new_multi": 4,
+    "new_short_group_children": 6,
+    "cross_school_secondary_aliases": 4
+  },
+  "batch_source_work_projection_after_pages": {
+    "B01": {
+      "original_slots": 114,
+      "PUBLISHED": 28,
+      "HOLD": 45,
+      "ALIAS": 9,
+      "UNREVIEWED": 32
+    },
+    "B02": {
+      "original_slots": 133,
+      "PUBLISHED": 10,
+      "HOLD": 19,
+      "ALIAS": 5,
+      "UNREVIEWED": 99
+    },
+    "all29": {
+      "original_slots": 1762,
+      "PUBLISHED": 371,
+      "HOLD": 355,
+      "ALIAS": 30,
+      "UNREVIEWED": 1006
+    },
+    "unit": "SOURCE_WORK_POSITION_NOT_UNIQUE_LEARNER_QUESTION"
+  },
+  "formal_status_at_this_premerge_commit": {
+    "FORMAL_SCIENCE_KP_APPROVED_new": 21,
+    "ADMISSION_READY_new": 21,
+    "PUBLISHED_new": 0,
+    "status": "EXACT_SOURCE_APPROVED_AND_STUDENT_BANK_COMPILED_PENDING_MAIN_AND_LIVE_PAGES",
+    "notes": "Only actual main+Pages E2E can turn formal PUBLISHED_new from 0 to 21. Source-location PUBLISHED projection371 is not 371 distinct student answer slots."
+  },
+  "after_live_main_publication": {
+    "PUBLISHED_new": null,
+    "MAIN_MERGE_SHA": null,
+    "PAGES_LIVE_RUN_ID": null,
+    "PAGES_LIVE_READBACK_PASS": false,
+    "future_required_action": "After actual merge and live 990/21 exact readback, update this file in main to PUBLISHED_new=21 with real Merge SHA and Actions run ID; do not infer success from approved PR/CI."
+  },
+  "existing_333_remain_immutable": true,
+  "no_unrelated_B01B02_reopen": true,
+  "next_short_step": "Finish PR186 focusedCI/A4 then merge main, run Pages live 990 with exact new21 and old333 preserved; update formal closeout using real live deployment run."
+}

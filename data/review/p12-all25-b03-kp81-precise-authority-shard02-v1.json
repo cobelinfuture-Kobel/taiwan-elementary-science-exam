@@ -1,0 +1,544 @@
+{
+  "schema_version": "P12_ALL25_B03_KP81_PRECISE_AUTHORITY_MAP_SHARD_V1",
+  "shard": 2,
+  "authority_ref": "site/data/authority/science-g03-g04-selector-v2.json",
+  "authority_g04s1_kp_count": 45,
+  "input_review_ref": "data/review/p12-all25-b02-human-triage-shard02-v1.json",
+  "review_count": 21,
+  "formal_kp_approvals": 0,
+  "review_rows": [
+    {
+      "source_id": "SCI_G04_S1_114_MID_007|S01|TF|008",
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "original_source_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_02_11",
+      "strict_reviewer_candidate_kp_title": "水域污染對生物的影響",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "觀察後將水生生物放回原處屬生態調查倫理，U02_11 主題為污染影響而非採集規範。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "觀察後的水生生物，應放回原處，避免造成生物死亡或破壞環境。",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_007|S02|MC|008",
+      "paper_id": "SCI_G04_S1_114_MID_007",
+      "original_source_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "要有大人陪同"
+        },
+        {
+          "label": "②",
+          "text": "不要前往水深的環境"
+        },
+        {
+          "label": "③",
+          "text": "穿著適合的衣服和鞋子"
+        },
+        {
+          "label": "④",
+          "text": "亂丟垃圾"
+        }
+      ],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": null,
+      "strict_reviewer_candidate_kp_title": null,
+      "exact_boundary_status": "NO_EXACT_KP",
+      "source_grounded_reason": "野外水域調查安全守則在現有 U02 學習指標中無獨立正式 KP。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "下列拜訪水域環境的注意事項，何者有誤？",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_008|S01|TF|003",
+      "paper_id": "SCI_G04_S1_114_MID_008",
+      "original_source_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_02_11",
+      "strict_reviewer_candidate_kp_title": "水域污染對生物的影響",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "不同水域間任意轉移生物屬外來種與棲地風險，與 U02_11 水域污染並不完全一致。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "進行水域調查活動時，可以將在溪流採集的水生生物放到其他的水域環境。",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_008|S01|TF|008",
+      "paper_id": "SCI_G04_S1_114_MID_008",
+      "original_source_ref": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "original_all_options": [],
+      "previous_candidate_kp": "sci_g04s1_02_11",
+      "strict_reviewer_candidate_kp": "sci_g04s1_02_11",
+      "strict_reviewer_candidate_kp_title": "水域污染對生物的影響",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "學校生態池清潔管理是生態維護議題，非 U02_11 的污染後生物影響本身。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "清理學校的生態池會干擾生長在其中的生物，所以不要定期實施。",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|007",
+      "paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "original_all_options": [
+        {
+          "label": "(1)",
+          "text": "換成大一點的風車葉片"
+        },
+        {
+          "label": "(2)",
+          "text": "多串聯幾個電池"
+        },
+        {
+          "label": "(3)",
+          "text": "多連接幾個風車葉片"
+        },
+        {
+          "label": "(4)",
+          "text": "不要設置開關的構造。"
+        }
+      ],
+      "previous_candidate_kp": "sci_g04s1_04_10",
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_10",
+      "strict_reviewer_candidate_kp_title": "小馬達與電池極性",
+      "exact_boundary_status": "MULTIPLE_KP_REVIEW",
+      "source_grounded_reason": "小風扇轉速可同時測 U04_10 小馬達與 U04_06 電池串聯，不能無據指定唯一 KP。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "如果要讓自製的小型電風扇轉得更快，下列哪一個方法可以做得到？",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_005|S2|MC|015",
+      "paper_id": "SCI_G04_S1_114_FINAL_005",
+      "original_source_ref": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json",
+      "original_all_options": [
+        {
+          "label": "(1)",
+          "text": "鏡子夾角為直角時，影像數量最多"
+        },
+        {
+          "label": "(2)",
+          "text": "影像數量與鏡子夾角的大小無關"
+        },
+        {
+          "label": "(3)",
+          "text": "鏡子夾角越小，影像數量越多"
+        },
+        {
+          "label": "(4)",
+          "text": "鏡子夾角越大，影像數量越多。"
+        }
+      ],
+      "previous_candidate_kp": "sci_g04s1_03_07",
+      "strict_reviewer_candidate_kp": "sci_g04s1_03_07",
+      "strict_reviewer_candidate_kp_title": "光的反射與方向改變",
+      "exact_boundary_status": "DIRECT_KP_CANDIDATE",
+      "source_grounded_reason": "兩面鏡子角度與多重反射影像直接測試 U03_07 光的反射。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "小明將兩面鏡子面對面放置，並調整鏡子的夾角，他發現鏡子中的影像數量會隨著夾角的變化而改變。請問以下哪個敘述是正確的？",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-dadun-g04s1-final28-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|011",
+      "paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": null,
+      "strict_reviewer_candidate_kp_title": null,
+      "exact_boundary_status": "NO_EXACT_KP",
+      "source_grounded_reason": "LED 相對省電與額定電壓是 LED 性質；沒有精確對應的 U03／U04 KP。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "發光二極體(LED)比傳統的燈泡更省電，壽命更長，有不同的規格，使用時要注意電壓的限制。",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S1|TF|014",
+      "paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_01",
+      "strict_reviewer_candidate_kp_title": "電池正負極",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "正規電流方向涉及電流約定，不等同 U04_01 電池極性識別。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "通路中的電流是由電池的負極流向電池的正極。",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|015",
+      "paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "並聯兩個電池"
+        },
+        {
+          "label": "②",
+          "text": "串聯兩個電池"
+        },
+        {
+          "label": "③",
+          "text": "連接一個燈泡"
+        },
+        {
+          "label": "④",
+          "text": "改變電池的正負極方向"
+        }
+      ],
+      "previous_candidate_kp": "sci_g04s1_04_10",
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_10",
+      "strict_reviewer_candidate_kp_title": "小馬達與電池極性",
+      "exact_boundary_status": "MULTIPLE_KP_REVIEW",
+      "source_grounded_reason": "小風扇轉速提升同時依賴馬達與電池串聯，涉及 U04_10／U04_06。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "用小馬達自製簡易風扇，怎樣做可以讓風扇的風更強？",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_006|S2|MC|017",
+      "paper_id": "SCI_G04_S1_114_FINAL_006",
+      "original_source_ref": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "新舊電池可以混用"
+        },
+        {
+          "label": "②",
+          "text": "長期不使用的電器要將電池取出"
+        },
+        {
+          "label": "③",
+          "text": "廢棄電池直接丟垃圾桶"
+        },
+        {
+          "label": "④",
+          "text": "所有的電池都可以充電再使用"
+        }
+      ],
+      "previous_candidate_kp": "sci_g04s1_04_11",
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_12",
+      "strict_reviewer_candidate_kp_title": "市電與用電安全",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "混用新舊電池、久置取出屬電池安全與保管，U04_12 主要描述市電及用電安全。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "下列哪一個使用電池的注意事項是正確的？",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-minquan-g04s1-final31-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|006",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_12",
+      "strict_reviewer_candidate_kp_title": "市電與用電安全",
+      "exact_boundary_status": "SCIENCE_HOLD_KP_ADJACENT",
+      "source_grounded_reason": "題幹未定義不使用多久，Science HOLD；電池保管與 U04_12 安全概念相關但不精確。",
+      "science_gate_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "電器不使用時，電池也可以繼續裝在裡面沒有關係。",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S01|TF|015",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_03_03",
+      "strict_reviewer_candidate_kp_title": "聲音需要介質傳播",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "雷聲與閃電先後由光聲傳播速度差造成，U03_03 是聲音需要介質傳播，未直接涵蓋光聲速比較。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "夏天的午後會時常會有雷陣雨，會先看到閃電，然後才聽到雷聲，這是因為光的速度比聲音的速度快。",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S02|MC|007",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "鏡子夾角越大，影像數量越多"
+        },
+        {
+          "label": "②",
+          "text": "鏡子夾角越小，影像數量越多"
+        },
+        {
+          "label": "③",
+          "text": "鏡子夾角的大小與影像數量無關"
+        },
+        {
+          "label": "④",
+          "text": "鏡子夾角為直角時，影像數量最多。"
+        }
+      ],
+      "previous_candidate_kp": "sci_g04s1_03_07",
+      "strict_reviewer_candidate_kp": "sci_g04s1_03_07",
+      "strict_reviewer_candidate_kp_title": "光的反射與方向改變",
+      "exact_boundary_status": "DIRECT_KP_CANDIDATE",
+      "source_grounded_reason": "鏡角度與多重影像屬光反射的直接應用。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "若熙將兩面鏡子面對面放置，並調整鏡子的夾角，她發現鏡子中的影像數量會隨著夾角的變化而改變。請問以下哪個敘述是正確的？",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_007|S02|MC|017",
+      "paper_id": "SCI_G04_S1_114_FINAL_007",
+      "original_source_ref": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "增加電線長度"
+        },
+        {
+          "label": "②",
+          "text": "改變電池品牌"
+        },
+        {
+          "label": "③",
+          "text": "增加電池數量"
+        },
+        {
+          "label": "④",
+          "text": "改變電池的正負極方向。"
+        }
+      ],
+      "previous_candidate_kp": "sci_g04s1_04_10",
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_10",
+      "strict_reviewer_candidate_kp_title": "小馬達與電池極性",
+      "exact_boundary_status": "DIRECT_KP_CANDIDATE",
+      "source_grounded_reason": "更換電池正負極改變小馬達轉向，精確對應 U04_10 小馬達與電池極性。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "下列哪一種方法可以改變小馬達的轉動方向？",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-anhe-g04s1-final35-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_008|S01|TF|009",
+      "paper_id": "SCI_G04_S1_114_FINAL_008",
+      "original_source_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_12",
+      "strict_reviewer_candidate_kp_title": "市電與用電安全",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "乾電池久置漏液的保存安全屬 U04_12 近似延伸，非市電安全核心。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "為了方便起見，就算不常使用的電器，乾電池也不需要拿出來，不會有任何影響。",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_008|S02|MC|014",
+      "paper_id": "SCI_G04_S1_114_FINAL_008",
+      "original_source_ref": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "使風扇轉得更快"
+        },
+        {
+          "label": "②",
+          "text": "讓電力持久"
+        },
+        {
+          "label": "③",
+          "text": "延長小型電風扇的使用期限"
+        },
+        {
+          "label": "④",
+          "text": "方便觀察風扇葉片轉動的方向。"
+        }
+      ],
+      "previous_candidate_kp": "sci_g04s1_04_10",
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_10",
+      "strict_reviewer_candidate_kp_title": "小馬達與電池極性",
+      "exact_boundary_status": "SCIENCE_HOLD_MULTIPLE_KP",
+      "source_grounded_reason": "加串聯電池提高風扇轉速涉及 U04_06／U04_10，且缺額定電壓，Science HOLD 不可放行。",
+      "science_gate_status": "SCIENCE_HOLD_CONDITIONS_UNSPECIFIED",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "增加小型電風扇的電池數量，並用串聯的方式連接時，會有什麼好處？",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-mingyi-g04s1-final28-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_FINAL_009|S1|TF|005",
+      "paper_id": "SCI_G04_S1_114_FINAL_009",
+      "original_source_ref": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json",
+      "original_all_options": [],
+      "previous_candidate_kp": "sci_g04s1_04_10",
+      "strict_reviewer_candidate_kp": "sci_g04s1_04_10",
+      "strict_reviewer_candidate_kp_title": "小馬達與電池極性",
+      "exact_boundary_status": "SCIENCE_HOLD_MULTIPLE_KP",
+      "source_grounded_reason": "增加串聯電池與馬達轉速屬 U04_06／U04_10 多 KP，過電壓條件缺失，Science HOLD。",
+      "science_gate_status": "SCIENCE_HOLD_UNIQUE_ANSWER_UNDETERMINED",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "小馬達可以讓風扇轉動，小瑛想要讓玩具小風扇轉動的速度更快，她可以增加串聯的電池數量。",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-wengzi-g04s1-final15-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|008",
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "original_source_ref": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_02_11",
+      "strict_reviewer_candidate_kp_title": "水域污染對生物的影響",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "觸碰珊瑚與海龜涉及生態遊憩與保育，非 U02_11 水域污染的精確描述。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "育揚到小琉球進行浮潛，會看見許多珊瑚礁還有海龜，可以就近觀察、輕輕觸碰牠們。",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|009",
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "original_source_ref": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": null,
+      "strict_reviewer_candidate_kp_title": null,
+      "exact_boundary_status": "SCIENCE_HOLD_NO_EXACT_KP",
+      "source_grounded_reason": "拉姆薩濕地公約定義不在四上正式水域環境 KP，原敘述亦需外部權威驗證。",
+      "science_gate_status": "SCIENCE_HOLD_UNDERDETERMINED",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "根據國際拉姆薩濕地公約的定義，無論是天然或人為，只要水深低潮時不超過六公尺，都屬於濕地水域。",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S01|TF|010",
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "original_source_ref": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json",
+      "original_all_options": [],
+      "previous_candidate_kp": null,
+      "strict_reviewer_candidate_kp": "sci_g04s1_02_10",
+      "strict_reviewer_candidate_kp_title": "環境與人類飲食習慣",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "避免過度捕撈為海洋資源保育，U02_10 焦點是環境與飲食習慣，並非永續漁業。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "為了保護水生生物，人類應該不過度捕撈，讓生態資源能永續繁衍。",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json"
+    },
+    {
+      "source_id": "SCI_G04_S1_114_MID_010|S02|MC|014",
+      "paper_id": "SCI_G04_S1_114_MID_010",
+      "original_source_ref": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json",
+      "original_all_options": [
+        {
+          "label": "①",
+          "text": "食用海鮮水產"
+        },
+        {
+          "label": "②",
+          "text": "珊瑚礁岩建材"
+        },
+        {
+          "label": "③",
+          "text": "提供遠洋貨運"
+        },
+        {
+          "label": "④",
+          "text": "精製糖粉"
+        }
+      ],
+      "previous_candidate_kp": "sci_g04s1_02_10",
+      "strict_reviewer_candidate_kp": "sci_g04s1_02_10",
+      "strict_reviewer_candidate_kp_title": "環境與人類飲食習慣",
+      "exact_boundary_status": "ADJACENT_KP",
+      "source_grounded_reason": "海洋資源產出包含海鮮與航運，U02_10 是人類飲食與環境，資源分類只有部分相符。",
+      "science_gate_status": "MODEL_SCIENCE_PASS",
+      "canonical_kp_formally_approved": false,
+      "operator_approval": false,
+      "site_release": false,
+      "immutable_original_question": true,
+      "source_display_stem_without_assessment_annotation": "下列何者並非人類能從海洋中取得的資源？",
+      "original_verbatim_source_remains_in": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json"
+    }
+  ],
+  "operator_review_required": true,
+  "review_view_policy": "SCORELESS_DISPLAY_PROJECTION_ORIGINAL_VERBATIM_SOURCE_ARCHIVE_UNMODIFIED"
+}

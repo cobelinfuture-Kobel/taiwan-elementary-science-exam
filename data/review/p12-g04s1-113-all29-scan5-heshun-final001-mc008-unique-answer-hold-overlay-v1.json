@@ -1,0 +1,80 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_POST_SCAN5_HESHUN_FINAL001_MC008_SOURCE_SCIENCE_HOLD_DISJOINT_OVERLAY_V1",
+  "date": "2026-11-01",
+  "source_paper_id": "SCI_G04_S1_113_FINAL_001",
+  "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|008",
+  "original_pdf_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+  "source_pdf_page_1based": 1,
+  "source_exact_response_bbox_pdf_points_top_left": [
+    393.38,
+    324.24,
+    426.01,
+    336.95
+  ],
+  "source_geometry_proof": "data/review/p12-g04s1-113-heshun-final001-first23-exact-original-raster-bbox-v1.json",
+  "source_visual_parent_route_proof": "data/review/p12-g04s1-113-all29-scan5-heshun-final001-41-visual-parent-source-routing-v1.json",
+  "baseline_disjoint_ledger": "data/review/p12-g04s1-113-all29-known-atomic-disjoint-source-ledger-v8.json",
+  "baseline_ledger_source_position_count": 1762,
+  "source_choice_check_facts": [
+    {
+      "ordinal": 1,
+      "meaning": "省電",
+      "scientific_benefit": true
+    },
+    {
+      "ordinal": 2,
+      "meaning": "價格貴",
+      "scientific_benefit": false
+    },
+    {
+      "ordinal": 3,
+      "meaning": "顏色種類很多",
+      "scientific_benefit": true
+    },
+    {
+      "ordinal": 4,
+      "meaning": "以上都是",
+      "scientific_benefit": false
+    }
+  ],
+  "unique_answer_satisfied": false,
+  "source_rights_protection": "Original complete wording/answer hand-marking not publicly reprinted. The model checked source image; original red answer is not an authenticated teacher key.",
+  "previous_disposition": "UNREVIEWED",
+  "new_effective_disposition": "HOLD",
+  "existing_gate_reason": "HOLD_SCIENCE_UNIQUE_ANSWER_MULTIPLE_INDIVIDUAL_CORRECT_OPTIONS",
+  "scope": "No new Science/KP review round: one-source existing science uniqueness gate disposition. Formal approved answer cannot be claimed. Keep original question and options immutable.",
+  "source_status_override_only": true,
+  "no_main_public_or_frozen_change": true,
+  "effect_source_work_disjoint": {
+    "PUBLISHED": 333,
+    "HOLD": 284,
+    "ALIAS": 15,
+    "UNREVIEWED": 1130
+  },
+  "previous_source_work_disjoint": {
+    "PUBLISHED": 333,
+    "HOLD": 283,
+    "ALIAS": 15,
+    "UNREVIEWED": 1131
+  },
+  "scan5_disjoint_effect": {
+    "PUBLISHED": 24,
+    "HOLD": 16,
+    "ALIAS": 0,
+    "UNREVIEWED": 222
+  },
+  "heshun_final001_disjoint_effect": {
+    "PUBLISHED": 9,
+    "HOLD": 1,
+    "ALIAS": 0,
+    "UNREVIEWED": 40
+  },
+  "new_FORMAL_SCIENCE_KP_APPROVED": 0,
+  "new_ADMISSION_READY": 0,
+  "new_PUBLISHED": 0,
+  "original_333_unchanged": true,
+  "no_KP_authority_change": true,
+  "not_eligible_for_operator_selective_PR": true,
+  "corrective_evidence_if_reopen": "Only original-school authoritative admissible science resolution or an approved evidence-preserving exception can reopen; do not silently edit school source wording, select red pen answer, or alter Frozen gates.",
+  "next_step": "Continue the remaining 40 Heshun positions' exact source/option/parents and then 182 other Scan5 UNREVIEWED positions (223 baseline minus 41 visually routed), preserving original 29-paper accounting."
+}

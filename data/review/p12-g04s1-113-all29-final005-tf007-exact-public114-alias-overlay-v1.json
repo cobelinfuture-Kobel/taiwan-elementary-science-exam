@@ -1,0 +1,49 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_FINAL005_TF007_EXACT_PUBLIC_114_ALIAS_DISJOINT_OVERLAY_V1",
+  "date": "2026-11-06",
+  "scope": "113 original school final exam single exact source question identity matched to one already-published 114 school exam true/false student item. Overlay after previously recorded one Science HOLD and seven moon-scope HOLD.",
+  "school": "高雄市永安國民小學",
+  "source_paper_id": "SCI_G04_S1_113_FINAL_005",
+  "source_slot_id": "SCI_G04_S1_113_FINAL_005|S01|TF|007",
+  "original_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+  "original_pdf_page_1based": 1,
+  "original_native_answer_bbox_pdf_points_top_left": [
+    42.12,
+    344.2,
+    90.12,
+    356.2
+  ],
+  "original_exam_stem": "為避免觸電，我們會用塑膠材質來製作電器開關的外殼。",
+  "source_answer_science_not_teacher_key": "O",
+  "source_direct_kp_model_proposal_only": "sci_g04s1_04_12",
+  "new_student_item_allowed": false,
+  "existing_student_item_id": "P12_B04_G04S1_B04_TF_050",
+  "existing_student_item_source_slot_id": "SCI_G04_S1_114_FINAL_007|S01|TF|013",
+  "existing_student_item_bank": "site/data/question-bank/p12-b04-b04-47-public-v1.json",
+  "existing_student_answer": "O",
+  "existing_student_original_canonical_kp_unchanged": "sci_g04s1_04_05",
+  "existing_original_publication_operator_approved": true,
+  "discovery": "GitHub Science Exam S1 CI run #1338 42175657344 scanned every site/data/question-bank/*.json; located identical original stem for one published student item, reversing earlier scoped PR183 negative duplicate snapshot",
+  "duplicate_gate": "FULL_VERBATIM_EXACT_STEM_ALIAS_TO_ALREADY_PUBLISHED_STUDENT_ITEM",
+  "source_kp_variance_note": "Exact same school question can be independently classified with a different proposal under a source review; since student stem is identical, do not duplicate or modify frozen existing student item/KP. Source review proposal remains non-authoritative.",
+  "prior_source_disposition": "UNREVIEWED",
+  "effective_new_source_disposition": "ALIAS",
+  "previous_source_work_disjoint": {
+    "PUBLISHED": 333,
+    "HOLD": 291,
+    "ALIAS": 15,
+    "UNREVIEWED": 1123
+  },
+  "effective_source_work_disjoint": {
+    "PUBLISHED": 333,
+    "HOLD": 291,
+    "ALIAS": 16,
+    "UNREVIEWED": 1122
+  },
+  "effective_source_work_total": 1762,
+  "main_student_published_113_source_positions_remain": 333,
+  "student_site_publication_new": 0,
+  "formal_new_science_kp_approved": 0,
+  "admission_ready_new": 0,
+  "next_action": "Continue original remaining 1122 work slots and one distinct MID005 TF002 exact candidate without reopening main 333 source identities"
+}

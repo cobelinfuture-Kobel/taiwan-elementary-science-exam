@@ -1,0 +1,886 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_KP48_STAGE2_PRINTED_ANSWER_POSITION_RECONCILIATION_V1",
+  "basis_previous_29sha": "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "authority": "site/data/authority/science-g03-g04-selector-v3.json",
+  "original_sources_29_sha_verified": 29,
+  "original_source_pages_72": 72,
+  "legacy_native_text_question_starts_not_answer_slots": 771,
+  "scan_pdf_visual_exam_pages_recovered": 5,
+  "scan_pdf_section_response_positions": 262,
+  "one_native_original_exam_printed_section_response_positions": 64,
+  "section_reconciled_source_papers": 13,
+  "original_response_positions_section_reconciled": 821,
+  "remaining_native_source_papers_to_exactly_count": 16,
+  "one_native_paper_independently_provisional_science_answer_count": 54,
+  "one_native_paper_answer_or_picture_hold_count": 10,
+  "one_native_paper_corrected_native_numbered_start_count": 31,
+  "one_native_paper_exact_response_slots": 64,
+  "all29_exact_source_position_closeout": false,
+  "all29_science_unique_answer_and_direct_kp_certified": false,
+  "cross_year_114_exact_duplicate_fully_checked": false,
+  "no_student_public_bank_changes": true,
+  "existing_public_636_answers_remain_unchanged": true,
+  "all_sources_original_printed_meaning_protected": true,
+  "no_manufactured_kp": true,
+  "stage_scope": "SOURCE_ITEM_EVIDENCE_ONLY_NOT_PUBLIC_ADMISSION",
+  "operator_acceptance_gate": "All eligible must be exact source stem, exact options/figures, certified science, direct KP48, crossyear dedup, rights and source image BBox before a single release.",
+  "records": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_001",
+      "filename": "113_南一_四上_自然_期中評量卷_文德國小.pdf",
+      "source_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "pdf_pages": 2,
+      "publisher_from_filename": "南一",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 35
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_002",
+      "filename": "113_南一_四上_自然_期中評量卷_和順國小.pdf",
+      "source_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "pdf_pages": 3,
+      "publisher_from_filename": "南一",
+      "original_exam_type": "MID",
+      "scan_only": true,
+      "original_visual_section_answer_positions": 50,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "填填看",
+          "answer_positions": 22
+        },
+        {
+          "section": "S2",
+          "printed_section": "選擇題",
+          "answer_positions": 6
+        },
+        {
+          "section": "S3",
+          "printed_section": "是非題",
+          "answer_positions": 8
+        },
+        {
+          "section": "S4",
+          "printed_section": "科學閱讀",
+          "answer_positions": 5
+        },
+        {
+          "section": "S5",
+          "printed_section": "題組",
+          "answer_positions": 9
+        }
+      ],
+      "section_count_status": "NATIVE_EXACT_PRINTED_POSITION_INVENTORY_WITH_LOCAL_64_POSITION_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 0
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_003",
+      "filename": "113_南一_四上_自然_期中評量卷_忠孝國小.pdf",
+      "source_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "pdf_pages": 2,
+      "publisher_from_filename": "南一",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 25
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "filename": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+      "source_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "pdf_pages": 2,
+      "publisher_from_filename": "南一",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 40
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "filename": "113_南一_四上_自然_期末評量卷_和順國小.pdf",
+      "source_pdf_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "pdf_pages": 2,
+      "publisher_from_filename": "南一",
+      "original_exam_type": "FINAL",
+      "scan_only": true,
+      "original_visual_section_answer_positions": 50,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "是非題",
+          "answer_positions": 13
+        },
+        {
+          "section": "S2",
+          "printed_section": "選擇題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S3",
+          "printed_section": "做做看",
+          "answer_positions": 24
+        },
+        {
+          "section": "S4",
+          "printed_section": "閱讀測驗",
+          "answer_positions": 3
+        }
+      ],
+      "section_count_status": "NATIVE_EXACT_PRINTED_POSITION_INVENTORY_WITH_LOCAL_64_POSITION_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 0
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "filename": "113_南一_四上_自然_期末評量卷_忠孝國小.pdf",
+      "source_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "pdf_pages": 4,
+      "publisher_from_filename": "南一",
+      "original_exam_type": "FINAL",
+      "scan_only": true,
+      "original_visual_section_answer_positions": 50,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "題組題",
+          "answer_positions": 7
+        },
+        {
+          "section": "S2",
+          "printed_section": "看圖回答問題",
+          "answer_positions": 5
+        },
+        {
+          "section": "S3",
+          "printed_section": "繪圖題",
+          "answer_positions": 2
+        },
+        {
+          "section": "S4",
+          "printed_section": "選擇題",
+          "answer_positions": 14
+        },
+        {
+          "section": "S5",
+          "printed_section": "配合題",
+          "answer_positions": 14
+        },
+        {
+          "section": "S6",
+          "printed_section": "閱讀測驗",
+          "answer_positions": 8
+        }
+      ],
+      "section_count_status": "NATIVE_EXACT_PRINTED_POSITION_INVENTORY_WITH_LOCAL_64_POSITION_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 0
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "filename": "113_南一_四上_自然_期末評量卷_東光國小.pdf",
+      "source_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "pdf_pages": 2,
+      "publisher_from_filename": "南一",
+      "original_exam_type": "FINAL",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 35
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_005",
+      "filename": "113_康軒_四上_自然_期中評量卷_大墩國小.pdf",
+      "source_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "pdf_pages": 2,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 35
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "filename": "113_康軒_四上_自然_期中評量卷_內安國小.pdf",
+      "source_pdf_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "pdf_pages": 4,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "MID",
+      "scan_only": true,
+      "original_visual_section_answer_positions": 62,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "是非題",
+          "answer_positions": 9
+        },
+        {
+          "section": "S2",
+          "printed_section": "選擇題",
+          "answer_positions": 15
+        },
+        {
+          "section": "S3",
+          "printed_section": "水生植物分類筆記",
+          "answer_positions": 6
+        },
+        {
+          "section": "S4",
+          "printed_section": "魚體構造看圖",
+          "answer_positions": 6
+        },
+        {
+          "section": "S5",
+          "printed_section": "地震報告閱讀",
+          "answer_positions": 5
+        },
+        {
+          "section": "S6",
+          "printed_section": "地震與睡蓮閱讀",
+          "answer_positions": 9
+        },
+        {
+          "section": "S7",
+          "printed_section": "地震災害看圖判斷",
+          "answer_positions": 6
+        },
+        {
+          "section": "S8",
+          "printed_section": "水域環境保護是非",
+          "answer_positions": 6
+        }
+      ],
+      "section_count_status": "NATIVE_EXACT_PRINTED_POSITION_INVENTORY_WITH_LOCAL_64_POSITION_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 0
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007",
+      "filename": "113_康軒_四上_自然_期中評量卷_民權國小.pdf",
+      "source_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "pdf_pages": 2,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 35
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008",
+      "filename": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "pdf_pages": 2,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 36
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009",
+      "filename": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "pdf_pages": 2,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 40
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_010",
+      "filename": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "pdf_pages": 2,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 36
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_011",
+      "filename": "113_康軒_四上_自然_期中評量卷_建德國小.pdf",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "pdf_pages": 2,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": 64,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "是非題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S2",
+          "printed_section": "選擇題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S3",
+          "printed_section": "圈圈看",
+          "answer_positions": 7
+        },
+        {
+          "section": "S4",
+          "printed_section": "配合題",
+          "answer_positions": 7
+        },
+        {
+          "section": "S5",
+          "printed_section": "魚身構造及呼吸看圖",
+          "answer_positions": 8
+        },
+        {
+          "section": "S6",
+          "printed_section": "勾選題",
+          "answer_positions": 22
+        }
+      ],
+      "section_count_status": "NATIVE_EXACT_PRINTED_POSITION_INVENTORY_WITH_LOCAL_64_POSITION_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 31
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_012",
+      "filename": "113_康軒_四上_自然_期中評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "fa1270bdf8c1eb410db5727f22d05920f91bd934bb6ded46f7269ad67392ba04",
+      "pdf_pages": 2,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": 100,
+      "visually_counted_source_sections": [
+        {
+          "section": "G01",
+          "printed_section": "原卷問題1",
+          "answer_positions": 6
+        },
+        {
+          "section": "G02",
+          "printed_section": "原卷問題2",
+          "answer_positions": 4
+        },
+        {
+          "section": "G03",
+          "printed_section": "原卷問題3",
+          "answer_positions": 6
+        },
+        {
+          "section": "G04",
+          "printed_section": "原卷問題4",
+          "answer_positions": 6
+        },
+        {
+          "section": "G05",
+          "printed_section": "原卷問題5",
+          "answer_positions": 8
+        },
+        {
+          "section": "G06",
+          "printed_section": "原卷問題6",
+          "answer_positions": 6
+        },
+        {
+          "section": "G07",
+          "printed_section": "原卷問題7",
+          "answer_positions": 6
+        },
+        {
+          "section": "G08",
+          "printed_section": "原卷問題8",
+          "answer_positions": 6
+        },
+        {
+          "section": "G09",
+          "printed_section": "原卷問題9",
+          "answer_positions": 8
+        },
+        {
+          "section": "G10",
+          "printed_section": "原卷問題10",
+          "answer_positions": 8
+        },
+        {
+          "section": "G11",
+          "printed_section": "原卷問題11",
+          "answer_positions": 6
+        },
+        {
+          "section": "G12",
+          "printed_section": "原卷問題12",
+          "answer_positions": 6
+        },
+        {
+          "section": "G13",
+          "printed_section": "原卷問題13",
+          "answer_positions": 7
+        },
+        {
+          "section": "G14",
+          "printed_section": "原卷問題14",
+          "answer_positions": 6
+        },
+        {
+          "section": "G15",
+          "printed_section": "原卷問題15",
+          "answer_positions": 6
+        },
+        {
+          "section": "G16",
+          "printed_section": "原卷問題16",
+          "answer_positions": 5
+        }
+      ],
+      "section_count_status": "ORIGINAL_NATIVE_TEXT_SOURCE_SECTION_SUBRESPONSE_COUNT_RECONCILED__BBOX_AND_SCIENCE_KP_PENDING",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 16
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013",
+      "filename": "113_康軒_四上_自然_期中評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "pdf_pages": 3,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": 50,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "是非題",
+          "answer_positions": 15
+        },
+        {
+          "section": "S2",
+          "printed_section": "選擇題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S3",
+          "printed_section": "填填看",
+          "answer_positions": 7
+        },
+        {
+          "section": "S4",
+          "printed_section": "連連看",
+          "answer_positions": 3
+        },
+        {
+          "section": "S5",
+          "printed_section": "活用題",
+          "answer_positions": 4
+        },
+        {
+          "section": "S6",
+          "printed_section": "水生植物辨識",
+          "answer_positions": 5
+        },
+        {
+          "section": "S7",
+          "printed_section": "科學閱讀",
+          "answer_positions": 6
+        }
+      ],
+      "section_count_status": "ORIGINAL_NATIVE_TEXT_SOURCE_SECTION_SUBRESPONSE_COUNT_RECONCILED__BBOX_AND_SCIENCE_KP_PENDING",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 33
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_014",
+      "filename": "113_康軒_四上_自然_期中評量卷_路上國小.pdf",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "pdf_pages": 3,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": 50,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "是非題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S2",
+          "printed_section": "選擇題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S3_G01",
+          "printed_section": "做一做第1組",
+          "answer_positions": 6
+        },
+        {
+          "section": "S3_G02",
+          "printed_section": "做一做第2組",
+          "answer_positions": 6
+        },
+        {
+          "section": "S3_G03",
+          "printed_section": "做一做第3組",
+          "answer_positions": 4
+        },
+        {
+          "section": "S3_G04",
+          "printed_section": "做一做第4組",
+          "answer_positions": 4
+        },
+        {
+          "section": "S3_G05",
+          "printed_section": "做一做第5組",
+          "answer_positions": 3
+        },
+        {
+          "section": "S3_G06",
+          "printed_section": "做一做第6組",
+          "answer_positions": 4
+        },
+        {
+          "section": "S3_G07",
+          "printed_section": "做一做第7組",
+          "answer_positions": 3
+        }
+      ],
+      "section_count_status": "ORIGINAL_NATIVE_TEXT_SOURCE_SECTION_SUBRESPONSE_COUNT_RECONCILED__BBOX_AND_SCIENCE_KP_PENDING",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 27
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_015",
+      "filename": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "pdf_pages": 3,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 39
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_004",
+      "filename": "113_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_pdf_sha256": "ee3847a2790d0f92f64ff2361003e6383364dd83d49797bacd3631cfe808768d",
+      "pdf_pages": 3,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "FINAL",
+      "scan_only": false,
+      "original_visual_section_answer_positions": 81,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "是非題",
+          "answer_positions": 6
+        },
+        {
+          "section": "S2",
+          "printed_section": "連連看",
+          "answer_positions": 12
+        },
+        {
+          "section": "S3",
+          "printed_section": "勾選題",
+          "answer_positions": 22
+        },
+        {
+          "section": "S4",
+          "printed_section": "題組回答問題：六組",
+          "answer_positions": 41
+        }
+      ],
+      "section_count_status": "NATIVE_SOURCE_TEXT_PRINTED_SUBRESPONSE_INVENTORY_RECONCILED__ORIGINAL_PAGE_GEOMETRY_PENDING",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 28
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_005",
+      "filename": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "source_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "pdf_pages": 2,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "FINAL",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 34
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_006",
+      "filename": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "pdf_pages": 2,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "FINAL",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 43
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_007",
+      "filename": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "source_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "pdf_pages": 2,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "FINAL",
+      "scan_only": false,
+      "original_visual_section_answer_positions": 54,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "是非題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S2",
+          "printed_section": "選擇題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S3",
+          "printed_section": "綜合題：單答案格、多個配對及勾選",
+          "answer_positions": 26
+        },
+        {
+          "section": "S4",
+          "printed_section": "素養題：選擇、勾選",
+          "answer_positions": 5
+        },
+        {
+          "section": "S5",
+          "printed_section": "畫圖題",
+          "answer_positions": 1
+        },
+        {
+          "section": "S6",
+          "printed_section": "科學閱讀",
+          "answer_positions": 2
+        }
+      ],
+      "section_count_status": "NATIVE_SOURCE_TEXT_PRINTED_SUBRESPONSE_INVENTORY_RECONCILED__ORIGINAL_PAGE_GEOMETRY_PENDING",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 31
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "filename": "113_康軒_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "source_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "pdf_pages": 3,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "FINAL",
+      "scan_only": false,
+      "original_visual_section_answer_positions": 92,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "單選題",
+          "answer_positions": 5
+        },
+        {
+          "section": "S2_G1-G12",
+          "printed_section": "根據題意回答問題：12個群組，含繪圖／電路圖",
+          "answer_positions": 81
+        },
+        {
+          "section": "S3",
+          "printed_section": "科學閱讀",
+          "answer_positions": 6
+        }
+      ],
+      "section_count_status": "NATIVE_SOURCE_TEXT_PRINTED_SUBRESPONSE_INVENTORY_RECONCILED__ORIGINAL_PAGE_GEOMETRY_PENDING",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 23
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_009",
+      "filename": "113_康軒_四上_自然_期末評量卷_獅湖國小.pdf",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "pdf_pages": 3,
+      "publisher_from_filename": "康軒",
+      "original_exam_type": "FINAL",
+      "scan_only": true,
+      "original_visual_section_answer_positions": 50,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "選擇題",
+          "answer_positions": 15
+        },
+        {
+          "section": "S2",
+          "printed_section": "活用題",
+          "answer_positions": 32
+        },
+        {
+          "section": "S3",
+          "printed_section": "科學閱讀",
+          "answer_positions": 3
+        }
+      ],
+      "section_count_status": "NATIVE_EXACT_PRINTED_POSITION_INVENTORY_WITH_LOCAL_64_POSITION_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 0
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016",
+      "filename": "113_翰林_四上_自然_期中評量卷_大華國小.pdf",
+      "source_pdf_sha256": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1",
+      "pdf_pages": 2,
+      "publisher_from_filename": "翰林",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 31
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_017",
+      "filename": "113_翰林_四上_自然_期中評量卷_內湖國小.pdf",
+      "source_pdf_sha256": "e0ad91beef6d908d73cf7198769b844ce865cc00b66f5ab07bde1ea1ee9e4518",
+      "pdf_pages": 3,
+      "publisher_from_filename": "翰林",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": 68,
+      "visually_counted_source_sections": [
+        {
+          "section": "S1",
+          "printed_section": "是非題",
+          "answer_positions": 15
+        },
+        {
+          "section": "S2",
+          "printed_section": "選擇題",
+          "answer_positions": 10
+        },
+        {
+          "section": "S3",
+          "printed_section": "勾選題：五組",
+          "answer_positions": 25
+        },
+        {
+          "section": "S4",
+          "printed_section": "應用題：月相圖、紀錄與判斷",
+          "answer_positions": 18
+        }
+      ],
+      "section_count_status": "NATIVE_SOURCE_TEXT_PRINTED_SUBRESPONSE_INVENTORY_RECONCILED__ORIGINAL_PAGE_GEOMETRY_PENDING",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 32
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_018",
+      "filename": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "pdf_pages": 2,
+      "publisher_from_filename": "翰林",
+      "original_exam_type": "MID",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 32
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_010",
+      "filename": "113_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "source_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "pdf_pages": 2,
+      "publisher_from_filename": "翰林",
+      "original_exam_type": "FINAL",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 31
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_011",
+      "filename": "113_翰林_四上_自然_期末評量卷_內湖國小.pdf",
+      "source_pdf_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+      "pdf_pages": 4,
+      "publisher_from_filename": "翰林",
+      "original_exam_type": "FINAL",
+      "scan_only": false,
+      "original_visual_section_answer_positions": null,
+      "visually_counted_source_sections": null,
+      "section_count_status": "PENDING_ALL_PRINTED_SLOT_EXACT_QA",
+      "direct_current48kp_and_unique_science_completed": false,
+      "site_admission_eligible_now": false,
+      "prior_provisional_native_candidate_starts": 23
+    }
+  ],
+  "native_additional_113_mid_reconciled_papers": 3,
+  "native_additional_answer_positions": 200,
+  "native_additional_113_complex_reconciled_papers": 4,
+  "native_additional_complex_response_positions": 295
+}

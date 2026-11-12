@@ -1,0 +1,1394 @@
+{
+  "schema_version": "P12_G04S1_113_SHIHU_FINAL009_NEXT33_SOURCE_RASTER_MARKER_GEOMETRY_V1",
+  "draft_pr": 124,
+  "scope": "113 G04S1 five scanned original papers; fixed 48 KP; source-only",
+  "original_source_id": "SCI_G04_S1_113_FINAL_009",
+  "original_filename": "113_康軒_四上_自然_期末評量卷_獅湖國小.pdf",
+  "original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+  "original_pdf_page_count": 3,
+  "source_original_pdf_sha_reverified_locally": true,
+  "source_original_pdf_images_republished": false,
+  "original_visual_method": "SHA256-verified 3-page original PDF. Native original JPEG embedded rasters xrefs 2,6,9 are all 3035x4299 and PDF page rotation=180. Original raster ink connected components grayscale threshold <160; each of 27 printed answer parenthesis pair components independently selected by spatial source ink and visually inspected against original number, printed stem and shared diagram/read passage. First-page 6 physical matching source dots from three product columns (one upper category connection and one lower function connection each) independently localized; target matches and full drawn-line student response not certified. Stores raw image pixel BBox, display upright image pixel BBox, mapped actual PDF top-left points. No OCR, no image guessing, no missing target interpolation.",
+  "frozen_section_count": {
+    "paper_source_positions": 50,
+    "prior_original_raster_page1_independent_mc_markers": 15,
+    "section2_original_response_positions": 32,
+    "section3_reading_positions": 3
+  },
+  "summary": {
+    "new_independently_certified_printed_answer_parentheses_pairs": 27,
+    "new_matching_source_dot_anchors_exact": 6,
+    "new_source_marker_pixel_geometry_positions": 33,
+    "unresolved_parent7_composite_response_units_from_legacy_count": 2,
+    "current_shihu_original_pixel_markers_total_if_source_dot_ports_counted": 48,
+    "latest_independent_full_student_answer_region_bboxes_this_batch": 27,
+    "new_formal_science_kp_approved": 0,
+    "new_admission_ready": 0,
+    "new_published": 0
+  },
+  "remaining_parent7_hold": {
+    "source_page": 3,
+    "original_parent": "S02_PARENT07_MOTOR_WIRING_LABEL_AND_WIND_STRENGTH",
+    "reason": "Original sheet asks 4 small answers for motor circuit labels and airflow strength, while the frozen S02 32 source-position ledger leaves two grouped units after earlier 30. Original diagram contains already printed or handwritten component labels; do not manufacture 2 exact independent response BBoxes or force count equivalence. Preserve one complete diagram/table parent plus its actual open-response marker, reconcile the output granularity at source parent before student admission.",
+    "status": "HOLD_PARENT_COMPOSITE_RESPONSE_GRANULARITY",
+    "new_source_marker_positions_certified": 0
+  },
+  "provenance": "local page1/2/3 source-raster visual overlay in working session; public record contains coordinates only, not copyrighted original figure scans",
+  "records": [
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|MATCH_CATEGORY|001",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 1,
+      "source_embedded_image_xref": 2,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1190,
+        1293,
+        1224,
+        1327
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1811,
+        2972,
+        1845,
+        3006
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        434.64,
+        713.28,
+        442.8,
+        721.44
+      ],
+      "physical_source_marker_type": "MATCHING_ITEM_SOURCE_DOT",
+      "original_parent_question": "S02_PARENT01_APPLICATION_AND_FUNCTION",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": false,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|MATCH_FUNCTION|001",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 1,
+      "source_embedded_image_xref": 2,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1191,
+        981,
+        1225,
+        1014
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1810,
+        3285,
+        1844,
+        3318
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        434.4,
+        788.4,
+        442.56,
+        796.32
+      ],
+      "physical_source_marker_type": "MATCHING_ITEM_SOURCE_DOT",
+      "original_parent_question": "S02_PARENT01_APPLICATION_AND_FUNCTION",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": false,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|MATCH_CATEGORY|002",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 1,
+      "source_embedded_image_xref": 2,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        826,
+        1291,
+        861,
+        1324
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        2174,
+        2975,
+        2209,
+        3008
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        521.76,
+        714,
+        530.16,
+        721.92
+      ],
+      "physical_source_marker_type": "MATCHING_ITEM_SOURCE_DOT",
+      "original_parent_question": "S02_PARENT01_APPLICATION_AND_FUNCTION",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": false,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|MATCH_FUNCTION|002",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 1,
+      "source_embedded_image_xref": 2,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        827,
+        979,
+        862,
+        1012
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        2173,
+        3287,
+        2208,
+        3320
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        521.52,
+        788.88,
+        529.92,
+        796.8
+      ],
+      "physical_source_marker_type": "MATCHING_ITEM_SOURCE_DOT",
+      "original_parent_question": "S02_PARENT01_APPLICATION_AND_FUNCTION",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": false,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|MATCH_CATEGORY|003",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 1,
+      "source_embedded_image_xref": 2,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        462,
+        1289,
+        496,
+        1323
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        2539,
+        2976,
+        2573,
+        3010
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        609.36,
+        714.24,
+        617.52,
+        722.4
+      ],
+      "physical_source_marker_type": "MATCHING_ITEM_SOURCE_DOT",
+      "original_parent_question": "S02_PARENT01_APPLICATION_AND_FUNCTION",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": false,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|MATCH_FUNCTION|003",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 1,
+      "source_embedded_image_xref": 2,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        463,
+        977,
+        497,
+        1010
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        2538,
+        3289,
+        2572,
+        3322
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        609.12,
+        789.36,
+        617.28,
+        797.28
+      ],
+      "physical_source_marker_type": "MATCHING_ITEM_SOURCE_DOT",
+      "original_parent_question": "S02_PARENT01_APPLICATION_AND_FUNCTION",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": false,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|FLASHLIGHT|001",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        2385,
+        3174,
+        2640,
+        3227
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        395,
+        1072,
+        650,
+        1125
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        94.8,
+        257.28,
+        156,
+        270
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT02_TORCH_FIGURE",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|FLASHLIGHT|002",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        2216,
+        3030,
+        2641,
+        3083
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        394,
+        1216,
+        819,
+        1269
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        94.56,
+        291.84,
+        196.56,
+        304.56
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT02_TORCH_FIGURE",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|CIRCUIT|001",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1861,
+        1773,
+        2092,
+        1824
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        943,
+        2475,
+        1174,
+        2526
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        226.32,
+        594,
+        281.76,
+        606.24
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT03_FOUR_CIRCUIT_FIGURES",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|CIRCUIT|002",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1850,
+        1701,
+        2092,
+        1754
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        943,
+        2545,
+        1185,
+        2598
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        226.32,
+        610.8,
+        284.4,
+        623.52
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT03_FOUR_CIRCUIT_FIGURES",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|CIRCUIT|003",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1850,
+        1629,
+        2092,
+        1681
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        943,
+        2618,
+        1185,
+        2670
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        226.32,
+        628.32,
+        284.4,
+        640.8
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT03_FOUR_CIRCUIT_FIGURES",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|CIRCUIT|004",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1850,
+        1556,
+        2091,
+        1608
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        944,
+        2691,
+        1185,
+        2743
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        226.56,
+        645.84,
+        284.4,
+        658.32
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT03_FOUR_CIRCUIT_FIGURES",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|CIRCUIT|005",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1530,
+        1480,
+        1760,
+        1531
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1275,
+        2768,
+        1505,
+        2819
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        306,
+        664.32,
+        361.2,
+        676.56
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT03_FOUR_CIRCUIT_FIGURES",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|CIRCUIT|006",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1530,
+        1407,
+        1760,
+        1458
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1275,
+        2841,
+        1505,
+        2892
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        306,
+        681.84,
+        361.2,
+        694.08
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT03_FOUR_CIRCUIT_FIGURES",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|001",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        2582,
+        1059,
+        2752,
+        1112
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        283,
+        3187,
+        453,
+        3240
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        67.92,
+        764.88,
+        108.72,
+        777.6
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "original_parent_material_required": false,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|002",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        2582,
+        986,
+        2751,
+        1039
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        284,
+        3260,
+        453,
+        3313
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        68.16,
+        782.4,
+        108.72,
+        795.12
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "original_parent_material_required": false,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|003",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        2582,
+        914,
+        2751,
+        966
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        284,
+        3333,
+        453,
+        3385
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        68.16,
+        799.92,
+        108.72,
+        812.4
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "original_parent_material_required": false,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|004",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        2582,
+        841,
+        2751,
+        893
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        284,
+        3406,
+        453,
+        3458
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        68.16,
+        817.44,
+        108.72,
+        829.92
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "original_parent_material_required": false,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|005",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        2582,
+        769,
+        2752,
+        821
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        283,
+        3478,
+        453,
+        3530
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        67.92,
+        834.72,
+        108.72,
+        847.2
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "original_parent_material_required": false,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|006",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        2582,
+        697,
+        2752,
+        749
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        283,
+        3550,
+        453,
+        3602
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        67.92,
+        852,
+        108.72,
+        864.48
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "original_parent_material_required": false,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|007",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        2583,
+        625,
+        2753,
+        677
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        282,
+        3622,
+        452,
+        3674
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        67.68,
+        869.28,
+        108.48,
+        881.76
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "original_parent_material_required": false,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|008",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        2584,
+        553,
+        2754,
+        605
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        281,
+        3694,
+        451,
+        3746
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        67.44,
+        886.56,
+        108.24,
+        899.04
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "original_parent_material_required": false,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|LED|001",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1238,
+        3777,
+        1417,
+        3828
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1618,
+        471,
+        1797,
+        522
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        388.32,
+        113.04,
+        431.28,
+        125.28
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT05_LED_FIGURE",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|LED|002",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1248,
+        3560,
+        1417,
+        3611
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1618,
+        688,
+        1787,
+        739
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        388.32,
+        165.12,
+        428.88,
+        177.36
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT05_LED_FIGURE",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|LED|003",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1248,
+        2885,
+        1444,
+        2938
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1591,
+        1361,
+        1787,
+        1414
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        381.84,
+        326.64,
+        428.88,
+        339.36
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT05_LED_FIGURE",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|SHADOW_TF|001",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1223,
+        887,
+        1368,
+        939
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1667,
+        3360,
+        1812,
+        3412
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        400.08,
+        806.4,
+        434.88,
+        818.88
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT06_SHADOW_PLAY_PASSAGE",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|SHADOW_TF|002",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1223,
+        814,
+        1368,
+        866
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1667,
+        3433,
+        1812,
+        3485
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        400.08,
+        823.92,
+        434.88,
+        836.4
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT06_SHADOW_PLAY_PASSAGE",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|SHADOW_TF|003",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1223,
+        742,
+        1369,
+        793
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1666,
+        3506,
+        1812,
+        3557
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        399.84,
+        841.44,
+        434.88,
+        853.68
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT06_SHADOW_PLAY_PASSAGE",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|SHADOW_TF|004",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1241,
+        461,
+        1387,
+        512
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1648,
+        3787,
+        1794,
+        3838
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        395.52,
+        908.88,
+        430.56,
+        921.12
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT06_SHADOW_PLAY_PASSAGE",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S02|SHADOW_TF|005",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 2,
+      "source_embedded_image_xref": 6,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1241,
+        390,
+        1387,
+        440
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1648,
+        3859,
+        1794,
+        3909
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        395.52,
+        926.16,
+        430.56,
+        938.16
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S02_PARENT06_SHADOW_PLAY_PASSAGE",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S03|READING_MC|001",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 3,
+      "source_embedded_image_xref": 9,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1256,
+        2194,
+        1424,
+        2247
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1611,
+        2052,
+        1779,
+        2105
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        386.64,
+        492.48,
+        426.96,
+        505.2
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S03_PARENT01_AI_COFFEE_READING",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S03|READING_MC|002",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 3,
+      "source_embedded_image_xref": 9,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1258,
+        1904,
+        1426,
+        1956
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1609,
+        2343,
+        1777,
+        2395
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        386.16,
+        562.32,
+        426.48,
+        574.8
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S03_PARENT01_AI_COFFEE_READING",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    },
+    {
+      "provisional_source_slot_id": "SCI_G04_S1_113_FINAL_009|S03|READING_MC|003",
+      "source_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "source_pdf_page_1_based": 3,
+      "source_embedded_image_xref": 9,
+      "source_pdf_rotation_degrees": 180,
+      "original_image_size_px": [
+        3035,
+        4299
+      ],
+      "original_unrotated_source_image_pixel_component_bbox": [
+        1259,
+        1614,
+        1427,
+        1667
+      ],
+      "source_display_upright_pixel_component_bbox": [
+        1608,
+        2632,
+        1776,
+        2685
+      ],
+      "source_display_pdf_bbox_pts_top_left": [
+        385.92,
+        631.68,
+        426.24,
+        644.4
+      ],
+      "physical_source_marker_type": "PRINTED_ANSWER_PARENTHESIS_PAIR",
+      "original_parent_question": "S03_PARENT01_AI_COFFEE_READING",
+      "original_parent_material_required": true,
+      "source_marker_pixel_bbox_certified": true,
+      "student_answer_completion_region_fully_certified": true,
+      "source_response_group_splitting_provisional": true,
+      "science_answer_formal": false,
+      "canonical_kp_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false,
+      "ocr_used": false
+    }
+  ],
+  "next_resume_task": "P12_G04S1_113_Scan5_ShihuParent7_TwoCompositeHOLD_SourceSegmentation_Then_HeshunFINAL001_50_ZhongxiaoFINAL002_50_Then_ExistingScienceKP_DedupRights_FormalOperatorGate",
+  "metadata_patch_note": "2026-10-19: explicit ocr_used=false field added to original 33 source records; physical marker rectangles, source identities, geometry and Gate statuses remain unchanged; aligns existing no-OCR proof with regression test."
+}

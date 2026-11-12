@@ -1,0 +1,513 @@
+{
+  "schema_version": "P12_G04S1_113_SHIHU_FINAL009_SCAN_P1_15MC_ORIGINAL_ROTATED_RASTER_BBOX_V1",
+  "draft_pr": 124,
+  "source_id": "SCI_G04_S1_113_FINAL_009",
+  "original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+  "original_pdf_source": "113_康軒_四上_自然_期末評量卷_獅湖國小.pdf",
+  "original_pdf_page1_rotation": 180,
+  "original_pdf_page1_size_pts": [
+    728.4,
+    1031.76
+  ],
+  "original_pdf_page1_embedded_raster": [
+    3035,
+    4299
+  ],
+  "original_embedded_image_xref": 2,
+  "coordinate_proof": "Actual source RGB raster extracted from SHA-matched PDF page 1 is upside down. Rotate raw image 180 to visually readable student page; grayscale-threshold segmentation independently detects both physically printed answer bracket components in 15 printed MC question lines. Hand-inspected overlaid red rectangles alongside source printed items 1-15. Store both original raw image-pixel rectangles and the displayed, correctly rotated PDF top-left BBoxes. No OCR, no guessed interpolated positions.",
+  "coordinate_conversion": "raw=rotate180(upright pixels): [W-x1,H-y1,W-x0,H-y0]; unrotated PDF image uses registered source transform [728.4,0,0,1031.76,0,0]; apply PDF original 180-degree page rotation to arrive at display [uprightX*728.4/3035,uprightY*1031.76/4299].",
+  "source_identity_notice": "Provisional S01/MC numbering must be aligned with earlier original frozen section-map; image BBox does not establish Science, KP, publisher rights or new student question count.",
+  "summary": {
+    "source_original_scanned_pdf_verified": 1,
+    "physical_original_scan_MC_bracket_BBoxes_new": 15,
+    "Heshun_mid_prior_scan_position_BBoxes": 23,
+    "aggregate_scan5_individual_BBoxes": 38,
+    "prior_scanned5_visually_counted_section_answer_positions": 262,
+    "prior_scan5_positions_without_individual_bbox": 224,
+    "new_formal_science_kp_approved": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "rows": [
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|001",
+      "printed_section": "一、選擇題",
+      "printed_number": 1,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        2613,
+        3862,
+        2761,
+        3908
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        274,
+        391,
+        422,
+        437
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        65.76,
+        93.84,
+        101.28,
+        104.88
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|002",
+      "printed_section": "一、選擇題",
+      "printed_number": 2,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        2611,
+        3498,
+        2758,
+        3544
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        277,
+        755,
+        424,
+        801
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        66.48,
+        181.2,
+        101.76,
+        192.24
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|003",
+      "printed_section": "一、選擇題",
+      "printed_number": 3,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        2615,
+        3134,
+        2764,
+        3180
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        271,
+        1119,
+        420,
+        1165
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        65.04,
+        268.56,
+        100.8,
+        279.6
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|004",
+      "printed_section": "一、選擇題",
+      "printed_number": 4,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        2618,
+        2845,
+        2766,
+        2891
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        269,
+        1408,
+        417,
+        1454
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        64.56,
+        337.92,
+        100.08,
+        348.96
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|005",
+      "printed_section": "一、選擇題",
+      "printed_number": 5,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        2615,
+        2482,
+        2762,
+        2528
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        273,
+        1771,
+        420,
+        1817
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        65.52,
+        425.04,
+        100.8,
+        436.08
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|006",
+      "printed_section": "一、選擇題",
+      "printed_number": 6,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        2617,
+        2192,
+        2764,
+        2240
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        271,
+        2059,
+        418,
+        2107
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        65.04,
+        494.16,
+        100.32,
+        505.68
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|007",
+      "printed_section": "一、選擇題",
+      "printed_number": 7,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        2620,
+        1759,
+        2768,
+        1805
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        267,
+        2494,
+        415,
+        2540
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        64.08,
+        598.56,
+        99.6,
+        609.6
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|008",
+      "printed_section": "一、選擇題",
+      "printed_number": 8,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        2620,
+        1393,
+        2769,
+        1440
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        266,
+        2859,
+        415,
+        2906
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        63.84,
+        686.16,
+        99.6,
+        697.44
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|009",
+      "printed_section": "一、選擇題",
+      "printed_number": 9,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        2621,
+        1032,
+        2769,
+        1078
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        266,
+        3221,
+        414,
+        3267
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        63.84,
+        773.04,
+        99.36,
+        784.08
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|010",
+      "printed_section": "一、選擇題",
+      "printed_number": 10,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        2644,
+        814,
+        2792,
+        861
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        243,
+        3438,
+        391,
+        3485
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        58.32,
+        825.12,
+        93.84,
+        836.4
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|011",
+      "printed_section": "一、選擇題",
+      "printed_number": 11,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        1300,
+        3848,
+        1446,
+        3893
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        1589,
+        406,
+        1735,
+        451
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        381.36,
+        97.44,
+        416.4,
+        108.24
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|012",
+      "printed_section": "一、選擇題",
+      "printed_number": 12,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        1300,
+        3631,
+        1446,
+        3677
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        1589,
+        622,
+        1735,
+        668
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        381.36,
+        149.28,
+        416.4,
+        160.32
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|013",
+      "printed_section": "一、選擇題",
+      "printed_number": 13,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        1302,
+        3339,
+        1448,
+        3387
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        1587,
+        912,
+        1733,
+        960
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        380.88,
+        218.88,
+        415.92,
+        230.4
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|014",
+      "printed_section": "一、選擇題",
+      "printed_number": 14,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        1303,
+        2831,
+        1450,
+        2877
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        1585,
+        1422,
+        1732,
+        1468
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        380.4,
+        341.28,
+        415.68,
+        352.32
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_009|S01|MC|015",
+      "printed_section": "一、選擇題",
+      "printed_number": 15,
+      "source_pdf_page_1_based": 1,
+      "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "original_raw_embedded_image_bbox_px": [
+        1304,
+        2539,
+        1450,
+        2588
+      ],
+      "source_page_display_upright_pixel_bbox_px": [
+        1585,
+        1711,
+        1731,
+        1760
+      ],
+      "source_page_pdf_bbox_after_rotation_pts_top_left": [
+        380.4,
+        410.64,
+        415.44,
+        422.4
+      ],
+      "raw_embedded_image_geometry_verified": true,
+      "page_rotation_applied_degrees": 180,
+      "source_slot_id_requires_existing_contract_alignment": true,
+      "original_stem_options_full_source_rights_gate": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "admission_ready": false
+    }
+  ]
+}

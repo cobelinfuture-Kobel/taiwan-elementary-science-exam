@@ -1,0 +1,1392 @@
+{
+  "schema_version": "P12_G04S1_113_OTHER_OR_DEPENDENT_BATCH_SOURCE_PARENT_PREFLIGHT_V1",
+  "source_pr": 124,
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "batch": "OTHER_OR_DEPENDENT_B03",
+  "authority": "113 Kanghsuan G04S1 frozen 48 KP; do not auto-map 114 45-KP projection",
+  "original_pdf_page_registry": "p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "published114_source_suppression": "p12-g04s1-113-main-published114-source-suppression-readback-v9.json",
+  "source_ledgers": [
+    "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json",
+    "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json",
+    "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+  ],
+  "source_gate_scope": "SOURCE_ONLY_PARENT_DEPENDENCY_TRIAGE_WITH_PAPER_LEVEL_DRIVE_EXTRACTED_TEXT_READBACK",
+  "summary": {
+    "positions": 50,
+    "queue_start": 101,
+    "queue_end": 150,
+    "papers": {
+      "SCI_G04_S1_113_MID_007": {
+        "title": "113_康軒_四上_自然_期中評量卷_民權國小.pdf",
+        "count": 35
+      },
+      "SCI_G04_S1_113_MID_008": {
+        "title": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+        "count": 15
+      }
+    },
+    "dependency_evidence_tags": {
+      "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED": 48,
+      "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED": 34,
+      "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED": 9
+    },
+    "FORMAL_SCIENCE_KP_APPROVED_NEW": 0,
+    "ADMISSION_READY_NEW": 0,
+    "PUBLISHED_NEW": 0,
+    "site_total_750_unchanged": true,
+    "published_113_114_unchanged": true
+  },
+  "limitations": [
+    "Classification derives from printed group/type IDs and original paper text evidence, not per-answer BBox or formal unique science judgment.",
+    "Potential missing gates are nonexclusive diagnostic tags. They are not newly required Admission Gate stages.",
+    "Moon-scope and third-party reading alerts are provisional; do not reject or admit without source/authority-specific validation.",
+    "Already published 114 source IDs, three explicit HOLD exceptions, and 114 older original corpus semantic dedup remain frozen.",
+    "Continue missing15 paper exact per-answer slots and accumulate batch-eligible items for one operator-authorized selective release.",
+    "All items here remain source-only until original figure, shared parent, native/raster BBox, KP48, Science, duplicate and rights pass."
+  ],
+  "next_batch": "OTHER_OR_DEPENDENT_B04",
+  "records": [
+    {
+      "batch_row_ordinal": 1,
+      "other_lane_ordinal": 101,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G2|ANIMAL_WATER_STRUCTURE_FILL|9",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G02|ANIMAL_WATER_STRUCTURE_FILL|09"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G2|ANIMAL_WATER_STRUCTURE_FILL",
+      "source_kind": "ANIMAL_WATER_STRUCTURE_FILL",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 2,
+      "other_lane_ordinal": 102,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G2|ANIMAL_WATER_STRUCTURE_FILL|10",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G02|ANIMAL_WATER_STRUCTURE_FILL|10"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G2|ANIMAL_WATER_STRUCTURE_FILL",
+      "source_kind": "ANIMAL_WATER_STRUCTURE_FILL",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 3,
+      "other_lane_ordinal": 103,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G2|ANIMAL_WATER_STRUCTURE_FILL|11",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G02|ANIMAL_WATER_STRUCTURE_FILL|11"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G2|ANIMAL_WATER_STRUCTURE_FILL",
+      "source_kind": "ANIMAL_WATER_STRUCTURE_FILL",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 4,
+      "other_lane_ordinal": 104,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G3|PLANT_WATER_DIAGRAM_FILL|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G03|PLANT_WATER_DIAGRAM_FILL|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G3|PLANT_WATER_DIAGRAM_FILL",
+      "source_kind": "PLANT_WATER_DIAGRAM_FILL",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 5,
+      "other_lane_ordinal": 105,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G3|PLANT_WATER_DIAGRAM_FILL|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G03|PLANT_WATER_DIAGRAM_FILL|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G3|PLANT_WATER_DIAGRAM_FILL",
+      "source_kind": "PLANT_WATER_DIAGRAM_FILL",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 6,
+      "other_lane_ordinal": 106,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G3|PLANT_WATER_DIAGRAM_FILL|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G03|PLANT_WATER_DIAGRAM_FILL|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G3|PLANT_WATER_DIAGRAM_FILL",
+      "source_kind": "PLANT_WATER_DIAGRAM_FILL",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 7,
+      "other_lane_ordinal": 107,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G4|ENVIRONMENT_HABITAT_FILL|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G04|ENVIRONMENT_HABITAT_FILL|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G4|ENVIRONMENT_HABITAT_FILL",
+      "source_kind": "ENVIRONMENT_HABITAT_FILL",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 8,
+      "other_lane_ordinal": 108,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G4|ENVIRONMENT_HABITAT_FILL|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G04|ENVIRONMENT_HABITAT_FILL|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G4|ENVIRONMENT_HABITAT_FILL",
+      "source_kind": "ENVIRONMENT_HABITAT_FILL",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 9,
+      "other_lane_ordinal": 109,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G4|ENVIRONMENT_HABITAT_FILL|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G04|ENVIRONMENT_HABITAT_FILL|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G4|ENVIRONMENT_HABITAT_FILL",
+      "source_kind": "ENVIRONMENT_HABITAT_FILL",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 10,
+      "other_lane_ordinal": 110,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G5|RIVER_EXPERIMENT_TICK|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G05|RIVER_EXPERIMENT_TICK|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G5|RIVER_EXPERIMENT_TICK",
+      "source_kind": "RIVER_EXPERIMENT_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 11,
+      "other_lane_ordinal": 111,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G5|RIVER_EXPERIMENT_TICK|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G05|RIVER_EXPERIMENT_TICK|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G5|RIVER_EXPERIMENT_TICK",
+      "source_kind": "RIVER_EXPERIMENT_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 12,
+      "other_lane_ordinal": 112,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G5|RIVER_EXPERIMENT_TICK|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G05|RIVER_EXPERIMENT_TICK|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G5|RIVER_EXPERIMENT_TICK",
+      "source_kind": "RIVER_EXPERIMENT_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 13,
+      "other_lane_ordinal": 113,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G5|RIVER_EXPERIMENT_TICK|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G05|RIVER_EXPERIMENT_TICK|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G5|RIVER_EXPERIMENT_TICK",
+      "source_kind": "RIVER_EXPERIMENT_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 14,
+      "other_lane_ordinal": 114,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G5|RIVER_EXPERIMENT_TICK|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G05|RIVER_EXPERIMENT_TICK|05"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G5|RIVER_EXPERIMENT_TICK",
+      "source_kind": "RIVER_EXPERIMENT_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 15,
+      "other_lane_ordinal": 115,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G5|RIVER_EXPERIMENT_TICK|6",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G05|RIVER_EXPERIMENT_TICK|06"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G5|RIVER_EXPERIMENT_TICK",
+      "source_kind": "RIVER_EXPERIMENT_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 16,
+      "other_lane_ordinal": 116,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G6|EARTHQUAKE_DISASTER_TICK|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G06|EARTHQUAKE_DISASTER_TICK|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G6|EARTHQUAKE_DISASTER_TICK",
+      "source_kind": "EARTHQUAKE_DISASTER_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 17,
+      "other_lane_ordinal": 117,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G6|EARTHQUAKE_DISASTER_TICK|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G06|EARTHQUAKE_DISASTER_TICK|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G6|EARTHQUAKE_DISASTER_TICK",
+      "source_kind": "EARTHQUAKE_DISASTER_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 18,
+      "other_lane_ordinal": 118,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G6|EARTHQUAKE_DISASTER_TICK|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G06|EARTHQUAKE_DISASTER_TICK|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G6|EARTHQUAKE_DISASTER_TICK",
+      "source_kind": "EARTHQUAKE_DISASTER_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 19,
+      "other_lane_ordinal": 119,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G6|EARTHQUAKE_DISASTER_TICK|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G06|EARTHQUAKE_DISASTER_TICK|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G6|EARTHQUAKE_DISASTER_TICK",
+      "source_kind": "EARTHQUAKE_DISASTER_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 20,
+      "other_lane_ordinal": 120,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G6|EARTHQUAKE_DISASTER_TICK|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G06|EARTHQUAKE_DISASTER_TICK|05"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G6|EARTHQUAKE_DISASTER_TICK",
+      "source_kind": "EARTHQUAKE_DISASTER_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 21,
+      "other_lane_ordinal": 121,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G6|EARTHQUAKE_DISASTER_TICK|6",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G06|EARTHQUAKE_DISASTER_TICK|06"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G6|EARTHQUAKE_DISASTER_TICK",
+      "source_kind": "EARTHQUAKE_DISASTER_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 22,
+      "other_lane_ordinal": 122,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G7|WATER_ENVIRONMENT_TICK|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G07|WATER_ENVIRONMENT_TICK|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G7|WATER_ENVIRONMENT_TICK",
+      "source_kind": "WATER_ENVIRONMENT_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 23,
+      "other_lane_ordinal": 123,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G7|WATER_ENVIRONMENT_TICK|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G07|WATER_ENVIRONMENT_TICK|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G7|WATER_ENVIRONMENT_TICK",
+      "source_kind": "WATER_ENVIRONMENT_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 24,
+      "other_lane_ordinal": 124,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G7|WATER_ENVIRONMENT_TICK|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G07|WATER_ENVIRONMENT_TICK|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G7|WATER_ENVIRONMENT_TICK",
+      "source_kind": "WATER_ENVIRONMENT_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 25,
+      "other_lane_ordinal": 125,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S3|G7|WATER_ENVIRONMENT_TICK|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S03|G07|WATER_ENVIRONMENT_TICK|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S3|G7|WATER_ENVIRONMENT_TICK",
+      "source_kind": "WATER_ENVIRONMENT_TICK",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 26,
+      "other_lane_ordinal": 126,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S4|G1|EARTHQUAKE_PREPARE_MATCH|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S04|G01|EARTHQUAKE_PREPARE_MATCH|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S4|G1|EARTHQUAKE_PREPARE_MATCH",
+      "source_kind": "EARTHQUAKE_PREPARE_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 27,
+      "other_lane_ordinal": 127,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S4|G1|EARTHQUAKE_PREPARE_MATCH|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S04|G01|EARTHQUAKE_PREPARE_MATCH|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S4|G1|EARTHQUAKE_PREPARE_MATCH",
+      "source_kind": "EARTHQUAKE_PREPARE_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 28,
+      "other_lane_ordinal": 128,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S4|G1|EARTHQUAKE_PREPARE_MATCH|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S04|G01|EARTHQUAKE_PREPARE_MATCH|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S4|G1|EARTHQUAKE_PREPARE_MATCH",
+      "source_kind": "EARTHQUAKE_PREPARE_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 29,
+      "other_lane_ordinal": 129,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S4|G1|EARTHQUAKE_PREPARE_MATCH|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S04|G01|EARTHQUAKE_PREPARE_MATCH|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S4|G1|EARTHQUAKE_PREPARE_MATCH",
+      "source_kind": "EARTHQUAKE_PREPARE_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 30,
+      "other_lane_ordinal": 130,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S4|G1|EARTHQUAKE_PREPARE_MATCH|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S04|G01|EARTHQUAKE_PREPARE_MATCH|05"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S4|G1|EARTHQUAKE_PREPARE_MATCH",
+      "source_kind": "EARTHQUAKE_PREPARE_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 31,
+      "other_lane_ordinal": 131,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S4|G1|EARTHQUAKE_PREPARE_MATCH|6",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S04|G01|EARTHQUAKE_PREPARE_MATCH|06"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S4|G1|EARTHQUAKE_PREPARE_MATCH",
+      "source_kind": "EARTHQUAKE_PREPARE_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 32,
+      "other_lane_ordinal": 132,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S4|G2|ENVIRONMENT_FOOD_MATCH|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S04|G02|ENVIRONMENT_FOOD_MATCH|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S4|G2|ENVIRONMENT_FOOD_MATCH",
+      "source_kind": "ENVIRONMENT_FOOD_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 33,
+      "other_lane_ordinal": 133,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S4|G2|ENVIRONMENT_FOOD_MATCH|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S04|G02|ENVIRONMENT_FOOD_MATCH|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S4|G2|ENVIRONMENT_FOOD_MATCH",
+      "source_kind": "ENVIRONMENT_FOOD_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 34,
+      "other_lane_ordinal": 134,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S4|G2|ENVIRONMENT_FOOD_MATCH|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S04|G02|ENVIRONMENT_FOOD_MATCH|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S4|G2|ENVIRONMENT_FOOD_MATCH",
+      "source_kind": "ENVIRONMENT_FOOD_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 35,
+      "other_lane_ordinal": 135,
+      "source_slot_id": "SCI_G04_S1_113_MID_007|S4|G2|ENVIRONMENT_FOOD_MATCH|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_007|S04|G02|ENVIRONMENT_FOOD_MATCH|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_007|S4|G2|ENVIRONMENT_FOOD_MATCH",
+      "source_kind": "ENVIRONMENT_FOOD_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 36,
+      "other_lane_ordinal": 136,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S03|G01|MATCHING|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 37,
+      "other_lane_ordinal": 137,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S03|G01|MATCHING|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 38,
+      "other_lane_ordinal": 138,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S03|G01|MATCHING|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 39,
+      "other_lane_ordinal": 139,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S03|G01|MATCHING|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 40,
+      "other_lane_ordinal": 140,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S03|G01|MATCHING|05"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 41,
+      "other_lane_ordinal": 141,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING|6",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S03|G01|MATCHING|06"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 42,
+      "other_lane_ordinal": 142,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING|7",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S03|G01|MATCHING|07"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S3|G1|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 43,
+      "other_lane_ordinal": 143,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S4|G1|MIXED_FIGURE_MATCH|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S04|G01|MIXED_FIGURE_MATCH|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S4|G1|MIXED_FIGURE_MATCH",
+      "source_kind": "MIXED_FIGURE_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 44,
+      "other_lane_ordinal": 144,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S4|G1|MIXED_FIGURE_MATCH|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S04|G01|MIXED_FIGURE_MATCH|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S4|G1|MIXED_FIGURE_MATCH",
+      "source_kind": "MIXED_FIGURE_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 45,
+      "other_lane_ordinal": 145,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S4|G1|MIXED_FIGURE_MATCH|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S04|G01|MIXED_FIGURE_MATCH|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S4|G1|MIXED_FIGURE_MATCH",
+      "source_kind": "MIXED_FIGURE_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 46,
+      "other_lane_ordinal": 146,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S4|G1|MIXED_FIGURE_MATCH|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S04|G01|MIXED_FIGURE_MATCH|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S4|G1|MIXED_FIGURE_MATCH",
+      "source_kind": "MIXED_FIGURE_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 47,
+      "other_lane_ordinal": 147,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S4|G1|MIXED_FIGURE_MATCH|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S04|G01|MIXED_FIGURE_MATCH|05"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S4|G1|MIXED_FIGURE_MATCH",
+      "source_kind": "MIXED_FIGURE_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 48,
+      "other_lane_ordinal": 148,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S4|G1|MIXED_FIGURE_MATCH|6",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S04|G01|MIXED_FIGURE_MATCH|06"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S4|G1|MIXED_FIGURE_MATCH",
+      "source_kind": "MIXED_FIGURE_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 49,
+      "other_lane_ordinal": 149,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S5|EARTHQUAKE_REPORT|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S05|EARTHQUAKE_REPORT|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S5|EARTHQUAKE_REPORT",
+      "source_kind": "EARTHQUAKE_REPORT",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 50,
+      "other_lane_ordinal": 150,
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S5|EARTHQUAKE_REPORT|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_008|S05|EARTHQUAKE_REPORT|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_ledgers": [
+        "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_008|S5|EARTHQUAKE_REPORT",
+      "source_kind": "EARTHQUAKE_REPORT",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ]
+}

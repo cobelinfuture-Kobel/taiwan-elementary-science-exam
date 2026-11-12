@@ -1,0 +1,174 @@
+{
+  "schema_version": "P12_G04S1_113_DONGGUANG_FINAL_COMPLETE_SECTION_SOURCE_SCIENCE_PREFLIGHT_V2",
+  "source_id": "SCI_G04_S1_113_FINAL_003",
+  "source_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+  "source_pages": 2,
+  "authority": "site/data/authority/science-g03-g04-selector-v3.json",
+  "paper_score_points": 100,
+  "original_page1_mc_tf_markers": 29,
+  "second_half_sections": [
+    {
+      "id": "S3",
+      "location": "page1",
+      "requirements": 3,
+      "points": 6,
+      "kind": "CIRCUIT_ILLUSTRATION_TICK_CROSS",
+      "gate": "FIGURE"
+    },
+    {
+      "id": "S4",
+      "location": "page1+page2",
+      "requirements": 2,
+      "points": 4,
+      "kind": "SERIES_BULB_AND_BATTERY_CIRCUIT_DRAWING",
+      "gate": "DRAWING"
+    },
+    {
+      "id": "S5",
+      "location": "page2",
+      "requirements": 5,
+      "points": 5,
+      "kind": "ENERGY_CHOICE_CIRCLE",
+      "gate": "OUTSIDE_48_KP",
+      "source_answers": [
+        {
+          "item": 1,
+          "choice": "1",
+          "answer": "生質能",
+          "status": "MODEL"
+        },
+        {
+          "item": 1,
+          "choice": "3",
+          "answer": "海洋能",
+          "status": "MODEL"
+        },
+        {
+          "item": 2,
+          "choice": "1",
+          "answer": "石油",
+          "status": "MODEL"
+        },
+        {
+          "item": 2,
+          "choice": "2",
+          "answer": "天然氣",
+          "status": "MODEL"
+        },
+        {
+          "item": 2,
+          "choice": "3",
+          "answer": "煤炭",
+          "status": "MODEL"
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "location": "page2",
+      "requirements": 8,
+      "points": 16,
+      "kind": "APPLIANCE_AND_CONDUCTOR_CONTEXT",
+      "gate": "MIXED_FIGURE_CONTEXT",
+      "grouped": [
+        {
+          "id": "1",
+          "requirements": 2,
+          "model_answers": [
+            "手電筒、手錶",
+            "微波爐、冰箱"
+          ],
+          "kp": "kx_g04s1_u04_kp12",
+          "status": "PRELIMINARY_CONVENTIONAL_USAGE"
+        },
+        {
+          "id": "2",
+          "requirements": 2,
+          "model_answers": [
+            "通路",
+            "會發光（正常乾電池與燈泡；電路仍閉合）"
+          ],
+          "kp": "kx_g04s1_u04_kp04",
+          "status": "PRELIMINARY_IMAGE_CONTEXT"
+        },
+        {
+          "id": "3",
+          "requirements": 4,
+          "model_answers": [
+            "鐵釘：可",
+            "橡皮擦：不可",
+            "鋁罐：可",
+            "塑膠尺：不可"
+          ],
+          "kp": "kx_g04s1_u04_kp05",
+          "status": "PRELIMINARY_MATERIAL_ASSUMPTION"
+        }
+      ]
+    },
+    {
+      "id": "S7",
+      "location": "page2",
+      "requirements": 8,
+      "points": 8,
+      "kind": "CIRCUIT_AND_POWER_SOURCE_FIGURE_MATCH",
+      "gate": "FIGURE",
+      "grouped": [
+        {
+          "id": "1",
+          "requirements": 4,
+          "kp": "kx_g04s1_u04_kp08/kp09",
+          "status": "PENDING_FIGURE_CURRENT_PATH"
+        },
+        {
+          "id": "2",
+          "requirements": 4,
+          "kp": "kx_g04s1_u04_kp12",
+          "model_answers": [
+            "手機：方形鋰電池",
+            "手錶：鈕扣電池（原卷稱水銀電池，需審核）",
+            "烤箱：市電",
+            "遙控器：乾電池"
+          ],
+          "status": "HOLD_BATTERY_TERMINOLOGY"
+        }
+      ]
+    },
+    {
+      "id": "S8",
+      "location": "page2",
+      "requirements": null,
+      "points": 3,
+      "kind": "COMPOSITE_WRITTEN_AND_CIRCUIT_DRAWING",
+      "gate": "HOLD_SCORING_SLOT_AMBIGUITY",
+      "reason": "Printed 3 points cannot be used as 3 student answer slots; written response + diagram share one integrated task"
+    }
+  ],
+  "section3_to7_response_requirements_sum": 26,
+  "second_half_including_challenge_exact_count": "PENDING",
+  "paper_exact_response_positions_not_58_certified": true,
+  "model_answers_are_not_teacher_keys": true,
+  "science_answers_certified": 0,
+  "student_public_admissions": 0,
+  "public_bank_unchanged": 636,
+  "existing_p1_review_corrections": [
+    {
+      "source_item": "S1|MC|003",
+      "prior_kp": "kx_g04s1_u04_kp06",
+      "action": "REVIEW",
+      "reason": "Series connection polarity question does not directly test brightness effect in KP06; hold rather than force-map"
+    },
+    {
+      "source_item": "S1|MC|004",
+      "prior_answer": "2",
+      "action": "HOLD",
+      "reason": "An alarm clock may operate from battery or household power; context does not uniquely constrain source"
+    },
+    {
+      "source_item": "S2|TF|006",
+      "action": "REVIEW",
+      "reason": "Changing wire to colored paper can break conductor path; candidate KP05, still require full evidence."
+    }
+  ],
+  "release_gate": "BLOCKED",
+  "next_gate": "Per-mark PDF original drawing/figure BBox and exact source text/options; review model answers, full bank & cross-year duplicates and rights before publication"
+}

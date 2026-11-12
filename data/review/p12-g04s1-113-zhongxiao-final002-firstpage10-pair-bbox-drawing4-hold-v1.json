@@ -1,0 +1,483 @@
+{
+  "schema_version": "P12_G04S1_113_ZHONGXIAO_FINAL002_P1_10_EXACT_SOURCE_PARENTHESES_V1",
+  "draft_PR": 124,
+  "original_source_id": "SCI_G04_S1_113_FINAL_002",
+  "original_school": "忠孝國小",
+  "source_PDF_SHA256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+  "original_pdf_pages": 4,
+  "original_page1_embedded_xref": 8,
+  "original_page1_image_raw_px": [
+    4960,
+    3507
+  ],
+  "original_pdf_page_landscape_pts": [
+    1190.52,
+    841.8
+  ],
+  "source_method": "Verified original SHA256 PDF p1 raster xref8; student reading orientation CCW270 from grayscale source. 5 MC and 5 short answer original paired ink glyph boxes identified with source-component threshold<150 and individually visually annotated against original question number and each shared original figure parent. Both raw original source JPG pixel geometry and mapped original landscape PDF pts supplied. Original question 3 and 6 are drawn onto figures, NOT false bracket slots. Do not use OCR, interpolate, or manufacture drawing answer BBox.",
+  "visual_private_overlays_not_publicly_republished": true,
+  "summary": {
+    "printed_S01_MC_5_BBoxes": 5,
+    "printed_S02_image_dependent_shortanswer5_BBoxes": 5,
+    "total_exact_new_source_parenthesis_boxes": 10,
+    "prior_zhongxiao_source_marker_count": 36,
+    "zhongxiao_original_source_marker_count_now": 46,
+    "remaining_zhongxiao_drawing_response_positions_without_exact_independent_bbox": 4,
+    "new_formal_science_kp_approved": 0,
+    "new_admission_ready": 0,
+    "new_published": 0
+  },
+  "remaining_drawing_source_slots": [
+    {
+      "section": "S01",
+      "printed_number": 3,
+      "original_task": "手繪光在鏡子反射後的實際光路",
+      "reason": "畫在原圖上；缺獨立印刷答案括號或格框",
+      "source_page": 1,
+      "source_geometry_independent_answer_bbox_formally_certified": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "status": "HOLD_DRAW_ON_ORIGINAL_FIGURE_NO_FABRICATED_ANSWER_BBOX"
+    },
+    {
+      "section": "S01",
+      "printed_number": 6,
+      "original_task": "在LED與電池圖上連接使LED可亮的電路",
+      "reason": "畫在原圖上；須保留原始圖片依賴及完整作答區域",
+      "source_page": 1,
+      "source_geometry_independent_answer_bbox_formally_certified": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "status": "HOLD_DRAW_ON_ORIGINAL_FIGURE_NO_FABRICATED_ANSWER_BBOX"
+    },
+    {
+      "section": "S03",
+      "printed_number": 1,
+      "original_task": "聖誕樹燈泡串聯畫線",
+      "reason": "畫在原圖上；須保留整張聖誕樹示意圖",
+      "source_page": 1,
+      "source_geometry_independent_answer_bbox_formally_certified": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "status": "HOLD_DRAW_ON_ORIGINAL_FIGURE_NO_FABRICATED_ANSWER_BBOX"
+    },
+    {
+      "section": "S03",
+      "printed_number": 2,
+      "original_task": "元宵燈籠兩泡一電池並聯圖",
+      "reason": "畫在原圖上；須保留整張燈籠示意圖",
+      "source_page": 2,
+      "source_geometry_independent_answer_bbox_formally_certified": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "status": "HOLD_DRAW_ON_ORIGINAL_FIGURE_NO_FABRICATED_ANSWER_BBOX"
+    }
+  ],
+  "records": [
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S01|MC|001",
+      "source_original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_page_pdf_1_based": 1,
+      "original_embedded_JPEG_xref": 8,
+      "source_pdf_page_landscape_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_image_raw_px": [
+        4960,
+        3507
+      ],
+      "original_image_to_student_upright_ccw_rotation_degrees": 270,
+      "student_readable_ink_pair_bbox_px": [
+        227,
+        1180,
+        405,
+        1235
+      ],
+      "original_embedded_source_image_raw_bbox_px": [
+        1180,
+        3102,
+        1235,
+        3280
+      ],
+      "original_landscape_pdf_bbox_pts_top_left": [
+        283.23,
+        744.59,
+        296.43,
+        787.31
+      ],
+      "printed_answer_type": "ORIGINAL_PRINTED_MULTIPLE_CHOICE_PARENTHESES",
+      "original_parent_figure_required": true,
+      "source_exact_original_raster_answer_pair_bbox_verified": true,
+      "source_ocr_used": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S01|MC|002",
+      "source_original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_page_pdf_1_based": 1,
+      "original_embedded_JPEG_xref": 8,
+      "source_pdf_page_landscape_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_image_raw_px": [
+        4960,
+        3507
+      ],
+      "original_image_to_student_upright_ccw_rotation_degrees": 270,
+      "student_readable_ink_pair_bbox_px": [
+        227,
+        1492,
+        405,
+        1547
+      ],
+      "original_embedded_source_image_raw_bbox_px": [
+        1492,
+        3102,
+        1547,
+        3280
+      ],
+      "original_landscape_pdf_bbox_pts_top_left": [
+        358.12,
+        744.59,
+        371.32,
+        787.31
+      ],
+      "printed_answer_type": "ORIGINAL_PRINTED_MULTIPLE_CHOICE_PARENTHESES",
+      "original_parent_figure_required": true,
+      "source_exact_original_raster_answer_pair_bbox_verified": true,
+      "source_ocr_used": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S01|MC|004",
+      "source_original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_page_pdf_1_based": 1,
+      "original_embedded_JPEG_xref": 8,
+      "source_pdf_page_landscape_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_image_raw_px": [
+        4960,
+        3507
+      ],
+      "original_image_to_student_upright_ccw_rotation_degrees": 270,
+      "student_readable_ink_pair_bbox_px": [
+        231,
+        2627,
+        409,
+        2681
+      ],
+      "original_embedded_source_image_raw_bbox_px": [
+        2627,
+        3098,
+        2681,
+        3276
+      ],
+      "original_landscape_pdf_bbox_pts_top_left": [
+        630.54,
+        743.63,
+        643.5,
+        786.35
+      ],
+      "printed_answer_type": "ORIGINAL_PRINTED_MULTIPLE_CHOICE_PARENTHESES",
+      "original_parent_figure_required": true,
+      "source_exact_original_raster_answer_pair_bbox_verified": true,
+      "source_ocr_used": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S01|MC|005",
+      "source_original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_page_pdf_1_based": 1,
+      "original_embedded_JPEG_xref": 8,
+      "source_pdf_page_landscape_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_image_raw_px": [
+        4960,
+        3507
+      ],
+      "original_image_to_student_upright_ccw_rotation_degrees": 270,
+      "student_readable_ink_pair_bbox_px": [
+        232,
+        3031,
+        410,
+        3086
+      ],
+      "original_embedded_source_image_raw_bbox_px": [
+        3031,
+        3097,
+        3086,
+        3275
+      ],
+      "original_landscape_pdf_bbox_pts_top_left": [
+        727.51,
+        743.39,
+        740.71,
+        786.11
+      ],
+      "printed_answer_type": "ORIGINAL_PRINTED_MULTIPLE_CHOICE_PARENTHESES",
+      "original_parent_figure_required": true,
+      "source_exact_original_raster_answer_pair_bbox_verified": true,
+      "source_ocr_used": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S01|MC|007",
+      "source_original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_page_pdf_1_based": 1,
+      "original_embedded_JPEG_xref": 8,
+      "source_pdf_page_landscape_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_image_raw_px": [
+        4960,
+        3507
+      ],
+      "original_image_to_student_upright_ccw_rotation_degrees": 270,
+      "student_readable_ink_pair_bbox_px": [
+        238,
+        4451,
+        416,
+        4506
+      ],
+      "original_embedded_source_image_raw_bbox_px": [
+        4451,
+        3091,
+        4506,
+        3269
+      ],
+      "original_landscape_pdf_bbox_pts_top_left": [
+        1068.35,
+        741.95,
+        1081.55,
+        784.67
+      ],
+      "printed_answer_type": "ORIGINAL_PRINTED_MULTIPLE_CHOICE_PARENTHESES",
+      "original_parent_figure_required": true,
+      "source_exact_original_raster_answer_pair_bbox_verified": true,
+      "source_ocr_used": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S02|SHORT_ANSWER|001",
+      "source_original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_page_pdf_1_based": 1,
+      "original_embedded_JPEG_xref": 8,
+      "source_pdf_page_landscape_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_image_raw_px": [
+        4960,
+        3507
+      ],
+      "original_image_to_student_upright_ccw_rotation_degrees": 270,
+      "student_readable_ink_pair_bbox_px": [
+        2180,
+        690,
+        2532,
+        744
+      ],
+      "original_embedded_source_image_raw_bbox_px": [
+        690,
+        975,
+        744,
+        1327
+      ],
+      "original_landscape_pdf_bbox_pts_top_left": [
+        165.62,
+        234.03,
+        178.58,
+        318.53
+      ],
+      "printed_answer_type": "ORIGINAL_PRINTED_TEXT_SHORT_ANSWER_PARENTHESES",
+      "original_parent_figure_required": true,
+      "source_exact_original_raster_answer_pair_bbox_verified": true,
+      "source_ocr_used": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S02|SHORT_ANSWER|002",
+      "source_original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_page_pdf_1_based": 1,
+      "original_embedded_JPEG_xref": 8,
+      "source_pdf_page_landscape_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_image_raw_px": [
+        4960,
+        3507
+      ],
+      "original_image_to_student_upright_ccw_rotation_degrees": 270,
+      "student_readable_ink_pair_bbox_px": [
+        2182,
+        1813,
+        2534,
+        1866
+      ],
+      "original_embedded_source_image_raw_bbox_px": [
+        1813,
+        973,
+        1866,
+        1325
+      ],
+      "original_landscape_pdf_bbox_pts_top_left": [
+        435.16,
+        233.55,
+        447.89,
+        318.05
+      ],
+      "printed_answer_type": "ORIGINAL_PRINTED_TEXT_SHORT_ANSWER_PARENTHESES",
+      "original_parent_figure_required": true,
+      "source_exact_original_raster_answer_pair_bbox_verified": true,
+      "source_ocr_used": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S02|SHORT_ANSWER|003",
+      "source_original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_page_pdf_1_based": 1,
+      "original_embedded_JPEG_xref": 8,
+      "source_pdf_page_landscape_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_image_raw_px": [
+        4960,
+        3507
+      ],
+      "original_image_to_student_upright_ccw_rotation_degrees": 270,
+      "student_readable_ink_pair_bbox_px": [
+        2437,
+        2604,
+        2613,
+        2657
+      ],
+      "original_embedded_source_image_raw_bbox_px": [
+        2604,
+        894,
+        2657,
+        1070
+      ],
+      "original_landscape_pdf_bbox_pts_top_left": [
+        625.02,
+        214.59,
+        637.74,
+        256.84
+      ],
+      "printed_answer_type": "ORIGINAL_PRINTED_TEXT_SHORT_ANSWER_PARENTHESES",
+      "original_parent_figure_required": true,
+      "source_exact_original_raster_answer_pair_bbox_verified": true,
+      "source_ocr_used": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S02|SHORT_ANSWER|004",
+      "source_original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_page_pdf_1_based": 1,
+      "original_embedded_JPEG_xref": 8,
+      "source_pdf_page_landscape_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_image_raw_px": [
+        4960,
+        3507
+      ],
+      "original_image_to_student_upright_ccw_rotation_degrees": 270,
+      "student_readable_ink_pair_bbox_px": [
+        2438,
+        2703,
+        2613,
+        2756
+      ],
+      "original_embedded_source_image_raw_bbox_px": [
+        2703,
+        894,
+        2756,
+        1069
+      ],
+      "original_landscape_pdf_bbox_pts_top_left": [
+        648.79,
+        214.59,
+        661.51,
+        256.6
+      ],
+      "printed_answer_type": "ORIGINAL_PRINTED_TEXT_SHORT_ANSWER_PARENTHESES",
+      "original_parent_figure_required": true,
+      "source_exact_original_raster_answer_pair_bbox_verified": true,
+      "source_ocr_used": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_FINAL_002|S02|SHORT_ANSWER|005",
+      "source_original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "source_page_pdf_1_based": 1,
+      "original_embedded_JPEG_xref": 8,
+      "source_pdf_page_landscape_pts": [
+        1190.52,
+        841.8
+      ],
+      "source_image_raw_px": [
+        4960,
+        3507
+      ],
+      "original_image_to_student_upright_ccw_rotation_degrees": 270,
+      "student_readable_ink_pair_bbox_px": [
+        2193,
+        2802,
+        2370,
+        2856
+      ],
+      "original_embedded_source_image_raw_bbox_px": [
+        2802,
+        1137,
+        2856,
+        1314
+      ],
+      "original_landscape_pdf_bbox_pts_top_left": [
+        672.55,
+        272.92,
+        685.51,
+        315.4
+      ],
+      "printed_answer_type": "ORIGINAL_PRINTED_TEXT_SHORT_ANSWER_PARENTHESES",
+      "original_parent_figure_required": true,
+      "source_exact_original_raster_answer_pair_bbox_verified": true,
+      "source_ocr_used": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "next_resume_task": "P12_G04S1_113_ZhongxiaoFINAL002_4OriginalFigureDrawResponses_HOLD_Rights_Renderer_ThenShihuParent7_2SourceGranularity_HOLD_ElseScienceKP_DedupRights_SelectiveAdmission"
+}

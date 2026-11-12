@@ -1,0 +1,108 @@
+{
+  "schema_version": "P12_G04S1_113_POST301_NATIVE_SOURCE_AND_SCIENCE_KP_READBACK_V1",
+  "project": "自然_題庫整理",
+  "scope": "113 G04 S1 original all29 source corpus; source-only native numbered lane (301 source slots) not the full all29 answer-slot universe",
+  "draft_pr": 124,
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "source_progress": {
+    "native_source_position_queue_301": 301,
+    "source_position_text_layer_recovered": 301,
+    "native_printed_marker_bbox_readback": 301,
+    "original_pdf_graphic_options_not_recoverable_from_text_layer": 1,
+    "shared_reading_children_context_dependent": 12,
+    "other_or_dependent_source_lane_not_yet_processed": 408,
+    "entire29_papers_full_exact_inventory_not_finished": true,
+    "published_113_original_source_IDs_suppressed": 114
+  },
+  "science_kp_work_eligible_batch_count": {
+    "B03_direct_text_candidate": 35,
+    "B03_hold": 15,
+    "B04_direct_text_candidate": 38,
+    "B04_hold": 12,
+    "B05_direct_text_candidate": 26,
+    "B05_hold": 24,
+    "B06_direct_text_candidate": 18,
+    "B06_hold": 32,
+    "B07_direct_text_candidate": 0,
+    "B07_hold": 1
+  },
+  "science_kp_counts_scope": "B03-B07 only (201 items), text-based candidates not approved",
+  "all_114_original_exam_archive_source_duplicate_screen": {
+    "source113_tested": 301,
+    "original114_papers": 25,
+    "original114_records": 717,
+    "B01_B04_crossyear_exact": 6,
+    "B01_B04_crossyear_near": 5,
+    "B05_B07_crossyear_exact": 0,
+    "B05_B07_crossyear_near": 5,
+    "all_301_crossyear_exact": 6,
+    "all_301_crossyear_near": 10,
+    "all_301_internal_original_exact_duplicate_pairs": 6,
+    "full_active_learner_bank_semantic_duplicate_gate_completed": false
+  },
+  "formal_gate": {
+    "FORMAL_SCIENCE_KP_APPROVED_NEW": 0,
+    "ADMISSION_READY_NEW": 0,
+    "PUBLISHED_NEW": 0,
+    "missing": [
+      "Unique-answer exceptions and outstanding original figure-dependent source material",
+      "Complete student-facing semantic duplicate comparison vs current main/published pool",
+      "Article9 and third-party parent article rights review for each potentially admitted source",
+      "Applicable operator consolidated release list approval",
+      "Other source lane 408 and the rest of exact source inventories in remaining 15 papers"
+    ]
+  },
+  "public_site_unchanged": {
+    "main_baseline": "ce4a0b30c98638be4ce0e417234112a01490c9c4",
+    "published_113_original_sources": 114,
+    "all_public_answer_slots": 750
+  },
+  "supporting_review_documents": [
+    {
+      "key": "b03",
+      "path": "data/review/p12-g04s1-113-native-tfmc-b03-50-science-kp-consolidated-v1.json"
+    },
+    {
+      "key": "b04",
+      "path": "data/review/p12-g04s1-113-native-tfmc-b04-50-science-kp-consolidated-v2.json"
+    },
+    {
+      "key": "b05",
+      "path": "data/review/p12-g04s1-113-native-tfmc-b05-50-science-kp-parent-exception-routing-v1.json"
+    },
+    {
+      "key": "b06",
+      "path": "data/review/p12-g04s1-113-native-tfmc-b06-50-science-kp-context-routing-v1.json"
+    },
+    {
+      "key": "b07",
+      "path": "data/review/p12-g04s1-113-native-tfmc-b07-1-science-kp-context-routing-v1.json"
+    },
+    {
+      "key": "old",
+      "path": "data/review/p12-g04s1-113-wholecorpus-post200-gate-and-crossyear-dedup-readback-v1.json"
+    },
+    {
+      "key": "s1",
+      "path": "data/review/p12-g04s1-113-native-b05b07-101-vs114-source-shard01-v1.json"
+    },
+    {
+      "key": "s2",
+      "path": "data/review/p12-g04s1-113-native-b05b07-101-vs114-source-shard02-v1.json"
+    },
+    {
+      "key": "s3",
+      "path": "data/review/p12-g04s1-113-native-b05b07-101-vs114-source-shard03-v1.json"
+    },
+    {
+      "key": "internal",
+      "path": "data/review/p12-g04s1-113-native301-internal-exact-text-duplicates-v1.json"
+    },
+    {
+      "key": "published",
+      "path": "data/review/p12-g04s1-113-main-published114-source-suppression-readback-v9.json"
+    }
+  ],
+  "execution_rule": "Keep original authority/Gate untouched. Do not auto-release 1-3 source positions; accumulate final eligible original questions for one consolidated PR, focused CI, main readback and real Pages E2E.",
+  "next_resume_task": "P12_G04S1_113_POST301_OTHER408_14PaperSourceOnlyLedgers_Plus15PaperInventory_GateEvidenceAndFullActivePoolSemanticDedup_ThenConsolidatedAdmissionPRCIAndPages"
+}

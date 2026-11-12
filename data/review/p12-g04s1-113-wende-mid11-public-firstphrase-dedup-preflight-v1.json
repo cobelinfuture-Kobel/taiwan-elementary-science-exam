@@ -1,0 +1,30 @@
+{
+  "schema_version": "P12_113_G04S1_WENDE_MID11_PUBLIC_FIRSTPHRASE_DEDUP_PREFLIGHT_V1",
+  "candidate_preliminary_source_ref": "data/review/p12-g04s1-113-wende-mid27-science-kp48-preliminary-v1.json",
+  "public_github_bank_source_dir": "site/data/question-bank/",
+  "total_distinct_public_annual_bank_json_assets_inspected": 30,
+  "public_bank_json_metadata_or_legacy_variants_included": true,
+  "original_27_source_phrases_considered": 11,
+  "literal_source_firstphrase_overlap_count": 0,
+  "full_original_source_stem_exact_match_certified": false,
+  "all_636_student_answer_slots_semantic_near_duplicate_certified": false,
+  "student_question_admission_count": 0,
+  "decision": "NO_LITERAL_FIRST_PHRASE_OVERLAP_FOUND__DO_NOT_TREAT_AS_FULL_DEDUP_OR_PUBLIC_GATE",
+  "method": "Source PDF page1 first printed question-content clause fingerprint manually extracted from native text and normalized NFKC / remove punctuation/spaces; compare against readback of 30 existing site/data/question-bank JSON bodies. An absence of an identical first clause is not proof against a semantically identical school question with changed introductory context.",
+  "source_original_answers_teacher_authenticated": false,
+  "page1_source_markers_with_pdf_geometry_verified": true,
+  "candidate_source_ids": [
+    "SCI_G04_S1_113_MID_001|S1|TF|004",
+    "SCI_G04_S1_113_MID_001|S1|TF|006",
+    "SCI_G04_S1_113_MID_001|S1|TF|010",
+    "SCI_G04_S1_113_MID_001|S1|TF|012",
+    "SCI_G04_S1_113_MID_001|S1|TF|014",
+    "SCI_G04_S1_113_MID_001|S1|TF|015",
+    "SCI_G04_S1_113_MID_001|S2|MC|007",
+    "SCI_G04_S1_113_MID_001|S2|MC|008",
+    "SCI_G04_S1_113_MID_001|S2|MC|010",
+    "SCI_G04_S1_113_MID_001|S2|MC|011",
+    "SCI_G04_S1_113_MID_001|S2|MC|012"
+  ],
+  "last_gate": "Exact full question/option source visual proof + approved copyright path + all active 636 student slots AND same-batch 113 candidates semantic duplicate comparison + cross-exam and prior frozen source corpus before any publication."
+}

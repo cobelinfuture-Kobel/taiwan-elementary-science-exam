@@ -1,0 +1,1286 @@
+{
+  "schema_version": "P12_G04S1_113_B03_50_ORIGINAL_PDF_TEXT_LAYER_SOURCE_READBACK_V1",
+  "scope": "113 G04 S1 B03 50 native source positions, original paper text layer from Google Drive PDF; source only",
+  "source_pr": 124,
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "batch_checkpoint": "data/review/p12-g04s1-113-native-tfmc-b03-50-source-checkpoint-v1.json",
+  "printed_sections_verified": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "section": "S1",
+      "kind": "TF",
+      "original_printed_count": 11
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "section": "S2",
+      "kind": "MC",
+      "original_printed_count": 14
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_009",
+      "section": "S1",
+      "kind": "TF",
+      "original_printed_count": 12
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_009",
+      "section": "S2",
+      "kind": "MC",
+      "original_printed_count": 15
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "section": "S1",
+      "kind": "TF",
+      "original_printed_count": 10
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "section": "S2",
+      "kind": "MC",
+      "original_printed_count": 10
+    }
+  ],
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|3",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "full_original_pdf_text_layer": "下列哪一項做法無法保護我們的森林資源？ ○1 任\r\n意砍伐樹木 ○2 定期巡守山林 ○3 平時節約用紙\r\n○4 少用免洗筷。",
+      "stem_pdf_text_layer": "下列哪一項做法無法保護我們的森林資源？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "任\r\n意砍伐樹木"
+        },
+        {
+          "label": "○2",
+          "text": "定期巡守山林"
+        },
+        {
+          "label": "○3",
+          "text": "平時節約用紙"
+        },
+        {
+          "label": "○4",
+          "text": "少用免洗筷。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|4",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "full_original_pdf_text_layer": "下列哪一項不是構成地表的非生物物質？ ○1 土壤\r\n○2 沙子 ○3 榕樹 ○4 岩石。",
+      "stem_pdf_text_layer": "下列哪一項不是構成地表的非生物物質？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "土壤"
+        },
+        {
+          "label": "○2",
+          "text": "沙子"
+        },
+        {
+          "label": "○3",
+          "text": "榕樹"
+        },
+        {
+          "label": "○4",
+          "text": "岩石。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|5",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "full_original_pdf_text_layer": "土壤比沙子容易被風吹走，主要原因是什麼？ ○1\r\n土壤顆粒比較小 ○2 土壤比較重 ○3 土壤顏色比較\r\n深 ○4 沙子顆粒比較小。",
+      "stem_pdf_text_layer": "土壤比沙子容易被風吹走，主要原因是什麼？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "土壤顆粒比較小"
+        },
+        {
+          "label": "○2",
+          "text": "土壤比較重"
+        },
+        {
+          "label": "○3",
+          "text": "土壤顏色比較\r\n深"
+        },
+        {
+          "label": "○4",
+          "text": "沙子顆粒比較小。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|6",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "full_original_pdf_text_layer": "下列哪一項不是地震所造成的地表改變？ ○1 山坡\r\n崩落 ○2 地面斷裂 ○3 淹水 ○4 堰塞湖。",
+      "stem_pdf_text_layer": "下列哪一項不是地震所造成的地表改變？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "山坡\r\n崩落"
+        },
+        {
+          "label": "○2",
+          "text": "地面斷裂"
+        },
+        {
+          "label": "○3",
+          "text": "淹水"
+        },
+        {
+          "label": "○4",
+          "text": "堰塞湖。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|7",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "full_original_pdf_text_layer": "小良想要拜訪人為建造的水域環境，你建議他可以\r\n到下列哪一個地方進行觀察？ ○1 河口溼地 ○2 水\r\n庫 ○3 海岸潮間帶 ○4 溪流。",
+      "stem_pdf_text_layer": "小良想要拜訪人為建造的水域環境，你建議他可以\r\n到下列哪一個地方進行觀察？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "河口溼地"
+        },
+        {
+          "label": "○2",
+          "text": "水\r\n庫"
+        },
+        {
+          "label": "○3",
+          "text": "海岸潮間帶"
+        },
+        {
+          "label": "○4",
+          "text": "溪流。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|8",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "full_original_pdf_text_layer": "小翔在水田裡撈了一些蝌蚪來觀察，觀察完後，他\r\n應該怎樣處理蝌蚪才正確？ ○1 放到水溝裡 ○2 放\r\n到魚缸裡 ○3 放回水田裡 ○4 倒進水槽裡。",
+      "stem_pdf_text_layer": "小翔在水田裡撈了一些蝌蚪來觀察，觀察完後，他\r\n應該怎樣處理蝌蚪才正確？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "放到水溝裡"
+        },
+        {
+          "label": "○2",
+          "text": "放\r\n到魚缸裡"
+        },
+        {
+          "label": "○3",
+          "text": "放回水田裡"
+        },
+        {
+          "label": "○4",
+          "text": "倒進水槽裡。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|9",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "full_original_pdf_text_layer": "下列四種不同的水域環境，哪一個水域環境所涵蓋\r\n的範圍是最大的？ ○1 溪流 ○2 海洋 ○3 水田 ○4\r\n魚塭。",
+      "stem_pdf_text_layer": "下列四種不同的水域環境，哪一個水域環境所涵蓋\r\n的範圍是最大的？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "溪流"
+        },
+        {
+          "label": "○2",
+          "text": "海洋"
+        },
+        {
+          "label": "○3",
+          "text": "水田"
+        },
+        {
+          "label": "○4",
+          "text": "魚塭。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|10",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "full_original_pdf_text_layer": "把水族箱中的大萍壓入水裡再放手，不會出現下列\r\n哪一種情形？ ○1 大萍會浮起來 ○2 葉面能使水不\r\n易附著 ○3 葉面形成小水珠 ○4 慢慢的沉入水底。",
+      "stem_pdf_text_layer": "把水族箱中的大萍壓入水裡再放手，不會出現下列\r\n哪一種情形？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "大萍會浮起來"
+        },
+        {
+          "label": "○2",
+          "text": "葉面能使水不\r\n易附著"
+        },
+        {
+          "label": "○3",
+          "text": "葉面形成小水珠"
+        },
+        {
+          "label": "○4",
+          "text": "慢慢的沉入水底。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|11",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "full_original_pdf_text_layer": "依水生植物的生長方式來區分，下列哪一個水生植\r\n物和其他三種不會分在同一類？ ○1 大萍 ○2 浮萍\r\n○3 布袋蓮 ○4 睡蓮。",
+      "stem_pdf_text_layer": "依水生植物的生長方式來區分，下列哪一個水生植\r\n物和其他三種不會分在同一類？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "大萍"
+        },
+        {
+          "label": "○2",
+          "text": "浮萍"
+        },
+        {
+          "label": "○3",
+          "text": "布袋蓮"
+        },
+        {
+          "label": "○4",
+          "text": "睡蓮。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|12",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "full_original_pdf_text_layer": "小琪到靠近山區的傳統客家庄旅遊，他較不可能買\r\n到下列哪一項在地特產？ ○1 桂花釀 ○2 蘿蔔乾\r\n○3 飛魚乾 ○4 小米麻糬。",
+      "stem_pdf_text_layer": "小琪到靠近山區的傳統客家庄旅遊，他較不可能買\r\n到下列哪一項在地特產？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "桂花釀"
+        },
+        {
+          "label": "○2",
+          "text": "蘿蔔乾"
+        },
+        {
+          "label": "○3",
+          "text": "飛魚乾"
+        },
+        {
+          "label": "○4",
+          "text": "小米麻糬。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|13",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "full_original_pdf_text_layer": "下列哪一種水生動物的呼吸構造與其他三者不同？\r\n○1 蝌蚪 ○2 蝦 ○3 螺 ○4 龜。",
+      "stem_pdf_text_layer": "下列哪一種水生動物的呼吸構造與其他三者不同？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "蝌蚪"
+        },
+        {
+          "label": "○2",
+          "text": "蝦"
+        },
+        {
+          "label": "○3",
+          "text": "螺"
+        },
+        {
+          "label": "○4",
+          "text": "龜。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|14",
+      "source_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "full_original_pdf_text_layer": "目前臺灣將地震震度分成幾個等級？\r\n○1 7 個 ○2 8 個 ○3 9 個 ○4 10 個。",
+      "stem_pdf_text_layer": "目前臺灣將地震震度分成幾個等級？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "7 個"
+        },
+        {
+          "label": "○2",
+          "text": "8 個"
+        },
+        {
+          "label": "○3",
+          "text": "9 個"
+        },
+        {
+          "label": "○4",
+          "text": "10 個。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1fRdHgW26615qQv9-7rw_cthbGBXfPl75/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|1",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "肥沃的土壤可以讓農作物生長良好，貧\r\n瘠的沙丘也可能長出植物。",
+      "stem_pdf_text_layer": "肥沃的土壤可以讓農作物生長良好，貧\r\n瘠的沙丘也可能長出植物。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|2",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "下大雨時，雨水把土壤沖進河裡，使河\r\n水變黃濁，過度噴灑的農藥也會隨著雨\r\n水流進河中，造成魚類死亡。",
+      "stem_pdf_text_layer": "下大雨時，雨水把土壤沖進河裡，使河\r\n水變黃濁，過度噴灑的農藥也會隨著雨\r\n水流進河中，造成魚類死亡。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|3",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "進行水域環境調查活動時，為了調查更\r\n多的生物，一定要到水深的地方調查。",
+      "stem_pdf_text_layer": "進行水域環境調查活動時，為了調查更\r\n多的生物，一定要到水深的地方調查。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|4",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "陸域環境的植物需要陽光製造養分，水\r\n域環境的水生植物一樣需要爭取陽光\r\n製造養分，維持生存。",
+      "stem_pdf_text_layer": "陸域環境的植物需要陽光製造養分，水\r\n域環境的水生植物一樣需要爭取陽光\r\n製造養分，維持生存。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|5",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "颱風和豪雨無法移動岩石的位置，只有\r\n強烈地震能移動岩石的位置。",
+      "stem_pdf_text_layer": "颱風和豪雨無法移動岩石的位置，只有\r\n強烈地震能移動岩石的位置。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|6",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "水會往低處流，所以高山上不會有水域\r\n環境。",
+      "stem_pdf_text_layer": "水會往低處流，所以高山上不會有水域\r\n環境。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|7",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "栗喉蜂虎和招潮蟹都生活在洞穴中，所\r\n以適合生長的環境也相同。",
+      "stem_pdf_text_layer": "栗喉蜂虎和招潮蟹都生活在洞穴中，所\r\n以適合生長的環境也相同。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|8",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "生物具有強大的生命力能適應地表的\r\n不同環境。",
+      "stem_pdf_text_layer": "生物具有強大的生命力能適應地表的\r\n不同環境。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|9",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "所有的水生生物都需要生活在水中，只\r\n要離開水就會迅速死亡。",
+      "stem_pdf_text_layer": "所有的水生生物都需要生活在水中，只\r\n要離開水就會迅速死亡。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|10",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "地震發生前，中央氣象署會先發布地震\r\n報告，告知人們即將發生地震。",
+      "stem_pdf_text_layer": "地震發生前，中央氣象署會先發布地震\r\n報告，告知人們即將發生地震。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|11",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "在野外採集的水生生物，觀察後我們可\r\n以將其放到學校的景觀池。",
+      "stem_pdf_text_layer": "在野外採集的水生生物，觀察後我們可\r\n以將其放到學校的景觀池。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|12",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "水生植物為了能夠照射到陽光都會把\r\n葉子挺出水面或是平舖在水面上。",
+      "stem_pdf_text_layer": "水生植物為了能夠照射到陽光都會把\r\n葉子挺出水面或是平舖在水面上。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|1",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "東漢時代科學家張衡發明的「地動儀」，\r\n是測量下列哪一個答案的儀器?○1 地震\r\n規模○2 地震震度○3 預測地震發生時間\r\n○4 地震方位。",
+      "stem_pdf_text_layer": "東漢時代科學家張衡發明的「地動儀」，\r\n是測量下列哪一個答案的儀器?",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "地震\r\n規模"
+        },
+        {
+          "label": "○2",
+          "text": "地震震度"
+        },
+        {
+          "label": "○3",
+          "text": "預測地震發生時間"
+        },
+        {
+          "label": "○4",
+          "text": "地震方位。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|2",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "關於地震規模的敘述，下列哪一個答案\r\n是正確的? ○1 地震規模是人感受到地\r\n面搖動的程度○2 地震規模最大 7 級○3\r\n一次地震只有一個地震規模○4 越靠近\r\n震央地震規模越大。",
+      "stem_pdf_text_layer": "關於地震規模的敘述，下列哪一個答案\r\n是正確的?",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "地震規模是人感受到地\r\n面搖動的程度"
+        },
+        {
+          "label": "○2",
+          "text": "地震規模最大 7 級"
+        },
+        {
+          "label": "○3",
+          "text": "一次地震只有一個地震規模"
+        },
+        {
+          "label": "○4",
+          "text": "越靠近\r\n震央地震規模越大。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|3",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "魚的鼻孔有什麼功能? ○1 呼吸○2 嗅覺 \r\n○3 運動○4 進食。",
+      "stem_pdf_text_layer": "魚的鼻孔有什麼功能?",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "呼吸"
+        },
+        {
+          "label": "○2",
+          "text": "嗅覺"
+        },
+        {
+          "label": "○3",
+          "text": "運動"
+        },
+        {
+          "label": "○4",
+          "text": "進食。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|4",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "下列哪一個是可以保護水域的行為?\r\n○1 參與淨灘活動○2 在河中大量丟入魚\r\n飼料○3 大量挖掘河邊砂石○4 購買水生\r\n動物到河邊放生。",
+      "stem_pdf_text_layer": "下列哪一個是可以保護水域的行為?",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "參與淨灘活動"
+        },
+        {
+          "label": "○2",
+          "text": "在河中大量丟入魚\r\n飼料"
+        },
+        {
+          "label": "○3",
+          "text": "大量挖掘河邊砂石"
+        },
+        {
+          "label": "○4",
+          "text": "購買水生\r\n動物到河邊放生。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|5",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "用水澆土堆，土堆外表不會有什麼變化?\r\n○1 土堆上方凹陷○2 水量越大，凹陷越\r\n明顯○3 水量越大，土堆變越高○4 水量\r\n越大，土壤被沖越遠。",
+      "stem_pdf_text_layer": "用水澆土堆，土堆外表不會有什麼變化?",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "土堆上方凹陷"
+        },
+        {
+          "label": "○2",
+          "text": "水量越大，凹陷越\r\n明顯"
+        },
+        {
+          "label": "○3",
+          "text": "水量越大，土堆變越高"
+        },
+        {
+          "label": "○4",
+          "text": "水量\r\n越大，土壤被沖越遠。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|6",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "下列哪一個水域環境是人為建造？○1\r\n海洋○2 水田○3 潮間帶○4 溪流。",
+      "stem_pdf_text_layer": "下列哪一個水域環境是人為建造？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "海洋"
+        },
+        {
+          "label": "○2",
+          "text": "水田"
+        },
+        {
+          "label": "○3",
+          "text": "潮間帶"
+        },
+        {
+          "label": "○4",
+          "text": "溪流。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|8",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "下列哪一個地震震度的搖晃程度最劇\r\n烈？○1 0 級○2 3 級○3 6 弱○4 5 強。",
+      "stem_pdf_text_layer": "下列哪一個地震震度的搖晃程度最劇\r\n烈？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "0 級"
+        },
+        {
+          "label": "○2",
+          "text": "3 級"
+        },
+        {
+          "label": "○3",
+          "text": "6 弱"
+        },
+        {
+          "label": "○4",
+          "text": "5 強。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|10",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "下列哪一項不是地震可能造成的災害?\r\n○1 引發火災○2 橋梁斷裂○3 樓房倒塌 \r\n○4 森林大火。",
+      "stem_pdf_text_layer": "下列哪一項不是地震可能造成的災害?",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "引發火災"
+        },
+        {
+          "label": "○2",
+          "text": "橋梁斷裂"
+        },
+        {
+          "label": "○3",
+          "text": "樓房倒塌"
+        },
+        {
+          "label": "○4",
+          "text": "森林大火。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|11",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "下列哪一個不是岩石的用途？○1 鋪設\r\n步道○2 造房子○3 製作家具○4 種植農\r\n作物。",
+      "stem_pdf_text_layer": "下列哪一個不是岩石的用途？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "鋪設\r\n步道"
+        },
+        {
+          "label": "○2",
+          "text": "造房子"
+        },
+        {
+          "label": "○3",
+          "text": "製作家具"
+        },
+        {
+          "label": "○4",
+          "text": "種植農\r\n作物。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|15",
+      "source_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "full_original_pdf_text_layer": "把水族箱中的大萍壓入水裡再放手，下\r\n列哪一種情形不會出現？○1 大萍會浮\r\n起來○2 大萍會沉下去○3 小水珠在葉面\r\n形成○4 水不容易附著在葉面。",
+      "stem_pdf_text_layer": "把水族箱中的大萍壓入水裡再放手，下\r\n列哪一種情形不會出現？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "大萍會浮\r\n起來"
+        },
+        {
+          "label": "○2",
+          "text": "大萍會沉下去"
+        },
+        {
+          "label": "○3",
+          "text": "小水珠在葉面\r\n形成"
+        },
+        {
+          "label": "○4",
+          "text": "水不容易附著在葉面。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1whxXfN0b8o8Z0H5HiCWk4IeN3eRnYSFu/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|1",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "比較岩石、沙和土壤的顆粒大小，其中岩\r\n石的顆粒最大，沙的顆粒最小。",
+      "stem_pdf_text_layer": "比較岩石、沙和土壤的顆粒大小，其中岩\r\n石的顆粒最大，沙的顆粒最小。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|2",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "青蛙後腳粗壯，能跳躍；腳上大多有蹼，\r\n能在水中游水，用鰓和潮濕的皮膚呼吸。",
+      "stem_pdf_text_layer": "青蛙後腳粗壯，能跳躍；腳上大多有蹼，\r\n能在水中游水，用鰓和潮濕的皮膚呼吸。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|3",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "震央是引發地震的位置，震央到震源的距\r\n離稱為地震深度。",
+      "stem_pdf_text_layer": "震央是引發地震的位置，震央到震源的距\r\n離稱為地震深度。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|4",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "蟹有八隻腳及一對螯，可以在陸地或水中\r\n爬行，用鰓呼吸。",
+      "stem_pdf_text_layer": "蟹有八隻腳及一對螯，可以在陸地或水中\r\n爬行，用鰓呼吸。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|5",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "水生生物的生活，一般會受到水域中的水\r\n質、水流、空氣和陽光等影響，因此應該\r\n保護水域環境。",
+      "stem_pdf_text_layer": "水生生物的生活，一般會受到水域中的水\r\n質、水流、空氣和陽光等影響，因此應該\r\n保護水域環境。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|6",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "只要是水生生物，都可以適應所有的水域\r\n環境。",
+      "stem_pdf_text_layer": "只要是水生生物，都可以適應所有的水域\r\n環境。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|7",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "魚能生活在水中，是因為靠牠的鼻孔在水\r\n中呼吸空氣才能生存。",
+      "stem_pdf_text_layer": "魚能生活在水中，是因為靠牠的鼻孔在水\r\n中呼吸空氣才能生存。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|8",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "當水族箱的水位下降時，我們發現水蘊草\r\n會露出水面爭取陽光生長。",
+      "stem_pdf_text_layer": "當水族箱的水位下降時，我們發現水蘊草\r\n會露出水面爭取陽光生長。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|9",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "岩石受到風力或雨水的作用，會先碎裂成\r\n小礫石，最後變成土壤。",
+      "stem_pdf_text_layer": "岩石受到風力或雨水的作用，會先碎裂成\r\n小礫石，最後變成土壤。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|10",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "地震發生後，中央氣象署會發布最新的地\r\n震報告。",
+      "stem_pdf_text_layer": "地震發生後，中央氣象署會發布最新的地\r\n震報告。",
+      "options_from_pdf_text_layer": null,
+      "option_marker_count": 0,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|1",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "水域環境可以分為天然形成和人為建\r\n造，下列哪一個水域的形成原因和其他三\r\n種不同？ ○1 溪流 ○2 海洋 ○3 生態池\r\n○4 高山湖泊。",
+      "stem_pdf_text_layer": "水域環境可以分為天然形成和人為建\r\n造，下列哪一個水域的形成原因和其他三\r\n種不同？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "溪流"
+        },
+        {
+          "label": "○2",
+          "text": "海洋"
+        },
+        {
+          "label": "○3",
+          "text": "生態池"
+        },
+        {
+          "label": "○4",
+          "text": "高山湖泊。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|2",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "魚的哪一個構造可以幫助牠保持平衡，控\r\n制游動的方向？ ○1 魚鰓 ○2 魚鱗\r\n○3 魚口 ○4 魚鰭。",
+      "stem_pdf_text_layer": "魚的哪一個構造可以幫助牠保持平衡，控\r\n制游動的方向？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "魚鰓"
+        },
+        {
+          "label": "○2",
+          "text": "魚鱗"
+        },
+        {
+          "label": "○3",
+          "text": "魚口"
+        },
+        {
+          "label": "○4",
+          "text": "魚鰭。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|3",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "小愷到戶外進行水域環境調查，他在紀錄\r\n表上寫著「水流較快，水質清澈，有許多\r\n水生動、植物。」他可能是到下列哪一個\r\n水域環境進行調查？ ○1 水田 ○2 溪流\r\n○3 生態池 ○4 河口溼地。",
+      "stem_pdf_text_layer": "小愷到戶外進行水域環境調查，他在紀錄\r\n表上寫著「水流較快，水質清澈，有許多\r\n水生動、植物。」他可能是到下列哪一個\r\n水域環境進行調查？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "水田"
+        },
+        {
+          "label": "○2",
+          "text": "溪流"
+        },
+        {
+          "label": "○3",
+          "text": "生態池"
+        },
+        {
+          "label": "○4",
+          "text": "河口溼地。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|5",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "栗喉蜂虎喜歡在哪一種環境中生存呢？\r\n○1 土壤裡的地下洞穴 ○2 土丘 ○3 溪流\r\n○4 溼地。",
+      "stem_pdf_text_layer": "栗喉蜂虎喜歡在哪一種環境中生存呢？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "土壤裡的地下洞穴"
+        },
+        {
+          "label": "○2",
+          "text": "土丘"
+        },
+        {
+          "label": "○3",
+          "text": "溪流"
+        },
+        {
+          "label": "○4",
+          "text": "溼地。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|6",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "下列哪一項是漂浮性水生植物和浮葉性\r\n水生植物相同的地方？ ○1 根都沒有生\r\n長在水底的泥土裡 ○2 整株植物會隨水\r\n流漂到其他地方 ○3 水位低時，葉仍會浮\r\n在水面上 ○4 莖都生長在水底的泥土裡。",
+      "stem_pdf_text_layer": "下列哪一項是漂浮性水生植物和浮葉性\r\n水生植物相同的地方？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "根都沒有生\r\n長在水底的泥土裡"
+        },
+        {
+          "label": "○2",
+          "text": "整株植物會隨水\r\n流漂到其他地方"
+        },
+        {
+          "label": "○3",
+          "text": "水位低時，葉仍會浮\r\n在水面上"
+        },
+        {
+          "label": "○4",
+          "text": "莖都生長在水底的泥土裡。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|8",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "full_original_pdf_text_layer": "平常我們吃的蓮藕是荷花的哪一個部位\r\n呢？ ○1 葉 ○2 果實 ○3 地下莖\r\n○4 地下根。",
+      "stem_pdf_text_layer": "平常我們吃的蓮藕是荷花的哪一個部位\r\n呢？",
+      "options_from_pdf_text_layer": [
+        {
+          "label": "○1",
+          "text": "葉"
+        },
+        {
+          "label": "○2",
+          "text": "果實"
+        },
+        {
+          "label": "○3",
+          "text": "地下莖"
+        },
+        {
+          "label": "○4",
+          "text": "地下根。"
+        }
+      ],
+      "option_marker_count": 4,
+      "figure_or_diagram_dependency": false,
+      "source_pdf_file_name": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_pdf_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_status": "ORIGINAL_PDF_TEXT_LAYER_REEXTRACTED_NOT_PDF_VISUAL_GLYPH_VALIDATED",
+      "science_kp_gate": "UNVERIFIED_FORMAL",
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "metrics": {
+    "source_positions": 50,
+    "full_original_question_text_layer": 50,
+    "tf_positions": 22,
+    "mc_positions": 28,
+    "mc_ordered_4_options_readback": 28,
+    "mc_option_incomplete": 0,
+    "figure_dependent_source_items": 0,
+    "new_formal_science_kp": 0,
+    "new_admission_ready": 0,
+    "new_published": 0
+  },
+  "governance": "Inherits same Source/BBox/Science/KP/Dedup/Rights/Operator Gate; no new compulsory review step and no auto-publication"
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": "P12_G04S1_113_NEXT15_114_PUBLISHED294_CROSSYEAR_STEM_V1",
+  "basis": "Seven public p12-b04-b01..b07-*.json shards of 114 school original bank, total 294 blocks; preliminary text comparison to NEXT15; not complete all25 717 original TFMC.",
+  "comparison_method": "NFKC normalize exact stem, ignore punctuation and whitespace. Source-specific full choice values must be compared where stem collides.",
+  "summary": {
+    "current_113_15_candidates": 15,
+    "published114_files": 7,
+    "published114_answer_blocks": 294,
+    "matching_normalized_stems": 1,
+    "identical_full_stem_and_options_verified": 0,
+    "formal_crossyear_dedup_pass": 0,
+    "ready": 0,
+    "published": 0
+  },
+  "exception": {
+    "candidate_source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|012",
+    "published_source_slot_id": "SCI_G04_S1_114_FINAL_003|S02|MC|007",
+    "stem": "下列日常生活現象中，哪一項不是光的直線行進形成的？",
+    "candidate_options": [
+      "車燈射出的燈光",
+      "玩手影遊戲",
+      "燈塔指引船隻的探照燈",
+      "道路上的反光桿"
+    ],
+    "published114_options": [
+      "跨年晚會上的雷射光",
+      "玩手影遊戲",
+      "彩虹的形成",
+      "立竿見影"
+    ],
+    "route": "DIFFERENT_CHOICES_PRELIMINARY_NOT_OPTION_REORDER; preserve both source identities; semantic duplicate classification requires final admissibility review"
+  },
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_002|S02|MC|003",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|002",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|003",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|004",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|006",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|009",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|012",
+      "has_exact_normalized_stem_in_114_published294": true,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|014",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|015",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|002",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|008",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|009",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|010",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|011",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_002|S04|MC|014",
+      "has_exact_normalized_stem_in_114_published294": false,
+      "full_option_duplicate_formally_cleared": false,
+      "archive_114_all25_717_not_checked": true,
+      "admission_ready": false
+    }
+  ]
+}

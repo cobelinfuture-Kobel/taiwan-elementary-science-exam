@@ -1,0 +1,215 @@
+{
+  "schema_version": "P12_113_G04S1_B07_50_EXISTING_GATE_PARENT_RIGHTS_DEDUP_CHECKPOINT_V1",
+  "branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "scope": "B07 OTHER_OR_DEPENDENT 50 original school answer positions ONLY; independent B07 TFMC1 retained separately as original parent reading HOLD",
+  "main_unchanged_sha": "3e721d14713102e0f9e878889b9cbed99cdd7cb8",
+  "approved_frozen_kp_authority": "113 G04S1 Kanghsuan 48 KP; not 114 45 KP",
+  "original_pdf_binary_sha_and_visual": "Three official 113 original 3-page PDFs downloaded via authorized connected Drive, binary SHA256 and visual evidence verified",
+  "evidence_source": "data/review/p12-g04s1-113-b07-dependent50-originalpdf-ninepages-nativebbox-science-kp-hold-v1.json",
+  "existing_duplicate_lexical_preflight_script": "scripts/review/p12-g04s1-113-b07-original-stem-dedup-preflight.cjs",
+  "lexical_preflight_ci": {
+    "run": 39899598486,
+    "head_sha": "baaba87432e3c63edbb6dd1bbcb2d45f5d3f0fcd",
+    "status": "PASS",
+    "original114_question_occurrences": 717,
+    "public_g04s1_module_rows": 742,
+    "source_excerpt_queries": 30,
+    "exact_or_near_hits_at_threshold_0_78": 0,
+    "full_semantic_duplicate_acceptance": false
+  },
+  "original_113_main_published_source_suppression": {
+    "published_source_IDs": 309,
+    "matching_B07_50_actual_original_source_ids": 0
+  },
+  "group_diagnostics": [
+    {
+      "paper": "MID_013",
+      "school": "獅湖國小",
+      "source_ordinals": [
+        301,
+        301
+      ],
+      "count": 1,
+      "parent": "S06 water plants illustrated code bank",
+      "source_status": "PHOTO_OR_DIAGRAM_REQUIRED",
+      "rights": "HOLD_ORIGINAL_PARENT_FIGURE_RIGHTS",
+      "next": "Confirm original coded legend and permitted original vector reconstruction before full source/rights acceptance"
+    },
+    {
+      "paper": "MID_013",
+      "school": "獅湖國小",
+      "source_ordinals": [
+        302,
+        304
+      ],
+      "count": 3,
+      "parent": "S07 G01 2024 Hualien earthquake reading",
+      "source_status": "PARENT_READING_TEXT_AND_OPTS_VISUALLY_LOCATED",
+      "rights": "HOLD_UNVERIFIED_PARENT_READING_ORIGIN",
+      "next": "Validate parent originality/article provenance; Q303-304 lack direct frozen48KP"
+    },
+    {
+      "paper": "MID_013",
+      "school": "獅湖國小",
+      "source_ordinals": [
+        305,
+        307
+      ],
+      "count": 3,
+      "parent": "S07 G02 floating-plant reading and figure",
+      "source_status": "PARENT_READING_AND_PLANT_CROSS_SECTION",
+      "rights": "HOLD_PARENT_IMAGE_ORIGIN",
+      "next": "Check figure provenance and text-to-source semantic dependency; allow text-only only if original conditions unchanged"
+    },
+    {
+      "paper": "MID_014",
+      "school": "路上國小",
+      "source_ordinals": [
+        308,
+        313
+      ],
+      "count": 6,
+      "parent": "S03 G01 fish diagram and shared A/B/C legend",
+      "source_status": "THREE_DIAGRAM_LABELS_PLUS_THREE_FUNCTION_ITEMS",
+      "rights": "HOLD_SOURCE_FISH_ILLUSTRATION",
+      "next": "Resolve original fish drawing use rights or pedagogically equivalent noncopied schematic subject to existing exact text/parent rules"
+    },
+    {
+      "paper": "MID_014",
+      "school": "路上國小",
+      "source_ordinals": [
+        314,
+        319
+      ],
+      "count": 6,
+      "parent": "S03 G02 disaster pictures and O/X instructions",
+      "source_status": "SIX_PICTURE_LABELS_WITH_PRINTED_TRUE_FALSE",
+      "rights": "HOLD_PICTURES_OR_DEPENDENCY",
+      "next": "Verify school textual labels suffice without excluded images and preserve actual source-question instruction"
+    },
+    {
+      "paper": "MID_014",
+      "school": "路上國小",
+      "source_ordinals": [
+        320,
+        323
+      ],
+      "count": 4,
+      "parent": "S03 G03 earthquake glossary shared A/B/C/D",
+      "source_status": "FOUR_ORIGINAL_FILL_ANSWER_BBOX_KNOWN",
+      "rights": "EXAM_TEXT_ONLY_POSSIBLY_ELIGIBLE_PENDING_PARENT",
+      "next": "Review direct Frozen48KP specificity and qualifier of original Richter-scale wording; no force mapping"
+    },
+    {
+      "paper": "MID_014",
+      "school": "路上國小",
+      "source_ordinals": [
+        324,
+        327
+      ],
+      "count": 4,
+      "parent": "S03 G04 animal breathing explanatory parent",
+      "source_status": "FOUR_MC_MARKERS_AND_ALL_CHOICES_LOCATED",
+      "rights": "SCHOOL_EXAM_PARENT_TEXT_ORIGIN_TO_CONFIRM",
+      "next": "Confirm text ownership, crossyear exact choices/parent, then exact operator review of surviving cohort"
+    },
+    {
+      "paper": "MID_014",
+      "school": "路上國小",
+      "source_ordinals": [
+        328,
+        330
+      ],
+      "count": 3,
+      "parent": "S03 G05 landscape protections matching",
+      "source_status": "THREE_SOURCE_LABEL_ANCHORS_NOT_COMPLETED_RESPONSE_LINE",
+      "rights": "HOLD_ORIGINAL_SCENE_FIGURES",
+      "next": "Proof required for answer path target geometry, source images and public matching renderer"
+    },
+    {
+      "paper": "MID_014",
+      "school": "路上國小",
+      "source_ordinals": [
+        331,
+        334
+      ],
+      "count": 4,
+      "parent": "S03 G06 original Central Weather Administration earthquake map/report",
+      "source_status": "FOUR_MC_BBOX_AND_ORIGINAL_VISUAL_SEEN",
+      "rights": "HOLD_EXTERNAL_CWA_REPORT_GRAPHIC_REPRODUCTION",
+      "next": "Resolve use of third-party report and source-context fidelity; science Q331 still qualified"
+    },
+    {
+      "paper": "MID_014",
+      "school": "路上國小",
+      "source_ordinals": [
+        335,
+        337
+      ],
+      "count": 3,
+      "parent": "S03 G07 tidal-zone explanatory reading",
+      "source_status": "THREE_MC_BBOX_WITH_READING_STORY",
+      "rights": "HOLD_PARENT_READING_ORIGIN",
+      "next": "Review provenance, exact stem/options, science and direct U02KP"
+    },
+    {
+      "paper": "MID_015",
+      "school": "廣興國小",
+      "source_ordinals": [
+        338,
+        347
+      ],
+      "count": 10,
+      "parent": "S03 plant growth category table 4 category name blanks and 6 plant code blanks",
+      "source_status": "TEN_ORIGINAL_PDF_TEXT_GLYPH_BBOX_KNOWN",
+      "rights": "EXAM_TEXT_ONLY_POSSIBLY_ELIGIBLE_PENDING_PARENT",
+      "next": "Atomic table order/rules or set-valued answer renderer required: separate cells do not have unique answers under row permutation"
+    },
+    {
+      "paper": "MID_015",
+      "school": "廣興國小",
+      "source_ordinals": [
+        348,
+        350
+      ],
+      "count": 3,
+      "parent": "S05 short-answer essay/drawing with exact original vector frames",
+      "source_status": "THREE_VECTOR_FRAMES_S05_NOT_LEGACY_S4",
+      "rights": "SCHOOL_EXAM_TEXT_ONLY_ORIGINAL_IMAGES_NOT_COPIED",
+      "next": "Open ended 3 organisms / >=5 kit items / any water protection measure: no single fixed answer; source legacy section mismatch retained"
+    }
+  ],
+  "counts": {
+    "groups": 12,
+    "source_positions": 50,
+    "physical_source_geometry_reconciled": 50,
+    "independent_answer_brackets_or_vector_frames": 47,
+    "matching_anchors_without_complete_answer_paths": 3,
+    "legacy_section_id_mismatches": 3,
+    "science_preliminary_candidates_not_formal": 35,
+    "kp48_preliminary_ids_not_formal": 29,
+    "FORMAL_SCIENCE_KP_APPROVED_NEW": 0,
+    "ADMISSION_READY_NEW": 0,
+    "PUBLISHED_NEW": 0,
+    "site_answer_slots_unchanged": 945
+  },
+  "gate_disposition": {
+    "SOURCE_EXACT": "PER_CHILD_PARENT_DEPENDENCY_PENDING",
+    "PDF_PAGE_BBOX": "50_SOURCE_GEOMETRIES_MATCHED_BUT_THREE_MATCH_ANCHORS_NOT_FULL_RESPONSE",
+    "SCIENCE_UNIQUE_ANSWER": "35_MODEL_CANDIDATES_ONLY;OPEN_ENDED_AND_PARENT_UNIQUE_HOLD",
+    "CANONICAL_KP": "29_PROVISIONAL_DIRECT_IDS_REQUIRE_APPLICABLE_FORMAL_ACCEPTANCE",
+    "DUPLICATE": "CURRENT_113_SOURCE_ID_SUPPRESSION_0_COLLISIONS;TEXT114_717_PUBLIC742_30EXCERPTS_ZERO_HIGH_NEAR;FULL_SEMANTIC_PENDING",
+    "RIGHTS": "PARENT_IMAGES_EXTERNAL_ARTICLES_REPORT_COPYRIGHT_HOLD",
+    "ADMISSION_GATE": "NO_EXACT_ELIGIBLE_COHORT_APPROVED",
+    "PUBLISHED": "NO_NEW_STUDENT_RELEASE"
+  },
+  "no_mutations": [
+    "B01_B06",
+    "FROZEN48_AUTHORITY",
+    "ORIGINAL_PDF",
+    "MAIN",
+    "PAGES_SITE_BANK",
+    "ORIGINAL_SOURCE_SLOT_IDENTITIES"
+  ],
+  "next_task": "P12_G04S1_113_B07_50_ResolveTextOnlyParentG02G04_ExactSchoolOriginalSourceAndOptions_ThenScienceKP48_Duplicate113114_Rights_ExactOperatorEligibleCohort_NoB01ToB06Reopen"
+}

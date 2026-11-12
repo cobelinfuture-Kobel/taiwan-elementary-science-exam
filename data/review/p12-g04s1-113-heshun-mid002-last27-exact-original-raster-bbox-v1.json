@@ -1,0 +1,946 @@
+{
+  "schema_version": "P12_G04S1_113_HESHUN_MID002_LAST27_ORIGINAL_SOURCE_RASTER_GEOMETRY_V1",
+  "draft_source_pr": 124,
+  "scope": "113 G04S1 frozen 48KP source-only exact scan geometry",
+  "original_school": "臺南市和順國小",
+  "original_source_id": "SCI_G04_S1_113_MID_002",
+  "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+  "original_pdf_pages": 3,
+  "prior_existing_source_pixel_bbox_count": 23,
+  "additional_exact_source_pixel_bbox_count": 27,
+  "current_exact_source_pixel_bbox_count": 50,
+  "source_original_image_republished": false,
+  "method": "Full original scanned PDF SHA256 verified. First-page 15 blank answer cells are original image ruled table cell line extents (the animal breathing first cell already contains printed answer, excluded); 7 Moon image-dependent original parentheses and second-page 5 reading original parentheses are physically segmented grayscale ink connected-components. Every region visually inspected against source printed question and source response boundary. Pixel extents mapped by actual source image 4960×3507 to 1190×841 PDF page. No OCR, no interpolated answer marks; source-only, no student admission.",
+  "frozen_scope_note": "Original moon-phase positions and reading article/third-party diagrams cannot be auto-promoted without exact 113 G04S1 KP, rights, dependencies and unique scientific answer; no score is an admission criterion.",
+  "summary": {
+    "new_original_source_raster_answer_geometries": 27,
+    "animal_table_cell_regions": 7,
+    "water_plant_table_cell_regions": 8,
+    "moon_printed_parentheses": 7,
+    "reading_printed_parentheses": 5,
+    "source_exact_raster_bbox_total_of_50": 50,
+    "formal_science_kp_approved_new": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "records": [
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|ANIMAL_TABLE|MOVEMENT|01",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        601,
+        1323,
+        1038,
+        1429
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        144.19,
+        317.26,
+        249.04,
+        342.68
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "ANIMAL_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|ANIMAL_TABLE|MOVEMENT|02",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        1038,
+        1323,
+        1470,
+        1429
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        249.04,
+        317.26,
+        352.68,
+        342.68
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "ANIMAL_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|ANIMAL_TABLE|MOVEMENT|03",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        1470,
+        1323,
+        1904,
+        1429
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        352.68,
+        317.26,
+        456.81,
+        342.68
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "ANIMAL_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|ANIMAL_TABLE|MOVEMENT|04",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        1904,
+        1323,
+        2338,
+        1429
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        456.81,
+        317.26,
+        560.93,
+        342.68
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "ANIMAL_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|ANIMAL_TABLE|RESPIRATION|02",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        1038,
+        1429,
+        1470,
+        1535
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        249.04,
+        342.68,
+        352.68,
+        368.1
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "ANIMAL_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|ANIMAL_TABLE|RESPIRATION|03",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        1470,
+        1429,
+        1904,
+        1535
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        352.68,
+        342.68,
+        456.81,
+        368.1
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "ANIMAL_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|ANIMAL_TABLE|RESPIRATION|04",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        1904,
+        1429,
+        2338,
+        1535
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        456.81,
+        342.68,
+        560.93,
+        368.1
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "ANIMAL_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|WATER_PLANT_TABLE|PLANT_TYPE|01",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        566,
+        2737,
+        1010,
+        2842
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        135.79,
+        656.35,
+        242.32,
+        681.53
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "WATER_PLANT_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|WATER_PLANT_TABLE|PLANT_TYPE|02",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        1010,
+        2737,
+        1450,
+        2842
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        242.32,
+        656.35,
+        347.88,
+        681.53
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "WATER_PLANT_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|WATER_PLANT_TABLE|PLANT_TYPE|03",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        1450,
+        2737,
+        1892,
+        2842
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        347.88,
+        656.35,
+        453.93,
+        681.53
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "WATER_PLANT_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|WATER_PLANT_TABLE|PLANT_TYPE|04",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        1892,
+        2737,
+        2334,
+        2842
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        453.93,
+        656.35,
+        559.97,
+        681.53
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "WATER_PLANT_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|WATER_PLANT_TABLE|GROWTH_TYPE|01",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        566,
+        2842,
+        1010,
+        2948
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        135.79,
+        681.53,
+        242.32,
+        706.95
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "WATER_PLANT_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|WATER_PLANT_TABLE|GROWTH_TYPE|02",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        1010,
+        2842,
+        1450,
+        2948
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        242.32,
+        681.53,
+        347.88,
+        706.95
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "WATER_PLANT_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|WATER_PLANT_TABLE|GROWTH_TYPE|03",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        1450,
+        2842,
+        1892,
+        2948
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        347.88,
+        681.53,
+        453.93,
+        706.95
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "WATER_PLANT_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|WATER_PLANT_TABLE|GROWTH_TYPE|04",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        1892,
+        2842,
+        2334,
+        2948
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        453.93,
+        681.53,
+        559.97,
+        706.95
+      ],
+      "original_response_geometry_type": "SCANNED_TABLE_RULED_CELL",
+      "original_parent_context": "WATER_PLANT_TABLE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|MOON|001",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        3046,
+        1515,
+        3221,
+        1569
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        730.79,
+        363.31,
+        772.78,
+        376.26
+      ],
+      "original_response_geometry_type": "SCANNED_ORIGINAL_PRINTED_PARENTHESIS_COMPONENT_UNION",
+      "original_parent_context": "SOURCE_MOON_IMAGES",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|MOON|002",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        3336,
+        1517,
+        3510,
+        1570
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        800.37,
+        363.79,
+        842.12,
+        376.5
+      ],
+      "original_response_geometry_type": "SCANNED_ORIGINAL_PRINTED_PARENTHESIS_COMPONENT_UNION",
+      "original_parent_context": "SOURCE_MOON_IMAGES",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|MOON|003",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        3626,
+        1518,
+        3801,
+        1572
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        869.95,
+        364.03,
+        911.93,
+        376.98
+      ],
+      "original_response_geometry_type": "SCANNED_ORIGINAL_PRINTED_PARENTHESIS_COMPONENT_UNION",
+      "original_parent_context": "SOURCE_MOON_IMAGES",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|MOON|004",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        3877,
+        1624,
+        4051,
+        1678
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        930.17,
+        389.45,
+        971.91,
+        402.39
+      ],
+      "original_response_geometry_type": "SCANNED_ORIGINAL_PRINTED_PARENTHESIS_COMPONENT_UNION",
+      "original_parent_context": "SOURCE_MOON_IMAGES",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|MOON|005",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        3527,
+        1726,
+        3701,
+        1780
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        846.2,
+        413.91,
+        887.94,
+        426.85
+      ],
+      "original_response_geometry_type": "SCANNED_ORIGINAL_PRINTED_PARENTHESIS_COMPONENT_UNION",
+      "original_parent_context": "SOURCE_MOON_IMAGES",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|MOON|006",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        4393,
+        1836,
+        4568,
+        1889
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        1053.97,
+        440.28,
+        1095.95,
+        452.99
+      ],
+      "original_response_geometry_type": "SCANNED_ORIGINAL_PRINTED_PARENTHESIS_COMPONENT_UNION",
+      "original_parent_context": "SOURCE_MOON_IMAGES",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S01|MOON|007",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 1,
+      "original_scan_image_xref": 8,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        4064,
+        1937,
+        4236,
+        1991
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        975.03,
+        464.5,
+        1016.3,
+        477.45
+      ],
+      "original_response_geometry_type": "SCANNED_ORIGINAL_PRINTED_PARENTHESIS_COMPONENT_UNION",
+      "original_parent_context": "SOURCE_MOON_IMAGES",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S04|READING|001",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 2,
+      "original_scan_image_xref": 14,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        313,
+        3043,
+        477,
+        3095
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        75.09,
+        729.73,
+        114.44,
+        742.2
+      ],
+      "original_response_geometry_type": "SCANNED_ORIGINAL_PRINTED_PARENTHESIS_COMPONENT_UNION",
+      "original_parent_context": "TAIWAN_FIDDLER_CRAB_PARENT_PASSAGE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S04|READING|002",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 2,
+      "original_scan_image_xref": 14,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        2720,
+        200,
+        2883,
+        252
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        652.58,
+        47.96,
+        691.69,
+        60.43
+      ],
+      "original_response_geometry_type": "SCANNED_ORIGINAL_PRINTED_PARENTHESIS_COMPONENT_UNION",
+      "original_parent_context": "TAIWAN_FIDDLER_CRAB_PARENT_PASSAGE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S04|READING|003",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 2,
+      "original_scan_image_xref": 14,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        2719,
+        408,
+        2887,
+        461
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        652.34,
+        97.84,
+        692.65,
+        110.55
+      ],
+      "original_response_geometry_type": "SCANNED_ORIGINAL_PRINTED_PARENTHESIS_COMPONENT_UNION",
+      "original_parent_context": "TAIWAN_FIDDLER_CRAB_PARENT_PASSAGE",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S04|READING|004",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 2,
+      "original_scan_image_xref": 14,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        2712,
+        2073,
+        2874,
+        2126
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        650.66,
+        497.12,
+        689.53,
+        509.83
+      ],
+      "original_response_geometry_type": "SCANNED_ORIGINAL_PRINTED_PARENTHESIS_COMPONENT_UNION",
+      "original_parent_context": "LIGHT_SHADOW_ARTICLE_PLUS_DIAGRAM",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id_provisional": "SCI_G04_S1_113_MID_002|S04|READING|005",
+      "original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "source_page_pdf_1_based": 2,
+      "original_scan_image_xref": 14,
+      "original_image_raster_pixels": [
+        4960,
+        3507
+      ],
+      "original_pdf_page_size_pts": [
+        1190,
+        841
+      ],
+      "original_raw_raster_bbox_px": [
+        2706,
+        2959,
+        2870,
+        3012
+      ],
+      "mapped_pdf_bbox_top_left_pts": [
+        649.22,
+        709.59,
+        688.57,
+        722.3
+      ],
+      "original_response_geometry_type": "SCANNED_ORIGINAL_PRINTED_PARENTHESIS_COMPONENT_UNION",
+      "original_parent_context": "LIGHT_SHADOW_ARTICLE_PLUS_DIAGRAM",
+      "source_raster_geometry_verified": true,
+      "source_requires_parent_visual_material": true,
+      "operator_full_science_KP_admission_not_certified": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ]
+}

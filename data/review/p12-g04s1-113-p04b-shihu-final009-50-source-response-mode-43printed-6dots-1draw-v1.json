@@ -1,0 +1,721 @@
+{
+  "schema_version": "P12_G04S1_113_P04B_SHIHU_FINAL009_ORIGINAL50_SOURCE_RESPONSE_MODE_V1",
+  "paper_id": "SCI_G04_S1_113_FINAL_009",
+  "original_PDF_SHA256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+  "local_original_scan_PDF_SHA256_verified": true,
+  "original_scan_pages": 3,
+  "original_S01_MC15_ink_parenthesis_BBoxes": 15,
+  "original_S02_S03_33_source_ink_marker_or_start_dots": 33,
+  "original_S02_PARENT01_6_link_source_dots_NOT_independent_answer_bbox": 6,
+  "original_S02_S03_27_other_printed_answer_ink_BBoxes": 27,
+  "original_S02_PARENT07_two_battery_wind_strength_one_original_ink_answer_parenthesis_bbox": 1,
+  "original_S02_PARENT07_two_battery_one_freehand_circuit_draw_target_no_separate_printed_answer_bbox": 1,
+  "original_50_work_target_source_mode_identifications_reconciled": 50,
+  "printed_independent_original_scan_answer_marker_boxes_43": 43,
+  "SOURCE_ONLY_six_matching_line_START_DOTS_with_original_parent_labels": 6,
+  "SOURCE_ONLY_one_circuit_drawing_shared_fig_parent_region": 1,
+  "single_battery_prior_example_not_new_independent_student_answer": true,
+  "existing_48_source_markers_prior_to_wind_unchanged": 48,
+  "copied_original_school_figure_images_into_site": false,
+  "formal_full_SOURCE_EXACT_figure_rights_science_answer_direct_KP48_duplicate_ADMISSION_pending": true,
+  "student_answer_scoring_not_equal_to_printed_points": true,
+  "existing_113_published_source_IDs_untouched": true,
+  "NEW_FORMAL_SCIENCE_KP_APPROVED": 0,
+  "NEW_ADMISSION_READY": 0,
+  "NEW_PUBLISHED": 0,
+  "original_provenance": {
+    "mc15": "data/review/p12-g04s1-113-shihu-final009-p1-15mc-original-rotated-raster-bbox-v1.json",
+    "ink33": "data/review/p12-g04s1-113-shihu-final009-33-exact-original-raster-marker-geometry-v1.json",
+    "wind": "data/review/p12-g04s1-113-p04b-shihu-final009-parent07-two-batteries-wind-original-raster-bbox-v1.json",
+    "parent": "data/review/p12-g04s1-113-scan5-remaining6-actual-original-parent-figure-rois-v18.json"
+  },
+  "source_50_rows": [
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|001",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        65.76,
+        93.84,
+        101.28,
+        104.88
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|002",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        66.48,
+        181.2,
+        101.76,
+        192.24
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|003",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        65.04,
+        268.56,
+        100.8,
+        279.6
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|004",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        64.56,
+        337.92,
+        100.08,
+        348.96
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|005",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        65.52,
+        425.04,
+        100.8,
+        436.08
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|006",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        65.04,
+        494.16,
+        100.32,
+        505.68
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|007",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        64.08,
+        598.56,
+        99.6,
+        609.6
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|008",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        63.84,
+        686.16,
+        99.6,
+        697.44
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|009",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        63.84,
+        773.04,
+        99.36,
+        784.08
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|010",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        58.32,
+        825.12,
+        93.84,
+        836.4
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|011",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        381.36,
+        97.44,
+        416.4,
+        108.24
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|012",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        381.36,
+        149.28,
+        416.4,
+        160.32
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|013",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        380.88,
+        218.88,
+        415.92,
+        230.4
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|014",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        380.4,
+        341.28,
+        415.68,
+        352.32
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S01|MC|015",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        380.4,
+        410.64,
+        415.44,
+        422.4
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_MC_PARENS",
+      "independent_answer_bbox_exists": true,
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|MATCH_CATEGORY|001",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        434.64,
+        713.28,
+        442.8,
+        721.44
+      ],
+      "original_response_mode": "MATCHING_TWO_PARENTS_SOURCE_DOT_NO_INDEPENDENT_COMPLETED_ANSWER",
+      "independent_answer_bbox_exists": false,
+      "figure_parent": "S02_PARENT01_APPLICATION_AND_FUNCTION",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|MATCH_FUNCTION|001",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        434.4,
+        788.4,
+        442.56,
+        796.32
+      ],
+      "original_response_mode": "MATCHING_TWO_PARENTS_SOURCE_DOT_NO_INDEPENDENT_COMPLETED_ANSWER",
+      "independent_answer_bbox_exists": false,
+      "figure_parent": "S02_PARENT01_APPLICATION_AND_FUNCTION",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|MATCH_CATEGORY|002",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        521.76,
+        714,
+        530.16,
+        721.92
+      ],
+      "original_response_mode": "MATCHING_TWO_PARENTS_SOURCE_DOT_NO_INDEPENDENT_COMPLETED_ANSWER",
+      "independent_answer_bbox_exists": false,
+      "figure_parent": "S02_PARENT01_APPLICATION_AND_FUNCTION",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|MATCH_FUNCTION|002",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        521.52,
+        788.88,
+        529.92,
+        796.8
+      ],
+      "original_response_mode": "MATCHING_TWO_PARENTS_SOURCE_DOT_NO_INDEPENDENT_COMPLETED_ANSWER",
+      "independent_answer_bbox_exists": false,
+      "figure_parent": "S02_PARENT01_APPLICATION_AND_FUNCTION",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|MATCH_CATEGORY|003",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        609.36,
+        714.24,
+        617.52,
+        722.4
+      ],
+      "original_response_mode": "MATCHING_TWO_PARENTS_SOURCE_DOT_NO_INDEPENDENT_COMPLETED_ANSWER",
+      "independent_answer_bbox_exists": false,
+      "figure_parent": "S02_PARENT01_APPLICATION_AND_FUNCTION",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|MATCH_FUNCTION|003",
+      "page": 1,
+      "original_source_bbox_pts_top_left": [
+        609.12,
+        789.36,
+        617.28,
+        797.28
+      ],
+      "original_response_mode": "MATCHING_TWO_PARENTS_SOURCE_DOT_NO_INDEPENDENT_COMPLETED_ANSWER",
+      "independent_answer_bbox_exists": false,
+      "figure_parent": "S02_PARENT01_APPLICATION_AND_FUNCTION",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|FLASHLIGHT|001",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        94.8,
+        257.28,
+        156,
+        270
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT02_TORCH_FIGURE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|FLASHLIGHT|002",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        94.56,
+        291.84,
+        196.56,
+        304.56
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT02_TORCH_FIGURE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|CIRCUIT|001",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        226.32,
+        594,
+        281.76,
+        606.24
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT03_FOUR_CIRCUIT_FIGURES",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|CIRCUIT|002",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        226.32,
+        610.8,
+        284.4,
+        623.52
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT03_FOUR_CIRCUIT_FIGURES",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|CIRCUIT|003",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        226.32,
+        628.32,
+        284.4,
+        640.8
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT03_FOUR_CIRCUIT_FIGURES",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|CIRCUIT|004",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        226.56,
+        645.84,
+        284.4,
+        658.32
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT03_FOUR_CIRCUIT_FIGURES",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|CIRCUIT|005",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        306,
+        664.32,
+        361.2,
+        676.56
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT03_FOUR_CIRCUIT_FIGURES",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|CIRCUIT|006",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        306,
+        681.84,
+        361.2,
+        694.08
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT03_FOUR_CIRCUIT_FIGURES",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|001",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        67.92,
+        764.88,
+        108.72,
+        777.6
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|002",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        68.16,
+        782.4,
+        108.72,
+        795.12
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|003",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        68.16,
+        799.92,
+        108.72,
+        812.4
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|004",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        68.16,
+        817.44,
+        108.72,
+        829.92
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|005",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        67.92,
+        834.72,
+        108.72,
+        847.2
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|006",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        67.92,
+        852,
+        108.72,
+        864.48
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|007",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        67.68,
+        869.28,
+        108.48,
+        881.76
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|REFLECTION_TF|008",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        67.44,
+        886.56,
+        108.24,
+        899.04
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT04_REFLECTION_TRUE_FALSE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|LED|001",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        388.32,
+        113.04,
+        431.28,
+        125.28
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT05_LED_FIGURE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|LED|002",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        388.32,
+        165.12,
+        428.88,
+        177.36
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT05_LED_FIGURE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|LED|003",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        381.84,
+        326.64,
+        428.88,
+        339.36
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT05_LED_FIGURE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|SHADOW_TF|001",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        400.08,
+        806.4,
+        434.88,
+        818.88
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT06_SHADOW_PLAY_PASSAGE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|SHADOW_TF|002",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        400.08,
+        823.92,
+        434.88,
+        836.4
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT06_SHADOW_PLAY_PASSAGE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|SHADOW_TF|003",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        399.84,
+        841.44,
+        434.88,
+        853.68
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT06_SHADOW_PLAY_PASSAGE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|SHADOW_TF|004",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        395.52,
+        908.88,
+        430.56,
+        921.12
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT06_SHADOW_PLAY_PASSAGE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|SHADOW_TF|005",
+      "page": 2,
+      "original_source_bbox_pts_top_left": [
+        395.52,
+        926.16,
+        430.56,
+        938.16
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT06_SHADOW_PLAY_PASSAGE",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S03|READING_MC|001",
+      "page": 3,
+      "original_source_bbox_pts_top_left": [
+        386.64,
+        492.48,
+        426.96,
+        505.2
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S03_PARENT01_AI_COFFEE_READING",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S03|READING_MC|002",
+      "page": 3,
+      "original_source_bbox_pts_top_left": [
+        386.16,
+        562.32,
+        426.48,
+        574.8
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S03_PARENT01_AI_COFFEE_READING",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S03|READING_MC|003",
+      "page": 3,
+      "original_source_bbox_pts_top_left": [
+        385.92,
+        631.68,
+        426.24,
+        644.4
+      ],
+      "original_response_mode": "INDEPENDENT_PRINTED_ANSWER_PARENTHESIS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S03_PARENT01_AI_COFFEE_READING",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|PARENT07|TWO_BATTERIES|WIND_STRENGTH",
+      "page": 3,
+      "original_source_bbox_pts_top_left": [
+        239.52,
+        686.64,
+        324.48,
+        714.48
+      ],
+      "original_response_mode": "TWO_BATTERY_WIND_STRENGTH_PRINTED_PARENS",
+      "independent_answer_bbox_exists": true,
+      "figure_parent": "S02_PARENT07_TWO_BATTERIES",
+      "source_figure_rights_science_KP_gate_pending": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009|S02|PARENT07|TWO_BATTERIES|SOURCE_DRAWING",
+      "page": 3,
+      "original_source_bbox_pts_top_left": [
+        56.88,
+        419.04,
+        347.76,
+        750
+      ],
+      "original_response_mode": "DRAW_CIRCUIT_DIRECTLY_IN_ORIGINAL_TWO_BATTERY_PARENT_TABLE",
+      "independent_answer_bbox_exists": false,
+      "figure_parent": "SCI_G04_S1_113_FINAL_009|S02|PARENT07|TWO_BATTERIES",
+      "source_figure_rights_science_KP_gate_pending": true
+    }
+  ],
+  "warning": "Original 50 is source WORK response format accounting, NOT fifty independently admitted questions. Six line-source dots require matching target edges and score as grouped line drawing; original circuit drawing shares figure/parent, its envelope is NOT an independent printed answer glyph BBox. Wind is one original actual ink answer parenthesis pair; one-battery row is printed sample not separately added.",
+  "next_task": "Original 3 school native-text PDFs remaining: Minquan FINAL004, Yongan FINAL005, Taozijiao FINAL008; all question fulltext Science/direct48KP rights/semantic duplicate/operator admission still required."
+}

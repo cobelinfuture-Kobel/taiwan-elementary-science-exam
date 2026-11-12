@@ -1,0 +1,335 @@
+{
+  "schema_version": "P12_G04S1_113_TWO_SCHOOL_SOURCE_SCIENCEKP_ADMISSION_GATE_WORKLIST_V1",
+  "source_draft_pr": 124,
+  "baseline_113_public": 152,
+  "baseline_site_all_scopes": 788,
+  "baseline_main": "2229627cf5aa5acc395ef47f66cddbe8c5da2e5e",
+  "original_five_scan_source_marker_checkpoint": "data/review/p12-g04s1-113-scan5-source-marker-progress256-of262-v17.json",
+  "source_reviews": [
+    "data/review/p12-g04s1-113-heshun-final001-standalone23-science-directkp-screen-v1.json",
+    "data/review/p12-g04s1-113-neian-mid006-standalone24-science-directkp-screen-v1.json"
+  ],
+  "source_duplicate_proof": "data/review/p12-g04s1-113-heshun-neian23-published-bank-duplicate-variants-v1.json",
+  "legal_governance": "docs/S3_P03_ANSWER_KP_AND_TAIWAN_ART9_RIGHTS.md",
+  "frozen_kp_authority": "site/data/authority/science-g03-g04-selector-v3.json",
+  "counts": {
+    "two_original_exam_papers": 2,
+    "independent_tfmc_positions_reviewed": 47,
+    "science_and_direct_kp_supported_source_candidates": 23,
+    "source_science_or_direct_KP_HOLD": 24,
+    "identical_public_114_source_suppression": 1,
+    "distinct_candidates_needing_remaining_gates": 22,
+    "verified_scanned_five_source_markers_prior": 256,
+    "unresolved_complex_image_source_positions": 6,
+    "formal_science_kp_new_operator_approved_this_iteration": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "next_work_items": [
+    {
+      "gate": "DUPLICATE",
+      "todo": "Complete exact stem + all printed options and outcome parity across public source inventory and relevant unpublished 113/114 school original question candidates; one fixed MC002 duplicate already suppressed, three substantive variants retained",
+      "needs_operator_rule_change": false
+    },
+    {
+      "gate": "RIGHTS",
+      "todo": "For each candidate, confirm source is officially administered school regular exam under existing Taiwan Art9 question-text path; no third-party image/article/answer key included; original PDF header and source identity preserved, never republish scan",
+      "needs_operator_rule_change": false
+    },
+    {
+      "gate": "ADMISSION_GATE",
+      "todo": "Prepare exact cohort final manifest after missing original duplicate/rights decisions and obtain scope-existing operator final release approval; zero ready until then",
+      "needs_operator_rule_change": false
+    },
+    {
+      "gate": "PUBLISH",
+      "todo": "Only after cohort admission approved: selective question-bank PR, focused CI, main readback and live Pages E2E",
+      "needs_operator_rule_change": false
+    }
+  ],
+  "distinct_source_candidates_pending_admission": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|004",
+      "unit_kp": "sci_g04s1_03_08",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|010",
+      "unit_kp": "sci_g04s1_04_04",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|012",
+      "unit_kp": "sci_g04s1_04_12",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|001",
+      "unit_kp": "sci_g04s1_03_06",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|002",
+      "unit_kp": "sci_g04s1_03_05",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|004",
+      "unit_kp": "sci_g04s1_03_07",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|006",
+      "unit_kp": "sci_g04s1_04_01",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|010",
+      "unit_kp": "sci_g04s1_04_12",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|001",
+      "unit_kp": "sci_g04s1_02_07",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|002",
+      "unit_kp": "sci_g04s1_02_11",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|003",
+      "unit_kp": "sci_g04s1_01_08",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|004",
+      "unit_kp": "sci_g04s1_01_07",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|005",
+      "unit_kp": "sci_g04s1_02_14",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|007",
+      "unit_kp": "sci_g04s1_02_11",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|008",
+      "unit_kp": "sci_g04s1_01_06",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|009",
+      "unit_kp": "sci_g04s1_02_14",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|001",
+      "unit_kp": "sci_g04s1_01_02",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|003",
+      "unit_kp": "sci_g04s1_01_09",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|005",
+      "unit_kp": "sci_g04s1_02_09",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|006",
+      "unit_kp": "sci_g04s1_01_01",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|007",
+      "unit_kp": "sci_g04s1_01_12",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|014",
+      "unit_kp": "sci_g04s1_02_04",
+      "science_directKP_evidence_verified": true,
+      "final_admission_ready": false,
+      "operator_final_manifest_approved": false,
+      "published": false
+    }
+  ],
+  "already_published_do_not_reimport_source": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|002",
+      "lineage_target_public_source_slot_id": "SCI_G04_S1_114_MID_004|S02|MC|002",
+      "action": "APPEND_SOURCE_LINEAGE_ONLY",
+      "extra_student_answer_slots": 0
+    }
+  ],
+  "holds_not_blocking_other_candidates": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|001",
+      "disposition": "HOLD_DIRECT_KP_AND_DISTANCE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|002",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|003",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|005",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|006",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|007",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|008",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|009",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|011",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S01|TF|013",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|003",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|005",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|007",
+      "disposition": "HOLD_SCIENCE_UNIQUE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|008",
+      "disposition": "HOLD_SCIENCE_UNIQUE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|009",
+      "disposition": "HOLD_SCIENCE_UNIQUE_AND_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|006",
+      "disposition": "HOLD_SCIENCE_GENERALIZATION"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|004",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|008",
+      "disposition": "HOLD_SCIENCE_UNIQUE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|009",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|010",
+      "disposition": "HOLD_SCIENCE_UNIQUE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|011",
+      "disposition": "HOLD_SCIENCE_UNIQUE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|012",
+      "disposition": "HOLD_SCIENCE_UNIQUE"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|013",
+      "disposition": "HOLD_DIRECT_KP"
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|015",
+      "disposition": "HOLD_DIRECT_KP"
+    }
+  ],
+  "next_resume_task": "P12_G04S1_113_TwoSchool23ScienceKP_OneExactSuppressed_22DistinctPending_CompleteOriginalCrossyearOptionDedup_Article9RightsFinalOperatorCohort_Then_SelectivePublication_PR_CI_Main_PagesE2E_ParallelScan5_6ComplexHOLD"
+}

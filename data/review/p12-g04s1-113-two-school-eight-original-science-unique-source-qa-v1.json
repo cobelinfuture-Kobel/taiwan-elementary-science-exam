@@ -1,0 +1,353 @@
+{
+  "schema_version": "P12_G04S1_113_EIGHT_UNIQUE_SCIENCE_HOLD_EXACT_ORIGINAL_PDF_QA_V1",
+  "original_source_draft_pr": 124,
+  "authority_source": "site/data/authority/science-g03-g04-selector-v3.json",
+  "first_missing_gate_ref": "data/review/p12-g04s1-113-two-school24-science-directkp-hold-routing-after810-v1.json",
+  "original_geometry_evidence_refs": [
+    "data/review/p12-g04s1-113-heshun-final001-first23-exact-original-raster-bbox-v1.json",
+    "data/review/p12-g04s1-113-neian-mid006-scan24-exact-raster-bbox-v1.json"
+  ],
+  "original_pdfs_checked_in_runtime": [
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "original_pdf_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "page_visual": 1
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "original_pdf_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "page_visual": 1
+    }
+  ],
+  "method": "Read actual SHA-matched original PDFs as readable page-raster images and transcribe full original TF/MC statements and all MC printed choices. Independently reason on scientific unique answer (not hand-filled red school marks); match direct frozen 48KP for supported items. No source images republished, no invented/scoring choices; six genuine ambiguities remain HOLD.",
+  "dedup_current_main_commit": "e734c60948bac9aa5cc12c7519537f190f46b283",
+  "dedup_current_public_113_question_shards_15_files_total_174": 174,
+  "dedup_current_114_original_school_PDF_TFMC_25_files_total_717": 717,
+  "normalized_bigram_stem_sim_threshold": 0.49,
+  "original_question_text_near_duplicate_over_threshold_in_891_checked_items": 0,
+  "claim_not_final_duplicate_gate": "Current 113 main published 174 + original 114 all25 717 checked; 113 other unpublished source full options original PDF duplicate certification not complete, hence two candidates do not pass full DUPLICATE/RIGHTS/OPERATOR gates.",
+  "summary": {
+    "original_independent_question_source_slots_examined": 8,
+    "original_sha256_matching_school_exam_PDFs_checked": 2,
+    "original_page_visual_full_options_inspected": 8,
+    "source_science_unique_and_frozenKP_supported_for_further_gate": 2,
+    "old_science_HOLD_retained": 6,
+    "formal_science_kp_new_operator_approved": 0,
+    "new_admission_ready": 0,
+    "new_published": 0,
+    "public_113_source_slots_unchanged": 174,
+    "all_site_answer_slots_unchanged": 810
+  },
+  "source_supported_candidate_ids": [
+    "SCI_G04_S1_113_FINAL_001|S02|MC|009",
+    "SCI_G04_S1_113_MID_006|S2|MC|012"
+  ],
+  "science_ambiguous_hold_ids": [
+    "SCI_G04_S1_113_FINAL_001|S02|MC|007",
+    "SCI_G04_S1_113_FINAL_001|S02|MC|008",
+    "SCI_G04_S1_113_MID_006|S1|TF|006",
+    "SCI_G04_S1_113_MID_006|S2|MC|008",
+    "SCI_G04_S1_113_MID_006|S2|MC|010",
+    "SCI_G04_S1_113_MID_006|S2|MC|011"
+  ],
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|007",
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "original_pdf_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "original_pdf_page_1_based": 1,
+      "exact_printed_answer_marker_pdf_bbox_pts": [
+        393.62,
+        261.89,
+        426.01,
+        274.36
+      ],
+      "original_question_stem_from_sha_matched_pdf_visual": "哪一種電池沒電了可以充電再使用？",
+      "original_choice_text_full_printed_order": [
+        "水銀電池",
+        "鋰電池",
+        "鹼性電池",
+        "碳鋅電池"
+      ],
+      "original_answer_not_authenticated": true,
+      "original_red_handwritten_marks_excluded": true,
+      "previous_HOLD_disposition": "HOLD_SCIENCE_UNIQUE",
+      "previous_HOLD_reason": "鋰電池有一次型和可充電型，原卷未限定鋰離子充電池類別",
+      "science_reasoned_candidate_answer_one_based": null,
+      "proposed_direct_frozen_canonical_KP": null,
+      "reviewed_science_disposition": "HOLD_SCIENCE_UNIQUE_UNSPECIFIED_BATTERY_CHEMISTRY",
+      "science_reasoning": "鋰電池也有不可充電的鋰金屬一次電池與可充電鋰離子電池，原題僅寫「鋰電池」，無足夠的唯一分類條件。",
+      "supporting_external_science_context_urls": [
+        "https://www.faa.gov/sites/faa.gov/files/2022-11/49CFR_rule_change.pdf"
+      ],
+      "question_original_pdf_image_republished": false,
+      "source_geometry_reused_not_redrawn": true,
+      "public_exact_source_identity_duplicate_against_174": false,
+      "original_114_25_school_717_text_archive_high_similarity_over_threshold049": false,
+      "remaining_113_unpublished_original_question_full_dedup_not_certified": true,
+      "source_science_evidence_supported": false,
+      "operator_formal_science_kp_approval_received": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|008",
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "original_pdf_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "original_pdf_page_1_based": 1,
+      "exact_printed_answer_marker_pdf_bbox_pts": [
+        393.38,
+        324.24,
+        426.01,
+        336.95
+      ],
+      "original_question_stem_from_sha_matched_pdf_visual": "哪一項是發光二極體的好處？",
+      "original_choice_text_full_printed_order": [
+        "用電省",
+        "價格貴",
+        "顏色種類很多",
+        "以上都是"
+      ],
+      "original_answer_not_authenticated": true,
+      "original_red_handwritten_marks_excluded": true,
+      "previous_HOLD_disposition": "HOLD_SCIENCE_UNIQUE",
+      "previous_HOLD_reason": "LED省電及顏色種類多均為好處，選項未提供清楚唯一答案",
+      "science_reasoned_candidate_answer_one_based": null,
+      "proposed_direct_frozen_canonical_KP": null,
+      "reviewed_science_disposition": "HOLD_SCIENCE_UNIQUE_MORE_THAN_ONE_CORRECT_BENEFIT",
+      "science_reasoning": "①省電與③有多種顏色均可視為發光二極體的優點；②價格貴不是好處，④以上都是又包含②，故無唯一選項。",
+      "supporting_external_science_context_urls": [],
+      "question_original_pdf_image_republished": false,
+      "source_geometry_reused_not_redrawn": true,
+      "public_exact_source_identity_duplicate_against_174": false,
+      "original_114_25_school_717_text_archive_high_similarity_over_threshold049": false,
+      "remaining_113_unpublished_original_question_full_dedup_not_certified": true,
+      "source_science_evidence_supported": false,
+      "operator_formal_science_kp_approval_received": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|009",
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "original_pdf_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "original_pdf_page_1_based": 1,
+      "exact_printed_answer_marker_pdf_bbox_pts": [
+        393.38,
+        387.55,
+        425.77,
+        400.03
+      ],
+      "original_question_stem_from_sha_matched_pdf_visual": "兩個燈泡並聯時只有一個燈泡發光，請問有幾個通路？",
+      "original_choice_text_full_printed_order": [
+        "3",
+        "2",
+        "1",
+        "0個"
+      ],
+      "original_answer_not_authenticated": true,
+      "original_red_handwritten_marks_excluded": true,
+      "previous_HOLD_disposition": "HOLD_SCIENCE_UNIQUE_AND_DIRECT_KP",
+      "previous_HOLD_reason": "一個並聯燈泡不亮時的「幾個通路」可能依閉合通路或物理分支定義而異，且未直接比較亮度",
+      "science_reasoned_candidate_answer_one_based": 3,
+      "proposed_direct_frozen_canonical_KP": "sci_g04s1_04_04",
+      "reviewed_science_disposition": "SOURCE_SCIENCE_DIRECT_KP_SUPPORTED_PENDING_OTHER_GATES",
+      "science_reasoning": "題目明確使用「通路」而非「分支」：通路是完整且能使燈泡通電的閉合電路；僅一燈泡亮表示僅一條支路形成通路，另一條為斷路，故③ 1 個。直接測量 04_04 通路與斷路，不能沿用先前錯置的 04_09 亮度 KP。",
+      "supporting_external_science_context_urls": [],
+      "question_original_pdf_image_republished": false,
+      "source_geometry_reused_not_redrawn": true,
+      "public_exact_source_identity_duplicate_against_174": false,
+      "original_114_25_school_717_text_archive_high_similarity_over_threshold049": false,
+      "remaining_113_unpublished_original_question_full_dedup_not_certified": true,
+      "source_science_evidence_supported": true,
+      "operator_formal_science_kp_approval_received": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S1|TF|006",
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "original_pdf_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_pdf_page_1_based": 1,
+      "exact_printed_answer_marker_pdf_bbox_pts": [
+        65.52,
+        383.76,
+        100.8,
+        396.72
+      ],
+      "original_question_stem_from_sha_matched_pdf_visual": "比較岩石、沙和土壤的顆粒大小，其中岩石的顆粒最大，土壤的顆粒最小。",
+      "original_choice_text_full_printed_order": [],
+      "original_answer_not_authenticated": true,
+      "original_red_handwritten_marks_excluded": true,
+      "previous_HOLD_disposition": "HOLD_SCIENCE_GENERALIZATION",
+      "previous_HOLD_reason": "把「岩石顆粒最大、土壤顆粒最小」一概而論，實際土壤可能含多種尺寸顆粒；需界定教材觀察條件",
+      "science_reasoned_candidate_answer_one_based": null,
+      "proposed_direct_frozen_canonical_KP": null,
+      "reviewed_science_disposition": "HOLD_SCIENCE_UNIQUE_SAMPLE_AND_WORDING_NOT_SPECIFIED",
+      "science_reasoning": "沒有指定被比較的樣本、是否指岩塊大小或土壤成分粒徑；土壤是多種粒徑的混合物。將教學中的某次觀察通則化，原題真假仍依教材模型及樣本而異。",
+      "supporting_external_science_context_urls": [],
+      "question_original_pdf_image_republished": false,
+      "source_geometry_reused_not_redrawn": true,
+      "public_exact_source_identity_duplicate_against_174": false,
+      "original_114_25_school_717_text_archive_high_similarity_over_threshold049": false,
+      "remaining_113_unpublished_original_question_full_dedup_not_certified": true,
+      "source_science_evidence_supported": false,
+      "operator_formal_science_kp_approval_received": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|008",
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "original_pdf_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_pdf_page_1_based": 1,
+      "exact_printed_answer_marker_pdf_bbox_pts": [
+        398.88,
+        315,
+        434.16,
+        327.96
+      ],
+      "original_question_stem_from_sha_matched_pdf_visual": "下列關於地震規模和地震震度的敘述，哪一項不正確？",
+      "original_choice_text_full_printed_order": [
+        "地震規模是指地震震源放出的能量大小",
+        "震度是指人體感受地面移動或建築物受破壞的程度",
+        "每次地震的震度都是一樣的，但地震規模會隨地點不同而不同",
+        "目前世界通用的地震規模是芮氏規模"
+      ],
+      "original_answer_not_authenticated": true,
+      "original_red_handwritten_marks_excluded": true,
+      "previous_HOLD_disposition": "HOLD_SCIENCE_UNIQUE",
+      "previous_HOLD_reason": "原卷③震度與規模敘述錯誤；④「目前世界通用地震規模是芮氏規模」也有現代矩震級之疑義",
+      "science_reasoned_candidate_answer_one_based": null,
+      "proposed_direct_frozen_canonical_KP": null,
+      "reviewed_science_disposition": "HOLD_SCIENCE_UNIQUE_TWO_WRONG_CHOICES",
+      "science_reasoning": "③將震度與規模的地點性顛倒；④宣稱世界通用芮氏規模，與現行對大型地震常用矩震級（Mw）的科學實務不符。原題問單一不正確選項但至少③與④不正確。",
+      "supporting_external_science_context_urls": [
+        "https://www.usgs.gov/faqs/how-are-earthquakes-recorded-how-are-earthquakes-measured-how-magnitude-earthquake-determined"
+      ],
+      "question_original_pdf_image_republished": false,
+      "source_geometry_reused_not_redrawn": true,
+      "public_exact_source_identity_duplicate_against_174": false,
+      "original_114_25_school_717_text_archive_high_similarity_over_threshold049": false,
+      "remaining_113_unpublished_original_question_full_dedup_not_certified": true,
+      "source_science_evidence_supported": false,
+      "operator_formal_science_kp_approval_received": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|010",
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "original_pdf_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_pdf_page_1_based": 1,
+      "exact_printed_answer_marker_pdf_bbox_pts": [
+        398.88,
+        554.04,
+        433.8,
+        566.64
+      ],
+      "original_question_stem_from_sha_matched_pdf_visual": "進行水域環境調查時，哪一項不是必須記錄的項目？",
+      "original_choice_text_full_printed_order": [
+        "水生生物種類",
+        "方位",
+        "水流情形",
+        "水域類型"
+      ],
+      "original_answer_not_authenticated": true,
+      "original_red_handwritten_marks_excluded": true,
+      "previous_HOLD_disposition": "HOLD_SCIENCE_UNIQUE",
+      "previous_HOLD_reason": "水域環境調查中「方位」是否必須記錄依觀察設計而定，不宜以主觀欄位假設判答",
+      "science_reasoned_candidate_answer_one_based": null,
+      "proposed_direct_frozen_canonical_KP": null,
+      "reviewed_science_disposition": "HOLD_SCIENCE_UNIQUE_MISSING_SURVEY_PROTOCOL",
+      "science_reasoning": "②方位是否必須記錄，取決於原卷調查表／採樣設計；水流與水域類型對靜止水域等亦可能依方案不同，原題缺少定義「必須」的具體調查表。雖直接相關 02_13，仍不能替題目補上必要欄位。",
+      "supporting_external_science_context_urls": [],
+      "question_original_pdf_image_republished": false,
+      "source_geometry_reused_not_redrawn": true,
+      "public_exact_source_identity_duplicate_against_174": false,
+      "original_114_25_school_717_text_archive_high_similarity_over_threshold049": false,
+      "remaining_113_unpublished_original_question_full_dedup_not_certified": true,
+      "source_science_evidence_supported": false,
+      "operator_formal_science_kp_approval_received": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|011",
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "original_pdf_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_pdf_page_1_based": 1,
+      "exact_printed_answer_marker_pdf_bbox_pts": [
+        398.88,
+        625.68,
+        433.8,
+        638.64
+      ],
+      "original_question_stem_from_sha_matched_pdf_visual": "下列哪一種植物適合生長在鬆散、排水性好的土壤中？",
+      "original_choice_text_full_printed_order": [
+        "稻子",
+        "西瓜",
+        "番茄",
+        "小白菜"
+      ],
+      "original_answer_not_authenticated": true,
+      "original_red_handwritten_marks_excluded": true,
+      "previous_HOLD_disposition": "HOLD_SCIENCE_UNIQUE",
+      "previous_HOLD_reason": "「鬆散排水性好的土壤」適合多種作物，無足以排除其他選項之唯一條件",
+      "science_reasoned_candidate_answer_one_based": null,
+      "proposed_direct_frozen_canonical_KP": null,
+      "reviewed_science_disposition": "HOLD_SCIENCE_UNIQUE_MULTIPLE_WELL_DRAINED_CROPS",
+      "science_reasoning": "西瓜、番茄及適當條件下的小白菜都能在排水良好的鬆散土壤中生長，沒有指定水分、酸鹼度、介質等限定條件，故不唯一；且沒有在 48 KP 中找到直接的作物栽培節點。",
+      "supporting_external_science_context_urls": [],
+      "question_original_pdf_image_republished": false,
+      "source_geometry_reused_not_redrawn": true,
+      "public_exact_source_identity_duplicate_against_174": false,
+      "original_114_25_school_717_text_archive_high_similarity_over_threshold049": false,
+      "remaining_113_unpublished_original_question_full_dedup_not_certified": true,
+      "source_science_evidence_supported": false,
+      "operator_formal_science_kp_approval_received": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|012",
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "original_pdf_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_pdf_page_1_based": 1,
+      "exact_printed_answer_marker_pdf_bbox_pts": [
+        398.88,
+        696.6,
+        433.8,
+        709.56
+      ],
+      "original_question_stem_from_sha_matched_pdf_visual": "小東觀察魚的活動並做了以下的紀錄，哪一項可能寫錯了？",
+      "original_choice_text_full_printed_order": [
+        "魚鰭可以幫助魚控制游動的方向",
+        "魚體為流線形，可以減少在水中游動的阻力",
+        "魚身體表面的鱗片具有保護魚體的作用",
+        "魚有鰭才能在水中自由的活動"
+      ],
+      "original_answer_not_authenticated": true,
+      "original_red_handwritten_marks_excluded": true,
+      "previous_HOLD_disposition": "HOLD_SCIENCE_UNIQUE",
+      "previous_HOLD_reason": "魚有鰭才能自由活動的「才能」具過度絕對化，但四年級魚鰭功能教學可能視作正確；唯一錯誤選項不足以核實",
+      "science_reasoned_candidate_answer_one_based": 4,
+      "proposed_direct_frozen_canonical_KP": "sci_g04s1_02_08",
+      "reviewed_science_disposition": "SOURCE_SCIENCE_DIRECT_KP_SUPPORTED_PENDING_OTHER_GATES",
+      "science_reasoning": "①魚鰭有助方向與平衡、②流線型降低阻力、③鱗片有保護作用均屬合理；④「才能」排除身體肌肉與軀幹波動等游動機制，屬不合理絕對化，為本題唯一較可能錯誤紀錄；原題用「可能」而非「必定」。直接測量 02_08 魚的外形與游泳。",
+      "supporting_external_science_context_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8670443/"
+      ],
+      "question_original_pdf_image_republished": false,
+      "source_geometry_reused_not_redrawn": true,
+      "public_exact_source_identity_duplicate_against_174": false,
+      "original_114_25_school_717_text_archive_high_similarity_over_threshold049": false,
+      "remaining_113_unpublished_original_question_full_dedup_not_certified": true,
+      "source_science_evidence_supported": true,
+      "operator_formal_science_kp_approval_received": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    }
+  ],
+  "next_resume_task": "P12_113_G04S1_EIGHT_ORIGINAL_SCIENCE_QA__TWO_SOURCE_SCIENCE_KP_SUPPORTED_PENDING_OTHER_GATES__SIX_SCIENCE_HOLD__ADD_113_OTHER_UNPUBLISHED_ORIGINAL_OPTION_DEDUP_AND_RIGHTS_ELIGIBLE_MANIFEST__NO_NEW_OPERATOR_PUBLIC_RELEASE_OR_PR_UNTIL_APPROVED"
+}

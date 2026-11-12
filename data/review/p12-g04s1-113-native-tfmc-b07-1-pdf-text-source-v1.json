@@ -1,0 +1,65 @@
+{
+  "schema_version": "P12_G04S1_113_NATIVE_B07_1_ORIGINAL_PDF_TEXT_SOURCE_V1",
+  "stage": "SOURCE_EXACT_TEXT_LAYER_NOT_PDF_VISUAL_OR_ADMISSION",
+  "source_pr": 124,
+  "batch": "B07_1",
+  "source_record_count": 1,
+  "scope_routing": {
+    "midterm_source_items": 0,
+    "final_source_items": 1
+  },
+  "native_pdf_source_sha256_verified_in_operator_downloads": true,
+  "shared_parent_reading_material": [
+    {
+      "id": "SCI_G04_S1_113_FINAL_010|S3",
+      "original_source_text_layer_parent": "(一格 2 分/共 14 分) \r\n冠軍麵包師傅-吳寶春 \r\n 在當兵時，吳寶春師傅擔任採買，有一次為了讓\r\n隊上的弟兄可以吃到久違的紅豆麵包，自告奮勇做麵\r\n包給大家吃。本以為可以得到大家的肯定跟稱讚，結\r\n果不但沒有受到讚賞，反而還被臭罵。「你做那什麼\r\n麵包，很難吃！比外面的還難吃！」\r\n 「麵體之所以吃起來乾、有酸味主要的原因其實\r\n是麵團太發了。」寶春師傅在軍中製作麵包時，由於\r\n一次只能烤 24 個麵包，做完 400 個要花非常多的時\r\n間。從早上八點開始製作，一路做到晚上十點才做得\r\n完。過長的製作期間，讓早上攪拌好的麵團，放到晚\r\n上都已經過度發酵。\r\n 因為酵母會吸收麵糰中的營養維持活性，並且產\r\n生二氧化碳，讓麵糰變得膨鬆。然而如果發酵到了臨\r\n界點，酵母的活性就會開始下降，產生酸味。而發酵\r\n的關鍵「計時、計量、計溫」這三個要點都要特別注\r\n意。在發酵過程中也可以透過持續觀察，比如你可以\r\n輕觸麵團彈性，感受麵團回饋的力量。如果彈性還\r\n大，就是發酵還不夠；輕觸後會慢慢回彈就是最剛好\r\n的麵團。\r\n 吳寶春一路走來，一步一腳印從台灣衝出亞洲再\r\n到歐洲，一次次的比賽中，深刻的體會到只要肯努\r\n力，沒有事情做不到。「當你把愛、懷念揉進麵團，\r\n發酵完再烤後，別人是能夠品嚐出愛的味道的。這是\r\n我懷念媽媽，用媽媽的愛做成的麵包。」\r\n正確地請打○，錯的請打╳",
+      "context_required": true,
+      "parent_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "rights_status": "REQUIRES_EXISTING_RIGHTS_GATE_PARENT_TEXT_AND_ANY_VISUAL"
+    }
+  ],
+  "source_records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S3|TF|7",
+      "source_section": "S3",
+      "question_kind": "TF",
+      "original_pdf_text_layer_question": "烤箱設置聲音的功能，發出「叮」的聲響，\r\n提醒使用者烘烤時間已結束。",
+      "original_pdf_text_layer_stem": "烤箱設置聲音的功能，發出「叮」的聲響，\r\n提醒使用者烘烤時間已結束。",
+      "original_ordered_choices": null,
+      "printed_choice_marker_count": 0,
+      "source_context_dependency": "SHARED_READING_PARENT",
+      "parent_ref": "SCI_G04_S1_113_FINAL_010|S3",
+      "evidence_caveat": "STANDARD_PDF_TEXT_LAYER_RECHECK",
+      "original_figure_mentioned": false,
+      "no_auto_admission": true,
+      "source_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "source_original_drive_url": "https://drive.google.com/file/d/1GoIilzz3hFCOk56j6rwfOBWllEjnrlzr/view",
+      "source_scope": "FINAL_U03_U04",
+      "source_page_pdf_1_based": null,
+      "original_native_bbox_pts_top_left": null,
+      "review_status": "SOURCE_TEXT_ONLY_NOT_FULLY_ADMISSION_CERTIFIED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "metrics": {
+    "original_stem_text_count": 1,
+    "ordered_MC_four_option_count": 0,
+    "original_TF_count": 1,
+    "shared_reading_parent_dependents": 1,
+    "figure_mention": 0,
+    "possible_footer_visual_review": 0,
+    "source_native_bbox_complete": 0,
+    "new_formal_science_KP_approved": 0,
+    "new_admission_ready": 0,
+    "new_published": 0
+  },
+  "source_records_lack_formal_page_bbox": "Unchanged PDF_PAGE_BBOX Gate remains; PDF text is not actual native glyph BBox and narrative/image sources must not be separated from children.",
+  "limitations": [
+    "Original school teacher keys unavailable; no model answer treated as official key",
+    "Review and strip interleaved page footers by original PDF visual before admission",
+    "Shared parent article may carry third-party rights restrictions; never publish raw parent content without rights clearance",
+    "FINAL U03/U04 and MIDTERM U01/U02 must use separate applicable KP periods"
+  ]
+}

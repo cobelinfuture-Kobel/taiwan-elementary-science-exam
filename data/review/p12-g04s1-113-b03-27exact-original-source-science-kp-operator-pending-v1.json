@@ -1,0 +1,804 @@
+{
+  "schema_version": "P12_G04S1_113_B03_EXACT27_ORIGINAL_SCHOOL_QUESTIONS_OPERATOR_PENDING_V1",
+  "batch": "113_G04S1_MID_B03_50",
+  "base_main_published_source_slots": 206,
+  "base_student_site_answer_slots": 842,
+  "source_pr124_draft": true,
+  "original_50_checkpoint": "data/review/p12-g04s1-113-b03-native50-post206-legacy7-27candidates-16hold-v2.json",
+  "source_proofs": [
+    "data/review/p12-g04s1-113-native-tfmc-b03-50-original-pdf-text-preflight-v1.json",
+    "data/review/p12-g04s1-113-native-tfmc-b03-50-real-original-glyph-bbox-v1.json",
+    "data/review/p12-g04s1-113-native-tfmc-b03-50-science-kp-consolidated-v1.json"
+  ],
+  "status": "SOURCE_EXACT_NATIVE_BBOX_SCIENCE_KP_PROPOSED_DUPLICATE_AND_FINAL_OPERATOR_GATE_PENDING",
+  "rights_scope": "Original school examination question text only, no teacher answer key or original PDF embedded",
+  "original_third_party_images_included": false,
+  "original_pdfs_3_source_sha_readback": true,
+  "standalone_only": true,
+  "school_mix": {
+    "Yongan": 8,
+    "Anhe": 14,
+    "Mingyi": 5
+  },
+  "counts": {
+    "source_locations": 50,
+    "previous_direct_assessed": 35,
+    "legacy_published_suppressed": 7,
+    "existing_hold": 15,
+    "additional_near_duplicate_hold": 1,
+    "current_27_proposed": 27,
+    "formal_science_kp_approved_new": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "excluded_source_ids": [
+    "SCI_G04_S1_113_MID_009|S2|MC|15"
+  ],
+  "legacy7_unpublished_as_new": [
+    "SCI_G04_S1_113_MID_010|S1|TF|1",
+    "SCI_G04_S1_113_MID_010|S1|TF|2",
+    "SCI_G04_S1_113_MID_010|S1|TF|4",
+    "SCI_G04_S1_113_MID_010|S1|TF|5",
+    "SCI_G04_S1_113_MID_010|S1|TF|6",
+    "SCI_G04_S1_113_MID_010|S1|TF|7",
+    "SCI_G04_S1_113_MID_010|S1|TF|8"
+  ],
+  "existing_114_first294_public_stems_checked": true,
+  "one_114_near_source_different_options_source_ids": [
+    "SCI_G04_S1_113_MID_008|S2|MC|11",
+    "SCI_G04_S1_114_MID_004|S02|MC|012"
+  ],
+  "all_114_active_bank_dedup_gate_still_needed": true,
+  "operator_explicit_exact_cohort_approval": "PENDING",
+  "source_question_content_cannot_be_published_before_operator_scope_gate": true,
+  "records": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S2|MC|3",
+      "original_school_PDF_SHA256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.36,
+        567.6,
+        90.36,
+        580.12
+      ],
+      "original_stem_exact": "下列哪一項做法無法保護我們的森林資源？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "任\r\n意砍伐樹木"
+        },
+        {
+          "label": "○2",
+          "text": "定期巡守山林"
+        },
+        {
+          "label": "○3",
+          "text": "平時節約用紙"
+        },
+        {
+          "label": "○4",
+          "text": "少用免洗筷。"
+        }
+      ],
+      "accepted_science_answer_proposal": "①",
+      "direct_frozen_113KP_candidate": "sci_g04s1_01_07",
+      "science_explanation": "任意砍伐森林破壞資源，另三項有利森林維護",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S2|MC|4",
+      "original_school_PDF_SHA256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.36,
+        622.22,
+        90.36,
+        634.74
+      ],
+      "original_stem_exact": "下列哪一項不是構成地表的非生物物質？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "土壤"
+        },
+        {
+          "label": "○2",
+          "text": "沙子"
+        },
+        {
+          "label": "○3",
+          "text": "榕樹"
+        },
+        {
+          "label": "○4",
+          "text": "岩石。"
+        }
+      ],
+      "accepted_science_answer_proposal": "③",
+      "direct_frozen_113KP_candidate": "sci_g04s1_01_01",
+      "science_explanation": "榕樹是生物，土壤砂子岩石不是生物",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S2|MC|7",
+      "original_school_PDF_SHA256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.36,
+        749.78,
+        90.36,
+        762.3
+      ],
+      "original_stem_exact": "小良想要拜訪人為建造的水域環境，你建議他可以\r\n到下列哪一個地方進行觀察？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "河口溼地"
+        },
+        {
+          "label": "○2",
+          "text": "水\r\n庫"
+        },
+        {
+          "label": "○3",
+          "text": "海岸潮間帶"
+        },
+        {
+          "label": "○4",
+          "text": "溪流。"
+        }
+      ],
+      "accepted_science_answer_proposal": "②",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_02",
+      "science_explanation": "水庫屬人造水域",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S2|MC|8",
+      "original_school_PDF_SHA256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.36,
+        804.38,
+        90.36,
+        816.9
+      ],
+      "original_stem_exact": "小翔在水田裡撈了一些蝌蚪來觀察，觀察完後，他\r\n應該怎樣處理蝌蚪才正確？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "放到水溝裡"
+        },
+        {
+          "label": "○2",
+          "text": "放\r\n到魚缸裡"
+        },
+        {
+          "label": "○3",
+          "text": "放回水田裡"
+        },
+        {
+          "label": "○4",
+          "text": "倒進水槽裡。"
+        }
+      ],
+      "accepted_science_answer_proposal": "③",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_14",
+      "science_explanation": "觀察後不應任意轉移野生蝌蚪至其他水域",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S2|MC|9",
+      "original_school_PDF_SHA256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.36,
+        859.01,
+        90.36,
+        871.53
+      ],
+      "original_stem_exact": "下列四種不同的水域環境，哪一個水域環境所涵蓋\r\n的範圍是最大的？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "溪流"
+        },
+        {
+          "label": "○2",
+          "text": "海洋"
+        },
+        {
+          "label": "○3",
+          "text": "水田"
+        },
+        {
+          "label": "○4",
+          "text": "魚塭。"
+        }
+      ],
+      "accepted_science_answer_proposal": "②",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_02",
+      "science_explanation": "海洋在列出的四種水域中面積最大",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S2|MC|10",
+      "original_school_PDF_SHA256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        36.72,
+        913.73,
+        84.72,
+        926.25
+      ],
+      "original_stem_exact": "把水族箱中的大萍壓入水裡再放手，不會出現下列\r\n哪一種情形？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "大萍會浮起來"
+        },
+        {
+          "label": "○2",
+          "text": "葉面能使水不\r\n易附著"
+        },
+        {
+          "label": "○3",
+          "text": "葉面形成小水珠"
+        },
+        {
+          "label": "○4",
+          "text": "慢慢的沉入水底。"
+        }
+      ],
+      "accepted_science_answer_proposal": "④",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_04",
+      "science_explanation": "大萍漂浮且葉面不易沾水",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S2|MC|11",
+      "original_school_PDF_SHA256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        36.72,
+        968.33,
+        84.72,
+        980.85
+      ],
+      "original_stem_exact": "依水生植物的生長方式來區分，下列哪一個水生植\r\n物和其他三種不會分在同一類？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "大萍"
+        },
+        {
+          "label": "○2",
+          "text": "浮萍"
+        },
+        {
+          "label": "○3",
+          "text": "布袋蓮"
+        },
+        {
+          "label": "○4",
+          "text": "睡蓮。"
+        }
+      ],
+      "accepted_science_answer_proposal": "④",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_03",
+      "science_explanation": "睡蓮是浮葉性，另外三項為漂浮性",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008|S2|MC|12",
+      "original_school_PDF_SHA256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        36.72,
+        1039.01,
+        84.72,
+        1051.53
+      ],
+      "original_stem_exact": "小琪到靠近山區的傳統客家庄旅遊，他較不可能買\r\n到下列哪一項在地特產？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "桂花釀"
+        },
+        {
+          "label": "○2",
+          "text": "蘿蔔乾"
+        },
+        {
+          "label": "○3",
+          "text": "飛魚乾"
+        },
+        {
+          "label": "○4",
+          "text": "小米麻糬。"
+        }
+      ],
+      "accepted_science_answer_proposal": "③",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_10",
+      "science_explanation": "飛魚乾較屬海岸漁產，非山區在地特產",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S1|TF|1",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        33.6,
+        189.41,
+        61.62,
+        203.45
+      ],
+      "original_stem_exact": "肥沃的土壤可以讓農作物生長良好，貧\r\n瘠的沙丘也可能長出植物。",
+      "original_options_exact": null,
+      "accepted_science_answer_proposal": "O",
+      "direct_frozen_113KP_candidate": "sci_g04s1_01_02",
+      "science_explanation": "沙丘也可能生長耐旱植物",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S1|TF|2",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        33.6,
+        225.89,
+        61.62,
+        239.93
+      ],
+      "original_stem_exact": "下大雨時，雨水把土壤沖進河裡，使河\r\n水變黃濁，過度噴灑的農藥也會隨著雨\r\n水流進河中，造成魚類死亡。",
+      "original_options_exact": null,
+      "accepted_science_answer_proposal": "O",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_11",
+      "science_explanation": "農藥經雨水流入水域可傷害魚類",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S1|TF|3",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        33.6,
+        280.49,
+        61.62,
+        294.53
+      ],
+      "original_stem_exact": "進行水域環境調查活動時，為了調查更\r\n多的生物，一定要到水深的地方調查。",
+      "original_options_exact": null,
+      "accepted_science_answer_proposal": "X",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_14",
+      "science_explanation": "水域調查不應為觀察更多種類而深入危險深水",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S1|TF|5",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        33.6,
+        371.6,
+        61.62,
+        385.64
+      ],
+      "original_stem_exact": "颱風和豪雨無法移動岩石的位置，只有\r\n強烈地震能移動岩石的位置。",
+      "original_options_exact": null,
+      "accepted_science_answer_proposal": "X",
+      "direct_frozen_113KP_candidate": "sci_g04s1_01_05",
+      "science_explanation": "豪雨形成流水可搬運岩石與地表物質",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S1|TF|6",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        33.6,
+        407.96,
+        61.62,
+        422
+      ],
+      "original_stem_exact": "水會往低處流，所以高山上不會有水域\r\n環境。",
+      "original_options_exact": null,
+      "accepted_science_answer_proposal": "X",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_02",
+      "science_explanation": "高山亦有溪流與湖泊",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S1|TF|7",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        33.6,
+        444.44,
+        61.62,
+        458.48
+      ],
+      "original_stem_exact": "栗喉蜂虎和招潮蟹都生活在洞穴中，所\r\n以適合生長的環境也相同。",
+      "original_options_exact": null,
+      "accepted_science_answer_proposal": "X",
+      "direct_frozen_113KP_candidate": "sci_g04s1_01_02",
+      "science_explanation": "同為洞穴棲地不代表生物適應環境相同",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S1|TF|9",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        33.6,
+        517.3,
+        61.62,
+        531.34
+      ],
+      "original_stem_exact": "所有的水生生物都需要生活在水中，只\r\n要離開水就會迅速死亡。",
+      "original_options_exact": null,
+      "accepted_science_answer_proposal": "X",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_09",
+      "science_explanation": "部分水生動物可暫時離水生活",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S1|TF|10",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        33.6,
+        553.66,
+        61.62,
+        567.7
+      ],
+      "original_stem_exact": "地震發生前，中央氣象署會先發布地震\r\n報告，告知人們即將發生地震。",
+      "original_options_exact": null,
+      "accepted_science_answer_proposal": "X",
+      "direct_frozen_113KP_candidate": "sci_g04s1_01_09",
+      "science_explanation": "震前無法可靠預告精確地震發生時間",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S1|TF|11",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        33.6,
+        590.14,
+        61.62,
+        604.18
+      ],
+      "original_stem_exact": "在野外採集的水生生物，觀察後我們可\r\n以將其放到學校的景觀池。",
+      "original_options_exact": null,
+      "accepted_science_answer_proposal": "X",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_14",
+      "science_explanation": "野外採集生物不可逕行移至校園景觀池",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S1|TF|12",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        33.6,
+        626.5,
+        61.62,
+        640.54
+      ],
+      "original_stem_exact": "水生植物為了能夠照射到陽光都會把\r\n葉子挺出水面或是平舖在水面上。",
+      "original_options_exact": null,
+      "accepted_science_answer_proposal": "X",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_03",
+      "science_explanation": "沉水性植物不須將葉子挺出水面",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S2|MC|4",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        381.41,
+        173.69,
+        409.45,
+        187.73
+      ],
+      "original_stem_exact": "下列哪一個是可以保護水域的行為?",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "參與淨灘活動"
+        },
+        {
+          "label": "○2",
+          "text": "在河中大量丟入魚\r\n飼料"
+        },
+        {
+          "label": "○3",
+          "text": "大量挖掘河邊砂石"
+        },
+        {
+          "label": "○4",
+          "text": "購買水生\r\n動物到河邊放生。"
+        }
+      ],
+      "accepted_science_answer_proposal": "①",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_14",
+      "science_explanation": "參與淨灘有助保護水域，其他選項傷害環境",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S2|MC|5",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        381.41,
+        265.73,
+        409.45,
+        279.77
+      ],
+      "original_stem_exact": "用水澆土堆，土堆外表不會有什麼變化?",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "土堆上方凹陷"
+        },
+        {
+          "label": "○2",
+          "text": "水量越大，凹陷越\r\n明顯"
+        },
+        {
+          "label": "○3",
+          "text": "水量越大，土堆變越高"
+        },
+        {
+          "label": "○4",
+          "text": "水量\r\n越大，土壤被沖越遠。"
+        }
+      ],
+      "accepted_science_answer_proposal": "③",
+      "direct_frozen_113KP_candidate": "sci_g04s1_01_05",
+      "science_explanation": "強水流會沖走地表材料，土堆不會因此增高",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S2|MC|6",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        381.41,
+        357.8,
+        409.45,
+        371.84
+      ],
+      "original_stem_exact": "下列哪一個水域環境是人為建造？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "海洋"
+        },
+        {
+          "label": "○2",
+          "text": "水田"
+        },
+        {
+          "label": "○3",
+          "text": "潮間帶"
+        },
+        {
+          "label": "○4",
+          "text": "溪流。"
+        }
+      ],
+      "accepted_science_answer_proposal": "②",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_02",
+      "science_explanation": "水田是人為建造的水域",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009|S2|MC|11",
+      "original_school_PDF_SHA256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        381.41,
+        633.82,
+        409.45,
+        647.86
+      ],
+      "original_stem_exact": "下列哪一個不是岩石的用途？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "鋪設\r\n步道"
+        },
+        {
+          "label": "○2",
+          "text": "造房子"
+        },
+        {
+          "label": "○3",
+          "text": "製作家具"
+        },
+        {
+          "label": "○4",
+          "text": "種植農\r\n作物。"
+        }
+      ],
+      "accepted_science_answer_proposal": "④",
+      "direct_frozen_113KP_candidate": "sci_g04s1_01_04",
+      "science_explanation": "種植農作物並非將岩石作種植介質的用途",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_010|S2|MC|1",
+      "original_school_PDF_SHA256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.24,
+        653.1,
+        90.26,
+        665.1
+      ],
+      "original_stem_exact": "水域環境可以分為天然形成和人為建\r\n造，下列哪一個水域的形成原因和其他三\r\n種不同？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "溪流"
+        },
+        {
+          "label": "○2",
+          "text": "海洋"
+        },
+        {
+          "label": "○3",
+          "text": "生態池"
+        },
+        {
+          "label": "○4",
+          "text": "高山湖泊。"
+        }
+      ],
+      "accepted_science_answer_proposal": "③",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_02",
+      "science_explanation": "生態池為人造水域，其他列項為天然",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_010|S2|MC|2",
+      "original_school_PDF_SHA256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.24,
+        734.94,
+        90.26,
+        746.94
+      ],
+      "original_stem_exact": "魚的哪一個構造可以幫助牠保持平衡，控\r\n制游動的方向？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "魚鰓"
+        },
+        {
+          "label": "○2",
+          "text": "魚鱗"
+        },
+        {
+          "label": "○3",
+          "text": "魚口"
+        },
+        {
+          "label": "○4",
+          "text": "魚鰭。"
+        }
+      ],
+      "accepted_science_answer_proposal": "④",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_08",
+      "science_explanation": "魚鰭有助保持平衡及控制游動",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_010|S2|MC|3",
+      "original_school_PDF_SHA256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        42.24,
+        798.57,
+        90.26,
+        810.57
+      ],
+      "original_stem_exact": "小愷到戶外進行水域環境調查，他在紀錄\r\n表上寫著「水流較快，水質清澈，有許多\r\n水生動、植物。」他可能是到下列哪一個\r\n水域環境進行調查？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "水田"
+        },
+        {
+          "label": "○2",
+          "text": "溪流"
+        },
+        {
+          "label": "○3",
+          "text": "生態池"
+        },
+        {
+          "label": "○4",
+          "text": "河口溼地。"
+        }
+      ],
+      "accepted_science_answer_proposal": "②",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_02",
+      "science_explanation": "溪流水流較快且可觀察多種水生生物",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_010|S2|MC|6",
+      "original_school_PDF_SHA256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        374.59,
+        175.69,
+        422.59,
+        187.69
+      ],
+      "original_stem_exact": "下列哪一項是漂浮性水生植物和浮葉性\r\n水生植物相同的地方？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "根都沒有生\r\n長在水底的泥土裡"
+        },
+        {
+          "label": "○2",
+          "text": "整株植物會隨水\r\n流漂到其他地方"
+        },
+        {
+          "label": "○3",
+          "text": "水位低時，葉仍會浮\r\n在水面上"
+        },
+        {
+          "label": "○4",
+          "text": "莖都生長在水底的泥土裡。"
+        }
+      ],
+      "accepted_science_answer_proposal": "③",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_03",
+      "science_explanation": "漂浮及浮葉性植物均可有葉維持水面",
+      "operator_final_exact_question_approval": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_010|S2|MC|8",
+      "original_school_PDF_SHA256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "original_pdf_page": 1,
+      "original_answer_BBox": [
+        374.59,
+        357.52,
+        422.59,
+        369.52
+      ],
+      "original_stem_exact": "平常我們吃的蓮藕是荷花的哪一個部位\r\n呢？",
+      "original_options_exact": [
+        {
+          "label": "○1",
+          "text": "葉"
+        },
+        {
+          "label": "○2",
+          "text": "果實"
+        },
+        {
+          "label": "○3",
+          "text": "地下莖"
+        },
+        {
+          "label": "○4",
+          "text": "地下根。"
+        }
+      ],
+      "accepted_science_answer_proposal": "③",
+      "direct_frozen_113KP_candidate": "sci_g04s1_02_07",
+      "science_explanation": "蓮藕為荷花的地下莖",
+      "operator_final_exact_question_approval": false
+    }
+  ]
+}

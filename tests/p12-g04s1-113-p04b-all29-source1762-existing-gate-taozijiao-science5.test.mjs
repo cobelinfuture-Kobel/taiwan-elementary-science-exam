@@ -1,0 +1,55 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const r=n=>JSON.parse(readFileSync(new URL('../data/review/'+n,import.meta.url),'utf8'));
+const v15=r('p12-g04s1-113-p04b-all29-1762-noncertified-source-modes-v15.json');
+const v14=r('p12-g04s1-113-p04b-28papers-1670-one-remaining-taozijiao92-v14.json');
+const science=r('p12-g04s1-113-p04b-formal-existing-gate-taozijiao-s01-mc5-science-nonunique-suppression-v1.json');
+const publ=r('p12-g04s1-113-main-published178-source-suppression-readback-v12.json');
+const aut=JSON.parse(readFileSync(new URL('../site/data/authority/science-g03-g04-selector-v3.json',import.meta.url),'utf8'));
+test('P04B 29/29 original source response modes and provisional 1762 are neither completed formal original questions nor admissions',()=>{
+ assert.equal(v14.original_school_papers_with_per_original_response_ID_source_marker_or_parent_location_reconciled,28);
+ assert.equal(v14.source_original_work_response_target_IDs_NOT_formally_approved_questions,1670);
+ assert.equal(v15.original_113_G04S1_school_exam_PDFs_source_work_response_ID_parent_mode_itemized,29);
+ assert.equal(v15.original_exam_PDFs_in_scope_total,29);
+ assert.equal(v15.original_PDFs_outstanding_for_source_work_mode_itemization,0);
+ assert.equal(v15.original_work_response_target_IDs_total_PROVISIONAL_NONCERTIFIED,1762);
+ assert.equal(v15.final_Taozijiao_FINAL008_original_work_targets,92);
+ assert.equal(v15.source_work_target_count_1762_is_NOT_independently_accepted_student_exam_question_count,true);
+ assert.equal(v15.original_reading_article_BoyoScience_rights_HOLD,true);
+ assert.equal(v15.prior_natural_113_178_published_source_IDs_on_main_unchanged,178);
+ assert.equal(publ.all_unique_published_source_slot_ids.length,178);
+ assert.equal(v15.full_original_stem_options_parents_figures_context_exact_formal_rights_SCIENCE_UNIQUE_answer_direct48KP_DUPLICATE_operator_ADMISSION_29paper_closeouts,0);
+ assert.equal(v15.frozen_48KP_changed,false);
+ assert.deepEqual(v15.remaining_source_original_pdf_papers,[]);
+ for(const k of ['NEW_FORMAL_SCIENCE_KP_APPROVED','NEW_ADMISSION_READY','NEW_PUBLISHED'])assert.equal(v15[k],0);
+});
+test('Existing formal gate source-first 5 Taozijiao S01 multiple choice: main suppression Q3 and Q4, two plausible correct option candidates Q1/Q2, nonunique Q5 HOLD',()=>{
+ assert.equal(science.rows.length,5);
+ assert.equal(science.source_FIVE_independent_MC_stems_options_native_PDF_BBoxes_readback,5);
+ assert.equal(science.identified_already_main_PUBLISHED_these5,2);
+ assert.equal(science.discovered_multiple_wrong_options_current_original_question5,2);
+ assert.equal(science.science_candidate_single_correct_option_in_unpublished_Q1_Q2,2);
+ assert.equal(science.original_exam_article_AND_image_rights_not_auto_granted,true);
+ assert.equal(science.existing_113_main_published_sources_unchanged,178);
+ assert.deepEqual(science.rows.map(x=>x.main_already_published_reuse_and_suppress),[false,false,true,true,false]);
+ for(const item of science.rows){
+  assert.equal(item.original_options_ordered_1to4.length,4);
+  assert.equal(item.actual_original_PDF_native_printed_answer_bbox_pts_top_left.length,4);
+  assert.equal(item.original_PDF_page,1);
+  assert.equal(item.admission_ready,false);
+  assert.equal(item.student_question_publication_rights_cleared,false);
+  assert.equal(item.material_semantic_duplicates_crossyear_cleared,false);
+  if(item.main_already_published_reuse_and_suppress)assert.ok(publ.all_unique_published_source_slot_ids.includes(item.original_source_slot_id_provisional));
+ }
+ assert.deepEqual(science.rows[4].science_answer_candidate_option_indices,[1,2]);
+ assert.equal(science.rows[4].science_status,'HOLD_NON_UNIQUE_TWO_SCIENTIFICALLY_INCORRECT_OPTIONS');
+ assert.equal(science.rows[1].direct_frozen48KP_candidate_ID,'sci_g04s1_04_10');
+ const motorKP=aut.units.find(x=>x.grade===4&&x.semester===1&&x.unit_id==='U04')?.knowledge_points.find(x=>x.canonical_kp_id==='sci_g04s1_04_10');
+ assert.equal(motorKP?.title,'小馬達與電池極性');
+ assert.equal(science.rows[0].directKP_status.includes('HOLD_'),true);
+ assert.equal(science.new_science_FORMAL_operator_acceptance_in_this_checkpoint,0);
+ assert.equal(science.new_direct_KP_formal_acceptance_in_this_checkpoint,0);
+ assert.equal(science.new_dedup_rights_OPERATOR_ADMISSION_ready_in_this_checkpoint,0);
+ assert.equal(science.new_PUBLISHED,0);
+});

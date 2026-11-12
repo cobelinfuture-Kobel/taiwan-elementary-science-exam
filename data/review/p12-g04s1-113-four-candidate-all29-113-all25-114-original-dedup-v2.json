@@ -1,0 +1,91 @@
+{
+  "schema_version": "P12_G04S1_113_FOUR_CANDIDATE_ALL29_113_AND_ALL25_114_DUPLICATE_CLOSEOUT_V2",
+  "source_Draft_PR": 124,
+  "scope": "2026-10-19 exact 4 unpublished operator roster, G04 S1 frozen48, three original school PDFs; excludes 174 already published school source question IDs",
+  "exact_four_manifest_ref": "data/review/p12-g04s1-113-four-exact-science-supported-cohort-DRAFT-v1.json",
+  "registered_113_all29_source_ref": "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "public_113_published174_suppression_ref": "data/review/p12-g04s1-113-main-published174-source-suppression-readback-v11.json",
+  "original_113_registered_source_papers": 29,
+  "original_113_native_text_layer_papers": 24,
+  "original_113_native_text_layer_papers_readable": 24,
+  "native_stem_comparison_method": "Original registered school PDF native text, NFKC remove whitespace/punctuation, compare full stems exact and 10-character shingles >=50% coverage; only Dadun original paper contains Dadun MC003/MC014 stem. Former two scanned MC remain supported by prior 29 PDF source Gate.",
+  "native_source_exact_stem_hits_in_other_school_papers": 0,
+  "native_original_sole_Dadun_source_hits": 2,
+  "original_113_scanned_paper_count": 5,
+  "original_113_scanned_page_count": 16,
+  "original_113_scanned_raster_visual_readback": {
+    "source_papers": [
+      {
+        "source_id": "SCI_G04_S1_113_MID_002",
+        "source_title": "113_南一_四上_自然_期中評量卷_和順國小.pdf",
+        "source_original_pdf_sha256": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+        "page_count": 3,
+        "original_scanned_page_images_looked_at": true,
+        "original_MC003_MC014_same_stem_full_choices_identical": false,
+        "original_other_2_source_candidate_exact_identity_collision": false
+      },
+      {
+        "source_id": "SCI_G04_S1_113_FINAL_001",
+        "source_title": "113_南一_四上_自然_期末評量卷_和順國小.pdf",
+        "source_original_pdf_sha256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+        "page_count": 2,
+        "original_scanned_page_images_looked_at": true,
+        "original_MC003_MC014_same_stem_full_choices_identical": false,
+        "original_other_2_source_candidate_exact_identity_collision": false
+      },
+      {
+        "source_id": "SCI_G04_S1_113_FINAL_002",
+        "source_title": "113_南一_四上_自然_期末評量卷_忠孝國小.pdf",
+        "source_original_pdf_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+        "page_count": 4,
+        "original_scanned_page_images_looked_at": true,
+        "original_MC003_MC014_same_stem_full_choices_identical": false,
+        "original_other_2_source_candidate_exact_identity_collision": false
+      },
+      {
+        "source_id": "SCI_G04_S1_113_MID_006",
+        "source_title": "113_康軒_四上_自然_期中評量卷_內安國小.pdf",
+        "source_original_pdf_sha256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+        "page_count": 4,
+        "original_scanned_page_images_looked_at": true,
+        "original_MC003_MC014_same_stem_full_choices_identical": false,
+        "original_other_2_source_candidate_exact_identity_collision": false
+      },
+      {
+        "source_id": "SCI_G04_S1_113_FINAL_009",
+        "source_title": "113_康軒_四上_自然_期末評量卷_獅湖國小.pdf",
+        "source_original_pdf_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+        "page_count": 3,
+        "original_scanned_page_images_looked_at": true,
+        "original_MC003_MC014_same_stem_full_choices_identical": false,
+        "original_other_2_source_candidate_exact_identity_collision": false
+      }
+    ],
+    "note": "Original PDFs' upright page-raster images individually read for printed MC same stem/all four options identity; source scans are NOT republished. 5 source documents = 16 original pages."
+  },
+  "original_113_scanned_same_full_stem_and_all_four_choice_duplicate_in_Dadun_two": 0,
+  "original_114_original_25_school_exam_papers": 25,
+  "original_114_TFMC_verbatim_question_records": 717,
+  "original_114_original_source_stem_bigram_threshold": 0.46,
+  "original_114_identical_or_near_same_printed_question_stem_hits_in_Dadun_two": 0,
+  "prior_2_Heshun_Neian_source_duplicate_ref": "data/review/p12-g04s1-113-two-new-science-supported-113all29-114all25-source-duplicate-screen-v2.json",
+  "current_113_public_shards_source_identity_collision_in_four": 0,
+  "conclusion": "All four sources are distinct original full question+choice records against the frozen 113 29-school corpus, 114 25-school 717 original TFMC corpus, and currently published 174 source IDs. This clears source duplicate evidence component but does NOT automatically clear science operator signoff, legal release, or student publication.",
+  "materially_distinct_same_topic_variants_retained": true,
+  "duplicate_policy_2026_10_19_unchanged": true,
+  "independent_original_source_pdf_teacher_answer_keys_authenticated": false,
+  "source_crops_not_student_republished": true,
+  "summary": {
+    "source_candidate_stems_and_choices_compared": 4,
+    "original_113_exam_papers_covered": 29,
+    "original_113_raster_page_visuals_covered": 16,
+    "original_114_exam_papers_covered": 25,
+    "original_114_exam_TFMC_question_record_count": 717,
+    "original_main_113_published_source_ids_checked": 174,
+    "true_exact_or_only_choice_permutation_duplicates_discovered": 0,
+    "formal_science_kp_new_approved": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "next_resume_task": "P12_G04S1_113_FOUR_UNPUBLISHED_SOURCE_EXACT_DUPLICATE_113_ALL29_114_ALL25_COMPLETE__ARTICLE9_EXAM_TEXT_ONLY_RIGHTS_EXACT_4__OPERATOR_COHORT_SIGNOFF__IF_SIGNED_SELECTIVE_STUDENT_PR_CI_MAIN_PAGESLIVE"
+}

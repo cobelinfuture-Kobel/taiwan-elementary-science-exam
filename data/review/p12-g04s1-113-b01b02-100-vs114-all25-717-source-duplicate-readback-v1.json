@@ -1,0 +1,103 @@
+{
+  "schema_version": "P12_G04S1_113_B01B02_100_ORIGINAL114_25_717_CROSSYEAR_SOURCE_MATCH_CLOSEOUT_V1",
+  "scope": "113 G04 S1 B01+B02 source review 100 original answer positions; 114 year v25 original content-only archives 25 source PDFs 717 source question records",
+  "method": "Full original stem and all ordered alternatives normalized for exact comparison; >=0.82 bigram Dice similarity is an alert only, not formal semantic-dedup verdict.",
+  "checks": {
+    "published113_v9_suppression_applied_in_B01_B02_queue": true,
+    "original114_papers_count": 25,
+    "original114_source_record_count": 717,
+    "current113_source_positions": 100,
+    "within_B01B02_exact_answer_text_pairs": 5,
+    "crossyear_113_114_exact_match_pairs": 4,
+    "crossyear_113_114_exact_matching_current_positions": 4,
+    "crossyear_113_114_near_matches": 2,
+    "new_admission_ready": 0,
+    "new_public_admissions": 0
+  },
+  "crossyear_matches": [
+    {
+      "current113_id": "SCI_G04_S1_113_MID_001|S2|MC|2",
+      "archive114_id": "SCI_G04_S1_114_MID_002|S1|MC|003",
+      "archive_file": "p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "comparison": "POSSIBLE_SEMANTIC_OVERLAP_STEM_2GRAM",
+      "stem_dice": 0.886,
+      "requires_independent_answer_event_adjudication": true
+    },
+    {
+      "current113_id": "SCI_G04_S1_113_MID_004|S2|TF|7",
+      "archive114_id": "SCI_G04_S1_114_MID_002|S2|TF|015",
+      "archive_file": "p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+      "comparison": "POSSIBLE_SEMANTIC_OVERLAP_STEM_2GRAM",
+      "stem_dice": 0.865,
+      "requires_independent_answer_event_adjudication": true
+    },
+    {
+      "current113_id": "SCI_G04_S1_113_MID_004|S2|TF|17",
+      "archive114_id": "SCI_G04_S1_114_MID_001|TF|S01|010",
+      "archive_file": "p12-art9-114-yongan-g04s1-mid20-original-questions-v1-content-v1.json",
+      "comparison": "EXACT_STEM_AND_OPTIONS",
+      "stem_dice": 1,
+      "requires_independent_answer_event_adjudication": false
+    },
+    {
+      "current113_id": "SCI_G04_S1_113_MID_004|S1|MC|4",
+      "archive114_id": "SCI_G04_S1_114_MID_001|MC|S02|001",
+      "archive_file": "p12-art9-114-yongan-g04s1-mid20-original-questions-v1-content-v1.json",
+      "comparison": "EXACT_STEM_AND_OPTIONS",
+      "stem_dice": 1,
+      "requires_independent_answer_event_adjudication": false
+    },
+    {
+      "current113_id": "SCI_G04_S1_113_MID_001|S2|MC|9",
+      "archive114_id": "SCI_G04_S1_114_MID_001|MC|S02|007",
+      "archive_file": "p12-art9-114-yongan-g04s1-mid20-original-questions-v1-content-v1.json",
+      "comparison": "EXACT_STEM_AND_OPTIONS",
+      "stem_dice": 1,
+      "requires_independent_answer_event_adjudication": false
+    },
+    {
+      "current113_id": "SCI_G04_S1_113_MID_004|S1|MC|2",
+      "archive114_id": "SCI_G04_S1_114_MID_001|MC|S02|007",
+      "archive_file": "p12-art9-114-yongan-g04s1-mid20-original-questions-v1-content-v1.json",
+      "comparison": "EXACT_STEM_AND_OPTIONS",
+      "stem_dice": 1,
+      "requires_independent_answer_event_adjudication": false
+    }
+  ],
+  "within_113_B01B02_exact_pairs": [
+    {
+      "first": "SCI_G04_S1_113_MID_001|S2|MC|11",
+      "second": "SCI_G04_S1_113_MID_003|S2|MC|4",
+      "source_text_and_ordered_options_exact": true
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_001|S2|MC|9",
+      "second": "SCI_G04_S1_113_MID_004|S1|MC|2",
+      "source_text_and_ordered_options_exact": true
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_001|S1|TF|1",
+      "second": "SCI_G04_S1_113_MID_004|S2|TF|9",
+      "source_text_and_ordered_options_exact": true
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_001|S1|TF|15",
+      "second": "SCI_G04_S1_113_MID_004|S2|TF|11",
+      "source_text_and_ordered_options_exact": true
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_001|S1|TF|3",
+      "second": "SCI_G04_S1_113_MID_004|S2|TF|14",
+      "source_text_and_ordered_options_exact": true
+    }
+  ],
+  "source_shards": [
+    "p12-g04s1-113-b01b02-100-vs114-original-dedup-shard01-v1.json",
+    "p12-g04s1-113-b01b02-100-vs114-original-dedup-shard02-v1.json",
+    "p12-g04s1-113-b01b02-100-vs114-original-dedup-shard03-v1.json"
+  ],
+  "full_semantic_duplicate_review_completed": false,
+  "operator_rights_gate_complete": false,
+  "do_not_auto_release_from_score": true,
+  "next": "For each direct-KP and science-unique answer event, compare semantic equivalence with already published 113/114 learner bank; exact source duplications stay lineage-only; unresolved semantic items HOLD without blocking others."
+}

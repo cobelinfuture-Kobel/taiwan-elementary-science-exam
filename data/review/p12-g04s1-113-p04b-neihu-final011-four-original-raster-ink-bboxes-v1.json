@@ -1,0 +1,233 @@
+{
+  "schema_version": "P12_G04S1_113_P04B_NEIHU_FINAL011_FOUR_ORIGINAL_EMBEDDED_RASTER_BOXES_EXACT_V1",
+  "source_only_draft_pr": 124,
+  "paper_id": "SCI_G04_S1_113_FINAL_011",
+  "school": "內湖國小",
+  "source_pdf_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+  "original_pdf_pages": 4,
+  "original_image_page": 3,
+  "image_xref": 557,
+  "original_raw_pdf_sha256_local_readback_verified": true,
+  "original_image_native_width_px": 262,
+  "original_image_native_height_px": 130,
+  "exact_four_image_source_ink_BBoxes": 4,
+  "replaced_prior_four_RENDER_APPROX_crops_without_replacing_original_frozen_proof": true,
+  "prior_source_id_semantic70plus1_ref": "data/review/p12-g04s1-113-p04b-neihu-final71-source-identity-67exact-4approx-hold-v1.json",
+  "prior_visual_figure_ref": "data/review/p12-g04s1-113-p04b-neihu-final10-image-vector-response-regions-v1.json",
+  "prior_neihu_61_native_source_ref": "data/review/p12-g04s1-113-p04b-neihu-final61-native-answer-marker-bbox-v1.json",
+  "source_workflow": "Sha-verified original PDF bytes; PyMuPDF page3 image xref557 extract 262x130; original PDF transform read; visually inspect original 4 square markers in 2x2 beam experiment panel; local gray<165, each ROI connected-components 8-connectivity yields single closed-square original ink component 15x15 or 15x16 pixels; physical ink pixel bbox mapped through original image transform to original PDF top-left points; no OCR nor 150%-page rendered estimates used as exact.",
+  "source_frozen48KP_and_rights_untouched": true,
+  "full_original_question_figure_parent_rights_verified": false,
+  "still_not_full_SOURCE_EXACT_gate": true,
+  "original_semantic_source_IDs_with_exact_physical_answer_marker_geometry": 71,
+  "original_independent_response_marker_BBox_count_at_source_proof": 71,
+  "original_teacher_answer_key_authenticated": false,
+  "formal_full_paper_gate_closed": false,
+  "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+  "ADMISSION_READY_new": 0,
+  "PUBLISHED_new": 0,
+  "student_bank_public_images_uploaded": false,
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04|G07|TF|001",
+      "source_original_PDF_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+      "original_pdf_page": 3,
+      "original_embedded_image_xref": 557,
+      "original_embedded_image_native_pixels": [
+        262,
+        130
+      ],
+      "original_embed_image_transform_pdf_points": [
+        206.29185485839844,
+        0,
+        0,
+        187.1951904296875,
+        308.510009765625,
+        601.625
+      ],
+      "original_image_placement_pdf_bbox": [
+        308.510009765625,
+        601.625,
+        514.8018798828125,
+        788.8201904296875
+      ],
+      "original_pixel_ink_component_bbox_px": [
+        6,
+        3,
+        21,
+        19
+      ],
+      "actual_original_pdf_page_answer_bbox_pts_top_left": [
+        313.234,
+        605.945,
+        325.045,
+        628.984
+      ],
+      "measured_connected_component_dark_pixel_area": 52,
+      "source_answer_geometry_type": "EXACT_ORIGINAL_EMBEDDED_IMAGE_BOX_BORDER_COMPONENT",
+      "scan_ocr_used": false,
+      "original_shared_image_parent_group": "S04_G07",
+      "existing_approx_render_page_bbox_px_retained_for_comparison": [
+        466,
+        909,
+        488,
+        942
+      ],
+      "image_and_full_parent_science_kp_rights_gate_pending": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04|G07|TF|002",
+      "source_original_PDF_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+      "original_pdf_page": 3,
+      "original_embedded_image_xref": 557,
+      "original_embedded_image_native_pixels": [
+        262,
+        130
+      ],
+      "original_embed_image_transform_pdf_points": [
+        206.29185485839844,
+        0,
+        0,
+        187.1951904296875,
+        308.510009765625,
+        601.625
+      ],
+      "original_image_placement_pdf_bbox": [
+        308.510009765625,
+        601.625,
+        514.8018798828125,
+        788.8201904296875
+      ],
+      "original_pixel_ink_component_bbox_px": [
+        136,
+        3,
+        151,
+        19
+      ],
+      "actual_original_pdf_page_answer_bbox_pts_top_left": [
+        415.593,
+        605.945,
+        427.403,
+        628.984
+      ],
+      "measured_connected_component_dark_pixel_area": 53,
+      "source_answer_geometry_type": "EXACT_ORIGINAL_EMBEDDED_IMAGE_BOX_BORDER_COMPONENT",
+      "scan_ocr_used": false,
+      "original_shared_image_parent_group": "S04_G07",
+      "existing_approx_render_page_bbox_px_retained_for_comparison": [
+        621,
+        909,
+        642,
+        942
+      ],
+      "image_and_full_parent_science_kp_rights_gate_pending": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04|G07|TF|003",
+      "source_original_PDF_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+      "original_pdf_page": 3,
+      "original_embedded_image_xref": 557,
+      "original_embedded_image_native_pixels": [
+        262,
+        130
+      ],
+      "original_embed_image_transform_pdf_points": [
+        206.29185485839844,
+        0,
+        0,
+        187.1951904296875,
+        308.510009765625,
+        601.625
+      ],
+      "original_image_placement_pdf_bbox": [
+        308.510009765625,
+        601.625,
+        514.8018798828125,
+        788.8201904296875
+      ],
+      "original_pixel_ink_component_bbox_px": [
+        6,
+        67,
+        21,
+        82
+      ],
+      "actual_original_pdf_page_answer_bbox_pts_top_left": [
+        313.234,
+        698.103,
+        325.045,
+        719.702
+      ],
+      "measured_connected_component_dark_pixel_area": 54,
+      "source_answer_geometry_type": "EXACT_ORIGINAL_EMBEDDED_IMAGE_BOX_BORDER_COMPONENT",
+      "scan_ocr_used": false,
+      "original_shared_image_parent_group": "S04_G07",
+      "existing_approx_render_page_bbox_px_retained_for_comparison": [
+        466,
+        1047,
+        488,
+        1078
+      ],
+      "image_and_full_parent_science_kp_rights_gate_pending": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_011|S04|G07|TF|004",
+      "source_original_PDF_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+      "original_pdf_page": 3,
+      "original_embedded_image_xref": 557,
+      "original_embedded_image_native_pixels": [
+        262,
+        130
+      ],
+      "original_embed_image_transform_pdf_points": [
+        206.29185485839844,
+        0,
+        0,
+        187.1951904296875,
+        308.510009765625,
+        601.625
+      ],
+      "original_image_placement_pdf_bbox": [
+        308.510009765625,
+        601.625,
+        514.8018798828125,
+        788.8201904296875
+      ],
+      "original_pixel_ink_component_bbox_px": [
+        136,
+        67,
+        151,
+        82
+      ],
+      "actual_original_pdf_page_answer_bbox_pts_top_left": [
+        415.593,
+        698.103,
+        427.403,
+        719.702
+      ],
+      "measured_connected_component_dark_pixel_area": 53,
+      "source_answer_geometry_type": "EXACT_ORIGINAL_EMBEDDED_IMAGE_BOX_BORDER_COMPONENT",
+      "scan_ocr_used": false,
+      "original_shared_image_parent_group": "S04_G07",
+      "existing_approx_render_page_bbox_px_retained_for_comparison": [
+        621,
+        1047,
+        642,
+        1078
+      ],
+      "image_and_full_parent_science_kp_rights_gate_pending": true,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "next_gate": "With 71/71 source identity/marker geometry recovered, examine exact full original child stems, options, image figure parent rights, science unique answer frozen48KP, distinct-wording duplicates, existing cohort operator manifest before source Admission. This native image locator must not auto publish original source image."
+}

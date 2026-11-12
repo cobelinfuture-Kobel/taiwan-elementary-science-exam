@@ -1,0 +1,36 @@
+{
+  "schema_version": "P12_113_NEIAN_MID15_AGAINST_114_FINAL366_CROSS_PERIOD_ORIGINAL_TEXT_OPTIONS_V1",
+  "source_pr": 124,
+  "source_corpus": "data/source-archive/p12-art9-114-g04s1-public-original-source-corpus-current-v25.json",
+  "original_114_final_exam_papers": 13,
+  "original_114_final_TFMC_verbatim_source_records": 366,
+  "target_113_Neian_MID_supported_including_reordered_mid_MC002": 15,
+  "normalized_stem_bigram_threshold": 0.46,
+  "near_text_pairs": [
+    {
+      "target": "SCI_G04_S1_113_MID_006|S2|MC|002",
+      "original114_source": "SCI_G04_S1_114_FINAL_002|S2|MC|007",
+      "stem_similarity": 0.5,
+      "original_114_question_text": "下列哪一項行為會產生空氣汙染呢？",
+      "all_choice_options_same_if_MC": false,
+      "exact_same_source_text_and_options": false
+    },
+    {
+      "target": "SCI_G04_S1_113_MID_006|S2|MC|006",
+      "original114_source": "SCI_G04_S1_114_FINAL_001|MC|S02|003",
+      "stem_similarity": 0.5455,
+      "original_114_question_text": "下列哪一項屬於環保的「綠色能源」？",
+      "all_choice_options_same_if_MC": false,
+      "exact_same_source_text_and_options": false
+    }
+  ],
+  "new_exact_duplicate_pairs": [],
+  "summary": {
+    "other_period_114_final_records_compared": 366,
+    "new_duplicate_pairs": 0,
+    "comparison_target_source_positions": 15,
+    "ADMISSION_READY_new": 0,
+    "PUBLISHED_new": 0
+  },
+  "other_113_unpublished_all29_full_text_still_unavailable": true
+}

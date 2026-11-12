@@ -1,0 +1,836 @@
+{
+  "schema_version": "P12_G04S1_113_B08_POTENTIAL17_PARENT_TEXT_SCIENCE_KP_SOURCE_ONLY_V1",
+  "source_worklist_ref": "data/review/p12-g04s1-113-other-dependent-b08-source-parent-preflight-v1.json",
+  "native_bbox_crosswalk_ref": "data/review/p12-g04s1-113-b08-native50-original-bbox-id-crosswalk-v1.json",
+  "authority": "113_KANGHSUAN_G04S1_FROZEN48KP",
+  "paper_count": 3,
+  "frozen_source_positions": 50,
+  "highest_priority_original_MC_context_child_7": [
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393
+  ],
+  "secondary_matching_context_codebank_child_10": [
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    394,
+    395,
+    396,
+    397
+  ],
+  "other_33_source_HOLD": [
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    398,
+    399,
+    400
+  ],
+  "nonunique_matching_HOLD_2": [
+    {
+      "ordinal": 368,
+      "original_text": "導護志工的反光背心。",
+      "reason": "既可視為光的反射現象（C），亦具指示與警示用途（B）；原題沒有提供排他性判準。",
+      "possible_codes": [
+        "B",
+        "C"
+      ],
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|007"
+    },
+    {
+      "ordinal": 369,
+      "original_text": "手影遊戲。",
+      "reason": "光直線行進形成影子（D），但手影遊戲亦屬光的娛樂（A）；原題沒有提供排他性判準。",
+      "possible_codes": [
+        "A",
+        "D"
+      ],
+      "original_source_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|008"
+    }
+  ],
+  "original_quote_page_source": "Connected original 3 Google Drive PDF text-layer read; precise layout and original question parent page coordinates distinct from answer BBox",
+  "source_rights_route": "Taiwan Article9 school administered exam text only; no parent if third party sourced; all parent and codebank publication provisional",
+  "parent_groups": {
+    "ANHE_S03_G02": {
+      "source": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "original_instruction": "(二) 下列有關光線的作用與現象，請填入正確的代號。",
+      "original_code_bank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "source_paper": "SCI_G04_S1_113_FINAL_006",
+      "original_picture_parent_in_this_group": false
+    },
+    "CHENGGONG_S03_G04": {
+      "source": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+      "original_instruction": "4.賈老師的自然課，要同學們把假日到水域環境調查的結果寫在黑板上，請你依據他們的報告來回答下列問題。",
+      "original_shared_column_labels": [
+        "第一組",
+        "第二組"
+      ],
+      "original_row_headings": [
+        "水的深度",
+        "水域情形",
+        "觀察到的生物"
+      ],
+      "source_pdf_extracted_facts": {
+        "first_group": [
+          "水淺",
+          "水流緩慢",
+          "有浮萍"
+        ],
+        "second_group": [
+          "水深",
+          "廣闊無邊",
+          "有海藻"
+        ]
+      },
+      "source_layout_column_alignment_visually_accepted": false,
+      "source_paper": "SCI_G04_S1_113_MID_018"
+    },
+    "CHENGGONG_S03_G05": {
+      "source": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+      "original_instruction": "5.根據紀錄回答問題。",
+      "original_speaker_statements": [
+        [
+          "書鴻",
+          "利用腳爬行和游泳，用鰓呼吸。"
+        ],
+        [
+          "友佳",
+          "幼體用鰓呼吸，長大後會變成用肺和潮溼的皮膚呼吸。"
+        ],
+        [
+          "阿力",
+          "沒有腳，利用腹足爬行，以鰓呼吸。"
+        ],
+        [
+          "雅萍",
+          "腹部末端有呼吸管，中、後腳細長，可以游泳、爬行。"
+        ]
+      ],
+      "source_paper": "SCI_G04_S1_113_MID_018"
+    },
+    "CHENGGONG_S04_G01": {
+      "source": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+      "original_instruction": "1.下列的水生生物一般是生活在哪種水域環境裡？填入正確代號。",
+      "original_code_bank": [
+        [
+          "A",
+          "河川"
+        ],
+        [
+          "B",
+          "海洋"
+        ]
+      ],
+      "source_paper": "SCI_G04_S1_113_MID_018"
+    }
+  },
+  "records": [
+    {
+      "ordinal": 387,
+      "source_original_school_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|001",
+      "source_worklist_alias_id": "SCI_G04_S1_113_MID_018|S3|G4|GROUP_MC|1",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "answer_bbox_pdf_pts": [
+        30.24,
+        697.18,
+        72.36,
+        711.22
+      ],
+      "answer_bbox_provenance": "PDF_NATIVE_PRINTED_ANSWER_BRACKET",
+      "source_parent_group": "CHENGGONG_S03_G04",
+      "source_child_text_original_visible": "石田螺可以在哪一組的水域環境中生存？",
+      "original_ordered_choice_text_without_printed_choice_glyphs": [
+        "第一組",
+        "第二組",
+        "兩者皆可"
+      ],
+      "science_model_answer_proposal_not_school_key": "①",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_02",
+      "model_science_reason": "第一組水淺、水流緩慢且有浮萍，為淡水水域，適合一般石田螺；第二組為有海藻的廣闊海域",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 388,
+      "source_original_school_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|002",
+      "source_worklist_alias_id": "SCI_G04_S1_113_MID_018|S3|G4|GROUP_MC|2",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "answer_bbox_pdf_pts": [
+        30.24,
+        734.62,
+        72.36,
+        748.66
+      ],
+      "answer_bbox_provenance": "PDF_NATIVE_PRINTED_ANSWER_BRACKET",
+      "source_parent_group": "CHENGGONG_S03_G04",
+      "source_child_text_original_visible": "小丑魚可以在哪一組的水域環境中生存？",
+      "original_ordered_choice_text_without_printed_choice_glyphs": [
+        "第一組",
+        "第二組",
+        "兩者皆可"
+      ],
+      "science_model_answer_proposal_not_school_key": "②",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_02",
+      "model_science_reason": "小丑魚為海洋生物，符合第二組水深、廣闊且有海藻的水域",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 389,
+      "source_original_school_id": "SCI_G04_S1_113_MID_018|S03|G04|MC|003",
+      "source_worklist_alias_id": "SCI_G04_S1_113_MID_018|S3|G4|GROUP_MC|3",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "answer_bbox_pdf_pts": [
+        28.32,
+        772.09,
+        70.44,
+        786.13
+      ],
+      "answer_bbox_provenance": "PDF_NATIVE_PRINTED_ANSWER_BRACKET",
+      "source_parent_group": "CHENGGONG_S03_G04",
+      "source_child_text_original_visible": "到哪一組調查的水域環境觀察時需要將撈起來觀察的水生生物放回原來的環境？",
+      "original_ordered_choice_text_without_printed_choice_glyphs": [
+        "第一組",
+        "第二組",
+        "兩組都需要"
+      ],
+      "science_model_answer_proposal_not_school_key": "③",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_14",
+      "model_science_reason": "水域實地調查不應任意帶走生物，淡水與海洋兩組都應尊重原生環境",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 390,
+      "source_original_school_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|001",
+      "source_worklist_alias_id": "SCI_G04_S1_113_MID_018|S3|G5|GROUP_MC|1",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "answer_bbox_pdf_pts": [
+        40.32,
+        957.13,
+        82.46,
+        971.17
+      ],
+      "answer_bbox_provenance": "PDF_NATIVE_PRINTED_ANSWER_BRACKET",
+      "source_parent_group": "CHENGGONG_S03_G05",
+      "source_child_text_original_visible": "書鴻觀察的水生動物可能是",
+      "original_ordered_choice_text_without_printed_choice_glyphs": [
+        "紅娘華",
+        "青蛙",
+        "蟹",
+        "石田螺"
+      ],
+      "science_model_answer_proposal_not_school_key": "③",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_09",
+      "model_science_reason": "能利用腳爬行與游泳、以鰓呼吸者符合蟹",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 391,
+      "source_original_school_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|002",
+      "source_worklist_alias_id": "SCI_G04_S1_113_MID_018|S3|G5|GROUP_MC|2",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "answer_bbox_pdf_pts": [
+        386.83,
+        31.35,
+        428.95,
+        45.39
+      ],
+      "answer_bbox_provenance": "PDF_NATIVE_PRINTED_ANSWER_BRACKET",
+      "source_parent_group": "CHENGGONG_S03_G05",
+      "source_child_text_original_visible": "友佳觀察的水生動物可能是",
+      "original_ordered_choice_text_without_printed_choice_glyphs": [
+        "紅娘華",
+        "青蛙",
+        "蟹",
+        "石田螺"
+      ],
+      "science_model_answer_proposal_not_school_key": "②",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_09",
+      "model_science_reason": "青蛙幼體主要用鰓呼吸，成體以肺與潮溼皮膚交換氣體",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 392,
+      "source_original_school_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|003",
+      "source_worklist_alias_id": "SCI_G04_S1_113_MID_018|S3|G5|GROUP_MC|3",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "answer_bbox_pdf_pts": [
+        386.83,
+        69.75,
+        428.95,
+        83.79
+      ],
+      "answer_bbox_provenance": "PDF_NATIVE_PRINTED_ANSWER_BRACKET",
+      "source_parent_group": "CHENGGONG_S03_G05",
+      "source_child_text_original_visible": "阿力觀察的水生動物可能是",
+      "original_ordered_choice_text_without_printed_choice_glyphs": [
+        "紅娘華",
+        "青蛙",
+        "蟹",
+        "石田螺"
+      ],
+      "science_model_answer_proposal_not_school_key": "④",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_09",
+      "model_science_reason": "石田螺用腹足爬行，水生螺類利用鰓呼吸",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 393,
+      "source_original_school_id": "SCI_G04_S1_113_MID_018|S03|G05|MC|004",
+      "source_worklist_alias_id": "SCI_G04_S1_113_MID_018|S3|G5|GROUP_MC|4",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "answer_bbox_pdf_pts": [
+        386.83,
+        108.29,
+        428.95,
+        122.33
+      ],
+      "answer_bbox_provenance": "PDF_NATIVE_PRINTED_ANSWER_BRACKET",
+      "source_parent_group": "CHENGGONG_S03_G05",
+      "source_child_text_original_visible": "雅萍觀察的水生動物可能是",
+      "original_ordered_choice_text_without_printed_choice_glyphs": [
+        "紅娘華",
+        "青蛙",
+        "蟹",
+        "石田螺"
+      ],
+      "science_model_answer_proposal_not_school_key": "①",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_09",
+      "model_science_reason": "紅娘華腹端具呼吸管並用足游泳與攀爬",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 362,
+      "source_original_school_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|001",
+      "source_worklist_alias_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|1",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "answer_bbox_pdf_pts": [
+        371.1,
+        233.3,
+        406.2,
+        247.4
+      ],
+      "answer_bbox_provenance": "ORIGINAL_PDF_NATIVE_TEXT_CHARS",
+      "source_parent_group": "ANHE_S03_G02",
+      "source_child_text_original_visible": "兩面鏡子中的橡皮擦。",
+      "original_code_bank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "science_model_answer_proposal_not_school_key": "C",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_03_07",
+      "model_science_reason": "原卷 A–D 配對代號依題述文字與光學知識判斷；保留共用代號，不改成單選題。",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 363,
+      "source_original_school_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|002",
+      "source_worklist_alias_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|2",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "answer_bbox_pdf_pts": [
+        371.1,
+        251.4,
+        406.2,
+        265.5
+      ],
+      "answer_bbox_provenance": "ORIGINAL_PDF_NATIVE_TEXT_CHARS",
+      "source_parent_group": "ANHE_S03_G02",
+      "source_child_text_original_visible": "救護車上的閃燈。",
+      "original_code_bank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "science_model_answer_proposal_not_school_key": "B",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_03_09",
+      "model_science_reason": "原卷 A–D 配對代號依題述文字與光學知識判斷；保留共用代號，不改成單選題。",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 364,
+      "source_original_school_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|003",
+      "source_worklist_alias_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|3",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "answer_bbox_pdf_pts": [
+        371.1,
+        269.7,
+        406.2,
+        283.8
+      ],
+      "answer_bbox_provenance": "ORIGINAL_PDF_NATIVE_TEXT_CHARS",
+      "source_parent_group": "ANHE_S03_G02",
+      "source_child_text_original_visible": "月光下的人影。",
+      "original_code_bank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "science_model_answer_proposal_not_school_key": "D",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_03_06",
+      "model_science_reason": "原卷 A–D 配對代號依題述文字與光學知識判斷；保留共用代號，不改成單選題。",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 365,
+      "source_original_school_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|004",
+      "source_worklist_alias_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|4",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "answer_bbox_pdf_pts": [
+        371.1,
+        287.9,
+        406.2,
+        302
+      ],
+      "answer_bbox_provenance": "ORIGINAL_PDF_NATIVE_TEXT_CHARS",
+      "source_parent_group": "ANHE_S03_G02",
+      "source_child_text_original_visible": "歡樂耶誕城的燈飾。",
+      "original_code_bank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "science_model_answer_proposal_not_school_key": "A",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_03_10",
+      "model_science_reason": "原卷 A–D 配對代號依題述文字與光學知識判斷；保留共用代號，不改成單選題。",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 366,
+      "source_original_school_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|005",
+      "source_worklist_alias_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|5",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "answer_bbox_pdf_pts": [
+        371.1,
+        306.2,
+        406.2,
+        320.3
+      ],
+      "answer_bbox_provenance": "ORIGINAL_PDF_NATIVE_TEXT_CHARS",
+      "source_parent_group": "ANHE_S03_G02",
+      "source_child_text_original_visible": "街角轉彎處的反光鏡。",
+      "original_code_bank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "science_model_answer_proposal_not_school_key": "C",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_03_08",
+      "model_science_reason": "原卷 A–D 配對代號依題述文字與光學知識判斷；保留共用代號，不改成單選題。",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 367,
+      "source_original_school_id": "SCI_G04_S1_113_FINAL_006|S03|G02|MATCH|006",
+      "source_worklist_alias_id": "SCI_G04_S1_113_FINAL_006|S3|G2|MATCHING|6",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "answer_bbox_pdf_pts": [
+        371.1,
+        324.3,
+        406.2,
+        338.4
+      ],
+      "answer_bbox_provenance": "ORIGINAL_PDF_NATIVE_TEXT_CHARS",
+      "source_parent_group": "ANHE_S03_G02",
+      "source_child_text_original_visible": "行人穿越號誌燈。",
+      "original_code_bank": [
+        [
+          "A",
+          "光的娛樂與裝飾"
+        ],
+        [
+          "B",
+          "光的指示與警示"
+        ],
+        [
+          "C",
+          "光的反射現象"
+        ],
+        [
+          "D",
+          "光的直線行進"
+        ]
+      ],
+      "science_model_answer_proposal_not_school_key": "B",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_03_09",
+      "model_science_reason": "原卷 A–D 配對代號依題述文字與光學知識判斷；保留共用代號，不改成單選題。",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 394,
+      "source_original_school_id": "SCI_G04_S1_113_MID_018|S04|G01|MATCH|001",
+      "source_worklist_alias_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|1",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "answer_bbox_pdf_pts": [
+        517.83,
+        222.3,
+        538.88,
+        234.21
+      ],
+      "answer_bbox_provenance": "ORIGINAL_PDF_VECTOR_AQUATIC_FIGURE_LABEL_BOX",
+      "source_parent_group": "CHENGGONG_S04_G01",
+      "source_child_text_original_visible": "苦花魚",
+      "original_code_bank": [
+        [
+          "A",
+          "河川"
+        ],
+        [
+          "B",
+          "海洋"
+        ]
+      ],
+      "science_model_answer_proposal_not_school_key": "A",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_02",
+      "model_science_reason": "原卷問一般生存水域；苦花魚與臺灣水龍以淡水河川為主，小丑魚及海藻以海洋為主。",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 395,
+      "source_original_school_id": "SCI_G04_S1_113_MID_018|S04|G01|MATCH|002",
+      "source_worklist_alias_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|2",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "answer_bbox_pdf_pts": [
+        652.22,
+        222.3,
+        673.28,
+        234.21
+      ],
+      "answer_bbox_provenance": "ORIGINAL_PDF_VECTOR_AQUATIC_FIGURE_LABEL_BOX",
+      "source_parent_group": "CHENGGONG_S04_G01",
+      "source_child_text_original_visible": "小丑魚",
+      "original_code_bank": [
+        [
+          "A",
+          "河川"
+        ],
+        [
+          "B",
+          "海洋"
+        ]
+      ],
+      "science_model_answer_proposal_not_school_key": "B",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_02",
+      "model_science_reason": "原卷問一般生存水域；苦花魚與臺灣水龍以淡水河川為主，小丑魚及海藻以海洋為主。",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 396,
+      "source_original_school_id": "SCI_G04_S1_113_MID_018|S04|G01|MATCH|003",
+      "source_worklist_alias_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|3",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "answer_bbox_pdf_pts": [
+        517.83,
+        290.51,
+        538.88,
+        302.38
+      ],
+      "answer_bbox_provenance": "ORIGINAL_PDF_VECTOR_AQUATIC_FIGURE_LABEL_BOX",
+      "source_parent_group": "CHENGGONG_S04_G01",
+      "source_child_text_original_visible": "海藻",
+      "original_code_bank": [
+        [
+          "A",
+          "河川"
+        ],
+        [
+          "B",
+          "海洋"
+        ]
+      ],
+      "science_model_answer_proposal_not_school_key": "B",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_02",
+      "model_science_reason": "原卷問一般生存水域；苦花魚與臺灣水龍以淡水河川為主，小丑魚及海藻以海洋為主。",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    },
+    {
+      "ordinal": 397,
+      "source_original_school_id": "SCI_G04_S1_113_MID_018|S04|G01|MATCH|004",
+      "source_worklist_alias_id": "SCI_G04_S1_113_MID_018|S4|MATCH_AND_TRUE_FALSE|4",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "answer_bbox_pdf_pts": [
+        652.22,
+        290.51,
+        673.28,
+        302.38
+      ],
+      "answer_bbox_provenance": "ORIGINAL_PDF_VECTOR_AQUATIC_FIGURE_LABEL_BOX",
+      "source_parent_group": "CHENGGONG_S04_G01",
+      "source_child_text_original_visible": "臺灣水龍",
+      "original_code_bank": [
+        [
+          "A",
+          "河川"
+        ],
+        [
+          "B",
+          "海洋"
+        ]
+      ],
+      "science_model_answer_proposal_not_school_key": "A",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_02",
+      "model_science_reason": "原卷問一般生存水域；苦花魚與臺灣水龍以淡水河川為主，小丑魚及海藻以海洋為主。",
+      "source_parent_original_full_context_verified_text_layer": true,
+      "source_parent_exact_layout_or_source_rights_final_accepted": false,
+      "direct_frozenKP_model_proposal_not_formal_gate": true,
+      "student_renderer_original_format_supported": false,
+      "rights_original_exam_only_pending": true,
+      "formal_scienceKP_approved": false,
+      "admission_ready": false,
+      "published": false,
+      "pdf_page_1based": 2
+    }
+  ],
+  "science_and_KP_proposals": 17,
+  "FORMAL_SCIENCE_KP_APPROVED_NEW": 0,
+  "ADMISSION_READY_NEW": 0,
+  "PUBLISHED_NEW": 0,
+  "SCHOOL_TEACHER_ANSWER_KEY_VERIFIED": false,
+  "full_113_114_duplicate_Gate_complete": false,
+  "operator_exact_cohort_approved": false,
+  "B01_B07_no_reopen": true,
+  "NEXT_RESUME_TASK": "P12_G04S1_113_B08_ContextMC7_FirstOriginalSourceParentTable_114717PublicDedup_RightsAndScienceKP_ThenExactOperatorCohort_10MatchingRendererGate_33HOLD_NoB01ToB07Reopen"
+}

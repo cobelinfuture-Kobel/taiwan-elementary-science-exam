@@ -1,0 +1,51 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const rd=n=>JSON.parse(readFileSync(new URL('../data/review/'+n,import.meta.url),'utf8'));
+const x=rd('p12-g04s1-113-p04b-dongguang-final003-remaining26-native16-circle7-draw3-holds-v1.json');
+const old=rd('p12-g04s1-113-p04b-dongguang-final003-four-native-short-answers-parent-linked-v1.json');
+const registry=rd('p12-g04s1-113-all29-kp48-source-firstpass-v1.json');
+const v7=rd('p12-g04s1-113-p04b-dadun66-active20-remaining9-resume-v7.json');
+test('Dongguang FINAL003 original S03-S08 source child conservation: 29 prior TFMC +4 S06 shorts +26 mixed positions =59, not public acceptance',()=>{
+ assert.equal(x.records.length,26);
+ assert.equal(x.original_paper_semantic_source_positions_29_plus_4_plus_26,59);
+ assert.equal(x.newly_found_real_original_printed_response_marker_BBoxes_16,16);
+ assert.equal(x.native_PDF_option_labels_for_freeform_circle_not_response_boxes_7,7);
+ assert.equal(x.unbordered_source_parent_figure_or_free_drawing_area_HOLD_3,3);
+ assert.equal(old.now_original_source_marker_IDs_with_exact_BBox,33);
+ assert.equal(x.prior_exact_independent_answer_markers_33,33);
+ assert.equal(x.source_science_unique_answer_rights_KP_duplicate_operator_gate_pending,true);
+ assert.equal(x.all_59_IDs_cannot_yet_be_promoted_to_full_original_independent_exact_physical_answer_marker_verification,true);
+ const src=registry.original_source_records.find(y=>y.source_id===x.paper_id);
+ assert.ok(src&&v7.remaining_original_paper_ids.includes(x.paper_id));
+ assert.equal(src.original_pdf_sha256,x.original_PDF_sha256);
+ assert.equal(new Set(x.records.map(y=>y.source_slot_id_provisional)).size,26);
+ assert.deepEqual(['S03','S04','S05','S06','S07','S08'].map(s=>x.records.filter(y=>y.source_slot_id_provisional.includes('|'+s+'|')).length),[3,2,7,4,8,2]);
+ assert.equal(x.records.filter(y=>y.physical_independent_printed_answer_bbox_certified).length,16);
+ assert.equal(x.records.filter(y=>y.original_option_text_source_anchor_NOT_independent_answer_bbox).length,7);
+ assert.equal(x.records.filter(y=>y.source_figure_parent_only_NOT_independent_response_bbox).length,3);
+ assert.equal(x.records.filter(y=>y.geometry_evidence==='PRINTED_ORIGINAL_ANSWER_MARKER_NATIVE_VECTOR').length,15);
+ assert.equal(x.records.filter(y=>y.geometry_evidence==='PRINTED_ORIGINAL_ANSWER_MARKER_NATIVE_GLYPH').length,1);
+ for(const r of x.records){
+  assert.ok([1,2].includes(r.source_pdf_page_1_based));
+  const b=r.original_source_anchor_or_parent_bbox_pdf_pts_top_left;
+  assert.ok(b.length===4&&b.every(Number.isFinite)&&b[0]>=0&&b[1]>=0&&b[2]>b[0]&&b[3]>b[1]);
+  assert.equal(r.origin_source_rights_science_direct48kp_dup_gate_complete,false);
+  assert.equal(r.admission_ready,false);
+ }
+ for(const k of ['FORMAL_SCIENCE_KP_APPROVED_new','ADMISSION_READY_new','PUBLISHED_new'])assert.equal(x[k],0);
+});
+test('Circle option sources are original labels not manufactured independent answer glyph boxes; open drawing remains parent-only HOLD',()=>{
+ const circ=x.records.filter(y=>y.original_option_text_source_anchor_NOT_independent_answer_bbox);
+ assert.equal(circ.length,7);
+ assert.ok(circ.every(y=>y.geometry_evidence==='PRINTED_NATIVE_OPTION_GLYPH_CIRCLING_ANCHOR_ONLY'&&!y.physical_independent_printed_answer_bbox_certified));
+ const draw=x.records.filter(y=>y.source_figure_parent_only_NOT_independent_response_bbox);
+ assert.equal(draw.length,3);
+ assert.ok(draw.every(y=>y.geometry_evidence==='SOURCE_PARENT_FIGURE_FREE_DRAW_AREA_NOT_PHYSICAL_ANSWER_MARKER'&&!y.physical_independent_printed_answer_bbox_certified));
+ const g1=x.records.filter(y=>y.source_slot_id_provisional.includes('|S07|G01|'));
+ const g2=x.records.filter(y=>y.source_slot_id_provisional.includes('|S07|G02|'));
+ assert.equal(g1.length,4);assert.equal(g2.length,4);
+ assert.ok([...g1,...g2].every(y=>y.physical_independent_printed_answer_bbox_certified));
+ const short=x.records.find(y=>y.source_slot_id_provisional.includes('|S08|G01|SHORT|'));
+ assert.deepEqual(short.original_source_anchor_or_parent_bbox_pdf_pts_top_left,[497.62,860.294,595.84,874.334]);
+});

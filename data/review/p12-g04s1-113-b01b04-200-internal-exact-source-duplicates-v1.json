@@ -1,0 +1,49 @@
+{
+  "schema_version": "P12_G04S1_113_B01TOB04_200_INTERNAL_EXACT_TEXT_DUPLICATE_REVIEW_V1",
+  "scope": "B01 B02 B03 B04 first 200 frozen 113 native source positions",
+  "algorithm": "Full PDF text layer question stems and original ordered options, normalized only whitespace/punctuation; identifies same question content not all semantic equivalent questions.",
+  "positions": 200,
+  "unique_source_ids": 200,
+  "internal_exact_source_duplicate_pairs": 6,
+  "duplicates": [
+    {
+      "first": "SCI_G04_S1_113_MID_001|S2|MC|11",
+      "repeated": "SCI_G04_S1_113_MID_003|S2|MC|4",
+      "relationship": "EXACT_STEM_AND_ORDERED_OPTIONS",
+      "admission_recommendation": "ONE_STUDENT_ANSWER_EVENT_PRESERVE_BOTH_ORIGINAL_SOURCES"
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_001|S2|MC|9",
+      "repeated": "SCI_G04_S1_113_MID_004|S1|MC|2",
+      "relationship": "EXACT_STEM_AND_ORDERED_OPTIONS",
+      "admission_recommendation": "ONE_STUDENT_ANSWER_EVENT_PRESERVE_BOTH_ORIGINAL_SOURCES"
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_001|S1|TF|1",
+      "repeated": "SCI_G04_S1_113_MID_004|S2|TF|9",
+      "relationship": "EXACT_STEM_AND_ORDERED_OPTIONS",
+      "admission_recommendation": "ONE_STUDENT_ANSWER_EVENT_PRESERVE_BOTH_ORIGINAL_SOURCES"
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_001|S1|TF|15",
+      "repeated": "SCI_G04_S1_113_MID_004|S2|TF|11",
+      "relationship": "EXACT_STEM_AND_ORDERED_OPTIONS",
+      "admission_recommendation": "ONE_STUDENT_ANSWER_EVENT_PRESERVE_BOTH_ORIGINAL_SOURCES"
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_001|S1|TF|3",
+      "repeated": "SCI_G04_S1_113_MID_004|S2|TF|14",
+      "relationship": "EXACT_STEM_AND_ORDERED_OPTIONS",
+      "admission_recommendation": "ONE_STUDENT_ANSWER_EVENT_PRESERVE_BOTH_ORIGINAL_SOURCES"
+    },
+    {
+      "first": "SCI_G04_S1_113_MID_008|S1|TF|8",
+      "repeated": "SCI_G04_S1_113_MID_011|S1|TF|10",
+      "relationship": "EXACT_STEM_AND_ORDERED_OPTIONS",
+      "admission_recommendation": "ONE_STUDENT_ANSWER_EVENT_PRESERVE_BOTH_ORIGINAL_SOURCES"
+    }
+  ],
+  "student_bank_formal_new": 0,
+  "not_full_semantic_dedup": true,
+  "source_only": true
+}

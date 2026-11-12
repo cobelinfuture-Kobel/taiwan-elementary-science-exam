@@ -23,6 +23,10 @@ jobs:
       - run: npm run p12:master:build
       - run: npm run p12:master:check
       - run: npm test
+      - name: Check P12 ALL29 full-source coverage and published-main freshness (not full closeout)
+        run: |
+          git fetch --no-tags --depth=1 origin main:refs/remotes/origin/main
+          node scripts/review/p12-g04s1-113-wholecorpus-resume.cjs --check-main --summary
       - name: Build internal 187-KP by 1623-source corpus index
         run: npm run kp:index:build
       - name: Verify deterministic internal all-KP index

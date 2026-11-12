@@ -1,0 +1,42 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const rd=n=>JSON.parse(readFileSync(new URL('../data/review/'+n,import.meta.url),'utf8'));
+const p=rd('p12-g04s1-113-existingadmission-b01-wende-dongguang-zhongxiao-two-crossschool-exact-duplicates-v1.json');
+const b=rd('p12-g04s1-113-existingadmission-fixed29-b01-onegate-7standalone-2parents16positions-rights-dedup-v3.json');
+const w=rd('p12-g04s1-113-existingadmission-fixed29-b01-wende-tf15-mc12-model-science-kp-triage-v1.json');
+const z=rd('p12-g04s1-113-p04b-zhongxiao-mid50-source-markers-parent-figure-v1.json');
+const d=rd('p12-g04s1-113-p04b-dongguang-mid63-semantic-source-ids-35bbox-28hold-v1.json');
+const pub=rd('p12-g04s1-113-main-published178-source-suppression-readback-v12.json');
+const canon=id=>id.replace(/\|S0(\d)\|/g,'|S$1|');
+const published=new Set(pub.all_unique_published_source_slot_ids.map(canon));
+test('B01 has TWO exact crossschool original source duplicate pairs which are not yet public and must NOT be two additional new learner items',()=>{
+ assert.equal(p.original_source_group_pair_count,2);
+ assert.equal(p.groups.length,2);
+ assert.equal(p.actual_original_source_PDFs_native_text_loaded,3);
+ assert.equal(p.original_113_main_published_178_snapshot_no_match_for_four_source_IDs,true);
+ assert.equal(p.original_student_question_candidate_count_reduction_due_to_existing_public_item,0);
+ assert.equal(b.B01_proposed_independent_TFMC_question_bodies,7);
+ assert.equal(b.B01_proposed_shared_parent_questions,2);
+ for(const x of p.groups){
+  assert.notEqual(x.owner_source_id,x.other_source_id);
+  assert.equal(published.has(canon(x.owner_source_id)),false);
+  assert.equal(published.has(canon(x.other_source_id)),false);
+  const owner=w.actual_question_statuses.find(q=>q.source_slot_id===x.owner_source_id);
+  assert.ok(owner&&!owner.already_main_published_113_source);
+  assert.deepEqual(x.owner_answer_bbox_pdf_pts_top_left,owner.original_pdf_answer_bbox_pts_top_left);
+  assert.equal(x.exact_normalized_original_source_question.length>15,true);
+  assert.equal(x.other_answer_bbox_pdf_pts_top_left.length,4);
+ }
+ const dong=p.groups.find(x=>x.other_source_id.endsWith('|S02|TF|011'));
+ const dongSource=d.records.find(x=>x.source_slot_id_provisional===dong.other_source_id);
+ assert.ok(dongSource);assert.equal(dong.other_pdf_sha256,d.original_pdf_sha256);
+ assert.deepEqual(dong.other_answer_bbox_pdf_pts_top_left,dongSource.original_native_answer_bbox_pdf_pt);
+ const zhong=p.groups.find(x=>x.other_source_id.endsWith('|S02|MC|004'));
+ const zSource=z.records.find(x=>x.source_slot_id===zhong.other_source_id);
+ assert.ok(zSource);assert.equal(zhong.other_pdf_sha256,z.original_pdf_sha256);
+ assert.deepEqual(zhong.other_answer_bbox_pdf_pts_top_left,zSource.original_response_marker_bbox_pt);
+ assert.equal(dong.exact_comparison,'SAME_SOURCE_STEM_TF_PUNCTUATION_LAYOUT_ONLY');
+ assert.equal(zhong.exact_comparison,'SAME_PRINTED_MC_STEM_AND_ALL_FOUR_OPTIONS_IN_SAME_ORDER');
+ for(const key of ['new_FORMAL_SCIENCE_KP_APPROVED','new_ADMISSION_READY','new_PUBLISHED'])assert.equal(p[key],0);
+});

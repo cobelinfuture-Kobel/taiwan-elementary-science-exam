@@ -1,0 +1,49 @@
+{
+  "schema_version": "P12_113_B03B04_100_VS114_SOURCE_SHARD02_V1",
+  "scope": "B03/B04 100 vs 114 school original source archive, second 8 of 25 papers",
+  "papers": [
+    "p12-art9-114-dongguang-g04s1-final19-original-questions-v1-content-v1.json",
+    "p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+    "p12-art9-114-heshun-g04s1-final35-original-questions-v1-content-v1.json",
+    "p12-art9-114-heshun-g04s1-mid53-original-questions-v1-content-v1.json",
+    "p12-art9-114-mingyi-g04s1-final28-original-questions-v1-content-v1.json",
+    "p12-art9-114-mingyi-g04s1-mid24-original-questions-v1-content-v1.json",
+    "p12-art9-114-minquan-g04s1-final31-original-questions-v1-content-v1.json",
+    "p12-art9-114-minquan-g04s1-mid25-original-questions-v1-content-v1.json"
+  ],
+  "original114_rows": 241,
+  "candidate113_count": 100,
+  "matches": [
+    {
+      "source113": "SCI_G04_S1_113_MID_010|S1|TF|1",
+      "source114": "SCI_G04_S1_114_MID_008|S01|TF|001",
+      "archive": "p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+      "match": "EXACT_STEM_ORDERED_OPTIONS",
+      "score": 1
+    },
+    {
+      "source113": "SCI_G04_S1_113_MID_010|S1|TF|9",
+      "source114": "SCI_G04_S1_114_MID_008|S01|TF|012",
+      "archive": "p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+      "match": "EXACT_STEM_ORDERED_OPTIONS",
+      "score": 1
+    },
+    {
+      "source113": "SCI_G04_S1_113_MID_013|S1|TF|4",
+      "source114": "SCI_G04_S1_114_MID_008|S01|TF|012",
+      "archive": "p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+      "match": "NEAR_STEM_REVIEW",
+      "score": 0.906
+    },
+    {
+      "source113": "SCI_G04_S1_113_MID_008|S2|MC|6",
+      "source114": "SCI_G04_S1_114_MID_008|S02|MC|002",
+      "archive": "p12-art9-114-dongguang-g04s1-mid26-original-questions-v1-content-v1.json",
+      "match": "NEAR_STEM_REVIEW",
+      "score": 1
+    }
+  ],
+  "near_threshold_stem_bigram": 0.82,
+  "formal_semantic_duplicate_gate_completed": false,
+  "admission_ready": 0
+}

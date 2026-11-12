@@ -1,0 +1,201 @@
+{
+  "schema": "P12_G04S1_113_NATIVE59_FULL750_ORIGINAL_STEM_COLLISION_ADJUDICATION_V1",
+  "main_sha": "4d56dd077919ce4ca1a5e2cfeaa7f214942c82d8",
+  "operator_policy_pr": 142,
+  "source_pr": 124,
+  "source_fingerprint_ref": "data/review/p12-g04s1-113-native59-original-source-private-wording-fingerprints-v1.json",
+  "pub_matching_shards": [
+    "data/review/p12-g04s1-113-native59-vs-public113-114-stemfingerprint-screen-v1.json",
+    "data/review/p12-g04s1-113-native59-vs-public114-b04-309-stemfingerprint-screen-v1.json",
+    "data/review/p12-g04s1-113-native59-vs-public114-e01-76-stemfingerprint-screen-v1.json",
+    "data/review/p12-g04s1-113-native59-vs-public-g03-context251-stemfingerprint-screen-v1.json"
+  ],
+  "scope_note": "750 published answer slots audited via current exact source files. Includes G04-S1 records within approved-historical-ox-v4; the file is not exclusively grade 3. Source PDF SHA and original TF item number confirm seven were already published via legacy G04-S1-FINAL IDs.",
+  "meaning": "Full original-stem exact normalized collision screen across published750; fourteen collisions individually adjudicated using original full printed PDF source/MC options and actual main stem/options. Thirteen truly duplicate student items (including historical first-seed same-PDF seven) must retain lineage only; one MC option set materially differs despite same stem, preserve as eligible candidate.",
+  "summary": {
+    "public_answer_positions": 750,
+    "native59": 59,
+    "original_stem_exact_collisions_checked": 14,
+    "legacy_113_same_original_pdf_duplicate_suppression": 7,
+    "newer_114_duplicate_suppression": 6,
+    "all_confirmed_duplicate_suppression": 13,
+    "same_stem_but_different_distractor_options_retain_candidate": 1,
+    "native59_not_current_exact_duplicate_after_750_audit": 46,
+    "other_45_not_exact_same_stem_still_require_near_duplicate_option_review": 45,
+    "formal_duplicate_gate_complete_all_candidates_new": 0,
+    "formal_science_kp_approved_new": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "limitations": [
+    "The 13 duplicate outcomes refer to actual candidate original/source IDs not new public item counts; no existing published question changed.",
+    "An identical normalized stem with materially different option content is not automatically rejected by the approved operator rule, but science/rights and other matching may still block.",
+    "Remaining 46 not exactly collision-matched are not guaranteed unique: semantic near matches, altered answer options or other unpublished corpus may require manual comparison.",
+    "Other seven candidate pairs previously adjudicated differ from those specific published examples, but two were already published elsewhere. Global source-identity evidence supersedes pairwise uniqueness.",
+    "Do not treat this as new 59 source/Science/KP approvals; exact gates and applicable authorization still pending."
+  ],
+  "records": [
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_FINAL_007|S1|TF|002",
+      "already_public_question_id": "G04-S1-FINAL-TF-02",
+      "already_public_legacy_source_id": "G04-S1-FINAL",
+      "existing_main_json": "site/data/question-bank/approved-historical-ox-v4.json",
+      "existing_main_source_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "original113_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "duplicate_kind": "SAME_ORIGINAL_PDF_SHA_SAME_PRINTED_QUESTION_AND_STEM",
+      "result": "SOURCE_LINEAGE_ONLY_DO_NOT_REPUBLISH",
+      "actual_original_pdf_verified": true,
+      "public_original_source_same_sha": true
+    },
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_FINAL_007|S1|TF|003",
+      "already_public_question_id": "G04-S1-FINAL-TF-03",
+      "already_public_legacy_source_id": "G04-S1-FINAL",
+      "existing_main_json": "site/data/question-bank/approved-historical-ox-v4.json",
+      "existing_main_source_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "original113_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "duplicate_kind": "SAME_ORIGINAL_PDF_SHA_SAME_PRINTED_QUESTION_AND_STEM",
+      "result": "SOURCE_LINEAGE_ONLY_DO_NOT_REPUBLISH",
+      "actual_original_pdf_verified": true,
+      "public_original_source_same_sha": true
+    },
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_FINAL_007|S1|TF|004",
+      "already_public_question_id": "G04-S1-FINAL-TF-04",
+      "already_public_legacy_source_id": "G04-S1-FINAL",
+      "existing_main_json": "site/data/question-bank/approved-historical-ox-v4.json",
+      "existing_main_source_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "original113_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "duplicate_kind": "SAME_ORIGINAL_PDF_SHA_SAME_PRINTED_QUESTION_AND_STEM",
+      "result": "SOURCE_LINEAGE_ONLY_DO_NOT_REPUBLISH",
+      "actual_original_pdf_verified": true,
+      "public_original_source_same_sha": true
+    },
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_FINAL_007|S1|TF|005",
+      "already_public_question_id": "G04-S1-FINAL-TF-05",
+      "already_public_legacy_source_id": "G04-S1-FINAL",
+      "existing_main_json": "site/data/question-bank/approved-historical-ox-v4.json",
+      "existing_main_source_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "original113_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "duplicate_kind": "SAME_ORIGINAL_PDF_SHA_SAME_PRINTED_QUESTION_AND_STEM",
+      "result": "SOURCE_LINEAGE_ONLY_DO_NOT_REPUBLISH",
+      "actual_original_pdf_verified": true,
+      "public_original_source_same_sha": true
+    },
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_FINAL_007|S1|TF|006",
+      "already_public_question_id": "G04-S1-FINAL-TF-06",
+      "already_public_legacy_source_id": "G04-S1-FINAL",
+      "existing_main_json": "site/data/question-bank/approved-historical-ox-v4.json",
+      "existing_main_source_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "original113_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "duplicate_kind": "SAME_ORIGINAL_PDF_SHA_SAME_PRINTED_QUESTION_AND_STEM",
+      "result": "SOURCE_LINEAGE_ONLY_DO_NOT_REPUBLISH",
+      "actual_original_pdf_verified": true,
+      "public_original_source_same_sha": true
+    },
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_FINAL_007|S1|TF|007",
+      "already_public_question_id": "G04-S1-FINAL-TF-07",
+      "already_public_legacy_source_id": "G04-S1-FINAL",
+      "existing_main_json": "site/data/question-bank/approved-historical-ox-v4.json",
+      "existing_main_source_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "original113_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "duplicate_kind": "SAME_ORIGINAL_PDF_SHA_SAME_PRINTED_QUESTION_AND_STEM",
+      "result": "SOURCE_LINEAGE_ONLY_DO_NOT_REPUBLISH",
+      "actual_original_pdf_verified": true,
+      "public_original_source_same_sha": true
+    },
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_FINAL_007|S1|TF|008",
+      "already_public_question_id": "G04-S1-FINAL-TF-08",
+      "already_public_legacy_source_id": "G04-S1-FINAL",
+      "existing_main_json": "site/data/question-bank/approved-historical-ox-v4.json",
+      "existing_main_source_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "original113_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "duplicate_kind": "SAME_ORIGINAL_PDF_SHA_SAME_PRINTED_QUESTION_AND_STEM",
+      "result": "SOURCE_LINEAGE_ONLY_DO_NOT_REPUBLISH",
+      "actual_original_pdf_verified": true,
+      "public_original_source_same_sha": true
+    },
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_MID_005|S1|TF|007",
+      "already_public_question_id": "P12_B04_G04S1_B01_TF_039",
+      "main_file": "site/data/question-bank/p12-b04-b01-47-public-v1.json",
+      "original113_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "duplicate_kind": "EXACT_SAME_ORIGINAL_TF",
+      "source_and_published_full_stem_and_MC_options_compared": true,
+      "main_student_bank_action": "SOURCE_LINEAGE_ONLY_DO_NOT_REPUBLISH",
+      "brief_evidence": "同一原卷判斷句，印刷換行與句末標點不同",
+      "original_science_and_kp_rights_gates_unchanged": true
+    },
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_MID_005|S2|MC|007",
+      "already_public_question_id": "P12_B04_G04S1_B01_MC_046",
+      "main_file": "site/data/question-bank/p12-b04-b01-47-public-v1.json",
+      "original113_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "duplicate_kind": "EXACT_SAME_MC_STEM_AND_OPTIONS",
+      "source_and_published_full_stem_and_MC_options_compared": true,
+      "main_student_bank_action": "SOURCE_LINEAGE_ONLY_DO_NOT_REPUBLISH",
+      "brief_evidence": "四個選項文字及順序相同，已發布來源不同",
+      "original_science_and_kp_rights_gates_unchanged": true
+    },
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_FINAL_005|S1|TF|007",
+      "already_public_question_id": "P12_B04_G04S1_B04_TF_050",
+      "main_file": "site/data/question-bank/p12-b04-b04-47-public-v1.json",
+      "original113_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "duplicate_kind": "EXACT_SAME_ORIGINAL_TF",
+      "source_and_published_full_stem_and_MC_options_compared": true,
+      "main_student_bank_action": "SOURCE_LINEAGE_ONLY_DO_NOT_REPUBLISH",
+      "brief_evidence": "防觸電塑膠開關敘述，原文一致，僅換行不同",
+      "original_science_and_kp_rights_gates_unchanged": true
+    },
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_FINAL_005|S1|TF|008",
+      "already_public_question_id": "P12_B04_G04S1_B04_TF_049",
+      "main_file": "site/data/question-bank/p12-b04-b04-47-public-v1.json",
+      "original113_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "duplicate_kind": "EXACT_SAME_ORIGINAL_TF",
+      "source_and_published_full_stem_and_MC_options_compared": true,
+      "main_student_bank_action": "SOURCE_LINEAGE_ONLY_DO_NOT_REPUBLISH",
+      "brief_evidence": "廢電池回收與環境危害敘述原文一致",
+      "original_science_and_kp_rights_gates_unchanged": true
+    },
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_FINAL_005|S2|MC|007",
+      "already_public_question_id": "P12_B04_G04S1_B05_MC_007",
+      "main_file": "site/data/question-bank/p12-b04-b05-40-public-v1.json",
+      "original113_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "duplicate_kind": "ONLY_OPTION_ORDER_CHANGED",
+      "source_and_published_full_stem_and_MC_options_compared": true,
+      "main_student_bank_action": "SOURCE_LINEAGE_ONLY_DO_NOT_REPUBLISH",
+      "brief_evidence": "夜間停電時不能當光源，四個選項相同，鋁箔紙及手電筒位置交換",
+      "original_science_and_kp_rights_gates_unchanged": true
+    },
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_FINAL_008|S1|MC|001",
+      "already_public_question_id": "P12_B04_G04S1_B05_MC_012",
+      "main_file": "site/data/question-bank/p12-b04-b05-40-public-v1.json",
+      "original113_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "duplicate_kind": "DIFFERENT_DISTRACTOR_CONTENT_PERMITTED",
+      "source_and_published_full_stem_and_MC_options_compared": true,
+      "main_student_bank_action": "RETAIN_CANDIDATE_OTHER_GATES_STILL_OPEN",
+      "brief_evidence": "相同問題及答案，原卷含吹風機，公開題改為教室電風扇且小火車描述有差異，並非僅調換選項",
+      "original_science_and_kp_rights_gates_unchanged": true
+    },
+    {
+      "unpublished113_source_slot_id": "SCI_G04_S1_113_FINAL_008|S1|MC|002",
+      "already_public_question_id": "P12_B04_G04S1_B04_MC_003",
+      "main_file": "site/data/question-bank/p12-b04-b04-47-public-v1.json",
+      "original113_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "duplicate_kind": "ONLY_OPTION_ORDER_CHANGED",
+      "source_and_published_full_stem_and_MC_options_compared": true,
+      "main_student_bank_action": "SOURCE_LINEAGE_ONLY_DO_NOT_REPUBLISH",
+      "brief_evidence": "馬達反向四選項實質相同，正負極正解位置從第四移至第三",
+      "original_science_and_kp_rights_gates_unchanged": true
+    }
+  ],
+  "next_resume_task": "P12_G04S1_113_NATIVE59_13ConfirmedDuplicates_LineageOnly_46Remaining_DirectScienceKP48FullSourceRights_AndFull750NearDuplicateOptions_ConsolidatedAdmission"
+}

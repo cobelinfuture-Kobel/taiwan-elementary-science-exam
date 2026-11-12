@@ -1,0 +1,924 @@
+{
+  "schema_version": "P12_113_G04S1_REMAINING16_PRINTED_SCORE_PROOF_RECONCILIATION_V2",
+  "source_exact_29_pdf_ledger": "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "base_stage2_13paper_source_ledger": "data/review/p12-g04s1-113-all29-stage2-section-slot-reconciliation-v1.json",
+  "prior_16paper_unverified_estimate_ref": "data/review/p12-g04s1-113-remaining16-header-estimate-only-v1.json",
+  "active_KP_authority_ref": "site/data/authority/science-g03-g04-selector-v3.json",
+  "paper_count": 16,
+  "sixteen_original_paper_sha_ledger_parity": true,
+  "original_printed_score_total_verified_each_100": true,
+  "previous_unverified_score_derived_estimate": 929,
+  "updated_unverified_score_derived_estimate": 934,
+  "estimated_correction_delta": 5,
+  "additional_13paper_section_reconciled_source_positions": 821,
+  "all29_response_positions_planning_estimate_not_actual_exact": 1755,
+  "why_estimate_changed": "Wende MID paper contains independent response markers inside a 46-point comprehensive section; 50 was an undercount, revised estimate 55, preserving printed subquestions and shared diagrams.",
+  "actual_original_source_response_position_inventory_29_completed": false,
+  "page_pdf_bbox_per_original_answer_marker_completed": false,
+  "independent_science_and_direct48KP_completed": false,
+  "all_29_cross_year_duplicate_certification_completed": false,
+  "eligible_student_bank_release_this_stage": 0,
+  "student_bank_expected_answer_positions_still": 636,
+  "operator_gates": "This is strict score/section evidence only, not 16 PDFs reconstructed into exact original QA. Need per-original-slot PDF visual marker+BBox, full options/context, verified science/KP, crossyear dedup, rights, then single consolidated student bank release.",
+  "records": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_001",
+      "original_pdf_filename": "113_南一_四上_自然_期中評量卷_文德國小.pdf",
+      "source_original_pdf_sha256": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "南一",
+      "source_original_exam_type": "MID",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 55,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "是非題",
+          "printed_score_points": 30,
+          "scoring_derived_response_count_not_final": 15,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "選擇題",
+          "printed_score_points": 24,
+          "scoring_derived_response_count_not_final": 12,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "高度角觀測器",
+          "printed_score_points": 6,
+          "scoring_derived_response_count_not_final": 3,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S4",
+          "original_section_label": "月亮觀測圖表",
+          "printed_score_points": 9,
+          "scoring_derived_response_count_not_final": 6,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S5",
+          "original_section_label": "水蘊草畫圖",
+          "printed_score_points": 3,
+          "scoring_derived_response_count_not_final": 1,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S6",
+          "original_section_label": "影子畫圖",
+          "printed_score_points": 3,
+          "scoring_derived_response_count_not_final": 1,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S7",
+          "original_section_label": "水生植物配對",
+          "printed_score_points": 8,
+          "scoring_derived_response_count_not_final": 4,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S8",
+          "original_section_label": "觀察紀錄勾選",
+          "printed_score_points": 5,
+          "scoring_derived_response_count_not_final": 5,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S9",
+          "original_section_label": "手電筒影子圖",
+          "printed_score_points": 8,
+          "scoring_derived_response_count_not_final": 4,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S10",
+          "original_section_label": "水域保護勾選",
+          "printed_score_points": 4,
+          "scoring_derived_response_count_not_final": 4,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_003",
+      "original_pdf_filename": "113_南一_四上_自然_期中評量卷_忠孝國小.pdf",
+      "source_original_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "南一",
+      "source_original_exam_type": "MID",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 50,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "是非題",
+          "printed_score_points": 18,
+          "scoring_derived_response_count_not_final": 9,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "選擇題",
+          "printed_score_points": 18,
+          "scoring_derived_response_count_not_final": 9,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "勾選題",
+          "printed_score_points": 16,
+          "scoring_derived_response_count_not_final": 8,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S4",
+          "original_section_label": "填填看",
+          "printed_score_points": 8,
+          "scoring_derived_response_count_not_final": 4,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S5",
+          "original_section_label": "配合題",
+          "printed_score_points": 8,
+          "scoring_derived_response_count_not_final": 4,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S6",
+          "original_section_label": "題組",
+          "printed_score_points": 18,
+          "scoring_derived_response_count_not_final": 9,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S7",
+          "original_section_label": "看圖回答問題",
+          "printed_score_points": 10,
+          "scoring_derived_response_count_not_final": 5,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S8",
+          "original_section_label": "科學閱讀素養題",
+          "printed_score_points": 4,
+          "scoring_derived_response_count_not_final": 2,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_004",
+      "original_pdf_filename": "113_南一_四上_自然_期中評量卷_東光國小.pdf",
+      "source_original_pdf_sha256": "2c46b169a7a41501aa9b1ec90d84d94c1100db801ebc671af949879ecbe5b8f5",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "南一",
+      "source_original_exam_type": "MID",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 62,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "選擇題",
+          "printed_score_points": 30,
+          "scoring_derived_response_count_not_final": 15,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "是非題",
+          "printed_score_points": 40,
+          "scoring_derived_response_count_not_final": 20,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "勾選題",
+          "printed_score_points": 16,
+          "scoring_derived_response_count_not_final": 16,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S4",
+          "original_section_label": "畫畫看",
+          "printed_score_points": 6,
+          "scoring_derived_response_count_not_final": 3,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S5",
+          "original_section_label": "看圖回答問題",
+          "printed_score_points": 8,
+          "scoring_derived_response_count_not_final": 8,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "original_pdf_filename": "113_南一_四上_自然_期末評量卷_東光國小.pdf",
+      "source_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "南一",
+      "source_original_exam_type": "FINAL",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 58,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "選擇題",
+          "printed_score_points": 28,
+          "scoring_derived_response_count_not_final": 14,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "是非題",
+          "printed_score_points": 30,
+          "scoring_derived_response_count_not_final": 15,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "生活運用題",
+          "printed_score_points": 6,
+          "scoring_derived_response_count_not_final": 3,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S4",
+          "original_section_label": "電路設計題",
+          "printed_score_points": 4,
+          "scoring_derived_response_count_not_final": 2,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S5",
+          "original_section_label": "觀念記憶圈圈看",
+          "printed_score_points": 5,
+          "scoring_derived_response_count_not_final": 5,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S6",
+          "original_section_label": "日常生活圖片運用題",
+          "printed_score_points": 16,
+          "scoring_derived_response_count_not_final": 8,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S7",
+          "original_section_label": "配對題圖片",
+          "printed_score_points": 8,
+          "scoring_derived_response_count_not_final": 8,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S8",
+          "original_section_label": "挑戰題",
+          "printed_score_points": 3,
+          "scoring_derived_response_count_not_final": 3,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_005",
+      "original_pdf_filename": "113_康軒_四上_自然_期中評量卷_大墩國小.pdf",
+      "source_original_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "康軒",
+      "source_original_exam_type": "MID",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 67,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "是非題",
+          "printed_score_points": 30,
+          "scoring_derived_response_count_not_final": 15,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "選擇題",
+          "printed_score_points": 28,
+          "scoring_derived_response_count_not_final": 14,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "填填看",
+          "printed_score_points": 17,
+          "scoring_derived_response_count_not_final": 17,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S4",
+          "original_section_label": "勾選題",
+          "printed_score_points": 17,
+          "scoring_derived_response_count_not_final": 17,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S5",
+          "original_section_label": "活用題",
+          "printed_score_points": 8,
+          "scoring_derived_response_count_not_final": 4,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_007",
+      "original_pdf_filename": "113_康軒_四上_自然_期中評量卷_民權國小.pdf",
+      "source_original_pdf_sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "康軒",
+      "source_original_exam_type": "MID",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 74,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "是非題",
+          "printed_score_points": 26,
+          "scoring_derived_response_count_not_final": 13,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "選擇題",
+          "printed_score_points": 26,
+          "scoring_derived_response_count_not_final": 13,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "做做看",
+          "printed_score_points": 38,
+          "scoring_derived_response_count_not_final": 38,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S4",
+          "original_section_label": "連連看",
+          "printed_score_points": 10,
+          "scoring_derived_response_count_not_final": 10,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_008",
+      "original_pdf_filename": "113_康軒_四上_自然_期中評量卷_永安國小.pdf",
+      "source_original_pdf_sha256": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "康軒",
+      "source_original_exam_type": "MID",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 75,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "是非題",
+          "printed_score_points": 22,
+          "scoring_derived_response_count_not_final": 11,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "選擇題",
+          "printed_score_points": 28,
+          "scoring_derived_response_count_not_final": 14,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "連連看",
+          "printed_score_points": 7,
+          "scoring_derived_response_count_not_final": 7,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S4",
+          "original_section_label": "看圖回答問題",
+          "printed_score_points": 6,
+          "scoring_derived_response_count_not_final": 6,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S5",
+          "original_section_label": "回答問題",
+          "printed_score_points": 6,
+          "scoring_derived_response_count_not_final": 6,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S6",
+          "original_section_label": "勾選題",
+          "printed_score_points": 27,
+          "scoring_derived_response_count_not_final": 27,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S7",
+          "original_section_label": "活用題",
+          "printed_score_points": 4,
+          "scoring_derived_response_count_not_final": 4,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_009",
+      "original_pdf_filename": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+      "source_original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "康軒",
+      "source_original_exam_type": "MID",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 50,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "是非題",
+          "printed_score_points": 24,
+          "scoring_derived_response_count_not_final": 12,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "選擇題",
+          "printed_score_points": 30,
+          "scoring_derived_response_count_not_final": 15,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "綜合題",
+          "printed_score_points": 46,
+          "scoring_derived_response_count_not_final": 23,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_filename": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+      "source_original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "康軒",
+      "source_original_exam_type": "MID",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 50,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "是非題",
+          "printed_score_points": 20,
+          "scoring_derived_response_count_not_final": 10,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "選擇題",
+          "printed_score_points": 20,
+          "scoring_derived_response_count_not_final": 10,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "綜合題",
+          "printed_score_points": 52,
+          "scoring_derived_response_count_not_final": 26,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S4",
+          "original_section_label": "科學閱讀",
+          "printed_score_points": 8,
+          "scoring_derived_response_count_not_final": 4,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_015",
+      "original_pdf_filename": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "source_original_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "source_original_pdf_pages": 3,
+      "source_publisher_filename_only": "康軒",
+      "source_original_exam_type": "MID",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 54,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "是非題",
+          "printed_score_points": 22,
+          "scoring_derived_response_count_not_final": 11,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "選擇題",
+          "printed_score_points": 40,
+          "scoring_derived_response_count_not_final": 20,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "填充題",
+          "printed_score_points": 20,
+          "scoring_derived_response_count_not_final": 10,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S4",
+          "original_section_label": "地震報告題組",
+          "printed_score_points": 10,
+          "scoring_derived_response_count_not_final": 5,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S5",
+          "original_section_label": "簡答題",
+          "printed_score_points": 3,
+          "scoring_derived_response_count_not_final": 3,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S6",
+          "original_section_label": "素養閱讀",
+          "printed_score_points": 5,
+          "scoring_derived_response_count_not_final": 5,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_005",
+      "original_pdf_filename": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "source_original_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "康軒",
+      "source_original_exam_type": "FINAL",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 80,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "是非題",
+          "printed_score_points": 20,
+          "scoring_derived_response_count_not_final": 10,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "選擇題",
+          "printed_score_points": 20,
+          "scoring_derived_response_count_not_final": 10,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "看圖回答問題",
+          "printed_score_points": 24,
+          "scoring_derived_response_count_not_final": 24,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S4",
+          "original_section_label": "回答問題",
+          "printed_score_points": 5,
+          "scoring_derived_response_count_not_final": 5,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S5",
+          "original_section_label": "勾選題",
+          "printed_score_points": 24,
+          "scoring_derived_response_count_not_final": 24,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S6",
+          "original_section_label": "活用題",
+          "printed_score_points": 7,
+          "scoring_derived_response_count_not_final": 7,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_006",
+      "original_pdf_filename": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_original_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "康軒",
+      "source_original_exam_type": "FINAL",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 50,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "是非題",
+          "printed_score_points": 32,
+          "scoring_derived_response_count_not_final": 16,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "選擇題",
+          "printed_score_points": 32,
+          "scoring_derived_response_count_not_final": 16,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "綜合題",
+          "printed_score_points": 36,
+          "scoring_derived_response_count_not_final": 18,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016",
+      "original_pdf_filename": "113_翰林_四上_自然_期中評量卷_大華國小.pdf",
+      "source_original_pdf_sha256": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "翰林",
+      "source_original_exam_type": "MID",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 50,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "是非題",
+          "printed_score_points": 20,
+          "scoring_derived_response_count_not_final": 10,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "選擇題",
+          "printed_score_points": 28,
+          "scoring_derived_response_count_not_final": 14,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "配合題",
+          "printed_score_points": 46,
+          "scoring_derived_response_count_not_final": 23,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S4",
+          "original_section_label": "科普閱讀題",
+          "printed_score_points": 6,
+          "scoring_derived_response_count_not_final": 3,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_018",
+      "original_pdf_filename": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+      "source_original_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "翰林",
+      "source_original_exam_type": "MID",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 50,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "是非題",
+          "printed_score_points": 24,
+          "scoring_derived_response_count_not_final": 12,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "選擇題",
+          "printed_score_points": 26,
+          "scoring_derived_response_count_not_final": 13,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "綜合題",
+          "printed_score_points": 34,
+          "scoring_derived_response_count_not_final": 17,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S4",
+          "original_section_label": "配合題",
+          "printed_score_points": 16,
+          "scoring_derived_response_count_not_final": 8,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_010",
+      "original_pdf_filename": "113_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "source_original_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "source_original_pdf_pages": 2,
+      "source_publisher_filename_only": "翰林",
+      "source_original_exam_type": "FINAL",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 38,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "選擇題",
+          "printed_score_points": 72,
+          "scoring_derived_response_count_not_final": 24,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "用尺連連看",
+          "printed_score_points": 14,
+          "scoring_derived_response_count_not_final": 7,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "科普閱讀素養",
+          "printed_score_points": 14,
+          "scoring_derived_response_count_not_final": 7,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_011",
+      "original_pdf_filename": "113_翰林_四上_自然_期末評量卷_內湖國小.pdf",
+      "source_original_pdf_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+      "source_original_pdf_pages": 4,
+      "source_publisher_filename_only": "翰林",
+      "source_original_exam_type": "FINAL",
+      "printed_scoring_total_points": 100,
+      "scoring_derived_response_count_not_final": 71,
+      "original_section_score_proofs": [
+        {
+          "section_id": "S1",
+          "original_section_label": "選擇題",
+          "printed_score_points": 15,
+          "scoring_derived_response_count_not_final": 5,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S2",
+          "original_section_label": "配合題",
+          "printed_score_points": 34,
+          "scoring_derived_response_count_not_final": 17,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S3",
+          "original_section_label": "簡答題",
+          "printed_score_points": 4,
+          "scoring_derived_response_count_not_final": 2,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S4",
+          "original_section_label": "回答問題",
+          "printed_score_points": 44,
+          "scoring_derived_response_count_not_final": 44,
+          "actual_marker_bbox_certified": false
+        },
+        {
+          "section_id": "S5",
+          "original_section_label": "科學閱讀",
+          "printed_score_points": 3,
+          "scoring_derived_response_count_not_final": 3,
+          "actual_marker_bbox_certified": false
+        }
+      ],
+      "per_mark_original_pdf_bbox_confirmed": false,
+      "full_original_stem_and_options_confirmed_for_each_mark": false,
+      "teacher_original_answer_key_authenticated": false,
+      "independent_science_answer_uniqueness_pass": false,
+      "direct_current48kp_pass": false,
+      "cross_year_113_114_dedup_complete": false,
+      "student_bank_admission_permitted": false
+    }
+  ]
+}

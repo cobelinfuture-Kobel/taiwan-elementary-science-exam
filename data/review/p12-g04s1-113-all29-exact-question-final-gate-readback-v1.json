@@ -1,0 +1,1093 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_EXACT_QUESTION_FINAL_GATE_READBACK_V1",
+  "whole_corpus_source_count": 29,
+  "reviewable_rows_with_persistent_ids": 82,
+  "named_specific_exceptions": 6,
+  "additional_unknown_exceptions": "NOT_COUNTED_AS_ZERO",
+  "closed_papers": 0,
+  "admission_ready": 0,
+  "student_bank_existing": 636,
+  "final_gate": "HOLD_NO_RELEASE",
+  "reviewed_source_refs": {
+    "control": "data/review/p12-g04s1-113-all29-whole-corpus-batch-control-v1.json",
+    "mid_page1": "data/review/p12-g04s1-113-stage4-whole2-mid-tfmc-model-science-kp-v1.json",
+    "final_page1": "data/review/p12-g04s1-113-dongguang-final29-first-fullpage-model-science-kp-v1.json"
+  },
+  "prior_evidence_ci": {
+    "commit": "83d3ceb79049dca9a92f51ddc034ce03d33c7272",
+    "run_conclusion": "success"
+  },
+  "gate_matrix": [
+    {
+      "gate": "29/29_COMPLETE_EXACT_SLOT_INVENTORY",
+      "pass": false,
+      "reason": "Source materials contain estimates and partial glyph anchors; no verified all-answer-slot ledger."
+    },
+    {
+      "gate": "FULL_ORIGINAL_STEM_OPTION_FIGURE",
+      "pass": false,
+      "reason": "82 model-reviewed rows do not have complete item source QA."
+    },
+    {
+      "gate": "INDEPENDENT_UNIQUE_SCIENCE_ANSWER",
+      "pass": false,
+      "reason": "Model answers are preliminary and named ambiguities remain."
+    },
+    {
+      "gate": "DIRECT_CANONICAL_48KP",
+      "pass": false,
+      "reason": "Some prior inferred mappings overreach direct assessment."
+    },
+    {
+      "gate": "CROSS_113_114_SEMANTIC_DEDUP",
+      "pass": false,
+      "reason": "No complete cross-year semantic comparandum and review readback."
+    },
+    {
+      "gate": "PUBLIC_REPRODUCTION_RIGHTS",
+      "pass": false,
+      "reason": "Original PDF access does not establish authorization to republish stems, graphics, or PDF scans."
+    },
+    {
+      "gate": "RELEASE_CI_PAGES",
+      "pass": false,
+      "reason": "Source-review CI pass does not imply admitted-bank release or Pages E6 pass."
+    }
+  ],
+  "source_qa_exceptions": [
+    {
+      "id": "SCI_G04_S1_113_FINAL_003|S1|MC|003",
+      "type": "KP_OVERREACH",
+      "source_text_excerpt": "將電池串聯時，電池之間要怎麼連接？",
+      "prior_kp": "kx_g04s1_u04_kp06",
+      "disposition": "KP_HOLD",
+      "reason": "Tests physical series connection polarity, not the brightness outcome targeted by KP06."
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_003|S1|MC|004",
+      "type": "ANSWER_CONTEXT",
+      "source_text_excerpt": "哪一項物品的電力來源不是電力公司？",
+      "prior_model_answer": "2",
+      "disposition": "SCIENCE_HOLD",
+      "reason": "Alarm clocks can be battery-powered or mains-powered; requires item-level uniqueness review."
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_004|S1|MC|011",
+      "type": "ABSOLUTE_ASSERTION",
+      "source_text_excerpt": "農曆的哪一天一定看不到月亮",
+      "disposition": "SCIENCE_HOLD",
+      "reason": "Absolute assertion requires distinguishing visibility at a specified time vs entire day."
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_004|S2|TF|014",
+      "type": "SOURCE_INTERPRETATION",
+      "source_text_excerpt": "牛郎與織女、玉兔搗藥和兩個太陽都是與月亮有關的傳說故事。",
+      "disposition": "SCIENCE_HOLD",
+      "reason": "Story categorization may be curriculum-dependent; teacher/source framing needs checking."
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_004|S2|TF|006",
+      "type": "KP_OVERREACH",
+      "source_text_excerpt": "一般來說，我們只能在生態池中看到一種水生動物。",
+      "prior_kp": "kx_g04s1_u02_kp09",
+      "disposition": "KP_HOLD",
+      "reason": "Biodiversity claim does not directly assess animal structural environmental adaptation."
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_003|S1|TF|006",
+      "type": "KP_OVERREACH",
+      "source_text_excerpt": "世界上所有的河流總加，是世界上最大的水域環境。",
+      "prior_kp": "kx_g04s1_u02_kp01",
+      "disposition": "KP_HOLD",
+      "reason": "Question asks global water-area size comparison rather than merely land/water environment categories."
+    }
+  ],
+  "individual_review_rows": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|001",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|002",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|003",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|004",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|005",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|006",
+      "terminal_release_classification": "HOLD_NAMED_EXCEPTION",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|007",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|008",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S1|TF|009",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|001",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|002",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|003",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|004",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|005",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|006",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|007",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|008",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_003|S2|MC|009",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|001",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|002",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|003",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|004",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|005",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|006",
+      "terminal_release_classification": "HOLD_NAMED_EXCEPTION",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|007",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|008",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|009",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|010",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|011",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|012",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|013",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|014",
+      "terminal_release_classification": "HOLD_NAMED_EXCEPTION",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|015",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|016",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|017",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|018",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|019",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S2|TF|020",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|001",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|002",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|003",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|004",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|005",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|006",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|007",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|008",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|009",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|010",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|011",
+      "terminal_release_classification": "HOLD_NAMED_EXCEPTION",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|012",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|013",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|014",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_004|S1|MC|015",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|001",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|002",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|003",
+      "terminal_release_classification": "HOLD_NAMED_EXCEPTION",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|004",
+      "terminal_release_classification": "HOLD_NAMED_EXCEPTION",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|005",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|006",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|007",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|008",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|009",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|010",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|011",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|012",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|013",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|014",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|001",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|002",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|003",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|004",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|005",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|006",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|007",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|008",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|009",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|010",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|011",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|012",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|013",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|014",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|015",
+      "terminal_release_classification": "SOURCE_HOLD",
+      "admission_ready": false,
+      "missing_gates": [
+        "FULL_SOURCE_QA",
+        "SCIENCE_INDEPENDENT_QA",
+        "KP_DIRECT_RECHECK",
+        "CROSSYEAR_DEDUP",
+        "PUBLIC_REPRODUCTION_RIGHTS"
+      ]
+    }
+  ],
+  "policy": "Do not merge Draft PR #124 into published bank or assert 29/29 closeout on current evidence. Continue original-file whole-question reconstruction and permission review; no repeated marker-only commits.",
+  "deliverable_status": "FINAL_GATE_EVALUATION_COMPLETE_RELEASE_BLOCKED"
+}

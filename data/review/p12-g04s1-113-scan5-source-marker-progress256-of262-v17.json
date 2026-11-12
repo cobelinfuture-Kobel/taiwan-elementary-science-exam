@@ -1,0 +1,82 @@
+{
+  "schema_version": "P12_G04S1_113_SCAN5_ORIGINAL_SOURCE_MARKER_PROGRESS256_OF262_V17",
+  "draft_pr": 124,
+  "prior_snapshot_append_only": "data/review/p12-g04s1-113-scan5-source-marker-progress224-of262-v16.json",
+  "scope": "113 G04S1 5 original scanned school exam PDFs, frozen 48KP, source-marker provenance not publication",
+  "registered_section_response_positions": 262,
+  "prior_source_marker_verified": 224,
+  "new_zhongxiao_exact_answer_brackets_this_cycle": 32,
+  "current_source_marker_verified_including_partial_matching_dots": 256,
+  "independent_original_answer_region_geometry_verified_excluding_partial_matching_dots": 250,
+  "source_only_matching_start_dots_without_complete_target_line": 6,
+  "unresolved_source_geometry_or_frozen_count_granularity": 6,
+  "unresolved_breakdown": {
+    "zhongxiao_firstPage_drawing_on_figure": 4,
+    "shihu_final_parent7_motor_circuit_composite": 2
+  },
+  "new_evidence": [
+    "data/review/p12-g04s1-113-zhongxiao-final002-s05s06-22-exact-raster-bbox-v1.json",
+    "data/review/p12-g04s1-113-zhongxiao-final002-firstpage10-pair-bbox-drawing4-hold-v1.json"
+  ],
+  "paper_details": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_002",
+      "source_school": "和順國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 50,
+      "remaining": 0,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "和順國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 50,
+      "remaining": 0,
+      "source_image_only": true,
+      "marker_geometry_characterization": "13 TF + 10 MC + 24 complex original checkbox/diagram + 3 reading original source markers; verified SHA, red pen excluded from marking proof"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "source_school": "忠孝國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 46,
+      "remaining": 4,
+      "source_image_only": true,
+      "marker_geometry_characterization": "14 MC page2 + 14 matching T/F tick boxes page2 + 8 reading MC page3 + 10 first page 5 MC and 5 printed short-answer brackets; 4 drawing-on-original-figure outputs HOLD no manufactured bbox"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "source_school": "內安國小",
+      "source_publisher": "康軒",
+      "source_positions": 62,
+      "verified_source_raster_pixel_bbox": 62,
+      "remaining": 0,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_009",
+      "source_school": "獅湖國小",
+      "source_publisher": "康軒",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 48,
+      "remaining": 2,
+      "source_image_only": true,
+      "marker_geometry_characterization": "15 MC complete; 27 printed answer pair complete; 6 matching source endpoints only (requires target context); 2 Q7 composite units HOLD"
+    }
+  ],
+  "formal_progress": {
+    "FORMAL_SCIENCE_KP_APPROVED_new_in_scan_source_cycle": 0,
+    "ADMISSION_READY_new_in_scan_source_cycle": 0,
+    "PUBLISHED_new_in_scan_source_cycle": 0,
+    "PUBLISHED_113_current": 152,
+    "site_total_answer_slots_all_scopes": 788
+  },
+  "immutable_original_KP": true,
+  "original_pdf_images_not_republished": true,
+  "source_geometry_gate_note": "256 is a provenance count with 6 partial matching source-dot anchors, not 256 independently printable questions, Science/KP certified, nor eligible for student bank. 250 independently localized original answer areas still require original text/figure, Science/KP, dedup, rights and operator release. The four drawing-on-figure outputs and two Shihu composite units remain HOLD.",
+  "next_resume_task": "P12_G04S1_113_SCAN5_6HOLD_FigureDrawing_Zhongxiao4_MotorComposite_Shihu2_ParentAwareVisualSource_ResponseGranularity_Then_GateEligible_SourceScienceKP_DedupRights_OperatorManifest_SelectiveAdmission_PR_CI_Main_PagesE2E"
+}

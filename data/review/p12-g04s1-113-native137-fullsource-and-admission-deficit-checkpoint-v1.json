@@ -1,0 +1,36 @@
+{
+  "schema_version": "P12_G04S1_113_POST_163_PDF_BBOX_137_UNPUBLISHED_SOURCE_QA_PROGRESS_V1",
+  "source_pr": 124,
+  "frozen_authority": "G04 S1 113, 48 canonical KP",
+  "geometry_refs": [
+    "data/review/p12-g04s1-113-native5-originalpdf107-glyph-bbox-proof-v1.json",
+    "data/review/p12-g04s1-113-othernative4-exact-pdf-glyph-bbox56-v1.json"
+  ],
+  "historical_candidate_ref": "data/review/p12-g04s1-113-all29-411-unique-question-review-union-v4.json",
+  "published_source_suppression_ref": "data/review/p12-g04s1-113-main-published114-source-suppression-readback-v9.json",
+  "local_original_pdf_source_text_handling": "Native source question regions machine extracted from nine SHA-verified original PDF files as private audit data; full original source questions and third-party artwork are not uploaded to publicly accessible GitHub pending existing Rights Gate.",
+  "metrics": {
+    "original_pdf_files": 9,
+    "original_answer_glyph_bboxes": 163,
+    "already_published_source_lineages_not_new": 26,
+    "unpublished_source_bboxes": 137,
+    "unpublished_native_true_false": 66,
+    "unpublished_native_single_choice": 71,
+    "legacy_science_candidate_rows_reused": 79,
+    "no_legacy_model_row": 58,
+    "legacy_existing_science_hold": 3,
+    "legacy_missing_kp_candidate": 26,
+    "printed_question_scope_keyword_heuristic_only_not_final": 22,
+    "source_images_confirmed_missing_from_text_only": 4,
+    "science_kp_new_formally_approved": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "strict_gate": "SOURCE_PDF_ANSWER_GLYPH_BBOX_EVIDENCE_AVAILABLE; NOT ALL ORIGINAL STEMS/OPTION FIGURES OR DIRECT KP, unique science answer, public+114 semantic dedup and reproduction rights independently accepted. Keyword heuristics cannot reject acoustic propagation in lunar vacuum because direct U03 sound KP may apply.",
+  "affected_mixed_scope_papers": [
+    "SCI_G04_S1_113_MID_016",
+    "SCI_G04_S1_113_MID_017"
+  ],
+  "source_material_repeatable_from_original_drive": "Original source SHA records and exact glyph BBox evidence remain in linked source ledgers; re-extract privately from original authoritative PDF if additional word-level source verification is necessary.",
+  "next_resume_task": "P12_G04S1_113_NATIVE137_ExactFullStemOptionsParentVisual_QA_ScienceUnique_KP48_Dedup_Rights;TAOZIJIAO_MID012_100SourceBBox_SourceScienceKP_Dedup;SCAN5_Raster262"
+}

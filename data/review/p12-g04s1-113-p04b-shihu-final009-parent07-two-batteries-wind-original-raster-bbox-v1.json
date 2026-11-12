@@ -1,0 +1,83 @@
+{
+  "schema_version": "P12_G04S1_113_SHIHU_FINAL009_PARENT07_ACTUAL_ORIGINAL_WIND_ANSWER_INK_V1",
+  "original_school": "獅湖國小",
+  "paper_id": "SCI_G04_S1_113_FINAL_009",
+  "source_PDF_sha256": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+  "original_pdf_pages": 3,
+  "source_original_pdf_binary_SHA_locally_verified": true,
+  "image_page_1based": 3,
+  "original_embedded_jpeg_image_xref": 9,
+  "raw_original_image_size_px": [
+    3035,
+    4299
+  ],
+  "actual_pdf_page_rotation_degrees": 180,
+  "displayed_readable_rotated_image_size_px": [
+    3035,
+    4299
+  ],
+  "original_page_pdf_size_top_left_pt": [
+    728.4,
+    1031.76
+  ],
+  "actual_image_to_displayed_page_pt_scale": [
+    0.24,
+    0.24
+  ],
+  "source_parent_previous_roi_ref": "data/review/p12-g04s1-113-scan5-remaining6-actual-original-parent-figure-rois-v18.json",
+  "original_printed_parent": "S02 Q7, original 1-battery + 2-battery motor/circuit/wind strength common table",
+  "existing_original_parent_one_battery_row_contains_printed_completed_sample": true,
+  "two_battery_row_contains_one_actual_physical_wind_answer_parenthesis_pair": true,
+  "two_battery_row_circuit_drawing_uses_blank_original_figure_field_without_separate_answer_parentheses": true,
+  "answer_slot_granularity_derived_from_printed_points_NOT_APPROVED": true,
+  "original_question_full_independent_answer_count_source_gate_certified": false,
+  "new_original_independent_physical_printed_answer_marker_evidence": 1,
+  "raw_component_method": "SHA256-matched PDF JPEG page3 xref9 original 3035x4299, page rotate180 upright; visually located one printed two-battery row wind-strong/weak answer pair; separately segmented opening and closing parentheses connected ink components under grayscale threshold<150, with component extents manually compared to original table. No OCR or synthetic BBox.",
+  "original_printed_response_id_provisional": "SCI_G04_S1_113_FINAL_009|S02|PARENT07|TWO_BATTERIES|WIND_STRENGTH",
+  "two_original_raster_parenthesis_ink_bboxes_upright_px": [
+    [
+      998,
+      2861,
+      1025,
+      2977
+    ],
+    [
+      1328,
+      2869,
+      1352,
+      2973
+    ]
+  ],
+  "exact_both_parentheses_union_original_upright_scan_bbox_px": [
+    998,
+    2861,
+    1352,
+    2977
+  ],
+  "exact_both_parentheses_union_original_raw_embedded_image_bbox_px": [
+    1683,
+    1322,
+    2037,
+    1438
+  ],
+  "original_PDF_physical_printed_answer_marker_bbox_pts_top_left": [
+    239.52,
+    686.64,
+    324.48,
+    714.48
+  ],
+  "source_marker_belongs_to_group": "SCI_G04_S1_113_FINAL_009|S02|PARENT07|TWO_BATTERIES",
+  "original_school_exam_figure_publication_rights_cleared": false,
+  "existing_full_parent_figure_original_sharing_dependency_preserved": true,
+  "student_site_original_exam_image_not_uploaded": true,
+  "source_pdf_original_only_bbox_geometry_certified": true,
+  "formal_source_full_question_parent_gate_closed": false,
+  "unique_science_answer_original_full_context_formal": false,
+  "canonical_48kp_formal": false,
+  "semantic_duplicate_approved": false,
+  "operator_existing_final_release_approval": false,
+  "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+  "ADMISSION_READY_new": 0,
+  "PUBLISHED_new": 0,
+  "notes": "The one-battery example row and 2-battery row are parent source groups, not two certified independent answer markers. This newly verified source ink pair is one actual printed short-answer region; source drawing requires a different response mode with no invented native glyph BBox. Do not equate four printed points to four student bank questions."
+}

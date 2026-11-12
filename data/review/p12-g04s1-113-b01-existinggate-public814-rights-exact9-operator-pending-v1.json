@@ -1,0 +1,539 @@
+{
+  "schema_version": "P12_G04S1_113_B01_EXISTING_GATE_FULL_PUBLIC814_RIGHTS_EXACT9_PROPOSED_V1",
+  "at_date": "2026-10-21",
+  "branch_ref": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "source_draft_pr": 124,
+  "policy": "2026-10-19 only true text identical or option-reorder duplicates, not equal KP or same true-false proposition",
+  "source_pdf": {
+    "title": "113_南一_四上_自然_期中評量卷_文德國小.pdf",
+    "url": "https://drive.google.com/file/d/1wEhtGt0oHQSs_bsObY41jVDla5OveCZ5/view?usp=drivesdk",
+    "sha256_from_registered_original": "7bb7a6439ef21566d45739656180d800c925d9d46598eededbd3b32396c86a56",
+    "regular_school_first_exam_title_in_original_text": true,
+    "registered_native_bbox_inherited": true,
+    "binary_pdf_visual_header_independent_signoff_this_stage": false
+  },
+  "student_main_public_asset_inventory_read_from_GitHub_main": {
+    "site_loader": "site/assets/js/historical-bank-ox-v6.mjs",
+    "source_ref": "main",
+    "groups": {
+      "113_g04s1": {
+        "asset_count": 16,
+        "student_answer_slots": 178,
+        "paths": [
+          "site/data/question-bank/p12-g04s1-113-selective27-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-selective-final16-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-mid11-selective-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-final-mc9-selective-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-taozijiao-final17-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-taozijiao-final-remaining8-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-next-native-tfmc6-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-native6-after94-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-hanlin-native5-after100-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-dongguang-dahua-native5-after105-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-dongguang-mid-tf003-after110-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-wende-mid-native2-after111-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-wende-mid-mc010-after113-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-native38-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-hn22-public-v1.json",
+          "site/data/question-bank/p12-g04s1-113-exact4-public-v1.json"
+        ]
+      },
+      "114_b04": {
+        "asset_count": 9,
+        "student_answer_slots": 309,
+        "paths": [
+          "site/data/question-bank/p12-b04-g04s1-yongan-mid9-public-v1.json",
+          "site/data/question-bank/p12-b04-g04s1-chongde-mid6-public-v1.json",
+          "site/data/question-bank/p12-b04-b01-47-public-v1.json",
+          "site/data/question-bank/p12-b04-b02-41-public-v1.json",
+          "site/data/question-bank/p12-b04-b03-41-public-v1.json",
+          "site/data/question-bank/p12-b04-b04-47-public-v1.json",
+          "site/data/question-bank/p12-b04-b05-40-public-v1.json",
+          "site/data/question-bank/p12-b04-b06-47-public-v1.json",
+          "site/data/question-bank/p12-b04-b07-31-public-v1.json"
+        ]
+      },
+      "114_e01": {
+        "asset_count": 11,
+        "student_answer_slots": 76,
+        "paths": [
+          "site/data/question-bank/p12-e01-puren-mid13-public-v1.json",
+          "site/data/question-bank/p12-e01-puren-final16-public-v1.json",
+          "site/data/question-bank/p12-e01-heshun-mid15-public-v1.json",
+          "site/data/question-bank/p12-e01-heshun-final21-public-v1.json",
+          "site/data/question-bank/p12-e01-post52-anhe-final3-public-v1.json",
+          "site/data/question-bank/p12-e01-post49-source2-public-v1.json",
+          "site/data/question-bank/p12-e01-post47-dongguang1-public-v1.json",
+          "site/data/question-bank/p12-e01-post46-anhe-wind1-public-v1.json",
+          "site/data/question-bank/p12-e01-post45-puren2-public-v1.json",
+          "site/data/question-bank/p12-e01-post43-sciencekp2-public-v1.json",
+          "site/data/question-bank/p12-e01-post41-scansecondary2-public-v1.json"
+        ]
+      },
+      "legacy_and_g03": {
+        "asset_count": 5,
+        "student_answer_slots": 251,
+        "paths": [
+          "site/data/question-bank/approved-historical-ox-v4.json",
+          "site/data/question-bank/certified-context-groups-content-v3.json",
+          "site/data/question-bank/p12-g03s2mid-approved-six-v1.json",
+          "site/data/question-bank/p12-g03s2mid-remaining51-public-v1.json",
+          "site/data/question-bank/p12-g03s2final-46-public-v1.json"
+        ]
+      }
+    },
+    "scanned_asset_count": 41,
+    "student_answer_slots": 814,
+    "original_question_exact_text_collision_7_standalone": 0,
+    "complete_same_parent_question_collision_detected": 0,
+    "method": "Compared all 41 loaded current public-bank JSONs (113 + 114 + legacy) against 7 independent stems and parent textual question bodies with NFKC/whitespace/punctuation-normalized similarity; generic template near matches inspected as distinct, not exact. No cross-site exact-original same-stem candidate detected.",
+    "limitations": "Candidate may still duplicate five original scan-only school papers whose original complete item texts are not machine-verifiable; does not replace original29 formal full text/figure group review."
+  },
+  "already_recorded_source29_native_exact_lineage_pairs": [
+    {
+      "owner": "SCI_G04_S1_113_MID_001|S01|TF|015",
+      "identical_school_source": "SCI_G04_S1_113_MID_004|S02|TF|011",
+      "student_learner_items": 1
+    },
+    {
+      "owner": "SCI_G04_S1_113_MID_001|S02|MC|011",
+      "identical_school_source": "SCI_G04_S1_113_MID_003|S02|MC|004",
+      "student_learner_items": 1
+    }
+  ],
+  "near_match_non_duplicate_decisions": [
+    {
+      "current": "SCI_G04_S1_113_MID_001|S02|MC|008",
+      "public": "SCI_G04_S1_113_MID_005|S02|MC|012",
+      "why": "General wrong-statement stem pattern differs: aquatic PLANT adaptation vs aquatic ANIMAL fact; full options differ"
+    },
+    {
+      "current": "SCI_G04_S1_113_MID_001|S02|MC|011",
+      "public": "SCI_G04_S1_113_MID_005|S2|MC|005",
+      "why": "Different actual water-protection wording and question polarity; no exactly matching stem or complete option set"
+    },
+    {
+      "current": "SCI_G04_S1_113_MID_001|S02|MC|008",
+      "public": "SCI_G04_S1_114_FINAL_005|S2|MC|009",
+      "why": "Stem template '哪一項敘述錯誤' but topic is BATTERY rather than aquatic plant; not same answering event"
+    }
+  ],
+  "candidate_original_question_blocks": [
+    {
+      "id": "SCI_G04_S1_113_MID_001|S01|TF|004",
+      "question_kind": "TF",
+      "original_PDF_page": 1,
+      "source_text_direct_GDrive_exact": true,
+      "original_answer_bbox_pts": [
+        28.56,
+        256.39,
+        60.52,
+        269.34
+      ],
+      "source_text": "禮拜六，芸佳的家人帶她去台東玩，看看蔚藍的大\r\n平洋，在海洋裡，她可以發現蓋斑鬥魚以及青蛙等\r\n生物。",
+      "all_original_options": [],
+      "answer_science_unique_conclusion": "X",
+      "science_reasoning": "淡水魚與青蛙一般不能視為海洋水域生物；與水域條件差異直接相關",
+      "canonical_KP_id": "sci_g04s1_02_02",
+      "canonical_KP_title": "水域環境條件差異",
+      "independent_science_KP_assessment": "SCIENTIFICALLY_SUPPORTED_DIRECT_KP__NOT_TEACHER_KEY",
+      "original_student_bank_exact_duplicate": false,
+      "rights": {
+        "eligibility": "TAIWAN_COPYRIGHT_ACT_ART9_SCHOOL_FORMAL_EXAM_TEXT_ONLY",
+        "regulated_exam_title_verified_in_original_native_text": true,
+        "copy_scope": "EXAM_QUESTION_TEXT_ONLY",
+        "contains_outside_images_in_text": false,
+        "includes_original_teacher_solution": false,
+        "site_must_exclude_scoring": true,
+        "operator_public_release_signoff": false
+      }
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_001|S01|TF|012",
+      "question_kind": "TF",
+      "original_PDF_page": 1,
+      "source_text_direct_GDrive_exact": true,
+      "original_answer_bbox_pts": [
+        28.56,
+        740.47,
+        60.52,
+        753.4200000000001
+      ],
+      "source_text": "工廠將未經處理的汙水排放到水域環境時，會讓裡\r\n面的水生生物長得更好。",
+      "all_original_options": [],
+      "answer_science_unique_conclusion": "X",
+      "science_reasoning": "排放未處理汙水不會普遍令水生生物長得更好，通常危害水域生態",
+      "canonical_KP_id": "sci_g04s1_02_11",
+      "canonical_KP_title": "水域污染對生物的影響",
+      "independent_science_KP_assessment": "SCIENTIFICALLY_SUPPORTED_DIRECT_KP__NOT_TEACHER_KEY",
+      "original_student_bank_exact_duplicate": false,
+      "rights": {
+        "eligibility": "TAIWAN_COPYRIGHT_ACT_ART9_SCHOOL_FORMAL_EXAM_TEXT_ONLY",
+        "regulated_exam_title_verified_in_original_native_text": true,
+        "copy_scope": "EXAM_QUESTION_TEXT_ONLY",
+        "contains_outside_images_in_text": false,
+        "includes_original_teacher_solution": false,
+        "site_must_exclude_scoring": true,
+        "operator_public_release_signoff": false
+      }
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_001|S01|TF|014",
+      "question_kind": "TF",
+      "original_PDF_page": 1,
+      "source_text_direct_GDrive_exact": true,
+      "original_answer_bbox_pts": [
+        28.56,
+        850.39,
+        60.52,
+        863.34
+      ],
+      "source_text": "伊成在蒐集水生生物如何適應環境的相關資料，為\r\n了整理找到的資料，她可以使用圖形和表格，這樣\r\n能更清楚地理解水生生物的特性！",
+      "all_original_options": [],
+      "answer_science_unique_conclusion": "O",
+      "science_reasoning": "利用圖形和表格記錄水生生物特性，符合水域調查觀察與紀錄",
+      "canonical_KP_id": "sci_g04s1_02_13",
+      "canonical_KP_title": "水域環境實地調查的準備、觀察與紀錄",
+      "independent_science_KP_assessment": "SCIENTIFICALLY_SUPPORTED_DIRECT_KP__NOT_TEACHER_KEY",
+      "original_student_bank_exact_duplicate": false,
+      "rights": {
+        "eligibility": "TAIWAN_COPYRIGHT_ACT_ART9_SCHOOL_FORMAL_EXAM_TEXT_ONLY",
+        "regulated_exam_title_verified_in_original_native_text": true,
+        "copy_scope": "EXAM_QUESTION_TEXT_ONLY",
+        "contains_outside_images_in_text": false,
+        "includes_original_teacher_solution": false,
+        "site_must_exclude_scoring": true,
+        "operator_public_release_signoff": false
+      }
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_001|S01|TF|015",
+      "question_kind": "TF",
+      "original_PDF_page": 1,
+      "source_text_direct_GDrive_exact": true,
+      "original_answer_bbox_pts": [
+        28.56,
+        916.39,
+        60.52,
+        929.34
+      ],
+      "source_text": "為了讓水生生物能永續生存，我們應該要愛護水域\r\n環境。",
+      "all_original_options": [],
+      "answer_science_unique_conclusion": "O",
+      "science_reasoning": "尊重並愛護水域及生物符合水域調查安全與保護",
+      "canonical_KP_id": "sci_g04s1_02_14",
+      "canonical_KP_title": "水域調查安全與尊重水生生物",
+      "independent_science_KP_assessment": "SCIENTIFICALLY_SUPPORTED_DIRECT_KP__NOT_TEACHER_KEY",
+      "original_student_bank_exact_duplicate": false,
+      "rights": {
+        "eligibility": "TAIWAN_COPYRIGHT_ACT_ART9_SCHOOL_FORMAL_EXAM_TEXT_ONLY",
+        "regulated_exam_title_verified_in_original_native_text": true,
+        "copy_scope": "EXAM_QUESTION_TEXT_ONLY",
+        "contains_outside_images_in_text": false,
+        "includes_original_teacher_solution": false,
+        "site_must_exclude_scoring": true,
+        "operator_public_release_signoff": false
+      }
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_001|S02|MC|007",
+      "question_kind": "MC",
+      "original_PDF_page": 1,
+      "source_text_direct_GDrive_exact": true,
+      "original_answer_bbox_pts": [
+        428.04,
+        546.19,
+        460,
+        559.1400000000001
+      ],
+      "source_text": "放學後，佑麒在生態池邊看到了一隻青蛙。他好奇\r\n地想知道，青蛙通常用哪一種構造來呼吸呢？ ①\r\n鰓 ②肺 ③呼吸管 ④尾巴",
+      "all_original_options": [
+        "鰓",
+        "肺",
+        "呼吸管",
+        "尾巴"
+      ],
+      "answer_science_unique_conclusion": 2,
+      "science_reasoning": "青蛙屬兩生類，成體通常以肺和皮膚呼吸；給定選項中肺是唯一適當構造",
+      "canonical_KP_id": "sci_g04s1_02_09",
+      "canonical_KP_title": "水生動物的構造與環境適應",
+      "independent_science_KP_assessment": "SCIENTIFICALLY_SUPPORTED_DIRECT_KP__NOT_TEACHER_KEY",
+      "original_student_bank_exact_duplicate": false,
+      "rights": {
+        "eligibility": "TAIWAN_COPYRIGHT_ACT_ART9_SCHOOL_FORMAL_EXAM_TEXT_ONLY",
+        "regulated_exam_title_verified_in_original_native_text": true,
+        "copy_scope": "EXAM_QUESTION_TEXT_ONLY",
+        "contains_outside_images_in_text": false,
+        "includes_original_teacher_solution": false,
+        "site_must_exclude_scoring": true,
+        "operator_public_release_signoff": false
+      }
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_001|S02|MC|008",
+      "question_kind": "MC",
+      "original_PDF_page": 1,
+      "source_text_direct_GDrive_exact": true,
+      "original_answer_bbox_pts": [
+        428.04,
+        612.19,
+        460,
+        625.1400000000001
+      ],
+      "source_text": "關於水生植物，下列哪一項敘述錯誤？ ①睡蓮的\r\n葉子會平貼在水面上 ②水蘊草的莖跟葉會挺出水\r\n面上 ③布袋蓮是漂浮性植物，根沒有長在土裡面\r\n④荷花的葉柄有通氣組織，可以幫助適應環境",
+      "all_original_options": [
+        "睡蓮的\r\n葉子會平貼在水面上",
+        "水蘊草的莖跟葉會挺出水\r\n面上",
+        "布袋蓮是漂浮性植物，根沒有長在土裡面",
+        "荷花的葉柄有通氣組織，可以幫助適應環境"
+      ],
+      "answer_science_unique_conclusion": 2,
+      "science_reasoning": "水蘊草是沉水植物，不是莖葉挺出水面的挺水植物",
+      "canonical_KP_id": "sci_g04s1_02_05",
+      "canonical_KP_title": "沉水性植物的適應",
+      "independent_science_KP_assessment": "SCIENTIFICALLY_SUPPORTED_DIRECT_KP__NOT_TEACHER_KEY",
+      "original_student_bank_exact_duplicate": false,
+      "rights": {
+        "eligibility": "TAIWAN_COPYRIGHT_ACT_ART9_SCHOOL_FORMAL_EXAM_TEXT_ONLY",
+        "regulated_exam_title_verified_in_original_native_text": true,
+        "copy_scope": "EXAM_QUESTION_TEXT_ONLY",
+        "contains_outside_images_in_text": false,
+        "includes_original_teacher_solution": false,
+        "site_must_exclude_scoring": true,
+        "operator_public_release_signoff": false
+      }
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_001|S02|MC|011",
+      "question_kind": "MC",
+      "original_PDF_page": 1,
+      "source_text_direct_GDrive_exact": true,
+      "original_answer_bbox_pts": [
+        428.04,
+        942.19,
+        460,
+        955.1400000000001
+      ],
+      "source_text": "愛護環境大家一起動起來，下列哪一項是愛護水域\r\n環境的做法？ ①在溪邊烤肉，將器具留在原地方\r\n便下次使用 ②將洗衣服的肥皂水直接倒入溪流中\r\n③去海邊遊玩時，將垃圾帶回家丟 ④將抓到的魚\r\n蝦帶回家飼養",
+      "all_original_options": [
+        "在溪邊烤肉，將器具留在原地方\r\n便下次使用",
+        "將洗衣服的肥皂水直接倒入溪流中",
+        "去海邊遊玩時，將垃圾帶回家丟",
+        "將抓到的魚\r\n蝦帶回家飼養"
+      ],
+      "answer_science_unique_conclusion": 3,
+      "science_reasoning": "將垃圾帶離海灘可減少汙染，其他選項對水域環境不友善",
+      "canonical_KP_id": "sci_g04s1_02_14",
+      "canonical_KP_title": "水域調查安全與尊重水生生物",
+      "independent_science_KP_assessment": "SCIENTIFICALLY_SUPPORTED_DIRECT_KP__NOT_TEACHER_KEY",
+      "original_student_bank_exact_duplicate": false,
+      "rights": {
+        "eligibility": "TAIWAN_COPYRIGHT_ACT_ART9_SCHOOL_FORMAL_EXAM_TEXT_ONLY",
+        "regulated_exam_title_verified_in_original_native_text": true,
+        "copy_scope": "EXAM_QUESTION_TEXT_ONLY",
+        "contains_outside_images_in_text": false,
+        "includes_original_teacher_solution": false,
+        "site_must_exclude_scoring": true,
+        "operator_public_release_signoff": false
+      }
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_001|S03-G05",
+      "question_kind": "INTACT_SHARED_PARENT",
+      "original_PDF_page": 2,
+      "source_text_direct_GDrive_exact": true,
+      "source_text": "5.下列敘述，分別是指哪一種水生植物？請將適當的代號\r\n填入（ ）裡：(8 分) \r\n \r\nㄅ.會隨著水流到流動\r\nㄆ.根、莖、葉都在水面下\r\nㄇ.根長在水底土裡，但是葉子漂\r\n浮在水面上\r\nㄈ.根長在水底土裡，但是葉子挺\r\n出水面\r\n( )(１)睡蓮。 \r\n( )(２)水蘊草。\r\n( )(３)大萍。 \r\n( )(４)荷花。",
+      "child_source_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G05|MATCH|001",
+        "SCI_G04_S1_113_MID_001|S03|G05|MATCH|002",
+        "SCI_G04_S1_113_MID_001|S03|G05|MATCH|003",
+        "SCI_G04_S1_113_MID_001|S03|G05|MATCH|004"
+      ],
+      "child_original_answer_bbox_pts": [
+        [
+          441.96,
+          226.71,
+          479.39,
+          241.74
+        ],
+        [
+          441.96,
+          244.95,
+          479.39,
+          259.98
+        ],
+        [
+          441.94,
+          263.19,
+          479.37,
+          278.22
+        ],
+        [
+          441.94,
+          281.31,
+          479.37,
+          296.34
+        ]
+      ],
+      "model_answer_per_child_not_teacher_key": [
+        "ㄇ",
+        "ㄆ",
+        "ㄅ",
+        "ㄈ"
+      ],
+      "per_child_canonical_KP_id": [
+        "sci_g04s1_02_06",
+        "sci_g04s1_02_05",
+        "sci_g04s1_02_04",
+        "sci_g04s1_02_07"
+      ],
+      "per_child_canonical_KP_title": [
+        "浮葉性植物的適應",
+        "沉水性植物的適應",
+        "漂浮性植物的適應",
+        "挺水性植物的適應"
+      ],
+      "independent_science_KP_assessment": "CHILDWISE_SCIENTIFICALLY_SUPPORTED_DIRECT_KP__PARENT_INTACT_REQUIRED",
+      "student_question_block_count": 1,
+      "original_student_bank_exact_duplicate": false,
+      "rights": {
+        "eligibility": "TAIWAN_COPYRIGHT_ACT_ART9_SCHOOL_FORMAL_EXAM_TEXT_ONLY",
+        "regulated_exam_title_verified_in_original_native_text": true,
+        "copy_scope": "EXAM_QUESTION_TEXT_ONLY",
+        "contains_outside_images_in_text": false,
+        "includes_original_teacher_solution": false,
+        "site_must_remove_original_printed_scores_from_display": true,
+        "operator_public_release_signoff": false
+      },
+      "science_reasoning_per_child": [
+        "睡蓮為浮葉植物，葉片浮在水面，ㄇ",
+        "水蘊草為沉水植物，根莖葉主要在水中，ㄆ",
+        "大萍漂浮在水面，隨水流移動，ㄅ",
+        "荷花為挺水植物，葉片通常挺出水面，ㄈ"
+      ]
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_001|S03-G06",
+      "question_kind": "INTACT_SHARED_PARENT",
+      "original_PDF_page": 2,
+      "source_text_direct_GDrive_exact": true,
+      "source_text": "6.探索水域環境時，紀錄表中須包含哪些項目？請在\r\n（ ）裡打ˇ，不須的打╳：(5 分) \r\n( )(１)水域類型\r\n( )(２)月亮方位\r\n( )(３)水質情況\r\n( )(４)水流速度\r\n( )(５)太陽高度",
+      "child_source_ids": [
+        "SCI_G04_S1_113_MID_001|S03|G06|TF|001",
+        "SCI_G04_S1_113_MID_001|S03|G06|TF|002",
+        "SCI_G04_S1_113_MID_001|S03|G06|TF|003",
+        "SCI_G04_S1_113_MID_001|S03|G06|TF|004",
+        "SCI_G04_S1_113_MID_001|S03|G06|TF|005"
+      ],
+      "child_original_answer_bbox_pts": [
+        [
+          441.95,
+          361.71,
+          479.38,
+          376.74
+        ],
+        [
+          441.93,
+          383.67,
+          479.36,
+          398.7
+        ],
+        [
+          441.92,
+          405.75,
+          479.35,
+          420.78
+        ],
+        [
+          441.9,
+          427.71,
+          479.34,
+          442.74
+        ],
+        [
+          441.89,
+          449.67,
+          479.32,
+          464.7
+        ]
+      ],
+      "model_answer_per_child_not_teacher_key": [
+        "✓",
+        "╳",
+        "✓",
+        "✓",
+        "╳"
+      ],
+      "per_child_canonical_KP_id": [
+        "sci_g04s1_02_13",
+        "sci_g04s1_02_13",
+        "sci_g04s1_02_13",
+        "sci_g04s1_02_13",
+        "sci_g04s1_02_13"
+      ],
+      "per_child_canonical_KP_title": [
+        "水域環境實地調查的準備、觀察與紀錄",
+        "水域環境實地調查的準備、觀察與紀錄",
+        "水域環境實地調查的準備、觀察與紀錄",
+        "水域環境實地調查的準備、觀察與紀錄",
+        "水域環境實地調查的準備、觀察與紀錄"
+      ],
+      "independent_science_KP_assessment": "CHILDWISE_SCIENTIFICALLY_SUPPORTED_DIRECT_KP__PARENT_INTACT_REQUIRED",
+      "student_question_block_count": 1,
+      "original_student_bank_exact_duplicate": false,
+      "rights": {
+        "eligibility": "TAIWAN_COPYRIGHT_ACT_ART9_SCHOOL_FORMAL_EXAM_TEXT_ONLY",
+        "regulated_exam_title_verified_in_original_native_text": true,
+        "copy_scope": "EXAM_QUESTION_TEXT_ONLY",
+        "contains_outside_images_in_text": false,
+        "includes_original_teacher_solution": false,
+        "site_must_remove_original_printed_scores_from_display": true,
+        "operator_public_release_signoff": false
+      },
+      "science_reasoning_per_child": [
+        "調查水域須辨別水域類型，✓",
+        "月亮方位與此水域環境紀錄不直接相關，╳",
+        "水質是水域環境條件，✓",
+        "水流速度是水域環境條件，✓",
+        "太陽高度不屬此題水域環境紀錄重點，╳"
+      ]
+    }
+  ],
+  "rights_reference": [
+    "https://www.tipo.gov.tw/tw/copyright/773-4954.html",
+    "https://www.tipo.gov.tw/tw/copyright/692-16754.html"
+  ],
+  "rights_determination": "School 113 first-term grade-four regular assessment title verified in original native PDF text; proposed release strictly reproduces school examination question text/choices, excludes externally sourced figures, whole PDF and school answer key; original printed scores stripped only in student display. Text-only Article9 is eligible under pre-existing S3_P03 route. Last-mile original visual header/per-item release attestation held until exact operator signoff.",
+  "formal_gate_snapshot": {
+    "full_public_814_7_standalone_exact_text_dedup_preflight": "PASS_NO_EXACT_COLLISIONS",
+    "school_native_exact_duplicate_aliases_preserved": 2,
+    "school_original_5_scan_only_full_question_compare": "PENDING",
+    "article9_text_only_eligibility": "DOCUMENTED_PER_ITEM",
+    "operator_exact_9_cohort_signoff": "PENDING",
+    "new_FORMAL_SCIENCE_KP_APPROVED": 0,
+    "new_ADMISSION_READY": 0,
+    "new_PUBLISHED": 0,
+    "B01_FORMAL_CLOSEOUT": false,
+    "B02_NOT_STARTED": true
+  },
+  "operator_exact_list_cohort_size": 9,
+  "operator_approval": "NOT_GRANTED_BY_GENERIC_WORKFLOW_APPROVAL",
+  "release_PR_not_opened": true,
+  "missing_before_publish": [
+    "complete duplicate acceptance for the remaining five scan-only original school papers if required by B01 frozen scope",
+    "final item-level source visual / Article9 use attestation",
+    "operator specific nine-or-eligible-subset exact manifest approval",
+    "separate selective PR focused CI A4 main readback Pages live E2E"
+  ],
+  "do_not_modify": [
+    "SOURCE_EXACT",
+    "PDF_PAGE_BBOX",
+    "CANONICAL_KP_48",
+    "SOURCE_PUBLISHED_178",
+    "31_HOLD",
+    "existing_operator_gate",
+    "frozen_contract",
+    "B02"
+  ],
+  "next": "Complete unresolved original scan-only duplicate source proof and per-item rights; ask only the existing exact-cohort operator decision, never treat this source-only proposal as release authorization."
+}

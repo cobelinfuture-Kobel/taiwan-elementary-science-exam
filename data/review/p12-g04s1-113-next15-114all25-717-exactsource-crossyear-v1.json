@@ -1,0 +1,38 @@
+{
+  "schema_version": "P12_G04S1_113_NEXT15_114ALL25_717_SOURCE_STEM_COMPARE_V1",
+  "scope": "113 G04S1 15 current unpublished candidate stems against all 25 archived 114 G04S1 source question sets",
+  "source_directory": "data/source-archive/p12-art9-114-*-original-questions-v1.json",
+  "main_sha": "efea07d2dc533ab29e6f2243cac7ebdce03cf862",
+  "candidate_source": "data/review/p12-g04s1-113-next15-independent-science-kp-evidence-v1.json",
+  "compare_rule": "NFKC exact full stem ignoring whitespace/punctuation; compare full sorted option texts when stem identical; semantic equivalence / archive other113 not covered",
+  "summary": {
+    "source_papers": 25,
+    "original_114_rows": 717,
+    "current_113_candidate_positions": 15,
+    "stem_identical_matches": 1,
+    "stem_and_choices_option_permutation_duplicates": 0,
+    "semantic_dedup_formally_certified": 0,
+    "new_admission_ready": 0,
+    "new_published": 0
+  },
+  "matches": [
+    {
+      "current_source_slot_id": "SCI_G04_S1_113_FINAL_009|S01|MC|012",
+      "original_114_source_slot_id": "SCI_G04_S1_114_FINAL_003|S02|MC|007",
+      "identical_normalized_stem": true,
+      "identical_option_multiset": false,
+      "disposition": "DIFFERENT_SOURCE_OPTIONS_RETAIN_AND_CONTINUE_FULL_SEMANTIC_GATE"
+    }
+  ],
+  "remaining_gates": [
+    "Verify each 113 original stem and four options verbatim against source PDF image",
+    "Determine substantive semantic duplicate and account for other 113 original unpublished exams",
+    "Accept exact science/48KP source evidence under existing admission contract",
+    "Verify rights component and existing operator exact batch release authority"
+  ],
+  "formal_progress": {
+    "FORMAL_SCIENCE_KP_APPROVED_NEW": 0,
+    "ADMISSION_READY_NEW": 0,
+    "PUBLISHED_NEW": 0
+  }
+}

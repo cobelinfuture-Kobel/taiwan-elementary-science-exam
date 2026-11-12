@@ -1,0 +1,237 @@
+{
+  "schema_version": "P12_113_TWO_SCHOOL_114_ALL25_MID_ORIGINAL351_TEXT_OPTION_COMPARE_V1",
+  "source_pr": 124,
+  "source_corpus_index": "data/source-archive/p12-art9-114-g04s1-public-original-source-corpus-current-v25.json",
+  "scope": "114 four-upper mid 12 original school exam PDFs, 351 TF/MC archived verbatim source texts; compared with 113 Neian mid 15 supported source candidates including one known exact duplicate",
+  "method": "Unicode NFKC, layout whitespace and punctuation-insensitive actual printed stem; original four-choice full option-set equality independent of option order; bigram stem similarity threshold 0.46 to surface near-duplicates for semantic disposition. Same KP or answer is not a duplicate by itself. Original archive text is source transcription only and does not mean teacher key certified.",
+  "total_114_mid_originals": 351,
+  "total_114_mid_original_exam_papers": 12,
+  "source_papers": [
+    {
+      "paper": "SCI_G04_S1_114_MID_006",
+      "file": "data/source-archive/p12-art9-114-anhe-g04s1-mid30-original-questions-v1.json",
+      "source_sha256": "f83a0f683654980c5f7757797b63222d1fd8517291e1fef4757cfe1fa5976acb",
+      "count": 30
+    },
+    {
+      "paper": "SCI_G04_S1_114_MID_003",
+      "file": "data/source-archive/p12-art9-114-chongde-g04s1-mid16-original-questions-v1.json",
+      "source_sha256": "90967222348a95719ee1263240e5ae943e9d4f4d4cc15b7ea576191d0f618335",
+      "count": 16
+    },
+    {
+      "paper": "SCI_G04_S1_114_MID_004",
+      "file": "data/source-archive/p12-art9-114-dadun-g04s1-mid24-original-questions-v1.json",
+      "source_sha256": "8357b09d65d6cfcf6783b61a4034c777b55378f639a674f2383034467d276104",
+      "count": 24
+    },
+    {
+      "paper": "SCI_G04_S1_114_MID_010",
+      "file": "data/source-archive/p12-art9-114-dahua-g04s1-mid23-original-questions-v1.json",
+      "source_sha256": "d476e8bae13884d75dc1c386aedf716630f70e3c6b579d840c5c308a629676d6",
+      "count": 23
+    },
+    {
+      "paper": "SCI_G04_S1_114_MID_008",
+      "file": "data/source-archive/p12-art9-114-dongguang-g04s1-mid26-original-questions-v1.json",
+      "source_sha256": "0422e4e69a317391021e1893760544a48cdeb07133440d68ce3019cf7041e2b7",
+      "count": 26
+    },
+    {
+      "paper": "SCI_G04_S1_114_MID_002",
+      "file": "data/source-archive/p12-art9-114-heshun-g04s1-mid53-original-questions-v1.json",
+      "source_sha256": "3afb0337ad33c064819d299311d1b225c7ab5cc46f6127fc56bd81087f2c4c6f",
+      "count": 53
+    },
+    {
+      "paper": "SCI_G04_S1_114_MID_007",
+      "file": "data/source-archive/p12-art9-114-mingyi-g04s1-mid24-original-questions-v1.json",
+      "source_sha256": "65a32f80deada9a9d8ddfb03368b50536f78981e283a92c9d9b85c14173a72b6",
+      "count": 24
+    },
+    {
+      "paper": "SCI_G04_S1_114_MID_005",
+      "file": "data/source-archive/p12-art9-114-minquan-g04s1-mid25-original-questions-v1.json",
+      "source_sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+      "count": 25
+    },
+    {
+      "paper": "SCI_G04_S1_114_MID_009",
+      "file": "data/source-archive/p12-art9-114-puren-g04s1-mid27-original-questions-v1.json",
+      "source_sha256": "6a244bd24ed0317ca9d2d12b6d0f84281df4bc382bc9d8b783a1d244ebd8f351",
+      "count": 27
+    },
+    {
+      "paper": "SCI_G04_S1_114_MID_012",
+      "file": "data/source-archive/p12-art9-114-shihu-g04s1-mid30-original-questions-v1.json",
+      "source_sha256": "92dfbf4e2b3808600963b253d8b08cde0cdfbf5253d447ecdbb0b24065c73026",
+      "count": 30
+    },
+    {
+      "paper": "SCI_G04_S1_114_MID_011",
+      "file": "data/source-archive/p12-art9-114-taozijiao-g04s1-mid53-original-questions-v1.json",
+      "source_sha256": "e680a27f10845df9eafa61cef26d4a9bf50613d6c58750254adae17a34c084b5",
+      "count": 53
+    },
+    {
+      "paper": "SCI_G04_S1_114_MID_001",
+      "file": "data/source-archive/p12-art9-114-yongan-g04s1-mid20-original-questions-v1.json",
+      "source_sha256": "4d924c412166812557793cc43b62b02f6ce4da2539e9ddcf165e2faf456251fe",
+      "count": 20
+    }
+  ],
+  "target_science_kp_candidates": 15,
+  "near_text_matches": [
+    {
+      "target_source_id": "SCI_G04_S1_113_MID_006|S1|TF|001",
+      "matched_original_source_id": "SCI_G04_S1_114_MID_005|S01|TF|009",
+      "stem_similarity": 0.6667,
+      "all_options_equal_if_MC": true,
+      "target_stem": "小靜喜歡吃的蓮藕其實是荷花的地下莖，它的切面有許多中空的洞，可以用來儲存空氣。",
+      "matched_114_stem": "蓮藕的切面有許多中空的洞，可以用來儲存空氣。",
+      "matched_114_options": [],
+      "decision": "SIMILAR_STEM_DISTINCT_MEANING_OR_OPTIONS_RETAIN"
+    },
+    {
+      "target_source_id": "SCI_G04_S1_113_MID_006|S1|TF|008",
+      "matched_original_source_id": "SCI_G04_S1_114_MID_005|S01|TF|007",
+      "stem_similarity": 0.5758,
+      "all_options_equal_if_MC": true,
+      "target_stem": "流水會把地表上的物質搬運到其他地方堆起來，當物質顆粒越小時，容易被搬得越遠。",
+      "matched_114_stem": "流水會把礫石、沙和土壤搬到其他地方堆起來，顆粒越小的地表物質，會被搬得越遠。",
+      "matched_114_options": [],
+      "decision": "SIMILAR_STEM_DISTINCT_MEANING_OR_OPTIONS_RETAIN"
+    },
+    {
+      "target_source_id": "SCI_G04_S1_113_MID_006|S1|TF|008",
+      "matched_original_source_id": "SCI_G04_S1_114_MID_004|S01|TF|003",
+      "stem_similarity": 0.5676,
+      "all_options_equal_if_MC": true,
+      "target_stem": "流水會把地表上的物質搬運到其他地方堆起來，當物質顆粒越小時，容易被搬得越遠。",
+      "matched_114_stem": "流水作用實驗，從土推上方澆水，流水會把地表物質搬運到其他地方堆積，顆粒越小的土壤會被搬得越遠。",
+      "matched_114_options": [],
+      "decision": "SIMILAR_STEM_DISTINCT_MEANING_OR_OPTIONS_RETAIN"
+    },
+    {
+      "target_source_id": "SCI_G04_S1_113_MID_006|S2|MC|002",
+      "matched_original_source_id": "SCI_G04_S1_114_MID_004|S02|MC|002",
+      "stem_similarity": 1,
+      "all_options_equal_if_MC": true,
+      "target_stem": "下列哪一項行為會對地表造成破壞？",
+      "matched_114_stem": "下列哪一項行為會對地表造成破壞？",
+      "matched_114_options": [
+        {
+          "label": "①",
+          "text": "定期清理垃圾"
+        },
+        {
+          "label": "②",
+          "text": "維護好山林樹木"
+        },
+        {
+          "label": "③",
+          "text": "做好水土保持"
+        },
+        {
+          "label": "④",
+          "text": "開挖山坡地。"
+        }
+      ],
+      "decision": "IDENTICAL_OR_OPTION_REORDER_ONLY_SUPPRESS"
+    },
+    {
+      "target_source_id": "SCI_G04_S1_113_MID_006|S2|MC|002",
+      "matched_original_source_id": "SCI_G04_S1_114_MID_008|S02|MC|001",
+      "stem_similarity": 0.4667,
+      "all_options_equal_if_MC": false,
+      "target_stem": "下列哪一項行為會對地表造成破壞？",
+      "matched_114_stem": "下列哪一項行為可以保護地表的樣貌呢？",
+      "matched_114_options": [
+        {
+          "label": "①",
+          "text": "開發環境"
+        },
+        {
+          "label": "②",
+          "text": "砍伐森林"
+        },
+        {
+          "label": "③",
+          "text": "開採河川砂石"
+        },
+        {
+          "label": "④",
+          "text": "種植樹木"
+        }
+      ],
+      "decision": "NONIDENTICAL_TEXT_NO_SUPPRESSION"
+    },
+    {
+      "target_source_id": "SCI_G04_S1_113_MID_006|S2|MC|007",
+      "matched_original_source_id": "SCI_G04_S1_114_MID_008|S02|MC|002",
+      "stem_similarity": 0.5161,
+      "all_options_equal_if_MC": false,
+      "target_stem": "下列哪一項不是改變地表樣貌的力量？",
+      "matched_114_stem": "下列哪一項不是地震所造成的地表改變？",
+      "matched_114_options": [
+        {
+          "label": "①",
+          "text": "山坡崩落"
+        },
+        {
+          "label": "②",
+          "text": "地面斷裂"
+        },
+        {
+          "label": "③",
+          "text": "淹水"
+        },
+        {
+          "label": "④",
+          "text": "斷層瀑布"
+        }
+      ],
+      "decision": "SIMILAR_STEM_DISTINCT_MEANING_OR_OPTIONS_RETAIN"
+    }
+  ],
+  "confirmed_identical_or_reordered_duplicate_pairs": [
+    {
+      "target_source_id": "SCI_G04_S1_113_MID_006|S2|MC|002",
+      "matched_original_source_id": "SCI_G04_S1_114_MID_004|S02|MC|002",
+      "stem_similarity": 1,
+      "all_options_equal_if_MC": true,
+      "target_stem": "下列哪一項行為會對地表造成破壞？",
+      "matched_114_stem": "下列哪一項行為會對地表造成破壞？",
+      "matched_114_options": [
+        {
+          "label": "①",
+          "text": "定期清理垃圾"
+        },
+        {
+          "label": "②",
+          "text": "維護好山林樹木"
+        },
+        {
+          "label": "③",
+          "text": "做好水土保持"
+        },
+        {
+          "label": "④",
+          "text": "開挖山坡地。"
+        }
+      ],
+      "decision": "IDENTICAL_OR_OPTION_REORDER_ONLY_SUPPRESS"
+    }
+  ],
+  "summary": {
+    "source_mid_papers_read": 12,
+    "all_original_questions_compared": 351,
+    "provisional_113_source_targets": 15,
+    "confirmed_reordered_choice_duplicates": 1,
+    "new_duplicates_beyond_prior_source_screen": 0,
+    "remaining_113_distinct_eligible_source_candidates_this_mid": 14,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "source_rights_and_operator_release_still_required": true
+}

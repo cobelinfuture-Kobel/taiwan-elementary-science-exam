@@ -1,0 +1,88 @@
+{
+  "schema_version": "P12_G04S1_113_B08_ORIGINAL7_113_NATIVE24_AND114717_PUBLIC749_DEDUP_BOUNDED_V1",
+  "scope": "B08 candidate 7 original grouped multiple choice wordings ordinals387–393 (Chenggong MID018) and 10 original matching codebank items ord362–367+394–397. This is DUPLICATE Gate evidence only, not semantic complete certification.",
+  "source_review_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "source_authority": "113 G04-S1 Kang Hsuan Frozen48",
+  "native_original_113_papers_read": 24,
+  "scan_only_113_original_papers_not_text_searchable": 5,
+  "native_113_original_paper_ids_screened": [
+    "SCI_G04_S1_113_MID_001",
+    "SCI_G04_S1_113_MID_003",
+    "SCI_G04_S1_113_MID_004",
+    "SCI_G04_S1_113_FINAL_003",
+    "SCI_G04_S1_113_MID_005",
+    "SCI_G04_S1_113_MID_007",
+    "SCI_G04_S1_113_MID_008",
+    "SCI_G04_S1_113_MID_009",
+    "SCI_G04_S1_113_MID_010",
+    "SCI_G04_S1_113_MID_011",
+    "SCI_G04_S1_113_MID_012",
+    "SCI_G04_S1_113_MID_013",
+    "SCI_G04_S1_113_MID_014",
+    "SCI_G04_S1_113_MID_015",
+    "SCI_G04_S1_113_FINAL_004",
+    "SCI_G04_S1_113_FINAL_005",
+    "SCI_G04_S1_113_FINAL_006",
+    "SCI_G04_S1_113_FINAL_007",
+    "SCI_G04_S1_113_FINAL_008",
+    "SCI_G04_S1_113_MID_016",
+    "SCI_G04_S1_113_MID_017",
+    "SCI_G04_S1_113_MID_018",
+    "SCI_G04_S1_113_FINAL_010",
+    "SCI_G04_S1_113_FINAL_011"
+  ],
+  "native_113_G04_7_full_child_stem_exact_hits": [
+    {
+      "ordinal": 387,
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "other_native_exam_exact_question_stem_hits": 0
+    },
+    {
+      "ordinal": 388,
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "other_native_exam_exact_question_stem_hits": 0
+    },
+    {
+      "ordinal": 389,
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "other_native_exam_exact_question_stem_hits": 0
+    },
+    {
+      "ordinal": 390,
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "other_native_exam_exact_question_stem_hits": 0
+    },
+    {
+      "ordinal": 391,
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "other_native_exam_exact_question_stem_hits": 0
+    },
+    {
+      "ordinal": 392,
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "other_native_exam_exact_question_stem_hits": 0
+    },
+    {
+      "ordinal": 393,
+      "paper_id": "SCI_G04_S1_113_MID_018",
+      "other_native_exam_exact_question_stem_hits": 0
+    }
+  ],
+  "native_text_read_method": "Google Drive-connected source original PDF text layer, normalized whitespace and punctuation; text read successful in three groups of 8 PDFs. No OCR applied.",
+  "not_cross_113_full_semantic_duplicate": "5 scanned papers need full rendered source-question and option comparison; normalized exact child phrase search misses paraphrases and shared source parent dependencies.",
+  "original_114_25_school_papers_717_source_question_occurrences_compared": 717,
+  "public_main_G04S1_rows_compared": 749,
+  "previous_full114_and_public_focused_CI": "https://github.com/cobelinfuture-Kobel/taiwan-elementary-science-exam/actions/runs/40061630570",
+  "original_114_and_public_context17_normalized_stem_dice_threshold": 0.78,
+  "original114_or_public_context17_high_near_stem_hits": 0,
+  "actual_full_semantic_113114_duplicate_gate_accepted": false,
+  "source_derived_NativeBBox_proof": "data/review/p12-g04s1-113-b08-native50-original-bbox-id-crosswalk-v1.json",
+  "science_KP_proposals": "data/review/p12-g04s1-113-b08-context17-original-parent-science-kp-triage-v1.json",
+  "reject_on_sameKP": false,
+  "no_preemptive_admission": true,
+  "formal": {
+    "FORMAL_SCIENCE_KP_APPROVED_NEW": 0,
+    "ADMISSION_READY_NEW": 0,
+    "PUBLISHED_NEW": 0
+  }
+}

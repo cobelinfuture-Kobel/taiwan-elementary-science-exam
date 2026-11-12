@@ -1,0 +1,292 @@
+{
+  "schema_version": "P12_G04S1_113_B07_EXACT4_TEXT_ONLY_POTENTIAL_OPERATOR_SCOPE_V1",
+  "scope": "Exactly four source-immutable original 113 G04S1 school MC question children. This is a SOURCE-ONLY review handoff, NOT a formal operator approval.",
+  "prior_B07_original50": 50,
+  "prior_B07_live_approved_ordinals": [
+    324,
+    326,
+    327
+  ],
+  "remaining_original50_HOLD": 47,
+  "prior_B07_7_G03G05_HOLD": [
+    320,
+    321,
+    322,
+    323,
+    328,
+    329,
+    330
+  ],
+  "newly_scoped_original_remaining40": 40,
+  "textonly4_candidate_count": 4,
+  "other36_retained_HOLD": 36,
+  "prior_source_review_ref": "data/review/p12-g04s1-113-b07-remaining40-textonly4-route36hold-preflight-v1.json",
+  "scope_113_authority": "113_KANGHSUAN_G04S1_FROZEN48KP",
+  "source_pdf_parent_text_proof": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "original_sha": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "pdf_page_1_based": 3,
+      "original_pdf_text_clip_pt": [
+        304,
+        424,
+        592,
+        745
+      ],
+      "clip_unicode_SHA256": "882e2fcfbef1fed0a83b496ad158c1331fe686e2eaed0a8f948fbd6dbc619e10"
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "original_sha": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "pdf_page_1_based": 3,
+      "original_pdf_text_clip_pt": [
+        302,
+        315,
+        590,
+        750
+      ],
+      "clip_unicode_SHA256": "9a808a7e7789d2894f629ea5118f08cbcb62799c04a2686d155d4aff5687732f"
+    }
+  ],
+  "right_to_distribute_child_only": "Taiwan Copyright Act Article9 school-administered question-text route under existing docs; no proof of third-party parent article reuse and no guarantee of original publisher text license",
+  "school_source_original_pdf_reproduced_publicly": false,
+  "registered_original_113_total_papers": 29,
+  "readable_113_native_papers_24_exact_stem_screen_complete": true,
+  "five_scanned_original_papers_16_pages_targeted_visual_review_complete": true,
+  "original_114_25_papers_717_source_questions_stem_055_screen_complete": true,
+  "existing_main_site_student_modules_61_and_g04s1_records_745_screen_complete": true,
+  "original_stem_duplicate_found_outside_own_school": 0,
+  "crossyear_114_normalized_stem_exact_or_near055": 0,
+  "existing_public_same_question_or_option_reorder_found": 0,
+  "duplicate_gate_has_remaining_provenance_or_scope_uncertainty": true,
+  "original_student_main_sha": "ae6c65ece3a79750191656f58a451978c7b80ad7",
+  "original_student_answer_positions": 948,
+  "published_113_original_source_count": 312,
+  "excluded_from_exact4": [
+    {
+      "ordinal": 305,
+      "reason": "SOURCE_EXACT contains 「根據本文」 which cannot be removed without source-edit and no licensed original parent"
+    },
+    {
+      "ordinal": 307,
+      "reason": "SOURCE_EXACT references source picture 上圖 and photo rights"
+    },
+    {
+      "ordinals": [
+        314,
+        315,
+        316,
+        317,
+        318,
+        319
+      ],
+      "reason": "Original G02 picture OX dependency HOLD"
+    },
+    {
+      "ordinal": 325,
+      "reason": "Generic 螺 requires unverified source explanatory parent to make science answer unique"
+    },
+    {
+      "ordinals": [
+        320,
+        321,
+        322,
+        323,
+        328,
+        329,
+        330
+      ],
+      "reason": "Seven previous G03/G05 native source records held and unchanged"
+    },
+    {
+      "source": "SCI_G04_S1_113_FINAL_010|S3|TF|7",
+      "reason": "Separate independent TFMC1 held and not part of source 50"
+    }
+  ],
+  "operator_scope_exact_4_offered_for_future_specific_approval": true,
+  "operator_exact_approval_currently_granted": false,
+  "rights_full_evidence_acceptance_currently_granted": false,
+  "formal_science_kp_approved_new": 0,
+  "admission_ready_new": 0,
+  "published_new": 0,
+  "B01_to_B06_not_reopened": true,
+  "source_pr124_must_remain_draft_unmerged": true,
+  "records": [
+    {
+      "ordinal": 306,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S07|G02|MC|002",
+      "legacy_worklist_source_slot_id": "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE|2",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "school": "獅湖國小",
+      "original_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_pdf_file_id": "1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf",
+      "original_pdf_page_1_based": 3,
+      "original_native_answer_bbox_pt": [
+        318.91,
+        664.17,
+        342.16,
+        678.21
+      ],
+      "source_full_exact_question_text_original_order": "布袋蓮的氣室可以幫助葉片漂浮，與下列哪一種水生植物的構造類似？",
+      "source_full_original_choice_text_order": [
+        "睡蓮",
+        "大萍",
+        "水蘊草"
+      ],
+      "original_parent_dependency_ref": "SHIHU_S07G02_ORIGINAL_READING_NOT_REPRODUCED",
+      "answer_proposal_independent_NOT_school_key": "②",
+      "answer_science_reason": "大萍葉部氣室或疏鬆組織協助漂浮，與布袋蓮葉柄膨大含氣組織相似",
+      "original_child_standalone_scope": "SELF_CONTAINED_WITHOUT_READING_PARENT",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_04",
+      "original_independent_response_bbox_verified": true,
+      "external_parent_article_not_copied": true,
+      "original_publisher_photo_or_figure_not_copied": true,
+      "original_teacher_answer_key_not_authenticated": true,
+      "duplicates_exact_or_option_reordered_detected_in_114717": false,
+      "duplicates_exact_or_option_reordered_detected_in_113_native24": false,
+      "duplicates_exact_or_option_reordered_detected_in_113_scan5_visual": false,
+      "duplicates_exact_or_option_reordered_detected_in_live_public745": false,
+      "FULL_SEMANTIC_DUPLICATE_ACCEPTED_BY_OPERATOR": false,
+      "RIGHTS_REGULATED_SCHOOL_EXAM_CHILD_TEXT_PATH_PROVISIONAL": true,
+      "RIGHTS_SHARED_READING_PARENT_ORIGIN_PROVED": false,
+      "FORMAL_SCIENCE_KP_APPROVED": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false,
+      "OPERATOR_EXACT_COHORT_APPROVAL": false,
+      "gate_disposition": "EXACT4_POTENTIAL_STANDALONE_ONLY_PENDING_APPLICABLE_RIGHTS_DUPLICATE_OPERATOR_APPROVAL"
+    },
+    {
+      "ordinal": 335,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S03|G07|MC|001",
+      "legacy_worklist_source_slot_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|1",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "school": "路上國小",
+      "original_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_file_id": "1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv",
+      "original_pdf_page_1_based": 3,
+      "original_native_answer_bbox_pt": [
+        308.2,
+        565,
+        347.6,
+        577.9
+      ],
+      "source_full_exact_question_text_original_order": "玉黍螺適合在哪一種環境生存？",
+      "source_full_original_choice_text_order": [
+        "深海底",
+        "低潮帶",
+        "中潮帶",
+        "高潮帶"
+      ],
+      "original_parent_dependency_ref": "LUSHANG_S03G07_TIDAL_ARTICLE_NOT_REPRODUCED",
+      "answer_proposal_independent_NOT_school_key": "④",
+      "answer_science_reason": "原卷潮間帶條件下，玉黍螺適合高潮帶，能耐受較長時間離水",
+      "original_child_standalone_scope": "NAMED_SPECIES_ANSWER_STANDALONE_WITH_ORIGINAL_CHOICES",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_02",
+      "original_independent_response_bbox_verified": true,
+      "external_parent_article_not_copied": true,
+      "original_publisher_photo_or_figure_not_copied": true,
+      "original_teacher_answer_key_not_authenticated": true,
+      "duplicates_exact_or_option_reordered_detected_in_114717": false,
+      "duplicates_exact_or_option_reordered_detected_in_113_native24": false,
+      "duplicates_exact_or_option_reordered_detected_in_113_scan5_visual": false,
+      "duplicates_exact_or_option_reordered_detected_in_live_public745": false,
+      "FULL_SEMANTIC_DUPLICATE_ACCEPTED_BY_OPERATOR": false,
+      "RIGHTS_REGULATED_SCHOOL_EXAM_CHILD_TEXT_PATH_PROVISIONAL": true,
+      "RIGHTS_SHARED_READING_PARENT_ORIGIN_PROVED": false,
+      "FORMAL_SCIENCE_KP_APPROVED": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false,
+      "OPERATOR_EXACT_COHORT_APPROVAL": false,
+      "gate_disposition": "EXACT4_POTENTIAL_STANDALONE_ONLY_PENDING_APPLICABLE_RIGHTS_DUPLICATE_OPERATOR_APPROVAL"
+    },
+    {
+      "ordinal": 336,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S03|G07|MC|002",
+      "legacy_worklist_source_slot_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|2",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "school": "路上國小",
+      "original_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_file_id": "1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv",
+      "original_pdf_page_1_based": 3,
+      "original_native_answer_bbox_pt": [
+        308.2,
+        617.2,
+        347.6,
+        630.2
+      ],
+      "source_full_exact_question_text_original_order": "下列哪一種生物會利用羽毛狀的觸手捕食？",
+      "source_full_original_choice_text_order": [
+        "黑深蝦虎",
+        "海蟑螂",
+        "藤壺",
+        "鯊魚"
+      ],
+      "original_parent_dependency_ref": "LUSHANG_S03G07_TIDAL_ARTICLE_NOT_REPRODUCED",
+      "answer_proposal_independent_NOT_school_key": "③",
+      "answer_science_reason": "藤壺以羽狀蔓足濾食水中微小食物",
+      "original_child_standalone_scope": "COMPLETE_ORIGINAL_STEM_OPTIONS_NO_PARENT_FACT_REQUIRED",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_09",
+      "original_independent_response_bbox_verified": true,
+      "external_parent_article_not_copied": true,
+      "original_publisher_photo_or_figure_not_copied": true,
+      "original_teacher_answer_key_not_authenticated": true,
+      "duplicates_exact_or_option_reordered_detected_in_114717": false,
+      "duplicates_exact_or_option_reordered_detected_in_113_native24": false,
+      "duplicates_exact_or_option_reordered_detected_in_113_scan5_visual": false,
+      "duplicates_exact_or_option_reordered_detected_in_live_public745": false,
+      "FULL_SEMANTIC_DUPLICATE_ACCEPTED_BY_OPERATOR": false,
+      "RIGHTS_REGULATED_SCHOOL_EXAM_CHILD_TEXT_PATH_PROVISIONAL": true,
+      "RIGHTS_SHARED_READING_PARENT_ORIGIN_PROVED": false,
+      "FORMAL_SCIENCE_KP_APPROVED": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false,
+      "OPERATOR_EXACT_COHORT_APPROVAL": false,
+      "gate_disposition": "EXACT4_POTENTIAL_STANDALONE_ONLY_PENDING_APPLICABLE_RIGHTS_DUPLICATE_OPERATOR_APPROVAL"
+    },
+    {
+      "ordinal": 337,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S03|G07|MC|003",
+      "legacy_worklist_source_slot_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|3",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "school": "路上國小",
+      "original_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_pdf_file_id": "1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv",
+      "original_pdf_page_1_based": 3,
+      "original_native_answer_bbox_pt": [
+        308.2,
+        669.4,
+        350.6,
+        682.4
+      ],
+      "source_full_exact_question_text_original_order": "哪一種環境在海水中的時間最長，有許多不能承受乾燥與高溫的生物生存？",
+      "source_full_original_choice_text_order": [
+        "低潮帶",
+        "中潮帶",
+        "高潮帶",
+        "都一樣"
+      ],
+      "original_parent_dependency_ref": "LUSHANG_S03G07_TIDAL_ARTICLE_NOT_REPRODUCED",
+      "answer_proposal_independent_NOT_school_key": "①",
+      "answer_science_reason": "低潮帶每次潮汐中的浸水時間最長，符合題幹條件",
+      "original_child_standalone_scope": "COMPLETE_CONDITION_IN_ORIGINAL_CHILD_STEM",
+      "direct_113_frozen48_kp_proposal": "sci_g04s1_02_02",
+      "original_independent_response_bbox_verified": true,
+      "external_parent_article_not_copied": true,
+      "original_publisher_photo_or_figure_not_copied": true,
+      "original_teacher_answer_key_not_authenticated": true,
+      "duplicates_exact_or_option_reordered_detected_in_114717": false,
+      "duplicates_exact_or_option_reordered_detected_in_113_native24": false,
+      "duplicates_exact_or_option_reordered_detected_in_113_scan5_visual": false,
+      "duplicates_exact_or_option_reordered_detected_in_live_public745": false,
+      "FULL_SEMANTIC_DUPLICATE_ACCEPTED_BY_OPERATOR": false,
+      "RIGHTS_REGULATED_SCHOOL_EXAM_CHILD_TEXT_PATH_PROVISIONAL": true,
+      "RIGHTS_SHARED_READING_PARENT_ORIGIN_PROVED": false,
+      "FORMAL_SCIENCE_KP_APPROVED": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false,
+      "OPERATOR_EXACT_COHORT_APPROVAL": false,
+      "gate_disposition": "EXACT4_POTENTIAL_STANDALONE_ONLY_PENDING_APPLICABLE_RIGHTS_DUPLICATE_OPERATOR_APPROVAL"
+    }
+  ],
+  "NEXT_RESUME_TASK": "P12_G04S1_113_B07_EXACT4_306_335_336_337_ParentExcludedScienceKP48_DuplicateRights_ExactOperatorApproval_ThenSelectiveStudentPR_FocusedCI_Main_PagesE2E_Q305Q325G02SixTFMC1HOLD_NoB01ToB06Reopen"
+}

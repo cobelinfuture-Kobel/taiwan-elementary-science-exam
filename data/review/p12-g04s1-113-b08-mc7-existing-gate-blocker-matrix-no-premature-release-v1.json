@@ -1,0 +1,115 @@
+{
+  "schema_version": "P12_G04S1_113_B08_MC7_MISSING_GATE_EXACT_COHORT_V1",
+  "scope": "113 G04S1 B08 ordinals 387-393 only; evidence checkpoint, not operator final signoff",
+  "source_original_pdf": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+  "source_drive_file_id": "1fYJ5QiOHyy5JhqQkGeqejTfF7FnSHL2n",
+  "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+  "candidate_ordinals": [
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393
+  ],
+  "parent_groups": {
+    "CHENGGONG_S03_G04": [
+      387,
+      388,
+      389
+    ],
+    "CHENGGONG_S03_G05": [
+      390,
+      391,
+      392,
+      393
+    ]
+  },
+  "inherited_evidence": [
+    "data/review/p12-g04s1-113-b08-context17-original-parent-science-kp-triage-v1.json",
+    "data/review/p12-g04s1-113-b08-native50-original-bbox-id-crosswalk-v1.json",
+    "data/review/p12-g04s1-113-b08-native24-crossyear114-public749-dedup-bounded-v1.json"
+  ],
+  "gate_matrix": {
+    "SOURCE_EXACT": {
+      "status": "PARTIAL",
+      "evidence": "original question stem, ordered options, parent text and native pdf hash captured; G04 shared table alignment still not visually accepted"
+    },
+    "PDF_PAGE_BBOX": {
+      "status": "PASS_EXISTING",
+      "evidence": "seven original printed answer bracket native BBoxes from checkpoint"
+    },
+    "SCIENCE_UNIQUE_ANSWER": {
+      "status": "MODEL_PROPOSAL_ONLY",
+      "model_answers": [
+        "①",
+        "②",
+        "③",
+        "③",
+        "②",
+        "④",
+        "①"
+      ],
+      "not_school_teacher_key": true
+    },
+    "CANONICAL_KP": {
+      "status": "DIRECT_PROPOSAL_ONLY",
+      "kp_ids": [
+        "sci_g04s1_02_02",
+        "sci_g04s1_02_02",
+        "sci_g04s1_02_14",
+        "sci_g04s1_02_09",
+        "sci_g04s1_02_09",
+        "sci_g04s1_02_09",
+        "sci_g04s1_02_09"
+      ],
+      "scope": "113 Frozen48, not 114 45"
+    },
+    "DUPLICATE": {
+      "status": "PARTIAL",
+      "already_screened": {
+        "native_113_papers": 24,
+        "original_114_source_occurrences": 717,
+        "public_records": 749
+      },
+      "missing": "five scanned originals, full parent+choices visual semantic comparison; absence of lexical hits is not proof of uniqueness"
+    },
+    "RIGHTS": {
+      "status": "PENDING_PER_ITEM",
+      "missing": "original parent/table provenance and publication rights acceptance, no third-party original image redistribution"
+    },
+    "ADMISSION_GATE": {
+      "status": "NOT_READY",
+      "missing": "all preceding gates and applicable exact operator eligible cohort approval"
+    },
+    "STUDENT_RENDERER": {
+      "status": "NOT_READY",
+      "missing": "preserve two distinct shared contexts/table and question group boundaries without changing original choices"
+    },
+    "RELEASE": {
+      "status": "NOT_STARTED",
+      "requirements": "selective student PR, focused CI, main readback, live Pages E2E after gate signoff"
+    }
+  },
+  "source_only_other_10_matching": [
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    394,
+    395,
+    396,
+    397
+  ],
+  "unchanged_hold_33": true,
+  "no_reopen_B01_B07": true,
+  "formal_metrics_new": {
+    "FORMAL_SCIENCE_KP_APPROVED": 0,
+    "ADMISSION_READY": 0,
+    "PUBLISHED": 0
+  },
+  "next_task": "Resolve original G04 shared table visual alignment and parent rights; 5-scan semantic duplicates and seven exact final operator eligible records. Only if all pass prepare selective release; matching10 renderer and 33 HOLD remain separate."
+}

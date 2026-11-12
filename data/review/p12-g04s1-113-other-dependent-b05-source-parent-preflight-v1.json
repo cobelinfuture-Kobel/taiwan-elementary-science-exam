@@ -1,0 +1,1383 @@
+{
+  "schema_version": "P12_G04S1_113_OTHER_OR_DEPENDENT_BATCH_SOURCE_PARENT_PREFLIGHT_V1",
+  "source_pr": 124,
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "batch": "OTHER_OR_DEPENDENT_B05",
+  "authority": "113 Kanghsuan G04S1 frozen 48 KP; do not auto-map 114 45-KP projection",
+  "original_pdf_page_registry": "p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "published114_source_suppression": "p12-g04s1-113-main-published114-source-suppression-readback-v9.json",
+  "source_ledgers": [
+    "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json",
+    "p12-g04s1-113-next-three-whole-papers-199-source-tasks-v1.json",
+    "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+  ],
+  "source_gate_scope": "SOURCE_ONLY_PARENT_DEPENDENCY_TRIAGE_WITH_PAPER_LEVEL_DRIVE_EXTRACTED_TEXT_READBACK",
+  "summary": {
+    "positions": 50,
+    "queue_start": 201,
+    "queue_end": 250,
+    "papers": {
+      "SCI_G04_S1_113_MID_009": {
+        "title": "113_康軒_四上_自然_期中評量卷_安和國小.pdf",
+        "count": 8
+      },
+      "SCI_G04_S1_113_MID_010": {
+        "title": "113_康軒_四上_自然_期中評量卷_明義國小.pdf",
+        "count": 30
+      },
+      "SCI_G04_S1_113_MID_011": {
+        "title": "113_康軒_四上_自然_期中評量卷_建德國小.pdf",
+        "count": 12
+      }
+    },
+    "dependency_evidence_tags": {
+      "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED": 1,
+      "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED": 39,
+      "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED": 33,
+      "PARENT_READING_OR_THIRD_PARTY_ARTICLE_RIGHTS": 4
+    },
+    "FORMAL_SCIENCE_KP_APPROVED_NEW": 0,
+    "ADMISSION_READY_NEW": 0,
+    "PUBLISHED_NEW": 0,
+    "site_total_750_unchanged": true,
+    "published_113_114_unchanged": true
+  },
+  "limitations": [
+    "Classification derives from printed group/type IDs and original paper text evidence, not per-answer BBox or formal unique science judgment.",
+    "Potential missing gates are nonexclusive diagnostic tags. They are not newly required Admission Gate stages.",
+    "Moon-scope and third-party reading alerts are provisional; do not reject or admit without source/authority-specific validation.",
+    "Already published 114 source IDs, three explicit HOLD exceptions, and 114 older original corpus semantic dedup remain frozen.",
+    "Continue missing15 paper exact per-answer slots and accumulate batch-eligible items for one operator-authorized selective release.",
+    "All items here remain source-only until original figure, shared parent, native/raster BBox, KP48, Science, duplicate and rights pass."
+  ],
+  "next_batch": "OTHER_OR_DEPENDENT_B06",
+  "records": [
+    {
+      "batch_row_ordinal": 1,
+      "other_lane_ordinal": 201,
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S3|G4|FISH_FIGURE_MATCH|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_009|S03|G04|FISH_FIGURE_MATCH|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_009",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_009|S3|G4|FISH_FIGURE_MATCH",
+      "source_kind": "FISH_FIGURE_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 2,
+      "other_lane_ordinal": 202,
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S3|G5|EARTHQUAKE_PROTECT_SEQ|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_009|S03|G05|EARTHQUAKE_PROTECT_SEQ|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_009",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_009|S3|G5|EARTHQUAKE_PROTECT_SEQ",
+      "source_kind": "EARTHQUAKE_PROTECT_SEQ",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 3,
+      "other_lane_ordinal": 203,
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S3|G5|EARTHQUAKE_PROTECT_SEQ|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_009|S03|G05|EARTHQUAKE_PROTECT_SEQ|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_009",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_009|S3|G5|EARTHQUAKE_PROTECT_SEQ",
+      "source_kind": "EARTHQUAKE_PROTECT_SEQ",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 4,
+      "other_lane_ordinal": 204,
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S3|G5|EARTHQUAKE_PROTECT_SEQ|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_009|S03|G05|EARTHQUAKE_PROTECT_SEQ|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_009",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_009|S3|G5|EARTHQUAKE_PROTECT_SEQ",
+      "source_kind": "EARTHQUAKE_PROTECT_SEQ",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 5,
+      "other_lane_ordinal": 205,
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S3|G6|TRUE_FALSE_SUB|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_009|S03|G06|TRUE_FALSE_SUB|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_009",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_009|S3|G6|TRUE_FALSE_SUB",
+      "source_kind": "TRUE_FALSE_SUB",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 6,
+      "other_lane_ordinal": 206,
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S3|G6|TRUE_FALSE_SUB|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_009|S03|G06|TRUE_FALSE_SUB|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_009",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_009|S3|G6|TRUE_FALSE_SUB",
+      "source_kind": "TRUE_FALSE_SUB",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 7,
+      "other_lane_ordinal": 207,
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S3|G6|TRUE_FALSE_SUB|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_009|S03|G06|TRUE_FALSE_SUB|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_009",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_009|S3|G6|TRUE_FALSE_SUB",
+      "source_kind": "TRUE_FALSE_SUB",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 8,
+      "other_lane_ordinal": 208,
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S3|G6|TRUE_FALSE_SUB|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_009|S03|G06|TRUE_FALSE_SUB|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_009",
+      "original_pdf_sha256": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_009|S3|G6|TRUE_FALSE_SUB",
+      "source_kind": "TRUE_FALSE_SUB",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 9,
+      "other_lane_ordinal": 209,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G1|MATCHING|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G01|MATCHING|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G1|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 10,
+      "other_lane_ordinal": 210,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G1|MATCHING|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G01|MATCHING|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G1|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 11,
+      "other_lane_ordinal": 211,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G1|MATCHING|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G01|MATCHING|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G1|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 12,
+      "other_lane_ordinal": 212,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G1|MATCHING|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G01|MATCHING|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G1|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 13,
+      "other_lane_ordinal": 213,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G2|MATCHING|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G02|MATCHING|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G2|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 14,
+      "other_lane_ordinal": 214,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G2|MATCHING|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G02|MATCHING|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G2|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 15,
+      "other_lane_ordinal": 215,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G2|MATCHING|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G02|MATCHING|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G2|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 16,
+      "other_lane_ordinal": 216,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G2|MATCHING|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G02|MATCHING|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G2|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 17,
+      "other_lane_ordinal": 217,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G03|MANY_TO_ONE_MATCHING|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING",
+      "source_kind": "MANY_TO_ONE_MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 18,
+      "other_lane_ordinal": 218,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G03|MANY_TO_ONE_MATCHING|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING",
+      "source_kind": "MANY_TO_ONE_MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 19,
+      "other_lane_ordinal": 219,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G03|MANY_TO_ONE_MATCHING|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING",
+      "source_kind": "MANY_TO_ONE_MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 20,
+      "other_lane_ordinal": 220,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G03|MANY_TO_ONE_MATCHING|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING",
+      "source_kind": "MANY_TO_ONE_MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 21,
+      "other_lane_ordinal": 221,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G03|MANY_TO_ONE_MATCHING|05"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING",
+      "source_kind": "MANY_TO_ONE_MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 22,
+      "other_lane_ordinal": 222,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING|6",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G03|MANY_TO_ONE_MATCHING|06"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING",
+      "source_kind": "MANY_TO_ONE_MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 23,
+      "other_lane_ordinal": 223,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING|7",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G03|MANY_TO_ONE_MATCHING|07"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G3|MANY_TO_ONE_MATCHING",
+      "source_kind": "MANY_TO_ONE_MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 24,
+      "other_lane_ordinal": 224,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G4|EARTHQUAKE_TIMING_MATCH|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G04|EARTHQUAKE_TIMING_MATCH|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G4|EARTHQUAKE_TIMING_MATCH",
+      "source_kind": "EARTHQUAKE_TIMING_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 25,
+      "other_lane_ordinal": 225,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G4|EARTHQUAKE_TIMING_MATCH|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G04|EARTHQUAKE_TIMING_MATCH|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G4|EARTHQUAKE_TIMING_MATCH",
+      "source_kind": "EARTHQUAKE_TIMING_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 26,
+      "other_lane_ordinal": 226,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G4|EARTHQUAKE_TIMING_MATCH|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G04|EARTHQUAKE_TIMING_MATCH|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G4|EARTHQUAKE_TIMING_MATCH",
+      "source_kind": "EARTHQUAKE_TIMING_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 27,
+      "other_lane_ordinal": 227,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G4|EARTHQUAKE_TIMING_MATCH|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G04|EARTHQUAKE_TIMING_MATCH|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G4|EARTHQUAKE_TIMING_MATCH",
+      "source_kind": "EARTHQUAKE_TIMING_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 28,
+      "other_lane_ordinal": 228,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G4|EARTHQUAKE_TIMING_MATCH|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G04|EARTHQUAKE_TIMING_MATCH|05"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G4|EARTHQUAKE_TIMING_MATCH",
+      "source_kind": "EARTHQUAKE_TIMING_MATCH",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 29,
+      "other_lane_ordinal": 229,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G5|TICK_CROSS|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G05|TICK_CROSS|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G5|TICK_CROSS",
+      "source_kind": "TICK_CROSS",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 30,
+      "other_lane_ordinal": 230,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G5|TICK_CROSS|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G05|TICK_CROSS|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G5|TICK_CROSS",
+      "source_kind": "TICK_CROSS",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 31,
+      "other_lane_ordinal": 231,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G5|TICK_CROSS|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G05|TICK_CROSS|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G5|TICK_CROSS",
+      "source_kind": "TICK_CROSS",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 32,
+      "other_lane_ordinal": 232,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G5|TICK_CROSS|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G05|TICK_CROSS|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G5|TICK_CROSS",
+      "source_kind": "TICK_CROSS",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 33,
+      "other_lane_ordinal": 233,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G5|TICK_CROSS|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G05|TICK_CROSS|05"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G5|TICK_CROSS",
+      "source_kind": "TICK_CROSS",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 34,
+      "other_lane_ordinal": 234,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S3|G5|TICK_CROSS|6",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S03|G05|TICK_CROSS|06"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S3|G5|TICK_CROSS",
+      "source_kind": "TICK_CROSS",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 35,
+      "other_lane_ordinal": 235,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S4|READING_SINGLE_CHOICE|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S04|READING_SINGLE_CHOICE|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S4|READING_SINGLE_CHOICE",
+      "source_kind": "READING_SINGLE_CHOICE",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_READING_OR_THIRD_PARTY_ARTICLE_RIGHTS"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 36,
+      "other_lane_ordinal": 236,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S4|READING_SINGLE_CHOICE|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S04|READING_SINGLE_CHOICE|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S4|READING_SINGLE_CHOICE",
+      "source_kind": "READING_SINGLE_CHOICE",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_READING_OR_THIRD_PARTY_ARTICLE_RIGHTS"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 37,
+      "other_lane_ordinal": 237,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S4|READING_SINGLE_CHOICE|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S04|READING_SINGLE_CHOICE|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S4|READING_SINGLE_CHOICE",
+      "source_kind": "READING_SINGLE_CHOICE",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_READING_OR_THIRD_PARTY_ARTICLE_RIGHTS"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 38,
+      "other_lane_ordinal": 238,
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S4|READING_SINGLE_CHOICE|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_010|S04|READING_SINGLE_CHOICE|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "original_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "source_ledgers": [
+        "p12-g04s1-113-three-additional-papers-155-source-graded-tasks-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_010|S4|READING_SINGLE_CHOICE",
+      "source_kind": "READING_SINGLE_CHOICE",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_READING_OR_THIRD_PARTY_ARTICLE_RIGHTS"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 39,
+      "other_lane_ordinal": 239,
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_011|S03|BINARY_CIRCLE|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "source_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE",
+      "source_kind": "BINARY_CIRCLE",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 40,
+      "other_lane_ordinal": 240,
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_011|S03|BINARY_CIRCLE|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "source_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE",
+      "source_kind": "BINARY_CIRCLE",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 41,
+      "other_lane_ordinal": 241,
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_011|S03|BINARY_CIRCLE|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "source_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE",
+      "source_kind": "BINARY_CIRCLE",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 42,
+      "other_lane_ordinal": 242,
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_011|S03|BINARY_CIRCLE|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "source_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE",
+      "source_kind": "BINARY_CIRCLE",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 43,
+      "other_lane_ordinal": 243,
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_011|S03|BINARY_CIRCLE|05"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "source_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE",
+      "source_kind": "BINARY_CIRCLE",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 44,
+      "other_lane_ordinal": 244,
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE|6",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_011|S03|BINARY_CIRCLE|06"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "source_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE",
+      "source_kind": "BINARY_CIRCLE",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 45,
+      "other_lane_ordinal": 245,
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE|7",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_011|S03|BINARY_CIRCLE|07"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "source_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_011|S3|BINARY_CIRCLE",
+      "source_kind": "BINARY_CIRCLE",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 46,
+      "other_lane_ordinal": 246,
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S4|MATCHING|1",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_011|S04|MATCHING|01"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "source_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_011|S4|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 47,
+      "other_lane_ordinal": 247,
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S4|MATCHING|2",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_011|S04|MATCHING|02"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "source_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_011|S4|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 48,
+      "other_lane_ordinal": 248,
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S4|MATCHING|3",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_011|S04|MATCHING|03"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "source_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_011|S4|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 49,
+      "other_lane_ordinal": 249,
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S4|MATCHING|4",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_011|S04|MATCHING|04"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "source_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_011|S4|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "batch_row_ordinal": 50,
+      "other_lane_ordinal": 250,
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S4|MATCHING|5",
+      "original_source_slot_ids": [
+        "SCI_G04_S1_113_MID_011|S04|MATCHING|05"
+      ],
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "original_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "source_ledgers": [
+        "p12-g04s1-113-wholecorpus-eightpapers-421-graded-source-task-ledger-v1.json"
+      ],
+      "parent_source_id": "SCI_G04_S1_113_MID_011|S4|MATCHING",
+      "source_kind": "MATCHING",
+      "source_extraction": "ORIGINAL_DRIVE_PDF_TEXT_LAYER_READ_AT_PAPER_LEVEL; ORIGINAL_PER_CHILD_FULL_TEXT_AND_NATIVE_OR_RASTER_BBOX_NOT_CERTIFIED",
+      "potential_missing_gate_evidence": [
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+      ],
+      "source_exact_and_bbox_formal": false,
+      "science_unique_answer_formal": false,
+      "canonical_kp48_direct_formal": false,
+      "current_public_and_114_semantic_dedup_formal": false,
+      "rights_formal": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ]
+}

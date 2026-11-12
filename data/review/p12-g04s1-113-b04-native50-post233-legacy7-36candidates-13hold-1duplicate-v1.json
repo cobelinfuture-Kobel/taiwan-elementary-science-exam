@@ -1,0 +1,2035 @@
+{
+  "schema_version": "P12_G04S1_113_B04_NATIVE50_SOURCE_SCIENCE_KP_PUBLIC233_LEGACY7_PRELIM_V1",
+  "scope": "113 G04S1 MID U01+U02 direct frozen 48KP",
+  "source_PR124_draft": true,
+  "source_main_ref": "53ed49dcd1d0d75a54385189d6e047f59931b654",
+  "source_snapshot_ref": "data/review/p12-g04s1-113-main-published233-source-suppression-readback-v15.json",
+  "source233_novel_normalized_ids_checked": true,
+  "legacy_mingyi7_already_public_not_new": true,
+  "legacy7_source_ids": [
+    "SCI_G04_S1_113_MID_010|S1|TF|1",
+    "SCI_G04_S1_113_MID_010|S1|TF|2",
+    "SCI_G04_S1_113_MID_010|S1|TF|4",
+    "SCI_G04_S1_113_MID_010|S1|TF|5",
+    "SCI_G04_S1_113_MID_010|S1|TF|6",
+    "SCI_G04_S1_113_MID_010|S1|TF|7",
+    "SCI_G04_S1_113_MID_010|S1|TF|8"
+  ],
+  "source_queue_151to200": true,
+  "source_checkpoint_refs": [
+    "data/review/p12-g04s1-113-native-tfmc-b04-50-source-checkpoint-v1.json",
+    "data/review/p12-g04s1-113-native-tfmc-b04-50-original-pdf-text-layer-v3.json",
+    "data/review/p12-g04s1-113-native-tfmc-b04-50-original-real-glyph-bbox-v1.json",
+    "data/review/p12-g04s1-113-native-tfmc-b04-50-science-kp-consolidated-v2.json"
+  ],
+  "source_school_mix": [
+    {
+      "paper": "SCI_G04_S1_113_MID_010",
+      "school": "明義國小",
+      "count": 1,
+      "original_pdf_SHA256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8"
+    },
+    {
+      "paper": "SCI_G04_S1_113_MID_011",
+      "school": "建德國小",
+      "count": 8,
+      "original_pdf_SHA256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334"
+    },
+    {
+      "paper": "SCI_G04_S1_113_MID_013",
+      "school": "獅湖國小",
+      "count": 25,
+      "original_pdf_SHA256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe"
+    },
+    {
+      "paper": "SCI_G04_S1_113_MID_014",
+      "school": "路上國小",
+      "count": 11,
+      "original_pdf_SHA256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732"
+    },
+    {
+      "paper": "SCI_G04_S1_113_MID_015",
+      "school": "廣興國小",
+      "count": 5,
+      "original_pdf_SHA256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e"
+    }
+  ],
+  "source_native_glyph_BBox_original_50_verified": true,
+  "source_text_layer_V3_original_four_MC_choices_verified": 20,
+  "source_pdf_full_original_binary_sha_claim": "Inherited from immutable original PDF source records; not newly downloaded in this handoff",
+  "independent_Science_KP_V2_route_38_prelim_not_formal": true,
+  "dedup_method": "Compare exact original question and MC options plus semantic variants against current public113 source233, publicly admitted legacy7 Mingyi old IDs, active published114 banks and archived114 corpus shard717; same KP with substantively distinct scenarios remains independent, option reorder/identical original stem suppressed.",
+  "public_assets_exam_question_text_only": true,
+  "no_original_pdf_image_teacher_key_or_printed_score_export": true,
+  "public_before_B04_source233": 233,
+  "public_before_B04_answer_slots": 869,
+  "public_student_bank_files_screened": 42,
+  "public_bank_top_level_blocks_screened": 697,
+  "one_exact_public_repeated_source": {
+    "source_id": "SCI_G04_S1_113_MID_014|S1|TF|2",
+    "public_source_id": "SCI_G04_S1_113_MID_005|S1|TF|010",
+    "source_113_present_in_main_legacy_native38": true,
+    "disposition": "SUPPRESS_ALIAS_ONLY"
+  },
+  "one_science_risk_new_HOLD": {
+    "source_id": "SCI_G04_S1_113_MID_015|S1|TF|5",
+    "inherited_answer": "O",
+    "ambiguity": "Potential coral bleaching from thermal pollution vs guaranteed bleaching/death; source statement is unqualified",
+    "status": "HOLD_UNIQUE_SCIENCE_ANSWER"
+  },
+  "older_12_HOLD_kept": true,
+  "crossyear_source_archive_refs": [
+    "data/review/p12-g04s1-113-b03b04-100-vs114-archive-shard01-v1.json",
+    "data/review/p12-g04s1-113-b03b04-100-vs114-archive-shard02-v1.json",
+    "data/review/p12-g04s1-113-b03b04-100-vs114-archive-shard03-v1.json",
+    "data/review/p12-g04s1-113-b03b04-five-crossyear-source-semantic-adjudications-v1.json"
+  ],
+  "counts": {
+    "source_work_positions": 50,
+    "previous_direct_source_science_KP_candidates": 38,
+    "previous_HOLD": 12,
+    "provisional_new_unique_standalone_candidates": 36,
+    "additional_specific_science_HOLD": 1,
+    "old_HOLD_retained": 12,
+    "all_HOLD": 13,
+    "identical_published_duplicate_suppressed": 1,
+    "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+    "ADMISSION_READY_new": 0,
+    "PUBLISHED_new": 0
+  },
+  "original_worklist_identity_preserved": true,
+  "b01_b02_b03_CLOSED_no_changes": true,
+  "B04_batched_closeout": false,
+  "operator_exact_candidate_cohort_approval": "PENDING",
+  "next_exact_task": "P12_G04S1_113_B04_Exact36_OriginalText_ScienceUnique_KP48_Dedup233_Legacy7_Rights_OperatorFormalAdmissionGate_ThenSelectivePR_CI_Main_PagesE2E_HOLD13_Dup1",
+  "exact36_source_ids": [
+    "SCI_G04_S1_113_MID_011|S1|TF|6",
+    "SCI_G04_S1_113_MID_011|S1|TF|10",
+    "SCI_G04_S1_113_MID_011|S2|MC|7",
+    "SCI_G04_S1_113_MID_011|S2|MC|9",
+    "SCI_G04_S1_113_MID_011|S2|MC|10",
+    "SCI_G04_S1_113_MID_013|S1|TF|1",
+    "SCI_G04_S1_113_MID_013|S1|TF|2",
+    "SCI_G04_S1_113_MID_013|S1|TF|3",
+    "SCI_G04_S1_113_MID_013|S1|TF|5",
+    "SCI_G04_S1_113_MID_013|S1|TF|7",
+    "SCI_G04_S1_113_MID_013|S1|TF|9",
+    "SCI_G04_S1_113_MID_013|S1|TF|10",
+    "SCI_G04_S1_113_MID_013|S1|TF|11",
+    "SCI_G04_S1_113_MID_013|S1|TF|12",
+    "SCI_G04_S1_113_MID_013|S1|TF|13",
+    "SCI_G04_S1_113_MID_013|S1|TF|14",
+    "SCI_G04_S1_113_MID_013|S1|TF|15",
+    "SCI_G04_S1_113_MID_013|S2|MC|1",
+    "SCI_G04_S1_113_MID_013|S2|MC|4",
+    "SCI_G04_S1_113_MID_013|S2|MC|5",
+    "SCI_G04_S1_113_MID_013|S2|MC|6",
+    "SCI_G04_S1_113_MID_013|S2|MC|7",
+    "SCI_G04_S1_113_MID_013|S2|MC|8",
+    "SCI_G04_S1_113_MID_013|S2|MC|9",
+    "SCI_G04_S1_113_MID_013|S2|MC|10",
+    "SCI_G04_S1_113_MID_014|S1|TF|4",
+    "SCI_G04_S1_113_MID_014|S1|TF|5",
+    "SCI_G04_S1_113_MID_014|S1|TF|9",
+    "SCI_G04_S1_113_MID_014|S1|TF|10",
+    "SCI_G04_S1_113_MID_014|S2|MC|1",
+    "SCI_G04_S1_113_MID_014|S2|MC|7",
+    "SCI_G04_S1_113_MID_014|S2|MC|8",
+    "SCI_G04_S1_113_MID_015|S1|TF|1",
+    "SCI_G04_S1_113_MID_015|S1|TF|2",
+    "SCI_G04_S1_113_MID_015|S1|TF|3",
+    "SCI_G04_S1_113_MID_015|S1|TF|4"
+  ],
+  "rows": [
+    {
+      "ordinal": 151,
+      "source_id": "SCI_G04_S1_113_MID_010|S2|MC|10",
+      "original_source_id": "SCI_G04_S1_113_MID_010|S02|SINGLE_CHOICE|10",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "source_school": "明義國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        368.95,
+        503.08,
+        416.95,
+        515.08
+      ],
+      "original_source_full_question_text_layer": "人體感受地面搖動或建築物受破壞的程\r\n度稱為什麼？ ○1 地震規模 ○2 震央\r\n○3 震度 ○4 地震深度。",
+      "original_source_stem_text_layer": "人體感受地面搖動或建築物受破壞的程\r\n度稱為什麼？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "○1",
+          "text": "地震規模"
+        },
+        {
+          "original_label": "○2",
+          "text": "震央"
+        },
+        {
+          "original_label": "○3",
+          "text": "震度"
+        },
+        {
+          "original_label": "○4",
+          "text": "地震深度。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "③",
+      "science_prior_reason": "震度與規模不同，但震度名詞不屬四上U01已凍結直接KP",
+      "direct_113_frozen_canonical_KP_proposal": null,
+      "prior_route": "HOLD_DIRECT_KP",
+      "source_disposition": "HOLD_EXISTING_SCIENCE_KP_EXCEPTION",
+      "specific_reason": "震度與規模不同，但震度名詞不屬四上U01已凍結直接KP",
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 152,
+      "source_id": "SCI_G04_S1_113_MID_011|S1|TF|5",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S01|TRUE_FALSE|05",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/111DdplYoZA_hMPLKgxrdgbhCrKWsubtz/view",
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "source_school": "建德國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        36,
+        315.11,
+        73.65,
+        330.11
+      ],
+      "original_source_full_question_text_layer": "在臺灣，所有水域環境中的水最後一定都\r\n 會流向海洋。",
+      "original_source_stem_text_layer": "在臺灣，所有水域環境中的水最後一定都\r\n 會流向海洋。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "X",
+      "science_prior_reason": "水可經蒸發、滲透等循環，臺灣水域不保證全部入海；缺直接U01/U02 KP",
+      "direct_113_frozen_canonical_KP_proposal": null,
+      "prior_route": "HOLD_DIRECT_KP",
+      "source_disposition": "HOLD_EXISTING_SCIENCE_KP_EXCEPTION",
+      "specific_reason": "水可經蒸發、滲透等循環，臺灣水域不保證全部入海；缺直接U01/U02 KP",
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 153,
+      "source_id": "SCI_G04_S1_113_MID_011|S1|TF|6",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S01|TRUE_FALSE|06",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/111DdplYoZA_hMPLKgxrdgbhCrKWsubtz/view",
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "source_school": "建德國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        36,
+        357.11,
+        73.65,
+        372.11
+      ],
+      "original_source_full_question_text_layer": "進行「雨水大小對地表的影響」實驗時 \r\n ，可以發現顆粒較小的物質比較容易被 \r\n 水沖走。",
+      "original_source_stem_text_layer": "進行「雨水大小對地表的影響」實驗時 \r\n ，可以發現顆粒較小的物質比較容易被 \r\n 水沖走。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "O",
+      "science_prior_reason": "細小顆粒通常較易由流水搬運，仍需原本實驗條件",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_06",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 154,
+      "source_id": "SCI_G04_S1_113_MID_011|S1|TF|10",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S01|TRUE_FALSE|10",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/111DdplYoZA_hMPLKgxrdgbhCrKWsubtz/view",
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "source_school": "建德國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        36,
+        546.11,
+        73.65,
+        561.11
+      ],
+      "original_source_full_question_text_layer": "強風或豪雨都無法移動岩石的位置。",
+      "original_source_stem_text_layer": "強風或豪雨都無法移動岩石的位置。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "X",
+      "science_prior_reason": "流水與豪雨可搬動岩石，並非完全無法",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_05",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 155,
+      "source_id": "SCI_G04_S1_113_MID_011|S2|MC|4",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|04",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/111DdplYoZA_hMPLKgxrdgbhCrKWsubtz/view",
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "source_school": "建德國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        36,
+        903.11,
+        73.65,
+        918.11
+      ],
+      "original_source_full_question_text_layer": "下列哪項人類行為，不會破壞環境？\r\n ①過度開發森林 ②整治河川 ③開挖\r\n 礦山④工廠排放熱廢水。",
+      "original_source_stem_text_layer": "下列哪項人類行為，不會破壞環境？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "過度開發森林"
+        },
+        {
+          "original_label": "②",
+          "text": "整治河川"
+        },
+        {
+          "original_label": "③",
+          "text": "開挖\r\n 礦山"
+        },
+        {
+          "original_label": "④",
+          "text": "工廠排放熱廢水。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": null,
+      "science_prior_reason": "整治河川亦可能傷害棲地，『不會破壞環境』缺條件不能唯一",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_07",
+      "prior_route": "HOLD_SCIENCE_UNIQUE",
+      "source_disposition": "HOLD_EXISTING_SCIENCE_KP_EXCEPTION",
+      "specific_reason": "整治河川亦可能傷害棲地，『不會破壞環境』缺條件不能唯一",
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 156,
+      "source_id": "SCI_G04_S1_113_MID_011|S2|MC|7",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|07",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/111DdplYoZA_hMPLKgxrdgbhCrKWsubtz/view",
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "source_school": "建德國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        374.88,
+        294.11,
+        412.53,
+        309.11
+      ],
+      "original_source_full_question_text_layer": "下列哪一種水生植物屬於挺水性水生植 \r\n 物？ ①香蒲 ②台灣萍蓬草 ③大萍 \r\n ④水蘊草。",
+      "original_source_stem_text_layer": "下列哪一種水生植物屬於挺水性水生植 \r\n 物？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "香蒲"
+        },
+        {
+          "original_label": "②",
+          "text": "台灣萍蓬草"
+        },
+        {
+          "original_label": "③",
+          "text": "大萍"
+        },
+        {
+          "original_label": "④",
+          "text": "水蘊草。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "①",
+      "science_prior_reason": "香蒲為挺水性植物",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_07",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 157,
+      "source_id": "SCI_G04_S1_113_MID_011|S2|MC|8",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|08",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/111DdplYoZA_hMPLKgxrdgbhCrKWsubtz/view",
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "source_school": "建德國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        374.88,
+        357.11,
+        412.53,
+        372.11
+      ],
+      "original_source_full_question_text_layer": "要分辨岩石、沙和土壤，不適合使用下列 \r\n 哪一種方法？ ①用眼睛看 ②用手觸 \r\n 摸 ③拿放大鏡觀察 ④用嘴巴嘗嘗看。",
+      "original_source_stem_text_layer": "要分辨岩石、沙和土壤，不適合使用下列 \r\n 哪一種方法？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "用眼睛看"
+        },
+        {
+          "original_label": "②",
+          "text": "用手觸 \r\n 摸"
+        },
+        {
+          "original_label": "③",
+          "text": "拿放大鏡觀察"
+        },
+        {
+          "original_label": "④",
+          "text": "用嘴巴嘗嘗看。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "④",
+      "science_prior_reason": "舔嘗岩石與土壤不安全，但現行KP03聚焦顆粒差異，非明列觀察安全行為",
+      "direct_113_frozen_canonical_KP_proposal": null,
+      "prior_route": "HOLD_DIRECT_KP",
+      "source_disposition": "HOLD_EXISTING_SCIENCE_KP_EXCEPTION",
+      "specific_reason": "舔嘗岩石與土壤不安全，但現行KP03聚焦顆粒差異，非明列觀察安全行為",
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 158,
+      "source_id": "SCI_G04_S1_113_MID_011|S2|MC|9",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|09",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/111DdplYoZA_hMPLKgxrdgbhCrKWsubtz/view",
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "source_school": "建德國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        374.88,
+        420.11,
+        412.53,
+        435.11
+      ],
+      "original_source_full_question_text_layer": "下列關於各種環境的敘述，哪一個是錯\r\n 誤的？ ①森林風大且寒冷，生物種類\r\n 稀少②生態池，水深通常較淺，陽光可\r\n 以照到水底③溪流水流動較快，常有溪 \r\n 魚、蝦、蟹及植物等 ④海洋是最大的 \r\n 水域環境，生物種類很多。",
+      "original_source_stem_text_layer": "下列關於各種環境的敘述，哪一個是錯\r\n 誤的？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "森林風大且寒冷，生物種類\r\n 稀少"
+        },
+        {
+          "original_label": "②",
+          "text": "生態池，水深通常較淺，陽光可\r\n 以照到水底"
+        },
+        {
+          "original_label": "③",
+          "text": "溪流水流動較快，常有溪 \r\n 魚、蝦、蟹及植物等"
+        },
+        {
+          "original_label": "④",
+          "text": "海洋是最大的 \r\n 水域環境，生物種類很多。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "①",
+      "science_prior_reason": "森林不能概稱風大寒冷且生物種類稀少",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_02",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 159,
+      "source_id": "SCI_G04_S1_113_MID_011|S2|MC|10",
+      "original_source_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|10",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/111DdplYoZA_hMPLKgxrdgbhCrKWsubtz/view",
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "source_school": "建德國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        382.38,
+        546.11,
+        419.88,
+        561.11
+      ],
+      "original_source_full_question_text_layer": "地表除了生物，還有非生物，下列哪 \r\n 一項屬於地表的「非生物」物質？ \r\n ①苔癬 ②水 ③螞蟻 ④貂。",
+      "original_source_stem_text_layer": "地表除了生物，還有非生物，下列哪 \r\n 一項屬於地表的「非生物」物質？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "苔癬"
+        },
+        {
+          "original_label": "②",
+          "text": "水"
+        },
+        {
+          "original_label": "③",
+          "text": "螞蟻"
+        },
+        {
+          "original_label": "④",
+          "text": "貂。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "②",
+      "science_prior_reason": "水是非生物，其餘為生物",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_01",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 160,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|1",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|01",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        33.48,
+        79.15,
+        65,
+        88.93
+      ],
+      "original_source_full_question_text_layer": "森林中有各種大型樹木，生物種類\r\n豐富，有鳥類、松鼠、蜥蜴等。",
+      "original_source_stem_text_layer": "森林中有各種大型樹木，生物種類\r\n豐富，有鳥類、松鼠、蜥蜴等。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "O",
+      "science_prior_reason": "森林環境可有大樹及多類動物",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_02",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 161,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|2",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|02",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        33.48,
+        115.65,
+        65,
+        125.43
+      ],
+      "original_source_full_question_text_layer": "不同的生物都適合生存在同樣的\r\n地表環境，例如生物都適合生存在\r\n陸地。",
+      "original_source_stem_text_layer": "不同的生物都適合生存在同樣的\r\n地表環境，例如生物都適合生存在\r\n陸地。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "X",
+      "science_prior_reason": "生物有各自適合環境，並非全部適合陸地",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_02",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 162,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|3",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|03",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        33.48,
+        170.25,
+        65,
+        180.03
+      ],
+      "original_source_full_question_text_layer": "肥沃的土壤中含有養分，能讓農作\r\n物生長良好。",
+      "original_source_stem_text_layer": "肥沃的土壤中含有養分，能讓農作\r\n物生長良好。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "O",
+      "science_prior_reason": "土壤養分有助農作物生長",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_02",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 163,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|4",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|04",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        33.48,
+        206.73,
+        65,
+        216.51
+      ],
+      "original_source_full_question_text_layer": "岩石受到風力或雨水的長時間作\r\n用，會先碎裂成小礫石，最後變成\r\n土壤。",
+      "original_source_stem_text_layer": "岩石受到風力或雨水的長時間作\r\n用，會先碎裂成小礫石，最後變成\r\n土壤。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": null,
+      "science_prior_reason": "岩石風化可產生礫石與更細材料，非必然依此順序最後形成土壤",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_03",
+      "prior_route": "HOLD_SCIENCE_QUALIFIER",
+      "source_disposition": "HOLD_EXISTING_SCIENCE_KP_EXCEPTION",
+      "specific_reason": "岩石風化可產生礫石與更細材料，非必然依此順序最後形成土壤",
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 164,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|5",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|05",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        33.48,
+        261.33,
+        65,
+        271.11
+      ],
+      "original_source_full_question_text_layer": "長期濫採河川砂石，容易危害橋梁\r\n的安全。",
+      "original_source_stem_text_layer": "長期濫採河川砂石，容易危害橋梁\r\n的安全。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "O",
+      "science_prior_reason": "濫採河川砂石可能危及橋梁基礎",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_07",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 165,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|6",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|06",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        33.48,
+        297.72,
+        65,
+        307.5
+      ],
+      "original_source_full_question_text_layer": "岩石摸起來很粗糙，表面可以看到\r\n紋路或斑點。",
+      "original_source_stem_text_layer": "岩石摸起來很粗糙，表面可以看到\r\n紋路或斑點。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": null,
+      "science_prior_reason": "岩石表面觸感依種類不同，非普遍粗糙或都有斑點",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_03",
+      "prior_route": "HOLD_SCIENCE_QUALIFIER",
+      "source_disposition": "HOLD_EXISTING_SCIENCE_KP_EXCEPTION",
+      "specific_reason": "岩石表面觸感依種類不同，非普遍粗糙或都有斑點",
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 166,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|7",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|07",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        33.48,
+        334.2,
+        65,
+        343.98
+      ],
+      "original_source_full_question_text_layer": "開發山坡地，不只可能會造成土石\r\n流，也有可能會影響到該區河流內\r\n的水域環境和水生生物。",
+      "original_source_stem_text_layer": "開發山坡地，不只可能會造成土石\r\n流，也有可能會影響到該區河流內\r\n的水域環境和水生生物。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "O",
+      "science_prior_reason": "坡地開發造成沖蝕且影響下游水域",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_07",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 167,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|8",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|08",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        33.48,
+        388.8,
+        65,
+        398.58
+      ],
+      "original_source_full_question_text_layer": "地震發生時，應立即採「趴下、掩\r\n護、穩住」的動作，躲在桌下或牆\r\n角並保護頭部。",
+      "original_source_stem_text_layer": "地震發生時，應立即採「趴下、掩\r\n護、穩住」的動作，躲在桌下或牆\r\n角並保護頭部。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": null,
+      "science_prior_reason": "趴下掩護穩住適切，但把牆角和堅固桌下並列成安全位置須依場域",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_10",
+      "prior_route": "HOLD_EARTHQUAKE_SAFETY_QUALIFIER",
+      "source_disposition": "HOLD_EXISTING_SCIENCE_KP_EXCEPTION",
+      "specific_reason": "趴下掩護穩住適切，但把牆角和堅固桌下並列成安全位置須依場域",
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 168,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|9",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|09",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        33.48,
+        443.4,
+        65,
+        453.18
+      ],
+      "original_source_full_question_text_layer": "蓮藕是蓮的地下莖，裡面有許多中\r\n空的構造通氣組，可以儲存空氣。。",
+      "original_source_stem_text_layer": "蓮藕是蓮的地下莖，裡面有許多中\r\n空的構造通氣組，可以儲存空氣。。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "O",
+      "science_prior_reason": "蓮藕地下莖含通氣空隙有利儲存空氣",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_07",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 169,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|10",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|10",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        29.76,
+        479.9,
+        61.28,
+        489.68
+      ],
+      "original_source_full_question_text_layer": "水蘊草的葉面有細毛，漂浮在水面\r\n上，屬於漂浮性水生植物。",
+      "original_source_stem_text_layer": "水蘊草的葉面有細毛，漂浮在水面\r\n上，屬於漂浮性水生植物。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "X",
+      "science_prior_reason": "水蘊草為沉水性，非漂浮且非靠葉細毛漂浮",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_05",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 170,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|11",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|11",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        29.76,
+        516.38,
+        61.28,
+        526.16
+      ],
+      "original_source_full_question_text_layer": "一般而言，在淡水的水域環境和海\r\n水的水域環境中，水生生物的種類\r\n都不相同。",
+      "original_source_stem_text_layer": "一般而言，在淡水的水域環境和海\r\n水的水域環境中，水生生物的種類\r\n都不相同。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "X",
+      "science_prior_reason": "淡海水生物群落不同，但不能絕對說都不同，部分種類可耐鹽度變化",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_02",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 171,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|12",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|12",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        29.76,
+        570.98,
+        61.28,
+        580.76
+      ],
+      "original_source_full_question_text_layer": "生態池的水通常比較淺，陽光可以\r\n照射到池底，常有睡蓮、鯉魚和龜\r\n等生物生存。。",
+      "original_source_stem_text_layer": "生態池的水通常比較淺，陽光可以\r\n照射到池底，常有睡蓮、鯉魚和龜\r\n等生物生存。。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "O",
+      "science_prior_reason": "生態池可能適合睡蓮、鯉魚或龜類生存",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_02",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 172,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|13",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|13",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        29.76,
+        625.58,
+        61.28,
+        635.36
+      ],
+      "original_source_full_question_text_layer": "龜和蟹都可以在陸地或水中爬\r\n行，用肺呼吸。",
+      "original_source_stem_text_layer": "龜和蟹都可以在陸地或水中爬\r\n行，用肺呼吸。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "X",
+      "science_prior_reason": "龜用肺，蟹主要用鰓呼吸",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_09",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 173,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|14",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|14",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        29.76,
+        662.09,
+        61.28,
+        671.87
+      ],
+      "original_source_full_question_text_layer": "用放大鏡觀察，可以發現礫石、沙\r\n和土壤的顆粒大小都一樣，只是顏\r\n色不同。。",
+      "original_source_stem_text_layer": "用放大鏡觀察，可以發現礫石、沙\r\n和土壤的顆粒大小都一樣，只是顏\r\n色不同。。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "X",
+      "science_prior_reason": "礫石沙土的顆粒大小不一",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_03",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 174,
+      "source_id": "SCI_G04_S1_113_MID_013|S1|TF|15",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|15",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        29.76,
+        716.69,
+        61.28,
+        726.47
+      ],
+      "original_source_full_question_text_layer": "下過雨後，土壤被沖刷流進河川，\r\n會讓河水變得混濁。",
+      "original_source_stem_text_layer": "下過雨後，土壤被沖刷流進河川，\r\n會讓河水變得混濁。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "O",
+      "science_prior_reason": "雨水沖刷土壤入河可使水體混濁",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_05",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 175,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|1",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|01",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        311.45,
+        111.57,
+        342.99,
+        121.35
+      ],
+      "original_source_full_question_text_layer": "拜訪水域環境時，攜帶下列哪一\r\n物品可以幫助我們對照水生生物\r\n的資料？ ①撈網 ②水生生物\r\n圖鑑 ③水桶 ④望遠鏡。",
+      "original_source_stem_text_layer": "拜訪水域環境時，攜帶下列哪一\r\n物品可以幫助我們對照水生生物\r\n的資料？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "撈網"
+        },
+        {
+          "original_label": "②",
+          "text": "水生生物\r\n圖鑑"
+        },
+        {
+          "original_label": "③",
+          "text": "水桶"
+        },
+        {
+          "original_label": "④",
+          "text": "望遠鏡。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "②",
+      "science_prior_reason": "水生生物圖鑑有助對照辨識調查生物",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_13",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 176,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|2",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|02",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        311.45,
+        183.57,
+        342.99,
+        193.35
+      ],
+      "original_source_full_question_text_layer": "下列關於地震相關名詞的敘述，\r\n哪一項是不正確的？ ①震央是\r\n引發地震的位置 ②震源深度是\r\n震央到震源的距離 ③地震規模\r\n是該次地震震源所釋放出的能量\r\n大小 ④震度是人體感受地面搖\r\n動或建築物受破壞的程度。",
+      "original_source_stem_text_layer": "下列關於地震相關名詞的敘述，\r\n哪一項是不正確的？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "震央是\r\n引發地震的位置"
+        },
+        {
+          "original_label": "②",
+          "text": "震源深度是\r\n震央到震源的距離"
+        },
+        {
+          "original_label": "③",
+          "text": "地震規模\r\n是該次地震震源所釋放出的能量\r\n大小"
+        },
+        {
+          "original_label": "④",
+          "text": "震度是人體感受地面搖\r\n動或建築物受破壞的程度。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "①",
+      "science_prior_reason": "震央不是震源，但地震名詞非現有地表變動直接KP",
+      "direct_113_frozen_canonical_KP_proposal": null,
+      "prior_route": "HOLD_DIRECT_KP",
+      "source_disposition": "HOLD_EXISTING_SCIENCE_KP_EXCEPTION",
+      "specific_reason": "震央不是震源，但地震名詞非現有地表變動直接KP",
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 177,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|3",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|03",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        311.45,
+        309.6,
+        342.99,
+        319.38
+      ],
+      "original_source_full_question_text_layer": "下列關於地震的敘述，哪一項是\r\n正確的？ ①地震可以在發生前\r\n準確的預測 ②震度越大，建築\r\n物受破壞的程度越小 ③世界通\r\n用的地震規模為芮氏規模 ④同\r\n一場地震中，每個地區的地震規模\r\n不一樣。",
+      "original_source_stem_text_layer": "下列關於地震的敘述，哪一項是\r\n正確的？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "地震可以在發生前\r\n準確的預測"
+        },
+        {
+          "original_label": "②",
+          "text": "震度越大，建築\r\n物受破壞的程度越小"
+        },
+        {
+          "original_label": "③",
+          "text": "世界通\r\n用的地震規模為芮氏規模"
+        },
+        {
+          "original_label": "④",
+          "text": "同\r\n一場地震中，每個地區的地震規模\r\n不一樣。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": null,
+      "science_prior_reason": "現在世界規模通用Mw矩震級，芮氏規模『世界通用』命題有科學年代問題",
+      "direct_113_frozen_canonical_KP_proposal": null,
+      "prior_route": "HOLD_SCIENCE_UNIQUE",
+      "source_disposition": "HOLD_EXISTING_SCIENCE_KP_EXCEPTION",
+      "specific_reason": "現在世界規模通用Mw矩震級，芮氏規模『世界通用』命題有科學年代問題",
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 178,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|4",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|04",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        311.45,
+        435.6,
+        342.99,
+        445.38
+      ],
+      "original_source_full_question_text_layer": "人類經常把下列哪一種物品隨意\r\n拋棄，而這個物品流入海洋後，\r\n常讓海龜誤以為是水母而誤食死\r\n亡？ ①鋁箔包 ②塑膠袋③吸\r\n管④寶特瓶。",
+      "original_source_stem_text_layer": "人類經常把下列哪一種物品隨意\r\n拋棄，而這個物品流入海洋後，\r\n常讓海龜誤以為是水母而誤食死\r\n亡？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "鋁箔包"
+        },
+        {
+          "original_label": "②",
+          "text": "塑膠袋"
+        },
+        {
+          "original_label": "③",
+          "text": "吸\r\n管"
+        },
+        {
+          "original_label": "④",
+          "text": "寶特瓶。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "②",
+      "science_prior_reason": "漂流塑膠袋可能被海龜誤食為水母",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_11",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 179,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|5",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|05",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        311.45,
+        525.62,
+        342.99,
+        535.4
+      ],
+      "original_source_full_question_text_layer": "下列生物和生長環境的配對，哪\r\n一組是不正確的？ ①西瓜：鬆\r\n散、排水性良好的土壤 ②栗喉\r\n蜂虎：堅硬的岩石縫隙 ③招潮\r\n蟹：鬆軟的海濱泥灘地 ④水\r\n稻：有點黏性的溼潤土壤。",
+      "original_source_stem_text_layer": "下列生物和生長環境的配對，哪\r\n一組是不正確的？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "西瓜：鬆\r\n散、排水性良好的土壤"
+        },
+        {
+          "original_label": "②",
+          "text": "栗喉\r\n蜂虎：堅硬的岩石縫隙"
+        },
+        {
+          "original_label": "③",
+          "text": "招潮\r\n蟹：鬆軟的海濱泥灘地"
+        },
+        {
+          "original_label": "④",
+          "text": "水\r\n稻：有點黏性的溼潤土壤。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "②",
+      "science_prior_reason": "栗喉蜂虎築巢用砂質土崖，並非堅硬岩縫",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_02",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 180,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|6",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|06",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        311.45,
+        633.62,
+        342.99,
+        643.4
+      ],
+      "original_source_full_question_text_layer": "蝦是利用哪一個構造呼吸？\r\n① 鰓 ②肺③呼吸管④氣孔。",
+      "original_source_stem_text_layer": "蝦是利用哪一個構造呼吸？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "鰓"
+        },
+        {
+          "original_label": "②",
+          "text": "肺"
+        },
+        {
+          "original_label": "③",
+          "text": "呼吸管"
+        },
+        {
+          "original_label": "④",
+          "text": "氣孔。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "①",
+      "science_prior_reason": "蝦主要以鰓呼吸",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_09",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 181,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|7",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|07",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        311.45,
+        669.65,
+        342.99,
+        679.43
+      ],
+      "original_source_full_question_text_layer": "下列水生動物的敘述，哪一項是\r\n正確的？ ①蛙的前腳粗壯，能\r\n夠在陸地上跳躍 ②蝦的腳上有\r\n蹼，能夠在水中游水 ③蝌蚪用\r\n尾巴在水中游水 ④螺有殼，利\r\n用胸足爬行。",
+      "original_source_stem_text_layer": "下列水生動物的敘述，哪一項是\r\n正確的？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "蛙的前腳粗壯，能\r\n夠在陸地上跳躍"
+        },
+        {
+          "original_label": "②",
+          "text": "蝦的腳上有\r\n蹼，能夠在水中游水"
+        },
+        {
+          "original_label": "③",
+          "text": "蝌蚪用\r\n尾巴在水中游水"
+        },
+        {
+          "original_label": "④",
+          "text": "螺有殼，利\r\n用胸足爬行。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "③",
+      "science_prior_reason": "蝌蚪擺動尾部游泳，不是以胸足或蹼游",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_09",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 182,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|8",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|08",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 2,
+      "source_original_native_answer_bbox": [
+        45.6,
+        50.71,
+        77.15,
+        60.49
+      ],
+      "original_source_full_question_text_layer": "下列水生生物和生存環境的組\r\n合，哪一項是不正確的？ ①海\r\n豚：海洋 ②溪魚：河流 ③睡\r\n蓮：生態池 ④鯉魚：潮間帶。",
+      "original_source_stem_text_layer": "下列水生生物和生存環境的組\r\n合，哪一項是不正確的？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "海\r\n豚：海洋"
+        },
+        {
+          "original_label": "②",
+          "text": "溪魚：河流"
+        },
+        {
+          "original_label": "③",
+          "text": "睡\r\n蓮：生態池"
+        },
+        {
+          "original_label": "④",
+          "text": "鯉魚：潮間帶。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "④",
+      "science_prior_reason": "鯉魚多為淡水魚，不能與潮間帶作一般棲地配對",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_02",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 183,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|9",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|09",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 2,
+      "source_original_native_answer_bbox": [
+        45.6,
+        130.77,
+        77.15,
+        140.55
+      ],
+      "original_source_full_question_text_layer": "我們可以採取什麼行動，來保護\r\n水域環境？ ①將家庭廢水直接\r\n排入河中 ②主動清理水域環境\r\n附近的垃圾 ③將水生生物帶回\r\n家飼養 ④砍伐河流上游的森\r\n林。",
+      "original_source_stem_text_layer": "我們可以採取什麼行動，來保護\r\n水域環境？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "將家庭廢水直接\r\n排入河中"
+        },
+        {
+          "original_label": "②",
+          "text": "主動清理水域環境\r\n附近的垃圾"
+        },
+        {
+          "original_label": "③",
+          "text": "將水生生物帶回\r\n家飼養"
+        },
+        {
+          "original_label": "④",
+          "text": "砍伐河流上游的森\r\n林。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "②",
+      "science_prior_reason": "清理垃圾有助維護水域，不宜放生或任意捕撈",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_14",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 184,
+      "source_id": "SCI_G04_S1_113_MID_013|S2|MC|10",
+      "original_source_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|10",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "source_school": "獅湖國小",
+      "source_pdf_page_1_based": 2,
+      "source_original_native_answer_bbox": [
+        41.88,
+        250.77,
+        73.43,
+        260.55
+      ],
+      "original_source_full_question_text_layer": "在學校可以做的地震防災準備不\r\n包含下列哪一項？ ①防震演練\r\n②熟悉逃生路線 ③進行防災教\r\n育 ④舉辦運動會。",
+      "original_source_stem_text_layer": "在學校可以做的地震防災準備不\r\n包含下列哪一項？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "防震演練"
+        },
+        {
+          "original_label": "②",
+          "text": "熟悉逃生路線"
+        },
+        {
+          "original_label": "③",
+          "text": "進行防災教\r\n育"
+        },
+        {
+          "original_label": "④",
+          "text": "舉辦運動會。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "④",
+      "science_prior_reason": "運動會不是既有防震演練、避難路線或防災教育",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_09",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 185,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|1",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|01",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv/view",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "source_school": "路上國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        42.6,
+        150.8,
+        81.5,
+        163.76
+      ],
+      "original_source_full_question_text_layer": "小康到臺灣東北角海邊，可以看\r\n到海邊有茂密的森林生長。",
+      "original_source_stem_text_layer": "小康到臺灣東北角海邊，可以看\r\n到海邊有茂密的森林生長。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": null,
+      "science_prior_reason": "臺灣東北角海邊可能有森林，但須明確地點才能獨立判定『可看到茂密森林』。",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_02",
+      "prior_route": "HOLD_LOCALITY_UNVERIFIED",
+      "source_disposition": "HOLD_EXISTING_SCIENCE_KP_EXCEPTION",
+      "specific_reason": "臺灣東北角海邊可能有森林，但須明確地點才能獨立判定『可看到茂密森林』。",
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 186,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|2",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|02",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv/view",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "source_school": "路上國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        42.6,
+        189.92,
+        81.5,
+        202.88
+      ],
+      "original_source_full_question_text_layer": "工廠在沿海排放熱廢水，會使附\r\n近的珊瑚生長得更好。",
+      "original_source_stem_text_layer": "工廠在沿海排放熱廢水，會使附\r\n近的珊瑚生長得更好。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "X",
+      "science_prior_reason": "熱廢水升高水溫可能促使珊瑚白化，不會使珊瑚更好",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_12",
+      "prior_route": "DIRECT",
+      "source_disposition": "SUPPRESS_SAME_PUBLIC_ORIGINAL_EXACT_STEM",
+      "specific_reason": "Exactly same normalized original school question text and science answer as main existing native38 source SCI_G04_S1_113_MID_005|S1|TF|010",
+      "duplicate_alias_to": "SCI_G04_S1_113_MID_005|S1|TF|010",
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 187,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|4",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|04",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv/view",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "source_school": "路上國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        42.6,
+        268.43,
+        81.5,
+        281.39
+      ],
+      "original_source_full_question_text_layer": "水蘊草的根生長在泥土裡面，莖\r\n和葉會隨著水流擺動。",
+      "original_source_stem_text_layer": "水蘊草的根生長在泥土裡面，莖\r\n和葉會隨著水流擺動。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "O",
+      "science_prior_reason": "水蘊草莖葉可在水中隨水流擺動",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_05",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 188,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|5",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|05",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv/view",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "source_school": "路上國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        42.6,
+        307.67,
+        81.5,
+        320.63
+      ],
+      "original_source_full_question_text_layer": "蟹具有八隻腳及一對螯，能在水\r\n中爬行。",
+      "original_source_stem_text_layer": "蟹具有八隻腳及一對螯，能在水\r\n中爬行。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "O",
+      "science_prior_reason": "蟹有四對步足和一對螯足，可在水中爬行",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_09",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 189,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|8",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|08",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv/view",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "source_school": "路上國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        42.6,
+        425.29,
+        81.5,
+        438.25
+      ],
+      "original_source_full_question_text_layer": "阿華在地震時感覺恐懼，還看到\r\n沒有固定的花瓶從櫃子上傾倒掉\r\n落、房屋搖動甚烈，代表當地的\r\n地震震度是 2 級。",
+      "original_source_stem_text_layer": "阿華在地震時感覺恐懼，還看到\r\n沒有固定的花瓶從櫃子上傾倒掉\r\n落、房屋搖動甚烈，代表當地的\r\n地震震度是 2 級。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": null,
+      "science_prior_reason": "較強搖晃與震度2級不符，但震度分級非U01直接KP",
+      "direct_113_frozen_canonical_KP_proposal": null,
+      "prior_route": "HOLD_DIRECT_KP",
+      "source_disposition": "HOLD_EXISTING_SCIENCE_KP_EXCEPTION",
+      "specific_reason": "較強搖晃與震度2級不符，但震度分級非U01直接KP",
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 190,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|9",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|09",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv/view",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "source_school": "路上國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        42.6,
+        498.37,
+        81.5,
+        511.33
+      ],
+      "original_source_full_question_text_layer": "婷婷一家人到花蓮搭船賞鯨，除\r\n了有機會看到鯨之外，也有可能\r\n看到海豚。",
+      "original_source_stem_text_layer": "婷婷一家人到花蓮搭船賞鯨，除\r\n了有機會看到鯨之外，也有可能\r\n看到海豚。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "O",
+      "science_prior_reason": "花蓮近海可觀察鯨與海豚",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_02",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 191,
+      "source_id": "SCI_G04_S1_113_MID_014|S1|TF|10",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|10",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv/view",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "source_school": "路上國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        42.6,
+        554.53,
+        81.5,
+        567.49
+      ],
+      "original_source_full_question_text_layer": "臺灣的茶葉適合在海邊生長，烘\r\n乾後可以做成飲品。",
+      "original_source_stem_text_layer": "臺灣的茶葉適合在海邊生長，烘\r\n乾後可以做成飲品。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "X",
+      "science_prior_reason": "茶葉主要適合山坡與適當氣候土壤，非一般海邊",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_10",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 192,
+      "source_id": "SCI_G04_S1_113_MID_014|S2|MC|1",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|01",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv/view",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "source_school": "路上國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        42.6,
+        622,
+        81.5,
+        634.96
+      ],
+      "original_source_full_question_text_layer": "下列人類對環境的使用方式，哪\r\n一種比較不容易產生土石流呢？\r\n①大量砍伐山上的樹林 ②開發\r\n山坡地，種植高冷蔬菜 ③在裸\r\n露的山坡地上種植植物，避免地\r\n表物質流失 ④在山坡地上建築\r\n房屋。",
+      "original_source_stem_text_layer": "下列人類對環境的使用方式，哪\r\n一種比較不容易產生土石流呢？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "大量砍伐山上的樹林"
+        },
+        {
+          "original_label": "②",
+          "text": "開發\r\n山坡地，種植高冷蔬菜"
+        },
+        {
+          "original_label": "③",
+          "text": "在裸\r\n露的山坡地上種植植物，避免地\r\n表物質流失"
+        },
+        {
+          "original_label": "④",
+          "text": "在山坡地上建築\r\n房屋。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "③",
+      "science_prior_reason": "種植植物可減少裸露坡面土壤沖蝕",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_07",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 193,
+      "source_id": "SCI_G04_S1_113_MID_014|S2|MC|7",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|07",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv/view",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "source_school": "路上國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        308.23,
+        462.49,
+        347.11,
+        475.45
+      ],
+      "original_source_full_question_text_layer": "下列哪一項是岩石在生活上的應\r\n用？ ①耕種農作物 ②鋪設步\r\n道 ③飼養蚯蚓 ④切割後作為\r\n食材。",
+      "original_source_stem_text_layer": "下列哪一項是岩石在生活上的應\r\n用？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "耕種農作物"
+        },
+        {
+          "original_label": "②",
+          "text": "鋪設步\r\n道"
+        },
+        {
+          "original_label": "③",
+          "text": "飼養蚯蚓"
+        },
+        {
+          "original_label": "④",
+          "text": "切割後作為\r\n食材。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "②",
+      "science_prior_reason": "岩石可鋪設步道",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_01_04",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 194,
+      "source_id": "SCI_G04_S1_113_MID_014|S2|MC|8",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|08",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv/view",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "source_school": "路上國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        308.23,
+        538.09,
+        347.11,
+        551.05
+      ],
+      "original_source_full_question_text_layer": "生活中常見的蓮藕，是荷花的哪\r\n一個構造？ ①根 ②葉 ③葉\r\n柄 ④地下莖。",
+      "original_source_stem_text_layer": "生活中常見的蓮藕，是荷花的哪\r\n一個構造？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "根"
+        },
+        {
+          "original_label": "②",
+          "text": "葉"
+        },
+        {
+          "original_label": "③",
+          "text": "葉\r\n柄"
+        },
+        {
+          "original_label": "④",
+          "text": "地下莖。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "④",
+      "science_prior_reason": "蓮藕是地下莖",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_07",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 195,
+      "source_id": "SCI_G04_S1_113_MID_014|S2|MC|10",
+      "original_source_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|10",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv/view",
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "source_school": "路上國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        308.23,
+        653.32,
+        347.11,
+        666.28
+      ],
+      "original_source_full_question_text_layer": "大部分生物必須依靠下列哪一種\r\n物質才能生存？ ①土壤 ②沙\r\n③岩石 ④空氣。",
+      "original_source_stem_text_layer": "大部分生物必須依靠下列哪一種\r\n物質才能生存？",
+      "original_source_choice_label_and_text": [
+        {
+          "original_label": "①",
+          "text": "土壤"
+        },
+        {
+          "original_label": "②",
+          "text": "沙"
+        },
+        {
+          "original_label": "③",
+          "text": "岩石"
+        },
+        {
+          "original_label": "④",
+          "text": "空氣。"
+        }
+      ],
+      "source_type": "MC",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "④",
+      "science_prior_reason": "多數生物利用空氣氧氣但非Frozen KP直接教學目標",
+      "direct_113_frozen_canonical_KP_proposal": null,
+      "prior_route": "HOLD_DIRECT_KP",
+      "source_disposition": "HOLD_EXISTING_SCIENCE_KP_EXCEPTION",
+      "specific_reason": "多數生物利用空氣氧氣但非Frozen KP直接教學目標",
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 196,
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|1",
+      "original_source_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|01",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "source_school": "廣興國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        28.32,
+        100.09,
+        58.32,
+        112.09
+      ],
+      "original_source_full_question_text_layer": "水生植物依生長方式可以分為漂浮性、浮游\r\n性、沉水性和挺水性。",
+      "original_source_stem_text_layer": "水生植物依生長方式可以分為漂浮性、浮游\r\n性、沉水性和挺水性。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "X",
+      "science_prior_reason": "水生植物生長型含浮葉性，非題幹『浮游性』",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_03",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 197,
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|2",
+      "original_source_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|02",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "source_school": "廣興國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        28.32,
+        136.09,
+        58.32,
+        148.09
+      ],
+      "original_source_full_question_text_layer": "布袋蓮的葉柄膨大，可以儲存養分。",
+      "original_source_stem_text_layer": "布袋蓮的葉柄膨大，可以儲存養分。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "X",
+      "science_prior_reason": "布袋蓮葉柄膨大主要通氣儲存空氣非養分",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_04",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 198,
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|3",
+      "original_source_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|03",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "source_school": "廣興國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        28.32,
+        154.09,
+        58.32,
+        166.09
+      ],
+      "original_source_full_question_text_layer": "水生動物都是用鰓呼吸，如魚、蝌蚪、青蛙。",
+      "original_source_stem_text_layer": "水生動物都是用鰓呼吸，如魚、蝌蚪、青蛙。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "X",
+      "science_prior_reason": "成年蛙以肺及皮膚呼吸，非所有水生動物用鰓",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_09",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 199,
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|4",
+      "original_source_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|04",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "source_school": "廣興國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        28.32,
+        172.09,
+        58.32,
+        184.09
+      ],
+      "original_source_full_question_text_layer": "水域環境都是天然形成的。",
+      "original_source_stem_text_layer": "水域環境都是天然形成的。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "X",
+      "science_prior_reason": "水田、魚塭等是人造水域",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_02",
+      "prior_route": "DIRECT",
+      "source_disposition": "SOURCE_SCIENCE_KP_CANDIDATE_OPERATOR_PENDING",
+      "specific_reason": null,
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    },
+    {
+      "ordinal": 200,
+      "source_id": "SCI_G04_S1_113_MID_015|S1|TF|5",
+      "original_source_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|05",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_pdf_drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "source_school": "廣興國小",
+      "source_pdf_page_1_based": 1,
+      "source_original_native_answer_bbox": [
+        28.32,
+        190.09,
+        58.32,
+        202.09
+      ],
+      "original_source_full_question_text_layer": "核能發電廠會排放熱廢水，使附近海域的珊\r\n瑚白化死亡。",
+      "original_source_stem_text_layer": "核能發電廠會排放熱廢水，使附近海域的珊\r\n瑚白化死亡。",
+      "original_source_choice_label_and_text": null,
+      "source_type": "TF",
+      "has_original_figure_dependency": false,
+      "science_prior_independent_answer_candidate": "O",
+      "science_prior_reason": "熱廢水升溫可傷害珊瑚並造成白化",
+      "direct_113_frozen_canonical_KP_proposal": "sci_g04s1_02_12",
+      "prior_route": "DIRECT",
+      "source_disposition": "HOLD_SCIENCE_QUALIFIER_INDETERMINATE",
+      "specific_reason": "Absolute wording implies thermal discharge necessarily bleaches and kills nearby corals, while inherited reasoning establishes only possible risk, not unconditional outcome; original science answer not uniquely defensible.",
+      "duplicate_alias_to": null,
+      "FORMAL_SCIENCE_KP_APPROVED_new": false,
+      "ADMISSION_READY_new": false,
+      "PUBLISHED_new": false
+    }
+  ]
+}

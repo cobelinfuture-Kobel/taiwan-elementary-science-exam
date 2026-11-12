@@ -1,0 +1,388 @@
+{
+  "schema_version": "P12_G04S1_113_B03_SOURCE50_POST206_PRELIM_V1",
+  "source_PR": 124,
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "scope": "113 康軒四上期中 U01/U02 Frozen48",
+  "prior_public_source_count": 206,
+  "prior_site_answer_slots": 842,
+  "source_b03_50_original_queue": "data/review/p12-g04s1-113-native-tfmc-b03-50-source-checkpoint-v1.json",
+  "source_exact_pdf_text": "data/review/p12-g04s1-113-native-tfmc-b03-50-original-pdf-text-preflight-v1.json",
+  "source_native_bbox": "data/review/p12-g04s1-113-native-tfmc-b03-50-real-original-glyph-bbox-v1.json",
+  "source_science_KP": "data/review/p12-g04s1-113-native-tfmc-b03-50-science-kp-consolidated-v1.json",
+  "school_counts": {
+    "Yongan": 12,
+    "Anhe": 22,
+    "Mingyi": 16
+  },
+  "counts": {
+    "all_source_positions": 50,
+    "existing_DIRECT_model_candidates": 35,
+    "existing_HOLD": 15,
+    "provisional_review_candidates": 33,
+    "duplicate_uncertainty_HOLD": 2,
+    "all_HOLD": 17,
+    "FORMAL_SCIENCE_KP_APPROVED_new": 0,
+    "ADMISSION_READY_new": 0,
+    "PUBLISHED_new": 0
+  },
+  "special_HOLD": {
+    "SCI_G04_S1_113_MID_009|S2|MC|15": "Near identical B03 Yongan MC10, compare original text and option event before any separate admission",
+    "SCI_G04_S1_113_MID_010|S1|TF|1": "Exact original as 114 MID008 TF001 in crossyear source evidence; verify active student source lineage, no automatic admission"
+  },
+  "scope_approval_for_exact33": "PENDING",
+  "source_not_school_answer_key": true,
+  "original_HOLD_preserved": true,
+  "source_draft_remains_unmerged": true,
+  "records": [
+    {
+      "n": 101,
+      "id": "SCI_G04_S1_113_MID_008|S2|MC|3",
+      "paper": "SCI_G04_S1_113_MID_008",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 102,
+      "id": "SCI_G04_S1_113_MID_008|S2|MC|4",
+      "paper": "SCI_G04_S1_113_MID_008",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 103,
+      "id": "SCI_G04_S1_113_MID_008|S2|MC|5",
+      "paper": "SCI_G04_S1_113_MID_008",
+      "route": "HOLD_SCIENCE_QUALIFIER",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 104,
+      "id": "SCI_G04_S1_113_MID_008|S2|MC|6",
+      "paper": "SCI_G04_S1_113_MID_008",
+      "route": "HOLD_SCIENCE_UNIQUE",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 105,
+      "id": "SCI_G04_S1_113_MID_008|S2|MC|7",
+      "paper": "SCI_G04_S1_113_MID_008",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 106,
+      "id": "SCI_G04_S1_113_MID_008|S2|MC|8",
+      "paper": "SCI_G04_S1_113_MID_008",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 107,
+      "id": "SCI_G04_S1_113_MID_008|S2|MC|9",
+      "paper": "SCI_G04_S1_113_MID_008",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 108,
+      "id": "SCI_G04_S1_113_MID_008|S2|MC|10",
+      "paper": "SCI_G04_S1_113_MID_008",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 109,
+      "id": "SCI_G04_S1_113_MID_008|S2|MC|11",
+      "paper": "SCI_G04_S1_113_MID_008",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 110,
+      "id": "SCI_G04_S1_113_MID_008|S2|MC|12",
+      "paper": "SCI_G04_S1_113_MID_008",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 111,
+      "id": "SCI_G04_S1_113_MID_008|S2|MC|13",
+      "paper": "SCI_G04_S1_113_MID_008",
+      "route": "HOLD_SCIENCE_UNIQUE",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 112,
+      "id": "SCI_G04_S1_113_MID_008|S2|MC|14",
+      "paper": "SCI_G04_S1_113_MID_008",
+      "route": "HOLD_DIRECT_KP",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 113,
+      "id": "SCI_G04_S1_113_MID_009|S1|TF|1",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 114,
+      "id": "SCI_G04_S1_113_MID_009|S1|TF|2",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 115,
+      "id": "SCI_G04_S1_113_MID_009|S1|TF|3",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 116,
+      "id": "SCI_G04_S1_113_MID_009|S1|TF|4",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "HOLD_DIRECT_KP",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 117,
+      "id": "SCI_G04_S1_113_MID_009|S1|TF|5",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 118,
+      "id": "SCI_G04_S1_113_MID_009|S1|TF|6",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 119,
+      "id": "SCI_G04_S1_113_MID_009|S1|TF|7",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 120,
+      "id": "SCI_G04_S1_113_MID_009|S1|TF|8",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "HOLD_SCIENCE_QUALIFIER",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 121,
+      "id": "SCI_G04_S1_113_MID_009|S1|TF|9",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 122,
+      "id": "SCI_G04_S1_113_MID_009|S1|TF|10",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 123,
+      "id": "SCI_G04_S1_113_MID_009|S1|TF|11",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 124,
+      "id": "SCI_G04_S1_113_MID_009|S1|TF|12",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 125,
+      "id": "SCI_G04_S1_113_MID_009|S2|MC|1",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "HOLD_SCIENCE_UNIQUE",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 126,
+      "id": "SCI_G04_S1_113_MID_009|S2|MC|2",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "HOLD_DIRECT_KP",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 127,
+      "id": "SCI_G04_S1_113_MID_009|S2|MC|3",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "HOLD_DIRECT_KP",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 128,
+      "id": "SCI_G04_S1_113_MID_009|S2|MC|4",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 129,
+      "id": "SCI_G04_S1_113_MID_009|S2|MC|5",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 130,
+      "id": "SCI_G04_S1_113_MID_009|S2|MC|6",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 131,
+      "id": "SCI_G04_S1_113_MID_009|S2|MC|8",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "HOLD_DIRECT_KP",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 132,
+      "id": "SCI_G04_S1_113_MID_009|S2|MC|10",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "HOLD_SCIENCE_UNIQUE",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 133,
+      "id": "SCI_G04_S1_113_MID_009|S2|MC|11",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 134,
+      "id": "SCI_G04_S1_113_MID_009|S2|MC|15",
+      "paper": "SCI_G04_S1_113_MID_009",
+      "route": "DIRECT",
+      "disposition": "HOLD_DUPLICATE_EVIDENCE"
+    },
+    {
+      "n": 135,
+      "id": "SCI_G04_S1_113_MID_010|S1|TF|1",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "DIRECT",
+      "disposition": "HOLD_DUPLICATE_EVIDENCE"
+    },
+    {
+      "n": 136,
+      "id": "SCI_G04_S1_113_MID_010|S1|TF|2",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 137,
+      "id": "SCI_G04_S1_113_MID_010|S1|TF|3",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "HOLD_DIRECT_KP",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 138,
+      "id": "SCI_G04_S1_113_MID_010|S1|TF|4",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 139,
+      "id": "SCI_G04_S1_113_MID_010|S1|TF|5",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 140,
+      "id": "SCI_G04_S1_113_MID_010|S1|TF|6",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 141,
+      "id": "SCI_G04_S1_113_MID_010|S1|TF|7",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 142,
+      "id": "SCI_G04_S1_113_MID_010|S1|TF|8",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 143,
+      "id": "SCI_G04_S1_113_MID_010|S1|TF|9",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "HOLD_SCIENCE_QUALIFIER",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 144,
+      "id": "SCI_G04_S1_113_MID_010|S1|TF|10",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "HOLD_DIRECT_KP",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 145,
+      "id": "SCI_G04_S1_113_MID_010|S2|MC|1",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 146,
+      "id": "SCI_G04_S1_113_MID_010|S2|MC|2",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 147,
+      "id": "SCI_G04_S1_113_MID_010|S2|MC|3",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 148,
+      "id": "SCI_G04_S1_113_MID_010|S2|MC|5",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "HOLD_SCIENCE_UNIQUE",
+      "disposition": "HOLD_SCIENCE_OR_KP"
+    },
+    {
+      "n": 149,
+      "id": "SCI_G04_S1_113_MID_010|S2|MC|6",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    },
+    {
+      "n": 150,
+      "id": "SCI_G04_S1_113_MID_010|S2|MC|8",
+      "paper": "SCI_G04_S1_113_MID_010",
+      "route": "DIRECT",
+      "disposition": "CANDIDATE_NEEDS_OPERATOR_AND_DEDUP"
+    }
+  ]
+}

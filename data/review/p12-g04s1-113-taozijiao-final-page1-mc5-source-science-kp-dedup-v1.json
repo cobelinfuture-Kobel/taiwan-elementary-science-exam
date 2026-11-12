@@ -1,0 +1,180 @@
+{
+  "schema_version": "P12_G04S1_113_TAOZIJIAO_FINAL_PAGE1_MC5_SOURCE_SCIENCE_KP_DEDUP_V1",
+  "source_id": "SCI_G04_S1_113_FINAL_008",
+  "original_pdf": "113_康軒_四上_自然_期末評量卷_桃子腳國小.pdf",
+  "original_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+  "source_pdf_page_1_based": 1,
+  "original_sha256_and_visual_review": "FITZ_ORIGINAL_BINARY_MATCH_RAWDICT_PLUS_RENDERED_PAGE1_MC1_TO_MC5",
+  "original_parent_prompt": "一、單選題，選出最適當的答案。",
+  "publisher_scope": "113學年度四上自然康軒U03/U04 frozen 48 KP",
+  "reviewed_original_positions": 5,
+  "exact_original_answer_marker_bboxes": 5,
+  "science_model_suggested_unique_answer": 4,
+  "science_non_unique_holds": 1,
+  "duplicate_or_science_holds": 5,
+  "formal_science_kp_unique_new_questions": 0,
+  "admission_ready_new_question_count": 0,
+  "published_new_question_count": 0,
+  "teacher_answer_authenticated": false,
+  "readback_113_published_ids": 88,
+  "prior_suppression_ref": "data/review/p12-g04s1-113-main-published88-source-suppression-readback-v2.json",
+  "science_kp_mode": "SOURCE_EVIDENCE_AND_ONE_FROZEN_GATE_NO_NEW_MANDATORY_SECOND_PASS",
+  "rights": "EXAM_QUESTION_TEXT_EVIDENCE_ONLY_NO_PDF_OR_THIRD_PARTY_CROPS_PUBLISHED",
+  "note": "Four scientific model picks are not admission approved: existing 114 archive/existing public duplicates or item-level wording. Original fifth question has two scientifically wrong options. These five are source-only; no new public IDs.",
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S01|MC|001",
+      "source_pdf_page": 1,
+      "original_printed_number": 1,
+      "original_source_answer_bbox_pts_top_left": [
+        45.08,
+        143.14,
+        71.33,
+        156.22
+      ],
+      "source_bbox_method": "EXACT_PDF_RAWDICT_FIRST_OPEN_CLOSE_BRACKET_GLYPH_BBOX",
+      "source_parent_instruction": "單選題，選出最適當的答案。",
+      "full_original_stem": "哪一種裝置沒有運用到小馬達的轉動原理？",
+      "original_options_in_order": [
+        "①電動軌道火車",
+        "②充電型風扇",
+        "③教室裡的電燈",
+        "④吹風機。"
+      ],
+      "model_science_answer": "③",
+      "model_science_explanation": "教室裡的一般電燈不以小馬達驅動發光；其他選項通常使用馬達轉動。",
+      "canonical_direct_kp_candidate": "sci_g04s1_04_10",
+      "related_existing_sources_or_public_blocks": [
+        "P12_B04_G04S1_B05_MC_012",
+        "SCI_G04_S1_114_FINAL_007|S02|MC|018"
+      ],
+      "admission_status": "HOLD_PUBLIC_SEMANTIC_DUPLICATE",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "student_bank_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S01|MC|002",
+      "source_pdf_page": 1,
+      "original_printed_number": 2,
+      "original_source_answer_bbox_pts_top_left": [
+        45.08,
+        191.86,
+        71.33,
+        204.94
+      ],
+      "source_bbox_method": "EXACT_PDF_RAWDICT_FIRST_OPEN_CLOSE_BRACKET_GLYPH_BBOX",
+      "source_parent_instruction": "單選題，選出最適當的答案。",
+      "full_original_stem": "下列哪一種方法可以改變小馬達的轉動方向？",
+      "original_options_in_order": [
+        "①增加電線長度",
+        "②改變電池品牌",
+        "③增加電池數量",
+        "④改變電池的正負極方向。"
+      ],
+      "model_science_answer": "④",
+      "model_science_explanation": "直流小馬達反轉連接電池正負極通常會反轉旋轉方向。",
+      "canonical_direct_kp_candidate": "sci_g04s1_04_10",
+      "related_existing_sources_or_public_blocks": [
+        "P12_B04_G04S1_B04_MC_003",
+        "P12_B04_G04S1_B04_MC_038",
+        "SCI_G04_S1_114_FINAL_007|S02|MC|017"
+      ],
+      "admission_status": "HOLD_PUBLIC_SEMANTIC_DUPLICATE",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "student_bank_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S01|MC|003",
+      "source_pdf_page": 1,
+      "original_printed_number": 3,
+      "original_source_answer_bbox_pts_top_left": [
+        45.08,
+        240.34,
+        71.33,
+        253.42
+      ],
+      "source_bbox_method": "EXACT_PDF_RAWDICT_FIRST_OPEN_CLOSE_BRACKET_GLYPH_BBOX",
+      "source_parent_instruction": "單選題，選出最適當的答案。",
+      "full_original_stem": "小妍將兩面鏡子面對面放置，並調整鏡子的夾角，她發現鏡子中的影像數量會隨著夾角的變化而改變。請問以下哪個敘述是正確的？",
+      "original_options_in_order": [
+        "①鏡子夾角越大，影像數量越多",
+        "②鏡子夾角越小，影像數量越多",
+        "③鏡子夾角的大小與影像數量無關",
+        "④鏡子夾角為直角時，影像數量最多。"
+      ],
+      "model_science_answer": "②",
+      "model_science_explanation": "在教學所考慮的兩鏡反射配置中，鏡夾角縮小會出現更多可見反射影像。",
+      "canonical_direct_kp_candidate": "sci_g04s1_03_07",
+      "related_existing_sources_or_public_blocks": [
+        "SCI_G04_S1_114_FINAL_007|S02|MC|007",
+        "SCI_G04_S1_114_FINAL_005|S2|MC|015",
+        "P12_B04_G04S1_B05_MC_032"
+      ],
+      "admission_status": "HOLD_CROSSYEAR_VERBATIM_DUPLICATE_AND_PUBLIC_RELATED",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "student_bank_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S01|MC|004",
+      "source_pdf_page": 1,
+      "original_printed_number": 4,
+      "original_source_answer_bbox_pts_top_left": [
+        45.08,
+        345.46,
+        71.33,
+        358.54
+      ],
+      "source_bbox_method": "EXACT_PDF_RAWDICT_FIRST_OPEN_CLOSE_BRACKET_GLYPH_BBOX",
+      "source_parent_instruction": "單選題，選出最適當的答案。",
+      "full_original_stem": "小翔在玩紙杯傳聲筒時，發現將棉線壓住時，對方會聽不到自己的聲音，主要原因為何？",
+      "original_options_in_order": [
+        "①聲音無法在空氣中傳播",
+        "②棉線被壓住時，聲音無法透過棉線傳播",
+        "③棉線被壓住時，聲音的高低音改變了",
+        "④棉線被壓住時，聲音的速度變慢了。"
+      ],
+      "model_science_answer": "②",
+      "model_science_explanation": "棉線受壓會使傳聲筒的張緊線振動受到抑制，聽到的聲音可能明顯減弱；選項②的「無法」是原卷簡化，非普遍物理定律。",
+      "canonical_direct_kp_candidate": "sci_g04s1_03_03",
+      "related_existing_sources_or_public_blocks": [
+        "SCI_G04_S1_114_FINAL_007|S02|MC|016",
+        "G04-S1-FINAL-TF-07"
+      ],
+      "admission_status": "HOLD_CROSSYEAR_NEAR_VERBATIM_AND_ABSOLUTE_WORDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "student_bank_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_008|S01|MC|005",
+      "source_pdf_page": 1,
+      "original_printed_number": 5,
+      "original_source_answer_bbox_pts_top_left": [
+        45.08,
+        435.46,
+        71.33,
+        448.54
+      ],
+      "source_bbox_method": "EXACT_PDF_RAWDICT_FIRST_OPEN_CLOSE_BRACKET_GLYPH_BBOX",
+      "source_parent_instruction": "單選題，選出最適當的答案。",
+      "full_original_stem": "關於伏打電池的敘述何者錯誤？",
+      "original_options_in_order": [
+        "①是利用兩種相同金屬接觸產生電流",
+        "②世界上第一顆乾電池",
+        "③伏打電池的發明是受到蛙腿實驗啟發",
+        "④利用銅片、鋅片和浸泡鹽水的濕抹布堆疊而成。"
+      ],
+      "model_science_answer": null,
+      "model_science_explanation": "選項①錯：伏打電堆以兩種不同金屬和電解質產生電位差；選項②也錯：伏打電堆屬早期濕式電池而非乾電池，單選題至少兩個錯誤選項。",
+      "canonical_direct_kp_candidate": null,
+      "related_existing_sources_or_public_blocks": [],
+      "admission_status": "HOLD_SCIENCE_NON_UNIQUE_ANSWER_AND_NO_DIRECT_FROZEN_KP",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "student_bank_published": false
+    }
+  ]
+}

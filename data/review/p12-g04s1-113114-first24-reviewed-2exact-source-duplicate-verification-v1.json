@@ -1,0 +1,46 @@
+{
+  "schema_version": "P12_G04S1_113_114_CROSS_YEAR_EXACT_ITEM_VERIFICATION_FOR_24_MODEL_REVIEWED_V1",
+  "source_all29_review": "data/review/p12-g04s1-113-all29-wholecorpus-769source-24science-13dedup-v1.json",
+  "source_114_library": "25 content-only 114 source exam question JSONs under data/content-only/p12-art9-114-*",
+  "method": "24 selected native original 113 exam question items compared by normalized stems across 25 actual 114 source archives; inspect all matched item answer types and ordered options",
+  "review_scope_113_independent_science_kp_selected": 24,
+  "review_scope_114_source_archives": 25,
+  "matched_crossyear_occurrences": 3,
+  "confirmed_distinct_113_source_items_full_duplicate": 2,
+  "full_exact_original_question_matches": [
+    {
+      "source_113": "SCI_G04_S1_113_FINAL_005",
+      "page": 1,
+      "kind": "TF",
+      "printed_question_no": 8,
+      "source_114": "SCI_G04_S1_114_FINAL_007|S01|TF|012",
+      "duplicate_type": "EXACT_TF_STEM",
+      "final_item_duplicate_disposition": "DUPLICATE_CONFIRMED"
+    },
+    {
+      "source_113": "SCI_G04_S1_113_FINAL_008",
+      "page": 1,
+      "kind": "MC",
+      "printed_question_no": 2,
+      "source_114": "SCI_G04_S1_114_FINAL_007|S02|MC|017",
+      "duplicate_type": "EXACT_MC_STEM_AND_ORDERED_OPTIONS",
+      "final_item_duplicate_disposition": "DUPLICATE_CONFIRMED"
+    }
+  ],
+  "same_stem_reordered_options": [
+    {
+      "source_113": "SCI_G04_S1_113_FINAL_008",
+      "page": 1,
+      "kind": "MC",
+      "printed_question_no": 2,
+      "source_114": "SCI_G04_S1_114_FINAL_005|S2|MC|001",
+      "option_order_difference": "113 correct choice 4; 114 correct choice 3",
+      "adjudication": "HOLD_FOR_SEMANTIC_DUPLICATE_ASSESSMENT; DO_NOT_COPY_OPTION_KEY"
+    }
+  ],
+  "not_claimed": "This is NOT a 769-item cross-year exhaustive dedup certification; no completeness claim for other items. Same-stem matches are not equivalent to all semantic duplicates.",
+  "admission_ready": 0,
+  "public_bank_slots_unchanged": 636,
+  "pr_draft_no_release": true,
+  "local_detailed_zip": "P12_G04S1_113_ALL29_wholecorpus_science_and_113114_dedup_v4.zip"
+}

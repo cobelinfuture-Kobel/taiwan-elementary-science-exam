@@ -1,0 +1,39 @@
+{
+  "schema_version": "P12_G04S1_113_NATIVE_B07_1_SCIENCE_KP_CONTEXT_ROUTING_V1",
+  "scope": "113 school natural questions, 48 frozen KP, scoped per MID/FNAL period, unchanged Admission Gate",
+  "source_review_evidence": "Original exact question words and native BBox included by ref, no auto admission",
+  "count": 1,
+  "direct_science_and_KP_text_candidates": 0,
+  "hold_and_outscope": 1,
+  "route_counts": {
+    "HOLD_PARENT_READING_CONTEXT": 1
+  },
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S3|TF|7",
+      "source_exact_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "original_source_ref": "data/review/p12-g04s1-113-native-tfmc-b07-1-pdf-text-source-v1.json",
+      "original_pdf_bbox_ref": "data/review/p12-g04s1-113-native-tfmc-b07-1-original-native-glyph-bbox-v1.json",
+      "exam_period_scope": "FINAL_U03_U04",
+      "source_parent_ref": "SCI_G04_S1_113_FINAL_010|S3",
+      "scientific_answer_candidate": "O",
+      "canonical_kp_candidate": "sci_g04s1_03_09",
+      "route": "HOLD_PARENT_READING_CONTEXT",
+      "reason": "烤箱的提示聲音有指示用途，符合 U03KP09；但此原題仍隸屬吳寶春麵包故事閱讀題組，需權利及父題依賴 Gate。",
+      "source_school_key_authenticated": false,
+      "duplicate_rights_operator_gate_complete": false,
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "new_formal_science_kp_approved": 0,
+  "new_admission_ready": 0,
+  "new_published": 0,
+  "limits": [
+    "One MID source item with three graphic moon choices stays original figure HOLD and out-of-scope",
+    "All original source PDF teacher answers unauthenticated",
+    "11 of B06+B07 source children are narrative-dependent; retain shared reading article and third-party rights question",
+    "B06+B07 final source scope U03-U04; chemistry/acids/fermentation items do not map by topic proximity"
+  ]
+}

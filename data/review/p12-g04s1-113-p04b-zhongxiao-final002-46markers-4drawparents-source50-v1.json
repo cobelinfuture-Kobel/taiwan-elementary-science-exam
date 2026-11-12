@@ -1,0 +1,86 @@
+{
+  "schema_version": "P12_G04S1_113_P04B_ZHONGXIAO_FINAL002_46_PRINTED_4_ORIGINAL_DRAWING_GROUP_MODE_V1",
+  "source_original_PDF_id": "SCI_G04_S1_113_FINAL_002",
+  "original_PDF_sha256": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+  "source_original_pdf_bytes_SHA256_locally_reverified": true,
+  "original_pdf_page_count": 4,
+  "original_response_working_targets_NONCERTIFIED": 50,
+  "original_46_exact_independent_scanned_original_ink_answer_marker_bboxes": 46,
+  "remaining_4_original_direct_on_figure_drawing_responses_without_independent_printed_answer_boxes": 4,
+  "existing_printed_marker_proof_1": "data/review/p12-g04s1-113-zhongxiao-final002-firstpage10-pair-bbox-drawing4-hold-v1.json",
+  "existing_printed_marker_proof_2": "data/review/p12-g04s1-113-zhongxiao-final002-page2-mc14-exact-raster-bbox-v1.json",
+  "existing_printed_marker_proof_3": "data/review/p12-g04s1-113-zhongxiao-final002-s05s06-22-exact-raster-bbox-v1.json",
+  "original_parent_four_roi_proof": "data/review/p12-g04s1-113-scan5-remaining6-actual-original-parent-figure-rois-v18.json",
+  "original_four_drawing_full_parent_source_types": [
+    {
+      "id": "SCI_G04_S1_113_FINAL_002|S01|DRAW|003",
+      "page": 1,
+      "xref": 8,
+      "source_original_figure_roi_bbox_pts_top_left": [
+        138.01,
+        477.67,
+        267.15,
+        734.98
+      ],
+      "original_parent_task_type": "DRAW_REFLECTED_LIGHT_RAY_ON_SOURCE_MIRROR_DIAGRAM",
+      "source_answer_mode": "DRAW_ON_SOURCE_SHARED_FIGURE",
+      "independent_printed_answer_bbox_exists": false,
+      "original_image_publication_rights_verified": false,
+      "admission_ready": false
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_002|S01|DRAW|006",
+      "page": 1,
+      "xref": 8,
+      "source_original_figure_roi_bbox_pts_top_left": [
+        913.53,
+        433.26,
+        1052.51,
+        719.38
+      ],
+      "original_parent_task_type": "DRAW_LED_POLARITY_BATTERY_CIRCUIT",
+      "source_answer_mode": "DRAW_ON_SOURCE_SHARED_FIGURE",
+      "independent_printed_answer_bbox_exists": false,
+      "original_image_publication_rights_verified": false,
+      "admission_ready": false
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_002|S03|DRAW|001",
+      "page": 1,
+      "xref": 8,
+      "source_original_figure_roi_bbox_pts_top_left": [
+        792.56,
+        13.92,
+        1145.4,
+        406.14
+      ],
+      "original_parent_task_type": "DRAW_CHRISTMAS_TREE_THREE_BULBS_SERIES",
+      "source_answer_mode": "DRAW_ON_SOURCE_SHARED_FIGURE",
+      "independent_printed_answer_bbox_exists": false,
+      "original_image_publication_rights_verified": false,
+      "admission_ready": false
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_002|S03|DRAW|002",
+      "page": 2,
+      "xref": 14,
+      "source_original_figure_roi_bbox_pts_top_left": [
+        723.43,
+        47.77,
+        1057.31,
+        407.82
+      ],
+      "original_parent_task_type": "DRAW_LANTERN_TWO_BULBS_PARALLEL",
+      "source_answer_mode": "DRAW_ON_SOURCE_SHARED_FIGURE",
+      "independent_printed_answer_bbox_exists": false,
+      "original_image_publication_rights_verified": false,
+      "admission_ready": false
+    }
+  ],
+  "original_full_source_student_figure_evaluation_rights_NOT_complete": true,
+  "new_formal_science_KP48_duplicates_operator_admission_passed": 0,
+  "new_published": 0,
+  "student_bank_original_school_images_not_copied": true,
+  "note": "46 physical printed answer glyph BBoxes + 4 source drawing on original diagram parent response regions covers 50 noncertified working source targets, not 50 formally independently assessable student exam questions; four original drawing parents retain complete original diagram dependency, no made-up answer parentheses.",
+  "next_required": "Rights figure equivalence, drawing evaluation, full original stems/options and existing direct Frozen48 KP/Science/semantic dedup/operator admission gates remain HOLD; source-only drawing modality itemization does not publish."
+}

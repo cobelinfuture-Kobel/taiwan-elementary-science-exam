@@ -1,0 +1,131 @@
+{
+  "schema_version": "P12_G04S1_113_HN22_NATIVE_OTHER_12PDF_FULLTEXT_DUPLICATE_SCREEN_B_V1",
+  "scope": "113 G04 S1 29 frozen school PDFs, native text subset second 12, exact 22-source target text comparison",
+  "source_registry": "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "target_manifest": "data/review/p12-g04s1-113-heshun-neian22-operator-cohort-manifest-DRAFT-v1.json",
+  "method": "Connected original school 113 PDF native text, no OCR, NFKC exact full stem normalization and 10-character shingle coverage >=70% to surface near duplicates. Still require actual source options, question context, and original scan images for final duplicate classification.",
+  "source_native_pdf_count_attempted": 12,
+  "readable": 12,
+  "exact_target_full_stem_hit_total": 1,
+  "records": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_014",
+      "title": "113_康軒_四上_自然_期中評量卷_路上國小.pdf",
+      "original_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "text_chars": 2969,
+      "readable": true,
+      "exact_candidate_whole_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_015",
+      "title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "original_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "text_chars": 3415,
+      "readable": true,
+      "exact_candidate_whole_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_004",
+      "title": "113_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "original_pdf_sha256": "ee3847a2790d0f92f64ff2361003e6383364dd83d49797bacd3631cfe808768d",
+      "text_chars": 3225,
+      "readable": true,
+      "exact_candidate_whole_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_005",
+      "title": "113_康軒_四上_自然_期末評量卷_永安國小.pdf",
+      "original_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "text_chars": 3612,
+      "readable": true,
+      "exact_candidate_whole_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_006",
+      "title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "original_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "text_chars": 2359,
+      "readable": true,
+      "exact_candidate_whole_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_007",
+      "title": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "original_pdf_sha256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "text_chars": 2746,
+      "readable": true,
+      "exact_candidate_whole_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_008",
+      "title": "113_康軒_四上_自然_期末評量卷_桃子腳國小.pdf",
+      "original_pdf_sha256": "59a1b5ee713f6cc96e47f1db1c9111918f67c6fd9bacecd64c9ad56a16db6ed3",
+      "text_chars": 5292,
+      "readable": true,
+      "exact_candidate_whole_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016",
+      "title": "113_翰林_四上_自然_期中評量卷_大華國小.pdf",
+      "original_pdf_sha256": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1",
+      "text_chars": 3244,
+      "readable": true,
+      "exact_candidate_whole_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_017",
+      "title": "113_翰林_四上_自然_期中評量卷_內湖國小.pdf",
+      "original_pdf_sha256": "e0ad91beef6d908d73cf7198769b844ce865cc00b66f5ab07bde1ea1ee9e4518",
+      "text_chars": 2884,
+      "readable": true,
+      "exact_candidate_whole_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_018",
+      "title": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+      "original_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "text_chars": 2883,
+      "readable": true,
+      "exact_candidate_whole_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_010",
+      "title": "113_翰林_四上_自然_期末評量卷_大華國小.pdf",
+      "original_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "text_chars": 3639,
+      "readable": true,
+      "exact_candidate_whole_stem_hits": 0,
+      "near_hits": []
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_011",
+      "title": "113_翰林_四上_自然_期末評量卷_內湖國小.pdf",
+      "original_pdf_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+      "text_chars": 3666,
+      "readable": true,
+      "exact_candidate_whole_stem_hits": 1,
+      "near_hits": [
+        {
+          "candidate": "SCI_G04_S1_113_FINAL_001|S02|MC|002",
+          "exact_whole_stem_normalized_present": true,
+          "ten_character_shingle_coverage": 1,
+          "context_normalized": "著改變形態的遇熱遇熱水蒸氣水冰冰水水蒸氣遇冷遇冷2太陽明亮的電燈燭火等都是能發出光的物體讓我們可以看到周圍的物品請問這種會發光的物體稱為什麼答:※後面還有題目請繼續作答※1在岸邊聽海浪聲3鬧鐘聲響4海豚互相溝通2潛入水中的舞者聽見水中的音樂聲5左耳聽桌子敲擊聲6用紙杯和棉線做的傳聲筒2臺北市內湖區內湖國民小學113學年"
+        }
+      ]
+    }
+  ],
+  "remaining_other_113_five_scans_have_no_text_layer": true,
+  "formal_DUPLICATE_GATE_complete": false,
+  "ADMISSION_READY_new": 0,
+  "PUBLISHED_new": 0
+}

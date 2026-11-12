@@ -1,0 +1,1134 @@
+{
+  "schema_version": "P12_G04S1_113_NATIVE_TFMC_B04_50_ORIGINAL_PDF_TEXT_LAYER_V1",
+  "mode": "ORIGINAL_SOURCE_EVIDENCE_NOT_STUDENT_ADMISSION",
+  "paper_mix": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_010",
+      "school": "明義國小",
+      "drive_url": "https://drive.google.com/file/d/1gij8o2dledUTcxvF1DvWr-22lKOvI67O/view",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "position_count": 1
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_011",
+      "school": "建德國小",
+      "drive_url": "https://drive.google.com/file/d/111DdplYoZA_hMPLKgxrdgbhCrKWsubtz/view",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "position_count": 8
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_013",
+      "school": "獅湖國小",
+      "drive_url": "https://drive.google.com/file/d/1cvqQb9kUTH02smZkxuQ75ZYBv8aOISmf/view",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "position_count": 25
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_014",
+      "school": "路上國小",
+      "drive_url": "https://drive.google.com/file/d/1iLdd9Da74LEhWlN9tHpd-h_-BKHvbUqv/view",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "position_count": 11
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_015",
+      "school": "廣興國小",
+      "drive_url": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "position_count": 5
+    }
+  ],
+  "section_checks": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "section": "S1",
+      "original_printed_count": 10
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "section": "S2",
+      "original_printed_count": 10
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "section": "S1",
+      "original_printed_count": 10
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_011",
+      "section": "S2",
+      "original_printed_count": 10
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "section": "S1",
+      "original_printed_count": 15
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "section": "S2",
+      "original_printed_count": 10
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "section": "S1",
+      "original_printed_count": 10
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "section": "S2",
+      "original_printed_count": 10
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "section": "S1",
+      "original_printed_count": 11
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_015",
+      "section": "S2",
+      "original_printed_count": 20
+    }
+  ],
+  "source_checkpoint": "data/review/p12-g04s1-113-native-tfmc-b04-50-source-checkpoint-v1.json",
+  "metrics": {
+    "original_source_positions": 50,
+    "TF": 30,
+    "MC": 20,
+    "MC_complete": 19,
+    "MC_missing": 1,
+    "figure_dependent": 0,
+    "formal_science_kp_new": 0,
+    "admission_ready_new": 0,
+    "published_new": 0
+  },
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|10",
+      "source_pdf_sha256": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S02|SINGLE_CHOICE|10",
+      "full_question_text": "人體感受地面搖動或建築物受破壞的程\r\n度稱為什麼？ ○1 地震規模 ○2 震央\r\n○3 震度 ○4 地震深度。",
+      "stem_text": "人體感受地面搖動或建築物受破壞的程\r\n度稱為什麼？ ○1 地震規模 ○2 震央\r\n○3 震度 ○4 地震深度。",
+      "options": null,
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S1|TF|5",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_011|S01|TRUE_FALSE|05",
+      "full_question_text": "在臺灣，所有水域環境中的水最後一定都\r\n 會流向海洋。",
+      "stem_text": "在臺灣，所有水域環境中的水最後一定都\r\n 會流向海洋。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S1|TF|6",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_011|S01|TRUE_FALSE|06",
+      "full_question_text": "進行「雨水大小對地表的影響」實驗時 \r\n ，可以發現顆粒較小的物質比較容易被 \r\n 水沖走。",
+      "stem_text": "進行「雨水大小對地表的影響」實驗時 \r\n ，可以發現顆粒較小的物質比較容易被 \r\n 水沖走。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S1|TF|10",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_011|S01|TRUE_FALSE|10",
+      "full_question_text": "強風或豪雨都無法移動岩石的位置。",
+      "stem_text": "強風或豪雨都無法移動岩石的位置。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S2|MC|4",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|04",
+      "full_question_text": "下列哪項人類行為，不會破壞環境？\r\n ①過度開發森林 ②整治河川 ③開挖\r\n 礦山④工廠排放熱廢水。",
+      "stem_text": "下列哪項人類行為，不會破壞環境？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "過度開發森林"
+        },
+        {
+          "original_label": "②",
+          "text": "整治河川"
+        },
+        {
+          "original_label": "③",
+          "text": "開挖\r\n 礦山"
+        },
+        {
+          "original_label": "④",
+          "text": "工廠排放熱廢水。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S2|MC|7",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|07",
+      "full_question_text": "下列哪一種水生植物屬於挺水性水生植 \r\n 物？ ①香蒲 ②台灣萍蓬草 ③大萍 \r\n ④水蘊草。",
+      "stem_text": "下列哪一種水生植物屬於挺水性水生植 \r\n 物？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "香蒲"
+        },
+        {
+          "original_label": "②",
+          "text": "台灣萍蓬草"
+        },
+        {
+          "original_label": "③",
+          "text": "大萍"
+        },
+        {
+          "original_label": "④",
+          "text": "水蘊草。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S2|MC|8",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|08",
+      "full_question_text": "要分辨岩石、沙和土壤，不適合使用下列 \r\n 哪一種方法？ ①用眼睛看 ②用手觸 \r\n 摸 ③拿放大鏡觀察 ④用嘴巴嘗嘗看。",
+      "stem_text": "要分辨岩石、沙和土壤，不適合使用下列 \r\n 哪一種方法？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "用眼睛看"
+        },
+        {
+          "original_label": "②",
+          "text": "用手觸 \r\n 摸"
+        },
+        {
+          "original_label": "③",
+          "text": "拿放大鏡觀察"
+        },
+        {
+          "original_label": "④",
+          "text": "用嘴巴嘗嘗看。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S2|MC|9",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|09",
+      "full_question_text": "下列關於各種環境的敘述，哪一個是錯\r\n 誤的？ ①森林風大且寒冷，生物種類\r\n 稀少②生態池，水深通常較淺，陽光可\r\n 以照到水底③溪流水流動較快，常有溪 \r\n 魚、蝦、蟹及植物等 ④海洋是最大的 \r\n 水域環境，生物種類很多。",
+      "stem_text": "下列關於各種環境的敘述，哪一個是錯\r\n 誤的？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "森林風大且寒冷，生物種類\r\n 稀少"
+        },
+        {
+          "original_label": "②",
+          "text": "生態池，水深通常較淺，陽光可\r\n 以照到水底"
+        },
+        {
+          "original_label": "③",
+          "text": "溪流水流動較快，常有溪 \r\n 魚、蝦、蟹及植物等"
+        },
+        {
+          "original_label": "④",
+          "text": "海洋是最大的 \r\n 水域環境，生物種類很多。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_011|S2|MC|10",
+      "source_pdf_sha256": "5fa9c6c2520312248fe6b87c9e966b4d36f1d563550a9396a260773323e08334",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_011|S02|SINGLE_CHOICE|10",
+      "full_question_text": "地表除了生物，還有非生物，下列哪 \r\n 一項屬於地表的「非生物」物質？ \r\n ①苔癬 ②水 ③螞蟻 ④貂。",
+      "stem_text": "地表除了生物，還有非生物，下列哪 \r\n 一項屬於地表的「非生物」物質？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "苔癬"
+        },
+        {
+          "original_label": "②",
+          "text": "水"
+        },
+        {
+          "original_label": "③",
+          "text": "螞蟻"
+        },
+        {
+          "original_label": "④",
+          "text": "貂。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|1",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|01",
+      "full_question_text": "森林中有各種大型樹木，生物種類\r\n豐富，有鳥類、松鼠、蜥蜴等。",
+      "stem_text": "森林中有各種大型樹木，生物種類\r\n豐富，有鳥類、松鼠、蜥蜴等。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|2",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|02",
+      "full_question_text": "不同的生物都適合生存在同樣的\r\n地表環境，例如生物都適合生存在\r\n陸地。",
+      "stem_text": "不同的生物都適合生存在同樣的\r\n地表環境，例如生物都適合生存在\r\n陸地。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|3",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|03",
+      "full_question_text": "肥沃的土壤中含有養分，能讓農作\r\n物生長良好。",
+      "stem_text": "肥沃的土壤中含有養分，能讓農作\r\n物生長良好。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|4",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|04",
+      "full_question_text": "岩石受到風力或雨水的長時間作\r\n用，會先碎裂成小礫石，最後變成\r\n土壤。",
+      "stem_text": "岩石受到風力或雨水的長時間作\r\n用，會先碎裂成小礫石，最後變成\r\n土壤。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|5",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|05",
+      "full_question_text": "長期濫採河川砂石，容易危害橋梁\r\n的安全。",
+      "stem_text": "長期濫採河川砂石，容易危害橋梁\r\n的安全。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|6",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|06",
+      "full_question_text": "岩石摸起來很粗糙，表面可以看到\r\n紋路或斑點。",
+      "stem_text": "岩石摸起來很粗糙，表面可以看到\r\n紋路或斑點。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|7",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|07",
+      "full_question_text": "開發山坡地，不只可能會造成土石\r\n流，也有可能會影響到該區河流內\r\n的水域環境和水生生物。",
+      "stem_text": "開發山坡地，不只可能會造成土石\r\n流，也有可能會影響到該區河流內\r\n的水域環境和水生生物。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|8",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|08",
+      "full_question_text": "地震發生時，應立即採「趴下、掩\r\n護、穩住」的動作，躲在桌下或牆\r\n角並保護頭部。",
+      "stem_text": "地震發生時，應立即採「趴下、掩\r\n護、穩住」的動作，躲在桌下或牆\r\n角並保護頭部。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|9",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|09",
+      "full_question_text": "蓮藕是蓮的地下莖，裡面有許多中\r\n空的構造通氣組，可以儲存空氣。。",
+      "stem_text": "蓮藕是蓮的地下莖，裡面有許多中\r\n空的構造通氣組，可以儲存空氣。。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|10",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|10",
+      "full_question_text": "水蘊草的葉面有細毛，漂浮在水面\r\n上，屬於漂浮性水生植物。",
+      "stem_text": "水蘊草的葉面有細毛，漂浮在水面\r\n上，屬於漂浮性水生植物。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|11",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|11",
+      "full_question_text": "一般而言，在淡水的水域環境和海\r\n水的水域環境中，水生生物的種類\r\n都不相同。",
+      "stem_text": "一般而言，在淡水的水域環境和海\r\n水的水域環境中，水生生物的種類\r\n都不相同。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|12",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|12",
+      "full_question_text": "生態池的水通常比較淺，陽光可以\r\n照射到池底，常有睡蓮、鯉魚和龜\r\n等生物生存。。",
+      "stem_text": "生態池的水通常比較淺，陽光可以\r\n照射到池底，常有睡蓮、鯉魚和龜\r\n等生物生存。。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|13",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|13",
+      "full_question_text": "龜和蟹都可以在陸地或水中爬\r\n行，用肺呼吸。",
+      "stem_text": "龜和蟹都可以在陸地或水中爬\r\n行，用肺呼吸。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|14",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|14",
+      "full_question_text": "用放大鏡觀察，可以發現礫石、沙\r\n和土壤的顆粒大小都一樣，只是顏\r\n色不同。。",
+      "stem_text": "用放大鏡觀察，可以發現礫石、沙\r\n和土壤的顆粒大小都一樣，只是顏\r\n色不同。。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S1|TF|15",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S01|TRUE_FALSE|15",
+      "full_question_text": "下過雨後，土壤被沖刷流進河川，\r\n會讓河水變得混濁。\r\n \r\n背面有題",
+      "stem_text": "下過雨後，土壤被沖刷流進河川，\r\n會讓河水變得混濁。\r\n \r\n背面有題",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|1",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|01",
+      "full_question_text": "拜訪水域環境時，攜帶下列哪一\r\n物品可以幫助我們對照水生生物\r\n的資料？ ①撈網 ②水生生物\r\n圖鑑 ③水桶 ④望遠鏡。",
+      "stem_text": "拜訪水域環境時，攜帶下列哪一\r\n物品可以幫助我們對照水生生物\r\n的資料？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "撈網"
+        },
+        {
+          "original_label": "②",
+          "text": "水生生物\r\n圖鑑"
+        },
+        {
+          "original_label": "③",
+          "text": "水桶"
+        },
+        {
+          "original_label": "④",
+          "text": "望遠鏡。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|2",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|02",
+      "full_question_text": "下列關於地震相關名詞的敘述，\r\n哪一項是不正確的？ ①震央是\r\n引發地震的位置 ②震源深度是\r\n震央到震源的距離 ③地震規模\r\n是該次地震震源所釋放出的能量\r\n大小 ④震度是人體感受地面搖\r\n動或建築物受破壞的程度。",
+      "stem_text": "下列關於地震相關名詞的敘述，\r\n哪一項是不正確的？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "震央是\r\n引發地震的位置"
+        },
+        {
+          "original_label": "②",
+          "text": "震源深度是\r\n震央到震源的距離"
+        },
+        {
+          "original_label": "③",
+          "text": "地震規模\r\n是該次地震震源所釋放出的能量\r\n大小"
+        },
+        {
+          "original_label": "④",
+          "text": "震度是人體感受地面搖\r\n動或建築物受破壞的程度。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|3",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|03",
+      "full_question_text": "下列關於地震的敘述，哪一項是\r\n正確的？ ①地震可以在發生前\r\n準確的預測 ②震度越大，建築\r\n物受破壞的程度越小 ③世界通\r\n用的地震規模為芮氏規模 ④同\r\n一場地震中，每個地區的地震規模\r\n不一樣。",
+      "stem_text": "下列關於地震的敘述，哪一項是\r\n正確的？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "地震可以在發生前\r\n準確的預測"
+        },
+        {
+          "original_label": "②",
+          "text": "震度越大，建築\r\n物受破壞的程度越小"
+        },
+        {
+          "original_label": "③",
+          "text": "世界通\r\n用的地震規模為芮氏規模"
+        },
+        {
+          "original_label": "④",
+          "text": "同\r\n一場地震中，每個地區的地震規模\r\n不一樣。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|4",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|04",
+      "full_question_text": "人類經常把下列哪一種物品隨意\r\n拋棄，而這個物品流入海洋後，\r\n常讓海龜誤以為是水母而誤食死\r\n亡？ ①鋁箔包 ②塑膠袋③吸\r\n管④寶特瓶。",
+      "stem_text": "人類經常把下列哪一種物品隨意\r\n拋棄，而這個物品流入海洋後，\r\n常讓海龜誤以為是水母而誤食死\r\n亡？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "鋁箔包"
+        },
+        {
+          "original_label": "②",
+          "text": "塑膠袋"
+        },
+        {
+          "original_label": "③",
+          "text": "吸\r\n管"
+        },
+        {
+          "original_label": "④",
+          "text": "寶特瓶。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|5",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|05",
+      "full_question_text": "下列生物和生長環境的配對，哪\r\n一組是不正確的？ ①西瓜：鬆\r\n散、排水性良好的土壤 ②栗喉\r\n蜂虎：堅硬的岩石縫隙 ③招潮\r\n蟹：鬆軟的海濱泥灘地 ④水\r\n稻：有點黏性的溼潤土壤。",
+      "stem_text": "下列生物和生長環境的配對，哪\r\n一組是不正確的？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "西瓜：鬆\r\n散、排水性良好的土壤"
+        },
+        {
+          "original_label": "②",
+          "text": "栗喉\r\n蜂虎：堅硬的岩石縫隙"
+        },
+        {
+          "original_label": "③",
+          "text": "招潮\r\n蟹：鬆軟的海濱泥灘地"
+        },
+        {
+          "original_label": "④",
+          "text": "水\r\n稻：有點黏性的溼潤土壤。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|6",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|06",
+      "full_question_text": "蝦是利用哪一個構造呼吸？\r\n① 鰓 ②肺③呼吸管④氣孔。",
+      "stem_text": "蝦是利用哪一個構造呼吸？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "鰓"
+        },
+        {
+          "original_label": "②",
+          "text": "肺"
+        },
+        {
+          "original_label": "③",
+          "text": "呼吸管"
+        },
+        {
+          "original_label": "④",
+          "text": "氣孔。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|7",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|07",
+      "full_question_text": "下列水生動物的敘述，哪一項是\r\n正確的？ ①蛙的前腳粗壯，能\r\n夠在陸地上跳躍 ②蝦的腳上有\r\n蹼，能夠在水中游水 ③蝌蚪用\r\n尾巴在水中游水 ④螺有殼，利\r\n用胸足爬行。2",
+      "stem_text": "下列水生動物的敘述，哪一項是\r\n正確的？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "蛙的前腳粗壯，能\r\n夠在陸地上跳躍"
+        },
+        {
+          "original_label": "②",
+          "text": "蝦的腳上有\r\n蹼，能夠在水中游水"
+        },
+        {
+          "original_label": "③",
+          "text": "蝌蚪用\r\n尾巴在水中游水"
+        },
+        {
+          "original_label": "④",
+          "text": "螺有殼，利\r\n用胸足爬行。2"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|8",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|08",
+      "full_question_text": "下列水生生物和生存環境的組\r\n合，哪一項是不正確的？ ①海\r\n豚：海洋 ②溪魚：河流 ③睡\r\n蓮：生態池 ④鯉魚：潮間帶。",
+      "stem_text": "下列水生生物和生存環境的組\r\n合，哪一項是不正確的？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "海\r\n豚：海洋"
+        },
+        {
+          "original_label": "②",
+          "text": "溪魚：河流"
+        },
+        {
+          "original_label": "③",
+          "text": "睡\r\n蓮：生態池"
+        },
+        {
+          "original_label": "④",
+          "text": "鯉魚：潮間帶。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|9",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|09",
+      "full_question_text": "我們可以採取什麼行動，來保護\r\n水域環境？ ①將家庭廢水直接\r\n排入河中 ②主動清理水域環境\r\n附近的垃圾 ③將水生生物帶回\r\n家飼養 ④砍伐河流上游的森\r\n林。",
+      "stem_text": "我們可以採取什麼行動，來保護\r\n水域環境？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "將家庭廢水直接\r\n排入河中"
+        },
+        {
+          "original_label": "②",
+          "text": "主動清理水域環境\r\n附近的垃圾"
+        },
+        {
+          "original_label": "③",
+          "text": "將水生生物帶回\r\n家飼養"
+        },
+        {
+          "original_label": "④",
+          "text": "砍伐河流上游的森\r\n林。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_013|S2|MC|10",
+      "source_pdf_sha256": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_013|S02|SINGLE_CHOICE|10",
+      "full_question_text": "在學校可以做的地震防災準備不\r\n包含下列哪一項？ ①防震演練\r\n②熟悉逃生路線 ③進行防災教\r\n育 ④舉辦運動會。",
+      "stem_text": "在學校可以做的地震防災準備不\r\n包含下列哪一項？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "防震演練"
+        },
+        {
+          "original_label": "②",
+          "text": "熟悉逃生路線"
+        },
+        {
+          "original_label": "③",
+          "text": "進行防災教\r\n育"
+        },
+        {
+          "original_label": "④",
+          "text": "舉辦運動會。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|1",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|01",
+      "full_question_text": "小康到臺灣東北角海邊，可以看\r\n到海邊有茂密的森林生長。",
+      "stem_text": "小康到臺灣東北角海邊，可以看\r\n到海邊有茂密的森林生長。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|2",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|02",
+      "full_question_text": "工廠在沿海排放熱廢水，會使附\r\n近的珊瑚生長得更好。",
+      "stem_text": "工廠在沿海排放熱廢水，會使附\r\n近的珊瑚生長得更好。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|4",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|04",
+      "full_question_text": "水蘊草的根生長在泥土裡面，莖\r\n和葉會隨著水流擺動。",
+      "stem_text": "水蘊草的根生長在泥土裡面，莖\r\n和葉會隨著水流擺動。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|5",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|05",
+      "full_question_text": "蟹具有八隻腳及一對螯，能在水\r\n中爬行。",
+      "stem_text": "蟹具有八隻腳及一對螯，能在水\r\n中爬行。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|8",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|08",
+      "full_question_text": "阿華在地震時感覺恐懼，還看到\r\n沒有固定的花瓶從櫃子上傾倒掉\r\n落、房屋搖動甚烈，代表當地的\r\n地震震度是 2 級。",
+      "stem_text": "阿華在地震時感覺恐懼，還看到\r\n沒有固定的花瓶從櫃子上傾倒掉\r\n落、房屋搖動甚烈，代表當地的\r\n地震震度是 2 級。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|9",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|09",
+      "full_question_text": "婷婷一家人到花蓮搭船賞鯨，除\r\n了有機會看到鯨之外，也有可能\r\n看到海豚。",
+      "stem_text": "婷婷一家人到花蓮搭船賞鯨，除\r\n了有機會看到鯨之外，也有可能\r\n看到海豚。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S1|TF|10",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S01|TRUE_FALSE|10",
+      "full_question_text": "臺灣的茶葉適合在海邊生長，烘\r\n乾後可以做成飲品。",
+      "stem_text": "臺灣的茶葉適合在海邊生長，烘\r\n乾後可以做成飲品。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S2|MC|1",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|01",
+      "full_question_text": "下列人類對環境的使用方式，哪\r\n一種比較不容易產生土石流呢？\r\n①大量砍伐山上的樹林 ②開發\r\n山坡地，種植高冷蔬菜 ③在裸\r\n露的山坡地上種植植物，避免地\r\n表物質流失 ④在山坡地上建築\r\n房屋。",
+      "stem_text": "下列人類對環境的使用方式，哪\r\n一種比較不容易產生土石流呢？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "大量砍伐山上的樹林"
+        },
+        {
+          "original_label": "②",
+          "text": "開發\r\n山坡地，種植高冷蔬菜"
+        },
+        {
+          "original_label": "③",
+          "text": "在裸\r\n露的山坡地上種植植物，避免地\r\n表物質流失"
+        },
+        {
+          "original_label": "④",
+          "text": "在山坡地上建築\r\n房屋。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S2|MC|7",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|07",
+      "full_question_text": "下列哪一項是岩石在生活上的應\r\n用？ ①耕種農作物 ②鋪設步\r\n道 ③飼養蚯蚓 ④切割後作為\r\n食材。",
+      "stem_text": "下列哪一項是岩石在生活上的應\r\n用？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "耕種農作物"
+        },
+        {
+          "original_label": "②",
+          "text": "鋪設步\r\n道"
+        },
+        {
+          "original_label": "③",
+          "text": "飼養蚯蚓"
+        },
+        {
+          "original_label": "④",
+          "text": "切割後作為\r\n食材。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S2|MC|8",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|08",
+      "full_question_text": "生活中常見的蓮藕，是荷花的哪\r\n一個構造？ ①根 ②葉 ③葉\r\n柄 ④地下莖。",
+      "stem_text": "生活中常見的蓮藕，是荷花的哪\r\n一個構造？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "根"
+        },
+        {
+          "original_label": "②",
+          "text": "葉"
+        },
+        {
+          "original_label": "③",
+          "text": "葉\r\n柄"
+        },
+        {
+          "original_label": "④",
+          "text": "地下莖。"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_014|S2|MC|10",
+      "source_pdf_sha256": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_014|S02|SINGLE_CHOICE|10",
+      "full_question_text": "大部分生物必須依靠下列哪一種\r\n物質才能生存？ ①土壤 ②沙\r\n③岩石 ④空氣。\r\n彰化縣芳苑鄉路上國小 113 學年度上學期期中學習四年級自然與科技科試題\r\n 四年 忠 班 座號 ____ 姓名_________",
+      "stem_text": "大部分生物必須依靠下列哪一種\r\n物質才能生存？",
+      "options": [
+        {
+          "original_label": "①",
+          "text": "土壤"
+        },
+        {
+          "original_label": "②",
+          "text": "沙"
+        },
+        {
+          "original_label": "③",
+          "text": "岩石"
+        },
+        {
+          "original_label": "④",
+          "text": "空氣。\r\n彰化縣芳苑鄉路上國小 113 學年度上學期期中學習四年級自然與科技科試題\r\n 四年 忠 班 座號 ____ 姓名_________"
+        }
+      ],
+      "source_type": "MC",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|1",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|01",
+      "full_question_text": "水生植物依生長方式可以分為漂浮性、浮游\r\n性、沉水性和挺水性。",
+      "stem_text": "水生植物依生長方式可以分為漂浮性、浮游\r\n性、沉水性和挺水性。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|2",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|02",
+      "full_question_text": "布袋蓮的葉柄膨大，可以儲存養分。",
+      "stem_text": "布袋蓮的葉柄膨大，可以儲存養分。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|3",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|03",
+      "full_question_text": "水生動物都是用鰓呼吸，如魚、蝌蚪、青蛙。",
+      "stem_text": "水生動物都是用鰓呼吸，如魚、蝌蚪、青蛙。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|4",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|04",
+      "full_question_text": "水域環境都是天然形成的。",
+      "stem_text": "水域環境都是天然形成的。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|5",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|05",
+      "full_question_text": "核能發電廠會排放熱廢水，使附近海域的珊\r\n瑚白化死亡。",
+      "stem_text": "核能發電廠會排放熱廢水，使附近海域的珊\r\n瑚白化死亡。",
+      "options": null,
+      "source_type": "TF",
+      "source_figure_reference": false,
+      "source_glyph_bbox": "NEEDS_NATIVE_PDF_GLYPH_READBACK",
+      "science_kp_status": "UNVERIFIED",
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "limitations": [
+    "Plain text layer may contain page footer or parent/image elements; complete source glyph and scientific source review still required",
+    "Not an additional mandatory review round"
+  ]
+}

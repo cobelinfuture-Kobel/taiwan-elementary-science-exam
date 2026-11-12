@@ -1,0 +1,54 @@
+{
+  "schema_version": "P12_G04S1_113_B05B07_101_114_ARCHIVE_SHARD01_V1",
+  "compared_113_source_items": 101,
+  "original114_papers": [
+    "p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+    "p12-art9-114-anhe-g04s1-mid30-original-questions-v1-content-v1.json",
+    "p12-art9-114-chongde-g04s1-final19-original-questions-v1-content-v1.json",
+    "p12-art9-114-chongde-g04s1-mid16-original-questions-v1-content-v1.json",
+    "p12-art9-114-dadun-g04s1-final28-original-questions-v1-content-v1.json",
+    "p12-art9-114-dadun-g04s1-mid24-original-questions-v1-content-v1.json",
+    "p12-art9-114-dahua-g04s1-final22-original-questions-v1-content-v1.json",
+    "p12-art9-114-dahua-g04s1-mid23-original-questions-v1-content-v1.json"
+  ],
+  "original114_answer_items": 197,
+  "threshold": 0.82,
+  "full_semantic_dedup_pass": false,
+  "matches": [
+    {
+      "source113": "SCI_G04_S1_113_FINAL_006|S2|MC|2",
+      "source114": "SCI_G04_S1_114_FINAL_007|S02|MC|004",
+      "archive_file": "p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "classification": "NEAR_STEM_REVIEW",
+      "stem_score": 1
+    },
+    {
+      "source113": "SCI_G04_S1_113_FINAL_006|S2|MC|10",
+      "source114": "SCI_G04_S1_114_FINAL_007|S02|MC|019",
+      "archive_file": "p12-art9-114-anhe-g04s1-final35-original-questions-v1-content-v1.json",
+      "classification": "NEAR_STEM_REVIEW",
+      "stem_score": 1
+    },
+    {
+      "source113": "SCI_G04_S1_113_MID_015|S2|MC|11",
+      "source114": "SCI_G04_S1_114_MID_006|S02|MC|011",
+      "archive_file": "p12-art9-114-anhe-g04s1-mid30-original-questions-v1-content-v1.json",
+      "classification": "NEAR_STEM_REVIEW",
+      "stem_score": 0.857
+    },
+    {
+      "source113": "SCI_G04_S1_113_FINAL_006|S2|MC|8",
+      "source114": "SCI_G04_S1_114_FINAL_004|S02|MC|001",
+      "archive_file": "p12-art9-114-chongde-g04s1-final19-original-questions-v1-content-v1.json",
+      "classification": "NEAR_STEM_REVIEW",
+      "stem_score": 0.88
+    },
+    {
+      "source113": "SCI_G04_S1_113_FINAL_010|S1|MC|22",
+      "source114": "SCI_G04_S1_114_FINAL_011|S2|MC|017",
+      "archive_file": "p12-art9-114-dahua-g04s1-final22-original-questions-v1-content-v1.json",
+      "classification": "NEAR_STEM_REVIEW",
+      "stem_score": 0.835
+    }
+  ]
+}

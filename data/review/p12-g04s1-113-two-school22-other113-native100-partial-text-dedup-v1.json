@@ -1,0 +1,40 @@
+{
+  "schema_version": "P12_113_G04S1_HN22_VS_UNPUBLISHED_113_NATIVE_B03_B04_100_TEXT_LAYER_SCREEN_V1",
+  "draft_pr": 124,
+  "source_refs": [
+    "data/review/p12-g04s1-113-native-tfmc-b03-50-original-pdf-text-preflight-v1.json",
+    "data/review/p12-g04s1-113-native-tfmc-b04-50-original-pdf-text-layer-v3.json"
+  ],
+  "source_layer_not_full_original_pdf_visual_verbatim": "Original PDF native text-layer preflights only; B03 and B04 source records include line breaks/possible column interference and cannot substitute full 29-exam original precise visual QA",
+  "targets_nonduplicate_113_22": 22,
+  "screened_113_other_native_preflight_source_rows": 100,
+  "unique_other_source_ids": 100,
+  "full_other_113_all29_corpus_compare_complete": false,
+  "threshold_bigrams": 0.5,
+  "near_matches": [
+    {
+      "source_target": "SCI_G04_S1_113_MID_006|S2|MC|006",
+      "source_other113": "SCI_G04_S1_113_MID_011|S2|MC|10",
+      "similarity": 0.5333,
+      "exact_same_stem_and_options": false,
+      "target_original_stem": "下列哪一項屬於非生物？",
+      "other113_native_pdf_text_layer_stem": "地表除了生物，還有非生物，下列哪 \r\n 一項屬於地表的「非生物」物質？",
+      "source_ref": "data/review/p12-g04s1-113-native-tfmc-b04-50-original-pdf-text-layer-v3.json"
+    },
+    {
+      "source_target": "SCI_G04_S1_113_MID_006|S2|MC|007",
+      "source_other113": "SCI_G04_S1_113_MID_008|S2|MC|6",
+      "similarity": 0.5161,
+      "exact_same_stem_and_options": false,
+      "target_original_stem": "下列哪一項不是改變地表樣貌的力量？",
+      "other113_native_pdf_text_layer_stem": "下列哪一項不是地震所造成的地表改變？",
+      "source_ref": "data/review/p12-g04s1-113-native-tfmc-b03-50-original-pdf-text-preflight-v1.json"
+    }
+  ],
+  "exact_source_text_option_identity_detected": 0,
+  "formal_dup_gate_clear": false,
+  "operator_release_approved": false,
+  "new_admission_ready": 0,
+  "new_published": 0,
+  "next_resume_task": "P12_113_22_OPERATOR_BATCH_DRAFT_114ALL25_717_FULL_113_OTHER_B03B04_100_PRELIMINARY_SCREEN_113_FULL411_PRIVATE_SOURCE_TEXT_ZIP_UNAVAILABLE_KEEP_DUP_GATE_PENDING"
+}

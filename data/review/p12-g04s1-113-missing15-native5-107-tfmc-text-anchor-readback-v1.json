@@ -1,0 +1,1795 @@
+{
+  "schema_version": "P12_G04S1_113_MISSING15_NATIVE5_TFMC_107_PRINTED_TEXT_MARKER_READBACK_V1",
+  "project": "自然_題庫整理",
+  "draft_source_pr": 124,
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "source_registry": "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "existing_printed_section_count_ref": "data/review/p12-g04s1-113-remaining16-printed-score-proof-v2.json",
+  "published114_suppression_ref": "data/review/p12-g04s1-113-main-published114-source-suppression-readback-v9.json",
+  "text_readback_type": "Exact printed TF/MC marker number sequence and parenthesis at raw Google Drive extracted-text offsets; not proof of original PDF coordinates, question text completeness or answer correctness.",
+  "summary": {
+    "native_papers": 5,
+    "source_sections": 9,
+    "numbered_tf_mc_original_markers": 107,
+    "already_published_suppressed": 19,
+    "unpublished_still_pending": 88,
+    "prior_411_candidate_source_index_links": 59,
+    "new_formal_science_kp_approved": 0,
+    "new_admission_ready": 0,
+    "new_published": 0
+  },
+  "records": [
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_003",
+      "source_drive_file_id": "1zXzobPos2iCmWco5dk7xnqq2OIbLKphN",
+      "registered_original_pdf_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+      "original_pdf_pages": 2,
+      "original_pdf_text_layer_readback": true,
+      "sections": [
+        {
+          "source_section": "S1",
+          "item_kind": "MC",
+          "original_numbered_count": 14,
+          "extracted_numbered_markers_total_in_section": 14,
+          "recovered_marker_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "section_header_original_text_layer_offset": 69,
+          "markers": [
+            {
+              "number": 1,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|001",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|1",
+              "text_layer_offset": 89,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|SINGLE_CHOICE|001"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 2,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|002",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|2",
+              "text_layer_offset": 151,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 3,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|003",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|3",
+              "text_layer_offset": 193,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|SINGLE_CHOICE|003"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 4,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|004",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|4",
+              "text_layer_offset": 292,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 5,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|005",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|5",
+              "text_layer_offset": 331,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|SINGLE_CHOICE|005"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 6,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|006",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|6",
+              "text_layer_offset": 389,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|SINGLE_CHOICE|006"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 7,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|007",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|7",
+              "text_layer_offset": 450,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|SINGLE_CHOICE|007"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 8,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|008",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|8",
+              "text_layer_offset": 494,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 9,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|009",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|9",
+              "text_layer_offset": 549,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 10,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|010",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|10",
+              "text_layer_offset": 606,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 11,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|011",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|11",
+              "text_layer_offset": 651,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 12,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|012",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|12",
+              "text_layer_offset": 690,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 13,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|013",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|13",
+              "text_layer_offset": 754,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 14,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S1|MC|014",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S1|MC|14",
+              "text_layer_offset": 834,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            }
+          ]
+        },
+        {
+          "source_section": "S2",
+          "item_kind": "TF",
+          "original_numbered_count": 15,
+          "extracted_numbered_markers_total_in_section": 15,
+          "recovered_marker_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "section_header_original_text_layer_offset": 887,
+          "markers": [
+            {
+              "number": 1,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|001",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|1",
+              "text_layer_offset": 907,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|001"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 2,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|002",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|2",
+              "text_layer_offset": 943,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|002"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 3,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|003",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|3",
+              "text_layer_offset": 972,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|003"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 4,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|004",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|4",
+              "text_layer_offset": 992,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|004"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 5,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|005",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|5",
+              "text_layer_offset": 1023,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|005"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 6,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|006",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|6",
+              "text_layer_offset": 1055,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|006"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 7,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|007",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|7",
+              "text_layer_offset": 1095,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|007"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 8,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|008",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|8",
+              "text_layer_offset": 1138,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|008"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 9,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|009",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|9",
+              "text_layer_offset": 1161,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|009"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 10,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|010",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|10",
+              "text_layer_offset": 1193,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|010"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 11,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|011",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|11",
+              "text_layer_offset": 1224,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|011"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 12,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|012",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|12",
+              "text_layer_offset": 1254,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|012"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 13,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|013",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|13",
+              "text_layer_offset": 1292,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|013"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 14,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|014",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|14",
+              "text_layer_offset": 1327,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_003|TRUE_FALSE|014"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 15,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_003|S2|TF|015",
+              "normalized_id": "SCI_G04_S1_113_FINAL_003|S2|TF|15",
+              "text_layer_offset": 1364,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            }
+          ]
+        }
+      ],
+      "numbered_text_anchors_total": 29,
+      "already_published_suppressed": 3
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_005",
+      "source_drive_file_id": "1HyJVVQMzrpB7CrIclz2wbss_C_yYb7UW",
+      "registered_original_pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "original_pdf_pages": 2,
+      "original_pdf_text_layer_readback": true,
+      "sections": [
+        {
+          "source_section": "S1",
+          "item_kind": "TF",
+          "original_numbered_count": 15,
+          "extracted_numbered_markers_total_in_section": 15,
+          "recovered_marker_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "section_header_original_text_layer_offset": 82,
+          "markers": [
+            {
+              "number": 1,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|001",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|1",
+              "text_layer_offset": 103,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|001"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 2,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|002",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|2",
+              "text_layer_offset": 148,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|002"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 3,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|003",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|3",
+              "text_layer_offset": 180,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|003"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 4,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|004",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|4",
+              "text_layer_offset": 223,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|004"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 5,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|005",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|5",
+              "text_layer_offset": 253,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|005"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 6,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|006",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|6",
+              "text_layer_offset": 288,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|006"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 7,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|007",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|7",
+              "text_layer_offset": 313,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|007"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 8,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|008",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|8",
+              "text_layer_offset": 349,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|008"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 9,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|009",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|9",
+              "text_layer_offset": 381,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|009"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 10,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|010",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|10",
+              "text_layer_offset": 424,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|010"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 11,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|011",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|11",
+              "text_layer_offset": 457,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|011"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 12,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|012",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|12",
+              "text_layer_offset": 484,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|012"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 13,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|013",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|13",
+              "text_layer_offset": 511,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|013"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 14,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|014",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|14",
+              "text_layer_offset": 549,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|014"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 15,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S1|TF|015",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S1|TF|15",
+              "text_layer_offset": 580,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|TRUE_FALSE|015"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            }
+          ]
+        },
+        {
+          "source_section": "S2",
+          "item_kind": "MC",
+          "original_numbered_count": 14,
+          "extracted_numbered_markers_total_in_section": 14,
+          "recovered_marker_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "section_header_original_text_layer_offset": 616,
+          "markers": [
+            {
+              "number": 1,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|001",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|1",
+              "text_layer_offset": 637,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 2,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|002",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|2",
+              "text_layer_offset": 745,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|SINGLE_CHOICE|002"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 3,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|003",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|3",
+              "text_layer_offset": 817,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|SINGLE_CHOICE|003"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 4,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|004",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|4",
+              "text_layer_offset": 962,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|SINGLE_CHOICE|004"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 5,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|005",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|5",
+              "text_layer_offset": 1072,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 6,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|006",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|6",
+              "text_layer_offset": 1158,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 7,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|007",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|7",
+              "text_layer_offset": 1206,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 8,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|008",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|8",
+              "text_layer_offset": 1265,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 9,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|009",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|9",
+              "text_layer_offset": 1344,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 10,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|010",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|10",
+              "text_layer_offset": 1414,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 11,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|011",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|11",
+              "text_layer_offset": 1521,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|SINGLE_CHOICE|011"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 12,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|012",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|12",
+              "text_layer_offset": 1583,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_005|SINGLE_CHOICE|012"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 13,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|013",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|13",
+              "text_layer_offset": 1658,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 14,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_005|S2|MC|014",
+              "normalized_id": "SCI_G04_S1_113_MID_005|S2|MC|14",
+              "text_layer_offset": 1735,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            }
+          ]
+        }
+      ],
+      "numbered_text_anchors_total": 29,
+      "already_published_suppressed": 6
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_005",
+      "source_drive_file_id": "1hIaCCE1nkD-CoH8G2TF8yMgvFakV2amv",
+      "registered_original_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "original_pdf_pages": 2,
+      "original_pdf_text_layer_readback": true,
+      "sections": [
+        {
+          "source_section": "S1",
+          "item_kind": "TF",
+          "original_numbered_count": 10,
+          "extracted_numbered_markers_total_in_section": 10,
+          "recovered_marker_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "section_header_original_text_layer_offset": 97,
+          "markers": [
+            {
+              "number": 1,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S1|TF|001",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S1|TF|1",
+              "text_layer_offset": 120,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|001"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 2,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S1|TF|002",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S1|TF|2",
+              "text_layer_offset": 158,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|002"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 3,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S1|TF|003",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S1|TF|3",
+              "text_layer_offset": 209,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|003"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 4,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S1|TF|004",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S1|TF|4",
+              "text_layer_offset": 246,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|004"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 5,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S1|TF|005",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S1|TF|5",
+              "text_layer_offset": 281,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|005"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 6,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S1|TF|006",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S1|TF|6",
+              "text_layer_offset": 326,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|006"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 7,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S1|TF|007",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S1|TF|7",
+              "text_layer_offset": 376,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|007"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 8,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S1|TF|008",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S1|TF|8",
+              "text_layer_offset": 409,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|008"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 9,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S1|TF|009",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S1|TF|9",
+              "text_layer_offset": 452,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|009"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 10,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S1|TF|010",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S1|TF|10",
+              "text_layer_offset": 498,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_FINAL_005|TRUE_FALSE|010"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            }
+          ]
+        },
+        {
+          "source_section": "S2",
+          "item_kind": "MC",
+          "original_numbered_count": 10,
+          "extracted_numbered_markers_total_in_section": 10,
+          "recovered_marker_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "section_header_original_text_layer_offset": 546,
+          "markers": [
+            {
+              "number": 1,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S2|MC|001",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S2|MC|1",
+              "text_layer_offset": 569,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 2,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S2|MC|002",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S2|MC|2",
+              "text_layer_offset": 638,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 3,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S2|MC|003",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S2|MC|3",
+              "text_layer_offset": 698,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 4,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S2|MC|004",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S2|MC|4",
+              "text_layer_offset": 778,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 5,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S2|MC|005",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S2|MC|5",
+              "text_layer_offset": 897,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 6,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S2|MC|006",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S2|MC|6",
+              "text_layer_offset": 992,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 7,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S2|MC|007",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S2|MC|7",
+              "text_layer_offset": 1062,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 8,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S2|MC|008",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S2|MC|8",
+              "text_layer_offset": 1124,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 9,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S2|MC|009",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S2|MC|9",
+              "text_layer_offset": 1225,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 10,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_005|S2|MC|010",
+              "normalized_id": "SCI_G04_S1_113_FINAL_005|S2|MC|10",
+              "text_layer_offset": 1282,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            }
+          ]
+        }
+      ],
+      "numbered_text_anchors_total": 20,
+      "already_published_suppressed": 8
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_016",
+      "source_drive_file_id": "1Qo0N1J75mHMBg-9udtoIos4xLSNW6SV2",
+      "registered_original_pdf_sha256": "06d7679909c6604c9daa3e838dd6d53a3470a0f5544261d1acebe59353c980b1",
+      "original_pdf_pages": 2,
+      "original_pdf_text_layer_readback": true,
+      "sections": [
+        {
+          "source_section": "S1",
+          "item_kind": "TF",
+          "original_numbered_count": 10,
+          "extracted_numbered_markers_total_in_section": 10,
+          "recovered_marker_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "section_header_original_text_layer_offset": 51,
+          "markers": [
+            {
+              "number": 1,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S1|TF|001",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S1|TF|1",
+              "text_layer_offset": 74,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_016|TRUE_FALSE|001"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 2,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S1|TF|002",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S1|TF|2",
+              "text_layer_offset": 117,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_016|TRUE_FALSE|002"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 3,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S1|TF|003",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S1|TF|3",
+              "text_layer_offset": 163,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_016|TRUE_FALSE|003"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 4,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S1|TF|004",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S1|TF|4",
+              "text_layer_offset": 199,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_016|TRUE_FALSE|004"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 5,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S1|TF|005",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S1|TF|5",
+              "text_layer_offset": 233,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_016|TRUE_FALSE|005"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 6,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S1|TF|006",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S1|TF|6",
+              "text_layer_offset": 272,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_016|TRUE_FALSE|006"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 7,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S1|TF|007",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S1|TF|7",
+              "text_layer_offset": 306,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_016|TRUE_FALSE|007"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            },
+            {
+              "number": 8,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S1|TF|008",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S1|TF|8",
+              "text_layer_offset": 345,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_016|TRUE_FALSE|008"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 9,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S1|TF|009",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S1|TF|9",
+              "text_layer_offset": 379,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_016|TRUE_FALSE|009"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 10,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S1|TF|010",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S1|TF|10",
+              "text_layer_offset": 429,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [
+                "SCI_G04_S1_113_MID_016|TRUE_FALSE|010"
+              ],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            }
+          ]
+        },
+        {
+          "source_section": "S2",
+          "item_kind": "MC",
+          "original_numbered_count": 14,
+          "extracted_numbered_markers_total_in_section": 14,
+          "recovered_marker_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "section_header_original_text_layer_offset": 478,
+          "markers": [
+            {
+              "number": 1,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|001",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|1",
+              "text_layer_offset": 501,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 2,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|002",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|2",
+              "text_layer_offset": 570,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 3,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|003",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|3",
+              "text_layer_offset": 640,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 4,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|004",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|4",
+              "text_layer_offset": 717,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 5,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|005",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|5",
+              "text_layer_offset": 786,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 6,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|006",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|6",
+              "text_layer_offset": 880,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 7,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|007",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|7",
+              "text_layer_offset": 971,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 8,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|008",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|8",
+              "text_layer_offset": 1052,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 9,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|009",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|9",
+              "text_layer_offset": 1108,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 10,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|010",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|10",
+              "text_layer_offset": 1171,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 11,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|011",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|11",
+              "text_layer_offset": 1291,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 12,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|012",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|12",
+              "text_layer_offset": 1400,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 13,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|013",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|13",
+              "text_layer_offset": 1492,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 14,
+              "provisional_native_source_id": "SCI_G04_S1_113_MID_016|S2|MC|014",
+              "normalized_id": "SCI_G04_S1_113_MID_016|S2|MC|14",
+              "text_layer_offset": 1579,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": true,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "PREVIOUSLY_PUBLISHED_SUPPRESS"
+            }
+          ]
+        }
+      ],
+      "numbered_text_anchors_total": 24,
+      "already_published_suppressed": 2
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_011",
+      "source_drive_file_id": "1nszbrrI0Ym9bW14EpIJUtrdsApAQ02uS",
+      "registered_original_pdf_sha256": "164129c81b8cebbcc4e99191a55ea99c6666bd07a498514b81f521f1f4b2870a",
+      "original_pdf_pages": 4,
+      "original_pdf_text_layer_readback": true,
+      "sections": [
+        {
+          "source_section": "S1",
+          "item_kind": "MC",
+          "original_numbered_count": 5,
+          "extracted_numbered_markers_total_in_section": 8,
+          "recovered_marker_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "section_header_original_text_layer_offset": 108,
+          "markers": [
+            {
+              "number": 1,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_011|S1|MC|001",
+              "normalized_id": "SCI_G04_S1_113_FINAL_011|S1|MC|1",
+              "text_layer_offset": 130,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 2,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_011|S1|MC|002",
+              "normalized_id": "SCI_G04_S1_113_FINAL_011|S1|MC|2",
+              "text_layer_offset": 239,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 3,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_011|S1|MC|003",
+              "normalized_id": "SCI_G04_S1_113_FINAL_011|S1|MC|3",
+              "text_layer_offset": 289,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 4,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_011|S1|MC|004",
+              "normalized_id": "SCI_G04_S1_113_FINAL_011|S1|MC|4",
+              "text_layer_offset": 358,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            },
+            {
+              "number": 5,
+              "provisional_native_source_id": "SCI_G04_S1_113_FINAL_011|S1|MC|005",
+              "normalized_id": "SCI_G04_S1_113_FINAL_011|S1|MC|5",
+              "text_layer_offset": 409,
+              "printed_answer_parenthesis_observed": true,
+              "source_figure_geometry_certified": false,
+              "answer_glyph_pdf_bbox_certified": false,
+              "is_published_already": false,
+              "prior_411_candidate_ids": [],
+              "original_stem_and_options_pdf_visual_verified": false,
+              "admission_status": "UNPUBLISHED_SOURCE_HOLD_PENDING_EXISTING_GATES"
+            }
+          ]
+        }
+      ],
+      "numbered_text_anchors_total": 5,
+      "already_published_suppressed": 0
+    }
+  ],
+  "remaining_gates": "PDF exact answer glyph BBox, source stem and options/figure, Science unique answer, 113 frozen 48-KP, all published+114 semantic dedup, rights and operator admission.",
+  "source_only": true
+}

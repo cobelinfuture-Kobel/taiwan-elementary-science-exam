@@ -1,0 +1,261 @@
+{
+  "schema_version": "B03_113_SCIENCE_KP_PRELIM_01_25_V1",
+  "batch": "NATIVE_TFMC_B03",
+  "source_pr": 124,
+  "source_ref": "p12-g04s1-113-native-tfmc-b03-50-original-pdf-text-preflight-v1.json",
+  "no_new_gate": true,
+  "source_only": true,
+  "original_teacher_key_verified": false,
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|3",
+      "model_independent_science_answer": "①",
+      "frozen_direct_kp_candidate": "sci_g04s1_01_07",
+      "route": "DIRECT",
+      "science_kp_reason": "任意砍伐森林破壞資源，另三項有利森林維護",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|4",
+      "model_independent_science_answer": "③",
+      "frozen_direct_kp_candidate": "sci_g04s1_01_01",
+      "route": "DIRECT",
+      "science_kp_reason": "榕樹是生物，土壤砂子岩石不是生物",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|5",
+      "model_independent_science_answer": null,
+      "frozen_direct_kp_candidate": "sci_g04s1_01_12",
+      "route": "HOLD_SCIENCE_QUALIFIER",
+      "science_kp_reason": "土壤和沙的粒徑及風蝕難易不具有絕對比較關係",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|6",
+      "model_independent_science_answer": null,
+      "frozen_direct_kp_candidate": "sci_g04s1_01_08",
+      "route": "HOLD_SCIENCE_UNIQUE",
+      "science_kp_reason": "地震可引發海嘯或堰塞湖導致淹水，不能完全排除",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|7",
+      "model_independent_science_answer": "②",
+      "frozen_direct_kp_candidate": "sci_g04s1_02_02",
+      "route": "DIRECT",
+      "science_kp_reason": "水庫屬人造水域",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|8",
+      "model_independent_science_answer": "③",
+      "frozen_direct_kp_candidate": "sci_g04s1_02_14",
+      "route": "DIRECT",
+      "science_kp_reason": "觀察後不應任意轉移野生蝌蚪至其他水域",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|9",
+      "model_independent_science_answer": "②",
+      "frozen_direct_kp_candidate": "sci_g04s1_02_02",
+      "route": "DIRECT",
+      "science_kp_reason": "海洋在列出的四種水域中面積最大",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|10",
+      "model_independent_science_answer": "④",
+      "frozen_direct_kp_candidate": "sci_g04s1_02_04",
+      "route": "DIRECT",
+      "science_kp_reason": "大萍漂浮且葉面不易沾水",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|11",
+      "model_independent_science_answer": "④",
+      "frozen_direct_kp_candidate": "sci_g04s1_02_03",
+      "route": "DIRECT",
+      "science_kp_reason": "睡蓮是浮葉性，另外三項為漂浮性",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|12",
+      "model_independent_science_answer": "③",
+      "frozen_direct_kp_candidate": "sci_g04s1_02_10",
+      "route": "DIRECT",
+      "science_kp_reason": "飛魚乾較屬海岸漁產，非山區在地特產",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|13",
+      "model_independent_science_answer": null,
+      "frozen_direct_kp_candidate": "sci_g04s1_02_09",
+      "route": "HOLD_SCIENCE_UNIQUE",
+      "science_kp_reason": "螺類依種類有肺或鰓，呼吸構造不是唯一指向龜",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|14",
+      "model_independent_science_answer": "④",
+      "frozen_direct_kp_candidate": null,
+      "route": "HOLD_DIRECT_KP",
+      "science_kp_reason": "現行震度分十級但非凍結U01直接KP",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|1",
+      "model_independent_science_answer": "O",
+      "frozen_direct_kp_candidate": "sci_g04s1_01_02",
+      "route": "DIRECT",
+      "science_kp_reason": "沙丘也可能生長耐旱植物",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|2",
+      "model_independent_science_answer": "O",
+      "frozen_direct_kp_candidate": "sci_g04s1_02_11",
+      "route": "DIRECT",
+      "science_kp_reason": "農藥經雨水流入水域可傷害魚類",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|3",
+      "model_independent_science_answer": "X",
+      "frozen_direct_kp_candidate": "sci_g04s1_02_14",
+      "route": "DIRECT",
+      "science_kp_reason": "水域調查不應為觀察更多種類而深入危險深水",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|4",
+      "model_independent_science_answer": null,
+      "frozen_direct_kp_candidate": null,
+      "route": "HOLD_DIRECT_KP",
+      "science_kp_reason": "光合作用雖成立，凍結U02未列此獨立KP",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|5",
+      "model_independent_science_answer": "X",
+      "frozen_direct_kp_candidate": "sci_g04s1_01_05",
+      "route": "DIRECT",
+      "science_kp_reason": "豪雨形成流水可搬運岩石與地表物質",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|6",
+      "model_independent_science_answer": "X",
+      "frozen_direct_kp_candidate": "sci_g04s1_02_02",
+      "route": "DIRECT",
+      "science_kp_reason": "高山亦有溪流與湖泊",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|7",
+      "model_independent_science_answer": "X",
+      "frozen_direct_kp_candidate": "sci_g04s1_01_02",
+      "route": "DIRECT",
+      "science_kp_reason": "同為洞穴棲地不代表生物適應環境相同",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|8",
+      "model_independent_science_answer": null,
+      "frozen_direct_kp_candidate": "sci_g04s1_01_02",
+      "route": "HOLD_SCIENCE_QUALIFIER",
+      "science_kp_reason": "不同環境能否適應的敘述太概括",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|9",
+      "model_independent_science_answer": "X",
+      "frozen_direct_kp_candidate": "sci_g04s1_02_09",
+      "route": "DIRECT",
+      "science_kp_reason": "部分水生動物可暫時離水生活",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|10",
+      "model_independent_science_answer": "X",
+      "frozen_direct_kp_candidate": "sci_g04s1_01_09",
+      "route": "DIRECT",
+      "science_kp_reason": "震前無法可靠預告精確地震發生時間",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|11",
+      "model_independent_science_answer": "X",
+      "frozen_direct_kp_candidate": "sci_g04s1_02_14",
+      "route": "DIRECT",
+      "science_kp_reason": "野外採集生物不可逕行移至校園景觀池",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|12",
+      "model_independent_science_answer": "X",
+      "frozen_direct_kp_candidate": "sci_g04s1_02_03",
+      "route": "DIRECT",
+      "science_kp_reason": "沉水性植物不須將葉子挺出水面",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|1",
+      "model_independent_science_answer": null,
+      "frozen_direct_kp_candidate": null,
+      "route": "HOLD_SCIENCE_UNIQUE",
+      "science_kp_reason": "張衡地動儀辨識地震感應方向，題幹測量方位用語含混",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ]
+}

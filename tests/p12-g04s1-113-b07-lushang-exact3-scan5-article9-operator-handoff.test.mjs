@@ -1,0 +1,47 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const read=p=>JSON.parse(readFileSync(new URL('../data/review/'+p,import.meta.url),'utf8'));
+const a=read('p12-g04s1-113-b07-lushang-exact3-scan5-article9-operator-PENDING-v1.json');
+const source=read('p12-g04s1-113-b07-lushang-g04-fourmc-exact-text-choices-source-kp-parent-rights-hold-v1.json');
+const whole=read('p12-g04s1-113-b07-dependent50-originalpdf-ninepages-nativebbox-science-kp-hold-v1.json');
+test('B07 exact 3 stand-alone text-only source cohort has 16 scan-original pages and excludes parent-dependent G04 Q325',()=>{
+ assert.equal(a.records.length,3);
+ assert.deepEqual(a.records.map(x=>x.original_ordinal),[324,326,327]);
+ assert.equal(a.Q325_hold_original_source_slot_id,source.records[1].original_native_source_id);
+ assert.equal(a.Q325_SCIENCE_UNIQUE_without_parent,false);
+ assert.equal(a.Q325_RIGHTS_external_parent_resolved,false);
+ assert.equal(a.Q325_admission_ready,false);
+ assert.equal(a.parent_origins_externally_authenticated,false);
+ assert.equal(a.no_full_original_parent_in_student_bank,true);
+ assert.equal(a.scan5_original_pdf_sha256_native_original_pages_visual_verified.length,5);
+ assert.equal(a.scan5_original_pdf_sha256_native_original_pages_visual_verified.reduce((n,r)=>n+r.pages,0),16);
+ assert.equal(a.scan5_total_original_pdf_pages,16);
+ assert.ok(a.scan5_original_pdf_sha256_native_original_pages_visual_verified.every(x=>/^[a-f0-9]{64}$/.test(x.sha256)));
+ assert.equal(new Set(a.records.map(x=>x.canonical_113_original_source_slot_id)).size,3);
+ for(const row of a.records){
+  const m=whole.records.find(x=>x.worklist_ordinal===row.original_ordinal);
+  const f=source.records.find(x=>x.original_other_dependent_ordinal===row.original_ordinal);
+  assert.ok(m&&f);
+  assert.equal(row.canonical_113_original_source_slot_id,m.original_native_source_slot_id);
+  assert.deepEqual(row.original_native_answer_bbox_pt_top_left,m.original_physical_bbox_pdf_pts_top_left);
+  assert.equal(row.original_question_stem_verbatim,f.original_exam_subquestion_stem_transcribed_from_pdf_visual);
+  assert.deepEqual(row.original_ordered_choice_texts,f.original_exam_four_choices_in_original_order);
+  assert.equal(row.original_ordered_choice_texts.length,4);
+  assert.equal(row.standalone_student_display_requires_original_parent,false);
+  assert.equal(row.standalone_student_display_sufficient_for_science_answer,true);
+  assert.equal(row.exact_operator_approval,false);
+  assert.equal(row.ADMISSION_READY,false);
+  assert.equal(row.PUBLISHED,false);
+ }
+ assert.equal(a.student_site_public_slots_baseline,945);
+ assert.equal(a.source_113_main_published_original_source_IDs,309);
+ assert.equal(a.G02_six_picture_questions_remain_HOLD,true);
+ assert.equal(a.independent_B07_TFMC_1_remains_HOLD,true);
+ assert.equal(a.B01_to_B06_unmodified,true);
+ assert.equal(a.operator_approval_verbatim_exists,false);
+ assert.equal(a.scope_operator_approval_state,'PENDING_EXACT3');
+ assert.equal(a.FORMAL_SCIENCE_KP_APPROVED_new,0);
+ assert.equal(a.ADMISSION_READY_new,0);
+ assert.equal(a.PUBLISHED_new,0);
+});

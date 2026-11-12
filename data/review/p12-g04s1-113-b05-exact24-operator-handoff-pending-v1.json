@@ -1,0 +1,83 @@
+{
+  "schema_version": "P12_G04S1_113_B05_EXACT24_EXISTING_OPERATOR_GATE_HANDOFF_V1",
+  "identity": "113學年度四年級上學期自然；B05 選擇性發布之精確 24 題清冊。非新門檻、非新審核輪次。",
+  "source_draft_pr124": true,
+  "source_sha_pending_latest_branch_commit": true,
+  "source_proposed_manifest": "data/review/p12-g04s1-113-b05-exact24-source-science-kp-rights-operator-PENDING-v1.json",
+  "source_scan5_verified_manifest": "data/review/p12-g04s1-113-b05-scan5-exact24-original-pdf-16page-targeted-visual-dedup-v1.json",
+  "verified_existing_source_gates": {
+    "exact_original_113_pdfs": "SOURCE_ORIGINAL_SHA_AND_TEXT_NATIVE_BBOX_EVIDENCE_IN_PROPOSAL",
+    "original_114_717_source_text": "CHECKED",
+    "previously_published_49_json": "CHECKED",
+    "native_113_24_exam_text": "CHECKED",
+    "scan5_all16_original_pages": "TARGETED_VISUAL_COMPARE_COMPLETE",
+    "identical_or_option_reorder_scan5_duplicate_found": 0
+  },
+  "scope": {
+    "total_B05_work_positions": 50,
+    "operator_exact24_cohort_count": 24,
+    "school_counts": [
+      {
+        "source": "SCI_G04_S1_113_MID_015",
+        "school": "廣興國小",
+        "period": "MID",
+        "count": 11
+      },
+      {
+        "source": "SCI_G04_S1_113_FINAL_006",
+        "school": "安和國小",
+        "period": "FINAL",
+        "count": 12
+      },
+      {
+        "source": "SCI_G04_S1_113_MID_018",
+        "school": "成功國小",
+        "period": "MID",
+        "count": 1
+      }
+    ],
+    "prior_HOLD": 24,
+    "new_science_context_HOLD": 1,
+    "confirmed_114_option_reordered_alias": 1
+  },
+  "exact24_original_source_slot_ids": [
+    "SCI_G04_S1_113_MID_015|S1|TF|6",
+    "SCI_G04_S1_113_MID_015|S1|TF|7",
+    "SCI_G04_S1_113_MID_015|S1|TF|11",
+    "SCI_G04_S1_113_MID_015|S2|MC|1",
+    "SCI_G04_S1_113_MID_015|S2|MC|3",
+    "SCI_G04_S1_113_MID_015|S2|MC|9",
+    "SCI_G04_S1_113_MID_015|S2|MC|10",
+    "SCI_G04_S1_113_MID_015|S2|MC|15",
+    "SCI_G04_S1_113_MID_015|S2|MC|16",
+    "SCI_G04_S1_113_MID_015|S2|MC|17",
+    "SCI_G04_S1_113_MID_015|S2|MC|20",
+    "SCI_G04_S1_113_FINAL_006|S1|TF|1",
+    "SCI_G04_S1_113_FINAL_006|S1|TF|7",
+    "SCI_G04_S1_113_FINAL_006|S1|TF|14",
+    "SCI_G04_S1_113_FINAL_006|S1|TF|15",
+    "SCI_G04_S1_113_FINAL_006|S2|MC|3",
+    "SCI_G04_S1_113_FINAL_006|S2|MC|4",
+    "SCI_G04_S1_113_FINAL_006|S2|MC|5",
+    "SCI_G04_S1_113_FINAL_006|S2|MC|7",
+    "SCI_G04_S1_113_FINAL_006|S2|MC|9",
+    "SCI_G04_S1_113_FINAL_006|S2|MC|11",
+    "SCI_G04_S1_113_FINAL_006|S2|MC|13",
+    "SCI_G04_S1_113_FINAL_006|S2|MC|14",
+    "SCI_G04_S1_113_MID_018|S1|TF|2"
+  ],
+  "same_authority_48kp": true,
+  "keep_original_SCIENCE_answer_NOT_teacher_key": true,
+  "rights_scope": "LAW_REGULATED_SCHOOL_EXAM_QUESTION_TEXT_ART9_ONLY; exclude PDF, original scans, third-party parent images, teacher keys, original printed score",
+  "existing_operator_gate_request": "核准 B05 本檔列出的精確 24 個 original_source_slot_id，且原卷全文／四個選項／原 PDF SHA 與 BBox、依 113 四上 48 KP 的 Science 唯一答案、Article9 題目文字範圍；不核准 25 HOLD，不重複發布 1 個已公開的 114 同題來源，不修改 B01～B04。核准後才執行 Selective Student PR、focused CI、main、Pages E2E。",
+  "actual_operator_exact24_approval_received": false,
+  "operator_quote_verbatim": null,
+  "operator_gate_open": true,
+  "public_student_question_bank_untouched": true,
+  "formal_new": {
+    "FORMAL_SCIENCE_KP_APPROVED": 0,
+    "ADMISSION_READY": 0,
+    "PUBLISHED": 0
+  },
+  "next_if_operator_approves": "P12_G04S1_113_B05_Exact24_OperatorApproved_SelectiveStudentPR_FocusedCI_MainReadback_PagesLiveE2E_25HOLD_1Alias_NoB01ToB04"
+}

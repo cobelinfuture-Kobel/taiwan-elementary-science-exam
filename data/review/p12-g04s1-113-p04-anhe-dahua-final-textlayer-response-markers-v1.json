@@ -1,0 +1,79 @@
+{
+  "schema_version": "P12_G04S1_113_P04_ANHE_DAHUA_FINAL_SOURCE_TEXT_MARKER_ENUMERATION_V1",
+  "basis": "Connected Google Drive original PDF source text, following exact source original-pdf ID and prior SHA registry. Where graphical positions may depend on page image, text-only estimate is not certified original geometry.",
+  "source_exam_count": 2,
+  "textlayer_answer_position_total": 88,
+  "original_pdf_answer_geometry_certified": false,
+  "new_admission_ready": 0,
+  "new_published": 0,
+  "records": [
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_006",
+      "school": "安和國小",
+      "drive_file_id": "1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr",
+      "textlayer_answer_position_total": 50,
+      "sections": [
+        {
+          "id": "S01",
+          "label": "是非題",
+          "count": 16,
+          "basis": "Printed total32, independently numbered original 16 two-point T/F"
+        },
+        {
+          "id": "S02",
+          "label": "選擇題",
+          "count": 16,
+          "basis": "Printed total32, independently numbered original 16 two-point MC"
+        },
+        {
+          "id": "S03.1",
+          "label": "通路斷路圖勾選",
+          "count": 6,
+          "basis": "(一) six separately printed answer markers for diagram circuits"
+        },
+        {
+          "id": "S03.2",
+          "label": "光線作用配對",
+          "count": 8,
+          "basis": "(二) eight original independently numbered answer blanks"
+        },
+        {
+          "id": "S03.3",
+          "label": "電池與燈泡串並聯亮度排序",
+          "count": 4,
+          "basis": "(三) four printed circuit positions requesting 1–4 ranking under a shared diagram"
+        }
+      ],
+      "original_visual_pdf_bbox_complete": false,
+      "visual_source_exception": "Text extraction includes apparent check symbols in three of four (三) circuit positions. Must inspect original PDF image to distinguish source drawing/check marks or other annotations before certifying source exact/answer form."
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_FINAL_010",
+      "school": "大華國小",
+      "drive_file_id": "1GoIilzz3hFCOk56j6rwfOBWllEjnrlzr",
+      "textlayer_answer_position_total": 38,
+      "sections": [
+        {
+          "id": "S01",
+          "label": "選擇題",
+          "count": 24,
+          "basis": "24 independently numbered source choice answers; original PDF text column order interleaves passage and next section"
+        },
+        {
+          "id": "S02",
+          "label": "用尺連連看",
+          "count": 7,
+          "basis": "Five ingredient/acid-base matching subjects plus two color to acidic/basic property connections in printed graphical relation"
+        },
+        {
+          "id": "S03",
+          "label": "科普閱讀素養",
+          "count": 7,
+          "basis": "Seven independently numbered original true/false answers under common source reading passage"
+        }
+      ],
+      "original_visual_pdf_bbox_complete": false,
+      "visual_source_exception": "Source PDF text reading order interleaves column blocks; seven matching lines require actual visual page confirmation before setting final physical slot denominator."
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+{
+  "schema_version": "P12_G04S1_113_B03_50_ORIGINAL_NATIVE_PDF_PAGE_MARKER_BBOX_V1",
+  "scope": "113 G04 S1 B03 50 native original school answer slots, source-only",
+  "source_pr": 124,
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "original_pdfs_sha_verified": true,
+  "method": "Compared SHA256 of three original 113 G04S1 school PDFs and rendered page visuals; paired printed bracket and printed numbered item, including Anhe first page separately positioned bracket/number and its section2 question15 on PDF page2.",
+  "linked_original_full_question_text": "data/review/p12-g04s1-113-native-tfmc-b03-50-original-pdf-text-preflight-v1.json",
+  "paper_mix": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_008",
+      "school": "永安國小",
+      "positions": 12,
+      "geometry_positions": 12
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_009",
+      "school": "安和國小",
+      "positions": 22,
+      "geometry_positions": 22
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_010",
+      "school": "明義國小",
+      "positions": 16,
+      "geometry_positions": 16
+    }
+  ],
+  "source_marker_count": 50,
+  "source_page2_count": 1,
+  "source_marker_records": [
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|3",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.36,
+        567.6,
+        90.36,
+        580.12
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|4",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.36,
+        622.22,
+        90.36,
+        634.74
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|5",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.36,
+        658.7,
+        90.36,
+        671.22
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|6",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.36,
+        713.3,
+        90.36,
+        725.82
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|7",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.36,
+        749.78,
+        90.36,
+        762.3
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|8",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.36,
+        804.38,
+        90.36,
+        816.9
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|9",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.36,
+        859.01,
+        90.36,
+        871.53
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|10",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        36.72,
+        913.73,
+        84.72,
+        926.25
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|11",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        36.72,
+        968.33,
+        84.72,
+        980.85
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|12",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        36.72,
+        1039.01,
+        84.72,
+        1051.53
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|13",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        36.72,
+        1093.74,
+        84.72,
+        1106.27
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_008|S2|MC|14",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        425.93,
+        112.29,
+        473.95,
+        124.81
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "2f9858729498ad472dad1545612a01866bba90b0dbce464a508c199d9b4b1105",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|1",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        33.6,
+        189.41,
+        61.62,
+        203.45
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|2",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        33.6,
+        225.89,
+        61.62,
+        239.93
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|3",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        33.6,
+        280.49,
+        61.62,
+        294.53
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|4",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        33.6,
+        316.88,
+        61.62,
+        330.92
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|5",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        33.6,
+        371.6,
+        61.62,
+        385.64
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|6",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        33.6,
+        407.96,
+        61.62,
+        422
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|7",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        33.6,
+        444.44,
+        61.62,
+        458.48
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|8",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        33.6,
+        480.8,
+        61.62,
+        494.84
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|9",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        33.6,
+        517.3,
+        61.62,
+        531.34
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|10",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        33.6,
+        553.66,
+        61.62,
+        567.7
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|11",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        33.6,
+        590.14,
+        61.62,
+        604.18
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S1|TF|12",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        33.6,
+        626.5,
+        61.62,
+        640.54
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|1",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        40.44,
+        704.5,
+        68.46,
+        718.54
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|2",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        40.44,
+        796.57,
+        68.46,
+        810.61
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|3",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        40.44,
+        911.53,
+        68.46,
+        925.57
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|4",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        381.41,
+        173.69,
+        409.45,
+        187.73
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|5",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        381.41,
+        265.73,
+        409.45,
+        279.77
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|6",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        381.41,
+        357.8,
+        409.45,
+        371.84
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|8",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        381.41,
+        449.72,
+        409.45,
+        463.76
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|10",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        381.41,
+        564.82,
+        409.45,
+        578.86
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|11",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        381.41,
+        633.82,
+        409.45,
+        647.86
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_009|S2|MC|15",
+      "pdf_page_1_based": 2,
+      "pdf_bbox_pts_top_left": [
+        40.44,
+        63.39,
+        68.46,
+        77.43
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "abcb3ca564a0afe3ef6f4533ecb1c906c67fac3017aabde4d9948602175f4461",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|1",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.24,
+        141.85,
+        90.26,
+        153.85
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|2",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.24,
+        187.21,
+        90.26,
+        199.21
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|3",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.24,
+        232.69,
+        90.26,
+        244.69
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|4",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.24,
+        278.05,
+        90.26,
+        290.05
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|5",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.24,
+        323.56,
+        90.26,
+        335.56
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|6",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.24,
+        387.16,
+        90.26,
+        399.16
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|7",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.24,
+        432.64,
+        90.26,
+        444.64
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|8",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.24,
+        478,
+        90.26,
+        490
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|9",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.24,
+        523.48,
+        90.26,
+        535.48
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S1|TF|10",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        36.6,
+        568.86,
+        84.62,
+        580.86
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|1",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.24,
+        653.1,
+        90.26,
+        665.1
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|2",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.24,
+        734.94,
+        90.26,
+        746.94
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|3",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        42.24,
+        798.57,
+        90.26,
+        810.57
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|5",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        374.59,
+        111.97,
+        422.59,
+        123.97
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|6",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        374.59,
+        175.69,
+        422.59,
+        187.69
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    },
+    {
+      "original_source_slot_id": "SCI_G04_S1_113_MID_010|S2|MC|8",
+      "pdf_page_1_based": 1,
+      "pdf_bbox_pts_top_left": [
+        374.59,
+        357.52,
+        422.59,
+        369.52
+      ],
+      "proof": "ORIGINAL_PDF_RAWDICT_GLYPH_CHAR_UNION_OR_SPLIT_PARENTHESIS_BRACKET",
+      "source_exact_pdf_sha": "32706ffe6016a6f857244ee2b94f35b31e20e9b11d5beff103b86dfb3f5ba1f8",
+      "formal_admission_ready": false
+    }
+  ],
+  "source_full_science_kp_semantic_rights_gate_pending": true,
+  "new_formal_science_kp_approved": 0,
+  "new_admission_ready": 0,
+  "new_published": 0,
+  "no_automatic_admission": true
+}

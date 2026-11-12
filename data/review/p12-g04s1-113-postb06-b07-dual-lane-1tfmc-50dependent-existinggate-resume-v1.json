@@ -1,0 +1,1003 @@
+{
+  "schema_version": "P12_G04S1_113_POST_B06_B07_DUAL_LANE_EXISTING_GATE_RESUME_V1",
+  "status": "SOURCE_ONLY_B07_TRIAGE_NO_ADMISSION_NO_STUDENT_RELEASE",
+  "checkpoint_kind": "APPEND_ONLY_RECONCILIATION_OF_INHERITED_EVIDENCE",
+  "as_of_main_sha": "3e721d14713102e0f9e878889b9cbed99cdd7cb8",
+  "as_of_main_status": {
+    "science_ci": "PASS",
+    "pages_deploy_and_browser_e2e": "PASS",
+    "answer_slots": 945,
+    "tf": 476,
+    "mc": 334,
+    "context_groups": 36,
+    "published_113_canonical_source_ids": 309,
+    "b06_final_release": 16,
+    "b06_final_hold": 34
+  },
+  "original_draft_pr": 124,
+  "original_draft_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "frozen_authority": "113 G04S1 Kanghsuan 48 KP",
+  "governance": "docs/QUESTION_ADMISSION_GOVERNANCE.md",
+  "counting_warning": "Two distinct queues both contain ordinal 301; they are NOT the same source ID. Never sum as one B07 50/51 admission cohort. Answer slots != original independent questions; previous published 309 are separately frozen.",
+  "source_lanes": [
+    {
+      "lane": "NATIVE_STANDALONE_TFMC",
+      "batch": "B07",
+      "source_positions": 1,
+      "original_ordinals": [
+        301,
+        301
+      ],
+      "source_refs": [
+        "data/review/p12-g04s1-113-native-tfmc-b07-1-source-checkpoint-v1.json",
+        "data/review/p12-g04s1-113-native-tfmc-b07-1-pdf-text-source-v1.json",
+        "data/review/p12-g04s1-113-native-tfmc-b07-1-original-native-glyph-bbox-v1.json",
+        "data/review/p12-g04s1-113-native-tfmc-b07-1-science-kp-context-routing-v1.json"
+      ],
+      "record": {
+        "worklist_number": 301,
+        "source_slot_id": "SCI_G04_S1_113_FINAL_010|S3|TF|7",
+        "original_source_slot_id": "SCI_G04_S1_113_FINAL_010|S03|TRUE_FALSE|07",
+        "paper_id": "SCI_G04_S1_113_FINAL_010",
+        "original_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+        "exact_original_question_text": "烤箱設置聲音的功能，發出「叮」的聲響，\r\n提醒使用者烘烤時間已結束。",
+        "answer_bbox_pdf_page": 2,
+        "answer_bbox_pdf_pts_top_left": [
+          322.49,
+          764.19,
+          361.15,
+          775.23
+        ],
+        "shared_reading_parent_ref": "SCI_G04_S1_113_FINAL_010|S3",
+        "science_answer_candidate_NOT_TEACHER_KEY": "O",
+        "frozen_kp_candidate_NOT_FORMAL_APPROVAL": "sci_g04s1_03_09",
+        "gate_existing_open": [
+          "RIGHTS_SHARED_READING_PARENT",
+          "PARENT_DEPENDENCY",
+          "DUPLICATE",
+          "OPERATOR_EXACT_COHORT"
+        ],
+        "disposition": "HOLD_PARENT_READING_CONTEXT_EXISTING_GATE",
+        "formal_science_kp_approved": false,
+        "admission_ready": false,
+        "published": false
+      }
+    },
+    {
+      "lane": "OTHER_OR_DEPENDENT",
+      "batch": "B07",
+      "source_positions": 50,
+      "original_ordinals": [
+        301,
+        350
+      ],
+      "source_ref": "data/review/p12-g04s1-113-other-dependent-b07-source-parent-preflight-v1.json",
+      "school_source_counts": {
+        "SCI_G04_S1_113_MID_013": {
+          "title": "113_康軒_四上_自然_期中評量卷_獅湖國小.pdf",
+          "count": 7
+        },
+        "SCI_G04_S1_113_MID_014": {
+          "title": "113_康軒_四上_自然_期中評量卷_路上國小.pdf",
+          "count": 30
+        },
+        "SCI_G04_S1_113_MID_015": {
+          "title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+          "count": 13
+        }
+      },
+      "nonexclusive_missing_evidence_tags": {
+        "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED": 7,
+        "PARENT_READING_OR_THIRD_PARTY_ARTICLE_RIGHTS": 6,
+        "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED": 36,
+        "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED": 20
+      },
+      "source_kind_counts": {
+        "PLANT_DIAGRAM_CHOICE": 1,
+        "READING_SINGLE_CHOICE": 6,
+        "FIGURE_LABEL": 6,
+        "TRUE_FALSE_SUB": 6,
+        "MATCHING": 7,
+        "SINGLE_CHOICE_SUB": 11,
+        "TABLE_CELL": 10,
+        "SHORT_ANSWER": 3
+      },
+      "records": [
+        {
+          "other_lane_ordinal": 301,
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S6|PLANT_DIAGRAM_CHOICE|5",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_013|S06|PLANT_DIAGRAM_CHOICE|05"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_013",
+          "source_kind": "PLANT_DIAGRAM_CHOICE",
+          "parent_source_id": "SCI_G04_S1_113_MID_013|S6|PLANT_DIAGRAM_CHOICE",
+          "existing_missing_evidence_flags": [
+            "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 302,
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G1|READING_SINGLE_CHOICE|1",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_013|S07|G01|READING_SINGLE_CHOICE|01"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_013",
+          "source_kind": "READING_SINGLE_CHOICE",
+          "parent_source_id": "SCI_G04_S1_113_MID_013|S7|G1|READING_SINGLE_CHOICE",
+          "existing_missing_evidence_flags": [
+            "PARENT_READING_OR_THIRD_PARTY_ARTICLE_RIGHTS",
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 303,
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G1|READING_SINGLE_CHOICE|2",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_013|S07|G01|READING_SINGLE_CHOICE|02"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_013",
+          "source_kind": "READING_SINGLE_CHOICE",
+          "parent_source_id": "SCI_G04_S1_113_MID_013|S7|G1|READING_SINGLE_CHOICE",
+          "existing_missing_evidence_flags": [
+            "PARENT_READING_OR_THIRD_PARTY_ARTICLE_RIGHTS",
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 304,
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G1|READING_SINGLE_CHOICE|3",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_013|S07|G01|READING_SINGLE_CHOICE|03"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_013",
+          "source_kind": "READING_SINGLE_CHOICE",
+          "parent_source_id": "SCI_G04_S1_113_MID_013|S7|G1|READING_SINGLE_CHOICE",
+          "existing_missing_evidence_flags": [
+            "PARENT_READING_OR_THIRD_PARTY_ARTICLE_RIGHTS",
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 305,
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE|1",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_013|S07|G02|READING_SINGLE_CHOICE|01"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_013",
+          "source_kind": "READING_SINGLE_CHOICE",
+          "parent_source_id": "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE",
+          "existing_missing_evidence_flags": [
+            "PARENT_READING_OR_THIRD_PARTY_ARTICLE_RIGHTS",
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 306,
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE|2",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_013|S07|G02|READING_SINGLE_CHOICE|02"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_013",
+          "source_kind": "READING_SINGLE_CHOICE",
+          "parent_source_id": "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE",
+          "existing_missing_evidence_flags": [
+            "PARENT_READING_OR_THIRD_PARTY_ARTICLE_RIGHTS",
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 307,
+          "source_slot_id": "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE|3",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_013|S07|G02|READING_SINGLE_CHOICE|03"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_013",
+          "source_kind": "READING_SINGLE_CHOICE",
+          "parent_source_id": "SCI_G04_S1_113_MID_013|S7|G2|READING_SINGLE_CHOICE",
+          "existing_missing_evidence_flags": [
+            "PARENT_READING_OR_THIRD_PARTY_ARTICLE_RIGHTS",
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 308,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|1",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G01|FIGURE_LABEL|01"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "FIGURE_LABEL",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL",
+          "existing_missing_evidence_flags": [
+            "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 309,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|2",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G01|FIGURE_LABEL|02"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "FIGURE_LABEL",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL",
+          "existing_missing_evidence_flags": [
+            "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 310,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|3",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G01|FIGURE_LABEL|03"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "FIGURE_LABEL",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL",
+          "existing_missing_evidence_flags": [
+            "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 311,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|4",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G01|FIGURE_LABEL|04"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "FIGURE_LABEL",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL",
+          "existing_missing_evidence_flags": [
+            "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 312,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|5",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G01|FIGURE_LABEL|05"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "FIGURE_LABEL",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL",
+          "existing_missing_evidence_flags": [
+            "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 313,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL|6",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G01|FIGURE_LABEL|06"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "FIGURE_LABEL",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G1|FIGURE_LABEL",
+          "existing_missing_evidence_flags": [
+            "ORIGINAL_FIGURE_AND_RESPONSE_BBOX_REQUIRED",
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 314,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|1",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G02|TRUE_FALSE_SUB|01"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "TRUE_FALSE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 315,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|2",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G02|TRUE_FALSE_SUB|02"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "TRUE_FALSE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 316,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|3",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G02|TRUE_FALSE_SUB|03"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "TRUE_FALSE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 317,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|4",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G02|TRUE_FALSE_SUB|04"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "TRUE_FALSE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 318,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|5",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G02|TRUE_FALSE_SUB|05"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "TRUE_FALSE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 319,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB|6",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G02|TRUE_FALSE_SUB|06"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "TRUE_FALSE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G2|TRUE_FALSE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 320,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING|1",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G03|MATCHING|01"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "MATCHING",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 321,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING|2",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G03|MATCHING|02"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "MATCHING",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 322,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING|3",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G03|MATCHING|03"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "MATCHING",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 323,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING|4",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G03|MATCHING|04"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "MATCHING",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G3|MATCHING",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 324,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|1",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G04|SINGLE_CHOICE_SUB|01"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "SINGLE_CHOICE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 325,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|2",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G04|SINGLE_CHOICE_SUB|02"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "SINGLE_CHOICE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 326,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|3",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G04|SINGLE_CHOICE_SUB|03"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "SINGLE_CHOICE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 327,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB|4",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G04|SINGLE_CHOICE_SUB|04"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "SINGLE_CHOICE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G4|SINGLE_CHOICE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 328,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G5|MATCHING|1",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G05|MATCHING|01"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "MATCHING",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G5|MATCHING",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 329,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G5|MATCHING|2",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G05|MATCHING|02"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "MATCHING",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G5|MATCHING",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 330,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G5|MATCHING|3",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G05|MATCHING|03"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "MATCHING",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G5|MATCHING",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED",
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 331,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB|1",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G06|SINGLE_CHOICE_SUB|01"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "SINGLE_CHOICE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 332,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB|2",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G06|SINGLE_CHOICE_SUB|02"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "SINGLE_CHOICE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 333,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB|3",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G06|SINGLE_CHOICE_SUB|03"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "SINGLE_CHOICE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 334,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB|4",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G06|SINGLE_CHOICE_SUB|04"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "SINGLE_CHOICE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G6|SINGLE_CHOICE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 335,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|1",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G07|SINGLE_CHOICE_SUB|01"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "SINGLE_CHOICE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 336,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|2",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G07|SINGLE_CHOICE_SUB|02"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "SINGLE_CHOICE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 337,
+          "source_slot_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB|3",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_014|S03|G07|SINGLE_CHOICE_SUB|03"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_014",
+          "source_kind": "SINGLE_CHOICE_SUB",
+          "parent_source_id": "SCI_G04_S1_113_MID_014|S3|G7|SINGLE_CHOICE_SUB",
+          "existing_missing_evidence_flags": [
+            "PARENT_CODE_BANK_OR_SHARED_CONTEXT_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 338,
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|1",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_015|S03|TABLE_CELL|01"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_015",
+          "source_kind": "TABLE_CELL",
+          "parent_source_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL",
+          "existing_missing_evidence_flags": [
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 339,
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|2",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_015|S03|TABLE_CELL|02"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_015",
+          "source_kind": "TABLE_CELL",
+          "parent_source_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL",
+          "existing_missing_evidence_flags": [
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 340,
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|3",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_015|S03|TABLE_CELL|03"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_015",
+          "source_kind": "TABLE_CELL",
+          "parent_source_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL",
+          "existing_missing_evidence_flags": [
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 341,
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|4",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_015|S03|TABLE_CELL|04"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_015",
+          "source_kind": "TABLE_CELL",
+          "parent_source_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL",
+          "existing_missing_evidence_flags": [
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 342,
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|5",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_015|S03|TABLE_CELL|05"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_015",
+          "source_kind": "TABLE_CELL",
+          "parent_source_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL",
+          "existing_missing_evidence_flags": [
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 343,
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|6",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_015|S03|TABLE_CELL|06"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_015",
+          "source_kind": "TABLE_CELL",
+          "parent_source_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL",
+          "existing_missing_evidence_flags": [
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 344,
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|7",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_015|S03|TABLE_CELL|07"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_015",
+          "source_kind": "TABLE_CELL",
+          "parent_source_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL",
+          "existing_missing_evidence_flags": [
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 345,
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|8",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_015|S03|TABLE_CELL|08"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_015",
+          "source_kind": "TABLE_CELL",
+          "parent_source_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL",
+          "existing_missing_evidence_flags": [
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 346,
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|9",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_015|S03|TABLE_CELL|09"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_015",
+          "source_kind": "TABLE_CELL",
+          "parent_source_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL",
+          "existing_missing_evidence_flags": [
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 347,
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL|10",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_015|S03|TABLE_CELL|10"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_015",
+          "source_kind": "TABLE_CELL",
+          "parent_source_id": "SCI_G04_S1_113_MID_015|S3|TABLE_CELL",
+          "existing_missing_evidence_flags": [
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 348,
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER|1",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_015|S04|SHORT_ANSWER|01"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_015",
+          "source_kind": "SHORT_ANSWER",
+          "parent_source_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER",
+          "existing_missing_evidence_flags": [
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 349,
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER|2",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_015|S04|SHORT_ANSWER|02"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_015",
+          "source_kind": "SHORT_ANSWER",
+          "parent_source_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER",
+          "existing_missing_evidence_flags": [
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        },
+        {
+          "other_lane_ordinal": 350,
+          "source_slot_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER|3",
+          "original_source_slot_ids": [
+            "SCI_G04_S1_113_MID_015|S04|SHORT_ANSWER|03"
+          ],
+          "paper_id": "SCI_G04_S1_113_MID_015",
+          "source_kind": "SHORT_ANSWER",
+          "parent_source_id": "SCI_G04_S1_113_MID_015|S4|SHORT_ANSWER",
+          "existing_missing_evidence_flags": [
+            "NON_STANDALONE_ANSWER_TYPE_RENDERER_AND_UNIQUE_ANSWER_REQUIRED"
+          ],
+          "disposition": "HOLD_EXISTING_GATE_EVIDENCE_INCOMPLETE",
+          "formal_science_kp_approved": false,
+          "admission_ready": false,
+          "published": false
+        }
+      ]
+    }
+  ],
+  "existing_admission_gate_sequence": [
+    "SOURCE_EXACT",
+    "PDF_PAGE_BBOX",
+    "SCIENCE_UNIQUE_ANSWER",
+    "CANONICAL_KP",
+    "DUPLICATE",
+    "RIGHTS",
+    "OPERATOR_APPLICABLE_ADMISSION_GATE",
+    "SEPARATE_STUDENT_PR_FOCUSED_CI_MAIN_PAGES_E2E"
+  ],
+  "formal_delta_this_checkpoint": {
+    "FORMAL_SCIENCE_KP_APPROVED": 0,
+    "ADMISSION_READY": 0,
+    "PUBLISHED": 0
+  },
+  "no_changes_to": [
+    "FROZEN_AUTHORITY",
+    "B01_B06_RELEASES",
+    "MAIN_STUDENT_BANK",
+    "ORIGINAL_PDF_OR_FIGURE",
+    "SOURCE_EXACT_TEXT",
+    "ALREADY_VERIFIED_SOURCE_BOXES",
+    "OPERATOR_SIGNOFF_REQUIREMENTS"
+  ],
+  "resume_task": "P12_G04S1_113_POST_B06_B07_TFMC1_HOLD_PARENT_RIGHTS_Then_OTHER_DEPENDENT_B07_50_ParentTextNativeBBox_ScienceUnique_KP48_DedupRights_ExactOperatorEligibleOnly_SelectivePR_CI_Main_Pages_NoB01ToB06Reopen"
+}

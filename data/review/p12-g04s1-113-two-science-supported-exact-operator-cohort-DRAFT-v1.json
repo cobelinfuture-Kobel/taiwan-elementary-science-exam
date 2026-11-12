@@ -1,0 +1,110 @@
+{
+  "schema_version": "P12_113_G04S1_EIGHT_SOURCE_SCIFIX_2_EXACT_OPERATOR_COHORT_DRAFT_V1",
+  "source_Draft_PR": 124,
+  "mode": "PREPARE_EXACT_SOURCE_PROVENANCE_FOR_OPERATOR_EXISTING_ADMISSION_GATE_NOT_NEW_REVIEW_LAYER",
+  "prior_source_QA_ref": "data/review/p12-g04s1-113-two-school-eight-original-science-unique-source-qa-v1.json",
+  "crossyear_source_dedup_ref": "data/review/p12-g04s1-113-two-new-science-supported-113all29-114all25-source-duplicate-screen-v2.json",
+  "previous_public_suppression_ref": "data/review/p12-g04s1-113-main-published174-source-suppression-readback-v11.json",
+  "rights_governance_document": "docs/S3_P03_ANSWER_KP_AND_TAIWAN_ART9_RIGHTS.md",
+  "rights_school_regular_exam_header_verified_original_page": 1,
+  "rights_question_TEXT_component_only": true,
+  "rights_teacher_handwritten_annotated_answers_not_school_key": true,
+  "rights_no_third_party_copied_figure_or_reproduced_PDF": true,
+  "rights_operator_final_release_approval": false,
+  "canonical_frozen_KP_ref": "site/data/authority/science-g03-g04-selector-v3.json",
+  "previous_source_science_HOLD_partition_orig8": 8,
+  "science_ambiguous_remain_HOLD": [
+    "SCI_G04_S1_113_FINAL_001|S02|MC|007",
+    "SCI_G04_S1_113_FINAL_001|S02|MC|008",
+    "SCI_G04_S1_113_MID_006|S1|TF|006",
+    "SCI_G04_S1_113_MID_006|S2|MC|008",
+    "SCI_G04_S1_113_MID_006|S2|MC|010",
+    "SCI_G04_S1_113_MID_006|S2|MC|011"
+  ],
+  "previous_16_missing_direct_KP_still_HOLD": true,
+  "remaining6_scan_parent_image_geometry_still_HOLD": true,
+  "operator_exact_release_request_text": "核准 113 四上自然八題科學疑義中兩道原題（和順期末 MC009、內安期中 MC012）的 V1 精確來源清冊，允許通過既有正式 Admission Gate 後以選擇性 PR 新增學生文字題庫；六道科學疑義與十六道缺乏直接 KP 原題維持 HOLD，不公開原始掃描圖片，不將模型答案冒稱教師答案。",
+  "operator_exact_release_request_not_yet_accepted_by_user": true,
+  "draft_records": [
+    {
+      "ordinal": 1,
+      "source_slot_id": "SCI_G04_S1_113_FINAL_001|S02|MC|009",
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "source_PDF_SHA256": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "original_pdf_page_1_based": 1,
+      "original_pdf_answer_bbox_pts_top_left": [
+        393.38,
+        387.55,
+        425.77,
+        400.03
+      ],
+      "original_school_exam_question_text": "兩個燈泡並聯時只有一個燈泡發光，請問有幾個通路？",
+      "original_options_four_print_order": [
+        "3",
+        "2",
+        "1",
+        "0個"
+      ],
+      "science_independently_reasoned_answer_choice_1based": 3,
+      "canonical_kp_id": "sci_g04s1_04_04",
+      "science_unique_answer_and_direct_kp_source_evidence_verified": true,
+      "original_school_teacher_key_authenticated": false,
+      "original_source_pdf_images_not_republished": true,
+      "scope_existing_Article9_lawfully_administered_exam_question_text_only_preflight": true,
+      "source_image_independence_verified": true,
+      "all_113_114_relevant_originals_dedup_source_evidence_attached": true,
+      "formal_release_rights_operator_signature": false,
+      "operator_exact_batch_release_approved": false,
+      "FORMAL_SCIENCE_KP_APPROVED": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    },
+    {
+      "ordinal": 2,
+      "source_slot_id": "SCI_G04_S1_113_MID_006|S2|MC|012",
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "source_PDF_SHA256": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "original_pdf_page_1_based": 1,
+      "original_pdf_answer_bbox_pts_top_left": [
+        398.88,
+        696.6,
+        433.8,
+        709.56
+      ],
+      "original_school_exam_question_text": "小東觀察魚的活動並做了以下的紀錄，哪一項可能寫錯了？",
+      "original_options_four_print_order": [
+        "魚鰭可以幫助魚控制游動的方向",
+        "魚體為流線形，可以減少在水中游動的阻力",
+        "魚身體表面的鱗片具有保護魚體的作用",
+        "魚有鰭才能在水中自由的活動"
+      ],
+      "science_independently_reasoned_answer_choice_1based": 4,
+      "canonical_kp_id": "sci_g04s1_02_08",
+      "science_unique_answer_and_direct_kp_source_evidence_verified": true,
+      "original_school_teacher_key_authenticated": false,
+      "original_source_pdf_images_not_republished": true,
+      "scope_existing_Article9_lawfully_administered_exam_question_text_only_preflight": true,
+      "source_image_independence_verified": true,
+      "all_113_114_relevant_originals_dedup_source_evidence_attached": true,
+      "formal_release_rights_operator_signature": false,
+      "operator_exact_batch_release_approved": false,
+      "FORMAL_SCIENCE_KP_APPROVED": false,
+      "ADMISSION_READY": false,
+      "PUBLISHED": false
+    }
+  ],
+  "summary": {
+    "old_science_uniqueness_HOLD8_reexamined": 8,
+    "science_direct_frozen_KP_supported_draft": 2,
+    "remaining_science_uniqueness_HOLD": 6,
+    "remaining_direct_KP_HOLD": 16,
+    "total_remaining_prior_two_schools_HOLD": 22,
+    "source_text_only_rights_component_preflight": 2,
+    "operator_final_release_approved_new": 0,
+    "ADMISSION_READY_new": 0,
+    "PUBLISHED_new": 0,
+    "public_113_source_slots": 174,
+    "public_site_answer_slots": 810
+  },
+  "next_resume_task": "P12_113_G04S1_EXACT2_DRAFT_OPERATOR_GATE_PENDING__CONTINUE_NATIVE46_SOURCE2_REPAIRED_B03_B14_RIGHTS_DEDUP_FINAL_GATE_THEN_CONSOLIDATE_ADMISSION_ELIGIBLE_COHORT_WITHOUT_SOURCE_REPROCESSING__NO_UNAPPROVED_PUBLIC_RELEASE"
+}

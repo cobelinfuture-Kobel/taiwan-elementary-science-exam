@@ -1,0 +1,91 @@
+{
+  "schema_version": "P12_G04S1_113_NATIVE6_ORIGINAL_PDF_SHA_RENDER_BBOX_SCIENCE_KP_CORRECTION_V2",
+  "source_draft_pr": 124,
+  "replaces_interpretation_not_overwriting": "data/review/p12-g04s1-113-native6-original-text-science-kp-targeted-resolution-v1.json",
+  "reason_for_v2": "The V1 desk triage incorrectly attributed FINAL_004 to Yongan. Registered source ID and original SHA verify FINAL_004 is Minquan elementary school; original printed TF004 is about the Moon and transmission of footsteps, NOT a paper cup string telephone. Correct the source attribution and science hold append-only.",
+  "authority": "113 Kang Hsuan G04S1 fixed 48 canonical KP, docs/QUESTION_ADMISSION_GOVERNANCE.md, latest source published152 suppression",
+  "original_verified_method": "Downloaded original full school PDFs from connected Google Drive, independently recomputed SHA256, rendered full original first pages and clipped each question; 1:1 source printed stem/complete options/printed number and marker BBox visually checked against previously actual original PDF glyph BBox evidence; private render proofs not uploaded to public repo.",
+  "prior_source_geometry": "data/review/p12-g04s1-113-othernative4-exact-pdf-glyph-bbox56-v1.json",
+  "source_raster_proof_in_public_repo": false,
+  "original_teacher_answer_key_authenticated": false,
+  "previous_desk_triage_six": 6,
+  "summary": {
+    "source_exact_SHA_and_visual_item_acceptance_now": 2,
+    "source_geometry_exact_bbox_verified": 2,
+    "additional_formal_science_and_direct_frozen_kp_accepted": 1,
+    "minquan_science_condition_ambiguous_hold": 1,
+    "other_existing_direct_kp_holds": 3,
+    "other_existing_science_assumption_hold": 1,
+    "new_admission_ready": 0,
+    "new_published": 0
+  },
+  "records": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_007|S2|MC|009",
+      "paper_name": "113_康軒_四上_自然_期末評量卷_明義國小.pdf",
+      "source_school": "花蓮縣花蓮市明義國民小學",
+      "verified_SHA256": "356d91fba36cd8b8bfe2e5a5e32a354b02d48e17782ce146e6cd8b5cf4881f12",
+      "original_page_pdf_1_based": 1,
+      "printed_section": "二、選擇題",
+      "printed_number": 9,
+      "original_stem": "下列哪一個電器產品通常不會使用三插插頭？",
+      "original_options": [
+        "冰箱",
+        "烤箱",
+        "洗衣機",
+        "檯燈"
+      ],
+      "unique_science_answer_choice": 4,
+      "science_reason": "四年級常見情境中檯燈通常使用雙腳插頭，冰箱、烤箱及洗衣機常使用具接地功能的三插插頭。原文限定「通常」，非宣稱所有產品絕對如此。",
+      "canonical_KP": "sci_g04s1_04_12",
+      "direct_KP_title": "市電與用電安全",
+      "exact_original_printed_answer_bbox_pts_top_left": [
+        308.33,
+        282.29,
+        351.43,
+        294.51
+      ],
+      "bbox_original_registered_source": "data/review/p12-g04s1-113-othernative4-exact-pdf-glyph-bbox56-v1.json",
+      "original_pdf_visual_stem_options_bbox_verified": true,
+      "science_unique_and_direct_kp_formal_verified": true,
+      "source_exam_article9_text_only_rights_path_preflight": "SCHOOL_REGULAR_EXAM_TEXT_ONLY_NO_IMAGES",
+      "crossyear_and_latest788_final_dedup_gate": "PENDING_COMPLETE_FULL_STEM_AND_OPTIONS_NEAR_DUPLICATE_CHECK",
+      "formal_science_kp_approved": true,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_004|S1|TF|004",
+      "paper_name": "113_康軒_四上_自然_期末評量卷_民權國小.pdf",
+      "source_school": "臺北市民權國民小學",
+      "verified_SHA256": "ee3847a2790d0f92f64ff2361003e6383364dd83d49797bacd3631cfe808768d",
+      "original_page_pdf_1_based": 1,
+      "printed_section": "一、是非題",
+      "printed_number": 4,
+      "original_stem": "太空人在月球上，無法聽到同伴踏步的聲音。",
+      "original_options": null,
+      "model_science_answer_candidate": "O",
+      "canonical_KP_candidate": "sci_g04s1_03_03",
+      "exact_original_printed_answer_bbox_pts_top_left": [
+        28.32,
+        253.16,
+        60.72,
+        266.12
+      ],
+      "bbox_original_registered_source": "data/review/p12-g04s1-113-othernative4-exact-pdf-glyph-bbox56-v1.json",
+      "original_pdf_visual_stem_options_bbox_verified": true,
+      "science_unique_answer_formal": false,
+      "science_hold_reason": "Moon near vacuum cannot carry sound through open air; however possible solid contact/vibration through suits or ground can change hearing conditions. The wording does not explicitly specify transmission route; preserve original SCIENCE_MEDIUM_AND_MOON_SOUND_CONDITION hold rather than importing prior unrelated Yongan string telephone reasoning.",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "other_four_original_exception_slots_and_status_preserved": [
+    "SCI_G04_S1_113_FINAL_008|S1|MC|001:HOLD_DIRECT_KP",
+    "SCI_G04_S1_113_MID_017|S1|TF|012:HOLD_DIRECT_KP",
+    "SCI_G04_S1_113_FINAL_003|S1|MC|003:HOLD_DIRECT_KP",
+    "SCI_G04_S1_113_FINAL_003|S1|MC|004:HOLD_SCIENCE_ASSUMPTION"
+  ],
+  "next_resume_task": "P12_G04S1_113_MingyiMC009_FinalDupRightsOperatorGate_HOLD; MinquanTF004_HOLD_SCIENCE; RepairedDadun2 operator batch HOLD; other four keep holds; scan5 source bbox exact progress append-only."
+}

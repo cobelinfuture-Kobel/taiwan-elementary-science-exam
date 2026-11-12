@@ -1,0 +1,100 @@
+{
+  "schema_version": "P12_113_G04S1_REMAINING16_PDF_NATIVE_TEXT_FIRST_PHRASE_GEOMETRY_QA_V1",
+  "scope": "16 remaining native-text PDFs / 550 of 771 legacy provisional question-start strings; not 550 original response positions",
+  "authority_ref": "site/data/authority/science-g03-g04-selector-v3.json",
+  "stage2_printed_scoring_proof_ref": "data/review/p12-g04s1-113-remaining16-printed-score-proof-v2.json",
+  "source_pdf_sha_catalog_ref": "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+  "source_method": "Read directly from original source PDF native text with PyMuPDF text-search in original page/left-right column; match a single exact first Han-character phrase from inherited 771 provisional candidates. For duplicates and unmatched, do not supply a false source rectangle.",
+  "native_pdf_text_candidate_starts_examined": 550,
+  "single_matching_source_phrase_bbox": 542,
+  "source_phrase_bbox_unlocatable": 8,
+  "exact_student_original_answer_markers_verified_by_this_stage": 0,
+  "source_match_semantics": "RECTANGLE_FOR_FIRST_GROUNDED_PDF_NATIVE_TEXT_PHRASE_NOT_ORIGINAL_STUDENT_ANSWER_MARKER",
+  "user_handoff_evidence_sha256_json": "9583c3297aea87ae1d8bccde2c17eac6d8e2391b2e42c36a7af1d3856aa3895b",
+  "user_handoff_evidence_sha256_csv": "be336820ecc2e1a65837ad7c3c9234207cdaeefcf57ade858f9723af920d40c2",
+  "user_handoff_evidence_bundle_sha256": "f81d9945e77af0717259f57770aa439e3da140d5b92f4aee7885b5088686ede9",
+  "evidence_original_pdf_exact_version_sha_preserved": true,
+  "files_originals_modified": false,
+  "fully_source_verified_exact_answer_slots_this_stage": 0,
+  "independent_science_or_kp_approvals_this_stage": 0,
+  "public_student_answer_slots_unchanged": 636,
+  "all_113_114_semantic_dedup_still_pending": true,
+  "source_start_counts_by_exam": [
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_FINAL_006",
+      "native_candidate_starts": 43
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_MID_004",
+      "native_candidate_starts": 40
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_MID_009",
+      "native_candidate_starts": 40
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_MID_015",
+      "native_candidate_starts": 39
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_MID_010",
+      "native_candidate_starts": 36
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_MID_008",
+      "native_candidate_starts": 36
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_MID_001",
+      "native_candidate_starts": 35
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_FINAL_003",
+      "native_candidate_starts": 35
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_MID_005",
+      "native_candidate_starts": 35
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_MID_007",
+      "native_candidate_starts": 35
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_FINAL_005",
+      "native_candidate_starts": 34
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_MID_018",
+      "native_candidate_starts": 32
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_MID_016",
+      "native_candidate_starts": 31
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_FINAL_010",
+      "native_candidate_starts": 31
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_MID_003",
+      "native_candidate_starts": 25
+    },
+    {
+      "source_slot_ledger_id": "SCI_G04_S1_113_FINAL_011",
+      "native_candidate_starts": 23
+    }
+  ],
+  "unlocated_native_anchor_ids": [
+    "SCI_G04_S1_113_MID_009|P2|LEFT|SEQ031",
+    "SCI_G04_S1_113_MID_009|P2|RIGHT|SEQ037",
+    "SCI_G04_S1_113_MID_009|P2|RIGHT|SEQ038",
+    "SCI_G04_S1_113_MID_010|P2|RIGHT|SEQ029",
+    "SCI_G04_S1_113_MID_010|P2|RIGHT|SEQ030",
+    "SCI_G04_S1_113_FINAL_006|P2|LEFT|SEQ033",
+    "SCI_G04_S1_113_FINAL_006|P2|LEFT|SEQ034",
+    "SCI_G04_S1_113_FINAL_006|P2|LEFT|SEQ035"
+  ],
+  "hold_all_unlocated_and_duplicate_native_text_anchor_candidates": true,
+  "next_gate": "Visually pair every student answer box with original question stem/options/figure, check source image/printed answer marker BBox then independently judge science and approved KP48, cross-year 113/114 duplicates. Do not promote 542 firstphrase bboxes into student original answermarker proof."
+}

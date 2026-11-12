@@ -1,0 +1,1220 @@
+{
+  "schema_version": "P12_G04S1_113_B05_EXACT24_SOURCE_SCIENCE_KP_DEDUP_RIGHTS_OPERATOR_PROPOSAL_PENDING_V1",
+  "branch": "Draft PR124 SOURCE_ONLY",
+  "source_main_authority_sha": "a160156e5d6e3c39a3089101751226ba23d68153",
+  "status": "EXACT24_COHORT_PROPOSED_NOT_OPERATOR_APPROVED",
+  "frozen_contract": "113 Kang Hsuan G04 S1 48KP / existing SOURCE_EXACT PDF_PAGE_BBOX SCIENCE_UNIQUE_ANSWER CANONICAL_KP DUPLICATE RIGHTS ADMISSION_GATE",
+  "prior_sources": [
+    "data/review/p12-g04s1-113-native-tfmc-b05-50-source-checkpoint-v1.json",
+    "data/review/p12-g04s1-113-native-tfmc-b05-50-pdf-text-source-v2.json",
+    "data/review/p12-g04s1-113-native-tfmc-b05-50-original-native-glyph-bbox-v1.json",
+    "data/review/p12-g04s1-113-native-tfmc-b05-50-science-kp-parent-exception-routing-v1.json",
+    "data/review/p12-g04s1-113-all29-kp48-source-firstpass-v1.json",
+    "site/data/authority/science-g03-g04-selector-v3.json",
+    "data/review/p12-g04s1-113-main-published269-source-suppression-readback-v16.json"
+  ],
+  "scope": {
+    "work_positions": 50,
+    "prior_DIRECT_science_KP_model_candidates": 26,
+    "proposed_operator_exact_student_cohort": 24,
+    "proposed_mid_u01_u02": 12,
+    "proposed_final_u03_u04": 12,
+    "prior_24_HOLD_immutable": 24,
+    "new_science_unique_hold": 1,
+    "confirmed_already_public_crossyear_option_reordered_alias": 1,
+    "total_conserved": 50
+  },
+  "dedup_coverage": {
+    "public_bank_JSON_files_checked": 49,
+    "public_grade4_s1_entries_scanned_including_historical_versions": 702,
+    "original_114_registered_papers_checked": 25,
+    "original_114_original_source_occurrences_scanned": 717,
+    "original_113_registered_papers_accessed": 29,
+    "original_113_native_text_layer_papers_checked": 24,
+    "original_113_scanned_only_5_source_papers_without_native_readable_text": 5,
+    "scan5_all_B05_items_visually_certified": false,
+    "whole_113_114_semantic_duplicate_gate": "PARTIAL_114_FULL_TEXT_113_NATIVE_TEXT_ONLY_SCAN5_VISUAL_UNRESOLVED",
+    "near_wording_examples": [
+      {
+        "source": "SCI_G04_S1_113_FINAL_006|S1|TF|7",
+        "other": "SCI_G04_S1_114_FINAL_006|S1|TF|010",
+        "reason": "opposite pole statement differs in original wording; under operator Oct19 only identical/choice reorder merged, keep distinct"
+      },
+      {
+        "source": "SCI_G04_S1_113_FINAL_006|S2|MC|7",
+        "other": "SCI_G04_S1_114_FINAL_007|S02|MC|014",
+        "reason": "different wording for lightbulb component; allowed same-KP different original wording; exact question and full options retained"
+      }
+    ]
+  },
+  "confirmed_alias": {
+    "original_source_id": "SCI_G04_S1_113_FINAL_006|S2|MC|10",
+    "already_public_114": "SCI_G04_S1_114_FINAL_007|S02|MC|019",
+    "actual_option_reorder_only": true,
+    "prior_evidence": "data/review/p12-g04s1-113-b05-native50-published269-crossyear-fullchoice-dedup-source-only-v1.json",
+    "disposition": "SUPPRESS_NEW_STUDENT_ITEM_PRESERVE_BOTH_ORIGINAL_SCHOOL_SOURCE_IDS"
+  },
+  "additional_unique_answer_hold": {
+    "source_id": "SCI_G04_S1_113_MID_015|S2|MC|5",
+    "reason": "海岸地區居民飲食並不能單憑居住位置確定小米最不可能為主要食物；不同族群、地區有不同主食習慣。題幹未限定地理與文化前提，無法科學地保證唯一答案。",
+    "prior_model_route": "DIRECT",
+    "new_decision": "HOLD_SCIENCE_QUALIFIER_CONTEXT_INSUFFICIENT",
+    "original_pdf_and_answer_marker_preserved": true,
+    "no_source_question_rewrite": true
+  },
+  "rights_evaluation": "24 pending cohort are original stand-alone legally held school examination question TEXT with registered original school exam title/SHA/page/BBox, no third party reading/images; Article9 route only for this component, NOT license to redistribute whole source PDFs, school answer keys, original images, quoted third-party source or print score.",
+  "operator_status": {
+    "exact24_scope_approval_received": false,
+    "source_original_scan5_full_duplicate_clearance_received": false,
+    "scope_specific_operator_signoff_required_before_student_release": true
+  },
+  "formal_metrics_new": {
+    "FORMAL_SCIENCE_KP_APPROVED": 0,
+    "ADMISSION_READY": 0,
+    "PUBLISHED": 0
+  },
+  "public_main_113_source_ids_unchanged": 269,
+  "public_site_answer_slots_unchanged": 905,
+  "b01_to_b04_untouched": true,
+  "prior24_hold_ids": [
+    "SCI_G04_S1_113_MID_015|S1|TF|8",
+    "SCI_G04_S1_113_MID_015|S1|TF|9",
+    "SCI_G04_S1_113_MID_015|S1|TF|10",
+    "SCI_G04_S1_113_MID_015|S2|MC|4",
+    "SCI_G04_S1_113_MID_015|S2|MC|7",
+    "SCI_G04_S1_113_MID_015|S2|MC|11",
+    "SCI_G04_S1_113_MID_015|S2|MC|12",
+    "SCI_G04_S1_113_MID_015|S2|MC|13",
+    "SCI_G04_S1_113_MID_015|S2|MC|14",
+    "SCI_G04_S1_113_MID_015|S2|MC|18",
+    "SCI_G04_S1_113_MID_015|S2|MC|19",
+    "SCI_G04_S1_113_MID_015|S6|MC|1",
+    "SCI_G04_S1_113_MID_015|S6|MC|2",
+    "SCI_G04_S1_113_MID_015|S6|MC|3",
+    "SCI_G04_S1_113_MID_015|S6|MC|4",
+    "SCI_G04_S1_113_MID_015|S6|MC|5",
+    "SCI_G04_S1_113_FINAL_006|S1|TF|11",
+    "SCI_G04_S1_113_FINAL_006|S1|TF|16",
+    "SCI_G04_S1_113_FINAL_006|S2|MC|2",
+    "SCI_G04_S1_113_FINAL_006|S2|MC|8",
+    "SCI_G04_S1_113_FINAL_006|S2|MC|12",
+    "SCI_G04_S1_113_FINAL_006|S2|MC|15",
+    "SCI_G04_S1_113_FINAL_006|S2|MC|16",
+    "SCI_G04_S1_113_MID_018|S1|TF|1"
+  ],
+  "exact24_operator_cohort_records": [
+    {
+      "proposed_student_cohort_ordinal": 1,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|6",
+      "original_source_legacy_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|06",
+      "source_school": "廣興國小",
+      "exam_type": "MID",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        28.32,
+        226.09,
+        58.32,
+        238.09
+      ],
+      "source_question_kind": "TF",
+      "source_original_stem_verbatim": "發生地震時，為了更快逃生，可以搭乘電梯。",
+      "source_original_ordered_options_verbatim": null,
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "X",
+      "science_reason": "地震時不可為逃生搭乘電梯，應就地保護頭頸。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_01_10",
+      "period_scope": "MIDTERM_U01_U02",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 2,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|7",
+      "original_source_legacy_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|07",
+      "source_school": "廣興國小",
+      "exam_type": "MID",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        28.32,
+        244.09,
+        58.32,
+        256.09
+      ],
+      "source_question_kind": "TF",
+      "source_original_stem_verbatim": "荷花的葉柄是實心的，因此可以支撐葉子。",
+      "source_original_ordered_options_verbatim": null,
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "X",
+      "science_reason": "荷花葉柄具通氣組織，不是實心。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_02_07",
+      "period_scope": "MIDTERM_U01_U02",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 3,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S1|TF|11",
+      "original_source_legacy_id": "SCI_G04_S1_113_MID_015|S01|TRUE_FALSE|11",
+      "source_school": "廣興國小",
+      "exam_type": "MID",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        28.32,
+        334.12,
+        58.32,
+        346.12
+      ],
+      "source_question_kind": "TF",
+      "source_original_stem_verbatim": "海洋是世界上最大的淡水生態環境。",
+      "source_original_ordered_options_verbatim": null,
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "X",
+      "science_reason": "海洋是鹹水環境，非最大的淡水生態環境。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_02_02",
+      "period_scope": "MIDTERM_U01_U02",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 4,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|1",
+      "original_source_legacy_id": "SCI_G04_S1_113_MID_015|S02|SINGLE_CHOICE|01",
+      "source_school": "廣興國小",
+      "exam_type": "MID",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        28.32,
+        370.12,
+        58.32,
+        382.12
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "下列哪一種水生動物是用鰓呼吸？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "螃蟹"
+        },
+        {
+          "original_marker": "②",
+          "text": "青蛙"
+        },
+        {
+          "original_marker": "③",
+          "text": "紅娘華"
+        },
+        {
+          "original_marker": "④",
+          "text": "斑龜"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "①",
+      "science_reason": "螃蟹主要用鰓呼吸。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_02_09",
+      "period_scope": "MIDTERM_U01_U02",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 5,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|3",
+      "original_source_legacy_id": "SCI_G04_S1_113_MID_015|S02|SINGLE_CHOICE|03",
+      "source_school": "廣興國小",
+      "exam_type": "MID",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        28.32,
+        442.12,
+        58.32,
+        454.12
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "魚類的身體中間粗，頭尾細，有什麼功用\r\n呢？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "減少在水中游泳的阻力"
+        },
+        {
+          "original_marker": "②",
+          "text": "比較不容易被天敵發現"
+        },
+        {
+          "original_marker": "③",
+          "text": "可以吸收更多氧氣"
+        },
+        {
+          "original_marker": "④",
+          "text": "可以減少水分散失"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "①",
+      "science_reason": "魚類流線型外形有助減少水阻力。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_02_08",
+      "period_scope": "MIDTERM_U01_U02",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 6,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|9",
+      "original_source_legacy_id": "SCI_G04_S1_113_MID_015|S02|SINGLE_CHOICE|09",
+      "source_school": "廣興國小",
+      "exam_type": "MID",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        297.77,
+        136.09,
+        327.77,
+        148.09
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "小米週末出遊時觀察到苔蘚、蝦子和螃蟹，\r\n他最有可能到哪一種環境？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "溪流"
+        },
+        {
+          "original_marker": "②",
+          "text": "海洋"
+        },
+        {
+          "original_marker": "③",
+          "text": "潮間帶"
+        },
+        {
+          "original_marker": "④",
+          "text": "森林"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "①",
+      "science_reason": "苔蘚、蝦及蟹等組合較符合溪流周邊生態。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_02_02",
+      "period_scope": "MIDTERM_U01_U02",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 7,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|10",
+      "original_source_legacy_id": "SCI_G04_S1_113_MID_015|S02|SINGLE_CHOICE|10",
+      "source_school": "廣興國小",
+      "exam_type": "MID",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        297.77,
+        190.09,
+        327.77,
+        202.09
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "下列哪一種植物的葉子表面有細毛，可以\r\n防水？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "睡蓮"
+        },
+        {
+          "original_marker": "②",
+          "text": "香蒲"
+        },
+        {
+          "original_marker": "③",
+          "text": "大萍"
+        },
+        {
+          "original_marker": "④",
+          "text": "浮萍"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "③",
+      "science_reason": "大萍葉面具細毛及拒水特性。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_02_04",
+      "period_scope": "MIDTERM_U01_U02",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 8,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|15",
+      "original_source_legacy_id": "SCI_G04_S1_113_MID_015|S02|SINGLE_CHOICE|15",
+      "source_school": "廣興國小",
+      "exam_type": "MID",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        297.77,
+        478.14,
+        327.77,
+        490.14
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "下列何者不是地震前須做的防災準備？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "準備避難包"
+        },
+        {
+          "original_marker": "②",
+          "text": "進行防震演練"
+        },
+        {
+          "original_marker": "③",
+          "text": "保護頭部"
+        },
+        {
+          "original_marker": "④",
+          "text": "檢查房屋有無龜裂"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "③",
+      "science_reason": "『保護頭部』主要是地震發生時的即時動作，不屬平時防災準備。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_01_09",
+      "period_scope": "MIDTERM_U01_U02",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 9,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|16",
+      "original_source_legacy_id": "SCI_G04_S1_113_MID_015|S02|SINGLE_CHOICE|16",
+      "source_school": "廣興國小",
+      "exam_type": "MID",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        297.77,
+        532.14,
+        327.77,
+        544.14
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "地震發生時，應該做什麼？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "保護頭部"
+        },
+        {
+          "original_marker": "②",
+          "text": "檢查瓦斯水電管線"
+        },
+        {
+          "original_marker": "③",
+          "text": "進行防震演練"
+        },
+        {
+          "original_marker": "④",
+          "text": "釘牢櫥櫃等家具"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "①",
+      "science_reason": "地震發生時要保護頭頸。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_01_10",
+      "period_scope": "MIDTERM_U01_U02",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 10,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|17",
+      "original_source_legacy_id": "SCI_G04_S1_113_MID_015|S02|SINGLE_CHOICE|17",
+      "source_school": "廣興國小",
+      "exam_type": "MID",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        297.77,
+        586.14,
+        327.77,
+        598.14
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "下列何者環境較適合水稻生長？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "海濱泥灘地"
+        },
+        {
+          "original_marker": "②",
+          "text": "濕潤的土壤"
+        },
+        {
+          "original_marker": "③",
+          "text": "低海拔森林"
+        },
+        {
+          "original_marker": "④",
+          "text": "排水良好的沙地"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "②",
+      "science_reason": "水稻一般適合水分較充足的濕潤土壤。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_01_02",
+      "period_scope": "MIDTERM_U01_U02",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 11,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_015|S2|MC|20",
+      "original_source_legacy_id": "SCI_G04_S1_113_MID_015|S02|SINGLE_CHOICE|20",
+      "source_school": "廣興國小",
+      "exam_type": "MID",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期中評量卷_廣興國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1mnHPaad21KmRf9u7oKXvRmTDoRM3ap9v/view",
+      "source_pdf_sha256": "a41182e3c4058c91b48bb5e017b944fa7fabb2f32c85673a2e8d2154261d2c7e",
+      "original_pdf_page": 2,
+      "original_native_answer_bbox_pdf_pt": [
+        28.32,
+        31.31,
+        58.32,
+        43.31
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "下列哪一種水生植物的根部是固定在水底\r\n的泥土裡？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "荷花"
+        },
+        {
+          "original_marker": "②",
+          "text": "浮萍"
+        },
+        {
+          "original_marker": "③",
+          "text": "布袋蓮"
+        },
+        {
+          "original_marker": "④",
+          "text": "大萍"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "①",
+      "science_reason": "荷花根莖固定於水底土壤，挺水生長。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_02_07",
+      "period_scope": "MIDTERM_U01_U02",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 12,
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|1",
+      "original_source_legacy_id": "SCI_G04_S1_113_FINAL_006|S01|TRUE_FALSE|01",
+      "source_school": "安和國小",
+      "exam_type": "FINAL",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        30.12,
+        189.41,
+        65.22,
+        203.45
+      ],
+      "source_question_kind": "TF",
+      "source_original_stem_verbatim": "將左耳貼在桌面，再敲擊桌面時，兩耳\r\n聽到的聲音是來自一樣的介質。",
+      "source_original_ordered_options_verbatim": null,
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "X",
+      "science_reason": "桌面傳聲經固體，另一耳聽見聲音經空氣等介質，非兩耳都經同樣介質。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_03_03",
+      "period_scope": "FINAL_U03_U04",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 13,
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|7",
+      "original_source_legacy_id": "SCI_G04_S1_113_FINAL_006|S01|TRUE_FALSE|07",
+      "source_school": "安和國小",
+      "exam_type": "FINAL",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        30.12,
+        426.2,
+        65.22,
+        440.24
+      ],
+      "source_question_kind": "TF",
+      "source_original_stem_verbatim": "常見的乾電池有兩極，凸的一端是正\r\n極，用「－」表示；平的一端是負極，\r\n用「＋」表示。",
+      "source_original_ordered_options_verbatim": null,
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "X",
+      "science_reason": "凸端正極標＋，平端負極標－。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_04_01",
+      "period_scope": "FINAL_U03_U04",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 14,
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|14",
+      "original_source_legacy_id": "SCI_G04_S1_113_FINAL_006|S01|TRUE_FALSE|14",
+      "source_school": "安和國小",
+      "exam_type": "FINAL",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        30.12,
+        735.82,
+        65.22,
+        749.86
+      ],
+      "source_question_kind": "TF",
+      "source_original_stem_verbatim": "光線遇到無法穿透的物體時，會改變方\r\n向後再繼續行進，所以光的行進路線是\r\n可以彎曲的。",
+      "source_original_ordered_options_verbatim": null,
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "X",
+      "science_reason": "光在同一均勻介質中直線傳播，不能據遮擋斷言光線改成曲線。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_03_06",
+      "period_scope": "FINAL_U03_U04",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 15,
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S1|TF|15",
+      "original_source_legacy_id": "SCI_G04_S1_113_FINAL_006|S01|TRUE_FALSE|15",
+      "source_school": "安和國小",
+      "exam_type": "FINAL",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        30.12,
+        790.45,
+        65.22,
+        804.49
+      ],
+      "source_question_kind": "TF",
+      "source_original_stem_verbatim": "電線外面包覆一層塑膠皮是為了絕\r\n緣，裡面則是鐵線。",
+      "source_original_ordered_options_verbatim": null,
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "X",
+      "science_reason": "電線外包塑膠用來絕緣，但常見內芯多為銅等導體，非必然鐵線。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_04_02",
+      "period_scope": "FINAL_U03_U04",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 16,
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|3",
+      "original_source_legacy_id": "SCI_G04_S1_113_FINAL_006|S02|SINGLE_CHOICE|03",
+      "source_school": "安和國小",
+      "exam_type": "FINAL",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        377.83,
+        335.12,
+        412.93,
+        349.16
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "經由汽車後視鏡看到後面車子的情況，\r\n是因為光的何種現象？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "光產生熱"
+        },
+        {
+          "original_marker": "②",
+          "text": "反射"
+        },
+        {
+          "original_marker": "③",
+          "text": "折射"
+        },
+        {
+          "original_marker": "④",
+          "text": "直線行進。"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "②",
+      "science_reason": "汽車後視鏡運用光的反射。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_03_08",
+      "period_scope": "FINAL_U03_U04",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 17,
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|4",
+      "original_source_legacy_id": "SCI_G04_S1_113_FINAL_006|S02|SINGLE_CHOICE|04",
+      "source_school": "安和國小",
+      "exam_type": "FINAL",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        377.83,
+        389.72,
+        412.93,
+        403.76
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "改變光線照射鏡子的角度，光線會有什\r\n麼情形？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "反射光線位置會改變"
+        },
+        {
+          "original_marker": "②",
+          "text": "反射光線位置不會改變"
+        },
+        {
+          "original_marker": "③",
+          "text": "沒有反射\r\n光線"
+        },
+        {
+          "original_marker": "④",
+          "text": "反射光線是曲線前進。"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "①",
+      "science_reason": "光入射鏡面的角度改變時，反射方向亦改變。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_03_07",
+      "period_scope": "FINAL_U03_U04",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 18,
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|5",
+      "original_source_legacy_id": "SCI_G04_S1_113_FINAL_006|S02|SINGLE_CHOICE|05",
+      "source_school": "安和國小",
+      "exam_type": "FINAL",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        377.83,
+        462.56,
+        412.93,
+        476.6
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "警車上面有警示功能的燈，是使用什麼\r\n顏色的燈光？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "綠色"
+        },
+        {
+          "original_marker": "②",
+          "text": "黃色"
+        },
+        {
+          "original_marker": "③",
+          "text": "紅色"
+        },
+        {
+          "original_marker": "④",
+          "text": "白色。"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "③",
+      "science_reason": "警車可使用紅色警示燈，為四選項中的對應顏色。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_03_09",
+      "period_scope": "FINAL_U03_U04",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 19,
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|7",
+      "original_source_legacy_id": "SCI_G04_S1_113_FINAL_006|S02|SINGLE_CHOICE|07",
+      "source_school": "安和國小",
+      "exam_type": "FINAL",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        377.83,
+        590.14,
+        412.93,
+        604.18
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "燈泡會發亮是的哪一個構造？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "導線"
+        },
+        {
+          "original_marker": "②",
+          "text": "玻璃罩"
+        },
+        {
+          "original_marker": "③",
+          "text": "螺紋金屬體"
+        },
+        {
+          "original_marker": "④",
+          "text": "燈絲。"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "④",
+      "science_reason": "白熾燈泡內燈絲通電發亮。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_04_03",
+      "period_scope": "FINAL_U03_U04",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 20,
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|9",
+      "original_source_legacy_id": "SCI_G04_S1_113_FINAL_006|S02|SINGLE_CHOICE|09",
+      "source_school": "安和國小",
+      "exam_type": "FINAL",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        377.83,
+        681.1,
+        412.93,
+        695.14
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "下列何者是燈泡能發亮的原因？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "電\r\n池顏色"
+        },
+        {
+          "original_marker": "②",
+          "text": "形成通路"
+        },
+        {
+          "original_marker": "③",
+          "text": "電池串聯"
+        },
+        {
+          "original_marker": "④",
+          "text": "燈泡並聯。"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "②",
+      "science_reason": "形成完整通路可使合適燈泡發亮。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_04_04",
+      "period_scope": "FINAL_U03_U04",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 21,
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|11",
+      "original_source_legacy_id": "SCI_G04_S1_113_FINAL_006|S02|SINGLE_CHOICE|11",
+      "source_school": "安和國小",
+      "exam_type": "FINAL",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        377.83,
+        808.69,
+        412.93,
+        822.73
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "小馬達逆時針轉動時，如果將電池正\r\n極、負極交換連接，轉動情形何者正確？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "逆時針轉動"
+        },
+        {
+          "original_marker": "②",
+          "text": "順時針轉動"
+        },
+        {
+          "original_marker": "③",
+          "text": "先順\r\n時針轉動，再逆時針轉動"
+        },
+        {
+          "original_marker": "④",
+          "text": "不會動了。"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "②",
+      "science_reason": "直流小馬達正負極對調一般反向旋轉。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_04_10",
+      "period_scope": "FINAL_U03_U04",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 22,
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|13",
+      "original_source_legacy_id": "SCI_G04_S1_113_FINAL_006|S02|SINGLE_CHOICE|13",
+      "source_school": "安和國小",
+      "exam_type": "FINAL",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page": 2,
+      "original_native_answer_bbox_pdf_pt": [
+        36.84,
+        58.23,
+        71.94,
+        72.27
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "雷射筆的光照射到鏡子後改變行進的方\r\n向，可以說明光的這是哪一種特性？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "光的直線行進"
+        },
+        {
+          "original_marker": "②",
+          "text": "光的斜射"
+        },
+        {
+          "original_marker": "③",
+          "text": "光的\r\n反射"
+        },
+        {
+          "original_marker": "④",
+          "text": "光的亂射。"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "③",
+      "science_reason": "雷射光照射鏡子改變行進方向是光的反射。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_03_07",
+      "period_scope": "FINAL_U03_U04",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 23,
+      "original_source_slot_id": "SCI_G04_S1_113_FINAL_006|S2|MC|14",
+      "original_source_legacy_id": "SCI_G04_S1_113_FINAL_006|S02|SINGLE_CHOICE|14",
+      "source_school": "安和國小",
+      "exam_type": "FINAL",
+      "school_regular_exam_pdf_title": "113_康軒_四上_自然_期末評量卷_安和國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1R8Vck_SW8bupdbGSZS_qNOi6T2mVTZCr/view",
+      "source_pdf_sha256": "4869f4f4331e8eacbde0909f945380ab7178a2c81d38cef2eb4b9fd484e72d89",
+      "original_pdf_page": 2,
+      "original_native_answer_bbox_pdf_pt": [
+        36.84,
+        131.09,
+        71.94,
+        145.13
+      ],
+      "source_question_kind": "MC",
+      "source_original_stem_verbatim": "下列何者不是光源？",
+      "source_original_ordered_options_verbatim": [
+        {
+          "original_marker": "①",
+          "text": "太陽"
+        },
+        {
+          "original_marker": "②",
+          "text": "反光的\r\n鏡子"
+        },
+        {
+          "original_marker": "③",
+          "text": "燃燒的蠟燭"
+        },
+        {
+          "original_marker": "④",
+          "text": "發亮的手電筒"
+        }
+      ],
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "②",
+      "science_reason": "鏡子反射他處光線，自己不是光源。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_03_05",
+      "period_scope": "FINAL_U03_U04",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    },
+    {
+      "proposed_student_cohort_ordinal": 24,
+      "original_source_slot_id": "SCI_G04_S1_113_MID_018|S1|TF|2",
+      "original_source_legacy_id": "SCI_G04_S1_113_MID_018|S01|TRUE_FALSE|02",
+      "source_school": "成功國小",
+      "exam_type": "MID",
+      "school_regular_exam_pdf_title": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+      "source_drive_link": "https://drive.google.com/file/d/1fYJ5QiOHyy5JhqQkGeqejTfF7FnSHL2n/view",
+      "source_pdf_sha256": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+      "original_pdf_page": 1,
+      "original_native_answer_bbox_pdf_pt": [
+        49.32,
+        101.99,
+        79.52,
+        117.53
+      ],
+      "source_question_kind": "TF",
+      "source_original_stem_verbatim": "蓮的葉片可隨水位的高低漂浮，是一種浮葉\r\n性植物。",
+      "source_original_ordered_options_verbatim": null,
+      "independent_science_answer_PROPOSED_NOT_SCHOOL_KEY": "X",
+      "science_reason": "蓮的成熟葉常挺出水面，非可隨水位漂浮的浮葉性植物。",
+      "canonical_113_frozen_kp_PROPOSED": "sci_g04s1_02_07",
+      "period_scope": "MIDTERM_U01_U02",
+      "third_party_parent_or_figure_dependency": false,
+      "rights_route_if_approved": "TAIWAN_ARTICLE9_LAWFULLY_HELD_REGULAR_SCHOOL_EXAM_QUESTION_TEXT_ONLY",
+      "rights_original_school_regular_exam_identity_evidence": "source PDF registered SHA + title + native question text; no original PDF image, figures, source grading, school answer or third party parent reproduced",
+      "crossyear_114_717_original_question_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "public_bank_49_json_text_comparison": "NO_CONFIRMED_EXACT_OR_CHOICE_REORDER_DUPLICATE_OTHER_THAN_EXCLUDED_ALIAS",
+      "native_113_24_paper_text_layer_scan": "NO_EXACT_VERBATIM_MATCH_IN_OTHER_READABLE_PAPERS",
+      "scan5_visual_full_item_duplicate_gate": "UNRESOLVED_SCAN5_NOT_CLEARED_FOR_B05",
+      "rights_approval_and_operator_exact_cohort": "PENDING",
+      "formal_science_kp_approved": false,
+      "admission_ready": false,
+      "published": false
+    }
+  ],
+  "next_task": "P12_G04S1_113_B05_Scan5_Exact24_TargetedVisualSemanticDedup_ThenOperatorExact24_Approval_SelectiveStudentPR_CI_Main_PagesE2E_NoB01ToB04Reopen"
+}

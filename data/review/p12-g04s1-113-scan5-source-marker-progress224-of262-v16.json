@@ -1,0 +1,77 @@
+{
+  "schema_version": "P12_G04S1_113_SCAN5_SOURCE_RASTER_MARKER_PROGRESS224_OF262_V16",
+  "draft_pr": 124,
+  "scope": "113 G04S1 five scanned original PDFs under frozen48 KP; source evidence not admission",
+  "append_only_previous_snapshot": "data/review/p12-g04s1-113-scan5-original-marker-progress210-of262-v15.json",
+  "registered_source_section_answer_positions": 262,
+  "previous_source_positions_with_physical_geometry_proof": 210,
+  "new_zhongxiao_original_MC14": 14,
+  "current_source_positions_with_physical_marker_or_answer_origin_evidence": 224,
+  "remaining_without_source_pixel_evidence_or_composite_HOLD": 38,
+  "qualification": {
+    "independent_source_answer_response_ink_geometry": 218,
+    "partial_matching_answer_origin_dots_only": 6,
+    "shihu_final_composite2_still_HOLD": 2,
+    "zhongxiao_original_positions_unlocated": 36
+  },
+  "paper_details": [
+    {
+      "source_id": "SCI_G04_S1_113_MID_002",
+      "source_school": "和順國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 50,
+      "remaining": 0,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_001",
+      "source_school": "和順國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 50,
+      "remaining": 0,
+      "source_image_only": true,
+      "marker_geometry_characterization": "13 TF + 10 MC + 24 complex original checkbox/diagram + 3 reading original source markers; verified SHA, red pen excluded from marking proof"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_002",
+      "source_school": "忠孝國小",
+      "source_publisher": "南一",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 14,
+      "remaining": 36,
+      "source_image_only": true,
+      "marker_geometry_characterization": "Original page2 rotated 90 CCW for visual; 14 complete MC printed parenthesis pairs have exact original image/landscape PDF BBoxes, others pending"
+    },
+    {
+      "source_id": "SCI_G04_S1_113_MID_006",
+      "source_school": "內安國小",
+      "source_publisher": "康軒",
+      "source_positions": 62,
+      "verified_source_raster_pixel_bbox": 62,
+      "remaining": 0,
+      "source_image_only": true
+    },
+    {
+      "source_id": "SCI_G04_S1_113_FINAL_009",
+      "source_school": "獅湖國小",
+      "source_publisher": "康軒",
+      "source_positions": 50,
+      "verified_source_raster_pixel_bbox": 48,
+      "remaining": 2,
+      "source_image_only": true,
+      "marker_geometry_characterization": "15 MC complete; 27 printed answer pair complete; 6 matching source endpoints only (requires target context); 2 Q7 composite units HOLD"
+    }
+  ],
+  "new_source_proof": "data/review/p12-g04s1-113-zhongxiao-final002-page2-mc14-exact-raster-bbox-v1.json",
+  "formal_gate": {
+    "FORMAL_SCIENCE_KP_APPROVED_new_from_source_geometry": 0,
+    "ADMISSION_READY_new": 0,
+    "PUBLISHED_new": 0,
+    "PUBLISHED_113_current": 152,
+    "website_all_scopes_total": 788
+  },
+  "source_original_scans_not_publicly_republished": true,
+  "next_resume_task": "P12_G04S1_113_Scan5_38Remaining_ZhongxiaoFINAL002_36_P1P3P4_ExactSourceAnswerMarkerBBoxes_ThenShihuParent7_2_OriginalResponseGranularity_HOLD_ThenScienceKP_DedupRights_EligibleOperatorAdmission_CI_Main_PagesLiveE2E"
+}

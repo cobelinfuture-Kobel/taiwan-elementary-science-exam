@@ -1,0 +1,38 @@
+{
+  "schema_version": "P12_G04S1_113_NATIVE_B07_1_REAL_PDF_GLYPH_BBOX_V1",
+  "mode": "SOURCE_ONLY_REAL_NATIVE_GLYPH_NO_SCIENCE_KP_OR_RIGHTS_AUTO_ADMISSION",
+  "source_branch": "p12-g04s1-113-all29-kp48-stage2-original-slot-reconciliation-20261016",
+  "source_pr": 124,
+  "source_worklist": "data/review/p12-g04s1-113-native-tfmc-b07-1-source-checkpoint-v1.json",
+  "original_pdf_sha_verified_4_papers": true,
+  "coords_unit": "PDF_points_top_left",
+  "source_positions": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_010|S3|TF|7",
+      "source_pdf_sha256": "c200d33865bfa48b3e39b9a03be33c17da207cf828e7d7a3c1883d0afa04257c",
+      "pdf_page_1_based": 2,
+      "original_answer_parenthesis_bbox_pts_top_left": [
+        322.49,
+        764.19,
+        361.15,
+        775.23
+      ],
+      "source_match_method": "SHA256_VERIFIED_ORIGINAL_PDF_PYMUPDF_RAWDICT_PARENTHESIS_CHAR_UNION_VALIDATED_TWO_COLUMN_SECTION_NUMBERING",
+      "formal_admission_ready": false,
+      "student_published": false
+    }
+  ],
+  "metrics": {
+    "exact_source_native_glyph_markers": 1,
+    "page2": 1,
+    "page3": 0,
+    "new_formal_science_kp_approved": 0,
+    "new_admission_ready": 0,
+    "new_published": 0
+  },
+  "guards": [
+    "Multi-column original section labels anchored from actual native parentheses geometry, not source-list index alone",
+    "Includes shared reading child positions whose parent texts must remain linked",
+    "No replacement for source full stem and original figure or existing Science/KP/Dedup/Rights/Operator approval Gate"
+  ]
+}

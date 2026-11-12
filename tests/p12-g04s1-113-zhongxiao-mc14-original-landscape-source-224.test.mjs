@@ -1,0 +1,53 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const R=n=>JSON.parse(readFileSync(new URL('../data/review/'+n,import.meta.url),'utf8'));
+const data=R('p12-g04s1-113-zhongxiao-final002-page2-mc14-exact-raster-bbox-v1.json');
+const prior=R('p12-g04s1-113-scan5-original-marker-progress210-of262-v15.json');
+const total=R('p12-g04s1-113-scan5-source-marker-progress224-of262-v16.json');
+test('Zhongxiao 14 original second-page MC brackets preserve raw gray scan and true source PDF landscape transform',()=>{
+ assert.equal(data.records.length,14);
+ assert.equal(data.summary.exact_mc14_original_source_pixel_bracket_bboxes,14);
+ assert.equal(data.original_pdf_sha256,'bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee');
+ const ids=new Set();
+ for(const q of data.records){
+  assert.equal(q.original_pdf_sha256,data.original_pdf_sha256);
+  assert.equal(q.pdf_page_1_based,2);
+  assert.equal(q.original_image_xref,14);
+  assert.deepEqual(q.original_image_raw_pixels,[4960,3507]);
+  assert.deepEqual(q.source_display_upright_image_pixels,[3507,4960]);
+  assert.equal(q.source_display_upright_rotation_from_raw_ccw_degrees,90);
+  const b=q.readable_upright_ink_bracket_bbox_px,raw=q.original_embedded_scan_ink_bracket_bbox_px;
+  assert.deepEqual(raw,[4960-b[3],b[0],4960-b[1],b[2]]);
+  const expected=[raw[0]*1190.52/4960,raw[1]*841.8/3507,raw[2]*1190.52/4960,raw[3]*841.8/3507];
+  expected.forEach((x,i)=>assert.ok(Math.abs(x-q.mapped_original_landscape_pdf_bbox_pts_top_left[i])<0.03));
+  assert.ok(!ids.has(q.source_slot_id_provisional));ids.add(q.source_slot_id_provisional);
+  assert.equal(q.source_no_ocr,true);
+  assert.equal(q.original_printed_full_question_and_options_visual_matched,true);
+  assert.equal(q.formal_science_kp_approved,false);
+  assert.equal(q.admission_ready,false);
+  assert.equal(q.published,false);
+ }
+});
+test('append-only 210+14=224 original source geometries, 38 pending; source anchors and parent holds not promoted',()=>{
+ assert.equal(prior.source_markers_verified_total,210);
+ assert.equal(prior.source_positions_remaining_without_verified_markers_or_with_original_granularity_HOLD,52);
+ assert.equal(total.registered_source_section_answer_positions,262);
+ assert.equal(total.previous_source_positions_with_physical_geometry_proof,210);
+ assert.equal(total.new_zhongxiao_original_MC14,14);
+ assert.equal(total.current_source_positions_with_physical_marker_or_answer_origin_evidence,224);
+ assert.equal(total.remaining_without_source_pixel_evidence_or_composite_HOLD,38);
+ assert.equal(total.paper_details.reduce((a,p)=>a+p.source_positions,0),262);
+ assert.equal(total.paper_details.reduce((a,p)=>a+p.verified_source_raster_pixel_bbox,0),224);
+ assert.equal(total.paper_details.reduce((a,p)=>a+p.remaining,0),38);
+ const zx=total.paper_details.find(p=>p.source_id==='SCI_G04_S1_113_FINAL_002');
+ assert.deepEqual([zx.source_positions,zx.verified_source_raster_pixel_bbox,zx.remaining],[50,14,36]);
+ assert.equal(total.qualification.independent_source_answer_response_ink_geometry,218);
+ assert.equal(total.qualification.partial_matching_answer_origin_dots_only,6);
+ assert.equal(total.qualification.shihu_final_composite2_still_HOLD,2);
+ assert.equal(total.formal_gate.FORMAL_SCIENCE_KP_APPROVED_new_from_source_geometry,0);
+ assert.equal(total.formal_gate.ADMISSION_READY_new,0);
+ assert.equal(total.formal_gate.PUBLISHED_new,0);
+ assert.equal(total.formal_gate.PUBLISHED_113_current,152);
+ assert.equal(total.formal_gate.website_all_scopes_total,788);
+});

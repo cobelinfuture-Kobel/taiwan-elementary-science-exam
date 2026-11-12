@@ -1,0 +1,91 @@
+{
+  "schema_version": "P12_G04S1_113_B07_EXACT4_FINAL_SOURCE_DEDUP_RIGHTS_SCIENCEKP_OPERATOR_SCOPE_V1",
+  "scope": "EXACT ORIGINAL FOUR only: ordinal306 (SHIHU MID013 S07 G02 MC002), ordinals335-337 (LUSHANG MID014 S03 G07 MC001-003)",
+  "original_source_detail_ref": "data/review/p12-g04s1-113-b07-textonly-exact4-potential-operator-cohort-PENDING-v1.json",
+  "source_authority": "113_G04S1_KANGHSUAN_FROZEN48KP",
+  "sourceOriginalPDFs": [
+    {
+      "paper_id": "SCI_G04_S1_113_MID_013",
+      "original_sha": "f11b6245253aa0aa84ddcbcb84603ff6275d4945b2494645d2ff721715fc25fe",
+      "pdf_page_1_based": 3,
+      "original_pdf_text_clip_pt": [
+        304,
+        424,
+        592,
+        745
+      ],
+      "clip_unicode_SHA256": "882e2fcfbef1fed0a83b496ad158c1331fe686e2eaed0a8f948fbd6dbc619e10",
+      "actual_text_clip_SHA256_reverified_against_binary": true
+    },
+    {
+      "paper_id": "SCI_G04_S1_113_MID_014",
+      "original_sha": "21edbb5e78c1ef8caf2aa37329615ae87fa2a6c6a306dcc1227da0f73b777732",
+      "pdf_page_1_based": 3,
+      "original_pdf_text_clip_pt": [
+        302,
+        315,
+        590,
+        750
+      ],
+      "clip_unicode_SHA256": "9a808a7e7789d2894f629ea5118f08cbcb62799c04a2686d155d4aff5687732f",
+      "actual_text_clip_SHA256_reverified_against_binary": true
+    }
+  ],
+  "full_113_pdf_29_original_schools_24_native_pdf_child_exact_stem_screen": true,
+  "full_113_scan5_16_original_pages_visually_screened_previous_evidence": true,
+  "original_113_native_identical_question_stems_other_school_detected": 0,
+  "original_114_full_25_papers_717_original_question_occurrences_compared": 717,
+  "original_114_full_stem_exact_and_high_near_threshold055": [],
+  "existing_public_113_114_site_g04_s1_module_rows_compared": 745,
+  "no_known_identical_question_or_choice_reorder_to_different_source": true,
+  "sameKP_different_question_not_a_duplicate": true,
+  "duplicate_review_limits": "Previous 5-scan original rendered visual review is targeted, 113 24 native PDF exact-question text layer and 114 717 full stem + current public bank; no newly invented blanket certification of all unpublished graph/image parents. Exactly these four stand-alone question texts and choices checked.",
+  "rights": {
+    "statute": "Taiwan Copyright Act Article 9 Paragraph 1 Subparagraph 5, lawfully administered examinations",
+    "official_links": [
+      "https://www.tipo.gov.tw/tw/copyright/694-17733.html",
+      "https://www.tipo.gov.tw/tw/copyright/692-16754.html",
+      "https://www.tipo.gov.tw/tw/copyright/773-4954.html",
+      "https://www.tipo.gov.tw/tw/copyright/692-15951.html"
+    ],
+    "covered": "ONLY original four question stems + their original ordered 3/4 answer choices from elementary regular exam",
+    "not_covered": "source PDF images; textbook excerpts; teacher solutions; quoted original reading parent; external article",
+    "school_exam_administered_assessment_source": "113 年國小四年級自然期中評量原卷；original binary SHA-256 verified and native PDFs present",
+    "legal_scope_status": "EXAM_QUESTION_TEXT_ONLY_ARTICLE9_PATH_WHILE_EXCLUDING_THIRD_PARTY_MATERIAL"
+  },
+  "source_image_published": false,
+  "source_full_parent_text_published": false,
+  "source_teacher_answer_key_published": false,
+  "original_user_instruction": "NEXT_RESUME_TASK=P12_G04S1_113_B07_EXACT4_306_335_336_337_ParentExcluded_ScienceUnique_Frozen48KP_FinalDuplicateRightsEvidence_ExactOperatorApproval_ThenSelectiveStudentPR_FocusedCI_MainReadback_PagesLiveE2E_Keep305_325_G02Six_TFMC1_HOLD_NoB01ToB06Reopen",
+  "operator_scope_requested_exact4": true,
+  "operator_release_permitted_conditionally_on_existing_gates": true,
+  "original_candidate_source_count": 4,
+  "original_answer_and_KP_pass_proposal": [
+    [
+      "306",
+      "②",
+      "sci_g04s1_02_04"
+    ],
+    [
+      "335",
+      "④",
+      "sci_g04s1_02_02"
+    ],
+    [
+      "336",
+      "③",
+      "sci_g04s1_02_09"
+    ],
+    [
+      "337",
+      "①",
+      "sci_g04s1_02_02"
+    ]
+  ],
+  "standalone_without_source_reading_parent": true,
+  "Q305_Q325_G02_SIX_TFMC1_hold": true,
+  "B01_B06_no_reopen": true,
+  "formal_source_only_admission_ready_now": false,
+  "published_now": 0,
+  "NEXT": "Construct selective student PR using exact four original questions and original 3/4 answer choices. Source PR124 remains unmerged; focused CI, main readback and Pages live E2E required to count published."
+}

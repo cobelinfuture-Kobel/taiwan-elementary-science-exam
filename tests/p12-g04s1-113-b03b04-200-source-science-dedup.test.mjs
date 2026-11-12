@@ -1,0 +1,60 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const load=(name)=>JSON.parse(fs.readFileSync('data/review/'+name,'utf8'));
+const b03=load('p12-g04s1-113-native-tfmc-b03-50-science-kp-consolidated-v1.json');
+const b03src=load('p12-g04s1-113-native-tfmc-b03-50-original-pdf-text-preflight-v1.json');
+const b04=load('p12-g04s1-113-native-tfmc-b04-50-original-pdf-text-layer-v2.json');
+const b04box=load('p12-g04s1-113-native-tfmc-b04-50-original-real-glyph-bbox-v1.json');
+const b04queue=load('p12-g04s1-113-native-tfmc-b04-50-source-checkpoint-v1.json');
+const post=load('p12-g04s1-113-wholecorpus-post200-gate-and-crossyear-dedup-readback-v1.json');
+const auth=JSON.parse(fs.readFileSync('site/data/authority/science-g03-g04-selector-v3.json','utf8'));
+test('B03 all 50 source answer/KP decisions are traceable to native original source and frozen 48 KP',()=>{
+ const ids=b03.records.map(x=>x.source_slot_id);
+ assert.equal(ids.length,50);
+ assert.equal(new Set(ids).size,50);
+ assert.deepEqual(ids,b03src.records.map(x=>x.source_slot_id));
+ const allowed=new Set(auth.units.filter(u=>u.grade===4&&u.semester===1).flatMap(u=>u.knowledge_points.map(k=>k.canonical_kp_id)));
+ assert.equal(allowed.size,48);
+ assert.ok(b03.records.every(x=>x.frozen_direct_kp_candidate===null||allowed.has(x.frozen_direct_kp_candidate)));
+ assert.equal(b03.records.filter(x=>x.route==='DIRECT').length,35);
+ assert.equal(b03.counts.science_or_kp_holds,15);
+ assert.equal(b03.counts.new_formal_science_kp_approved,0);
+ assert.ok(b03.records.every(x=>x.formal_science_kp_approved===false&&x.admission_ready===false&&x.published===false));
+});
+test('B04 50 source slots keep complete PDF text, all 20 ordered options and actual glyph BBox',()=>{
+ const ids=b04.records.map(x=>x.source_slot_id);
+ assert.equal(ids.length,50);
+ assert.deepEqual(ids,b04queue.records.map(x=>x.source_slot_id));
+ assert.deepEqual(ids,b04box.source_positions.map(x=>x.source_slot_id));
+ assert.equal(b04.metrics.TF,30);
+ assert.equal(b04.metrics.MC,20);
+ assert.equal(b04.metrics.MC_complete,20);
+ assert.equal(b04box.pdf_page2_count,3);
+ assert.deepEqual(b04box.paper_mix.map(x=>x.glyph_count),[1,8,25,11,5]);
+ for(const s of b04box.source_positions){
+  const [x0,y0,x1,y1]=s.printed_answer_parenthesis_bbox_pdf_pt_top_left;
+  assert.ok(x0>=0&&y0>=0&&x1>x0&&y1>y0&&x1<1200&&y1<1500,s.source_slot_id);
+  assert.match(s.source_pdf_sha256,/^[0-9a-f]{64}$/);
+ }
+ const missingOption=b04.records.filter(x=>x.source_type==='MC'&&x.options?.length!==4);
+ assert.equal(missingOption.length,0);
+ assert.ok(b04.records.every(x=>!x.admission_ready&&!x.published));
+ assert.ok(!b04.records.find(x=>x.source_slot_id.endsWith('MID_014|S2|MC|10')).options[3].text.includes('彰化縣芳苑鄉路上國小'));
+});
+test('Source-only B01-B04 post200 true 25/717 114 crossyear comparison and no new admitted questions',()=>{
+ const x=post.current_source_progress,y=post.crossyear_114_all_sources_check;
+ assert.equal(x.source_exact_text_and_native_bbox,200);
+ assert.equal(x.native_queue_total,301);
+ assert.equal(x.native_pending,101);
+ assert.equal(y.original_papers_total,25);
+ assert.equal(y.original_question_rows_total,717);
+ assert.equal(y.compared_113_source_positions,200);
+ assert.equal(y.total_exact_pairs,6);
+ assert.equal(y.total_near_candidates,5);
+ assert.equal(post.within113_first200_exact_text_duplicates,6);
+ assert.equal(post.release_stats.FORMAL_SCIENCE_KP_APPROVED_NEW,0);
+ assert.equal(post.release_stats.ADMISSION_READY_NEW,0);
+ assert.equal(post.release_stats.PUBLISHED_NEW,0);
+ assert.equal(post.public_bank_unchanged,true);
+});

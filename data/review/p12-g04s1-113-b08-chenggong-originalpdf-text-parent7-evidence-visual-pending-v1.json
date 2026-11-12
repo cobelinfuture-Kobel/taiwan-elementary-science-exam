@@ -1,0 +1,92 @@
+{
+  "schema_version": "P12_G04S1_113_B08_CHENGGONG_ORIGINAL_PDF_TEXT_PARENT_7_V1",
+  "task": "B08 ContextMC7 source exact and dependent parent textual reconciliation only",
+  "source": {
+    "drive_url": "https://drive.google.com/file/d/1fYJ5QiOHyy5JhqQkGeqejTfF7FnSHL2n/view",
+    "title": "113_翰林_四上_自然_期中評量卷_成功國小.pdf",
+    "pdf_sha256_from_prior_verified_evidence": "ac43ffabb331d4b1da78f2991724c27be4bf0710b25eb25e6a9434f586c27601",
+    "read_method": "Google Drive connected original PDF readable text extraction; no visual screenshot performed in this checkpoint"
+  },
+  "group4": {
+    "ordinals": [
+      387,
+      388,
+      389
+    ],
+    "instruction": "4.賈老師的自然課，要同學們把假日到水域環境調查的結果寫在黑板上，請你依據他們的報告來回答下列問題。",
+    "headers": [
+      "水的深度",
+      "水域情形",
+      "觀察到的生物"
+    ],
+    "first_group": [
+      "水淺",
+      "水流緩慢",
+      "有浮萍"
+    ],
+    "second_group": [
+      "水深",
+      "廣闊無邊",
+      "有海藻"
+    ],
+    "text_layer_pairs_observed": true,
+    "original_visual_column_alignment_confirmed": false
+  },
+  "group5": {
+    "ordinals": [
+      390,
+      391,
+      392,
+      393
+    ],
+    "instruction": "5.根據紀錄回答問題。",
+    "speaker_observations": [
+      [
+        "書鴻",
+        "利用腳爬行和游泳，用鰓呼吸。"
+      ],
+      [
+        "友佳",
+        "幼體用鰓呼吸，長大後會變成用肺和潮溼的皮膚呼吸。"
+      ],
+      [
+        "阿力",
+        "沒有腳，利用腹足爬行，以鰓呼吸。"
+      ],
+      [
+        "雅萍",
+        "腹部末端有呼吸管，中、後腳細長，可以游泳、爬行。"
+      ]
+    ],
+    "visual_dependency": "Text layer is readable; original page render acceptance unverified"
+  },
+  "evidence_inherited": [
+    "data/review/p12-g04s1-113-b08-context17-original-parent-science-kp-triage-v1.json",
+    "data/review/p12-g04s1-113-b08-native50-original-bbox-id-crosswalk-v1.json",
+    "data/review/p12-g04s1-113-b08-native24-crossyear114-public749-dedup-bounded-v1.json",
+    "data/review/p12-g04s1-113-b08-mc7-existing-gate-blocker-matrix-no-premature-release-v1.json"
+  ],
+  "verified_now": {
+    "original_pdf_title": true,
+    "group4_instruction_and_text_rows": true,
+    "group5_instruction_and_speaker_text": true,
+    "original_question_7_text_and_options": true
+  },
+  "missing": {
+    "visual_pdf_page_parent_column_alignment": true,
+    "full_five_scanned_113_originals_duplicate": true,
+    "rights_item_specific": true,
+    "exact_operator_final_cohort_acceptance": true,
+    "student_renderer_two_original_parent_groups": true
+  },
+  "science_kp_status": "INHERITED_PRELIMINARY_PROPOSALS_ONLY",
+  "formal_metrics_new": {
+    "FORMAL_SCIENCE_KP_APPROVED": 0,
+    "ADMISSION_READY": 0,
+    "PUBLISHED": 0
+  },
+  "matching10": "UNCHANGED_SOURCE_ONLY",
+  "exception33": "UNCHANGED_HOLD",
+  "prior_B01_B07": "UNCHANGED",
+  "release": "NONE"
+}

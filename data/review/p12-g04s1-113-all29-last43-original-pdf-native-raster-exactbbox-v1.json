@@ -1,0 +1,830 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_LAST43_REGISTERED_ORIGINAL_PDF_EXACT_BBOX_V1",
+  "basis": "actual 2 original Google Drive school PDFs, immutable registered SHA256 matched; original PDF page geometry (top-left PDF points); no OCR; independent vector text cells, PDF native printed answer brackets, 4 source-embedded raster image brackets with xref41 smask42.",
+  "original_sources": [
+    {
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "registered_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "drive_file_id": "1HyJVVQMzrpB7CrIclz2wbss_C_yYb7UW",
+      "page_count": 2,
+      "recovered_source_response_regions": 37
+    },
+    {
+      "source_paper_id": "SCI_G04_S1_113_FINAL_005",
+      "registered_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "drive_file_id": "1hIaCCE1nkD-CoH8G2TF8yMgvFakV2amv",
+      "page_count": 2,
+      "recovered_source_response_regions": 6
+    }
+  ],
+  "dadun_prior_source_work_group_error": {
+    "historical_noncertified_section3_groups": "S03 grouped 4 plant / 4 earthquake / 8 scenery",
+    "actual_original_pdf_section3_groups": "8 original table blank cells / 4 native earthquake answer brackets / 4 original embedded image bracket marks",
+    "interpretation": "Prior grouping 4/4/8 is provisional and cannot supply direct semantic source-ID aliases. Correct source positions to 8/4/4 (16 unchanged)."
+  },
+  "yongan_published_first20_suppression": "Existing original first-page TF7 and MC7 published slots excluded, 6 exact unlisted TF07 TF08 TF10 MC07 MC09 MC10 only.",
+  "total_recovered_original_source_work_positions": 43,
+  "source_identity_and_geometry_only": true,
+  "source_student_independent_question_count_certified": null,
+  "formal_new_science_kp_approved": 0,
+  "formal_new_admission_ready": 0,
+  "formal_new_published": 0,
+  "no_changes_to_existing_333_public": true,
+  "source_positions": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G01|TABLE_CELL|001",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        147.38,
+        257.54,
+        233.8,
+        279.5
+      ],
+      "original_figure_parent_context": "S03 plant type / characteristic / representative ORIGINAL table: 4 rows x two blank columns",
+      "geometry_provenance": "ORIGINAL_PDF_VECTOR_TABLE_CELL_ALL_SIDES",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G01|TABLE_CELL|002",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        234.29,
+        257.54,
+        340.13,
+        279.5
+      ],
+      "original_figure_parent_context": "S03 plant type / characteristic / representative ORIGINAL table: 4 rows x two blank columns",
+      "geometry_provenance": "ORIGINAL_PDF_VECTOR_TABLE_CELL_ALL_SIDES",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G01|TABLE_CELL|003",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        147.38,
+        279.98,
+        233.8,
+        302.06
+      ],
+      "original_figure_parent_context": "S03 plant type / characteristic / representative ORIGINAL table: 4 rows x two blank columns",
+      "geometry_provenance": "ORIGINAL_PDF_VECTOR_TABLE_CELL_ALL_SIDES",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G01|TABLE_CELL|004",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        234.29,
+        279.98,
+        340.13,
+        302.06
+      ],
+      "original_figure_parent_context": "S03 plant type / characteristic / representative ORIGINAL table: 4 rows x two blank columns",
+      "geometry_provenance": "ORIGINAL_PDF_VECTOR_TABLE_CELL_ALL_SIDES",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G01|TABLE_CELL|005",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        147.38,
+        302.54,
+        233.8,
+        324.5
+      ],
+      "original_figure_parent_context": "S03 plant type / characteristic / representative ORIGINAL table: 4 rows x two blank columns",
+      "geometry_provenance": "ORIGINAL_PDF_VECTOR_TABLE_CELL_ALL_SIDES",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G01|TABLE_CELL|006",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        234.29,
+        302.54,
+        340.13,
+        324.5
+      ],
+      "original_figure_parent_context": "S03 plant type / characteristic / representative ORIGINAL table: 4 rows x two blank columns",
+      "geometry_provenance": "ORIGINAL_PDF_VECTOR_TABLE_CELL_ALL_SIDES",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G01|TABLE_CELL|007",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        147.38,
+        324.98,
+        233.8,
+        347.09
+      ],
+      "original_figure_parent_context": "S03 plant type / characteristic / representative ORIGINAL table: 4 rows x two blank columns",
+      "geometry_provenance": "ORIGINAL_PDF_VECTOR_TABLE_CELL_ALL_SIDES",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G01|TABLE_CELL|008",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        234.29,
+        324.98,
+        340.13,
+        347.09
+      ],
+      "original_figure_parent_context": "S03 plant type / characteristic / representative ORIGINAL table: 4 rows x two blank columns",
+      "geometry_provenance": "ORIGINAL_PDF_VECTOR_TABLE_CELL_ALL_SIDES",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G02|FILL|001",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        54.6,
+        423.924,
+        110.784,
+        437.964
+      ],
+      "original_figure_parent_context": "S03 earthquake source term/codebank: four independent answer parentheses",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G02|FILL|002",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        54.6,
+        446.004,
+        110.784,
+        460.044
+      ],
+      "original_figure_parent_context": "S03 earthquake source term/codebank: four independent answer parentheses",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G02|FILL|003",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        54.6,
+        467.964,
+        110.784,
+        482.004
+      ],
+      "original_figure_parent_context": "S03 earthquake source term/codebank: four independent answer parentheses",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G02|FILL|004",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        54.6,
+        489.924,
+        110.784,
+        503.964
+      ],
+      "original_figure_parent_context": "S03 earthquake source term/codebank: four independent answer parentheses",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G03|SCENERY_IMAGE_CHOICE|001",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        51.623,
+        601.091,
+        77.446,
+        612.256
+      ],
+      "original_figure_parent_context": "S03 four landscape image parent: original image-xref41 contains four printed answer parentheses",
+      "geometry_provenance": "ORIGINAL_PDF_EMBEDDED_IMAGE_XREF41_SMASK42_ACTUAL_BRACKET_INK",
+      "original_embedded_image_ink_bbox_px": [
+        13,
+        4,
+        50,
+        20
+      ],
+      "original_image_dimensions_px": [
+        265,
+        341
+      ],
+      "original_pdf_placement_bbox_pts": [
+        42.55,
+        598.3,
+        227.5,
+        836.25
+      ],
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G03|SCENERY_IMAGE_CHOICE|002",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        141.655,
+        601.091,
+        167.478,
+        612.256
+      ],
+      "original_figure_parent_context": "S03 four landscape image parent: original image-xref41 contains four printed answer parentheses",
+      "geometry_provenance": "ORIGINAL_PDF_EMBEDDED_IMAGE_XREF41_SMASK42_ACTUAL_BRACKET_INK",
+      "original_embedded_image_ink_bbox_px": [
+        142,
+        4,
+        179,
+        20
+      ],
+      "original_image_dimensions_px": [
+        265,
+        341
+      ],
+      "original_pdf_placement_bbox_pts": [
+        42.55,
+        598.3,
+        227.5,
+        836.25
+      ],
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G03|SCENERY_IMAGE_CHOICE|003",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        51.623,
+        714.833,
+        77.446,
+        725.998
+      ],
+      "original_figure_parent_context": "S03 four landscape image parent: original image-xref41 contains four printed answer parentheses",
+      "geometry_provenance": "ORIGINAL_PDF_EMBEDDED_IMAGE_XREF41_SMASK42_ACTUAL_BRACKET_INK",
+      "original_embedded_image_ink_bbox_px": [
+        13,
+        167,
+        50,
+        183
+      ],
+      "original_image_dimensions_px": [
+        265,
+        341
+      ],
+      "original_pdf_placement_bbox_pts": [
+        42.55,
+        598.3,
+        227.5,
+        836.25
+      ],
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S03|G03|SCENERY_IMAGE_CHOICE|004",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        141.655,
+        714.833,
+        167.478,
+        725.998
+      ],
+      "original_figure_parent_context": "S03 four landscape image parent: original image-xref41 contains four printed answer parentheses",
+      "geometry_provenance": "ORIGINAL_PDF_EMBEDDED_IMAGE_XREF41_SMASK42_ACTUAL_BRACKET_INK",
+      "original_embedded_image_ink_bbox_px": [
+        142,
+        167,
+        179,
+        183
+      ],
+      "original_image_dimensions_px": [
+        265,
+        341
+      ],
+      "original_pdf_placement_bbox_pts": [
+        42.55,
+        598.3,
+        227.5,
+        836.25
+      ],
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G01|TF|001",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        56.76,
+        906.322,
+        95.507,
+        922.777
+      ],
+      "original_figure_parent_context": "S04 six habitat statements continued from left bottom to right page top",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G01|TF|002",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        56.76,
+        927.318,
+        95.507,
+        943.773
+      ],
+      "original_figure_parent_context": "S04 six habitat statements continued from left bottom to right page top",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G01|TF|003",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        56.76,
+        948.318,
+        95.507,
+        964.773
+      ],
+      "original_figure_parent_context": "S04 six habitat statements continued from left bottom to right page top",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G01|TF|004",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        34.662,
+        432.153,
+        51.117
+      ],
+      "original_figure_parent_context": "S04 six habitat statements continued from left bottom to right page top",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G01|TF|005",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        55.662,
+        432.153,
+        72.117
+      ],
+      "original_figure_parent_context": "S04 six habitat statements continued from left bottom to right page top",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G01|TF|006",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        76.662,
+        432.153,
+        93.117
+      ],
+      "original_figure_parent_context": "S04 six habitat statements continued from left bottom to right page top",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G02|TF|001",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        160.682,
+        432.153,
+        177.137
+      ],
+      "original_figure_parent_context": "S04 six earthquake preparedness statements",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G02|TF|002",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        181.682,
+        432.153,
+        198.137
+      ],
+      "original_figure_parent_context": "S04 six earthquake preparedness statements",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G02|TF|003",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        202.682,
+        432.153,
+        219.137
+      ],
+      "original_figure_parent_context": "S04 six earthquake preparedness statements",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G02|TF|004",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        223.682,
+        432.153,
+        240.137
+      ],
+      "original_figure_parent_context": "S04 six earthquake preparedness statements",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G02|TF|005",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        244.682,
+        432.153,
+        261.137
+      ],
+      "original_figure_parent_context": "S04 six earthquake preparedness statements",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G02|TF|006",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        265.682,
+        432.153,
+        282.137
+      ],
+      "original_figure_parent_context": "S04 six earthquake preparedness statements",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G03|TF|001",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        307.682,
+        432.153,
+        324.137
+      ],
+      "original_figure_parent_context": "S04 five forest conservation statements",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G03|TF|002",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        328.712,
+        432.153,
+        345.167
+      ],
+      "original_figure_parent_context": "S04 five forest conservation statements",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G03|TF|003",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        349.712,
+        432.153,
+        366.167
+      ],
+      "original_figure_parent_context": "S04 five forest conservation statements",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G03|TF|004",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        370.712,
+        432.153,
+        387.167
+      ],
+      "original_figure_parent_context": "S04 five forest conservation statements",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S04|G03|TF|005",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        393.43,
+        391.712,
+        432.153,
+        408.167
+      ],
+      "original_figure_parent_context": "S04 five forest conservation statements",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S05|G01|MC|001",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        379.27,
+        720.824,
+        426.85,
+        734.864
+      ],
+      "original_figure_parent_context": "S05 four water survey MC depend on original shared table image-xref40",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S05|G01|MC|002",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        379.27,
+        762.824,
+        426.85,
+        776.864
+      ],
+      "original_figure_parent_context": "S05 four water survey MC depend on original shared table image-xref40",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S05|G01|MC|003",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        379.27,
+        825.854,
+        426.85,
+        839.894
+      ],
+      "original_figure_parent_context": "S05 four water survey MC depend on original shared table image-xref40",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_MID_005|S05|G01|MC|004",
+      "source_paper_id": "SCI_G04_S1_113_MID_005",
+      "pdf_sha256": "8473701842070f628f677e57c860cd9ddcbb1cde224c338b3e015a3ad5db7096",
+      "source_page_pdf_1_based": 2,
+      "original_pdf_bbox_pts_top_left": [
+        379.27,
+        888.854,
+        426.85,
+        902.894
+      ],
+      "original_figure_parent_context": "S05 four water survey MC depend on original shared table image-xref40",
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S01|TF|007",
+      "source_paper_id": "SCI_G04_S1_113_FINAL_005",
+      "pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_page_pdf_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        42.12,
+        344.2,
+        90.12,
+        356.2
+      ],
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "original_figure_parent_context": "S01/S02 original question text: not reopened existing14 public positions",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S01|TF|008",
+      "source_paper_id": "SCI_G04_S1_113_FINAL_005",
+      "pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_page_pdf_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        42.12,
+        382.24,
+        90.12,
+        394.24
+      ],
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "original_figure_parent_context": "S01/S02 original question text: not reopened existing14 public positions",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S01|TF|010",
+      "source_paper_id": "SCI_G04_S1_113_FINAL_005",
+      "pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_page_pdf_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        36.48,
+        458.2,
+        84.48,
+        470.2
+      ],
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "original_figure_parent_context": "S01/S02 original question text: not reopened existing14 public positions",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S02|MC|007",
+      "source_paper_id": "SCI_G04_S1_113_FINAL_005",
+      "pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_page_pdf_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        42.12,
+        895.29,
+        90.12,
+        907.29
+      ],
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "original_figure_parent_context": "S01/S02 original question text: not reopened existing14 public positions",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S02|MC|009",
+      "source_paper_id": "SCI_G04_S1_113_FINAL_005",
+      "pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_page_pdf_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        42.12,
+        1028.25,
+        90.12,
+        1040.25
+      ],
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "original_figure_parent_context": "S01/S02 original question text: not reopened existing14 public positions",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S02|MC|010",
+      "source_paper_id": "SCI_G04_S1_113_FINAL_005",
+      "pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_page_pdf_1_based": 1,
+      "original_pdf_bbox_pts_top_left": [
+        36.48,
+        1066.31,
+        84.48,
+        1078.31
+      ],
+      "geometry_provenance": "ORIGINAL_PDF_NATIVE_TEXT_PARENTHESIS_PAIR",
+      "original_figure_parent_context": "S01/S02 original question text: not reopened existing14 public positions",
+      "formal_stem_options_figure_rights_science_KP_dedup_gate_passed": false,
+      "admission_ready": false,
+      "previously_published": false
+    }
+  ]
+}

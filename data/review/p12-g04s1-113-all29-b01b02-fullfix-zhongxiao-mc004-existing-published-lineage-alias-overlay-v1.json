@@ -1,0 +1,51 @@
+{
+  "schema_version": "P12_G04S1_113_B01_B02_FULLFIX_ZHONGXIAO_MC004_ALREADY_PUBLISHED_SOURCE_LINEAGE_ALIAS_V1",
+  "date": "2026-11-06",
+  "paper_id": "SCI_G04_S1_113_MID_003",
+  "exact_source_slot_id": "SCI_G04_S1_113_MID_003|S02|MC|004",
+  "source_original_pdf_sha256": "ed7b11e5c0d0f06f55645c67ad67e6cf08bf4b4cd3eec7445837c93f5ad1d439",
+  "original_pdf_page_1based": 1,
+  "geometry_proof_ref": "data/review/p12-g04s1-113-p04b-zhongxiao-mid50-source-markers-parent-figure-v1.json",
+  "original_question_normalized_stem_equal_to_public": true,
+  "original_four_options_equal_ignoring_pdf_linewrap": true,
+  "original_child_parent": "STANDALONE_SINGLE_CHOICE_NO_FIGURE_DEPENDENCY",
+  "already_public_student_id": "P12_113_G04S1_B01_WENDE7_007",
+  "already_public_canonical_source_slot_id": "SCI_G04_S1_113_MID_001|S02|MC|011",
+  "already_public_bank_file": "site/data/question-bank/p12-g04s1-113-b01-wende7-standalone-public-v1.json",
+  "already_public_source_lineage_includes_this_exact_zhongxiao_slot": true,
+  "original_public_operator_approval_unchanged": true,
+  "disposition_before": "UNREVIEWED",
+  "disposition_after": "ALIAS",
+  "new_student_question_items": 0,
+  "public_question_already_exists": true,
+  "forbidden_to_publish_second_copy": true,
+  "rights_source_images_not_republished": true,
+  "formal_science_kp_approved_new": 0,
+  "admission_ready_new": 0,
+  "published_new": 0,
+  "before_all29": {
+    "PUBLISHED": 333,
+    "HOLD": 359,
+    "ALIAS": 25,
+    "UNREVIEWED": 1045
+  },
+  "after_all29": {
+    "PUBLISHED": 333,
+    "HOLD": 359,
+    "ALIAS": 26,
+    "UNREVIEWED": 1044
+  },
+  "before_B02": {
+    "PUBLISHED": 0,
+    "HOLD": 23,
+    "ALIAS": 0,
+    "UNREVIEWED": 110
+  },
+  "after_B02": {
+    "PUBLISHED": 0,
+    "HOLD": 23,
+    "ALIAS": 1,
+    "UNREVIEWED": 109
+  },
+  "next_short_step": "Exclude already-published source lineage MC004 from B02 exact student admission; continue B01 60 plus B02 remaining109 once each under existing formal gates"
+}

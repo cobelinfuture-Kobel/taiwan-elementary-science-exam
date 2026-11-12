@@ -1,0 +1,244 @@
+{
+  "schema_version": "P12_G04S1_113_ALL29_ORIGINAL_SCAN5_16PAGES_AND_FINAL003_FOUR_NATIVE_VISUAL_SOURCE_GATE_V1",
+  "original_113_grade4_semester1": true,
+  "scope": "Existing SOURCE_EXACT/PDF_PAGE_BBOX evidence only; original five no-text-PDF scan pages are distinct from the historical zero-published five-paper subset",
+  "baseline_main_sha": "d7f909327771dc309dd324bcc81d1165de454003",
+  "baseline_pr": 183,
+  "source_scan_paper_count": 5,
+  "total_verified_scan_pdf_pages": 16,
+  "scan_total_known_source_work_positions": 262,
+  "scan_known_status": {
+    "PUBLISHED": 24,
+    "HOLD": 15,
+    "ALIAS": 0,
+    "UNREVIEWED": 223
+  },
+  "scan_pdfs_all_original_pdf_sha256_computed_from_drive_raw_bytes": true,
+  "each_scanned_pdf_page_is_one_embedded_image": true,
+  "text_layer_extraction_all_scan_pages_zero": true,
+  "manual_original_page_image_presence_verified": true,
+  "manual_all_answer_positions_source_text_option_transcription_complete": false,
+  "exact_original_image_bbox_per_position_formally_certified_here": false,
+  "full_semantic_duplicate_11329_and_11425_pass_here": false,
+  "scan_papers": [
+    {
+      "id": "SCI_G04_S1_113_MID_002",
+      "school": "和順國小",
+      "semester_exam": "MID",
+      "sha": "88f6f7eb5999652d95c0e3f8db8125fca4673db1552f2173a6156e78ddfc706b",
+      "pages": 3,
+      "existing_disjoint": {
+        "PUBLISHED": 0,
+        "HOLD": 4,
+        "ALIAS": 0,
+        "UNREVIEWED": 46
+      },
+      "source_work_positions": 50,
+      "visual_observations": [
+        "Moon-phase illustration and tabular plant/water habitats on page 1",
+        "Nature/ecological narrative and change of water/moon phases on pages 2-3"
+      ],
+      "science_04_circuit_specific_full_semantic_closure": false,
+      "pdf_text_layer_chars": 0,
+      "pdf_page_embedded_image_count_all_one": true,
+      "original_full_position_semantics_accepted": false,
+      "printed_response_and_parent_figure_keep_original_provenance": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_001",
+      "school": "和順國小",
+      "semester_exam": "FINAL",
+      "sha": "3fc18d09fe6a9b4b43cdd28b17497d5a21b4962c24f859965ca8f22945ed932e",
+      "pages": 2,
+      "existing_disjoint": {
+        "PUBLISHED": 9,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 41
+      },
+      "source_work_positions": 50,
+      "visual_observations": [
+        "Text and printed answer boxes include battery series/parallel connection items",
+        "Figure-based bulb fault reasoning, bulb connection diagrams, and non-question red ink markings on page 1",
+        "Renewable/energy text, circuit diagrams, shared image and response dependencies on page 2"
+      ],
+      "science_04_circuit_specific_full_semantic_closure": false,
+      "pdf_text_layer_chars": 0,
+      "pdf_page_embedded_image_count_all_one": true,
+      "original_full_position_semantics_accepted": false,
+      "printed_response_and_parent_figure_keep_original_provenance": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_002",
+      "school": "忠孝國小",
+      "semester_exam": "FINAL",
+      "sha": "bf53534200aeb5fb7756f89d1a0bb9d60dd72f9055d2202a200b872b91489bee",
+      "pages": 4,
+      "existing_disjoint": {
+        "PUBLISHED": 0,
+        "HOLD": 4,
+        "ALIAS": 0,
+        "UNREVIEWED": 46
+      },
+      "source_work_positions": 50,
+      "visual_observations": [
+        "Landscape PDF page images contain sideways/upside-down printed orientation requiring orientation-aware image-space to answer marker-space crosswalk",
+        "Battery/circuit diagrams and separate battery-series faulty-connection questions on pages 1-2",
+        "Page 4 includes little printed content but remains an actual registered PDF page"
+      ],
+      "science_04_circuit_specific_full_semantic_closure": false,
+      "pdf_text_layer_chars": 0,
+      "pdf_page_embedded_image_count_all_one": true,
+      "original_full_position_semantics_accepted": false,
+      "printed_response_and_parent_figure_keep_original_provenance": true
+    },
+    {
+      "id": "SCI_G04_S1_113_MID_006",
+      "school": "內安國小",
+      "semester_exam": "MID",
+      "sha": "aec7ae8371c888e84da39653183050377c7dedf94dac71b112200cd9e78ba222",
+      "pages": 4,
+      "existing_disjoint": {
+        "PUBLISHED": 15,
+        "HOLD": 0,
+        "ALIAS": 0,
+        "UNREVIEWED": 47
+      },
+      "source_work_positions": 62,
+      "visual_observations": [
+        "Nature, ecology, water/environment source sections with fish/river diagram",
+        "Original source parent table and image-based response positions",
+        "Fourth source page contains several separate figure-based answer regions"
+      ],
+      "science_04_circuit_specific_full_semantic_closure": false,
+      "pdf_text_layer_chars": 0,
+      "pdf_page_embedded_image_count_all_one": true,
+      "original_full_position_semantics_accepted": false,
+      "printed_response_and_parent_figure_keep_original_provenance": true
+    },
+    {
+      "id": "SCI_G04_S1_113_FINAL_009",
+      "school": "獅湖國小",
+      "semester_exam": "FINAL",
+      "sha": "0501c6a3157a6759a0e2b2101e02ef8c3944917f2b6d58d1033d04751034f22f",
+      "pages": 3,
+      "existing_disjoint": {
+        "PUBLISHED": 0,
+        "HOLD": 7,
+        "ALIAS": 0,
+        "UNREVIEWED": 43
+      },
+      "source_work_positions": 50,
+      "visual_observations": [
+        "Page 2 contains flashlight internal diagram and separate four circuit pictures with six prompts on battery/bulb series and parallel",
+        "Page 2 LED polarity questions use diagrams and are not interchangeable with text-only battery-wiring stems",
+        "Page 3 electrical circuit design with fan and battery counts; embedded third-party image provenance still individually required"
+      ],
+      "science_04_circuit_specific_full_semantic_closure": false,
+      "pdf_text_layer_chars": 0,
+      "pdf_page_embedded_image_count_all_one": true,
+      "original_full_position_semantics_accepted": false,
+      "printed_response_and_parent_figure_keep_original_provenance": true
+    }
+  ],
+  "dongguang_source_paper": "SCI_G04_S1_113_FINAL_003",
+  "dongguang_original_sha256": "ab493a979e72a24c9f2e1cbce2eb11295e783beb6f11723ca5ffcb73801f1dbc",
+  "dongguang_original_page_count": 2,
+  "dongguang_visual_verified_source_bbox_count": 4,
+  "dongguang_candidate_original_source_visual_rows": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|003",
+      "original_page_1based": 1,
+      "bbox": [
+        28.44,
+        192.37,
+        60.4,
+        205.65
+      ],
+      "source_type": "MC",
+      "visual_full_question_and_ordered_options_present": true,
+      "requires_external_figure": false,
+      "source_visual_bbox_accepted": true,
+      "semantic_source_comparison": "Heshun FINAL001 includes text-based series wiring context but with different question construction and option presentation; not an automatically identical/reorder-only alias",
+      "teacher_key_authenticated": false,
+      "formal_unique_science_and_direct_frozen_kp_accepted": false,
+      "article9_rights_and_third_party_component_formally_accepted": false,
+      "whole11329_11425_full_semantic_duplicate_done": false,
+      "exact_operator_eligible": false,
+      "student_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|004",
+      "original_page_1based": 1,
+      "bbox": [
+        28.44,
+        286.57,
+        60.4,
+        299.85
+      ],
+      "source_type": "MC",
+      "visual_full_question_and_ordered_options_present": true,
+      "requires_external_figure": false,
+      "source_visual_bbox_accepted": true,
+      "semantic_source_comparison": "Alarm clock mains vs battery unstated premise remains a science answer uniqueness issue; do not treat different clock audio questions in other PDFs as alias",
+      "teacher_key_authenticated": false,
+      "formal_unique_science_and_direct_frozen_kp_accepted": false,
+      "article9_rights_and_third_party_component_formally_accepted": false,
+      "whole11329_11425_full_semantic_duplicate_done": false,
+      "exact_operator_eligible": false,
+      "student_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S1|MC|006",
+      "original_page_1based": 1,
+      "bbox": [
+        28.44,
+        380.08,
+        60.4,
+        393.36
+      ],
+      "source_type": "MC",
+      "visual_full_question_and_ordered_options_present": true,
+      "requires_external_figure": false,
+      "source_visual_bbox_accepted": true,
+      "semantic_source_comparison": "Shihu FINAL009 page 2 circuit image group assesses series/parallel wiring; figure stimulus and prompt differ substantively, not a direct question-text alias",
+      "teacher_key_authenticated": false,
+      "formal_unique_science_and_direct_frozen_kp_accepted": false,
+      "article9_rights_and_third_party_component_formally_accepted": false,
+      "whole11329_11425_full_semantic_duplicate_done": false,
+      "exact_operator_eligible": false,
+      "student_admission_ready": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_003|S2|TF|001",
+      "original_page_1based": 1,
+      "bbox": [
+        28.44,
+        867.93,
+        60.4,
+        881.21
+      ],
+      "source_type": "TF",
+      "visual_full_question_and_ordered_options_present": true,
+      "requires_external_figure": false,
+      "source_visual_bbox_accepted": true,
+      "semantic_source_comparison": "Heshun FINAL001 picture-based bulb fault troubleshooting is not the same question as possibility of depleted cell in a fully connected circuit",
+      "teacher_key_authenticated": false,
+      "formal_unique_science_and_direct_frozen_kp_accepted": false,
+      "article9_rights_and_third_party_component_formally_accepted": false,
+      "whole11329_11425_full_semantic_duplicate_done": false,
+      "exact_operator_eligible": false,
+      "student_admission_ready": false
+    }
+  ],
+  "scan5_not_zero_published5": true,
+  "source_rights_warning": "Heshun FINAL001 scan includes visible red answer/annotation marks. These are not authenticated school teacher answer keys and must not be reproduced as teacher answers or copied in student question-bank projection. Scanned third-party images remain non-cleared.",
+  "inferred_identical_question_alias_from_visual_topic_similarity": 0,
+  "new_source_status_changes": 0,
+  "new_FORMAL_SCIENCE_KP_APPROVED": 0,
+  "new_ADMISSION_READY": 0,
+  "new_PUBLISHED": 0,
+  "published_333_unchanged": true,
+  "frozen48kp_unchanged": true,
+  "next_action": "Continue existing direct KP, scientifically unique answer, full original 11329/11425 item-and-option semantic comparison, exact question text/component Article9 rights, and operator eligible roster; full rendering of 5 scans does NOT by itself close 223 UNREVIEWED source work slots."
+}

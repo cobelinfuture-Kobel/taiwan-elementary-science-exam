@@ -1,0 +1,153 @@
+{
+  "schema_version": "P12_G04S1_113_FINAL005_LAST6_EXISTING_GATE_SNAPSHOT_V1",
+  "purpose": "single existing source-to-science-to-direct Frozen48KP gate work, not a new mandatory second/third review",
+  "original_pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+  "existing_public14_preserved": true,
+  "new_source_candidates": 6,
+  "model_only_proposed_direct_KP_candidates": 3,
+  "model_held_no_verified_direct_KP_or_context": 3,
+  "new_science_formal_approved": 0,
+  "new_admission_ready": 0,
+  "new_published": 0,
+  "rows": [
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S01|TF|007",
+      "pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_pdf_page": 1,
+      "original_pdf_bbox_pts_top_left": [
+        42.12,
+        344.2,
+        90.12,
+        356.2
+      ],
+      "semantic_short_context_not_original_stem": "plastic electric-switch housing prevents shock",
+      "answer_proposal": "TRUE",
+      "science_review_state": "SOURCE_BASED_MODEL_PROPOSAL_NOT_FORMAL",
+      "canonical_kp48_direct_proposal": "sci_g04s1_04_05",
+      "canonical_kp48_state": "DIRECT_CANDIDATE_PENDING_FORMAL",
+      "why": "insulators and poor electrical conductors",
+      "exact_original_full_stem_options_in_original_pdf_not_republished": true,
+      "semantic_113_114_duplicates": "PENDING_EXACT_TEXT_ACROSS_CORPUS",
+      "source_use_rights": "PENDING_FULL_EXISTING_ADMISSION_GATE",
+      "operator_eligible": false,
+      "formally_accepted": false,
+      "public_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S01|TF|008",
+      "pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_pdf_page": 1,
+      "original_pdf_bbox_pts_top_left": [
+        42.12,
+        382.24,
+        90.12,
+        394.24
+      ],
+      "semantic_short_context_not_original_stem": "toxic substances in used batteries require proper battery recycling",
+      "answer_proposal": "TRUE",
+      "science_review_state": "SOURCE_BASED_MODEL_PROPOSAL_NOT_FORMAL",
+      "canonical_kp48_direct_proposal": "sci_g04s1_04_11",
+      "canonical_kp48_state": "DIRECT_CANDIDATE_PENDING_FORMAL",
+      "why": "廢電池回收",
+      "exact_original_full_stem_options_in_original_pdf_not_republished": true,
+      "semantic_113_114_duplicates": "PENDING_EXACT_TEXT_ACROSS_CORPUS",
+      "source_use_rights": "PENDING_FULL_EXISTING_ADMISSION_GATE",
+      "operator_eligible": false,
+      "formally_accepted": false,
+      "public_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S01|TF|010",
+      "pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_pdf_page": 1,
+      "original_pdf_bbox_pts_top_left": [
+        36.48,
+        458.2,
+        84.48,
+        470.2
+      ],
+      "semantic_short_context_not_original_stem": "adding serial battery to an electric fan motor and stronger airflow",
+      "answer_proposal": "TRUE_UNDER_STANDARD_SCHOOL_CIRCUIT_ASSUMPTIONS",
+      "science_review_state": "HOLD_CONTEXT_CONDITIONAL_ASSUMPTION",
+      "canonical_kp48_direct_proposal": null,
+      "canonical_kp48_state": "HOLD_NO_VERIFIED_DIRECT48KP",
+      "why": "frozen48 battery series KPI specifically describes bulb brightness, not fan motor wind; reject inferred equivalence",
+      "exact_original_full_stem_options_in_original_pdf_not_republished": true,
+      "semantic_113_114_duplicates": "PENDING_EXACT_TEXT_ACROSS_CORPUS",
+      "source_use_rights": "PENDING_FULL_EXISTING_ADMISSION_GATE",
+      "operator_eligible": false,
+      "formally_accepted": false,
+      "public_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S02|MC|007",
+      "pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_pdf_page": 1,
+      "original_pdf_bbox_pts_top_left": [
+        42.12,
+        895.29,
+        90.12,
+        907.29
+      ],
+      "semantic_short_context_not_original_stem": "non-luminous foil contrasted with flashlight, tablet screen and candle",
+      "answer_proposal": "①",
+      "science_review_state": "SOURCE_BASED_MODEL_PROPOSAL_NOT_FORMAL",
+      "canonical_kp48_direct_proposal": "sci_g04s1_03_05",
+      "canonical_kp48_state": "DIRECT_CANDIDATE_PENDING_FORMAL",
+      "why": "光源",
+      "exact_original_full_stem_options_in_original_pdf_not_republished": true,
+      "semantic_113_114_duplicates": "PENDING_EXACT_TEXT_ACROSS_CORPUS",
+      "source_use_rights": "PENDING_FULL_EXISTING_ADMISSION_GATE",
+      "operator_eligible": false,
+      "formally_accepted": false,
+      "public_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S02|MC|009",
+      "pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_pdf_page": 1,
+      "original_pdf_bbox_pts_top_left": [
+        42.12,
+        1028.25,
+        90.12,
+        1040.25
+      ],
+      "semantic_short_context_not_original_stem": "ordinary mains-powered refrigerator vs battery-powered daily devices",
+      "answer_proposal": "④",
+      "science_review_state": "SOURCE_BASED_MODEL_PROPOSAL_NOT_FORMAL",
+      "canonical_kp48_direct_proposal": null,
+      "canonical_kp48_state": "HOLD_DIRECT48KP_PENDING",
+      "why": "source compares power supply categories, whereas Frozen48KP U04_12 is 市電與用電安全; need demonstrate direct fit rather than assume",
+      "exact_original_full_stem_options_in_original_pdf_not_republished": true,
+      "semantic_113_114_duplicates": "PENDING_EXACT_TEXT_ACROSS_CORPUS",
+      "source_use_rights": "PENDING_FULL_EXISTING_ADMISSION_GATE",
+      "operator_eligible": false,
+      "formally_accepted": false,
+      "public_admitted": false
+    },
+    {
+      "source_slot_id": "SCI_G04_S1_113_FINAL_005|S02|MC|010",
+      "pdf_sha256": "94108a241a9833fda111ba7648ea4e1c424e5a64d84a090c42e4c9777c5218ec",
+      "source_pdf_page": 1,
+      "original_pdf_bbox_pts_top_left": [
+        36.48,
+        1066.31,
+        84.48,
+        1078.31
+      ],
+      "semantic_short_context_not_original_stem": "leaving a TV running while bathing is not conserving electricity",
+      "answer_proposal": "④",
+      "science_review_state": "SOURCE_BASED_MODEL_PROPOSAL_NOT_FORMAL",
+      "canonical_kp48_direct_proposal": null,
+      "canonical_kp48_state": "HOLD_NO_VERIFIED_DIRECT48KP",
+      "why": "electricity conservation is not an explicit Frozen48KP item; no forced U04_12 mapping",
+      "exact_original_full_stem_options_in_original_pdf_not_republished": true,
+      "semantic_113_114_duplicates": "PENDING_EXACT_TEXT_ACROSS_CORPUS",
+      "source_use_rights": "PENDING_FULL_EXISTING_ADMISSION_GATE",
+      "operator_eligible": false,
+      "formally_accepted": false,
+      "public_admitted": false
+    }
+  ],
+  "remaining_gates": "source full semantic duplicate across 113/114, science unique answer confirmation, direct Frozen48KP acceptance, rights and exact operator eligible are all required existing gates. No new entry ready."
+}
